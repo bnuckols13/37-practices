@@ -300,58 +300,72 @@ section {
   padding: 0 48px;
 }
 
-.sessions-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+.study-table {
+  width: 100%;
+  border-collapse: collapse;
   margin-top: 48px;
 }
-
-.session-card {
-  background: var(--cream);
-  border: 1px solid var(--rule);
-  padding: 28px 32px;
-  position: relative;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.session-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(107,26,26,0.08);
-}
-.session-num {
+.study-table thead th {
   font-family: 'Cinzel', serif;
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 3px;
+  text-transform: uppercase;
   color: var(--saffron);
-  margin-bottom: 8px;
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--saffron);
+  background: var(--cream);
 }
-.session-title {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--maroon);
-  margin-bottom: 8px;
-}
-.session-range {
-  font-family: 'Lato', sans-serif;
-  font-size: 11px;
-  letter-spacing: 1px;
+.study-table tbody td {
+  padding: 16px;
+  font-size: 15px;
+  line-height: 1.7;
   color: var(--ink-soft);
-  opacity: 0.5;
-  margin-bottom: 12px;
+  font-weight: 300;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+  background: var(--cream);
 }
-.session-desc {
+.study-table tbody tr:hover td {
+  background: rgba(200,130,26,0.04);
+}
+.study-table .week-num {
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  color: var(--maroon);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.study-table .verses {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--saffron);
+  white-space: nowrap;
+}
+.study-table .theme-text strong {
+  color: var(--maroon);
+  font-weight: 600;
+}
+.study-table .practice-note {
+  font-style: italic;
+  color: var(--saffron);
+  margin-top: 6px;
+  font-size: 14px;
+}
+.commentary-rec {
+  margin-top: 32px;
+  padding: 24px 28px;
+  border: 1px solid var(--rule);
+  background: var(--cream);
   font-size: 15px;
   line-height: 1.7;
   color: var(--ink-soft);
   font-weight: 300;
 }
-.session-anchor {
-  font-size: 14px;
-  font-style: italic;
-  color: var(--saffron);
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--rule);
+.commentary-rec strong {
+  color: var(--maroon);
+  font-weight: 600;
 }
 
 /* FACILITATOR SECTION */
@@ -583,7 +597,12 @@ footer {
   .stats-bar { grid-template-columns: 1fr; gap: 24px; }
   .stat-item + .stat-item { border-left: none; border-top: 1px solid rgba(250,245,236,0.2); padding-top: 24px; }
   section { padding: 64px 24px; }
-  .about-grid, .book-grid, .qa-grid, .fund-grid, .sessions-grid, .facilitator-grid { grid-template-columns: 1fr; gap: 32px; }
+  .about-grid, .book-grid, .qa-grid, .fund-grid, .facilitator-grid { grid-template-columns: 1fr; gap: 32px; }
+  .study-table, .study-table thead, .study-table tbody, .study-table th, .study-table td, .study-table tr { display: block; }
+  .study-table thead { display: none; }
+  .study-table tbody tr { margin-bottom: 24px; border: 1px solid var(--rule); }
+  .study-table tbody td { padding: 12px 16px; border-bottom: none; }
+  .study-table tbody td:first-child { border-bottom: 1px solid var(--rule); }
   .toolkit-inner, .qa-inner, .fund-inner { padding: 0 24px; }
 }
 </style>
@@ -656,39 +675,74 @@ footer {
 <div class="toolkit-bg" id="toolkit">
   <div class="toolkit-inner">
     <div class="section-eyebrow">The Study Group Toolkit</div>
-    <h2 class="section-title">A Four-Session Arc</h2>
+    <h2 class="section-title">Standard Study (10 Weeks)</h2>
     <div class="section-rule"></div>
-    <p style="font-size:17px; color:var(--ink-soft); font-weight:300; max-width:680px;">The toolkit is designed to take any group from 70% ready to fully launched — flexible enough for senior practitioners, structured enough for those just beginning.</p>
+    <p style="font-size:17px; color:var(--ink-soft); font-weight:300; max-width:680px;">The most widely used format across Buddhist communities. Ten weekly sessions of 90 minutes each, covering 3 to 4 verses per session. This pace allows real discussion and reflection while completing the full text in one quarter.</p>
 
-    <div class="sessions-grid">
-      <div class="session-card">
-        <div class="session-num">Session One</div>
-        <div class="session-title">The Ground</div>
-        <div class="session-range">Practices 1–10 · Foundation &amp; Bodhichitta</div>
-        <div class="session-desc">Precious human life, impermanence, renunciation, taking refuge, and the arising of bodhichitta. These ten practices form the entire lam-rim compressed. Session ends at the most important hinge in the text: the arising of bodhichitta in Practice 10.</div>
-        <div class="session-anchor">Opening question: Where am I actually practicing from?</div>
-      </div>
-      <div class="session-card">
-        <div class="session-num">Session Two</div>
-        <div class="session-title">Alchemy of Adversity</div>
-        <div class="session-range">Practices 11–21 · Unfavorable Circumstances</div>
-        <div class="session-desc">The most demanding arc in the text. These eleven practices ask: when you are robbed, harmed, slandered, betrayed — what is the practice? Each verse begins "Even if X happens, do Y." This session is the heart of the toolkit.</div>
-        <div class="session-anchor">Invitation: Bring one real difficulty. Map it to a practice.</div>
-      </div>
-      <div class="session-card">
-        <div class="session-num">Session Three</div>
-        <div class="session-title">Seeing Through</div>
-        <div class="session-range">Practices 22–30 · Emptiness &amp; the Six Perfections</div>
-        <div class="session-desc">The emptiness teachings (P22–24) establish that neither pleasure nor pain is truly fixed. The six perfections (P25–30) then ask: given this, how do you live? Generosity, discipline, patience, diligence, meditation, and wisdom — each understood anew.</div>
-        <div class="session-anchor">Sitting practice recommended before discussion.</div>
-      </div>
-      <div class="session-card">
-        <div class="session-num">Session Four</div>
-        <div class="session-title">Refinements &amp; Completion</div>
-        <div class="session-range">Practices 31–37 · The Subtle Traps</div>
-        <div class="session-desc">The final seven practices address the subtle ways a committed practitioner undermines their own path. This is the ideal session to invite Olga to join via Zoom — her experience writing this commentary during wartime gives these practices extraordinary depth.</div>
-        <div class="session-anchor">Optional: Invite Olga for a live Q&amp;A at the close.</div>
-      </div>
+    <table class="study-table">
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Verses</th>
+          <th>Theme and Focus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">1</td>
+          <td class="verses">V1–V4</td>
+          <td><strong>Precious Life, Impermanence, and Renunciation.</strong> What makes human life precious? Why leave familiar territory? The role of solitude and mortality-awareness in spiritual practice.</td>
+        </tr>
+        <tr>
+          <td class="week-num">2</td>
+          <td class="verses">V5–V7</td>
+          <td><strong>Companions, Teachers, and Refuge.</strong> Harmful vs. beneficial relationships. What does "relying on a teacher" mean in modern life? Taking refuge as foundation. <div class="practice-note">Practice: Reflect on your actual spiritual community.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">3</td>
+          <td class="verses">V8–V10</td>
+          <td><strong>Three Scopes of Motivation.</strong> From avoiding harm through seeking liberation to generating bodhichitta. The pivotal shift from self-oriented to other-oriented practice. <div class="practice-note">Practice: Daily bodhichitta aspiration.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">4</td>
+          <td class="verses">V11–V13</td>
+          <td><strong>Tonglen and First Adversities.</strong> Exchanging self for others. When someone steals from you, when someone harms you. Introduction to tonglen meditation. <div class="practice-note">Practice: Daily tonglen, starting with small irritations.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">5</td>
+          <td class="verses">V14–V17</td>
+          <td><strong>Transforming Harm into the Path.</strong> Slander, public criticism, betrayal by those you've helped, being treated with contempt. The radical practice of seeing enemies as teachers. <div class="practice-note">Discussion: Real-life examples and honest struggles.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">6</td>
+          <td class="verses">V18–V21</td>
+          <td><strong>Suffering, Success, and the Eight Worldly Concerns.</strong> When suffering comes; when wealth, fame, and desire come. The danger in both. Staying on the path regardless of circumstance. <div class="practice-note">Practice: Notice which worldly concern hooks you most this week.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">7</td>
+          <td class="verses">V22–V24</td>
+          <td><strong>Absolute Bodhichitta.</strong> Appearances as mind, mind as emptiness. Not clinging to pleasant or aversive experiences. The deepest view. <div class="practice-note">Practice: Resting meditation with awareness of the nature of experience.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">8</td>
+          <td class="verses">V25–V28</td>
+          <td><strong>Paramitas I: Generosity, Discipline, Patience, Diligence.</strong> The first four perfections as daily conduct. Giving without expectation, discipline without worldly motivation, patience as treasure, joyful effort. <div class="practice-note">Practice: Choose one paramita to emphasize this week.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">9</td>
+          <td class="verses">V29–V32</td>
+          <td><strong>Paramitas II and Self-Examination.</strong> Concentration, wisdom (method + emptiness unified), examining one's own faults, not criticizing other practitioners. <div class="practice-note">Discussion: The relationship between meditation and ethical conduct.</div></td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td class="verses">V33–V37</td>
+          <td><strong>Integration, Mindfulness, and Dedication.</strong> Abandoning attachment, harsh speech, and afflictive emotions through mindfulness. Constant awareness in benefiting others. Dedication of merit. Full text recitation as closing ceremony. <div class="practice-note">Practice: Daily recitation of the complete 37 practices going forward.</div></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="commentary-rec">
+      <strong>Recommended commentaries:</strong> Geshe Sonam Rinchen's <em>The Thirty-Seven Practices of Bodhisattvas: An Oral Teaching</em>, the Karmapa's <em>Traveling the Path of Compassion</em>, His Holiness the Dalai Lama's <em>Illuminating the Thirty-Seven Practices of a Bodhisattva</em>, and Garchen Rinpoche's oral teachings on the text (available at garchen.net). Assign the relevant pages or recordings each week.
     </div>
   </div>
 </div>
@@ -780,7 +834,11 @@ footer {
       </div>
       <div class="bh-row">
         <div class="bh-icon">✦</div>
-        <div class="bh-text"><strong>Endorsed by Garchen Rinpoche</strong> — described as an extension of his own activity and aspiration.</div>
+        <div class="bh-text"><strong>Endorsed by Garchen Rinpoche</strong> — described as an extension of his own activity and aspiration. Rinpoche's oral teachings on the 37 Practices, available through GBI, serve as the primary companion commentary for all study groups.</div>
+      </div>
+      <div class="bh-row">
+        <div class="bh-icon">✦</div>
+        <div class="bh-text"><strong>In a lineage of commentaries</strong> — joins His Holiness the Dalai Lama's <em>Illuminating the Thirty-Seven Practices of a Bodhisattva</em> and the Karmapa's <em>Traveling the Path of Compassion</em> as a contemporary guide to this classical text.</div>
       </div>
       <div class="bh-row">
         <div class="bh-icon">✦</div>

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>37 Practices of a Bodhisattva — Sangha Study Groups</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --maroon: #6B1A1A;
+  --maroon-deep: #4A0F0F;
+  --saffron: #C8821A;
+  --saffron-light: #E8A84A;
+  --cream: #FAF5EC;
+  --cream-dark: #F0E8D5;
+  --ink: #1C1008;
+  --ink-soft: #3D2B1A;
+  --gold: #B8860B;
+  --rule: rgba(200,130,26,0.25);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  background: rgba(250,245,236,0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+  padding: 12px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--saffron);
+}
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.nav-links a {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.nav-links a:hover { opacity: 1; color: var(--saffron); }
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 120px 48px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 60%, rgba(200,130,26,0.08), transparent),
+    radial-gradient(ellipse 40% 40% at 20% 20%, rgba(107,26,26,0.05), transparent);
+}
+
+.hero-ornament {
+  font-size: 40px;
+  color: var(--saffron);
+  letter-spacing: 16px;
+  margin-bottom: 24px;
+  opacity: 0.7;
+  animation: fadeIn 1.2s ease both;
+}
+
+.hero-eyebrow {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease 0.2s both;
+}
+
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(40px, 7vw, 76px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--maroon);
+  margin-bottom: 12px;
+  animation: fadeUp 1s ease 0.3s both;
+}
+.hero h1 em { font-style: italic; }
+
+.hero-subtitle {
+  font-size: 20px;
+  color: var(--ink-soft);
+  font-weight: 300;
+  max-width: 560px;
+  margin: 0 auto 40px;
+  animation: fadeUp 1s ease 0.5s both;
+}
+
+.hero-rule {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--saffron), transparent);
+  margin: 0 auto 36px;
+  animation: fadeIn 1s ease 0.6s both;
+}
+
+.hero-quote {
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--maroon);
+  max-width: 540px;
+  margin: 0 auto 8px;
+  animation: fadeUp 1s ease 0.7s both;
+}
+.hero-cite {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  animation: fadeIn 1s ease 0.9s both;
+}
+
+.hero-cta {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: fadeUp 1s ease 1s both;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.btn-primary {
+  background: var(--maroon);
+  color: var(--cream);
+  border: 1px solid var(--maroon);
+}
+.btn-primary:hover { background: var(--maroon-deep); }
+.btn-outline {
+  background: transparent;
+  color: var(--maroon);
+  border: 1px solid var(--maroon);
+}
+.btn-outline:hover { background: var(--maroon); color: var(--cream); }
+
+/* STATS BAR */
+.stats-bar {
+  background: var(--maroon);
+  color: var(--cream);
+  padding: 36px 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  border-top: 3px solid var(--saffron);
+}
+.stat-item { padding: 0 24px; }
+.stat-item + .stat-item { border-left: 1px solid rgba(250,245,236,0.2); }
+.stat-num {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--saffron-light);
+  display: block;
+}
+.stat-label {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-top: 4px;
+}
+
+/* SECTIONS */
+section {
+  padding: 96px 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-eyebrow {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 300;
+  color: var(--maroon);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.section-rule {
+  width: 60px;
+  height: 2px;
+  background: var(--saffron);
+  margin-bottom: 32px;
+}
+
+/* ABOUT SECTION */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.about-body p {
+  font-size: 17px;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.about-sidebar {
+  padding: 32px;
+  border: 1px solid var(--rule);
+  background: linear-gradient(135deg, rgba(200,130,26,0.04), transparent);
+}
+.sidebar-label {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 16px;
+}
+.sidebar-quote {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--maroon);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.sidebar-cite {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--saffron);
+}
+
+/* TOOLKIT SECTION */
+.toolkit-bg {
+  background: var(--cream-dark);
+  max-width: 100%;
+  padding: 96px 0;
+}
+.toolkit-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.sessions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.session-card {
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  padding: 28px 32px;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.session-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(107,26,26,0.08);
+}
+.session-num {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--saffron);
+  margin-bottom: 8px;
+}
+.session-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--maroon);
+  margin-bottom: 8px;
+}
+.session-range {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--ink-soft);
+  opacity: 0.5;
+  margin-bottom: 12px;
+}
+.session-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  font-weight: 300;
+}
+.session-anchor {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--saffron);
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+}
+
+/* FACILITATOR SECTION */
+.facilitator-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 48px;
+}
+.fac-card {
+  padding: 24px;
+  border-top: 2px solid var(--saffron);
+}
+.fac-num {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  color: rgba(200,130,26,0.2);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.fac-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--maroon);
+  margin-bottom: 8px;
+}
+.fac-body {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  font-weight: 300;
+}
+
+/* QA SECTION */
+.qa-bg {
+  background: var(--maroon-deep);
+  max-width: 100%;
+  padding: 96px 0;
+  color: var(--cream);
+}
+.qa-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+.qa-inner .section-title { color: var(--cream); }
+.qa-inner .section-eyebrow { color: var(--saffron-light); }
+.qa-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 48px;
+  align-items: start;
+}
+.qa-body p {
+  font-size: 17px;
+  line-height: 1.85;
+  color: rgba(250,245,236,0.8);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.tz-list {
+  list-style: none;
+  margin-top: 16px;
+}
+.tz-list li {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(250,245,236,0.1);
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(250,245,236,0.7);
+  display: flex;
+  justify-content: space-between;
+}
+.tz-list li span { color: var(--saffron-light); }
+
+/* BOOK SECTION */
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 64px;
+  align-items: start;
+}
+.book-body p {
+  font-size: 17px;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.book-highlights {
+  background: var(--maroon);
+  color: var(--cream);
+  padding: 36px;
+}
+.bh-row {
+  display: flex;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(250,245,236,0.1);
+  align-items: flex-start;
+}
+.bh-row:last-child { border-bottom: none; }
+.bh-icon {
+  color: var(--saffron-light);
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.bh-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(250,245,236,0.85);
+  font-weight: 300;
+}
+.bh-text strong { color: var(--cream); font-weight: 400; }
+
+/* FUNDRAISING */
+.fund-bg {
+  background: linear-gradient(135deg, var(--cream-dark), var(--cream));
+  max-width: 100%;
+  padding: 96px 0;
+}
+.fund-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+.fund-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 48px;
+}
+.fund-box {
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  padding: 32px;
+}
+.fund-amount {
+  font-family: 'Cinzel', serif;
+  font-size: 44px;
+  color: var(--maroon);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.fund-label {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 16px;
+}
+.fund-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  font-weight: 300;
+}
+
+/* INVITE */
+.invite-box {
+  border: 1px solid var(--rule);
+  padding: 40px 48px;
+  margin-top: 48px;
+  background: rgba(200,130,26,0.03);
+}
+.invite-subject {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 20px;
+}
+.invite-body {
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  font-weight: 300;
+  white-space: pre-line;
+}
+
+/* FOOTER */
+footer {
+  background: var(--maroon-deep);
+  color: var(--cream);
+  text-align: center;
+  padding: 64px 48px;
+  border-top: 3px solid var(--saffron);
+}
+.footer-ornament {
+  font-size: 32px;
+  color: var(--saffron);
+  letter-spacing: 12px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+.footer-dedication {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(250,245,236,0.85);
+  max-width: 560px;
+  margin: 0 auto 16px;
+  line-height: 1.6;
+}
+.footer-sub {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--saffron-light);
+  opacity: 0.6;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav { padding: 12px 20px; }
+  .nav-links { display: none; }
+  .hero { padding: 100px 24px 60px; }
+  .stats-bar { grid-template-columns: 1fr; gap: 24px; }
+  .stat-item + .stat-item { border-left: none; border-top: 1px solid rgba(250,245,236,0.2); padding-top: 24px; }
+  section { padding: 64px 24px; }
+  .about-grid, .book-grid, .qa-grid, .fund-grid, .sessions-grid, .facilitator-grid { grid-template-columns: 1fr; gap: 32px; }
+  .toolkit-inner, .qa-inner, .fund-inner { padding: 0 24px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-brand">37 Practices · Sangha Initiative</span>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#toolkit">Toolkit</a></li>
+    <li><a href="#qa">Q&amp;A Sessions</a></li>
+    <li><a href="#book">The Book</a></li>
+    <li><a href="#support">Support</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-ornament">❧</div>
+  <div class="hero-eyebrow">Garchen Buddhist Institute · Sangha Study Groups</div>
+  <h1>37 Practices of a<br><em>Bodhisattva</em></h1>
+  <p class="hero-subtitle">A global initiative to help sanghas worldwide study, discuss, and live this timeless text together.</p>
+  <div class="hero-rule"></div>
+  <p class="hero-quote">"If you follow this text by the letter, you will overcome your suffering."</p>
+  <p class="hero-cite">— Garchen Rinpoche</p>
+  <div class="hero-cta">
+    <a href="#toolkit" class="btn btn-primary">Get the Toolkit</a>
+    <a href="#support" class="btn btn-outline">Support the Book</a>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-num">$1,100+</span>
+    <span class="stat-label">Pledged toward the English translation</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">Global</span>
+    <span class="stat-label">Groups forming in the US, Singapore &amp; beyond</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">Summer 2026</span>
+    <span class="stat-label">Translation completion target</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-eyebrow">What This Is</div>
+  <h2 class="section-title">Listen. Reflect. Meditate.</h2>
+  <div class="section-rule"></div>
+  <div class="about-grid">
+    <div class="about-body">
+      <p>The 37 Practices of a Bodhisattva, written by Gyalse Tokme Zangpo in the 14th century, is one of the most beloved and practical texts in Tibetan Buddhism. Garchen Rinpoche has called it the heart of his teaching and recommends it to all his students.</p>
+      <p>This initiative brings together two projects: peer-led sangha study groups using a structured discussion toolkit, and the fundraising campaign to publish the first English translation of Ukrainian practitioner Olga Kornyushyna's unique, science-informed commentary on the text.</p>
+      <p>The mission is simple. Not study as an intellectual exercise — but study as refuge. As a direct response to what is actually happening in your life right now.</p>
+    </div>
+    <div class="about-sidebar">
+      <div class="sidebar-label">Our Guiding Question</div>
+      <div class="sidebar-quote">"What do I need refuge from right now in my life?"</div>
+      <div class="sidebar-cite">Opening anchor for every gathering</div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLKIT -->
+<div class="toolkit-bg" id="toolkit">
+  <div class="toolkit-inner">
+    <div class="section-eyebrow">The Study Group Toolkit</div>
+    <h2 class="section-title">A Four-Session Arc</h2>
+    <div class="section-rule"></div>
+    <p style="font-size:17px; color:var(--ink-soft); font-weight:300; max-width:680px;">The toolkit is designed to take any group from 70% ready to fully launched — flexible enough for senior practitioners, structured enough for those just beginning.</p>
+
+    <div class="sessions-grid">
+      <div class="session-card">
+        <div class="session-num">Session One</div>
+        <div class="session-title">The Ground</div>
+        <div class="session-range">Practices 1–10 · Foundation &amp; Bodhichitta</div>
+        <div class="session-desc">Precious human life, impermanence, renunciation, taking refuge, and the arising of bodhichitta. These ten practices form the entire lam-rim compressed. Session ends at the most important hinge in the text: the arising of bodhichitta in Practice 10.</div>
+        <div class="session-anchor">Opening question: Where am I actually practicing from?</div>
+      </div>
+      <div class="session-card">
+        <div class="session-num">Session Two</div>
+        <div class="session-title">Alchemy of Adversity</div>
+        <div class="session-range">Practices 11–21 · Unfavorable Circumstances</div>
+        <div class="session-desc">The most demanding arc in the text. These eleven practices ask: when you are robbed, harmed, slandered, betrayed — what is the practice? Each verse begins "Even if X happens, do Y." This session is the heart of the toolkit.</div>
+        <div class="session-anchor">Invitation: Bring one real difficulty. Map it to a practice.</div>
+      </div>
+      <div class="session-card">
+        <div class="session-num">Session Three</div>
+        <div class="session-title">Seeing Through</div>
+        <div class="session-range">Practices 22–30 · Emptiness &amp; the Six Perfections</div>
+        <div class="session-desc">The emptiness teachings (P22–24) establish that neither pleasure nor pain is truly fixed. The six perfections (P25–30) then ask: given this, how do you live? Generosity, discipline, patience, diligence, meditation, and wisdom — each understood anew.</div>
+        <div class="session-anchor">Sitting practice recommended before discussion.</div>
+      </div>
+      <div class="session-card">
+        <div class="session-num">Session Four</div>
+        <div class="session-title">Refinements &amp; Completion</div>
+        <div class="session-range">Practices 31–37 · The Subtle Traps</div>
+        <div class="session-desc">The final seven practices address the subtle ways a committed practitioner undermines their own path. This is the ideal session to invite Olga to join via Zoom — her experience writing this commentary during wartime gives these practices extraordinary depth.</div>
+        <div class="session-anchor">Optional: Invite Olga for a live Q&amp;A at the close.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FACILITATOR GUIDE -->
+<section>
+  <div class="section-eyebrow">For Facilitators</div>
+  <h2 class="section-title">How to Begin</h2>
+  <div class="section-rule"></div>
+  <div class="facilitator-grid">
+    <div class="fac-card">
+      <div class="fac-num">01</div>
+      <div class="fac-title">Gather Your Group</div>
+      <div class="fac-body">Four to eight people is ideal. No experience required. Use the sample invitation below to reach your sangha, meditation community, or practice friends. Even two people and a text is enough to begin.</div>
+    </div>
+    <div class="fac-card">
+      <div class="fac-num">02</div>
+      <div class="fac-title">Open with Refuge</div>
+      <div class="fac-body">Every session opens the same way: a brief prayer or dedication, then the anchor question. This keeps practice grounded in real life, not abstraction. You do not need to be a senior practitioner to hold this space.</div>
+    </div>
+    <div class="fac-card">
+      <div class="fac-num">03</div>
+      <div class="fac-title">Study, Then Apply</div>
+      <div class="fac-body">Read the practice together, consult a commentary of your choice, and then turn to lived experience. What does this mean for what is actually happening in my life? Structure: 20 min study, 30 min discussion, 10 min dedication.</div>
+    </div>
+    <div class="fac-card">
+      <div class="fac-num">04</div>
+      <div class="fac-title">Invite Olga</div>
+      <div class="fac-body">When your group has completed at least two sessions and has a question they want to bring, email us to schedule a Zoom with Olga. She will join for 45–60 minutes: questions submitted in advance, read by an MC, answered from her practice and writing.</div>
+    </div>
+    <div class="fac-card">
+      <div class="fac-num">05</div>
+      <div class="fac-title">Recommended Practices</div>
+      <div class="fac-body">Smoke offerings and protector practices as recommended by Garchen Rinpoche support the study. These can be done individually and brought into the container of the group.</div>
+    </div>
+    <div class="fac-card">
+      <div class="fac-num">06</div>
+      <div class="fac-title">Close &amp; Dedicate</div>
+      <div class="fac-body">Every session closes with a formal dedication of merit. This is not optional — it completes the practice and extends the benefit beyond the room. Even a few words is enough.</div>
+    </div>
+  </div>
+</section>
+
+<!-- Q&A SESSIONS -->
+<div class="qa-bg" id="qa">
+  <div class="qa-inner">
+    <div class="section-eyebrow">Live Support</div>
+    <h2 class="section-title" style="color:var(--cream);">Weekly Q&amp;A with Olga</h2>
+    <div class="section-rule"></div>
+    <div class="qa-grid">
+      <div class="qa-body">
+        <p>Olga Kornyushyna will offer weekly live Q&amp;A sessions open to all sangha study groups. These sessions serve two purposes: supporting your group's practice, and building community around the book.</p>
+        <p>Sessions rotate across U.S. time zones so every community has access at a reasonable hour. Questions are submitted in advance and read by an MC — a format modeled on GBI's own teaching sessions.</p>
+        <p>To join or register your group, email us at the address below.</p>
+      </div>
+      <div>
+        <ul class="tz-list">
+          <li>Week 1 — Eastern <span>8:00 AM EST</span></li>
+          <li>Week 2 — Central <span>8:00 AM CST</span></li>
+          <li>Week 3 — Mountain <span>8:00 AM MST</span></li>
+          <li>Week 4 — Pacific <span>8:00 AM PST</span></li>
+        </ul>
+        <p style="font-size:14px; color:rgba(250,245,236,0.5); margin-top:16px; font-family:'Lato',sans-serif; letter-spacing:1px;">All sessions are recorded and shared with registered groups. Olga joins from Europe — afternoon her time.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- THE BOOK -->
+<section id="book">
+  <div class="section-eyebrow">The Book</div>
+  <h2 class="section-title">A Commentary Born in Wartime</h2>
+  <div class="section-rule"></div>
+  <div class="book-grid">
+    <div class="book-body">
+      <p>Olga Kornyushyna is a Ukrainian scientist, practitioner, and student of Garchen Rinpoche. She began writing her commentary on the 37 Practices before the Russian invasion — and completed it during the war's opening months.</p>
+      <p>The book has accompanied readers in bomb shelters, in occupied territories, and in exile. It was recommended alongside Viktor Frankl as one of the most useful mental health resources during the conflict.</p>
+      <p>Garchen Rinpoche has personally expressed his wish for this book to reach English readers. Before Olga left Arizona after their most recent teaching retreat, he presented her with a vajra and bell and told her: <em>he wants her to teach.</em></p>
+      <p>Translation begins May 2026. Completion: end of summer.</p>
+    </div>
+    <div class="book-highlights">
+      <div class="bh-row">
+        <div class="bh-icon">✦</div>
+        <div class="bh-text"><strong>Science-informed</strong> — Olga investigates the parallels between contemporary research and the classical teachings, bringing a unique analytical lens to each practice.</div>
+      </div>
+      <div class="bh-row">
+        <div class="bh-icon">✦</div>
+        <div class="bh-text"><strong>40+ mindfulness exercises</strong> — one original practice per chapter, tested during the most difficult circumstances imaginable.</div>
+      </div>
+      <div class="bh-row">
+        <div class="bh-icon">✦</div>
+        <div class="bh-text"><strong>Endorsed by Garchen Rinpoche</strong> — described as an extension of his own activity and aspiration.</div>
+      </div>
+      <div class="bh-row">
+        <div class="bh-icon">✦</div>
+        <div class="bh-text"><strong>Human translator</strong> — professionally translated, not machine-generated, for nuance and resonance.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDRAISING -->
+<div class="fund-bg" id="support">
+  <div class="fund-inner">
+    <div class="section-eyebrow">Support the Project</div>
+    <h2 class="section-title">Fundraising for the English Edition</h2>
+    <div class="section-rule"></div>
+    <p style="font-size:17px; color:var(--ink-soft); font-weight:300; max-width:680px;">Funds are being collected through the Garchen Buddhist Institute, a U.S. nonprofit, to avoid crowdfunding fees and ensure tax compliance. Every dollar goes directly toward translation and publication.</p>
+
+    <div class="fund-grid">
+      <div class="fund-box">
+        <div class="fund-amount">$1,100</div>
+        <div class="fund-label">Pledged to date · as of April 2026</div>
+        <div class="fund-desc">Our first $100 donation arrived within days of launching. A dharma sister has pledged $1,000. The sangha's generosity is already evident.</div>
+      </div>
+      <div class="fund-box">
+        <div class="fund-amount">$2K–$6K</div>
+        <div class="fund-label">Total estimated cost</div>
+        <div class="fund-desc">Editing ($300–$5,000), cover design, ISBN/copyright ($0–$125), and print-on-demand setup. Midrange professional publication. Within reach of this sangha.</div>
+      </div>
+    </div>
+
+    <div style="margin-top:48px; padding:32px; border:1px solid var(--rule); background:var(--cream);">
+      <div class="section-eyebrow">How to Give</div>
+      <p style="font-size:17px; color:var(--ink-soft); font-weight:300; margin-top:12px;">To donate or pledge support, contact us at <strong>brianjnuckols@gmail.com</strong>. We will connect you with the GBI donation portal once it is established. Any amount is a direct act of merit.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SAMPLE INVITE -->
+<section id="invite">
+  <div class="section-eyebrow">For Group Organizers</div>
+  <h2 class="section-title">Sample Sangha Invitation</h2>
+  <div class="section-rule"></div>
+  <p style="font-size:17px; color:var(--ink-soft); font-weight:300; margin-bottom:32px;">Copy, adapt, and send to your sangha, meditation group, or practice friends. No preparation required from participants — just a willingness to gather and read together.</p>
+  <div class="invite-box">
+    <div class="invite-subject">Subject: A study group invitation — the 37 Bodhisattva Practices</div>
+    <div class="invite-body">Dear friends,
+
+I am starting a small study group on the 37 Bodhisattva Practices — the classical Tibetan text that Garchen Rinpoche has called the heart of his teaching and recommends to all his students.
+
+We will read one section per session, discuss what it means in our lives, and share from our own experience. No preparation is required. The text is free to download at garchen.net.
+
+This group is connected to a larger project: a Ukrainian practitioner named Olga Kornyushyna wrote a beautiful commentary on these same practices during the Russian invasion. We are working to bring that book into English. Groups that form will have the opportunity to meet Olga directly via Zoom.
+
+If you are interested in joining, please reply to this message. We will begin as soon as we have four or five people.
+
+With warm wishes,
+[Your name]</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-ornament">❧</div>
+  <div class="footer-dedication">"May the benefit of this project surpass all our expectations and make many, many people happy."</div>
+  <div class="footer-sub">Dedicated with gratitude to Garchen Rinpoche · April 2026</div>
+  <div style="margin-top:32px; font-family:'Lato',sans-serif; font-size:11px; letter-spacing:2px; opacity:0.4; text-transform:uppercase;">Contact: brianjnuckols@gmail.com</div>
+</footer>
+
+</body>
+</html>

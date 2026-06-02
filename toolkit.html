@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>37 Practices of a Bodhisattva — Facilitator Toolkit v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --maroon: #6B1A1A;
+  --maroon-deep: #4A0F0F;
+  --saffron: #C8821A;
+  --saffron-light: #E8A84A;
+  --cream: #FAF5EC;
+  --cream-dark: #F0E8D5;
+  --ink: #1C1008;
+  --ink-soft: #3D2B1A;
+  --gold: #B8860B;
+  --rule: rgba(200,130,26,0.25);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* MASTHEAD */
+.masthead {
+  background: var(--maroon);
+  color: var(--cream);
+  padding: 64px 48px 56px;
+  text-align: center;
+  border-bottom: 3px solid var(--saffron);
+}
+.masthead .ornament { font-size: 34px; color: var(--saffron-light); letter-spacing: 14px; opacity: 0.8; }
+.masthead .eyebrow {
+  font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 5px;
+  text-transform: uppercase; color: var(--saffron-light); margin: 18px 0 14px;
+}
+.masthead h1 {
+  font-family: 'Cormorant Garamond', serif; font-weight: 300;
+  font-size: clamp(34px, 6vw, 60px); line-height: 1.1;
+}
+.masthead h1 em { font-style: italic; }
+.masthead .sub { font-size: 19px; font-weight: 300; opacity: 0.85; margin-top: 10px; }
+
+/* DOC META */
+.doc-meta {
+  max-width: 900px; margin: 0 auto; padding: 18px 48px;
+  display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: center;
+  font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--saffron); border-bottom: 1px solid var(--rule);
+}
+.doc-meta span { color: var(--ink-soft); }
+
+/* TOC */
+.toc {
+  max-width: 900px; margin: 40px auto 0; padding: 28px 36px;
+  border: 1px solid var(--rule); background: rgba(200,130,26,0.04);
+}
+.toc h2 {
+  font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--saffron); margin-bottom: 16px;
+}
+.toc ol { list-style: none; counter-reset: toc; columns: 2; column-gap: 40px; }
+.toc li { counter-increment: toc; padding: 5px 0; break-inside: avoid; }
+.toc li a {
+  color: var(--ink-soft); text-decoration: none; font-size: 16px;
+  border-bottom: 1px solid transparent; transition: border-color 0.2s;
+}
+.toc li a::before {
+  content: counter(toc) ". "; color: var(--saffron); font-family: 'Cinzel', serif; font-size: 13px;
+}
+.toc li a:hover { border-color: var(--saffron); color: var(--maroon); }
+
+/* SECTIONS */
+section { max-width: 900px; margin: 0 auto; padding: 56px 48px 8px; }
+.eyebrow {
+  font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 4px;
+  text-transform: uppercase; color: var(--saffron); margin-bottom: 10px;
+}
+h2.section-title {
+  font-size: clamp(26px, 4vw, 38px); font-weight: 300; color: var(--maroon);
+  line-height: 1.2; margin-bottom: 14px;
+}
+.rule { width: 56px; height: 2px; background: var(--saffron); margin-bottom: 28px; }
+h3 { font-size: 23px; font-weight: 600; color: var(--maroon); margin: 32px 0 10px; }
+h4 { font-family: 'Lato', sans-serif; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--saffron); margin: 24px 0 8px; }
+p { font-size: 17px; line-height: 1.85; color: var(--ink-soft); font-weight: 300; margin-bottom: 16px; }
+p.lede { font-size: 19px; }
+em { font-style: italic; }
+strong { color: var(--maroon); font-weight: 600; }
+ul, ol.steps { margin: 8px 0 18px 22px; }
+li { font-size: 16px; line-height: 1.7; color: var(--ink-soft); font-weight: 300; margin-bottom: 8px; }
+a.inline { color: var(--maroon); }
+
+/* CALLOUT / PRAYER */
+blockquote {
+  border-left: 3px solid var(--saffron); padding: 18px 28px; margin: 22px 0;
+  background: rgba(200,130,26,0.05); font-style: italic; font-size: 18px; color: var(--maroon);
+  line-height: 1.7;
+}
+blockquote cite { display: block; font-style: normal; font-family: 'Lato', sans-serif;
+  font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--saffron); margin-top: 10px; }
+.prayer {
+  border: 1px solid var(--rule); background: var(--cream-dark); padding: 24px 30px; margin: 18px 0;
+}
+.prayer .verse { font-style: italic; color: var(--maroon); font-size: 18px; line-height: 1.7; white-space: pre-line; }
+.prayer .label { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--saffron); margin-bottom: 10px; }
+
+/* NOTE BOX */
+.note {
+  border: 1px solid var(--rule); border-left: 3px solid var(--maroon);
+  padding: 18px 24px; margin: 20px 0; background: var(--cream);
+}
+.note .label { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--maroon); font-weight: 700; margin-bottom: 6px; }
+.draft-flag {
+  border-left: 3px solid var(--saffron); background: rgba(200,130,26,0.07);
+}
+.draft-flag .label { color: var(--saffron); }
+
+/* TABLE */
+table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+thead th {
+  font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--saffron); text-align: left; padding: 10px 14px; border-bottom: 2px solid var(--saffron);
+}
+tbody td { padding: 13px 14px; font-size: 15px; line-height: 1.6; color: var(--ink-soft);
+  font-weight: 300; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tbody tr:hover td { background: rgba(200,130,26,0.04); }
+.wk { font-family: 'Cinzel', serif; font-size: 14px; color: var(--maroon); font-weight: 600; white-space: nowrap; }
+.vs { font-family: 'Lato', sans-serif; font-size: 12px; letter-spacing: 1px; color: var(--saffron); white-space: nowrap; }
+td strong { color: var(--maroon); }
+.pnote { font-style: italic; color: var(--saffron); margin-top: 5px; font-size: 14px; display: block; }
+
+/* TROUBLESHOOTING GRID */
+.trouble { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin: 24px 0; }
+.trouble .card { border-top: 2px solid var(--saffron); padding: 16px 18px 4px; }
+.trouble .sym { font-size: 17px; font-weight: 600; color: var(--maroon); margin-bottom: 6px; }
+.trouble .fix { font-size: 15px; line-height: 1.65; color: var(--ink-soft); font-weight: 300; }
+
+/* READING LIST */
+.book { border-bottom: 1px solid var(--rule); padding: 16px 0; }
+.book .t { font-size: 18px; color: var(--maroon); font-weight: 600; }
+.book .a { font-family: 'Lato', sans-serif; font-size: 12px; letter-spacing: 1px; color: var(--saffron); text-transform: uppercase; margin: 2px 0 6px; }
+.book .d { font-size: 15px; line-height: 1.6; color: var(--ink-soft); font-weight: 300; }
+
+/* INVITE */
+.invite { border: 1px solid var(--rule); background: rgba(200,130,26,0.03); padding: 28px 32px; margin: 18px 0; }
+.invite .subj { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--saffron); margin-bottom: 16px; }
+.invite .body { font-size: 16px; line-height: 1.8; color: var(--ink-soft); font-weight: 300; white-space: pre-line; }
+
+/* FOOTER */
+footer { background: var(--maroon-deep); color: var(--cream); text-align: center; padding: 56px 48px; margin-top: 56px; border-top: 3px solid var(--saffron); }
+footer .ornament { font-size: 28px; color: var(--saffron); letter-spacing: 10px; opacity: 0.6; margin-bottom: 16px; }
+footer .ded { font-size: 19px; font-style: italic; font-weight: 300; max-width: 540px; margin: 0 auto 14px; opacity: 0.88; line-height: 1.6; }
+footer .sub { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--saffron-light); opacity: 0.6; }
+
+@media (max-width: 768px) {
+  section { padding: 44px 22px 4px; }
+  .toc ol { columns: 1; }
+  .trouble { grid-template-columns: 1fr; }
+  .masthead, footer { padding: 44px 22px; }
+}
+@media print {
+  body { font-size: 12pt; }
+  .masthead { background: none; color: #000; border-color: #999; }
+  blockquote, .prayer, .note { background: none; }
+  a { color: #000; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="ornament">❧</div>
+  <div class="eyebrow">Garchen Buddhist Institute · Sangha Study Groups</div>
+  <h1>37 Practices of a <em>Bodhisattva</em></h1>
+  <div class="sub">Facilitator Toolkit</div>
+</div>
+
+<div class="doc-meta">
+  <div>Version <span>2.0</span></div>
+  <div>Updated <span>June 2, 2026</span></div>
+  <div>For <span>Group facilitators &amp; sangha coordinators</span></div>
+  <div>Contact <span>brianjnuckols@gmail.com</span></div>
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#what">About this toolkit</a></li>
+    <li><a href="#refuge">How the sessions work</a></li>
+    <li><a href="#start">Starting a group</a></li>
+    <li><a href="#open">Opening prayers and protector practice</a></li>
+    <li><a href="#session">Running a session</a></li>
+    <li><a href="#formats">The 10-week study format</a></li>
+    <li><a href="#closings">Closing practices</a></li>
+    <li><a href="#stalling">What to do when a group stalls</a></li>
+    <li><a href="#reading">English commentary reading list</a></li>
+    <li><a href="#olga">Inviting Olga and the live Q&amp;A</a></li>
+    <li><a href="#invites">Sample invitations</a></li>
+  </ol>
+</div>
+
+<!-- 1 -->
+<section id="what">
+  <div class="eyebrow">Overview</div>
+  <h2 class="section-title">About this toolkit</h2>
+  <div class="rule"></div>
+  <p class="lede">This toolkit helps you run a small study group on the 37 Practices of a Bodhisattva. You don't need to be a teacher. A few people, the text, and a regular meeting time are enough.</p>
+  <p>The 37 Practices is a 14th-century Tibetan text by Gyalse Tokme Zangpo. Garchen Rinpoche recommends it to all his students and calls it the heart of his teaching. He memorized and practiced it during 20 years in a Chinese labor camp.</p>
+  <p>The groups also support a translation project. Olga Kornyushyna, a Ukrainian practitioner and student of Garchen Rinpoche, wrote a commentary on these 37 practices. She started it before Russia's full-scale invasion in 2022 and finished it in the war's first months. Readers used it in bomb shelters and in exile, and it was recommended alongside Viktor Frankl as a mental-health resource during the war. It exists only in Ukrainian. Study groups are the first step toward an English edition, and the reason donors have to give.</p>
+  <p>Your group does two things at once: it studies a text that can change how you handle your life, and it helps build the community that funds the translation.</p>
+</section>
+
+<!-- 2 -->
+<section id="refuge">
+  <div class="eyebrow">Approach</div>
+  <h2 class="section-title">How the sessions work</h2>
+  <div class="rule"></div>
+  <p>Study these practices as refuge, not as information. The goal isn't to understand the text well enough to explain it. The goal is to let it meet what's actually happening in your life.</p>
+  <p>Every session opens with one question, before anyone reads the verse or teaches anything:</p>
+  <blockquote>What do I need refuge from right now in my life?<cite>The opening question for every session</cite></blockquote>
+  <p>Each person answers in a sentence or two, or sits with the question in silence. No advice, no cross-talk. You are naming the difficulty the practice will meet. Groups that open this way stay grounded. Groups that skip it tend to drift into general talk about Buddhism, which is the most common way these groups lose energy.</p>
+  <div class="note">
+    <div class="label">For the facilitator</div>
+    <p style="margin:0;">Your job is to hold the structure, not to be the wisest person in the room. When the talk floats up into theory, bring it back with one question: <em>"How does that show up for you this week?"</em> That question does most of the work.</p>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="start">
+  <div class="eyebrow">Setup</div>
+  <h2 class="section-title">Starting a group</h2>
+  <div class="rule"></div>
+  <h4>Find your people</h4>
+  <p>Reach out personally to five to eight people in your sangha or practice community. The invitation can be direct: "I'm starting a small study group on the 37 Bodhisattva Practices. Would you like to join?" You don't need to lead with the Ukrainian book project. A mix of long-term practitioners and people new to the teachings works well. Three or four people in a living room or on Zoom is enough to begin.</p>
+  <h4>Choose your rhythm</h4>
+  <p>Weekly, biweekly, or monthly, 60 to 90 minutes each. In person or on Zoom. Pick a pace you can keep up for the whole format, and treat the meeting time as fixed.</p>
+  <h4>Get the root text (free)</h4>
+  <p>Download the English root text from the Garchen Buddhist Institute at <a class="inline" href="https://garchen.net">garchen.net</a> (library booklets). Several translations exist; the Ari-ma / Garchen Institute version is widely used. Garchen Rinpoche's own commentary is at <a class="inline" href="https://37practices.info">37practices.info</a>.</p>
+  <h4>Register your group</h4>
+  <p>Email Brian at <strong>brianjnuckols@gmail.com</strong> with your group's name, where or how you're meeting, and roughly how many people are joining. That's all. You'll be kept in the loop and told when the Zoom events with Olga are scheduled.</p>
+</section>
+
+<!-- 4 -->
+<section id="open">
+  <div class="eyebrow">Prayers</div>
+  <h2 class="section-title">Opening prayers and protector practice</h2>
+  <div class="rule"></div>
+  <p>You don't need a long liturgy. You do need a clear start and a clear end, so the meeting feels set apart from ordinary conversation. The simplest version is three short prayers to open and one dedication to close. Read them aloud together, or have one person read while the others follow.</p>
+
+  <div class="prayer">
+    <div class="label">To open — Refuge &amp; Bodhichitta (recite three times)</div>
+    <div class="verse">In the Buddha, the Dharma, and the Supreme Assembly
+I take refuge until I attain enlightenment.
+By the merit of generosity and the other perfections,
+may I accomplish Buddhahood for the benefit of all beings.</div>
+  </div>
+
+  <div class="prayer">
+    <div class="label">The Four Immeasurables</div>
+    <div class="verse">May all beings have happiness and the causes of happiness.
+May all beings be free from suffering and the causes of suffering.
+May all beings never be parted from the joy that is free from suffering.
+May all beings rest in equanimity, free from attachment and aversion.</div>
+  </div>
+
+  <div class="prayer">
+    <div class="label">To close — Dedication of merit</div>
+    <div class="verse">By this merit, may all beings attain the state of omniscience.
+May whatever virtue we have gathered here
+ripen for the benefit of every being,
+and may this book reach all who need it.</div>
+  </div>
+
+  <h3>Protector practice (per Garchen Rinpoche)</h3>
+  <p>Olga asks that groups be pointed toward the protector practices Garchen Rinpoche recommends as support for this text: mainly <strong>Achi Chökyi Drölma</strong>, the Drikung lineage protector, and <strong>sang</strong> (smoke) offerings. Many practitioners in the Garchen community already do these.</p>
+  <div class="note">
+    <div class="label">One boundary</div>
+    <p style="margin:0;">Treat protector practice as optional individual support, not a group requirement, and not something to improvise. If people in your group already have the Achi practice and its transmission, they can do it on their own. If not, open with refuge and the four immeasurables. That is enough. For the Achi text, the sang liturgy, or transmission (<em>lung</em>), send people to the Garchen Buddhist Institute rather than passing it around informally.</p>
+  </div>
+</section>
+
+<!-- 5 -->
+<section id="session">
+  <div class="eyebrow">Sessions</div>
+  <h2 class="section-title">Running a session</h2>
+  <div class="rule"></div>
+  <p>This is a structure, not a script. Follow the group, and don't try to cover everything.</p>
+  <table>
+    <thead><tr><th>Time</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td class="wk">0–5 min</td><td><strong>Open.</strong> Refuge &amp; bodhichitta (3×) and the four immeasurables. A minute of silence to settle.</td></tr>
+      <tr><td class="wk">5–12 min</td><td><strong>The anchor question.</strong> Each person names, in a sentence, what they need refuge from this week. No cross-talk.</td></tr>
+      <tr><td class="wk">12–20 min</td><td><strong>Read the verse(s) aloud, at least twice.</strong> Let the language land before anyone speaks. Optionally read a few lines of commentary (see the reading list).</td></tr>
+      <tr><td class="wk">20–55 min</td><td><strong>Discussion.</strong> Use one or two questions, not all of them. Leave room for silence. Keep bringing it back to lived experience.</td></tr>
+      <tr><td class="wk">55–65 min</td><td><strong>Closing practice.</strong> A short guided practice tied to the section (see Closing Practices).</td></tr>
+      <tr><td class="wk">65–70 min</td><td><strong>Dedicate.</strong> One word or sentence from each person, then the dedication of merit. Name what you're reading next time.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 6 -->
+<section id="formats">
+  <div class="eyebrow">Format</div>
+  <h2 class="section-title">The 10-week study format</h2>
+  <div class="rule"></div>
+  <p>Ten 90-minute sessions, three to four verses each, covering the whole text in about three months. This pace leaves room to discuss while still building toward a session with Olga.</p>
+  <table>
+    <thead><tr><th>Week</th><th>Verses</th><th>Theme &amp; focus</th></tr></thead>
+    <tbody>
+      <tr><td class="wk">1</td><td class="vs">V1–V4</td><td><strong>Precious life, impermanence, renunciation.</strong> What makes human life precious? Why leave familiar territory? Solitude and mortality-awareness as the ground of practice.</td></tr>
+      <tr><td class="wk">2</td><td class="vs">V5–V7</td><td><strong>Companions, teachers, refuge.</strong> Harmful vs. beneficial relationships; what "relying on a teacher" means now; refuge as foundation. <span class="pnote">Reflect on your actual spiritual community.</span></td></tr>
+      <tr><td class="wk">3</td><td class="vs">V8–V10</td><td><strong>Three scopes of motivation.</strong> From avoiding harm, to seeking liberation, to generating bodhichitta. This is the turning point of the text. <span class="pnote">Daily bodhichitta aspiration.</span></td></tr>
+      <tr><td class="wk">4</td><td class="vs">V11–V13</td><td><strong>Tonglen and the first adversities.</strong> Exchanging self and other. Being robbed; being harmed. Introduction to tonglen. <span class="pnote">Daily tonglen, starting with small irritations.</span></td></tr>
+      <tr><td class="wk">5</td><td class="vs">V14–V17</td><td><strong>Transforming harm into the path.</strong> Slander, public criticism, betrayal by those you've helped, contempt. Seeing the one who harms you as a teacher. <span class="pnote">Bring real examples and honest struggle.</span></td></tr>
+      <tr><td class="wk">6</td><td class="vs">V18–V21</td><td><strong>Suffering, success, the eight worldly concerns.</strong> When suffering comes; when wealth, fame, and desire come. The danger in both. <span class="pnote">Notice which worldly concern hooks you most this week.</span></td></tr>
+      <tr><td class="wk">7</td><td class="vs">V22–V24</td><td><strong>Absolute bodhichitta.</strong> Appearances as mind, mind as emptiness. Not clinging to the pleasant or the aversive. <span class="pnote">Resting meditation on the nature of experience.</span></td></tr>
+      <tr><td class="wk">8</td><td class="vs">V25–V28</td><td><strong>Paramitas I.</strong> Generosity, discipline, patience, diligence — the perfections as daily conduct. <span class="pnote">Choose one paramita to emphasize this week.</span></td></tr>
+      <tr><td class="wk">9</td><td class="vs">V29–V32</td><td><strong>Paramitas II &amp; self-examination.</strong> Concentration, wisdom, examining one's own faults, not criticizing other practitioners. <span class="pnote">The link between meditation and conduct.</span></td></tr>
+      <tr><td class="wk">10</td><td class="vs">V33–V37</td><td><strong>Integration, mindfulness, dedication.</strong> Releasing attachment, harsh speech, and afflictions through mindfulness. Constant awareness in benefiting others. Recite the full text as a closing ceremony. <span class="pnote">Daily recitation of all 37 going forward.</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 7 -->
+<section id="closings">
+  <div class="eyebrow">Closings</div>
+  <h2 class="section-title">Closing practices</h2>
+  <div class="rule"></div>
+  <p>Discussion opens the text. A short practice lets it settle below the level of talk. End each session with five to ten minutes of one of the practices below, matched to where you are in the text.</p>
+
+  <div class="note draft-flag">
+    <div class="label">Draft, pending Olga's exercises</div>
+    <p style="margin:0;">Olga's book includes <strong>40+ original mindfulness exercises, one per chapter</strong>, written and tested during the war. Those are the closings we want here in the end. Until the translation is done, the three below are based on the verses and work fine as stand-ins. <strong>Decision for the June 2 call:</strong> can Olga send two or three of her exercises now, even roughly translated, to seed this section?</p>
+  </div>
+
+  <h4>1. Tonglen on the breath (for the adversity sessions, verses 11–21)</h4>
+  <p>Settle on your breath. As you breathe in, take in the difficulty you named at the start: yours first, then others who carry the same thing. As you breathe out, send relief. Start small and widen only as far as feels honest. Two or three minutes is enough.</p>
+
+  <h4>2. Resting "like a rainbow" (for the emptiness sessions, verses 22–24)</h4>
+  <p>Bring to mind one good thing and one hard thing from the past week. Hold each lightly. Notice that the feeling is strong and also passing, like a rainbow or a dream: real while it lasts, not solid. Then let both go and rest in open awareness for a minute or two.</p>
+
+  <h4>3. The refuge check (for the opening and closing sessions, verses 1–10 and 31–37)</h4>
+  <p>Go back to the question you opened with: what did you need refuge from today? Sit with it again, and notice whether the hour of study changed how you stand toward it. It doesn't need to be solved. Close by dedicating that small shift to everyone facing the same thing.</p>
+</section>
+
+<!-- 8 -->
+<section id="stalling">
+  <div class="eyebrow">Facilitation</div>
+  <h2 class="section-title">What to do when a group stalls</h2>
+  <div class="rule"></div>
+  <p>Most groups hit at least one of these. None of them means the group failed. Each has a small, specific fix.</p>
+  <div class="trouble">
+    <div class="card">
+      <div class="sym">The room goes silent after a question</div>
+      <div class="fix">Let it sit longer than feels comfortable. Count ten slow breaths before you step in. Silence is often people thinking. If it lasts, narrow the question. Instead of "What does this verse mean?" ask "Where did this verse touch something real for you this week?"</div>
+    </div>
+    <div class="card">
+      <div class="sym">One person dominates</div>
+      <div class="fix">Thank them, then open it up by name: "I'd love to hear from someone who hasn't spoken yet." If it keeps happening, use a round: each person speaks once before anyone speaks twice. Set it as a group norm, not a correction of one person.</div>
+    </div>
+    <div class="card">
+      <div class="sym">It drifts into abstract Buddhism</div>
+      <div class="fix">This is the most common problem. Use the same question every time: <em>"How does that show up for you this week?"</em> Theory is welcome only when it touches a life in the room.</div>
+    </div>
+    <div class="card">
+      <div class="sym">Someone turns it into a dharma lecture</div>
+      <div class="fix">Take it in warmly, then turn to the others: "That's helpful. I'm curious how the rest of you are meeting this verse this week." Protect the peer-group character. No one here is the teacher.</div>
+    </div>
+    <div class="card">
+      <div class="sym">Energy is flat or attendance is dropping</div>
+      <div class="fix">Usually a pacing problem. Shorten it: fewer verses, more lived experience, end on time. Name a near goal, like "two more sessions and we can invite Olga." A clear arc revives a group faster than more content.</div>
+    </div>
+    <div class="card">
+      <div class="sym">Someone shares something raw or painful</div>
+      <div class="fix">Don't fix it and don't rush past it. Let it land: "Thank you for trusting us with that," then a breath of silence. These verses are about real suffering, and a group that can sit with one person's pain is doing the practice, not interrupting it. If it goes beyond what a peer group can hold, follow up one-on-one and point them toward real support.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 -->
+<section id="reading">
+  <div class="eyebrow">Reading</div>
+  <h2 class="section-title">English commentary reading list</h2>
+  <div class="rule"></div>
+  <p>You don't need any of these to run a group. The root text and honest discussion are enough. But a facilitator who reads a few pages before each session brings more to the room. Assign the relevant pages or recordings each week. Listed from most accessible to most thorough.</p>
+
+  <div class="book">
+    <div class="t">Illuminating the Thirty-Seven Practices of a Bodhisattva</div>
+    <div class="a">H.H. the Dalai Lama</div>
+    <div class="d">Warm, plain, and practical. The easiest place to start and a good week-by-week companion for a mixed group.</div>
+  </div>
+  <div class="book">
+    <div class="t">The Thirty-Seven Practices of Bodhisattvas: An Oral Teaching</div>
+    <div class="a">Geshe Sonam Rinchen (Snow Lion)</div>
+    <div class="d">Short verse-by-verse commentary. Easy to read a passage aloud in session. A common group favorite.</div>
+  </div>
+  <div class="book">
+    <div class="t">Transforming Adversity into Joy and Courage</div>
+    <div class="a">Geshe Jampa Tegchok, ed. Thubten Chodron (Snow Lion)</div>
+    <div class="d">Strongest on the adversity verses (11–21). Directly useful for the wartime part of the text and for Olga's main concern.</div>
+  </div>
+  <div class="book">
+    <div class="t">Traveling the Path of Compassion</div>
+    <div class="a">The 17th Karmapa, Ogyen Trinley Dorje, with Ringu Tulku &amp; Michele Martin</div>
+    <div class="d">A modern commentary in a clear voice. Good for sparking discussion among practitioners of different ages and backgrounds.</div>
+  </div>
+  <div class="book">
+    <div class="t">The Heart of Compassion: The Thirty-Seven Verses on the Practice of a Bodhisattva</div>
+    <div class="a">Dilgo Khyentse Rinpoche (Shambhala)</div>
+    <div class="d">A fuller, more devotional treatment. Best for groups or facilitators who want depth.</div>
+  </div>
+  <div class="book">
+    <div class="t">Uniting Wisdom and Compassion</div>
+    <div class="a">Chökyi Dragpa, intro by Chökyi Nyima Rinpoche (Wisdom)</div>
+    <div class="d">A traditional commentary that pairs this text with related mind-training (lojong) material. Useful for lineage context.</div>
+  </div>
+  <div class="book">
+    <div class="t">Garchen Rinpoche's oral teachings on the 37 Practices</div>
+    <div class="a">Garchen Buddhist Institute · garchen.net · 37practices.info</div>
+    <div class="d">Our lineage's own teaching on the text and the main companion for these groups. Free. Play a few minutes in session.</div>
+  </div>
+  <div class="book">
+    <div class="t">37 Buddhist Practices: How to Survive Turbulent Times (forthcoming in English)</div>
+    <div class="a">Olga Kornyushyna</div>
+    <div class="d">The science-informed wartime commentary this project exists to translate. Once it is published, it becomes the contemporary companion to all of the above, and the source of this toolkit's closing exercises.</div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section id="olga">
+  <div class="eyebrow">Olga</div>
+  <h2 class="section-title">Inviting Olga and the live Q&amp;A</h2>
+  <div class="rule"></div>
+  <p>Once your group has met at least twice and has a question it wants to bring, you can invite Olga to join a session by Zoom. She can talk about writing this commentary during the war, answer questions about specific verses, or just sit with your group as a fellow practitioner. A session with her runs 60 to 90 minutes: about 20 minutes of sharing, then open conversation.</p>
+  <p>Olga also offers a weekly live Q&amp;A open to all groups. It rotates across U.S. time zones so everyone gets a reasonable hour. Questions are submitted in advance and read by an MC, the same format GBI uses for its own teachings. Sessions are recorded and shared with registered groups.</p>
+  <table>
+    <thead><tr><th>Week</th><th>Time zone</th><th>Time</th></tr></thead>
+    <tbody>
+      <tr><td class="wk">1</td><td>Eastern</td><td class="vs">8:00 AM EST</td></tr>
+      <tr><td class="wk">2</td><td>Central</td><td class="vs">8:00 AM CST</td></tr>
+      <tr><td class="wk">3</td><td>Mountain</td><td class="vs">8:00 AM MST</td></tr>
+      <tr><td class="wk">4</td><td>Pacific</td><td class="vs">8:00 AM PST</td></tr>
+    </tbody>
+  </table>
+  <p>To arrange a session or register for the Q&amp;A, email Brian (<strong>brianjnuckols@gmail.com</strong>) with your group's name, how many sessions you've held, and a proposed date. Groups that host Olga may be invited to share something about the experience — with permission — for the crowdfunding campaign.</p>
+</section>
+
+<!-- 11 -->
+<section id="invites">
+  <div class="eyebrow">Invitations</div>
+  <h2 class="section-title">Sample invitations</h2>
+  <div class="rule"></div>
+  <p>Two versions you can copy and adapt. The first invites friends and fellow practitioners into your own group. The second is for sangha coordinators and center leaders who might host or start a group in their community.</p>
+
+  <h4>A — Inviting participants into your group</h4>
+  <div class="invite">
+    <div class="subj">Subject: A small study group — the 37 Bodhisattva Practices</div>
+    <div class="body">Dear friends,
+
+I'm starting a small study group on the 37 Bodhisattva Practices — the classical Tibetan text Garchen Rinpoche calls the heart of his teaching and recommends to all his students.
+
+We'll read one section per session, discuss what it means in our lives, and share from our own experience. No preparation required, and the text is free to download.
+
+The group is also part of a larger project. A Ukrainian practitioner named Olga Kornyushyna wrote a commentary on these same practices during the Russian invasion, finishing it in the war's opening months. We're working to bring that book into English, and groups that form will have the chance to meet Olga directly by Zoom.
+
+If you'd like to join, just reply. We'll begin once we have four or five people.
+
+With warm wishes,
+[Your name]</div>
+  </div>
+
+  <h4>B — For sangha coordinators &amp; center leaders</h4>
+  <div class="invite">
+    <div class="subj">Subject: An invitation to your sangha — studying the 37 Practices together</div>
+    <div class="body">Dear [name],
+
+I'm writing on behalf of a sangha initiative connected to the Garchen Buddhist Institute. We're inviting practice communities to form small peer-led study groups around the 37 Bodhisattva Practices — the text Garchen Rinpoche calls his representative.
+
+We've built a complete facilitator toolkit: opening prayers, three study formats (a 10-week standard, a four-session arc, and a free-form option), discussion questions, closing practices, and guidance for leading the group. A coordinator doesn't need to teach; the toolkit and the text do the work. Groups that form are also invited to live Q&A sessions with Olga Kornyushyna, a Ukrainian student of Rinpoche whose wartime commentary on this text we're raising funds to translate into English.
+
+If even one group could form in your community, it would mean a great deal — both as practice and as part of bringing this book to English readers. I'm glad to send the toolkit, answer questions, or join a call to walk your group leaders through it.
+
+In the dharma,
+[Your name] · brianjnuckols@gmail.com</div>
+  </div>
+</section>
+
+<footer>
+  <div class="ornament">❧</div>
+  <div class="ded">"May the benefit of this project surpass all our expectations and make many, many people happy."</div>
+  <div class="sub">Dedicated with gratitude to Garchen Rinpoche · Facilitator Toolkit · June 2026</div>
+</footer>
+
+</body>
+</html>

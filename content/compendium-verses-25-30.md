@@ -144,7 +144,7 @@
 
 **KTGR:** Joyous effort arises naturally from love and compassion, never fear or obligation; diligence carries the same four qualities as patience. Milarepa's visible diligence itself inspired trust in countless beings.
 
-**KS:** True diligence is "joyous effort" — spontaneous, lively, "never grim self-forcing." Three types (armor-like, in virtue, insatiable in serving others), each opposed by a laziness with its antidote: craving comfort → meditate on death; faint-heartedness ("a person like me will never reach enlightenment") → reflect on liberation's benefits; busyness with this life → see it causes only suffering. Diligence permeates all other paramitas.
+**KS:** True diligence is "joyous effort" — spontaneous, lively, "never grim self-forcing." Three types (armor-like, in virtue, insatiable in serving others), each opposed by a laziness with its antidote: craving comfort → meditate on death; faint-heartedness ("a person like us will never reach enlightenment") → reflect on liberation's benefits; busyness with this life → see it causes only suffering. Diligence permeates all other paramitas.
 
 **TC:** Winter Retreat [vv25–28 talk](https://thubtenchodron.org/series/37-practices-of-bodhisattvas-winter-retreat-2005/) · 2020 [Six Paramitas talk](https://thubtenchodron.org/2020/12/six-paramitas/).
 
@@ -182,7 +182,7 @@
 
 **KTGR:** Even the subtlest formless absorption (Peak of Existence) remains samsara; only vipashyana on stable shamatha realizes selflessness and cuts the root. Milarepa's perfected meditation converted hostile scholars.
 
-**KS:** The untrained mind is "a restless monkey"; Shantideva's mad elephant. Distinctive warning: concentrating even on correct-*sounding* thoughts ("everything is created by mind," "everything is like space") is still conceptual — seeds for formless realms; the true nature is beyond elaboration, which is why direct pith instructions from a realized master, and verification by one, are required. Prerequisites: seclusion, dropping worldly concerns, death-and-impermanence meditation.
+**KS:** The untrained mind is "a restless monkey"; Shantideva's mad elephant. Distinctive warning: concentrating even on correct-*sounding* thoughts ("everything is created by our own mind," "everything is like space") is still conceptual — seeds for formless realms; the true nature is beyond elaboration, which is why direct pith instructions from a realized master, and verification by one, are required. Prerequisites: seclusion, dropping worldly concerns, death-and-impermanence meditation.
 
 **TC:** Winter Retreat [vv29–37 talk](https://thubtenchodron.org/series/37-practices-of-bodhisattvas-winter-retreat-2005/) · 2020 [Six Paramitas talk](https://thubtenchodron.org/2020/12/six-paramitas/).
 
@@ -216,7 +216,7 @@
 
 **HHDL:** No commentary on the 1974 source for this verse (root verse only; his emptiness teaching lives under vv22–24, plus the separate [Deepest Bodhichitta teaching](https://studybuddhism.com/en/tibetan-buddhism/mind-training/commentaries-on-lojong-texts/deepest-bodhichitta-in-37-bodhisattva-practices-the-dalai-lama)).
 
-**AB:** "Wisdom" undersells *discriminating awareness*: decisively distinguishing how things exist from how they appear. Alone it brings liberation; only joined with method — bodhicitta, compassion — does it cut the cognitive obscurations blocking omniscience. "Not conceptualizing the three circles": meditator, object, and act all devoid of true establishment; since conceptual cognition projects false solidity, non-conceptual realization is required.
+**AB:** "Wisdom" undersells *discriminating awareness*: decisively distinguishing how things exist from how they appear. Alone it brings liberation; only joined with method — bodhicitta, compassion — does it cut the cognitive obscurations blocking omniscience. "no conceptions about the three spheres": meditator, object, and act all devoid of true establishment; since conceptual cognition projects false solidity, non-conceptual realization is required.
 
 **KTGR:** (A highlight of his commentary.) Prajña realizing twofold selflessness unified with skillful means; the first five paramitas without it cannot bring enlightenment. Contrasts genuine wisdom with false worldly knowledge — denying karma, or science misapplied to harm. Caps it with Milarepa: "There is no other superior knowledge than to realize the true nature."
 

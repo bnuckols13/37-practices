@@ -98,11 +98,11 @@
 
 ### Commentaries
 
-**GR:** (Brief.) Applies it to sectarian rivalry between Dharma centers: "my teacher is best" is a dispute rooted in fame and gain that shakes listeners' confidence in their own masters. Hearing "this place is good, that place is not" — "we should generate the thought that both are just as good."
+**GR:** (Brief.) Praise and blame traded between practitioners creates an obstacle for speaker and listener alike, and entertaining such thoughts causes our own meditation to deteriorate. When we hear that "this place is good and that place is not good," "we should generate the thought that both are just as good," resting in equanimity without holding one above the other.
 
 **HHDL:** Even very great gurus earned bad reputations through worldly entanglements — his example is Jamyang Shepa and the royal scandal. "Too many worldly friends, patrons, possessions can produce bad consequences"; cites Shantideva's counsel to live at an ordinary level without strong ties.
 
-**AB:** The target is craving for gain and respect. Story: Geshe Ben Gungyal tidying his altar because a patron was coming — then throwing dirt on the offerings when he saw the worldly motive; praised as the best offering in Tibet because it "hit the eight worldly concerns in the face." "We're not doing Dharma practice in order to get other people's approval."
+**AB:** The target is craving for gain and respect. Story: Geshe Ben Gungyal tidying his altar because a patron was coming — then throwing dirt on the offerings when he saw the worldly motive; praised by a distant master, who saw it with extrasensory perception, as "the purest offering in all of Tibet." "We're not doing Dharma practice in order to get other people's approval."
 
 **KTGR:** Desire for gain and honor breeds quarrels and dependency; releasing emotional ties to patrons frees practice from obligations and favoritism.
 
@@ -254,7 +254,7 @@
 
 **HHDL:** (Brief.) Dedicate not to one's own well-being or rebirth but "solely to the attainment of buddhahood in order to relieve the suffering of others," conjoined with three-spheres wisdom. "So the main part is now finished."
 
-**AB:** Proper vs. self-centered dedication: "may everybody achieve enlightenment," not "may I be the savior." The caravan metaphor: add your small store of grain to the bodhisattvas' vast stores, all spent for the general good. Three-circles purity prevents grasping at a solid "me" attaining enlightenment.
+**AB:** Proper vs. self-centered dedication: "may everybody achieve enlightenment," not "may I achieve enlightenment so that I can eliminate the suffering of everybody." The caravan metaphor: add your small store of grain to the bodhisattvas' vast stores, all spent for the general good. The complete purity of the three spheres prevents grasping at a solid "me" attaining enlightenment.
 
 **KTGR:** The distinctive image: awakening from a dream *while* dedicating — no one dedicates, nothing dedicated, no one receives, all dreamlike. Dedication with this understanding renders merit inexhaustible.
 

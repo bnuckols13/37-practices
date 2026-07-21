@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study the Verses — 37 Practices of a Bodhisattva</title>
+<meta name="description" content="A verse-by-verse compendium of commentaries on the 37 Practices of a Bodhisattva, gathered from Garchen Rinpoche, the Dalai Lama, and other teachers.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --maroon:#6B1A1A; --maroon-deep:#4A0F0F;
+  --saffron:#C8821A; --saffron-light:#E8A84A;
+  --cream:#FAF5EC; --cream-dark:#F0E8D5;
+  --ink:#1C1008; --ink-soft:#3D2B1A;
+  --gold:#B8860B; --rule:rgba(200,130,26,0.25);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);
+  font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;line-height:1.7}
+a{color:var(--maroon)}
+
+/* ---------- masthead ---------- */
+.masthead{background:var(--maroon-deep);color:var(--cream);padding:34px 40px 26px;border-bottom:3px solid var(--saffron)}
+.masthead .eyebrow{font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--saffron-light);margin-bottom:8px}
+.masthead h1{font-size:clamp(28px,5vw,44px);font-weight:300;margin:0 0 6px;line-height:1.15}
+.masthead p{margin:0;font-size:16px;font-weight:300;color:rgba(250,245,236,.72);max-width:60ch}
+.masthead nav{margin-top:16px;font-family:'Lato',sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.masthead nav a{color:var(--saffron-light);text-decoration:none;margin-right:20px}
+.masthead nav a:hover{color:#fff;text-decoration:underline}
+
+/* ---------- layout ---------- */
+.app{display:grid;grid-template-columns:290px minmax(0,1fr);gap:0;align-items:start;max-width:1320px;margin:0 auto}
+.sidebar{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:22px 18px 40px;border-right:1px solid var(--rule);background:var(--cream)}
+.reader{padding:26px 44px 80px;min-width:0;max-width:880px}
+
+/* ---------- search ---------- */
+.search-wrap{position:relative;margin-bottom:16px}
+.search-wrap input{width:100%;padding:9px 30px 9px 12px;border:1px solid var(--rule);background:#fff;
+  font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--ink);border-radius:2px}
+.search-wrap input:focus{outline:none;border-color:var(--saffron)}
+.search-clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;
+  color:var(--saffron);font-size:18px;cursor:pointer;line-height:1;padding:2px 4px;display:none}
+.search-count{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--saffron);margin-top:6px;min-height:14px}
+
+/* ---------- verse index ---------- */
+.block-label{font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--saffron);margin:20px 0 7px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
+.block-label:first-child{margin-top:0}
+.vlink{display:flex;gap:9px;align-items:baseline;padding:5px 8px;text-decoration:none;color:var(--ink-soft);
+  border-left:2px solid transparent;font-size:15px;line-height:1.35;cursor:pointer}
+.vlink:hover{background:rgba(200,130,26,.07)}
+.vlink .num{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:1px;color:var(--saffron);
+  min-width:26px;flex:0 0 26px;font-weight:700}
+.vlink.textonly{color:rgba(61,43,26,.74)}
+.vlink.textonly .num{color:rgba(200,130,26,.72);font-weight:400}
+.vlink.stub{color:rgba(61,43,26,.42)}
+.vlink.stub .num{color:rgba(200,130,26,.45);font-weight:400}
+.vlink.current{background:rgba(200,130,26,.13);border-left-color:var(--maroon);color:var(--maroon);font-weight:600}
+.vlink.hidden{display:none}
+
+/* ---------- filter bar ---------- */
+.filterbar{position:sticky;top:0;z-index:20;background:rgba(250,245,236,.94);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--rule);padding:12px 0 11px;margin-bottom:8px}
+.filter-head{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:9px}
+.filter-title{font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--saffron)}
+.filter-acts{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:.5px}
+.filter-acts button{border:0;background:none;color:var(--maroon);cursor:pointer;font:inherit;text-decoration:underline;padding:0 0 0 12px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:.6px;padding:5px 11px;border:1px solid var(--rule);
+  background:#fff;color:var(--ink-soft);cursor:pointer;border-radius:14px;transition:all .15s}
+.chip:hover{border-color:var(--saffron)}
+.chip.on{background:var(--maroon);border-color:var(--maroon);color:var(--cream)}
+.chip.on.solo{background:var(--saffron);border-color:var(--saffron);color:#2b1a06}
+.focus-note{font-family:'Lato',sans-serif;font-size:11.5px;letter-spacing:.4px;color:var(--maroon);
+  background:rgba(200,130,26,.1);border-left:3px solid var(--saffron);padding:7px 12px;margin-top:10px;display:none}
+.focus-note.show{display:block}
+
+/* ---------- verse view ---------- */
+.vhead{margin:26px 0 4px}
+.vhead .eyebrow{font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--saffron);margin-bottom:9px}
+.vhead .eyebrow .pos{color:rgba(61,43,26,.5);letter-spacing:2px}
+.vhead h2{font-size:clamp(25px,3.6vw,36px);font-weight:300;color:var(--maroon);line-height:1.2;margin:0 0 13px}
+.rule{width:56px;height:2px;background:var(--saffron);margin-bottom:26px}
+
+.sec-label{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--saffron);font-weight:700;margin:34px 0 12px;display:flex;align-items:center;gap:10px}
+.sec-label:after{content:'';flex:1;height:1px;background:var(--rule)}
+
+/* root text */
+.trans{border:1px solid var(--rule);background:var(--cream-dark);padding:22px 26px;margin-bottom:14px;position:relative}
+.trans.primary{border-left:3px solid var(--maroon);background:rgba(200,130,26,.07)}
+.trans .who{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--maroon);font-weight:700;margin-bottom:3px}
+.trans.primary .who:after{content:'Our lineage';font-size:9px;letter-spacing:1px;background:var(--maroon);
+  color:var(--cream);padding:2px 7px;margin-left:9px;border-radius:8px;vertical-align:middle}
+.trans .sub{font-family:'Lato',sans-serif;font-size:10.5px;letter-spacing:.6px;color:rgba(61,43,26,.62);margin-bottom:12px}
+.trans .sub a{color:rgba(61,43,26,.62)}
+.trans p{font-size:18px;font-style:italic;color:var(--maroon);line-height:1.65;margin:0 0 11px;white-space:pre-line}
+.trans p:last-of-type{margin-bottom:0}
+.copybtn{position:absolute;top:14px;right:14px;font-family:'Lato',sans-serif;font-size:10px;letter-spacing:1px;
+  text-transform:uppercase;border:1px solid var(--rule);background:#fff;color:var(--saffron);padding:3px 9px;cursor:pointer;opacity:0;transition:opacity .15s}
+.trans:hover .copybtn{opacity:1}
+.copybtn:hover{border-color:var(--saffron)}
+.compare-toggle{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:.5px;color:var(--maroon);
+  background:none;border:0;border-bottom:1px dotted var(--saffron);cursor:pointer;padding:0 0 1px;margin-bottom:14px}
+.secondary-trans.collapsed{display:none}
+
+/* commentary */
+.comm{border-top:2px solid var(--saffron);padding:15px 0 6px;margin-bottom:20px}
+.comm.hidden{display:none}
+.comm .who{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px}
+.comm .name{font-size:19px;font-weight:600;color:var(--maroon)}
+.comm .lineage{font-family:'Lato',sans-serif;font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--saffron)}
+.comm .src{margin-left:auto;font-family:'Lato',sans-serif;font-size:10.5px;letter-spacing:.5px}
+.comm .src a{color:var(--saffron)}
+.comm .tnote{font-family:'Lato',sans-serif;font-size:11px;color:rgba(61,43,26,.5);margin-bottom:9px;font-style:italic}
+.comm p{font-size:16.5px;line-height:1.75;font-weight:300;color:var(--ink-soft);margin:0}
+
+/* synthesis */
+.synth{border:1px solid var(--rule);border-left:3px solid var(--maroon);background:var(--cream);padding:19px 25px;margin:28px 0}
+.synth .label{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--maroon);font-weight:700;margin-bottom:8px}
+.synth p{margin:0;font-size:16.5px;line-height:1.75;font-weight:300;color:var(--ink-soft)}
+
+/* further reading + stubs */
+.further{border:1px solid var(--rule);padding:15px 22px;margin:22px 0;background:rgba(200,130,26,.03)}
+.further .label{font-family:'Lato',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--saffron);font-weight:700;margin-bottom:6px}
+.further p{margin:0;font-size:15px;font-weight:300;color:var(--ink-soft)}
+.stub{border:1px solid var(--rule);border-left:3px solid var(--saffron);background:rgba(200,130,26,.06);padding:24px 28px;margin:26px 0}
+.stub .label{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--saffron);font-weight:700;margin-bottom:9px}
+.stub p{margin:0 0 14px;font-size:16px;font-weight:300;color:var(--ink-soft)}
+.stub ul{margin:0;padding-left:20px;font-size:15px;font-weight:300}
+.stub li{margin-bottom:5px}
+
+/* pager */
+.pager{display:flex;justify-content:space-between;gap:16px;margin-top:44px;padding-top:20px;border-top:1px solid var(--rule)}
+.pager a{flex:1;text-decoration:none;padding:12px 16px;border:1px solid var(--rule);background:#fff;cursor:pointer;max-width:47%}
+.pager a:hover{border-color:var(--saffron)}
+.pager .dir{font-family:'Lato',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--saffron);display:block;margin-bottom:3px}
+.pager .t{font-size:16px;color:var(--maroon);line-height:1.3}
+.pager .next{text-align:right}
+.pager .spacer{visibility:hidden}
+.kbd-hint{font-family:'Lato',sans-serif;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;
+  color:rgba(61,43,26,.45);text-align:center;margin-top:14px}
+.kbd-hint kbd{font-family:'Lato',sans-serif;border:1px solid var(--rule);background:#fff;
+  padding:1px 5px;border-radius:3px;font-size:10px;color:var(--saffron)}
+
+.foot{max-width:1320px;margin:0 auto;padding:26px 44px 50px;border-top:1px solid var(--rule);
+  font-family:'Lato',sans-serif;font-size:11.5px;letter-spacing:.4px;color:rgba(61,43,26,.6);line-height:1.8}
+.foot a{color:var(--saffron)}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.mobile-toggle{display:none}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .app{grid-template-columns:1fr}
+  .sidebar{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--rule);padding:16px 22px 22px}
+  .sidebar.collapsed .sidebar-body{display:none}
+  .reader{padding:20px 22px 60px}
+  .mobile-toggle{display:block;width:100%;font-family:'Cinzel',serif;font-size:11px;letter-spacing:3px;
+    text-transform:uppercase;color:var(--maroon);background:none;border:1px solid var(--rule);padding:10px;cursor:pointer;margin-bottom:14px}
+  .masthead{padding:26px 22px 20px}
+  .pager a{max-width:none}
+}
+
+/* ---------- print: everything, no chrome ---------- */
+@media print{
+  body{font-size:11.5pt;background:#fff}
+  .masthead{background:none;color:#000;border-color:#999}
+  .masthead nav,.sidebar,.filterbar,.pager,.copybtn,.compare-toggle,.mobile-toggle,.search-wrap,.kbd-hint{display:none!important}
+  .app{display:block}
+  .reader{padding:0}
+  .trans,.synth,.further,.stub{background:none;break-inside:avoid}
+  .comm{break-inside:avoid}
+  .comm.hidden{display:block!important}
+  .secondary-trans.collapsed{display:block!important}
+  a{color:#000;text-decoration:none}
+  .verse-print{break-before:page}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow">37 Practices of a Bodhisattva</div>
+  <h1>Study the Verses</h1>
+  <p>The root text in three translations, and what the teachers say about each verse. Gathered for study; every entry links to its source.</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="toolkit.html">Facilitator Guide</a>
+    <a href="#" id="printLink">Print all</a>
+  </nav>
+</header>
+
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <button class="mobile-toggle" id="mobileToggle" aria-expanded="true">Verses ▾</button>
+    <div class="sidebar-body">
+      <div class="search-wrap">
+        <label class="sr" for="search">Search verses</label>
+        <input type="search" id="search" placeholder="Search: anger, homeland, refuge…" autocomplete="off">
+        <button class="search-clear" id="searchClear" aria-label="Clear search">×</button>
+      </div>
+      <div class="search-count" id="searchCount"></div>
+      <nav id="verseIndex" aria-label="Verse index"></nav>
+    </div>
+  </aside>
+
+  <main class="reader">
+    <div class="filterbar">
+      <div class="filter-head">
+        <div class="filter-title">Commentators shown</div>
+        <div class="filter-acts">
+          <button id="showAll">Show all</button>
+          <button id="onlyGR">Only Garchen Rinpoche</button>
+        </div>
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="focus-note" id="focusNote"></div>
+    </div>
+    <article id="verseView" aria-live="polite"></article>
+    <nav class="pager" id="pager"></nav>
+    <div class="kbd-hint"><kbd>←</kbd> <kbd>→</kbd> to move between verses</div>
+  </main>
+</div>
+
+<footer class="foot">
+  <p><strong>On sources.</strong> Commentary summaries and the “Across the commentaries” notes are original prose written for this study group. Short quotations are attributed and linked to their source. Root text translations are reproduced with attribution; see each verse for translator and licence. Dilgo Khyentse Rinpoche’s <em>The Heart of Compassion</em> and other published books appear as further-reading pointers only — no text is reproduced.</p>
+  <p>Root text by Gyalse Tokme Zangpo (1295–1369). This is other people’s teaching, gathered — please follow the links and support the teachers and publishers who made it available. Built {{BUILD_DATE}} · {{TEXT_COUNT}} of {{TOTAL_COUNT}} verses carry the root text; {{FILLED_COUNT}} have the full commentaries · <a href="index.html">37 Practices Sangha Initiative</a></p>
+</footer>
+
+<script>
+var DATA = /*{{VERSE_DATA}}*/;
+(function(){
+  'use strict';
+  var verses = DATA.verses, T = DATA.translations, C = DATA.commentators;
+  var order = DATA.commentaryOrder;
+  var idx = document.getElementById('verseIndex');
+  var view = document.getElementById('verseView');
+  var pager = document.getElementById('pager');
+  var chips = document.getElementById('chips');
+  var focusNote = document.getElementById('focusNote');
+  var search = document.getElementById('search');
+  var searchClear = document.getElementById('searchClear');
+  var searchCount = document.getElementById('searchCount');
+  var current = null, compareOpen = false;
+
+  function isVerse(v){ return typeof v.n === 'number'; }
+  function id(v){ return isVerse(v) ? 'v' + v.n : String(v.n); }
+  function label(v){
+    if(isVerse(v)) return 'Verse ' + v.n;
+    return String(v.n).charAt(0).toUpperCase() + String(v.n).slice(1);
+  }
+  function shortNum(v){ return isVerse(v) ? v.n : '—'; }
+  function find(key){ for(var i=0;i<verses.length;i++){ if(id(verses[i]) === key) return verses[i]; } return null; }
+
+  /* ---- hidden commentators, persisted ---- */
+  var hidden = {};
+  try {
+    var s = localStorage.getItem('stv-hidden');
+    if(s) hidden = JSON.parse(s);
+  } catch(e){}
+  function saveHidden(){ try{ localStorage.setItem('stv-hidden', JSON.stringify(hidden)); }catch(e){} }
+  function shownKeys(){ return order.filter(function(k){ return !hidden[k]; }); }
+
+  /* ---- build chips ---- */
+  function renderChips(){
+    chips.innerHTML = '';
+    var shown = shownKeys();
+    order.forEach(function(k){
+      var b = document.createElement('button');
+      b.className = 'chip' + (hidden[k] ? '' : ' on') + (shown.length === 1 && !hidden[k] ? ' solo' : '');
+      b.textContent = C[k].name;
+      b.setAttribute('aria-pressed', hidden[k] ? 'false' : 'true');
+      b.onclick = function(){
+        hidden[k] = !hidden[k];
+        if(!shownKeys().length){ hidden[k] = false; }   // never hide everything
+        saveHidden(); renderChips(); applyFilter();
+      };
+      chips.appendChild(b);
+    });
+    var shownNow = shownKeys();
+    if(shownNow.length === 1){
+      focusNote.className = 'focus-note show';
+      focusNote.textContent = 'Reading ' + C[shownNow[0]].name + ' straight through. '
+        + (C[shownNow[0]].note || '');
+    } else if(shownNow.length < order.length){
+      focusNote.className = 'focus-note show';
+      focusNote.textContent = 'Showing ' + shownNow.length + ' of ' + order.length + ' commentators.';
+    } else {
+      focusNote.className = 'focus-note';
+    }
+  }
+  function applyFilter(){
+    var nodes = view.querySelectorAll('.comm');
+    for(var i=0;i<nodes.length;i++){
+      var k = nodes[i].getAttribute('data-k');
+      nodes[i].className = 'comm' + (hidden[k] ? ' hidden' : '');
+    }
+  }
+  document.getElementById('showAll').onclick = function(){
+    hidden = {}; saveHidden(); renderChips(); applyFilter();
+  };
+  document.getElementById('onlyGR').onclick = function(){
+    hidden = {}; order.forEach(function(k){ if(k !== 'GR') hidden[k] = true; });
+    saveHidden(); renderChips(); applyFilter();
+  };
+
+  /* ---- sidebar index ---- */
+  function renderIndex(){
+    idx.innerHTML = '';
+    DATA.blocks.forEach(function(b){
+      var h = document.createElement('div');
+      h.className = 'block-label'; h.textContent = b.title;
+      h.setAttribute('data-block', b.slug);
+      idx.appendChild(h);
+      b.verses.forEach(function(vn){
+        var v = null;
+        for(var i=0;i<verses.length;i++){
+          if(String(verses[i].n) === String(vn)){ v = verses[i]; break; }
+        }
+        if(!v) return;
+        var a = document.createElement('a');
+        a.className = 'vlink' + (v.filled ? '' : (v.hasText ? ' textonly' : ' stub'));
+        a.href = '#' + id(v);
+        a.setAttribute('data-id', id(v));
+        a.innerHTML = '<span class="num">' + shortNum(v) + '</span><span class="t">'
+          + (v.topic || (v.filled ? '' : 'Not yet filled')) + '</span>';
+        idx.appendChild(a);
+      });
+    });
+  }
+
+  /* ---- verse rendering ---- */
+  function transBlock(rt, isPrimary){
+    var meta = T[rt.key]; if(!meta) return '';
+    var lic = meta.licenseUrl
+      ? '<a href="' + meta.licenseUrl + '" target="_blank" rel="noopener">' + meta.license + '</a>'
+      : meta.license;
+    var body = rt.stanzas.map(function(s){ return '<p>' + s + '</p>'; }).join('');
+    return '<div class="trans' + (isPrimary ? ' primary' : '') + '">'
+      + '<button class="copybtn" data-copy="' + encodeURIComponent(rt.stanzas.join('\n\n')) + '">Copy</button>'
+      + '<div class="who">' + meta.label + '</div>'
+      + '<div class="sub">' + (meta.sublabel ? meta.sublabel + ' · ' : '') + lic
+      + (meta.url ? ' · <a href="' + meta.url + '" target="_blank" rel="noopener">source</a>' : '')
+      + '</div>' + body + '</div>';
+  }
+
+  function commBlock(c){
+    var meta = C[c.key]; if(!meta) return '';
+    return '<div class="comm' + (hidden[c.key] ? ' hidden' : '') + '" data-k="' + c.key + '">'
+      + '<div class="who"><span class="name">' + meta.name + '</span>'
+      + (meta.lineage ? '<span class="lineage">' + meta.lineage + '</span>' : '')
+      + (meta.url ? '<span class="src"><a href="' + meta.url + '" target="_blank" rel="noopener">source ↗</a></span>' : '')
+      + '</div>'
+      + (meta.urlNote ? '<div class="tnote">' + meta.urlNote + '</div>' : '')
+      + '<p>' + c.html + '</p></div>';
+  }
+
+  function verseHTML(v, forPrint){
+    var pos = isVerse(v) ? 'Verse ' + v.n + ' of 37'
+      : (v.n === 'homage' ? 'Opening' : 'Closing');
+    var h = '<div class="vhead"><div class="eyebrow">' + v.blockTitle
+      + ' <span class="pos">· ' + pos + '</span></div>'
+      + '<h2>' + (v.topic || label(v)) + '</h2><div class="rule"></div></div>';
+
+    var links = DATA.standingSources.links.map(function(l){
+      return '<li><a href="' + l.url + '" target="_blank" rel="noopener">' + l.label + '</a></li>';
+    }).join('');
+
+    if(!v.hasText){
+      return h + '<div class="stub"><div class="label">Not yet added</div>'
+        + '<p>This verse hasn\'t been brought in yet. These sources carry it:</p>'
+        + '<ul>' + links + '</ul></div>';
+    }
+
+    var primary = v.rootText[0];
+    var rest = v.rootText.slice(1);
+    h += '<div class="sec-label">Root text</div>';
+    h += transBlock(primary, true);
+    if(rest.length){
+      var open = compareOpen || forPrint;
+      h += '<button class="compare-toggle" id="cmpToggle">'
+        + (open ? '▾ Hide other translations' : '▸ Compare ' + rest.length + ' other translation' + (rest.length>1?'s':''))
+        + '</button>';
+      h += '<div class="secondary-trans' + (open ? '' : ' collapsed') + '" id="secTrans">'
+        + rest.map(function(r){ return transBlock(r, false); }).join('') + '</div>';
+    }
+
+    if(!v.filled){
+      h += '<div class="stub"><div class="label">Commentaries coming</div>'
+        + '<p>The verse itself is here. The commentaries are gathered block by block, ahead of '
+        + 'the study group, so this one is still to come. Until then these carry it:</p>'
+        + '<ul>' + links + '</ul></div>';
+      return h;
+    }
+
+    h += '<div class="sec-label">The commentaries</div>';
+    h += v.commentaries.map(commBlock).join('');
+
+    if(v.synthesis){
+      h += '<div class="synth"><div class="label">Across the commentaries</div><p>' + v.synthesis + '</p></div>';
+    }
+    if(v.further){
+      h += '<div class="further"><div class="label">Further reading</div><p><strong>'
+        + v.further.name + '</strong> — ' + (v.further.note || '') + '</p></div>';
+    }
+    return h;
+  }
+
+  function renderPager(v){
+    var i = verses.indexOf(v);
+    var prev = i > 0 ? verses[i-1] : null;
+    var next = i < verses.length - 1 ? verses[i+1] : null;
+    var html = '';
+    html += prev
+      ? '<a href="#' + id(prev) + '"><span class="dir">← Previous</span><span class="t">'
+        + label(prev) + (prev.topic ? ' · ' + prev.topic : '') + '</span></a>'
+      : '<a class="spacer"></a>';
+    html += next
+      ? '<a class="next" href="#' + id(next) + '"><span class="dir">Next →</span><span class="t">'
+        + label(next) + (next.topic ? ' · ' + next.topic : '') + '</span></a>'
+      : '<a class="spacer"></a>';
+    pager.innerHTML = html;
+  }
+
+  function show(key, push){
+    var v = find(key) || verses[0];
+    current = v;
+    view.innerHTML = verseHTML(v, false);
+    renderPager(v);
+    var links = idx.querySelectorAll('.vlink');
+    for(var i=0;i<links.length;i++){
+      links[i].className = links[i].className.replace(' current','');
+      if(links[i].getAttribute('data-id') === id(v)) links[i].className += ' current';
+    }
+    var cur = idx.querySelector('.vlink.current');
+    if(cur && cur.scrollIntoView) cur.scrollIntoView({block:'nearest'});
+    if(push){ try{ history.replaceState(null,'','#'+id(v)); }catch(e){} }
+    try{ localStorage.setItem('stv-last', id(v)); }catch(e){}
+    wireVerse();
+    document.title = label(v) + (v.topic ? ' — ' + v.topic : '') + ' · Study the Verses';
+  }
+
+  function wireVerse(){
+    var t = document.getElementById('cmpToggle');
+    if(t) t.onclick = function(){
+      compareOpen = !compareOpen;
+      var s = document.getElementById('secTrans');
+      s.className = 'secondary-trans' + (compareOpen ? '' : ' collapsed');
+      t.textContent = compareOpen ? '▾ Hide other translations'
+        : '▸ Compare ' + s.children.length + ' other translation' + (s.children.length>1?'s':'');
+    };
+    var cbs = view.querySelectorAll('.copybtn');
+    for(var i=0;i<cbs.length;i++){
+      cbs[i].onclick = function(){
+        var txt = decodeURIComponent(this.getAttribute('data-copy'));
+        var btn = this;
+        if(navigator.clipboard){
+          navigator.clipboard.writeText(txt).then(function(){
+            btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = 'Copy'; }, 1400);
+          });
+        }
+      };
+    }
+  }
+
+  /* ---- search ---- */
+  function runSearch(){
+    var q = search.value.trim().toLowerCase();
+    searchClear.style.display = q ? 'block' : 'none';
+    var links = idx.querySelectorAll('.vlink');
+    var heads = idx.querySelectorAll('.block-label');
+    var hits = 0;
+    for(var i=0;i<links.length;i++){
+      var v = find(links[i].getAttribute('data-id'));
+      var hay = (v.topic || '') + ' ' + label(v) + ' '
+        + v.commentaries.map(function(c){ return c.html; }).join(' ') + ' '
+        + (v.synthesis || '') + ' '
+        + v.rootText.map(function(r){ return r.stanzas.join(' '); }).join(' ');
+      var hit = !q || hay.toLowerCase().indexOf(q) !== -1;
+      links[i].className = links[i].className.replace(' hidden','') + (hit ? '' : ' hidden');
+      if(hit) hits++;
+    }
+    // hide block headings with no visible verses
+    for(var j=0;j<heads.length;j++){
+      var n = heads[j].nextElementSibling, any = false;
+      while(n && n.className.indexOf('vlink') !== -1){
+        if(n.className.indexOf('hidden') === -1){ any = true; break; }
+        n = n.nextElementSibling;
+      }
+      heads[j].style.display = any ? '' : 'none';
+    }
+    searchCount.textContent = q ? hits + ' verse' + (hits===1?'':'s') + ' match' : '';
+  }
+  search.oninput = runSearch;
+  searchClear.onclick = function(){ search.value=''; runSearch(); search.focus(); };
+
+  /* ---- keyboard: ← → move between verses ---- */
+  document.addEventListener('keydown', function(e){
+    if(e.target && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+    if(e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+    var i = verses.indexOf(current);
+    var t = e.key === 'ArrowRight' ? verses[i+1] : verses[i-1];
+    if(t){ e.preventDefault(); location.hash = id(t); }
+  });
+
+  /* ---- mobile sidebar ---- */
+  var mt = document.getElementById('mobileToggle');
+  mt.onclick = function(){
+    var sb = document.getElementById('sidebar');
+    var col = sb.className.indexOf('collapsed') !== -1;
+    sb.className = 'sidebar' + (col ? '' : ' collapsed');
+    mt.setAttribute('aria-expanded', col ? 'true' : 'false');
+    mt.textContent = col ? 'Verses ▾' : 'Verses ▸';
+  };
+  idx.addEventListener('click', function(){
+    if(window.innerWidth <= 900){
+      var sb = document.getElementById('sidebar');
+      sb.className = 'sidebar collapsed';
+      mt.setAttribute('aria-expanded','false'); mt.textContent = 'Verses ▸';
+    }
+  });
+
+  /* ---- print: expand everything ---- */
+  function printAll(){
+    var all = verses.map(function(v){
+      return '<div class="verse-print">' + verseHTML(v, true) + '</div>';
+    }).join('');
+    view.innerHTML = all;
+  }
+  document.getElementById('printLink').onclick = function(e){
+    e.preventDefault(); printAll(); window.print();
+    setTimeout(function(){ show(id(current), false); }, 400);
+  };
+  window.addEventListener('beforeprint', function(){
+    if(view.querySelectorAll('.verse-print').length === 0) printAll();
+  });
+  window.addEventListener('afterprint', function(){ show(id(current), false); });
+
+  /* ---- routing ---- */
+  function fromHash(){
+    var h = (location.hash || '').slice(1);
+    if(!h){
+      var last = null;
+      try{ last = localStorage.getItem('stv-last'); }catch(e){}
+      show(last && find(last) ? last : id(verses[0]), false);
+      return;
+    }
+    show(h, false);
+  }
+  renderChips(); renderIndex(); fromHash(); runSearch();
+  window.addEventListener('hashchange', fromHash);
+})();
+</script>
+</body>
+</html>

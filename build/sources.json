@@ -1,0 +1,216 @@
+{
+  "_note": "Lookup tables for the Study the Verses build. Commentary entries in the compendium carry no inline source link for GR/HHDL/KTGR/KS; the renderer attaches attribution from here. An entry that resolves to nothing fails the build.",
+  "includeTranslations": [
+    "garchen",
+    "pearcey",
+    "mcleod"
+  ],
+  "commentaryOrder": [
+    "GR",
+    "HHDL",
+    "AB",
+    "KTGR",
+    "KS",
+    "TC",
+    "KM"
+  ],
+  "translations": {
+    "garchen": {
+      "label": "Garchen Institute",
+      "sublabel": "The recitation booklet arranged by Garchen Rinpoche",
+      "url": "https://garchen.net/wp-content/uploads/2022/12/2022_37-Practice-of-a-Bodhisattvas-Way-of-Life.pdf",
+      "license": "No explicit license stated — reproduced here for study. ",
+      "licenseUrl": null,
+      "primary": true
+    },
+    "pearcey": {
+      "label": "Adam Pearcey",
+      "sublabel": "Lotsawa House, 2006",
+      "url": "https://www.lotsawahouse.org/tibetan-masters/gyalse-thogme-zangpo/37-practices-all-bodhisattvas",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "primary": false
+    },
+    "mcleod": {
+      "label": "Ken McLeod",
+      "sublabel": "Unfettered Mind, 2013",
+      "url": "https://unfetteredmind.org/37-practices-of-a-bodhisattva/",
+      "license": "Freely posted; reproduced here for study.",
+      "licenseUrl": null,
+      "primary": false
+    }
+  },
+  "commentators": {
+    "GR": {
+      "name": "Garchen Rinpoche",
+      "lineage": "Drikung Kagyu",
+      "note": "2001 Taipei teaching. Returns everything to bodhicitta, and to hatred as the only real enemy.",
+      "url": "https://www.37practices.info/commentaries/garchen-rinpoche/",
+      "urlNote": "37practices.info serves this as one long page; find the verse by number."
+    },
+    "HHDL": {
+      "name": "H.H. the Dalai Lama",
+      "lineage": "Gelug",
+      "note": "1974 Bodhgaya teaching. Classic lamrim framing, vivid images.",
+      "url": "https://www.37practices.info/commentaries/commentary-by-dalai-lama/",
+      "urlNote": "37practices.info serves this as one long page; find the verse by number."
+    },
+    "AB": {
+      "name": "Dr. Alexander Berzin",
+      "lineage": "Gelug",
+      "note": "Analytical and precise, with modern examples.",
+      "url": "https://studybuddhism.com/en/tibetan-buddhism/mind-training/commentaries-on-lojong-texts/commentary-on-37-bodhisattva-practices-dr-berzin",
+      "urlNote": null
+    },
+    "KTGR": {
+      "name": "Khenpo Tsultrim Gyamtso Rinpoche",
+      "lineage": "Karma Kagyu",
+      "note": "Emptiness-forward: every practice tied back to lack of true existence.",
+      "url": "https://dharmaebooks.org/thirty-seven-practices-bodhisattva/",
+      "urlNote": "Free ebook, trans. Suzanne Schefczyk."
+    },
+    "KS": {
+      "name": "Khenpo Sodargye",
+      "lineage": "Nyingma, Larung Gar",
+      "note": "Scholarly but story-rich; strong on lay-practitioner application.",
+      "url": "https://khenposodargye.org/content/uploads/2024/03/The-Thirty-Seven-Practices-of-a-Bodhisattva-20240401.pdf",
+      "urlNote": "Free ebook PDF."
+    },
+    "TC": {
+      "name": "Ven. Thubten Chodron",
+      "lineage": "Sravasti Abbey, Gelug",
+      "note": "Down-to-earth and psychologically aware.",
+      "url": "https://thubtenchodron.org/buddhism/03-mind-training/05-37-practices/",
+      "urlNote": null
+    },
+    "KM": {
+      "name": "Ken McLeod",
+      "lineage": "Shambhala / independent",
+      "note": "Spare and psychological. Reads the text as practical guidance across traditions.",
+      "url": "https://unfetteredmind.org/37-practices-of-a-bodhisattva/",
+      "urlNote": "Tricycle's per-verse written commentary is behind a subscriber paywall."
+    },
+    "DKR": {
+      "name": "Dilgo Khyentse Rinpoche",
+      "lineage": "Nyingma",
+      "note": "The Heart of Compassion (Shambhala). A purchased book — no text is reproduced here.",
+      "url": null,
+      "urlNote": "Further reading only.",
+      "furtherReadingOnly": true
+    }
+  },
+  "blocks": [
+    {
+      "slug": "preliminaries",
+      "title": "The preliminaries",
+      "verses": [
+        "homage",
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "slug": "three-capacities",
+      "title": "The three capacities",
+      "verses": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "slug": "exchange",
+      "title": "Exchanging self and other",
+      "verses": [
+        11
+      ]
+    },
+    {
+      "slug": "adversity",
+      "title": "Transforming adversity",
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "slug": "ultimate-bodhicitta",
+      "title": "Ultimate bodhicitta",
+      "verses": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "slug": "paramitas",
+      "title": "The six paramitas",
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "slug": "final-precepts",
+      "title": "Final precepts, daily conduct",
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "slug": "colophon",
+      "title": "Colophon",
+      "verses": [
+        "colophon"
+      ]
+    }
+  ],
+  "standingSources": {
+    "note": "Shown on verses not yet deep-filled, so every verse URL is useful from day one.",
+    "links": [
+      {
+        "label": "Root text — Lotsawa House (Pearcey)",
+        "url": "https://www.lotsawahouse.org/tibetan-masters/gyalse-thogme-zangpo/37-practices-all-bodhisattvas"
+      },
+      {
+        "label": "Root text — Garchen Institute booklet",
+        "url": "https://garchen.net/wp-content/uploads/2022/12/2022_37-Practice-of-a-Bodhisattvas-Way-of-Life.pdf"
+      },
+      {
+        "label": "Garchen Rinpoche & Dalai Lama commentaries",
+        "url": "https://www.37practices.info/"
+      },
+      {
+        "label": "Khenpo Tsultrim Gyamtso Rinpoche (free ebook)",
+        "url": "https://dharmaebooks.org/thirty-seven-practices-bodhisattva/"
+      },
+      {
+        "label": "Ven. Thubten Chodron archive",
+        "url": "https://thubtenchodron.org/buddhism/03-mind-training/05-37-practices/"
+      }
+    ]
+  }
+}

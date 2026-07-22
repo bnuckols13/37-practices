@@ -102,12 +102,12 @@ body {
 }
 .qform label .req { color: var(--maroon); }
 .qform label .opt { text-transform: none; letter-spacing: 0; font-style: italic; color: var(--ink-soft); font-size: 12px; }
-.qform input, .qform textarea {
+.qform input, .qform textarea, .qform select {
   width: 100%; font-family: 'Cormorant Garamond', serif; font-size: 16px; color: var(--ink);
   background: var(--cream); border: 1px solid var(--rule); padding: 11px 14px; border-radius: 2px;
 }
 .qform textarea { min-height: 120px; resize: vertical; line-height: 1.6; }
-.qform input:focus, .qform textarea:focus { outline: none; border-color: var(--saffron); background: #fff; }
+.qform input:focus, .qform textarea:focus, .qform select:focus { outline: none; border-color: var(--saffron); background: #fff; }
 .qform button {
   margin-top: 24px; font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 2px;
   text-transform: uppercase; background: var(--maroon); color: var(--cream);
@@ -289,8 +289,54 @@ footer .sub { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 
   <p>Weekly, biweekly, or monthly, 60 to 90 minutes each. In person or on Zoom. Pick a pace you can keep up for the whole format, and treat the meeting time as fixed.</p>
   <h4>Get the root text (free)</h4>
   <p>Download the English root text from the Garchen Buddhist Institute at <a class="inline" href="https://garchen.net">garchen.net</a> (library booklets). Several translations exist; the Ari-ma / Garchen Institute version is widely used. Garchen Rinpoche's own commentary is at <a class="inline" href="https://37practices.info">37practices.info</a>.</p>
-  <h4>Register your group</h4>
-  <p>Email Brian at <strong>brianjnuckols@gmail.com</strong> with your group's name, where or how you're meeting, and roughly how many people are joining. That's all. You'll be kept in the loop and told when the Zoom events with Olga are scheduled.</p>
+  <h4 id="register">Register your group</h4>
+  <p>Tell us your group's name, where or how you're meeting, and roughly how many people are joining. That's all. You'll be kept in the loop and told when the Zoom events with Olga are scheduled. (Prefer email? Write Brian at <strong>brianjnuckols@gmail.com</strong>.)</p>
+  <form class="qform" id="registerForm" action="https://formsubmit.co/ajax/brianjnuckols@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="37 Practices — new group registration">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+    <div class="row">
+      <div>
+        <label for="r-group">Group name <span class="req">*</span></label>
+        <input type="text" id="r-group" name="group" required>
+      </div>
+      <div>
+        <label for="r-name">Your name <span class="req">*</span></label>
+        <input type="text" id="r-name" name="name" autocomplete="name" required>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label for="r-email">Email <span class="req">*</span></label>
+        <input type="email" id="r-email" name="email" autocomplete="email" required>
+      </div>
+      <div>
+        <label for="r-format">How you meet <span class="opt">(optional)</span></label>
+        <select id="r-format" name="meeting_format">
+          <option value="">Choose one…</option>
+          <option>In person</option>
+          <option>Zoom</option>
+          <option>Hybrid</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label for="r-place">City &amp; time zone <span class="opt">(optional)</span></label>
+        <input type="text" id="r-place" name="city_timezone" placeholder="e.g. Denver, Mountain">
+      </div>
+      <div>
+        <label for="r-size">Roughly how many people <span class="opt">(optional)</span></label>
+        <input type="text" id="r-size" name="size" placeholder="e.g. 5–6">
+      </div>
+    </div>
+    <label for="r-note">Anything else <span class="opt">(optional)</span></label>
+    <textarea id="r-note" name="note" placeholder="When you meet, how you heard about the group, questions."></textarea>
+    <button type="submit">Register group</button>
+    <p class="hint">Your details go to Brian, who keeps the network of groups connected. Nothing is shared publicly.</p>
+    <div class="form-msg" id="registerMsg"><p></p></div>
+  </form>
 </section>
 
 </div><!-- /tab-start -->
@@ -538,9 +584,11 @@ May they be calm and balanced in their attitude toward everyone and everything.<
   <h2 class="section-title">Submit a question for the monthly Q&amp;A</h2>
   <div class="rule"></div>
   <p>Olga's monthly Q&amp;A reads questions submitted in advance, the same format the Garchen Institute uses for its own teachings. If a verse opened something in your group, or a difficulty in practice keeps returning, send it here. Questions are gathered, grouped by theme, and read aloud by the MC at the next session. You don't need to leave your name.</p>
-  <form class="qform" id="questionForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form class="qform" id="questionForm" action="https://formsubmit.co/ajax/brianjnuckols@gmail.com" method="POST">
     <input type="hidden" name="_subject" value="37 Practices — new Q&amp;A question">
-    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
     <div class="row">
       <div>
         <label for="q-name">Your name <span class="opt">(optional)</span></label>
@@ -669,10 +717,11 @@ In the dharma,
   fromHash();
   window.addEventListener('hashchange', fromHash);
 
-  // Question form — Formspree AJAX submit
-  var form = document.getElementById('questionForm');
-  if(form){
-    var msg = document.getElementById('formMsg');
+  // AJAX forms (Formsubmit) — shared handler for the Q&A and group-registration forms
+  function initAjaxForm(formId, msgId, successHTML){
+    var form = document.getElementById(formId);
+    if(!form) return;
+    var msg = document.getElementById(msgId);
     function show(html, isErr){
       msg.querySelector('p').innerHTML = html;
       msg.classList.add('show');
@@ -680,31 +729,30 @@ In the dharma,
     }
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      if(form.action.indexOf('YOUR_FORM_ID') !== -1){
-        show('This form isn’t connected yet. Add your Formspree endpoint to the form’s <code>action</code> attribute and questions will start arriving in your inbox.', true);
-        return;
-      }
       var btn = form.querySelector('button[type=submit]');
+      var label = btn.textContent;
       btn.disabled = true; btn.textContent = 'Sending…';
       fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
         .then(function(r){
           if(r.ok){
             form.reset();
             btn.style.display = 'none';
-            show('Thank you. Your question is in, and it will be gathered for Olga’s next Q&amp;A.');
+            show(successHTML);
           } else {
             r.json().then(function(d){
               show(d && d.errors ? d.errors.map(function(x){ return x.message; }).join(', ') : 'Something went wrong. Please email brianjnuckols@gmail.com.', true);
             }).catch(function(){ show('Something went wrong. Please email brianjnuckols@gmail.com.', true); });
-            btn.disabled = false; btn.textContent = 'Send question';
+            btn.disabled = false; btn.textContent = label;
           }
         })
         .catch(function(){
           show('Couldn’t reach the server. Please email brianjnuckols@gmail.com.', true);
-          btn.disabled = false; btn.textContent = 'Send question';
+          btn.disabled = false; btn.textContent = label;
         });
     });
   }
+  initAjaxForm('questionForm', 'formMsg', 'Thank you. Your question is in, and it will be gathered for Olga’s next Q&amp;A.');
+  initAjaxForm('registerForm', 'registerMsg', 'Thank you. Your group is registered. You’ll hear from Brian, and be told when Olga’s next Q&amp;A is scheduled.');
 })();
 </script>
 

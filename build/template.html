@@ -145,6 +145,18 @@ a{color:var(--maroon)}
 .kbd-hint kbd{font-family:'Lato',sans-serif;border:1px solid var(--rule);background:#fff;
   padding:1px 5px;border-radius:3px;font-size:10px;color:var(--saffron)}
 
+.invite-band{background:var(--maroon-deep);color:var(--cream);border-top:3px solid var(--saffron);
+  padding:46px 40px;text-align:center}
+.invite-band .eyebrow{font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;
+  color:var(--saffron-light);margin-bottom:12px}
+.invite-band h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(24px,4vw,34px);
+  line-height:1.2;margin:0 auto 12px;max-width:640px}
+.invite-band p{font-size:17px;color:rgba(250,245,236,.82);line-height:1.7;max-width:560px;margin:0 auto 24px}
+.invite-band .cta{display:inline-block;font-family:'Lato',sans-serif;font-size:12px;letter-spacing:2px;
+  text-transform:uppercase;background:var(--saffron);color:var(--maroon-deep);text-decoration:none;
+  padding:14px 32px;border-radius:2px;transition:background .2s}
+.invite-band .cta:hover{background:var(--saffron-light)}
+
 .foot{max-width:1320px;margin:0 auto;padding:26px 44px 50px;border-top:1px solid var(--rule);
   font-family:'Lato',sans-serif;font-size:11.5px;letter-spacing:.4px;color:rgba(61,43,26,.6);line-height:1.8}
 .foot a{color:var(--saffron)}
@@ -168,7 +180,7 @@ a{color:var(--maroon)}
 @media print{
   body{font-size:11.5pt;background:#fff}
   .masthead{background:none;color:#000;border-color:#999}
-  .masthead nav,.sidebar,.filterbar,.pager,.copybtn,.compare-toggle,.mobile-toggle,.search-wrap,.kbd-hint{display:none!important}
+  .masthead nav,.sidebar,.filterbar,.pager,.copybtn,.compare-toggle,.mobile-toggle,.search-wrap,.kbd-hint,.invite-band{display:none!important}
   .app{display:block}
   .reader{padding:0}
   .trans,.synth,.further,.stub{background:none;break-inside:avoid}
@@ -224,6 +236,13 @@ a{color:var(--maroon)}
     <div class="kbd-hint"><kbd>←</kbd> <kbd>→</kbd> to move between verses</div>
   </main>
 </div>
+
+<section class="invite-band">
+  <div class="eyebrow">Read them together</div>
+  <h2>These verses open differently in company.</h2>
+  <p>Start a small study group and read them with others; a few people and a regular meeting time are enough, and the toolkit walks you through starting one.</p>
+  <a class="cta" href="toolkit.html">Start a study group</a>
+</section>
 
 <footer class="foot">
   <p><strong>On sources.</strong> Commentary summaries and the “Across the commentaries” notes are original prose written for this study group. Short quotations are attributed and linked to their source. Root text translations are reproduced with attribution; see each verse for translator and licence. Dilgo Khyentse Rinpoche’s <em>The Heart of Compassion</em> and other published books appear as further-reading pointers only — no text is reproduced.</p>

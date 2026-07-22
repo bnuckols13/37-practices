@@ -1,6 +1,6 @@
 # COMPENDIUM PROCESS — Build Complete; Maintenance Mode
 
-*Original plan was one block per week; Brian chose to build it all at once instead, and that happened 2026-07-21. All 37 verses + homage + colophon are deep-filled (see the index in `COMPENDIUM — Verses 8–37 (scaffold).md`). What remains is maintenance and enrichment.*
+*Original plan was one block per week; Lena chose to build it all at once instead, and that happened 2026-07-21. All 37 verses + homage + colophon are deep-filled (see the index in `COMPENDIUM — Verses 8–37 (scaffold).md`). What remains is maintenance and enrichment.*
 
 ## The build method (as executed — kept for reference and for the GitHub handoff)
 
@@ -8,7 +8,7 @@ Parallel extraction agents per source (root text ×2 translations; Garchen Rinpo
 
 ## Remaining work, in priority order
 
-1. **Weekly, as the group reaches each verse (Brian):** fill the **DKR slot** from *The Heart of Compassion* — a few sentences of reading notes per verse. This is the one thing only you can do, and it doubles as your session prep.
+1. **Weekly, as the group reaches each verse (Lena):** fill the **DKR slot** from *The Heart of Compassion* — a few sentences of reading notes per verse. This is the one thing only you can do, and it doubles as your session prep.
 2. **Before any handout or web publication:** spot-check the specific quotes you're using against their linked sources.
 3. **Optional enrichment:** expand the **TC pointer entries** (vv8–37) into real summaries from the [Winter Retreat transcripts](https://thubtenchodron.org/series/37-practices-of-bodhisattvas-winter-retreat-2005/) — ask Claude to run that extraction any time (the same prompt that was skipped mid-build).
 4. **GitHub:** hand the folder to Claude Code per `HANDOFF — Compendium to GitHub.md`. The handoff's licensing rules stand: Pearcey publishable (CC BY-NC, attributed), McLeod excerpt-and-link unless permission, summaries publishable, book text never.

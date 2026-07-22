@@ -58,7 +58,7 @@ This is the lever if a licence question ever needs answering in a hurry.
 |---|---|
 | Pearcey (Lotsawa House) | CC BY-NC 4.0 — publishable with attribution |
 | Garchen Institute booklet | No explicit licence stated. Ask GBI before wider reprinting. |
-| Ken McLeod (Unfettered Mind) | Freely posted, no explicit licence. Published by Brian's decision. |
+| Ken McLeod (Unfettered Mind) | Freely posted, no explicit licence. Published by Lena's decision. |
 | Dilgo Khyentse, purchased books | **Never reproduced.** Further-reading pointer only — the build strips any body text. |
 | Summaries and syntheses | Original prose written for this project. Publishable. |
 

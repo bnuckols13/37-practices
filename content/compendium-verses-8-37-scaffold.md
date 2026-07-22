@@ -17,6 +17,6 @@ Master source list: `COMMENTARIES — Master Catalog.md` · Site build: `HANDOFF
 
 - **Thubten Chodron (TC) entries for verses 8–37** are talk *pointers*, not summaries (that extraction was skipped). Expandable any time from the [Winter Retreat series](https://thubtenchodron.org/series/37-practices-of-bodhisattvas-winter-retreat-2005/) and [Sangye Khadro series](https://thubtenchodron.org/series/37-practices-of-bodhisattvas-with-venerable-sangye-khadro/).
 - **HHDL 1974** has no commentary on vv25, 28, 30, 31 — the source page itself is empty there (noted inline).
-- **DKR slots** (Dilgo Khyentse, *The Heart of Compassion*) await Brian's reading notes throughout.
+- **DKR slots** (Dilgo Khyentse, *The Heart of Compassion*) await Lena's reading notes throughout.
 - **McLeod Tricycle** written commentary is paywalled from ~v22 on; entries link the free 2006 retreat talks instead.
 - **Quotes** are web-extracted: spot-check before printing in handouts or publishing.

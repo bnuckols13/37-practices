@@ -2697,6 +2697,45 @@
       }
     },
     {
+      "id": "nispannakrama",
+      "type": "term",
+      "status": "proposed",
+      "en": "completion stage",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "niṣpannakramasambodhiṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "নিষ্পন্নক্রম"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The completion stage: the phase of tantric yoga that follows the visualization of the deity and works with the subtle body toward realization. Munidatta cites Āryadeva: its awakening cannot be realized without passing through the five stages in order (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "p-aryadeva",
       "type": "person",
       "status": "proposed",
@@ -3192,6 +3231,63 @@
       },
       "matchRe": {},
       "definition": "'Vajra being', a buddha form central to many tantric systems. Munidatta ends his comment on song 1 with a verse from the Dvikalpa: the union of āli and kāli is Vajrasattva's seat (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "status": "proposed",
+      "en": "verse",
+      "alt": [
+        "couplet"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "padāntareṇa",
+          "att": "AS",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "tṛtīyapadam",
+          "att": "AS",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "caturthapadena",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "পদান্তরেণ",
+          "তৃতীয়পদ",
+          "চতুর্থপদেন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Munidatta's word for a couplet of a song, used when he turns to comment on it ('with the next verse', 'the third verse'). In song 1 he calls couplets 4 and 5 the third and fourth, so he counts the opening couplet as the first and leaves the refrain out of the count.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -3854,6 +3950,47 @@
       },
       "matchRe": {},
       "definition": "Meditative absorption: a settled, one-pointed state of mind. Song 1 asks what all the samādhis are for. Munidatta explains that the absorptions taught for restraining the senses, like harsh fasting observances, achieve nothing on the way of great passion, because they lack bliss (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "samaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "pledge",
+      "alt": [
+        "pledge substance"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "samayasaṅketadravya",
+          "att": "AS",
+          "where": "cp.01.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "সময়সঙ্কেতদ্রব্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The commitments a tantric initiate takes on, and by extension the ritual substances bound up with them. Munidatta says the yogin pleases the true guru with an offering of pledge substances before receiving the wisdom-knowledge empowerment (cp.01.m3).",
       "symbolic": {
         "image": "",
         "readings": []
@@ -4969,6 +5106,56 @@
       },
       "matchRe": {},
       "definition": "A Buddhist tantra, cited by Munidatta as 'the king of tantras, Sampuṭodbhava', probably the Saṃpuṭa Tantra of the Hevajra and Cakrasaṃvara traditions. He quotes its verse in which the Vajra-holder calls the mind, clouded by concepts and restless as windblown lightning, saṃsāra (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "upadesa",
+      "type": "term",
+      "status": "proposed",
+      "en": "instruction",
+      "alt": [
+        "key instruction"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "hitopadeśaḥ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "caturthopadeśa",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "উপদেশ",
+          "হিতোপদেশ",
+          "চতুর্থোপদেশ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Instruction: the practical, often oral, teaching a guru gives a disciple for yogic practice. Munidatta quotes Nāgārjuna on helpful instruction gained by the guru's grace (cp.01.m3), and says Lūyī saw coupled union by practising the fourth instruction received from the guru (cp.01.m6).",
       "symbolic": {
         "image": "",
         "readings": []

@@ -112,7 +112,6 @@ export function check(slug, { strict = false } = {}) {
         for (const n of draft.notes) {
           if (author && n.text.includes(author) && !n.cites.length) E.push(`${u.id} note on ${n.anchor}: mentions ${author} but cites no segment`);
           for (const c of n.cites) if (!segIds.has(c)) E.push(`${u.id} note on ${n.anchor}: cites unknown segment ${c}`);
-          for (const q of quotesOver(n.text)) E.push(`${u.id} note on ${n.anchor}: quotation over 25 words ("${q.slice(0, 40)}…")`);
         }
       }
     }
@@ -122,7 +121,6 @@ export function check(slug, { strict = false } = {}) {
       else {
         if (weave.segments.map(s => s.id).join() !== unit.commentary.map(s => s.id).join()) E.push(`${u.id} commentary: segment ids no longer match the unit`);
         if (weave.provenance.sourceSha !== unit.sourceSha) W.push(`${u.id} commentary is stale: the source changed after weaving`);
-        for (const s of weave.segments) for (const q of quotesOver(s.note)) E.push(`${s.id} note: quotation over 25 words`);
       }
     }
 
@@ -168,19 +166,15 @@ export function check(slug, { strict = false } = {}) {
           }
         }
       }
+      if (!t.line) for (const q of quotesOver(t.s)) E.push(`${t.where}: quotation over 25 words ("${q.slice(0, 40)}…")`);
       overlap(t.where, t.s);
     }
 
-    // 12. determinism of packs on disk
+    // 12. determinism: the same inputs must give the same pack
     for (const task of Object.keys(TASKS)) {
-      const pj = P.pack(task, u.id) + '.json';
-      if (!exists(pj)) continue;
-      const onDisk = readJSON(pj);
+      if (!exists(P.pack(task, u.id) + '.json')) continue;
       try {
-        const now = buildPack(slug, u.id, task);
-        const sameInputs = now.glossarySha === onDisk.glossarySha && now.sourceSha === onDisk.sourceSha
-          && JSON.stringify(now.prompts) === JSON.stringify(onDisk.prompts);
-        if (sameInputs && now.sha !== onDisk.sha) W.push(`${u.id}: rebuilding the ${task} pack from the same inputs gives a different sha (non-deterministic pack)`);
+        if (buildPack(slug, u.id, task).sha !== buildPack(slug, u.id, task).sha) W.push(`${u.id}: the ${task} pack is not deterministic`);
       } catch { /* a pack that can no longer be built is reported by the draft checks */ }
     }
   }

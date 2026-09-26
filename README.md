@@ -6,3 +6,4 @@ the `gh-pages` branch holds those redirect pages and nothing else.
 
 - `study-the-verses.html`, `verses/` and `sitemap.xml` are generated: see `build/README.md`.
 - Analytics (Google Tag Manager + GA4) and Search Console setup: see `analytics/README.md`.
+- `translate/` is the illuminated translation engine (Claude drafts, a human reviews; first text the Charyapada): see `translate/README.md` and `translate/PLAN.md`. It is not deployed (`.vercelignore`); its published output goes to `translations/`.

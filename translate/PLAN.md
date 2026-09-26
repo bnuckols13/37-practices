@@ -1,5 +1,7 @@
 # Illuminated Translation Engine: plan
 
+> **Status (2026-09-26).** Milestone 1's engine is built and tested end to end on a fixture: import, segment, packs, session drafting, ingest, check, review sheets, accept and render. How to run it is in `translate/README.md`. Next is the pilot on songs 1, 10 and 14, which is waiting on their Bengali text and Munidatta's comments (paste them, or allow `bn.wikisource.org`).
+
 ## Context
 
 Brian wants a translation system in the spirit of **84000's Reading Room**. It should produce *illuminated* English translations, which means two layers:

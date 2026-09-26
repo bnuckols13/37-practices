@@ -5,7 +5,7 @@
   "description": "Claude drafts, a human reviews: illuminated translations with glossary-linked terms and woven commentary.",
   "engines": { "node": ">=22" },
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "cli": "node cli.mjs"
   },
   "dependencies": {

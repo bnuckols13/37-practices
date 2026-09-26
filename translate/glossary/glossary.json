@@ -1,3 +1,4702 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "id": "abhiseka",
+      "type": "term",
+      "status": "proposed",
+      "en": "empowerment",
+      "alt": [
+        "consecration",
+        "initiation"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞাজ্ঞানাভিষেকং",
+          "translit": "prajñājñānābhiṣekaṃ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "পরিপাট্যাভিষিক্তো",
+          "translit": "paripāṭyābhiṣikto",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "অভিষেকেণ",
+          "translit": "abhiṣekeṇa",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "অভিষেক",
+          "অভিষেকং",
+          "অভিষিক্তো",
+          "অভিষিক্তঃ",
+          "অভিষেকেণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A tantric rite by which a teacher admits a disciple to a practice. Munidatta describes a yogin, consecrated in due order and having pleased the true guru with offerings of pledge substances, receiving the wisdom-knowledge empowerment at midnight (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "ali",
+      "type": "term",
+      "status": "proposed",
+      "en": "āli",
+      "alt": [
+        "vowel series"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আলিনা",
+          "translit": "ālinā",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "san",
+          "script": "আলিকালিসমাযোগো",
+          "translit": "ālikālisamāyogo",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "আলি",
+          "আলিনা",
+          "আলিকালি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The series of Sanskrit vowels. Munidatta glosses the dhamaṇa of song 1 as āli, with the purification of the moon, and quotes the Dvikalpa: the union of āli and kāli is Vajrasattva's seat (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "status": "proposed",
+      "en": "joy",
+      "alt": [
+        "delight"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থানন্দ",
+          "translit": "caturthānanda",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বিরমানন্দে",
+          "translit": "viramānande",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সহজানন্দ",
+          "translit": "sahajānanda",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "আনন্দ",
+          "চতুর্থানন্দ",
+          "চতুর্থানন্দং",
+          "বিরমানন্দে",
+          "সহজানন্দ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Joy. The tantras Munidatta cites count four joys arising in yogic union; the order of the last two, the joy of cessation (viramānanda) and innate joy (sahajānanda), differs between systems. Munidatta calls great bliss 'the fourth joy' and speaks of knowing innate joy in the joy of cessation (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "status": "proposed",
+      "en": "avadhūtī",
+      "alt": [
+        "central channel"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবধূতী",
+          "translit": "avadhūtī",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "অবধূতিকা",
+          "translit": "avadhūtikā",
+          "att": "AS",
+          "where": "cp.10.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུན་འདར་མ",
+          "translit": "kun 'dar ma",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "san",
+          "script": "অবধূতিকা",
+          "translit": "avadhūtikā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "অবধূতী",
+          "অবধূতিকা",
+          "পরিশুদ্ধাবধূতী",
+          "অপরিশুদ্ধাবধূতিকা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Literally ‘she who has shaken off’: in tantric yoga, the central channel of the subtle body, running between a left and a right channel, into which the yogin draws the vital energies. Munidatta distinguishes a purified avadhūtī, which he equates with Nairātmā, from an unpurified one.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "boat",
+      "type": "term",
+      "status": "proposed",
+      "en": "boat",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নাবেঁ",
+          "translit": "nāvem̐",
+          "att": "AS",
+          "where": "cp.10.4b"
+        },
+        {
+          "lang": "san",
+          "script": "নৌকা",
+          "translit": "naukā",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "নাঈ",
+          "translit": "nāī",
+          "att": "AS",
+          "where": "cp.14.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নৌঃ",
+          "translit": "nauḥ",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নাবেঁ",
+          "নাব",
+          "নাঈ"
+        ],
+        "san": [
+          "নৌকা",
+          "নৌঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A river boat, one of the commonest images of the songs, with its ferryman, oars and crossings. In this song Kāṇha asks Ḍombī in whose boat she comes and goes.",
+      "symbolic": {
+        "image": "the boat in which Ḍombī comes and goes",
+        "readings": [
+          {
+            "referent": "the path of conventional bodhicitta, on which she comes and goes (he adds that in fact she does not)",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m5"
+            ]
+          },
+          {
+            "referent": "what lies in the middle: the channel of semen (śukranāḍikā) in the avadhūtī of the joy of cessation (the syntax of the gloss is loose)",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m2"
+            ]
+          },
+          {
+            "referent": "the path of the joy of cessation, purified by the innate",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m3"
+            ]
+          },
+          {
+            "referent": "purified bodhicitta, which the yogī is told to row",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "path",
+        "central channel",
+        "avadhūtī",
+        "channel"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "bodhicitta",
+      "type": "term",
+      "status": "proposed",
+      "en": "bodhicitta",
+      "alt": [
+        "mind of awakening"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বোধিচিত্তে",
+          "translit": "bodhicitte",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সংবৃত্তিবোধিচিত্তমৃগাঙ্কং",
+          "translit": "saṃvṛttibodhicittamṛgāṅkaṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বোধিচিত্তং",
+          "translit": "bodhicittaṃ",
+          "att": "AS",
+          "where": "cp.10.m2, cp.10.m8"
+        },
+        {
+          "lang": "san",
+          "script": "বোধিচিত্ত",
+          "translit": "bodhicitta",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱང་ཆུབ་ཀྱི་སེམས",
+          "translit": "byang chub kyi sems",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "san",
+          "script": "বোধিচিত্তং",
+          "translit": "bodhicittaṃ",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "বোধিচিত্ত",
+          "বোধিচিত্তে",
+          "বোধিচিত্তং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Mind of awakening'. In the Mahāyāna, the resolve to reach awakening for all beings; in the tantras also a subtle bodily essence whose loss must be prevented. Munidatta speaks of 'the moon of conventional bodhicitta' drying up, and quotes the Rativajra: once bodhicitta has fallen, how can there be flawless accomplishment? (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "bone-garland",
+      "type": "term",
+      "status": "proposed",
+      "en": "garland of bones",
+      "alt": [
+        "bone garland",
+        "necklace of bones"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হাড়েরি মালী",
+          "translit": "hāṛeri mālī",
+          "att": "AS",
+          "where": "cp.10.6b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "হাড়েরি মালী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A string of bone beads or carved bone ornaments, part of the regalia of kāpālika ascetics and tantric yogis. Kāṇha says he has put one on for Ḍombī's sake.",
+      "symbolic": {
+        "image": "a garland of bones",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "brahmin",
+      "type": "term",
+      "status": "proposed",
+      "en": "brahmin",
+      "alt": [
+        "Brahmin"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাহ্ম",
+          "translit": "bāhma",
+          "att": "AS",
+          "where": "cp.10.1b"
+        },
+        {
+          "lang": "san",
+          "script": "ব্রহ্মণ",
+          "translit": "brahmaṇa",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বাহ্ম"
+        ],
+        "san": [
+          "ব্রহ্মণেতি",
+          "ব্রহ্মণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A member of the priestly caste at the head of the caste order, bound by rules of ritual purity that forbid contact with untouchables. The first couplet of this song sets a shaven-headed brahmin beside Ḍombī's hut outside the town.",
+      "symbolic": {
+        "image": "a shaven-headed brahmin",
+        "readings": [
+          {
+            "referent": "the mind as a restless young brahmin (cittavaṭuka, ‘mind-lad’), born from the seed syllable HŪṂ called brahma",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "mind",
+        "citta",
+        "cittavaṭuka"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "camana",
+      "type": "term",
+      "status": "proposed",
+      "en": "camaṇa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চমণ",
+          "translit": "camaṇa",
+          "att": "AS",
+          "where": "cp.01.5b"
+        },
+        {
+          "lang": "san",
+          "script": "চবণং",
+          "translit": "cavaṇaṃ",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চমণ"
+        ],
+        "san": [
+          "চবণং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A word of uncertain literal sense in the last line of song 1, paired with dhamaṇa; the two appear as the seat on which the poet sits. It may be related to Sanskrit camana, 'sipping'. Munidatta spells it cavaṇa.",
+      "symbolic": {
+        "image": "camaṇa, one of the pair that serves as the poet's seat",
+        "readings": [
+          {
+            "referent": "kāli, the consonant series, with the purification of the sun",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "kāli",
+        "consonants",
+        "sun"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "carya",
+      "type": "term",
+      "status": "proposed",
+      "en": "conduct",
+      "alt": [
+        "caryā",
+        "practice",
+        "observance"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চর্য্যা",
+          "translit": "caryā",
+          "att": "AS",
+          "where": "cp.10.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྱོད་པ",
+          "translit": "spyod pa",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "চর্য্যা",
+          "চর্য্যাং",
+          "চর্য্যাধর"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Tantric conduct: the outward way of life of an adept, including dress, ornaments, song and behaviour that defies convention. The word gives the Caryāgīti, ‘songs of conduct’, their name. Munidatta speaks here of conduct ‘with elaboration’ (saprapañca).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "status": "proposed",
+      "en": "mind",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চীএ",
+          "translit": "cīe",
+          "att": "AS",
+          "where": "cp.01.1b"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তং",
+          "translit": "cittaṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চীএ"
+        ],
+        "san": [
+          "চিত্ত",
+          "চিত্তং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Mind: the stream of thought and awareness. Song 1 speaks of the restless mind. In a verse Munidatta quotes, the mind clouded by concepts, restless as windblown lightning and stained by passion is called saṃsāra (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "dhamana",
+      "type": "term",
+      "status": "proposed",
+      "en": "dhamaṇa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ধমণ",
+          "translit": "dhamaṇa",
+          "att": "AS",
+          "where": "cp.01.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ধবনং",
+          "translit": "dhavanaṃ",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ধমণ"
+        ],
+        "san": [
+          "ধবনং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A word of uncertain literal sense in the last line of song 1, paired with camaṇa; the two appear as the seat on which the poet sits. It may be related to Sanskrit dhamana, 'blowing'. Munidatta spells it dhavana.",
+      "symbolic": {
+        "image": "dhamaṇa, one of the pair that serves as the poet's seat",
+        "readings": [
+          {
+            "referent": "āli, the vowel series, with the purification of the moon",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "āli",
+        "vowels",
+        "moon"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "dhruvapada",
+      "type": "term",
+      "status": "proposed",
+      "en": "refrain",
+      "alt": [
+        "dhruvapada"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ধ্রুবপদেন",
+          "translit": "dhruvapadena",
+          "att": "AS",
+          "where": "cp.14.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "ধ্রুবপদেন",
+          "ধ্রুবপদ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The refrain of a song, usually its second couplet, sung again after each later couplet. Munidatta names it when commenting on it. The abbreviation ধ্রু in Shastri's edition is only a cue to repeat the refrain and is not translated.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "dombi",
+      "type": "term",
+      "status": "proposed",
+      "en": "Ḍombī",
+      "alt": [
+        "Ḍombinī"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ডোম্বি",
+          "translit": "ḍombi",
+          "att": "AS",
+          "where": "cp.10.1a, cp.10.2a, cp.10.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "ডোম্বী",
+          "translit": "ḍombī",
+          "att": "AS",
+          "where": "cp.10.3b, cp.10.4a, cp.10.5a, cp.10.6a, cp.10.7a, cp.10.7b"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বী",
+          "translit": "ḍombī",
+          "att": "AS",
+          "where": "cp.10.m1, cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বি",
+          "translit": "ḍombi",
+          "att": "AS",
+          "where": "cp.10.m3, cp.10.m6, cp.10.m7"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বিনী",
+          "translit": "ḍombinī",
+          "att": "AS",
+          "where": "cp.10.m8"
+        },
+        {
+          "lang": "oben",
+          "script": "ডোম্বী",
+          "translit": "ḍombī",
+          "att": "AS",
+          "where": "cp.14.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বী",
+          "translit": "ḍombī",
+          "att": "AS",
+          "where": "cp.14.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বি",
+          "translit": "ḍombi",
+          "att": "AS",
+          "where": "cp.14.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ডোম্বি",
+          "ডোম্বী"
+        ],
+        "san": [
+          "ডোম্বি",
+          "ডোম্বী",
+          "ডোম্বীতি",
+          "ডোম্বিনী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A woman of the Ḍom caste, a community that caste society treated as untouchable and kept at the edge of towns and villages. In Kāṇha's songs she is the woman the poet addresses and desires; in this song her hut stands outside the town, she dances on a lotus, and he says he will kill her.",
+      "symbolic": {
+        "image": "a Ḍom woman whose hut stands outside the town",
+        "readings": [
+          {
+            "referent": "Nairātmā (selflessness as a goddess), the purified avadhūtī; she is called Ḍombī because she cannot be touched",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m2"
+            ]
+          },
+          {
+            "referent": "Nairātmā, whom he addresses in place of Ḍombī (‘O Ḍombī, Nairātmā’)",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m3",
+              "cp.10.m5",
+              "cp.10.m6",
+              "cp.10.m7"
+            ]
+          },
+          {
+            "referent": "the unpurified avadhūtī, for one who lacks the guru's lineage",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m8"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "selflessness",
+        "Nairātmā",
+        "avadhūtī",
+        "central channel",
+        "goddess"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "ekarasa",
+      "type": "term",
+      "status": "proposed",
+      "en": "one taste",
+      "alt": [
+        "single taste",
+        "ekarasa"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "একরসতয়া",
+          "translit": "ekarasatayā",
+          "att": "AS",
+          "where": "cp.10.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རོ་གཅིག",
+          "translit": "ro gcig",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "একরসতয়া",
+          "একরস"
+        ]
+      },
+      "matchRe": {},
+      "definition": "‘One taste’: the realization that all things share a single nature, so that apparent opposites are not experienced as separate; a key term of siddha and Mahāmudrā teaching. Munidatta says Kṛṣṇācārya dances on the lotus with Nairātmā ‘in one taste’.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "grahya-grahaka",
+      "type": "term",
+      "status": "proposed",
+      "en": "the grasped and the grasper",
+      "alt": [
+        "object and subject"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গ্রাহ্যগ্রাহকৌ",
+          "translit": "grāhyagrāhakau",
+          "att": "AS",
+          "where": "cp.14.m2"
+        },
+        {
+          "lang": "san",
+          "script": "গ্রাহ্যগ্রাহকতয়া",
+          "translit": "grāhyagrāhakatayā",
+          "att": "AS",
+          "where": "cp.14.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "গ্রাহ্যগ্রাহকৌ",
+          "গ্রাহ্যগ্রাহকতয়া"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The pair 'what is grasped' and 'what grasps', object and subject. Buddhist thought, especially Yogācāra and the tantras, treats their apparent separation as the root of delusion. Munidatta applies the pair to the Gaṅgā and the Yamunā, and says Nairātmā accepts nothing in the manner of grasped and grasper.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "guru",
+      "type": "term",
+      "status": "proposed",
+      "en": "guru",
+      "alt": [
+        "teacher",
+        "true guru",
+        "true teacher"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গুরু",
+          "translit": "guru",
+          "att": "AS",
+          "where": "cp.01.2b"
+        },
+        {
+          "lang": "san",
+          "script": "শ্রীগুরূন্",
+          "translit": "śrīgurūn",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রগুরুণা",
+          "translit": "vajraguruṇā",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সদ্গুরোঃ",
+          "translit": "sadguroḥ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "শ্রীগুরৌ",
+          "translit": "śrīgurau",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "সদ্গুরু",
+          "translit": "sadguru",
+          "att": "AS",
+          "where": "cp.14.2b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "গুরু",
+          "সদ্গুরু"
+        ],
+        "san": [
+          "গুরূন্",
+          "শ্রীগুরূন্",
+          "গুরুণা",
+          "বজ্রগুরুণা",
+          "সদ্গুরোঃ",
+          "শ্রীগুরৌ",
+          "সদ্গুরু"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A spiritual teacher. The refrain of song 1 tells the listener to ask the guru. Munidatta stresses that empowerment and the key instruction come from the true guru, and quotes the Guhyasamāja: without the vajra guru one cannot reach nirvāṇa (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "guru-sampradaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "guru's lineage",
+      "alt": [
+        "lineage",
+        "tradition of the guru",
+        "sampradāya"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুসম্প্রদায়",
+          "translit": "gurusampradāya",
+          "att": "AS",
+          "where": "cp.10.m2, cp.10.m8"
+        },
+        {
+          "lang": "san",
+          "script": "অসম্প্রদায়",
+          "translit": "asampradāya",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "গুরুসম্প্রদায়াৎ",
+          "গুরুসম্প্রদায়",
+          "অসম্প্রদায়",
+          "সম্প্রদায়"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The unbroken transmission of practical instruction from teacher to student in tantric practice. Munidatta says Ḍombī's hut is known through it, and that for one who lacks it Ḍombī is the unpurified avadhūtī.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "hut",
+      "type": "term",
+      "status": "proposed",
+      "en": "hut",
+      "alt": [
+        "cottage"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুড়িআ",
+          "translit": "kuṛiā",
+          "att": "AS",
+          "where": "cp.10.1a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কুড়িআ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A small dwelling of thatch, bamboo or mud. In this song it is Ḍombī's hut, standing outside the town.",
+      "symbolic": {
+        "image": "Ḍombī's hut outside the town",
+        "readings": [
+          {
+            "referent": "the wheel of great bliss (mahāsukhacakra), beyond the reach of the senses and known through the guru's lineage (he calls it ‘your house’, tavāgāra)",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "wheel of great bliss",
+        "mahāsukhacakra",
+        "great bliss"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "jinapura",
+      "type": "term",
+      "status": "proposed",
+      "en": "city of the Jina",
+      "alt": [
+        "Jinapura",
+        "Jina's city"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জিণউরা",
+          "translit": "jiṇaurā",
+          "att": "AS",
+          "where": "cp.14.2b"
+        },
+        {
+          "lang": "san",
+          "script": "জিনপুরং",
+          "translit": "jinapuraṃ",
+          "att": "AS",
+          "where": "cp.14.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "জিণউরা"
+        ],
+        "san": [
+          "জিনপুর",
+          "জিনপুরং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'The city of the Jina' (the Victor, a title of the Buddha): the place the singer says he will reach again through the true guru. The Old Bengali jiṇaurā corresponds to Sanskrit jinapura, the form Munidatta uses.",
+      "symbolic": {
+        "image": "the city of the Jina, the goal of the crossing",
+        "readings": [
+          {
+            "referent": "the city of great bliss (mahāsukhapura)",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "great bliss",
+        "city of great bliss",
+        "mahāsukha",
+        "nirvāṇa"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "kabadi",
+      "type": "term",
+      "status": "proposed",
+      "en": "cowrie",
+      "alt": [
+        "cowrie shell"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কবডী",
+          "translit": "kabaḍī",
+          "att": "AS",
+          "where": "cp.14.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কপর্দ্দিকা",
+          "translit": "kapardikā",
+          "att": "AS",
+          "where": "cp.14.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কবডী",
+          "কবড়ী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A cowrie shell, used as small change in eastern India. In the song the ferrywoman takes no cowrie for the crossing; Munidatta compares the ordinary ferry-master, who takes a cowrie as the fare.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "kala",
+      "type": "term",
+      "status": "proposed",
+      "en": "Death",
+      "alt": [
+        "Time"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাল",
+          "translit": "kāla",
+          "att": "AS",
+          "where": "cp.01.1b"
+        },
+        {
+          "lang": "san",
+          "script": "কালঃ",
+          "translit": "kālaḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কাল"
+        ],
+        "san": [
+          "কালঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Kāla, 'time', and by extension death: time as the destroyer. In song 1 it enters the restless mind. Munidatta identifies it with Rāhu, the eclipse demon, and supports this with a verse of Kṛṣṇācārya in which the pure water dries up when the fire of time (kālāgni) enters (cp.01.m2).",
+      "symbolic": {
+        "image": "Kāla, time or death, entering the restless mind",
+        "readings": [
+          {
+            "referent": "Rāhu, who from the first day of the dark fortnight dries up the moon of conventional bodhicitta through the sequence of lunar days",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "Rāhu"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "kali",
+      "type": "term",
+      "status": "proposed",
+      "en": "kāli",
+      "alt": [
+        "consonant series"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কালিনা",
+          "translit": "kālinā",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "san",
+          "script": "আলিকালিসমাযোগো",
+          "translit": "ālikālisamāyogo",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "কালিনা",
+          "আলিকালি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The series of Sanskrit consonants. Munidatta glosses the camaṇa of song 1 as kāli, with the purification of the sun, and quotes the union of āli and kāli as Vajrasattva's seat (cp.01.m6). Not to be confused with kāla or the goddess Kālī.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "kapalika",
+      "type": "term",
+      "status": "proposed",
+      "en": "kāpālika",
+      "alt": [
+        "kāpāli",
+        "kapālī",
+        "skull-bearer"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাপালি",
+          "translit": "kāpāli",
+          "att": "AS",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "কপালী",
+          "translit": "kapālī",
+          "att": "AS",
+          "where": "cp.10.6a"
+        },
+        {
+          "lang": "san",
+          "script": "কাপালিকঃ",
+          "translit": "kāpālikaḥ",
+          "att": "AS",
+          "where": "cp.10.m7"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কাপালি",
+          "কপালী"
+        ],
+        "san": [
+          "কাপালিকঃ",
+          "কাপালিক"
+        ]
+      },
+      "matchRe": {},
+      "definition": "An ascetic who carries a skull-bowl, wears ornaments of bone, keeps to cremation grounds and ignores the rules of caste purity; the observance is found in Śaiva and Buddhist tantric circles alike. Kāṇha calls himself one and puts on a garland of bones for Ḍombī.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "keruala",
+      "type": "term",
+      "status": "proposed",
+      "en": "oar",
+      "alt": [
+        "paddle"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কেড়ুআল",
+          "translit": "keṛuāla",
+          "att": "AS",
+          "where": "cp.14.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "কেড়ুআল",
+          "translit": "keṛuāla",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কেড়ুআল"
+        ]
+      },
+      "matchRe": {},
+      "definition": "An oar, or perhaps a steering paddle, of a boat. In this song there are five of them; what exactly is done with them in the line is uncertain.",
+      "symbolic": {
+        "image": "five oars",
+        "readings": [
+          {
+            "referent": "the instruction of the Five Stages (pañcakrama), which the yogī takes up",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "Five Stages",
+        "pañcakrama",
+        "instruction"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "klesa",
+      "type": "term",
+      "status": "proposed",
+      "en": "affliction",
+      "alt": [
+        "afflictive emotion",
+        "defilement"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বক্লেশপ্রহাণকং",
+          "translit": "sarvvakleśaprahāṇakaṃ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "ক্লেশ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The afflictions: disturbing mental states such as desire, hatred and delusion that keep beings in saṃsāra. In the Guhyasamāja verse Munidatta quotes, nirvāṇa is the state that removes all afflictions, reached only with the vajra guru (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "kula-shore",
+      "type": "term",
+      "status": "proposed",
+      "en": "shore",
+      "alt": [
+        "bank"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুল",
+          "translit": "kula",
+          "att": "AS",
+          "where": "cp.14.5b"
+        },
+        {
+          "lang": "oben",
+          "script": "কুলেঁ",
+          "translit": "kulem̐",
+          "att": "AS",
+          "where": "cp.14.5b"
+        },
+        {
+          "lang": "san",
+          "script": "কুলে",
+          "translit": "kule",
+          "att": "AS",
+          "where": "cp.14.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কুল",
+          "কুলেঁ"
+        ],
+        "san": [
+          "কুলে"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The bank or shore of a river (Sanskrit kūla; the manuscript writes kula). The last line has someone sinking at the shore, or 'shore after shore'. The spelling coincides with kula, 'family, clan', a different word that needs its own entry.",
+      "symbolic": {
+        "image": "the river bank at which those who climbed into the chariot sink",
+        "readings": [
+          {
+            "referent": "the body (śarīra), in which yogis proud of outer treatises, not knowing selflessness, wander",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "body"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "lake",
+      "type": "term",
+      "status": "proposed",
+      "en": "lake",
+      "alt": [
+        "pool",
+        "pond"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সরবর",
+          "translit": "sarabara",
+          "att": "AS",
+          "where": "cp.10.7a"
+        },
+        {
+          "lang": "san",
+          "script": "সরোবর",
+          "translit": "sarovara",
+          "att": "AS",
+          "where": "cp.10.m8"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সরবর"
+        ],
+        "san": [
+          "সরোবরং",
+          "সরোবর"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A lake or large pond, typically one where lotuses grow. In this song Ḍombī breaks the lake and eats the lotus root.",
+      "symbolic": {
+        "image": "the lake that Ḍombī breaks",
+        "readings": [
+          {
+            "referent": "the body, as a lotus pool (kāyapuṣkara)",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m8"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "the body",
+        "body-pool"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "lotus",
+      "type": "term",
+      "status": "proposed",
+      "en": "lotus",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পদমা",
+          "translit": "padamā",
+          "att": "AS",
+          "where": "cp.10.3a"
+        },
+        {
+          "lang": "san",
+          "script": "পদ্ম",
+          "translit": "padma",
+          "att": "AS",
+          "where": "cp.10.m4, cp.10.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পদমা"
+        ],
+        "san": [
+          "পদ্ম"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The water flower that rises unstained from the mud, a pervasive image in Indian religious poetry. In this song there is one lotus with sixty-four petals, on which Ḍombī climbs and dances.",
+      "symbolic": {
+        "image": "one lotus with sixty-four petals",
+        "readings": [
+          {
+            "referent": "the wheel of emanation (nirmāṇacakra), which has sixty-four petals",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "nirmāṇacakra",
+        "wheel of emanation",
+        "cakra"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "lotus-root",
+      "type": "term",
+      "status": "proposed",
+      "en": "lotus root",
+      "alt": [
+        "lotus stalk"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোলাণ",
+          "translit": "molāṇa",
+          "att": "AS",
+          "where": "cp.10.7a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মোলাণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The edible root and stalk of the lotus (Sanskrit mṛṇāla), gathered from the bed of a pond. In this song Ḍombī breaks the lake and eats it.",
+      "symbolic": {
+        "image": "the lotus root that Ḍombī eats",
+        "readings": [
+          {
+            "referent": "bodhicitta, which in its conventional aspect has the form of semen (he calls it the lake's ‘root’, mūla)",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m8"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "semen"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "mahamudra",
+      "type": "term",
+      "status": "proposed",
+      "en": "Mahāmudrā",
+      "alt": [
+        "mahāmudrā",
+        "Great Seal"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহামুদ্রাং",
+          "translit": "mahāmudrāṃ",
+          "att": "AS",
+          "where": "cp.10.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱག་རྒྱ་ཆེན་པོ",
+          "translit": "phyag rgya chen po",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "মহামুদ্রাং",
+          "মহামুদ্রা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "‘Great Seal’: in the yoginī tantras, the highest accomplishment (siddhi), the realization of the nature of mind and reality. Munidatta has Kāṇha say that through union with Nairātmā he attains the accomplishment of Mahāmudrā, whose nature is wisdom and means.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "maharaganaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "way of great passion",
+      "alt": [
+        "method of great passion"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহারাগনয়",
+          "translit": "mahārāganaya",
+          "att": "AS",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মহারাগনয়ে",
+          "translit": "mahārāganaye",
+          "att": "AS",
+          "where": "cp.01.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "মহারাগনয়",
+          "মহারাগনয়ে"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Munidatta's name for the path of the songs, in which passion is itself the means of freedom rather than something to be suppressed by austerity. He contrasts it with ascetic observances and cites the Hevajra: the world is bound by passion and freed by passion itself (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "mahasukha",
+      "type": "term",
+      "status": "proposed",
+      "en": "great bliss",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহাসুহ",
+          "translit": "mahāsuha",
+          "att": "AS",
+          "where": "cp.01.2a"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখং",
+          "translit": "mahāsukhaṃ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখ",
+          "translit": "mahāsukha",
+          "att": "AS",
+          "where": "cp.14.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মহাসুহ"
+        ],
+        "san": [
+          "মহাসুখ",
+          "মহাসুখং",
+          "মহাসুখপুরং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Great bliss: the highest bliss, which the tantric path of the songs takes as its goal. Munidatta equates it with the fourth joy and speaks of the great bliss of innate joy, to be known day and night after questioning the guru (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "mahasukha-cakra",
+      "type": "term",
+      "status": "proposed",
+      "en": "wheel of great bliss",
+      "alt": [
+        "mahāsukhacakra"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখচক্রং",
+          "translit": "mahāsukhacakraṃ",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "মহাসুখচক্রং",
+          "মহাসুখচক্র"
+        ]
+      },
+      "matchRe": {},
+      "definition": "In the yoginī-tantra map of the subtle body, the highest of the four wheels (cakra), at the crown of the head, pictured as a lotus of thirty-two petals. Munidatta identifies Ḍombī's hut outside the town with it.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "matangi",
+      "type": "term",
+      "status": "proposed",
+      "en": "Mātaṅgī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাতঙ্গি",
+          "translit": "mātaṅgi",
+          "att": "AS",
+          "where": "cp.14.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মাতঙ্গি",
+          "মাতঙ্গী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A woman of the Mātaṅga, a community ranked outside caste society, comparable to the Ḍom. In this song she is the one who ferries across, between the Gaṅgā and the Yamunā. The word can also mean a female elephant, a sense that does not seem to be meant here.",
+      "symbolic": {
+        "image": "an outcaste woman who ferries people across the river",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "selflessness",
+        "Nairātmā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "moon",
+      "type": "term",
+      "status": "proposed",
+      "en": "moon",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মৃগাঙ্কং",
+          "translit": "mṛgāṅkaṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "শশি",
+          "translit": "śaśi",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "চন্দ",
+          "translit": "canda",
+          "att": "AS",
+          "where": "cp.14.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "চান্দ",
+          "translit": "cānda",
+          "att": "AS",
+          "where": "cp.14.m5"
+        },
+        {
+          "lang": "san",
+          "script": "চন্দ্রং",
+          "translit": "candraṃ",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "মৃগাঙ্ক",
+          "মৃগাঙ্কং",
+          "শশি",
+          "চন্দ্রং",
+          "চন্দ্র"
+        ],
+        "oben": [
+          "চন্দ",
+          "চান্দ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The moon. In song 14 the moon and the sun are the two wheels; in the commentary on song 1 Munidatta speaks of the moon of conventional bodhicitta, which Rāhu swallows.",
+      "symbolic": {
+        "image": "the moon",
+        "readings": [
+          {
+            "referent": "conventional bodhicitta",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m2"
+            ]
+          },
+          {
+            "referent": "the knowledge of wisdom (prajñājñāna)",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m5"
+            ]
+          },
+          {
+            "referent": "with the sun and the pulinda, one of three 'appearances' (ābhāsa) that bring about the making and unmaking of saṃsāra, which practice brings to a stop",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "wisdom",
+        "prajñā",
+        "left channel",
+        "lalanā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nairatma",
+      "type": "term",
+      "status": "proposed",
+      "en": "Nairātmā",
+      "alt": [
+        "selflessness",
+        "Selflessness"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নৈরাত্মা",
+          "translit": "nairātmā",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মে",
+          "translit": "nairātme",
+          "att": "AS",
+          "where": "cp.10.m3, cp.10.m5, cp.10.m6, cp.10.m7"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্ময়া",
+          "translit": "nairātmayā",
+          "att": "AS",
+          "where": "cp.10.m4, cp.10.m5"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মধর্ম্ম",
+          "translit": "nairātmadharma",
+          "att": "AS",
+          "where": "cp.10.m1, cp.10.m6"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মাধিগমং",
+          "translit": "nairātmādhigamaṃ",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་མ",
+          "translit": "bdag med ma",
+          "att": "AD",
+          "where": "standard Tibetan name of the goddess; not checked against toh2293"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মা",
+          "translit": "nairātmā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "নৈরাত্মা",
+          "নৈরাত্মে",
+          "নৈরাত্ময়া",
+          "নৈরাত্মধর্ম্ম",
+          "নৈরাত্মাধিগমং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Selflessness, the absence of an inherent self in persons and phenomena, personified in the Hevajra tradition as a goddess, Nairātmā, ‘She who is without self’. Munidatta uses the word both for the goddess, whom he addresses in place of Ḍombī, and for selflessness as a doctrine.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nairatmya",
+      "type": "term",
+      "status": "proposed",
+      "en": "selflessness",
+      "alt": [
+        "absence of self"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নৈরাত্ম",
+          "translit": "nairātma",
+          "att": "AS",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মবোধকুলিশেন",
+          "translit": "nairātmabodhakuliśena",
+          "att": "AS",
+          "where": "cp.01.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "নৈরাত্ম",
+          "নৈরাত্ম্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Selflessness: the absence of a self. Munidatta uses the term in glossing lines 4a-4b of song 1, and quotes a verse in which the vajra of realizing selflessness splits the mountains of the view of a real self (cp.01.m5). The Hevajra tradition personifies it as the goddess Nairātmyā.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nirghrna",
+      "type": "term",
+      "status": "proposed",
+      "en": "without disgust",
+      "alt": [
+        "free of disgust",
+        "shameless"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিঘিণ",
+          "translit": "nighiṇa",
+          "att": "AS",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "san",
+          "script": "নির্ঘৃণ",
+          "translit": "nirghṛṇa",
+          "att": "AS",
+          "where": "cp.10.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নিঘিণ"
+        ],
+        "san": [
+          "নির্ঘৃণো",
+          "নির্ঘৃণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Free of revulsion: untroubled by the disgust that caste purity attaches to impure people, places and substances. Kāṇha uses the word of himself, and Munidatta explains it as being free of faults such as shame.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nirmana-cakra",
+      "type": "term",
+      "status": "proposed",
+      "en": "wheel of emanation",
+      "alt": [
+        "nirmāṇacakra",
+        "emanation wheel"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নির্ম্মাণচক্রং",
+          "translit": "nirmāṇacakraṃ",
+          "att": "AS",
+          "where": "cp.10.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྲུལ་པའི་འཁོར་ལོ",
+          "translit": "sprul pa'i 'khor lo",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "নির্ম্মাণচক্রং",
+          "নির্ম্মাণচক্র"
+        ]
+      },
+      "matchRe": {},
+      "definition": "In the yoginī-tantra map of the subtle body, the wheel (cakra) at the navel, the lowest of four along the central channel, pictured as a lotus of sixty-four petals. Munidatta identifies the song's lotus with it.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nirvana",
+      "type": "term",
+      "status": "proposed",
+      "en": "nirvāṇa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নির্ব্বাণঞ্চ",
+          "translit": "nirvvāṇañca",
+          "att": "AS",
+          "where": "cp.01.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "নির্ব্বাণ",
+          "নির্ব্বাণঞ্চ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The cessation of suffering and its causes; freedom from saṃsāra. Munidatta quotes the Guhyasamāja: without the vajra guru one cannot reach nirvāṇa, the peaceful, irreversible state that removes all afflictions (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-aryadeva",
+      "type": "person",
+      "status": "proposed",
+      "en": "Āryadeva",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আর্য্যদেবপাদৈঃ",
+          "translit": "āryyadevapādaiḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "আর্য্যদেব",
+          "আর্য্যদেবপাদৈঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Teacher whom Munidatta quotes as saying that the awakening of the completion stage cannot be realized without passing through the five stages in order (cp.01.m2). Tantric tradition places an Āryadeva in the Guhyasamāja lineage as a disciple of Nāgārjuna.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-bhagavat",
+      "type": "person",
+      "status": "proposed",
+      "en": "Blessed One",
+      "alt": [
+        "Bhagavān"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভগবতঃ",
+          "translit": "bhagavataḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভগবতৈব",
+          "translit": "bhagavataiva",
+          "att": "AS",
+          "where": "cp.01.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "ভগবতঃ",
+          "ভগবতৈব",
+          "ভগবতা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'The Blessed One', a common epithet of the Buddha, used in the tantras also of the buddha who teaches them. Munidatta speaks of the Blessed One's five stages (cp.01.m2) and of the countless absorptions the Blessed One taught (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-dombi",
+      "type": "person",
+      "status": "proposed",
+      "en": "Ḍombīpāda",
+      "alt": [
+        "Ḍombī"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ডোম্বীপাদানাং",
+          "translit": "ḍombīpādānāṃ",
+          "att": "AS",
+          "where": "cp.14.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বী",
+          "translit": "ḍombī",
+          "att": "AS",
+          "where": "cp.14.m1"
+        }
+      ],
+      "match": {
+        "san": [
+          "ডোম্বীপাদানাং",
+          "ডোম্বীপাদ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Ḍombīpāda, the siddha to whom the manuscript attributes this song. Munidatta introduces him as the siddhācārya Ḍombī, steeped in supreme compassion, who sets out the teaching under the guise of a boat journey. The name is the word for a Ḍom woman with the honorific -pāda.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-heruka",
+      "type": "person",
+      "status": "proposed",
+      "en": "Heruka",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "হেরুক",
+          "translit": "heruka",
+          "att": "AS",
+          "where": "cp.10.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཧེ་རུ་ཀ",
+          "translit": "he ru ka",
+          "att": "AD",
+          "where": "standard Tibetan transcription; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "হেরুকরূপেণ",
+          "হেরুক"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A wrathful tantric deity, and a title of Hevajra and related male deities of the yoginī tantras. In the Hevajra Tantra verse Munidatta quotes, the practitioner is told to dance in Heruka's form.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "status": "proposed",
+      "en": "Kāṇha",
+      "alt": [
+        "Kṛṣṇācārya",
+        "Kāṇhapāda"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যপাদৈঃ",
+          "translit": "kṛṣṇācāryyapādaiḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "কাহ্ন",
+          "translit": "kāhna",
+          "att": "AS",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণপাদাঃ",
+          "translit": "kṛṣṇapādāḥ",
+          "att": "AS",
+          "where": "cp.10.m1"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণপাদেন",
+          "translit": "kṛṣṇapādena",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যো",
+          "translit": "kṛṣṇācāryo",
+          "att": "AS",
+          "where": "cp.10.m4"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যেণ",
+          "translit": "kṛṣṇācāryeṇa",
+          "att": "AS",
+          "where": "cp.10.m7"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যপাদাঃ",
+          "translit": "kṛṣṇācāryapādāḥ",
+          "att": "AS",
+          "where": "cp.10.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པ",
+          "translit": "nag po spyod pa",
+          "att": "AD",
+          "where": "standard Tibetan name for Kṛṣṇācārya; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "কৃষ্ণাচার্য্য",
+          "কৃষ্ণাচার্য্যপাদৈঃ",
+          "কৃষ্ণপাদাঃ",
+          "কৃষ্ণপাদেন",
+          "কৃষ্ণপাদ",
+          "কৃষ্ণাচার্য্যো",
+          "কৃষ্ণাচার্য্যেণ",
+          "কৃষ্ণাচার্য্যপাদাঃ"
+        ],
+        "oben": [
+          "কাহ্ন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Siddha poet, called Kṛṣṇācārya in Sanskrit, to whom songs of this collection are attributed. Munidatta quotes a verse of his in which the pure water dries up when the fire of time (kālāgni) enters (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-luyi",
+      "type": "person",
+      "status": "proposed",
+      "en": "Lūyī",
+      "alt": [
+        "Lūyīpāda",
+        "Lūipāda"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লুই",
+          "translit": "lui",
+          "att": "AS",
+          "where": "cp.01.2b"
+        },
+        {
+          "lang": "san",
+          "script": "লূইপাদঃ",
+          "translit": "lūipādaḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "লূয়ীপাদেন",
+          "translit": "lūyīpādena",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "লুই"
+        ],
+        "san": [
+          "লূইপাদঃ",
+          "লূয়ীপাদ",
+          "লূয়ীপাদেন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Siddha poet of eastern India to whom song 1 is attributed; he names himself in its refrain and last couplet. Munidatta names him first among the siddhas who composed the songs (cp.01.m1) and calls him 'the first siddha master', ādisiddhācārya (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-nagarjuna",
+      "type": "person",
+      "status": "proposed",
+      "en": "Nāgārjuna",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নাগার্জ্জুনপাদৈঃ",
+          "translit": "nāgārjjunapādaiḥ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "নাগার্জ্জুন",
+          "নাগার্জ্জুনপাদৈঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Teacher to whom Munidatta attributes a verse on vajra recitation (vajrajāpa): one who falls from a mountaintop falls though unwilling, and one who has the guru's instruction is freed though not seeking freedom (cp.01.m3). Tantric tradition credits a Nāgārjuna with Guhyasamāja works; whether he is the Madhyamaka philosopher is disputed.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-rahu",
+      "type": "person",
+      "status": "proposed",
+      "en": "Rāhu",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রাহুঃ",
+          "translit": "rāhuḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "রাহু",
+          "রাহুঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "In Indian myth, the demon who swallows the sun or moon and so causes eclipses. Munidatta identifies the Kāla of song 1 with Rāhu, who from the first day of the dark fortnight dries up the moon of conventional bodhicitta through the sequence of lunar days (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "status": "proposed",
+      "en": "Saraha",
+      "alt": [
+        "Sarahapāda"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সরহপাদৈঃ",
+          "translit": "sarahapādaiḥ",
+          "att": "AS",
+          "where": "cp.01.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "সরহ",
+          "সরহপাদ",
+          "সরহপাদৈঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Siddha poet famous for his dohās, rhymed couplet songs. Munidatta quotes him praising the true guru (cp.01.m3) and asking how the tender sprout of mind, if not watered with the pure juices of sense objects, could become the wish-granting tree (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-vajrasattva",
+      "type": "person",
+      "status": "proposed",
+      "en": "Vajrasattva",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রসত্ত্বস্য",
+          "translit": "vajrasattvasya",
+          "att": "AS",
+          "where": "cp.01.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "বজ্রসত্ত্ব",
+          "বজ্রসত্ত্বস্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Vajra being', a buddha form central to many tantric systems. Munidatta ends his comment on song 1 with a verse from the Dvikalpa: the union of āli and kāli is Vajrasattva's seat (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "pancakrama",
+      "type": "term",
+      "status": "proposed",
+      "en": "five stages",
+      "alt": [
+        "Pañcakrama"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পঞ্চক্রম",
+          "translit": "pañcakrama",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "পঞ্চক্রমানুপূর্ব্বেণ",
+          "translit": "pañcakramānupūrvveṇa",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "পঞ্চক্রম",
+          "translit": "pañcakrama",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "পঞ্চক্রম",
+          "পঞ্চক্রমানুপূর্ব্বেণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A graded sequence of five stages of tantric yoga, associated with the Guhyasamāja tradition and with a work of the same name. Munidatta says those who seek innate joy through the Blessed One's five stages realize the vajra-like absorption, and cites Āryadeva: without them completion-stage awakening cannot be realized (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "para",
+      "type": "term",
+      "status": "proposed",
+      "en": "across",
+      "alt": [
+        "the far shore",
+        "the other side"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পার",
+          "translit": "pāra",
+          "att": "AS",
+          "where": "cp.14.1b"
+        },
+        {
+          "lang": "san",
+          "script": "পারং",
+          "translit": "pāraṃ",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পার"
+        ],
+        "san": [
+          "পারং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The far bank of a river, used in the phrase pāra kar-, 'take across, ferry over'. Crossing to the far shore is a widespread Buddhist image; Munidatta places the crossing in this song on the ocean of saṃsāra.",
+      "symbolic": {
+        "image": "ferrying someone over to the far bank",
+        "readings": [
+          {
+            "referent": "crossing the ocean of saṃsāra (cp.14.m2), the sea of becoming (cp.14.m6)",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m2",
+              "cp.14.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "nirvāṇa",
+        "liberation",
+        "saṃsāra"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "pl-ganga",
+      "type": "place",
+      "status": "proposed",
+      "en": "Gaṅgā",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঙ্গা",
+          "translit": "gaṅgā",
+          "att": "AS",
+          "where": "cp.14.1a"
+        },
+        {
+          "lang": "san",
+          "script": "গঙ্গা",
+          "translit": "gaṅgā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "গঙ্গা"
+        ],
+        "san": [
+          "গঙ্গা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The Ganges, the chief river of northern India, sacred in Indian religion. In this song a boat moves between the Gaṅgā and the Yamunā, the two rivers that meet at Prayāga.",
+      "symbolic": {
+        "image": "the river Gaṅgā, one of the two rivers the boat moves between",
+        "readings": [
+          {
+            "referent": "together with the Yamunā, the 'moon-appearance' and the 'sun-appearance' (candrābhāsa, sūryābhāsa), which are the grasped object and the grasping subject; pairing the Gaṅgā with the moon and the grasped follows word order only",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "moon-appearance",
+        "the grasped",
+        "grasped object",
+        "left channel",
+        "lalanā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "pl-yamuna",
+      "type": "place",
+      "status": "proposed",
+      "en": "Yamunā",
+      "alt": [
+        "Jaunā"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জউনা",
+          "translit": "jaunā",
+          "att": "AS",
+          "where": "cp.14.1a"
+        },
+        {
+          "lang": "san",
+          "script": "যমুনা",
+          "translit": "yamunā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "জউনা"
+        ],
+        "san": [
+          "যমুনা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The Yamunā (Jumna), the great river that joins the Ganges at Prayāga. The song uses the vernacular form Jaunā; Munidatta has the Sanskrit Yamunā.",
+      "symbolic": {
+        "image": "the river Yamunā, one of the two rivers the boat moves between",
+        "readings": [
+          {
+            "referent": "together with the Gaṅgā, the 'moon-appearance' and the 'sun-appearance' (candrābhāsa, sūryābhāsa), which are the grasped object and the grasping subject; pairing the Yamunā with the sun and the grasper follows word order only",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "sun-appearance",
+        "the grasper",
+        "grasping subject",
+        "right channel",
+        "rasanā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "prajnopaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "wisdom and means",
+      "alt": [
+        "wisdom and method",
+        "prajñā and upāya"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞোপায়",
+          "translit": "prajñopāya",
+          "att": "AS",
+          "where": "cp.10.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤེས་རབ་དང་ཐབས",
+          "translit": "shes rab dang thabs",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "প্রজ্ঞোপায়াত্মিকাং",
+          "প্রজ্ঞোপায়াত্মকং",
+          "প্রজ্ঞোপায়"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The pairing of wisdom (prajñā), the understanding of emptiness, with means (upāya), compassionate method. In the yoginī tantras the two are pictured as female and male and their union is the goal. Munidatta describes Mahāmudrā, and the Hevajra Tantra itself, as having the nature of wisdom and means.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "pulinda",
+      "type": "term",
+      "status": "proposed",
+      "en": "pulinda",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পুলিন্দা",
+          "translit": "pulindā",
+          "att": "AS",
+          "where": "cp.14.4a"
+        },
+        {
+          "lang": "san",
+          "script": "পুলিন্দং",
+          "translit": "pulindaṃ",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পুলিন্দা"
+        ],
+        "san": [
+          "পুলিন্দং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A word of uncertain sense in this song, set with 'creation and destruction' after the moon and sun are named as the two wheels. In Sanskrit Pulinda is the name of a forest-dwelling people; what it denotes in the boat scene is unclear, so the source form is kept for now.",
+      "symbolic": {
+        "image": "pulinda (literal sense uncertain)",
+        "readings": [
+          {
+            "referent": "'the neuter' (napuṃsaka), in twilight language; the phrase 'nondual knowledge' just before it in the gloss may also belong to it",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m5"
+            ]
+          },
+          {
+            "referent": "with the moon and the sun, one of three 'appearances' (ābhāsa) that make and unmake saṃsāra",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "neuter",
+        "napuṃsaka",
+        "nondual knowledge",
+        "eunuch"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "raga",
+      "type": "term",
+      "status": "proposed",
+      "en": "rāga",
+      "alt": [
+        "melody"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রাগপটমঞ্জরী",
+          "translit": "rāgapaṭamañjarī",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "রাগ",
+          "translit": "rāga",
+          "att": "AS",
+          "where": "cp.10.h1"
+        },
+        {
+          "lang": "oben",
+          "script": "রাগ",
+          "translit": "rāga",
+          "att": "AS",
+          "where": "cp.14.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "রাগ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A melodic mode of Indian music. Each song is headed by the rāga to which it is sung; song 1 is in Paṭamañjarī. In the commentary the same word rāga also means 'passion', a different term (see way of great passion).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "sahaja",
+      "type": "term",
+      "status": "proposed",
+      "en": "innate",
+      "alt": [
+        "the innate",
+        "sahaja"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সহজানন্দফলং",
+          "translit": "sahajānandaphalaṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সহজানন্দমহাসুখং",
+          "translit": "sahajānandamahāsukhaṃ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সহজং",
+          "translit": "sahajaṃ",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "san",
+          "script": "সহজময়ত্বেন",
+          "translit": "sahajamayatvena",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་པ",
+          "translit": "lhan cig skyes pa",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "san",
+          "script": "সহজ",
+          "translit": "sahaja",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সহজ",
+          "সহজং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The innate: what is inborn and unfabricated, a central idea of the siddhas' songs. Munidatta speaks of 'the fruit, innate joy', in the form of coupled union (cp.01.m2) and of 'the great bliss of innate joy' (cp.01.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "sahajananda",
+      "type": "term",
+      "status": "proposed",
+      "en": "innate joy",
+      "alt": [
+        "joy of the innate",
+        "sahajānanda"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সহজানন্দেন",
+          "translit": "sahajānandena",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "সহজানন্দেন",
+          "সহজানন্দ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Innate joy', one of the four joys of tantric yoga (joy, supreme joy, joy of cessation, innate joy); traditions differ over the order of the last two. Munidatta says bodhicitta is opened by it.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "samadhi",
+      "type": "term",
+      "status": "proposed",
+      "en": "samādhi",
+      "alt": [
+        "meditative absorption",
+        "absorption"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সমাহিঅ",
+          "translit": "samāhia",
+          "att": "AS",
+          "where": "cp.01.3a"
+        },
+        {
+          "lang": "san",
+          "script": "সমাহী",
+          "translit": "samāhī",
+          "att": "AS",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সমাধয়ঃ",
+          "translit": "samādhayaḥ",
+          "att": "AS",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সমাধিভিঃ",
+          "translit": "samādhibhiḥ",
+          "att": "AS",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সমাধিং",
+          "translit": "samādhiṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সমাহিঅ",
+          "স[মা]হিঅ"
+        ],
+        "san": [
+          "সমাহী",
+          "সমাধি",
+          "সমাধয়ঃ",
+          "সমাধিভিঃ",
+          "সমাধিং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Meditative absorption: a settled, one-pointed state of mind. Song 1 asks what all the samādhis are for. Munidatta explains that the absorptions taught for restraining the senses, like harsh fasting observances, achieve nothing on the way of great passion, because they lack bliss (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "samsara",
+      "type": "term",
+      "status": "proposed",
+      "en": "saṃsāra",
+      "alt": [
+        "cyclic existence"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সংসারম্",
+          "translit": "saṃsāram",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সংসারচক্রং",
+          "translit": "saṃsāracakraṃ",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সংসারস্য",
+          "translit": "saṃsārasya",
+          "att": "AS",
+          "where": "cp.14.m5"
+        },
+        {
+          "lang": "san",
+          "script": "সংসার",
+          "translit": "saṃsāra",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সংসার",
+          "সংসারম্",
+          "সংসারচক্রং",
+          "সংসারস্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The round of birth and death in which beings wander, driven by ignorance and craving. In a verse Munidatta quotes from the Sampuṭodbhava, the Vajra-holder calls the mind itself saṃsāra when it is clouded by concepts, restless as lightning and stained by passion (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "samvrti",
+      "type": "term",
+      "status": "proposed",
+      "en": "conventional",
+      "alt": [
+        "relative",
+        "saṃvṛti"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সংবৃত্তি",
+          "translit": "saṃvṛti",
+          "att": "AS",
+          "where": "cp.10.m2, cp.10.m5"
+        },
+        {
+          "lang": "san",
+          "script": "সংবৃত্ত্যা",
+          "translit": "saṃvṛtyā",
+          "att": "AS",
+          "where": "cp.10.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུན་རྫོབ",
+          "translit": "kun rdzob",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "সংবৃত্তি",
+          "সংবৃত্ত্যা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The conventional or relative level of truth, things as they appear and are spoken of, as opposed to the ultimate. Munidatta uses it for the conventional aspect of bodhicitta, which he describes as having the form of semen.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "sandhya-bhasa",
+      "type": "term",
+      "status": "proposed",
+      "en": "twilight language",
+      "alt": [
+        "intentional language",
+        "sandhyābhāṣā"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সন্ধ্যাভাসা",
+          "translit": "sandhyābhāsā",
+          "att": "AS",
+          "where": "cp.10.m1"
+        },
+        {
+          "lang": "san",
+          "script": "সন্ধ্যাভাষয়া",
+          "translit": "sandhyābhāṣayā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সন্ধ্যয়া",
+          "translit": "sandhyayā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সন্ধ্যাভাসয়া",
+          "সন্ধ্যাভাসা",
+          "সন্ধ্যাভাষা",
+          "সন্ধ্যাভাষয়া",
+          "সন্ধ্যয়া"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The coded idiom of the songs, in which ordinary images such as an outcaste woman, a boat or a lotus carry a hidden sense disclosed by a teacher. Munidatta says Kāṇha speaks here ‘in the twilight language of the word Ḍombī’. Whether sandhyā ‘twilight’ or sandhā ‘intention’ is meant is debated.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "satyadvaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "two truths",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সত্যদ্বয়",
+          "translit": "satyadvaya",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সত্যদ্বয়"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The two truths of Mahāyāna thought: conventional truth (saṃvṛti), how things appear and function, and ultimate truth, their emptiness. Munidatta pictures beings sunk in an ocean of great delusion about the two truths, whom Lūyī wished to rescue (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "siddha",
+      "type": "term",
+      "status": "proposed",
+      "en": "siddha",
+      "alt": [
+        "adept"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্য",
+          "translit": "siddhācāryya",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "আদিসিদ্ধাচার্য্য",
+          "translit": "ādisiddhācāryya",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্যেণ",
+          "translit": "siddhācāryyeṇa",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্য",
+          "translit": "siddhācārya",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུབ་ཐོབ",
+          "translit": "grub thob",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "সিদ্ধ",
+          "সিদ্ধাচার্য্য",
+          "সিদ্ধাচার্য্যেণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Accomplished one': a tantric adept who has gained accomplishment (siddhi). The poets of the songs are siddhas; Munidatta calls Lūyī a siddha master, siddhācārya (cp.01.m2), and 'the first siddha master' (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "siddhi",
+      "type": "term",
+      "status": "proposed",
+      "en": "accomplishment",
+      "alt": [
+        "siddhi",
+        "attainment"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বসিদ্ধিনিধানকে",
+          "translit": "sarvvasiddhinidhānake",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধিরন্যথা",
+          "translit": "siddhiranyathā",
+          "att": "AS",
+          "where": "cp.01.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "সিদ্ধি",
+          "সিদ্ধিঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Accomplishment: a power or attainment won through practice, above all the supreme accomplishment of awakening. Munidatta quotes the Rativajra calling bodhicitta 'the treasury of all accomplishments' (cp.01.m2), and the Guhyasamāja on harsh austerities that disturb the mind and so defeat accomplishment (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "skandha",
+      "type": "term",
+      "status": "proposed",
+      "en": "aggregates",
+      "alt": [
+        "skandhas"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পঞ্চস্কন্ধাঃ",
+          "translit": "pañcaskandhāḥ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্কন্ধবিজ্ঞানে",
+          "translit": "skandhavijñāne",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "স্কন্ধ",
+          "স্কন্ধাঃ",
+          "পঞ্চস্কন্ধাঃ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The five aggregates (form, feeling, perception, formations and consciousness) into which Buddhist analysis divides a person. Munidatta reads the five branches of the tree in song 1 as these aggregates, 'beginning with form' (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "status": "proposed",
+      "en": "emptiness",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুনু",
+          "translit": "sunu",
+          "att": "AS",
+          "where": "cp.01.4b"
+        },
+        {
+          "lang": "san",
+          "script": "শূন্যতা",
+          "translit": "śūnyatā",
+          "att": "AS",
+          "where": "cp.01.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সুনুপাখ",
+          "সুনু"
+        ],
+        "san": [
+          "শূন্যতা",
+          "শূন্যতাপক্ষ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Emptiness: the absence of intrinsic existence in all things, a central idea of Mahāyāna thought. In song 1 it appears in the Old Bengali compound sunupākha, which Munidatta renders śūnyatāpakṣa, 'the side (or wing) of emptiness' (cp.01.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "surya",
+      "type": "term",
+      "status": "proposed",
+      "en": "sun",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সূজ্জ",
+          "translit": "sūjja",
+          "att": "AS",
+          "where": "cp.14.4a"
+        },
+        {
+          "lang": "san",
+          "script": "সূর্য্য",
+          "translit": "sūrya",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সূজ্জ"
+        ],
+        "san": [
+          "সূর্য্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The sun. In this song the sun and the moon are called 'the two wheels'. The pair recurs throughout the songs.",
+      "symbolic": {
+        "image": "the sun, one of 'the two wheels'",
+        "readings": [
+          {
+            "referent": "with the moon and the pulinda, one of three 'appearances' (ābhāsa) that bring about the making and unmaking of saṃsāra, which practice brings to a stop",
+            "per": "Munidatta",
+            "where": [
+              "cp.14.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "means",
+        "upāya",
+        "method",
+        "right channel",
+        "rasanā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "taruvara",
+      "type": "term",
+      "status": "proposed",
+      "en": "fine tree",
+      "alt": [
+        "finest of trees",
+        "tree"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তরুবর",
+          "translit": "tarubara",
+          "att": "AS",
+          "where": "cp.01.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কায়তরুবরত্বেন",
+          "translit": "kāyataruvaratvena",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "তরুবর"
+        ],
+        "san": [
+          "কায়স্তরুবরঃ",
+          "কায়তরুবরত্বেন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Finest of trees', from taru, tree, and vara, excellent. Song 1 opens by calling the body such a tree, with five branches. Munidatta defends the comparison as a poetic figure (utprekṣā) that states a likeness resting on some difference (cp.01.m2).",
+      "symbolic": {
+        "image": "a fine tree with five branches",
+        "readings": [
+          {
+            "referent": "the five aggregates, beginning with form, as the five branches",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m2"
+            ]
+          },
+          {
+            "referent": "the six senses, the elements and the sense objects, taken together as the body-tree, its leaves being the grasped, the grasper and the grasping",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "aggregates",
+        "skandhas"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "tathagata",
+      "type": "term",
+      "status": "proposed",
+      "en": "tathāgata",
+      "alt": [
+        "Tathāgata",
+        "thus-gone one"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তথাগত",
+          "translit": "tathāgata",
+          "att": "AS",
+          "where": "cp.10.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་བཞིན་གཤེགས་པ",
+          "translit": "de bzhin gshegs pa",
+          "att": "AD",
+          "where": "standard Tibetan equivalent; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "তথাগত"
+        ]
+      },
+      "matchRe": {},
+      "definition": "‘Thus-gone’: an epithet of a buddha. The tantras arrange their deities in families headed by five or six tathāgatas, and Munidatta links six tathāgatas with the wheel, earrings, necklace and other ornaments of tantric conduct.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "tirthika",
+      "type": "term",
+      "status": "proposed",
+      "en": "tīrthika",
+      "alt": [
+        "non-Buddhist"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বুদ্ধতীর্থিকৈঃ",
+          "translit": "buddhatīrthikaiḥ",
+          "att": "AS",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বুদ্ধতীর্থিকো",
+          "translit": "buddhatīrthiko",
+          "att": "AS",
+          "where": "cp.01.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "তীর্থিক",
+          "বুদ্ধতীর্থিকৈঃ",
+          "বুদ্ধতীর্থিকো"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Ford-maker': a follower of a non-Buddhist religious path. In the Hevajra verse Munidatta quotes, buddhatīrthika most likely means 'Buddhists and tīrthikas', those who do not know the reversed meditation in which passion frees (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "town",
+      "type": "term",
+      "status": "proposed",
+      "en": "town",
+      "alt": [
+        "city"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নগর",
+          "translit": "nagara",
+          "att": "AS",
+          "where": "cp.10.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নগরী",
+          "translit": "nagarī",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নগরিকা",
+          "translit": "nagarikā",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নগর"
+        ],
+        "san": [
+          "নগরী",
+          "নগরিকা",
+          "নগরিকেতি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A town or city, the settled world of caste society. Untouchable communities such as the Ḍoms lived outside it, and in this song Ḍombī's hut stands beyond it.",
+      "symbolic": {
+        "image": "the town, outside which Ḍombī's hut stands",
+        "readings": [
+          {
+            "referent": "the mass of sense objects, beginning with visible form",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "sense objects",
+        "objects of the senses"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "tx-guhyasamaja",
+      "type": "text",
+      "status": "proposed",
+      "en": "Guhyasamāja",
+      "alt": [
+        "Guhyasamāja Tantra",
+        "Śrī Samāja",
+        "Samāja"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শ্রীসমাজে",
+          "translit": "śrīsamāje",
+          "att": "AS",
+          "where": "cp.01.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "শ্রীসমাজে",
+          "শ্রীসমাজ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The Guhyasamāja ('Secret Assembly') Tantra, a major Buddhist tantra, which Munidatta cites as the Śrī Samāja. Here he quotes it on the need for the vajra guru (cp.01.m3) and against harsh austerities, urging that awakening be accomplished through bliss (cp.01.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "tx-hevajra",
+      "type": "text",
+      "status": "proposed",
+      "en": "Hevajra",
+      "alt": [
+        "Hevajra Tantra",
+        "Dvikalpa"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শ্রীহেবজ্রে",
+          "translit": "śrīhevajre",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "দ্বিকল্পে",
+          "translit": "dvikalpe",
+          "att": "AS",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "san",
+          "script": "শ্রীহেবজ্রে",
+          "translit": "śrīhevajre",
+          "att": "AS",
+          "where": "cp.10.m3, cp.10.m4, cp.10.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀྱེའི་རྡོ་རྗེའི་རྒྱུད",
+          "translit": "kye'i rdo rje'i rgyud",
+          "att": "AD",
+          "where": "standard Tibetan title; not checked against toh2293"
+        }
+      ],
+      "match": {
+        "san": [
+          "শ্রীহেবজ্রে",
+          "হেবজ্রে",
+          "দ্বিকল্পে",
+          "হেবজ্র"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The Hevajra Tantra, a major Buddhist yoginī tantra, also called the Dvikalpa after its two parts. Munidatta quotes it on passion: the world is bound by passion and freed by passion itself (cp.01.m4); and on the union of āli and kāli as Vajrasattva's seat (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "tx-samputa",
+      "type": "text",
+      "status": "proposed",
+      "en": "Sampuṭodbhava",
+      "alt": [
+        "Saṃpuṭa Tantra"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সম্পুটোদ্ভবতন্ত্ররাজে",
+          "translit": "sampuṭodbhavatantrarāje",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সম্পুটোদ্ভব",
+          "সম্পুটোদ্ভবতন্ত্ররাজে"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A Buddhist tantra, cited by Munidatta as 'the king of tantras, Sampuṭodbhava', probably the Saṃpuṭa Tantra of the Hevajra and Cakrasaṃvara traditions. He quotes its verse in which the Vajra-holder calls the mind, clouded by concepts and restless as windblown lightning, saṃsāra (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "vajra",
+      "type": "term",
+      "status": "proposed",
+      "en": "vajra",
+      "alt": [
+        "thunderbolt"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রগুরুণা",
+          "translit": "vajraguruṇā",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "কুলিশারবিন্দ",
+          "translit": "kuliśāravinda",
+          "att": "AS",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মবোধকুলিশেন",
+          "translit": "nairātmabodhakuliśena",
+          "att": "AS",
+          "where": "cp.01.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "বজ্র",
+          "কুলিশ",
+          "কুলিশেন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The thunderbolt-diamond, emblem of the indestructible in tantric Buddhism; as a prefix it marks what belongs to that path (vajra guru, vajra recitation). Munidatta uses vajra and its synonym kuliśa, as in 'the union of vajra and lotus' (cp.01.m3) and 'the vajra of realizing selflessness' (cp.01.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "viramananda",
+      "type": "term",
+      "status": "proposed",
+      "en": "joy of cessation",
+      "alt": [
+        "viramānanda",
+        "bliss of cessation"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিরমানন্দ",
+          "translit": "viramānanda",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বিরমানন্দ",
+          "translit": "viramānanda",
+          "att": "AS",
+          "where": "cp.14.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "বিরমানন্দাৎ",
+          "বিরমানন্দ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "One of the four joys (ānanda) that the yoginī tantras describe in yogic union; viramānanda is the ‘joy of cessation’. Its position among the four differs between systems. Munidatta pairs it with the ‘root of the jewel’ (maṇimūla).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "yogindra",
+      "type": "term",
+      "status": "proposed",
+      "en": "lord of yogis",
+      "alt": [
+        "master yogi"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যোগীন্দ্র",
+          "translit": "yogīndra",
+          "att": "AS",
+          "where": "cp.14.m2"
+        },
+        {
+          "lang": "san",
+          "script": "যোগীন্দ্রস্য",
+          "translit": "yogīndrasya",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "যোগীন্দ্র",
+          "যোগীন্দ্রস্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Lord of yogis', Munidatta's usual term for the accomplished practitioner the songs speak of; in this song, the one the Ḍombī ferries across.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "yuganaddha",
+      "type": "term",
+      "status": "proposed",
+      "en": "coupled union",
+      "alt": [
+        "union of the pair",
+        "yuganaddha"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যুগনদ্ধরূপং",
+          "translit": "yuganaddharūpaṃ",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "যুগনদ্ধ",
+          "যুগনদ্ধরূপং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Yoked as a pair': the state in which two poles, such as wisdom and method or the two truths, are inseparably joined. Munidatta says the fruit of innate joy has this form (cp.01.m2) and that Lūyī saw it through practising the fourth instruction received from the guru (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    }
+  ]
 }

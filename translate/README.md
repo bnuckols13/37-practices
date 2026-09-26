@@ -205,7 +205,7 @@ It also writes `translations/assets/reader.css` and `reader.js`, shared by every
 
 ## Milestones
 
-1. **M1 (built):** the engine and the session loop, tested end to end on a fixture. Next: the pilot on songs 1, 10 and 14, which needs their Bengali text and Munidatta's comments. Paste them, or allow `bn.wikisource.org` in the environment's network settings and use `--fetch`.
+1. **M1 (built):** the engine and the session loop, tested end to end on a fixture. **Pilot (in review):** songs 1, 10 and 14 are imported with `--fetch` from Bengali Wikisource's 1916 edition, drafted and woven, and seeded into the Charyapada Studio (URL in `studio.json`). Next: Lena reviews there, then "Pull my Studio decisions for the Charyapada".
 2. **M2:**
    - all 50 songs
    - the Tibetan witness (Toh 2293) for songs 24, 25, 48 and the end of 23

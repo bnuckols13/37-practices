@@ -1,6 +1,6 @@
 # Illuminated Translation Engine: plan
 
-> **Status (2026-09-26).** Milestone 1's engine is built and tested end to end on a fixture: import, segment, packs, session drafting, ingest, check, review sheets, accept and render. How to run it is in `translate/README.md`. Next is the pilot on songs 1, 10 and 14, which is waiting on their Bengali text and Munidatta's comments (paste them, or allow `bn.wikisource.org`).
+> **Status (2026-09-26).** Milestone 1's engine is built and tested, and the pilot is under way: Charyapada songs 1, 10 and 14 are imported from Shastri's 1916 edition (Bengali Wikisource), drafted, woven with Munidatta's commentary, and seeded into the Charyapada Studio for Lena Rose's review, with 99 proposed glossary entries. How to run it is in `translate/README.md`.
 
 ## Context
 

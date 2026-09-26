@@ -1,0 +1,712 @@
+{
+  "unit": "cp.10",
+  "title": "The Hut Outside the Town",
+  "summary": "Kāṇha, a kāpālika yogi, sings to Ḍombī, the untouchable woman whose hut stands outside the town. A shaven brahmin goes by touching, she dances on a lotus of sixty-four petals and comes and goes in someone's boat, he puts on a garland of bones for her, and she breaks the lake and eats the lotus root, and he vows to kill her. Munidatta reads Ḍombī as Nairātmā (selflessness as a goddess) and the purified central channel, her hut as the wheel of great bliss and the lotus as the wheel of emanation; in the last couplet, for one without the guru's lineage, she is the unpurified channel, and killing her means making her without inherent nature.",
+  "lines": [
+    {
+      "id": "cp.10.h1",
+      "translit": "rāga deśākha",
+      "gloss": "melody · Deśākha",
+      "en": "[Rāga]{raga} Deśākha",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.10.1a",
+      "translit": "nagara bārihirem̐ ḍombi tohori kuṛiā",
+      "gloss": "town · outside · Ḍombī · your · hut",
+      "en": "Outside the [town]{town}, [Ḍombī]{dombi}, is your [hut]{hut}.",
+      "terms": [
+        {
+          "id": "town",
+          "src": "নগর"
+        },
+        {
+          "id": "dombi",
+          "src": "ডোম্বি"
+        },
+        {
+          "id": "hut",
+          "src": "কুড়িআ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "Printed bārihirem̐, for the expected bāhire(m̐) 'outside' (locative). Transliterated as printed; the sense is not in doubt."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.1b",
+      "translit": "chaichoi jāi so bāhma nāṛiā || dhru ||",
+      "gloss": "touching-touching · goes · that · brahmin · shaven-headed · (refrain cue)",
+      "en": "Touching and touching, that shaven-headed [brahmin]{brahmin} goes by.",
+      "terms": [
+        {
+          "id": "brahmin",
+          "src": "বাহ্ম"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "chaichoi: chosen 'touching again and again' (matches Munidatta's spṛṣṭvā spṛṣṭvā, cp.10.m2). Alternative: 'barely touching, brushing past', which would picture the brahmin avoiding contact. The object (the hut? Ḍombī?) is unstated in the source and left unstated here."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "Divergence: in the song the verb jāi is third person with 'that brahmin' as subject. Munidatta's paraphrase has 'you go, touching and touching' (gacchasi), followed by 'O Nairātmā', so in his gloss the one who touches and goes appears to be Ḍombī (cp.10.m2). Translated as the song stands, not harmonized."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The refrain cue ধ্রু already stands after this first couplet, not only after the refrain and later couplets. Not translated. See questions."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.2a",
+      "translit": "ālo ḍombi toe sama karibe ma sāṅga",
+      "gloss": "hey · Ḍombī · you-with · with · will-make · by-me · company",
+      "en": "Hey [Ḍombī]{dombi}, I will keep company with you;",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "sāṅga (Sanskrit saṅga): 'company, association, attachment', and also sexual union. 'Keep company with' is chosen because it carries both the social and the erotic sense. Munidatta paraphrases with abhiṣvaṅga, 'close attachment, embrace' (cp.10.m3)."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.2b",
+      "translit": "nighiṇa kāhna kāpāli joi lāga || dhru ||",
+      "gloss": "without-disgust · Kāṇha · kāpālika · yogi · attached(?) · (refrain cue)",
+      "en": "[Kāṇha]{p-kanha}, a [kāpālika]{kapalika} [yogi]{yogi} [without disgust]{nirghrna}, clings close.",
+      "terms": [
+        {
+          "id": "nirghrna",
+          "src": "নিঘিণ"
+        },
+        {
+          "id": "p-kanha",
+          "src": "কাহ্ন"
+        },
+        {
+          "id": "kapalika",
+          "src": "কাপালি"
+        },
+        {
+          "id": "yogi",
+          "src": "জোই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "lāga: taken as 'clings, is attached' (Old Bengali lāg- 'stick to'). This fits Munidatta's 'holding [you] constantly, without interval' (cp.10.m3). Alternatives: 'for (your sake)', compare lāgi; or, if the text were lāṅga (which would rhyme with sāṅga), 'naked'. That last one is only my conjecture. 'close' is added so that the English verb can stand without an object."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.3a",
+      "translit": "eka-so padamā cauṣaṭhṭhī pākhuṛī",
+      "gloss": "one-that · lotus · sixty-four · petals",
+      "en": "A single [lotus]{lotus} with sixty-four petals:",
+      "terms": [
+        {
+          "id": "lotus",
+          "src": "পদমা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The printed ekaso is read as eka so, 'that one', answered by tahim̐ 'on it' in 3b. Munidatta's lemma is 'eka so' (cp.10.m4). 'A single' renders eka so."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.3b",
+      "translit": "tahim̐ caṛi nācaa ḍombī bāpuṛī || dhru ||",
+      "gloss": "on-it · having-climbed · dances · Ḍombī · poor/wretched · (refrain cue)",
+      "en": "climbing onto it, poor [Ḍombī]{dombi} dances.",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "bāpuṛī: 'poor, wretched, lowly'. It could express pity, affection or contempt; 'poor' is chosen as the most open."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "Divergence: in the song Ḍombī climbs the lotus and dances. Munidatta has Kṛṣṇācārya dancing there together with Nairātmā (cp.10.m4). Not harmonized."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.4a",
+      "translit": "hālo ḍombī to puchami sadabhāve",
+      "gloss": "hey · Ḍombī · you · I-ask · in-good-faith",
+      "en": "Hey [Ḍombī]{dombi}, I ask you in good faith:",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "Munidatta's lemma for this couplet is 'hañcū lo' where the song has 'hālo ḍombī' (cp.10.m5), so his text may have read differently here. The translation follows the song."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.4b",
+      "translit": "aisasi jāsi ḍombi kāhari nāvem̐ || dhru ||",
+      "gloss": "you-come · you-go · Ḍombī · whose · in/by-boat · (refrain cue)",
+      "en": "in whose [boat]{boat} do you come and go, [Ḍombī]{dombi}?",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বি"
+        },
+        {
+          "id": "boat",
+          "src": "নাবেঁ"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.10.5a",
+      "translit": "tānti vikaṇaa ḍombī avara nā caṅgatā",
+      "gloss": "cord/string · sells · Ḍombī · more/other · not · basket(?)",
+      "en": "[Ḍombī]{dombi} sells [cord]{tanti} and no more baskets;",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        },
+        {
+          "id": "tanti",
+          "src": "তান্তি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "avara nā caṅgatā is unclear. I chose avara 'more, other' + nā 'not' + caṅgatā 'basket(s)'. That gives 'and no more baskets', which leaves open both 'no longer' and 'no other'. Alternatives: (1) Munidatta treats the cord and the cāṅgita as two things she 'sells', that is, gives up (cp.10.m6). That suggests 'cord, and baskets too', with nā left unexplained. (2) Read caṅgatā as caṅga-tā 'goodness, excellence': 'Ḍombī sells cord; she has nothing else of worth'. (3) Read avaranā as āvaraṇa 'covering, mat': 'cord, mats and baskets'. The sense 'basket' for caṅgatā is itself a guess (compare later Bengali cāṅāri, a bamboo basket)."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "tānti: 'cord', following Munidatta's tantrī 'string, cord' (cp.10.m6). An instrument string, thread, or a loom (Bengali tā̃t) are also possible."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "vikaṇaa is a third-person form ('Ḍombī sells'). Munidatta renders it in the second person with 'O Ḍombī' (cp.10.m6), and ḍombī could be a vocative here. The third person is kept."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.5b",
+      "translit": "tohora antare chāṛi-naṛa eṭṭā || dhru ||",
+      "gloss": "your · for-the-sake-of · having-left + performer's(?) · basket/box(?) · (refrain cue)",
+      "en": "for your sake I have given up the performer's basket.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "chāṛinaṛa eṭṭā is obscure. I read it as chāṛi naṛa (p)eṭṭā, 'left the performer's basket', guided by Munidatta's 'like an actor (naṭavat) I have abandoned the basket (peṭaka) of saṃsāra' (cp.10.m6). Reading naṛa as naṭa follows him; the missing p of peṭṭā is my assumption. Alternatives: naṛa = naḍa 'reed', giving 'the reed basket'; or eṭṭā = 'this'."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "No subject is expressed. 'I' is supplied from the parallel line 6b (moe 'by me') and from Munidatta's mayā (cp.10.m6). tohora antare is rendered 'for your sake', like Munidatta's tavāntareṇa; 'because of you' is also possible. The same phrase recurs in 6b."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.6a",
+      "translit": "tu lo ḍombī hāūm̐ kapālī",
+      "gloss": "you · (vocative particle to a woman) · Ḍombī · I · kāpālika",
+      "en": "You, girl, are a [Ḍombī]{dombi}; I am a [kāpālika]{kapalika}.",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        },
+        {
+          "id": "kapalika",
+          "src": "কপালী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "Taken as two verbless clauses: 'you (are) a Ḍombī', set against 'I (am) a kāpālika'. lo is a familiar vocative particle used to a woman, rendered 'girl'. Munidatta takes ḍombi as a vocative ('O Ḍombī', cp.10.m7), which would give 'You, Ḍombī, and I, a kāpālika'."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.6b",
+      "translit": "tohora antare moe ghalili hāṛeri mālī || dhru ||",
+      "gloss": "your · for-the-sake-of · by-me · put-on · of-bone · garland · (refrain cue)",
+      "en": "For your sake I have put on a [garland of bones]{bone-garland}.",
+      "terms": [
+        {
+          "id": "bone-garland",
+          "src": "হাড়েরি মালী"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.10.7a",
+      "translit": "saravara bhāñjīa ḍombī khāa molāṇa",
+      "gloss": "lake · having-broken · Ḍombī · eats · lotus-root",
+      "en": "Breaking the [lake]{lake}, [Ḍombī]{dombi} eats the [lotus root]{lotus-root}.",
+      "terms": [
+        {
+          "id": "lake",
+          "src": "সরবর"
+        },
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        },
+        {
+          "id": "lotus-root",
+          "src": "মোলাণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "bhāñjīa 'having broken' could mean breaking up the water or breaching the bank; the song does not say which. It is rendered plainly as 'Breaking'."
+        }
+      ]
+    },
+    {
+      "id": "cp.10.7b",
+      "translit": "mārami ḍombī lemi parāṇa || dhru ||",
+      "gloss": "I-kill · Ḍombī · I-take · life · (refrain cue)",
+      "en": "I will kill [Ḍombī]{dombi}; I will take her life.",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "mārami and lemi are first-person present forms, which Old Bengali also uses for the future; 'will' is chosen because the line is a threat. 'her' is supplied in 'her life'."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.10",
+      "kind": "witness",
+      "text": "In this witness the heading names only the rāga. The ascription to Kāṇha rests on the song itself, where he names himself in couplet 2, and on Munidatta, who introduces the song as spoken by Kṛṣṇapāda, Kāṇha's Sanskrit name (cp.10.m1).",
+      "cites": [
+        "cp.10.m1"
+      ]
+    },
+    {
+      "anchor": "cp.10",
+      "kind": "witness",
+      "text": "Structure: the poet names himself in couplet 2, which the input marks as the refrain, and not in the last couplet. Shastri prints the refrain cue ধ্রু after 1b as well as after 2b and every later couplet; it is not translated. Munidatta numbers his divisions so that couplet 3 is 'the second pada' and couplets 4 to 7 are the third to the sixth (cp.10.m4, cp.10.m5, cp.10.m6, cp.10.m7, cp.10.m8).",
+      "cites": [
+        "cp.10.m4",
+        "cp.10.m5",
+        "cp.10.m6",
+        "cp.10.m7",
+        "cp.10.m8"
+      ]
+    },
+    {
+      "anchor": "cp.10",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song as Kṛṣṇapāda telling 'that same matter', through his realization of the nature of selflessness, 'in the twilight language of the word Ḍombī' (cp.10.m1).",
+      "cites": [
+        "cp.10.m1"
+      ]
+    },
+    {
+      "anchor": "cp.10.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode. The heading names the mode to which the song is sung, Deśākha.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.10.1a",
+      "kind": "imagery",
+      "text": "The Ḍoms were treated as untouchable and made to live at the edge of settlements. A Ḍom woman's hut outside the town is ordinary social geography before it is anything else.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.10.1",
+      "kind": "doctrine",
+      "text": "Munidatta says she is called Ḍombī because she cannot be touched, and is to be understood as the purified avadhūtī (the central channel of the subtle body), Nairātmā (selflessness personified as a goddess). The town is the mass of sense objects, beginning with visible form. Outside it, beyond the range of the senses, is 'your house', the wheel of great bliss. He, the siddha master (an accomplished adept) Kṛṣṇapāda, came to know it through the guru's lineage (cp.10.m2).",
+      "cites": [
+        "cp.10.m2"
+      ]
+    },
+    {
+      "anchor": "cp.10.1b",
+      "kind": "philology",
+      "text": "chaichoi is a reduplicated form of the verb 'touch'. Munidatta renders it spṛṣṭvā spṛṣṭvā, 'touching and touching' (cp.10.m2). nāṛiā means 'shaven', the tonsure of a young brahmin student; Munidatta calls him a vaṭuka, a boy of that kind (cp.10.m2). The transliteration gives jāi for the machine's yāi, since the verb is jā- 'go' (compare jāsi in 4b).",
+      "cites": [
+        "cp.10.m2"
+      ]
+    },
+    {
+      "anchor": "cp.10.1b",
+      "kind": "imagery",
+      "text": "A brahmin's purity rules forbid contact with a Ḍom. The line puts one at the edge of her world, touching. The song does not say what he touches.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.10.1b",
+      "kind": "doctrine",
+      "text": "Munidatta reads the brahmin as the 'mind-lad' (cittavaṭuka). It is born from the seed syllable HŪṂ, which he calls brahma, and it is a lad because the mind is fickle. His paraphrase then turns to the second person: '[you] go, touching and touching, from the jewel-root, the joy of cessation, the bodhicitta (mind of awakening) of yogins who lack the lineage, which in conventional terms has the form of semen. O Nairātmā.' In his gloss the one who touches and goes therefore seems to be Ḍombī herself (cp.10.m2).",
+      "cites": [
+        "cp.10.m2"
+      ]
+    },
+    {
+      "anchor": "cp.10.2a",
+      "kind": "philology",
+      "text": "sāṅga (Sanskrit saṅga) means company, association or attachment, and can mean sexual union. Munidatta paraphrases: 'I must make close attachment (abhiṣvaṅga) with you' (cp.10.m3).",
+      "cites": [
+        "cp.10.m3"
+      ]
+    },
+    {
+      "anchor": "cp.10.2b",
+      "kind": "philology",
+      "text": "kāpāli: a kāpālika, an ascetic who carries a skull-bowl, wears bone ornaments and disregards caste purity. nighiṇa (Sanskrit nirghṛṇa) means 'without disgust'; Munidatta adds 'free of faults such as shame' (cp.10.m3). lāga is taken as 'attached, clinging'; see the flag on the line.",
+      "cites": [
+        "cp.10.m3"
+      ]
+    },
+    {
+      "anchor": "cp.10.2",
+      "kind": "doctrine",
+      "text": "Munidatta has Kāṇha say: 'As my nature is, so I am', without disgust. Holding [her] constantly and without interval, he gains the accomplishment of Mahāmudrā (the 'Great Seal', the highest attainment), whose nature is wisdom and means. He cites the Hevajra: 'Hear from me the tantra whose nature is wisdom and means' (cp.10.m3).",
+      "cites": [
+        "cp.10.m3"
+      ]
+    },
+    {
+      "anchor": "cp.10.3",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet 'the place of practice'. The one lotus is the wheel of emanation, which has sixty-four petals. There Kṛṣṇācārya, lovely with the joy of great passion, dances in one taste with the Blessed Lady Nairātmā. He cites the Hevajra: 'Dance in the form of Heruka' (cp.10.m4). In the song the dancer is Ḍombī.",
+      "cites": [
+        "cp.10.m4"
+      ]
+    },
+    {
+      "anchor": "cp.10.4",
+      "kind": "doctrine",
+      "text": "Munidatta says this couplet makes the realization of selflessness firm. He paraphrases: 'O Nairātmā, I ask you in good faith, that is, intent on your own nature: by whose path, the boat of conventional bodhicitta, do you come and go?' He gives the meaning as 'you do not', because everything consists of the innate. He then cites the Hevajra: the whole world is innate, the innate is called one's own nature, and one's own nature is nirvāṇa to a mind of pure form (cp.10.m5).",
+      "cites": [
+        "cp.10.m5"
+      ]
+    },
+    {
+      "anchor": "cp.10.4b",
+      "kind": "imagery",
+      "text": "A river boat, crossing and recrossing. Kāṇha asks whose boat carries her to and fro, and the song does not answer.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.10.5",
+      "kind": "philology",
+      "text": "The couplet is the hardest in the song. For tānti, caṅgatā, avara nā and chāṛinaṛa eṭṭā see the flags on 5a and 5b. Munidatta's lemma cāṅgita differs from the song's caṅgatā (cp.10.m6). He also has the 'basket' (peṭaka) and the 'actor' (naṭa) that 5b seems to contain (cp.10.m6).",
+      "cites": [
+        "cp.10.m6"
+      ]
+    },
+    {
+      "anchor": "cp.10.5",
+      "kind": "doctrine",
+      "text": "Munidatta says this couplet states the true nature of selflessness. He takes tānti as tantrī and reads it as the bhaga (the female organ), 'the place of the lotus', which has the form of ignorance. The cāṅgita is its offshoot, the appearance of objects. Addressing Ḍombī as Nairātmā, he says that by the grace of the guru's feet she makes for him the selling, that is the giving up, of these two. And so, like an actor, he has abandoned the basket of saṃsāra for her sake (cp.10.m6).",
+      "cites": [
+        "cp.10.m6"
+      ]
+    },
+    {
+      "anchor": "cp.10.6",
+      "kind": "doctrine",
+      "text": "Munidatta says this couplet describes the lord of yogis' conduct 'with elaboration'. Kāṇha knows Ḍombī, Nairātmā, in her own nature through the true guru's grace. He is a kāpālika and a bearer of conduct, and Munidatta explains the word as one able to protect (pāl-) 'ka', her bliss, a play on the syllables. For her sake Kṛṣṇācārya took up conduct with the wheel, earrings, necklace and other ornaments, which the gloss links with the six tathāgatas (buddhas who head the tantric families). Not relying on outer mantras and tantras, he sported with the five colours (pañcavarṇa). The qualifier niraṃśu in that compound is unclear to me (cp.10.m7).",
+      "cites": [
+        "cp.10.m7"
+      ]
+    },
+    {
+      "anchor": "cp.10.6",
+      "kind": "doctrine",
+      "text": "Munidatta supports this with an Apabhraṃśa verse by Kṛṣṇācārya. Roughly: not one mantra, not one tantra is to be done; taking one's own housewife one makes love; as long as the housewife is not immersed in one's own house, how can one sport in the five colours? The verse is terse and this rendering is tentative (cp.10.m7).",
+      "cites": [
+        "cp.10.m7"
+      ]
+    },
+    {
+      "anchor": "cp.10.6b",
+      "kind": "imagery",
+      "text": "A garland of bone beads or carved bone belongs to a kāpālika's regalia; the poet takes it on for Ḍombī's sake. Munidatta's gloss on the couplet speaks of the ornaments of tantric conduct but does not name the garland (cp.10.m7).",
+      "cites": [
+        "cp.10.m7"
+      ]
+    },
+    {
+      "anchor": "cp.10.7a",
+      "kind": "imagery",
+      "text": "Lotus roots grow in the mud of pond beds and are dug up for food. 'Breaking' the lake may mean breaking up its surface or breaching its banks to get at them.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.10.7",
+      "kind": "doctrine",
+      "text": "Munidatta says the last couplet states that Ḍombinī is of two kinds. For one who lacks the guru's lineage, this same Ḍombī is the unpurified avadhūtī. The lake is the body as a lotus pool (kāyapuṣkara), and its root is bodhicitta, which in conventional terms has the form of semen. He explains 'I kill' as 'I make without inherent nature' (cp.10.m8).",
+      "cites": [
+        "cp.10.m8"
+      ]
+    },
+    {
+      "anchor": "cp.10.7",
+      "kind": "witness",
+      "text": "Munidatta closes with a Prakrit verse from what he calls vahiśāstra (perhaps 'an outside treatise'). As printed it is corrupt, but it seems to say that the same water becomes poison in a snake's mouth and pearls in an oyster shell, which would illustrate Ḍombī's two kinds (cp.10.m8).",
+      "cites": [
+        "cp.10.m8"
+      ]
+    },
+    {
+      "anchor": "cp.10.7b",
+      "kind": "philology",
+      "text": "parāṇa (Sanskrit prāṇa) means 'breath, life'. The song gives no reason for the threat.",
+      "cites": []
+    }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    {
+      "id": "yogi",
+      "type": "term",
+      "en": "yogi",
+      "policy": "translate",
+      "alt": [
+        "yogin"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জোই",
+          "translit": "joi",
+          "att": "AS",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "san",
+          "script": "যোগিনাং",
+          "translit": "yogināṃ",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জোই"
+        },
+        {
+          "lang": "san",
+          "form": "যোগিনাং"
+        }
+      ],
+      "definition": "A practitioner of yoga; in the songs, a tantric adept on the siddhas' path. Kāṇha calls himself a kāpālika yogi, and Munidatta speaks of yogins who lack the guru's lineage. Distinct from 'lord of yogis' (yogīndra), Munidatta's term for the accomplished practitioner.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The word recurs throughout the songs and the commentary. The glossary has 'lord of yogis' but not the plain word."
+    },
+    {
+      "id": "visaya",
+      "type": "term",
+      "en": "sense objects",
+      "policy": "translate",
+      "alt": [
+        "objects of the senses",
+        "objects"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রূপাদিবিষয়সমূহং",
+          "translit": "rūpādiviṣayasamūhaṃ",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ষিষয়াভাসং",
+          "translit": "ṣiṣayābhāsaṃ (misprint for viṣayābhāsaṃ)",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিষয়"
+        },
+        {
+          "lang": "san",
+          "form": "ষিষয়"
+        }
+      ],
+      "definition": "The objects of the senses: visible form, sound, smell, taste and touch, with mental objects in some lists. Munidatta reads the town of song 10 as 'the mass of sense objects beginning with form', and speaks of 'the appearance of objects' (viṣayābhāsa).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A recurring commentary term. The glossary already uses 'sense objects' in the town entry's reading and forbidden list, but has no entry for it."
+    },
+    {
+      "id": "avidya",
+      "type": "term",
+      "en": "ignorance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবিদ্যারূপং",
+          "translit": "avidyārūpaṃ",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অবিদ্যা"
+        }
+      ],
+      "definition": "Ignorance: the basic misapprehension of how things are, which Buddhist teaching places at the root of saṃsāra as the first link of dependent arising. In song 10 Munidatta says the lotus-place has the form of ignorance.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term likely to recur in the commentary."
+    },
+    {
+      "id": "tanti",
+      "type": "term",
+      "en": "cord",
+      "policy": "translate",
+      "alt": [
+        "string",
+        "thread"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তান্তি",
+          "translit": "tānti",
+          "att": "AS",
+          "where": "cp.10.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তন্ত্রী",
+          "translit": "tantrī",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তান্তি"
+        },
+        {
+          "lang": "san",
+          "form": "তন্ত্রী"
+        }
+      ],
+      "definition": "Cord or string (Sanskrit tantrī), which Ḍombī sells in song 10. Whether cord, an instrument string, thread or even a loom is meant is uncertain.",
+      "symbolicImage": "the cord that Ḍombī sells",
+      "symbolicReadings": [
+        {
+          "referent": "the bhaga (female organ), 'the place of the lotus', which has the form of ignorance",
+          "per": "Munidatta",
+          "where": [
+            "cp.10.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bhaga",
+        "ignorance",
+        "lotus-place"
+      ],
+      "rationale": "An image of song 10 that Munidatta reads esoterically. The entry records the literal rendering, his reading, and the words to keep out of the verse line."
+    }
+  ],
+  "questions": [
+    "Heading: the source line names only the rāga. Should the heading add '· Kāṇha' to match the house pattern (the ascription comes from the refrain and from Munidatta), or stay 'Rāga Deśākha'?",
+    "Refrain: the input marks couplet 2, which carries Kāṇha's self-naming, as the refrain. But ধ্রু also follows 1b, and Munidatta calls couplet 3 the 'second pada'. Please confirm which couplet is the refrain.",
+    "5a: I chose the literal 'and no more baskets' (avara nā caṅgatā) over Munidatta's reading, in which both things are sold ('cord, and baskets too'). Which do you prefer, and is 'basket' for caṅgatā acceptable at all?",
+    "5b: 'the performer's basket' rests on reading naṛa eṭṭā as naṭa-(p)eṭṭā, following Munidatta's naṭavat … peṭaka. Accept it, or would you rather mark the phrase as obscure?",
+    "6a: I took it as a verbless statement, 'You, girl, are a Ḍombī; I am a kāpālika', rather than Munidatta's vocative 'You, Ḍombī…'. Is 'girl' acceptable for the particle lo, and 'Hey' for ālo/hālo?",
+    "2b: is 'clings close' acceptable for lāga? And 1b: 'touching and touching' keeps the reduplication and leaves the object open. Would you prefer 'brushing past', which makes the brahmin avoid contact?",
+    "The glossary lists the garland of bones as having no attested reading. Munidatta's gloss on couplet 6 (cp.10.m7) speaks of ornaments of conduct linked with six tathāgatas but does not name the garland. Leave it as 'unattested'?",
+    "Transliteration: I corrected b/v and y/j where the etymon is clear (sadabhāve, nāvem̐, vikaṇaa, avara, saravara, jāi), although the glossary form for 'lake' is sarabara. Please confirm the convention."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-26",
+    "packSha": "f61ef2db0c115f2d9180b068e744e5888d256c570352f96505679e2c8c6420d4",
+    "prompts": {
+      "system": 1,
+      "text": 2,
+      "task": 1
+    },
+    "glossarySha": "60f8da1cf23f009fcc11894fa4864eb27eab4a88507af00c7f6cc90f4d35f430",
+    "sourceSha": "b2b73080b2d2f152afbb1c9f873674b6f3d0c042176937835185fdb3afc957f2"
+  }
+}

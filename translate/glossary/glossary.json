@@ -235,6 +235,45 @@
       }
     },
     {
+      "id": "avidya",
+      "type": "term",
+      "status": "proposed",
+      "en": "ignorance",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবিদ্যারূপং",
+          "translit": "avidyārūpaṃ",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "অবিদ্যা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Ignorance: the basic misapprehension of how things are, which Buddhist teaching places at the root of saṃsāra as the first link of dependent arising. In song 10 Munidatta says the lotus-place has the form of ignorance.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "boat",
       "type": "term",
       "status": "proposed",
@@ -4251,6 +4290,70 @@
       }
     },
     {
+      "id": "tanti",
+      "type": "term",
+      "status": "proposed",
+      "en": "cord",
+      "alt": [
+        "string",
+        "thread"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তান্তি",
+          "translit": "tānti",
+          "att": "AS",
+          "where": "cp.10.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তন্ত্রী",
+          "translit": "tantrī",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "তান্তি"
+        ],
+        "san": [
+          "তন্ত্রী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Cord or string (Sanskrit tantrī), which Ḍombī sells in song 10. Whether cord, an instrument string, thread or even a loom is meant is uncertain.",
+      "symbolic": {
+        "image": "the cord that Ḍombī sells",
+        "readings": [
+          {
+            "referent": "the bhaga (female organ), 'the place of the lotus', which has the form of ignorance",
+            "per": "Munidatta",
+            "where": [
+              "cp.10.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bhaga",
+        "ignorance",
+        "lotus-place"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "taruvara",
       "type": "term",
       "status": "proposed",
@@ -4790,6 +4893,56 @@
       }
     },
     {
+      "id": "visaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "sense objects",
+      "alt": [
+        "objects of the senses",
+        "objects"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রূপাদিবিষয়সমূহং",
+          "translit": "rūpādiviṣayasamūhaṃ",
+          "att": "AS",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ষিষয়াভাসং",
+          "translit": "ṣiṣayābhāsaṃ (misprint for viṣayābhāsaṃ)",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "বিষয়",
+          "ষিষয়"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The objects of the senses: visible form, sound, smell, taste and touch, with mental objects in some lists. Munidatta reads the town of song 10 as 'the mass of sense objects beginning with form', and speaks of 'the appearance of objects' (viṣayābhāsa).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "wheel",
       "type": "term",
       "status": "proposed",
@@ -4821,6 +4974,57 @@
         "cakra",
         "energy centre"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "yogi",
+      "type": "term",
+      "status": "proposed",
+      "en": "yogi",
+      "alt": [
+        "yogin"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জোই",
+          "translit": "joi",
+          "att": "AS",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "san",
+          "script": "যোগিনাং",
+          "translit": "yogināṃ",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "জোই"
+        ],
+        "san": [
+          "যোগিনাং"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A practitioner of yoga; in the songs, a tantric adept on the siddhas' path. Kāṇha calls himself a kāpālika yogi, and Munidatta speaks of yogins who lack the guru's lineage. Distinct from 'lord of yogis' (yogīndra), Munidatta's term for the accomplished practitioner.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],

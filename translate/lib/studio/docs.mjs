@@ -74,7 +74,7 @@ export function metaDoc(slug) {
     const a = readJSON(P.approvedFile(u.id), null);
     const needsWeave = u.segments > 0 && !w;
     return {
-      id: u.id, n: u.n, title: a?.title || d?.title || '', poet: byId.get(u.poet)?.en || u.poet,
+      id: u.id, n: u.n, title: a?.title || d?.title || '', poet: byId.get(u.poet)?.en || '',
       stage: a ? 'approved' : d ? (needsWeave ? 'drafting' : 'in review') : 'not drafted',
       reviewable: !!d && !needsWeave, approved: !!a,
     };

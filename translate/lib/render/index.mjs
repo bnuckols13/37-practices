@@ -8,7 +8,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { paths, readJSON, writeText, readText, exists, home, siteRoot, nfc, fail, sha256, short, config } from '../io.mjs';
+import { paths, readJSON, writeText, readText, exists, home, siteRoot, nfc, fail, sha256, short, config, ENGINE } from '../io.mjs';
 import { loadText, unitsIndex, loadUnit, allTexts } from '../text.mjs';
 import { load, byId } from '../glossary.mjs';
 import { songPage, titlePage, glossaryPage, aboutPage, textsIndexPage } from './pages.mjs';
@@ -41,6 +41,7 @@ function records(slug, units, preview) {
   return out;
 }
 
+const FONTS = path.join(ENGINE, 'assets', 'fonts');
 const write = (files, p, html) => { writeText(p, nfc(html)); files.push(p); };
 
 export function render(slug, { preview = false } = {}) {
@@ -60,6 +61,12 @@ export function render(slug, { preview = false } = {}) {
   const assetDir = path.join(root, 'translations', 'assets');
   write(files, path.join(assetDir, 'reader.css'), READER_CSS);
   write(files, path.join(assetDir, 'reader.js'), READER_JS);
+  // Self-hosted type (see translate/assets/fonts/README.md), with its licence.
+  fs.mkdirSync(path.join(assetDir, 'fonts'), { recursive: true });
+  for (const f of fs.readdirSync(FONTS).filter(f => /\.woff2$|^OFL\.txt$/.test(f))) {
+    fs.copyFileSync(path.join(FONTS, f), path.join(assetDir, 'fonts', f));
+    files.push(path.join(assetDir, 'fonts', f));
+  }
 
   fs.mkdirSync(outDir, { recursive: true });
   for (const f of fs.readdirSync(outDir)) if (/\.html$|^search\.json$/.test(f)) fs.unlinkSync(path.join(outDir, f));

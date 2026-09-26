@@ -26,7 +26,8 @@ export const COLORS = {
 };
 
 export const FONTS = {
-  text: "'Gentium Book Plus', 'Gentium Plus', 'Charis SIL', 'Noto Serif', Georgia, serif",
+  // 'Illuminated Text' is our self-hosted subset of Gentium Book Plus (see translate/assets/fonts/).
+  text: "'Illuminated Text', 'Gentium Book Plus', 'Gentium Plus', 'Charis SIL', 'Noto Serif', Georgia, serif",
   bengali: "'Tiro Bangla', 'Noto Serif Bengali', 'Kohinoor Bangla', serif",
   tibetan: "'Noto Serif Tibetan', 'Jomolhari', serif",
   ui: "'Source Sans 3', 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif",
@@ -45,16 +46,16 @@ const block = i => Object.entries(COLORS).map(([k, v]) => `  --${k.replace(/[A-Z
 /**
  * Theme CSS: the light palette on :root; dark under prefers-color-scheme
  * unless the page says light; dark again under [data-theme="dark"] so an
- * explicit choice wins in both directions.
+ * explicit choice wins in both directions. The reading pages pass ui: false:
+ * they are set in the book face alone.
  */
-export function themeCss() {
+export function themeCss({ ui = true } = {}) {
   return `:root {
 ${block(0)}
   --font-text: ${FONTS.text};
   --font-bengali: ${FONTS.bengali};
   --font-tibetan: ${FONTS.tibetan};
-  --font-ui: ${FONTS.ui};
-  --font-mono: ${FONTS.mono};
+${ui ? `  --font-ui: ${FONTS.ui};\n` : ''}  --font-mono: ${FONTS.mono};
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {

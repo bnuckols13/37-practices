@@ -4,6 +4,7 @@
 > - **S1:** built. The staging Studio is published and seeded with the practice song.
 > - **S2:** built, except publishing the prod Studio, which waits for Charyapada units.
 > - **R1 and R2:** built. `render` writes the title page, song pages, glossary, about page and `search.json` on the shared tokens. `test/ui/reader.shot.mjs` checks them in a browser.
+> - **Revised after Lena's review, which found the look still machine-made:** the pages are now set like a printed book. That means one self-hosted book face with real small caps, no sans labels, boxes or badges, the ॥ mark between couplets, a colophon per song, and the source in facing columns. The translations are CC0.
 
 ## Context
 Lena Rose (the reviewer) wants a solid **translating** and **reading** experience:

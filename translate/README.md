@@ -167,16 +167,20 @@ Directives are whole lines starting with `@`. The raw import is never edited: `c
 | `about.html` | How the edition is made, sources, conventions, licence |
 | `search.json` | The index behind the `/` search dialog (plain text only; `check` refuses markup in it) |
 
-It also writes `translations/assets/reader.css` and `reader.js`, shared by every page and linked with `?v=<content sha>`, plus `translations/index.html` and `sitemap-translations.xml`.
+It also writes `translations/assets/reader.css` and `reader.js`, shared by every page and linked with `?v=<content sha>`, the self-hosted fonts in `translations/assets/fonts/`, `translations/index.html` and `sitemap-translations.xml`.
 
-- **Look:** colours and fonts come from `lib/design/tokens.mjs`, the same tokens the Studio uses. Light and dark follow the device, or the reader's choice under Display.
+- **Look:** set like a printed edition.
+  - One book face throughout: a subset of Gentium Book Plus with its real small capitals, plus Tiro Bangla for Bengali. Both are self-hosted, so the pages make no requests to Google (see `assets/fonts/README.md`).
+  - Structure comes from space, italic and small capitals.
+  - Passage numbers are red in the margin, the ॥ mark separates couplets, and each song ends with a colophon saying where it was translated from and who reviewed it.
+  - Colours come from `lib/design/tokens.mjs`, the same tokens the Studio uses. Light and dark follow the device, or the reader's choice under Display.
+- **House rules**, enforced by a unit test on the stylesheet and by the browser check: no sans-serif, no uppercase transforms, no shadows, no gradients, no rounded boxes.
 - **Without JavaScript:** everything still works. Terms link to the glossary page, passage numbers are anchors, and commentary sits in the margin.
 - **With JavaScript, the script adds:**
   - glossary previews on hover and a pinned panel on click;
-  - Display settings (English / with the source / Study; commentary in the margin, under each passage or hidden), remembered per browser;
+  - Display settings, remembered per browser. The text can be English only, English with the source beside it in facing columns, or Study (source, transliteration and a word-by-word gloss beside the English). Commentary can sit in the margin, under each couplet or be hidden.
   - a Copy link / Cite menu on each passage number;
-  - search;
-  - a one-time hint by the first glossary term.
+  - search.
 - **Browser check:** `node test/ui/reader.shot.mjs <outdir>` approves the practice song, renders it, checks the reader in Chromium at desktop and phone widths in light and dark, and saves screenshots. It is opt-in and needs Playwright.
 
 ## Licensing rules the engine enforces
@@ -196,7 +200,6 @@ It also writes `translations/assets/reader.css` and `reader.js`, shared by every
 
 ## Still to decide before the first publish
 
-- The licence for our translations (`publish.license` in `texts/charyapada/text.json`; `check` warns while it says TODO).
 - The provenance wording on each page and the reviewer name in `config.json`.
 - When to link Translations from the homepage nav.
 

@@ -351,7 +351,7 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
   - on a `max_tokens` stop, retry with streaming
 - **Glossary churn** invalidates approved songs and the prompt cache. `check` re-validates and `rename` is atomic.
 - **Lena's decisions, before first publish:**
-  - the licence for our translations
+  - ~~the licence for our translations~~ decided: CC0 1.0
   - the exact provenance wording
   - when to link Translations from the homepage
 - **Out of scope, noted:** `build.mjs:144` sweeps the `---` separator into each synthesis, so a stray `---` shows on 38 verse pages.

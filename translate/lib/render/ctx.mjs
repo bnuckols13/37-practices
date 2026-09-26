@@ -18,7 +18,8 @@ export function makeCtx({ text, units, records, entries, preview }) {
   const unitById = new Map(units.map(u => [u.id, u]));
   const langName = l => text.lang.names[l] || l;
   const htmlLang = l => text.lang.html[l] || l;
-  const imprint = text.publish.imprint || `Translated by ${config().reviewer || 'the reviewer'} with Claude`;
+  const reviewer = config().reviewer || 'the reviewer';
+  const imprint = text.publish.imprint || `Translated by ${reviewer} with Claude`;
 
   // Where each term occurs in the published text, in reading order.
   const where = new Map();
@@ -63,7 +64,7 @@ export function makeCtx({ text, units, records, entries, preview }) {
   };
   const md = s => markup.render(s, termLink, esc);
 
-  return { text, units, unitById, records, entries, preview, publishable, where, langName, htmlLang, popData, md, symText, imprint };
+  return { text, units, unitById, records, entries, preview, publishable, where, langName, htmlLang, popData, md, symText, imprint, reviewer };
 }
 
 /** The client-side search index for one text. */
@@ -81,7 +82,7 @@ export function searchIndex(ctx) {
       g.en.push(markup.strip(t.en)); g.tl.push(t.translit);
     }
     const poet = u.poet && ctx.entries.get(u.poet)?.en;
-    for (const [gid, g] of byGroup) docs.push(['p', passageNo(gid), `${file}#${groupAnchor(gid)}`, `${text.unitLabel} ${u.n}${poet ? ' · ' + poet : ''}`, g.en.join(' / '), g.tl.join(' / ')]);
+    for (const [gid, g] of byGroup) docs.push(['p', passageNo(gid), `${file}#${groupAnchor(gid)}`, poet || '', g.en.join(' / '), g.tl.join(' / ')]);
     for (const c of r.commentary) {
       const gid = u.lines.find(l => l.id === c.anchor)?.group || c.anchor;
       const target = gid === u.id ? file : `${file}#${groupAnchor(gid)}`;

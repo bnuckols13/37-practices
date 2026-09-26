@@ -52,21 +52,21 @@ const browser = await chromium.launch();
 
 async function open(file, { width = 1440, height = 1000, scheme = 'light', mobile = false } = {}) {
   const ctx = await browser.newContext({ viewport: { width, height }, colorScheme: scheme, isMobile: mobile, hasTouch: mobile, deviceScaleFactor: mobile ? 2 : 1 });
-  // Fonts come from Google, which the sandbox may block; don't let that stall a load.
-  await ctx.route(/fonts\.(googleapis|gstatic)\.com/, r => r.abort());
   const page = await ctx.newPage();
-  const errs = [];
+  const errs = [], external = [];
+  page.on('request', r => { if (!r.url().startsWith(base.replace(/translations\/fixture\/$/, ''))) external.push(r.url()); });
   page.on('pageerror', e => errs.push(String(e)));
   page.on('console', m => { if (m.type() === 'error' && !/fonts|analytics|favicon|apple-touch|Failed to load resource/.test(m.text())) errs.push(m.text()); });
   await page.goto(base + file, { waitUntil: 'load' });
-  return { ctx, page, errs };
+  return { ctx, page, errs, external };
 }
 const noHScroll = page => page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth);
 
 // --- desktop, light: the song page
 {
-  const { ctx, page, errs } = await open('01.html');
+  const { ctx, page, errs, external } = await open('01.html');
   ok('song: no horizontal scroll at 1440', await noHScroll(page));
+  ok('no requests leave the site (fonts included)', !external.length, external.join(' '));
   const geo = await page.evaluate(() => {
     const v = document.querySelector('#c1 .passage__verse').getBoundingClientRect();
     const s = document.querySelector('#c1 .sidenote').getBoundingClientRect();
@@ -75,7 +75,22 @@ const noHScroll = page => page.evaluate(() => document.documentElement.scrollWid
   });
   ok('sidenote sits in the margin beside its couplet', geo.noteLeft >= geo.verseRight && Math.abs(geo.noteTop - geo.verseTop) < 40, JSON.stringify(geo));
   ok('passage number sits in the left margin', geo.noRight <= geo.verseLeft);
-  ok('one-time glossary hint shows', await page.locator('.hint-gl').count() === 1);
+  await page.evaluate(() => document.fonts.ready);
+  ok('the book face loads from our own server', await page.evaluate(() => document.fonts.check('16px "Illuminated Text"') && [...document.fonts].some(f => f.family.replace(/"/g, '') === 'Illuminated Text' && f.status === 'loaded')));
+  const style = await page.evaluate(() => {
+    const bad = [];
+    for (const el of document.querySelectorAll('body *')) {
+      const cs = getComputedStyle(el);
+      if (el.offsetParent === null && cs.position !== 'fixed') continue;
+      if (cs.textTransform === 'uppercase') bad.push('uppercase: ' + el.className);
+      if (cs.boxShadow !== 'none') bad.push('shadow: ' + el.className);
+      if (/gradient/.test(cs.backgroundImage)) bad.push('gradient: ' + el.className);
+      if (parseFloat(cs.borderTopLeftRadius) > 0) bad.push('radius: ' + el.className);
+      if (/sans-serif|Source Sans|system-ui/.test(cs.fontFamily) && !/^(INPUT|BUTTON)$/.test(el.tagName)) bad.push('sans: ' + el.tagName + '.' + el.className);
+    }
+    return [...new Set(bad)];
+  });
+  ok('house style: no caps labels, shadows, gradients, rounded boxes or sans', !style.length, style.join('; '));
   await page.screenshot({ path: path.join(OUT, 'song-desktop.png'), fullPage: true });
 
   // hover preview after a delay, then click to pin in the panel
@@ -89,7 +104,6 @@ const noHScroll = page => page.evaluate(() => document.documentElement.scrollWid
   await term.click();
   ok('click pins the glossary panel', await page.locator('.glpanel:not([hidden])').count() === 1 && await term.getAttribute('aria-expanded') === 'true');
   ok('panel lists where the term appears', /In this text/.test(await page.locator('.glpanel').innerText()));
-  ok('opening the panel retires the hint', await page.locator('.hint-gl').count() === 0);
   await page.screenshot({ path: path.join(OUT, 'song-panel.png') });
   await page.keyboard.press('Escape');
   ok('Esc closes the panel and returns focus to the term', await page.locator('.glpanel:not([hidden])').count() === 0
@@ -104,19 +118,21 @@ const noHScroll = page => page.evaluate(() => document.documentElement.scrollWid
   await page.keyboard.press('Escape');
 
   // settings: labelled with their state
-  const label = () => page.locator('#settings-btn .bar__label').innerText();
-  ok('settings label states the display', await label() === 'Display: English · commentary in margin', await label());
+  const label = () => page.locator('#settings-btn .runhead__label').innerText();
+  ok('settings label states the display', await label() === 'Display: English, commentary in the margin', await label());
   await page.locator('#settings-btn').click();
   await page.locator('label[for="set-display-study"]').click();
   await page.locator('label[for="set-comm-inline"]').click();
   ok('study display shows source, transliteration and gloss', await page.locator('#c1 .src').first().isVisible() && await page.locator('#c1 .lit').first().isVisible());
-  ok('settings label follows the choice', await label() === 'Display: Study · commentary under each passage', await label());
-  await page.locator('.dialog .btn').click();
+  const facing = await page.evaluate(() => { const s = document.querySelector('#c1 .src').getBoundingClientRect(), e = document.querySelector('#c1 .en').getBoundingClientRect(); return s.right <= e.left && Math.abs(s.top - e.top) < 12; });
+  ok('the source faces the English, line by line', facing);
+  ok('settings label follows the choice', await label() === 'Display: Study, commentary under each couplet', await label());
+  await page.locator('.dialog__done .link').click();
   const inline = await page.evaluate(() => {
     const v = document.querySelector('#c1 .passage__verse').getBoundingClientRect(), s = document.querySelector('#c1 .sidenote').getBoundingClientRect();
-    return s.top >= v.bottom - 1 && Math.abs(s.left - v.left) < 30;
+    return s.top >= v.bottom - 1 && s.left >= v.left;
   });
-  ok('inline commentary folds under its couplet', inline);
+  ok('commentary folds under its couplet', inline);
   await page.screenshot({ path: path.join(OUT, 'song-study-inline.png'), fullPage: true });
   await page.reload();
   ok('settings persist across loads', await page.evaluate(() => document.documentElement.dataset.display) === 'study');
@@ -151,6 +167,7 @@ for (const [file, shot] of [['index.html', 'title-desktop.png'], ['glossary.html
     ok('title page sample term opens the panel', await page.locator('.glpanel:not([hidden])').count() === 1);
     await page.keyboard.press('Escape');
   }
+  await page.evaluate(() => document.activeElement?.blur());
   await page.screenshot({ path: path.join(OUT, shot), fullPage: true });
   await ctx.close();
 }

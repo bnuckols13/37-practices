@@ -128,17 +128,20 @@ test('render publishes only approved units, with popover data and a sitemap', ()
   const html = read(path.join(out, '01.html'));
   assert.match(html, /data-g="taruvara"/);
   assert.match(html, /<script type="application\/json" id="gloss-data">/);
-  assert.match(html, /reviewed and approved by/);
+  assert.match(html, /reviewed line by line by /);
   assert.ok(!/\]\{taruvara\}/.test(html), 'markup is rendered');
   // Reading Room structure: rubricated passage numbers, Munidatta beside his couplet, shared assets.
   assert.match(html, /<section class="passage" id="c1" data-unit="fx\.01\.1"><div class="passage__no"><a class="pno" href="#c1"/);
   assert.match(html, /<aside class="sidenote" aria-label="Munidatta on 1\.1">/);
   assert.match(html, /<link rel="stylesheet" href="\.\.\/assets\/reader\.css\?v=[0-9a-f]{12}">/);
   assert.match(html, /<meta name="citation" content="[^"]*\{p\}/);
-  for (const a of ['reader.css', 'reader.js']) assert.ok(fs.existsSync(path.join(process.env.SITE_ROOT, 'translations', 'assets', a)), a);
+  for (const a of ['reader.css', 'reader.js', 'fonts/IlluminatedText-Regular.woff2', 'fonts/TiroBangla-Bengali.woff2', 'fonts/OFL.txt']) {
+    assert.ok(fs.existsSync(path.join(process.env.SITE_ROOT, 'translations', 'assets', a)), a);
+  }
+  assert.doesNotMatch(html, /fonts\.googleapis|fonts\.gstatic/, 'type is self-hosted');
   const title = read(path.join(out, 'index.html'));
   assert.match(title, /How to read this edition/);
-  assert.match(title, /<table class="songtable">/);
+  assert.match(title, /<ol class="contents">/);
   const search = JSON.parse(read(path.join(out, 'search.json')));
   assert.ok(search.docs.some(d => d[0] === 'p' && d[1] === '1.1'), 'passages are searchable');
   assert.ok(search.docs.some(d => d[0] === 'g' && d[1] === 'taruvara'), 'glossary terms are searchable');
@@ -167,4 +170,15 @@ test('glossary sheet: review and accept decisions for proposed terms', async () 
   const r = acceptGlossarySheet('fixture');
   assert.deepEqual(r.glossary.rejected, ['kala']);
   assert.equal(glossary.load().entries.find(e => e.id === 'kala').status, 'rejected');
+});
+
+test('the reader stylesheet keeps the house rules', async () => {
+  const { READER_CSS } = await import('../lib/render/css.mjs');
+  const rules = READER_CSS.replace(/\/\*[\s\S]*?\*\//g, '');
+  assert.doesNotMatch(rules, /text-transform/, 'no uppercase labels');
+  assert.doesNotMatch(rules, /box-shadow|drop-shadow/, 'no shadows');
+  assert.doesNotMatch(rules, /gradient\(/, 'no gradients');
+  assert.doesNotMatch(rules, /border-radius:(?!\s*0[;\s}])/, 'no rounded boxes');
+  assert.doesNotMatch(rules, /--font-ui|sans-serif|system-ui/, 'one book face, no sans');
+  assert.doesNotMatch(rules, /backdrop-filter/, 'no frosted glass');
 });

@@ -3,7 +3,7 @@
  * translations/assets/reader.js. Pages work without it: terms link to the
  * glossary page, passage numbers are plain anchors, commentary sits in the
  * margin. The script adds the glossary panel and hover preview, the display
- * settings, the passage menu, search and the one-time hint.
+ * settings, the passage menu and search.
  */
 
 // Runs synchronously in <head>, before first paint, so a saved theme or display never flashes.
@@ -34,8 +34,8 @@ var fine = window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)')
 
 // ---------- settings ----------
 var LABELS = {
-  display: { english: 'English', bilingual: 'English with source', study: 'Study: source, transliteration, gloss' },
-  comm: { margin: 'commentary in margin', inline: 'commentary under each passage', hidden: 'commentary hidden' },
+  display: { english: 'English', bilingual: 'English and source', study: 'Study' },
+  comm: { margin: 'commentary in the margin', inline: 'commentary under each couplet', hidden: 'commentary hidden' },
   theme: { system: 'System', light: 'Light', dark: 'Dark' }
 };
 function setting(name) { return name === 'theme' ? (html.getAttribute('data-theme') || 'system') : html.getAttribute('data-' + name); }
@@ -49,16 +49,16 @@ function apply(name, value) {
 function label() {
   var b = $('#settings-btn'); if (!b) return;
   var hasComm = !!$('.sidenote, .song-comment');
-  var t = (LABELS.display[setting('display')] || 'English').split(':')[0];
-  var text = 'Display: ' + t + (hasComm ? ' · ' + (LABELS.comm[setting('comm')] || '') : '');
-  var lab = b.querySelector('.bar__label'); if (lab) lab.textContent = text;
+  var t = LABELS.display[setting('display')] || 'English';
+  var text = 'Display: ' + t + (hasComm ? ', ' + (LABELS.comm[setting('comm')] || '') : '');
+  var lab = b.querySelector('.runhead__label'); if (lab) lab.textContent = text;
   b.setAttribute('aria-label', text + '. Change display settings');
 }
 function openSettings() {
   var hasSrc = !!$('.src'), hasComm = !!$('.sidenote, .song-comment');
   var groups = [];
   function group(name, legend, opts) {
-    return el('fieldset', {}, [el('legend', { class: 'smallcaps', text: legend })].concat(opts.map(function (o) {
+    return el('fieldset', {}, [el('legend', { text: legend })].concat(opts.map(function (o) {
       var id = 'set-' + name + '-' + o[0];
       var input = el('input', { type: 'radio', name: name, id: id, value: o[0] });
       if (setting(name) === o[0]) input.checked = true;
@@ -66,8 +66,8 @@ function openSettings() {
       return el('label', { for: id }, [input, el('span', {}, [o[1], o[2] ? el('span', { class: 'hint', text: o[2] }) : null])]);
     })));
   }
-  if (hasSrc) groups.push(group('display', 'Text', [['english', 'English'], ['bilingual', 'English with the source', 'Old Bengali under each line'], ['study', 'Study', 'Source, transliteration and a word-by-word gloss']]));
-  if (hasComm) groups.push(group('comm', 'Commentary', [['margin', 'In the margin', 'Beside the passage it reads, on wide screens'], ['inline', 'Under each passage'], ['hidden', 'Hidden']]));
+  if (hasSrc) groups.push(group('display', 'Text', [['english', 'English'], ['bilingual', 'English and source', 'The source text beside the English'], ['study', 'Study', 'The source, a transliteration and a word-by-word gloss beside the English']]));
+  if (hasComm) groups.push(group('comm', 'Commentary', [['margin', 'In the margin', 'Beside the couplet it explains; under it when the source is shown'], ['inline', 'Under each couplet'], ['hidden', 'Hidden']]));
   groups.push(group('theme', 'Appearance', [['system', 'Match my device'], ['light', 'Light'], ['dark', 'Dark']]));
   dialog('Display', [el('form', { class: 'settings' }, groups)]);
 }
@@ -77,8 +77,8 @@ var lastFocus = null;
 function dialog(title, kids) {
   closeDialog();
   lastFocus = doc.activeElement;
-  var close = el('button', { type: 'button', class: 'btn', text: 'Done' });
-  var card = el('div', { class: 'dialog__card', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'dlg-h' }, [el('h2', { id: 'dlg-h', text: title })].concat(kids, [el('p', { style: 'text-align:right;margin:8px 0 0' }, [close])]));
+  var close = el('button', { type: 'button', class: 'link', text: 'Done' });
+  var card = el('div', { class: 'dialog__card', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'dlg-h' }, [el('h2', { id: 'dlg-h', text: title })].concat(kids, [el('p', { class: 'dialog__done' }, [close])]));
   var wrap = el('div', { class: 'dialog', id: 'dialog' }, [card]);
   wrap.addEventListener('click', function (e) { if (e.target === wrap) closeDialog(); });
   close.addEventListener('click', closeDialog);
@@ -93,7 +93,7 @@ function closeDialog() { var d = $('#dialog'); if (d) { d.remove(); if (lastFocu
 var panel = null, pinned = null, preview = null, hoverTimer = null;
 function formsLine(e) {
   return el('p', { class: 'glpanel__forms' }, e.forms.map(function (f, i) {
-    return el('span', {}, [i ? ' · ' : '', f.lang + ' ', el('span', { lang: f.html || null, text: f.script || '' }), f.script ? ' ' : '', el('i', { text: f.translit || '' }), f.att ? el('abbr', { class: 'att', title: f.attTitle, text: f.att }) : null]);
+    return el('span', {}, [i ? '; ' : '', f.lang + ' ', el('span', { lang: f.html || null, text: f.script || '' }), f.script ? ' ' : '', el('i', { text: f.translit || '' }), f.att ? ' ' : '', f.att ? el('abbr', { class: 'att', title: f.attTitle, text: f.att }) : null]);
   }));
 }
 function openPanel(a) {
@@ -104,17 +104,21 @@ function openPanel(a) {
   if (!panel) { panel = el('aside', { class: 'glpanel', id: 'gl-panel', role: 'dialog', 'aria-labelledby': 'gl-h', tabindex: '-1' }); doc.body.appendChild(panel); }
   panel.hidden = false;
   panel.replaceChildren();
-  var close = el('button', { type: 'button', class: 'btn btn--quiet glpanel__close', text: 'Close' });
+  var close = el('button', { type: 'button', class: 'link glpanel__close', text: 'Close' });
   close.addEventListener('click', closePanel);
-  var kids = [close, el('p', { class: 'smallcaps glpanel__type', text: 'Glossary' }), el('h2', { id: 'gl-h', text: e.en }), el('p', { class: 'smallcaps glpanel__type', text: e.type })];
+  var kids = [close, el('h2', { id: 'gl-h', text: e.en }), el('p', { class: 'glpanel__type', text: e.type })];
   if (e.forms.length) kids.push(formsLine(e));
   if (e.def) kids.push(el('p', { class: 'glpanel__def', text: e.def }));
   if (e.sym) kids.push(el('p', { class: 'glpanel__sym', text: e.sym }));
-  if (e.where && e.where.length) kids.push(el('p', { class: 'glpanel__where' }, ['In this text: '].concat(e.where.map(function (w) { return el('a', { href: w.href, text: w.label }); }))));
+  if (e.where && e.where.length) {
+    var at = ['In this text at '];
+    e.where.forEach(function (w, i) { if (i) at.push(i === e.where.length - 1 ? ' and ' : ', '); at.push(el('a', { href: w.href, text: w.label })); });
+    at.push('.');
+    kids.push(el('p', { class: 'glpanel__where' }, at));
+  }
   kids.push(el('p', { class: 'glpanel__where' }, [el('a', { href: a.getAttribute('href'), text: 'Full entry in the glossary' })]));
   kids.forEach(function (k) { panel.appendChild(k); });
   panel.focus();
-  store('rr:hint-gl', 'seen'); var hint = $('.hint-gl'); if (hint) hint.remove();
   track('glossary_open', { term: id });
   return true;
 }
@@ -126,7 +130,7 @@ function closePanel() {
 function showPreview(a) {
   var e = data[a.getAttribute('data-g')]; if (!e) return;
   closePreview();
-  preview = el('div', { class: 'preview', role: 'tooltip' }, [el('b', { text: e.en }), el('span', { class: 'ui', text: e.type + (e.forms[0] ? ' · ' + (e.forms[0].translit || '') : '') }), e.def ? el('p', { style: 'margin:4px 0 0', text: e.def.length > 180 ? e.def.slice(0, 177) + '…' : e.def }) : null]);
+  preview = el('div', { class: 'preview', role: 'tooltip' }, [el('b', { text: e.en }), el('i', { text: e.type + (e.forms[0] && e.forms[0].translit ? ', ' + e.forms[0].translit : '') }), e.def ? el('p', { text: e.def.length > 180 ? e.def.slice(0, 177) + '…' : e.def }) : null]);
   doc.body.appendChild(preview);
   var r = a.getBoundingClientRect(), w = preview.offsetWidth;
   preview.style.left = Math.max(16, Math.min(scrollX + r.left, scrollX + html.clientWidth - w - 16)) + 'px';
@@ -179,10 +183,10 @@ function openSearch() {
     hits.sort(function (a, b) { return a[0] - b[0]; });
     if (!hits.length) { res.appendChild(el('li', { class: 'search__none', text: 'Nothing matches “' + q.value + '”.' })); return; }
     hits.slice(0, 30).forEach(function (h) {
-      var d = h[1], kind = { p: 'Passage ' + d[1], c: 'Commentary on ' + d[1], g: 'Glossary' }[d[0]];
+      var d = h[1], kind = { p: 'Passage ' + d[1] + (d[3] ? ', ' + d[3] : ''), c: d[3] + ' on ' + d[1], g: 'Glossary: ' + d[3] }[d[0]];
       var text = d[4] || '', at = fold(text).indexOf(f);
       var body = at < 0 ? [text] : [text.slice(0, at), el('mark', { text: text.slice(at, at + q.value.trim().length) }), text.slice(at + q.value.trim().length)];
-      res.appendChild(el('li', {}, [el('a', { href: d[2] }, [el('span', { class: 'k', text: kind + ' · ' + d[3] }), el('span', {}, body)])]));
+      res.appendChild(el('li', {}, [el('a', { href: d[2] }, [el('span', { class: 'k', text: kind }), el('span', { class: 't' }, body)])]));
     });
   }
   q.addEventListener('input', run);
@@ -235,14 +239,6 @@ if (gfilter) {
   $$('.gtools .seg').forEach(function (b) { b.addEventListener('click', function () { type = b.getAttribute('data-type'); $$('.gtools .seg').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); refresh(); }); });
 }
 
-// ---------- one-time hint ----------
-var firstTerm = $('.passages a.gl');
-if (firstTerm && store('rr:hint-gl') !== 'seen') {
-  var ok = el('button', { type: 'button', class: 'btn btn--quiet', text: 'Got it' });
-  var hint = el('p', { class: 'hint-gl', role: 'note' }, [el('span', { text: 'Underlined words open the glossary: the source word, how it is attested, and how the tradition reads the image.' }), ok]);
-  ok.addEventListener('click', function () { store('rr:hint-gl', 'seen'); hint.remove(); });
-  var verse = firstTerm.closest('.passage__verse'); if (verse) verse.appendChild(hint);
-}
 label();
 })();
 `;

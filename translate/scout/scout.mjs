@@ -24,7 +24,7 @@ import { ensureDataTei, readCatalog } from './lib/catalog.mjs';
 import { fetchPublished } from './lib/published.mjs';
 import { makeWiki } from './lib/wiki.mjs';
 import { fetchLotsawa, openLibrary } from './lib/elsewhere.mjs';
-import { makeReddit } from './lib/reddit.mjs';
+import { makeReddit, typedSpellings } from './lib/reddit.mjs';
 import { availability, graph, score } from './lib/score.mjs';
 import { renderReport, toCSV } from './lib/report.mjs';
 
@@ -107,8 +107,9 @@ async function run() {
     const mentions = makeReddit(net, cfg.reddit);
     for (const x of shortlist.slice(0, cfg.reddit.top)) {
       const t = await mentions(x.r.titles.sa);
-      const a = x.author ? await mentions(x.author.name.replace(/\s*\(.*\)/, '')) : null;
-      if (t != null || a != null) x.reddit = (t || 0) + Math.round(0.3 * (a || 0));
+      // Authors under the spellings people type, from the catalogue name and the Wikipedia title.
+      const a = x.author ? await mentions(typedSpellings(x.author.title, x.author.name)) : null;
+      if (t != null && (a != null || !x.author)) x.reddit = t + Math.round(0.3 * (a || 0));
     }
   }
   score(rows, g, cfg);
@@ -127,7 +128,7 @@ async function run() {
   };
   const ranked = rows.slice().sort((a, b) => b.score - a.score || b.demand - a.demand);
   const plain = ranked.map(x => ({
-    toh: x.r.toh, label: x.r.label, canon: x.r.canon, avail: x.avail, status: x.r.status,
+    toh: x.r.toh, label: x.r.label, canon: x.r.canon, file: x.r.file, avail: x.avail, status: x.r.status,
     score: x.score, demand: Math.round(1000 * x.demand) / 1000, gap: x.gap, effort: x.effort,
     titles: x.r.titles, authors: x.r.authors, pages: x.r.pages, folios: x.r.folios, volumes: x.r.volumes,
     section: x.r.section, translatorsEng: x.r.translatorsEng,

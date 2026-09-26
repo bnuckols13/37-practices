@@ -47,7 +47,13 @@ export function makeNet({ cacheDir, offline = false, ttlDays = 7, log = () => {}
           throw new Error('HTTP 429');
         }
         if (res.status >= 500) throw new Error(`HTTP ${res.status}`);
-        if (!res.ok) { stats.failed++; log(`  ${res.status} ${url}`); return null; }
+        if (!res.ok) {
+          // Arctic Shift answers an overloaded query with 422 and a "Timeout" body;
+          // the same query usually succeeds a little later.
+          const text = await res.text();
+          if (/timeout|slow down/i.test(text)) throw new Error(`HTTP ${res.status} timeout`);
+          stats.failed++; log(`  ${res.status} ${url}`); return null;
+        }
         const body = json ? await res.json() : await res.text();
         // Arctic Shift reports overload in a 200 body; treat it as retryable.
         if (json && body && body.error && /timeout|slow down/i.test(body.error)) throw new Error(body.error);

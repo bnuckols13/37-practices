@@ -4,7 +4,7 @@
 
 ```sh
 node translate/scout/scout.mjs run               # refresh sources (cached a week), rank, write the report
-node translate/scout/scout.mjs run --reddit      # also count Reddit mentions for the top 40 (slow: about 10 minutes)
+node translate/scout/scout.mjs run --reddit      # also count Reddit mentions for the top 40 (slow: 5 to 10 minutes)
 node translate/scout/scout.mjs run --offline     # rerank from the cache only
 node translate/scout/scout.mjs watch             # what 84000 published this week, and whether it was on our list
 node translate/scout/scout.mjs watch --since 2026-09-01
@@ -21,7 +21,7 @@ Outputs go to `translate/.cache/scout/out/` (gitignored): `opportunities.html` t
 | English Wikipedia API and Wikimedia pageviews | Whether an article exists for the author or the text, its short description and lead, and twelve months of views | Public, no key | CC BY-SA content; the scout stores counts only |
 | Lotsawa House index pages | Toh numbers cited in the listings of free translations | Public HTML, 0.7 s between requests | Read only; links back |
 | Open Library search | English editions under a text's core Sanskrit title (shortlist only) | Public, 1 s between requests | Read only |
-| Arctic Shift (Reddit archive) | Comment counts since 2021 in r/Buddhism, r/TibetanBuddhism, r/vajrayana (with `--reddit`) | Public, 2.5 s between requests | Counts only |
+| Arctic Shift (Reddit archive) | Comment counts since 2021 in r/TibetanBuddhism and r/vajrayana (with `--reddit`); r/Buddhism is too large for the archive's full-text search, which times out on it | Public, 2.5 s between requests | Counts only |
 
 The placeholder snapshot is from February 2025. Anything 84000 has published since is corrected from the Pull API; anything it has *started* since is invisible, because no public endpoint reports status short of publication. Before committing to a long text, ask 84000 (tech@84000.co).
 

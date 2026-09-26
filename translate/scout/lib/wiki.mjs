@@ -21,11 +21,14 @@ export function spellings(name) {
   return [...new Set([n, strip(n), strip(sh), strip(ch)])].filter(Boolean);
 }
 
+// Titles and honorifics that precede or follow a name; alone they name a kind of person.
+const HONORIFIC = /^(bhikṣu|bhikṣuṇī|ācārya|mahācārya|paṇḍita|śrī|ārya|bodhisattva|bhadanta|upāsaka|siddha|mahāsiddha|avadhūta|avadhūtipa|kaśmīri|rāja|mahārāja|bhaṭṭāraka|sthavira|heruka)$/i;
+
 /** Author field → candidate names: the whole name, then its long parts. */
 export function authorCandidates(author) {
   const base = author.replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\bthe (Elder|Younger|Great|Lesser)\b/gi, '').replace(/\s+/g, ' ').trim();
   const whole = spellings(base);
-  const parts = base.includes(' ') ? base.split(' ').filter(w => w.length >= 5).flatMap(spellings) : [];
+  const parts = base.includes(' ') ? base.split(' ').filter(w => w.length >= 5 && !HONORIFIC.test(w.normalize('NFC'))).flatMap(spellings) : [];
   return { whole, parts };
 }
 
@@ -81,7 +84,7 @@ export function mentionsAuthor(text, authors) {
 
 const PERSON = /philosopher|monk|scholar|master|teacher|poet|siddha|yogi|saint|logician|writer|author|buddhist|king|emperor|physician|grammarian|dramatist|lama|abbot|mystic|tantric/i;
 const STRONG_PERSON = /philosopher|monk|scholar|poet|siddha|logician|yogi|master|writer|author|teacher/i;
-const NOT_PERSON = /deity|\bgod\b|goddess|bodhisattva|future buddha|language|people|region|city|river|concept|practice|school|text|sutra|tantra$|disambiguation/i;
+const NOT_PERSON = /deity|\bgod\b|goddess|bodhisattva|future buddha|language|people|region|city|river|concept|\bterm\b|practice|school|text|sutra|tantra$|disambiguation/i;
 const WORK = /text|sutra|sūtra|treatise|poem|poetry|scripture|work|song|commentary|book|verses|epistle|letter|hymn|stotra|collection|compendium|tantra|shastra|śāstra/i;
 const NOT_WORK = /deity|concept|practice|school|philosopher|monk|scholar|person|region|city|disambiguation|term\b|genre|literary form|poetic form|tradition|movement/i;
 
@@ -162,9 +165,10 @@ export function makeWiki(net) {
       }
       // A whole-name match may lack a description only when it came from the
       // IAST or plain spelling; the sh/ch respellings reach unrelated pages
-      // through stray redirects ("Matricheta"). A part match must look like a person.
+      // through stray redirects ("Matricheta"). A match on one part of a name
+      // ("Bodhisattva" in "Dā Bodhisattva") must describe a person unmistakably.
       const hit = pick(c.whole, (p, k) => p.description ? looksLikePerson(p.description) : k <= 1)
-        || pick(c.parts, p => looksLikePerson(p.description));
+        || pick(c.parts, p => STRONG_PERSON.test(p.description) && looksLikePerson(p.description));
       if (hit) out.set(name, { ...hit, views: await views(hit.title) });
     }
     return out;

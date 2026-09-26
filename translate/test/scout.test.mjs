@@ -3,6 +3,13 @@ import assert from 'node:assert/strict';
 import { parsePlaceholder, parseSection, tohFromFilename, normToh, STATUS_GROUP } from '../scout/lib/catalog.mjs';
 import { spellings, coreTitles, authorCandidates, mentionsAuthor, looksLikePerson, looksLikeWork } from '../scout/lib/wiki.mjs';
 import { availability, graph, effortFactor, score } from '../scout/lib/score.mjs';
+import { typedSpellings } from '../scout/lib/reddit.mjs';
+
+test('Reddit search terms are the spellings people type', () => {
+  assert.deepEqual(typedSpellings('Atiśa', 'Atīśa Dīpaṃkaraśrījñāna'), ['Atisa', 'Atisha']);
+  assert.deepEqual(typedSpellings('Chandrakirti', 'Candrakīrti'), ['Chandrakirti', 'Candrakirti']);
+  assert.deepEqual(typedSpellings('Saraha', 'Saraha (II)'), ['Saraha']);
+});
 
 // Invented values in 84000's placeholder shape; not copied from their data.
 const PLACEHOLDER = `<?xml version="1.0" encoding="UTF-8"?>
@@ -80,6 +87,8 @@ test('name spellings reach Wikipedia forms', () => {
   const c = authorCandidates('Atīśa Dīpaṃkaraśrījñāna');
   assert.ok(c.parts.includes('Atisa'));
   assert.deepEqual(authorCandidates('Saraha (II)').whole.slice(0, 1), ['Saraha']);
+  assert.ok(!authorCandidates('Bhikṣu Piṇḍo').parts.some(p => /bhik/i.test(p)), 'honorifics are not names');
+  assert.ok(!authorCandidates('Ḍombi Heruka').parts.some(p => /heruka/i.test(p)));
 });
 
 test('core titles split on nāma and drop kārikā', () => {
@@ -93,6 +102,7 @@ test('core titles split on nāma and drop kārikā', () => {
 test('description and lead checks', () => {
   assert.ok(looksLikePerson('Indian Mahayana Buddhist philosopher'));
   assert.ok(!looksLikePerson('One of the earliest bodhisattvas of Mahayana Buddhism'));
+  assert.ok(!looksLikePerson('Buddhist term for aspirant to enlightenment'), 'a term page is not a person');
   assert.ok(looksLikePerson('King of Ayodhya'), 'kings still pass; overrides.json catches the wrong ones');
   assert.ok(looksLikeWork('Mahayana Buddhist text'));
   assert.ok(!looksLikeWork('Genre of Buddhist poetry'));

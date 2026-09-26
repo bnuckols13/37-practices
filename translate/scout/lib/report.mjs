@@ -28,7 +28,18 @@ export function toCSV(rows) {
   return lines.join('\n') + '\n';
 }
 
-const tohHref = r => `https://84000.co/translation/${r.toh[0]}`;
+// 84000.co has a page only for a published text; for anything else it shows
+// a 404. Unpublished texts link to their Degé Tibetan on 84000's source
+// viewer, opened at the folio where the text begins, and to the catalogue
+// record in 84000/data-tei.
+const startFolio = r => (/ff\.\s*(\d+)/.exec(r.folios || '') || [])[1];
+function links(r) {
+  const out = [];
+  if (r.avail === 'published') out.push(`<a href="https://84000.co/translation/${r.toh[0]}">84000 translation</a>`);
+  if (startFolio(r)) out.push(`<a href="https://source.84000.co/${r.toh[0]}/folio/${startFolio(r)}">Tibetan text</a>`);
+  if (r.file) out.push(`<a href="https://github.com/84000/data-tei/blob/master/translations/${r.canon}/placeholders/${encodeURIComponent(r.file)}">catalogue record</a>`);
+  return out.join(' · ');
+}
 
 function titleCell(r) {
   return `<div class="en">${esc(r.titles.en || r.titles.wylie || r.label)}</div>`
@@ -42,7 +53,7 @@ function row(r, rank, { showScore = true, extra = '' } = {}) {
   return `<tr data-q="${esc([r.label, r.titles.en, r.titles.sa, r.titles.wylie, r.authors.join(' '), r.tags.join(' '), r.section.join(' ')].join(' ').toLowerCase())}">
     <td class="num">${rank}</td>
     ${showScore ? `<td class="score"><b>${r.score.toFixed(1)}</b><span class="bar"><i style="width:${Math.min(100, r.score)}%"></i></span></td>` : ''}
-    <td class="toh"><a href="${tohHref(r)}">${esc(r.label)}</a><div class="muted">${esc(r.canon === 'tengyur' ? 'Tengyur' : 'Kangyur')} · ${r.pages ?? '?'} pp.</div><div class="muted small">${esc(r.section.slice(-1)[0] || '')}</div></td>
+    <td class="toh"><b>${esc(r.label)}</b><div class="muted">${esc(r.canon === 'tengyur' ? 'Tengyur' : 'Kangyur')} · ${r.pages ?? '?'} pp.</div><div class="small">${links(r)}</div><div class="muted small">${esc(r.section.slice(-1)[0] || '')}</div></td>
     <td class="title">${titleCell(r)}</td>
     <td class="author">${esc(r.authors.join(', ') || 'unattributed')}</td>
     <td class="why-cell">${why}${flags}${extra}</td>
@@ -135,7 +146,7 @@ footer { margin-top:48px; font-size:.85rem; color:var(--muted); }
 ${cp.length ? `<div class="callout"><b>Where the Charyapada sits.</b> ${cp.map(r => `${esc(r.label)} (${esc(r.titles.sa || r.titles.en)}) is ${r.avail === 'open' ? `open, ranked #${rankOf(r)} of ${open.length}` : esc(r.avail)}, ${r.pages} pp.${r.commentaries.length ? `, with ${r.commentaries.length} Tengyur commentar${r.commentaries.length === 1 ? 'y' : 'ies'}` : ''}`).join('; ')}. Toh 2293 is Munidatta's commentary with the songs embedded, the Tibetan witness the engine needs for songs 24, 25, 48 and the end of 23. 84000's catalogue links it to Toh 2263, Saraha's King Dohā, as its root; Munidatta comments on the Caryāgīti songs rather than on that dohā, so the link is worth raising with 84000.</div>` : ''}
 
 <h2 id="top">Top ${cfg.top} opportunities</h2>
-<p class="muted">Open texts ranked by score (0 to 100). Every figure that moved a score is listed beside it; red lines are reasons for caution.</p>
+<p class="muted">Open texts ranked by score (0 to 100). Every figure that moved a score is listed beside it; red lines are reasons for caution. 84000's website has pages only for texts it has published, so each text links to its Degé Tibetan on 84000's source viewer, opened at its first folio, and to 84000's catalogue record.</p>
 ${table(top)}
 
 <h2 id="quick">Quick wins: ${cfg.quickWinPages} pages or fewer</h2>

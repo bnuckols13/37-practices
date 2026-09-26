@@ -1,0 +1,25 @@
+{
+  "weights": { "author": 0.25, "title": 0.30, "commentaries": 0.20, "reddit": 0.10, "fit": 0.15 },
+  "companionBoost": 0.6,
+  "gap": { "lotsawa": 0.3, "known": 0.25, "partial": 0.6, "openLibrary": 0.6, "kangyur": 0.75 },
+  "effort": [
+    { "maxPages": 6, "factor": 1.0 },
+    { "maxPages": 20, "factor": 0.95 },
+    { "maxPages": 60, "factor": 0.85 },
+    { "maxPages": 150, "factor": 0.7 },
+    { "maxPages": 400, "factor": 0.55 },
+    { "maxPages": 99999, "factor": 0.4 }
+  ],
+  "fit": [
+    { "tag": "siddha songs and dohās", "weight": 1.0, "match": "dohā|doha|(?<!saṃ)gīti|(?<!sam)giti\\b|\\bglu\\b|glu'i|\\b(a|the|vajra|inconceivable) song\\b|\\bsong (of|called|that|on)\\b" },
+    { "tag": "mind training and bodhicitta", "weight": 1.0, "match": "bodhicitt|byang chub (kyi )?sems|blo sbyong|mind training|bodhisattva'?s? (practice|conduct|way)|bodhicaryā" },
+    { "tag": "mahāmudrā", "weight": 0.9, "match": "mahāmudrā|mahamudra|phyag rgya chen po|inconceivable" },
+    { "tag": "letters and advice", "weight": 0.8, "match": "epistle|\\bletter|lekha|spring yig|upadeśa|man ngag|advice" },
+    { "tag": "praises", "weight": 0.7, "match": "stotra|stava|bstod pa|\\bpraise|eulogy" },
+    { "tag": "Middle Way", "weight": 0.7, "match": "middle way|madhyamaka|dbu ma" },
+    { "tag": "aspiration and dedication", "weight": 0.6, "match": "praṇidhāna|smon lam|aspiration|dedication" }
+  ],
+  "shortlist": 150,
+  "report": { "top": 50, "quickWinPages": 12, "listSize": 25 },
+  "reddit": { "subreddits": ["Buddhism", "TibetanBuddhism", "vajrayana"], "after": "2021-01-01", "top": 40 }
+}

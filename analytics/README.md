@@ -5,26 +5,27 @@ How measurement works on 37practices.space, and the one-time setup in Google's t
 ## How it fits together
 
 ```
-every page ── assets/analytics.js ──> dataLayer ──> Google Tag Manager ──> Google Analytics 4
-              (consent defaults,                     (container in
-               page context, events)                  gtm-container.json)
+every page ── assets/analytics.js ──> Google Analytics 4 (G-RNEDTE01W6)
+              (consent defaults, page context, events)
 ```
 
 - **`assets/analytics.js`** runs first on every page. It sets Consent Mode v2 defaults
   (analytics off in the EEA/UK/Switzerland until the visitor accepts; ad signals off
-  everywhere), tells GTM which kind of page this is, loads GTM, shows the small consent
-  notice to visitors whose browser time zone is in Europe, and provides `track()`.
+  everywhere), loads Google Analytics (`gtag.js`) with the ID in `GA4_ID`, labels every
+  event with the kind of page, shows the small consent notice to visitors whose browser
+  time zone is in Europe, and provides `track()`.
 - **Pages** call `track('event_name', {...})` for the actions worth counting (table below).
-- **GTM** turns those events into GA4 events. The GA4 Measurement ID (`G-RNEDTE01W6`)
-  lives only in GTM. The site code only needs the GTM container ID (`GTM-NTGV6HVQ`, set as
-  `GTM_ID` near the top of `assets/analytics.js`).
+  Nothing else needs configuring: the events arrive in GA4 as they are.
 
-Until a container version is **published** in GTM, `gtm.js` loads but does nothing, so
-nothing is recorded yet. Set `GTM_ID` back to `'GTM-XXXXXXX'` to switch tracking off completely.
+Set `GA4_ID` to `''` to switch tracking off completely.
+
+**Google Tag Manager is not used.** The site talks to GA4 directly, so there is nothing
+to set up in Tag Manager. `gtm-container.json` is kept only in case the site ever moves
+to Tag Manager; importing it while `gtag.js` is still loaded would count everything twice.
 
 ## One-time setup
 
-### 1. Google Analytics 4 (done: `G-RNEDTE01W6`)
+### 1. Google Analytics 4 (`G-RNEDTE01W6`)
 
 In **Admin → Data streams → (the web stream) → Enhanced measurement ⚙**:
 
@@ -45,30 +46,12 @@ Then:
   parameter: `page_type`, `verse_number`, `verse_topic`, `block`, `search_term`,
   `commentator`, `translation`, `tab_id`, `cta_id`, `form_id`, `lead_type`, `meeting_format`.
   Name each the same as its parameter. Dimensions only collect data from the day they're created, so do this early.
+- To check it works: open the site, then **Reports → Realtime** in GA4. You should appear
+  within a minute.
 
-### 2. Google Tag Manager (container `GTM-NTGV6HVQ`)
+### 2. (Not needed) Google Tag Manager
 
-1. Container created. Ignore the install-code popup: the site already loads GTM.
-2. **Admin → Import Container** → choose `analytics/gtm-container.json` →
-   workspace **Existing: Default Workspace** → **Merge** → *Rename conflicting tags, triggers and variables* → Confirm.
-3. Check **Variables → GA4 Measurement ID** reads `G-RNEDTE01W6`.
-4. Container ID already in `assets/analytics.js`, so nothing to paste.
-5. **Preview** → enter `https://37practices.space` → click around (switch verses, open a
-   toolkit tab) and confirm *Google tag - GA4* fires on load and *GA4 event - site events*
-   fires on each action. In GA4, **Admin → DebugView** shows the same events live.
-6. **Submit** → **Publish**.
-
-What the import creates:
-
-| Kind | Name | Details |
-|---|---|---|
-| Variable | GA4 Measurement ID | Constant `G-RNEDTE01W6` |
-| Variables | DLV - *param* | One Data Layer Variable per parameter in the table below |
-| Trigger | CE - site events | Custom Event, regex `^(generate_lead\|question_submitted\|form_start\|contact_email_click\|cta_click\|toolkit_tab_view\|verse_view\|search\|commentator_filter\|compare_translations\|copy_text\|print_verses)$` |
-| Tag | Google tag - GA4 | Tag ID `{{GA4 Measurement ID}}`; config parameters `page_type`, `verse_number`; fires on *Initialization - All Pages* |
-| Tag | GA4 event - site events | Event name `{{Event}}`; every parameter below mapped to its DLV; fires on *CE - site events* |
-
-If the import is ever refused, build those five rows by hand. It takes about ten minutes.
+Skip it. See above.
 
 ### 3. Google Search Console
 
@@ -104,10 +87,9 @@ If the import is ever refused, build those five rows by hand. It takes about ten
 Every page also sends `page_type` (`home`, `toolkit`, `study`, `verse`, `verse_index`,
 `flyer`, `privacy`, `404`) and, on verse pages, `verse_number`.
 
-**Rules for new events:** snake_case names; add any new parameter to `EVENT_KEYS` in
-`assets/analytics.js` (so it's cleared between events), to the GTM event tag, and to the
-trigger regex if it's a new event name. Never send names, email addresses or anything
-typed into a form.
+**Rules for new events:** snake_case names, and register any new parameter as a custom
+dimension in GA4 if you want to report on it. Never send names, email addresses or
+anything typed into a form (the verse search terms are the one exception, by design).
 
 ## AI search (AEO)
 
@@ -126,7 +108,7 @@ typed into a form.
 
 ## Good to know
 
-- Vercel preview deployments load GTM too. In GA4 reports, add a filter
+- Vercel preview deployments send analytics too. In GA4 reports, add a filter
   *Hostname = 37practices.space* to leave previews out.
 - The consent notice appears only where the browser's time zone is in Europe. Consent Mode's
   own defaults use Google's IP-based region, so if the two disagree the result is still

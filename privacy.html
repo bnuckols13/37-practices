@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="assets/analytics.js"></script>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 <title>Privacy — 37 Practices of a Bodhisattva</title>
 <meta name="description" content="What 37practices.space collects, why, and how to change your choice.">
 <meta name="robots" content="noindex">
@@ -85,12 +89,12 @@ strong { font-weight: 600; color: var(--ink); }
   <p>This site counts visits so we can tell which verses and pages help study groups, and whether people find their way to starting one. No ads, no remarketing, and nothing is sold or shared for advertising.</p>
 
   <h2>What analytics records</h2>
-  <p>We use <strong>Google Analytics</strong>, loaded through Google Tag Manager. It records:</p>
+  <p>We use <strong>Google Analytics</strong>, loaded through Google Tag Manager, and <strong>Vercel Web Analytics</strong>. They record:</p>
   <ul>
     <li>pages and verses viewed, how you arrived (for example, a link in a newsletter), and your device, browser and approximate location;</li>
     <li>actions on the site, such as moving between verses, filtering commentators, words typed into the verse search, and whether a form was sent.</li>
   </ul>
-  <p>It never receives your name, your email address, or what you write in our forms. Google Analytics does not store IP addresses. We keep analytics data for 14 months.</p>
+  <p>They never receive your name, your email address, or what you write in our forms. Google Analytics does not store IP addresses. Vercel Web Analytics is privacy-friendly and doesn't use cookies. We keep analytics data for 14 months.</p>
 
   <h2>Cookies</h2>
   <p>Google Analytics sets first-party cookies (<code>_ga</code>, <code>_ga_*</code>) to recognise a returning browser. In the European Union, the European Economic Area, the UK and Switzerland they are only set if you accept. Everywhere else they are on by default, and you can turn them off at any time.</p>

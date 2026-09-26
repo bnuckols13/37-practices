@@ -1,0 +1,7 @@
+{
+  "_note": "Studio artifacts (claude.ai pages with a shared database) and which texts each one reviews. The URLs are private: only the owner can open them.",
+  "targets": {
+    "staging": { "texts": ["fixture"], "url": "", "build": "", "publishedAt": "" },
+    "prod": { "texts": ["charyapada"], "url": "", "build": "", "publishedAt": "" }
+  }
+}

@@ -33,6 +33,11 @@ const HELP = `Illuminated translation engine
   accept <text> --glossary [--dry]
   render <text> [--preview]                       translations/<text>/… and sitemap-translations.xml
   glossary <text> [show|lint]                     inspect the glossary in scope
+
+  studio build [--target staging|prod]            build the Studio page into translate/.studio/studio.html
+  studio export <text> [units] [--all]            write Studio docs + ArtifactData batches (only what changed)
+  studio seeded <text>                            record that every batch was written
+  studio import <text> [units] [--dry] [--force]  apply decisions pulled into translate/.studio/<target>/inbox
 `;
 
 const { values: o, positionals } = parseArgs({
@@ -42,7 +47,7 @@ const { values: o, positionals } = parseArgs({
     label: { type: 'string' }, witness: { type: 'string' }, fetch: { type: 'string' }, task: { type: 'string' },
     model: { type: 'string' }, api: { type: 'boolean' }, batch: { type: 'boolean' }, force: { type: 'boolean' },
     dry: { type: 'boolean' }, preview: { type: 'boolean' }, strict: { type: 'boolean' }, glossary: { type: 'boolean' },
-    retire: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
+    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, help: { type: 'boolean', short: 'h' },
   },
 });
 
@@ -171,6 +176,42 @@ const commands = {
     const r = render(slug, { preview: o.preview });
     for (const f of r.files) log(`  wrote ${rel(f)}`);
     if (r.note) log(`  ${r.note}`);
+  },
+
+  async studio() {
+    const sub = slug;
+    const text = rest[0], unitSel = rest[1];
+    const outbox = await import('./lib/studio/outbox.mjs');
+    if (sub === 'build') {
+      const { buildStudio } = await import('./lib/studio/build.mjs');
+      const r = buildStudio({ target: o.target || 'staging' });
+      return log(`  wrote ${rel(r.path)} (${Math.round(r.bytes / 1024)} KB, sha ${r.sha.slice(0, 12)})`);
+    }
+    if (!text) throw new UserError(`which text? e.g. studio ${sub || 'export'} charyapada`);
+    const target = outbox.targetFor(text, o.target);
+    if (sub === 'export') {
+      const { textDocs } = await import('./lib/studio/docs.mjs');
+      let docs = textDocs(text);
+      if (unitSel) {
+        const ids = new Set(await unitsFor(text, unitSel));
+        docs = docs.filter(d => d.collection !== 'units' || ids.has(d.id));
+      }
+      const r = outbox.writeOutbox(target, docs, { all: o.all });
+      log(`  ${target}: ${r.count} doc(s) to write, ${r.unchanged} unchanged`);
+      for (const b of r.batches) log(`    ${b}`);
+      if (r.count) log(`  write each batch with ArtifactData (action "batch", writes = the file's "writes"), then: node translate/cli.mjs studio seeded ${text}`);
+      return;
+    }
+    if (sub === 'seeded') return log(`  ${target}: recorded ${outbox.markSeeded(target)} doc(s) as written`);
+    if (sub === 'import') {
+      const { importStudio, importReport } = await import('./lib/studio/import.mjs');
+      const units = unitSel ? await unitsFor(text, unitSel) : null;
+      const r = importStudio(text, { target, dry: o.dry, force: o.force, units });
+      log(importReport(r));
+      if (r.outbox?.count) for (const b of r.outbox.batches) log(`    ${b}`);
+      return;
+    }
+    throw new UserError('studio build | export | seeded | import');
   },
 
   async glossary() {

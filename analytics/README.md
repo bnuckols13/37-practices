@@ -15,8 +15,8 @@ every page ── assets/analytics.js ──┬─ MODE 'gtag' ──> Google An
   everywhere), labels every event with the kind of page, shows the small consent notice
   to visitors whose browser time zone is in Europe, provides `track()`, and loads Google's
   code according to `MODE`:
-  - `'gtag'` (now): GA4 directly through `gtag.js`. Nothing to configure anywhere.
-  - `'gtm'` (the target): Google Tag Manager, with GA4 set up inside the container from
+  - `'gtag'`: GA4 directly through `gtag.js`. Nothing to configure anywhere.
+  - `'gtm'` (current): Google Tag Manager, with GA4 set up inside the container from
     `gtm-container.json`. Tag Manager is then where any future tag goes (heatmaps,
     conversion pixels, ...) without touching the site's code.
 - **Pages** call `track('event_name', {...})` for the actions worth counting (table
@@ -51,7 +51,7 @@ Then:
 - To check it works: open the site, then **Reports → Realtime** in GA4. You should appear
   within a minute.
 
-### 2. Google Tag Manager (container `GTM-NTGV6HVQ`)
+### 2. Google Tag Manager (container `GTM-NTGV6HVQ`, published)
 
 1. [tagmanager.google.com](https://tagmanager.google.com) → open the `37practices.space` container.
 2. **Admin** (top) → **Import Container** → choose `analytics/gtm-container.json` →

@@ -24,7 +24,7 @@
   //   'gtm'   through Google Tag Manager, using GTM_ID. GA4 is then set up inside the
   //           container (analytics/gtm-container.json): switch only once that container
   //           is published, or nothing is recorded. Never run both, or visits count twice.
-  var MODE = 'gtag';
+  var MODE = 'gtm';
   var GA4_ID = 'G-RNEDTE01W6';         // Google Analytics 4 measurement ID
   var GTM_ID = 'GTM-NTGV6HVQ';         // Google Tag Manager container ID
   var STORE = '37p-consent';           // 'granted' | 'denied'

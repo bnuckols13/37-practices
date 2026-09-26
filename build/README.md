@@ -1,6 +1,6 @@
 # Study the Verses — build
 
-`study-the-verses.html`, everything in `verses/`, and `sitemap.xml` are **generated**.
+`study-the-verses.html`, everything in `verses/`, `sitemap.xml` and `llms.txt` are **generated**.
 Don't hand-edit them; your changes will be overwritten on the next build. Edit the
 compendium markdown or `build/template.html` instead.
 
@@ -12,7 +12,12 @@ compendium markdown or `build/template.html` instead.
    ```
    node build/build.mjs
    ```
-3. Commit and push. GitHub Pages picks it up in a minute or two.
+3. Commit and push. Vercel deploys it in a minute or two.
+4. Once it's live, tell Bing and the other IndexNow engines what changed:
+   ```
+   node build/indexnow.mjs
+   ```
+   (or name just the pages you changed: `node build/indexnow.mjs verses/12.html`).
 
 That's it. The build syncs the markdown out of the working folder itself — no copying by hand.
 
@@ -41,6 +46,12 @@ That's it. The build syncs the markdown out of the working folder itself — no 
   borrow their CSS from `template.html`'s `<style>` block; their markup is a copy of
   `verseHTML()` in the template, so change the two together.
 - **Writes `sitemap.xml`** listing the main pages and every verse page.
+- **Writes `llms.txt`**, a plain-markdown map of the site for AI tools, with a short
+  "about the text" Q&A. The same Q&A appears on `verses/index.html` (with FAQ markup).
+  It is built only from facts already on the site; edit `aboutTheText()` to change it.
+- **Adds structured data** to every verse page: the text and its author (with links to
+  Wikidata, the Treasury of Lives and the Encyclopedia of Buddhism), and each translation
+  and commentary as a citation.
 
 ## It refuses to build if
 

@@ -109,6 +109,21 @@ Every page also sends `page_type` (`home`, `toolkit`, `study`, `verse`, `verse_i
 trigger regex if it's a new event name. Never send names, email addresses or anything
 typed into a form.
 
+## AI search (AEO)
+
+- **AI assistant traffic.** GA4's default *AI Assistant* channel (added May 2026) covers
+  ChatGPT, Gemini and Claude but not Perplexity. For one complete view, create
+  **Admin → Data display → Channel groups → Create new channel group**, add a channel
+  *AI assistants* above *Referral* with condition *Source matches regex*
+  `(chatgpt|openai|perplexity|gemini|bard|copilot|claude|anthropic|deepseek|mistral|you\.com|phind|meta\.ai)`,
+  and save.
+- **Crawler access.** `robots.txt` explicitly allows the AI search crawlers (OAI-SearchBot,
+  Claude-SearchBot, PerplexityBot and others) and the training crawlers. In Vercel, check
+  **Firewall → Bot management** doesn't block AI bots.
+- **IndexNow.** After each deploy, `node build/indexnow.mjs` pings Bing, whose index also
+  feeds ChatGPT search and Copilot. The key file is the 32-character `.txt` at the root.
+- **Bing Webmaster Tools** also reports how often Copilot cites the site (*AI Performance*).
+
 ## Good to know
 
 - Vercel preview deployments load GTM too. In GA4 reports, add a filter

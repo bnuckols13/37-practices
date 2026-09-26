@@ -350,6 +350,23 @@ const FONTS = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,
 const STATIC_PAGES = ['', 'toolkit.html', 'study-the-verses.html', 'flyer.html'];
 const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 
+// Entities for structured data. The sameAs links tell search and AI engines exactly
+// which text and which author these pages are about.
+const AUTHOR = {
+  '@type': 'Person', '@id': `${SITE}/#tokme-zangpo`, name: 'Gyalse Tokme Zangpo',
+  alternateName: ['Gyelse Tokme Zangpo', 'Thogme Zangpo', 'Ngulchu Tokme'], birthDate: '1295', deathDate: '1369',
+  sameAs: ['https://www.wikidata.org/wiki/Q16346532',
+    'https://treasuryoflives.org/biographies/view/Gyelse-Tokme-Zangpo/3153',
+    'https://encyclopediaofbuddhism.org/wiki/Gyalse_Tokme_Zangpo']
+};
+const TEXT = {
+  '@type': 'Book', '@id': `${SITE}/#text`, name: 'The Thirty-Seven Practices of Bodhisattvas',
+  alternateName: ['37 Practices of a Bodhisattva', 'The Thirty-Seven Practices of All the Bodhisattvas'],
+  author: AUTHOR, inLanguage: 'bo',
+  sameAs: ['https://encyclopediaofbuddhism.org/wiki/Thirty-seven_Practices_of_a_Bodhisattva',
+    'https://www.rigpawiki.org/index.php?title=Thirty-Seven_Practices_of_the_Bodhisattvas']
+};
+
 const isNum = v => typeof v.n === 'number';
 const fileOf = v => String(v.n) + '.html';                  // 12 -> 12.html, homage -> homage.html
 const labelOf = v => isNum(v) ? 'Verse ' + v.n : String(v.n).charAt(0).toUpperCase() + String(v.n).slice(1);
@@ -359,6 +376,8 @@ const plain = html => String(html).replace(/<[^>]+>/g, '')
   .replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 const attr = s => esc(s).replace(/"/g, '&quot;');
 const jsonLd = o => JSON.stringify(o).replace(/</g, '\\u003c');
+const andList = a => a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1];
+const plural = (n, w) => `${words(n)} ${w}${n === 1 ? '' : 's'}`;
 
 function clip(s, max) {
   s = s.replace(/\s+/g, ' ').trim();
@@ -411,8 +430,17 @@ function commHTML(c) {
 function verseBody(v) {
   const pos = isNum(v) ? `Verse ${v.n} of 37` : (v.n === 'homage' ? 'Opening' : 'Closing');
   const browser = `../study-the-verses.html#${isNum(v) ? 'v' + v.n : v.n}`;
+  // One plain sentence saying what this page is, so a reader (or an answer engine)
+  // landing here from search knows the text, the author and the section at once.
+  const text = 'Gyalse Tokme Zangpo’s <em>37 Practices of a Bodhisattva</em>';
+  const where = isNum(v) ? `Verse ${v.n} of ${text}, from the section “${v.blockTitle}.”`
+    : v.n === 'homage' ? `The opening homage of ${text}.` : `The closing verses of ${text}.`;
+  const what = !v.hasText ? ''
+    : ` Below: ${v.n === 'colophon' ? 'the verses' : 'the verse'} in ${plural(v.rootText.length, 'translation')}`
+      + (v.filled ? ` and what ${plural(v.commentaries.length, 'teacher')} say about it.` : '.');
   let h = `<div class="vhead"><div class="eyebrow">${v.blockTitle} <span class="pos">· ${pos}</span></div>`
     + `<h1>${headingOf(v)}</h1><div class="rule"></div>`
+    + `<p class="context">${where}${what}</p>`
     + `<a class="share" href="${browser}" data-cta="verse_open_browser">Open in the study browser →</a></div>`;
 
   const links = SOURCES.standingSources.links
@@ -468,9 +496,14 @@ const PAGE_CSS = `
 .crumbs a:hover{color:#fff;text-decoration:underline}
 .crumbs .sep{margin:0 8px;color:rgba(250,245,236,.4)}
 .vhead h1{font-size:clamp(25px,3.6vw,36px);font-weight:300;color:var(--maroon);line-height:1.2;margin:0 0 13px}
+.vhead .context{font-size:17px;font-weight:300;color:var(--ink-soft);line-height:1.6;max-width:62ch;margin:-10px 0 12px}
 .vhead .share{font-family:'Lato',sans-serif;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;
-  color:var(--saffron);text-decoration:none;border-bottom:1px dotted var(--saffron);margin:-12px 0 0;display:inline-block}
+  color:var(--saffron);text-decoration:none;border-bottom:1px dotted var(--saffron);margin:0;display:inline-block}
 .vhead .share:hover{color:var(--maroon);border-bottom-color:var(--maroon)}
+.faq{margin-top:52px;padding-top:26px;border-top:1px solid var(--rule);display:grid;gap:24px;max-width:66ch}
+.faq h2{font-weight:300;color:var(--maroon);font-size:clamp(25px,3.4vw,32px);line-height:1.2;margin:0}
+.faq h3{font-size:21px;font-weight:600;color:var(--maroon);line-height:1.25;margin:0 0 4px}
+.faq p{margin:0;font-size:17px;font-weight:300;color:var(--ink-soft);line-height:1.7}
 .hub-intro{font-size:18px;font-weight:300;color:var(--ink-soft);max-width:62ch;margin:26px 0 8px}
 .hub nav{margin-top:30px}
 .hub .vlink{font-size:17px;padding:7px 8px}
@@ -540,6 +573,51 @@ function breadcrumbLd(id, trail) {
   };
 }
 
+// Plain questions and answers about the text, built only from facts the site already
+// states (sources.json, the colophon, the homepage), for the verse index and llms.txt.
+function aboutTheText(verses) {
+  const parts = SOURCES.blocks
+    .map(b => ({ title: b.title, nums: b.verses.filter(n => typeof n === 'number') }))
+    .filter(b => b.nums.length)
+    .map(b => `${b.title} (${b.nums.length > 1 ? `${b.nums[0]}–${b.nums[b.nums.length - 1]}` : b.nums[0]})`);
+  const teachers = SOURCES.commentaryOrder.map(k => SOURCES.commentators[k].name);
+  const translators = SOURCES.includeTranslations.map(k => SOURCES.translations[k].label);
+  return [
+    { q: 'What is the 37 Practices of a Bodhisattva?',
+      a: 'A fourteenth-century Tibetan Buddhist text by Gyalse Tokme Zangpo (1295–1369). In thirty-seven short verses it lays out the whole path of a bodhisattva, someone who trains to benefit all beings: from valuing this human life, through meeting harm with patience, to dedicating every virtue to others. It belongs to the lojong, or mind-training, tradition. Garchen Rinpoche calls it the heart of his teaching and recommends it to all his students.' },
+    { q: 'Who wrote it, and where?',
+      a: 'Gyalse Tokme Zangpo (1295–1369), a Tibetan master who lived for many years in retreat at Ngulchu. <a href="colophon.html">The closing verses</a> say it was composed in Jewel Cave (Rinchen Puk) in Ngulchu, “for his own and others’ benefit.”' },
+    { q: 'How is the text organised?',
+      a: `An <a href="homage.html">homage and statement of purpose</a>, ${words(verses.filter(isNum).length)} verses in ${words(parts.length)} parts, and closing verses. The parts are ${andList(parts)}.` },
+    { q: 'Which commentaries and translations are gathered here?',
+      a: `Commentary from ${words(teachers.length)} teachers: ${andList(teachers)}. The root text appears in ${words(translators.length)} translations: ${andList(translators)}. Every entry links to its source.` },
+    { q: 'How can I study it with others?',
+      a: 'Start a small peer-led study group. The free <a href="../toolkit.html">facilitator toolkit</a> gives opening prayers, a ten-week format covering three or four verses a session, and guidance for leading without being a teacher. Registered groups are invited to a monthly live Q&amp;A with Olga Kornyushyna, a Ukrainian student of Garchen Rinpoche whose wartime commentary on the text is being brought into English.' }
+  ];
+}
+
+// llms.txt (llmstxt.org): a plain-markdown map of the site for AI tools and agents.
+function renderLlmsTxt(verses) {
+  const faq = aboutTheText(verses);
+  const md = s => plain(s.replace(/<a href="([^"]+)">([^<]+)<\/a>/g, '$2'));
+  const lines = [
+    '# 37 Practices of a Bodhisattva — Sangha Study Groups', '',
+    '> Peer-led study groups on Gyalse Tokme Zangpo’s fourteenth-century Tibetan Buddhist text, with the root text in three translations and commentary from seven teachers on every verse, gathered for study. Connected to Olga Kornyushyna, a Ukrainian student of Garchen Rinpoche whose wartime commentary on the text is being brought into English.', '',
+    ...faq.map(f => `- **${f.q}** ${md(f.a)}`), '',
+    '## Main pages', '',
+    `- [Home](${SITE}/): the study group initiative, the ten-week format, the monthly Q&A with Olga Kornyushyna, and her book.`,
+    `- [Facilitator toolkit](${SITE}/toolkit.html): how to start and run a study group, prayers, curriculum, group registration.`,
+    `- [All verses](${SITE}/verses/index.html): every verse on its own page, with an overview of the text.`,
+    `- [Study the Verses](${SITE}/study-the-verses.html): an interactive browser for comparing commentaries verse by verse.`, '',
+    '## Verses', '',
+    ...verses.map(v => `- [${headingOf(v)}](${SITE}/verses/${fileOf(v)}): ${v.blockTitle}.`), '',
+    '## Attribution', '',
+    '- Commentary summaries and “Across the commentaries” notes are original prose written for this study group; quotations are attributed and linked to their sources. Published books are cited as further reading only, with no text reproduced.',
+    `- Translations by ${andList(SOURCES.includeTranslations.map(k => SOURCES.translations[k].label))}, each linked to its source and licence on the verse pages.`, ''
+  ];
+  fs.writeFileSync(path.join(ROOT, 'llms.txt'), lines.join('\n'), 'utf8');
+}
+
 function renderVersePages(verses) {
   const tpl = fs.readFileSync(path.join(HERE, 'template.html'), 'utf8');
   const css = (tpl.match(/<style>([\s\S]*?)<\/style>/) || [])[1];
@@ -550,8 +628,6 @@ function renderVersePages(verses) {
   for (const f of fs.readdirSync(dir)) if (/\.html$/.test(f)) fs.unlinkSync(path.join(dir, f));
 
   const hubUrl = `${SITE}/verses/index.html`;
-  const book = { '@type': 'Book', name: 'The Thirty-Seven Practices of Bodhisattvas',
-    author: { '@type': 'Person', name: 'Gyalse Tokme Zangpo' } };
 
   verses.forEach((v, i) => {
     const prev = verses[i - 1], next = verses[i + 1];
@@ -569,7 +645,13 @@ function renderVersePages(verses) {
       file: fileOf(v), title, description, pageType: 'verse', verseAttr: String(v.n),
       ld: { '@context': 'https://schema.org', '@graph': [
         { '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en',
-          isPartOf: { '@id': `${SITE}/#website` }, about: book, breadcrumb: { '@id': url + '#breadcrumb' } },
+          isPartOf: [{ '@id': `${SITE}/#website` }, { '@id': hubUrl }], about: TEXT,
+          breadcrumb: { '@id': url + '#breadcrumb' },
+          citation: v.rootText.map(r => SOURCES.translations[r.key])
+            .map(t => ({ '@type': 'CreativeWork', name: `Translation by ${t.label}`, url: t.url }))
+            .concat(v.commentaries.map(c => SOURCES.commentators[c.key]).map(m => ({
+              '@type': 'CreativeWork', name: `Commentary by ${m.name}`,
+              author: { '@type': 'Person', name: m.name }, url: m.url }))) },
         breadcrumbLd(url, [['Home', `${SITE}/`], ['All verses', hubUrl], [labelOf(v), url]])
       ] },
       crumbs: `<a href="../index.html">Home</a><span class="sep">›</span><a href="index.html">All verses</a><span class="sep">›</span><span>${labelOf(v)}</span>`,
@@ -588,24 +670,34 @@ ${verseIndex(verses, v)}
     fs.writeFileSync(path.join(dir, fileOf(v)), html, 'utf8');
   });
 
+  const faq = aboutTheText(verses);
   const hubTitle = 'The 37 Practices of a Bodhisattva, Verse by Verse';
   const hubDesc = 'All 37 verses of Gyalse Tokme Zangpo’s text, each with the root text in three translations and commentary from Garchen Rinpoche, the Dalai Lama and others.';
   fs.writeFileSync(path.join(dir, 'index.html'), pageShell({
     file: 'index.html', title: hubTitle, description: hubDesc, pageType: 'verse_index',
     ld: { '@context': 'https://schema.org', '@graph': [
       { '@type': 'CollectionPage', '@id': hubUrl, url: hubUrl, name: hubTitle, description: hubDesc,
-        inLanguage: 'en', isPartOf: { '@id': `${SITE}/#website` }, about: book,
-        breadcrumb: { '@id': hubUrl + '#breadcrumb' } },
+        inLanguage: 'en', isPartOf: { '@id': `${SITE}/#website` }, about: TEXT,
+        breadcrumb: { '@id': hubUrl + '#breadcrumb' },
+        mainEntity: { '@type': 'ItemList', numberOfItems: verses.length,
+          itemListElement: verses.map((v, i) => ({ '@type': 'ListItem', position: i + 1,
+            name: headingOf(v), url: `${SITE}/verses/${fileOf(v)}` })) } },
+      { '@type': 'FAQPage', '@id': hubUrl + '#about', mainEntity: faq.map(f => ({
+        '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
       breadcrumbLd(hubUrl, [['Home', `${SITE}/`], ['All verses', hubUrl]])
     ] },
     crumbs: '<a href="../index.html">Home</a><span class="sep">›</span><span>All verses</span>',
     masthead: `<h1>${hubTitle}</h1>
   <p>The root text in three translations, and what the teachers say about each verse. Gathered for study; every entry links to its source.</p>`,
     body: `<main class="reader hub" style="margin:0 auto">
-  <p class="hub-intro">Gyalse Tokme Zangpo wrote these thirty-seven verses in the fourteenth century. Each page below carries one verse with its commentaries. To read one teacher straight through, or compare them side by side, use <a href="../study-the-verses.html" data-cta="verse_index_study">the study browser</a>.</p>
+  <p class="hub-intro">Gyalse Tokme Zangpo wrote these thirty-seven verses in fourteenth-century Tibet. Each page below carries one verse with its commentaries. To read one teacher straight through, or compare them side by side, use <a href="../study-the-verses.html" data-cta="verse_index_study">the study browser</a>.</p>
   <nav aria-label="All verses">
 ${verseIndex(verses, null)}
   </nav>
+  <section class="faq" id="about">
+    <h2>About the text</h2>
+${faq.map(f => `    <div><h3>${f.q}</h3><p>${f.a}</p></div>`).join('\n')}
+  </section>
 </main>`,
     css
   }), 'utf8');
@@ -617,6 +709,7 @@ ${verseIndex(verses, null)}
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     + urls.map(u => `  <url><loc>${u}</loc></url>`).join('\n') + '\n</urlset>\n', 'utf8');
 
+  renderLlmsTxt(verses);
   return { pages: verses.length, urls: urls.length };
 }
 
@@ -652,4 +745,4 @@ if (warnings.length) {
 }
 console.log(`\n  wrote ${path.relative(ROOT, dest)}`);
 console.log(`  wrote verses/ (${versePages.pages} verse pages + index)`);
-console.log(`  wrote sitemap.xml (${versePages.urls} URLs)`);
+console.log(`  wrote sitemap.xml (${versePages.urls} URLs) and llms.txt`);

@@ -84,6 +84,42 @@ node translate/cli.mjs render charyapada --preview      # drafts too, into trans
 - When you mark a section `redraft` and leave a "Note to next draft", `accept` saves those notes to `feedback.json`.
 - The next `draft` of that unit automatically becomes a redraft, carrying your notes and the previous draft.
 
+## The Studio (review in claude.ai)
+
+The Studio is a private claude.ai page with its own database. It lets you review without the CLI:
+- Songs show the Bengali, IAST and a literal gloss beside editable English.
+- Glossary terms can be decided from the side panel.
+- Keyboard shortcuts cover the whole review.
+
+Its targets and URLs are listed in `translate/studio.json`:
+- `staging` holds the practice song.
+- `prod` holds the Charyapada, and gets published once real songs are drafted.
+
+**The loop (Claude runs these):**
+
+```sh
+node translate/cli.mjs studio build --target prod        # translate/.studio/prod/studio.html
+#   Artifact publish that file (first time: capabilities db (owner-only rules), user, sample)
+node translate/cli.mjs studio export charyapada          # only what changed since the last seed
+#   ArtifactData batch for each printed batch file (writes = its "writes")
+node translate/cli.mjs studio seeded charyapada
+```
+
+**When you say "Pull my Studio decisions":**
+
+```sh
+#   ArtifactData list decisions        (out_dir: translate/.studio/prod/inbox)
+#   ArtifactData list glossaryDecisions (same out_dir)
+node translate/cli.mjs studio import charyapada --dry    # read the report first
+node translate/cli.mjs studio import charyapada          # approved/, glossary, feedback, receipts
+#   ArtifactData batch for the receipts and refreshed docs it prints, then: studio seeded
+```
+
+**Rules the import enforces:**
+- A Studio review goes through the same acceptance path as a markdown sheet, so the approved record is identical either way.
+- A decision made on an older draft is refused as stale; the Studio then offers "Start review of the new draft", which keeps unchanged passages.
+- One review channel per song: a hand-edited sheet blocks a Studio import unless you pass `--force`.
+
 ## Source directives
 
 Directives are whole lines starting with `@`. The raw import is never edited: `check` proves that the working copy minus its directives equals the raw text. Corrections go through `@emend`, which is recorded on the unit.

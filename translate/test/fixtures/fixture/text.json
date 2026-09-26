@@ -1,0 +1,17 @@
+{
+  "slug": "fixture",
+  "idPrefix": "fx",
+  "unitLabel": "Song",
+  "title": { "en": "Test Fixture Songs" },
+  "description": "TEST FIXTURE. Wording is not checked against any edition; never publish.",
+  "lang": { "root": "oben", "commentary": "san", "html": { "oben": "bn", "san": "sa" }, "names": { "oben": "Old Bengali", "san": "Sanskrit" } },
+  "segmentation": { "rule": "caryagiti" },
+  "witnesses": [
+    { "id": "ed", "lang": ["oben", "san"], "script": "Beng", "citation": "Test fixture edition", "license": "public-domain", "usage": "prompt+publish" },
+    { "id": "modern", "lang": ["en"], "citation": "A copyrighted modern translation", "license": "copyrighted", "usage": "reviewer-only" }
+  ],
+  "commentary": { "id": "muni", "title": "Test commentary", "author": "Munidatta", "witness": "ed" },
+  "exemplars": [],
+  "catalog": { "total": 3, "lost": [3], "partial": [] },
+  "publish": { "dir": "translations/fixture", "license": "CC BY-NC 4.0 (fixture)", "credits": ["Fixture credit line."] }
+}

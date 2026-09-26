@@ -1,0 +1,71 @@
+{
+  "slug": "charyapada",
+  "idPrefix": "cp",
+  "idWidth": 2,
+  "unitLabel": "Song",
+  "title": {
+    "en": "The Charyapada",
+    "alt": ["Caryāgīti", "Caryācaryāviniścaya", "Caryāgītikoṣa"]
+  },
+  "author": "The Buddhist siddhas of eastern India",
+  "description": "Songs of the Buddhist siddhas in Old Bengali, with the Sanskrit commentary of Munidatta.",
+  "lang": {
+    "root": "oben",
+    "commentary": "san",
+    "html": { "oben": "bn", "san": "sa", "bod": "bo" },
+    "names": { "oben": "Old Bengali", "san": "Sanskrit", "bod": "Tibetan" }
+  },
+  "segmentation": { "rule": "caryagiti" },
+  "witnesses": [
+    {
+      "id": "shastri1916",
+      "lang": ["oben", "san"],
+      "script": "Beng",
+      "citation": "Haraprasad Shastri, ed., Hājār bacharer purāṇa bāṅgālā bhāṣāy bauddha gān o dohā (Calcutta: Baṅgīya Sāhitya Pariṣat, 1916), under the title Caryācaryaviniścaya; songs with Munidatta's commentary, from the Nepal palm-leaf manuscript.",
+      "license": "public-domain",
+      "usage": "prompt+publish",
+      "url": "https://bn.wikisource.org/wiki/হাজার_বছরের_পুরাণ_বাঙ্গালা_ভাষায়_বৌদ্ধগান_ও_দোহা_(১৯৫১)",
+      "fetch": "https://bn.wikisource.org/wiki/হাজার_বছরের_পুরাণ_বাঙ্গালা_ভাষায়_বৌদ্ধগান_ও_দোহা_(১৯৫১)/চর্য্যাচর্য্যবিনিশ্চয়/{n}",
+      "note": "Transcribed from Bengali Wikisource (proofread against the page scans). The edition is public domain; the Wikisource transcription is CC BY-SA, credited in the page footer. Verify on each page that Munidatta's commentary is included."
+    },
+    {
+      "id": "toh2293",
+      "lang": ["bod"],
+      "script": "Tibt",
+      "citation": "Spyod pa'i glu'i mdzod kyi 'grel pa (Caryāgītikoṣavṛtti), Degé Tengyur, Toh 2293; translated by Kīrticandra and Yarlung Lotsāwa Drakpa Gyaltsen. Preserves songs 24, 25 and 48 and the end of 23, which the Nepal manuscript lacks.",
+      "license": "public-domain (canonical text; the e-text source is still to be chosen and its licence checked)",
+      "usage": "prompt+publish",
+      "units": ["cp.23", "cp.24", "cp.25", "cp.48"]
+    },
+    {
+      "id": "kvaerne1977",
+      "lang": ["en"],
+      "citation": "Per Kværne, An Anthology of Buddhist Tantric Songs (Oslo, 1977; Bangkok, 1986).",
+      "license": "copyrighted",
+      "usage": "reviewer-only",
+      "path": ".private/charyapada/kvaerne/",
+      "note": "For the reviewer only. Never pasted into a drafting session, never committed."
+    }
+  ],
+  "commentary": {
+    "id": "munidatta",
+    "title": "Caryāgītikoṣavṛtti",
+    "author": "Munidatta",
+    "witness": "shastri1916"
+  },
+  "exemplars": ["cp.01"],
+  "catalog": {
+    "total": 50,
+    "lost": [24, 25, 48],
+    "partial": [23],
+    "note": "The Nepal manuscript lacks songs 24, 25 and 48 and the end of 23; they survive in the Tibetan translation (Toh 2293)."
+  },
+  "publish": {
+    "dir": "translations/charyapada",
+    "license": "TODO: choose a licence for our translation before first publish",
+    "licenseUrl": "",
+    "credits": [
+      "Source text: Haraprasad Shastri's 1916 edition (public domain), via the Bengali Wikisource transcription (CC BY-SA)."
+    ]
+  }
+}

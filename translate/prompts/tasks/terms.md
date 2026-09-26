@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 2
 ---
 # Task: propose glossary entries
 
@@ -9,7 +9,7 @@ For each proposal:
 
 - `id`: a lowercase ascii slug (persons "p-…", places "pl-…", works "tx-…").
 - `en`: the rendering translations should use, and `policy` (translate, keep-source, keep-source-first-gloss).
-- `forms`: the source forms with transliteration, the attestation code (AS if attested in this source, with the passage id in `where`), and further languages only if you are sure of them.
+- `forms`: the source forms with transliteration, the attestation code and further languages only if you are sure of them. Codes: AS attested in this source (give the passage id in `where`); AO attested in other manuscripts; AD attested in dictionaries; AA approximate; RP reconstructed phonetically; RS reconstructed semantically; SU source unspecified. For a form you can see in the input, AS is right.
 - `match`: the source-script surface forms that should be recognised as this term in future units (include inflected forms you can see).
 - `definition`: your own words, 60 words or fewer, neutral and plain.
 - `symbolicImage` and `symbolicReadings`: only when a commentary segment in the input states the reading; cite the segment id in `where`. Otherwise leave them empty: an unattested reading does not go in the glossary.

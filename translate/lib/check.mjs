@@ -1,0 +1,204 @@
+/**
+ * check: every validator, in one pass. Errors (E) exit 1; warnings (W)
+ * become errors with --strict. Nothing here writes files.
+ */
+
+import fs from 'node:fs';
+import path from 'node:path';
+import { paths, readJSON, readText, exists, home, siteRoot, listFiles, nfc } from './io.mjs';
+import { loadText, unitsIndex, loadUnit, witnessOf } from './text.mjs';
+import { load, byId, scoped, matchSource } from './glossary.mjs';
+import { integrity } from './source.mjs';
+import { buildPack, TASKS } from './pack.mjs';
+import { ID_RE } from './ids.mjs';
+import * as markup from './markup.mjs';
+import { Draft } from '../schemas/draft.mjs';
+import { Weave } from '../schemas/weave.mjs';
+import { Approved, RunProvenance } from '../schemas/approved.mjs';
+
+const words = s => markup.strip(s).toLowerCase().replace(/[^\p{L}\p{M}\s']/gu, ' ').split(/\s+/).filter(Boolean);
+const fold = s => String(s).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/\bdhru\b|[0-9]/g, '').replace(/[|।॥.,;:'"\s-]/g, '')
+  .replace(/v/g, 'b').replace(/j/g, 'y').replace(/r/g, 'd');
+
+function shingles(ws, n = 8) {
+  const out = new Set();
+  for (let i = 0; i + n <= ws.length; i++) out.add(ws.slice(i, i + n).join(' '));
+  return out;
+}
+
+function privateShingles() {
+  const set = new Set();
+  const walk = dir => {
+    if (!exists(dir)) return;
+    for (const f of fs.readdirSync(dir, { withFileTypes: true })) {
+      const p = path.join(dir, f.name);
+      if (f.isDirectory()) walk(p);
+      else if (/\.(txt|md|json|xml|tmx|html?)$/i.test(f.name)) for (const s of shingles(words(fs.readFileSync(p, 'utf8')))) set.add(s);
+    }
+  };
+  walk(path.join(home(), '.private'));
+  walk(path.join(home(), '.cache'));
+  return set;
+}
+
+function quotesOver(s, max = 25) {
+  return [...String(s).matchAll(/[“"]([^”"]+)[”"]/g)].map(m => m[1]).filter(q => q.split(/\s+/).length > max);
+}
+
+export function check(slug, { strict = false } = {}) {
+  const E = [], W = [];
+  const text = loadText(slug);
+  const P = paths(slug);
+  const g = load();
+  const entries = byId(g);
+  const inScope = scoped(g, slug);
+  const author = text.commentary?.author || '';
+
+  // 1. source integrity
+  for (const p of integrity(slug, text)) E.push(`source: ${p}`);
+
+  // 2. licensing
+  for (const w of text.witnesses) {
+    if (!w.license || /^TODO/i.test(w.license)) W.push(`witness ${w.id}: licence not recorded`);
+    if (w.usage === 'reviewer-only' && exists(path.join(P.source, w.id + '.txt'))) E.push(`witness ${w.id} is reviewer-only but has text in source/`);
+  }
+  if (/^TODO/i.test(text.publish.license)) W.push('publish.license is still TODO: choose a licence for our translation before publishing');
+
+  // 3. ids
+  const idx = unitsIndex(slug);
+  const seen = new Set();
+  for (const id of idx.ids) {
+    if (!ID_RE.test(id)) E.push(`id ${id} does not match the id grammar`);
+    if (seen.has(id)) E.push(`duplicate id ${id}`);
+    seen.add(id);
+  }
+  for (const id of idx.tombstones) if (seen.has(id)) E.push(`tombstoned id ${id} is live again`);
+
+  const privateSet = privateShingles();
+  const overlap = (where, s) => {
+    if (!privateSet.size) return;
+    for (const sh of shingles(words(s))) if (privateSet.has(sh)) { E.push(`${where}: 8-word overlap with a private reference ("${sh}")`); return; }
+  };
+
+  for (const u of idx.units) {
+    const unit = loadUnit(slug, u.id);
+    for (const w of unit.witnesses) if (!witnessOf(text, w)) E.push(`${u.id}: unknown witness ${w}`);
+    const draft = readJSON(P.draft(u.id), null);
+    const weave = readJSON(P.weave(u.id), null);
+    const approved = readJSON(P.approvedFile(u.id), null);
+    const segIds = new Set(unit.commentary.map(s => s.id));
+    const srcLine = new Map(unit.lines.map(l => [l.id, l]));
+    const verseIds = new Set(unit.lines.filter(l => l.role === 'line').map(l => l.id));
+
+    // 4-8 on the draft and commentary
+    if (draft) {
+      const r = Draft.extend({ provenance: RunProvenance }).safeParse(draft);
+      if (!r.success) E.push(`${u.id} draft: ${r.error.issues[0].path.join('.')} ${r.error.issues[0].message}`);
+      else {
+        const want = unit.lines.filter(l => l.role !== 'lacuna').map(l => l.id).join();
+        if (draft.lines.map(l => l.id).join() !== want) E.push(`${u.id} draft: line ids no longer match the unit`);
+        if (draft.provenance.sourceSha !== unit.sourceSha) W.push(`${u.id} draft is stale: the source changed after drafting`);
+        const omitted = new Set(draft.termsOmitted.map(t => t.line + ' ' + t.id));
+        for (const l of draft.lines) {
+          const src = srcLine.get(l.id);
+          const marked = new Set(markup.terms(l.en).map(t => t.id));
+          for (const h of src ? matchSource(inScope, src.src, src.lang) : []) {
+            if (!marked.has(h.id) && !omitted.has(l.id + ' ' + h.id)) W.push(`${l.id}: glossary term ${h.id} (${h.form}) is neither marked nor listed in termsOmitted`);
+          }
+          if (src?.translit && l.translit && fold(src.translit) !== fold(l.translit)) {
+            W.push(`${l.id}: drafter's transliteration differs from the machine one beyond b/v, y/j, ṛ/ḍ ("${l.translit}" vs "${src.translit}")`);
+          }
+        }
+        for (const n of draft.notes) {
+          if (author && n.text.includes(author) && !n.cites.length) E.push(`${u.id} note on ${n.anchor}: mentions ${author} but cites no segment`);
+          for (const c of n.cites) if (!segIds.has(c)) E.push(`${u.id} note on ${n.anchor}: cites unknown segment ${c}`);
+          for (const q of quotesOver(n.text)) E.push(`${u.id} note on ${n.anchor}: quotation over 25 words ("${q.slice(0, 40)}…")`);
+        }
+      }
+    }
+    if (weave) {
+      const r = Weave.extend({ provenance: RunProvenance }).safeParse(weave);
+      if (!r.success) E.push(`${u.id} commentary: ${r.error.issues[0].path.join('.')} ${r.error.issues[0].message}`);
+      else {
+        if (weave.segments.map(s => s.id).join() !== unit.commentary.map(s => s.id).join()) E.push(`${u.id} commentary: segment ids no longer match the unit`);
+        if (weave.provenance.sourceSha !== unit.sourceSha) W.push(`${u.id} commentary is stale: the source changed after weaving`);
+        for (const s of weave.segments) for (const q of quotesOver(s.note)) E.push(`${s.id} note: quotation over 25 words`);
+      }
+    }
+
+    // the text that will be (or is) published
+    const isApproved = !!approved;
+    const texts = [];
+    if (approved) {
+      const r = Approved.safeParse(approved);
+      if (!r.success) E.push(`${u.id} approved: ${r.error.issues[0].path.join('.')} ${r.error.issues[0].message}`);
+      if (approved.sourceSha !== unit.sourceSha) E.push(`${u.id} approved text is stale: the source changed after approval; redraft and review`);
+      if (!approved.provenance?.review?.by || !approved.provenance?.draft?.model) E.push(`${u.id} approved: provenance incomplete`);
+      approved.lines.forEach(l => texts.push({ where: l.id, s: l.en, line: l.id }));
+      approved.notes.forEach(n => texts.push({ where: `${u.id} note on ${n.anchor}`, s: n.text }));
+      approved.commentary.forEach(c => { texts.push({ where: `${c.id} translation`, s: c.translation }); texts.push({ where: `${c.id} note`, s: c.note }); });
+      for (const n of approved.notes) {
+        if (author && n.text.includes(author) && !n.cites.length) E.push(`${u.id} approved note on ${n.anchor}: mentions ${author} but cites no segment`);
+        for (const c of n.cites) if (!segIds.has(c)) E.push(`${u.id} approved note on ${n.anchor}: cites unknown segment ${c}`);
+      }
+    } else if (draft) {
+      draft.lines.forEach(l => texts.push({ where: l.id, s: l.en, line: l.id }));
+      draft.notes.forEach(n => texts.push({ where: `${u.id} note on ${n.anchor}`, s: n.text }));
+      (weave?.segments || []).forEach(c => { texts.push({ where: `${c.id} translation`, s: c.translation }); texts.push({ where: `${c.id} note`, s: c.note }); });
+    }
+    for (const t of texts) {
+      for (const p of markup.problems(t.s)) E.push(`${t.where}: ${p}`);
+      for (const term of markup.terms(t.s)) {
+        const e = entries.get(term.id);
+        if (!e) { E.push(`${t.where}: unknown term {${term.id}}`); continue; }
+        if (e.status === 'rejected') E.push(`${t.where}: uses rejected term {${term.id}}`);
+        if (isApproved && e.status !== 'approved') E.push(`${t.where}: approved text uses unapproved term {${term.id}}`);
+        const ok = [e.en, ...e.variants].map(x => x.toLowerCase());
+        if (t.line && !ok.includes(term.surface.toLowerCase())) {
+          (isApproved ? E : W).push(`${t.where}: "${term.surface}" for {${term.id}}; the glossary rendering is "${e.en}"${e.variants.length ? ' (or ' + e.variants.join(', ') + ')' : ''}`);
+        }
+      }
+      if (t.line && verseIds.has(t.line)) {
+        const plain = markup.strip(t.s).toLowerCase();
+        for (const e of inScope) {
+          for (const f of e.forbiddenInLine) {
+            if (new RegExp(`(^|[^\\p{L}])${f.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^\\p{L}]|$)`, 'u').test(plain)) {
+              E.push(`${t.where}: "${f}" inside a verse line (${e.id} says: translate the image, put the reading in a note)`);
+            }
+          }
+        }
+      }
+      overlap(t.where, t.s);
+    }
+
+    // 12. determinism of packs on disk
+    for (const task of Object.keys(TASKS)) {
+      const pj = P.pack(task, u.id) + '.json';
+      if (!exists(pj)) continue;
+      const onDisk = readJSON(pj);
+      try {
+        const now = buildPack(slug, u.id, task);
+        const sameInputs = now.glossarySha === onDisk.glossarySha && now.sourceSha === onDisk.sourceSha
+          && JSON.stringify(now.prompts) === JSON.stringify(onDisk.prompts);
+        if (sameInputs && now.sha !== onDisk.sha) W.push(`${u.id}: rebuilding the ${task} pack from the same inputs gives a different sha (non-deterministic pack)`);
+      } catch { /* a pack that can no longer be built is reported by the draft checks */ }
+    }
+  }
+
+  // glossary definitions must be our own
+  for (const e of inScope) overlap(`glossary ${e.id} definition`, e.definition);
+
+  // 11. rendered output
+  const out = path.join(siteRoot(), text.publish.dir);
+  for (const f of listFiles(out, /\.html$/)) {
+    const html = readText(path.join(out, f));
+    if (html.includes(']{')) E.push(`${text.publish.dir}/${f}: unrendered glossary markup`);
+    if (html !== nfc(html)) E.push(`${text.publish.dir}/${f}: text is not NFC-normalized`);
+    const data = /<script type="application\/json" id="gloss-data">([\s\S]*?)<\/script>/.exec(html);
+    const inline = data ? JSON.parse(data[1]) : {};
+    for (const m of html.matchAll(/data-g="([^"]+)"/g)) if (!inline[m[1]]) E.push(`${text.publish.dir}/${f}: link to {${m[1]}} has no inlined entry`);
+    for (const m of html.matchAll(/<[^>]+class="src"[^>]*>/g)) if (!/\slang="/.test(m[0])) E.push(`${text.publish.dir}/${f}: source-script element without a lang attribute`);
+  }
+
+  return strict ? { errors: [...E, ...W], warnings: [] } : { errors: E, warnings: W };
+}

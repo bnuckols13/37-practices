@@ -192,7 +192,8 @@ export function check(slug, { strict = false } = {}) {
   const out = path.join(siteRoot(), text.publish.dir);
   for (const f of listFiles(out, /\.html$/)) {
     const html = readText(path.join(out, f));
-    if (html.includes(']{')) E.push(`${text.publish.dir}/${f}: unrendered glossary markup`);
+    const content = html.replace(/<(style|script)[^>]*>[\s\S]*?<\/\1>/g, '');
+    if (/\]\{[a-z0-9-]+\}/.test(content)) E.push(`${text.publish.dir}/${f}: unrendered glossary markup`);
     if (html !== nfc(html)) E.push(`${text.publish.dir}/${f}: text is not NFC-normalized`);
     const data = /<script type="application\/json" id="gloss-data">([\s\S]*?)<\/script>/.exec(html);
     const inline = data ? JSON.parse(data[1]) : {};

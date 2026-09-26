@@ -11,6 +11,7 @@ export const Witness = z.object({
   lang: z.array(z.string()).min(1),
   script: z.string().default(''),
   citation: z.string(),
+  label: z.string().default(''),           // short name for page badges
   license: z.string(),
   usage: Usage,
   units: z.array(z.string()).default([]),

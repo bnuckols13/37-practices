@@ -964,6 +964,60 @@
       }
     },
     {
+      "id": "gagana",
+      "type": "term",
+      "status": "proposed",
+      "en": "sky",
+      "alt": [
+        "space"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঅণ",
+          "translit": "gaaṇa",
+          "att": "AS",
+          "where": "cp.14.3b"
+        },
+        {
+          "lang": "san",
+          "script": "গগন",
+          "translit": "gagana",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "গঅণ"
+        ],
+        "san": [
+          "গগন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Sky; open space. The sky is a common image in siddha poetry and in Buddhist tantric language. In this song it forms the first half of gaaṇadukhola, the vessel used to bail the boat; Munidatta repeats the compound (gaganadukholaka) without explaining it.",
+      "symbolic": {
+        "image": "the sky, in the compound 'sky-scoop' used to bail the boat",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "emptiness",
+        "void"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "grahya-grahaka",
       "type": "term",
       "status": "proposed",
@@ -4032,6 +4086,57 @@
       }
     },
     {
+      "id": "srsti-samhara",
+      "type": "term",
+      "status": "proposed",
+      "en": "creation and destruction",
+      "alt": [
+        "making and unmaking"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সিঠিসংহার",
+          "translit": "siṭhisaṃhāra",
+          "att": "AS",
+          "where": "cp.14.4a"
+        },
+        {
+          "lang": "san",
+          "script": "সৃষ্টিসংহার",
+          "translit": "sṛṣṭisaṃhāra",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সিঠিসংহার"
+        ],
+        "san": [
+          "সৃষ্টিসংহার"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The pair creation (sṛṣṭi) and destruction or withdrawal (saṃhāra): the coming into being and dissolution of a world. In this song the phrase stands beside the pulinda after the moon and sun are named as two wheels; Munidatta says the moon, the sun and the pulinda bring about the creation and destruction of saṃsāra.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "sunyata",
       "type": "term",
       "status": "proposed",
@@ -4674,6 +4779,48 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "wheel",
+      "type": "term",
+      "status": "proposed",
+      "en": "wheel",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চকা",
+          "translit": "cakā",
+          "att": "AS",
+          "where": "cp.14.4a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চকা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A wheel. In this song the moon and the sun are called 'the two wheels', though the vehicle is a boat. The same word (Sanskrit cakra) also names the wheels of the subtle body in the tantras, which have their own entries (wheel of emanation, wheel of great bliss).",
+      "symbolic": {
+        "image": "the moon and the sun as 'the two wheels'",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "cakra",
+        "energy centre"
+      ],
       "texts": [
         "charyapada"
       ],

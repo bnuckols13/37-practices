@@ -1,0 +1,615 @@
+{
+  "unit": "cp.14",
+  "title": "The Ferrywoman",
+  "summary": "A boat is moving between the Gaṅgā and the Yamunā, and an outcaste woman, the Mātaṅgī, ferries people across without taking so much as a cowrie; the singer urges Ḍombī to row, describes how the boat is worked, calls the moon and the sun its two wheels, and ends with those who climbed onto a chariot sinking at the shore. Munidatta reads the two rivers as the grasped and the grasper, the ferrywoman as Ḍombī Nairātmā, who takes the lord of yogis across the ocean of saṃsāra, and the city of the Jina as the city of great bliss (cp.14.m2, cp.14.m3, cp.14.m6).",
+  "lines": [
+    {
+      "id": "cp.14.h1",
+      "translit": "dhanasī rāga",
+      "gloss": "Dhanasī (rāga name) · rāga, melody",
+      "en": "[Rāga]{raga} Dhanasī · [Ḍombīpāda]{p-dombi}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "p-dombi",
+          "src": "ডোম্বীপাদানাং"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.14.1a",
+      "translit": "gaṅgā jaunā mājhem̐re bahai nāī",
+      "gloss": "Gaṅgā · Jaunā (Yamunā) · in the middle, between · moves along, is borne (vah-) · boat",
+      "en": "Between the [Gaṅgā]{pl-ganga} and the [Yamunā]{pl-yamuna} a [boat]{boat} is moving.",
+      "terms": [
+        {
+          "id": "pl-ganga",
+          "src": "গঙ্গা"
+        },
+        {
+          "id": "pl-yamuna",
+          "src": "জউনা"
+        },
+        {
+          "id": "boat",
+          "src": "নাঈ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "nāī is read as 'boat' (Sanskrit nau, nāvā), as the glossary has it and as Munidatta takes it (nauḥ, cp.14.m2). In principle naī can also be 'river' (from nadī), which would make bahai 'flows'. I chose 'boat'. bahai itself is 'moves along, is borne'; I rendered 'is moving'."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.1b",
+      "translit": "tahim̐ buṛilī mātaṅgi poiālīle pāra karei",
+      "gloss": "there, in it · sunk, immersed (fem. past participle of buṛ-) · Mātaṅgī (outcaste woman) · young one (?) with ease (?) (poiā līle?) · far bank, across · makes (pāra kar-, ferry across)",
+      "en": "There the [Mātaṅgī]{matangi}, immersed, ferries the young one [across]{para} with ease.",
+      "terms": [
+        {
+          "id": "matangi",
+          "src": "মাতঙ্গি"
+        },
+        {
+          "id": "para",
+          "src": "পার"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "poiālīle is unclear. I divide it poiā līle: poiā 'young one' (compare Sanskrit pota, 'young of an animal, child') and līle 'with ease, as play' (from līlā), giving 'ferries the young one across with ease'. Alternatives: poiālī le, 'taking the poiālī across'; or a link with pota in its other sense, 'boat' ('by boat', 'as ferrywoman'). Munidatta names the one ferried as the lord of yogis (cp.14.m2) but does not gloss the word."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "buṛilī is a feminine past participle of buṛ-, 'sink, go under'. I take it with the Mātaṅgī: 'immersed' ('sunk' would keep the echo with buṛai, 'sink', in 5b and sharpen the paradox of a sunken ferrywoman). It could instead be the object, 'the one who has sunk, the drowning', which reads more easily but leaves the feminine form and the role of poiālīle unexplained."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.2a",
+      "translit": "bāhatu ḍombī bāhalo ḍombī bāṭata bhaila uchārā",
+      "gloss": "row (imperative) · Ḍombī · row + lo (particle used in calling to a woman) · Ḍombī · on the road · has become · delay, lateness (?)",
+      "en": "Row, [Ḍombī]{dombi}, row, [Ḍombī]{dombi}: it has grown late on the way.",
+      "terms": [
+        {
+          "id": "dombi",
+          "src": "ডোম্বী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "uchārā is obscure. I follow Munidatta's paraphrase kimarthaṃ vilambaḥ kriyate, 'why is there delay?' (cp.14.m3), and render bāṭata bhaila uchārā as 'it has grown late on the way'. The subject is not expressed."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "bāhatu is an imperative in -tu (possibly third person, 'let Ḍombī row'); bāhalo is the imperative bāha with lo, a particle used in calling to a woman. I render both as 'Row, Ḍombī' to keep the repetition."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.2b",
+      "translit": "sadguru pāapae jāiba puṇu jiṇaurā",
+      "gloss": "true guru · by the feet (of) · (I/we) will go · again · city of the Jina",
+      "en": "By the true [guru]{guru}'s feet I will go again to the [city of the Jina]{jinapura}.",
+      "terms": [
+        {
+          "id": "guru",
+          "src": "সদ্গুরু"
+        },
+        {
+          "id": "jinapura",
+          "src": "জিণউরা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "The printed form পাঅপএে carries a stray vowel sign after এ; I read pāapae and correct the input transliteration (pāapaeে)."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "pāapae, literally 'by (or at) the feet', is the idiom for owing something to a teacher's kindness; I kept the feet rather than write 'grace'. jāiba can be first person singular or plural; I chose 'I'. puṇu is 'again', possibly 'then'."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.3a",
+      "translit": "pāñca keṛuāla paṛantem̐ māṅge piṭata kācchī bāndhī",
+      "gloss": "five · oars, paddles · falling, dipping (as they fall) · at the prow (?) · on the back, at the stern (?) · rope, cord, girth (?) · having tied, tie",
+      "en": "With five [oars]{keruala} dipping at the prow and the rope tied at the stern,",
+      "terms": [
+        {
+          "id": "keruala",
+          "src": "কেড়ুআল"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "The boat terms are uncertain. māṅge: I take it as 'at the prow' (compare Sanskrit maṅga, given in lexicons as the bow or side of a boat); piṭata, 'on the back', as the stern; kācchī as a rope or girth (compare Sanskrit kacchā, kakṣyā; Munidatta has kacchikā, cp.14.m4); paṛantem̐, 'falling', as the oars dipping into the water. bāndhī may be 'having tied' or an imperative 'tie!'; I took it as a participle and let the line lead into 3b."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.3b",
+      "translit": "gaaṇadukholem̐ siñcahu pāṇī na paisai sāndhi",
+      "gloss": "with the sky-scoop (? gaaṇa 'sky' + dukhola, unclear) · bail, pour out (imperative) · water · not · enters · at the joints, seams",
+      "en": "bail out the water with the [sky]{gagana}-scoop; it does not get in at the seams.",
+      "terms": [
+        {
+          "id": "gagana",
+          "src": "গঅণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "gaaṇadukholem̐: gaaṇa is 'sky' (Sanskrit gagana); dukhola is unknown to me. It may be a bailing vessel, or du 'two' with khola 'shell, hollow' (two shells, or cupped hands). 'Sky-scoop' is provisional. siñc- is 'sprinkle, pour'; with water in a boat it most naturally means 'bail out'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "Divergence from the commentary: the song says the water does not get in (na paisai), while Munidatta's text as printed says that water, the surging of sense objects, enters (viśati) the yogi's body (cp.14.m4). A negative may have dropped out of the commentary. I translate the song as it stands."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.4a",
+      "translit": "canda sūjja dui cakā siṭhisaṃhāra pulindā",
+      "gloss": "moon · sun · two · wheels · creation and destruction · pulinda (?)",
+      "en": "The [moon]{moon} and the [sun]{surya}, two [wheels]{wheel}; [creation and destruction]{srsti-samhara}, the [pulinda]{pulinda}.",
+      "terms": [
+        {
+          "id": "moon",
+          "src": "চন্দ"
+        },
+        {
+          "id": "surya",
+          "src": "সূজ্জ"
+        },
+        {
+          "id": "wheel",
+          "src": "চকা"
+        },
+        {
+          "id": "srsti-samhara",
+          "src": "সিঠিসংহার"
+        },
+        {
+          "id": "pulinda",
+          "src": "পুলিন্দা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "The syntax is open: siṭhisaṃhāra pulindā may mean 'the pulinda is creation and destruction', 'the pulinda brings creation and destruction', or add a third item after the two wheels. Munidatta makes creation and destruction the work of all three, moon, sun and pulinda (cp.14.m5). I kept the source order and the bare apposition so as not to decide."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "pulinda is kept in source form because its literal sense here is unknown. As a Sanskrit word it names a forest people; a part of the boat is conceivable but I cannot confirm it. Munidatta gives only a twilight-language reading ('the neuter', cp.14.m5)."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.4b",
+      "translit": "bāma dāhiṇa dui māga na rebai bāhatu chandā",
+      "gloss": "left · right · two · ways, roads · not · sees, heeds (?) · row (imperative) · at will, as one likes",
+      "en": "Not looking to the two ways, left and right, row as you please.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "rebai is uncertain. Munidatta's paraphrase ('they do not see left and right, the front or the back shore', cp.14.m5) points to 'see, look to', which I followed. A verb of motion is also possible, giving 'does not go by the two ways'."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "na rebai is a finite third-person verb with no expressed subject (the boat? the rower?). I rendered it as a participle attached to the imperative. A closer line: 'Left and right, the two ways, it does not see; row as you please.' I used 'ways' for māga (Sanskrit mārga) to keep it plain."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.5a",
+      "translit": "kabaḍī na lei boḍī na lei succhaṛe pāra karei",
+      "gloss": "cowrie · not · takes · boḍī, a small coin (?) · not · takes · freely, for nothing (?) · far bank, across · makes (ferries across)",
+      "en": "She takes no [cowrie]{kabadi}, takes no coin; she ferries [across]{para} freely.",
+      "terms": [
+        {
+          "id": "kabadi",
+          "src": "কবডী"
+        },
+        {
+          "id": "para",
+          "src": "পার"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "boḍī is named with the cowrie as something the ferrywoman does not take; it seems to be a small money unit or coin, but I cannot identify it. Rendered 'coin'; keeping boḍī in source form is an option."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "succhaṛe: I take it as 'freely, at will' (compare Sanskrit svacchanda), which in English also carries 'free of charge'. 'For nothing' would make the fare sense explicit."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The subject is not expressed; 'she' assumes the ferrywoman of 1b, as Munidatta does (Ḍombī Nairātmā, cp.14.m6)."
+        }
+      ]
+    },
+    {
+      "id": "cp.14.5b",
+      "translit": "jo rathe caṛilā bāhabāṇa jāi kulem̐ kula buṛai",
+      "gloss": "who, those who · on the chariot · climbed · rowing-not (bāhabā ṇa?) · goes (= cannot row) · at the shore · shore · sinks",
+      "en": "Those who climbed onto a chariot cannot row; they sink at [shore]{kula-shore} after [shore]{kula-shore}.",
+      "terms": [
+        {
+          "id": "kula-shore",
+          "src": "কুলেঁ"
+        },
+        {
+          "id": "kula-shore",
+          "src": "কুল"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bāhabāṇa jāi: I read bāhabā ṇa jāi, 'rowing does not go', that is 'cannot row' (or 'it cannot be rowed', of the chariot). The word division is mine; bāhabāṇa could instead be a single noun, perhaps a vehicle, with jāi 'goes'."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "kulem̐ kula buṛai: I render 'sink at shore after shore' (kula for kūla, 'bank'). Alternatives: 'sink right at the shore', or, taking kula as 'family, clan', 'sink, family and all'. Munidatta has them wander on the shore, which he calls the body (cp.14.m6)."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.14",
+      "kind": "witness",
+      "text": "In Shastri's edition the song is preceded by the word ḍombīpādānāṃ, 'of Ḍombīpāda', written before the first line. The input removes it from 1a as an attribution; the heading takes the poet's name from it. The cue ধ্রু printed after every couplet (a signal to sing the refrain again) is not translated.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song by saying that the siddha master Ḍombī, steeped again and again in supreme compassion, makes the same meaning plain under the guise of a boat journey (naukāpravāhavyājena).",
+      "cites": [
+        "cp.14.m1"
+      ]
+    },
+    {
+      "anchor": "cp.14",
+      "kind": "philology",
+      "text": "Munidatta names the refrain (dhruvapada) for couplet 2 and then calls couplets 3, 4 and 5 the second, third and fourth padas; in this song, then, couplet 1 counts as the first pada.",
+      "cites": [
+        "cp.14.m3",
+        "cp.14.m4",
+        "cp.14.m5",
+        "cp.14.m6"
+      ]
+    },
+    {
+      "anchor": "cp.14.h1",
+      "kind": "philology",
+      "text": "rāga: the melodic mode to which a song is sung. Dhanasī appears to be the vernacular form of the rāga known in Sanskrit as Dhanaśrī.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.1a",
+      "kind": "philology",
+      "text": "mājhem̐re, 'in the middle, between'. bahai, from vah- 'carry, convey, flow', is used of a boat moving along; the same root gives bāha-, 'row', in the refrain. Munidatta takes nāī as the boat (nauḥ).",
+      "cites": [
+        "cp.14.m2"
+      ]
+    },
+    {
+      "anchor": "cp.14.1",
+      "kind": "doctrine",
+      "text": "Munidatta says that in twilight language the Gaṅgā and the Yamunā are the moon-appearance and the sun-appearance (candrābhāsa, sūryābhāsa), that is, the grasped and the grasper; and that what lies in the middle of the avadhūtikā of the joy of cessation, the channel of semen (śukranāḍikā), is to be understood as the boat. The syntax of the sentence is loose, and the pairing of each river with one appearance rests only on word order.",
+      "cites": [
+        "cp.14.m2"
+      ]
+    },
+    {
+      "anchor": "cp.14.1b",
+      "kind": "philology",
+      "text": "Mātaṅgī: a woman of the Mātaṅga, a community ranked outside caste society, like the Ḍom. The word can also mean a female elephant, which does not fit here. buṛilī is a feminine past participle of buṛ-, 'sink, go under', the verb that returns in 5b; poiālīle is unclear (see the flags on this line).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.1b",
+      "kind": "doctrine",
+      "text": "Munidatta: staying there, Ḍombī, Nairātmā, whose limbs are intoxicated with the innate vehicle, takes the lord of yogis (yogīndra) across on the ocean of saṃsāra. He calls the ferrywoman Ḍombī where the song says Mātaṅgī. His 'staying there' and 'limbs intoxicated' may be his way of taking buṛilī, 'immersed'; this correspondence is my inference, not his statement.",
+      "cites": [
+        "cp.14.m2"
+      ]
+    },
+    {
+      "anchor": "cp.14.2b",
+      "kind": "witness",
+      "text": "Segment cp.14.m2, on couplet 1, contains the words sadguru ityādi vilakṣaṇaśuddhā, 'True guru and so on: distinctively pure', whose lemma is the opening of line 2b. The words may be displaced, or the lemma corrupt. The feminine vilakṣaṇaśuddhā could qualify the boat (nauḥ) of the sentence before it; cp.14.m5 speaks of a boat of distinctively purified bodhicitta.",
+      "cites": [
+        "cp.14.m2",
+        "cp.14.m5"
+      ]
+    },
+    {
+      "anchor": "cp.14.2a",
+      "kind": "doctrine",
+      "text": "Munidatta takes the refrain as the poet speaking to himself: once the boat-path of the joy of cessation, purified by the innate, has been reached, he addresses himself as 'O Ḍombī' and asks why there is delay, the delay apparently arising from attachment to eating and drinking. Since Munidatta calls the poet himself Ḍombī (cp.14.m1), the vocative can be heard both as the Ḍom woman and as the singer. The translation keeps it as Ḍombī.",
+      "cites": [
+        "cp.14.m3",
+        "cp.14.m1"
+      ]
+    },
+    {
+      "anchor": "cp.14.2b",
+      "kind": "doctrine",
+      "text": "Munidatta glosses the city of the Jina as the city of great bliss (mahāsukhapura), and says it is very near through continuous practice as the true guru makes it known; he ends: reflecting thus, practise the flow day by day.",
+      "cites": [
+        "cp.14.m3"
+      ]
+    },
+    {
+      "anchor": "cp.14.2b",
+      "kind": "philology",
+      "text": "pāa is 'feet' (Sanskrit pāda); 'by the guru's feet' is the ordinary idiom for owing something to a teacher. jiṇaurā corresponds to Sanskrit jinapura, the form Munidatta uses.",
+      "cites": [
+        "cp.14.m3"
+      ]
+    },
+    {
+      "anchor": "cp.14.3",
+      "kind": "imagery",
+      "text": "The couplet shows the boat being worked: five oars in the water, a rope made fast, water bailed out so that it does not come in at the seams. The individual boat words (māṅge, piṭata, kācchī, dukhola) are uncertain; see the flags on 3a and 3b.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.3a",
+      "kind": "doctrine",
+      "text": "Munidatta says that with this couplet the poet states the benefit of the practice. He reads the five oars as the instruction of the five stages (pañcakrama), taken up by the practitioner; then, in a sentence whose construction is uncertain, he speaks of what has gone to the kacchikā, the root of the jewel (maṇimūla), and says: make that very bodhicitta, opened by innate joy and stainless, flow by way of the wheels (cakra). His kacchikā answers the song's kācchī.",
+      "cites": [
+        "cp.14.m4"
+      ]
+    },
+    {
+      "anchor": "cp.14.3b",
+      "kind": "doctrine",
+      "text": "Munidatta repeats the compound as gaganadukholaka without explaining it, and says it is being sprinkled (or bailed) by the fourth empowerment; his text then says that water, the surging of sense objects, enters (viśati) the body of the lord of yogis. The song says the water does not get in (na paisai). Either a negative has dropped out of the commentary or Munidatta read the line differently; the translation follows the song.",
+      "cites": [
+        "cp.14.m4"
+      ]
+    },
+    {
+      "anchor": "cp.14.4a",
+      "kind": "philology",
+      "text": "pulinda: kept in its source form because its literal sense here is unknown. In Sanskrit Pulinda is the name of a forest-dwelling people. siṭhisaṃhāra is Sanskrit sṛṣṭi-saṃhāra, 'creation and destruction'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.4a",
+      "kind": "imagery",
+      "text": "The moon and the sun are called 'the two wheels' (cakā, from cakra), though the vehicle so far is a boat; the chariot of 5b gives wheels a place later in the song. The oddity is kept, not resolved.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.4",
+      "kind": "doctrine",
+      "text": "Munidatta says this couplet teaches the stopping of the three appearances (ābhāsa) through a special practice. He glosses the moon as the knowledge of wisdom (prajñājñāna); his words on the sun are garbled (sūryam utpādād advayajñānaṃ); and he says that in twilight language the pulinda is 'the neuter' (napuṃsaka). These three, he says, bring about the creation and destruction of saṃsāra.",
+      "cites": [
+        "cp.14.m5"
+      ]
+    },
+    {
+      "anchor": "cp.14.4b",
+      "kind": "doctrine",
+      "text": "Munidatta: travelling on the ocean in which no phenomenon is apprehended, they do not see left and right, the front or the back shore; 'O Ḍombī, practise rowing the boat of distinctively purified bodhicitta at your own will (svacchandena).' His svacchandena answers the song's chandā, 'at will'. The manuscript writes ṣodhicitta for bodhicitta.",
+      "cites": [
+        "cp.14.m5"
+      ]
+    },
+    {
+      "anchor": "cp.14.5a",
+      "kind": "doctrine",
+      "text": "Munidatta says this couplet states the fruit of the teaching of selflessness. As at an ordinary crossing the ferry-master takes a cowrie as the fare, so the Blessed Lady, Ḍombī Nairātmā, accepts nothing in the manner of grasped and grasper; merely for service, since nothing is to be grasped, she takes across on the ocean of becoming.",
+      "cites": [
+        "cp.14.m6"
+      ]
+    },
+    {
+      "anchor": "cp.14.5b",
+      "kind": "imagery",
+      "text": "A chariot is a land vehicle: at the river its riders cannot row and go under, while the ferrywoman crosses freely. The song leaves the contrast unexplained, and so does the translation.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.5b",
+      "kind": "doctrine",
+      "text": "Munidatta: yogis proud of outer treatises, unacquainted with the teaching of selflessness, also wander on the shore (kula), that is, in the body (śarīra); he adds the opening of a quotation, 'the foolish, covered by ignorance…'. Where the song says they sink (buṛai), he says they wander (bhramanti); he does not comment on the chariot.",
+      "cites": [
+        "cp.14.m6"
+      ]
+    },
+    {
+      "anchor": "cp.14.5",
+      "kind": "philology",
+      "text": "The input marks couplet 5 as the bhaṇitā, but the poet does not name himself in it. The only occurrence of the poet's name in the song is the vocative Ḍombī of the refrain, which Munidatta takes as the poet addressing himself.",
+      "cites": [
+        "cp.14.m3"
+      ]
+    }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [
+        "space"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঅণ",
+          "translit": "gaaṇa",
+          "att": "AS",
+          "where": "cp.14.3b"
+        },
+        {
+          "lang": "san",
+          "script": "গগন",
+          "translit": "gagana",
+          "att": "AS",
+          "where": "cp.14.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গঅণ"
+        },
+        {
+          "lang": "san",
+          "form": "গগন"
+        }
+      ],
+      "definition": "Sky; open space. The sky is a common image in siddha poetry and in Buddhist tantric language. In this song it forms the first half of gaaṇadukhola, the vessel used to bail the boat; Munidatta repeats the compound (gaganadukholaka) without explaining it.",
+      "symbolicImage": "the sky, in the compound 'sky-scoop' used to bail the boat",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "emptiness",
+        "void"
+      ],
+      "rationale": "Likely to recur in the songs; a fixed rendering (sky rather than space or ether) keeps the image consistent. The forbidden words are a guard against replacing the image with a common doctrinal reading; no reading is attested in this unit's commentary."
+    },
+    {
+      "id": "wheel",
+      "type": "term",
+      "en": "wheel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চকা",
+          "translit": "cakā",
+          "att": "AS",
+          "where": "cp.14.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চকা"
+        }
+      ],
+      "definition": "A wheel. In this song the moon and the sun are called 'the two wheels', though the vehicle is a boat. The same word (Sanskrit cakra) also names the wheels of the subtle body in the tantras, which have their own entries (wheel of emanation, wheel of great bliss).",
+      "symbolicImage": "the moon and the sun as 'the two wheels'",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "cakra",
+        "energy centre"
+      ],
+      "rationale": "Keeps the plain image apart from the subtle-body cakras. Munidatta reads the moon and the sun (cp.14.m5) but says nothing about the wheels, so no reading is recorded."
+    },
+    {
+      "id": "srsti-samhara",
+      "type": "term",
+      "en": "creation and destruction",
+      "policy": "translate",
+      "alt": [
+        "making and unmaking"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সিঠিসংহার",
+          "translit": "siṭhisaṃhāra",
+          "att": "AS",
+          "where": "cp.14.4a"
+        },
+        {
+          "lang": "san",
+          "script": "সৃষ্টিসংহার",
+          "translit": "sṛṣṭisaṃhāra",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সিঠিসংহার"
+        },
+        {
+          "lang": "san",
+          "form": "সৃষ্টিসংহার"
+        }
+      ],
+      "definition": "The pair creation (sṛṣṭi) and destruction or withdrawal (saṃhāra): the coming into being and dissolution of a world. In this song the phrase stands beside the pulinda after the moon and sun are named as two wheels; Munidatta says the moon, the sun and the pulinda bring about the creation and destruction of saṃsāra.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A fixed pair shared by song and commentary; one rendering for both helps the woven commentary line up with the verse."
+    }
+  ],
+  "questions": [
+    "Line 1b: I read buṛilī as 'immersed', describing the Mātaṅgī, and divide poiālīle as poiā līle, 'the young one' + 'with ease'. Alternatives: buṛilī as the object ('the drowning one'), or poiālī connected with pota 'boat'. Which analysis do you want, and should 'immersed' be 'sunk' to echo buṛai 'sink' in 5b?",
+    "Refrain: Munidatta hears the vocative Ḍombī as the poet addressing himself (cp.14.m3). I marked it with dombi (the Ḍom woman), not p-dombi. Do you agree?",
+    "The input marks couplet 5 as the bhaṇitā, but it has no self-naming; the poet's name occurs only in the refrain. Should the marking stand?",
+    "The song has the vernacular Jaunā; I used the approved 'Yamunā'. Would you allow 'Jaunā' as a variant in verse lines?",
+    "Line 3b: Munidatta's text says the water enters (viśati) where the song says it does not (na paisai). Should the note treat this as a lost negative in the commentary or as a real divergence? And is 'sky-scoop' acceptable for the unexplained gaaṇadukhola?",
+    "Line 3a: māṅge 'at the prow', piṭata 'at the stern' and kācchī 'rope' are my best guesses. Do you have preferred readings?",
+    "Line 4b: I turned the finite na rebai into 'Not looking to', following Munidatta's 'they do not see'. A closer line would be 'Left and right, the two ways, it does not see; row as you please.' Which do you prefer?",
+    "Line 5a: boḍī rendered 'coin'. Keep it, or keep the source word?",
+    "Line 5b: 'cannot row' rests on dividing bāhabāṇa jāi as bāhabā ṇa jāi, and 'shore after shore' is one of several readings of kulem̐ kula ('right at the shore'; 'family and all'). Please confirm or choose.",
+    "Heading: I added 'Ḍombīpāda' from the attribution the input removed from 1a. Is that right for the heading?",
+    "Line 2b: 'By the true guru's feet' keeps the literal idiom; would you prefer 'Through the true guru's grace'?",
+    "Glossary matching: the hit 'carya' in cp.14.m6 is paricaryā, 'service', not conduct, and 'citta' in cp.14.m4 and m5 occurs only inside bodhicitta (m5 spells it ṣodhicitta). These look like false matches.",
+    "I used the plural 'oars' as the surface form for keruala (approved 'oar'). Is an inflected surface acceptable?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-26",
+    "packSha": "b6d81202cb6a20c228b78ec67407c5fdd532d3e0ab408a36c8d432bd18b55b92",
+    "prompts": {
+      "system": 1,
+      "text": 2,
+      "task": 1
+    },
+    "glossarySha": "60f8da1cf23f009fcc11894fa4864eb27eab4a88507af00c7f6cc90f4d35f430",
+    "sourceSha": "ac0766c33fbb2f68a6a32782aedeb12679537205c437bf659bd2607ad7227b17"
+  }
+}

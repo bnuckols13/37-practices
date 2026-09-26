@@ -1,0 +1,37 @@
+{
+  "unit": "fx.01",
+  "title": "The Tree of the Body",
+  "summary": "TEST FIXTURE. The body is pictured as a tree with five branches, and the poet urges the listener to steady great bliss by asking the guru. Munidatta reads the five branches as the five aggregates.",
+  "lines": [
+    { "id": "fx.01.h1", "translit": "rāga paṭamañjarī", "gloss": "melody · Paṭamañjarī", "en": "Rāga Paṭamañjarī", "terms": [], "flags": [] },
+    { "id": "fx.01.1a", "translit": "kāā tarubara pañca bi ḍāla", "gloss": "body · fine-tree · five · also · branch", "en": "The body is a fine [tree]{taruvara} with five branches;", "terms": [{ "id": "taruvara", "src": "তরুবর" }], "flags": [] },
+    { "id": "fx.01.1b", "translit": "cañcala cīe paiṭho kāla", "gloss": "restless · in-mind · entered · time", "en": "into the restless mind, time has entered.", "terms": [], "flags": [{ "kind": "meaning", "level": "medium", "note": "kāla may be 'time' or 'death'; I chose time." }] },
+    { "id": "fx.01.2a", "translit": "diṛha karia mahāsuha parimāṇa", "gloss": "firm · having-made · great-bliss · measure", "en": "Make [great bliss]{mahasukha} firm and take its measure:", "terms": [{ "id": "mahasukha", "src": "মহাসুহ" }], "flags": [] },
+    { "id": "fx.01.2b", "translit": "lui bhaṇai guru pucchia jāṇa", "gloss": "Lūyī · says · guru · having-asked · know", "en": "[Lūyī]{p-luyi} says: ask the guru, and know.", "terms": [{ "id": "p-luyi", "src": "লুই" }], "flags": [] }
+  ],
+  "notes": [
+    { "anchor": "fx.01.1", "kind": "doctrine", "text": "Munidatta reads the five branches of the tree as the five aggregates.", "cites": ["fx.01.m1"] },
+    { "anchor": "fx.01.1b", "kind": "philology", "text": "The refrain couplet; ধ্রু marks it for repetition.", "cites": [] }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    { "id": "taruvara", "type": "term", "en": "tree", "policy": "translate", "alt": ["fine tree"],
+      "forms": [{ "lang": "oben", "script": "তরুবর", "translit": "tarubara", "att": "AS", "where": "fx.01.1a" }],
+      "match": [{ "lang": "oben", "form": "তরুবর" }],
+      "definition": "A fine or excellent tree; in the songs, the body pictured as a tree.",
+      "symbolicImage": "the body as a tree with five branches",
+      "symbolicReadings": [{ "referent": "the five aggregates", "per": "Munidatta", "where": ["fx.01.m1"] }],
+      "forbiddenInLine": ["aggregates"], "rationale": "Recurring image; fixture entry." },
+    { "id": "mahasukha", "type": "term", "en": "great bliss", "policy": "translate", "alt": [],
+      "forms": [{ "lang": "oben", "script": "মহাসুহ", "translit": "mahāsuha", "att": "AS", "where": "fx.01.2a" }],
+      "match": [{ "lang": "oben", "form": "মহাসুহ" }],
+      "definition": "The bliss realized in tantric practice, identified with the innate nature of mind.",
+      "symbolicImage": "", "symbolicReadings": [], "forbiddenInLine": [], "rationale": "Core doctrinal term; fixture entry." },
+    { "id": "p-luyi", "type": "person", "en": "Lūyī", "policy": "keep-source", "alt": ["Lūyīpāda"],
+      "forms": [{ "lang": "oben", "script": "লুই", "translit": "lui", "att": "AS", "where": "fx.01.2b" }],
+      "match": [{ "lang": "oben", "form": "লুই" }],
+      "definition": "A siddha to whom the first song is attributed.",
+      "symbolicImage": "", "symbolicReadings": [], "forbiddenInLine": [], "rationale": "The poet; fixture entry." }
+  ],
+  "questions": ["Keep 'tree' for taruvara, or 'fine tree'?"]
+}

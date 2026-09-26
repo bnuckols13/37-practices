@@ -5,23 +5,25 @@ How measurement works on 37practices.space, and the one-time setup in Google's t
 ## How it fits together
 
 ```
-every page ── assets/analytics.js ──> Google Analytics 4 (G-RNEDTE01W6)
-              (consent defaults, page context, events)
+every page ── assets/analytics.js ──┬─ MODE 'gtag' ──> Google Analytics 4 (G-RNEDTE01W6)
+              (consent defaults,    └─ MODE 'gtm'  ──> Tag Manager (GTM-NTGV6HVQ) ──> GA4
+               page context, events)                   + any other tags added later
 ```
 
 - **`assets/analytics.js`** runs first on every page. It sets Consent Mode v2 defaults
   (analytics off in the EEA/UK/Switzerland until the visitor accepts; ad signals off
-  everywhere), loads Google Analytics (`gtag.js`) with the ID in `GA4_ID`, labels every
-  event with the kind of page, shows the small consent notice to visitors whose browser
-  time zone is in Europe, and provides `track()`.
-- **Pages** call `track('event_name', {...})` for the actions worth counting (table below).
-  Nothing else needs configuring: the events arrive in GA4 as they are.
+  everywhere), labels every event with the kind of page, shows the small consent notice
+  to visitors whose browser time zone is in Europe, provides `track()`, and loads Google's
+  code according to `MODE`:
+  - `'gtag'` (now): GA4 directly through `gtag.js`. Nothing to configure anywhere.
+  - `'gtm'` (the target): Google Tag Manager, with GA4 set up inside the container from
+    `gtm-container.json`. Tag Manager is then where any future tag goes (heatmaps,
+    conversion pixels, ...) without touching the site's code.
+- **Pages** call `track('event_name', {...})` for the actions worth counting (table
+  below). The same calls work in both modes.
 
-Set `GA4_ID` to `''` to switch tracking off completely.
-
-**Google Tag Manager is not used.** The site talks to GA4 directly, so there is nothing
-to set up in Tag Manager. `gtm-container.json` is kept only in case the site ever moves
-to Tag Manager; importing it while `gtag.js` is still loaded would count everything twice.
+Never run both: switch `MODE` only after the Tag Manager container is **published**
+(step 2 below). Until then, Tag Manager would have no GA4 tag and nothing would be recorded.
 
 ## One-time setup
 
@@ -49,9 +51,29 @@ Then:
 - To check it works: open the site, then **Reports → Realtime** in GA4. You should appear
   within a minute.
 
-### 2. (Not needed) Google Tag Manager
+### 2. Google Tag Manager (container `GTM-NTGV6HVQ`)
 
-Skip it. See above.
+1. [tagmanager.google.com](https://tagmanager.google.com) → open the `37practices.space` container.
+2. **Admin** (top) → **Import Container** → choose `analytics/gtm-container.json` →
+   workspace **Existing: Default Workspace** → **Merge** → *Rename conflicting tags,
+   triggers and variables* → **Confirm**.
+3. **Submit** (top right) → version name `GA4 setup` → **Publish**.
+4. Set `MODE = 'gtm'` near the top of `assets/analytics.js`, commit and deploy.
+5. Check: open the site and watch **GA4 → Reports → Realtime**, or use **Preview** in Tag Manager.
+
+What the import creates:
+
+| Kind | Name | Details |
+|---|---|---|
+| Variable | GA4 Measurement ID | Constant `G-RNEDTE01W6` |
+| Variables | DLV - *param* | One Data Layer Variable per parameter in the events table |
+| Trigger | CE - site events | Custom Event, regex `^(generate_lead\|question_submitted\|form_start\|contact_email_click\|cta_click\|toolkit_tab_view\|verse_view\|search\|commentator_filter\|compare_translations\|copy_text\|print_verses)$` |
+| Tag | Google tag - GA4 | Tag ID `{{GA4 Measurement ID}}`; config parameters `page_type`, `verse_number`; fires on *Initialization - All Pages* |
+| Tag | GA4 event - site events | Event name `{{Event}}`; every parameter mapped to its DLV; fires on *CE - site events* |
+
+If the import is ever refused, build those five rows by hand in about ten minutes.
+In `'gtm'` mode, add any new event parameter to `EVENT_KEYS` in `assets/analytics.js`, to
+the GA4 event tag, and (for a new event name) to the trigger regex.
 
 ### 3. Google Search Console
 

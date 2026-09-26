@@ -33,6 +33,27 @@ test('caryagiti: one-line couplets split at the first internal daṇḍa; two-li
   ]);
 });
 
+test('caryagiti: Wikisource layout, with a blank line between half-lines', () => {
+  const [u] = run('@song 4\nক খ\n\nগ ঘ॥\n\nচ ছ\n\nজ ঝ॥ ধ্রু॥\n');
+  assert.deepEqual(u.lines.map(l => [l.id, l.src]), [['fx.04.1a', 'ক খ'], ['fx.04.1b', 'গ ঘ॥'], ['fx.04.2a', 'চ ছ'], ['fx.04.2b', 'জ ঝ॥ ধ্রু॥']]);
+});
+
+test('caryagiti: an explicit @refrain overrides the ধ্রু cues on later couplets', () => {
+  // Shastri prints ধ্রু after every couplet that follows the refrain.
+  const src = '@song 5\nক খ॥\n@refrain\nগ ঘ\nঙ চ॥ ধ্রু॥\nছ জ\nঝ ঞ॥ ধ্রু॥\n';
+  const [u] = run(src);
+  const flagged = [...new Set(u.lines.filter(l => l.refrain).map(l => l.couplet))];
+  assert.deepEqual(flagged, [2]);
+  assert.ok(u.lines.every(l => !('dhru' in l)), 'no internal flags leak into the unit');
+  const [v] = run(src.replace('@refrain\n', ''));
+  assert.deepEqual([...new Set(v.lines.filter(l => l.refrain).map(l => l.couplet))], [2, 3], 'without @refrain, ধ্রু marks decide');
+});
+
+test('@emend can remove a word and leaves no stray spaces', () => {
+  const [u] = run('@song 6\nনাম।  ক খ\nগ ঘ॥\n@emend fx.06.1a নাম। => | an attribution, not verse\n');
+  assert.equal(u.lines[0].src, 'ক খ');
+});
+
 test('directives: @couplet, @bhanita, @lacuna, @skip, @emend', () => {
   const [u] = run([
     '@skip', 'page title', '@song 4', '@couplet 3', 'ক খ। গ ঘ॥', '@lacuna folio missing', '@bhanita', 'চ ছ। জ ঝ॥', 'ট ঠ। ড ঢ॥',

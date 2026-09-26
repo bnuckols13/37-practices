@@ -95,7 +95,7 @@ export function segment(text, sources, overrides = {}) {
     const line = [...st.units.values()].flatMap(u => u.lines).find(l => l.id === e.id);
     if (!line) fail(`${e.at}: @emend names unknown line ${e.id}`);
     if (!line.src.includes(e.from)) fail(`${e.at}: @emend: "${e.from}" not found in ${e.id}`);
-    line.src = line.src.replace(e.from, e.to);
+    line.src = line.src.replace(e.from, e.to).trim();
     (line.emended ||= []).push({ from: e.from, to: e.to, reason: e.reason });
   }
 

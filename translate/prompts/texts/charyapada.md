@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 2
 ---
 # The Charyapada
 
@@ -9,7 +9,7 @@ The Charyapada (Caryāgīti) are songs of the Buddhist siddhas of eastern India,
 
 - A heading names the rāga (melody) and the poet. Translate it plainly, e.g. "Rāga Paṭamañjarī · Lūyīpāda".
 - Couplets of two half-lines: "a । b ॥". Each half-line is a line id of its own (…1a, …1b).
-- The refrain (dhruvapada), marked ধ্রু, is usually the first couplet. Translate "ধ্রু" as nothing; the refrain is marked on the page.
+- The refrain (dhruvapada) is usually the second couplet; Munidatta counts the "padas" from the couplet after it. Shastri's edition prints ধ্রু after the refrain and after every later couplet, as a cue to sing the refrain again. Translate "ধ্রু" as nothing; the refrain is marked on the page.
 - In the last couplet the poet names himself (the bhaṇitā): "Lūyī says…", "Kāṇha says…". Keep it.
 
 ## Language
@@ -19,6 +19,8 @@ The Charyapada (Caryāgīti) are songs of the Buddhist siddhas of eastern India,
 - Paradox is deliberate: the barren cow gives milk, the frog swallows the snake. Keep the paradox; do not resolve it in the line.
 
 ## Munidatta's commentary
+
+In the source, bracketed numbers such as [২] or [১৭ক] are the manuscript's folio numbers, and bracketed letters such as স[মা]হিঅ are Shastri's restorations of damaged text. Neither is Munidatta's wording: translate through them and never render a folio number.
 
 Munidatta comments song by song, usually giving a Sanskrit rendering of each phrase followed by its inner sense, often in the form "X means Y" (X iti Y), and supporting it with quotations from the tantras and dohā literature. His readings are the tradition's, not the poem's literal sense: they go in notes and in the woven commentary, attributed to him.
 

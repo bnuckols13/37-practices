@@ -1,8 +1,13 @@
 /**
  * Caryāgīti songs: a rāga heading, couplets of two half-lines ("a । b ॥"),
  * a refrain marked ধ্রু, and the poet naming himself in the last couplet.
- * A couplet ends at a line whose tail carries ॥ (or at a blank line / directive).
+ * A couplet ends at a line whose tail carries ॥, at a directive, or at a blank
+ * line once it holds both halves (Wikisource sets a blank line between halves).
  * One line holding both halves is split at its first internal daṇḍa.
+ *
+ * An explicit @refrain in a song overrides the ধ্রু marks there: Shastri's
+ * edition prints ধ্রু after every couplet that follows the refrain, as a cue
+ * to sing it again, so the marks alone would flag every couplet.
  */
 
 import { fail } from '../io.mjs';
@@ -29,13 +34,15 @@ export const caryagiti = {
       const u = st.unit;
       const k = flags.couplet ?? u.counters.couplet + 1;
       u.counters.couplet = k;
-      const refrain = !!flags.refrain || buf.some(t => t.includes('ধ্রু'));
+      const dhru = buf.some(t => t.includes('ধ্রু'));
+      if (flags.refrain) u.explicitRefrain = true;
       halves(buf).forEach((src, i) => {
         const line = {
           id: `${u.id}.${k}${String.fromCharCode(97 + i)}`, group: `${u.id}.${k}`, role: 'line', couplet: k,
           lang: st.lang, witness: st.witness.id, src,
         };
-        if (refrain) line.refrain = true;
+        if (flags.refrain) line.refrain = true;
+        else if (dhru) line.dhru = true;
         if (flags.bhanita) line.bhanita = true;
         st.pushLine(u, line);
       });
@@ -80,7 +87,7 @@ export const caryagiti = {
         continue;
       }
       if (e.type === 'blank') {
-        if (mode === 'verse') closeCouplet();
+        if (mode === 'verse' && buf.length > 1) closeCouplet();
         else if (mode === 'comm' && seg && seg.src) seg.src += '\n';
         continue;
       }
@@ -101,6 +108,10 @@ export const caryagiti = {
 
   finish(st) {
     for (const u of st.units.values()) {
+      for (const l of u.lines) {
+        if (l.dhru && !u.explicitRefrain) l.refrain = true;
+        delete l.dhru;
+      }
       if (u.explicitBhanita) continue;
       const last = Math.max(0, ...u.lines.filter(l => l.role === 'line').map(l => l.couplet));
       for (const l of u.lines) if (l.role === 'line' && l.couplet === last) l.bhanita = true;

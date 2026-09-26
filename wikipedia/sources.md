@@ -36,6 +36,15 @@ These are reliable for what the book itself says: its translation, its commentar
 | FR | **Thubten Chodron (2012).** *Don't Believe Everything You Think: Living with Wisdom and Compassion.* Snow Lion. | ISBN 978-1-55939-396-6 | |
 | FR | **McLeod, Ken (2014).** *Reflections on Silver River: Tokme Zongpo's Thirty-Seven Practices of a Bodhisattva.* Unfettered Mind Media. | ISBN 978-0-9895153-1-3 | Self-published. It's fine to list, but don't use it for facts. |
 | FR | **Ngawang Tenzin Norbu (2020).** *A Guide to the Thirty-Seven Practices of a Bodhisattva*, trans. Christopher Stagg. Boulder: Snow Lion. | ISBN 978-1-55939-491-8 | Translation of a 20th-century Tibetan commentary (the author lived 1867–1940). |
+| FR | **Tenzin Palmo, Jetsunma (2022).** *The Heroic Heart: Awakening Unbounded Compassion.* Shambhala. | ISBN 978-1-64547-055-7 | A modern commentary on the text (the Open Library record confirms author, publisher, year and ISBN; the subtitle is from the publisher listing, so check it). |
+
+**Leads not yet checked (worth a library visit):**
+
+- **Snellgrove, David & Hugh Richardson, *A Cultural History of Tibet*** (Shambhala 1986 edition, pp. 153–154).
+  - The en.wiki article *Tai Situ Changchub Gyaltsen* cites these pages for Changchub Gyaltsen's good relations with "Gyelse Thokme".
+  - This is a standard academic history, and it would be a good independent source for that relationship.
+- ***The New York Times*, 14 August 1999 (Gustav Niebuhr):** coverage of the Dalai Lama's Beacon Theatre teachings on the text. It is cited in the en.wiki article *The Tibet Center*. It shows the text's modern reception in a mainstream independent source.
+- ***The Princeton Dictionary of Buddhism*** (Buswell & Lopez, 2014): check whether it has an entry under "Thogs med bzang po".
 
 A Further reading list should be short and balanced: 4–6 items spread across traditions. Don't list every book.
 

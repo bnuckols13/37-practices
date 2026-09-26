@@ -124,12 +124,26 @@ test('render publishes only approved units, with popover data and a sitemap', ()
   fs.writeFileSync(path.join(process.env.SITE_ROOT, 'robots.txt'), 'User-agent: *\nAllow: /\n');
   const r = render('fixture');
   const out = path.join(process.env.SITE_ROOT, 'translations', 'fixture');
-  assert.deepEqual(fs.readdirSync(out).sort(), ['01.html', 'glossary.html', 'index.html']);
+  assert.deepEqual(fs.readdirSync(out).sort(), ['01.html', 'about.html', 'glossary.html', 'index.html', 'search.json']);
   const html = read(path.join(out, '01.html'));
   assert.match(html, /data-g="taruvara"/);
   assert.match(html, /<script type="application\/json" id="gloss-data">/);
   assert.match(html, /reviewed and approved by/);
   assert.ok(!/\]\{taruvara\}/.test(html), 'markup is rendered');
+  // Reading Room structure: rubricated passage numbers, Munidatta beside his couplet, shared assets.
+  assert.match(html, /<section class="passage" id="c1" data-unit="fx\.01\.1"><div class="passage__no"><a class="pno" href="#c1"/);
+  assert.match(html, /<aside class="sidenote" aria-label="Munidatta on 1\.1">/);
+  assert.match(html, /<link rel="stylesheet" href="\.\.\/assets\/reader\.css\?v=[0-9a-f]{12}">/);
+  assert.match(html, /<meta name="citation" content="[^"]*\{p\}/);
+  for (const a of ['reader.css', 'reader.js']) assert.ok(fs.existsSync(path.join(process.env.SITE_ROOT, 'translations', 'assets', a)), a);
+  const title = read(path.join(out, 'index.html'));
+  assert.match(title, /How to read this edition/);
+  assert.match(title, /<table class="songtable">/);
+  const search = JSON.parse(read(path.join(out, 'search.json')));
+  assert.ok(search.docs.some(d => d[0] === 'p' && d[1] === '1.1'), 'passages are searchable');
+  assert.ok(search.docs.some(d => d[0] === 'g' && d[1] === 'taruvara'), 'glossary terms are searchable');
+  assert.ok(!/\]\{|<[a-z]/.test(JSON.stringify(search.docs)), 'no markup in the search index');
+  assert.doesNotMatch(read(path.join(process.env.SITE_ROOT, 'sitemap-translations.xml')), /search\.json|reader\./);
   assert.match(read(path.join(process.env.SITE_ROOT, 'sitemap-translations.xml')), /translations\/fixture\/01\.html/);
   assert.match(read(path.join(process.env.SITE_ROOT, 'robots.txt')), /sitemap-translations\.xml/);
   assert.ok(r.files.length >= 5);

@@ -1,15 +1,20 @@
 /**
- * render: approved units -> static pages under translations/<text>/, plus
- * translations/index.html and sitemap-translations.xml. Only approved
- * units are published; --preview renders drafts too, into translate/.preview/.
+ * render: approved units -> the Reading Room under translations/<text>/
+ * (title page, song pages, glossary, about, search.json), the shared
+ * translations/assets/reader.{css,js}, translations/index.html and
+ * sitemap-translations.xml. Only approved units are published; --preview
+ * renders drafts too, into translate/.preview/.
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { paths, readJSON, writeText, readText, exists, home, siteRoot, nfc, fail } from '../io.mjs';
+import { paths, readJSON, writeText, readText, exists, home, siteRoot, nfc, fail, sha256, short, config } from '../io.mjs';
 import { loadText, unitsIndex, loadUnit, allTexts } from '../text.mjs';
 import { load, byId } from '../glossary.mjs';
-import { makeCtx, songPage, hubPage, glossaryPage, textsIndexPage, fileOf } from './pages.mjs';
+import { songPage, titlePage, glossaryPage, aboutPage, textsIndexPage } from './pages.mjs';
+import { makeCtx, searchIndex, fileOf } from './ctx.mjs';
+import { READER_CSS } from './css.mjs';
+import { READER_JS } from './client.mjs';
 import { site } from './shell.mjs';
 
 function records(slug, units, preview) {
@@ -50,23 +55,32 @@ export function render(slug, { preview = false } = {}) {
 
   if (!recs.size && !preview) return { files, note: 'nothing approved yet: accept a reviewed sheet first (or use --preview to see drafts)' };
 
+  // Shared assets, cache-busted by content: every page links reader.css?v=<sha>.
+  const v = short(sha256(READER_CSS + READER_JS));
+  const assetDir = path.join(root, 'translations', 'assets');
+  write(files, path.join(assetDir, 'reader.css'), READER_CSS);
+  write(files, path.join(assetDir, 'reader.js'), READER_JS);
+
   fs.mkdirSync(outDir, { recursive: true });
-  for (const f of fs.readdirSync(outDir)) if (/\.html$/.test(f)) fs.unlinkSync(path.join(outDir, f));
+  for (const f of fs.readdirSync(outDir)) if (/\.html$|^search\.json$/.test(f)) fs.unlinkSync(path.join(outDir, f));
 
   const ctx = makeCtx({ text, units, records: recs, entries, preview });
   const ordered = [...recs.values()].sort((a, b) => a.n - b.n);
-  ordered.forEach((r, i) => write(files, path.join(outDir, fileOf(text, r.n)), songPage(ctx, r, ordered[i - 1], ordered[i + 1])));
-  write(files, path.join(outDir, 'index.html'), hubPage(ctx));
-  write(files, path.join(outDir, 'glossary.html'), glossaryPage(ctx));
+  ordered.forEach((r, i) => write(files, path.join(outDir, fileOf(text, r.n)), songPage(ctx, r, ordered[i - 1], ordered[i + 1], v)));
+  write(files, path.join(outDir, 'index.html'), titlePage(ctx, v));
+  write(files, path.join(outDir, 'glossary.html'), glossaryPage(ctx, v));
+  write(files, path.join(outDir, 'about.html'), aboutPage(ctx, v));
+  write(files, path.join(outDir, 'search.json'), JSON.stringify(searchIndex(ctx)) + '\n');
 
   // Texts index: every text with something published (just this one in preview).
   const list = (preview ? [slug] : allTexts()).map(s => {
     const t = loadText(s);
     const ids = unitsIndex(s).units;
     const published = ids.filter(u => exists(paths(s).approvedFile(u.id))).length;
-    return { text: t, published: preview ? recs.size : published, total: t.catalog.total || ids.length };
+    return { text: t, published: preview ? recs.size : published, total: t.catalog.total || ids.length,
+      imprint: t.publish.imprint || `Translated by ${config().reviewer || 'the reviewer'} with Claude` };
   }).filter(x => x.published);
-  write(files, path.join(root, 'translations', 'index.html'), textsIndexPage(list));
+  write(files, path.join(root, 'translations', 'index.html'), textsIndexPage(list, v));
 
   if (!preview) {
     const urls = [];

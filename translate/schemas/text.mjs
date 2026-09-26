@@ -26,7 +26,11 @@ export const Text = z.object({
   idPrefix: z.string().regex(/^[a-z][a-z0-9]*$/),
   idWidth: z.number().int().min(1).max(4).default(2),
   unitLabel: z.string().default('Section'),
-  title: z.object({ en: z.string(), alt: z.array(z.string()).default([]) }),
+  title: z.object({
+    en: z.string(),
+    alt: z.array(z.string()).default([]),
+    orig: z.object({ text: z.string(), lang: z.string() }).optional(),   // the title in its own script
+  }),
   author: z.string().default(''),
   description: z.string().default(''),
   lang: z.object({
@@ -52,5 +56,6 @@ export const Text = z.object({
     license: z.string(),
     licenseUrl: z.string().default(''),
     credits: z.array(z.string()).default([]),
+    imprint: z.string().default(''),        // e.g. "Translated by Lena Rose with Claude"; default built from config.reviewer
   }),
 });

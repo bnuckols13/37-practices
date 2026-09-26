@@ -155,6 +155,30 @@ Directives are whole lines starting with `@`. The raw import is never edited: `c
 - **Stale sheets:** `accept` refuses a sheet written for an older draft.
 - **Hand-edited sheets:** `review` won't overwrite one unless you pass `--force`.
 
+## What `render` publishes (the Reading Room)
+
+`render` writes, for each text, into `translations/<text>/`:
+
+| File | What it is |
+|---|---|
+| `index.html` | Title page: the title in its own script, witnesses, imprint, a worked "How to read this edition" passage, and every song with its state |
+| `NN.html` | One page per approved song: contents rail, the English with rubricated passage numbers, Munidatta beside the couplet he reads, notes and terms |
+| `glossary.html` | A–Z, type filter and filter box; each entry with source forms, attestation codes, readings and where it appears |
+| `about.html` | How the edition is made, sources, conventions, licence |
+| `search.json` | The index behind the `/` search dialog (plain text only; `check` refuses markup in it) |
+
+It also writes `translations/assets/reader.css` and `reader.js`, shared by every page and linked with `?v=<content sha>`, plus `translations/index.html` and `sitemap-translations.xml`.
+
+- **Look:** colours and fonts come from `lib/design/tokens.mjs`, the same tokens the Studio uses. Light and dark follow the device, or the reader's choice under Display.
+- **Without JavaScript:** everything still works. Terms link to the glossary page, passage numbers are anchors, and commentary sits in the margin.
+- **With JavaScript, the script adds:**
+  - glossary previews on hover and a pinned panel on click;
+  - Display settings (English / with the source / Study; commentary in the margin, under each passage or hidden), remembered per browser;
+  - a Copy link / Cite menu on each passage number;
+  - search;
+  - a one-time hint by the first glossary term.
+- **Browser check:** `node test/ui/reader.shot.mjs <outdir>` approves the practice song, renders it, checks the reader in Chromium at desktop and phone widths in light and dark, and saves screenshots. It is opt-in and needs Playwright.
+
 ## Licensing rules the engine enforces
 
 - **Witness usage.** Each witness in `text.json` has a `usage`:

@@ -193,6 +193,13 @@ export function check(slug, { strict = false } = {}) {
     const inline = data ? JSON.parse(data[1]) : {};
     for (const m of html.matchAll(/data-g="([^"]+)"/g)) if (!inline[m[1]]) E.push(`${text.publish.dir}/${f}: link to {${m[1]}} has no inlined entry`);
     for (const m of html.matchAll(/<[^>]+class="src"[^>]*>/g)) if (!/\slang="/.test(m[0])) E.push(`${text.publish.dir}/${f}: source-script element without a lang attribute`);
+    for (const m of html.matchAll(/<[^>]+class="tl"[^>]*>/g)) if (!/\slang="[a-z-]+-Latn"/.test(m[0])) E.push(`${text.publish.dir}/${f}: transliteration without a -Latn lang attribute`);
+    if (!/<link rel="stylesheet" href="[^"]*reader\.css\?v=/.test(html)) E.push(`${text.publish.dir}/${f}: does not link the shared reader.css`);
+  }
+  const search = readJSON(path.join(out, 'search.json'), null);
+  if (search) {
+    const bad = search.docs.filter(d => d.some(x => /\]\{[a-z0-9-]+\}|<\/?[a-z][^>]*>/.test(String(x))));
+    if (bad.length) E.push(`${text.publish.dir}/search.json: ${bad.length} entr${bad.length === 1 ? 'y has' : 'ies have'} markup (first: ${bad[0][2]})`);
   }
 
   return strict ? { errors: [...E, ...W], warnings: [] } : { errors: E, warnings: W };

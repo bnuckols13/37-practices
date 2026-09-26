@@ -1,5 +1,10 @@
 # Translation UX: the Studio and the Reading Room
 
+> **Status (2026-09-26).**
+> - **S1:** built. The staging Studio is published and seeded with the practice song.
+> - **S2:** built, except publishing the prod Studio, which waits for Charyapada units.
+> - **R1 and R2:** built. `render` writes the title page, song pages, glossary, about page and `search.json` on the shared tokens. `test/ui/reader.shot.mjs` checks them in a browser.
+
 ## Context
 Lena Rose (the reviewer) wants a solid **translating** and **reading** experience:
 - built on good onboarding and information-architecture practice;

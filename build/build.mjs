@@ -5,7 +5,8 @@
  *   node build/build.mjs
  *
  * Syncs the compendium markdown out of Brian's working folder, parses it into
- * verse records, and writes a single self-contained study-the-verses.html.
+ * verse records, and writes a single self-contained study-the-verses.html, plus
+ * one static page per verse in verses/ and the site's sitemap.xml.
  * Zero npm dependencies, by design: the deployed site stays static files.
  *
  * Override the source folder with COMPENDIUM_DIR=... if it ever moves.
@@ -339,6 +340,286 @@ function render(verses) {
   return { dest, filledCount, textCount, total: verses.length };
 }
 
+/* ------------------------------------------------------------- verse pages */
+// One static, indexable page per verse, so search engines (and shared links) can
+// reach each verse on its own URL. The markup mirrors verseHTML() in template.html,
+// minus the interactive parts: change the two together.
+
+const SITE = 'https://37practices.space';
+const FONTS = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap';
+const STATIC_PAGES = ['', 'toolkit.html', 'study-the-verses.html', 'flyer.html'];
+const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+
+const isNum = v => typeof v.n === 'number';
+const fileOf = v => String(v.n) + '.html';                  // 12 -> 12.html, homage -> homage.html
+const labelOf = v => isNum(v) ? 'Verse ' + v.n : String(v.n).charAt(0).toUpperCase() + String(v.n).slice(1);
+const headingOf = v => isNum(v) ? `${labelOf(v)}: ${v.topic || ''}`.replace(/: $/, '') : (v.topic || labelOf(v));
+const words = n => NUMBER_WORDS[n] || String(n);
+const plain = html => String(html).replace(/<[^>]+>/g, '')
+  .replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+const attr = s => esc(s).replace(/"/g, '&quot;');
+const jsonLd = o => JSON.stringify(o).replace(/</g, '\\u003c');
+
+function clip(s, max) {
+  s = s.replace(/\s+/g, ' ').trim();
+  if (s.length <= max) return s;
+  return s.slice(0, s.lastIndexOf(' ', max - 1)).replace(/[,;:.\s]+$/, '') + '…';
+}
+
+const SHORT_NAMES = { HHDL: 'the Dalai Lama' };
+
+// "Verse 12: When robbed: dedicate everything. Commentary from seven teachers,
+//  including Garchen Rinpoche and the Dalai Lama, and the root text in three translations."
+function describeVerse(v) {
+  const names = v.commentaries.map(c => SHORT_NAMES[c.key] || SOURCES.commentators[c.key].name);
+  const head = headingOf(v) + '.';
+  if (!v.hasText) return clip(`${head} From the 37 Practices of a Bodhisattva by Gyalse Tokme Zangpo.`, 160);
+  const k = v.rootText.length;
+  const text = `the root text in ${words(k)} translation${k > 1 ? 's' : ''}`;
+  let who = '';
+  if (names.length > 2) who = `Commentary from ${words(names.length)} teachers, including ${names[0]} and ${names[1]}`;
+  else if (names.length) who = `Commentary from ${names.join(' and ')}`;
+  const full = who ? `${head} ${who}, and ${text}.` : `${head} The 37 Practices of a Bodhisattva: ${text}.`;
+  return full.length <= 160 ? full : clip(who ? `${head} ${who}.` : full, 160);
+}
+
+function transHTML(rt, isPrimary) {
+  const meta = SOURCES.translations[rt.key];
+  if (!meta) return '';
+  const lic = meta.licenseUrl
+    ? `<a href="${meta.licenseUrl}" target="_blank" rel="noopener">${meta.license}</a>`
+    : meta.license;
+  return `<div class="trans${isPrimary ? ' primary' : ''}">`
+    + `<div class="who">${meta.label}</div>`
+    + `<div class="sub">${meta.sublabel ? meta.sublabel + ' · ' : ''}${lic}`
+    + (meta.url ? ` · <a href="${meta.url}" target="_blank" rel="noopener">source</a>` : '')
+    + '</div>' + rt.stanzas.map(s => `<p>${s}</p>`).join('') + '</div>';
+}
+
+function commHTML(c) {
+  const meta = SOURCES.commentators[c.key];
+  if (!meta) return '';
+  return '<div class="comm">'
+    + `<div class="who"><span class="name">${meta.name}</span>`
+    + (meta.lineage ? `<span class="lineage">${meta.lineage}</span>` : '')
+    + (meta.url ? `<span class="src"><a href="${meta.url}" target="_blank" rel="noopener">source ↗</a></span>` : '')
+    + '</div>'
+    + (meta.urlNote ? `<div class="tnote">${meta.urlNote}</div>` : '')
+    + `<p>${c.html}</p></div>`;
+}
+
+function verseBody(v) {
+  const pos = isNum(v) ? `Verse ${v.n} of 37` : (v.n === 'homage' ? 'Opening' : 'Closing');
+  const browser = `../study-the-verses.html#${isNum(v) ? 'v' + v.n : v.n}`;
+  let h = `<div class="vhead"><div class="eyebrow">${v.blockTitle} <span class="pos">· ${pos}</span></div>`
+    + `<h1>${headingOf(v)}</h1><div class="rule"></div>`
+    + `<a class="share" href="${browser}" data-cta="verse_open_browser">Open in the study browser →</a></div>`;
+
+  const links = SOURCES.standingSources.links
+    .map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${l.label}</a></li>`).join('');
+
+  if (!v.hasText) {
+    return h + '<div class="stub"><div class="label">Not yet added</div>'
+      + '<p>This verse hasn\'t been brought in yet. These sources carry it:</p>'
+      + `<ul>${links}</ul></div>`;
+  }
+
+  h += '<div class="sec-label">Root text</div>' + transHTML(v.rootText[0], true);
+  if (v.rootText.length > 1) {
+    h += '<div class="sec-label">Other translations</div>'
+      + v.rootText.slice(1).map(r => transHTML(r, false)).join('');
+  }
+
+  if (!v.filled) {
+    return h + '<div class="stub"><div class="label">Commentaries coming</div>'
+      + '<p>The verse itself is here. The commentaries are gathered block by block, ahead of '
+      + 'the study group, so this one is still to come. Until then these carry it:</p>'
+      + `<ul>${links}</ul></div>`;
+  }
+
+  h += '<div class="sec-label">The commentaries</div>' + v.commentaries.map(commHTML).join('');
+  if (v.synthesis) {
+    h += `<div class="synth"><div class="label">Across the commentaries</div><p>${v.synthesis}</p></div>`;
+  }
+  if (v.further) {
+    h += `<div class="further"><div class="label">Further reading</div><p><strong>${v.further.name}</strong> — ${v.further.note || ''}</p></div>`;
+  }
+  return h;
+}
+
+function verseIndex(verses, current) {
+  return SOURCES.blocks.map(b => {
+    const items = b.verses.map(n => {
+      const v = verses.find(x => String(x.n) === String(n));
+      if (!v) return '';
+      const cls = 'vlink' + (v.filled ? '' : (v.hasText ? ' textonly' : ' stub')) + (v === current ? ' current' : '');
+      return `<a class="${cls}" href="${fileOf(v)}"${v === current ? ' aria-current="page"' : ''}>`
+        + `<span class="num">${isNum(v) ? v.n : '—'}</span><span class="t">${v.topic || labelOf(v)}</span></a>`;
+    }).join('\n');
+    return `<div class="block-label">${b.title}</div>\n${items}`;
+  }).join('\n');
+}
+
+const PAGE_CSS = `
+.masthead .title{font-size:clamp(26px,4.4vw,38px);font-weight:300;margin:0 0 6px;line-height:1.15}
+.masthead .title a{color:inherit;text-decoration:none}
+.crumbs{font-family:'Lato',sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:16px;color:rgba(250,245,236,.55)}
+.crumbs a{color:var(--saffron-light);text-decoration:none;margin-right:0}
+.crumbs a:hover{color:#fff;text-decoration:underline}
+.crumbs .sep{margin:0 8px;color:rgba(250,245,236,.4)}
+.vhead h1{font-size:clamp(25px,3.6vw,36px);font-weight:300;color:var(--maroon);line-height:1.2;margin:0 0 13px}
+.vhead .share{font-family:'Lato',sans-serif;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;
+  color:var(--saffron);text-decoration:none;border-bottom:1px dotted var(--saffron);margin:-12px 0 0;display:inline-block}
+.vhead .share:hover{color:var(--maroon);border-bottom-color:var(--maroon)}
+.hub-intro{font-size:18px;font-weight:300;color:var(--ink-soft);max-width:62ch;margin:26px 0 8px}
+.hub nav{margin-top:30px}
+.hub .vlink{font-size:17px;padding:7px 8px}
+@media (max-width:900px){ .app .sidebar{order:2;border-bottom:0;border-top:1px solid var(--rule)} }
+@media print{ .crumbs,.vhead .share{display:none!important} }
+`;
+
+function pageShell({ file, title, description, pageType, verseAttr, ld, crumbs, masthead, body, css }) {
+  const url = `${SITE}/verses/${file}`;
+  return `<!DOCTYPE html>
+<html lang="en" data-page-type="${pageType}"${verseAttr ? ` data-verse="${verseAttr}"` : ''}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../assets/analytics.js"></script>
+<title>${attr(title)}</title>
+<meta name="description" content="${attr(description)}">
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="37 Practices of a Bodhisattva">
+<meta property="og:title" content="${attr(title)}">
+<meta property="og:description" content="${attr(description)}">
+<meta property="og:url" content="${url}">
+<meta property="og:image" content="${SITE}/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="37 Practices of a Bodhisattva — sangha study groups">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#4A0F0F">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<script type="application/ld+json">${jsonLd(ld)}</script>
+<link href="${FONTS}" rel="stylesheet">
+<style>${css}${PAGE_CSS}</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow">37 Practices of a Bodhisattva</div>
+  ${masthead}
+  <nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav>
+</header>
+
+${body}
+
+<section class="invite-band">
+  <div class="eyebrow">Read them together</div>
+  <h2>These verses open differently in company.</h2>
+  <p>Start a small study group and read them with others; a few people and a regular meeting time are enough, and the toolkit walks you through starting one.</p>
+  <a class="cta" href="../toolkit.html" data-cta="${pageType}_invite_band">Start a study group</a>
+</section>
+
+<footer class="foot">
+  <p><strong>On sources.</strong> Commentary summaries and the “Across the commentaries” notes are original prose written for this study group. Short quotations are attributed and linked to their source. Root text translations are reproduced with attribution; see each verse for translator and licence. Dilgo Khyentse Rinpoche’s <em>The Heart of Compassion</em> and other published books appear as further-reading pointers only — no text is reproduced.</p>
+  <p>Root text by Gyalse Tokme Zangpo (1295–1369). This is other people’s teaching, gathered — please follow the links and support the teachers and publishers who made it available. · <a href="../index.html">37 Practices Sangha Initiative</a> · <a href="../privacy.html">Privacy</a> · <a href="#" data-consent-open>Cookie choices</a></p>
+</footer>
+</body>
+</html>
+`;
+}
+
+function breadcrumbLd(id, trail) {
+  return {
+    '@type': 'BreadcrumbList', '@id': id + '#breadcrumb',
+    itemListElement: trail.map(([name, item], i) => ({ '@type': 'ListItem', position: i + 1, name, item }))
+  };
+}
+
+function renderVersePages(verses) {
+  const tpl = fs.readFileSync(path.join(HERE, 'template.html'), 'utf8');
+  const css = (tpl.match(/<style>([\s\S]*?)<\/style>/) || [])[1];
+  if (!css) throw new Error('template.html has no <style> block to share with the verse pages.');
+
+  const dir = path.join(ROOT, 'verses');
+  fs.mkdirSync(dir, { recursive: true });
+  for (const f of fs.readdirSync(dir)) if (/\.html$/.test(f)) fs.unlinkSync(path.join(dir, f));
+
+  const hubUrl = `${SITE}/verses/index.html`;
+  const book = { '@type': 'Book', name: 'The Thirty-Seven Practices of Bodhisattvas',
+    author: { '@type': 'Person', name: 'Gyalse Tokme Zangpo' } };
+
+  verses.forEach((v, i) => {
+    const prev = verses[i - 1], next = verses[i + 1];
+    const url = `${SITE}/verses/${fileOf(v)}`;
+    const title = `${headingOf(v)} — 37 Practices of a Bodhisattva`;
+    const description = describeVerse(v);
+    const pager = (prev
+      ? `<a href="${fileOf(prev)}"><span class="dir">← Previous</span><span class="t">${labelOf(prev)}${prev.topic ? ' · ' + prev.topic : ''}</span></a>`
+      : '<a class="spacer"></a>')
+      + (next
+      ? `<a class="next" href="${fileOf(next)}"><span class="dir">Next →</span><span class="t">${labelOf(next)}${next.topic ? ' · ' + next.topic : ''}</span></a>`
+      : '<a class="spacer"></a>');
+
+    const html = pageShell({
+      file: fileOf(v), title, description, pageType: 'verse', verseAttr: String(v.n),
+      ld: { '@context': 'https://schema.org', '@graph': [
+        { '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en',
+          isPartOf: { '@id': `${SITE}/#website` }, about: book, breadcrumb: { '@id': url + '#breadcrumb' } },
+        breadcrumbLd(url, [['Home', `${SITE}/`], ['All verses', hubUrl], [labelOf(v), url]])
+      ] },
+      crumbs: `<a href="../index.html">Home</a><span class="sep">›</span><a href="index.html">All verses</a><span class="sep">›</span><span>${labelOf(v)}</span>`,
+      masthead: '<div class="title"><a href="../study-the-verses.html">Study the Verses</a></div>',
+      body: `<div class="app">
+  <aside class="sidebar"><nav aria-label="All verses">
+${verseIndex(verses, v)}
+  </nav></aside>
+  <main class="reader">
+    <article>${verseBody(v)}</article>
+    <nav class="pager" aria-label="Previous and next verse">${pager}</nav>
+  </main>
+</div>`,
+      css
+    });
+    fs.writeFileSync(path.join(dir, fileOf(v)), html, 'utf8');
+  });
+
+  const hubTitle = 'The 37 Practices of a Bodhisattva, Verse by Verse';
+  const hubDesc = 'All 37 verses of Gyalse Tokme Zangpo’s text, each with the root text in three translations and commentary from Garchen Rinpoche, the Dalai Lama and others.';
+  fs.writeFileSync(path.join(dir, 'index.html'), pageShell({
+    file: 'index.html', title: hubTitle, description: hubDesc, pageType: 'verse_index',
+    ld: { '@context': 'https://schema.org', '@graph': [
+      { '@type': 'CollectionPage', '@id': hubUrl, url: hubUrl, name: hubTitle, description: hubDesc,
+        inLanguage: 'en', isPartOf: { '@id': `${SITE}/#website` }, about: book,
+        breadcrumb: { '@id': hubUrl + '#breadcrumb' } },
+      breadcrumbLd(hubUrl, [['Home', `${SITE}/`], ['All verses', hubUrl]])
+    ] },
+    crumbs: '<a href="../index.html">Home</a><span class="sep">›</span><span>All verses</span>',
+    masthead: `<h1>${hubTitle}</h1>
+  <p>The root text in three translations, and what the teachers say about each verse. Gathered for study; every entry links to its source.</p>`,
+    body: `<main class="reader hub" style="margin:0 auto">
+  <p class="hub-intro">Gyalse Tokme Zangpo wrote these thirty-seven verses in the fourteenth century. Each page below carries one verse with its commentaries. To read one teacher straight through, or compare them side by side, use <a href="../study-the-verses.html" data-cta="verse_index_study">the study browser</a>.</p>
+  <nav aria-label="All verses">
+${verseIndex(verses, null)}
+  </nav>
+</main>`,
+    css
+  }), 'utf8');
+
+  // sitemap: no <lastmod>, since a date that changes on every build teaches crawlers to ignore it
+  const urls = STATIC_PAGES.map(p => `${SITE}/${p}`)
+    .concat(`${SITE}/verses/index.html`, verses.map(v => `${SITE}/verses/${fileOf(v)}`));
+  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'),
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + urls.map(u => `  <url><loc>${u}</loc></url>`).join('\n') + '\n</urlset>\n', 'utf8');
+
+  return { pages: verses.length, urls: urls.length };
+}
+
 /* -------------------------------------------------------------------- main */
 
 console.log('Study the Verses — build');
@@ -352,6 +633,7 @@ if (problems.length) {
 }
 
 const { dest, filledCount, textCount, total } = render(verses);
+const versePages = renderVersePages(verses);
 
 // quote spot-check report — these came from web extraction
 let quotes = 0;
@@ -369,3 +651,5 @@ if (warnings.length) {
   warnings.forEach(w => console.log('    ! ' + w));
 }
 console.log(`\n  wrote ${path.relative(ROOT, dest)}`);
+console.log(`  wrote verses/ (${versePages.pages} verse pages + index)`);
+console.log(`  wrote sitemap.xml (${versePages.urls} URLs)`);

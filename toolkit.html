@@ -1,9 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page-type="toolkit">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>37 Practices of a Bodhisattva — Facilitator Toolkit v2</title>
+<script src="assets/analytics.js"></script>
+<title>Facilitator Toolkit — Run a 37 Practices Study Group</title>
+<meta name="description" content="Run a small study group on the 37 Practices of a Bodhisattva: opening prayers, a 10-week format, discussion prompts, closing practices and group sign-up.">
+<link rel="canonical" href="https://37practices.space/toolkit.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="37 Practices of a Bodhisattva">
+<meta property="og:title" content="Facilitator Toolkit — Run a 37 Practices Study Group">
+<meta property="og:description" content="You don't need to be a teacher. A few people, the text, and a regular meeting time are enough. Prayers, a 10-week format and guidance for peer-led groups.">
+<meta property="og:url" content="https://37practices.space/toolkit.html">
+<meta property="og:image" content="https://37practices.space/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="37 Practices of a Bodhisattva — sangha study groups">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#4A0F0F">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://37practices.space/"},
+  {"@type":"ListItem","position":2,"name":"Facilitator Toolkit","item":"https://37practices.space/toolkit.html"}
+]}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -290,7 +313,7 @@ footer .sub { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 
   <h4>Get the root text (free)</h4>
   <p>Download the English root text from the Garchen Buddhist Institute at <a class="inline" href="https://garchen.net">garchen.net</a> (library booklets). Several translations exist; the Ari-ma / Garchen Institute version is widely used. Garchen Rinpoche's own commentary is at <a class="inline" href="https://37practices.info">37practices.info</a>.</p>
   <h4 id="register">Register your group</h4>
-  <p>Tell us your group's name, where or how you're meeting, and roughly how many people are joining. That's all. You'll be kept in the loop and told when the Zoom events with Olga are scheduled. (Prefer email? Write Lena at <strong>brianjnuckols@gmail.com</strong>.)</p>
+  <p>Tell us your group's name, where or how you're meeting, and roughly how many people are joining. That's all. You'll be kept in the loop and told when the Zoom events with Olga are scheduled. (Prefer email? Write Lena at <a class="inline" href="mailto:brianjnuckols@gmail.com"><strong>brianjnuckols@gmail.com</strong></a>.)</p>
   <form class="qform" id="registerForm" action="https://formsubmit.co/ajax/brianjnuckols@gmail.com" method="POST">
     <input type="hidden" name="_subject" value="37 Practices — new group registration">
     <input type="hidden" name="_captcha" value="false">
@@ -668,10 +691,12 @@ In the dharma,
   <div class="ornament">❧</div>
   <div class="ded">"May the benefit of this project surpass all our expectations and make many, many people happy."</div>
   <div class="sub">Dedicated with gratitude to Garchen Rinpoche · Facilitator Toolkit · June 2026</div>
+  <div class="sub" style="margin-top:14px;"><a href="privacy.html" style="color:inherit;">Privacy</a> &nbsp;·&nbsp; <a href="#" data-consent-open style="color:inherit;">Cookie choices</a></div>
 </footer>
 
 <script>
 (function(){
+  function track(event, params){ if(window.track) window.track(event, params); }
   var nav = document.querySelector('.tab-nav');
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab-nav button'));
   var panels = Array.prototype.slice.call(document.querySelectorAll('.tab-panel'));
@@ -682,7 +707,7 @@ In the dharma,
     if(!target || !target.classList.contains('tab-panel')) return;
     tabs.forEach(function(t){ t.setAttribute('aria-selected', t.dataset.tab === id ? 'true' : 'false'); });
     panels.forEach(function(p){ p.classList.toggle('active', p.id === id); });
-    if(opts.push){ try { history.replaceState(null, '', '#' + id); } catch(e){} }
+    if(opts.push){ try { history.replaceState(null, '', '#' + id); } catch(e){} track('toolkit_tab_view', { tab_id: id }); }
     if(opts.top){ window.scrollTo({ top: 0, behavior: 'smooth' }); }
   }
 
@@ -717,11 +742,16 @@ In the dharma,
   fromHash();
   window.addEventListener('hashchange', fromHash);
 
-  // AJAX forms (Formsubmit) — shared handler for the Q&A and group-registration forms
-  function initAjaxForm(formId, msgId, successHTML){
+  // AJAX forms (Formsubmit) — shared handler for the Q&A and group-registration forms.
+  // onSent runs before the form resets, so it can read field values for analytics.
+  function initAjaxForm(formId, msgId, successHTML, onSent){
     var form = document.getElementById(formId);
     if(!form) return;
     var msg = document.getElementById(msgId);
+    form.addEventListener('focusin', function started(){
+      form.removeEventListener('focusin', started);
+      track('form_start', { form_id: formId });
+    });
     function show(html, isErr){
       msg.querySelector('p').innerHTML = html;
       msg.classList.add('show');
@@ -735,6 +765,7 @@ In the dharma,
       fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
         .then(function(r){
           if(r.ok){
+            if(onSent) onSent(form);
             form.reset();
             btn.style.display = 'none';
             show(successHTML);
@@ -751,8 +782,13 @@ In the dharma,
         });
     });
   }
-  initAjaxForm('questionForm', 'formMsg', 'Thank you. Your question is in, and it will be gathered for Olga’s next Q&amp;A.');
-  initAjaxForm('registerForm', 'registerMsg', 'Thank you. Your group is registered. You’ll hear from Lena, and be told when Olga’s next Q&amp;A is scheduled.');
+  initAjaxForm('questionForm', 'formMsg', 'Thank you. Your question is in, and it will be gathered for Olga’s next Q&amp;A.', function(){
+    track('question_submitted', { form_id: 'questionForm' });
+  });
+  initAjaxForm('registerForm', 'registerMsg', 'Thank you. Your group is registered. You’ll hear from Lena, and be told when Olga’s next Q&amp;A is scheduled.', function(form){
+    track('generate_lead', { form_id: 'registerForm', lead_type: 'group_registration',
+      meeting_format: form.elements.meeting_format.value || undefined });
+  });
 })();
 </script>
 

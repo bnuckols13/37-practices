@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-page-type="404">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Served at whatever URL was missing, so every path here is root-relative. -->
+<script src="/assets/analytics.js"></script>
+<title>Page not found — 37 Practices of a Bodhisattva</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#4A0F0F">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Cinzel:wght@400&family=Lato:wght@400&display=swap" rel="stylesheet">
+<style>
+:root { --maroon: #6B1A1A; --saffron: #C8821A; --cream: #FAF5EC; --ink-soft: #3D2B1A; --rule: rgba(200,130,26,0.25); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center;
+  background: var(--cream); color: var(--ink-soft); padding: 24px;
+  font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; line-height: 1.7;
+}
+.box { max-width: 32rem; }
+.ornament { font-size: 34px; color: var(--saffron); opacity: .7; }
+.eyebrow { font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 5px; text-transform: uppercase; color: var(--saffron); margin: 14px 0 12px; }
+h1 { font-weight: 300; font-size: clamp(30px, 5vw, 44px); line-height: 1.15; color: var(--maroon); }
+.rule { width: 56px; height: 2px; background: var(--saffron); margin: 20px auto 22px; }
+p { font-weight: 300; margin-bottom: 26px; }
+nav { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+nav a {
+  font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--maroon); text-decoration: none; border: 1px solid var(--rule); padding: 11px 18px; background: #fff;
+}
+nav a:hover { border-color: var(--saffron); }
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="ornament">❧</div>
+    <div class="eyebrow">Page not found</div>
+    <h1>This path doesn't lead anywhere yet.</h1>
+    <div class="rule"></div>
+    <p>The page may have moved. These will take you back to the practice.</p>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/verses/index.html">All verses</a>
+      <a href="/toolkit.html">Facilitator Guide</a>
+    </nav>
+  </div>
+</body>
+</html>

@@ -1,7 +1,8 @@
 # Study the Verses — build
 
-`study-the-verses.html` is **generated**. Don't hand-edit it; your changes will be
-overwritten on the next build. Edit the compendium markdown or `build/template.html` instead.
+`study-the-verses.html`, everything in `verses/`, and `sitemap.xml` are **generated**.
+Don't hand-edit them; your changes will be overwritten on the next build. Edit the
+compendium markdown or `build/template.html` instead.
 
 ## Weekly loop
 
@@ -34,6 +35,12 @@ That's it. The build syncs the markdown out of the working folder itself — no 
   working URLs.
 - **Renders** one self-contained HTML file with the data inlined. No runtime fetch, no npm
   dependencies, no framework.
+- **Writes one page per verse** into `verses/` (`verses/12.html`, `verses/homage.html`, …)
+  plus `verses/index.html`, a list of every verse. These are plain static pages, so search
+  engines can find each verse on its own URL and shared links show a proper preview. They
+  borrow their CSS from `template.html`'s `<style>` block; their markup is a copy of
+  `verseHTML()` in the template, so change the two together.
+- **Writes `sitemap.xml`** listing the main pages and every verse page.
 
 ## It refuses to build if
 
@@ -49,7 +56,8 @@ them against their sources before publishing anything new.
 ## Changing what gets published
 
 `build/sources.json` → `includeTranslations`. Removing `"mcleod"` from that array and
-rebuilding pulls the McLeod translation off the site completely. Same for `"garchen"`.
+rebuilding pulls the McLeod translation off the site completely, verse pages included.
+Same for `"garchen"`.
 This is the lever if a licence question ever needs answering in a hurry.
 
 ## Licensing, in short

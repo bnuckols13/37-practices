@@ -111,8 +111,9 @@ Every page reference below was checked against the source text on 26 September 2
   - "At age thirty-nine in 1333, when Tokmé Zangpo was teaching in Ngülchu in the fall, Jampéyang Dönyö Gyeltsen asked him to be the abbot of Bodong É Monastery. Instead of accepting this invitation, Tokmé Zangpo requested that his teacher Pang Lotsāwa Lodrö Tenpa (… 1276-1342), take this position."
   - The *Heart of Compassion* version: he "declined … He recommended the famous Khenpo Wanglo". Don't equate Wanglo with Pang Lotsāwa unless a source does.
   - Chien pp. 1 and 69–70: monks at Bodong É still told this story in 2013.
-- **The conflicting claim.** The Treasury of Lives and the Rubin Museum catalogue say he was **abbot of Bodong É for about nine years, 1326–1335**.
-  - Both sites block automated access, so open them in your browser and read the wording yourself.
+- **The conflicting claim.** Search-engine snippets of the Treasury of Lives entry say he was **abbot of Bodong É for about nine years, 1326–1335**.
+  - The site blocks automated access, so open it in your browser (https://treasuryoflives.org/biographies/view/Gyelse-Tokme-Zangpo/3153) and read the wording yourself.
+  - **Correction (26 Sep):** an earlier version of this guide said the Rubin Museum's catalogue repeats the claim. It doesn't. Its page (https://rubinmuseum.org/collection/c2002-4-1/) gives only the painting's title, date, medium, dimensions and object number. The Bodong É wording came from a search-engine summary. Don't cite the Rubin page for anything but the painting.
   - Neutral handling: follow the earliest biographies in the text, and add a footnote saying some reference works state the Bodong É abbacy, with a citation.
   - Do not call the other sources "wrong" in Wikipedia's voice.
 

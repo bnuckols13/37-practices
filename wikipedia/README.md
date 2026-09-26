@@ -226,7 +226,7 @@ Use **Show preview** often. Red "Cite error" or "sfn error" messages in the prev
 - [ ] Every paragraph ends with a citation, every book citation has a page number, and I have opened each page to confirm it says what my sentence says.
 - [ ] Every ISBN or DOI resolves (check ISBNs on [WorldCat](https://search.worldcat.org/)).
 - [ ] The dates are 1295–1369 everywhere. None of the web errors from reading-guide.md ("1297–1371", "Silver River", "Nyingma master") crept in.
-- [ ] The Bodong É claim is handled neutrally: early biographies in the text, the other claim in a footnote with its citation. I read The Treasury of Lives and Rubin pages in my browser before citing them.
+- [ ] The Bodong É claim is handled neutrally: early biographies in the text, the other claim in a footnote with its citation. I read The Treasury of Lives page in my browser before citing it.
 - [ ] Hagiographic material is attributed, and there are no miracles in Wikipedia's own voice.
 - [ ] There are no peacock words, no "His Holiness", and no promotional tone.
 - [ ] There is no link to or mention of 37practices.space or the study groups.
@@ -239,7 +239,72 @@ Use **Show preview** often. Red "Cite error" or "sfn error" messages in the prev
 
 ---
 
-## 10. Where to get human help
+## 10. Aiming for the top grade: Featured Article
+
+Wikipedia grades articles on a quality scale ([WP:Content assessment](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment)). The grade shows on the article's talk page, in each WikiProject banner.
+
+| Grade | What it means | Who awards it |
+|---|---|---|
+| Stub → Start → C | Basic → developing → substantial but with gaps | Any editor, usually the AfC reviewer on acceptance |
+| **B** | Mostly complete, properly cited, no obvious gaps. Six checklist criteria. | Any editor or a WikiProject member |
+| **GA** (Good Article, green plus icon) | Meets the [Good article criteria](https://en.wikipedia.org/wiki/Wikipedia:Good_article_criteria): well-written, verifiable with no original research, broad, neutral, stable, illustrated where possible | One independent reviewer, through [Good article nominations](https://en.wikipedia.org/wiki/Wikipedia:Good_article_nominations) |
+| A | An optional WikiProject-level grade. **WikiProject Buddhism doesn't use it**, so skip it. | WikiProject review, only where a project runs one |
+| **FA** (Featured Article, bronze star): **the "A+"** | Meets the [Featured article criteria](https://en.wikipedia.org/wiki/Wikipedia:Featured_article_criteria): "Wikipedia's very best work … professional standards of writing, presentation, and sourcing" | Several reviewers at [Featured article candidates](https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates) |
+
+Only about 0.1% of English Wikipedia's articles are Featured. An FA can run as "Today's featured article" on the Main Page.
+
+**What FA demands, beyond GA** (the criteria's own words, and what they mean here):
+- **"a thorough and representative survey of the relevant literature"** (1c). This is the big one. You'd need to go beyond Chien:
+  - her 2016 and 2020 journal articles;
+  - Snellgrove & Richardson;
+  - Tsering Wangchuk's book on the Uttaratantra;
+  - Jinpa's introduction in the 2026 *Bodhisattva Ideal* volume, and in *Bodhisattva Awakening* once it's published;
+  - the *Princeton Dictionary of Buddhism*, if it has an entry;
+  - probably some Tibetan-language scholarship.
+  See the "Leads not yet checked" list in [sources.md](sources.md).
+- **"prose is engaging and of a professional standard"** (1a). Reviewers read every sentence, and many first nominations stall here. Getting a copyedit from the [Guild of Copy Editors](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Guild_of_Copy_Editors) first is common.
+- **"neglects no major facts … places the subject in context"** (1b). Here that means the Sakya–Yuan and Phagmodru political background, the lojong tradition, and the reception of the text.
+- **Images with clean copyright** (3). The Rubin painting on Commons would help; see Phase 4.
+- **Source spot-checks.** Reviewers compare your sentences with the sources, which is one more reason to write from your own reading.
+
+**A realistic path:**
+1. **Accepted at AfC,** probably rated Start or C.
+2. **Did You Know** within 7 days.
+3. **Raise it to B.** Ask for a rating on the talk page of WikiProject Tibet or Buddhism.
+4. **Nominate at [GAN](https://en.wikipedia.org/wiki/Wikipedia:Good_article_nominations).** Expect a wait of weeks to months, then a review you respond to.
+5. **[Peer review](https://en.wikipedia.org/wiki/Wikipedia:Peer_review).**
+6. **Nominate at [FAC](https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates).**
+
+GA is a very achievable first goal for this article; FA is a serious but reachable long-term one. Before nominating at FAC, read a few recently promoted biographies of pre-modern religious figures at [Wikipedia:Featured articles](https://en.wikipedia.org/wiki/Wikipedia:Featured_articles) to see the standard. All AI rules still apply at every stage, including your replies to reviewers.
+
+---
+
+## 11. Categories: where the article will be listed
+
+Categories are the grouping links at the bottom of the page. **Don't put live categories on the draft**, because AfC reserves them for accepted articles. Either leave them out, or add them with a leading colon (`[[:Category:1295 births]]`) so they show as plain links; the reviewer switches them on at acceptance.
+
+All of these exist and fit what the sources support:
+
+| Category | Why it applies |
+|---|---|
+| [1295 births](https://en.wikipedia.org/wiki/Category:1295_births), [1369 deaths](https://en.wikipedia.org/wiki/Category:1369_deaths) | Standard for every biography |
+| [14th-century Tibetan people](https://en.wikipedia.org/wiki/Category:14th-century_Tibetan_people) | Era and nationality |
+| [14th-century lamas](https://en.wikipedia.org/wiki/Category:14th-century_lamas) | Era and role |
+| [14th-century Buddhist monks](https://en.wikipedia.org/wiki/Category:14th-century_Buddhist_monks) | Era and role |
+| [Sakya lamas](https://en.wikipedia.org/wiki/Category:Sakya_lamas) | His biographies affiliate him with Sakya (Chien p. 186) |
+| [Tibetan Buddhism writers](https://en.wikipedia.org/wiki/Category:Tibetan_Buddhism_writers) | Author of the 37 Practices and the commentaries |
+| [Tibetan Buddhist spiritual teachers](https://en.wikipedia.org/wiki/Category:Tibetan_Buddhist_spiritual_teachers) | Teacher of Rendawa, Palden Yeshe and others |
+| [Tibetan Buddhist monks](https://en.wikipedia.org/wiki/Category:Tibetan_Buddhist_monks), [Tibetan Buddhists from Tibet](https://en.wikipedia.org/wiki/Category:Tibetan_Buddhists_from_Tibet) | Standard for the topic area |
+| [People from Shigatse](https://en.wikipedia.org/wiki/Category:People_from_Shigatse) | Born near Sakya, in today's Shigatse prefecture |
+| [Kadampa lamas](https://en.wikipedia.org/wiki/Category:Kadampa_lamas) (optional) | Only if your text says, with a source, that later tradition counts him as Kadam (BDRC; the Kadam history of Künga Gyaltsen) |
+
+Don't invent categories: "Lojong", "14th-century Tibetan writers" and "Kadam lamas" don't exist.
+
+**WikiProjects are separate from categories.** They are banners on the talk page (Tibet, Buddhism, Biography, Religion). They carry the quality grade from §10 and an importance rating, and they bring the article to the attention of editors who know the subject.
+
+---
+
+## 12. Where to get human help
 
 - **[Teahouse](https://en.wikipedia.org/wiki/Wikipedia:Teahouse):** friendly Q&A for new editors.
 - **[AfC Help desk](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Articles_for_creation/Help_desk):** questions about your submission.

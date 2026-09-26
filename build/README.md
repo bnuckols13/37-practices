@@ -13,11 +13,11 @@ compendium markdown or `build/template.html` instead.
    node build/build.mjs
    ```
 3. Commit and push. Vercel deploys it in a minute or two.
-4. Once it's live, tell Bing and the other IndexNow engines what changed:
-   ```
-   node build/indexnow.mjs
-   ```
-   (or name just the pages you changed: `node build/indexnow.mjs verses/12.html`).
+
+That's all. On every push to `main`, the GitHub workflow `.github/workflows/search-engines.yml`
+rebuilds `sitemap.xml` if a page was added or removed, waits for the deploy, and pings
+Bing (IndexNow) with the pages that changed. Google re-reads the sitemap by itself. To ping
+by hand anyway: `node build/indexnow.mjs` (every page) or `node build/indexnow.mjs verses/12.html`.
 
 That's it. The build syncs the markdown out of the working folder itself — no copying by hand.
 
@@ -45,7 +45,9 @@ That's it. The build syncs the markdown out of the working folder itself — no 
   engines can find each verse on its own URL and shared links show a proper preview. They
   borrow their CSS from `template.html`'s `<style>` block; their markup is a copy of
   `verseHTML()` in the template, so change the two together.
-- **Writes `sitemap.xml`** listing the main pages and every verse page.
+- **Writes `sitemap.xml`** listing every public page it finds (any `.html` except `404.html`
+  and pages marked `noindex`), by each page's canonical address. `build/sitemap.mjs` does
+  this and can run on its own; new hand-made pages need no registering.
 - **Writes `llms.txt`**, a plain-markdown map of the site for AI tools, with a short
   "about the text" Q&A. The same Q&A appears on `verses/index.html` (with FAQ markup).
   It is built only from facts already on the site; edit `aboutTheText()` to change it.

@@ -15,6 +15,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { writeSitemap } from './sitemap.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
@@ -347,7 +348,6 @@ function render(verses) {
 
 const SITE = 'https://37practices.space';
 const FONTS = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap';
-const STATIC_PAGES = ['', 'toolkit.html', 'study-the-verses.html', 'flyer.html'];
 const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 
 // Entities for structured data. The sameAs links tell search and AI engines exactly
@@ -702,15 +702,8 @@ ${faq.map(f => `    <div><h3>${f.q}</h3><p>${f.a}</p></div>`).join('\n')}
     css
   }), 'utf8');
 
-  // sitemap: no <lastmod>, since a date that changes on every build teaches crawlers to ignore it
-  const urls = STATIC_PAGES.map(p => `${SITE}/${p}`)
-    .concat(`${SITE}/verses/index.html`, verses.map(v => `${SITE}/verses/${fileOf(v)}`));
-  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'),
-    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    + urls.map(u => `  <url><loc>${u}</loc></url>`).join('\n') + '\n</urlset>\n', 'utf8');
-
   renderLlmsTxt(verses);
-  return { pages: verses.length, urls: urls.length };
+  return { pages: verses.length };
 }
 
 /* -------------------------------------------------------------------- main */
@@ -727,6 +720,7 @@ if (problems.length) {
 
 const { dest, filledCount, textCount, total } = render(verses);
 const versePages = renderVersePages(verses);
+const sitemapCount = writeSitemap(ROOT);
 
 // quote spot-check report — these came from web extraction
 let quotes = 0;
@@ -745,4 +739,4 @@ if (warnings.length) {
 }
 console.log(`\n  wrote ${path.relative(ROOT, dest)}`);
 console.log(`  wrote verses/ (${versePages.pages} verse pages + index)`);
-console.log(`  wrote sitemap.xml (${versePages.urls} URLs) and llms.txt`);
+console.log(`  wrote sitemap.xml (${sitemapCount} URLs: every public page) and llms.txt`);

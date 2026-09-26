@@ -124,8 +124,10 @@ anything typed into a form (the verse search terms are the one exception, by des
 - **Crawler access.** `robots.txt` explicitly allows the AI search crawlers (OAI-SearchBot,
   Claude-SearchBot, PerplexityBot and others) and the training crawlers. In Vercel, check
   **Firewall → Bot management** doesn't block AI bots.
-- **IndexNow.** After each deploy, `node build/indexnow.mjs` pings Bing, whose index also
-  feeds ChatGPT search and Copilot. The key file is the 32-character `.txt` at the root.
+- **IndexNow.** On every push to `main`, the *Update search engines* GitHub workflow waits
+  for the deploy and pings Bing, whose index also feeds ChatGPT search and Copilot, with
+  the pages that changed. Its **Run workflow** button pings every page. The key file is the
+  32-character `.txt` at the root.
 - **Bing Webmaster Tools** also reports how often Copilot cites the site (*AI Performance*).
 
 ## Good to know

@@ -1,0 +1,77 @@
+# Keeps search engines current after every change to the live site:
+#  1. rebuilds sitemap.xml from the pages in the repo and commits it if it changed
+#     (only happens when a page was added or removed without running the build);
+#  2. waits for Vercel to deploy, then pings IndexNow (Bing, and the engines that
+#     share it) with the pages that changed. Bing's index also feeds ChatGPT search
+#     and Copilot. Google needs no ping: it re-reads the sitemap on its own.
+name: Update search engines
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:        # "Run workflow" button: pings every public page
+
+permissions:
+  contents: write
+
+concurrency:
+  group: search-engines
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rebuild the sitemap from the pages in the repo
+        run: node build/sitemap.mjs
+
+      - name: Commit the sitemap if it changed
+        continue-on-error: true   # a protected branch shouldn't stop the ping below
+        run: |
+          if git diff --quiet -- sitemap.xml; then
+            echo "sitemap.xml is up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sitemap.xml
+            git commit -m "Update sitemap.xml"
+            git push
+          fi
+
+      - name: Find the pages that changed
+        id: changed
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" != "push" ] || [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] \
+             || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+            echo "Pinging every public page."
+          else
+            files=$(git diff --name-only --diff-filter=AMR "$BEFORE" "$AFTER" -- '*.html' | tr '\n' ' ')
+            if [ -z "$files" ]; then
+              echo "mode=none" >> "$GITHUB_OUTPUT"
+              echo "No pages changed."
+            else
+              echo "mode=some" >> "$GITHUB_OUTPUT"
+              echo "files=$files" >> "$GITHUB_OUTPUT"
+              echo "Changed pages: $files"
+            fi
+          fi
+
+      - name: Ping IndexNow once the deploy is live
+        if: steps.changed.outputs.mode != 'none'
+        env:
+          FILES: ${{ steps.changed.outputs.files }}
+        run: node build/indexnow.mjs --wait $FILES

@@ -122,7 +122,9 @@ function parseFilled() {
 
     for (let i = 1; i < parts.length; i += 2) {
       const heading = parts[i].trim();
-      const body = parts[i + 1] || '';
+      // "---" separates sections; cut there so the rule (and any file footer after
+      // it) doesn't end up in the section's last labeled block.
+      const body = (parts[i + 1] || '').split(/^[ \t]*-{3,}[ \t]*$/m)[0];
 
       let key = null;
       let topic = '';

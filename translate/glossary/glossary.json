@@ -3099,6 +3099,45 @@
       }
     },
     {
+      "id": "patamanjari",
+      "type": "term",
+      "status": "proposed",
+      "en": "Paṭamañjarī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রাগপটমঞ্জরী",
+          "translit": "rāgapaṭamañjarī",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "পটমঞ্জরী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which song 1 is sung, given in its heading and repeated at the start of Munidatta's comment (cp.01.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "pl-ganga",
       "type": "place",
       "status": "proposed",
@@ -4442,6 +4481,45 @@
       },
       "matchRe": {},
       "definition": "The Hevajra Tantra, a major Buddhist yoginī tantra, also called the Dvikalpa after its two parts. Munidatta quotes it on passion: the world is bound by passion and freed by passion itself (cp.01.m4); and on the union of āli and kāli as Vajrasattva's seat (cp.01.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "tx-rativajra",
+      "type": "text",
+      "status": "proposed",
+      "en": "Rativajra",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রতিবজ্রে",
+          "translit": "rativajre",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "রতিবজ্র"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A tantric work that Munidatta cites by the name Rativajra; it is not otherwise identified here. He quotes its verse asking how there can be flawless accomplishment once bodhicitta, the treasury of all accomplishments, has fallen and the consciousness of the aggregates has swooned (cp.01.m2).",
       "symbolic": {
         "image": "",
         "readings": []

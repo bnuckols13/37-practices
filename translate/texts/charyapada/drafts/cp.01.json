@@ -1,0 +1,441 @@
+{
+  "unit": "cp.01",
+  "title": "The Five-Branched Tree",
+  "summary": "The song opens with the body as a fine tree with five branches, and with Death entering the restless mind; it questions the use of samādhis, tells the listener to ask the guru and to hold close to the side of emptiness, and ends with Lūyī seated on dhamaṇa and camaṇa, having seen in meditation. Munidatta reads the five branches as the five aggregates and Death as Rāhu, who dries up the moon of conventional bodhicitta; he reads dhamaṇa and camaṇa as āli and kāli, the vowel and consonant series, and cites the Dvikalpa calling their union Vajrasattva's seat.",
+  "lines": [
+    {
+      "id": "cp.01.1a",
+      "translit": "kāā taruvara pañca vi ḍāla",
+      "gloss": "body · fine-tree · five · also/indeed · branch(es)",
+      "en": "The body is a [fine tree]{taruvara} with five branches.",
+      "terms": [
+        {
+          "id": "taruvara",
+          "src": "তরুবর"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "vi (printed bi; Apabhraṃśa vi < Skt api) is taken as an emphatic particle and left untranslated. It could mean 'also' ('five branches too'), which adds nothing clear here. Munidatta does not gloss it. The machine transliteration's tarubara is corrected to taruvara (Skt taruvara)."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.1b",
+      "translit": "cañcala cīe paiṭho kāla",
+      "gloss": "restless · into-mind (loc.) · entered · Kāla (time/death)",
+      "en": "[Death]{kala} has entered the restless [mind]{citta}.",
+      "terms": [
+        {
+          "id": "kala",
+          "src": "কাল"
+        },
+        {
+          "id": "citta",
+          "src": "চীএ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "kāla means both 'time' and 'death'. The approved rendering 'Death' is used. Munidatta's reading (Rāhu working through the sequence of lunar days, and the 'fire of time' in the verse of Kṛṣṇācārya he quotes, cp.01.m2) keeps the sense 'time' in view; 'Time' would be the alternative."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.2a",
+      "translit": "diṭa karia mahāsuha parimāṇa",
+      "gloss": "firm · having-made · great-bliss · measure (imper.)",
+      "en": "Make it firm, and take the measure of [great bliss]{mahasukha}.",
+      "terms": [
+        {
+          "id": "mahasukha",
+          "src": "মহাসুহ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The object of diṭa karia 'having made firm' is not expressed, so the English supplies 'it'. Chosen: parimāṇa as an imperative parallel to jāṇa in 2b (absolutive + imperative in both halves), as Munidatta takes it (dṛḍhaṃ yathā bhavati tathā mahāsukhaṃ ... tvaṃ parimāṇaya, cp.01.m3). Alternatives: 'make great bliss firm and take its measure', or parimāṇa as a noun, 'make firm the measure of great bliss'."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "diṭa is read as 'firm' (Skt dṛḍha) with Munidatta. 'Seen' (dṛṣṭa) is less likely, since 5a writes diṭhā with ṭh for 'seen'. parimāṇa could also be rendered 'gauge' or 'ascertain'."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.2b",
+      "translit": "lui bhaṇai guru pucchia jāṇa",
+      "gloss": "Lui · says · guru · having-asked · know (imper.)",
+      "en": "[Lūyī]{p-luyi} says: ask the [guru]{guru}, and know.",
+      "terms": [
+        {
+          "id": "p-luyi",
+          "src": "লুই"
+        },
+        {
+          "id": "guru",
+          "src": "গুরু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "guru is singular in the English; Munidatta paraphrases with the honorific plural śrīgurūn (cp.01.m3). jāṇa 'know' has no object, and the English leaves it without one."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.3a",
+      "translit": "saala samāhia kāhi kariai",
+      "gloss": "all · samādhi(s) · for-what/why · is-done",
+      "en": "Why practise all the [samādhis]{samadhi}?",
+      "terms": [
+        {
+          "id": "samadhi",
+          "src": "স[মা]হিঅ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "The syllable mā in sa[mā]hia is Shastri's restoration of damaged text; Munidatta's lemma saala samāhī (cp.01.m4) supports it."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "kāhi kariai is literally 'for what is (it) done?'. Chosen: 'Why practise all the samādhis?'. Alternative: 'What do all the samādhis achieve?', closer to Munidatta's paraphrase that nothing is accomplished by them on the way of great passion (kiñcin na kriyate, cp.01.m4)."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.3b",
+      "translit": "sukha dukhetem̐ nicita mariāi",
+      "gloss": "pleasure · through-pain (instr.) · certainly · one-dies",
+      "en": "Through pleasure and pain one is sure to die.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "dukhetem̐ may be instrumental ('through pleasure and pain', chosen) or locative ('in pleasure and pain'). mariāi is read as impersonal 'one dies'; it could be third plural 'they die', as in Munidatta's paraphrase (mriyante, cp.01.m4)."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.4a",
+      "translit": "eṛieu chāndaka bāndha karaṇaka pāṭera āsa",
+      "gloss": "let-go (imper.?) · of-chanda (desire?) · bond · of-karaṇa (practice?) · of-pāṭa (rule? board?) · hope",
+      "en": "Let go of the bond of desire and of hope in the rules of practice.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "chāndaka bāndha is 'the bond of chanda'. chanda is taken in its common Sanskrit sense 'desire, will' (chosen). Alternatives: Skt chandas 'metre' (chandobandha is 'versification', which would make the line a rejection of composing verse), or Bengali chā̃d 'tether', giving 'the tie of the tether'. Munidatta simply repeats chanda (cp.01.m5)."
+        },
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "karaṇaka pāṭera āsa: karaṇa is 'doing, instrument', also a sense organ, and in yogic usage a technique or posture; pāṭa is unclear ('board, seat', 'silk', 'reading', or, as guessed here, 'method, order', compare Skt pāṭī, paripāṭī); āsa is taken as 'hope' (āśā), though 'seat' or 'reliance' is possible. 'Hope in the rules of practice' is a guess. Munidatta's gloss lists 'the bonds such as oḍḍiyāna and karaṇa' and does not explain pāṭa or āsa (cp.01.m5)."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "eṛieu is read as an imperative ('let go'), parallel to lāhu in 4b and probably plural like it. Munidatta renders it with an absolutive, vihāya 'having abandoned', leading to an imperative (cp.01.m5). The ending -eu is unusual."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.4b",
+      "translit": "sunupākha bhiti lāhu re pāsa",
+      "gloss": "emptiness-side · pressing-close? · take (imper.) · O (vocative) · near/beside",
+      "en": "Press close to the side of [emptiness]{sunyata} and hold it near, friends!",
+      "terms": [
+        {
+          "id": "sunyata",
+          "src": "সুনুপাখ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "bhiti is unexplained. 'Press close' guesses a form like bhiḍi 'pressing against'; Skt bhitti 'wall' or bhīti 'fear' would be other candidates, neither fitting well. Munidatta's paraphrase 'make an embrace of it close by' (samīpaṃ tadīyāliṅganaṃ kuru, cp.01.m5) may cover bhiti lāhu pāsa together."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "pākha (Skt pakṣa) is 'side' (chosen) or 'wing'; it can also mean 'position, party'. Munidatta renders śūnyatāpakṣa (cp.01.m5). pāsa is taken as 'near, at the side' (Skt pārśva) with Munidatta's samīpam."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "re is a vocative particle (Munidatta: 're is a form of address', cp.01.m5). Rendered 'friends' because the verbs look plural and Munidatta's address is plural (bho mokṣaśīlāḥ); a bare exclamation or 'you' are alternatives."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.5a",
+      "translit": "bhaṇai lui āmhe sāṇe diṭhā",
+      "gloss": "says · Lui · we (= I) · in-meditation? · seen",
+      "en": "[Lūyī]{p-luyi} says: I have seen in meditation.",
+      "terms": [
+        {
+          "id": "p-luyi",
+          "src": "লুই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "sāṇe is obscure. 'In meditation' follows Munidatta's paraphrase dhyānavaśena 'by force of meditation' (cp.01.m6). A sense 'with, together' (compare later Bengali sane) or 'by a sign' is conceivable but unsupported."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "āmhe is formally plural 'we', used for 'I' (Munidatta: mayā 'by me'). diṭhā 'seen' has no object in the song; Munidatta supplies coupled union (yuganaddharūpaṃ dṛṣṭaṃ, cp.01.m6). The English leaves 'seen' without an object."
+        }
+      ]
+    },
+    {
+      "id": "cp.01.5b",
+      "translit": "dhamaṇa camaṇa beṇi pāṇḍi baiṇa",
+      "gloss": "dhamaṇa · camaṇa · both/two · seat? · sat",
+      "en": "I sat with [dhamaṇa]{dhamana} and [camaṇa]{camana}, the two, as my seat.",
+      "terms": [
+        {
+          "id": "dhamana",
+          "src": "ধমণ"
+        },
+        {
+          "id": "camana",
+          "src": "চমণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "Printed baiṇa breaks the rhyme with diṭhā at the end of 5a, while every other couplet rhymes (ḍāla/kāla, parimāṇa/jāṇa, kariai/mariāi, āsa/pāsa). Reading baiṭhā 'seated' would restore the rhyme and matches Munidatta's upaviṣṭaḥ (cp.01.m6). The English 'I sat' serves either reading; the transliteration keeps the printed form."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "pāṇḍi is uncertain; 'seat' follows Munidatta's āsanaṃ kṛtvā 'making a seat' (cp.01.m6). āsana can also mean 'posture'. beṇi is taken as 'both, the two'."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "dhamaṇa and camaṇa are kept in source form because their literal sense is unknown (perhaps Skt dhamana 'blowing', camana 'sipping'). Munidatta spells them dhavana and cavaṇa and reads them as āli and kāli (cp.01.m6); that reading stays in the notes."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.01",
+      "kind": "witness",
+      "text": "Heading: Rāga Paṭamañjarī · Lūyīpāda. Munidatta's comment on the song opens with the rāga name, rāgapaṭamañjarī (cp.01.m2). Shastri's edition prints dhru, the cue to sing the refrain again, after lines 2b, 3b, 4b and 5b; it is not translated.",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01",
+      "kind": "witness",
+      "text": "Munidatta's commentary on the whole collection opens here with a verse of homage (cp.01.m1). Having bowed to the Lord of the Vajra (śrīkuliśeśa), he undertakes a clear commentary in stainless words on the wondrous collection of conduct songs composed by siddhas beginning with Lūyī, so that the true path may be understood.",
+      "cites": [
+        "cp.01.m1"
+      ]
+    },
+    {
+      "anchor": "cp.01",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song by saying that the siddha master Lūyī, wishing to rescue helpless beings sunk in an ocean of great delusion about the two truths, and moved by his vow, composed in the vernacular (prākṛta), under the guise of the body-tree, a pedestal of pure reality (cp.01.m2).",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01.1a",
+      "kind": "imagery",
+      "text": "The body (kāā, Skt kāya) is called a taruvara, 'best of trees', with five branches (ḍāla). The song does not say what the five are.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.01.1a",
+      "kind": "doctrine",
+      "text": "Munidatta reads the five branches as the five aggregates, beginning with form. He adds that the six senses, the elements and the sense objects are taken together as the fine tree of the body, because their leaves are marked by the grasped, the grasper and the grasping. To the objection that a tree lacks consciousness, so the body cannot be one, he answers that authors who favour the figure utprekṣā state a likeness that rests on some difference (cp.01.m2).",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01.1b",
+      "kind": "philology",
+      "text": "cīe is the locative of the word for mind (Skt citte), 'into the mind'. paiṭho is a past participle (Skt praviṣṭa), 'has entered'; Munidatta repeats praviṣṭaḥ (cp.01.m2).",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01.1b",
+      "kind": "doctrine",
+      "text": "Munidatta identifies Kāla with Rāhu, the eclipse demon, who enters on the first day of the dark fortnight and dries up 'the moon of conventional bodhicitta' through the succession of lunar days (nandā, bhadrā, jayā, riktā, pūrṇā). He supports this with a verse of Kṛṣṇācārya in which the pure water dries up when the fire of time enters, a Rativajra verse asking how there can be flawless accomplishment once bodhicitta has fallen, and a Sampuṭodbhava verse in which the Vajra-holder calls the restless, concept-clouded mind saṃsāra. He concludes that those who seek the fruit of innate joy through the Blessed One's five stages realize the vajra-like samādhi, and cites Āryadeva: without the five stages in order, completion-stage awakening cannot be realized (cp.01.m2).",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01.2",
+      "kind": "philology",
+      "text": "The refrain is built in two parallel halves: karia and pucchia are absolutives ('having made', 'having asked'); parimāṇa and jāṇa are imperatives, which Munidatta renders parimāṇaya and jānīhi (cp.01.m3). diṭa is Munidatta's dṛḍham, 'firm'. The poet names himself in the refrain as well as in the last couplet.",
+      "cites": [
+        "cp.01.m3"
+      ]
+    },
+    {
+      "anchor": "cp.01.2",
+      "kind": "doctrine",
+      "text": "Munidatta sets the refrain after empowerment: a yogin consecrated in due order, having pleased the true guru with offerings of pledge substances, receives the wisdom-knowledge empowerment at midnight, and is then to measure great bliss, 'the fourth joy', so that it becomes firm. On 2b he says: having asked the gurus about the means to the imperishable bliss of the union of vajra and lotus, know day and night, in the joy of cessation, the great bliss of innate joy, whose form is the non-perception of all things. He supports the need for a guru with verses from the Guhyasamāja, Nāgārjuna, Saraha and the Hevajra (cp.01.m3).",
+      "cites": [
+        "cp.01.m3"
+      ]
+    },
+    {
+      "anchor": "cp.01.3a",
+      "kind": "philology",
+      "text": "samādhi: meditative absorption, a settled and one-pointed state of mind.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.01.3",
+      "kind": "doctrine",
+      "text": "Munidatta takes the couplet as praise of the samādhi of the way of great passion. The countless absorptions the Blessed One taught for avoiding the ten non-virtues and restraining the senses, and harsh observances such as fasting, achieve nothing on that way, because they lack bliss. He cites the Guhyasamāja (harsh observances dry up and pain the body, pain distracts the mind, and distraction defeats accomplishment), the Hevajra (the world is bound by passion and freed by passion itself), and Saraha (how could the tender sprout of mind become the wish-granting tree if not watered with the pure juices of sense objects?). He applies the dying of 3b to Buddhists and tīrthikas who lack great bliss: they undergo many sufferings, are born and die, and have no share in it (cp.01.m4).",
+      "cites": [
+        "cp.01.m4"
+      ]
+    },
+    {
+      "anchor": "cp.01.4",
+      "kind": "philology",
+      "text": "chāndaka and karaṇaka are genitives in -ka, pāṭera a genitive in -era. Munidatta glosses 4a as 'abandoning chanda and the bonds such as oḍḍiyāna and karaṇa' (cp.01.m5). Oḍḍiyāna has no counterpart in the line as printed. Bandha and karaṇa are technical terms for bodily locks and postures in later haṭha yoga, and Oḍḍiyāna is also the name of a tantric site; the segment does not say which he has in mind. The English keeps the plain senses 'bond' and 'practice'. For 4b he renders sunupākha as śūnyatāpakṣa and explains pāsa as 'near' (samīpam).",
+      "cites": [
+        "cp.01.m5"
+      ]
+    },
+    {
+      "anchor": "cp.01.4",
+      "kind": "doctrine",
+      "text": "Munidatta says the third pada is spoken to break the attachment of those fixed on false knowledge. He explains 'the side of emptiness' as the nature of selflessness (nairātmadharma) and tells the listeners, whom he addresses as 'you who are intent on liberation', to embrace it closely. He closes with a verse in which the high peaks standing on the great mountain of the view of a real self are split by the vajra of realizing selflessness (cp.01.m5).",
+      "cites": [
+        "cp.01.m5"
+      ]
+    },
+    {
+      "anchor": "cp.01.5b",
+      "kind": "philology",
+      "text": "dhamaṇa and camaṇa: words of uncertain literal sense, kept in source form; together they serve as the poet's seat. They may be related to Skt dhamana 'blowing' and camana 'sipping'. Munidatta spells them dhavana and cavaṇa (cp.01.m6).",
+      "cites": [
+        "cp.01.m6"
+      ]
+    },
+    {
+      "anchor": "cp.01.5",
+      "kind": "doctrine",
+      "text": "Munidatta has the 'first siddha master' Lūyīpāda say that, by force of meditation and through practice gained from the fourth instruction received from the guru, he saw coupled union. He quotes a verse in which the senses seem asleep, the mind seems to go within, and the body, swooning in true bliss, seems motionless. He reads dhamaṇa as āli, the vowel series, with the purification of the moon, and camaṇa as kāli, the consonant series, with the purification of the sun: making a seat of the two and seated with the pride of being his own deity, he realized it. He cites the Dvikalpa: the union of āli and kāli is Vajrasattva's seat (cp.01.m6).",
+      "cites": [
+        "cp.01.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    {
+      "id": "tx-rativajra",
+      "type": "text",
+      "en": "Rativajra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রতিবজ্রে",
+          "translit": "rativajre",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "রতিবজ্র"
+        }
+      ],
+      "definition": "A tantric work that Munidatta cites by the name Rativajra; it is not otherwise identified here. He quotes its verse asking how there can be flawless accomplishment once bodhicitta, the treasury of all accomplishments, has fallen and the consciousness of the aggregates has swooned (cp.01.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta quotes it by name; other texts he cites (Guhyasamāja, Hevajra, Sampuṭodbhava) already have entries, so the edition can link it the same way."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রাগপটমঞ্জরী",
+          "translit": "rāgapaṭamañjarī",
+          "att": "AS",
+          "where": "cp.01.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পটমঞ্জরী"
+        }
+      ],
+      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which song 1 is sung, given in its heading and repeated at the start of Munidatta's comment (cp.01.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Each song's heading names a rāga, and rāga names can recur across songs; an entry for each keeps the headings linkable and consistently spelled."
+    }
+  ],
+  "questions": [
+    "Kāla (1b): I used the approved 'Death', but Munidatta's reading (Rāhu acting through the lunar days, the 'fire of time') keeps 'time' in view. Keep 'Death' here, or allow 'Time'?",
+    "4a is the least certain line. Please rule on 'desire' for chāndaka (alternatives: 'metre', as in chandobandha 'versification', or Bengali chā̃d 'tether') and on 'hope in the rules of practice' for karaṇaka pāṭera āsa, where 'rules' guesses pāṭa as 'method, order'.",
+    "4b: may re be rendered 'friends' (the verbs look plural and Munidatta's address is plural), or do you prefer a bare exclamation? And 'side' or 'wing' for pākha? 'Press close' for bhiti is a guess.",
+    "5b: do you accept reading baiṭhā 'seated' for printed baiṇa (it restores the rhyme with diṭhā and matches Munidatta's upaviṣṭaḥ)? If so, should the emendation be shown in the transliteration?",
+    "5a: I followed Munidatta for sāṇe ('in meditation'). Is that acceptable, or should the line signal that the word is obscure?",
+    "The schema has no field for the heading ('Rāga Paṭamañjarī · Lūyīpāda'), so I put it in a unit note. Where should it go?",
+    "Is the plural surface '[samādhis]{samadhi}' acceptable for a keep-source-first-gloss term?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-26",
+    "packSha": "bc68e4646862b74ea235e92fe5c1951dfea0f8bb08decf74aac2395b125d798b",
+    "prompts": {
+      "system": 1,
+      "text": 2,
+      "task": 1
+    },
+    "glossarySha": "60f8da1cf23f009fcc11894fa4864eb27eab4a88507af00c7f6cc90f4d35f430",
+    "sourceSha": "da764dd0f3bf26a491366294093127c5bfb978c1c259aceafa1e80aef02767d9"
+  }
+}

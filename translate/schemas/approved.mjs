@@ -27,7 +27,8 @@ export const Approved = z.object({
     draft: RunProvenance,
     weave: RunProvenance.nullable(),
     review: z.object({
-      by: z.string(), date: z.string(), sheetSha: z.string(), draftSha: z.string(), weaveSha: z.string(),
+      by: z.string(), date: z.string(), via: z.enum(['sheet', 'studio']).default('sheet'),
+      sheetSha: z.string(), draftSha: z.string(), weaveSha: z.string(),
       decisions: z.record(z.string(), z.enum(['ok', 'edited'])),
     }),
   }),

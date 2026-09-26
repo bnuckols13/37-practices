@@ -11,6 +11,10 @@ import { paths, readJSON, readText, writeText, writeJSON, hashOf, exists, fail }
 import { loadText, loadUnit, witnessOf, unitIds } from './text.mjs';
 import { load, scoped, scopeSha, compact, matchSource } from './glossary.mjs';
 import { loadPrompt, textPrompt } from './prompts.mjs';
+import { partOf } from './ids.mjs';
+
+/** A redraft asked only on commentary rows is a new weave, not a new draft of the song. */
+export const commentaryOnly = fb => !!fb?.redraft?.length && fb.redraft.every(k => /^m\d+$/.test(partOf(k)));
 import { Draft, TermsResult } from '../schemas/draft.mjs';
 import { Weave } from '../schemas/weave.mjs';
 
@@ -109,6 +113,13 @@ function inputBlock(slug, text, unit, task, entries) {
     if (!d) fail(`${unit.id}: draft the unit before weaving its commentary`);
     parts.push('## Current English draft (reference only)', d.lines.map(l => `- ${l.id}: ${l.en}`).join('\n'));
     parts.push('## Glossary hits in the commentary', hitsBlock(entries, unit.commentary));
+    const fb = readJSON(P.feedback, {})[unit.id];
+    const prev = readJSON(P.weave(unit.id), null);
+    if (fb && prev) {
+      const { provenance, ...body } = prev;
+      parts.push('## Your previous commentary translation', fence('json', JSON.stringify(body, null, 2)));
+      parts.push('## Reviewer notes (address every one)', fence('json', JSON.stringify(fb, null, 2)));
+    }
   }
   if (task === 'terms') parts.push('## Candidate words not yet in the glossary', candidates(slug, unit, entries));
   return parts.join('\n\n');
@@ -201,7 +212,7 @@ export function writePacks(slug, ids, task) {
   const out = [];
   for (const id of ids) {
     let t = task;
-    if (t === 'draft' && feedback[id]?.redraft?.length && exists(P.draft(id))) t = 'redraft';
+    if (t === 'draft' && feedback[id]?.redraft?.length && exists(P.draft(id))) t = commentaryOnly(feedback[id]) ? 'weave' : 'redraft';
     if (t === 'weave' && !loadUnit(slug, id).commentary.length) continue;
     const pack = buildPack(slug, id, t);
     const inbox = P.inboxFile(t, id);

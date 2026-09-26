@@ -24,6 +24,9 @@ export const isEdited = s => { const h = header(s); return !h || h.sheet !== sho
 
 export const quote = s => String(s).split('\n').map(l => '> ' + l).join('\n');
 
+/** The label of note n: "Note 3 · imagery · cites cp.10.m1". Shared by the sheet and the Studio mapping. */
+export const noteLabelText = note => `Note ${note.n} · ${note.kind}${note.cites.length ? ' · cites ' + note.cites.join(', ') : ''}`;
+
 export function decision(v, kind = 'unit') {
   const s = String(v || '').toLowerCase().replace(/[.!]+$/, '').trim();
   if (!s) return 'pending';

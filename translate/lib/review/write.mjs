@@ -4,133 +4,83 @@
  * edits only **Label:** lines; quoted (>) lines are reference and are ignored.
  */
 
-import { paths, readJSON, readText, writeText, exists, fileSha, short, fail, glossarySheetPath } from '../io.mjs';
-import { loadText, loadUnit } from '../text.mjs';
-import { load, byId, scoped, scopeSha } from '../glossary.mjs';
-import { passageNo, partOf } from '../ids.mjs';
-import * as markup from '../markup.mjs';
-import { withHeader, isEdited, quote, entryBlock } from './sheet.mjs';
+import { paths, readText, writeText, exists, fileSha, short, fail, glossarySheetPath } from '../io.mjs';
+import { loadText } from '../text.mjs';
+import { load, scoped, scopeSha } from '../glossary.mjs';
+import { withHeader, isEdited, quote, entryBlock, noteLabelText } from './sheet.mjs';
+import { reviewModel } from './model.mjs';
+
+export { termIdsUsed } from './model.mjs';
 
 const INSTRUCTIONS = `Edit the text after **EN**, **Title**, **Summary**, **Note**, **Translation** and the glossary fields.
 Set each **Decision** to ok or redraft (blank means not yet decided); glossary decisions are approve, reject or defer.
 Keep [surface]{term-id} markup around glossary terms. Delete a note's text to drop it; add one as **Note 9 · imagery:** …
 Quoted lines (>) are reference only and are ignored. When done: node translate/cli.mjs accept <text> <unit>`;
 
-function noteLabel(n, i) {
-  return `**Note ${i + 1} · ${n.kind}${n.cites.length ? ' · cites ' + n.cites.join(', ') : ''}:** ${n.text}`;
-}
+const noteLine = n => `**${noteLabelText(n)}:** ${n.text}`;
 
-function flagLines(line) {
-  return line.flags.map(f => `FLAG ${partOf(line.id)} · ${f.kind} · ${f.level}: ${f.note}`);
-}
-
-/** Groups in unit order: consecutive lines sharing a group id. */
-function groupsOf(unit) {
-  const out = [];
-  for (const l of unit.lines) {
-    const last = out[out.length - 1];
-    if (last && last.id === l.group) last.lines.push(l);
-    else out.push({ id: l.group, lines: [l] });
-  }
-  return out;
-}
-
-function segmentBlock(text, seg, useg, label) {
-  const who = text.commentary?.author || 'Commentary';
-  const ref = [useg.src, seg?.translit || useg.translit];
-  if (seg?.equations.length) ref.push('Equations: ' + seg.equations.map(e => `${e.src} = ${e.en}${e.term ? ' (' + e.term + ')' : ''}`).join('; '));
-  if (seg?.citations.length) ref.push('Quotes: ' + seg.citations.map(c => `"${c.quoted}" (${c.work || 'unidentified'}${c.confident ? '' : ', unsure'})`).join('; '));
-  for (const f of seg?.flags || []) ref.push(`FLAG · ${f.kind} · ${f.level}: ${f.note}`);
+function segmentBlock(sec) {
+  const ref = [sec.src, sec.translit];
+  if (sec.equations.length) ref.push('Equations: ' + sec.equations.map(e => `${e.src} = ${e.en}${e.term ? ' (' + e.term + ')' : ''}`).join('; '));
+  if (sec.citations.length) ref.push('Quotes: ' + sec.citations.map(c => `"${c.quoted}" (${c.work || 'unidentified'}${c.confident ? '' : ', unsure'})`).join('; '));
+  for (const f of sec.flags) ref.push(`FLAG · ${f.kind} · ${f.level}: ${f.note}`);
   return [
-    `## ${who} on ${label} · ${useg.id}`,
+    `## ${sec.who} on ${sec.label} · ${sec.key}`,
     quote(ref.filter(Boolean).join('\n')),
-    `**Translation:** ${seg ? seg.translation : '(not woven yet: run weave)'}`,
-    `**Note:** ${seg ? seg.note : ''}`,
+    `**Translation:** ${sec.labels.Translation}`,
+    `**Note:** ${sec.labels.Note}`,
     `**Decision:**`,
   ].join('\n');
 }
 
-export function termIdsUsed(draft, weave) {
-  const ids = new Set();
-  for (const l of draft.lines) { markup.terms(l.en).forEach(t => ids.add(t.id)); l.terms.forEach(t => ids.add(t.id)); }
-  for (const n of draft.notes) markup.terms(n.text).forEach(t => ids.add(t.id));
-  for (const s of weave?.segments || []) {
-    markup.terms(s.translation).forEach(t => ids.add(t.id));
-    markup.terms(s.note).forEach(t => ids.add(t.id));
-    s.equations.forEach(e => e.term && ids.add(e.term));
+function groupBlock(sec) {
+  const out = [sec.kind === 'heading' ? `## Heading · ${sec.key}` : `## ${sec.label} · ${sec.key}`];
+  const tags = [sec.refrain && 'refrain', sec.bhanita && 'bhaṇitā: the poet names himself'].filter(Boolean);
+  const ref = [];
+  if (tags.length) ref.push(`(${tags.join('; ')})`);
+  for (const l of sec.lines) {
+    ref.push(`${l.src}   ${l.translit}`);
+    if (l.drafterTranslit && l.drafterTranslit !== l.translit.replace(/\|+/g, '').trim()) ref.push(`drafter's transliteration: ${l.drafterTranslit}`);
+    if (l.gloss) ref.push(`*${l.gloss}*`);
+    if (l.emended.length) ref.push('emended: ' + l.emended.map(e => `${e.from} → ${e.to}${e.reason ? ' (' + e.reason + ')' : ''}`).join('; '));
   }
-  for (const p of [...draft.proposals, ...(weave?.proposals || [])]) ids.add(p.id);
-  return ids;
+  out.push(quote(ref.join('\n')));
+  for (const l of sec.lines) out.push(`**EN ${l.part}:** ${l.en}`);
+  for (const n of sec.notes) out.push(noteLine(n));
+  const flags = sec.lines.flatMap(l => l.flags.map(f => `FLAG ${l.part} · ${f.kind} · ${f.level}: ${f.note}`));
+  if (flags.length) out.push(quote(flags.join('\n')));
+  out.push('**Decision:**', '**Note to next draft:**');
+  return out.join('\n');
 }
 
+/** The markdown sheet: a formatter over reviewModel. */
 export function sheetBody(slug, id) {
-  const text = loadText(slug);
-  const P = paths(slug);
-  const unit = loadUnit(slug, id);
-  const draft = readJSON(P.draft(id), null);
-  if (!draft) fail(`${id}: no draft yet (draft, then ingest)`);
-  const weave = readJSON(P.weave(id), null);
-  if (unit.commentary.length && !weave) fail(`${id}: weave the commentary first (weave, then ingest --task weave)`);
-  const g = load();
-  const entries = byId(g);
-  const dl = new Map(draft.lines.map(l => [l.id, l]));
-  const ws = new Map((weave?.segments || []).map(s => [s.id, s]));
-  const notesAt = anchorSet => draft.notes.map((n, i) => [n, i]).filter(([n]) => anchorSet.has(n.anchor));
-  const segsAt = anchorSet => unit.commentary.filter(s => anchorSet.has(s.anchor));
-
-  const poet = unit.poet && entries.get(unit.poet)?.en;
+  const m = reviewModel(slug, id);
+  const { text, unit } = m;
+  const [head, ...rest] = m.sections;
   const out = [
-    `# ${text.unitLabel} ${unit.n}${poet ? ' · ' + poet : ''}${unit.raga ? ' · rāga ' + unit.raga : ''}`,
+    `# ${text.unitLabel} ${unit.n}${m.poet ? ' · ' + m.poet : ''}${unit.raga ? ' · rāga ' + unit.raga : ''}`,
     '', INSTRUCTIONS, '',
     `## ${text.unitLabel} · ${unit.id}`,
-    `**Title:** ${draft.title}`,
-    `**Summary:** ${draft.summary}`,
-    ...notesAt(new Set([unit.id])).map(([n, i]) => noteLabel(n, i)),
+    `**Title:** ${head.title}`,
+    `**Summary:** ${head.summary}`,
+    ...head.notes.map(noteLine),
   ];
-  if (draft.questions.length || weave?.questions.length) {
-    out.push(quote(['Questions from the drafter:', ...[...draft.questions, ...(weave?.questions || [])].map(q => '- ' + q)].join('\n')));
-  }
-  if (draft.termsOmitted.length) out.push(quote('Terms left unmarked: ' + draft.termsOmitted.map(t => `${t.id} in ${t.line} (${t.reason})`).join('; ')));
+  if (head.questions.length) out.push(quote(['Questions from the drafter:', ...head.questions.map(q => '- ' + q)].join('\n')));
+  if (head.termsOmitted.length) out.push(quote('Terms left unmarked: ' + head.termsOmitted.map(t => `${t.id} in ${t.line} (${t.reason})`).join('; ')));
   out.push('**Decision:**', '**Note to next draft:**');
-  for (const s of segsAt(new Set([unit.id]))) out.push('', segmentBlock(text, ws.get(s.id), s, 'the whole ' + text.unitLabel.toLowerCase()));
 
-  for (const grp of groupsOf(unit)) {
-    const first = grp.lines[0];
+  for (const sec of rest) {
     out.push('');
-    if (first.role === 'lacuna') {
-      out.push(`## Lacuna · ${grp.id}`, quote(`A gap in the witness${first.note ? ': ' + first.note : ''}. Nothing to translate.`));
-      continue;
-    }
-    const tags = [first.refrain && 'refrain', first.bhanita && 'bhaṇitā: the poet names himself'].filter(Boolean);
-    out.push(first.role === 'heading' ? `## Heading · ${grp.id}` : `## ${passageNo(grp.id)} · ${grp.id}`);
-    const ref = [];
-    if (tags.length) ref.push(`(${tags.join('; ')})`);
-    for (const l of grp.lines) {
-      const d = dl.get(l.id);
-      ref.push(`${l.src}   ${l.translit}`);
-      if (d?.translit && d.translit !== l.translit.replace(/\|+/g, '').trim()) ref.push(`drafter's transliteration: ${d.translit}`);
-      if (d?.gloss) ref.push(`*${d.gloss}*`);
-      if (l.emended) ref.push('emended: ' + l.emended.map(e => `${e.from} → ${e.to}${e.reason ? ' (' + e.reason + ')' : ''}`).join('; '));
-    }
-    out.push(quote(ref.join('\n')));
-    for (const l of grp.lines) out.push(`**EN ${partOf(l.id)}:** ${dl.get(l.id)?.en ?? ''}`);
-    const anchors = new Set([grp.id, ...grp.lines.map(l => l.id)]);
-    for (const [n, i] of notesAt(anchors)) out.push(noteLabel(n, i));
-    const flags = grp.lines.flatMap(l => (dl.get(l.id) ? flagLines(dl.get(l.id)) : []));
-    if (flags.length) out.push(quote(flags.join('\n')));
-    out.push('**Decision:**', '**Note to next draft:**');
-    for (const s of segsAt(anchors)) out.push('', segmentBlock(text, ws.get(s.id), s, passageNo(grp.id)));
+    if (sec.kind === 'comment') out.push(segmentBlock(sec));
+    else if (sec.kind === 'lacuna') out.push(`## Lacuna · ${sec.key}`, quote(`A gap in the witness${sec.note ? ': ' + sec.note : ''}. Nothing to translate.`));
+    else out.push(groupBlock(sec));
   }
 
-  const used = termIdsUsed(draft, weave);
-  const toDecide = [...used].map(tid => entries.get(tid)).filter(e => e && e.status === 'proposed');
-  if (toDecide.length) {
+  if (m.termsToDecide.length) {
     out.push('', '## Glossary · terms to decide',
       quote('Approve, reject or defer each proposed term. A song can be approved only when every term it uses is approved.'));
-    for (const e of toDecide) {
-      const where = draft.lines.filter(l => markup.terms(l.en).some(t => t.id === e.id)).map(l => l.id);
-      out.push('', entryBlock(e, where.length ? [`Used in: ${where.join(', ')}`] : []));
-    }
+    for (const { entry, usedIn } of m.termsToDecide) out.push('', entryBlock(entry, usedIn.length ? [`Used in: ${usedIn.join(', ')}`] : []));
   }
   return out.join('\n') + '\n';
 }

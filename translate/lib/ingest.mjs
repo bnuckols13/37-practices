@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import { paths, readJSON, writeJSON, exists, fail, today, config, rel } from './io.mjs';
 import { loadText, loadUnit } from './text.mjs';
 import { load, save, mergeProposal } from './glossary.mjs';
-import { TASKS } from './pack.mjs';
+import { TASKS, commentaryOnly } from './pack.mjs';
 import * as markup from './markup.mjs';
 
 export function validateAnswer(task, out, unit, glossary) {
@@ -92,7 +92,7 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
     if (t === 'draft' || t === 'redraft') { wrote = P.draft(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'weave') { wrote = P.weave(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'terms') wrote = 'glossary';
-    if (t === 'redraft') delete feedback[id];
+    if (t === 'redraft' || (t === 'weave' && commentaryOnly(feedback[id]))) delete feedback[id];
     if (!answers) fs.unlinkSync(inbox);
     results.push({ unit: id, ok: true, task: t, wrote, proposals: merged.filter(m => m.added).map(m => m.added) });
   }

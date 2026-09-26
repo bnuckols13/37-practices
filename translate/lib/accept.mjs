@@ -18,7 +18,7 @@ import { decision, parseSymbolic, splitList } from './review/sheet.mjs';
 const same = (a, b) => String(a || '').replace(/\s+/g, ' ').trim() === String(b || '').replace(/\s+/g, ' ').trim();
 
 /** Apply glossary sections (### … · id) to the glossary in place. */
-export function applyGlossary(g, sections, reviewer) {
+export function applyGlossary(g, sections, reviewer, date = today()) {
   const res = { approved: [], rejected: [], deferred: [], edited: [], problems: [] };
   for (const s of sections) {
     const e = g.entries.find(x => x.id === s.key);
@@ -40,8 +40,11 @@ export function applyGlossary(g, sections, reviewer) {
     if (d === 'invalid') res.problems.push(`glossary ${e.id}: decision "${L.Decision}" is not approve, reject or defer`);
     else if (d === 'approve') {
       if (!e.definition.trim()) { res.problems.push(`glossary ${e.id}: needs a definition before approval`); continue; }
-      e.status = 'approved'; e.provenance.approved = { by: reviewer, date: today() }; res.approved.push(e.id);
-    } else if (d === 'reject') { e.status = 'rejected'; e.provenance.rejected = { by: reviewer, date: today() }; res.rejected.push(e.id); }
+      // Re-applying the same decision must not re-date the entry.
+      if (e.status !== 'approved') { e.status = 'approved'; e.provenance.approved = { by: reviewer, date }; res.approved.push(e.id); }
+    } else if (d === 'reject') {
+      if (e.status !== 'rejected') { e.status = 'rejected'; e.provenance.rejected = { by: reviewer, date }; res.rejected.push(e.id); }
+    }
     else res.deferred.push(e.id);
     const r = Entry.safeParse(e);
     if (!r.success) res.problems.push(`glossary ${e.id}: ${r.error.issues[0].message}`);
@@ -49,27 +52,42 @@ export function applyGlossary(g, sections, reviewer) {
   return res;
 }
 
+/** The markdown review sheet: parse it, check it was written for the current draft, then accept. */
 export function acceptSheet(slug, id, { dry = false } = {}) {
-  const text = loadText(slug);
   const P = paths(slug);
-  const reviewer = config().reviewer || fail('set "reviewer" in translate/config.json');
   const sheetText = readText(P.sheet(id));
   const { header, sections, warnings } = parseSheet(sheetText);
   if (header.kind !== 'sheet' || header.unit !== id) fail(`${rel(P.sheet(id))} is not the sheet for ${id}`);
+  return acceptSections(slug, id, {
+    sections, warnings, via: 'sheet', date: today(),
+    reviewed: { draftSha: header.draft, weaveSha: header.weave },
+    reviewSha: sha256(sheetText).slice(0, 12),
+    staleHint: `Copy your edits aside, then: review ${slug} ${id} --force`,
+  }, { dry });
+}
 
+/**
+ * The one acceptance path for both review channels (sheet and Studio).
+ * `sections` use the sheet's shape: level-2 sections keyed by unit, group or
+ * segment id with **Label:** values; level-3 sections are glossary entries.
+ */
+export function acceptSections(slug, id, { sections, warnings = [], reviewed, reviewSha, via = 'sheet', date = today(), staleHint = '' },
+  { dry = false, g: sharedGlossary = null, saveGlossary = true } = {}) {
+  const text = loadText(slug);
+  const P = paths(slug);
+  const reviewer = config().reviewer || fail('set "reviewer" in translate/config.json');
   const draft = readJSON(P.draft(id));
   const weave = readJSON(P.weave(id), null);
   const draftSha = short(fileSha(P.draft(id)));
   const weaveSha = weave ? short(fileSha(P.weave(id))) : 'none';
-  if (header.draft !== draftSha || header.weave !== weaveSha) {
-    fail(`${id}: the sheet is stale (the draft or commentary changed after it was written). `
-      + `Copy your edits aside, then: review ${slug} ${id} --force`);
+  if (reviewed.draftSha !== draftSha || reviewed.weaveSha !== weaveSha) {
+    fail(`${id}: the review is stale (the draft or commentary changed after it was made). ${staleHint}`.trim());
   }
   const unit = loadUnit(slug, id);
   if (draft.provenance.sourceSha !== unit.sourceSha) fail(`${id}: the source changed after drafting; redraft first`);
 
-  const g = load();
-  const gloss = applyGlossary(g, sections.filter(s => s.level === 3), reviewer);
+  const g = sharedGlossary || load();
+  const gloss = applyGlossary(g, sections.filter(s => s.level === 3), reviewer, date);
   const problems = [...gloss.problems];
   const byKey = new Map(sections.filter(s => s.level === 2).map(s => [s.key, s]));
   const status = {};   // section key -> ok | redraft | pending | invalid
@@ -170,7 +188,7 @@ export function acceptSheet(slug, id, { dry = false } = {}) {
       provenance: {
         draft: draft.provenance, weave: weave?.provenance || null,
         review: {
-          by: reviewer, date: today(), sheetSha: sha256(sheetText).slice(0, 12), draftSha, weaveSha,
+          by: reviewer, date, via, sheetSha: reviewSha, draftSha, weaveSha,
           decisions: Object.fromEntries(keys.map(k => [k, edited[k] ? 'edited' : 'ok'])),
         },
       },
@@ -188,14 +206,15 @@ export function acceptSheet(slug, id, { dry = false } = {}) {
     }
     result.approved = true;
     result.path = P.approvedFile(id);
+    result.record = record;
     if (!dry) writeJSON(P.approvedFile(id), record);
   }
 
   if (!dry) {
-    save(g);
+    if (saveGlossary) save(g);
     const fb = readJSON(P.feedback, {});
     if (redraft.length || Object.keys(notesToNext).length) {
-      fb[id] = { date: today(), redraft, notes: notesToNext, edits: Object.fromEntries(lines.filter((l, i) => !same(l.en, draft.lines[i]?.en)).map(l => [l.id, l.en])) };
+      fb[id] = { date, redraft, notes: notesToNext, edits: Object.fromEntries(lines.filter((l, i) => !same(l.en, draft.lines[i]?.en)).map(l => [l.id, l.en])) };
     } else if (result.approved) delete fb[id];
     writeJSON(P.feedback, fb);
   }
@@ -210,7 +229,7 @@ export function acceptGlossarySheet(slug, { dry = false } = {}) {
   const { header, sections, warnings } = parseSheet(readText(p));
   if (header.kind !== 'glossary-sheet') fail(`${rel(p)} is not a glossary sheet`);
   const g = load();
-  const gloss = applyGlossary(g, sections.filter(s => s.level === 3), reviewer);
+  const gloss = applyGlossary(g, sections.filter(s => s.level === 3), reviewer, today());
   if (!dry && !gloss.problems.length) save(g);
   return { unit: 'glossary', dry, glossary: gloss, problems: gloss.problems, warnings, pending: [], redraft: [], unapproved: [], edited: [], approved: false, glossaryOnly: true };
 }

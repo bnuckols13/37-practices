@@ -4,15 +4,15 @@
 
 ## Context
 
-Brian wants a translation system in the spirit of **84000's Reading Room**. It should produce *illuminated* English translations, which means two layers:
+Lena wants a translation system in the spirit of **84000's Reading Room**. It should produce *illuminated* English translations, which means two layers:
 - **Glossary-linked terms:** key words in the English link to entries that give the source form, Sanskrit or Tibetan equivalents, a definition and a symbolic reading.
 - **Commentary woven in:** each song or verse carries its traditional commentary.
 
-Claude drafts; Brian reviews and approves. Approved term choices feed back into later drafts.
+Claude drafts; Lena reviews and approves. Approved term choices feed back into later drafts.
 
 **Texts, in order:**
 1. The **Charyapada** (Caryāgīti): Old Bengali / Apabhraṃśa siddha songs, with Munidatta's Sanskrit commentary.
-2. **Any text Brian gives it.**
+2. **Any text Lena gives it.**
 
 **Where it runs:**
 - The code lives in this repo, next to `build/`.
@@ -27,19 +27,19 @@ The repo already works this way. `build/build.mjs` is a zero-dependency build th
   - There is no free IAST e-text, so the engine transliterates Bengali script to IAST itself, from a lookup table.
   - Songs 24, 25 and 48, and the end of 23, survive only in the Tibetan Tengyur translation (Toh 2293, *spyod pa'i glu'i mdzod kyi 'grel pa*). Those get translated from the Tibetan and clearly labelled as the Tibetan witness.
   - There are 50 songs by 23–24 siddhas. Each has a rāga heading and about 5 couplets, and the poet names himself in the last couplet (the bhaṇitā). The symbolic "twilight language" is dense: Ḍombī, Śabarī, the boat, the body-tree, the three channels.
-- **Copyright.** Every complete English translation (Kværne 1977, Mojumder 1967, Shahidullah 1940/66, Moudud 1992) is still in copyright. They never go into prompts, the repo, or pages. Brian can consult them privately; our English must be original.
+- **Copyright.** Every complete English translation (Kværne 1977, Mojumder 1967, Shahidullah 1940/66, Moudud 1992) is still in copyright. They never go into prompts, the repo, or pages. Lena can consult them privately; our English must be original.
 - **84000.**
   - We copy their publication structure: summary, introduction, translation, notes, glossary, bibliography.
   - We copy their glossary-entry model: entry types term/person/place/text, and Sanskrit attestation codes AS/AO/AD/AA/RP/RS/SU.
   - Their Terms of Use (`raw.githubusercontent.com/84000/all-data/master/Terms_of_Use.md`) forbid "remixing the glossary into another glossary" and publishing excerpts without permission. So **our glossary is written from scratch**, and 84000 data is only a lookup shown to the reviewer (milestone 3).
   - Their AI policy says a human must be the primary agent. So every published song shows its provenance.
-- **Network.** This environment blocks `bn.wikisource.org`, `archive.org` and `read.84000.co`. It allows `raw.githubusercontent.com`, npm and `api.anthropic.com`. So ingestion works from pasted or local text first. The Wikisource fetcher starts working once Brian allows that host.
+- **Network.** This environment blocks `bn.wikisource.org`, `archive.org` and `read.84000.co`. It allows `raw.githubusercontent.com`, npm and `api.anthropic.com`. So ingestion works from pasted or local text first. The Wikisource fetcher starts working once Lena allows that host.
 
 ## Design decisions
 1. **New `translate/` folder with its own `package.json`.** Dependencies: `@anthropic-ai/sdk` and `zod`, pinned. The root stays free of `package.json`, so Vercel still serves plain static files.
 2. **Add a root `.vercelignore` containing `translate/`.** Drafts, review sheets and packs are never served. Only the generated `translations/` folder is public.
 3. **Inline term markup: `[Ḍombī]{dombi}`.**
-   - The drafter writes it into the English, and Brian edits it in the sheet.
+   - The drafter writes it into the English, and Lena edits it in the sheet.
    - A link moves with its words, so there are no character offsets and no string search.
    - `render` turns the markup into links.
 4. **Every witness has a `usage` in `text.json`: `prompt+publish | publish-only | reviewer-only`.** The pack builder refuses anything that isn't `prompt+publish`. This mirrors `furtherReadingOnly` in `build/sources.json`.
@@ -55,7 +55,7 @@ The repo already works this way. `build/build.mjs` is a zero-dependency build th
    - The few tiny helpers (`esc`, `attr`, `jsonLd`) are copied, with a pointer to `build.mjs:45-55`. A shared `build/site-kit.mjs` can come later if duplication grows.
 10. **Only approved songs are published.** Unreviewed songs appear in the sidebar as "in progress" stubs. `render --preview` writes everything, drafts included, to gitignored `.preview/` for local viewing.
 11. **Source integrity.** Raw pastes are kept byte-for-byte in `source/raw/` with a `.sha256`. A marked-up copy adds light directives (`@song 10`, `@raga`, `@poet`, `@refrain`, `@comm`, `@lacuna`, `@emend`), so segmenting is deterministic. `check` proves that stripping the directives gives back the raw text.
-12. **`texts/<slug>/style.md` holds Brian's standing preferences.** For example: "town, not city, for *nagara*" or "no 'O' vocative". It rides in the cached prompt prefix, so choices beyond the glossary also reach future drafts.
+12. **`texts/<slug>/style.md` holds Lena's standing preferences.** For example: "town, not city, for *nagara*" or "no 'O' vocative". It rides in the cached prompt prefix, so choices beyond the glossary also reach future drafts.
 
 ## Directory layout
 ```
@@ -140,7 +140,7 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
 **Approved record** (`approved/cp.10.json`)
 - Contents: the draft, the commentary, and `provenance`.
 - Draft provenance: mode, model, date, packSha, prompt versions, glossarySha, sourceSha. For API runs, the model is the one `response.model` reports actually served the request.
-- Review provenance: `{by:"Brian Nuckols", date, sheetSha, draftSha, decisions:{"cp.10.1":"edited"}}`.
+- Review provenance: `{by:"Lena Rose", date, sheetSha, draftSha, decisions:{"cp.10.1":"edited"}}`.
 
 ## Review sheet (`review/cp.10.md`, one per song, commentary interleaved)
 - **What `accept` reads:** only `**Label:**` lines.
@@ -190,7 +190,7 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
   - Old Bengali cues and script ambiguities (ব b/v, য y/j, ড় ṛ)
   - Munidatta's "X iti Y" method
   - rules for songs that exist only in Tibetan
-- **Tasks:** `draft`, `redraft` (adds the prior draft and Brian's notes), `weave`, `terms` (symbolic readings only when attested with a segment ID).
+- **Tasks:** `draft`, `redraft` (adds the prior draft and Lena's notes), `weave`, `terms` (symbolic readings only when attested with a segment ID).
 - **Cache layout:**
 
 | Block | Contents | Cache |
@@ -235,7 +235,7 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
 - **Song head:**
   - "Song 10 of 50 · rāga Deśākha", the title, and a poet chip that opens the person popover.
   - A witness badge ("Old Bengali · Nepal MS, Shastri 1916" or "From the Tibetan; the original is lost").
-  - A **provenance badge**: "Drafted with Claude; reviewed and approved by Brian Nuckols, <date> (2 of 11 lines edited)".
+  - A **provenance badge**: "Drafted with Claude; reviewed and approved by Lena Rose, <date> (2 of 11 lines edited)".
 - **Toggles:** Source · Transliteration · Literal gloss · Commentary. Commentary is on by default.
 - **Couplets:**
   - Each is a `<section id="c1">` with the passage number 10.1 and English lines carrying glossary links.
@@ -283,10 +283,10 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
 ## Milestones
 **M1: skeleton plus a pilot on songs 1, 10 and 14, session mode, pasted text.** These three cover the body-tree, Ḍombī's hut, and the boat on the Gaṅgā–Yamunā.
 1. **Scaffolding:** `.vercelignore` and `.gitignore` entries; `translate/package.json`, schemas, `io/ids/markup`, the `caryagiti` segmenter, the Bengali→IAST table, `new/import/segment/status`, and unit tests.
-2. **Seed glossary:** about 30 core entries via `terms` → glossary sheet → Brian approves. Core set: ḍombī, śabarī, boat, tree, mouse, gaṅgā/yamunā, lalanā, rasanā, avadhūtī, sahaja, mahāsukha, nairātmā, citta, plus the pilot poets.
-3. **Full loop, one song at a time:** song 1 goes `pack → subagent draft → ingest → weave → check → review → (Brian edits) → accept`. Then song 10, then song 14, so we can see earlier approvals and `style.md` reaching later packs.
-4. **Publish:** `render` the three songs, the hub, the glossary and `translations/index.html`. Add `robots.txt` line 2. The link from the homepage nav is added only when Brian says so.
-- **Brian supplies:** the Bengali text of songs 1, 10 and 14 plus Munidatta's comments, pasted from Wikisource or the 1916 PDF. Or he allows `bn.wikisource.org` and `import wikisource:N` fetches them.
+2. **Seed glossary:** about 30 core entries via `terms` → glossary sheet → Lena approves. Core set: ḍombī, śabarī, boat, tree, mouse, gaṅgā/yamunā, lalanā, rasanā, avadhūtī, sahaja, mahāsukha, nairātmā, citta, plus the pilot poets.
+3. **Full loop, one song at a time:** song 1 goes `pack → subagent draft → ingest → weave → check → review → (Lena edits) → accept`. Then song 10, then song 14, so we can see earlier approvals and `style.md` reaching later packs.
+4. **Publish:** `render` the three songs, the hub, the glossary and `translations/index.html`. Add `robots.txt` line 2. The link from the homepage nav is added only when Lena says so.
+- **Lena supplies:** the Bengali text of songs 1, 10 and 14 plus Munidatta's comments, pasted from Wikisource or the 1916 PDF. Or Lena allows `bn.wikisource.org` and `import wikisource:N` fetches them.
 - **Exit criteria:** 3 songs approved, `check --strict` clean, the review sheet round-trips losslessly, and the feedback loop is shown working.
 
 **M2: all 50 songs, plus API and batch mode.**
@@ -337,7 +337,7 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
 ## Risks and decisions to watch
 - **Copyright leakage.**
   - Never paste Kværne or similar into the drafting session.
-  - The overlap guard catches verbatim runs only, so Brian's review is the real control.
+  - The overlap guard catches verbatim runs only, so Lena's review is the real control.
   - The ignore files land before any reference file exists.
 - **Source quality.**
   - OCR and transcription errors, and Shastri's known misreadings. Later editions' readings stay reviewer-only until their copyright status is clear.
@@ -350,7 +350,7 @@ Draft = { unit, title, summary, lines:[Line] /* ids = unit ids, same order */,
   - the Batches `custom_id` character set
   - on a `max_tokens` stop, retry with streaming
 - **Glossary churn** invalidates approved songs and the prompt cache. `check` re-validates and `rename` is atomic.
-- **Brian's decisions, before first publish:**
+- **Lena's decisions, before first publish:**
   - the licence for our translations
   - the exact provenance wording
   - when to link Translations from the homepage

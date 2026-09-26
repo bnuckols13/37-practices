@@ -134,7 +134,7 @@ export function check(slug, { strict = false } = {}) {
       if (!approved.provenance?.review?.by || !approved.provenance?.draft?.model) E.push(`${u.id} approved: provenance incomplete`);
       approved.lines.forEach(l => texts.push({ where: l.id, s: l.en, line: l.id }));
       approved.notes.forEach(n => texts.push({ where: `${u.id} note on ${n.anchor}`, s: n.text }));
-      approved.commentary.forEach(c => { texts.push({ where: `${c.id} translation`, s: c.translation }); texts.push({ where: `${c.id} note`, s: c.note }); });
+      approved.commentary.forEach(c => { texts.push({ where: `${c.id} translation`, s: c.translation, full: true }); texts.push({ where: `${c.id} note`, s: c.note }); });
       for (const n of approved.notes) {
         if (author && n.text.includes(author) && !n.cites.length) E.push(`${u.id} approved note on ${n.anchor}: mentions ${author} but cites no segment`);
         for (const c of n.cites) if (!segIds.has(c)) E.push(`${u.id} approved note on ${n.anchor}: cites unknown segment ${c}`);
@@ -142,7 +142,7 @@ export function check(slug, { strict = false } = {}) {
     } else if (draft) {
       draft.lines.forEach(l => texts.push({ where: l.id, s: l.en, line: l.id }));
       draft.notes.forEach(n => texts.push({ where: `${u.id} note on ${n.anchor}`, s: n.text }));
-      (weave?.segments || []).forEach(c => { texts.push({ where: `${c.id} translation`, s: c.translation }); texts.push({ where: `${c.id} note`, s: c.note }); });
+      (weave?.segments || []).forEach(c => { texts.push({ where: `${c.id} translation`, s: c.translation, full: true }); texts.push({ where: `${c.id} note`, s: c.note }); });
     }
     for (const t of texts) {
       for (const p of markup.problems(t.s)) E.push(`${t.where}: ${p}`);
@@ -158,7 +158,12 @@ export function check(slug, { strict = false } = {}) {
       }
       if (t.line && verseIds.has(t.line)) {
         const plain = markup.strip(t.s).toLowerCase();
+        // A term's forbidden words bind only where that image is in the line: in its
+        // source or marked in the English. "Body" is fine in "the body is a tree".
+        const srcLine = unit.lines.find(l => l.id === t.line);
+        const present = new Set([...markup.terms(t.s).map(x => x.id), ...(srcLine ? matchSource(inScope, srcLine.src, srcLine.lang).map(h => h.id) : [])]);
         for (const e of inScope) {
+          if (!present.has(e.id)) continue;
           for (const f of e.forbiddenInLine) {
             if (new RegExp(`(^|[^\\p{L}])${f.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^\\p{L}]|$)`, 'u').test(plain)) {
               E.push(`${t.where}: "${f}" inside a verse line (${e.id} says: translate the image, put the reading in a note)`);
@@ -166,7 +171,8 @@ export function check(slug, { strict = false } = {}) {
           }
         }
       }
-      if (!t.line) for (const q of quotesOver(t.s)) E.push(`${t.where}: quotation over 25 words ("${q.slice(0, 40)}…")`);
+      // Notes quote briefly; a full translation of the commentary carries the verses it quotes.
+      if (!t.line && !t.full) for (const q of quotesOver(t.s)) E.push(`${t.where}: quotation over 25 words ("${q.slice(0, 40)}…")`);
       overlap(t.where, t.s);
     }
 

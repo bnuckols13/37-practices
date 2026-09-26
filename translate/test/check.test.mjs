@@ -45,6 +45,9 @@ test('a rendering that differs from the approved glossary rendering', () => muta
 test('the esoteric referent inside a verse line', () => mutateJSON(T('approved/fx.01.json'), a => { a.lines[1].en = 'The aggregates are a [tree]{taruvara}'; },
   () => assert.match(errorsOf(), /"aggregates" inside a verse line/)));
 
+test('forbidden words bind only where their image is in the line', () => mutateJSON(T('approved/fx.01.json'), a => { a.lines[3].en = 'Make the aggregates firm and take their measure:'; },
+  () => assert.doesNotMatch(errorsOf(), /inside a verse line/)));
+
 test('an uncited note that reports the commentator', () => mutateJSON(T('approved/fx.01.json'), a => { a.notes[0].cites = []; },
   () => assert.match(errorsOf(), /mentions Munidatta but cites no segment/)));
 

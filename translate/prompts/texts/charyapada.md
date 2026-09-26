@@ -1,5 +1,5 @@
 ---
-version: 2
+version: 3
 ---
 # The Charyapada
 
@@ -9,7 +9,7 @@ The Charyapada (Caryāgīti) are songs of the Buddhist siddhas of eastern India,
 
 - A heading names the rāga (melody) and the poet. Translate it plainly, e.g. "Rāga Paṭamañjarī · Lūyīpāda".
 - Couplets of two half-lines: "a । b ॥". Each half-line is a line id of its own (…1a, …1b).
-- The refrain (dhruvapada) is usually the second couplet; Munidatta counts the "padas" from the couplet after it. Shastri's edition prints ধ্রু after the refrain and after every later couplet, as a cue to sing the refrain again. Translate "ধ্রু" as nothing; the refrain is marked on the page.
+- The refrain (dhruvapada) is usually the second couplet. Munidatta leaves it out when he counts the "padas": couplet 1 is his first, couplet 3 his "second pada", couplet 4 his "third". Shastri's edition prints ধ্রু after the refrain and after every later couplet, as a cue to sing the refrain again. Translate "ধ্রু" as nothing; the refrain is marked on the page.
 - In the last couplet the poet names himself (the bhaṇitā): "Lūyī says…", "Kāṇha says…". Keep it.
 
 ## Language

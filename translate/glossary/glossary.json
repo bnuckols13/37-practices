@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "id": "abhasa",
+      "type": "term",
+      "status": "proposed",
+      "en": "appearance",
+      "alt": [
+        "luminosity"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "candrābhāsasūryyābhāsau",
+          "att": "AS",
+          "where": "cp.14.m2"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "ābhāṣatraya",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "চন্দ্রাভাস",
+          "সূর্য্যাভাস",
+          "আভাষ",
+          "আভাস"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Appearance or luminosity. Munidatta pairs a moon-appearance and a sun-appearance, which he equates with the grasped and the grasper (cp.14.m2), and speaks of three appearances, the moon, the sun and the pulinda, which make and unmake saṃsāra and which practice stops (cp.14.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "abhiseka",
       "type": "term",
       "status": "proposed",
@@ -258,6 +309,46 @@
       },
       "matchRe": {},
       "definition": "Ignorance: the basic misapprehension of how things are, which Buddhist teaching places at the root of saṃsāra as the first link of dependent arising. In song 10 Munidatta says the lotus-place has the form of ignorance.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "bhaga",
+      "type": "term",
+      "status": "proposed",
+      "en": "bhaga",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভগং",
+          "translit": "bhagaṃ",
+          "att": "AS",
+          "where": "cp.10.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "ভগং",
+          "ভগ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The female organ (the word also means ‘good fortune, share’), a frequent term in the yoginī tantras and their commentaries. Munidatta equates the cord Ḍombī sells with the bhaga, ‘the place of the lotus’, which he says has the form of ignorance (cp.10.m6).",
       "symbolic": {
         "image": "",
         "readings": []
@@ -2118,6 +2209,52 @@
       },
       "matchRe": {},
       "definition": "In the yoginī-tantra map of the subtle body, the highest of the four wheels (cakra), at the crown of the head, pictured as a lotus of thirty-two petals. Munidatta identifies Ḍombī's hut outside the town with it.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "manimula",
+      "type": "term",
+      "status": "proposed",
+      "en": "root of the jewel",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "kacchikāmaṇimūlaṃ",
+          "att": "AS",
+          "where": "cp.14.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মণিমূলাৎ",
+          "translit": "maṇimūlāt",
+          "att": "AS",
+          "where": "cp.10.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "মণিমূল"
+        ]
+      },
+      "matchRe": {},
+      "definition": "‘Root of the jewel’: a point in the lower body named in the code language of the yoginī tantras, where the ‘jewel’ (maṇi) usually stands for the male organ. Munidatta says bodhicitta goes to the kacchikā, the root of the jewel, and, opened by innate joy, is to be rowed by way of the wheels (cp.14.m4).",
       "symbolic": {
         "image": "",
         "readings": []
@@ -4290,6 +4427,68 @@
       }
     },
     {
+      "id": "svarupa",
+      "type": "term",
+      "status": "proposed",
+      "en": "true nature",
+      "alt": [
+        "own nature"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বরূপাশয়েন",
+          "translit": "svarūpāśayena",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "san",
+          "script": "স্বরূপমেব",
+          "translit": "svarūpameva",
+          "att": "AS",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্মধর্ম্মস্বরূপমাহ",
+          "translit": "nairātmadharmmasvarūpamāha",
+          "att": "AS",
+          "where": "cp.10.m6"
+        },
+        {
+          "lang": "san",
+          "script": "স্বরূপতয়া",
+          "translit": "svarūpatayā",
+          "att": "AS",
+          "where": "cp.10.m7"
+        }
+      ],
+      "match": {
+        "san": [
+          "স্বরূপ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "One's own form: what a thing really is, as against how it appears. Munidatta glosses Kāṇha's ‘in good faith’ as ‘with an intention set on the true nature’ and quotes the Hevajra: the innate is called the true nature, and the true nature itself is nirvāṇa (cp.10.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
       "id": "tanti",
       "type": "term",
       "status": "proposed",
@@ -4827,6 +5026,54 @@
       },
       "matchRe": {},
       "definition": "The thunderbolt-diamond, emblem of the indestructible in tantric Buddhism; as a prefix it marks what belongs to that path (vajra guru, vajra recitation). Munidatta uses vajra and its synonym kuliśa, as in 'the union of vajra and lotus' (cp.01.m3) and 'the vajra of realizing selflessness' (cp.01.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "vilaksana",
+      "type": "term",
+      "status": "proposed",
+      "en": "vilakṣaṇa",
+      "alt": [
+        "beyond characteristics"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "vilakṣaṇaśuddhā",
+          "att": "AS",
+          "where": "cp.14.m2"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "vilakṣaṇaśodhita",
+          "att": "AS",
+          "where": "cp.14.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "বিলক্ষণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "‘Beyond characteristics’: in the Hevajra system, the last of the four moments (kṣaṇa) of yogic union, commonly paired with innate joy, though systems differ. Munidatta twice speaks of something ‘purified by vilakṣaṇa’: the boat or the avadhūtī (cp.14.m2), and the bodhicitta that is rowed as a boat (cp.14.m5).",
       "symbolic": {
         "image": "",
         "readings": []

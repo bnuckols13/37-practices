@@ -3211,6 +3211,56 @@
       }
     },
     {
+      "id": "avarana",
+      "type": "term",
+      "status": "proposed",
+      "en": "obscuration",
+      "alt": [
+        "obscurations"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྒྲིབ་པ",
+          "translit": "sgrib pa",
+          "lemma": "sgrib pa",
+          "att": "AS",
+          "where": "cp.24.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲིབ་པ",
+          "translit": "sgrib pa",
+          "lemma": "sgrib pa",
+          "att": "AS",
+          "where": "cp.24.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "སྒྲིབ་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "An obscuration (Tibetan sgrib pa, regularly for Sanskrit āvaraṇa): whatever veils the mind and blocks liberation, above all the afflictions. Munidatta says that by the guru's word the obscurations of delusion and the rest flee (cp.24.m3), and that for one who bows to the true guru's feet those of delusion, hatred and the rest go far away (cp.24.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "avidya",
       "type": "term",
       "status": "proposed",
@@ -8713,6 +8763,14 @@
           "lemma": "dhruvapada",
           "att": "AS",
           "where": "cp.20.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དྷཱའི་རྐང་པ",
+          "translit": "d+hA'i rkang pa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.24.m3"
         }
       ],
       "match": {
@@ -8724,7 +8782,8 @@
         "bod": [
           "བརྟན་པའི་རྐང་པས",
           "དྷྲཱུའི་རྐང་པས",
-          "དྷཱུའི་རྐང་པས"
+          "དྷཱུའི་རྐང་པས",
+          "དྷཱའི་རྐང་པ"
         ]
       },
       "matchRe": {},
@@ -8829,6 +8888,49 @@
         "selflessness",
         "unstruck knowledge"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "dim-sight",
+      "type": "term",
+      "status": "proposed",
+      "en": "dim sight",
+      "alt": [
+        "dimness of sight",
+        "cataract"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རབ་རིབ",
+          "translit": "rab rib",
+          "lemma": "rab rib",
+          "att": "AS",
+          "where": "cp.24.4b"
+        }
+      ],
+      "match": {
+        "bod": [
+          "རབ་རིབ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Dimness of sight (Tibetan rab rib, regularly for Sanskrit timira): an eye disorder in which one sees hairs, specks or a double moon that are not there, and so a stock Buddhist image of false appearance. In song 24 the sun clears the dim sight of delusion in the ocean of existence; Munidatta's comment does not single the word out.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -10271,6 +10373,58 @@
       }
     },
     {
+      "id": "full-moon",
+      "type": "term",
+      "status": "proposed",
+      "en": "full moon",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཟླ་བ་གང་བ",
+          "translit": "zla ba gang ba",
+          "lemma": "zla ba gang ba",
+          "att": "AS",
+          "where": "cp.24.1a"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ཟླ་བ་གང་བ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The full moon (Tibetan zla ba gang ba). Song 24 opens with the full moon risen, when the king of mind is stainless. Munidatta explains it as the moon-disc of bodhicitta, complete with its sixteen digits, which rises by the guru's kindness (cp.24.m2). Compare the entries for the moon and the sixteen digits.",
+      "symbolic": {
+        "image": "the full moon, at whose rising the king of mind is stainless",
+        "readings": [
+          {
+            "referent": "the moon-disc (zla ba'i dkyil 'khor) of bodhicitta, endowed with sixteen digits, which rises by the guru's kindness; at that time the lord of yogis, the king of mind, becomes utterly stainless",
+            "per": "Munidatta",
+            "where": [
+              "cp.24.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "moon-disc",
+        "maṇḍala"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "gagana",
       "type": "term",
       "status": "proposed",
@@ -10368,6 +10522,14 @@
           "lemma": "gaaṇa",
           "att": "AS",
           "where": "cp.21.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཁའ",
+          "translit": "mkha'",
+          "lemma": "mkha'",
+          "att": "AS",
+          "where": "cp.24.3a"
         }
       ],
       "match": {
@@ -10386,7 +10548,11 @@
           "ནམ་མཁར"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<=^|[\\u0F04-\\u0F14\\s])མཁའ(?=\\u0F0B(?:མཚུངས|མཉམ))"
+        ]
+      },
       "definition": "Sky; open space. The sky is a common image in siddha poetry and in Buddhist tantric language. In this song it forms the first half of gaaṇadukhola, the vessel used to bail the boat; Munidatta repeats the compound (gaganadukholaka) without explaining it.",
       "symbolic": {
         "image": "the sky, in the compound 'sky-scoop' used to bail the boat",
@@ -11956,6 +12122,14 @@
           "lemma": "indriya",
           "att": "AS",
           "where": "cp.13.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་པོ",
+          "translit": "dbang po",
+          "lemma": "dbang po",
+          "att": "AS",
+          "where": "cp.24.2b"
         }
       ],
       "match": {
@@ -11967,7 +12141,12 @@
           "དབང་པོ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<=ཡུལ་དང་)དབང་པོ(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))",
+          "(?<=^|[\\u0F04-\\u0F14\\s])དབང་པོ(?=\\u0F0Bལྔ)"
+        ]
+      },
       "definition": "The senses or sense faculties (indriya): eye, ear, nose, tongue and body, with the mind in some lists, each a 'door' through which objects are known. Munidatta says the dwelling of the mind and the wind is not understood through the door of the senses (cp.06.m4).",
       "symbolic": {
         "image": "",
@@ -12147,6 +12326,46 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "jnana",
+      "type": "term",
+      "status": "proposed",
+      "en": "knowledge",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས",
+          "translit": "ye shes",
+          "lemma": "ye shes",
+          "att": "AS",
+          "where": "cp.24.m4"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ཡེ་ཤེས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Knowledge (Tibetan ye shes, regularly for Sanskrit jñāna): in tantric usage the nondual awareness that realization reveals, as distinct from ordinary cognition. Munidatta says the lord of yogis pervades the three worlds with the rays of knowledge (cp.24.m4). Compare wisdom-knowledge (prajñājñāna) and knowledge (vidyā), a different word.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -14392,6 +14611,57 @@
       }
     },
     {
+      "id": "king-of-mind",
+      "type": "term",
+      "status": "proposed",
+      "en": "king of mind",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སེམས་ཀྱི་རྒྱལ་པོ",
+          "translit": "sems kyi rgyal po",
+          "lemma": "sems kyi rgyal po",
+          "att": "AS",
+          "where": "cp.24.1b"
+        }
+      ],
+      "match": {
+        "bod": [
+          "སེམས་ཀྱི་རྒྱལ་པོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The mind spoken of as a king (Tibetan sems kyi rgyal po; the Bengali original is lost). In song 24 the king of mind is stainless once the full moon has risen. Munidatta names the lord of yogis and the king of mind together, as the one who becomes utterly stainless when the moon-disc of bodhicitta rises (cp.24.m2).",
+      "symbolic": {
+        "image": "the king of mind, stainless when the full moon has risen",
+        "readings": [
+          {
+            "referent": "the lord of yogis (rnal 'byor gyi dbang phyug), named in apposition with it, who becomes utterly stainless when the moon-disc of bodhicitta rises by the guru's kindness",
+            "per": "Munidatta",
+            "where": [
+              "cp.24.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "lord of yogis",
+        "yogi"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "klesa",
       "type": "term",
       "status": "proposed",
@@ -16444,6 +16714,57 @@
       },
       "matchRe": {},
       "definition": "'Great Vehicle': the Buddhist way that takes buddhahood for the sake of all beings as its goal; the tantras present themselves as part of it. In the Rativajra verse Munidatta quotes, this excellent path is 'the great rise of the Mahāyāna', by which you will become tathāgatas (cp.15.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "mala",
+      "type": "term",
+      "status": "proposed",
+      "en": "stain",
+      "alt": [
+        "stains",
+        "stainless"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དྲི་མ",
+          "translit": "dri ma",
+          "lemma": "dri ma",
+          "att": "AS",
+          "where": "cp.24.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་མ་མེད",
+          "translit": "dri ma med",
+          "lemma": "dri ma med pa",
+          "att": "AS",
+          "where": "cp.24.1b"
+        }
+      ],
+      "match": {
+        "bod": [
+          "དྲི་མ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A stain or impurity (Tibetan dri ma, regularly for Sanskrit mala): in Buddhist usage the defilements that cloud the mind; a mind free of them is stainless (dri ma med). In song 24 the king of mind is stainless and the guru's word cuts the stain of delusion; Munidatta says the lord of yogis becomes utterly stainless (cp.24.m2).",
       "symbolic": {
         "image": "",
         "readings": []
@@ -21979,6 +22300,14 @@
           "lemma": "kṛṣṇācāryacaraṇa",
           "att": "AS",
           "where": "cp.19.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཱཧྞ་པ་ཡིས",
+          "translit": "kAh+Na pa yis",
+          "lemma": "kAh+Na pa",
+          "att": "AS",
+          "where": "cp.24.5b"
         }
       ],
       "match": {
@@ -22018,7 +22347,8 @@
           "ནག་པོ་སྤྱོད་པས",
           "ནག་པོ་སྤྱོད་པ་པ",
           "ནག་པོ་ཞབས",
-          "ནག་པོ་སྤྱོད་པ"
+          "ནག་པོ་སྤྱོད་པ",
+          "ཀཱཧྞ་པ"
         ]
       },
       "matchRe": {},
@@ -25749,6 +26079,59 @@
       }
     },
     {
+      "id": "prasada",
+      "type": "term",
+      "status": "proposed",
+      "en": "grace",
+      "alt": [
+        "kindness"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "yoginīprasādād",
+          "lemma": "prasāda",
+          "att": "AS",
+          "where": "cp.19.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "drin",
+          "lemma": "drin",
+          "att": "AO",
+          "where": "cp.19.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "প্রসাদ"
+        ],
+        "bod": [
+          "དྲིན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Grace or favour (Sanskrit prasāda; Tibetan drin): the kindness of a teacher or deity through which realization comes. Munidatta often speaks of what is gained by the guru's grace; in song 19 he introduces the last couplet as the conduct of the lord of yogis that comes from the yoginī's grace (cp.19.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "pulinda",
       "type": "term",
       "status": "proposed",
@@ -28207,6 +28590,119 @@
       }
     },
     {
+      "id": "seed",
+      "type": "term",
+      "status": "proposed",
+      "en": "seed",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ས་བོན",
+          "translit": "sa bon",
+          "lemma": "sa bon",
+          "att": "AS",
+          "where": "cp.24.3a"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ས་བོན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A seed (Tibetan sa bon, regularly for Sanskrit bīja); in Buddhist thought also a latent potential, and in the tantras the syllable from which a deity arises. Song 24 speaks of a seed like the sky. Munidatta calls the verse a teaching on the power of the seed of dharma, born from the mind whose nature is clear light (cp.24.m4).",
+      "symbolic": {
+        "image": "a seed like the sky",
+        "readings": [
+          {
+            "referent": "the seed of dharma (chos kyi sa bon), whose power the verse teaches: the seed equal to the sky, born from the mind whose nature is clear light",
+            "per": "Munidatta",
+            "where": [
+              "cp.24.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "clear light",
+        "seed of dharma"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "shade",
+      "type": "term",
+      "status": "proposed",
+      "en": "shade",
+      "alt": [
+        "shadow"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གྲིབ་མས",
+          "translit": "grib mas",
+          "lemma": "grib ma",
+          "att": "AS",
+          "where": "cp.24.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲིབ་མ",
+          "translit": "grib ma",
+          "lemma": "grib ma",
+          "att": "AS",
+          "where": "cp.24.m4"
+        }
+      ],
+      "match": {
+        "bod": [
+          "གྲིབ་མ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Shade or shadow (Tibetan grib ma). In song 24 the three worlds are pervaded by shade from one's own tree. Munidatta equates the shade of one's own tree with the sky-like seed's own nature, utterly luminous, and speaks of the lord of yogis pervading the three worlds with rays of knowledge (cp.24.m4).",
+      "symbolic": {
+        "image": "the shade from one's own tree, which pervades the three worlds",
+        "readings": [
+          {
+            "referent": "the nature of the sky-like seed, utterly luminous ('od rab tu gsal ba); its pervading the three worlds is the lord of yogis pervading them with the rays of knowledge (ye shes kyi 'od zer)",
+            "per": "Munidatta",
+            "where": [
+              "cp.24.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "luminosity",
+        "clear light",
+        "rays of knowledge"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "siddha",
       "type": "term",
       "status": "proposed",
@@ -28498,6 +28994,48 @@
       },
       "matchRe": {},
       "definition": "The lion's roar (siṃhanāda): in Buddhist texts, the Buddha's fearless proclamation of the teaching, which silences opponents as a lion's roar silences other animals. Munidatta sets 'the lion's roar of emptiness' beside the hero's sound of Kāṇha's unstruck ḍamaru (cp.11.m2); the Tibetan has stong pa nyid seng ge'i sgra.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "sixteen-digits",
+      "type": "term",
+      "status": "proposed",
+      "en": "sixteen digits",
+      "alt": [
+        "sixteen parts"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཆ་བཅུ་དྲུག",
+          "translit": "cha bcu drug",
+          "lemma": "cha bcu drug",
+          "att": "AS",
+          "where": "cp.24.m2"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ཆ་བཅུ་དྲུག"
+        ]
+      },
+      "matchRe": {},
+      "definition": "In Indian tradition the moon has sixteen digits (Sanskrit kalā), the portions by which it waxes; all are present at the full moon. Munidatta speaks of the moon-disc of bodhicitta 'endowed with sixteen digits' (cha bcu drug dang ldan pa), rising at the time of the full moon of song 24 (cp.24.m2).",
       "symbolic": {
         "image": "",
         "readings": []
@@ -29440,6 +29978,22 @@
           "lemma": "rabi",
           "att": "AS",
           "where": "cp.11.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉིན་བྱེད",
+          "translit": "nyin byed",
+          "lemma": "nyin byed",
+          "att": "AS",
+          "where": "cp.24.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉིན་མོར་བྱེད་པ",
+          "translit": "nyin mor byed pa",
+          "lemma": "nyin mor byed pa",
+          "att": "AS",
+          "where": "cp.24.m5"
         }
       ],
       "match": {
@@ -29451,7 +30005,9 @@
           "সূর্য্য"
         ],
         "bod": [
-          "ཉི་མ"
+          "ཉི་མ",
+          "ཉིན་བྱེད",
+          "ཉིན་མོར་བྱེད་པ"
         ]
       },
       "matchRe": {
@@ -29974,6 +30530,69 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "swan-king",
+      "type": "term",
+      "status": "proposed",
+      "en": "swan king",
+      "alt": [
+        "king of swans"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ངང་པའི་རྒྱལ་པོ",
+          "translit": "ngang pa'i rgyal po",
+          "lemma": "ngang pa'i rgyal po",
+          "att": "AS",
+          "where": "cp.24.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དང་པའི་རྒྱལ་པོས",
+          "translit": "dang pa'i rgyal pos (apparently an error for ngang pa'i rgyal pos)",
+          "lemma": "ngang pa'i rgyal po",
+          "att": "AS",
+          "where": "cp.24.5a"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ངང་པའི་རྒྱལ་པོ",
+          "དང་པའི་རྒྱལ་པོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The king of swans (Tibetan ngang pa'i rgyal po; ngang pa regularly renders Sanskrit haṃsa, a goose or swan). Indian poetry credits the bird with separating milk from water and drinking only the milk. Munidatta gives this outward example for song 24's swan king, then turns to the supreme yogin who eats existence without taking it up (cp.24.m6).",
+      "symbolic": {
+        "image": "the swan king that separates milk from water",
+        "readings": [
+          {
+            "referent": "outwardly, the swan king separates water mixed with milk and drinks the milk; so the supreme yogin (the comment addresses Kāṇha himself), understanding the nature of existence through reality itself, is to eat existence and not take it up",
+            "per": "Munidatta",
+            "where": [
+              "cp.24.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "yogin",
+        "yogi",
+        "supreme yogin"
+      ],
       "texts": [
         "charyapada"
       ],
@@ -31402,6 +32021,22 @@
           "lemma": "ljon shing",
           "att": "AO",
           "where": "cp.05.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང",
+          "translit": "shing",
+          "lemma": "shing",
+          "att": "AS",
+          "where": "cp.24.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང་ལྗོན་པའི",
+          "translit": "shing ljon pa'i",
+          "lemma": "shing ljon pa",
+          "att": "AS",
+          "where": "cp.24.m4"
         }
       ],
       "match": {
@@ -31416,10 +32051,15 @@
         "bod": [
           "ལྗོན་པའི",
           "ལུས་ལྗོན་ཤིང",
-          "ལྗོན་ཤིང"
+          "ལྗོན་ཤིང",
+          "ཤིང་ལྗོན་པ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<=རང་གི་)ཤིང(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
+        ]
+      },
       "definition": "A tree (Old Bengali rukha, from Sanskrit vṛkṣa). In song 2 a crocodile eats the tamarind of the tree. The plain word is distinct from taruvara, 'fine tree', in song 1, though Munidatta reads both trees as the body.",
       "symbolic": {
         "image": "the tree whose tamarind the crocodile eats",
@@ -32173,6 +32813,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.18.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་བྱང་ཆུབ་པ",
+          "translit": "ye shes byang chub pa",
+          "lemma": "ye shes byang chub pa",
+          "att": "AS",
+          "where": "cp.24.m6"
         }
       ],
       "match": {
@@ -32180,7 +32828,8 @@
           "জ্ঞানসম্বোধ"
         ],
         "bod": [
-          "ཡེ་ཤེས་ཡང་དག་པར་བྱང་ཆུབ་པ"
+          "ཡེ་ཤེས་ཡང་དག་པར་བྱང་ཆུབ་པ",
+          "ཡེ་ཤེས་བྱང་ཆུབ་པ་ལས"
         ]
       },
       "matchRe": {},
@@ -35461,11 +36110,13 @@
           "বীরঃ",
           "বীরা"
         ],
+        "bod": []
+      },
+      "matchRe": {
         "bod": [
-          "དཔའ་བོ"
+          "(?<=^|[\\u0F04-\\u0F14\\s])དཔའ་བོ(?!འི་ཏི་ལ)(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|འམ|འང|འུ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
         ]
       },
-      "matchRe": {},
       "definition": "Hero; in the yoginī tantras also a title of the male adept, the partner of the yoginīs. The poet of song 4 calls himself a hero in kundura; Munidatta says he is one because he has crushed the enemy, the afflictions (cp.04.m6). The Tibetan translation of the line has no separate word for 'hero'.",
       "symbolic": {
         "image": "",

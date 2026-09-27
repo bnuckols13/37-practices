@@ -1,0 +1,664 @@
+{
+  "unit": "cp.24",
+  "proposals": [
+    {
+      "id": "full-moon",
+      "type": "term",
+      "en": "full moon",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཟླ་བ་གང་བ",
+          "translit": "zla ba gang ba",
+          "lemma": "zla ba gang ba",
+          "att": "AS",
+          "where": "cp.24.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཟླ་བ་གང་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The full moon (Tibetan zla ba gang ba). Song 24 opens with the full moon risen, when the king of mind is stainless. Munidatta explains it as the moon-disc of bodhicitta, complete with its sixteen digits, which rises by the guru's kindness (cp.24.m2). Compare the entries for the moon and the sixteen digits.",
+      "symbolicImage": "the full moon, at whose rising the king of mind is stainless",
+      "symbolicReadings": [
+        {
+          "referent": "the moon-disc (zla ba'i dkyil 'khor) of bodhicitta, endowed with sixteen digits, which rises by the guru's kindness; at that time the lord of yogis, the king of mind, becomes utterly stainless",
+          "per": "Munidatta",
+          "where": [
+            "cp.24.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "moon-disc",
+        "maṇḍala"
+      ],
+      "rationale": "The opening image of song 24, which Munidatta reads apart from the plain moon, so a separate entry can carry his reading without touching the moon entry."
+    },
+    {
+      "id": "sixteen-digits",
+      "type": "term",
+      "en": "sixteen digits",
+      "policy": "translate",
+      "alt": [
+        "sixteen parts"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཆ་བཅུ་དྲུག",
+          "translit": "cha bcu drug",
+          "lemma": "cha bcu drug",
+          "att": "AS",
+          "where": "cp.24.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཆ་བཅུ་དྲུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "In Indian tradition the moon has sixteen digits (Sanskrit kalā), the portions by which it waxes; all are present at the full moon. Munidatta speaks of the moon-disc of bodhicitta 'endowed with sixteen digits' (cha bcu drug dang ldan pa), rising at the time of the full moon of song 24 (cp.24.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical number in Munidatta's gloss on the full moon that a reader cannot follow without explanation; 'digits' is the usual English for the moon's kalās."
+    },
+    {
+      "id": "king-of-mind",
+      "type": "term",
+      "en": "king of mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སེམས་ཀྱི་རྒྱལ་པོ",
+          "translit": "sems kyi rgyal po",
+          "lemma": "sems kyi rgyal po",
+          "att": "AS",
+          "where": "cp.24.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སེམས་ཀྱི་རྒྱལ་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The mind spoken of as a king (Tibetan sems kyi rgyal po; the Bengali original is lost). In song 24 the king of mind is stainless once the full moon has risen. Munidatta names the lord of yogis and the king of mind together, as the one who becomes utterly stainless when the moon-disc of bodhicitta rises (cp.24.m2).",
+      "symbolicImage": "the king of mind, stainless when the full moon has risen",
+      "symbolicReadings": [
+        {
+          "referent": "the lord of yogis (rnal 'byor gyi dbang phyug), named in apposition with it, who becomes utterly stainless when the moon-disc of bodhicitta rises by the guru's kindness",
+          "per": "Munidatta",
+          "where": [
+            "cp.24.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "lord of yogis",
+        "yogi"
+      ],
+      "rationale": "A fixed phrase distinct from both 'mind' (citta) and 'king' (thakura), and its own longer literal keeps the plain rgyal po from being read as the king of the game."
+    },
+    {
+      "id": "mala",
+      "type": "term",
+      "en": "stain",
+      "policy": "translate",
+      "alt": [
+        "stains",
+        "stainless"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དྲི་མ",
+          "translit": "dri ma",
+          "lemma": "dri ma",
+          "att": "AS",
+          "where": "cp.24.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་མ་མེད",
+          "translit": "dri ma med",
+          "lemma": "dri ma med pa",
+          "att": "AS",
+          "where": "cp.24.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དྲི་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A stain or impurity (Tibetan dri ma, regularly for Sanskrit mala): in Buddhist usage the defilements that cloud the mind; a mind free of them is stainless (dri ma med). In song 24 the king of mind is stainless and the guru's word cuts the stain of delusion; Munidatta says the lord of yogis becomes utterly stainless (cp.24.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal word used three times in the unit (1b, the refrain, cp.24.m2), kept apart from 'the stainless' (nirañjana), which the Tibetan renders differently."
+    },
+    {
+      "id": "dim-sight",
+      "type": "term",
+      "en": "dim sight",
+      "policy": "translate",
+      "alt": [
+        "dimness of sight",
+        "cataract"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རབ་རིབ",
+          "translit": "rab rib",
+          "lemma": "rab rib",
+          "att": "AS",
+          "where": "cp.24.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རབ་རིབ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Dimness of sight (Tibetan rab rib, regularly for Sanskrit timira): an eye disorder in which one sees hairs, specks or a double moon that are not there, and so a stock Buddhist image of false appearance. In song 24 the sun clears the dim sight of delusion in the ocean of existence; Munidatta's comment does not single the word out.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A medical image with a long philosophical history that a reader needs explained; 'dim sight' keeps it plain without the modern clinical sense of 'cataract'."
+    },
+    {
+      "id": "seed",
+      "type": "term",
+      "en": "seed",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ས་བོན",
+          "translit": "sa bon",
+          "lemma": "sa bon",
+          "att": "AS",
+          "where": "cp.24.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ས་བོན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A seed (Tibetan sa bon, regularly for Sanskrit bīja); in Buddhist thought also a latent potential, and in the tantras the syllable from which a deity arises. Song 24 speaks of a seed like the sky. Munidatta calls the verse a teaching on the power of the seed of dharma, born from the mind whose nature is clear light (cp.24.m4).",
+      "symbolicImage": "a seed like the sky",
+      "symbolicReadings": [
+        {
+          "referent": "the seed of dharma (chos kyi sa bon), whose power the verse teaches: the seed equal to the sky, born from the mind whose nature is clear light",
+          "per": "Munidatta",
+          "where": [
+            "cp.24.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light",
+        "seed of dharma"
+      ],
+      "rationale": "A central image of couplet 3 with a reading in the commentary, and a word with technical senses a reader should be told about."
+    },
+    {
+      "id": "shade",
+      "type": "term",
+      "en": "shade",
+      "policy": "translate",
+      "alt": [
+        "shadow"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གྲིབ་མས",
+          "translit": "grib mas",
+          "lemma": "grib ma",
+          "att": "AS",
+          "where": "cp.24.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲིབ་མ",
+          "translit": "grib ma",
+          "lemma": "grib ma",
+          "att": "AS",
+          "where": "cp.24.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གྲིབ་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Shade or shadow (Tibetan grib ma). In song 24 the three worlds are pervaded by shade from one's own tree. Munidatta equates the shade of one's own tree with the sky-like seed's own nature, utterly luminous, and speaks of the lord of yogis pervading the three worlds with rays of knowledge (cp.24.m4).",
+      "symbolicImage": "the shade from one's own tree, which pervades the three worlds",
+      "symbolicReadings": [
+        {
+          "referent": "the nature of the sky-like seed, utterly luminous ('od rab tu gsal ba); its pervading the three worlds is the lord of yogis pervading them with the rays of knowledge (ye shes kyi 'od zer)",
+          "per": "Munidatta",
+          "where": [
+            "cp.24.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "luminosity",
+        "clear light",
+        "rays of knowledge"
+      ],
+      "rationale": "A paradoxical image (a shade that Munidatta calls luminous) whose reading is stated in the commentary and must stay out of the line."
+    },
+    {
+      "id": "swan-king",
+      "type": "term",
+      "en": "swan king",
+      "policy": "translate",
+      "alt": [
+        "king of swans"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ངང་པའི་རྒྱལ་པོ",
+          "translit": "ngang pa'i rgyal po",
+          "lemma": "ngang pa'i rgyal po",
+          "att": "AS",
+          "where": "cp.24.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དང་པའི་རྒྱལ་པོས",
+          "translit": "dang pa'i rgyal pos (apparently an error for ngang pa'i rgyal pos)",
+          "lemma": "ngang pa'i rgyal po",
+          "att": "AS",
+          "where": "cp.24.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ངང་པའི་རྒྱལ་པོ"
+        },
+        {
+          "lang": "bod",
+          "form": "དང་པའི་རྒྱལ་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The king of swans (Tibetan ngang pa'i rgyal po; ngang pa regularly renders Sanskrit haṃsa, a goose or swan). Indian poetry credits the bird with separating milk from water and drinking only the milk. Munidatta gives this outward example for song 24's swan king, then turns to the supreme yogin who eats existence without taking it up (cp.24.m6).",
+      "symbolicImage": "the swan king that separates milk from water",
+      "symbolicReadings": [
+        {
+          "referent": "outwardly, the swan king separates water mixed with milk and drinks the milk; so the supreme yogin (the comment addresses Kāṇha himself), understanding the nature of existence through reality itself, is to eat existence and not take it up",
+          "per": "Munidatta",
+          "where": [
+            "cp.24.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "yogin",
+        "yogi",
+        "supreme yogin"
+      ],
+      "rationale": "The image of the bhaṇitā couplet, whose line reading is corrupt (dang pa'i) and is fixed by Munidatta's lemma, so both spellings are matched."
+    },
+    {
+      "id": "avarana",
+      "type": "term",
+      "en": "obscuration",
+      "policy": "translate",
+      "alt": [
+        "obscurations"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྒྲིབ་པ",
+          "translit": "sgrib pa",
+          "lemma": "sgrib pa",
+          "att": "AS",
+          "where": "cp.24.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲིབ་པ",
+          "translit": "sgrib pa",
+          "lemma": "sgrib pa",
+          "att": "AS",
+          "where": "cp.24.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྒྲིབ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An obscuration (Tibetan sgrib pa, regularly for Sanskrit āvaraṇa): whatever veils the mind and blocks liberation, above all the afflictions. Munidatta says that by the guru's word the obscurations of delusion and the rest flee (cp.24.m3), and that for one who bows to the true guru's feet those of delusion, hatred and the rest go far away (cp.24.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard doctrinal term that Munidatta uses twice in this unit for what the guru's word and the rising sun dispel."
+    },
+    {
+      "id": "jnana",
+      "type": "term",
+      "en": "knowledge",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས",
+          "translit": "ye shes",
+          "lemma": "ye shes",
+          "att": "AS",
+          "where": "cp.24.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཡེ་ཤེས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Knowledge (Tibetan ye shes, regularly for Sanskrit jñāna): in tantric usage the nondual awareness that realization reveals, as distinct from ordinary cognition. Munidatta says the lord of yogis pervades the three worlds with the rays of knowledge (cp.24.m4). Compare wisdom-knowledge (prajñājñāna) and knowledge (vidyā), a different word.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core doctrinal term with no entry of its own yet; 'knowledge' follows the glossary's existing renderings of jñāna (wisdom-knowledge, false knowledge, rays of knowledge)."
+    },
+    {
+      "id": "surya",
+      "type": "term",
+      "en": "sun",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཉིན་བྱེད",
+          "translit": "nyin byed",
+          "lemma": "nyin byed",
+          "att": "AS",
+          "where": "cp.24.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉིན་མོར་བྱེད་པ",
+          "translit": "nyin mor byed pa",
+          "lemma": "nyin mor byed pa",
+          "att": "AS",
+          "where": "cp.24.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཉིན་བྱེད"
+        },
+        {
+          "lang": "bod",
+          "form": "ཉིན་མོར་བྱེད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The sun. Song 24 (4a) calls it nyin byed, 'day-maker', a poetic Tibetan name, and Munidatta's comment has nyin mor byed pa (cp.24.m5). This proposal only adds these two forms to the existing entry.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan forms for the existing sun entry, which so far lists only nyi ma."
+    },
+    {
+      "id": "tree",
+      "type": "term",
+      "en": "tree",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཤིང",
+          "translit": "shing",
+          "lemma": "shing",
+          "att": "AS",
+          "where": "cp.24.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང་ལྗོན་པའི",
+          "translit": "shing ljon pa'i",
+          "lemma": "shing ljon pa",
+          "att": "AS",
+          "where": "cp.24.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཤིང་ལྗོན་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=རང་གི་)ཤིང(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
+        }
+      ],
+      "definition": "A tree. Song 24 (3b) speaks of shade from one's own tree (rang gi shing), and the comment has shing ljon pa (cp.24.m4). This proposal only adds these forms. Bare shing is not matched: it also means 'wood' and is a common connective particle.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan forms for the existing tree entry, with shing matched only after rang gi so that it cannot hit the particle shing."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མཁའ",
+          "translit": "mkha'",
+          "lemma": "mkha'",
+          "att": "AS",
+          "where": "cp.24.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])མཁའ(?=\\u0F0B(?:མཚུངས|མཉམ))"
+        }
+      ],
+      "definition": "Sky. Song 24 (3a) uses the short form mkha' in mkha' mtshungs, 'like the sky', and mkha' mnyam, 'equal to the sky'. This proposal only adds that form. Bare mkha' is not matched, since it also begins mkha' 'gro (ḍākinī) and mkha' lding (garuḍa).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new short Tibetan form of the existing sky entry, matched only before mtshungs or mnyam."
+    },
+    {
+      "id": "indriya",
+      "type": "term",
+      "en": "senses",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དབང་པོ",
+          "translit": "dbang po",
+          "lemma": "dbang po",
+          "att": "AS",
+          "where": "cp.24.2b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=ཡུལ་དང་)དབང་པོ(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])དབང་པོ(?=\\u0F0Bལྔ)"
+        }
+      ],
+      "definition": "The senses or sense faculties. Song 24 (2b) pairs objects and faculties (yul dang dbang po). This proposal only adds dbang po, matched only after yul dang or before lnga, 'five', since dbang po alone also means 'lord'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The existing entry has only the genitive dbang po'i, and the plain form needs a guarded match because it also means 'lord'."
+    },
+    {
+      "id": "dhruvapada",
+      "type": "term",
+      "en": "refrain",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དྷཱའི་རྐང་པ",
+          "translit": "d+hA'i rkang pa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.24.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དྷཱའི་རྐང་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The refrain. Munidatta's Tibetan introduces the refrain of song 24 as d+hA'i rkang pa (cp.24.m3), apparently a corrupt transcription of dhru(va) beside d+hU'i and d+h+rU'i elsewhere. This proposal only adds that form.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new spelling of the refrain's name in the Tibetan comment, which the existing forms do not match."
+    },
+    {
+      "id": "tx-jnanasambodhi",
+      "type": "text",
+      "en": "Jñānasaṃbodhi",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་བྱང་ཆུབ་པ",
+          "translit": "ye shes byang chub pa",
+          "lemma": "ye shes byang chub pa",
+          "att": "AS",
+          "where": "cp.24.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཡེ་ཤེས་བྱང་ཆུབ་པ་ལས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The work Munidatta cites as the Jñānasaṃbodhi. In song 24 the Tibetan introduces a half-verse with 'also from the ye shes byang chub pa' (cp.24.m6), apparently a shorter rendering of the title given in song 18. The half-verse speaks of neither existence nor nirvāṇa, from realizing truly as it is.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new Tibetan form of the title, which reads ye shes yang dag par byang chub pa in the existing entry."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀཱཧྞ་པ་ཡིས",
+          "translit": "kAh+Na pa yis",
+          "lemma": "kAh+Na pa",
+          "att": "AS",
+          "where": "cp.24.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཀཱཧྞ་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "ནག་པོ་སྤྱོད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Kāṇha (Kṛṣṇācārya), the poet of song 24, who names himself kAh+Na pa in its last line. This proposal only adds that instrumental form; his other names in the unit (nag po spyod pa'i zhabs, nag po spyod pa pa, nag po spyod pa) are already listed.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The only surface form of the poet's name in this unit that the entry does not already list."
+    }
+  ],
+  "questions": [
+    "Rāga (cp.24.h1): I cannot identify dpa' bo'i ti la, so I proposed no entry. dpa' bo, 'hero', may translate an Indic vīra, as elsewhere in Toh 2293, and ti la looks like a transcription, but no rāga of that name is among the headings in the glossary. I suggest keeping it in Wylie in the heading ('dpa' bo'i ti la'). If the vira entry matches དཔའ་བོ, it will wrongly tag the rāga name. Do you know a source that names this rāga?",
+    "Swan king (cp.24.5a): the line reads dang pa'i rgyal pos, but Munidatta's lemma in cp.24.m6 reads ngang pa'i rgyal po, so I took dang pa'i as a scribal error. I listed it as a marked form and matched it so the line is tagged. Please confirm.",
+    "cp.24.5a chu bo: the river entry lists chu bo, but here it seems to mean the water that the swan separates from milk (cp.24.m6 has chu dang 'o ma). The drafter probably should not tag it 'river'.",
+    "'Stainless' (dri ma med, cp.24.1b, cp.24.m2) should not be tagged niranjana ('the stainless'). Elsewhere the Tibetan renders nirañjana as mig sman med pa or dmigs pa med pa, and whether the lost original had nirañjana, vimala or nirmala cannot be known. I proposed 'mala' (stain) instead.",
+    "thakura ('king') lists rgyal po as a Tibetan form. If rgyal po is in its match list, it will claim the plain rgyal po in cp.24.m1 (bde ba chen po'i rgyal po). The longer literals I proposed (king of mind, swan king) protect cp.24.1b, cp.24.5a and cp.24.m6.",
+    "The new 'jnana' entry and the existing 'vidya' entry both have the English 'knowledge'. I kept 'knowledge' to match the glossary's rays of knowledge and wisdom-knowledge. 'gnosis' would separate the two if you prefer. In cp.24.m5, ye shes kyi gti mug ('the delusion of knowledge') looks corrupt, perhaps for ye shes kyis, 'by knowledge'. I did not cite it.",
+    "Some Tibetan forms here already appear in the glossary as AO (or AD), taken from the parallel. Here they are attested in the reading text, but I did not re-add them: gti mug (moha), nam mkha'/nam mkhar (gagana), khams gsum and 'jig rten gsum po (trailokya), bla ma (guru), yul (visaya), srid pa (bhava), srid mtsho and srid pa'i rgya mtsho (ocean), 'od gsal (prabhasvara), byang chub kyi sems (bodhicitta), bde ba chen po'i (mahasukha), rnal 'byor gyi dbang phyug (yogindra), zhe sdang (dvesa), blo gros (mati), mtshan mo (night), myang 'das (nirvana), rkang pa (pada), sa ra ha'i zhabs (p-saraha), and nag po spyod pa'i zhabs / nag po spyod pa pa (p-kanha). Should AS attestations be recorded for the songs that survive only in Tibetan?",
+    "Sky (cp.24.3a): mkha' mtshungs, 'like the sky', and mkha' mnyam, 'equal to the sky', may render a single Indic expression. 'Sky-like' (khasama) is a common expression in the dohās. Because the Bengali is lost, I only added mkha' as a form of gagana and did not propose a separate entry.",
+    "tx-jnanasambodhi (cp.24.m6): ye shes byang chub pa las kyang has seven syllables, like the two lines after it, so it could be the first line of the quoted verse ('even from the awakening of knowledge') rather than a title. I took it as the title because it follows the pattern of cp.24.m3 ('de bzhin du X kyis kyang'). If it is verse, drop this form and its match.",
+    "Shade (cp.24.m4): I read de'i rang bzhin 'od rab tu gsal ba ni rang gi shing ljon pa'i grib ma as an equation: the luminous nature is 'the shade of one's own tree'. The ni could also just mark a topic, with the shade then glossed only by the following clause about the rays of knowledge. The reading as proposed covers both parts."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "9c271dc4737e18dbc75bf2a8e77e62c1dbae21f9e6c2faabe79e446b1c81ac72",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "f08c01d66dfbbae085e3fe161d69f7f5e5ff8a801ef1dde1ba28b86ee251c0f9",
+    "sourceSha": "13206f1471f085809cd4832882b5a025d21f109184842aa1a716d9093ff2121d"
+  }
+}

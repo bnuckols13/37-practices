@@ -177,7 +177,7 @@ html[data-display="bilingual"] .sidenote, html[data-display="study"] .sidenote {
 .glpanel__def { margin: 0 0 10px; }
 .glpanel__sym { margin: 0 0 10px; font-style: italic; font-size: 17px; color: var(--muted); }
 .glpanel__where { margin: 0 0 8px; font-size: 16px; color: var(--muted); }
-abbr.att { font-variant-caps: all-small-caps; letter-spacing: .05em; color: var(--muted); text-decoration: none; cursor: help; }
+.src-of { color: var(--muted); }
 .preview { position: absolute; z-index: 55; width: min(20rem, calc(100vw - 32px)); padding: 10px 14px; background: var(--raised); border: 1px solid var(--rule); font-size: 15.5px; line-height: 1.5; pointer-events: none; }
 .preview b { display: block; font-size: 17px; }
 .preview i { color: var(--muted); }
@@ -269,7 +269,6 @@ abbr.att { font-variant-caps: all-small-caps; letter-spacing: .05em; color: var(
 .gentry p { margin: 3px 0; font-size: 17.5px; }
 .gentry .forms, .gentry .where { color: var(--muted); font-size: 16.5px; }
 .gentry .sym { font-style: italic; }
-.prose .legend { margin-top: 44px; font-size: 15px; color: var(--muted); }
 .shelf { list-style: none; margin: 40px 0 0; padding: 0; }
 .shelf li { padding: 14px 0 20px; text-align: center; }
 .shelf__orig { margin: 0; font-size: 26px; line-height: 1.3; }

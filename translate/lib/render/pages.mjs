@@ -8,7 +8,7 @@
 import { passageNo, unitId } from '../ids.mjs';
 import * as markup from '../markup.mjs';
 import { esc, attr, page, breadcrumbLd, site } from './shell.mjs';
-import { ATT_TITLES, fileOf, groupAnchor } from './ctx.mjs';
+import { fileOf, groupAnchor } from './ctx.mjs';
 import { soundProfile, cleanLine, lineEnd } from '../sound.mjs';
 
 export { fileOf };
@@ -353,7 +353,7 @@ export function glossaryPage(ctx, v) {
   const byLetter = new Map();
   for (const e of list) { const L = fold(e.en).charAt(0).toUpperCase() || '#'; (byLetter.get(L) || byLetter.set(L, []).get(L)).push(e); }
   const entry = e => {
-    const forms = e.forms.map(f => `${esc(ctx.langName(f.lang))} ${f.script ? `<span lang="${attr(ctx.htmlLang(f.lang))}">${esc(f.script)}</span> ` : ''}<i>${esc(f.translit || f.wylie || '')}</i> <abbr class="att" title="${attr(ATT_TITLES[f.att] || '')}">${esc(f.att)}</abbr>`).join('; ');
+    const forms = e.forms.map(f => `${esc(ctx.langName(f.lang))} ${f.script ? `<span lang="${attr(ctx.htmlLang(f.lang))}">${esc(f.script)}</span> ` : ''}<i>${esc(f.translit || f.wylie || '')}</i>${ctx.formSource(f) ? ` <span class="src-of">(${esc(ctx.formSource(f))})</span>` : ''}`).join('; ');
     const bySong = new Map();
     for (const w of ctx.where.get(e.id) || []) (bySong.get(w.n) || bySong.set(w.n, []).get(w.n)).push(w);
     const where = [...bySong].map(([n, ws]) => `${esc(text.unitLabel.toLowerCase())} ${n} at ${andList(ws.map(w => `<a href="${attr(w.href)}">${esc(w.label)}</a>`))}`);
@@ -361,7 +361,7 @@ export function glossaryPage(ctx, v) {
     return `<article class="gentry" id="g-${attr(e.id)}" data-type="${attr(e.type)}">
   <div class="ghead"><h3>${esc(e.en)}</h3> <i class="ty">${esc(e.type)}${e.status !== 'approved' ? ', proposed (preview only)' : ''}</i></div>
   ${forms ? `<p class="forms">${forms}</p>` : ''}
-  ${e.definition ? `<p>${esc(e.definition)}</p>` : ''}
+  ${e.definition ? `<p>${esc(ctx.places.text(e.definition))}</p>` : ''}
   ${sym ? `<p class="sym">${esc(sym)}</p>` : ''}
   ${e.alt.length ? `<p class="forms">Also rendered as ${andList(e.alt.map(esc))}.</p>` : ''}
   ${where.length ? `<p class="where">In ${where.join('; ')}.</p>` : ''}
@@ -369,11 +369,10 @@ export function glossaryPage(ctx, v) {
   };
   const body = `<main class="prose" id="main">
   <h1>Glossary</h1>
-  <p class="lede">The entries are written for this edition. Each source form carries a code for how it is attested, and each reading of an image names who reads it so, and where.</p>
+  <p class="lede">The entries are written for this edition. Each source form says where it is found, and each reading of an image names who reads it so, and where.</p>
   <div class="gtools"><input type="search" id="gfilter" placeholder="Filter the glossary" aria-label="Filter the glossary">${types.length > 1 ? `<span class="gtypes" role="group" aria-label="Show"><button type="button" class="seg" data-type="all" aria-pressed="true">All</button>${types.map(t => `<button type="button" class="seg" data-type="${attr(t)}" aria-pressed="false">${esc(TYPE_PLURAL[t] || cap(t) + 's')}</button>`).join('')}</span>` : ''}</div>
   <nav class="alpha" aria-label="Jump to a letter">${[...byLetter.keys()].map(L => `<a href="#l-${attr(L)}">${esc(L)}</a>`).join('')}</nav>
 ${[...byLetter].map(([L, es]) => `  <h2 class="letter" id="l-${attr(L)}">${esc(L)}</h2>\n${es.map(entry).join('\n')}`).join('\n') || '  <p>No entries are published yet.</p>'}
-  <p class="legend">Attestation codes: ${Object.entries(ATT_TITLES).map(([k, t]) => `<abbr class="att">${k}</abbr> ${esc(t)}`).join('; ')}.</p>
 </main>`;
   return page({
     ...common(ctx, v), url, title: `Glossary · ${text.title.en}`, description: `Terms, names and images in ${text.title.en}, with their source forms and readings.`,
@@ -412,7 +411,6 @@ ${wits.map(w => `    <li>${esc(w.citation)}</li>`).join('\n')}
     <dt>॥</dt><dd>The double daṇḍa, which closes a couplet in the manuscript, separates couplets here.</dd>
     <dt><i>ā ṛ ṃ</i></dt><dd>Old Bengali and Sanskrit are transliterated in IAST from the edition’s Bengali script. Bengali script does not distinguish b from v, so some transliterations are editorial.</dd>
     ${tibetanWitness(text) ? `<dt><i>rgyud</i></dt><dd>Tibetan is transliterated in Wylie (the Extended Wylie scheme), by the Buddhist Digital Resource Center’s converter.</dd>` : ''}
-    <dt><abbr class="att">AS</abbr></dt><dd>How a source form is attested: ${Object.entries(ATT_TITLES).map(([k, t]) => `<abbr class="att">${k}</abbr> ${esc(t)}`).join('; ')}.</dd>
   </dl>
   <h2>Licence and credits</h2>
   ${licence}

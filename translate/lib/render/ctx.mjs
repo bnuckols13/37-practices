@@ -4,6 +4,7 @@ import { passageNo, partOf, pad } from '../ids.mjs';
 import * as markup from '../markup.mjs';
 import { config } from '../io.mjs';
 import { esc, attr } from './shell.mjs';
+import { makePlaces } from '../places.mjs';
 
 export const ATT_TITLES = {
   AS: 'attested in the source manuscript', AO: 'attested in other manuscripts', AD: 'attested in dictionaries',
@@ -43,6 +44,21 @@ export function makeCtx({ text, units, records, entries, preview }) {
     list.sort((a, b) => a.n - b.n || Number.parseInt(a.href.split('#c')[1], 10) - Number.parseInt(b.href.split('#c')[1], 10));
   }
 
+  // Readable places for ids ("Munidatta's comment on 1.1"), and where each source form comes from, in words.
+  const places = makePlaces({
+    prefix: text.idPrefix, unitLabel: text.unitLabel, groupLabel: text.segmentation.rule === 'caryagiti' ? 'couplet' : 'stanza',
+    commentator: text.commentary?.author || 'the commentary',
+    comments: Object.fromEntries(units.flatMap(u => u.commentary.map(c => [c.id, c.anchor === u.id ? '' : partOf(c.anchor)]))),
+  });
+  const formSource = f => {
+    const at = places.isId(f.where) ? places.long(f.where) : '';
+    return {
+      AS: at ? `in ${at}` : '',
+      AO: f.lang === 'bod' ? (at ? `in the Tibetan of ${at}` : 'in the Tibetan translation') : 'in another manuscript',
+      AD: 'from the dictionaries', AA: 'an approximation', RP: 'reconstructed from its sound', RS: 'reconstructed from its sense',
+    }[f.att] || '';
+  };
+
   // A reading cites commentary segments; readers see the passage the comment is on.
   const segAnchor = new Map(units.flatMap(u => u.commentary.map(c => [c.id, c.anchor])));
   const onPassage = sid => passageNo(segAnchor.get(sid) || sid);
@@ -52,8 +68,8 @@ export function makeCtx({ text, units, records, entries, preview }) {
     return (e.symbolic.image ? `Image: ${e.symbolic.image}. ` : '') + (rs.length ? `Read as ${rs.join('; ')}.` : '');
   };
   const popData = e => ({
-    en: e.en, type: e.type, def: e.definition, sym: symText(e),
-    forms: e.forms.map(f => ({ lang: langName(f.lang), html: htmlLang(f.lang), script: f.script, translit: f.translit || f.wylie || '', att: f.att, attTitle: ATT_TITLES[f.att] || '' })),
+    en: e.en, type: e.type, def: places.text(e.definition), sym: symText(e),
+    forms: e.forms.map(f => ({ lang: langName(f.lang), html: htmlLang(f.lang), script: f.script, translit: f.translit || f.wylie || '', src: formSource(f) })),
     where: (where.get(e.id) || []).map(w => ({ href: w.href, label: w.label })),
   });
 
@@ -64,7 +80,7 @@ export function makeCtx({ text, units, records, entries, preview }) {
   };
   const md = s => markup.render(s, termLink, esc);
 
-  return { text, units, unitById, records, entries, preview, publishable, where, langName, htmlLang, popData, md, symText, imprint, reviewer };
+  return { text, units, unitById, records, entries, preview, publishable, where, langName, htmlLang, popData, md, symText, imprint, reviewer, places, formSource };
 }
 
 /** The client-side search index for one text. */

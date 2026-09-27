@@ -172,6 +172,9 @@ test('render publishes only approved units, with popover data and a sitemap', ()
   assert.doesNotMatch(html, /fonts\.googleapis|fonts\.gstatic/, 'type is self-hosted');
   assert.match(html, /<div class="par"><p class="par__label">Tibetan<\/p><p class="par__src" lang="bo">།ལུས་ལྗོན་ཤིང་/, 'the study view carries the aligned Tibetan');
   assert.ok(fs.existsSync(path.join(process.env.SITE_ROOT, 'translations', 'assets', 'fonts', 'NotoSerifTibetan-Tibetan.woff2')));
+  const gloss = read(path.join(out, 'glossary.html'));
+  assert.match(gloss, /<i>tarubara<\/i> <span class="src-of">\(in song 1, line 1a\)<\/span>/, 'forms say where they are found, in words');
+  assert.doesNotMatch(gloss, /class="att"/, 'no attestation codes');
   const title = read(path.join(out, 'index.html'));
   assert.match(title, /How to read this edition/);
   assert.match(title, /<ol class="contents">/);

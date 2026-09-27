@@ -95,7 +95,7 @@ function closeDialog() { var d = $('#dialog'); if (d) { d.remove(); if (lastFocu
 var panel = null, pinned = null, preview = null, hoverTimer = null;
 function formsLine(e) {
   return el('p', { class: 'glpanel__forms' }, e.forms.map(function (f, i) {
-    return el('span', {}, [i ? '; ' : '', f.lang + ' ', el('span', { lang: f.html || null, text: f.script || '' }), f.script ? ' ' : '', el('i', { text: f.translit || '' }), f.att ? ' ' : '', f.att ? el('abbr', { class: 'att', title: f.attTitle, text: f.att }) : null]);
+    return el('span', {}, [i ? '; ' : '', f.lang + ' ', el('span', { lang: f.html || null, text: f.script || '' }), f.script ? ' ' : '', el('i', { text: f.translit || '' }), f.src ? el('span', { class: 'src-of', text: ' (' + f.src + ')' }) : null]);
   }));
 }
 function openPanel(a) {

@@ -1,0 +1,97 @@
+{
+  "unit": "cp.03",
+  "equivalents": [
+    {
+      "id": "gavara",
+      "line": "cp.03.h1",
+      "script": "ཆེན་པོ",
+      "wylie": "chen po",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan names the melody chen po, 'great', where the Bengali has Gavaṛā, as it also does for song 2; the word stands in the name's place rather than translating it, and why it says 'great' is unclear."
+    },
+    {
+      "id": "house",
+      "line": "cp.03.1a",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "bakala",
+      "line": "cp.03.1b",
+      "script": "ཕབས",
+      "wylie": "phabs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has phabs, 'yeast, brewing starter', where the Bengali has bark, naming the ingredient by its use; since the following dang rtsi med ('and without rtsi'?) has no clear counterpart, it is not certain whether phabs answers to bākalaa or to cīaṇa."
+    },
+    {
+      "id": "dasama-dvara",
+      "line": "cp.03.3a",
+      "script": "སྒོ་ནི་བཅུ་པར",
+      "wylie": "sgo ni bcu par",
+      "lemma": "sgo bcu pa",
+      "confidence": "clear",
+      "note": "The verse splits the phrase with the topic particle ni ('at the door, the tenth'), while Munidatta's Tibetan in cp.03.m4 has the unbroken sgo bcu pa."
+    },
+    {
+      "id": "vajramani",
+      "line": "cp.03.m2",
+      "script": "རྡོ་རྗེ་ནོར་བུའི",
+      "wylie": "rdo rje nor bu'i",
+      "lemma": "rdo rje nor bu",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "viramananda",
+      "line": "cp.03.m3",
+      "script": "སྣ་ཚོགས་པའི་དགའ་བ",
+      "wylie": "sna tshogs pa'i dga' ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the Sanskrit has viramānanda, 'joy of cessation', the Tibetan has sna tshogs pa'i dga' ba, 'joy of variety', a name that points to vicitra rather than virama, so the translators may have read a different word or ordered the joys differently (elsewhere the glossary records dga' bral and khyad par gyi dga' ba for this term)."
+    },
+    {
+      "id": "house",
+      "line": "cp.03.m4",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "In Kāṇha's verse the Tibetan renders gharaṇi ghare as khyim mi mo yi khyim na, 'in the house of the housewife', using khyim both for 'house' and in the word for 'housewife'."
+    },
+    {
+      "id": "kamala-rasa",
+      "line": "cp.03.m4",
+      "script": "ཆུ་སྐྱེས་ཀྱི་རོའི",
+      "wylie": "chu skyes kyi ro'i",
+      "lemma": "chu skyes kyi ro",
+      "confidence": "clear",
+      "note": "Here rasa is rendered ro, 'taste, savour', whereas the glossary records chu skyes khu ba, 'lotus juice', for the phrase in song 4."
+    }
+  ],
+  "questions": [
+    "abhasa (cp.03.m5): not matched. For ābhāsadvayanirodhāt, 'because it stops the two appearances', the Tibetan has སྣ་གཉིས་འགོག་པའི་ཕྱིར (sna gnyis 'gog pa'i phyir), 'because it stops the two noses (nostrils)'. The position fits but the sense does not: sna is either a slip for snang ('appearance', the form the glossary records) or a reading of nāsā, 'nose', the word the Tibetan uses for the upper and lower nāsā in cp.03.m2. I left it out so that 'nose' is not recorded as a Tibetan form of ābhāsa; the reviewer may want a witness note on m5.",
+    "bakala (cp.03.1b): I matched phabs ('yeast') as likely, but the line reads ཕབས་དང་རྩི་མེད (phabs dang rtsi med) for cīaṇa bākalaa, and I cannot tell which Tibetan element answers to which Bengali word. rtsi ('sap, juice, herbal extract') could also render the bark, with phabs answering to cīaṇa.",
+    "skandha (cp.03.2b): not listed for this line, but the refrain's kāndha (Munidatta's dṛḍhaskandha in m3) is rendered ཕུང་པོ (phung po, 'aggregate(s)') in the Tibetan verse, 'the aggregates, unchanging and firm'. The Tibetan thus reads the word as the Buddhist aggregates, where the Bengali may simply mean the body or the shoulder. The reviewer may want this as a witness note on 2b rather than as a glossary link.",
+    "sandhya-bhasa (cp.03.m2): not listed because the Sanskrit here has only vāruṇīti, but the Tibetan adds དགོངས་པའི་སྐད (dgongs pa'i skad, 'in twilight language') before chu bdag chang. It matches the explicit sandhyāvacanena of m3, so it may be the Tibetan's addition or a fuller reading of m2."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "e08850e3aa3ee77f8f4b7ce97ce0a3395609b91355509ae64d0f88d0c78d6b26",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "f1502f0bb5e1f26a52d3364cfd643246210835a30e1278d7ddfb1ad7e342b438",
+    "sourceSha": "a09b0dacc5479e3fc1d6b6ab16eb1f4f9cade370b18604c0bd70c318176bfb6f",
+    "parallelSha": "609c1a1bcd76a3a3f2c82aee72b34a518a9d37191ab183cecc5bc5c21e8a8dfc"
+  }
+}

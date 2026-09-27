@@ -4675,6 +4675,93 @@
       }
     },
     {
+      "id": "ksepa",
+      "type": "term",
+      "status": "proposed",
+      "en": "throw",
+      "alt": [
+        "throwing"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খেঁপহু",
+          "translit": "khem̐pahu",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.04.3a"
+        },
+        {
+          "lang": "san",
+          "script": "খেপেত্যাদি",
+          "translit": "khepetyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.04.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ক্ষেপাৎ",
+          "translit": "kṣepāt",
+          "lemma": "kṣepa",
+          "att": "AS",
+          "where": "cp.04.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འཕངས",
+          "translit": "'phangs",
+          "lemma": "'phen pa",
+          "att": "AO",
+          "where": "cp.04.3a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "খেঁপহু"
+        ],
+        "san": [
+          "খেপ",
+          "ক্ষেপ"
+        ],
+        "bod": [
+          "འཕངས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Throwing or casting (Sanskrit kṣepa; Old Bengali khem̐pa-, here an imperative). In song 4 the yoginī is told to throw; what she throws is not said. The Tibetan translation has 'phangs nas, ‘having thrown’, in the song and the comment. Munidatta takes the throw as union in her own place (svasthānayoga).",
+      "symbolic": {
+        "image": "the yoginī told to throw",
+        "readings": [
+          {
+            "referent": "union in her own place (svasthānayoga), from which she, the Nairātmā yoginī in the form of bodhicitta, enjoys play at the root of the jewel and rises to be absorbed into the wheel of great bliss",
+            "per": "Munidatta",
+            "where": [
+              "cp.04.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "union",
+        "own place",
+        "svasthāna",
+        "bodhicitta",
+        "Nairātmā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "kula-shore",
       "type": "term",
       "status": "proposed",
@@ -11053,6 +11140,60 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "svasthana",
+      "type": "term",
+      "status": "proposed",
+      "en": "own place",
+      "alt": [
+        "her own place",
+        "its own place"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বস্থানযোগাৎ",
+          "translit": "svasthānayogāt",
+          "lemma": "svasthāna",
+          "att": "AS",
+          "where": "cp.04.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་གནས",
+          "translit": "rang gi gnas",
+          "lemma": "rang gi gnas",
+          "att": "AO",
+          "where": "cp.04.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "স্বস্থান"
+        ],
+        "bod": [
+          "རང་གི་གནས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "‘One's own place’ (svasthāna): a phrase in Munidatta's glosses for the proper seat of the yoginī or avadhūtī. He explains the yoginī's throw in song 4 as union in her own place (cp.04.m4); the Kāmaru entry records her own place in the wheel of great bliss (cp.02.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },

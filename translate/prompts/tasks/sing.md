@@ -1,5 +1,5 @@
 ---
-version: 2
+version: 3
 ---
 # Task: sing
 
@@ -18,7 +18,7 @@ The whole edition rests on the accurate English. This version is its companion a
 5. **Sing shorter.** A sung line is almost always shorter than the accurate one. Cut what songs cut: articles, "that" and "there", "I have" and "it is", auxiliaries, prepositions that only explain. Keep every noun that is an image and every verb that acts. Give each line about four strong beats (rarely five) and let the weak syllables fall where English puts them, and keep the two halves of a couplet close in length. Say each line aloud in your head, at the pace of a song, before you keep it.
 6. **Keep the sounds that carry the song.** A name that rings through the song (Ḍombī), a word repeated or doubled in the source (*choi choi*), a call ("ālo", "hālo"), the refrain: repetition in the source is repetition in the English, with the same English word each time. Where a couplet cannot rhyme honestly, give it another of the sounds this poetry lives on: a word or name struck twice, alliteration, a chime inside the line, the two halves built alike. The refrain especially must be easy to sing back: short, strongly beaten, the same every time.
 7. **Find the voice, then keep it.** These are songs of wandering yogis: by turns teasing, erotic, fierce, riddling, rapt, blunt. Decide whose voice each song is in and to whom it is sung, and name it in `voice`. Plain living English: no archaisms (thee, lo, verily), no "O" before a name, no hymn diction, no Dharma vocabulary the source does not use. A call like "hey" keeps its bite.
-8. **Glossary terms.** You may mark terms with `[surface]{term-id}`; it is allowed, not required. A `keep-source` term stays in its source form (Ḍombī). A `translate` term may be sung with a different English word when the approved one will not sing; say so in that couplet's `kept`. Never use a rejected term.
+8. **Glossary terms.** You may mark terms with `[surface]{term-id}`; it is allowed, not required. A `keep-source` term stays in its source form (Ḍombī). Doctrinal terms (mind, great bliss, emptiness, the innate, the guru) keep their approved English exactly, so the teaching sounds the same in both layers and across all the songs. Only an everyday word (a boat, a hut, a cord) may be sung with a different English word when the approved one will not sing; say so in that couplet's `kept`. "Says" in the poet's self-naming stays "says". Never use a rejected term.
 9. **`refrainCue`**: the first three to six words of your sung refrain, exactly as they stand in its first line, to be printed after each later couplet as the cue to sing it again (the source marks this with ধ্রু). If the unit has no refrain, "".
 10. **Say what you did.** For every couplet, `kept` names in a sentence what the English keeps of the source's sound, image or feeling and how. `letGo` names what it gives up, if anything. Both 40 words or fewer, concrete, never self-praise. Put anything the reviewer must decide in `questions`.
 

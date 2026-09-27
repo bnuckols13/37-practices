@@ -110,6 +110,7 @@ html[data-display="sung"] .sung { display: block; margin: 0; padding-left: 1.3em
 html[data-display="sung"] .cue { display: block; margin: 1px 0 0; padding-left: 2.6em; font-style: italic; font-size: 17px; color: var(--muted); }
 html[data-display="sung"] .sungnote { display: block; margin: 7px 0 4px 1.3em; font-size: 15.5px; line-height: 1.5; color: var(--muted); }
 html[data-display="sung"] .voice { display: block; margin-top: 14px; margin-bottom: 0; font-size: 16.5px; }
+html[data-display="sung"] .voice.about { margin-top: 6px; font-size: 15px; font-style: italic; color: var(--muted); }
 .heard { margin: 0; font-style: italic; }
 .heard .rh { font-style: normal; color: var(--rubric); }
 .heard .sep { font-style: normal; color: var(--faint); }

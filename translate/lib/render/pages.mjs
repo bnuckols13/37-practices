@@ -112,6 +112,18 @@ function sungColophon(r, u) {
     + (ep ? ` after revising ${ep === couplets.size ? (ep === 1 ? 'its one couplet' : `all ${inWords(ep)} couplets`) : `${inWords(ep)} of its ${inWords(couplets.size)} couplets`}` : ', as drafted') + '.';
 }
 
+/**
+ * What the sung view reconstructs, said once: the manuscript names a rāga but
+ * no melody survives, and it marks the refrain (ধ্রু) without recording how
+ * the refrain was sung.
+ */
+function sungAbout(u, r) {
+  const parts = [];
+  if (u.raga) parts.push(`The manuscript names the rāga, ${esc(cap(u.raga))}; its melody is lost.`);
+  if (r.sung.refrainCue) parts.push('It marks the refrain with ধ্রু; singing it again after each later couplet, as cued here, follows how the tradition is thought to have sung it, not a record of it.');
+  return parts.length ? `<p class="voice about">${parts.join(' ')}</p>` : '';
+}
+
 /** The source line with the sound it rhymes on marked, for the sung view. */
 function heardLine(translit, marked) {
   const line = cleanLine(translit);
@@ -248,7 +260,7 @@ ${railNav(ctx, u.id)}
     <p class="head__prov">${r.status === 'approved' ? `Drafted with Claude and reviewed by ${esc(r.provenance.review.by)}` : 'Unreviewed draft, for local preview only'}</p>
   </header>
   <p class="summary">${ctx.md(r.summary)}</p>
-  ${r.sung ? `<p class="voice"><span class="who">Sung${r.sung.status === 'approved' ? '' : ' (draft)'}.</span> ${ctx.md(r.sung.voice)}</p>` : ''}
+  ${r.sung ? `<p class="voice"><span class="who">Sung${r.sung.status === 'approved' ? '' : ' (draft)'}.</span> ${ctx.md(r.sung.voice)}</p>${sungAbout(u, r)}` : ''}
   ${songComments.map(c => `<div class="song-comment"><p><span class="who">${esc(who)}, introducing the ${esc(text.unitLabel.toLowerCase())}.</span> ${ctx.md(c.note)}</p><details><summary>Full comment</summary><div class="full"><p>${ctx.md(c.translation)}</p></div></details></div>`).join('')}
   <div class="passages">
 ${parts.join('\n')}

@@ -1,0 +1,1439 @@
+{
+  "unit": "cp.09",
+  "proposals": [
+    {
+      "id": "bakhora",
+      "type": "term",
+      "en": "post",
+      "policy": "translate",
+      "alt": [
+        "pillar",
+        "posts"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাখোড়",
+          "translit": "bākhoṛa",
+          "lemma": "bākhoṛa",
+          "att": "AS",
+          "where": "cp.09.1a"
+        },
+        {
+          "lang": "san",
+          "script": "বাখোড়",
+          "translit": "vākhoṛa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্তম্ভদ্বয়ং",
+          "translit": "stambhadvayaṃ",
+          "lemma": "stambha",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་གཉིས",
+          "translit": "ka gnyis",
+          "lemma": "ka ba",
+          "att": "AO",
+          "where": "cp.09.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་བ་གཉིས",
+          "translit": "ka ba gnyis",
+          "lemma": "ka ba",
+          "att": "AO",
+          "where": "cp.09.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাখোড়"
+        },
+        {
+          "lang": "san",
+          "form": "বাখোড়"
+        },
+        {
+          "lang": "san",
+          "form": "স্তম্ভদ্বয়"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀ་གཉིས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀ་བ་གཉིས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A post or pillar (Old Bengali bākhoṛa, a word of uncertain origin), which in song 9 is wrenched or crushed once the evaṃkāra is made firm; in a song about an elephant it may be the post the animal is tied to. Munidatta renders it 'a pair of pillars' (stambhadvaya); the Tibetan translation has ka gnyis, 'two pillars'.",
+      "symbolicImage": "a post, or pair of posts, crushed once the evaṃkāra is made firm",
+      "symbolicReadings": [
+        {
+          "referent": "the pair made of the moon-appearance (the syllable e) and the sun (the syllable vaṃ), 'the knowledge of day and night', crushed and made free of appearance by the process of vajra recitation; the gloss sets the pair beside 'vākhoṛa, the pair of pillars' without an explicit equation, and the Tibetan assigns moon and sun to the syllables the other way round",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "moon-appearance",
+        "sun-appearance",
+        "appearances",
+        "day and night",
+        "knowledge of day and night"
+      ],
+      "rationale": "A rare Old Bengali word at the centre of the first couplet whose sense rests on Munidatta's gloss and the Tibetan; 'post' keeps the concrete image and leaves open whether one or two are meant."
+    },
+    {
+      "id": "bandhana",
+      "type": "term",
+      "en": "bond",
+      "policy": "translate",
+      "alt": [
+        "bonds",
+        "binding"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বান্ধণ",
+          "translit": "bāndhaṇa",
+          "lemma": "bāndhaṇa",
+          "att": "AS",
+          "where": "cp.09.1b"
+        },
+        {
+          "lang": "san",
+          "script": "বন্ধন",
+          "translit": "vandhana",
+          "lemma": "bandhana",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆིང་བ",
+          "translit": "'ching ba",
+          "lemma": "'ching ba",
+          "att": "AO",
+          "where": "cp.09.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বান্ধণ"
+        },
+        {
+          "lang": "san",
+          "form": "বন্ধন"
+        },
+        {
+          "lang": "bod",
+          "form": "འཆིང་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A bond or fetter (Old Bengali bāndhaṇa, Sanskrit bandhana). In song 9 the poet breaks bonds 'of many kinds, pervading'. Bondage and release are a constant theme of Buddhist teaching; Munidatta elsewhere quotes the Hevajra: the world is bound by passion and freed by passion. The Tibetan translation has 'ching ba.",
+      "symbolicImage": "bonds of many kinds, pervading, which the poet breaks",
+      "symbolicReadings": [
+        {
+          "referent": "the binding of various kinds that pervades the avadhūtī, broken once the moon and sun have been made free of appearance; the grammar of the gloss is loose, and the Tibetan has 'the obstruction ('gog pa) pervading the avadhūtī'",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "avadhūtī",
+        "central channel",
+        "channel",
+        "obstruction",
+        "obstructions"
+      ],
+      "rationale": "Breaking the bonds is the action of the first couplet and bondage a recurring theme; Munidatta attaches a reading to these bonds that must stay out of the line."
+    },
+    {
+      "id": "asava",
+      "type": "term",
+      "en": "liquor",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আসবমাতা",
+          "translit": "āsabamātā",
+          "lemma": "āsaba",
+          "att": "AS",
+          "where": "cp.09.2a"
+        },
+        {
+          "lang": "san",
+          "script": "অনুপলম্ভাসবপানেন",
+          "translit": "anupalambhāsavapānena",
+          "lemma": "āsava",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦྲང་གི་ཆང",
+          "translit": "sbrang gi chang",
+          "lemma": "sbrang chang",
+          "att": "AO",
+          "where": "cp.09.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "আসব"
+        },
+        {
+          "lang": "san",
+          "form": "াসবপান"
+        },
+        {
+          "lang": "bod",
+          "form": "སྦྲང་གི་ཆང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Liquor (Sanskrit āsava), a fermented or distilled drink. In the refrain of song 9 Kāṇha plays, drunk on it (āsabamātā). The Tibetan translation renders it sbrang gi chang, 'honey liquor, mead'. Munidatta speaks of drinking the liquor of non-apprehension (cp.09.m2). A different word from vāruṇī, the liquor of song 3.",
+      "symbolicImage": "the liquor Kāṇha is drunk on as he plays",
+      "symbolicReadings": [
+        {
+          "referent": "the liquor of the non-apprehension (anupalambha) of 'these three', by drinking which Kṛṣṇācārya, the knowledge-elephant, is intoxicated; the three are not named",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "non-apprehension",
+        "anupalambha",
+        "emptiness"
+      ],
+      "rationale": "Intoxication is a recurring image of the songs, and āsava needs its own entry because it is a different word from vāruṇī; the Tibetan's 'mead' is worth recording."
+    },
+    {
+      "id": "nalinivana",
+      "type": "term",
+      "en": "lotus grove",
+      "policy": "translate",
+      "alt": [
+        "lotus forest"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নলিনীবন",
+          "translit": "nalinībana",
+          "lemma": "nalinībana",
+          "att": "AS",
+          "where": "cp.09.2b"
+        },
+        {
+          "lang": "san",
+          "script": "নলিনীবনং",
+          "translit": "nalinīvanaṃ",
+          "lemma": "nalinī",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་སྐྱེས་ཚལ",
+          "translit": "chu skyes tshal",
+          "lemma": "chu skyes tshal",
+          "att": "AO",
+          "where": "cp.09.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নলিনীবন"
+        },
+        {
+          "lang": "san",
+          "form": "নলিনীবন"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་སྐྱེས་ཚལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A grove or bed of lotuses (Sanskrit nalinīvana; nalinī is the lotus plant). In the refrain of song 9 Kāṇha enters the lotus grove of the innate. The Tibetan translation has chu skyes tshal, 'lotus grove'. Munidatta's comment on song 6 also speaks of a lotus grove of great bliss (cp.06.m5).",
+      "symbolicImage": "the lotus grove of the innate, which Kāṇha enters",
+      "symbolicReadings": [
+        {
+          "referent": "the lotus of great bliss (mahāsukhakamala): having made the lotus grove the lotus of great bliss, Kṛṣṇācārya plays in a form free of concepts; the Tibetan has 'having gone to the lotus grove of great bliss'",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "lotus of great bliss",
+        "wheel of great bliss",
+        "mahāsukha"
+      ],
+      "rationale": "A place-image of the songs and the commentary, distinct from the single lotus; Munidatta's reading of it as the lotus of great bliss belongs in notes."
+    },
+    {
+      "id": "karini",
+      "type": "term",
+      "en": "she-elephant",
+      "policy": "translate",
+      "alt": [
+        "cow elephant"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "করিণিরেঁ",
+          "translit": "kariṇirem̐",
+          "lemma": "kariṇī",
+          "att": "AS",
+          "where": "cp.09.3a"
+        },
+        {
+          "lang": "san",
+          "script": "করিণ্যাম্",
+          "translit": "kariṇyām",
+          "lemma": "kariṇī",
+          "att": "AS",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་མོ",
+          "translit": "glang mo",
+          "lemma": "glang mo",
+          "att": "AO",
+          "where": "cp.09.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "করিণি"
+        },
+        {
+          "lang": "oben",
+          "form": "করিণী"
+        },
+        {
+          "lang": "san",
+          "form": "করিণ্যা"
+        },
+        {
+          "lang": "san",
+          "form": "করিণী"
+        },
+        {
+          "lang": "bod",
+          "form": "གླང་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A female elephant (Sanskrit kariṇī). In song 9 the elephant is in rut for the she-elephant, and in the same way suchness-ichor flows. The Tibetan translation has glang mo. Munidatta sets the outer she-elephant beside the Blessed Lady Nairātmā (cp.09.m3).",
+      "symbolicImage": "the she-elephant for whom the elephant is in rut",
+      "symbolicReadings": [
+        {
+          "referent": "the Blessed Lady Nairātmā: as an outer elephant bears the ichor of passion toward a she-elephant, so the mind-elephant Kṛṣṇācārya, through union with Nairātmā, rains the ichor of suchness (a correspondence made by the simile, not an explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Nairātmā",
+        "selflessness",
+        "Blessed Lady",
+        "goddess",
+        "consort",
+        "wisdom seal"
+      ],
+      "rationale": "The elephant pair is the song's central image; the she-elephant needs an entry beside the elephant, and Munidatta's parallel with Nairātmā must stay in notes."
+    },
+    {
+      "id": "mada",
+      "type": "term",
+      "en": "ichor",
+      "policy": "translate",
+      "alt": [
+        "rut",
+        "musth"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মঅ",
+          "translit": "maa",
+          "lemma": "maa",
+          "att": "AS",
+          "where": "cp.09.3b"
+        },
+        {
+          "lang": "san",
+          "script": "তথতামদং",
+          "translit": "tathatāmadaṃ",
+          "lemma": "mada",
+          "att": "AS",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ঈর্ষ্যামদং",
+          "translit": "īrṣyāmadaṃ",
+          "lemma": "mada",
+          "att": "AS",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱོས་པ",
+          "translit": "myos pa",
+          "lemma": "myos pa",
+          "att": "AO",
+          "where": "cp.09.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মদং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Ichor: the fluid that flows from a bull elephant's temples in rut (musth), a stock image of Indian poetry; mada also means intoxication and pride. In song 9 suchness-ichor flows as the elephant desires the she-elephant. Munidatta speaks of the ichor of passion and the ichor of suchness (cp.09.m3); the Tibetan renders these 'intoxication' and 'liquor of suchness'.",
+      "symbolicImage": "the ichor that flows from the elephant in rut",
+      "symbolicReadings": [
+        {
+          "referent": "the ichor of suchness (tathatāmada), which the mind-elephant Kṛṣṇācārya rains through union with the Blessed Lady Nairātmā, as an outer elephant bears the ichor of passion (īrṣyāmada) toward a she-elephant",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [],
+      "rationale": "The elephant's ichor carries the song's simile and is unfamiliar to English readers; 'ichor' is the usual English for mada in Sanskrit poetry, with 'rut' as a plainer alternative."
+    },
+    {
+      "id": "tathata",
+      "type": "term",
+      "en": "suchness",
+      "policy": "translate",
+      "alt": [
+        "thusness"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তথতা",
+          "translit": "tathatā",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.09.3b"
+        },
+        {
+          "lang": "san",
+          "script": "তথতারত্নং",
+          "translit": "tathatāratnaṃ",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་ཉིད",
+          "translit": "de nyid",
+          "lemma": "de nyid",
+          "att": "AO",
+          "where": "cp.09.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་བཞིན་ཉིད",
+          "translit": "de bzhin nyid",
+          "lemma": "de bzhin nyid",
+          "att": "AO",
+          "where": "cp.09.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তথতা"
+        },
+        {
+          "lang": "san",
+          "form": "তথতা"
+        },
+        {
+          "lang": "bod",
+          "form": "དེ་བཞིན་ཉིད་ཀྱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Suchness (tathatā): things just as they are, their real nature beyond conceptual construction; in Mahāyāna thought a synonym of emptiness and of reality. In song 9 the elephant's ichor is suchness-ichor, and Munidatta speaks of the ichor and the jewel of suchness (cp.09.m3, cp.09.m5). The Tibetan has de nyid in the song, de bzhin nyid in the comment.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A key Mahāyāna term that the song itself uses and Munidatta repeats; 'suchness' is the established English. The Tibetan match is de bzhin nyid kyi, 'of suchness', because bare de bzhin nyid also renders 'just so' elsewhere in the commentary."
+    },
+    {
+      "id": "dasabala",
+      "type": "term",
+      "en": "ten powers",
+      "policy": "translate",
+      "alt": [
+        "ten strengths"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দশবলরঅণ",
+          "translit": "daśabalaraaṇa",
+          "lemma": "daśabala",
+          "att": "AS",
+          "where": "cp.09.5a"
+        },
+        {
+          "lang": "san",
+          "script": "দশবলবৈশারদ্যাদিগুণযুক্তং",
+          "translit": "daśavalavaiśāradyādiguṇayuktaṃ",
+          "lemma": "daśabala",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོབས་བཅུ",
+          "translit": "stobs bcu",
+          "lemma": "stobs bcu",
+          "att": "AO",
+          "where": "cp.09.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দশবল"
+        },
+        {
+          "lang": "san",
+          "form": "দশবল"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོབས་བཅུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The ten powers (daśabala) of a buddha: ten kinds of knowledge, among them knowing what is possible and impossible, how actions ripen, and that the defilements have ended. 'Possessor of the ten powers' is a title of the Buddha. Song 9 speaks of the jewel of the ten powers; Munidatta names them with the fearlessnesses (cp.09.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard list of a buddha's qualities named in both the song and the comment; 'ten powers' is the usual English."
+    },
+    {
+      "id": "vaisaradya",
+      "type": "term",
+      "en": "fearlessness",
+      "policy": "translate",
+      "alt": [
+        "fearlessnesses",
+        "confidence"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বৈশারদ্য",
+          "translit": "vaiśāradya",
+          "lemma": "vaiśāradya",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་འཇིགས་པ",
+          "translit": "mi 'jigs pa",
+          "lemma": "mi 'jigs pa",
+          "att": "AO",
+          "where": "cp.09.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বৈশারদ্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The four fearlessnesses or confidences (vaiśāradya) of a buddha, counted with the ten powers among a buddha's qualities: confidence in claiming full awakening, in having ended the defilements, in naming what obstructs the path, and in teaching the way to freedom. Munidatta names them with the ten powers (cp.09.m5); the Tibetan has mi 'jigs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical list-term in Munidatta's gloss that a reader cannot decode from the English alone."
+    },
+    {
+      "id": "ratna",
+      "type": "term",
+      "en": "jewel",
+      "policy": "translate",
+      "alt": [
+        "gem"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রঅণ",
+          "translit": "raaṇa",
+          "lemma": "raaṇa",
+          "att": "AS",
+          "where": "cp.09.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তথতারত্নং",
+          "translit": "tathatāratnaṃ",
+          "lemma": "ratna",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རིན་ཆེན",
+          "translit": "rin chen",
+          "lemma": "rin chen",
+          "att": "AO",
+          "where": "cp.09.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རིན་པོ་ཆེ",
+          "translit": "rin po che",
+          "lemma": "rin po che",
+          "att": "AO",
+          "where": "cp.09.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বলরঅণ"
+        },
+        {
+          "lang": "san",
+          "form": "রত্ন"
+        },
+        {
+          "lang": "bod",
+          "form": "རིན་ཆེན"
+        },
+        {
+          "lang": "bod",
+          "form": "རིན་པོ་ཆེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A jewel or gem (Sanskrit ratna, Old Bengali raaṇa), a common image of worth in Buddhist writing. Song 9 speaks of the jewel of the ten powers in the ten directions; Munidatta calls it the jewel of suchness (cp.09.m5). Distinct from maṇi, 'jewel', in the code phrases 'root of the jewel' and 'vajra jewel'.",
+      "symbolicImage": "the jewel of the ten powers, in the ten directions",
+      "symbolicReadings": [
+        {
+          "referent": "the jewel of suchness (tathatāratna), endowed with the ten powers, the fearlessnesses and other qualities, which pervades the ten directions and is 'taken' (hāritam) by us through the force of repeated experience (the Tibetan has 'radiates'); by its power the lord-elephant of ignorance is to be tamed",
+          "per": "Munidatta",
+          "where": [
+            "cp.09.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "suchness",
+        "jewel of suchness",
+        "tathatā"
+      ],
+      "rationale": "The jewel recurs as an image in the songs and quoted verses; Munidatta reads it here as suchness, a reading that must stay out of the line."
+    },
+    {
+      "id": "dasadis",
+      "type": "term",
+      "en": "ten directions",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দশ দিসেঁ",
+          "translit": "daśa disem̐",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.09.5a"
+        },
+        {
+          "lang": "san",
+          "script": "দশদিগ্‌ব্যাপকতয়া",
+          "translit": "daśadigvyāpakatayā",
+          "lemma": "diś",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱོགས་བཅུ",
+          "translit": "phyogs bcu",
+          "lemma": "phyogs bcu",
+          "att": "AO",
+          "where": "cp.09.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দশ দিস"
+        },
+        {
+          "lang": "san",
+          "form": "দশদিগ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཕྱོགས་བཅུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The ten directions: the four cardinal and four intermediate points, with the zenith and the nadir; that is, everywhere. In song 9 the jewel of the ten powers is in the ten directions, and Munidatta says it pervades them (cp.09.m5). The Tibetan has phyogs bcu.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A stock Buddhist phrase for all of space whose count a reader may not know."
+    },
+    {
+      "id": "sadgati",
+      "type": "term",
+      "en": "six realms",
+      "policy": "translate",
+      "alt": [
+        "six destinies",
+        "six classes of beings"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ছড়গই",
+          "translit": "chaṛagai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.09.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ছড়িগই",
+          "translit": "chaṛigai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.09.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་དྲུག",
+          "translit": "'gro drug",
+          "lemma": "'gro ba drug",
+          "att": "AO",
+          "where": "cp.09.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་བ་དྲུག",
+          "translit": "'gro ba drug",
+          "lemma": "'gro ba drug",
+          "att": "AO",
+          "where": "cp.09.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ছড়গই"
+        },
+        {
+          "lang": "san",
+          "form": "ছড়িগই"
+        },
+        {
+          "lang": "bod",
+          "form": "འགྲོ་དྲུག"
+        },
+        {
+          "lang": "bod",
+          "form": "འགྲོ་བ་དྲུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The six destinies or realms of rebirth (Sanskrit ṣaḍgati, Old Bengali chaṛagai): gods, asuras, humans, animals, hungry ghosts and hell beings. Song 9 says all six are pure by nature. Munidatta lists the four kinds of birth, from eggs, wombs, moisture and spontaneously, and beings 'of the nature of gods, asuras and the rest' (cp.09.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic Buddhist classification of beings, disguised in its Old Bengali form; the Tibetan 'gro drug confirms the reading."
+    },
+    {
+      "id": "svabhava",
+      "type": "term",
+      "en": "nature",
+      "policy": "translate",
+      "alt": [
+        "intrinsic nature",
+        "inherent nature"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সহাবে",
+          "translit": "sahābe",
+          "lemma": "sahāba",
+          "att": "AS",
+          "where": "cp.09.4a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বভাবেন",
+          "translit": "svabhāvena",
+          "lemma": "svabhāva",
+          "att": "AS",
+          "where": "cp.09.m4"
+        },
+        {
+          "lang": "san",
+          "script": "স্বভাববিরহাৎ",
+          "translit": "svabhāvavirahāt",
+          "lemma": "svabhāva",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན",
+          "translit": "rang bzhin",
+          "lemma": "rang bzhin",
+          "att": "AO",
+          "where": "cp.09.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ངོ་བོ་ཉིད",
+          "translit": "ngo bo nyid",
+          "lemma": "ngo bo nyid",
+          "att": "AO",
+          "where": "cp.09.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সহাব"
+        },
+        {
+          "lang": "san",
+          "form": "স্বভাব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Own-being or nature (Sanskrit svabhāva, Old Bengali sahāba): what a thing is of itself. Madhyamaka thought denies that anything has such an intrinsic nature. Song 9 says all beings are pure by nature; the verse Munidatta quotes calls outer things unreal because they lack intrinsic nature (cp.09.m2, cp.09.m4). Compare 'without intrinsic nature' and 'true nature'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core doctrinal word, used here both positively (pure by nature) and in the Madhyamaka negative; 'nature' with 'intrinsic nature' as a variant covers both."
+    },
+    {
+      "id": "bhava-abhava",
+      "type": "term",
+      "en": "being and nonbeing",
+      "policy": "translate",
+      "alt": [
+        "existence and nonexistence",
+        "things and non-things"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাবাভাব",
+          "translit": "bhābābhāba",
+          "lemma": "bhāvābhāva",
+          "att": "AS",
+          "where": "cp.09.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་དང་དངོས་མེད",
+          "translit": "dngos dang dngos med",
+          "lemma": "dngos po",
+          "att": "AO",
+          "where": "cp.09.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ་དང་དངོས་པོ་མེད་པ",
+          "translit": "dngos po dang dngos po med pa",
+          "lemma": "dngos po",
+          "att": "AO",
+          "where": "cp.09.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভাবাভাব"
+        },
+        {
+          "lang": "san",
+          "form": "ভাবাভাব"
+        },
+        {
+          "lang": "bod",
+          "form": "དངོས་དང་དངོས་མེད"
+        },
+        {
+          "lang": "bod",
+          "form": "དངོས་པོ་དང་དངོས་པོ་མེད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The pair being and nonbeing, or things and their absence (Sanskrit bhāva and abhāva), the two poles that Madhyamaka thought says cannot be asserted of reality. Song 9 names the pair in its fourth couplet; Munidatta comments that all things (bhāvāḥ) are pure by nature (cp.09.m4). The Tibetan has dngos dang dngos med, 'things and non-things'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A philosophical pair distinct from bhava, 'existence' or becoming, which already has an entry; a separate id keeps the two words apart."
+    },
+    {
+      "id": "kusala",
+      "type": "term",
+      "en": "virtue",
+      "policy": "translate",
+      "alt": [
+        "roots of virtue",
+        "wholesome"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরিপক্বকুশল",
+          "translit": "paripakvakuśala",
+          "lemma": "kuśala",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དགེ་བའི་རྩ་བ",
+          "translit": "dge ba'i rtsa ba",
+          "lemma": "dge ba'i rtsa ba",
+          "att": "AO",
+          "where": "cp.09.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পক্বকুশল"
+        },
+        {
+          "lang": "bod",
+          "form": "དགེ་བའི་རྩ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Virtue, the wholesome (kuśala): actions and states that lead to happiness and awakening; their accumulated force is called the roots of virtue. Munidatta says the last couplet of song 9 shows the mark of ripened virtue (cp.09.m5); the Tibetan has 'fully ripened roots of virtue' (dge ba'i rtsa ba).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic Buddhist term in Munidatta's framing of the last couplet; the entry also stops the Tibetan dge ba'i rtsa ba from being read as rtsa, 'channel'."
+    },
+    {
+      "id": "p-bhagavati",
+      "type": "person",
+      "en": "Blessed Lady",
+      "policy": "translate",
+      "alt": [
+        "Bhagavatī"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভগবতী",
+          "translit": "bhagavatī",
+          "lemma": "bhagavatī",
+          "att": "AS",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅོམ་ལྡན་འདས",
+          "translit": "bcom ldan 'das",
+          "lemma": "bcom ldan 'das",
+          "att": "AO",
+          "where": "cp.09.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভগবতী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'The Blessed Lady' (bhagavatī), feminine of bhagavat, 'Blessed One', an epithet of goddesses in the tantras. Munidatta gives it to Nairātmā, through union with whom the mind-elephant rains the ichor of suchness (cp.09.m3). The Tibetan uses bcom ldan 'das, its word for the Blessed One.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An epithet of Nairātmā that needs its own id: without it bhagavatī is matched as bhaga, 'female organ', or confused with the Blessed One."
+    },
+    {
+      "id": "tx-madhyamakasastra",
+      "type": "text",
+      "en": "Madhyamakaśāstra",
+      "policy": "keep-source",
+      "alt": [
+        "Madhyamaka treatise"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মধ্যমকশাস্ত্রঃ",
+          "translit": "madhyamakaśāstraḥ",
+          "lemma": "madhyamakaśāstra",
+          "att": "AS",
+          "where": "cp.09.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དབུ་མའི་བསྟན་བཅོས",
+          "translit": "dbu ma'i bstan bcos",
+          "lemma": "dbu ma'i bstan bcos",
+          "att": "AO",
+          "where": "cp.09.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মধ্যমকশাস্ত্র"
+        },
+        {
+          "lang": "bod",
+          "form": "དབུ་མའི་བསྟན་བཅོས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Treatise of the Middle Way': the source Munidatta names for a verse on seeing the real as it is: nothing is to be removed, nothing added; whoever sees the real is freed (cp.09.m4). Whether he means one particular work or Madhyamaka writing in general is unclear. The Tibetan has dbu ma'i bstan bcos.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta cites it as a named source; a text entry lets the citation link, and keeping the Sanskrit title avoids implying a particular work."
+    },
+    {
+      "id": "elephant",
+      "type": "term",
+      "en": "elephant",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "করিণা",
+          "translit": "kariṇā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.09.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "বিদ্যাকরি",
+          "translit": "bidyākari",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.09.5b"
+        },
+        {
+          "lang": "san",
+          "script": "বাহ্যকরী",
+          "translit": "bāhyakarī",
+          "lemma": "karin",
+          "att": "AS",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তগজেন্দ্র",
+          "translit": "cittagajendra",
+          "lemma": "gajendra",
+          "att": "AS",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "san",
+          "script": "জ্ঞানগজেন্দ্র",
+          "translit": "jñānagajendra",
+          "lemma": "gajendra",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "san",
+          "script": "অবিদ্যাকরীন্দ্রস্য",
+          "translit": "avidyākarīndrasya",
+          "lemma": "karīndra",
+          "att": "AS",
+          "where": "cp.09.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་ཆེན",
+          "translit": "glang chen",
+          "lemma": "glang chen",
+          "att": "AO",
+          "where": "cp.09.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་དབང",
+          "translit": "glang dbang",
+          "lemma": "glang po che",
+          "att": "AO",
+          "where": "cp.09.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་པོ་ཆེ",
+          "translit": "glang po che",
+          "lemma": "glang po che",
+          "att": "AO",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་པོ་ཆེའི་དབང་པོ",
+          "translit": "glang po che'i dbang po",
+          "lemma": "glang po che",
+          "att": "AO",
+          "where": "cp.09.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "করিণা"
+        },
+        {
+          "lang": "oben",
+          "form": "বিদ্যাকরি"
+        },
+        {
+          "lang": "san",
+          "form": "বাহ্যকরী"
+        },
+        {
+          "lang": "san",
+          "form": "গজেন্দ্র"
+        },
+        {
+          "lang": "san",
+          "form": "করীন্দ্র"
+        },
+        {
+          "lang": "bod",
+          "form": "གླང་དབང"
+        },
+        {
+          "lang": "bod",
+          "form": "གླང་པོ་ཆེ"
+        },
+        {
+          "lang": "bod",
+          "form": "གླང་པོ་ཆེའི་དབང་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An elephant, one of the recurring images of siddha poetry. In the verse of Kṛṣṇācārya's Dohākoṣa that Munidatta quotes, the great elephant (karivara) dwells far away (cp.06.m4); Munidatta does not explain the images of the verse. The Tibetan translation has glang chen mchog, 'best of elephants'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for song 9, whose central image is the elephant: the Old Bengali kariṇā and bidyākari, Munidatta's 'outer elephant' and his lord-of-elephants compounds, and the Tibetan glang po che and glang dbang. The long Tibetan form also stops dbang po, 'lord', being matched as indriya, 'senses'."
+    },
+    {
+      "id": "evamkara",
+      "type": "term",
+      "en": "evaṃkāra",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "এবংকার",
+          "translit": "ebaṃkāra",
+          "lemma": "evaṃkāra",
+          "att": "AS",
+          "where": "cp.09.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨེ་ཝཾ་ཡི་གེ",
+          "translit": "e waM yi ge",
+          "lemma": "e waM",
+          "att": "AO",
+          "where": "cp.09.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "এবংকার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The syllables e and vaṃ, which open the formula ‘Thus (evaṃ) have I heard’ at the head of the sūtras and tantras; in the yoginī tantras they stand for the female and male, wisdom and means, joined. In a verse of Kāṇha that Munidatta quotes, the lotus blossoms taking evaṃkāra as its seed (cp.03.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the song's own Old Bengali ebaṃkāra, which the entry did not yet match in song lines, and the Tibetan e waM yi ge, 'the letters e vaṃ'."
+    },
+    {
+      "id": "yogindra",
+      "type": "term",
+      "en": "lord of yogis",
+      "policy": "translate",
+      "alt": [
+        "master yogi"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যোগীশ্বরঃ",
+          "translit": "yogīśvaraḥ",
+          "lemma": "yogīśvara",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་དབང་ཕྱུག",
+          "translit": "rnal 'byor dbang phyug",
+          "lemma": "rnal 'byor gyi dbang phyug",
+          "att": "AO",
+          "where": "cp.09.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যোগীশ্বর"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣལ་འབྱོར་དབང་ཕྱུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Lord of yogis', Munidatta's usual term for the accomplished practitioner the songs speak of; in this song, the one the Ḍombī ferries across.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: yogīśvara, a synonym of yogīndra in the verse Munidatta attributes to Nāgārjuna, and its Tibetan; without them the word is matched only as 'yogi'."
+    },
+    {
+      "id": "anupalambha",
+      "type": "term",
+      "en": "non-apprehension",
+      "policy": "translate",
+      "alt": [
+        "non-perception"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনুপলম্ভাসবপানেন",
+          "translit": "anupalambhāsavapānena",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་པ་མེད་པ",
+          "translit": "dmigs pa med pa",
+          "lemma": "dmigs pa med pa",
+          "att": "AO",
+          "where": "cp.09.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নুপলম্ভ"
+        },
+        {
+          "lang": "bod",
+          "form": "དམིགས་པ་མེད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Non-apprehension (anupalambha): finding nothing to take as an object, since nothing exists by its own nature; a Madhyamaka term. Munidatta speaks of the non-apprehension of all things, with grasped and grasper absent (cp.06.m2). The manuscript's anulambha is apparently a slip: the Tibetan dmigs su med pa supports anupalambha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the correctly spelled anupalambha of 'the liquor of non-apprehension' and the Tibetan dmigs pa med pa. The match form omits the initial a-, which sandhi swallows here (trayāṇām anupalambha-)."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "པ་ཌ་ཧའི་ཚོགས་པ",
+          "translit": "pa Da ha'i tshogs pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.09.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "པ་ཌ་ཧའི་ཚོགས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which song 1 is sung, given in its heading and repeated at the start of Munidatta's comment (cp.01.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the Tibetan heading of song 9 names the melody pa Da ha'i tshogs pa, another variant beside those already listed."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [
+        "Kṛṣṇācārya",
+        "Kāṇhapāda"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་གླུ་དབྱངས་ཞབས",
+          "translit": "nag po glu dbyangs zhabs",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.09.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྱོད་པའི་ཞབས",
+          "translit": "spyod pa'i zhabs",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.09.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ནག་པོ་གླུ་དབྱངས་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "སྤྱོད་པའི་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet, called Kṛṣṇācārya in Sanskrit, to whom songs of this collection are attributed. Munidatta quotes a verse of his in which the pure water dries up when the fire of time (kālāgni) enters (cp.01.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: two irregular ways the Tibetan names Kāṇha in this unit, so that they are recognised as his name and not as 'melody' (glu dbyangs) or 'conduct' (spyod pa)."
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "en": "joy",
+      "policy": "translate",
+      "alt": [
+        "delight"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ঘনানন্দোৎকীর্ণতয়া",
+          "translit": "ghanānandotkīrṇatayā",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.09.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ঘনানন্দ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Joy. The tantras Munidatta cites count four joys arising in yogic union; the order of the last two, the joy of cessation (viramānanda) and innate joy (sahajānanda), differs between systems. Munidatta calls great bliss 'the fourth joy' and speaks of knowing innate joy in the joy of cessation (cp.01.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: 'dense joy' (ghanānanda) in Munidatta's opening sentence, which the existing match forms miss because of sandhi."
+    }
+  ],
+  "questions": [
+    "Elephant: Munidatta says outright that Kāṇha speaks 'in the twilight language of the word mind-lord-of-elephants' (cittagajendra, cp.09.m1), and calls him the mind-elephant (cp.09.m3) and the knowledge-elephant (jñānagajendra, cp.09.m2). Merging my proposal adds only forms to the existing entry, so please add by hand, as for the deer: a symbolic reading (the elephant → the mind, per Munidatta, cp.09.m1, cp.09.m3), 'mind' and 'citta' as words never to use inside a verse line, and 'lord of elephants' as a variant.",
+    "Evaṃkāra: Munidatta (cp.09.m2) makes e the moon-appearance and vaṃ the sun; the Tibetan makes vaṃ (baM yig) the moon-appearance and e the sun. Consider adding this as a symbolic reading on evamkara, noting that the two versions disagree (I could not add it, because it is an existing entry).",
+    "Couplet 5b, vidyā or avidyā: the song has bidyākari, 'knowledge-elephant', and the Tibetan of the line agrees (rig pa'i glang dbang). Munidatta has avidyākarīndra, 'lord-elephant of ignorance': the initial a- is merged in the sandhi -prabhāveṇāvidyā-, and the Tibetan comment's ma rig pa confirms it. No match form can safely catch that sandhi, so avidya does not hit cp.09.m5. I filed bidyākari under elephant and did not propose a 'vidyā' entry. Also: after damanaṃ Shastri prints '(madanaṃ)', and the Tibetan comment's myos pa, 'intoxication', supports madana.",
+    "āsava and vāruṇī both come out as 'liquor', and varuni already lists 'wine' and 'spirits' as variants. If you want the English to keep the two words apart, choose another rendering for asava, for example 'mead', after the Tibetan sbrang gi chang, or 'brew'.",
+    "Ichor (mada): the Old Bengali form maa is too short to match safely, and any longer literal would take in a neighbouring word, so the entry matches only Sanskrit মদং. 'Ichor' is the usual term in Indology but literary; 'rut' is plainer. Your call.",
+    "bākhoṛa: I chose 'post' (singular) because the song gives no number; Munidatta and the Tibetan both say two pillars. The 'tethering post' idea in the definition is my inference from the elephant image, marked 'may be'.",
+    "Tx-madhyamakasastra: the verse Munidatta quotes (nāpaneyam ataḥ kiñcit…) is, as far as I know, also found in the Ratnagotravibhāga and the Abhisamayālaṃkāra, and not in Nāgārjuna's root verses. Please check before this goes into a note; I kept it out of the definition.",
+    "Four AS forms are written unsandhied because the manuscript merges their first vowel into the word before: anupalambhāsavapānena (under asava and anupalambha, after trayāṇām), īrṣyāmadaṃ (after kariṇyām), and avidyākarīndrasya (after -prabhāveṇa). Their match forms leave out the merged vowel (নুপলম্ভ, াসবপান, মদং, করীন্দ্র).",
+    "p-kanha: the two Tibetan forms I added look like slips in the Tibetan. In cp.09.m1 it has nag po glu dbyangs zhabs, with glu dbyangs, 'melody', where spyod pa is expected; in cp.09.m2 it has spyod pa'i zhabs without nag po. I added them so the concordance treats them as his name. Drop them if you would rather not record slips.",
+    "Existing entries that mis-match in this unit and are not fixed by my proposals: vicitra's Tibetan rnam pa sna tshogs hits cp.09.1b, where it only means 'various', rendering bibiha; ksepa's ক্ষেপ hits prakṣeptavyaṃ, 'to be added', in the cp.09.m4 verse; p-bhagavat's bcom ldan 'das hits the Tibetan for bhagavatī (Nairātmā) in cp.09.m3; svarupa's Tibetan ngo bo nyid renders svabhāva here (cp.09.m4). Once my proposals are merged, these false matches are fixed: bhaga inside bhagavatī, madhyama's dbu ma in dbu ma'i bstan bcos, indriya's dbang po in glang po che'i dbang po (cp.09.m2, m3, m5), nadi's rtsa in dge ba'i rtsa ba, raga's glu dbyangs in the garbled name, and yogi in yogīśvara."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "c56dfc334a7f0985c2dac70cfddd00387936bca33a1824e161348213ed4b3ee8",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 3
+    },
+    "glossarySha": "99ca9c98d5c14cf1426497ab131dd398fb048420c99ad10957f25be5f819be7d",
+    "sourceSha": "2cdea1c27f5f63df0aa5419a3f893295e5e63d752f6624e7dc828c91bbdde67c"
+  }
+}

@@ -1,0 +1,2294 @@
+{
+  "unit": "cp.15",
+  "proposals": [
+    {
+      "id": "p-santi",
+      "type": "person",
+      "en": "Śāntipāda",
+      "policy": "keep-source",
+      "alt": [
+        "Śānti"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শান্তিপাদানাম্",
+          "translit": "śāntipādānām",
+          "lemma": "śāntipāda",
+          "att": "AS",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "শান্তি",
+          "translit": "śānti",
+          "lemma": "śānti",
+          "att": "AS",
+          "where": "cp.15.5a"
+        },
+        {
+          "lang": "san",
+          "script": "শান্তিস্তমেবার্থং",
+          "translit": "śāntistamevārthaṃ",
+          "lemma": "śānti",
+          "att": "AS",
+          "where": "cp.15.m1"
+        },
+        {
+          "lang": "san",
+          "script": "শান্তিঃ",
+          "translit": "śāntiḥ",
+          "lemma": "śānti",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "san",
+          "script": "শান্তিনা",
+          "translit": "śāntinā",
+          "lemma": "śānti",
+          "att": "AS",
+          "where": "cp.15.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤཱནྟི་པའི་ཞབས",
+          "translit": "shAn+ti pa'i zhabs",
+          "lemma": "shAn+ti pa",
+          "att": "AO",
+          "where": "cp.15.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤཱནྟིས",
+          "translit": "shAn+tis",
+          "lemma": "shAn+ti",
+          "att": "AO",
+          "where": "cp.15.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤཱནྟི་པས",
+          "translit": "shAn+ti pas",
+          "lemma": "shAn+ti pa",
+          "att": "AO",
+          "where": "cp.15.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শান্তিপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤཱནྟི"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])শান্তি(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])শান্তি(?=ঃ|না(?![\\p{L}\\p{M}])|স্ত|(?![\\p{L}\\p{M}]))"
+        }
+      ],
+      "definition": "Śāntipāda, the siddha to whom the manuscript and the Tibetan translation attribute song 15; he names himself Śānti in its last couplet. Munidatta calls him a siddhācārya, delighted with full supreme joy (cp.15.m1, cp.15.m2). Tibetan tradition counts a Śāntipa among the eighty-four siddhas, often identified with the scholar Ratnākaraśānti; whether he is this poet is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The unit names its poet p-santi and he names himself in the bhaṇitā; the manuscript heads the song śāntipādānām, so the entry follows the -pāda form used for Cāṭilapāda and Bhusukupāda, with Śānti, his own form in the song, as the variant. The Sanskrit and Old Bengali name is matched as a whole word because śānti is also the common noun \"peace\"."
+    },
+    {
+      "id": "ramakri",
+      "type": "term",
+      "en": "Rāmakrī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রামক্রী",
+          "translit": "rāmakrī",
+          "lemma": "rāmakrī",
+          "att": "AS",
+          "where": "cp.15.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བར་བྱེད་པ",
+          "translit": "dga' bar byed pa",
+          "lemma": "dga' bar byed pa",
+          "att": "AO",
+          "where": "cp.15.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "রামক্রী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Rāmakrī, the name of the rāga (melodic mode) to which song 15 is sung, given in its heading. The Tibetan translation calls the melody dga' bar byed pa, 'making joyful', as if the name were built from Sanskrit rāma, 'delighting', and kṛ, 'make'; how the name is formed is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary has no entry for this rāga; like the other rāga names it stays in source form. The Tibetan is not given as a match form because dga' bar byed pa is also an ordinary phrase."
+    },
+    {
+      "id": "svasamvedana",
+      "type": "term",
+      "en": "self-awareness",
+      "policy": "translate",
+      "alt": [
+        "self-knowing"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সঅ সম্বেঅণ",
+          "translit": "saa sambeaṇa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "san",
+          "script": "সঅ সম্বেইণ",
+          "translit": "saa samveiṇa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্বসংবেদনানুভবস্বরূপেণ",
+          "translit": "svasaṃvedanānubhavasvarūpeṇa",
+          "lemma": "svasaṃvedana",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་རིག",
+          "translit": "rang rig",
+          "lemma": "rang rig",
+          "att": "AO",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གིས་ཡང་དག་པར་རིག་པ",
+          "translit": "rang gis yang dag par rig pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সঅ সম্বেঅণ"
+        },
+        {
+          "lang": "san",
+          "form": "সঅ সম্বেইণ"
+        },
+        {
+          "lang": "san",
+          "form": "স্বসংবেদন"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་རིག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Self-awareness (svasaṃvedana): in Buddhist epistemology, the mind's awareness of itself in the very act of knowing; in the siddhas' songs, a knowing that needs no object beyond itself. Song 15 opens by examining its true nature. Munidatta calls Śānti a siddhācārya whose nature is the experience of self-awareness in the union of vajra and lotus (cp.15.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term that opens the song: saa sambeaṇa is the Old Bengali form of svasaṃvedana, as Munidatta's gloss and the Tibetan rang rig (its standard equivalent) both show; \"self-awareness\" is plain and avoids the technical \"reflexive awareness\"."
+    },
+    {
+      "id": "vicara",
+      "type": "term",
+      "en": "examination",
+      "policy": "translate",
+      "alt": [
+        "examining",
+        "analysis"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিআরেঁতে",
+          "translit": "biārem̐te",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অলক্ষ্যলক্ষণাদিবিচারং",
+          "translit": "alakṣyalakṣaṇādivicāraṃ",
+          "lemma": "vicāra",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་དཔྱོད",
+          "translit": "rnam dpyod",
+          "lemma": "rnam dpyod",
+          "att": "AO",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་དཔྱོད་པ",
+          "translit": "rnam par dpyod pa",
+          "lemma": "rnam par dpyod pa",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিচার"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣམ་དཔྱོད"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣམ་པར་དཔྱོད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বিআর"
+        }
+      ],
+      "definition": "Examination or analysis (vicāra): looking into something by discursive thought; in Buddhist accounts of meditation, the sustained probing of an object. In song 15 the true nature of self-awareness is examined. Munidatta treats such examination of the mark of the unmarkable as conceptual thought, which Śānti does not go into (cp.15.m2). The Tibetan has rnam dpyod.",
+      "symbolicImage": "examining the true nature of self-awareness",
+      "symbolicReadings": [
+        {
+          "referent": "conceptual thought (vikalpa): the examination of the mark of the unmarkable and the rest, into which Śānti, a siddhācārya whose nature is the experience of self-awareness, does not go",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "conceptualization",
+        "concepts"
+      ],
+      "rationale": "biārem̐te is the Old Bengali of vicāra, as Munidatta's vicāra and the Tibetan rnam dpyod pa confirm; the entry records his equation of it with vikalpa, which should stay out of the line."
+    },
+    {
+      "id": "alaksya-laksana",
+      "type": "term",
+      "en": "mark of the unmarkable",
+      "policy": "translate",
+      "alt": [
+        "the unmarkable and its mark"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অলক্খলক্খণ",
+          "translit": "alakkhalakkhaṇa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অলক্ষ্যলক্ষণাদিবিচারং",
+          "translit": "alakṣyalakṣaṇādivicāraṃ",
+          "lemma": "alakṣya",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་ཉིད་མེད",
+          "translit": "mtshan nyid med",
+          "lemma": "mtshan nyid",
+          "att": "AO",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚོན་དུ་མེད",
+          "translit": "mtshon du med",
+          "lemma": "mtshon pa",
+          "att": "AO",
+          "where": "cp.15.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་ཉིད་མེད་པ",
+          "translit": "mtshan nyid med pa",
+          "lemma": "mtshan nyid",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অলক্খলক্খণ"
+        },
+        {
+          "lang": "san",
+          "form": "অলক্ষ্যলক্ষণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The defining mark (lakṣaṇa) of what cannot be marked or pointed to (alakṣya); in Indian thought lakṣaṇa is a thing's defining mark and lakṣya the thing so defined. Song 15 says it 'does not go' when self-awareness is examined. The Tibetan has 'without characteristics, it cannot be indicated'; Munidatta calls examining it conceptual thought (cp.15.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A paradoxical doctrinal phrase the reader needs explained. The parse is uncertain: the Tibetan reads two negatives (no characteristic, not indicable), while the Old Bengali and Munidatta keep alakṣya and lakṣaṇa together; \"mark of the unmarkable\" keeps the paradox without choosing a doctrine."
+    },
+    {
+      "id": "ujubata",
+      "type": "term",
+      "en": "straight road",
+      "policy": "translate",
+      "alt": [
+        "straight way"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উজূবাটে",
+          "translit": "ujūbāṭe",
+          "lemma": "ujūbāṭa",
+          "att": "AS",
+          "where": "cp.15.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "উজূবাট",
+          "translit": "ujūbāṭa",
+          "lemma": "ujūbāṭa",
+          "att": "AS",
+          "where": "cp.15.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ་ནི་དྲང་པོར",
+          "translit": "lam ni drang por",
+          "lemma": "lam drang po",
+          "att": "AO",
+          "where": "cp.15.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ་དྲང",
+          "translit": "lam drang",
+          "lemma": "lam drang po",
+          "att": "AO",
+          "where": "cp.15.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲང་པོའི་ལམ",
+          "translit": "drang po'i lam",
+          "lemma": "lam drang po",
+          "att": "AO",
+          "where": "cp.15.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উজূবাট"
+        },
+        {
+          "lang": "bod",
+          "form": "ལམ་ནི་དྲང་པོ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལམ་དྲང"
+        },
+        {
+          "lang": "bod",
+          "form": "དྲང་པོའི་ལམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The straight road (Old Bengali ujū, 'straight', from Sanskrit ṛju, and bāṭa, 'road'), the governing image of song 15: those who went by it became anābāṭā, the refrain names it with saṃsāra, and going by it the eight great accomplishments are gained. The Tibetan has drang po'i lam. Munidatta reads it as the excellent path of the avadhūtī (cp.15.m2).",
+      "symbolicImage": "the straight road, by which those who went became anābāṭā and by which the eight great accomplishments are gained",
+      "symbolicReadings": [
+        {
+          "referent": "the excellent path of the avadhūtī of the joy of cessation, by which the lords of yogis of the past have gone",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m2"
+          ]
+        },
+        {
+          "referent": "the path that is the means of the joy of cessation (viramānandopāyamārga), apart from which no other path leads toward the goal",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "avadhūtī",
+        "path of the avadhūtī",
+        "central channel",
+        "channel",
+        "joy of cessation"
+      ],
+      "rationale": "The key image of the song (four times), with its own Munidatta readings; a separate entry from road keeps \"straight road\" consistent and, as the longer form, stops road from claiming the bāṭa inside ujūbāṭa."
+    },
+    {
+      "id": "anabata",
+      "type": "term",
+      "en": "anābāṭā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনাবাটা",
+          "translit": "anābāṭā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.1b"
+        },
+        {
+          "lang": "san",
+          "script": "নাবর্ত্তে",
+          "translit": "(a)nāvartte",
+          "lemma": "anāvarta",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ་ནི་གཞན་དུ",
+          "translit": "lam ni gzhan du",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱིར་མི་ལྡོག་པ",
+          "translit": "phyir mi ldog pa",
+          "lemma": "phyir mi ldog pa",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অনাবাটা"
+        },
+        {
+          "lang": "oben",
+          "form": "অনাবাট"
+        },
+        {
+          "lang": "san",
+          "form": "নাবর্ত্ত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in the first couplet: those who went by the straight road 'became anābāṭā'. It may mean 'off the road' or 'roadless', playing on bāṭa, 'road'; the Tibetan has 'their road went elsewhere', as if reading āna, 'other'; Munidatta's paraphrase has anāvarta, 'no return', in its place (cp.15.m2).",
+      "symbolicImage": "those who went by the straight road becoming anābāṭā",
+      "symbolicReadings": [
+        {
+          "referent": "no return (anāvarta): the lords of yogis who went by the excellent path of the avadhūtī are fixed, never to return, in the lotus grove of the wheel of great bliss (his paraphrase puts anāvarta where the song has anābāṭā; no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wheel of great bliss",
+        "great bliss",
+        "lotus grove",
+        "nirvāṇa"
+      ],
+      "rationale": "A crux with three competing readings (off the road, another road, no return) and a commentary reading; the source form is kept for now, as for tiaḍḍā and māṅga, and the full literal stops road from claiming the bāṭa inside it."
+    },
+    {
+      "id": "rajapatha",
+      "type": "term",
+      "en": "royal road",
+      "policy": "translate",
+      "alt": [
+        "king's highway"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রাজপথ",
+          "translit": "rājapatha",
+          "lemma": "rājapatha",
+          "att": "AS",
+          "where": "cp.15.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་པོ་ཡི་ནི་གསེར་ལམ",
+          "translit": "rgyal po yi ni gser lam",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "রাজপথ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The royal road or king's highway (rājapatha), the main road of a kingdom. In the refrain of song 15 it follows a warning not to swerve by even a hair's breadth. The Tibetan has 'the king's golden road'; Munidatta compares a universal monarch entering his pleasure garden by the golden road (cp.15.m3).",
+      "symbolicImage": "the royal road",
+      "symbolicReadings": [
+        {
+          "referent": "the path of the avadhūtī, by which the lord of yogis playfully enters the lotus garden of the wheel of great bliss, as a universal monarch enters his pleasure garden by the golden road (a simile; he does not quote rājapatha)",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "avadhūtī",
+        "path of the avadhūtī",
+        "central channel",
+        "wheel of great bliss"
+      ],
+      "rationale": "A new road image in the refrain, with a simile in the commentary that the reader needs; \"royal road\" renders rājapatha literally."
+    },
+    {
+      "id": "kandhara",
+      "type": "term",
+      "en": "kaṇḍhārā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কণ্ঢারা",
+          "translit": "kaṇḍhārā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.2b"
+        },
+        {
+          "lang": "san",
+          "script": "কনকপথধারয়া",
+          "translit": "kanakapathadhārayā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གསེར་གྱི་ལམ",
+          "translit": "gser gyi lam",
+          "lemma": "gser lam",
+          "att": "AO",
+          "where": "cp.15.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কণ্ঢারা"
+        },
+        {
+          "lang": "san",
+          "form": "কনকপথ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense closing the refrain of song 15, after rājapatha, 'royal road'. Munidatta's simile has a king keeping to the golden road (kanakapathadhārayā), and the Tibetan line has 'golden road' (gser lam), as if kaṇḍhārā held kanaka, 'gold'; a link with Bengali kāṇḍārī, 'helmsman' (Sanskrit karṇadhāra), is also possible.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An obscure word with no secure literal sense; the source form is kept until the reviewer decides between the gold reading of the commentary and the Tibetan and a helmsman reading that would suit the boats of the next couplet."
+    },
+    {
+      "id": "mayamoha-samudra",
+      "type": "term",
+      "en": "ocean of illusion and delusion",
+      "policy": "translate",
+      "alt": [
+        "ocean of delusion about illusion"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাআমোহাসমুদারে",
+          "translit": "māāmohāsamudāre",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.3a"
+        },
+        {
+          "lang": "san",
+          "script": "মায়ামোহসমুদ্রস্য",
+          "translit": "māyāmohasamudrasya",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་མ་ལ་རྨོངས་རྒྱ་མཚོ",
+          "translit": "sgyu ma la rmongs rgya mtsho",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་མ་ལ་རྨོངས་པ་རྒྱ་མཚོ",
+          "translit": "sgyu ma la rmongs pa rgya mtsho",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মাআমোহাসমুদার"
+        },
+        {
+          "lang": "san",
+          "form": "মায়ামোহসমুদ্র"
+        },
+        {
+          "lang": "bod",
+          "form": "སྒྱུ་མ་ལ་རྨོངས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An ocean made of illusion (māyā) and delusion (moha), or of delusion about illusion, as the Tibetan (sgyu ma la rmongs) and Munidatta take it. In song 15 the fool knows neither its end nor its bottom, and sees no boat or raft on it. Munidatta says māyā is also called wisdom, and attachment to it is delusion (cp.15.m4).",
+      "symbolicImage": "an ocean of illusion and delusion, whose end and bottom the fool does not know",
+      "symbolicReadings": [
+        {
+          "referent": "attachment (abhiṣvaṅga) to māyā, which is also called wisdom (prajñā): that attachment is delusion, the great ocean whose end, its measure, the novice yogin does not reach",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wisdom",
+        "prajñā",
+        "attachment",
+        "woman",
+        "consort"
+      ],
+      "rationale": "A compound image with its own commentary reading, like tree of delusion; the entry claims the whole compound so that its reading, not the separate illusion and delusion entries, is what the reader meets."
+    },
+    {
+      "id": "bhela",
+      "type": "term",
+      "en": "raft",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভেলা",
+          "translit": "bhelā",
+          "lemma": "bhelā",
+          "att": "AS",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "san",
+          "script": "সদ্গুরুবাহ্যভেলকং",
+          "translit": "sadguruvāhyabhelakaṃ",
+          "lemma": "bhelaka",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱལ་རྫས",
+          "translit": "skyal rdzas",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐྱལ",
+          "translit": "rkyal",
+          "lemma": "rkyal",
+          "att": "AO",
+          "where": "cp.15.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভেলক"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=নাব ন )ভেলা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A raft or float for crossing water (Old Bengali bhelā, Sanskrit bhelaka). In song 15 the fool sees neither boat nor raft ahead on the ocean. Munidatta says there is no means of crossing apart from the true guru's raft; where his Sanskrit has vāhya, the Tibetan has 'the true guru's word', as if reading vākya (cp.15.m4).",
+      "symbolicImage": "a raft, not seen ahead on the ocean",
+      "symbolicReadings": [
+        {
+          "referent": "the raft of the true guru (sadguruvāhyabhelaka), apart from which there is no other means, such as a boat, of crossing the ocean; the Tibetan has 'by the true guru's word' (bla ma dam pa'i gsung)",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "guru",
+        "true guru",
+        "guru's word",
+        "instruction"
+      ],
+      "rationale": "A boat image of the twilight language with its own commentary reading. The Old Bengali match is limited to this line because bhelā is also the past tense \"became\" (compare bhailā in 1b), which a bare literal would catch."
+    },
+    {
+      "id": "bhranti",
+      "type": "term",
+      "en": "confusion",
+      "policy": "translate",
+      "alt": [
+        "error"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভন্তি",
+          "translit": "bhanti",
+          "lemma": "bhanti",
+          "att": "AS",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "oben",
+          "script": "ভান্তি",
+          "translit": "bhānti",
+          "lemma": "bhānti",
+          "att": "AS",
+          "where": "cp.15.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ভ্রান্ত্যা",
+          "translit": "bhrāntyā",
+          "lemma": "bhrānti",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ভ্রান্তিং",
+          "translit": "bhrāntiṃ",
+          "lemma": "bhrānti",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁྲུལ་པ",
+          "translit": "'khrul pa",
+          "lemma": "'khrul pa",
+          "att": "AO",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁྲུལ་པའི",
+          "translit": "'khrul pa'i",
+          "lemma": "'khrul pa",
+          "att": "AO",
+          "where": "cp.15.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁྲུལ་པར",
+          "translit": "'khrul par",
+          "lemma": "'khrul pa",
+          "att": "AO",
+          "where": "cp.15.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভ্রান্তি"
+        },
+        {
+          "lang": "san",
+          "form": "ভ্রান্ত্য"
+        },
+        {
+          "lang": "bod",
+          "form": "འཁྲུལ་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভা?ন্তি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Confusion or error (bhrānti): taking a thing for what it is not, as a rope for a snake; Buddhist epistemology's word for mistaken cognition. Song 15 twice speaks of the fool's confusion. Munidatta tells the novice yogin to shake it off, and not, in confusion, to take clear light as empty and so fall into annihilation (cp.15.m4, cp.15.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal word used twice in the song and three times in the comment, with the standard Tibetan equivalent 'khrul pa; \"confusion\" keeps it distinct from moha, \"delusion\". The Old Bengali forms are matched as whole words, since -bhanti and -bhānti end many verbs (labhanti, pratibhānti)."
+    },
+    {
+      "id": "natha",
+      "type": "term",
+      "en": "lord",
+      "policy": "translate",
+      "alt": [
+        "protector"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নাহা",
+          "translit": "nāhā",
+          "lemma": "nāha",
+          "att": "AS",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "san",
+          "script": "সদ্গুরুনাথং",
+          "translit": "sadgurunāthaṃ",
+          "lemma": "nātha",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མགོན",
+          "translit": "mgon",
+          "lemma": "mgon po",
+          "att": "AO",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ་དམ་པའི་མགོན",
+          "translit": "bla ma dam pa'i mgon",
+          "lemma": "mgon po",
+          "att": "AO",
+          "where": "cp.15.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নাথ"
+        },
+        {
+          "lang": "bod",
+          "form": "མགོན"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])নাহা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Lord or protector (Sanskrit nātha, Old Bengali nāhā): a title for a master, a deity or a teacher. In song 15 the fool, in his confusion, does not ask the lord. The Tibetan has mgon, 'protector'. Munidatta identifies the lord as the true guru (sadgurunātha) (cp.15.m4).",
+      "symbolicImage": "the lord whom the fool does not ask",
+      "symbolicReadings": [
+        {
+          "referent": "the true guru (sadgurunātha), from whose mouth the novice yogin is to take the means of the fourth joy",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "guru",
+        "true guru",
+        "teacher"
+      ],
+      "rationale": "The line says \"lord\", not \"guru\"; an entry keeps Munidatta's identification of the lord as the true guru in the notes and out of the verse. \"Lord\" is the plain sense; \"protector\" follows the Tibetan mgon."
+    },
+    {
+      "id": "astamahasiddhi",
+      "type": "term",
+      "en": "eight great accomplishments",
+      "policy": "translate",
+      "alt": [
+        "eight great attainments"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অটমহাসিদ্ধি",
+          "translit": "aṭamahāsiddhi",
+          "lemma": "aṭamahāsiddhi",
+          "att": "AS",
+          "where": "cp.15.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরষ্টসিদ্ধির্ভবতীতি",
+          "translit": "punaraṣṭasiddhirbhavatīti",
+          "lemma": "aṣṭasiddhi",
+          "att": "AS",
+          "where": "cp.15.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་གྲུབ་ཆེན་པོ་བརྒྱད",
+          "translit": "dngos grub chen po brgyad",
+          "lemma": "dngos grub",
+          "att": "AO",
+          "where": "cp.15.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་གྲུབ་བརྒྱད",
+          "translit": "dngos grub brgyad",
+          "lemma": "dngos grub",
+          "att": "AO",
+          "where": "cp.15.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অটমহাসিদ্ধি"
+        },
+        {
+          "lang": "bod",
+          "form": "དངོས་གྲུབ་ཆེན་པོ་བརྒྱད"
+        },
+        {
+          "lang": "bod",
+          "form": "དངོས་གྲུབ་བརྒྱད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])অষ্ট(?:মহা)?সিদ্ধি"
+        },
+        {
+          "lang": "san",
+          "re": "(?<=[রা])ষ্ট(?:মহা)?সিদ্ধি"
+        }
+      ],
+      "definition": "The eight great accomplishments (aṣṭamahāsiddhi): a set of eight worldly powers promised to tantric adepts, commonly the magic sword, the pill, eye-salve, swift feet and the like; lists vary. Song 15 says they are gained by going the straight road. Munidatta says they arise again for one who meditates on the self-blessing mind purified by clear light (cp.15.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary has accomplishment (siddhi) and eightfold mastery (the eight yogic powers of Indian yoga) but no entry for the tantric set of eight great siddhis named here; \"accomplishments\" follows the approved rendering of siddhi."
+    },
+    {
+      "id": "ghata",
+      "type": "term",
+      "en": "toll station",
+      "policy": "translate",
+      "alt": [
+        "toll-house"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘাট",
+          "translit": "ghāṭa",
+          "lemma": "ghāṭa",
+          "att": "AS",
+          "where": "cp.15.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ঘটকুটী",
+          "translit": "ghaṭakuṭī",
+          "lemma": "ghaṭṭakuṭī",
+          "att": "AS",
+          "where": "cp.15.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྲལ་ས",
+          "translit": "khral sa",
+          "lemma": "khral sa",
+          "att": "AO",
+          "where": "cp.15.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ঘটকুটী"
+        },
+        {
+          "lang": "san",
+          "form": "ঘট্টকুটী"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ঘাট"
+        }
+      ],
+      "definition": "A toll station (Old Bengali ghāṭa; Sanskrit ghaṭṭa, a landing place or toll station on a river or road), where travellers paid dues. Song 15 says there is none on the road it describes. Munidatta lists the toll-house (ghaṭakuṭī, for ghaṭṭakuṭī) among the dangers absent from this path (cp.15.m6); the Tibetan has khral sa, 'tax place'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A concrete image of the last couplet that a reader needs explained; Munidatta's ghaṭakuṭī (the toll-house of the maxim of dawn at the toll-house) and the Tibetan khral sa both point to tolls rather than a bathing ghat. The segmentation of ghāṭanagumākhaṛataṛi is not certain."
+    },
+    {
+      "id": "gulma",
+      "type": "term",
+      "en": "guard post",
+      "policy": "translate",
+      "alt": [
+        "customs post"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গুমা",
+          "translit": "gumā",
+          "lemma": "gumā",
+          "att": "AS",
+          "where": "cp.15.5b"
+        },
+        {
+          "lang": "san",
+          "script": "গুল্ম",
+          "translit": "gulma",
+          "lemma": "gulma",
+          "att": "AS",
+          "where": "cp.15.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤོ་གམ",
+          "translit": "sho gam",
+          "lemma": "sho gam",
+          "att": "AO",
+          "where": "cp.15.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গুমা"
+        },
+        {
+          "lang": "san",
+          "form": "গুল্ম"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A guard or customs post on a road (Old Bengali gumā, from Sanskrit gulma, which among other senses means a body of guards or their station). Song 15 says there is none on the road it describes. Munidatta names the gulma among the dangers absent from this path (cp.15.m6); the Tibetan has sho gam, 'customs post'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A concrete image of the last couplet; Munidatta's gulma and the Tibetan sho gam agree on a checkpoint where dues or papers were demanded. Which Tibetan word answers which Old Bengali one in 5b is not certain."
+    },
+    {
+      "id": "eye",
+      "type": "term",
+      "en": "eye",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আখি",
+          "translit": "ākhi",
+          "lemma": "ākhi",
+          "att": "AS",
+          "where": "cp.15.5b"
+        },
+        {
+          "lang": "san",
+          "script": "স্তব্ধোন্মীলিতলোচনে",
+          "translit": "stavdhonmīlitalocane",
+          "lemma": "locana",
+          "att": "AS",
+          "where": "cp.15.m6"
+        },
+        {
+          "lang": "san",
+          "script": "তরতামক্ষ্ণোঃ",
+          "translit": "taratāmakṣṇoḥ",
+          "lemma": "akṣi",
+          "att": "AS",
+          "where": "cp.15.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མིག",
+          "translit": "mig",
+          "lemma": "mig",
+          "att": "AO",
+          "where": "cp.15.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "མིག་ཟུང",
+          "translit": "mig zung",
+          "lemma": "mig",
+          "att": "AO",
+          "where": "cp.15.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অক্ষ্ণ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])আখি"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![আা])লোচন"
+        }
+      ],
+      "definition": "The eye (Old Bengali ākhi, Sanskrit akṣi, locana). The last line of song 15 says to go the road with eyes closed (ākhi bujia); the Tibetan line has 'the road known by the eye'. Munidatta has the yogi see coupled union with eyes fixed and open, and quotes a verse on the eyes of those who gaze at emptiness (cp.15.m6).",
+      "symbolicImage": "going the road with eyes closed",
+      "symbolicReadings": [
+        {
+          "referent": "seeing coupled union (yuganaddha) with eyes fixed and open; the Tibetan comment has 'with the pair of eyes half-closed and unmoving' (a paraphrase where the song has eyes closed; no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "coupled union",
+        "yuganaddha",
+        "union"
+      ],
+      "rationale": "The closing image, on which song, Tibetan line and commentary diverge (closed, known by the eye, fixed and open); an entry records the commentary reading so the line can keep the song's closed eyes. The Sanskrit locana is matched only where it is not part of ālocana, \"consideration\"."
+    },
+    {
+      "id": "upasamhara",
+      "type": "term",
+      "en": "summing up",
+      "policy": "translate",
+      "alt": [
+        "gathering up"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সংকেলিউ",
+          "translit": "saṃkeliu",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.15.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাববিষয়োপসংহারং",
+          "translit": "bhāvaviṣayopasaṃhāraṃ",
+          "lemma": "upasaṃhāra",
+          "att": "AS",
+          "where": "cp.15.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉེར་སྡུད",
+          "translit": "nyer sdud",
+          "lemma": "nyer sdud",
+          "att": "AO",
+          "where": "cp.15.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉེ་བར་སྡུད་པ",
+          "translit": "nye bar sdud pa",
+          "lemma": "nye bar sdud pa",
+          "att": "AO",
+          "where": "cp.15.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সংকেলি"
+        },
+        {
+          "lang": "san",
+          "form": "পসংহার"
+        },
+        {
+          "lang": "bod",
+          "form": "ཉེར་སྡུད"
+        },
+        {
+          "lang": "bod",
+          "form": "ཉེ་བར་སྡུད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Gathering up, summing up (Sanskrit upasaṃhāra; Old Bengali saṃkeliu, perhaps from saṃkalita, 'collected'). In the last couplet Śānti speaks saṃkeliu, apparently 'in sum'. The Tibetan nyer sdud and Munidatta's upasaṃhāra both mean summary and also withdrawal; Munidatta takes it as the withdrawal of the objects of existence (cp.15.m6).",
+      "symbolicImage": "Śānti's summing up",
+      "symbolicReadings": [
+        {
+          "referent": "the withdrawal (upasaṃhāra) of the objects of existence (bhāvaviṣaya), which Śānti makes once he has made it plain by avoiding the pair of appearances, left and right",
+          "per": "Munidatta",
+          "where": [
+            "cp.15.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "withdrawal of objects",
+        "sense objects",
+        "appearances"
+      ],
+      "rationale": "The bhaṇitā turns on this word, and the Tibetan and Munidatta give it a technical sense (withdrawal) beside the plain one (summary); the literal Old Bengali sense is uncertain, so the entry sets out the evidence for the reviewer."
+    },
+    {
+      "id": "uccheda",
+      "type": "term",
+      "en": "annihilation",
+      "policy": "translate",
+      "alt": [
+        "nihilism"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উচ্ছেদপ্রসঙ্গ[ং]",
+          "translit": "ucchedaprasaṅga[ṃ]",
+          "lemma": "uccheda",
+          "att": "AS",
+          "where": "cp.15.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆད་པར",
+          "translit": "chad par",
+          "lemma": "chad pa",
+          "att": "AO",
+          "where": "cp.15.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])উচ্ছেদ"
+        }
+      ],
+      "definition": "Annihilation (uccheda): the view that things, or the self, are simply cut off and cease to be, one of the two extremes, with eternalism, that the Middle Way avoids. Munidatta warns the fool who has reached the path not to take clear light as empty and so fall into annihilation (cp.15.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term the woven commentary needs explained; matched only word-initially so that samuccheda, \"eradication\", is not caught. The Tibetan chad pa is not given as a match form because it also occurs in unrelated words."
+    },
+    {
+      "id": "mahayana",
+      "type": "term",
+      "en": "Mahāyāna",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাযানমহোদয়ঃ",
+          "translit": "mahāyānamahodayaḥ",
+          "lemma": "mahāyāna",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐེག་པ་ཆེན་པོ",
+          "translit": "theg pa chen po",
+          "lemma": "theg pa chen po",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহাযান"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐེག་པ་ཆེན་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Great Vehicle': the Buddhist way that takes buddhahood for the sake of all beings as its goal; the tantras present themselves as part of it. In the Rativajra verse Munidatta quotes, this excellent path is 'the great rise of the Mahāyāna', by which you will become tathāgatas (cp.15.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic Buddhist term not yet in the glossary; the name is conventionally kept in English."
+    },
+    {
+      "id": "paramananda",
+      "type": "term",
+      "en": "supreme joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নির্ভরপরমানন্দমুদিতো",
+          "translit": "nirbharaparamānandamudito",
+          "lemma": "paramānanda",
+          "att": "AS",
+          "where": "cp.15.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "མཆོག་ཏུ་དགའ་བ",
+          "translit": "mchog tu dga' ba",
+          "lemma": "mchog tu dga' ba",
+          "att": "AO",
+          "where": "cp.15.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পরমানন্দ"
+        },
+        {
+          "lang": "bod",
+          "form": "མཆོག་ཏུ་དགའ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Supreme joy (paramānanda): in the yoginī tantras, the second of the four joys of yogic union, after joy and before the joy of cessation and innate joy (systems order the last two differently); also, loosely, the highest joy. Munidatta opens his comment on song 15 by calling Śānti delighted with full supreme joy (cp.15.m1).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary has joy, the joy of cessation and innate joy but not the second of the four joys; here the word may be only descriptive, which the definition allows for."
+    },
+    {
+      "id": "cakravartin",
+      "type": "term",
+      "en": "universal monarch",
+      "policy": "translate",
+      "alt": [
+        "wheel-turning king"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চক্রবর্ত্তী",
+          "translit": "cakravarttī",
+          "lemma": "cakravartin",
+          "att": "AS",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་ལོས་སྒྱུར་བའི་རྒྱལ་པོ",
+          "translit": "'khor los sgyur ba'i rgyal po",
+          "lemma": "'khor los sgyur ba'i rgyal po",
+          "att": "AO",
+          "where": "cp.15.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চক্রবর্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "འཁོར་ལོས་སྒྱུར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A universal monarch (cakravartin, 'wheel-turner'): in Indian and Buddhist tradition, the ideal king whose rule extends over the whole world. In Munidatta's simile, as a universal monarch enters his pleasure garden by the golden road, so the lord of yogis playfully enters the lotus garden of the wheel of great bliss by the path of the avadhūtī (cp.15.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A figure of Indian kingship the reader of the woven commentary needs explained; \"universal monarch\" is the usual plain rendering."
+    },
+    {
+      "id": "marga",
+      "type": "term",
+      "en": "path",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মার্গবরঃ",
+          "translit": "mārgavaraḥ",
+          "lemma": "mārga",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রমার্গবামদক্ষিণে",
+          "translit": "vajramārgavāmadakṣiṇe",
+          "lemma": "mārga",
+          "att": "AS",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "san",
+          "script": "মার্গঞ্চ",
+          "translit": "mārgañca",
+          "lemma": "mārga",
+          "att": "AS",
+          "where": "cp.15.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ་མཆོག",
+          "translit": "lam mchog",
+          "lemma": "lam",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মার্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལམ་མཆོག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Path (mārga): the way of practice that leads to awakening, a basic Buddhist term. Munidatta uses it for what the songs call the road: the excellent path of the avadhūtī of the joy of cessation (cp.15.m2), apart from which no other path leads toward the goal (cp.15.m3). The Tibetan has lam for both road and path.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's word for the road recurs seven times in this comment and throughout the commentary with no entry of its own; \"path\" keeps it distinct from the song's \"road\" (bāṭa). No Tibetan lam match is added, since road already claims it."
+    },
+    {
+      "id": "tx-anuttarasandhi",
+      "type": "text",
+      "en": "Anuttarasandhi",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চানুত্তরসন্ধৌ",
+          "translit": "cānuttarasandhau",
+          "lemma": "anuttarasandhi",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་ན་མེད་པའི་མཚམས་སྦྱོར",
+          "translit": "bla na med pa'i mtshams sbyor",
+          "lemma": "bla na med pa'i mtshams sbyor",
+          "att": "AO",
+          "where": "cp.15.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নুত্তরসন্ধ"
+        },
+        {
+          "lang": "bod",
+          "form": "བླ་ན་མེད་པའི་མཚམས་སྦྱོར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A work Munidatta cites as the Anuttarasandhi (Tibetan bla na med pa'i mtshams sbyor); it is not otherwise identified here. He quotes its verse: of all illusions, the illusion of woman is the most distinguished, and in it the distinction of the three knowledges is clearly seen (cp.15.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A cited work, entered like the Rativajra and Sahajasaṃvara; the Sanskrit match omits the initial a, which sandhi removes here (ca + anuttara-)."
+    },
+    {
+      "id": "road",
+      "type": "term",
+      "en": "road",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাটা",
+          "translit": "bāṭā",
+          "lemma": "bāṭa",
+          "att": "AS",
+          "where": "cp.15.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ་འཕྲང",
+          "translit": "lam 'phrang",
+          "lemma": "lam 'phrang",
+          "att": "AO",
+          "where": "cp.15.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: bāṭā (the two roads, left and right, of 5a) and the Tibetan lam 'phrang, 'narrow pass', for them. No match form is added: the entry's existing forms already cover bāṭa, and a bare বাটা would sit inside anābāṭā."
+    },
+    {
+      "id": "mudha",
+      "type": "term",
+      "en": "fool",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মুঢ়া",
+          "translit": "muṛhā",
+          "lemma": "mūṛha",
+          "att": "AS",
+          "where": "cp.15.2a"
+        },
+        {
+          "lang": "san",
+          "script": "মূঢ়া",
+          "translit": "mūṛhā",
+          "lemma": "mūḍha",
+          "att": "AS",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "san",
+          "script": "মূঢ়ঃ",
+          "translit": "mūṛhaḥ",
+          "lemma": "mūḍha",
+          "att": "AS",
+          "where": "cp.15.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মুঢ়া"
+        },
+        {
+          "lang": "san",
+          "form": "মূঢ়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: song 15 spells the vocative with a short u (muṛhā), and Munidatta uses the Sanskrit vocative in the comment (mūṛhā, mūṛhaḥ), which the entry's Old Bengali form does not cover."
+    },
+    {
+      "id": "samsara",
+      "type": "term",
+      "en": "saṃsāra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সংসারা",
+          "translit": "saṃsārā",
+          "lemma": "saṃsāra",
+          "att": "AS",
+          "where": "cp.15.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সংসার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: the first Old Bengali occurrence (the refrain of song 15); the entry lists only Sanskrit forms, and match forms are per language."
+    },
+    {
+      "id": "kula-shore",
+      "type": "term",
+      "en": "shore",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀུ་ལ",
+          "translit": "ku la",
+          "lemma": "ku la",
+          "att": "AO",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས",
+          "translit": "lus",
+          "lemma": "lus",
+          "att": "AO",
+          "where": "cp.15.2a"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan forms only, for the refrain's kulem̐ kula (the same phrase as in song 14): the Tibetan comment transcribes kula, and its line renders it lus, \"body\", following Munidatta's reading (cp.15.m3). Neither is added as a match form: lus is a reading, and ku la too short to be safe."
+    },
+    {
+      "id": "boat",
+      "type": "term",
+      "en": "boat",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নাব",
+          "translit": "nāba",
+          "lemma": "nāba",
+          "att": "AS",
+          "where": "cp.15.3b"
+        },
+        {
+          "lang": "san",
+          "script": "নৌভেদকাদ্যুপায়ং",
+          "translit": "naubhedakādyupāyaṃ",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.15.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নৌভেদক"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])নাব(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the bare stem nāba in 3b, matched as a whole word so that it does not fire inside anābāṭā, and Munidatta's naubhedaka (\"boat or raft\"; bhedaka is perhaps for bhelaka)."
+    },
+    {
+      "id": "thaha",
+      "type": "term",
+      "en": "footing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "থাহা",
+          "translit": "thāhā",
+          "lemma": "thāha",
+          "att": "AS",
+          "where": "cp.15.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏིང",
+          "translit": "gting",
+          "lemma": "gting",
+          "att": "AO",
+          "where": "cp.15.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "থাহা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: thāhā in 3a (the bottom of the ocean the fool does not know), and the Tibetan gting, \"depth, bottom\", for it; gting is not a match form, being a reading as much as an equivalent."
+    },
+    {
+      "id": "svarupa",
+      "type": "term",
+      "en": "true nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সরুঅ",
+          "translit": "sarua",
+          "lemma": "sarua",
+          "att": "AS",
+          "where": "cp.15.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সরুঅ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: sarua, the Old Bengali of svarūpa (Tibetan rang bzhin in the aligned line), the first occurrence in a song."
+    },
+    {
+      "id": "maya",
+      "type": "term",
+      "en": "illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মায়া",
+          "translit": "māyā",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মায়ানাং",
+          "translit": "māyānāṃ",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "san",
+          "script": "স্ত্রীমায়ৈব",
+          "translit": "strīmāyaiva",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মায়াপুরং",
+          "translit": "māyāpuraṃ",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.15.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্ত্রীমায়"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মায়া"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only, from Munidatta's comment and the verses he quotes (māyā called wisdom; the illusion of woman; the city of illusion). Matched word-initially so that samāyāti and the like are not caught."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুনা",
+          "translit": "sunā",
+          "lemma": "sunā",
+          "att": "AS",
+          "where": "cp.15.4a"
+        },
+        {
+          "lang": "san",
+          "script": "শূন্যেত্যাদি",
+          "translit": "śūnyetyādi",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.15.m5"
+        },
+        {
+          "lang": "san",
+          "script": "শূন্যমিতি",
+          "translit": "śūnyamiti",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.15.m5"
+        },
+        {
+          "lang": "san",
+          "script": "শূন্যং",
+          "translit": "śūnyaṃ",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.15.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པའི",
+          "translit": "stong pa'i",
+          "lemma": "stong pa",
+          "att": "AO",
+          "where": "cp.15.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শূন্য"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོང་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুনা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the adjective sunā, \"empty\", of 4a (Tibetan stong pa'i lam, \"empty road\") and Munidatta's śūnya; the entry's rendering \"emptiness\" does not fit an adjective (see questions)."
+    },
+    {
+      "id": "vama-daksina",
+      "type": "term",
+      "en": "left and right",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ལྷོ་བྱང",
+          "translit": "lho byang",
+          "lemma": "lho byang",
+          "att": "AO",
+          "where": "cp.15.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ལྷོ་བྱང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: the Tibetan renders bāma dāhiṇa of 5a as lho byang, \"south and north\" (so also in cp.15.m6), without the dang of the form the entry already has."
+    },
+    {
+      "id": "p-virupa",
+      "type": "person",
+      "en": "Virūpa",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিরুপাক্ষপাদাঃ",
+          "translit": "virupākṣapādāḥ",
+          "lemma": "virūpākṣa",
+          "att": "AS",
+          "where": "cp.15.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিরুপাক্ষ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: Munidatta attributes the verse on vajra-raising to Virupākṣapāda, whom the Tibetan names bi rU pa'i zhabs, Virūpa; the reviewer should confirm that the same siddha is meant."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "এতদ্বিরমানন্দাবধূতিমার্গবরেণ",
+          "translit": "etadviramānandāvadhūtimārgavareṇa",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "san",
+          "script": "লীলয়াঽবধূতিমার্গেণ",
+          "translit": "līlayā'vadhūtimārgeṇa",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "san",
+          "script": "নাবধূত্যংশে",
+          "translit": "nāvadhūtyaṃśe",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.15.m3"
+        },
+        {
+          "lang": "san",
+          "script": "পরিশুদ্ধাবধূতীবিরমানন্দমার্গেণ",
+          "translit": "pariśuddhāvadhūtīviramānandamārgeṇa",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.15.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=[ঽা])বধূত"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: in all four places sandhi has swallowed the initial a (after ā or the avagraha), so a literal beginning অবধূত would miss them; the regex catches vadhūt- only in that position."
+    },
+    {
+      "id": "yogi",
+      "type": "term",
+      "en": "yogi",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বালযোগিনমধিকৃত্য",
+          "translit": "bālayoginamadhikṛtya",
+          "lemma": "bālayogin",
+          "att": "AS",
+          "where": "cp.15.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱིས་པའི་རྣལ་འབྱོར་པ",
+          "translit": "byis pa'i rnal 'byor pa",
+          "lemma": "byis pa'i rnal 'byor pa",
+          "att": "AO",
+          "where": "cp.15.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བྱིས་པའི་རྣལ་འབྱོར་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the accusative bālayoginam and the Tibetan byis pa'i rnal 'byor pa, 'childish yogi', for Munidatta's novice yogin, whom he addresses four times in this comment."
+    },
+    {
+      "id": "tathagata",
+      "type": "term",
+      "en": "tathāgata",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তথাগতাঃ",
+          "translit": "tathāgatāḥ",
+          "lemma": "tathāgata",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་བཞིན་གཤེགས་པ",
+          "translit": "de bzhin gshegs pa",
+          "lemma": "de bzhin gshegs pa",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དེ་བཞིན་གཤེགས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the plural in the Rativajra verse, and the first attestation of de bzhin gshegs pa in the aligned Tibetan (the entry has it only from dictionaries)."
+    },
+    {
+      "id": "vayu",
+      "type": "term",
+      "en": "wind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রাণমারুতঃ",
+          "translit": "prāṇamārutaḥ",
+          "lemma": "māruta",
+          "att": "AS",
+          "where": "cp.15.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মারুত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: māruta, another Sanskrit word for the vital wind, in the verse Munidatta attributes to Virupākṣa (Tibetan srog gi rlung, already a form of the entry)."
+    },
+    {
+      "id": "nalinivana",
+      "type": "term",
+      "en": "lotus grove",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শরসি[জ]বনে",
+          "translit": "śarasi[ja]vane",
+          "lemma": "sarasija",
+          "att": "AS",
+          "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྫིང་བུའི་ཚལ",
+          "translit": "rdzing bu'i tshal",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শরসিজবন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: Munidatta's sarasijavana (spelled with ś; sarasija, 'lake-born', is a lotus), the lotus grove of the wheel of great bliss; the Tibetan has rdzing bu'i tshal, 'grove of the pool'. The match reads through Shastri's restoration brackets, as matching does."
+    },
+    {
+      "id": "vajra",
+      "type": "term",
+      "en": "vajra",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পবিজলজসংযোগে",
+          "translit": "pavijalajasaṃyoge",
+          "lemma": "pavi",
+          "att": "AS",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])পবি(?=জলজ)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: pavi, a synonym of vajra, in 'the union of vajra and lotus' (Tibetan rdo rje dang chu skyes); matched only before jalaja, since pavi- also begins pavitra, 'pure'."
+    },
+    {
+      "id": "lotus",
+      "type": "term",
+      "en": "lotus",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পবিজলজসংযোগে",
+          "translit": "pavijalajasaṃyoge",
+          "lemma": "jalaja",
+          "att": "AS",
+          "where": "cp.15.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জলজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: jalaja, 'water-born', a synonym of lotus, in 'the union of vajra and lotus' (Tibetan chu skyes)."
+    },
+    {
+      "id": "abhasa",
+      "type": "term",
+      "en": "appearance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বামদক্ষিণাভাসদ্বয়পরিহারাৎ",
+          "translit": "vāmadakṣiṇābhāsadvayaparihārāt",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.15.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভাসদ্বয়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: the pair of appearances, left and right, that Śānti avoids (Tibetan snang ba gnyis); here sandhi removes the initial ā, so the match starts after it."
+    }
+  ],
+  "questions": [
+    "kula (refrain, 2a): Munidatta reads kule as \"in each individual body\" (pratyekaśarīre, cp.15.m3) and the Tibetan line renders it lus, \"body\". The kula-shore entry (from song 14) may want this as a further reading; merging a proposal adds forms only, so it would have to be added by hand. Is kula here \"shore\" at all, or kula \"family, lineage\" (\"do not go from lineage to lineage\")?",
+    "Readings for existing entries that a proposal cannot carry: the fool is the novice yogin (bālayogin, cp.15.m3); the road of 5b is the path of the joy of cessation of the purified avadhūtī (cp.15.m6); left and right are the pair of appearances avoided (cp.15.m6). Add them by hand if wanted. Should bālayogin, \"novice yogi\", Munidatta's constant addressee here, have an entry of its own rather than being a form of yogi?",
+    "sunyata: the song's sunā (4a) is an adjective, \"empty\" (Tibetan stong pa'i lam, \"empty road\"; pāntara is probably prāntara, \"a long lonely road\"). The entry's \"emptiness\" cannot stand in the line; would you add \"empty\" as a variant, or keep sunā unlinked?",
+    "Eight great accomplishments vs eightfold mastery (astagunaisvarya): I kept them apart (the tantric set of eight siddhis vs the eight yogic powers such as becoming minute), but neither the song nor Munidatta says which eight are meant.",
+    "anābāṭā and kaṇḍhārā are kept in source form. For anābāṭā the options are \"off the road/roadless\" (a play on bāṭa), \"another road\" (Tibetan gzhan du), and \"no return\" (Munidatta's anāvarta). For kaṇḍhārā, \"golden\" (Munidatta's kanakapatha, Tibetan gser lam) or \"helmsman\" (karṇadhāra > Bengali kāṇḍārī). Would you prefer a translated rendering for either?",
+    "p-santi: the whole-word pattern for শান্তি cannot tell the poet from the common noun śānti, \"peace\", if it turns up in the commentary of another song; please check hits outside songs by Śānti.",
+    "p-virupa: Munidatta cites the verse on vajra-raising (cp.15.m3) from Virupākṣapāda; the Tibetan has bi rU pa'i zhabs. I added the form to Virūpa; if Virūpākṣa is a different author he needs his own entry.",
+    "marga: the new \"path\" entry matches Sanskrit মার্গ. The māṅga entry lists Munidatta's mārgaṃ among its forms; if māṅga's Sanskrit match is মার্গ as well, both entries will fire on every mārga in the commentary. Please check māṅga's match forms.",
+    "Divergences the drafter will need to flag (not glossary matters): 1b Tibetan \"their road went elsewhere\"; 4a Tibetan reads bāsasi as bag chags, \"latent tendencies\", and lacks the negative with \"signs are seen\"; 5b Tibetan reads bujia as \"known\" (budh-) where the Old Bengali has \"closed\", and Munidatta has \"eyes fixed and open\"; cp.15.m4 Sanskrit vāhya against Tibetan gsung, \"word\" (vākya)."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "3ed358bd0370d8bffba4072814076159b0a5a585ecb8d0e496dc45993cf6222c",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "7c31172ca6ee3209742c218297b107383123e063a38b6926e98cbc463be283ef",
+    "sourceSha": "aef0fc27518ae9c57f2d6d06db72321051abce9433a443a243ba3a16dac700cd"
+  }
+}

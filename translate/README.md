@@ -124,9 +124,39 @@ node translate/cli.mjs studio import charyapada          # approved/, glossary, 
 - **Rendered as:** how the term has been translated so far, with counts, across the songs, notes and commentary.
 - **In the text:** every place its source forms occur (`lib/concord.mjs`), each in context in the source script and transliteration, with the English of that line. Select a reference to go to that passage, in any song.
 - **Look it up:** one row per language linking to the reference works (`lib/lookup.mjs`): Monier-Williams and Edgerton's *Buddhist Hybrid Sanskrit Dictionary* (Cologne), Turner's *Comparative Dictionary of the Indo-Aryan Languages* (DSAL, which cites Old Bengali forms), and for Tibetan the 84000 glossary and BDRC's texts. Links use each form's `lemma` (its dictionary headword) when the glossary gives one. Nothing is copied from these works.
+- **In the Tibetan:** which Tibetan word the Tibetan translators used for the term, counted over the places that have Tibetan (for example "g.yung mo 14×, Dom+bi 4× of 21"), grouped by dictionary form.
 - **Edit entry** opens the fields.
 
+**Show Tibetan** (toolbar, or `T`) sets the Tibetan translation under each Bengali line, script above Wylie, and adds it to each comment and to the usage list. It is off by default and remembered on the device.
+
 Concordances are one small document per term (`concord/<id>`), read only when a term is opened, and rebuilt on every export. Overwrites are pinned: `seeded.json` records each document's version, and every re-sent document carries `if_version`.
+
+## The Tibetan translation (Toh 2293)
+
+The Tibetan translation of Munidatta's commentary quotes every song, so it is a second witness, line by line, for the whole text: evidence beside the Bengali, and the reading text itself where the Nepal manuscript is lost. It comes from Esukhia's public-domain digital Degé Tengyur, pinned to a commit (the `fetch` URL of witness `toh2293` in `text.json`).
+
+It is marked like the Bengali, in `texts/charyapada/source/toh2293.txt`, under `@parallel`. Each line attaches to the Bengali line or segment with the same id, so the Tibetan needs no ids of its own and never makes a draft or an approval stale (it has its own `parallelSha`).
+
+```sh
+# once: import (already done; the importer puts each pāda, sentence and quoted lemma on its own line)
+node translate/cli.mjs import charyapada --witness toh2293 --fetch all
+
+# for each song: in toh2293.txt, find the rāga line ("… zhes bya ba'i glu dbyangs …"), then mark
+#   @song N / @heading (the rāga line, when the Bengali has a heading) / @verse (one line per half-line)
+#   @comm (Munidatta's introduction) / @comm K before each lemma "… zhes bya ba la sogs pa ni" on couplet K
+#   @skip after the last comment
+node translate/cli.mjs segment charyapada      # reports any Bengali line or segment left without Tibetan
+
+# Tibetan equivalents of the glossary terms, read off the aligned lines
+node translate/cli.mjs terms-bo charyapada 10  # a subagent answers each pack
+node translate/cli.mjs ingest charyapada 10 --task terms-bo
+```
+
+Munidatta's comments begin where the Tibetan quotes the line: "rkang pa gnyis pas" ("with the second pada") before couplet 3, and so on, matching the Bengali segments. Too many Tibetan lines for a song, or a comment on a couplet the Bengali has no segment for, is an error that says what to do.
+
+**The lost songs (24, 25, 48 and the end of 23).** After `@primary`, the lines are the reading text: verse lines pair into couplets (with `@refrain`, `@bhanita`, `@couplet` as usual) and `@comm K` makes a segment, all in Tibetan with Wylie. A lost song is marked `@song 24`, `@primary`, then `@raga`, `@poet`, `@heading`, `@verse` and `@comm` as for any song. For song 23, mark the lines the Bengali has under `@verse`, put `@primary` before the rest, and `@parallel` to go back to matching for the comments the Bengali keeps. Drafters are told to translate these from the Tibetan and to say so in a witness note.
+
+**The terms-bo check.** A drafter's Tibetan word must appear, as whole syllables, in the Tibetan of the line it names, or ingest refuses it. Accepted words join the entry as forms attested in another witness (AO) and are matched in future Tibetan, so the concordance can count them. Every answer is kept in `texts/charyapada/tibetan/`, with the drafter's notes and questions for the reviewer.
 
 ## Source directives
 
@@ -143,6 +173,8 @@ Directives are whole lines starting with `@`. The raw import is never edited: `c
 | `@lacuna [note]` | a gap in the witness |
 | `@emend ID FROM => TO \| reason` | correct a line without touching the raw text |
 | `@-- anything` | a comment |
+| `@parallel` | (first directive of a file) the file is a translation whose lines attach to the reading text's ids; inside a song, back to matching |
+| `@primary` | in a `@parallel` file: from here on in this song the lines are the reading text (for what the reading witness lacks) |
 
 **Segmentation rules:**
 - **`caryagiti`:** a couplet closes at a line ending in ॥. A single line holding both halves is split at its first internal ।. ধ্রু marks the refrain. The last couplet is the bhaṇitā unless `@bhanita` says otherwise.
@@ -213,12 +245,11 @@ It also writes `translations/assets/reader.css` and `reader.js`, shared by every
 
 ## Milestones
 
-1. **M1 (built):** the engine and the session loop, tested end to end on a fixture. **Pilot (in review):** songs 1, 10 and 14 are imported with `--fetch` from Bengali Wikisource's 1916 edition, drafted and woven, and seeded into the Charyapada Studio (URL in `studio.json`). Next: Lena reviews there, then "Pull my Studio decisions for the Charyapada".
+1. **M1 (built):** the engine and the session loop, tested end to end on a fixture. **Pilot (in review):** songs 1, 10 and 14 are imported with `--fetch` from Bengali Wikisource's 1916 edition, drafted and woven, aligned with the Tibetan (Toh 2293) line by line, and seeded into the Charyapada Studio (URL in `studio.json`). Next: Lena reviews there, then "Pull my Studio decisions for the Charyapada".
 2. **M2:**
-   - all 50 songs
-   - the Tibetan witness (Toh 2293) for songs 24, 25, 48 and the end of 23
+   - all 50 songs, each marked in the Bengali and the Tibetan
+   - songs 24, 25, 48 and the end of 23 from the Tibetan (`@primary`)
    - API and batch drafting with prompt caching
 3. **M3:**
    - any text, with generic segmenters
-   - Tibetan to Wylie
    - 84000 translation memory and glossary as a reviewer-only lookup

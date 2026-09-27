@@ -1,6 +1,9 @@
-# The Tibetan translation as a parallel witness (proposal)
+# The Tibetan translation as a parallel witness
 
-> **Status:** proposed. Nothing here is built yet.
+> **Status:** built, and piloted on songs 1, 10 and 14 (September 2026). Lena chose Esukhia's public-domain Degé Tengyur e-text (OpenPecha/BDRC), Tibetan script above Wylie, and a pilot first. How to mark further songs, including the lost ones, is in the README ("The Tibetan translation"). What was built differs from this proposal in three places:
+> - Wylie comes from BDRC's own converter (`jsewts`), not a new transliterator.
+> - `@primary` inside a `@parallel` file makes the Tibetan the reading text for what the Nepal manuscript lacks, so one file serves every song.
+> - Tibetan forms match whole syllables only, and the Studio tally counts them under their dictionary form.
 
 ## Why
 
@@ -51,8 +54,8 @@ Lines align by structure. Matching a term to the particular Tibetan word that re
 5. **The "terms-bo" pass** and Tibetan forms in the glossary.
 6. **Songs 24, 25, 48 and the end of 23** from the Tibetan as the reading text.
 
-## Decisions for Lena
+## Decisions (made)
 
-- **Which e-text source to use** (licence and quality).
-- **Script and Wylie:** Tibetan script above Wylie is proposed.
-- **Pilot first?** Whether to try it on songs 1, 10 and 14 before going further.
+- **E-text:** Esukhia's Degé Tengyur (public domain), pinned to commit 1746531.
+- **Script and Wylie:** Tibetan script above Wylie.
+- **Pilot first:** songs 1, 10 and 14, then all songs.

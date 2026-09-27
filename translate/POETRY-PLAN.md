@@ -1,6 +1,6 @@
 # The poetry workshop: study and practice across traditions
 
-> **Status:** planned, not built. Waiting on: Morton's *How to Read Any Poem Anywhere* page (see [Open questions](#open-questions)). Working assumptions until answered: the Shakespeare centrepiece is Sonnet 29, and the Workshop will take the maker's own poems as well as versions of the songs.
+> **Status:** research under way (27 Sept 2026): four notes in progress, Morton, the Sufi poets, the Zen mountain poets and Shakespeare. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
 
 ## Why
 
@@ -71,7 +71,15 @@ Rumi wrote mainly in Persian, in a metre inherited from Arabic (*ʿarūḍ*, cod
 - **Other sonnets for contrast.** 18, 73 and 116.
 - **Performance.** Find and cite the Judi Dench performance. Claude cannot watch or hear video, so the study reads the text for breath and phrasing, and the maker listens and marks where the voice lifts. That becomes an exercise: perform it yourself.
 
-## 5. Synthesis, then building
+## 5. The maker's own poems
+
+The maker's poems (in their Google Drive) are read as a fifth study, by the same method, so the practice starts from the maker's own forms and habits rather than a generic workshop. They are read in the session and never committed; notes on them stay in `.private/`.
+
+- **Their forms and habits** on Morton's board, set beside the four traditions.
+- **Their own revision method:** one channel per draft (structure, texture, perception, narrator, narrative), which the Workshop keeps as a way of working.
+- **Response to a poem** keeps the poet in control: Liz Lerman's Critical Response Process order (statements of meaning, the poet's questions, neutral questions, opinions only when asked), with the board as the evidence.
+
+## 6. Synthesis, then building
 
 - **A comparison note:** what works in poems everywhere, and what it changes in the edition's translation rules.
 - **Lenses** in `prompts/lenses.json`, each with its board: Ghazal (*radīf* and signature), *Masnavī* couplets, *Rubāʿī* (aaba), Cold Mountain, Parallel couplet, Haiku cut, Shakespearean sonnet.
@@ -79,7 +87,8 @@ Rumi wrote mainly in Persian, in a metre inherited from Arabic (*ʿarūḍ*, cod
 - **The Workshop:**
   - a **Study** room: the touchstone poems read on the board, annotated;
   - a **Practice** room: daily exercises (the answering poem, one-word revision, the capping phrase, read aloud, Hotter and Cooler);
-  - the existing drafting, with a mode for the maker's own poems as well as versions of the songs.
+  - a **Your poems** room: the maker's own poem on the board, drafts side by side, one channel per draft;
+  - the existing drafting of versions of the songs.
 
 ## Rules
 
@@ -97,6 +106,4 @@ Rumi wrote mainly in Persian, in a metre inherited from Arabic (*ʿarūḍ*, cod
 
 ## Open questions
 
-1. **Morton's guide.** The maker's copy of *How to Read Any Poem Anywhere* (`how-to-read-any-poem/index.html`) is on their own computer, outside the cloud session. If it is the maker's own notes, it can be committed to `research/morton/`. If it is Morton's text, it belongs in `.private/` (gitignored, like other copyrighted references) and should be pasted or attached in a session instead.
-2. **The sonnet.** Assumed to be Sonnet 29.
-3. **The maker's own poems.** Assumed yes: the Workshop reads any English, not only versions of the songs.
+1. **Morton's course.** The maker's index to their transcripts of the course (UC Davis, winter 2012; 19 recordings on the Internet Archive, 12 transcribed) is in `.private/morton/`. The recordings are CC BY-NC-ND 3.0, so the transcripts and notes stay out of git; the research note is written in our own words and quotes briefly. Still wanted: the class pages and transcripts themselves (`class01.html`…, `transcripts/`), attached in a session. Classes 13–17, the interim class and the revision class are untranscribed.

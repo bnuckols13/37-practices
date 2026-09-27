@@ -238,4 +238,6 @@ test('glossary matching reads through folio numbers and restoration brackets', a
   assert.equal(h?.id, 'pada', 'a folio number inside the word');
   assert.equal(h.at, 2, 'the position is in the source as given');
   assert.equal(matchSource(es, 'সআল স[মা]হিঅ', 'oben')[0]?.id, 'samadhi', 'a restoration inside the word');
+  assert.equal(matchSource(es, 'দ্বিতী(২০ক)য়পদেন', 'san')[0]?.id, 'pada', 'a folio number printed in parentheses');
+  assert.equal(matchSource(es, 'দ্বিতীয়(য়ে)পদেন', 'san').length, 0, 'but not an editorial correction in parentheses');
 });

@@ -45,13 +45,13 @@ function spansOf(s, form, lang) {
  * kept: citta inside a compound no entry covers is still citta. Each hit gives
  * the form found and where (`at`, the first place it counts).
  */
-// Shastri's folio numbers ([৫ক]) and the brackets of his restorations (স[মা]হিঅ) sit inside
+// Shastri's folio numbers ([৫ক], once (২০ক)) and the brackets of his restorations (স[মা]হিঅ) sit inside
 // words; matching reads through them. `pos` maps an index in the cleaned text back to the source.
 function readable(src) {
   const s = String(src).normalize('NFC');
   let text = '', pos = [];
   for (let i = 0; i < s.length;) {
-    const folio = /^\[[০-৯0-9]+[কখ]?\]/u.exec(s.slice(i));
+    const folio = /^\[[০-৯0-9]+[কখ]?\]|^\([০-৯0-9]+[কখ]?\)/u.exec(s.slice(i));
     if (folio) { i += folio[0].length; continue; }
     if (s[i] === '[' || s[i] === ']') { i++; continue; }
     text += s[i]; pos.push(i); i++;

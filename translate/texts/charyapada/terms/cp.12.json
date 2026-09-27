@@ -1,0 +1,2127 @@
+{
+  "unit": "cp.12",
+  "proposals": [
+    {
+      "id": "bhairavi",
+      "type": "term",
+      "en": "Bhairavī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভৈরবী",
+          "translit": "bhairavī",
+          "lemma": "bhairavī",
+          "att": "AS",
+          "where": "cp.12.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་བོ་ཆེ",
+          "translit": "rnga bo che",
+          "lemma": "rnga bo che",
+          "att": "AO",
+          "where": "cp.12.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভৈরবী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bhairavī, the name of the rāga (melodic mode) to which song 12 is sung, given in its heading; the word is also a name of a goddess. The Tibetan translation calls the melody rnga bo che, 'great drum', perhaps reading the name as bherī, 'kettledrum'; the reason is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Rāga names in song headings have their own keep-source entries (Aru, Gavaṛā, Devakrī), and Bhairavī has none yet."
+    },
+    {
+      "id": "pihari",
+      "type": "term",
+      "en": "pihāṛi",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "board"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পিহাড়ি",
+          "translit": "pihāṛi",
+          "lemma": "pihāṛi",
+          "att": "AS",
+          "where": "cp.12.1a"
+        },
+        {
+          "lang": "san",
+          "script": "পি[হা]ড়ীতি",
+          "translit": "pi[hā]ṛīti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་མཚན",
+          "translit": "rgyal mtshan",
+          "lemma": "rgyal mtshan",
+          "att": "AO",
+          "where": "cp.12.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ",
+          "translit": "rgyal",
+          "lemma": "rgyal",
+          "att": "AO",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পিহাড়"
+        },
+        {
+          "lang": "san",
+          "form": "পিহাড়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in the first line of song 12, joined to compassion (karuṇā) at the opening of Kāṇha's game; it may name the board (compare Bengali piṛi, 'low wooden seat'). Munidatta explains it as the seven faults, stains of samādhi; the Tibetan translation has rgyal mtshan, 'banner', in the line and rgyal in the comment.",
+      "symbolicImage": "the pihāṛi of compassion on which Kāṇha plays",
+      "symbolicReadings": [
+        {
+          "referent": "the seven faults, stains of samādhi, connected with the mind's support (āśraya; the construction is unclear), which are split and removed; the Tibetan calls them obscurations of samādhi and adds that victory over them is called non-apprehension",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "seven faults",
+        "faults",
+        "stains of samādhi",
+        "obscurations",
+        "non-apprehension"
+      ],
+      "rationale": "The word carries the song's opening image and Munidatta glosses it explicitly, but its literal sense is unsure, so the source form is kept for now, as with māṅga and tiaḍḍā."
+    },
+    {
+      "id": "thakura",
+      "type": "term",
+      "en": "king",
+      "policy": "translate",
+      "alt": [
+        "lord"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঠাকুর",
+          "translit": "ṭhākura",
+          "lemma": "ṭhākura",
+          "att": "AS",
+          "where": "cp.12.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "ঠাকুরক",
+          "translit": "ṭhākuraka",
+          "lemma": "ṭhākura",
+          "att": "AS",
+          "where": "cp.12.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ঠকুরম",
+          "translit": "ṭhakuram",
+          "lemma": "ṭhakkura",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ঠকুরমিতি",
+          "translit": "ṭhakuram iti",
+          "lemma": "ṭhakkura",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་པོ",
+          "translit": "rgyal po",
+          "lemma": "rgyal po",
+          "att": "AO",
+          "where": "cp.12.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་པོ",
+          "translit": "rgyal po",
+          "lemma": "rgyal po",
+          "att": "AO",
+          "where": "cp.12.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঠাকুর"
+        },
+        {
+          "lang": "san",
+          "form": "ঠকুর"
+        },
+        {
+          "lang": "san",
+          "form": "ঠাকুর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Lord, master (Old Bengali ṭhākura; Sanskrit ṭhakkura), a title of rank also used of gods. In the refrain and fourth couplet of song 12 it names the chief piece of Kāṇha's game, which the Tibetan translation calls rgyal po, 'king'. Munidatta reads it as the mind (cp.12.m3, cp.12.m5).",
+      "symbolicImage": "the king (ṭhākura) of the game, brought to parinirvāṇa by intelligence",
+      "symbolicReadings": [
+        {
+          "referent": "the mind of ignorance (avidyācitta), named with 'the helpful instruction' in a gloss that has no verb; the Tibetan construes it as 'by the means of one who benefits the mind of ignorance'",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m3"
+          ]
+        },
+        {
+          "referent": "the mind on which affliction (saṃkleśa) had been superimposed, made one on which parinirvāṇa is superimposed",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind",
+        "citta",
+        "mind of ignorance",
+        "ignorance",
+        "afflicted mind"
+      ],
+      "rationale": "A recurring figure of the song's game (refrain and couplet 4) with explicit readings in Munidatta; 'king' follows the Tibetan rgyal po and the board-game context, with 'lord' as the literal alternative."
+    },
+    {
+      "id": "bhavabala",
+      "type": "term",
+      "en": "forces of existence",
+      "policy": "translate",
+      "alt": [
+        "army of existence",
+        "power of existence"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভববল",
+          "translit": "bhababala",
+          "lemma": "bhababala",
+          "att": "AS",
+          "where": "cp.12.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "ভববল",
+          "translit": "bhababala",
+          "lemma": "bhababala",
+          "att": "AS",
+          "where": "cp.12.4b"
+        },
+        {
+          "lang": "san",
+          "script": "ভববলং",
+          "translit": "bhavabalaṃ",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভববলং",
+          "translit": "bhavabalaṃ",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་སྟོབས",
+          "translit": "srid pa'i stobs",
+          "lemma": "srid pa",
+          "att": "AO",
+          "where": "cp.12.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་དཔུང",
+          "translit": "srid pa'i dpung",
+          "lemma": "srid pa",
+          "att": "AO",
+          "where": "cp.12.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভববল"
+        },
+        {
+          "lang": "san",
+          "form": "ভববল"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲིད་པའི་སྟོབས"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲིད་པའི་དཔུང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The forces, or army, of existence (Old Bengali bhababala: bhava, 'existence', and bala, 'strength, troops'), which Kāṇha says he has conquered in lines 1b and 4b of song 12. The Tibetan translation has srid pa'i stobs, 'power of existence', and srid pa'i dpung, 'army of existence'. Munidatta reads it as the sense objects.",
+      "symbolicImage": "the forces of existence, defeated in the game",
+      "symbolicReadings": [
+        {
+          "referent": "the force of the appearance of sense objects (viṣayābhāsabala), which Kṛṣṇācārya conquers as he plays in the union of vajra and lotus",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m2"
+          ]
+        },
+        {
+          "referent": "the force of the host of things (bhāvagrāma), the sense objects beginning with form; the Tibetan has 'the power of the town of things'",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "sense objects",
+        "objects",
+        "appearance of objects",
+        "things",
+        "host of things"
+      ],
+      "rationale": "A compound that occurs twice in the song and is glossed twice by Munidatta; 'forces' keeps both senses of bala, power and troops, which the Tibetan renders stobs and dpung."
+    },
+    {
+      "id": "baria",
+      "type": "term",
+      "en": "pawn",
+      "policy": "translate",
+      "alt": [
+        "pawns"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বড়িআ",
+          "translit": "baṛiā",
+          "lemma": "baṛiā",
+          "att": "AS",
+          "where": "cp.12.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বড়িকেতি",
+          "translit": "vaṛiketi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.12.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་རེང",
+          "translit": "mi reng",
+          "lemma": "mi reng",
+          "att": "AO",
+          "where": "cp.12.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་རེང",
+          "translit": "mi reng",
+          "lemma": "mi reng",
+          "att": "AO",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མི་རེང"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বড়িআ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বড়িক"
+        }
+      ],
+      "definition": "Old Bengali baṛiā, apparently the pawns of a board game like chess (compare modern Bengali boṛe, 'pawn'); in song 12 they are broken up and killed first. Munidatta cites the word as vaṛikā and calls it twilight language for the hundred and sixty natures; the Tibetan translation has mi reng, whose exact sense is unclear.",
+      "symbolicImage": "the pawns, broken up and killed first",
+      "symbolicReadings": [
+        {
+          "referent": "the hundred and sixty natures (prakṛti), which are first made without intrinsic nature by the process of vajra recitation; vaṛikā is twilight language for them",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "natures",
+        "hundred and sixty natures",
+        "prakṛti",
+        "concepts",
+        "conceptions"
+      ],
+      "rationale": "An image of the song's game with an explicit twilight-language gloss; 'pawn' rests on the Bengali chess word and on the context of king, elephant and sixty-four squares, and should be checked."
+    },
+    {
+      "id": "pancajana",
+      "type": "term",
+      "en": "five people",
+      "policy": "translate",
+      "alt": [
+        "five persons"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাঞ্চজনা",
+          "translit": "pāñcajanā",
+          "lemma": "pāñcajana",
+          "att": "AS",
+          "where": "cp.12.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བོ་ལྔ",
+          "translit": "skye bo lnga",
+          "lemma": "skye bo",
+          "att": "AO",
+          "where": "cp.12.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাঞ্চজনা"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐྱེ་བོ་ལྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Five people (Old Bengali pāñcajanā; Sanskrit pañca jana), who in couplet 3 of song 12 are gholiu, perhaps 'churned up', once the elephant is brought out; apparently pieces in the game, though in Bengali 'five people' can also mean people at large. The Tibetan translation has skye bo lnga, 'five persons'.",
+      "symbolicImage": "the five people, churned up once the elephant is brought out",
+      "symbolicReadings": [
+        {
+          "referent": "the five sense objects, which consist of the five aggregates, whose ornament of I-making, mine-making and the rest the suchness-mind elephant strikes down, leaving them without pride (his paraphrase puts these where the song has pāñcajanā; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "sense objects",
+        "five sense objects",
+        "aggregates",
+        "five aggregates",
+        "skandhas"
+      ],
+      "rationale": "A figure of the game in couplet 3 to which Munidatta's paraphrase assigns a reading; 'five people' keeps the literal sense and leaves open whether game pieces are meant."
+    },
+    {
+      "id": "mati",
+      "type": "term",
+      "en": "intelligence",
+      "policy": "translate",
+      "alt": [
+        "understanding",
+        "wit"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মতিএঁ",
+          "translit": "matiem̐",
+          "lemma": "mati",
+          "att": "AS",
+          "where": "cp.12.4a"
+        },
+        {
+          "lang": "san",
+          "script": "মতিএমিতি",
+          "translit": "matiem iti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "san",
+          "script": "মত্যা",
+          "translit": "matyā",
+          "lemma": "mati",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བློ",
+          "translit": "blo",
+          "lemma": "blo",
+          "att": "AO",
+          "where": "cp.12.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "བློ་གྲོས",
+          "translit": "blo gros",
+          "lemma": "blo gros",
+          "att": "AO",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মতি(?:এঁ|এ)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মতিএ"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মত্যা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Intelligence or understanding (Sanskrit mati), by which, in couplet 4 of song 12, the king is brought to parinirvāṇa. Munidatta glosses it as understanding in accord with the perfection of wisdom (cp.12.m5); the Tibetan translation has blo, 'mind, intelligence', in the line and blo gros in the comment.",
+      "symbolicImage": "the intelligence by which the king is brought to parinirvāṇa",
+      "symbolicReadings": [
+        {
+          "referent": "understanding that follows the perfection of wisdom (prajñāpāramitānubuddhi); the Tibetan says intelligence (blo gros) is to touch the perfection of wisdom",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "perfection of wisdom",
+        "prajñāpāramitā",
+        "wisdom",
+        "prajñā"
+      ],
+      "rationale": "Munidatta gives the word an explicit doctrinal gloss, so the entry both explains it and keeps 'wisdom' out of the line."
+    },
+    {
+      "id": "parinirvana",
+      "type": "term",
+      "en": "parinirvāṇa",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "final nirvāṇa"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পরিনিবিত্তা",
+          "translit": "parinibittā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.12.4a"
+        },
+        {
+          "lang": "san",
+          "script": "পরিনির্ব্বাণারোপিতং",
+          "translit": "parinirvvāṇāropitaṃ",
+          "lemma": "parinirvāṇa",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོངས་སུ་མྱ་ངན་འདས",
+          "translit": "yongs su mya ngan 'das",
+          "lemma": "mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.12.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོངས་སུ་མྱ་ངན་ལས་འདའ་བར",
+          "translit": "yongs su mya ngan las 'da' bar",
+          "lemma": "mya ngan las 'da' ba",
+          "att": "AO",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পরিনিবিত্ত"
+        },
+        {
+          "lang": "san",
+          "form": "পরিনির্ব্বাণ"
+        },
+        {
+          "lang": "san",
+          "form": "পরিনির্বাণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡོངས་སུ་མྱ་ངན་འདས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡོངས་སུ་མྱ་ངན་ལས་འདའ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Complete or final nirvāṇa (parinirvāṇa), classically a buddha's passing at death. In couplet 4 of song 12 the king becomes parinibittā, which the Tibetan translation renders yongs su mya ngan 'das and Munidatta takes as parinirvāṇa (cp.12.m5). The Old Bengali might instead reflect parinivṛtta, 'brought wholly to a stop', which would suit the game.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term distinct from plain nirvāṇa, attested in the song, the commentary and the Tibetan; the source form is kept as for nirvāṇa, with a gloss at first occurrence."
+    },
+    {
+      "id": "kotha",
+      "type": "term",
+      "en": "square",
+      "policy": "translate",
+      "alt": [
+        "squares",
+        "compartment"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কোঠা",
+          "translit": "koṭhā",
+          "lemma": "koṭhā",
+          "att": "AS",
+          "where": "cp.12.5b"
+        },
+        {
+          "lang": "san",
+          "script": "চতুঃষষ্টিকোষ্টকে",
+          "translit": "catuḥṣaṣṭikoṣṭake",
+          "lemma": "koṣṭhaka",
+          "att": "AS",
+          "where": "cp.12.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རེ་མིག",
+          "translit": "re mig",
+          "lemma": "re mig",
+          "att": "AO",
+          "where": "cp.12.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རེའུ་མིག",
+          "translit": "re'u mig",
+          "lemma": "re'u mig",
+          "att": "AO",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কোষ্টক"
+        },
+        {
+          "lang": "san",
+          "form": "কোষ্ঠক"
+        },
+        {
+          "lang": "bod",
+          "form": "རེ་མིག"
+        },
+        {
+          "lang": "bod",
+          "form": "རེའུ་མིག"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কোঠা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A compartment or chamber (Old Bengali koṭhā; compare Sanskrit koṣṭha, koṣṭhaka). In the last line of song 12 Kāṇha counts sixty-four of them, the squares of the game board; the Tibetan translation has re mig, 'squares'. Munidatta speaks of the wheel of emanation 'with sixty-four compartments' (catuḥṣaṣṭikoṣṭaka).",
+      "symbolicImage": "the sixty-four squares Kāṇha counts",
+      "symbolicReadings": [
+        {
+          "referent": "the wheel of emanation (nirmāṇacakra), with its sixty-four compartments, in which Kṛṣṇācārya, having made it steady, takes his own mind, clear light by nature",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wheel of emanation",
+        "nirmāṇacakra",
+        "cakra",
+        "petals",
+        "lotus",
+        "clear light"
+      ],
+      "rationale": "The sixty-four squares close the song and carry an explicit reading in Munidatta; 'square' follows the game and the Tibetan re mig, while the Old Bengali word also means 'room, compartment'."
+    },
+    {
+      "id": "daha",
+      "type": "term",
+      "en": "move",
+      "policy": "translate",
+      "alt": [
+        "turn"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দাহ",
+          "translit": "dāha",
+          "lemma": "dāha",
+          "att": "AS",
+          "where": "cp.12.5a"
+        },
+        {
+          "lang": "san",
+          "script": "দায়ং",
+          "translit": "dāyaṃ",
+          "lemma": "dāya",
+          "att": "AS",
+          "where": "cp.12.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་མཆོག",
+          "translit": "bde mchog",
+          "lemma": "bde mchog",
+          "att": "AO",
+          "where": "cp.12.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་མཆོག",
+          "translit": "bde mchog",
+          "lemma": "bde mchog",
+          "att": "AO",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])দাহ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Old Bengali dāha, what Kāṇha says he gives well in the last couplet of song 12. In the game it most likely means a move or turn (compare Bengali dān, Hindi dā̃v); Munidatta renders it dāya, 'gift', explained as the intention of an exceptional offering, and the Tibetan translation has bde mchog, 'supreme bliss'.",
+      "symbolicImage": "the good move Kāṇha makes",
+      "symbolicReadings": [
+        {
+          "referent": "a gift (dāya), meaning the intention of an exceptional offering (prābhṛta)",
+          "per": "Munidatta",
+          "where": [
+            "cp.12.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "supreme bliss",
+        "exceptional offering"
+      ],
+      "rationale": "The key word of the bhaṇitā, read three ways (move, gift, supreme bliss); 'move' follows the game, and the entry records the other readings."
+    },
+    {
+      "id": "dyuta",
+      "type": "term",
+      "en": "game of dice",
+      "policy": "translate",
+      "alt": [
+        "gambling",
+        "dice"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দ্যূতক্রীড়াধ্যানেন",
+          "translit": "dyūtakrīṛādhyānena",
+          "lemma": "dyūta",
+          "att": "AS",
+          "where": "cp.12.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱན་པོ་འགྱེད་པ",
+          "translit": "rgyan po 'gyed pa",
+          "lemma": "rgyan po 'gyed pa",
+          "att": "AO",
+          "where": "cp.12.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্যূত"
+        },
+        {
+          "lang": "bod",
+          "form": "རྒྱན་པོ་འགྱེད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Gambling, play at dice (Sanskrit dyūta, dyūtakrīḍā). Munidatta introduces song 12 as Kāṇha setting out the same meaning again through the contemplation of a game of dice (cp.12.m1); the Tibetan has rgyan po 'gyed pa, 'gambling'. The song's own words (a king, pawns, an elephant, sixty-four squares) suggest a board game like chess.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's name for the frame of song 12, needed for the woven commentary, and to be kept distinct from the chess-like vocabulary of the song itself."
+    },
+    {
+      "id": "mantranaya",
+      "type": "term",
+      "en": "way of mantra",
+      "policy": "translate",
+      "alt": [
+        "Mantra Way"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মন্ত্রনয়রহস্যং",
+          "translit": "mantranayarahasyaṃ",
+          "lemma": "mantranaya",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྔགས་ཀྱི་ཚུལ",
+          "translit": "sngags kyi tshul",
+          "lemma": "sngags kyi tshul",
+          "att": "AO",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মন্ত্রনয়"
+        },
+        {
+          "lang": "bod",
+          "form": "སྔགས་ཀྱི་ཚུལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The way of mantra (mantranaya): the tantric path of Buddhism, the Vajrayāna, as distinct from the way of the perfections (pāramitānaya). Munidatta glosses the naa of song 12's first line as naya, 'the secret of the way of mantra' (cp.12.m2); the Tibetan has sngags kyi tshul.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard doctrinal term with no entry yet, which Munidatta uses to gloss a word of the song."
+    },
+    {
+      "id": "prajnaparamita",
+      "type": "term",
+      "en": "perfection of wisdom",
+      "policy": "translate",
+      "alt": [
+        "Prajñāpāramitā"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞাপারমিতানুবুদ্ধ্যা",
+          "translit": "prajñāpāramitānuvuddhyā",
+          "lemma": "prajñāpāramitā",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་མར",
+          "translit": "shes rab kyi pha rol tu phyin mar",
+          "lemma": "shes rab kyi pha rol tu phyin pa",
+          "att": "AO",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রজ্ঞাপারমিতা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The perfection of wisdom (prajñāpāramitā): the wisdom that realizes the emptiness of all things, chief of the bodhisattva's perfections, also personified as a goddess and the name of a class of Mahāyāna sūtras. Munidatta glosses the mati of song 12 as understanding in accord with it (cp.12.m5); the Tibetan uses the feminine phyin ma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A central Mahāyāna term, distinct from plain wisdom (prajñā), which Munidatta uses to gloss the song."
+    },
+    {
+      "id": "sugata",
+      "type": "term",
+      "en": "sugata",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সুগতানাং",
+          "translit": "sugatānāṃ",
+          "lemma": "sugata",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བར་གཤེགས་པའི",
+          "translit": "bde bar gshegs pa'i",
+          "lemma": "bde bar gshegs pa",
+          "att": "AO",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བདེ་བར་གཤེགས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])সুগত(?![িী])"
+        }
+      ],
+      "definition": "'Well-gone' (sugata), an epithet of a buddha. In the verse Munidatta attributes to Nāgārjuna, the very mind by which fools are bound in saṃsāra brings yogins to the state (gati) of the sugatas (cp.12.m5); the Tibetan has bde bar gshegs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A common epithet of the buddhas, parallel to tathāgata, which already has a keep-source entry; the regex keeps sugati, a different word, from matching."
+    },
+    {
+      "id": "ahamkara-mamakara",
+      "type": "term",
+      "en": "I-making and mine-making",
+      "policy": "translate",
+      "alt": [
+        "'I' and 'mine'"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অহংকারমমকারাদিভূষণং",
+          "translit": "ahaṃkāramamakārādibhūṣaṇaṃ",
+          "lemma": "ahaṃkāra",
+          "att": "AS",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "হংকারমমকার"
+        },
+        {
+          "lang": "san",
+          "form": "হঙ্কারমমকার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "I-making and mine-making (ahaṃkāra, mamakāra): taking things as 'I' and as 'mine', the grasping at self that Buddhist teaching places at the root of attachment. Munidatta says the suchness-mind elephant strikes down this 'ornament' of the five sense objects (cp.12.m4); the Tibetan has dar byed pa dang bdag tu byed pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard doctrinal pair used in Munidatta's gloss on the elephant; the match drops the initial a, which sandhi removes in the source (-syāhaṃkāra-)."
+    },
+    {
+      "id": "prakrti",
+      "type": "term",
+      "en": "natures",
+      "policy": "translate",
+      "alt": [
+        "natural conceptions"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ষষ্ট্যুত্তরশতপ্রকৃতয়ো",
+          "translit": "ṣaṣṭyuttaraśataprakṛtayo",
+          "lemma": "prakṛti",
+          "att": "AS",
+          "where": "cp.12.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲུག་ཅུ་ལྷག་པ་བརྒྱའི་རང་བཞིན",
+          "translit": "drug cu lhag pa brgya'i rang bzhin",
+          "lemma": "rang bzhin",
+          "att": "AO",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শতপ্রকৃত"
+        },
+        {
+          "lang": "bod",
+          "form": "དྲུག་ཅུ་ལྷག་པ་བརྒྱའི་རང་བཞིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Natures (prakṛti): in the completion-stage yoga of the Guhyasamāja tradition, the natural states of conceptual mind, commonly counted as eighty and linked with the three luminous appearances, which cease as the winds dissolve. Munidatta speaks of a hundred and sixty, made without intrinsic nature by vajra recitation, and reads the song's pawns as them (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of completion-stage yoga that Munidatta equates with the pawns; the match is kept narrow because prakṛti also means plain nature (prakṛtidoṣa, prakṛtiprabhāsvara), and his figure of 160 is not explained."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যস্য",
+          "translit": "kṛṣṇācāryyasya",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যোহি",
+          "translit": "kṛṣṇācāryyo hi",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.12.m6"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণচার্য্যৈর্",
+          "translit": "kṛṣṇacāryyair",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་ཞབས",
+          "translit": "nag po zhabs",
+          "lemma": "nag po zhabs",
+          "att": "AO",
+          "where": "cp.12.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པ་པས",
+          "translit": "nag po spyod pa pas",
+          "lemma": "nag po spyod pa pa",
+          "att": "AO",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্য"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণচার্য্য"
+        },
+        {
+          "lang": "bod",
+          "form": "ནག་པོ་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet of song 12, called Kṛṣṇācārya in Sanskrit; he names himself Kāhnu in its refrain and last couplet, and Munidatta speaks as him in the first person (asmābhiḥ kṛṣṇācāryaiḥ).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The candidate list shows three Sanskrit forms of the name unmatched; the stem kṛṣṇācāryya- (and the slip kṛṣṇacāryya-) covers every case ending."
+    },
+    {
+      "id": "elephant",
+      "type": "term",
+      "en": "elephant",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঅবরেঁ",
+          "translit": "gaabarem̐",
+          "lemma": "gaabara",
+          "att": "AS",
+          "where": "cp.12.3b"
+        },
+        {
+          "lang": "san",
+          "script": "গঅবরেণেতি",
+          "translit": "gaavareṇeti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.12.m4"
+        },
+        {
+          "lang": "san",
+          "script": "তথতাচিত্তগজেন্দ্রেণ",
+          "translit": "tathatācittagajendreṇa",
+          "lemma": "gajendra",
+          "att": "AS",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গঅবর"
+        },
+        {
+          "lang": "san",
+          "form": "গঅবর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An elephant. In couplet 3 of song 12 the elephant (gaabara, from Sanskrit gajavara) is a piece in the game; the Tibetan has glang chen. Munidatta reads it as the lord of yogis' suchness-mind lord of elephants (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Old Bengali gaabara (gajavara), unmatched in the candidate list, is the elephant of the game, as the Tibetan glang chen confirms."
+    },
+    {
+      "id": "karuna",
+      "type": "term",
+      "en": "compassion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "করুণা",
+          "translit": "karuṇā",
+          "lemma": "karuṇā",
+          "att": "AS",
+          "where": "cp.12.1a"
+        },
+        {
+          "lang": "san",
+          "script": "করুণেতি",
+          "translit": "karuṇeti",
+          "lemma": "karuṇā",
+          "att": "AS",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "করুণা"
+        },
+        {
+          "lang": "san",
+          "form": "করুণেতি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Compassion. Song 12 opens with karuṇā beside the pihāṛi of the game; Munidatta takes it as the mind in the form of the self-blessing mind (cp.12.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's citation form karuṇeti is unmatched in the candidate list."
+    },
+    {
+      "id": "abhasa",
+      "type": "term",
+      "en": "appearance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আভাসদ্বয়ং",
+          "translit": "ābhāsadvayaṃ",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣང་བ་གཉིས་པོ",
+          "translit": "snang ba gnyis po",
+          "lemma": "snang ba",
+          "att": "AO",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আভাসদ্বয়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Appearance. Munidatta reads the pair (duā) of song 12's refrain as the two appearances (ābhāsadvaya), cut off by the process of vajra recitation (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The form ābhāsadvayaṃ is unmatched in the candidate list; the stem ābhāsadvaya- covers its cases."
+    },
+    {
+      "id": "vajrajapa",
+      "type": "term",
+      "en": "vajra recitation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রজাপক্রমেণ",
+          "translit": "vajrajāpakrameṇa",
+          "lemma": "vajrajāpa",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রজাপক্রমেণ",
+          "translit": "vajrajāpakrameṇa",
+          "lemma": "vajrajāpa",
+          "att": "AS",
+          "where": "cp.12.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་བཟླས་པའི་རིམ་པས",
+          "translit": "rdo rje bzlas pa'i rim pas",
+          "lemma": "rdo rje bzlas pa",
+          "att": "AO",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বজ্রজাপ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Vajra recitation. Munidatta twice speaks of its process (vajrajāpakrama) in song 12: the two appearances are cut off by it (cp.12.m3), and the hundred and sixty natures made without intrinsic nature (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "vajrajāpakrameṇa is unmatched in the candidate list (3 occurrences so far); the stem vajrajāpa- is unambiguous and covers every compound."
+    },
+    {
+      "id": "upadesa",
+      "type": "term",
+      "en": "instruction",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উএস",
+          "translit": "uesa",
+          "lemma": "uesa",
+          "att": "AS",
+          "where": "cp.12.2b"
+        },
+        {
+          "lang": "san",
+          "script": "উপকারিকোপদেশেনেতি",
+          "translit": "upakārikopadeśeneti",
+          "lemma": "upadeśa",
+          "att": "AS",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উপকারিকোপদেশ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])উএস(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Instruction. Munidatta renders the uesa of song 12's refrain (2b) as upakārika upadeśa, 'helpful instruction' (cp.12.m3); the Tibetan translation of the line has phan thabs, 'helpful means'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "uesa is the regular Prakrit shape of upadeśa (compare the entry's uvavesa) and Munidatta glosses it so; the short form gets a whole-word regex."
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "en": "joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবিরতানন্দাভিযোগেন",
+          "translit": "aviratānandābhiyogena",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "san",
+          "script": "অবিরতানন্দেন",
+          "translit": "aviratānandena",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অবিরতানন্দ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Joy. Munidatta twice speaks of uninterrupted joy (aviratānanda) in song 12, once as the application of it in union (cp.12.m2) and once in his gloss on the refrain (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Both forms are unmatched in the candidate list; the match keeps the initial a so that it cannot claim viratānanda."
+    },
+    {
+      "id": "viramananda",
+      "type": "term",
+      "en": "joy of cessation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিরমপ্রবেশসময়ে",
+          "translit": "viramapraveśasamaye",
+          "lemma": "virama",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱད་པར་དགའ",
+          "translit": "khyad par dga'",
+          "lemma": "khyad par dga' ba",
+          "att": "AO",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিরমপ্রবেশ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁྱད་པར་དགའ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Joy of cessation. In the verse of Daṛatīpāda that Munidatta quotes on song 12, the moment of entering cessation (virama) comes at the end of passion; the Tibetan renders it khyad par dga' (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The verse's virama stands for the joy of cessation, as the Tibetan khyad par dga' shows; the match is the specific phrase viramapraveśa."
+    },
+    {
+      "id": "raga-passion",
+      "type": "term",
+      "en": "passion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রাগান্তে",
+          "translit": "rāgānte",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆགས་པའི་མཐར",
+          "translit": "chags pa'i mthar",
+          "lemma": "chags pa",
+          "att": "AO",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "রাগান্তে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Passion. Munidatta's gloss on the refrain of song 12, and the verse of Daṛatīpāda he quotes, both begin 'at the end of passion' (rāgānte); the Tibetan has chags pa'i mthar (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "rāgānte (twice here) is unmatched in the candidate list, and the Tibetan chags pa confirms passion rather than melody."
+    },
+    {
+      "id": "p-darati",
+      "type": "person",
+      "en": "Daṛatīpāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দড়তীপাদাঃ",
+          "translit": "daṛatīpādāḥ",
+          "lemma": "daṛatīpāda",
+          "att": "AS",
+          "where": "cp.12.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨུ་ཌའི་ཞབས",
+          "translit": "u Da'i zhabs",
+          "lemma": "u Da'i zhabs",
+          "att": "AO",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দড়তীপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཨུ་ཌའི་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Teacher whom Munidatta quotes again in song 12 (cp.12.m3), for a verse on the bliss that arises at the end of passion, when the wind is stopped; the Tibetan names him u Da'i zhabs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The name is unmatched in the candidate list although the entry lists it as a form; the Tibetan here lacks the da of the entry's da u Da'i zhabs."
+    },
+    {
+      "id": "mahamudra",
+      "type": "term",
+      "en": "Mahāmudrā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহামুদ্রয়া",
+          "translit": "mahāmudrayā",
+          "lemma": "mahāmudrā",
+          "att": "AS",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহামুদ্র"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mahāmudrā. In the verse of Daṛatīpāda quoted on song 12, whoever experiences the supreme state for himself is accomplished by Mahāmudrā (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The instrumental mahāmudrayā is not covered by the listed form mahāmudrāṃ; the stem covers all cases."
+    },
+    {
+      "id": "vayu",
+      "type": "term",
+      "en": "wind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বায়োর্ন্নিরুদ্ধা",
+          "translit": "vāyornniruddhā",
+          "lemma": "vāyu",
+          "att": "AS",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বায়োর্"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wind. In the verse of Daṛatīpāda quoted on song 12, the movement of the wind is stopped (vāyor niruddhā gatiḥ) (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The genitive vāyor is not among the listed forms."
+    },
+    {
+      "id": "moon",
+      "type": "term",
+      "en": "moon",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চন্দ্রে",
+          "translit": "candre",
+          "lemma": "candra",
+          "att": "AS",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])চন্দ্রে(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The moon. In the verse of Daṛatīpāda quoted on song 12, the moon stands in its own nature at the moment of entering cessation (cp.12.m3); the Tibetan verse has no moon there.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The locative candre is not among the listed forms; a whole-word regex keeps it out of names such as Kīrticandra."
+    },
+    {
+      "id": "bodhicitta",
+      "type": "term",
+      "en": "bodhicitta",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বোধিচিতাক্ষরোপদেশেন",
+          "translit": "bodhicitākṣaropadeśena",
+          "lemma": "bodhicitta",
+          "att": "AS",
+          "where": "cp.12.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বোধিচিতা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bodhicitta. Munidatta speaks in song 12 of the instruction in imperishable bodhicitta, spelled bodhicitā in the edition (cp.12.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The edition spells the word with one t here, which the listed forms do not catch."
+    },
+    {
+      "id": "nihsvabhava",
+      "type": "term",
+      "en": "without intrinsic nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিঃস্বভাবীকৃত্য",
+          "translit": "niḥsvabhāvīkṛtya",
+          "lemma": "niḥsvabhāva",
+          "att": "AS",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিঃস্বভাব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Without intrinsic nature. Munidatta says the hundred and sixty natures are first made without intrinsic nature by vajra recitation (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The spelling with visarga is not among the listed forms (which have nisvabhāvīkṛtya)."
+    },
+    {
+      "id": "sandhya-bhasa",
+      "type": "term",
+      "en": "twilight language",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সন্ধ্যাভাসয়া",
+          "translit": "sandhyābhāsayā",
+          "lemma": "sandhyābhāṣā",
+          "att": "AS",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সন্ধ্যাভাস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Twilight language. Munidatta says the baṛiā of song 12 is twilight language for the hundred and sixty natures (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The instrumental with s, sandhyābhāsayā, is not among the listed forms; the stem covers both spellings with s."
+    },
+    {
+      "id": "skandha",
+      "type": "term",
+      "en": "aggregates",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পঞ্চস্কন্ধাত্মক",
+          "translit": "pañcaskandhātmaka",
+          "lemma": "skandha",
+          "att": "AS",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পঞ্চস্কন্ধ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The five aggregates. Munidatta speaks of the five sense objects that consist of the five aggregates (pañcaskandhātmaka) (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A compound form not among the listed forms; the stem pañcaskandha- covers them all."
+    },
+    {
+      "id": "visaya",
+      "type": "term",
+      "en": "sense objects",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিষয়াভাসবলং",
+          "translit": "viṣayābhāsavalaṃ",
+          "lemma": "viṣaya",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "san",
+          "script": "পঞ্চবিষয়স্য",
+          "translit": "pañcaviṣayasya",
+          "lemma": "viṣaya",
+          "att": "AS",
+          "where": "cp.12.m4"
+        },
+        {
+          "lang": "san",
+          "script": "রূপাদিবিষয়ং",
+          "translit": "rūpādiviṣayaṃ",
+          "lemma": "viṣaya",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡུལ་ལྔའི",
+          "translit": "yul lnga'i",
+          "lemma": "yul",
+          "att": "AO",
+          "where": "cp.12.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিষয়াভাস"
+        },
+        {
+          "lang": "san",
+          "form": "পঞ্চবিষয়"
+        },
+        {
+          "lang": "san",
+          "form": "রূপাদিবিষয়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sense objects. Munidatta glosses the forces of existence in song 12 as the force of the appearance of sense objects (cp.12.m2) and as the sense objects beginning with form (cp.12.m5), and speaks of the five sense objects (cp.12.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Three compound forms not among the listed ones; the matches are specific compounds rather than bare viṣaya, which also means scope or domain."
+    },
+    {
+      "id": "klesa",
+      "type": "term",
+      "en": "affliction",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সংক্লেশারোপিতচিত্তং",
+          "translit": "saṃkleśāropitacittaṃ",
+          "lemma": "saṃkleśa",
+          "att": "AS",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সংক্লেশ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Affliction. Munidatta reads the king of song 12 as the mind on which affliction (saṃkleśa) is superimposed (cp.12.m5); the Tibetan has nyon mongs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "saṃkleśa is the usual Buddhist Sanskrit synonym of kleśa, and the Tibetan renders both nyon mongs pa."
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "en": "verse",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দ্বিতীয়পদেন",
+          "translit": "dvitīyapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.12.m4"
+        },
+        {
+          "lang": "san",
+          "script": "তৃতীয়পদেন",
+          "translit": "tṛtīyapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.12.m5"
+        },
+        {
+          "lang": "san",
+          "script": "চতুর্থপদেন",
+          "translit": "caturthapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বিতীয়পদ"
+        },
+        {
+          "lang": "san",
+          "form": "তৃতীয়পদ"
+        },
+        {
+          "lang": "san",
+          "form": "চতুর্থপদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Munidatta's word for a couplet of a song. In song 12 he introduces couplets 3, 4 and 5 as the second, third and fourth verse (cp.12.m4, cp.12.m5, cp.12.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "tṛtīyapadena is unmatched in the candidate list (14 occurrences so far) although the entry lists it; the ordinal stems cover every case and sandhi form."
+    },
+    {
+      "id": "anusamsa",
+      "type": "term",
+      "en": "praise",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যোগাস্পদস্যানুশংসাম",
+          "translit": "yogāspadasyānuśaṃsām",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নুশংসা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Praise. Munidatta says the last couplet of song 12 speaks the praise of the poet's own station of yoga (cp.12.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Sandhi usually swallows the initial a (-syānuśaṃsā-, -tmānuśaṃsā-), so the match starts at nuśaṃsā."
+    },
+    {
+      "id": "nirmana-cakra",
+      "type": "term",
+      "en": "wheel of emanation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নির্ম্মাণচক্রে",
+          "translit": "nirmmāṇacakre",
+          "lemma": "nirmāṇacakra",
+          "att": "AS",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নির্ম্মাণচক্র"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The wheel of emanation. Munidatta places the sixty-four squares of song 12 in it: the wheel of emanation with sixty-four compartments (cp.12.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The locative is not among the listed forms; the stem covers all cases."
+    },
+    {
+      "id": "sthira",
+      "type": "term",
+      "en": "steady",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্থিরীকৃত্য",
+          "translit": "sthirīkṛtya",
+          "lemma": "sthira",
+          "att": "AS",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্থিরীকৃ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Steady. Munidatta says Kṛṣṇācārya, having made it steady in the wheel of emanation, takes his own mind as clear light (cp.12.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "sthirīkṛtya is unmatched in the candidate list (3 occurrences so far) although the entry lists it."
+    },
+    {
+      "id": "prabhasvara",
+      "type": "term",
+      "en": "clear light",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রকৃতিপ্রভাস্বররূপং",
+          "translit": "prakṛtiprabhāsvararūpaṃ",
+          "lemma": "prabhāsvara",
+          "att": "AS",
+          "where": "cp.12.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রভাস্বর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Clear light. Munidatta says Kṛṣṇācārya takes his own mind, whose form is clear light by nature (prakṛtiprabhāsvara) (cp.12.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A compound (with a syllable restored by Shastri) not among the listed forms; the stem covers it."
+    },
+    {
+      "id": "svadhisthana",
+      "type": "term",
+      "en": "self-blessing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বাধিষ্ঠানচিত্তরূপং",
+          "translit": "svādhiṣṭhānacittarūpaṃ",
+          "lemma": "svādhiṣṭhāna",
+          "att": "AS",
+          "where": "cp.12.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བྱིན་གྱིས་བརླབས་པ",
+          "translit": "rang byin gyis brlabs pa",
+          "lemma": "rang byin gyis brlabs pa",
+          "att": "AO",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্বাধিষ্ঠান"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་བྱིན་གྱིས་བརླབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Self-blessing. Munidatta takes the compassion of song 12's first line as the mind in the form of the self-blessing mind (cp.12.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A compound, and a Tibetan spelling with brlabs, not among the listed forms."
+    },
+    {
+      "id": "samadhi",
+      "type": "term",
+      "en": "samādhi",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সমাধিমলা",
+          "translit": "samādhimalā",
+          "lemma": "samādhi",
+          "att": "AS",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সমাধিমল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Samādhi. Munidatta calls the seven faults he reads in the pihāṛi of song 12 stains of samādhi (samādhimala) (cp.12.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A compound not among the listed forms."
+    },
+    {
+      "id": "vajra",
+      "type": "term",
+      "en": "vajra",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কুলিশাজসংযোগেন",
+          "translit": "kuliśājasaṃyogena",
+          "lemma": "kuliśa",
+          "att": "AS",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কুলিশা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Vajra. Munidatta speaks of the union of vajra and lotus (kuliśāja-, apparently for kuliśābja-) in song 12; the Tibetan has rdo rje dang chu skyes (cp.12.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "kuliśājasaṃyogena is unmatched in the candidate list; kuliśā- covers kuliśa in compounds and sandhi."
+    },
+    {
+      "id": "bandhana",
+      "type": "term",
+      "en": "bond",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বন্ধনং",
+          "translit": "bandhanaṃ",
+          "lemma": "bandhana",
+          "att": "AS",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বন্ধনং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bondage. In the verse Munidatta attributes to Nāgārjuna on song 12, fools go to bondage in saṃsāra through the very mind by which yogins reach the state of the sugatas (cp.12.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "bandhanaṃ is unmatched in the candidate list although the entry lists the stem as a form."
+    },
+    {
+      "id": "guru",
+      "type": "term",
+      "en": "guru",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রগুরোর্",
+          "translit": "vajraguror",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.12.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বজ্রগুরো"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Spiritual teacher. Munidatta speaks in song 12 of playing by the instruction of the vajra guru (vajraguror upadeśāt) (cp.12.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The genitive of vajraguru is not covered by the listed form vajraguruṇā."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তেন",
+          "translit": "cittena",
+          "lemma": "citta",
+          "att": "AS",
+          "where": "cp.12.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চিত্তেন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mind. In the verse Munidatta attributes to Nāgārjuna on song 12, the same mind binds fools in saṃsāra and brings yogins to the state of the sugatas (cp.12.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "cittena (twice here) is unmatched in the candidate list; inside bodhicittena the longer bodhicitta form still wins."
+    }
+  ],
+  "questions": [
+    "The game: Munidatta (dyūtakrīḍā, cp.12.m1) and the Tibetan (rgyan po 'gyed pa) call it dice or gambling, but the song's words (ṭhākura, baṛiā, gaabara, sixty-four koṭhā, Tibetan re mig 'squares') look like chess. I proposed 'king' (after the Tibetan rgyal po), 'pawn' (after Bengali boṛe) and 'square'. Please confirm these, or prefer the literal 'lord' for ṭhākura.",
+    "Readings that a new-form proposal cannot carry into an existing entry: karuṇā (1a) = the mind in the form of the self-blessing mind (cp.12.m2); gaabara, the elephant (3b) = the lord of yogis' suchness-mind lord of elephants, which strikes down the ornament of I-making and mine-making (cp.12.m4). Should the karuna and elephant entries gain these readings?",
+    "naa bala (1a): no entry proposed. Munidatta reads naa as naya, 'the secret of the way of mantra', and bala as 'the power of the fourth joy' (cp.12.m2); the Tibetan line has rgyan po rtse bar byed, 'plays at dice'. The literal sense (nine forces? a new game?) is open.",
+    "uesa (2b) is added to 'instruction' on the strength of Munidatta's upakārika upadeśa (cp.12.m3); the Tibetan has phan thabs, 'helpful means', as if reading upāya. Please check.",
+    "cp.12.m3 has jinavara[sya] ('best of Jinas') where the song has jinaura and the Tibetan comment rgyal po'i pho brang ('palace'); it may be a slip for jinapura. I did not add it to jinapura, because matching jinavara would claim every 'best of Jinas'.",
+    "The refrain's duā ('the two') is glossed by Munidatta as the two appearances (ābhāsadvaya, cp.12.m3). I added ābhāsadvayaṃ to 'appearance' but did not match duā, which is only the number.",
+    "akleśavaśena (cp.12.m2) may mean 'without trouble' or 'not under the sway of the afflictions'; the Tibetan has nyon mongs pa'i dbang gis, with no negative. I left it out of 'affliction'.",
+    "kuliśāja- (cp.12.m2) seems to stand for kuliśābja-, 'vajra and lotus' (Tibetan rdo rje dang chu skyes). The new match form goes to vajra, so the lotus is not linked in that compound.",
+    "Several listed forms were evidently never match forms (tṛtīyapadena, sthirīkṛtya, bandhanaṃ, daṛatīpādāḥ and others appear in the candidate list). I added stem match forms for pada, sthira, bandhana, p-darati and p-kanha; the existing entries may deserve the same check elsewhere.",
+    "ahaṃkāra-mamakāra: the Tibetan has dar byed pa dang bdag tu byed pa, and it is unclear which half renders which, so I gave no Tibetan form."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "bf78c96025d191057ccb68767c253444107739aeda146fb82d4b3671bda91fff",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "7c31172ca6ee3209742c218297b107383123e063a38b6926e98cbc463be283ef",
+    "sourceSha": "2ab80fb02db272e527d3a042f806610e70b5174329d562cf9369c5a92455925a"
+  }
+}

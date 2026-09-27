@@ -143,8 +143,11 @@ export function concordance(slug) {
   const byId = new Map(entries.map(e => [e.id, e]));
   // The Tibetan word for a term in an aligned passage: the longest of the entry's Tibetan
   // forms found there, tallied under its dictionary form so that pa and pa'i count together.
-  const tibetanIn = (e, par) => {
-    const found = (e.match.bod || []).filter(f => tibetanIndex(par.src, f) >= 0).sort((a, b) => b.length - a.length)[0];
+  // A word a drafter read at this very place counts here even when it is not a match form
+  // (a reading such as sgra gcan, "Rāhu", for kāla in 1.1b).
+  const tibetanIn = (e, par, at) => {
+    const here = e.forms.filter(f => f.lang === 'bod' && f.where === at && f.script).map(f => f.script);
+    const found = [...(e.match.bod || []), ...here].filter(f => tibetanIndex(par.src, f) >= 0).sort((a, b) => b.length - a.length)[0];
     if (!found) return null;
     const form = e.forms.find(f => f.lang === 'bod' && f.script === found);
     const key = form?.lemma || form?.translit || tibetanToWylie(found);
@@ -172,7 +175,7 @@ export function concordance(slug) {
         if (!c || !k) continue;
         c.total++; c[s.kind === 'comm' ? 'comm' : 'verse']++;
         // Which Tibetan word renders the term here, among the forms the glossary knows.
-        const bw = par ? tibetanIn(byId.get(hit.id), par) : null;
+        const bw = par ? tibetanIn(byId.get(hit.id), par, s.id) : null;
         const boForm = bw?.script;
         if (par) {
           c.tibetan.aligned++;

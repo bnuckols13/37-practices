@@ -111,8 +111,9 @@ export function mergeProposal(g, p, { slug, by }) {
 
 /**
  * A Tibetan equivalent read off an aligned line (the terms-bo task) joins the entry as a form
- * attested in another witness (AO), and as a match form so the concordance finds it.
- * Decided entries only gain forms, as with any proposal.
+ * attested in another witness (AO). Only a clear equivalent also becomes a match form, so the
+ * concordance counts it everywhere: a likely one is often a reading (the Tibetan's "moon" for
+ * dhamaṇa), and matching it would claim every moon. Decided entries only gain forms.
  */
 export function mergeTibetan(g, eq) {
   const e = g.entries.find(x => x.id === eq.id);
@@ -120,8 +121,10 @@ export function mergeTibetan(g, eq) {
   const script = eq.script.normalize('NFC');
   const fresh = !e.forms.some(f => f.lang === 'bod' && f.script === script);
   if (fresh) e.forms.push(Form.parse({ lang: 'bod', script, translit: eq.wylie, lemma: eq.lemma || '', att: 'AO', where: eq.line }));
-  const m = e.match.bod ||= [];
-  if (!m.includes(script)) m.push(script);
+  if (eq.confidence === 'clear') {
+    const m = e.match.bod ||= [];
+    if (!m.includes(script)) m.push(script);
+  }
   return fresh ? { added: `${eq.id}: ${eq.wylie}` } : { known: eq.id };
 }
 

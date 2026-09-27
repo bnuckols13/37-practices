@@ -80,8 +80,11 @@ test('the Tibetan: aligned by id, in the packs, matched to glossary terms, count
   assert.match(read(p.md), /- fx\.01\.1a: taruvara \(তরুবর\)\n {4}tib: །ལུས་ལྗོན་ཤིང་/);
   const eq = { id: 'taruvara', line: 'fx.01.1a', script: 'ལྗོན་ཤིང', wylie: 'ljon shing', lemma: '', confidence: 'clear', note: '' };
   await assert.rejects(ingestAnswer(dir, 'terms-bo', 'fx.01', { unit: 'fx.01', equivalents: [{ ...eq, script: 'ནགས་ཚལ' }], questions: [] }), /is not in the Tibetan of fx\.01\.1a/);
-  const [r] = await ingestAnswer(dir, 'terms-bo', 'fx.01', { unit: 'fx.01', equivalents: [eq], questions: [] });
-  assert.deepEqual(r.tibetan, ['taruvara: ljon shing']);
+  const likely = { id: 'mahasukha', line: 'fx.01.2a', script: 'བདེ་ཆེན', wylie: 'bde chen', lemma: 'bde ba chen po', confidence: 'likely', note: '' };
+  const [r] = await ingestAnswer(dir, 'terms-bo', 'fx.01', { unit: 'fx.01', equivalents: [eq, likely], questions: [] });
+  assert.deepEqual(r.tibetan, ['taruvara: ljon shing', 'mahasukha: bde chen']);
+  const m = glossary.load().entries.find(x => x.id === 'mahasukha');
+  assert.equal(m.match.bod, undefined, 'a likely equivalent is recorded but not matched everywhere');
   const e = glossary.load().entries.find(x => x.id === 'taruvara');
   assert.deepEqual(e.forms.at(-1), { lang: 'bod', script: 'ལྗོན་ཤིང', translit: 'ljon shing', lemma: '', att: 'AO', where: 'fx.01.1a' });
   assert.deepEqual(e.match.bod, ['ལྗོན་ཤིང']);
@@ -89,6 +92,7 @@ test('the Tibetan: aligned by id, in the packs, matched to glossary terms, count
   const c = concordance('fixture').get('taruvara');
   assert.deepEqual(c.tibetan, { aligned: 1, forms: [{ script: 'ལྗོན་ཤིང', wylie: 'ljon shing', n: 1 }] });
   assert.equal(c.hits[0].bo.at.hit, 'ལྗོན་ཤིང');
+  assert.deepEqual(concordance('fixture').get('mahasukha').tibetan.forms.map(f => f.wylie), ['bde ba chen po'], 'counted where it was read');
   const { unitDoc } = await import('../lib/studio/docs.mjs');
   const doc = unitDoc('fixture', 'fx.01');
   assert.deepEqual(doc.parallels, [{ id: 'tib', lang: 'bod', name: 'Tibetan', label: 'Tibetan translation, test' }]);

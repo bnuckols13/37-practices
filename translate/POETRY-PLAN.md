@@ -1,6 +1,6 @@
 # The poetry workshop: study and practice across traditions
 
-> **Status:** research under way (27 Sept 2026): five notes in progress, Morton, the Sufi poets, the Zen mountain poets, Shakespeare and the Irish bardic tradition. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
+> **Status:** research done (27 Sept 2026): five notes in `research/` ([Morton](research/morton-in-depth.md), [the Sufi poets](research/sufi-poets.md), [the Zen mountain poets](research/zen-mountain-poets.md), [Shakespeare](research/shakespeare-sonnets.md), [the bardic tradition](research/bardic-tradition.md)). Next: the comparison note, then building. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
 
 ## Why
 
@@ -10,7 +10,7 @@ The Workshop makes English poems from the caryās through Western lenses, and it
 - **Rumi and the Sufi poets**, Arabic and Persian.
 - **The Zen mountain poets**, Chinese and Japanese.
 - **Shakespeare's sonnets**, centred on Sonnet 29 ("Like to the lark at break of day arising / From sullen earth, sings hymns at heaven's gate"), which Judi Dench has performed.
-- **The Irish bardic tradition**, from the poet-seers and the bardic schools to the street rhymers, ending with Michael Moran, "Zozimus" (c. 1794–1846), the blind rhymer of Dublin whom Yeats called "The Last Gleeman": a figure of special importance to the maker.
+- **The Irish bardic tradition**, from the poet-seers and the bardic schools to the street rhymers, ending with Michael Moran, "Zozimus" (d. 1846; born about 1794 by the 1871 *Memoir*, about 1803 by the burial register it prints), the blind rhymer of Dublin whom Yeats called "The Last Gleeman": a figure of special importance to the maker.
 
 ## The one idea: the same problems, solved five ways
 
@@ -19,7 +19,7 @@ Every tradition here solves the problems a caryā solves. The study is organised
 | problem | caryā | Sufi | Zen | Shakespeare | Bardic |
 |---|---|---|---|---|---|
 | **The line that comes back** (Morton's absolute rhyme, the hottest pole) | the refrain, ধ্রু | the ghazal's *radīf*; *dhikr*, the repeated divine names | the parallel couplet; the linked verse's return | "state", "like", "heaven" struck again and changed | the *dúnadh*: the poem closes on the word it opened with; the keen's cry |
-| **The singer who signs the song** | the bhaṇitā, "Lūyī says" | the *takhalluṣ* in the last couplet (Rumi signs *Khāmūsh*, "Silent", or Shams) | Hanshan named for his mountain | the sonnet that says it will outlive its subject | "Zozimus", the name the rhymer took from his own best-known recitation (to verify) |
+| **The singer who signs the song** | the bhaṇitā, "Lūyī says" | the *takhalluṣ* in the last couplet (Rumi signs *Khāmūsh*, "Silent", or Shams) | Hanshan named for his mountain | the sonnet that says it will outlive its subject | "Zozimus": the name the crowd gave the rhymer from his best-known recitation, which he then put into his own call ("Gather round poor Zozimus") |
 | **The answering poem** | (versions, here) | *naẓīra*: a reply in the same metre and rhyme | *hè shī*, *cì yùn*: a reply on a friend's rhyme words | imitation (Dryden's third kind) | the Contention of the Bards (*Iomarbhá na bhFileadh*, 1616–24) |
 | **The double language** | *sandhyā-bhāṣā*, twilight language | wine, tavern and beloved read as the path | the capping phrase answering a koan | the conceit | the *aisling*: the woman in the vision is Ireland |
 
@@ -75,7 +75,7 @@ Rumi wrote mainly in Persian, in a metre inherited from Arabic (*ʿarūḍ*, cod
 ## 5. The Irish bardic tradition, to Zozimus
 
 - **The arc.** The *fili* (poet-seers), the early Irish hermit lyrics (the blackbird over Belfast Lough, Pangur Bán), the classical bardic order (c. 1200–1650: the *ollamh*, the schools, praise and satire), its collapse in the seventeenth century, the song tradition in Irish (*aisling*, the keen, *sean-nós*), and the Hiberno-English street ballad and the gleemen.
-- **Zozimus.** Michael Moran: blind from infancy, reciting in the streets of the Liberties; his name taken from a poem on St Mary of Egypt, the sinner who became a desert saint, found by the monk Zosimas; his "Moses" and mock-heroic couplets; Yeats's "The Last Gleeman" (*The Celtic Twilight*, 1893). Every detail verified, legend kept apart from record.
+- **Zozimus.** Michael Moran: blind from infancy, reciting in the streets of the Liberties; the name the crowd gave him from Bishop Coyle's poem on St Mary of Egypt (1788), the sinner who became a desert saint, found by the monk Zosimas, which he recited nearly whole from memory; his "Moses" and mock-heroic couplets; Yeats's "The Last Gleeman" (*The Celtic Twilight*, 1893). Every detail verified, legend kept apart from record.
 - **Practice.** Years of training in the bardic schools and composition lying down in darkness (the Clanricarde *Memoirs*, 1722; Martin Martin, 1703); the Contention of the Bards; the keen as women's improvised lament; the gleeman's memory and street voice.
 - **Machinery.** Syllabic *dán díreach* (*deibhidhe*, *rannaíocht*, *séadna*), where English counts stresses; Irish rhyme by classes of consonant (*comhardadh*); alliteration (*uaim*); *aicill* (a line-end answered inside the next line); the *dúnadh*; the accentual song metres and their assonance; Hiberno-English syntax as the carrier of Irish into English.
 - **Touchstones.** An Old Irish hermit lyric; a bardic quatrain with its scansion; the opening of *Caoineadh Airt Uí Laoghaire* (Eibhlín Dubh Ní Chonaill, 1773); a Zozimus recitation.

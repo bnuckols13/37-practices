@@ -15,7 +15,7 @@ import { partOf } from './ids.mjs';
 
 /** A redraft asked only on commentary rows is a new weave, not a new draft of the song. */
 export const commentaryOnly = fb => !!fb?.redraft?.length && fb.redraft.every(k => /^m\d+$/.test(partOf(k)));
-import { Draft, TermsResult } from '../schemas/draft.mjs';
+import { Draft, TermsResult, TibetanTerms } from '../schemas/draft.mjs';
 import { Weave } from '../schemas/weave.mjs';
 
 export const TASKS = {
@@ -23,6 +23,7 @@ export const TASKS = {
   redraft: { prompt: 'tasks/redraft.md', schema: Draft, out: 'drafts' },
   weave: { prompt: 'tasks/weave.md', schema: Weave, out: 'commentary' },
   terms: { prompt: 'tasks/terms.md', schema: TermsResult, out: 'glossary' },
+  'terms-bo': { prompt: 'tasks/terms-bo.md', schema: TibetanTerms, out: 'glossary' },
 };
 
 export const jsonSchema = task => z.toJSONSchema(TASKS[task].schema);
@@ -55,16 +56,44 @@ function exemplar(slug, text, currentId) {
   return '';
 }
 
+/** A parallel witness's text for one id, keyed by witness: { toh2293: { lang, src, translit } }. */
+export function parallelOf(unit, kind, id) {
+  const out = {};
+  for (const [wid, p] of Object.entries(unit.parallels || {})) if (p[kind][id]) out[wid] = { lang: p.lang, ...p[kind][id] };
+  return Object.keys(out).length ? out : undefined;
+}
+
 function unitJSON(unit) {
   return JSON.stringify({
     id: unit.id, n: unit.n, title: unit.title || undefined, raga: unit.raga || undefined, poet: unit.poet || undefined,
     lines: unit.lines.map(l => ({
       id: l.id, role: l.role, couplet: l.couplet, refrain: l.refrain, bhanita: l.bhanita,
       lang: l.lang, witness: l.witness, src: l.src || undefined, translit: l.translit || undefined, note: l.note,
-      emended: l.emended,
+      emended: l.emended, parallel: parallelOf(unit, 'lines', l.id),
     })),
-    commentary: unit.commentary.map(s => ({ id: s.id, anchor: s.anchor, lang: s.lang, src: s.src, translit: s.translit })),
+    commentary: unit.commentary.map(s => ({ id: s.id, anchor: s.anchor, lang: s.lang, witness: s.witness, src: s.src, translit: s.translit, parallel: parallelOf(unit, 'commentary', s.id) })),
   }, null, 2);
+}
+
+/** For terms-bo: each glossary hit, with the aligned Tibetan it should be read off. */
+function tibetanHits(unit, entries) {
+  const rows = [];
+  const items = [
+    ...unit.lines.filter(l => l.role !== 'lacuna').map(l => ({ ...l, kind: 'lines' })),
+    ...unit.commentary.map(s => ({ ...s, kind: 'commentary' })),
+  ];
+  for (const it of items) {
+    const par = parallelOf(unit, it.kind, it.id);
+    if (!par) continue;
+    const hits = matchSource(entries, it.src, it.lang);
+    if (!hits.length) continue;
+    const [wid, t] = Object.entries(par)[0];
+    const already = entries.filter(e => hits.some(h => h.id === e.id) && (e.match.bod || []).some(f => t.src.includes(f)));
+    rows.push(`- ${it.id}: ${hits.map(h => `${h.id} (${h.form})`).join(', ')}`
+      + (already.length ? `  [already matched in the Tibetan: ${already.map(e => e.id).join(', ')}]` : '')
+      + `\n    ${wid}: ${it.kind === 'lines' ? t.src + '\n    ' + t.translit : t.translit.length > 400 ? '(see the unit JSON; long)' : t.translit}`);
+  }
+  return rows.join('\n') || '(no glossary term occurs in a line or segment that has Tibetan)';
 }
 
 function hitsBlock(entries, items) {
@@ -122,14 +151,22 @@ function inputBlock(slug, text, unit, task, entries) {
     }
   }
   if (task === 'terms') parts.push('## Candidate words not yet in the glossary', candidates(slug, unit, entries));
+  if (task === 'terms-bo') parts.push('## Glossary terms in lines and segments that have Tibetan', tibetanHits(unit, entries));
+  if ((task === 'draft' || task === 'redraft') && Object.keys(unit.parallels || {}).length) {
+    parts.push('## Glossary hits in the Tibetan', hitsBlock(entries, lines.flatMap(l => {
+      const par = parallelOf(unit, 'lines', l.id);
+      return par ? Object.values(par).map(t => ({ id: l.id, src: t.src, lang: t.lang })) : [];
+    })));
+  }
   return parts.join('\n\n');
 }
 
 export function buildPack(slug, id, task) {
-  if (!TASKS[task]) fail(`unknown task "${task}" (draft, redraft, weave, terms)`);
+  if (!TASKS[task]) fail(`unknown task "${task}" (${Object.keys(TASKS).join(', ')})`);
   const text = loadText(slug);
   const unit = loadUnit(slug, id);
-  for (const w of unit.witnesses) {
+  if (task === 'terms-bo' && !Object.keys(unit.parallels || {}).length) fail(`${id}: no Tibetan is aligned with this unit yet; mark it in source/ and run segment`);
+  for (const w of [...unit.witnesses, ...Object.keys(unit.parallels || {})]) {
     const wit = witnessOf(text, w);
     if (!wit) fail(`${id}: unknown witness ${w}`);
     if (wit.usage !== 'prompt+publish') fail(`${id}: witness ${w} is ${wit.usage}; it may not go into a drafting pack`);
@@ -151,6 +188,7 @@ export function buildPack(slug, id, task) {
     prompts: { system: system.version, text: tp.version, task: taskP.version },
     glossarySha: scopeSha(g, slug),
     sourceSha: unit.sourceSha,
+    ...(unit.parallelSha ? { parallelSha: unit.parallelSha } : {}),
     blocks: [
       { role: 'system', cache: true, text: system.body },
       { role: 'user', cache: true, text: brief },

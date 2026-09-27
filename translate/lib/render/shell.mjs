@@ -6,7 +6,7 @@
  */
 
 import { config } from '../io.mjs';
-import { TIBETAN_FONT_URL, COLORS } from '../design/tokens.mjs';
+import { COLORS } from '../design/tokens.mjs';
 import { HEAD_JS } from './client.mjs';
 
 // Same small helpers as build/build.mjs:45-55 and :364.
@@ -27,7 +27,7 @@ export function breadcrumbLd(url, items) {
  * assets: path to translations/assets/ ("../assets/" or "assets/")
  */
 export function page({ root, assets, v, url, title, description, pageType, unitAttr = '', ld, body, footer,
-  textTitle = '', textHref = '', rail = false, search = '', citation = '', tibetan = false, glossData = null, noindex = false }) {
+  textTitle = '', textHref = '', rail = false, search = '', citation = '', glossData = null, noindex = false }) {
   return `<!DOCTYPE html>
 <html lang="en" data-page-type="${pageType}" data-display="english" data-comm="margin"${unitAttr ? ` data-unit="${attr(unitAttr)}"` : ''}>
 <head>
@@ -52,7 +52,7 @@ ${citation ? `<meta name="citation" content="${attr(citation)}">\n` : ''}${searc
 <link rel="apple-touch-icon" href="${root}assets/apple-touch-icon.png">
 <script type="application/ld+json">${jsonLd(ld)}</script>
 <link rel="preload" href="${assets}fonts/IlluminatedText-Regular.woff2" as="font" type="font/woff2" crossorigin>
-${tibetan ? `<link href="${TIBETAN_FONT_URL.replace(/&/g, '&amp;')}" rel="stylesheet">\n` : ''}<link rel="stylesheet" href="${assets}reader.css?v=${v}">
+<link rel="stylesheet" href="${assets}reader.css?v=${v}">
 <script src="${assets}reader.js?v=${v}" defer></script>
 </head>
 <body>

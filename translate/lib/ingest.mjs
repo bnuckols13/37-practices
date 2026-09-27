@@ -7,7 +7,7 @@
 import fs from 'node:fs';
 import { paths, readJSON, writeJSON, exists, fail, today, config, rel } from './io.mjs';
 import { loadText, loadUnit } from './text.mjs';
-import { load, save, mergeProposal } from './glossary.mjs';
+import { load, save, mergeProposal, mergeTibetan } from './glossary.mjs';
 import { TASKS, commentaryOnly } from './pack.mjs';
 import * as markup from './markup.mjs';
 
@@ -49,6 +49,16 @@ export function validateAnswer(task, out, unit, glossary) {
       for (const e of s.equations) if (e.term && !known.has(e.term)) probs.push(`${s.id}: equation names unknown term ${e.term}`);
     }
   }
+  if (task === 'terms-bo') {
+    for (const q of out.equivalents) {
+      const where = `${q.line} ${q.id}`;
+      if (!known.has(q.id)) probs.push(`${where}: unknown or rejected glossary id`);
+      const texts = Object.values(unit.parallels || {}).map(p => (p.lines[q.line] || p.commentary[q.line])?.src).filter(Boolean);
+      if (!texts.length) probs.push(`${where}: ${q.line} has no Tibetan`);
+      else if (!q.script.trim() || !texts.some(t => t.normalize('NFC').includes(q.script.normalize('NFC')))) probs.push(`${where}: "${q.script}" is not in the Tibetan of ${q.line}`);
+      if (/[\u0F0B\u0F0D\u0F0E]$/u.test(q.script)) probs.push(`${where}: drop the trailing tsheg or shad from "${q.script}"`);
+    }
+  }
   return probs;
 }
 
@@ -83,7 +93,8 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
     const probs = validateAnswer(t, out, unit, g);
     if (probs.length) fail(`${id}: ${probs.length} problem(s) in the answer:\n  ` + probs.join('\n  '));
 
-    const merged = out.proposals.map(p => mergeProposal(g, p, { slug, by }));
+    const merged = (out.proposals || []).map(p => mergeProposal(g, p, { slug, by }));
+    const tibetan = (out.equivalents || []).map(q => mergeTibetan(g, q));
     const provenance = {
       mode, model: by, date: today(), packSha: pack.sha, prompts: pack.prompts,
       glossarySha: pack.glossarySha, sourceSha: unit.sourceSha,
@@ -92,9 +103,14 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
     if (t === 'draft' || t === 'redraft') { wrote = P.draft(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'weave') { wrote = P.weave(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'terms') wrote = 'glossary';
+    if (t === 'terms-bo') {
+      // The answer is kept: its notes and questions are for the reviewer, and it records who matched what.
+      wrote = P.tibetanTerms(id);
+      writeJSON(wrote, { ...out, provenance: { ...provenance, parallelSha: unit.parallelSha } });
+    }
     if (t === 'redraft' || (t === 'weave' && commentaryOnly(feedback[id]))) delete feedback[id];
     if (!answers) fs.unlinkSync(inbox);
-    results.push({ unit: id, ok: true, task: t, wrote, proposals: merged.filter(m => m.added).map(m => m.added) });
+    results.push({ unit: id, ok: true, task: t, wrote, proposals: merged.filter(m => m.added).map(m => m.added), tibetan: tibetan.filter(m => m.added).map(m => m.added) });
   }
   save(g);
   writeJSON(P.feedback, feedback);

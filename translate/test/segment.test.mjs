@@ -91,8 +91,7 @@ test('lines rule: stanzas, headings and commentary for any text', () => {
 });
 
 // A Tibetan translation marked as a parallel witness.
-const tt = Text.parse({ ...JSON.parse(read(path.join(FIX, 'fixture', 'text.json'))),
-  witnesses: [...text.witnesses, { id: 'tib', lang: ['bod'], script: 'Tibt', citation: 'Test Tibetan', license: 'public-domain', usage: 'prompt+publish' }] });
+const tt = text;
 const tib = tt.witnesses.find(w => w.id === 'tib');
 const both = (bo, t = tt) => segment(t, [
   { witness: ed, path: 'ed.txt', content: fixture('marked-directives.txt') },

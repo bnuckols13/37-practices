@@ -5,7 +5,7 @@
  */
 
 import { glossaryPath, readJSON, writeJSON, hashOf, fail, today } from './io.mjs';
-import { Glossary, Entry } from '../schemas/glossary.mjs';
+import { Glossary, Entry, Form } from '../schemas/glossary.mjs';
 import { TERM_ID_RE } from './ids.mjs';
 
 export function load() {
@@ -84,6 +84,22 @@ export function mergeProposal(g, p, { slug, by }) {
     provenance: { proposed: { by, date: today() } },
   }));
   return { added: p.id };
+}
+
+/**
+ * A Tibetan equivalent read off an aligned line (the terms-bo task) joins the entry as a form
+ * attested in another witness (AO), and as a match form so the concordance finds it.
+ * Decided entries only gain forms, as with any proposal.
+ */
+export function mergeTibetan(g, eq) {
+  const e = g.entries.find(x => x.id === eq.id);
+  if (!e) return { skipped: `unknown entry ${eq.id}` };
+  const script = eq.script.normalize('NFC');
+  const fresh = !e.forms.some(f => f.lang === 'bod' && f.script === script);
+  if (fresh) e.forms.push(Form.parse({ lang: 'bod', script, translit: eq.wylie, lemma: eq.lemma || '', att: 'AO', where: eq.line }));
+  const m = e.match.bod ||= [];
+  if (!m.includes(script)) m.push(script);
+  return fresh ? { added: `${eq.id}: ${eq.wylie}` } : { known: eq.id };
 }
 
 /** Structural problems in the glossary as a whole. */

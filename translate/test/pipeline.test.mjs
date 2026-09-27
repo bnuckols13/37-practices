@@ -70,6 +70,33 @@ test('draft and weave ingest with provenance; proposals join the glossary', asyn
   assert.equal(status('fixture')[0].stage, 'ready for review');
 });
 
+test('the Tibetan: aligned by id, in the packs, matched to glossary terms, counted in the concordance', async () => {
+  const u = JSON.parse(read(T('units/fx.01.json')));
+  assert.deepEqual(Object.keys(u.parallels.tib.lines), ['fx.01.h1', 'fx.01.1a', 'fx.01.1b', 'fx.01.2a', 'fx.01.2b']);
+  assert.deepEqual(Object.keys(u.parallels.tib.commentary), ['fx.01.m1']);
+  assert.match(u.parallels.tib.lines['fx.01.1a'].translit, /^\/lus ljon shing mchog/);
+  assert.match(read(writePacks('fixture', ['fx.01'], 'draft')[0].md), /"parallel": \{\s*"tib": \{\s*"lang": "bod"/);
+  const [p] = writePacks('fixture', ['fx.01'], 'terms-bo');
+  assert.match(read(p.md), /- fx\.01\.1a: taruvara \(তরুবর\)\n {4}tib: །ལུས་ལྗོན་ཤིང་/);
+  const eq = { id: 'taruvara', line: 'fx.01.1a', script: 'ལྗོན་ཤིང', wylie: 'ljon shing', lemma: '', confidence: 'clear', note: '' };
+  await assert.rejects(ingestAnswer(dir, 'terms-bo', 'fx.01', { unit: 'fx.01', equivalents: [{ ...eq, script: 'ནགས་ཚལ' }], questions: [] }), /is not in the Tibetan of fx\.01\.1a/);
+  const [r] = await ingestAnswer(dir, 'terms-bo', 'fx.01', { unit: 'fx.01', equivalents: [eq], questions: [] });
+  assert.deepEqual(r.tibetan, ['taruvara: ljon shing']);
+  const e = glossary.load().entries.find(x => x.id === 'taruvara');
+  assert.deepEqual(e.forms.at(-1), { lang: 'bod', script: 'ལྗོན་ཤིང', translit: 'ljon shing', lemma: '', att: 'AO', where: 'fx.01.1a' });
+  assert.deepEqual(e.match.bod, ['ལྗོན་ཤིང']);
+  const { concordance } = await import('../lib/concord.mjs');
+  const c = concordance('fixture').get('taruvara');
+  assert.deepEqual(c.tibetan, { aligned: 1, forms: [{ script: 'ལྗོན་ཤིང', wylie: 'ljon shing', n: 1 }] });
+  assert.equal(c.hits[0].bo.at.hit, 'ལྗོན་ཤིང');
+  const { unitDoc } = await import('../lib/studio/docs.mjs');
+  const doc = unitDoc('fixture', 'fx.01');
+  assert.deepEqual(doc.parallels, [{ id: 'tib', lang: 'bod', name: 'Tibetan', label: 'Tibetan translation, test' }]);
+  const line = doc.sections.find(x => x.part === '1').lines[0];
+  assert.equal(line.par[0].html, 'bo');
+  assert.equal(doc.sections.find(x => x.part === 'm1').par[0].witness, 'tib');
+});
+
 test('review sheet round-trips: all-ok acceptance reproduces the draft', () => {
   writeSheet('fixture', 'fx.01');
   const sheet = T('review/fx.01.md');
@@ -139,6 +166,8 @@ test('render publishes only approved units, with popover data and a sitemap', ()
     assert.ok(fs.existsSync(path.join(process.env.SITE_ROOT, 'translations', 'assets', a)), a);
   }
   assert.doesNotMatch(html, /fonts\.googleapis|fonts\.gstatic/, 'type is self-hosted');
+  assert.match(html, /<div class="par"><p class="par__label">Tibetan<\/p><p class="par__src" lang="bo">།ལུས་ལྗོན་ཤིང་/, 'the study view carries the aligned Tibetan');
+  assert.ok(fs.existsSync(path.join(process.env.SITE_ROOT, 'translations', 'assets', 'fonts', 'NotoSerifTibetan-Tibetan.woff2')));
   const title = read(path.join(out, 'index.html'));
   assert.match(title, /How to read this edition/);
   assert.match(title, /<ol class="contents">/);

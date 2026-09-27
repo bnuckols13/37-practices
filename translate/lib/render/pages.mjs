@@ -110,6 +110,15 @@ function sidenote(ctx, c, label) {
     + '</div></details></aside>';
 }
 
+/** The aligned Tibetan (or other parallel) of a line, for the study view: script above Wylie. */
+function parallelHtml(ctx, u, id) {
+  return Object.entries(u.parallels || {}).filter(([, p]) => p.lines[id]).map(([, p]) => {
+    const hl = ctx.htmlLang(p.lang), t = p.lines[id];
+    return `<div class="par"><p class="par__label">${esc(ctx.langName(p.lang))}</p><p class="par__src" lang="${attr(hl)}">${esc(t.src)}</p>`
+      + (t.translit ? `<p class="par__tl" lang="${attr(hl)}-Latn">${esc(t.translit)}</p>` : '') + '</div>';
+  }).join('');
+}
+
 /** One passage (couplet or heading) as the song page renders it. */
 function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '' } = {}) {
   const lines = new Map(r.lines.map(l => [l.id, l]));
@@ -122,7 +131,7 @@ function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '' } = {}) {
     const refs = i === g.lines.length - 1 ? refsFor(g) : '';
     return `<div class="ln"><p class="en">${ctx.md(t.en)}${refs}</p><p class="src" lang="${attr(hl)}">${esc(l.src)}</p>`
       + (t.translit ? `<p class="tl" lang="${attr(hl)}-Latn">${esc(t.translit)}</p>` : '')
-      + (t.gloss && first.role !== 'heading' ? `<p class="lit">${esc(t.gloss)}</p>` : '') + '</div>';
+      + (t.gloss && first.role !== 'heading' ? `<p class="lit">${esc(t.gloss)}</p>` : '') + parallelHtml(ctx, u, l.id) + '</div>';
   }).join('');
   if (first.role === 'heading') return `<section class="passage heading"><div class="passage__no"></div><div class="passage__verse">${ln}</div></section>`;
   const notes = r.commentary.filter(c => c.anchor === g.id || g.lines.some(l => l.id === c.anchor)).map(c => sidenote(ctx, c, passageNo(g.id))).join('');
@@ -131,6 +140,8 @@ function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '' } = {}) {
     + `<div class="passage__no"><a class="pno" href="${href || '#' + anchor}" title="Passage ${passageNo(g.id)}: link or cite">${passageNo(g.id)}</a>${first.refrain ? '<span class="refrain">refrain</span>' : ''}</div>`
     + `<div class="passage__verse">${ln}</div>${notes}</section>`;
 }
+
+const tibetanWitness = text => text.witnesses.find(w => w.lang.includes('bod') && w.usage === 'prompt+publish');
 
 function groupsOf(u) {
   const out = [];
@@ -213,7 +224,7 @@ ${parts.join('\n')}
     ...common(ctx, v), url, title, pageType: 'translation', unitAttr: u.id, rail: true,
     description: `${text.unitLabel} ${u.n} of ${text.title.en}: ${markup.strip(r.summary)}`.slice(0, 300),
     citation: `${ctx.imprint.replace(/^Translated by /, '')}, trans. ${text.title.en}, ${text.unitLabel.toLowerCase()} {p}. 37practices.space, ${year}.`,
-    tibetan: u.lines.some(l => ctx.htmlLang(l.lang) === 'bo'), glossData: glossFor(ctx, used), noindex: r.status !== 'approved',
+    glossData: glossFor(ctx, used), noindex: r.status !== 'approved',
     ld: { '@context': 'https://schema.org', '@graph': [
       { '@type': 'WebPage', '@id': url, url, name: title, inLanguage: 'en', isPartOf: { '@id': `${site()}/#website` }, breadcrumb: { '@id': url + '#breadcrumb' } },
       breadcrumbLd(url, [['Home', `${site()}/`], ['Translations', `${site()}/translations/index.html`], [text.title.en, `${site()}/${text.publish.dir}/index.html`], [`${text.unitLabel} ${u.n}`, url]]),
@@ -255,7 +266,7 @@ export function titlePage(ctx, v) {
       <li>The number in the margin gives ${esc(text.unitLabel.toLowerCase())} and couplet. Select it to copy a link or a citation.</li>
       <li>Underlined words are in the glossary. Hover for a short entry, or select the word to open the full one.</li>
       ${who ? `<li>${esc(who)}’s comment stands beside the couplet it explains; “Full comment” gives it whole.</li>` : ''}
-      <li>Display, at the head of each page, sets the ${esc(ctx.langName(text.lang.root))} beside the English; the study view adds a transliteration and a word-by-word gloss.</li>
+      <li>Display, at the head of each page, sets the ${esc(ctx.langName(text.lang.root))} beside the English; the study view adds a transliteration and a word-by-word gloss${tibetanWitness(text) ? `, and the ${esc(tibetanWitness(text).label)}, line by line, where it has been aligned` : ''}.</li>
     </ol>
   </div>`;
     break;
@@ -358,11 +369,12 @@ ${wits.map(w => `    <li>${esc(w.citation)}</li>`).join('\n')}
     <dt><span class="glx">term</span></dt><dd>A glossary term. Select it for its source forms, definition and readings.</dd>
     <dt>॥</dt><dd>The double daṇḍa, which closes a couplet in the manuscript, separates couplets here.</dd>
     <dt><i>ā ṛ ṃ</i></dt><dd>Old Bengali and Sanskrit are transliterated in IAST from the edition’s Bengali script. Bengali script does not distinguish b from v, so some transliterations are editorial.</dd>
+    ${tibetanWitness(text) ? `<dt><i>rgyud</i></dt><dd>Tibetan is transliterated in Wylie (the Extended Wylie scheme), by the Buddhist Digital Resource Center’s converter.</dd>` : ''}
     <dt><abbr class="att">AS</abbr></dt><dd>How a source form is attested: ${Object.entries(ATT_TITLES).map(([k, t]) => `<abbr class="att">${k}</abbr> ${esc(t)}`).join('; ')}.</dd>
   </dl>
   <h2>Licence and credits</h2>
   ${licence}
-  <p>${text.publish.credits.map(esc).join(' ')} The type is Gentium Book Plus by SIL International and Tiro Bangla by Tiro Typeworks, both under the SIL Open Font License.</p>
+  <p>${text.publish.credits.map(esc).join(' ')} The type is Gentium Book Plus by SIL International${tibetanWitness(text) ? ', Tiro Bangla by Tiro Typeworks and Noto Serif Tibetan by Google, all' : ' and Tiro Bangla by Tiro Typeworks, both'} under the SIL Open Font License.</p>
   <p>The design of these pages takes its cue from the 84000 Reading Room. This edition is not affiliated with 84000.</p>
 </main>`;
   return page({

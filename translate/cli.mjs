@@ -21,10 +21,11 @@ const HELP = `Illuminated translation engine
   status <text>                                   where every unit stands
 
   terms <text> [units]                            glossary proposals pack (then ingest --task terms)
-  pack <text> [units] --task draft|redraft|weave|terms
+  terms-bo <text> [units]                         Tibetan equivalents pack (then ingest --task terms-bo)
+  pack <text> [units] --task draft|redraft|weave|terms|terms-bo
   draft <text> [units]                            write draft packs; say what to do next
   weave <text> [units]                            write commentary packs
-  ingest <text> [units] --task draft|redraft|weave|terms [--model "…"]
+  ingest <text> [units] --task draft|redraft|weave|terms|terms-bo [--model "…"]
   check <text> [--strict]                         every validator; exit 1 on errors
 
   review <text> [units] [--force]                 write review/<unit>.md sheets
@@ -131,6 +132,7 @@ const commands = {
   },
 
   async terms() { return commands.stage('terms'); },
+  async 'terms-bo'() { return commands.stage('terms-bo'); },
   async draft() { return commands.stage('draft'); },
   async weave() { return commands.stage('weave'); },
 
@@ -147,6 +149,8 @@ const commands = {
     for (const r of res) log(`  ${r.unit}: ${r.ok ? 'ok -> ' + rel(r.wrote) : 'skipped (' + r.reason + ')'}`);
     const added = res.flatMap(r => r.proposals || []);
     if (added.length) log(`  glossary: proposed ${[...new Set(added)].join(', ')}`);
+    const bo = res.flatMap(r => r.tibetan || []);
+    if (bo.length) log(`  glossary: Tibetan forms ${bo.join('; ')}`);
   },
 
   async check() {

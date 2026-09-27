@@ -43,3 +43,18 @@ export const TermsResult = z.object({
   proposals: z.array(Proposal),
   questions: z.array(z.string()),
 });
+
+// `terms-bo` task: the Tibetan word that renders each glossary term, read off the aligned Tibetan line.
+export const TibetanTerms = z.object({
+  unit: z.string(),
+  equivalents: z.array(z.object({
+    id: z.string().describe('the glossary entry id'),
+    line: z.string().describe('the line or segment id whose Tibetan renders the term'),
+    script: z.string().describe('the Tibetan word exactly as it stands in that Tibetan line, in Tibetan script, without a trailing tsheg or shad'),
+    wylie: z.string().describe('the same word in Wylie'),
+    lemma: z.string().describe('its dictionary form in Wylie, without case particles; "" if the same as wylie'),
+    confidence: z.enum(['clear', 'likely']).describe('clear: the Tibetan word plainly renders the term; likely: probably, by position and sense'),
+    note: z.string().describe('one sentence if the rendering is interesting (a gloss, an interpretation, a different reading), else ""'),
+  })),
+  questions: z.array(z.string()).describe('terms you could not match, and why'),
+});

@@ -1,8 +1,9 @@
 /**
  * A concordance for each glossary term: every place its source forms occur in
  * the text (verse lines and commentary), each shown in context in the source
- * script and transliteration, with the English of that line; and a tally of how
- * the term has been rendered so far. Derived data, rebuilt on every export.
+ * script and transliteration, with the English of that line and the aligned
+ * Tibetan; a tally of how the term has been rendered so far; and which Tibetan
+ * word the Tibetan translators used for it. Derived data, rebuilt on every export.
  */
 
 import { paths, readJSON } from './io.mjs';
@@ -10,6 +11,7 @@ import { loadText, unitsIndex, loadUnit } from './text.mjs';
 import { load, scoped, matchSource } from './glossary.mjs';
 import { partOf } from './ids.mjs';
 import * as markup from './markup.mjs';
+import { tibetanToWylie } from './translit/tibetan.mjs';
 
 export const MAX_HITS = 80;   // per term, so a Studio document stays small
 const WINDOW = 3;             // words of context on each side
@@ -36,6 +38,26 @@ export function kwic(src, translit, form) {
   return out;
 }
 
+/**
+ * A Tibetan form in context. Tibetan has no spaces between words, so the context is
+ * counted in syllables (split after each tsheg); `n` syllables each side, or all.
+ */
+export function kwicTibetan(src, form, n = 6) {
+  const s = String(src).normalize('NFC'), f = form.normalize('NFC');
+  const i = s.indexOf(f);
+  if (i < 0) return null;
+  const pre = s.slice(0, i).split(/(?<=་)/u).filter(Boolean), post = s.slice(i + f.length).split(/(?<=་)/u).filter(Boolean);
+  const a = pre.slice(Math.max(0, pre.length - n)).join(''), b = post.slice(0, n).join('');
+  const wy = x => (x ? tibetanToWylie(x) : '');
+  return { pre: a, hit: f, post: b, tlPre: wy(a), tlHit: wy(f), tlPost: wy(b), cut: [pre.length > n, post.length > n] };
+}
+
+/** The first parallel witness's text for a line or segment id, if any. */
+function parallelFor(u, kind, id) {
+  for (const [witness, p] of Object.entries(u.parallels || {})) if (p[kind][id]) return { witness, lang: p.lang, ...p[kind][id] };
+  return null;
+}
+
 /** The reading text of a unit: the approved record if there is one, else the draft and weave. */
 function readingOf(slug, id) {
   const P = paths(slug);
@@ -50,7 +72,9 @@ export function concordance(slug) {
   const text = loadText(slug);
   const entries = scoped(load(), slug, { includeRejected: false });
   const units = unitsIndex(slug).units.map(u => loadUnit(slug, u.id));
-  const out = new Map(entries.map(e => [e.id, { id: e.id, hits: [], renderings: new Map(), total: 0, verse: 0, comm: 0 }]));
+  const out = new Map(entries.map(e => [e.id, { id: e.id, hits: [], renderings: new Map(), total: 0, verse: 0, comm: 0, tibetan: { aligned: 0, forms: new Map() } }]));
+  const byId = new Map(entries.map(e => [e.id, e]));
+  const wylieOf = (e, script) => e.forms.find(f => f.lang === 'bod' && f.script === script)?.translit || tibetanToWylie(script);
   const commLang = text.lang.commentary;
 
   for (const u of units) {
@@ -63,18 +87,32 @@ export function concordance(slug) {
       ...u.commentary.map(c => ({ kind: 'comm', id: c.id, src: c.src, translit: c.translit, lang: c.lang || commLang, anchor: c.anchor })),
     ];
     for (const s of sources) {
+      const par = parallelFor(u, s.kind === 'comm' ? 'commentary' : 'lines', s.id);
       for (const hit of matchSource(entries, s.src, s.lang)) {
         const c = out.get(hit.id);
-        const k = kwic(s.src, s.translit, hit.form);
+        const k = s.lang === 'bod' ? kwicTibetan(s.src, hit.form) : kwic(s.src, s.translit, hit.form);
         if (!c || !k) continue;
         c.total++; c[s.kind === 'comm' ? 'comm' : 'verse']++;
+        // Which Tibetan word renders the term here, among the forms the glossary knows.
+        const boForm = par ? (byId.get(hit.id).match.bod || []).find(f => par.src.normalize('NFC').includes(f.normalize('NFC'))) : null;
+        if (par) {
+          c.tibetan.aligned++;
+          if (boForm) {
+            const row = c.tibetan.forms.get(boForm) || c.tibetan.forms.set(boForm, { script: boForm, wylie: wylieOf(byId.get(hit.id), boForm), n: 0 }).get(boForm);
+            row.n++;
+          }
+        }
         if (c.hits.length >= MAX_HITS) continue;
         const en = s.kind !== 'comm' && enOf.has(s.id) ? enOf.get(s.id) : '';
         const surface = en ? markup.terms(en).find(t => t.id === hit.id)?.surface || '' : '';
+        // A verse line shows its whole Tibetan line; a comment only the Tibetan around a known form.
+        const bo = !par ? null
+          : s.kind !== 'comm' ? { witness: par.witness, src: par.src, translit: par.translit, ...(boForm ? { at: kwicTibetan(par.src, boForm, Infinity) } : {}) }
+          : boForm ? { witness: par.witness, at: kwicTibetan(par.src, boForm) } : null;
         c.hits.push({
           unit: u.id, n: u.n, id: s.id, kind: s.kind, part: partOf(s.id),
           ...(s.kind === 'comm' ? { on: s.anchor === u.id ? '' : partOf(s.anchor) } : {}),
-          lang: s.lang, ...k, ...(en ? { en: markup.strip(en) } : {}), ...(surface ? { surface } : {}),
+          lang: s.lang, ...k, ...(en ? { en: markup.strip(en) } : {}), ...(surface ? { surface } : {}), ...(bo ? { bo } : {}),
         });
       }
     }
@@ -91,7 +129,10 @@ export function concordance(slug) {
     for (const sg of r.segments) { tally(sg.translation, 'comm'); tally(sg.note, 'comm'); }
     for (const n of r.notes) tally(n.text, 'comm');
   }
-  for (const c of out.values()) c.renderings = [...c.renderings.values()].sort((a, b) => b.n - a.n || a.surface.localeCompare(b.surface));
+  for (const c of out.values()) {
+    c.renderings = [...c.renderings.values()].sort((a, b) => b.n - a.n || a.surface.localeCompare(b.surface));
+    c.tibetan.forms = [...c.tibetan.forms.values()].sort((a, b) => b.n - a.n || a.wylie.localeCompare(b.wylie));
+  }
   return out;
 }
 

@@ -28,6 +28,10 @@ export async function importAndMark(dir) {
   const marked = path.join(dir, 'texts', 'fixture', 'source', 'ed.txt');
   const first = read(marked).split('\n')[0];
   fs.writeFileSync(marked, first + '\n' + fixture('marked-directives.txt'));
+  // The Tibetan parallel of song 1.
+  importSource('fixture', { witness: 'tib', content: fixture('raw-tib.txt'), label: 'fixture' });
+  const tib = path.join(dir, 'texts', 'fixture', 'source', 'tib.txt');
+  fs.writeFileSync(tib, read(tib).split('\n')[0] + '\n' + fixture('marked-tib.txt'));
   return marked;
 }
 

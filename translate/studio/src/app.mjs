@@ -22,7 +22,7 @@ const S = {
   text: '', unitId: '', unit: null,
   ui: { focus: 'head', editing: null, tab: 'terms', allTerms: false, diff: false, filter: 'all', drawer: null,
         sheet: null, termOpen: null, termFilter: '', whyOpen: null, redraftOpen: null, lastSent: '',
-        termEdit: null, concordAll: null, pendingFocus: null },
+        termEdit: null, concordAll: null, pendingFocus: null, parallel: store('studio:parallel') === '1' },
   save: 'idle',
 };
 let sync = null;
@@ -370,9 +370,28 @@ function toolbar(u, att) {
     h('label', { class: 'tools__diff' },
       h('input', { type: 'checkbox', id: 'diff-toggle', checked: S.ui.diff, onchange: e => { S.ui.diff = e.target.checked; renderGrid(); } }),
       ' Show changes from Claude’s draft'),
+    u.parallels?.length ? h('label', { class: 'tools__diff', title: u.parallels.map(p => p.label).join('; ') },
+      h('input', { type: 'checkbox', id: 'parallel-toggle', checked: S.ui.parallel, onchange: e => setParallel(e.target.checked) }),
+      ` Show ${u.parallels.map(p => p.name).join(' and ')}`) : null,
     h('div', { class: 'meter', role: 'img', 'aria-label': `${p.ok} approved, ${p.redraft} sent back for redraft, ${p.total - p.ok - p.redraft} undecided` },
       h('span', { class: 'meter__ok', style: `width:${pct(p.ok)}` }),
       h('span', { class: 'meter__redo', style: `width:${pct(p.redraft)}` })));
+}
+
+function setParallel(on) {
+  S.ui.parallel = on;
+  store('studio:parallel', on ? '1' : null);
+  renderGrid(); renderPanel();
+}
+
+/** A parallel witness's text (the Tibetan): script above transliteration, under the Bengali. */
+function parBlock(par) {
+  if (!S.ui.parallel || !par?.length) return null;
+  const labels = new Map((unit()?.parallels || []).map(p => [p.id, p]));
+  return par.map(p => h('div', { class: 'par' },
+    h('p', { class: 'par__label' }, labels.get(p.witness)?.name || p.witness),
+    h('p', { class: 'src', lang: p.html }, p.src),
+    p.translit ? h('p', { class: 'tl', lang: p.html + '-Latn' }, p.translit) : null));
 }
 
 function buildSection(sec) {
@@ -418,7 +437,8 @@ function groupBody(sec, d) {
         h('p', { class: 'src', lang: l.html }, l.src),
         h('p', { class: 'tl', lang: l.html + '-Latn' }, l.drafterTranslit || l.translit),
         l.gloss ? h('p', { class: 'lit' }, l.gloss) : null,
-        l.emended.length ? h('p', { class: 'emend' }, 'Emended: ' + l.emended.map(e => `${e.from} → ${e.to}`).join('; ')) : null),
+        l.emended.length ? h('p', { class: 'emend' }, 'Emended: ' + l.emended.map(e => `${e.from} → ${e.to}`).join('; ')) : null,
+        parBlock(l.par)),
       h('div', { class: 'line__en' },
         fieldView(sec, 'en:' + l.part, c.en[l.part], l.en, 'en'),
         l.flags.length ? h('ul', { class: 'flags' }, l.flags.map(f => h('li', { class: `flag flag--${f.level}` },
@@ -435,6 +455,8 @@ function commentBody(sec, d) {
     h('details', { class: 'csrc' }, h('summary', {}, 'Source and transliteration'),
       h('p', { class: 'src', lang: unit().commentLang }, sec.src),
       h('p', { class: 'tl', lang: unit().commentLang + '-Latn' }, sec.translit)),
+    S.ui.parallel && sec.par?.length ? h('details', { class: 'csrc' },
+      h('summary', {}, `${(unit().parallels || []).map(p => p.name).join(' and ')} translation of this passage`), parBlock(sec.par)) : null,
     h('div', { class: 'field' }, h('p', { class: 'field__label' }, 'Translation'),
       fieldView(sec, 'translation', c.translation, sec.translation, 'ctrans')),
     h('div', { class: 'field' }, h('p', { class: 'field__label' }, 'Note beside the passage',
@@ -846,6 +868,9 @@ function usageBlock(e, c) {
   return [
     c.renderings.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__h' }, 'Rendered as '),
       ...c.renderings.flatMap((r, i) => [i ? ', ' : null, h('b', {}, r.surface), h('span', { class: 'tb__count' }, ` ${r.n}×`)])) : null,
+    c.tibetan?.forms?.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__h' }, 'In the Tibetan '),
+      ...c.tibetan.forms.flatMap((f, i) => [i ? ', ' : null, h('span', { class: 'tb__bo', lang: 'bo' }, f.script), ' ', h('i', { lang: 'bo-Latn' }, f.wylie), h('span', { class: 'tb__count' }, ` ${f.n}×`)]),
+      h('span', { class: 'tb__count' }, ` of ${c.tibetan.aligned} ${c.tibetan.aligned === 1 ? 'place' : 'places'} with Tibetan`)) : null,
     c.total ? h('h4', { class: 'tb__h' }, `In the text: ${c.total} ${c.total === 1 ? 'place' : 'places'}${where}`) : null,
     c.total ? h('ol', { class: 'kwic' }, hits.map(kwicRow)) : null,
     c.hits.length > 5 ? h('button', { type: 'button', class: 'btn btn--quiet kwic__more',
@@ -867,7 +892,11 @@ function kwicRow(hit) {
       who ? h('p', { class: 'kwic__who' }, who) : null,
       line(hit.pre, hit.hit, hit.post, hit.cut, 'kwic__src', html),
       hit.tlHit ? line(hit.tlPre, hit.tlHit, hit.tlPost, hit.cut, 'kwic__tl', html ? html + '-Latn' : '') : null,
-      hit.en ? h('p', { class: 'kwic__en' }, hit.en) : null));
+      hit.en ? h('p', { class: 'kwic__en' }, hit.en) : null,
+      S.ui.parallel && hit.bo ? h('div', { class: 'kwic__bo' },
+        hit.bo.at ? [line(hit.bo.at.pre, hit.bo.at.hit, hit.bo.at.post, hit.bo.at.cut, 'kwic__src', 'bo'),
+          line(hit.bo.at.tlPre, hit.bo.at.tlHit, hit.bo.at.tlPost, hit.bo.at.cut, 'kwic__tl', 'bo-Latn')]
+          : [h('p', { class: 'kwic__src', lang: 'bo' }, hit.bo.src), h('p', { class: 'kwic__tl', lang: 'bo-Latn' }, hit.bo.translit)]) : null));
 }
 
 function goToHit(hit) {
@@ -957,7 +986,7 @@ function renderSheet() {
   if (S.ui.sheet === 'keys') {
     const rows = [['J or ↓', 'Next passage'], ['K or ↑', 'Previous passage'], ['E or Enter', 'Edit the passage'], ['Esc', 'Stop editing'],
       ['Ctrl+Enter', 'Approve and go to the next passage'], ['Ctrl+Shift+Enter', 'Approve and go to the next that needs attention'],
-      ['R', 'Ask for a redraft, with a note'], ['Ctrl+K', 'Insert a glossary term while editing'], ['D', 'Show changes from Claude’s draft'],
+      ['R', 'Ask for a redraft, with a note'], ['Ctrl+K', 'Insert a glossary term while editing'], ['D', 'Show changes from Claude’s draft'], ['T', 'Show the Tibetan translation'],
       ['[ and ]', 'Previous and next song'], ['T', 'Terms'], ['?', 'This list']];
     body = [h('h2', { class: 'sheet__h', id: 'sheet-h' }, 'Keyboard'),
       h('p', { class: 'panel__lead' }, 'Single keys work when a passage has focus. Every action also has a button.'),
@@ -1021,6 +1050,7 @@ function onKey(ev) {
   else if ((ev.key === 'e' || ev.key === 'Enter') && sec && inSection && t.tagName !== 'BUTTON' && t.tagName !== 'A') { ev.preventDefault(); startEdit(sec.part, firstField(sec)); }
   else if (ev.key === 'r' && sec && M.reviewable(sec)) { ev.preventDefault(); S.ui.redraftOpen = sec.part; renderSection(sec.part); setTimeout(() => $(`#next-${sec.part}`)?.focus(), 0); }
   else if (ev.key === 'd') { S.ui.diff = !S.ui.diff; renderGrid(); announce(S.ui.diff ? 'Showing changes from Claude’s draft.' : 'Showing your text.'); }
+  else if (ev.key === 't' && unit()?.parallels?.length) { setParallel(!S.ui.parallel); announce(S.ui.parallel ? 'Showing the Tibetan.' : 'Tibetan hidden.'); }
   else if (ev.key === 't') { S.ui.tab = 'terms'; renderPanel(); }
 }
 

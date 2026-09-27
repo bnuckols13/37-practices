@@ -15,6 +15,7 @@ const FACES = String.raw`
 @font-face { font-family: 'Illuminated Text'; src: url('fonts/IlluminatedText-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 @font-face { font-family: 'Tiro Bangla'; src: url('fonts/TiroBangla-Bengali.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap;
   unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0-1CFF, U+200C-200D, U+20B9, U+25CC, U+A8F1; }
+@font-face { font-family: 'Noto Serif Tibetan'; src: url('fonts/NotoSerifTibetan-Tibetan.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; unicode-range: U+0F00-0FFF, U+25CC; }
 `;
 
 export const READER_CSS = FACES + themeCss({ ui: false }) + String.raw`
@@ -128,6 +129,11 @@ html[data-display="bilingual"] .src, html[data-display="study"] .src { display: 
 html[data-display="study"] .tl { display: block; grid-column: 1; grid-row: 2; }
 html[data-display="study"] .lit { display: block; grid-column: 1; grid-row: 3; }
 html[data-display="study"] .ln { margin-bottom: 12px; }
+.par { display: none; }
+html[data-display="study"] .par { display: block; grid-column: 1; grid-row: 4; margin-top: 6px; }
+.par__label { margin: 0; font-size: 14px; font-variant-caps: all-small-caps; letter-spacing: .06em; color: var(--muted); }
+.par__src { margin: 0; font-size: 17px; line-height: 1.9; }
+.par__tl { margin: 0; font-style: italic; font-size: 15px; color: var(--muted); }
 html[data-display="bilingual"] .passage, html[data-display="study"] .passage { grid-template-columns: 4rem minmax(0, 60rem); }
 html[data-display="bilingual"] .sidenote, html[data-display="study"] .sidenote { grid-column: 2; justify-self: end; width: calc(53.5% - 17px); padding: 6px 0 4px 1.3em; font-size: 16px; }
 

@@ -24,11 +24,18 @@ export function unitDoc(slug, id) {
   const m = reviewModel(slug, id);
   const htmlLang = l => m.text.lang.html[l] || l;
   const [head] = m.sections;
+  // The Tibetan (or any parallel) rides along for display. It is added after the
+  // review model has hashed each section, so it never resets a decision.
+  const pars = Object.entries(m.unit.parallels || {});
+  const parOf = (kind, id) => pars.filter(([, p]) => p[kind][id]).map(([wid, p]) => ({ witness: wid, html: htmlLang(p.lang), ...p[kind][id] }));
   const sections = m.sections.map(sec => {
     const { labels, key, part, ...rest } = sec;
     const out = { part, id: key, ...rest };
-    if (rest.lines) out.lines = rest.lines.map(l => ({ ...l, html: htmlLang(l.lang) }));
-    if (rest.kind === 'comment') out.anchorPart = rest.anchorKey === m.unit.id ? 'head' : partOf(rest.anchorKey);
+    if (rest.lines) out.lines = rest.lines.map(l => ({ ...l, html: htmlLang(l.lang), par: parOf('lines', l.id) }));
+    if (rest.kind === 'comment') {
+      out.anchorPart = rest.anchorKey === m.unit.id ? 'head' : partOf(rest.anchorKey);
+      out.par = parOf('commentary', key);
+    }
     delete out.anchorKey;
     return out;
   });
@@ -38,6 +45,7 @@ export function unitDoc(slug, id) {
     questions: head.questions, notesCount: m.notesCount,
     commentLang: htmlLang(m.text.lang.commentary || 'san'),
     termsToDecide: m.termsToDecide.map(t => t.entry.id),
+    parallels: pars.map(([wid, p]) => ({ id: wid, lang: p.lang, name: m.text.lang.names[p.lang] || p.lang, label: m.text.witnesses.find(w => w.id === wid)?.label || wid })),
     sections,
   };
 }

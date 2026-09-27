@@ -5,6 +5,7 @@
 | File | What it is | Licence |
 |---|---|---|
 | `IlluminatedText-{Regular,Italic,Bold}.woff2` | A subset of **Gentium Book Plus 6.200** by SIL International, made to keep its real small caps (Google Fonts' copy strips them). It covers Latin, Latin Extended, IAST and punctuation, with every OpenType feature kept. | SIL Open Font License 1.1 (`OFL.txt`) |
+| `NotoSerifTibetan-Tibetan.woff2` | The Tibetan block (U+0F00–0FFF) of **Noto Serif Tibetan** 2.001, copyright 2018 Google LLC, from Ubuntu's `fonts-noto-core` package, subset with every OpenType feature kept (the stacking of Tibetan letters needs them). Noto declares no Reserved Font Name, so the subset keeps its name. | SIL Open Font License 1.1 |
 | `TiroBangla-Bengali.woff2` | The Bengali range of **Tiro Bangla** 1.52, copyright 2020 The Indigo Project Authors (Tiro Typeworks), as Google Fonts serves it, unmodified. | SIL Open Font License 1.1 |
 
 **Why the Gentium subset is renamed.** "Gentium" and "SIL" are Reserved Font Names, and the OFL FAQ (2.6) counts a subset as a modified version, which may not use them. The copyright and licence records inside each font are kept, and its description names the original.
@@ -18,4 +19,4 @@ pyftsubset GentiumBookPlus-Regular.ttf \
   --flavor=woff2 --no-hinting --desubroutinize
 ```
 
-The same command was run for Italic and Bold. The name records were then changed from "Gentium Book Plus" to "Illuminated Text".
+The same command was run for Italic and Bold. Noto Serif Tibetan was subset the same way with `--unicodes="U+0020,U+00A0,U+0F00-0FFF,U+25CC"`. The name records were then changed from "Gentium Book Plus" to "Illuminated Text".

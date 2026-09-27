@@ -29,7 +29,8 @@ export const FONTS = {
   // 'Illuminated Text' is our self-hosted subset of Gentium Book Plus (see translate/assets/fonts/).
   text: "'Illuminated Text', 'Gentium Book Plus', 'Gentium Plus', 'Charis SIL', 'Noto Serif', Georgia, serif",
   bengali: "'Tiro Bangla', 'Noto Serif Bengali', 'Kohinoor Bangla', serif",
-  tibetan: "'Noto Serif Tibetan', 'Jomolhari', serif",
+  // Self-hosted on the published pages (a Tibetan-block subset); from Google Fonts in the Studio.
+  tibetan: "'Noto Serif Tibetan', 'Jomolhari', 'Kailasa', 'Microsoft Himalaya', serif",
   ui: "'Source Sans 3', 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif",
   mono: "ui-monospace, 'SF Mono', Menlo, Consolas, monospace",
 };
@@ -38,8 +39,8 @@ export const FONT_URL = 'https://fonts.googleapis.com/css2?'
   + 'family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700'
   + '&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400'
   + '&family=Tiro+Bangla:ital@0;1'
+  + '&family=Noto+Serif+Tibetan:wght@400'
   + '&display=swap';
-export const TIBETAN_FONT_URL = 'https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@400&display=swap';
 
 const block = i => Object.entries(COLORS).map(([k, v]) => `  --${k.replace(/[A-Z]/g, c => '-' + c.toLowerCase())}: ${v[i]};`).join('\n');
 

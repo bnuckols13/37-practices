@@ -1,6 +1,6 @@
 # The poetry workshop: study and practice across traditions
 
-> **Status:** research done (27 Sept 2026): five notes in `research/` ([Morton](research/morton-in-depth.md), [the Sufi poets](research/sufi-poets.md), [the Zen mountain poets](research/zen-mountain-poets.md), [Shakespeare](research/shakespeare-sonnets.md), [the bardic tradition](research/bardic-tradition.md)). The comparison is [`research/across-traditions.md`](research/across-traditions.md). Next: building. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
+> **Status:** built (27 Sept 2026). Five research notes and the comparison in `research/`; twenty lenses; the English ear reads any poem (`lib/poetics.mjs`, `poem`); the Workshop has Your poems, Practice and Study rooms, published to the Workshop's URL (see README). Still open: the untranscribed half of Morton's course, being transcribed privately; the verification gaps each note lists.
 
 ## Why
 

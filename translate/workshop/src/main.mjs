@@ -4,6 +4,7 @@
 // every string from the data or the shelf goes in as text, never as markup.
 import * as en from '../../lib/english.mjs';
 import { englishBoard, compareBoards, temperature, CHANNELS, CHANNEL_NAMES } from '../../lib/board.mjs';
+import { makeRooms } from './rooms.mjs';
 
 const DATA = JSON.parse(document.getElementById('data').textContent);
 const CMU = 'https://cdn.jsdelivr.net/npm/cmu-pronouncing-dictionary@3.0.0/index.js';
@@ -39,8 +40,10 @@ const old = stored.folios ? null : load(OLD_KEY);
 const firstSong = (DATA.songs.find(s => s.id === 'cp.14') || DATA.songs[0]).id;
 const OWN = { id: 'own', name: 'No lens', after: 'Your own way', how: 'No poet stands behind this one: the board alone guides the ideas, and your ear does the rest.', why: '', touchstone: '' };
 const LENSES = [...DATA.lenses, OWN];
+const VIEWS = [['write', 'Write'], ['poems', 'Your poems'], ['practice', 'Practice'], ['study', 'Study'], ['shelf', 'Shelf'], ['guide', 'How to read']];
+const TRADITIONS = [['english', 'English'], ['sufi', 'Sufi'], ['zen', 'Zen'], ['shakespeare', 'Shakespeare'], ['bardic', 'Bardic']];
 const S = {
-  view: 'write',
+  view: VIEWS.some(([v]) => v === stored.view) ? stored.view : 'write',
   song: DATA.songs.some(s => s.id === stored.song) ? stored.song : firstSong,
   group: stored.group || old?.group || {},
   lens: LENSES.some(l => l.id === stored.lens) ? stored.lens : 'shanty',
@@ -60,7 +63,7 @@ function persist() {
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
     try {
-      localStorage.setItem(KEY, JSON.stringify({ song: S.song, group: S.group, lens: S.lens, base: S.base, temp: S.temp, latitude: S.latitude,
+      localStorage.setItem(KEY, JSON.stringify({ view: S.view, song: S.song, group: S.group, lens: S.lens, base: S.base, temp: S.temp, latitude: S.latitude,
         folios: S.folios, ideas: S.ideas, drafts: S.drafts, showBn: S.showBn, showStress: S.showStress }));
     } catch { /* a private window keeps the poem only while the page is open */ }
   }, 250);
@@ -68,6 +71,7 @@ function persist() {
 
 const song = () => DATA.songs.find(s => s.id === S.song);
 const lens = () => LENSES.find(l => l.id === S.lens) || LENSES[0];
+const lensTrad = () => S.lensTrad || (lens().id === 'own' ? 'english' : lens().tradition || 'english');
 const lensById = id => LENSES.find(l => l.id === id);
 const songBoard = s => Object.fromEntries(CHANNELS.map(ch => [ch, s.board[ch].heat]));
 function board() {
@@ -139,6 +143,7 @@ function scanView(text) {
 async function loadEar() {
   try { const m = await import(CMU); en.useDictionary(m.dictionary); S.ear = 'dictionary'; } catch { S.ear = 'spelling'; }
   if (S.view === 'write') { refreshHear(); renderPoem(); }
+  if (rooms.has(S.view)) rooms.rerender([S.view]);
 }
 
 // ------------------------------------------------------------------ capabilities
@@ -157,6 +162,7 @@ async function connect() {
     }, () => { S.db = false; renderShelf(); });
   }
   renderStageActions(); renderPoem(); renderShelf();
+  rooms.connect();
 }
 async function resolveNames() {
   const ids = [...new Set(S.shelf.map(v => v.makerId).filter(id => id && !(id in S.names)))];
@@ -190,16 +196,19 @@ function renderBar() {
     class: 'pill', 'aria-current': s.id === S.song ? 'true' : 'false',
     onclick: () => { S.song = s.id; S.base = S.base && S.lens !== 'own' ? S.base : null; persist(); renderAll(); },
   }, h('b', { text: s.no }), h('span', { text: s.title }))));
-  $('views').replaceChildren(...[['write', 'Write'], ['shelf', 'Shelf'], ['guide', 'How to read']].map(([id, label]) => h('button', {
+  $('songs').hidden = rooms.has(S.view);
+  $('views').replaceChildren(...VIEWS.map(([id, label]) => h('button', {
     'aria-current': S.view === id ? 'true' : 'false', onclick: () => setView(id), text: label,
   })));
 }
 function setView(v) {
   S.view = v;
-  for (const id of ['write', 'shelf', 'guide']) $(id).hidden = id !== v;
+  for (const [id] of VIEWS) $(id).hidden = id !== v;
+  persist();
   renderBar();
   if (v === 'shelf') renderShelf();
   if (v === 'guide') renderGuide();
+  if (rooms.has(v)) rooms.rerender([v]);
   window.scrollTo({ top: 0 });
 }
 
@@ -215,7 +224,9 @@ function renderHow() {
   const tune = h('details', { class: 'tune', id: 'tune' }, h('summary', { text: 'Fine-tune the four channels' }), h('div', { class: 'faders', id: 'faders' }));
   $('how').replaceChildren(
     h('div', { class: 'how__row' }, h('span', { class: 'label', text: 'Write it as' }),
-      h('div', { class: 'lenses', role: 'group', 'aria-label': 'Lens' }, ...LENSES.map(x => h('button', {
+      h('span', { class: 'seg', role: 'group', 'aria-label': 'Tradition' }, ...TRADITIONS.filter(([t]) => LENSES.some(x => (x.tradition || 'english') === t)).map(([t, label]) => h('button', {
+        'aria-pressed': lensTrad() === t ? 'true' : 'false', onclick: () => { S.lensTrad = t; renderHow(); }, text: label }))),
+      h('div', { class: 'lenses', role: 'group', 'aria-label': 'Lens' }, ...LENSES.filter(x => x.id === 'own' || (x.tradition || 'english') === lensTrad()).map(x => h('button', {
         class: 'chip', 'aria-pressed': x.id === S.lens ? 'true' : 'false', title: x.after,
         onclick: () => { S.lens = x.id; S.base = null; S.temp = null; persist(); renderHow(); },
       }, x.name)))),
@@ -714,8 +725,10 @@ function renderGuide() {
 // ------------------------------------------------------------------ start
 
 function renderWrite() { renderHow(); renderStage(); renderPoem(); }
-function renderAll() { renderBar(); renderWrite(); renderShelf(); renderGuide(); }
+function renderAll() { renderBar(); renderWrite(); renderShelf(); renderGuide(); rooms.rerender(); }
 
+const rooms = makeRooms({ h, $, DATA, say, toast, heatBar, ERR, env: () => ({ sample: S.sample, db: S.db, me: S.me }) });
+for (const [id] of VIEWS) $(id).hidden = id !== S.view;
 renderAll();
 connect();
 if ('requestIdleCallback' in window) requestIdleCallback(() => loadEar(), { timeout: 2500 }); else setTimeout(loadEar, 600);

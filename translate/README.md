@@ -125,7 +125,7 @@ English stresses and rhymes come from the CMU Pronouncing Dictionary (`lib/engli
 
 ## Versions and the Workshop (poems made from the songs)
 
-The third English: a poem made from a song through a **lens**, one of the ways English poets have made songs (Blake's couplets, the ballad, Dickinson's hymn metre, the Psalms, Hopkins, Pound's *Cathay*, the work song, Owen's para rhyme; [`prompts/lenses.json`](prompts/lenses.json), [`research/western-lenses.md`](research/western-lenses.md)). A version keeps the song's shape, its refrain and every image, keeps readings out of its lines, and says what it kept and let go ([`prompts/tasks/version.md`](prompts/tasks/version.md)); a `free` one may add what an image implies and lists it.
+The third English: a poem made from a song through a **lens**, one of the ways poets have made songs. There are twenty, grouped by tradition: the English ones (Blake's couplets, the ballad, Dickinson's hymn metre, the Psalms, Hopkins, Pound's *Cathay*, the work song, Owen's para rhyme), the Sufi ghazal, *masnavī* and *rubāʿī*, the Zen mountain poem, parallel couplet and haiku cut, the Shakespearean sonnet, and the Irish bardic poem, keen, gleeman, hermit lyric and *aisling* ([`prompts/lenses.json`](prompts/lenses.json), [`research/western-lenses.md`](research/western-lenses.md), [`POETRY-PLAN.md`](POETRY-PLAN.md)). A version keeps the song's shape, its refrain and every image, keeps readings out of its lines, and says what it kept and let go ([`prompts/tasks/version.md`](prompts/tasks/version.md)); a `free` one may add what an image implies and lists it.
 
 The **Workshop** is where they are made. It is built for writing: pick a lens and a heat once (one slider, the song's own heat marked on it; the four channels behind "Fine-tune"), then work one couplet at a time. The Bengali couplet stands large with its rhymes in gold, what it says underneath, and two lines to write into. The ear tells you the beats and the rhyme as you type, against the Bengali's. "Suggest lines" asks Claude for three ideas, each with Hotter and Cooler. The poem grows beside the song as an illuminated plate, with the Bengali above each couplet, and saves itself as you go. The Shelf holds poems saved by anyone with the page, plus the edition's examples; "How to read" has Morton's method and the lenses. Finished poems go to the shared shelf, or are copied as JSON for the engine.
 
@@ -136,7 +136,24 @@ node translate/cli.mjs versions list charyapada           # each version, its le
 node translate/cli.mjs versions keep charyapada 14 shanty-row-dombi   # show it in the Reading Room
 ```
 
+The Workshop is published at [claude.ai/artifact/6moRGUXfuVhPmTVbSnocQ5](https://claude.ai/artifact/6moRGUXfuVhPmTVbSnocQ5) (private to its owner until shared). Rebuild it and republish the file to that URL.
+
 Versions live in `texts/<text>/versions/<unit>/<id>.json`. `check` holds them to the song's shape, the refrain cue, the glossary's forbidden words and the overlap guard. The Reading Room sets **kept** versions after the song, each with its lens and maker (every version in `--preview`). To bring in the shelf: read the Workshop artifact's `versions` collection with ArtifactData, save the documents as a JSON list, and import them.
+
+## The poetry practice: Your poems, Practice, Study
+
+The Workshop is also a place to keep a practice of reading and making poems, built from five studies in `research/`: Morton's course in depth, the Sufi poets, the Zen mountain poets, Shakespeare's Sonnet 29, and the Irish bardic tradition down to Zozimus, with a comparison across them ([`research/across-traditions.md`](research/across-traditions.md)). The plan and its reasons are in [`POETRY-PLAN.md`](POETRY-PLAN.md).
+
+- **Your poems.** Paste a poem and read it on Morton's board, five channels this time (space, lineation, syntax, rhythm, rhyme), with what the ear finds: the rhyme scheme lettered against every earlier line, the turn, a *radīf*, a *dúnadh*, negations, words struck again, who is present line by line, the pentameter. Revise one channel per draft and keep every draft; set two side by side to see which channels moved. "Respond" asks Claude to answer in Liz Lerman's order (what is meaningful, your question, neutral questions, opinions only when asked), never rewriting the poem. Poems live in each viewer's private corner of the page's database (`data/users/<id>/poems/items`), or on the device when that is out of reach.
+- **Practice.** An exercise a day from `workshop/practice.json` (36, from Morton, the Sufi, Zen, Shakespearean and bardic practices, and the maker's own one channel per draft), done on a song, a touchstone or your own poem, and kept in a private journal.
+- **Study.** Seventeen touchstone poems in `workshop/study.json`, originals with transliteration and gloss, and translations published before 1929, each read on the board, with what the study found and questions to answer in the journal; "Across" sets the traditions side by side.
+
+Any poem can be read the same way from the command line:
+
+```sh
+node translate/cli.mjs poem my-poem.txt                  # the five steps, measured
+node translate/cli.mjs poem my-poem.txt --lens sonnet    # and where it runs hotter or cooler than a lens
+```
 
 ## The Studio (review in claude.ai)
 

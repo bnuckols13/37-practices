@@ -49,6 +49,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { margin: 0; background: var(--ground); color: var(--ink); font: 17px/1.55 var(--f-text); -webkit-font-smoothing: antialiased; font-kerning: normal; }
 :lang(bn) { font-family: var(--f-bn); }
 button, input, textarea { font: inherit; color: inherit; }
@@ -267,4 +268,92 @@ code { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-si
   .lines { padding: 12px 12px 10px; }
   .plate { padding: 24px 14px 16px; }
   .dot { width: 26px; height: 26px; }
+}
+
+/* ---- the rooms: Your poems, Practice, Study */
+.room__head { display: grid; gap: 6px; margin-bottom: 14px; }
+.room__head .sec-lede { margin-bottom: 0; }
+.shelfrow { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 18px; }
+.shelfrow .pill b { margin-left: 2px; }
+.seg--wrap { flex-wrap: wrap; }
+.poembox { width: 100%; resize: vertical; min-height: 12em; border: 0; background: none; padding: 6px 0 4px; font-family: var(--f-poem); font-size: clamp(19px, 2vw, 22px); line-height: 1.45; white-space: pre-wrap; tab-size: 4; }
+.poembox:focus { outline: none; }
+.plate--own { padding: 22px 22px 16px; }
+.plate--own .plate__title { margin-bottom: 8px; }
+.plate textarea.poembox { margin-top: 4px; background: none; border: 0; border-top: 1px solid var(--rule); border-radius: 0; padding: 12px 0 4px; font-size: clamp(19px, 2vw, 22px); min-height: 14em; }
+.plate--own:focus-within { box-shadow: var(--shadow), inset 0 0 0 7px var(--leaf), inset 0 0 0 8px var(--gold); }
+.stage > .poembox { background: var(--leaf); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 16px; }
+.stage > .poembox:focus { border-color: var(--gold-soft); }
+.drafts { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 8px; margin-left: -6px; }
+.drafts .btn[aria-pressed="true"] { color: var(--gold); text-decoration: underline; }
+.twin { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 640px) { .twin { grid-template-columns: minmax(0, 1fr); } }
+.poemtext { margin: 4px 0 0; white-space: pre-wrap; font-family: var(--f-poem); font-size: 17px; line-height: 1.45; overflow-wrap: anywhere; }
+.poemtext.bn { font-family: var(--f-bn); font-size: 16px; color: var(--gold); }
+.ask { display: grid; gap: 10px; padding-top: 14px; border-top: 1px solid var(--rule); }
+.check { display: inline-flex; align-items: center; gap: 6px; font-family: var(--f-ui); font-size: 14px; color: var(--muted); }
+.check select, .how__row select { background: var(--leaf); border: 1px solid var(--rule); border-radius: 6px; padding: 4px 8px; font-family: var(--f-ui); font-size: 14px; color: var(--ink); max-width: 100%; }
+.how__row select { min-width: 0; flex: 1 1 16rem; }
+.reply { display: grid; gap: 4px; padding: 10px 0 2px 14px; border-left: 2px solid var(--gold-soft); }
+.reply ul, .reply ol { margin: 0 0 8px; padding-left: 1.2em; display: grid; gap: 5px; }
+.reply li { font-size: 16px; }
+
+.pboard { display: grid; gap: 10px; margin: 6px 0 16px; }
+.pboard__row { display: grid; grid-template-columns: 6.2rem 80px minmax(0, 1fr); gap: 2px 10px; align-items: center; }
+.pboard__row .heat { width: 80px; margin-top: 0; }
+.pboard__t { font-family: var(--f-ui); font-size: 13px; color: var(--muted); }
+.pboard__fact { grid-column: 1 / -1; margin: 0; font-size: 14.5px; color: var(--muted); line-height: 1.45; }
+.pboard__more { grid-column: 1 / -1; font-size: 14px; color: var(--muted); }
+.pboard__more summary { cursor: pointer; color: var(--lapis); font-family: var(--f-ui); font-size: 12.5px; list-style: none; display: inline; }
+.pboard__more summary::-webkit-details-marker { display: none; }
+.pboard__more p { margin: 4px 0 0; }
+.finds { margin: 6px 0 0; display: grid; gap: 8px; }
+.find { display: grid; gap: 1px; }
+.find dt { font-size: 11px; }
+.find dd { margin: 0; font-size: 15px; line-height: 1.45; }
+
+.exercise { display: grid; gap: 8px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+.exercise__t { margin: 0; font-family: var(--f-poem); font-weight: 400; font-size: clamp(24px, 2.6vw, 30px); line-height: 1.15; text-wrap: balance; }
+.exercise__steps { margin: 0; padding-left: 1.3em; display: grid; gap: 6px; }
+.exercise__steps li { font-size: 16.5px; }
+.exercise__steps li::marker { color: var(--vermilion); font-family: var(--f-ui); font-size: 13px; font-weight: 600; }
+.journal { display: grid; gap: 8px; margin-top: 10px; }
+.jlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.jlist summary { cursor: pointer; font-size: 15.5px; }
+.jlist summary b { font-weight: 400; font-family: var(--f-poem); font-size: 18px; }
+.exlist { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 2px; }
+.exlist__b { width: 100%; text-align: left; display: grid; gap: 1px; border: 0; border-left: 2px solid transparent; background: none; padding: 6px 8px 7px 10px; cursor: pointer; border-radius: 0 6px 6px 0; }
+.exlist__b:hover { background: var(--leaf-2); }
+.exlist__b[aria-current="true"] { border-left-color: var(--gold); background: var(--leaf-2); }
+.exlist__t { font-family: var(--f-poem); font-size: 18px; line-height: 1.25; }
+.exlist__m { font-family: var(--f-ui); font-size: 12px; color: var(--faint); }
+
+.study__sum { max-width: 64rem; margin: 0 0 12px; }
+.plate--study { display: grid; gap: 10px; padding: 30px 26px 20px; }
+.study__t { margin: 0; font-family: var(--f-poem); font-weight: 400; font-size: clamp(26px, 2.8vw, 34px); line-height: 1.12; text-wrap: balance; }
+.lines-of { display: grid; gap: 0; }
+.lines-of p { margin: 0; padding-left: 1.1em; text-indent: -1.1em; }
+.lines-of .gap { height: .6em; }
+.lines-of.en p { font-family: var(--f-poem); font-size: clamp(18px, 1.9vw, 21px); line-height: 1.45; }
+.lines-of.orig p { font-size: clamp(20px, 2.2vw, 25px); line-height: 1.6; color: var(--gold); }
+.lines-of.orig[dir="rtl"] p { padding-left: 0; padding-right: 1.1em; }
+.orig--fa, .orig--ar { font-family: 'Amiri', 'Noto Naskh Arabic', 'Geeza Pro', 'Times New Roman', serif; }
+.orig--zh { font-family: 'Noto Serif TC', 'Songti TC', 'PMingLiU', serif; letter-spacing: .12em; }
+.orig--ja { font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif; letter-spacing: .06em; }
+.orig--ga, .orig--sga { font-family: var(--f-text); font-style: italic; }
+.lines-of.tl p { font-style: italic; color: var(--muted); font-size: 15.5px; }
+.lines-of.gl p { font-family: var(--f-ui); font-size: 13.5px; color: var(--faint); }
+.obs { margin: 4px 0 0; padding-left: 1.2em; display: grid; gap: 7px; }
+.obs li { font-size: 16px; }
+.answer { display: grid; gap: 6px; margin-top: 6px; }
+.answer .poembox { min-height: 5em; background: var(--leaf); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; font-size: 18px; }
+.tablewrap { overflow-x: auto; margin-top: 10px; }
+.across { min-width: 760px; }
+.across th[scope="row"] { font-family: var(--f-poem); font-size: 17px; text-transform: none; letter-spacing: 0; color: var(--ink); font-weight: 400; }
+.across td { font-size: 14.5px; }
+@media (max-width: 640px) {
+  .views { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; }
+  .views button { flex: none; }
+  .pboard__row { grid-template-columns: 5.4rem 70px minmax(0, 1fr); }
+  .plate--study { padding: 26px 16px 16px; }
 }

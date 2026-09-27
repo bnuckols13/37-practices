@@ -22,10 +22,12 @@ import { passageNo } from '../ids.mjs';
 import { bundle, checkBuild } from '../studio/build.mjs';
 
 const SRC = path.join(ENGINE, 'workshop');
-export const SIZE_BUDGET = 400 * 1024;
+// Every drafted song, their boards, the lenses, and the rooms' touchstones and
+// exercises: well under an artifact's 16 MB, and kept light enough for a phone.
+export const SIZE_BUDGET = 900 * 1024;
 const FONT_URL = 'https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&family=Galada'
   + '&family=IM+Fell+English:ital@0;1&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400'
-  + '&family=Source+Sans+3:wght@400;600&display=swap';
+  + '&family=Source+Sans+3:wght@400;600&family=Amiri&family=Noto+Serif+TC&family=Noto+Serif+JP&display=swap';
 // The teaching's own words keep the edition's English in every version.
 const TEACHING = ['citta', 'mahasukha', 'sunyata', 'sahaja', 'guru'];
 
@@ -96,6 +98,9 @@ export function buildWorkshop(slug, ids = null) {
     lenses: lenses(),
     prompt: loadPrompt('tasks/version.md').body,
     teaching: TEACHING.map(id => entries.get(id)).filter(Boolean).map(e => ({ id: e.id, en: e.en })),
+    // The rooms: touchstone poems for Study, exercises for Practice (see POETRY-PLAN.md).
+    study: readJSON(path.join(SRC, 'study.json'), { traditions: [], poems: [], across: [] }),
+    practice: readJSON(path.join(SRC, 'practice.json'), { exercises: [] }),
   };
   const css = fs.readFileSync(path.join(SRC, 'styles.css'), 'utf8');
   const js = bundle(path.join(SRC, 'src', 'main.mjs')).replace(/<\/(script)/gi, '<\\/$1');

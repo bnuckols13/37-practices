@@ -1,0 +1,76 @@
+{
+  "id": "fx.01",
+  "n": 1,
+  "title": "",
+  "raga": "paṭamañjarī",
+  "poet": "p-luyi",
+  "sourceSha": "b4ab8f2e720eda30835f8ee69fcd96f33d8fa743b32e907db9844ea64e140265",
+  "witnesses": [
+    "ed"
+  ],
+  "lines": [
+    {
+      "id": "fx.01.h1",
+      "group": "fx.01.h",
+      "role": "heading",
+      "lang": "oben",
+      "witness": "ed",
+      "src": "রাগ পটমঞ্জরী",
+      "translit": "rāga paṭamañjarī"
+    },
+    {
+      "id": "fx.01.1a",
+      "group": "fx.01.1",
+      "role": "line",
+      "couplet": 1,
+      "lang": "oben",
+      "witness": "ed",
+      "src": "কাআ তরুবর পঞ্চ বি ডাল।",
+      "refrain": true,
+      "translit": "kāā tarubara pañca bi ḍāla|"
+    },
+    {
+      "id": "fx.01.1b",
+      "group": "fx.01.1",
+      "role": "line",
+      "couplet": 1,
+      "lang": "oben",
+      "witness": "ed",
+      "src": "চঞ্চল চীএ পইঠো কাল॥ ধ্রু॥",
+      "refrain": true,
+      "translit": "cañcala cīe paiṭho kāla|| dhru||"
+    },
+    {
+      "id": "fx.01.2a",
+      "group": "fx.01.2",
+      "role": "line",
+      "couplet": 2,
+      "lang": "oben",
+      "witness": "ed",
+      "src": "দিঢ় করিঅ মহাসুহ পরিমাণ।",
+      "bhanita": true,
+      "translit": "diṛha karia mahāsuha parimāṇa|"
+    },
+    {
+      "id": "fx.01.2b",
+      "group": "fx.01.2",
+      "role": "line",
+      "couplet": 2,
+      "lang": "oben",
+      "witness": "ed",
+      "src": "লুই ভণই গুরু পুচ্ছিঅ জাণ॥",
+      "bhanita": true,
+      "translit": "lui bhaṇai guru pucchia jāṇa||"
+    }
+  ],
+  "commentary": [
+    {
+      "id": "fx.01.m1",
+      "anchor": "fx.01.1",
+      "lang": "san",
+      "witness": "ed",
+      "src": "কায়স্তরুবরঃ পঞ্চবিডালঃ ইতি পঞ্চস্কন্ধাঃ।",
+      "translit": "kāyastaruvaraḥ pañcaviḍālaḥ iti pañcaskandhāḥ|"
+    }
+  ]
+}

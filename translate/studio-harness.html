@@ -1,0 +1,2573 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light}body{margin:0}[hidden]{display:none!important}</style></head><body><title>Studio Practice Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&amp;family=Tiro+Bangla:ital@0;1&amp;family=Noto+Serif+Tibetan:wght@400&amp;display=swap">
+<style>
+:root {
+  --paper: #FBFBF9;
+  --surface: #F2F4F3;
+  --raised: #FFFFFF;
+  --ink: #2E3336;
+  --muted: #6F777C;
+  --faint: #9AA2A7;
+  --rule: #D9DDDF;
+  --navy: #1F4E6B;
+  --navy-wash: #E6EEF3;
+  --rubric: #B4452F;
+  --ok: #3F6B4A;
+  --ok-wash: #E8F0EA;
+  --warn: #8A6A1F;
+  --warn-wash: #F6F0E1;
+  --redo: #9B3B2B;
+  --redo-wash: #F7E9E6;
+  --font-text: 'Illuminated Text', 'Gentium Book Plus', 'Gentium Plus', 'Charis SIL', 'Noto Serif', Georgia, serif;
+  --font-bengali: 'Tiro Bangla', 'Noto Serif Bengali', 'Kohinoor Bangla', serif;
+  --font-tibetan: 'Noto Serif Tibetan', 'Jomolhari', 'Kailasa', 'Microsoft Himalaya', serif;
+  --font-ui: 'Source Sans 3', 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #15191C;
+    --surface: #1D2226;
+    --raised: #232A2F;
+    --ink: #D9DEE1;
+    --muted: #8E979C;
+    --faint: #6C757A;
+    --rule: #2E353A;
+    --navy: #8DB8D6;
+    --navy-wash: #1E3140;
+    --rubric: #E0806A;
+    --ok: #8CC09A;
+    --ok-wash: #1C2B21;
+    --warn: #D7B865;
+    --warn-wash: #2E2816;
+    --redo: #E39A89;
+    --redo-wash: #33201C;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #15191C;
+  --surface: #1D2226;
+  --raised: #232A2F;
+  --ink: #D9DEE1;
+  --muted: #8E979C;
+  --faint: #6C757A;
+  --rule: #2E353A;
+  --navy: #8DB8D6;
+  --navy-wash: #1E3140;
+  --rubric: #E0806A;
+  --ok: #8CC09A;
+  --ok-wash: #1C2B21;
+  --warn: #D7B865;
+  --warn-wash: #2E2816;
+  --redo: #E39A89;
+  --redo-wash: #33201C;
+  color-scheme: dark;
+}
+
+/* The Studio. Tokens come from lib/design/tokens.mjs (injected above this file). */
+
+html, body { height: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.5 var(--font-ui); -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+kbd { font: 600 11px/1 var(--font-ui); padding: 2px 5px; border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 3px; background: var(--raised); color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+.app { height: 100%; display: flex; flex-direction: column; min-height: 0; }
+.boot, .empty { color: var(--muted); padding: 48px 0; }
+.empty { max-width: 34rem; }
+.empty__title { font: 400 26px/1.25 var(--font-text); color: var(--ink); margin: 0 0 10px; text-wrap: balance; }
+.empty--inline { padding: 12px 0; }
+
+/* ---------- controls ---------- */
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; font-size: 13px; font-weight: 600; line-height: 1.3;
+  border: 1px solid var(--rule); border-radius: 3px; background: var(--raised); color: var(--ink); cursor: pointer; white-space: nowrap; }
+.btn:hover { border-color: var(--muted); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn--primary { background: var(--navy); border-color: var(--navy); color: var(--paper); }
+.btn--primary:hover { filter: brightness(1.08); border-color: var(--navy); }
+.btn--quiet { background: transparent; border-color: transparent; color: var(--muted); font-weight: 600; }
+.btn--quiet:hover { color: var(--ink); border-color: var(--rule); }
+.btn--quiet[aria-pressed="true"] { color: var(--redo); border-color: var(--redo); background: var(--redo-wash); }
+.btn--ok[aria-pressed="true"] { background: var(--ok-wash); border-color: var(--ok); color: var(--ok); }
+.btn--redo { background: var(--redo-wash); border-color: var(--redo); color: var(--redo); }
+.link { background: none; border: 0; padding: 0; color: var(--navy); cursor: pointer; font-size: 13px; font-weight: 600;
+  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.seg { padding: 4px 10px; font-size: 13px; font-weight: 600; border: 1px solid var(--rule); background: transparent; color: var(--muted); cursor: pointer; }
+.seg + .seg { margin-left: -1px; }
+.seg:first-child { border-radius: 3px 0 0 3px; } .seg:last-child { border-radius: 0 3px 3px 0; }
+.seg[aria-pressed="true"] { background: var(--raised); color: var(--ink); border-color: var(--muted); position: relative; }
+.seg:disabled { opacity: .5; }
+
+/* ---------- top bar ---------- */
+.top { display: flex; align-items: center; gap: 18px; padding: 10px 20px; border-bottom: 1px solid var(--rule); background: var(--paper); flex-wrap: wrap; row-gap: 6px; }
+.brand { display: flex; align-items: baseline; gap: 8px; margin: 0; }
+.brand__mark { font: 700 20px/1 var(--font-text); color: var(--rubric); letter-spacing: -1px; }
+.brand__name { font: 700 12px/1 var(--font-ui); letter-spacing: .18em; text-transform: uppercase; color: var(--ink); }
+.top__where { display: flex; align-items: baseline; gap: 12px; min-width: 0; flex: 1 1 auto; }
+.top__text { font: italic 400 17px/1.2 var(--font-text); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top__song { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.top__status { display: flex; align-items: baseline; gap: 14px; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.top__save--saving { color: var(--muted); } .top__save--saved { color: var(--ok); } .top__save--error { color: var(--redo); font-weight: 600; }
+.top__save .link { margin-left: 6px; }
+.top__receipt { color: var(--navy); }
+.top__actions { display: flex; gap: 6px; align-items: center; }
+.top__toggle { font-size: 13px; font-weight: 600; background: none; border: 1px solid var(--rule); border-radius: 3px; padding: 4px 9px; cursor: pointer; }
+
+.banner { padding: 10px 20px; background: var(--warn-wash); border-bottom: 1px solid var(--rule); display: flex; gap: 16px; align-items: center; flex-wrap: wrap; font-size: 14px; }
+.banner p { margin: 0; max-width: 70ch; }
+
+/* ---------- three columns ---------- */
+.cols { flex: 1 1 auto; min-height: 0; display: grid; grid-template-columns: 250px minmax(0, 1fr) 350px; }
+.rail, .grid, .panel { min-height: 0; overflow: auto; }
+.rail { background: var(--surface); border-right: 1px solid var(--rule); padding: 18px 14px 40px; }
+.panel { background: var(--surface); border-left: 1px solid var(--rule); padding: 0 18px 40px; }
+.grid { padding: 26px clamp(20px, 4vw, 48px) 140px; outline: none; }
+.grid > * { max-width: 900px; }
+
+/* ---------- rail ---------- */
+.rail__label { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin: 22px 0 8px; font: 700 11px/1.2 var(--font-ui);
+  letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.rail__label:first-child { margin-top: 0; }
+.rail__count { font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--faint); font-size: 12px; font-variant-numeric: tabular-nums; }
+.rail__select { width: 100%; padding: 5px; border: 1px solid var(--rule); background: var(--raised); border-radius: 3px; }
+.songs { list-style: none; margin: 0; padding: 0; }
+.songs__btn { display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 8px; width: 100%; text-align: left; padding: 7px 8px 7px 6px;
+  background: none; border: 0; border-radius: 3px; cursor: pointer; }
+button.songs__btn:hover { background: var(--navy-wash); }
+.songs__n { grid-row: span 2; font: 700 12px/1.9 var(--font-ui); color: var(--rubric); text-align: right; font-variant-numeric: tabular-nums; }
+.songs__t { font: 400 15px/1.3 var(--font-text); color: var(--ink); overflow: hidden; text-overflow: ellipsis; }
+.songs__poet { display: block; font: 12px/1.3 var(--font-ui); color: var(--muted); }
+.songs__s { grid-column: 2; font-size: 11.5px; color: var(--faint); font-variant-numeric: tabular-nums; }
+.songs__item.is-current .songs__btn { background: var(--navy-wash); }
+.songs__item.is-current .songs__n { color: var(--navy); }
+.songs__item.is-idle .songs__t { color: var(--faint); }
+.rail__glossary { display: flex; justify-content: space-between; width: 100%; margin-top: 18px; padding: 9px 8px; border: 0; border-top: 1px solid var(--rule);
+  background: none; cursor: pointer; font-weight: 600; text-align: left; }
+.check__list { list-style: none; margin: 0 0 6px; padding: 0; }
+.check__step { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; padding: 6px 0; font-size: 13.5px; }
+.check__mark { width: 14px; height: 14px; margin-top: 3px; border: 1.5px solid var(--faint); border-radius: 50%; font-size: 10px; line-height: 12px; text-align: center; color: var(--ok); }
+.check__step.is-done .check__mark { border-color: var(--ok); }
+.check__step.is-done .check__label { color: var(--faint); text-decoration: line-through; text-decoration-color: var(--rule); }
+.prompt { margin-top: 6px; font-size: 12.5px; color: var(--muted); }
+.prompt__lead { display: block; }
+.prompt__text { display: block; margin: 4px 0; padding: 7px 9px; font: 13px/1.45 var(--font-text); color: var(--ink); background: var(--raised);
+  border: 1px solid var(--rule); border-radius: 3px; user-select: all; }
+
+/* ---------- song and toolbar ---------- */
+.song { margin-bottom: 8px; }
+.song__eyebrow { margin: 0 0 4px; font: 700 11.5px/1.4 var(--font-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--rubric); }
+.song__raga { color: var(--rubric); }
+.song__q { margin-top: 2px; }
+.tools { position: sticky; top: -26px; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 10px 0; margin: 4px 0 6px;
+  background: var(--paper); border-bottom: 1px solid var(--rule); }
+.tools__filter { display: inline-flex; }
+.tools__diff { font-size: 13px; color: var(--muted); display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.meter { flex: 1 1 120px; min-width: 120px; height: 4px; display: flex; background: var(--rule); border-radius: 2px; overflow: hidden; }
+.meter__ok { background: var(--ok); } .meter__redo { background: var(--redo); }
+
+/* ---------- sections ---------- */
+.sec { position: relative; display: grid; grid-template-columns: 52px minmax(0, 1fr); padding: 18px 0 16px; border-bottom: 1px solid var(--rule); outline: none; }
+.sec::before { content: ''; position: absolute; left: 44px; top: 18px; bottom: 16px; width: 2px; border-radius: 1px; background: transparent; }
+.sec.is-edited::before { background: var(--navy); }
+.sec.is-approved::before, .sec.is-approved-edited::before { background: var(--ok); }
+.sec.is-redraft::before { background: var(--redo); }
+.sec.is-focused { background: linear-gradient(90deg, var(--navy-wash), transparent 70%); }
+.sec:focus-visible { outline: 2px solid var(--navy); outline-offset: -2px; }
+.sec__gutter { padding-top: 3px; }
+.pno { font: 700 12.5px/1.6 var(--font-ui); color: var(--rubric); text-decoration: none; font-variant-numeric: tabular-nums; }
+.sec.is-focused .pno { color: var(--navy); }
+.cmark { font: 400 18px/1 var(--font-text); color: var(--rubric); padding-left: 6px; }
+.sec__label { margin: 0 0 8px; font: 700 11px/1.3 var(--font-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.sec--comment .sec__label { color: var(--rubric); }
+.sec__tags { margin: 0 0 6px; font: 600 11.5px/1.3 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--faint); }
+.sec--lacuna { color: var(--faint); font-size: 13.5px; }
+.sec--lacuna p { margin: 0; }
+.sec--comment { background: color-mix(in srgb, var(--surface) 55%, transparent); }
+
+.line { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 4px 28px; padding: 5px 0 9px; }
+.line + .line { border-top: 1px dashed color-mix(in srgb, var(--rule) 70%, transparent); padding-top: 9px; }
+.src { margin: 0; font: 400 18px/1.55 var(--font-bengali); color: var(--ink); }
+.src:lang(bo) { font-family: var(--font-tibetan); line-height: 1.8; }
+.tl { margin: 2px 0 0; font: italic 400 15px/1.45 var(--font-text); color: var(--muted); }
+.lit { margin: 3px 0 0; font: 12.5px/1.45 var(--font-ui); color: var(--faint); letter-spacing: .01em; }
+.emend { margin: 3px 0 0; font-size: 12px; color: var(--warn); }
+.par { margin: 10px 0 0; padding-top: 8px; border-top: 1px solid var(--rule); }
+.par__label { margin: 0 0 2px; font: 600 11.5px/1.4 var(--font-ui); color: var(--faint); letter-spacing: .04em; font-variant-caps: all-small-caps; }
+.par .src { font-size: 17px; }
+
+.fv { position: relative; margin: 0; padding-right: 44px; }
+.fv.en { font: 400 19.5px/1.55 var(--font-text); color: var(--ink); }
+.fv.song__title { font: 400 27px/1.25 var(--font-text); margin-bottom: 8px; text-wrap: balance; }
+.fv.song__summary { font: 400 16.5px/1.6 var(--font-text); color: var(--ink); max-width: 62ch; }
+.fv.ctrans { font: 400 17px/1.6 var(--font-text); }
+.fv.cnote, .fv.note__text { font: 400 15.5px/1.55 var(--font-text); color: var(--ink); }
+.fv.is-changed::after { content: 'edited'; position: absolute; right: 44px; top: -14px; font: 600 10.5px/1 var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--navy); }
+.fv__empty { color: var(--faint); font-style: italic; }
+.fv__edit { position: absolute; right: 0; top: 2px; font: 600 12px/1 var(--font-ui); padding: 4px 6px; border: 1px solid transparent; border-radius: 3px;
+  background: none; color: var(--muted); cursor: pointer; opacity: 0; }
+.sec:hover .fv__edit, .sec.is-focused .fv__edit, .fv__edit:focus-visible { opacity: 1; }
+.fv__edit:hover { border-color: var(--rule); color: var(--ink); }
+.term { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; border-bottom: 1.5px dotted var(--navy); }
+.term:hover { background: var(--navy-wash); }
+.term--open { border-bottom-color: var(--warn); background: var(--warn-wash); }
+.term--unknown { border-bottom: 1.5px solid var(--redo); }
+del { color: var(--redo); text-decoration-thickness: 1.5px; background: var(--redo-wash); }
+ins { color: var(--ok); text-decoration: none; background: var(--ok-wash); }
+
+.flags { list-style: none; margin: 6px 0 0; padding: 0; font-size: 13.5px; color: var(--ink); }
+.flag { padding: 4px 0 4px 10px; border-left: 2px solid var(--warn); margin-top: 4px; }
+.flag--low { border-left-color: var(--faint); }
+.flag__kind { font: 700 11px/1 var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--warn); }
+.flag--low .flag__kind { color: var(--muted); }
+
+.field { margin: 8px 0; }
+.field__label { margin: 0 0 3px; font: 700 11px/1.3 var(--font-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.field__count { letter-spacing: 0; text-transform: none; font-weight: 600; color: var(--faint); }
+.field__count.is-over { color: var(--redo); }
+.csrc { margin: 0 0 8px; font-size: 13px; }
+.csrc summary { cursor: pointer; color: var(--muted); font-weight: 600; }
+.csrc .src { font-size: 16px; margin-top: 6px; }
+.eqs { margin: 6px 0 0; font: 14.5px/1.55 var(--font-text); color: var(--ink); }
+.eqs .field__label { display: inline; }
+
+.notes { list-style: none; margin: 10px 0 0; padding: 0; }
+.note { padding: 6px 0; border-top: 1px dashed color-mix(in srgb, var(--rule) 70%, transparent); }
+.note__kind { display: block; font: 700 11px/1.4 var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--rubric); }
+.addnote { display: none; gap: 8px; align-items: center; margin-top: 8px; font-size: 13px; }
+.sec.is-focused .addnote, .sec:focus-within .addnote { display: flex; }
+.addnote__kind { padding: 2px 4px; border: 1px solid var(--rule); border-radius: 3px; background: var(--raised); font-size: 12.5px; }
+
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; margin-top: 12px; }
+.status { font: 700 11.5px/1.3 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.status--edited { color: var(--navy); } .status--approved, .status--approved-edited { color: var(--ok); } .status--redraft { color: var(--redo); }
+.foot__actions { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.foot__prev { font-size: 12px; color: var(--warn); }
+
+.ed { margin: 2px 0; position: relative; }
+.ed__ta { box-sizing: border-box; width: 100%; min-height: 3.2em; padding: 8px 10px; font: 400 18px/1.5 var(--font-text); background: var(--raised);
+  color: var(--ink); border: 1px solid var(--navy); border-radius: 3px; resize: vertical; }
+.ed__preview { margin: 6px 0 0; font: 400 15px/1.5 var(--font-text); color: var(--muted); }
+.ed__preview:empty { display: none; }
+.ed__issues { margin: 4px 0 0; font-size: 12.5px; color: var(--redo); }
+.ed__issues:empty { display: none; }
+.ed__hint { margin: 6px 0 0; font-size: 12px; color: var(--faint); }
+.picker { position: absolute; z-index: 20; left: 0; right: 0; top: 100%; margin-top: 4px; padding: 8px; background: var(--raised); border: 1px solid var(--rule);
+  border-radius: 3px; box-shadow: 0 8px 24px color-mix(in srgb, var(--ink) 14%, transparent); }
+.picker__q { box-sizing: border-box; width: 100%; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); }
+.picker__list { list-style: none; margin: 6px 0 0; padding: 0; max-height: 220px; overflow: auto; }
+.picker__opt { padding: 6px 8px; border-radius: 3px; cursor: pointer; font: 15px/1.3 var(--font-text); }
+.picker__opt[aria-selected="true"], .picker__opt:hover { background: var(--navy-wash); }
+.picker__id { font: 12px var(--font-ui); color: var(--faint); }
+
+.redraft { margin-top: 12px; padding: 10px 12px; background: var(--redo-wash); border-radius: 3px; }
+.redraft .ed__ta { border-color: var(--redo); font-size: 15.5px; }
+.redraft__actions { display: flex; gap: 8px; margin-top: 8px; }
+
+.why__open { margin-top: 6px; font-size: 12.5px; }
+.why { margin-top: 8px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 3px; background: var(--raised); }
+.why__label { margin: 0 0 6px; font-size: 12px; color: var(--muted); }
+.why__row { display: flex; gap: 6px; }
+.why__q { flex: 1 1 auto; min-width: 0; padding: 5px 8px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); }
+.why__text { margin: 8px 0 4px; font: 15.5px/1.55 var(--font-text); white-space: pre-wrap; }
+.why__text:empty { display: none; }
+.why__err { margin: 0 0 4px; font-size: 13px; color: var(--redo); }
+.why__err:empty { display: none; }
+
+/* ---------- panel ---------- */
+.tabs { position: sticky; top: 0; z-index: 3; display: flex; gap: 2px; background: var(--surface); border-bottom: 1px solid var(--rule); margin: 0 -18px 12px; padding: 0 18px; }
+.tab { padding: 12px 8px 10px; background: none; border: 0; border-bottom: 2px solid transparent; font-size: 13.5px; font-weight: 600; color: var(--muted); cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--navy); }
+.panel__close { margin-left: auto; align-self: center; }
+.panel__h { margin: 18px 0 4px; font: 700 11px/1.3 var(--font-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.panel__lead { font-size: 13px; color: var(--muted); margin: 6px 0 10px; }
+.terms__filter { box-sizing: border-box; width: 100%; margin: 10px 0 0; padding: 6px 9px; border: 1px solid var(--rule); border-radius: 3px; background: var(--raised); }
+.tb { padding: 12px 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 60px; }
+.tb__head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; width: 100%; padding: 0; background: none; border: 0; text-align: left; cursor: pointer; }
+.tb__en { font: 700 18px/1.25 var(--font-text); color: var(--ink); }
+.tb__type { font: italic 13px/1 var(--font-text); color: var(--muted); }
+.tb__state { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--muted); }
+.tb__forms { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 3px 10px; margin: 8px 0 0; font: 14.5px/1.5 var(--font-text); color: var(--ink); }
+.tb__forms dt { font: 12px/1.9 var(--font-ui); color: var(--muted); }
+.tb__forms dd { margin: 0; min-width: 0; }
+.tb__script { font: 16px/1.5 var(--font-bengali); }
+.tb__script:lang(bo) { font-family: var(--font-tibetan); }
+.tb__src { color: var(--muted); font-size: 13.5px; }
+.tb__at { font-size: inherit; font-weight: 400; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+.tb__sep { color: var(--faint); }
+.tb__label { font-style: normal; color: var(--muted); }
+.tb__def { margin: 6px 0 0; font: 15px/1.5 var(--font-text); }
+.tb__sym { margin: 6px 0 0; font: 14.5px/1.5 var(--font-text); color: var(--ink); }
+.tb__sym p { margin: 0; }
+.tb__readings { margin: 2px 0 0; padding-left: 1.1em; }
+.tb__readings li { margin: 1px 0; }
+.tb__used { margin: 4px 0 0; font-size: 12px; color: var(--faint); }
+.tb__actions { display: flex; gap: 6px; margin-top: 8px; }
+.tb__edit { margin-top: 10px; display: grid; gap: 8px; }
+.tb__note { font-size: 12px; color: var(--faint); margin: 0; }
+/* an opened term: where it occurs, how it is rendered, where to look it up */
+.tb__more { margin-top: 12px; padding-top: 10px; border-top: 1px dotted var(--rule); }
+.tb__h { margin: 12px 0 4px; font: 600 13px/1.4 var(--font-ui); color: var(--muted); }
+.tb__rend .tb__h { margin: 0; }
+.tb__rend { margin: 0; font: 15px/1.5 var(--font-text); }
+.tb__rend b { font-weight: 700; }
+.tb__count { color: var(--faint); font: 12px var(--font-ui); }
+.tb__bo { font: 16px/1.6 var(--font-tibetan); }
+.tb__muted { margin: 4px 0; font-size: 13px; color: var(--muted); }
+.kwic { list-style: none; margin: 0; padding: 0; }
+.kwic__row { display: grid; grid-template-columns: 3.4rem minmax(0, 1fr); gap: 2px 8px; padding: 7px 0; border-bottom: 1px solid color-mix(in srgb, var(--rule) 60%, transparent); }
+.kwic__row:last-child { border-bottom: 0; }
+.kwic__ref { align-self: start; padding: 1px 0 0; background: none; border: 0; text-align: left; font: 700 12px/1.5 var(--font-ui); color: var(--rubric); cursor: pointer; font-variant-numeric: tabular-nums; }
+.kwic__ref:hover { text-decoration: underline; }
+.kwic__body { min-width: 0; }
+.kwic__body p { margin: 0; overflow-wrap: anywhere; }
+.kwic__who { font: 12px/1.4 var(--font-ui); color: var(--muted); }
+.kwic__src { font: 16px/1.5 var(--font-bengali); color: var(--ink); }
+.kwic__src:lang(bo) { font-family: var(--font-tibetan); }
+.kwic__tl { font: italic 13.5px/1.45 var(--font-text); color: var(--muted); }
+.kwic__en { font: 14px/1.45 var(--font-text); color: var(--ink); }
+.kwic__bo { margin-top: 4px; }
+.kwic mark { background: none; color: inherit; font-weight: 700; box-shadow: inset 0 -2px 0 var(--navy-wash); }
+.kwic__more { margin-top: 4px; }
+.tb__look { margin-top: 4px; }
+.look { margin: 2px 0; font: 13.5px/1.6 var(--font-ui); color: var(--muted); }
+.look__form i { font: italic 15px var(--font-text); color: var(--ink); }
+.look a { color: var(--navy); }
+.look__sep { color: var(--faint); }
+.tb__editbtn { margin-top: 10px; }
+.tf { display: grid; gap: 3px; }
+.tf__label { font: 700 11px/1.3 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.tf__input { box-sizing: border-box; width: 100%; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 3px; background: var(--raised); font: 15px/1.45 var(--font-text); }
+textarea.tf__input { resize: vertical; min-height: 3em; }
+.qa { margin: 14px 0; }
+.qa__q { display: block; margin: 0 0 6px; font: 15.5px/1.5 var(--font-text); }
+.style { margin: 0 0 10px; padding-left: 18px; font: 15px/1.55 var(--font-text); }
+.style li { margin-bottom: 6px; }
+
+/* ---------- sheets and bar ---------- */
+.sheet { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; background: color-mix(in srgb, var(--ink) 35%, transparent); }
+.sheet__card { box-sizing: border-box; width: min(520px, 100%); max-height: 100%; overflow: auto; padding: 22px 24px; background: var(--raised); border: 1px solid var(--rule);
+  border-radius: 4px; box-shadow: 0 18px 48px color-mix(in srgb, var(--ink) 25%, transparent); }
+.sheet__h { margin: 0 0 10px; font: 400 23px/1.25 var(--font-text); }
+.sheet__actions { display: flex; justify-content: flex-end; margin-top: 16px; }
+.keys { display: grid; grid-template-columns: max-content 1fr; gap: 8px 16px; margin: 0; font-size: 14px; }
+.keys dt { text-align: right; } .keys dd { margin: 0; }
+.bar { display: none; }
+.absent { max-width: 34rem; margin: 12vh auto; padding-inline: 20px; }
+.absent__title { font: 400 30px/1.2 var(--font-text); margin: 18px 0 10px; text-wrap: balance; }
+
+.only-narrow { display: none; }
+
+@media (max-width: 1180px) {
+  .cols { grid-template-columns: 236px minmax(0, 1fr); }
+  .panel { position: fixed; z-index: 30; top: 0; right: 0; bottom: 0; width: min(380px, 92vw); transform: translateX(105%); transition: transform .18s ease;
+    box-shadow: -12px 0 32px color-mix(in srgb, var(--ink) 18%, transparent); padding-top: env(safe-area-inset-top, 0px); }
+  body[data-drawer="panel"] .panel { transform: none; }
+  .only-narrow.btn, .panel__close { display: inline-flex; }
+}
+@media (max-width: 860px) {
+  .cols { grid-template-columns: minmax(0, 1fr); }
+  .rail { position: fixed; z-index: 30; top: 0; left: 0; bottom: 0; width: min(320px, 88vw); transform: translateX(-105%); transition: transform .18s ease;
+    box-shadow: 12px 0 32px color-mix(in srgb, var(--ink) 18%, transparent); padding-top: calc(env(safe-area-inset-top, 0px) + 18px); }
+  body[data-drawer="rail"] .rail { transform: none; }
+  .top__toggle.only-narrow { display: inline-flex; }
+  .top__progress, .top__receipt { display: none; }
+}
+@media (max-width: 720px) {
+  .top { padding: 8px 16px; gap: 10px; }
+  .top__song { display: none; }
+  .grid { padding: 18px 16px 140px; }
+  .line { grid-template-columns: minmax(0, 1fr); }
+  .sec { grid-template-columns: 40px minmax(0, 1fr); }
+  .sec::before { left: 32px; }
+  .fv { padding-right: 0; }
+  .fv__edit { display: none; }
+  .fv.is-changed::after { right: 0; }
+  .bar { display: flex; position: fixed; z-index: 20; left: 0; right: 0; bottom: 0; gap: 8px; align-items: center; padding: 10px 16px calc(env(safe-area-inset-bottom, 0px) + 10px);
+    background: var(--paper); border-top: 1px solid var(--rule); }
+  .bar:empty { display: none; }
+  .bar__where { flex: 1 1 auto; min-width: 0; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tools { top: -18px; }
+}
+
+/* places and editorial words that explain themselves */
+.ref { display: inline; padding: 0; background: none; border: 0; font: inherit; color: var(--navy); cursor: pointer;
+  text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--navy) 45%, transparent); text-underline-offset: 2px; }
+.jargon { display: inline; padding: 0; background: none; border: 0; font: inherit; color: inherit; cursor: help;
+  text-decoration: underline dotted; text-decoration-color: var(--muted); text-underline-offset: 3px; }
+.ref:hover, .jargon:hover, .ref[aria-expanded="true"], .jargon[aria-expanded="true"] { text-decoration-style: solid; }
+.pop { position: fixed; z-index: 60; max-width: min(360px, calc(100vw - 16px)); padding: 10px 30px 10px 12px; background: var(--paper);
+  border: 1px solid var(--rule); border-radius: 4px; box-shadow: 0 6px 24px color-mix(in srgb, var(--ink) 14%, transparent);
+  font: 14px/1.5 var(--font-text); color: var(--ink); }
+.pop p { margin: 0 0 6px; }
+.pop p:last-of-type { margin-bottom: 0; }
+.pop__title { font: 600 13px/1.4 var(--font-ui); color: var(--muted); }
+.pop__src { font: 16px/1.5 var(--font-bengali); }
+.pop__src:lang(bo) { font-family: var(--font-tibetan); }
+.pop__en { font-style: italic; }
+.pop__muted { color: var(--muted); }
+.pop__go { display: inline-block; margin-top: 6px; }
+.pop__close { position: absolute; top: 4px; right: 6px; padding: 2px 6px; background: none; border: 0; font: 18px/1 var(--font-ui); color: var(--muted); cursor: pointer; }
+
+</style>
+<div id="app" class="app" aria-busy="true"><p class="boot">Opening the Studio…</p></div>
+<div id="live" class="sr-only" aria-live="polite"></div>
+<script>
+(() => {
+'use strict';
+// studio/src/dom.mjs
+const __m2 = (() => {
+
+// Small DOM helpers. Text always goes in as text nodes, never as HTML.
+
+function h(tag, attrs, ...children) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v;
+    else if (k === 'dataset') Object.assign(el.dataset, v);
+    else if (k.startsWith('on') && typeof v === 'function') el.addEventListener(k.slice(2).toLowerCase(), v);
+    else if (k === 'value') el.value = v;
+    else if (v === true) el.setAttribute(k, '');
+    else el.setAttribute(k, String(v));
+  }
+  append(el, children);
+  return el;
+}
+
+function append(el, children) {
+  for (const c of children.flat(Infinity)) {
+    if (c == null || c === false) continue;
+    el.append(c instanceof Node ? c : document.createTextNode(String(c)));
+  }
+  return el;
+}
+
+const $ = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+
+/** Copy inside a click handler; fall back to selecting the text. */
+async function copyText(text, selectEl) {
+  try { await navigator.clipboard.writeText(text); return true; }
+  catch {
+    if (selectEl) {
+      const range = document.createRange();
+      range.selectNodeContents(selectEl);
+      const sel = window.getSelection();
+      sel.removeAllRanges(); sel.addRange(range);
+    }
+    return false;
+  }
+}
+
+let liveTimer = null;
+function announce(msg) {
+  const live = document.getElementById('live');
+  if (!live) return;
+  live.textContent = '';
+  clearTimeout(liveTimer);
+  liveTimer = setTimeout(() => { live.textContent = msg; }, 30);
+}
+
+function autosize(ta) {
+  ta.style.height = 'auto';
+  ta.style.height = Math.min(ta.scrollHeight + 2, 420) + 'px';
+}
+
+const words = s => String(s || '').trim().split(/\s+/).filter(Boolean).length;
+
+function store(key, value) {
+  try {
+    if (value === undefined) return localStorage.getItem(key);
+    if (value === null) localStorage.removeItem(key); else localStorage.setItem(key, value);
+  } catch { return null; }
+  return null;
+}
+
+return { h, append, $, $$, copyText, announce, autosize, words, store };
+})();
+// lib/markup.mjs
+const __m3 = (() => {
+
+/**
+ * Glossary markup inside English:  [Ḍombī]{dombi}
+ * The drafter writes it, the reviewer edits it, render turns it into links.
+ * A link travels with its words, so there are no offsets to go stale.
+ */
+
+const TERM_RE = /\[([^\[\]{}\n]+)\]\{([a-z0-9][a-z0-9-]*)\}/g;
+
+function terms(s) {
+  return [...String(s || '').matchAll(TERM_RE)].map(m => ({ surface: m[1], id: m[2] }));
+}
+
+const strip = s => String(s || '').replace(TERM_RE, '$1');
+
+/** Malformed markup: anything that still looks like markup once valid terms are removed. */
+function problems(s) {
+  const out = [];
+  const rest = String(s || '').replace(TERM_RE, '');
+  if (/\]\s*\{/.test(rest)) out.push('malformed [surface]{id}');
+  if (/\{[^}]*\}/.test(rest)) out.push('stray {…} outside a term');
+  for (const t of terms(s)) if (!t.surface.trim()) out.push(`empty surface for {${t.id}}`);
+  return out;
+}
+
+/** Replace every term with render(surface, id); everything else goes through esc. */
+function render(s, renderTerm, esc) {
+  let out = '', last = 0;
+  const str = String(s || '');
+  for (const m of str.matchAll(TERM_RE)) {
+    out += esc(str.slice(last, m.index)) + renderTerm(m[1], m[2]);
+    last = m.index + m[0].length;
+  }
+  return out + esc(str.slice(last));
+}
+
+return { TERM_RE, terms, strip, problems, render };
+})();
+// studio/src/model.mjs
+const __m4 = (() => {
+
+// Pure review logic shared by the page and the tests: what a section's status
+// is, what has been edited, how far a song is, and what to carry over when
+// Claude loads a new draft. No DOM, no database.
+
+const flat = s => String(s ?? '').replace(/\s+/g, ' ').trim();
+const reviewable = sec => sec.kind !== 'lacuna';
+
+function emptyDecision(unit, now) {
+  return { v: 1, unit: unit.id, draftSha: unit.draftSha, weaveSha: unit.weaveSha, updatedAt: now,
+    ready: false, readyAt: null, answers: [], sections: {} };
+}
+
+/** The text a section shows now: the reviewer's edit if any, else Claude's draft. */
+function current(sec, d) {
+  const out = { notes: d?.notes ?? sec.notes ?? [] };
+  if (sec.kind === 'head') { out.title = d?.title ?? sec.title; out.summary = d?.summary ?? sec.summary; }
+  if (sec.lines) out.en = Object.fromEntries(sec.lines.map(l => [l.part, d?.en?.[l.part] ?? l.en]));
+  if (sec.kind === 'comment') { out.translation = d?.translation ?? sec.translation; out.note = d?.note ?? sec.note; }
+  return out;
+}
+
+const sameNotes = (a, b) => JSON.stringify((a || []).map(n => [n.n, n.kind, flat(n.text), n.cites]))
+  === JSON.stringify((b || []).map(n => [n.n, n.kind, flat(n.text), n.cites]));
+
+function edited(sec, d) {
+  if (!d) return false;
+  const c = current(sec, d);
+  if (sec.kind === 'head' && (flat(c.title) !== flat(sec.title) || flat(c.summary) !== flat(sec.summary))) return true;
+  if (sec.lines && sec.lines.some(l => flat(c.en[l.part]) !== flat(l.en))) return true;
+  if (sec.kind === 'comment' && (flat(c.translation) !== flat(sec.translation) || flat(c.note) !== flat(sec.note))) return true;
+  return sec.kind !== 'comment' && !sameNotes(c.notes, sec.notes);
+}
+
+/** draft | edited | approved | approved-edited | redraft */
+function statusOf(sec, d) {
+  const e = edited(sec, d);
+  if (d?.decision === 'ok') return e ? 'approved-edited' : 'approved';
+  if (d?.decision === 'redraft') return 'redraft';
+  return e ? 'edited' : 'draft';
+}
+
+const STATUS_LABEL = {
+  draft: 'Draft (Claude)', edited: 'Edited', approved: '✓ Approved',
+  'approved-edited': '✓ Approved with your edits', redraft: '↺ Redraft requested',
+};
+
+function progress(unit, decision) {
+  const secs = unit.sections.filter(reviewable);
+  let ok = 0, redraft = 0;
+  for (const s of secs) {
+    const d = decision?.sections?.[s.part];
+    if (d?.decision === 'ok') ok++;
+    else if (d?.decision === 'redraft') redraft++;
+  }
+  return { ok, redraft, total: secs.length };
+}
+
+/** Term ids a section uses (markup in its current text, plus source-side hits). */
+function termsIn(sec, d, termsOf) {
+  const c = current(sec, d);
+  const ids = new Set();
+  const texts = [c.title, c.summary, c.translation, c.note, ...Object.values(c.en || {}), ...c.notes.map(n => n.text)];
+  for (const t of texts) for (const x of termsOf(t || '')) ids.add(x.id);
+  for (const l of sec.lines || []) for (const id of l.termHits || []) ids.add(id);
+  return [...ids];
+}
+
+/** Does this section still need the reviewer's attention? */
+function needsAttention(sec, d, { termsOf, termDecided }) {
+  if (!reviewable(sec)) return false;
+  if (d?.decision !== 'ok') return true;
+  return termsIn(sec, d, termsOf).some(id => !termDecided(id));
+}
+
+/**
+ * Claude loaded a new draft: keep decisions and edits for sections whose draft
+ * content (base) did not change; reset the rest and hand back what was reset.
+ */
+function carryOver(unit, old, now) {
+  const doc = emptyDecision(unit, now);
+  const kept = [], reset = {};
+  for (const sec of unit.sections.filter(reviewable)) {
+    const prev = old?.sections?.[sec.part];
+    if (!prev) continue;
+    if (prev.base === sec.base) { doc.sections[sec.part] = prev; kept.push(sec.part); }
+    else reset[sec.part] = prev;
+  }
+  doc.answers = old?.answers || [];
+  doc.progress = progress(unit, doc);
+  return { doc, kept, reset };
+}
+
+return { flat, reviewable, emptyDecision, current, edited, statusOf, STATUS_LABEL, progress, termsIn, needsAttention, carryOver };
+})();
+// studio/src/store.mjs
+const __m5 = (() => {
+const { emptyDecision, progress, edited, flat } = __m4;
+// The Studio's actions: each takes the current decision (or glossary decision)
+// document and returns the next one. Pure, so the tests can drive the exact
+// code the page runs and feed the result to `studio import`.
+
+/*import ./model.mjs*/
+
+const TEXT_FIELDS = ['title', 'summary', 'translation', 'note', 'notes', 'en'];
+
+function withSection(decision, unit, part, fn, now) {
+  const doc = decision && decision.draftSha === unit.draftSha ? decision : emptyDecision(unit, now);
+  const sec = unit.sections.find(s => s.part === part);
+  if (!sec) throw new Error(`no section ${part} in ${unit.id}`);
+  const prev = doc.sections[part] || { base: sec.base, decision: null };
+  const nextSec = fn(prev, sec);
+  const next = { ...doc, sections: { ...doc.sections, [part]: nextSec }, updatedAt: now };
+  next.progress = progress(unit, next);
+  return next;
+}
+
+/**
+ * Edit a section's text. An edit to an approved section clears the approval:
+ * an approval covers exactly the text that was approved.
+ * change: {title} | {summary} | {translation} | {note} | {notes: [...]} | {en: {partOfLine: text}}
+ * Returns {doc, cleared}.
+ */
+function edit(decision, unit, part, change, now) {
+  let cleared = false;
+  const doc = withSection(decision, unit, part, (prev, sec) => {
+    const next = { ...prev };
+    for (const k of Object.keys(change)) {
+      if (!TEXT_FIELDS.includes(k)) throw new Error(`not an editable field: ${k}`);
+      next[k] = k === 'en' ? { ...(prev.en || {}), ...change.en } : change[k];
+    }
+    const textChanged = JSON.stringify(sectionText(prev, sec)) !== JSON.stringify(sectionText(next, sec));
+    if (textChanged && prev.decision === 'ok') { next.decision = null; cleared = true; }
+    return next;
+  }, now);
+  return { doc, cleared };
+}
+
+function sectionText(d, sec) {
+  return {
+    title: flat(d.title ?? sec.title), summary: flat(d.summary ?? sec.summary),
+    translation: flat(d.translation ?? sec.translation), note: flat(d.note ?? sec.note),
+    en: Object.fromEntries((sec.lines || []).map(l => [l.part, flat(d.en?.[l.part] ?? l.en)])),
+    notes: (d.notes ?? sec.notes ?? []).map(n => [n.n, n.kind, flat(n.text), n.cites]),
+  };
+}
+
+/** ok | redraft | null (undecided). */
+function decide(decision, unit, part, value, now) {
+  if (![null, 'ok', 'redraft'].includes(value)) throw new Error(`bad decision ${value}`);
+  return withSection(decision, unit, part, prev => ({ ...prev, decision: value }), now);
+}
+
+/** A note for the next draft; it never clears an approval. */
+function noteForNextDraft(decision, unit, part, text, now) {
+  return withSection(decision, unit, part, prev => ({ ...prev, next: text }), now);
+}
+
+/** Put a line (or field) back to Claude's draft. */
+function revert(decision, unit, part, now) {
+  return withSection(decision, unit, part, prev => ({ base: prev.base, decision: null, ...(prev.next ? { next: prev.next } : {}) }), now);
+}
+
+function answer(decision, unit, question, text, now) {
+  const doc = decision && decision.draftSha === unit.draftSha ? decision : emptyDecision(unit, now);
+  const answers = doc.answers.filter(a => a.q !== question);
+  if (flat(text)) answers.push({ q: question, a: text });
+  return { ...doc, answers, updatedAt: now };
+}
+
+function send(decision, unit, now, ready = true) {
+  const doc = decision && decision.draftSha === unit.draftSha ? decision : emptyDecision(unit, now);
+  return { ...doc, ready, readyAt: ready ? now : null, updatedAt: now, progress: progress(unit, doc) };
+}
+
+
+
+// Glossary ---------------------------------------------------------------
+
+const FIELD_OF_ENTRY = {
+  en: e => e.en, type: e => e.type, policy: e => e.policy, alt: e => e.alt, variants: e => e.variants,
+  definition: e => e.definition, symbolic: e => e.symbolic, never: e => e.forbiddenInLine,
+};
+const GLOSSARY_FIELDS = Object.keys(FIELD_OF_ENTRY);
+
+function emptyGlossaryDecision(entry, now) {
+  return { v: 1, id: entry.id, entrySha: entry.entrySha, updatedAt: now, decision: null, fields: {}, edited: [] };
+}
+
+const base = (gd, entry, now) => (gd && gd.entrySha === entry.entrySha ? gd : emptyGlossaryDecision(entry, now));
+
+/** The value a glossary field shows now. */
+function glossaryValue(entry, gd, field) {
+  return gd && gd.entrySha === entry.entrySha && gd.edited.includes(field) ? gd.fields[field] : FIELD_OF_ENTRY[field](entry);
+}
+
+/** Edit one field; editing after a decision clears it. Returns {doc, cleared}. */
+function glossaryEdit(gd, entry, field, value, now) {
+  if (!GLOSSARY_FIELDS.includes(field)) throw new Error(`not a glossary field: ${field}`);
+  const doc = base(gd, entry, now);
+  const orig = FIELD_OF_ENTRY[field](entry);
+  const same = JSON.stringify(Array.isArray(orig) ? orig : flat(orig)) === JSON.stringify(Array.isArray(value) ? value : flat(value));
+  const editedFields = doc.edited.filter(f => f !== field);
+  const fields = { ...doc.fields };
+  if (same) delete fields[field]; else { fields[field] = value; editedFields.push(field); }
+  const cleared = !!doc.decision && doc.decision !== 'defer';
+  return { doc: { ...doc, fields, edited: editedFields, decision: cleared ? null : doc.decision, updatedAt: now }, cleared };
+}
+
+function glossaryDecide(gd, entry, value, now) {
+  if (![null, 'approve', 'reject', 'defer'].includes(value)) throw new Error(`bad glossary decision ${value}`);
+  return { ...base(gd, entry, now), decision: value, updatedAt: now };
+}
+
+/** Is a term settled for this review (approved already, or approved here)? */
+function termDecided(entry, gd) {
+  if (!entry) return true;
+  if (entry.status === 'approved') return !(gd && gd.entrySha === entry.entrySha && gd.decision === 'reject');
+  return !!(gd && gd.entrySha === entry.entrySha && gd.decision === 'approve');
+}
+
+return { edited, edit, decide, noteForNextDraft, revert, answer, send, GLOSSARY_FIELDS, glossaryValue, glossaryEdit, glossaryDecide, termDecided };
+})();
+// studio/src/diff.mjs
+const __m6 = (() => {
+
+// Word-level diff (LCS) between Claude's draft and the reviewer's text.
+// Operates on words and whitespace so the result reads as prose.
+
+function diffWords(a, b) {
+  const x = String(a || '').split(/(\s+)/).filter(Boolean);
+  const y = String(b || '').split(/(\s+)/).filter(Boolean);
+  const n = x.length, m = y.length;
+  const L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) {
+    L[i][j] = x[i] === y[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  }
+  const out = [];
+  const push = (op, text) => {
+    const last = out[out.length - 1];
+    if (last && last.op === op) last.text += text; else out.push({ op, text });
+  };
+  let i = 0, j = 0;
+  while (i < n && j < m) {
+    if (x[i] === y[j]) { push('eq', x[i]); i++; j++; }
+    else if (L[i + 1][j] >= L[i][j + 1]) push('del', x[i++]);
+    else push('ins', y[j++]);
+  }
+  while (i < n) push('del', x[i++]);
+  while (j < m) push('ins', y[j++]);
+  return out;
+}
+
+return { diffWords };
+})();
+// studio/src/sync.mjs
+const __m7 = (() => {
+
+// The database adapter. Subscribes once per path, and saves through one queue
+// per document: at most one write in flight, later changes coalesced into the
+// next write, text edits debounced, decisions sent at once. The page writes
+// only `decisions` and `glossaryDecisions`.
+
+const SAVE_DEBOUNCE_MS = 700;
+
+function createSync(db, { onCollection, onUnit, onSaveState, onFatal, schedule = setTimeout, cancel = clearTimeout }) {
+  const unsubs = [];
+  let unitUnsub = null, unitPath = '';
+  const queues = new Map();   // path -> {want, saved, inflight, timer, exists}
+  let lastState = 'idle';
+
+  const fatal = e => {
+    if (['revoked', 'not_granted', 'capability_disabled', 'capability_removed'].includes(e?.code)) onFatal(e);
+  };
+
+  for (const name of ['meta', 'glossary', 'decisions', 'glossaryDecisions', 'receipts']) {
+    unsubs.push(db.collection(name).onSnapshot(snap => {
+      const docs = new Map();
+      for (const d of snap.docs) if (d.exists) docs.set(d.id, d.data());
+      for (const [path, q] of queues) if (path.startsWith(name + '/')) q.exists = q.exists || docs.has(path.slice(name.length + 1));
+      onCollection(name, docs, snap.metadata);
+    }, fatal));
+  }
+
+  function watchUnit(id) {
+    const path = 'units/' + id;
+    if (path === unitPath) return;
+    if (unitUnsub) unitUnsub();
+    unitPath = path;
+    unitUnsub = db.doc(path).onSnapshot(snap => onUnit(id, snap.exists ? snap.data() : null), fatal);
+  }
+
+  function report() {
+    let state = 'saved';
+    for (const q of queues.values()) {
+      if (q.error) { state = 'error'; break; }
+      if (q.inflight || q.timer || q.want !== q.saved) state = 'saving';
+    }
+    if (!queues.size) state = 'idle';
+    if (state !== lastState) { lastState = state; onSaveState(state); }
+  }
+
+  function patchFor(q) {
+    // First write: the whole document. After that: top-level fields plus only the changed sections.
+    if (!q.exists || !q.saved) return { op: 'set', body: q.want };
+    const body = {};
+    for (const [k, v] of Object.entries(q.want)) {
+      if (k === 'sections' && v && typeof v === 'object') {
+        const changed = {};
+        for (const [part, sec] of Object.entries(v)) if (JSON.stringify(sec) !== JSON.stringify(q.saved.sections?.[part])) changed[part] = sec;
+        if (Object.keys(changed).length) body.sections = changed;
+      } else if (JSON.stringify(v) !== JSON.stringify(q.saved[k])) body[k] = v;
+    }
+    return { op: 'update', body };
+  }
+
+  async function flush(path) {
+    const q = queues.get(path);
+    if (!q || q.inflight || q.want === q.saved) return report();
+    if (q.timer) { cancel(q.timer); q.timer = null; }
+    const want = q.want;
+    const { op, body } = patchFor(q);
+    q.inflight = true; q.error = null; report();
+    try {
+      if (op === 'update' && !Object.keys(body).length) { /* nothing changed */ }
+      else if (op === 'set') await db.doc(path).set(body);
+      else await db.doc(path).update(body);
+      q.saved = want; q.exists = true;
+    } catch (e) {
+      if (e?.code === 'invalid_argument' && op === 'update') {
+        // The document is gone (or never existed): write it whole next time.
+        q.exists = false;
+      } else if (e?.code === 'unavailable' && !q.retried) {
+        q.retried = true;
+        q.inflight = false;
+        q.timer = schedule(() => { q.timer = null; flush(path); }, 1000 + Math.random() * 2000);
+        return report();
+      } else {
+        q.error = e || { code: 'unavailable' };
+        fatal(e);
+      }
+    }
+    q.inflight = false; q.retried = false;
+    if (q.want !== q.saved && !q.error) return flush(path);
+    report();
+  }
+
+  /** Queue the latest version of a document. immediate: decisions and sends, no debounce. */
+  function save(path, doc, { immediate = false } = {}) {
+    const q = queues.get(path) || { want: null, saved: null, inflight: false, timer: null, exists: false };
+    queues.set(path, q);
+    q.want = doc; q.error = null;
+    if (q.timer) { cancel(q.timer); q.timer = null; }
+    if (immediate) flush(path);
+    else { q.timer = schedule(() => { q.timer = null; flush(path); }, SAVE_DEBOUNCE_MS); report(); }
+  }
+
+  /** Is a local change to this document not yet confirmed? (Then snapshots must not overwrite it.) */
+  const dirty = path => { const q = queues.get(path); return !!q && (q.inflight || !!q.timer || q.want !== q.saved); };
+
+  const retry = () => { for (const [path, q] of queues) if (q.error) { q.error = null; flush(path); } };
+  const flushAll = () => { for (const path of queues.keys()) flush(path); };
+  const stop = () => { unsubs.forEach(u => u()); if (unitUnsub) unitUnsub(); };
+
+  return { watchUnit, save, dirty, retry, flushAll, stop };
+}
+
+return { SAVE_DEBOUNCE_MS, createSync };
+})();
+// studio/src/why.mjs
+const __m8 = (() => {
+
+// "Why this rendering?": a fresh question to Claude about one line, spent on
+// the reviewer's own Claude usage. It is not the drafter's reasoning, and the
+// answer is never saved as a decision.
+
+const WHY_ERRORS = {
+  not_granted: 'You declined asking Claude from this page. Ask in the Claude Code session instead.',
+  rate_limited: 'Too many questions at once. Try again in a minute.',
+  session_expired: 'Your Claude session expired. Reload the Studio.',
+  sampling_disabled: 'Asking Claude from pages is turned off for your account.',
+  prompt_too_large: 'This line has too much context to send. Ask in the session instead.',
+  refused: 'Claude declined to answer this one.',
+  cancelled: '',
+};
+
+function whyPrompt({ textTitle, songLabel, line, draftEn, currentEn, neighbours, comment, terms, question }) {
+  return [
+    `You are helping a translator review an English translation of "${textTitle}" (${songLabel}).`,
+    'Explain the rendering of one line. Be concrete about the source words, the choices made and the alternatives.',
+    'Say plainly where you are unsure. At most 150 words. Plain text, no headings.',
+    'Do not quote or imitate any published translation of this text.',
+    '',
+    `Source: ${line.src}`,
+    `Transliteration: ${line.drafterTranslit || line.translit}`,
+    `Word-by-word: ${line.gloss}`,
+    `Claude's draft: ${draftEn}`,
+    currentEn !== draftEn ? `The reviewer's current version: ${currentEn}` : '',
+    line.flags.length ? `Flags the drafter raised: ${line.flags.map(f => `${f.kind} (${f.level}): ${f.note}`).join('; ')}` : '',
+    neighbours ? `Neighbouring lines: ${neighbours}` : '',
+    comment ? `The traditional commentary on this passage says: ${comment}` : '',
+    terms ? `Glossary entries in play: ${terms}` : '',
+    '',
+    `The reviewer asks: ${question || 'Why this rendering?'}`,
+  ].filter(s => s !== '').join('\n');
+}
+
+async function askWhy(sample, prompt, { onText, signal }) {
+  const { text } = await sample(prompt, { onText, signal, modelTier: 'default' });
+  return text;
+}
+
+return { WHY_ERRORS, whyPrompt, askWhy };
+})();
+// lib/lookup.mjs
+const __m9 = (() => {
+
+/**
+ * Reference look-ups for glossary forms: links out to the standard
+ * dictionaries and corpora for each language, built from a form's
+ * transliteration. Nothing is fetched or copied; the reviewer follows the link.
+ * Pure (no Node imports): the Studio bundles this file.
+ *
+ * Every URL pattern here was checked against the live site:
+ *   Cologne getword (MW, Edgerton BHS) takes a headword in SLP1.
+ *   DSAL's Turner (CDIAL) search takes IAST and searches the whole dictionary,
+ *   where Old Bengali (OB.) forms are cited.
+ *   84000's glossary search redirects to scholar.84000.co.
+ *   BDRC's library takes q/lg/t as its own search page does.
+ */
+
+const IAST_SLP1 = [
+  ['kh', 'K'], ['gh', 'G'], ['ch', 'C'], ['jh', 'J'], ['ṭh', 'W'], ['ḍh', 'Q'], ['th', 'T'], ['dh', 'D'], ['ph', 'P'], ['bh', 'B'],
+  ['ai', 'E'], ['au', 'O'], ['ā', 'A'], ['ī', 'I'], ['ū', 'U'], ['ṛ', 'f'], ['ṝ', 'F'], ['ḷ', 'x'], ['ḹ', 'X'],
+  ['ṃ', 'M'], ['ṁ', 'M'], ['ḥ', 'H'], ['ṅ', 'N'], ['ñ', 'Y'], ['ṭ', 'w'], ['ḍ', 'q'], ['ṇ', 'R'], ['ś', 'S'], ['ṣ', 'z'],
+];
+
+/** IAST to SLP1, the key Cologne's dictionaries are indexed by. */
+function toSlp1(iast) {
+  let s = String(iast || '').normalize('NFC').toLowerCase(), out = '';
+  outer: while (s) {
+    for (const [a, b] of IAST_SLP1) if (s.startsWith(a)) { out += b; s = s.slice(a.length); continue outer; }
+    out += s[0]; s = s.slice(1);
+  }
+  return out;
+}
+
+/**
+ * A dictionary headword for a transliterated form: an explicit lemma if the
+ * glossary gives one, else the form with sentence punctuation, a final visarga
+ * or anusvāra, and a final case ending m taken off. A heuristic: inflected
+ * forms deeper than that need a lemma in the glossary.
+ */
+function headword(form) {
+  if (form.lemma) return form.lemma.normalize('NFC');
+  const raw = String(form.translit || form.wylie || '').normalize('NFC').trim().toLowerCase();
+  // Tibetan words are several syllables separated by spaces; keep them whole.
+  if (form.lang === 'bod') return raw.replace(/[/|]+$/u, '').trim();
+  let w = raw.split(/\s+/)[0] || '';
+  w = w.replace(/[|।॥.,;:!?'"“”‘’()[\]]+/g, '');
+  w = w.replace(/(?:ḥ|ṃ|ṁ|m̐|m)$/u, '');
+  return w;
+}
+
+const q = encodeURIComponent;
+const SOURCES = [
+  { id: 'mw', label: 'Monier-Williams', langs: ['san'], href: f => `https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/getword.php?dict=mw&key=${q(toSlp1(headword(f)))}&input=slp1&output=iast` },
+  { id: 'bhs', label: 'Edgerton (Buddhist Hybrid Sanskrit)', langs: ['san'], href: f => `https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/getword.php?dict=bhs&key=${q(toSlp1(headword(f)))}&input=slp1&output=iast` },
+  { id: 'cdial', label: 'Turner (Indo-Aryan)', langs: ['oben', 'pra'], href: f => `https://dsal.uchicago.edu/cgi-bin/app/soas_query.py?qs=${q(headword(f))}&matchtype=default` },
+  { id: '84000', label: '84000 glossary', langs: ['bod', 'san'], href: f => `https://read.84000.co/glossary/search.html?search=${q(headword(f))}` },
+  { id: 'bdrc', label: 'BDRC texts', langs: ['bod'], href: f => `https://library.bdrc.io/search?q=${q('"' + headword(f) + '"')}&lg=bo-x-ewts&t=Etext` },
+];
+
+/**
+ * For one glossary entry: one row per language, looked up by the headword a form
+ * gives as its lemma, else by the shortest (least inflected) form.
+ */
+function lookups(entry) {
+  const byLang = new Map();
+  for (const f of entry.forms || []) {
+    const key = headword(f);
+    if (!key) continue;
+    const cur = byLang.get(f.lang);
+    const rank = x => [x.lemma ? 0 : 1, headword(x).length];
+    if (!cur || rank(f)[0] < rank(cur)[0] || (rank(f)[0] === rank(cur)[0] && rank(f)[1] < rank(cur)[1])) byLang.set(f.lang, f);
+  }
+  const out = [];
+  for (const [lang, f] of byLang) {
+    const links = SOURCES.filter(s => s.langs.includes(lang)).map(s => ({ id: s.id, label: s.label, href: s.href(f) }));
+    if (links.length) out.push({ lang, form: headword(f), links });
+  }
+  return out;
+}
+
+return { toSlp1, headword, SOURCES, lookups };
+})();
+// lib/places.mjs
+const __m10 = (() => {
+
+/**
+ * Readable names for the engine's ids, for anything a person reads: cp.10.2a is
+ * "10.2a", and cp.01.m2, Munidatta's comment on couplet 1, is "Munidatta on 1.1".
+ * Pure (no Node imports): the Studio bundles this file.
+ *
+ *   places.short(id)  compact, for lists and references: 10.2a · 10.2 · Munidatta on 1.1
+ *   places.long(id)   in a sentence: song 10, line 2a · Munidatta's comment on 1.1
+ *   places.ref(id)    bare, where the commentator is already named: 1.1
+ *   places.text(s)    every id inside a piece of prose replaced by its short name
+ */
+
+const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/**
+ * `comments` maps each commentary segment id to the part it is about ('1' for
+ * couplet 1, '' for the whole unit); segments it does not list are named by unit.
+ */
+function makePlaces({ prefix, unitLabel = 'Song', groupLabel = 'passage', commentator = 'the commentary', comments = {} }) {
+  const unit = unitLabel.toLowerCase();
+  const PART = '(?:\\.(h|[a-z]?\\d+[a-z]?))?';
+  const ID = new RegExp(`(?<![\\w.])${esc(prefix)}\\.(\\d+)${PART}(?![\\w])`, 'g');
+  const parse = id => {
+    const m = new RegExp(`^${esc(prefix)}\\.(\\d+)${PART}$`).exec(String(id));
+    if (!m) return null;
+    const n = String(Number(m[1])), part = m[2] || '';
+    if (!part) return { kind: 'unit', n };
+    if (/^m\d+$/.test(part)) {
+      const on = comments[id];
+      return { kind: 'comment', n, on: on === undefined ? null : on };
+    }
+    if (/^h\d*$/.test(part)) return { kind: 'heading', n };
+    if (/^x\d+$/.test(part)) return { kind: 'lacuna', n };
+    if (/^s\d+$/.test(part)) return { kind: 'group', n, k: part.slice(1) };
+    if (/^\d+$/.test(part)) return { kind: 'group', n, k: part };
+    return { kind: 'line', n, k: part };
+  };
+  const short = id => {
+    const p = parse(id);
+    if (!p) return String(id);
+    switch (p.kind) {
+      case 'unit': return `${unit} ${p.n}`;
+      case 'comment': return p.on ? `${commentator} on ${p.n}.${p.on}` : `${commentator} on ${unit} ${p.n}`;
+      case 'heading': return `${unit} ${p.n}, heading`;
+      case 'lacuna': return `${unit} ${p.n}, gap`;
+      default: return `${p.n}.${p.k}`;
+    }
+  };
+  const long = id => {
+    const p = parse(id);
+    if (!p) return String(id);
+    switch (p.kind) {
+      case 'unit': return `${unit} ${p.n}`;
+      case 'comment': return p.on ? `${commentator}’s comment on ${p.n}.${p.on}` : `${commentator}’s introduction to ${unit} ${p.n}`;
+      case 'heading': return `the heading of ${unit} ${p.n}`;
+      case 'lacuna': return `a gap in ${unit} ${p.n}`;
+      case 'group': return `${unit} ${p.n}, ${groupLabel} ${p.k}`;
+      default: return `${unit} ${p.n}, line ${p.k}`;
+    }
+  };
+  // Bare, where the commentator is already named: a comment on couplet 1 is "1.1".
+  const ref = id => {
+    const p = parse(id);
+    if (p?.kind === 'comment') return p.on ? `${p.n}.${p.on}` : `${unit} ${p.n}`;
+    return short(id);
+  };
+  const text = s => String(s || '').replace(ID, m => short(m));
+  /** Every id in a text: [{ index, length, id }], in order. */
+  const find = s => [...String(s || '').matchAll(ID)].map(m => ({ index: m.index, length: m[0].length, id: m[0] }));
+  return { parse, short, long, ref, text, find, isId: id => !!parse(id) };
+}
+
+return { makePlaces };
+})();
+// lib/jargon.mjs
+const __m11 = (() => {
+
+/**
+ * Editorial words that appear in drafts, notes and questions, each with a plain
+ * explanation, so the Studio can explain them where they stand ("Toh 2293",
+ * "Wylie", "bhaṇitā"). Glossary terms of the text itself are not here: they
+ * have entries of their own. Pure (no Node imports): the Studio bundles this file.
+ */
+
+// A whole word, by Unicode letters: \b does not see ā or Bengali script as word characters.
+const word = src => new RegExp(`(?<![\\p{L}\\p{M}\\p{N}])(?:${src})(?![\\p{L}\\p{M}\\p{N}])`, 'u');
+
+const JARGON = [
+  { key: 'toh', term: 'Toh 2293', match: word(String.raw`Toh(?:oku|\.)?\s*2293|T[oō]hoku|Toh`),
+    explain: 'The Tibetan translation of Munidatta’s commentary, numbered 2293 in the standard catalogue of the Degé Tengyur (the Tōhoku catalogue, 1934). It was made in Kathmandu by the Indian scholar Kīrticandra and the Tibetan translator Drakpa Gyaltsen, probably in the 13th or 14th century. It quotes each song line by line before explaining it, so it shows how the lines were read then, and it keeps songs 24, 25 and 48, which the Nepal manuscript has lost.' },
+  { key: 'tengyur', term: 'Tengyur', match: word(String.raw`(?:Deg[ée]|Derge)\s+Tengyur|Tengyur`),
+    explain: 'The Tibetan collection of translated Indian treatises and commentaries (the companion to the Kangyur, the Buddha’s words). The Degé edition was carved on woodblocks in eastern Tibet in the 1730s and 1740s. Our Tibetan text comes from its digital edition by Esukhia.' },
+  { key: 'wylie', term: 'Wylie', match: word(String.raw`Wylie|EWTS`),
+    explain: 'The usual way of writing Tibetan in Latin letters: it spells out the Tibetan letters, silent ones included, rather than the pronunciation. བླ་མ is bla ma; སྒྲ་གཅན is sgra gcan.' },
+  { key: 'iast', term: 'IAST', match: word(String.raw`IAST`),
+    explain: 'The standard way of writing Sanskrit and related languages in Latin letters, with marks for long vowels and for sounds English lacks: ā, ṭ, ṇ, ś, ṣ, ṛ, ṃ.' },
+  { key: 'shastri', term: 'Shastri', match: word(String.raw`Shastri(?:'s|’s)?`),
+    explain: 'Haraprasad Shastri, who found the palm-leaf manuscript of the songs with Munidatta’s commentary in the royal library of Nepal in 1907 and published it in 1916. Our Bengali and Sanskrit text is his edition; his bracketed letters are his restorations of damaged text.' },
+  { key: 'nepal', term: 'Nepal manuscript', match: word(String.raw`Nepal(?:ese)? manuscript`),
+    explain: 'The one surviving manuscript of the songs with Munidatta’s commentary, a palm-leaf book in the royal library in Kathmandu, which Shastri published in 1916. Some leaves are lost: songs 24, 25 and 48 and the end of 23 survive only in the Tibetan.' },
+  { key: 'bhanita', term: 'bhaṇitā', match: word(String.raw`bha[ṇn]it[āa]`),
+    explain: 'The couplet in which the poet names himself (“Lūyī says…”), usually the last of the song.' },
+  { key: 'dhruva', term: 'dhruvapada', match: word(String.raw`dhruva(?:pada|padena)?|ধ্রু`),
+    explain: 'The refrain, sung again after each couplet. In these songs it is usually the second couplet, and Munidatta leaves it out when he counts his “padas”. Shastri prints ধ্রু (dhru) as a cue to sing it again.' },
+  { key: 'pada', term: 'pada', match: word(String.raw`padas?`),
+    explain: 'Munidatta’s word for a couplet of the song. He counts them leaving out the refrain, so in most songs his “second pada” is couplet 3.' },
+  { key: 'raga', term: 'rāga', match: word(String.raw`r[āa]gas?`),
+    explain: 'The melody a song is sung to, named in its heading (Paṭamañjarī, Deśākha…).' },
+  { key: 'folio', term: 'folio', match: word(String.raw`folios?`),
+    explain: 'A leaf of the manuscript. Numbers in brackets in the Sanskrit, such as [16ka], mark where a new leaf begins; they are not part of the text.' },
+  { key: 'emend', term: 'emendation', match: word(String.raw`emend(?:ation|ations|ed|s)?`),
+    explain: 'A correction of the printed text where it is judged to be wrong, recorded with its reason; the printed reading is always kept alongside.' },
+  { key: 'lemma', term: 'lemma', match: word(String.raw`lemmas?`),
+    explain: 'The words of the song that a commentary quotes before explaining them (in the Tibetan, “… zhes bya ba la sogs pa ni”, “… and so on”). For a glossary form, the dictionary headword.' },
+  { key: 'apabhramsa', term: 'Apabhraṃśa', match: word(String.raw`Apabhra[ṃm][śs]a`),
+    explain: 'The late literary form of the Middle Indo-Aryan languages, from which Bengali, Hindi and their neighbours grew. The songs’ language stands between it and Old Bengali.' },
+  { key: 'esukhia', term: 'Esukhia', match: word(String.raw`Esukhia`),
+    explain: 'A Tibetan-text group based in Dharamsala whose digital edition of the Degé Tengyur (public domain) is our source for the Tibetan.' },
+  { key: 'bdrc', term: 'BDRC', match: word(String.raw`BDRC`),
+    explain: 'The Buddhist Digital Resource Center, the main library of digitised Tibetan texts; its search finds a Tibetan word across the literature.' },
+];
+
+/** The first place each editorial word stands in a text: [{ index, length, key, term, explain }], in order. */
+function findJargon(text) {
+  const s = String(text || '');
+  const out = [];
+  for (const j of JARGON) {
+    const m = j.match.exec(s);
+    if (m && !out.some(o => m.index < o.index + o.length && o.index < m.index + m[0].length)) out.push({ index: m.index, length: m[0].length, ...j });
+  }
+  return out.sort((a, b) => a.index - b.index);
+}
+
+/** Explanations of the kinds of flag and note a drafter leaves. */
+const KINDS = {
+  reading: 'The source text itself may be wrong or damaged here: a doubtful letter, word or line.',
+  meaning: 'The words are clear but their sense is uncertain.',
+  grammar: 'How the words fit together is uncertain.',
+  term: 'How a glossary term is rendered here is in question.',
+  witness: 'The witnesses differ here: the Nepal manuscript as Shastri prints it, and the Tibetan translation.',
+  imagery: 'What the image is, literally.',
+  philology: 'A hard word, a reading or an emendation.',
+  doctrine: 'How the tradition reads the passage, attributed to whoever reads it so.',
+  low: 'Worth knowing; no change is proposed.',
+  medium: 'Worth a look before approving.',
+  high: 'Check this before approving: the line may need to change.',
+};
+
+return { JARGON, findJargon, KINDS };
+})();
+// studio/src/app.mjs
+const __m1 = (() => {
+const { h, $, $$, append, copyText, announce, autosize, words, store } = __m2;
+const { TERM_RE, problems: markupProblems, terms: termsOf, strip } = __m3;
+const M = __m4;
+const A = __m5;
+const { diffWords } = __m6;
+const { createSync } = __m7;
+const { whyPrompt, askWhy, WHY_ERRORS } = __m8;
+const { lookups } = __m9;
+const { makePlaces } = __m10;
+const { findJargon, KINDS } = __m11;
+// The Studio: a private review workspace. Claude seeds songs, glossary and the
+// checklist into this page's database; the reviewer edits and decides here;
+// Claude pulls the decisions back into the repository.
+
+/*import ./dom.mjs*/
+
+/** replaceChildren that skips null/false like h() does. */
+const fill = (el, ...kids) => { el.replaceChildren(); append(el, kids); return el; };
+/*import ../../lib/markup.mjs*/
+/*import ./model.mjs*/
+/*import ./store.mjs*/
+/*import ./diff.mjs*/
+/*import ./sync.mjs*/
+/*import ./why.mjs*/
+/*import ../../lib/lookup.mjs*/
+/*import ../../lib/places.mjs*/
+/*import ../../lib/jargon.mjs*/
+
+const S = {
+  env: { db: null, sample: null, canWrite: true, fatal: null, started: false, noClaude: false },
+  meta: new Map(), glossary: new Map(), decisions: new Map(), gdecisions: new Map(), receipts: new Map(),
+  concord: new Map(),   // term id -> concordance doc (null: none), read once when the term is opened
+  loaded: new Set(),
+  text: '', unitId: '', unit: null,
+  ui: { focus: 'head', editing: null, tab: 'terms', allTerms: false, diff: false, filter: 'all', drawer: null,
+        sheet: null, termOpen: null, termFilter: '', whyOpen: null, redraftOpen: null, lastSent: '',
+        termEdit: null, concordAll: null, pendingFocus: null, parallel: store('studio:parallel') === '1' },
+  save: 'idle',
+};
+let sync = null;
+const secEls = new Map();
+const whyState = new Map();   // key -> {text, error, busy, ctl, question}
+const now = () => new Date().toISOString();
+
+// ---------------------------------------------------------------- lookups
+const textMeta = () => S.meta.get('text-' + S.text);
+const unit = () => (S.unit && S.unit.id === S.unitId ? S.unit : null);
+const decision = () => S.decisions.get(S.unitId) || null;
+const liveDecision = () => { const d = decision(); const u = unit(); return d && u && d.draftSha === u.draftSha ? d : null; };
+const dsec = part => liveDecision()?.sections?.[part];
+const entry = id => { const e = S.glossary.get(id); return e && e.text === S.text ? e : null; };
+const gdec = id => S.gdecisions.get(id) || null;
+const termDecided = id => A.termDecided(entry(id), gdec(id));
+const sections = () => unit()?.sections || [];
+const secByPart = part => sections().find(s => s.part === part);
+const reviewableParts = () => sections().filter(M.reviewable).map(s => s.part);
+const songs = () => textMeta()?.songs || [];
+
+function attentionParts() {
+  const u = unit(); if (!u) return [];
+  return u.sections.filter(s => M.needsAttention(s, dsec(s.part), { termsOf, termDecided })).map(s => s.part);
+}
+
+// ---------------------------------------------------------------- actions
+function commitDecision(doc, { immediate = false } = {}) {
+  S.decisions.set(S.unitId, doc);
+  if (sync && S.env.canWrite) sync.save('decisions/' + S.unitId, doc, { immediate });
+}
+
+function editText(part, change, opts = {}) {
+  const u = unit(); if (!u) return;
+  const { doc, cleared } = A.edit(decision(), u, part, change, now());
+  commitDecision(doc, opts);
+  if (cleared) announce(`Approval of ${labelOf(secByPart(part))} cleared: its text changed.`);
+  refreshSectionChrome(part);
+  renderTop(); renderRail();
+}
+
+function decidePart(part, value) {
+  const u = unit(); if (!u) return;
+  commitDecision(A.decide(decision(), u, part, value, now()), { immediate: true });
+  renderSection(part); renderTop(); renderRail(); renderPanel();
+}
+
+function setNextNote(part, text) {
+  const u = unit(); if (!u) return;
+  commitDecision(A.noteForNextDraft(decision(), u, part, text, now()));
+}
+
+function revertPart(part) {
+  const u = unit(); if (!u) return;
+  commitDecision(A.revert(decision(), u, part, now()), { immediate: true });
+  renderSection(part); renderTop(); renderRail();
+  announce(`${labelOf(secByPart(part))} is back to Claude's draft.`);
+}
+
+function approveAndMove(part, { attentionOnly = false } = {}) {
+  finishEdit();
+  if (!secByPart(part) || !M.reviewable(secByPart(part))) return;
+  decidePart(part, 'ok');
+  const order = reviewableParts();
+  const pool = attentionOnly ? attentionParts() : order;
+  const next = order.slice(order.indexOf(part) + 1).find(p => pool.includes(p)) || (attentionOnly ? pool[0] : null);
+  announce(`${labelOf(secByPart(part))} approved.${next ? ` Now on ${labelOf(secByPart(next))}.` : ' That was the last passage.'}`);
+  if (next) focusSection(next);
+}
+
+function sendToClaude() {
+  const u = unit(); if (!u) return;
+  const doc = A.send(decision(), u, now(), true);
+  commitDecision(doc, { immediate: true });
+  S.ui.sheet = 'send';
+  renderSheet(); renderTop(); renderRail();
+}
+
+function answerQuestion(q, text) {
+  const u = unit(); if (!u) return;
+  commitDecision(A.answer(decision(), u, q, text, now()));
+}
+
+function glossaryChange(id, fn, { immediate = false } = {}) {
+  const e = entry(id); if (!e) return;
+  const res = fn(gdec(id), e);
+  const doc = res.doc || res;
+  S.gdecisions.set(id, doc);
+  if (sync && S.env.canWrite) sync.save('glossaryDecisions/' + id, doc, { immediate });
+  if (res.cleared) announce(`Decision on “${e.en}” cleared: you changed the entry.`);
+}
+
+function startNewDraftReview() {
+  const u = unit(); if (!u) return;
+  const { doc, kept, reset } = M.carryOver(u, decision(), now());
+  S.ui.previous = reset;
+  commitDecision(doc, { immediate: true });
+  announce(`Reviewing the new draft. Kept ${kept.length} unchanged passage${kept.length === 1 ? '' : 's'}.`);
+  renderAll();
+}
+
+// ---------------------------------------------------------------- text rendering
+function termNode(surface, id) {
+  const e = entry(id);
+  const status = !e ? 'unknown' : termDecided(id) ? 'ok' : 'open';
+  return h('button', {
+    type: 'button', class: `term term--${status}`, title: e ? `${e.en} · ${e.type}${status === 'open' ? ' · to decide' : ''}` : `unknown term ${id}`,
+    onclick: ev => { ev.stopPropagation(); openTerm(id); },
+  }, surface);
+}
+
+/**
+ * Text with glossary markup made into term buttons. With `explain` (for editorial text:
+ * notes, flags, questions, definitions, never the translation itself), ids become
+ * tappable place names and the first mention of each editorial word (Toh, Wylie,
+ * bhaṇitā…) explains itself.
+ */
+function richText(s, { explain = false } = {}) {
+  const out = []; let last = 0; const str = String(s || '');
+  const seen = new Set();
+  const plain = t => (explain ? explained(t, seen) : [t]);
+  for (const m of str.matchAll(TERM_RE)) {
+    if (m.index > last) out.push(...plain(str.slice(last, m.index)));
+    out.push(termNode(m[1], m[2]));
+    last = m.index + m[0].length;
+  }
+  if (last < str.length) out.push(...plain(str.slice(last)));
+  return out;
+}
+
+function explained(t, seen) {
+  const marks = [
+    ...places().find(t).map(x => ({ ...x, node: () => refNode(x.id) })),
+    ...findJargon(t).filter(j => !seen.has(j.key)).map(j => ({ ...j, node: () => { seen.add(j.key); return jargonNode(t.substr(j.index, j.length), j.term, j.explain); } })),
+  ].sort((a, b) => a.index - b.index);
+  const out = []; let at = 0;
+  for (const m of marks) {
+    if (m.index < at) continue;   // overlaps an earlier mark
+    if (m.index > at) out.push(t.slice(at, m.index));
+    out.push(m.node());
+    at = m.index + m.length;
+  }
+  if (at < t.length) out.push(t.slice(at));
+  return out;
+}
+
+// ---------------------------------------------------------------- popups: places and editorial words
+// One popup for the page. A tap or click pins it; on a device with hover, resting the pointer opens it.
+const pop = { el: null, anchor: null, pinned: false, timer: 0, key: '' };
+const canHover = () => window.matchMedia && window.matchMedia('(hover: hover)').matches;
+
+function popEl() {
+  if (!pop.el) {
+    pop.el = h('div', { class: 'pop', id: 'pop', role: 'dialog', 'aria-modal': 'false', hidden: true,
+      onmouseenter: () => clearTimeout(pop.timer), onmouseleave: () => { if (!pop.pinned) closePopSoon(); } });
+    document.body.append(pop.el);
+    document.addEventListener('click', ev => { if (!pop.el.hidden && !pop.el.contains(ev.target) && ev.target !== pop.anchor) closePop(); });
+    window.addEventListener('scroll', () => { if (!pop.el.hidden && !pop.pinned) closePop(); }, true);
+    window.addEventListener('resize', () => closePop());
+  }
+  return pop.el;
+}
+function placePop() {
+  const el = popEl(), r = pop.anchor.getBoundingClientRect();
+  el.style.left = '0px'; el.style.top = '0px';
+  const w = el.offsetWidth, hgt = el.offsetHeight;
+  const left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
+  const below = r.bottom + 6 + hgt <= window.innerHeight - 8;
+  el.style.left = left + 'px';
+  el.style.top = (below ? r.bottom + 6 : Math.max(8, r.top - 6 - hgt)) + 'px';
+}
+function openPop(anchor, key, build, pinned) {
+  clearTimeout(pop.timer);
+  const el = popEl();
+  pop.anchor?.setAttribute('aria-expanded', 'false');
+  pop.anchor = anchor; pop.key = key; pop.pinned = pinned;
+  anchor.setAttribute('aria-expanded', 'true');
+  fill(el, ...build(), h('button', { type: 'button', class: 'pop__close', 'aria-label': 'Close', onclick: () => closePop(true) }, '×'));
+  el.hidden = false;
+  placePop();
+  if (pinned) el.querySelector('.pop__close')?.focus({ preventScroll: true });
+}
+function closePop(restore = false) {
+  clearTimeout(pop.timer);
+  if (!pop.el || pop.el.hidden) return;
+  pop.el.hidden = true;
+  pop.anchor?.setAttribute('aria-expanded', 'false');
+  if (restore) pop.anchor?.focus({ preventScroll: true });
+  pop.anchor = null; pop.key = ''; pop.pinned = false;
+}
+const closePopSoon = () => { clearTimeout(pop.timer); pop.timer = setTimeout(() => closePop(), 250); };
+// Rebuild an open popup whose content has arrived (a song fetched for a place).
+function refreshPop(key, build) { if (pop.el && !pop.el.hidden && pop.key === key) openPop(pop.anchor, key, build, pop.pinned); }
+
+function explainer(cls, label, key, build) {
+  return h('button', {
+    type: 'button', class: cls, 'aria-haspopup': 'dialog', 'aria-expanded': 'false',
+    onclick: ev => { ev.stopPropagation(); const a = ev.currentTarget; if (pop.anchor === a && pop.pinned) closePop(); else openPop(a, key, build, true); },
+    onmouseenter: ev => { if (!canHover() || pop.pinned) return; const a = ev.currentTarget; clearTimeout(pop.timer); pop.timer = setTimeout(() => openPop(a, key, build, false), 350); },
+    onmouseleave: () => { if (!pop.pinned) closePopSoon(); },
+  }, label);
+}
+
+/** An editorial word, explained in place. */
+function jargonNode(text, term, explain) {
+  return explainer('jargon', text, 'j:' + term, () => [h('p', { class: 'pop__title' }, term), h('p', {}, explain)]);
+}
+/** A kind of flag or note ("witness", "medium"), explained in place. */
+function kindNode(kind) {
+  return KINDS[kind] ? explainer('jargon', kind, 'k:' + kind, () => [h('p', { class: 'pop__title' }, kind), h('p', {}, KINDS[kind])]) : kind;
+}
+
+/** A place in the text by name ("Munidatta on 1.1"); its popup shows what is there, with a way to go to it. */
+function refNode(id) {
+  return explainer('ref', places().short(id), 'r:' + id, () => refPop(id));
+}
+const unitCache = new Map();   // unit id -> unit doc (null: not in the Studio), fetched when a place is opened
+function unitFor(unitId) {
+  if (unitId === S.unitId && unit()) return unit();
+  if (unitCache.has(unitId)) return unitCache.get(unitId);
+  if (!S.env.db || !canGo(unitId)) return null;
+  unitCache.set(unitId, undefined);
+  S.env.db.doc('units/' + unitId).get()
+    .then(snap => { unitCache.set(unitId, snap.exists ? snap.data() : null); })
+    .catch(() => { unitCache.set(unitId, null); })
+    .finally(() => { const k = pop.key; if (k === 'r:' + unitId || k.startsWith('r:' + unitId + '.')) refreshPop(k, () => refPop(k.slice(2))); });
+  return undefined;
+}
+function refPop(id) {
+  const P = places();
+  const title = P.long(id);
+  const out = [h('p', { class: 'pop__title' }, title.charAt(0).toUpperCase() + title.slice(1))];
+  const [, , part = ''] = String(id).split('.');
+  const unitId = String(id).split('.').slice(0, 2).join('.');
+  const u = unitFor(unitId);
+  const clip = (t, n = 280) => { const x = strip(t || '').trim(); return x.length > n ? x.slice(0, n).replace(/\s+\S*$/, '') + '…' : x; };
+  if (u === undefined) out.push(h('p', { class: 'pop__muted' }, 'Opening…'));
+  else if (!u) out.push(h('p', { class: 'pop__muted' }, `${textMeta()?.unitLabel || 'Song'} ${P.parse(id)?.n || ''} is not in the Studio yet.`));
+  else {
+    const secs = u.sections || [];
+    const cur = sec => (u === unit() ? M.current(sec, dsec(sec.part)) : sec);
+    if (!part) {
+      const head = secs.find(x => x.kind === 'head');
+      if (head) out.push(h('p', { class: 'pop__en' }, cur(head).title || ''), h('p', {}, clip(cur(head).summary)));
+    } else if (/^m\d+$/.test(part)) {
+      const sec = secs.find(x => x.part === part);
+      if (sec) out.push(sec.woven ? h('p', { class: 'pop__en' }, clip(cur(sec).translation)) : h('p', { class: 'pop__src', lang: u.commentLang }, clip(sec.src, 200)));
+    } else {
+      const k = part.replace(/[a-z]$/, ''), linePart = /[a-z]$/.test(part) && !/^h/.test(part) ? part : null;
+      const sec = secs.find(x => (x.kind === 'group' || x.kind === 'heading') && (x.part === k || (x.kind === 'heading' && /^h/.test(part))));
+      const lines = sec ? sec.lines.filter(l => !linePart || l.part === linePart) : [];
+      for (const l of lines) out.push(h('p', { class: 'pop__src', lang: l.html }, l.src), h('p', { class: 'pop__en' }, strip(cur(sec).en?.[l.part] ?? l.en)));
+    }
+  }
+  if (canGo(id)) out.push(h('button', { type: 'button', class: 'link pop__go', onclick: () => { closePop(); goToId(id); } }, 'Go to it'));
+  return out;
+}
+
+function diffNodes(before, after) {
+  return diffWords(strip(before), strip(after)).map(p =>
+    p.op === 'eq' ? p.text : p.op === 'del'
+      ? h('del', {}, h('span', { class: 'sr-only' }, 'removed: '), p.text)
+      : h('ins', {}, h('span', { class: 'sr-only' }, 'added: '), p.text));
+}
+
+const labelOf = sec => !sec ? '' : sec.kind === 'head' ? 'the title and summary' : sec.kind === 'heading' ? 'the heading'
+  : sec.kind === 'comment' ? `${sec.who} on ${sec.label}` : `passage ${sec.label}`;
+
+// ---------------------------------------------------------------- shell
+function renderAll() {
+  const app = $('#app');
+  app.removeAttribute('aria-busy');
+  if (!$('#top', app)) {
+    fill(app, 
+      h('header', { id: 'top', class: 'top' }),
+      h('div', { id: 'banner', class: 'banner', hidden: true }),
+      h('div', { class: 'cols' },
+        h('nav', { id: 'rail', class: 'rail', 'aria-label': 'Songs and progress' }),
+        h('main', { id: 'grid', class: 'grid', tabindex: '-1' }),
+        h('aside', { id: 'panel', class: 'panel', 'aria-label': 'Glossary and questions' })),
+      h('div', { id: 'bar', class: 'bar' }),
+      h('div', { id: 'sheet', class: 'sheet', hidden: true }),
+    );
+  }
+  renderTop(); renderBanner(); renderRail(); renderGrid(); renderPanel(); renderBar(); renderSheet();
+}
+
+function saveLabel() {
+  return { idle: '', saving: 'Saving…', saved: 'Saved', error: 'Not saved' }[S.save] || '';
+}
+
+function receiptLabel() {
+  const d = decision(); const r = S.receipts.get(S.unitId);
+  if (!d?.ready) return '';
+  if (r && r.decisionUpdatedAt === d.updatedAt) {
+    return { approved: 'Claude has this · approved', 'not-approved': 'Claude has this · still in review', stale: 'Claude has this · the draft had changed',
+      problems: 'Claude has this · see problems', skipped: 'Claude skipped this' }[r.result] || 'Claude has this';
+  }
+  return r ? 'Changed since Claude read it' : 'Sent · waiting for Claude';
+}
+
+function renderTop() {
+  const top = $('#top'); if (!top) return;
+  const meta = textMeta(); const u = unit();
+  const song = songs().find(s => s.id === S.unitId);
+  const p = u ? M.progress(u, liveDecision()) : null;
+  fill(top, 
+    h('button', { type: 'button', class: 'top__toggle only-narrow', 'aria-label': 'Songs', 'aria-expanded': S.ui.drawer === 'rail' ? 'true' : 'false',
+      onclick: () => toggleDrawer('rail') }, 'Songs'),
+    h('div', { class: 'brand' }, h('span', { class: 'brand__mark', 'aria-hidden': 'true' }, '॥'), h('span', { class: 'brand__name' }, 'Studio')),
+    meta ? h('div', { class: 'top__where' },
+      h('span', { class: 'top__text' }, meta.title),
+      song ? h('span', { class: 'top__song' }, `${meta.unitLabel} ${song.n}${song.poet ? ' · ' + song.poet : ''}`) : null) : h('div', { class: 'top__where' }),
+    h('div', { class: 'top__status' },
+      p ? h('span', { class: 'top__progress', title: 'Passages decided' }, `${p.ok + p.redraft} of ${p.total} decided`) : null,
+      h('span', { class: `top__save top__save--${S.save}`, role: 'status' }, saveLabel(),
+        S.save === 'error' ? h('button', { type: 'button', class: 'link', onclick: () => sync?.retry() }, 'Retry') : null),
+      receiptLabel() ? h('span', { class: 'top__receipt' }, receiptLabel()) : null),
+    h('div', { class: 'top__actions' },
+      u && S.env.canWrite ? h('button', { type: 'button', class: 'btn btn--primary', onclick: sendToClaude,
+        title: 'Mark this song ready for Claude to pull into the repository' }, 'Send to Claude') : null,
+      h('button', { type: 'button', class: 'btn btn--quiet only-narrow', 'aria-expanded': S.ui.drawer === 'panel' ? 'true' : 'false',
+        onclick: () => toggleDrawer('panel') }, 'Terms'),
+      h('button', { type: 'button', class: 'btn btn--quiet', 'aria-label': 'Keyboard shortcuts', onclick: () => { S.ui.sheet = 'keys'; renderSheet(); } }, '?')),
+  );
+}
+
+function renderBanner() {
+  const b = $('#banner'); if (!b) return;
+  const d = decision(); const u = unit();
+  if (S.env.fatal) {
+    b.hidden = false;
+    fill(b, h('p', {}, 'The Studio lost its connection to its database. Reload the page to continue; anything shown as Saved is kept.'));
+    return;
+  }
+  if (!S.env.canWrite && u) {
+    b.hidden = false;
+    fill(b, h('p', {}, 'You can read this Studio but not change it. Only its owner can review here.'));
+    return;
+  }
+  if (d && u && d.draftSha !== u.draftSha) {
+    const { kept } = M.carryOver(u, d, now());
+    b.hidden = false;
+    fill(b, 
+      h('p', {}, `Claude loaded a new draft of this song. Your earlier decisions were made on the previous draft; ${kept.length} passage${kept.length === 1 ? ' is' : 's are'} unchanged and will keep your decisions.`),
+      S.env.canWrite ? h('button', { type: 'button', class: 'btn btn--primary', onclick: startNewDraftReview }, 'Start review of the new draft') : null);
+    return;
+  }
+  b.hidden = true; fill(b);
+}
+
+function toggleDrawer(which) {
+  S.ui.drawer = S.ui.drawer === which ? null : which;
+  document.body.dataset.drawer = S.ui.drawer || '';
+  renderTop();
+}
+
+// ---------------------------------------------------------------- rail
+function renderRail() {
+  const rail = $('#rail'); if (!rail) return;
+  const meta = textMeta();
+  const parts = [];
+  const texts = [...S.meta.values()].filter(m => m.slug);
+  if (texts.length > 1) {
+    parts.push(h('label', { class: 'rail__label', for: 'text-pick' }, 'Text'),
+      h('select', { id: 'text-pick', class: 'rail__select', onchange: e => chooseText(e.target.value) },
+        texts.map(m => h('option', { value: m.slug, selected: m.slug === S.text }, m.title))));
+  }
+  const steps = checklist();
+  if (steps.some(s => !s.done)) {
+    parts.push(h('section', { class: 'check', 'aria-labelledby': 'check-h' },
+      h('h2', { id: 'check-h', class: 'rail__label' }, 'Getting started'),
+      h('ol', { class: 'check__list' }, steps.map(s => h('li', { class: `check__step${s.done ? ' is-done' : ''}` },
+        h('span', { class: 'check__mark', 'aria-hidden': 'true' }, s.done ? '✓' : ''),
+        h('div', { class: 'check__body' },
+          h('span', { class: 'check__label' }, s.label, s.done ? h('span', { class: 'sr-only' }, ' (done)') : null),
+          !s.done && s.prompt ? promptBox(s.prompt) : null))))));
+  }
+  if (meta) {
+    const counts = { approved: 0, review: 0 };
+    for (const s of meta.songs) { if (s.approved) counts.approved++; else if (s.reviewable) counts.review++; }
+    parts.push(h('h2', { class: 'rail__label' }, `${meta.unitLabel}s`,
+      h('span', { class: 'rail__count' }, `${counts.review} in review · ${counts.approved} approved`)));
+    parts.push(h('ol', { class: 'songs' }, meta.songs.map(s => songItem(s, meta))));
+    const toDecide = [...S.glossary.values()].filter(e => e.text === S.text && e.status === 'proposed' && !termDecided(e.id)).length;
+    parts.push(h('button', { type: 'button', class: 'rail__glossary', onclick: () => { S.ui.tab = 'terms'; S.ui.allTerms = true; S.ui.drawer = 'panel'; document.body.dataset.drawer = 'panel'; renderPanel(); renderTop(); } },
+      h('span', {}, 'Glossary'), h('span', { class: 'rail__count' }, toDecide ? `${toDecide} to decide` : 'all decided')));
+  }
+  fill(rail, ...parts);
+}
+
+function songItem(s, meta) {
+  const d = S.decisions.get(s.id);
+  const live = S.unitId === s.id && unit() ? M.progress(unit(), liveDecision()) : d?.progress;
+  let status = s.approved ? '✓ approved' : !s.reviewable ? s.stage : live ? `${live.ok} of ${live.total}` : 'not started';
+  if (d?.ready && !s.approved) status = 'sent';
+  const current = s.id === S.unitId;
+  const body = [
+    h('span', { class: 'songs__n' }, String(s.n)),
+    h('span', { class: 'songs__t' }, s.title || (s.reviewable ? 'Untitled draft' : 'Not drafted'), s.poet ? h('span', { class: 'songs__poet' }, s.poet) : null),
+    h('span', { class: 'songs__s' }, status),
+  ];
+  return h('li', { class: `songs__item${current ? ' is-current' : ''}${s.reviewable || s.approved ? '' : ' is-idle'}` },
+    s.reviewable || s.approved
+      ? h('button', { type: 'button', class: 'songs__btn', 'aria-current': current ? 'true' : null, onclick: () => chooseSong(s.id) }, body)
+      : h('div', { class: 'songs__btn' }, body));
+}
+
+function checklist() {
+  const meta = textMeta();
+  const base = meta?.checklist || [
+    { id: 'source', label: 'Load a text', done: false, prompt: 'Load the practice song into my Studio.' },
+  ];
+  const sent = [...S.decisions.values()].some(d => d.ready);
+  return base.map(s => (s.id === 'review' && sent ? { ...s, done: true } : s));
+}
+
+function promptBox(text) {
+  const p = h('code', { class: 'prompt__text' }, text);
+  const btn = h('button', { type: 'button', class: 'link prompt__copy' }, 'Copy prompt');
+  btn.addEventListener('click', async () => {
+    const ok = await copyText(text, p);
+    btn.textContent = ok ? 'Copied' : 'Selected: press Ctrl+C';
+    setTimeout(() => { btn.textContent = 'Copy prompt'; }, 2200);
+  });
+  return h('div', { class: 'prompt' }, h('span', { class: 'prompt__lead' }, 'Ask Claude in the session:'), p, btn);
+}
+
+// ---------------------------------------------------------------- grid
+function renderGrid() {
+  const grid = $('#grid'); if (!grid) return;
+  const u = unit();
+  secEls.clear();
+  if (!S.env.started) { fill(grid, h('p', { class: 'empty' }, 'Opening the Studio…')); return; }
+  if (!textMeta()) {
+    fill(grid, h('div', { class: 'empty' },
+      h('h1', { class: 'empty__title' }, 'Nothing is loaded yet'),
+      h('p', {}, 'Claude fills this Studio with drafts from the translation engine. Ask in the session:'),
+      promptBox('Load the practice song into my Studio.')));
+    return;
+  }
+  if (!S.unitId || !u) {
+    const first = songs().find(s => s.reviewable || s.approved);
+    fill(grid, h('div', { class: 'empty' },
+      h('h1', { class: 'empty__title' }, first ? 'Choose a song' : 'No song is ready for review yet'),
+      first ? h('p', {}, 'Pick a song from the list to start reviewing.') : h('p', {}, 'When Claude has drafted a song and woven its commentary, it appears here.'),
+      !first ? promptBox(textMeta().checklist?.find(c => !c.done)?.prompt || 'Draft the next song and load it into my Studio.') : null));
+    return;
+  }
+  const list = h('div', { class: 'secs' });
+  const att = new Set(attentionParts());
+  for (const sec of u.sections) {
+    if (S.ui.filter === 'attention' && sec.kind !== 'head' && !att.has(sec.part)) continue;
+    const el = buildSection(sec);
+    secEls.set(sec.part, el);
+    list.append(el);
+  }
+  fill(grid, songHeader(u), toolbar(u, att), list,
+    S.ui.filter === 'attention' && att.size === 0 ? h('p', { class: 'empty empty--inline' }, 'Nothing needs your attention in this song. Send it to Claude when you are ready.') : null);
+  markFocus();
+}
+
+function songHeader(u) {
+  const meta = textMeta();
+  return h('div', { class: 'song' },
+    h('p', { class: 'song__eyebrow' }, `${meta.unitLabel} ${u.n}${meta.total ? ' of ' + meta.total : ''}`,
+      u.raga ? h('span', { class: 'song__raga' }, ` · rāga ${u.raga}`) : null,
+      u.poet ? h('span', {}, ` · ${u.poet}`) : null),
+    u.questions.length ? h('button', { type: 'button', class: 'link song__q', onclick: () => { S.ui.tab = 'questions'; S.ui.drawer = 'panel'; document.body.dataset.drawer = 'panel'; renderPanel(); renderTop(); } },
+      `${u.questions.length} question${u.questions.length === 1 ? '' : 's'} from the drafter`) : null);
+}
+
+function toolbar(u, att) {
+  const p = M.progress(u, liveDecision());
+  const pct = n => (p.total ? (100 * n / p.total).toFixed(2) + '%' : '0');
+  return h('div', { class: 'tools', role: 'toolbar', 'aria-label': 'Review tools' },
+    h('div', { class: 'tools__filter', role: 'group', 'aria-label': 'Show' },
+      h('button', { type: 'button', class: 'seg', 'aria-pressed': S.ui.filter === 'all' ? 'true' : 'false', onclick: () => { S.ui.filter = 'all'; renderGrid(); } }, 'All passages'),
+      h('button', { type: 'button', class: 'seg', 'aria-pressed': S.ui.filter === 'attention' ? 'true' : 'false', onclick: () => { S.ui.filter = 'attention'; renderGrid(); } },
+        `Needs attention (${att.size})`)),
+    h('label', { class: 'tools__diff' },
+      h('input', { type: 'checkbox', id: 'diff-toggle', checked: S.ui.diff, onchange: e => { S.ui.diff = e.target.checked; renderGrid(); } }),
+      ' Show changes from Claude’s draft'),
+    u.parallels?.length ? h('label', { class: 'tools__diff', title: u.parallels.map(p => p.label).join('; ') },
+      h('input', { type: 'checkbox', id: 'parallel-toggle', checked: S.ui.parallel, onchange: e => setParallel(e.target.checked) }),
+      ` Show ${u.parallels.map(p => p.name).join(' and ')}`) : null,
+    h('div', { class: 'meter', role: 'img', 'aria-label': `${p.ok} approved, ${p.redraft} sent back for redraft, ${p.total - p.ok - p.redraft} undecided` },
+      h('span', { class: 'meter__ok', style: `width:${pct(p.ok)}` }),
+      h('span', { class: 'meter__redo', style: `width:${pct(p.redraft)}` })));
+}
+
+function setParallel(on) {
+  S.ui.parallel = on;
+  store('studio:parallel', on ? '1' : null);
+  renderGrid(); renderPanel();
+}
+
+/** A parallel witness's text (the Tibetan): script above transliteration, under the Bengali. */
+function parBlock(par) {
+  if (!S.ui.parallel || !par?.length) return null;
+  const labels = new Map((unit()?.parallels || []).map(p => [p.id, p]));
+  return par.map(p => h('div', { class: 'par' },
+    h('p', { class: 'par__label' }, labels.get(p.witness)?.name || p.witness),
+    h('p', { class: 'src', lang: p.html }, p.src),
+    p.translit ? h('p', { class: 'tl', lang: p.html + '-Latn' }, p.translit) : null));
+}
+
+function buildSection(sec) {
+  const d = dsec(sec.part);
+  if (sec.kind === 'lacuna') {
+    return h('section', { class: 'sec sec--lacuna', id: 's-' + sec.part, 'data-part': sec.part },
+      h('div', { class: 'sec__gutter' }), h('div', { class: 'sec__body' }, h('p', {}, `A gap in the manuscript${sec.note ? ': ' + sec.note : ''}. Nothing to translate.`)));
+  }
+  const status = M.statusOf(sec, d);
+  const el = h('section', {
+    class: `sec sec--${sec.kind} is-${status}`, id: 's-' + sec.part, 'data-part': sec.part, tabindex: '-1',
+    'aria-label': `${labelOf(sec)}, ${M.STATUS_LABEL[status]}`,
+    onfocusin: () => { if (S.ui.focus !== sec.part) { S.ui.focus = sec.part; markFocus(); renderBar(); } },
+    onclick: () => { if (S.ui.focus !== sec.part) { S.ui.focus = sec.part; markFocus(); renderBar(); } },
+  });
+  const gutter = h('div', { class: 'sec__gutter' },
+    sec.kind === 'group' ? h('a', { class: 'pno', href: '#s-' + sec.part, onclick: e => { e.preventDefault(); focusSection(sec.part); } }, sec.label)
+      : sec.kind === 'comment' ? h('span', { class: 'cmark', 'aria-hidden': 'true' }, '§') : null);
+  const body = h('div', { class: 'sec__body' });
+  append(body, [sec.kind === 'head' ? headBody(sec, d) : sec.kind === 'comment' ? commentBody(sec, d) : groupBody(sec, d),
+    notesBlock(sec, d), sectionFoot(sec, d, status), S.ui.redraftOpen === sec.part ? redraftBox(sec, d) : null]);
+  el.append(gutter, body);
+  return el;
+}
+
+function headBody(sec, d) {
+  const c = M.current(sec, d);
+  return [
+    h('p', { class: 'sec__label' }, 'Title and summary'),
+    fieldView(sec, 'title', c.title, sec.title, 'song__title'),
+    fieldView(sec, 'summary', c.summary, sec.summary, 'song__summary'),
+  ];
+}
+
+function groupBody(sec, d) {
+  const c = M.current(sec, d);
+  const tags = [sec.refrain && 'Refrain', sec.bhanita && 'The poet names himself'].filter(Boolean);
+  return [
+    sec.kind === 'heading' ? h('p', { class: 'sec__label' }, 'Heading') : null,
+    tags.length ? h('p', { class: 'sec__tags' }, tags.join(' · ')) : null,
+    ...sec.lines.map(l => h('div', { class: 'line', 'data-line': l.part },
+      h('div', { class: 'line__ref' },
+        h('p', { class: 'src', lang: l.html }, l.src),
+        h('p', { class: 'tl', lang: l.html + '-Latn' }, l.drafterTranslit || l.translit),
+        l.gloss ? h('p', { class: 'lit' }, l.gloss) : null,
+        l.emended.length ? h('p', { class: 'emend' }, 'Emended: ' + l.emended.map(e => `${e.from} → ${e.to}`).join('; ')) : null,
+        parBlock(l.par)),
+      h('div', { class: 'line__en' },
+        fieldView(sec, 'en:' + l.part, c.en[l.part], l.en, 'en'),
+        l.flags.length ? h('ul', { class: 'flags' }, l.flags.map(f => h('li', { class: `flag flag--${f.level}` },
+          h('span', { class: 'flag__kind' }, kindNode(f.kind), ' · ', kindNode(f.level)), ' ', ...richText(f.note, { explain: true })))) : null,
+        sec.kind === 'group' ? whyBlock(sec, l) : null))),
+  ];
+}
+
+function commentBody(sec, d) {
+  const c = M.current(sec, d);
+  const n = words(strip(c.note));
+  return [
+    h('p', { class: 'sec__label' }, `${sec.who} on ${sec.label}`),
+    h('details', { class: 'csrc' }, h('summary', {}, 'Source and transliteration'),
+      h('p', { class: 'src', lang: unit().commentLang }, sec.src),
+      h('p', { class: 'tl', lang: unit().commentLang + '-Latn' }, sec.translit)),
+    S.ui.parallel && sec.par?.length ? h('details', { class: 'csrc' },
+      h('summary', {}, `${(unit().parallels || []).map(p => p.name).join(' and ')} translation of this passage`), parBlock(sec.par)) : null,
+    h('div', { class: 'field' }, h('p', { class: 'field__label' }, 'Translation'),
+      fieldView(sec, 'translation', c.translation, sec.translation, 'ctrans')),
+    h('div', { class: 'field' }, h('p', { class: 'field__label' }, 'Note beside the passage',
+      h('span', { class: `field__count${n > 60 ? ' is-over' : ''}` }, ` · ${n} of 60 words`)),
+      fieldView(sec, 'note', c.note, sec.note, 'cnote')),
+    sec.equations.length ? h('p', { class: 'eqs' }, h('span', { class: 'field__label' }, 'Glosses in the commentary: '),
+      sec.equations.map((e, i) => [i ? '; ' : '', h('i', {}, e.src), ' = ', e.en, e.term ? [' (', termNode(entry(e.term)?.en || e.term, e.term), ')'] : ''])) : null,
+    sec.citations.length ? h('p', { class: 'eqs' }, h('span', { class: 'field__label' }, 'Quotes: '),
+      sec.citations.map((q, i) => [i ? '; ' : '', `“${q.quoted}” (${q.work || 'unidentified'}${q.confident ? '' : ', unsure'})`])) : null,
+    sec.flags.length ? h('ul', { class: 'flags' }, sec.flags.map(f => h('li', { class: `flag flag--${f.level}` }, h('span', { class: 'flag__kind' }, kindNode(f.kind), ' · ', kindNode(f.level)), ' ', ...richText(f.note, { explain: true })))) : null,
+  ];
+}
+
+function fieldView(sec, field, value, draftValue, cls) {
+  const editing = S.ui.editing && S.ui.editing.part === sec.part && S.ui.editing.field === field;
+  if (editing) return editorFor(sec, field, value);
+  const changed = M.flat(value) !== M.flat(draftValue);
+  const editorial = field === 'summary' || field === 'note' || field.startsWith('note:');
+  const content = S.ui.diff && changed ? diffNodes(draftValue, value) : richText(value, { explain: editorial });
+  return h('p', {
+    class: `fv ${cls}${changed ? ' is-changed' : ''}`, 'data-field': field,
+    ondblclick: () => startEdit(sec.part, field),
+  }, content.length ? content : h('span', { class: 'fv__empty' }, '(empty)'),
+  S.env.canWrite ? h('button', { type: 'button', class: 'fv__edit', 'aria-label': `Edit ${fieldName(field)}`, onclick: e => { e.stopPropagation(); startEdit(sec.part, field); } }, 'Edit') : null);
+}
+
+const fieldName = f => f.startsWith('en:') ? `line ${f.slice(3)}` : f.startsWith('note:') ? `note ${f.slice(5)}` : f;
+
+function readField(sec, field) {
+  const c = M.current(sec, dsec(sec.part));
+  if (field.startsWith('en:')) return c.en[field.slice(3)];
+  if (field.startsWith('note:')) return (c.notes.find(n => String(n.n) === field.slice(5)) || {}).text || '';
+  return c[field];
+}
+
+function writeField(sec, field, text) {
+  if (field.startsWith('en:')) return editText(sec.part, { en: { [field.slice(3)]: text } });
+  if (field.startsWith('note:')) {
+    const n = Number(field.slice(5));
+    const notes = M.current(sec, dsec(sec.part)).notes.map(x => (x.n === n ? { ...x, text } : x));
+    return editText(sec.part, { notes });
+  }
+  editText(sec.part, { [field]: text });
+}
+
+function editorFor(sec, field, value) {
+  const ta = h('textarea', { class: 'ed__ta', id: `ed-${sec.part}-${field.replace(':', '-')}`, 'aria-label': `Edit ${fieldName(field)}`, spellcheck: 'true' });
+  ta.value = value || '';
+  const preview = h('p', { class: 'ed__preview', 'aria-live': 'polite' });
+  const issues = h('p', { class: 'ed__issues' });
+  const update = () => {
+    const probs = markupProblems(ta.value);
+    const unknown = termsOf(ta.value).filter(t => !entry(t.id)).map(t => `unknown term {${t.id}}`);
+    issues.textContent = [...probs, ...unknown].join(' · ');
+    fill(preview, ...richText(ta.value));
+  };
+  ta.addEventListener('input', () => { autosize(ta); update(); writeField(sec, field, ta.value); });
+  ta.addEventListener('keydown', ev => editorKeys(ev, sec, field, ta));
+  queueMicrotask(() => { autosize(ta); update(); });
+  const wrap = h('div', { class: 'ed', 'data-field': field },
+    ta, preview, issues,
+    h('p', { class: 'ed__hint' }, h('kbd', {}, 'Esc'), ' done · ', h('kbd', {}, 'Ctrl'), '+', h('kbd', {}, 'Enter'), ' approve and next · ',
+      h('kbd', {}, 'Ctrl'), '+', h('kbd', {}, 'K'), ' insert a glossary term'),
+    S.ui.picker === sec.part + field ? termPicker(ta, sec, field) : null);
+  return wrap;
+}
+
+function editorKeys(ev, sec, field, ta) {
+  const mod = ev.ctrlKey || ev.metaKey;
+  if (ev.key === 'Escape') { ev.preventDefault(); if (S.ui.picker) { S.ui.picker = null; renderSection(sec.part); focusEditor(); } else finishEdit(true); }
+  else if (mod && ev.key === 'Enter') { ev.preventDefault(); approveAndMove(sec.part, { attentionOnly: ev.shiftKey }); }
+  else if (mod && (ev.key === 'k' || ev.key === 'K')) {
+    ev.preventDefault();
+    S.ui.pickerSel = [ta.selectionStart, ta.selectionEnd];
+    S.ui.picker = sec.part + field;
+    renderSection(sec.part);
+    setTimeout(() => $('.picker__q')?.focus(), 0);
+  }
+}
+
+function termPicker(ta, sec, field) {
+  const q = h('input', { type: 'search', class: 'picker__q', id: 'picker-q', placeholder: 'Find a glossary term', 'aria-label': 'Find a glossary term' });
+  const list = h('ul', { class: 'picker__list', role: 'listbox' });
+  const all = [...S.glossary.values()].filter(e => e.text === S.text && e.status !== 'rejected');
+  const fill = () => {
+    const f = q.value.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
+    const hits = all.filter(e => (e.en + ' ' + e.id + ' ' + e.forms.map(x => x.translit).join(' ')).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').includes(f)).slice(0, 8);
+    fill(list, ...hits.map((e, i) => h('li', { role: 'option', class: 'picker__opt', 'aria-selected': i === 0 ? 'true' : 'false', 'data-id': e.id,
+      onmousedown: ev => { ev.preventDefault(); insertTerm(e); } }, h('b', {}, e.en), ' ', h('span', { class: 'picker__id' }, e.id))));
+  };
+  const insertTerm = e => {
+    const [a, b] = S.ui.pickerSel || [ta.value.length, ta.value.length];
+    const cur = readField(sec, field) || '';
+    const sel = cur.slice(a, b) || e.en;
+    const next = cur.slice(0, a) + `[${sel}]{${e.id}}` + cur.slice(b);
+    S.ui.picker = null;
+    writeField(sec, field, next);
+    renderSection(sec.part); focusEditor();
+  };
+  q.addEventListener('input', fill);
+  q.addEventListener('keydown', ev => {
+    const opts = $$('.picker__opt', list);
+    const i = opts.findIndex(o => o.getAttribute('aria-selected') === 'true');
+    if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
+      ev.preventDefault();
+      const j = Math.max(0, Math.min(opts.length - 1, i + (ev.key === 'ArrowDown' ? 1 : -1)));
+      opts.forEach((o, k) => o.setAttribute('aria-selected', k === j ? 'true' : 'false'));
+    } else if (ev.key === 'Enter') { ev.preventDefault(); const id = opts[Math.max(0, i)]?.dataset.id; if (id) insertTerm(entry(id)); }
+    else if (ev.key === 'Escape') { ev.preventDefault(); S.ui.picker = null; renderSection(sec.part); focusEditor(); }
+  });
+  queueMicrotask(fill);
+  return h('div', { class: 'picker' }, q, list);
+}
+
+function notesBlock(sec, d) {
+  if (sec.kind === 'comment') return [];
+  const notes = M.current(sec, d).notes;
+  const out = [];
+  if (notes.length) {
+    out.push(h('ol', { class: 'notes' }, notes.map(n => h('li', { class: 'note' },
+      h('span', { class: 'note__kind' }, `Note ${n.n} · `, kindNode(n.kind),
+        ...(n.cites.length ? [' · drawn from ', ...n.cites.flatMap((c, i) => [i ? ', ' : null, refNode(c)])] : [])),
+      fieldView(sec, 'note:' + n.n, n.text, (sec.notes.find(x => x.n === n.n) || {}).text || '', 'note__text')))));
+  }
+  if (S.env.canWrite) {
+    out.push(h('div', { class: 'addnote' },
+      h('select', { class: 'addnote__kind', id: `addnote-${sec.part}`, 'aria-label': 'Kind of note' },
+        ['imagery', 'philology', 'doctrine', 'witness'].map(k => h('option', { value: k }, k))),
+      h('button', { type: 'button', class: 'link', onclick: e => {
+        const kind = e.target.previousElementSibling.value;
+        const all = M.current(sec, dsec(sec.part)).notes;
+        const maxN = Math.max(unit().notesCount, ...sections().flatMap(s => M.current(s, dsec(s.part)).notes.map(x => x.n)), 0);
+        editText(sec.part, { notes: [...all, { n: maxN + 1, kind, text: '', cites: [] }] }, { immediate: true });
+        startEdit(sec.part, 'note:' + (maxN + 1));
+      } }, 'Add a note')));
+  }
+  return out;
+}
+
+function sectionFoot(sec, d, status) {
+  const canAct = S.env.canWrite;
+  return h('div', { class: 'foot' },
+    h('span', { class: `status status--${status}` }, M.STATUS_LABEL[status]),
+    canAct ? h('div', { class: 'foot__actions' },
+      h('button', { type: 'button', class: 'btn btn--ok', 'aria-pressed': d?.decision === 'ok' ? 'true' : 'false',
+        onclick: e => { e.stopPropagation(); d?.decision === 'ok' ? decidePart(sec.part, null) : approveAndMove(sec.part); } },
+        d?.decision === 'ok' ? 'Approved' : 'Approve'),
+      h('button', { type: 'button', class: 'btn btn--quiet', 'aria-pressed': d?.decision === 'redraft' ? 'true' : 'false',
+        onclick: e => { e.stopPropagation(); S.ui.redraftOpen = S.ui.redraftOpen === sec.part ? null : sec.part; renderSection(sec.part);
+          if (S.ui.redraftOpen) setTimeout(() => $(`#next-${sec.part}`)?.focus(), 0); } }, 'Redraft…'),
+      M.edited(sec, d) ? h('button', { type: 'button', class: 'btn btn--quiet', onclick: e => { e.stopPropagation(); revertPart(sec.part); } }, 'Undo my edits') : null,
+      S.ui.previous?.[sec.part] ? h('span', { class: 'foot__prev', title: 'Your version on the previous draft' }, 'You had edits on the previous draft') : null) : null);
+}
+
+function redraftBox(sec, d) {
+  const ta = h('textarea', { class: 'ed__ta', id: `next-${sec.part}`, placeholder: 'What should change? Claude reads this when it redrafts.' });
+  ta.value = d?.next || '';
+  ta.addEventListener('input', () => { autosize(ta); setNextNote(sec.part, ta.value); });
+  return h('div', { class: 'redraft' },
+    h('label', { class: 'field__label', for: `next-${sec.part}` }, 'Note for the next draft'),
+    ta,
+    h('div', { class: 'redraft__actions' },
+      h('button', { type: 'button', class: 'btn btn--redo', onclick: () => { S.ui.redraftOpen = null; decidePart(sec.part, 'redraft'); announce(`${labelOf(sec)} marked for redraft.`); } }, 'Ask for a redraft'),
+      h('button', { type: 'button', class: 'btn btn--quiet', onclick: () => { S.ui.redraftOpen = null; renderSection(sec.part); } }, 'Close')));
+}
+
+// ---------------------------------------------------------------- why
+function whyBlock(sec, line) {
+  if (!S.env.sample) return null;
+  const key = sec.part + ':' + line.part;
+  const st = whyState.get(key);
+  const open = S.ui.whyOpen === key;
+  if (!open) {
+    return h('button', { type: 'button', class: 'link why__open', onclick: () => { S.ui.whyOpen = key; renderSection(sec.part); setTimeout(() => $(`#why-q-${key.replace(':', '-')}`)?.focus(), 0); } },
+      st?.text ? 'Show Claude’s explanation' : 'Why this rendering?');
+  }
+  const q = h('input', { type: 'text', class: 'why__q', id: `why-q-${key.replace(':', '-')}`, value: st?.question || '', placeholder: 'Why this rendering?', 'aria-label': 'Your question about this line' });
+  const out = h('p', { class: 'why__text' }, st?.text || '');
+  const err = h('p', { class: 'why__err' }, st?.error || '');
+  const ask = h('button', { type: 'button', class: 'btn btn--quiet' }, st?.busy ? 'Thinking…' : 'Ask Claude');
+  const stop = h('button', { type: 'button', class: 'btn btn--quiet', hidden: !st?.busy }, 'Stop');
+  ask.addEventListener('click', () => runWhy(sec, line, key, q.value, { out, err, ask, stop }));
+  q.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); ask.click(); } });
+  stop.addEventListener('click', () => whyState.get(key)?.ctl?.abort());
+  return h('div', { class: 'why' },
+    h('p', { class: 'why__label' }, 'Claude’s explanation, written now. It is not the drafter’s reasoning and it isn’t saved.'),
+    h('div', { class: 'why__row' }, q, ask, stop), out, err,
+    h('button', { type: 'button', class: 'link', onclick: () => { S.ui.whyOpen = null; renderSection(sec.part); } }, 'Close'));
+}
+
+async function runWhy(sec, line, key, question, els) {
+  const u = unit(); const meta = textMeta();
+  const c = M.current(sec, dsec(sec.part));
+  const comment = u.sections.find(s => s.kind === 'comment' && s.anchorPart === sec.part);
+  const termIds = new Set([...(line.termHits || []), ...termsOf(c.en[line.part]).map(t => t.id)]);
+  const prompt = whyPrompt({
+    textTitle: meta.title, songLabel: `${meta.unitLabel} ${u.n}, passage ${sec.label}`,
+    line, draftEn: strip(line.en), currentEn: strip(c.en[line.part]),
+    neighbours: sec.lines.filter(l => l.part !== line.part).map(l => strip(M.current(sec, dsec(sec.part)).en[l.part])).join(' / '),
+    comment: comment ? strip(M.current(comment, dsec(comment.part)).translation) : '',
+    terms: [...termIds].map(id => entry(id)).filter(Boolean).map(e => `${e.en} (${e.id}): ${e.definition}`).join('; '),
+    question,
+  });
+  const st = { question, text: '', error: '', busy: true, ctl: new AbortController() };
+  whyState.set(key, st);
+  els.ask.textContent = 'Thinking…'; els.ask.disabled = true; els.stop.hidden = false; els.err.textContent = ''; els.out.textContent = 'Thinking…';
+  try {
+    st.text = await askWhy(S.env.sample, prompt, { signal: st.ctl.signal, onText: ({ text }) => { st.text = text; els.out.textContent = text; } });
+    els.out.textContent = st.text;
+  } catch (e) {
+    st.text = e?.text || '';
+    els.out.textContent = st.text;
+    st.error = WHY_ERRORS[e?.code] ?? 'Claude could not answer just now. Try again, or ask in the session.';
+    els.err.textContent = st.error;
+    if (e?.code === 'not_granted' || e?.code === 'sampling_disabled') { S.env.sample = null; }
+  } finally {
+    st.busy = false; els.ask.textContent = 'Ask Claude'; els.ask.disabled = false; els.stop.hidden = true;
+  }
+}
+
+// ---------------------------------------------------------------- editing & focus
+function startEdit(part, field) {
+  if (!S.env.canWrite) return;
+  finishEdit();
+  S.ui.editing = { part, field };
+  S.ui.focus = part;
+  renderSection(part);
+  focusEditor();
+}
+
+function focusEditor() {
+  setTimeout(() => { const ta = $('.ed__ta'); if (ta) { ta.focus(); const n = ta.value.length; ta.setSelectionRange(n, n); } }, 0);
+}
+
+function finishEdit(refocus = false) {
+  if (!S.ui.editing) return;
+  const { part } = S.ui.editing;
+  S.ui.editing = null; S.ui.picker = null;
+  sync?.flushAll();
+  renderSection(part);
+  if (refocus) focusSection(part);
+}
+
+function renderSection(part) {
+  const old = secEls.get(part) || document.getElementById('s-' + part);
+  const sec = secByPart(part);
+  if (!old || !sec) return renderGrid();
+  const el = buildSection(sec);
+  old.replaceWith(el);
+  secEls.set(part, el);
+  markFocus();
+}
+
+/** Update status and labels in place while an editor keeps focus. */
+function refreshSectionChrome(part) {
+  const el = secEls.get(part); const sec = secByPart(part);
+  if (!el || !sec) return;
+  const status = M.statusOf(sec, dsec(part));
+  el.className = `sec sec--${sec.kind} is-${status}${S.ui.focus === part ? ' is-focused' : ''}`;
+  const st = el.querySelector('.status');
+  if (st) { st.className = `status status--${status}`; st.textContent = M.STATUS_LABEL[status]; }
+  const ok = el.querySelector('.btn--ok');
+  if (ok) { const on = dsec(part)?.decision === 'ok'; ok.setAttribute('aria-pressed', on ? 'true' : 'false'); ok.textContent = on ? 'Approved' : 'Approve'; }
+  const count = el.querySelector('.field__count');
+  if (count && sec.kind === 'comment') { const n = words(strip(M.current(sec, dsec(part)).note)); count.textContent = ` · ${n} of 60 words`; count.classList.toggle('is-over', n > 60); }
+}
+
+function focusSection(part) {
+  S.ui.focus = part;
+  const el = secEls.get(part) || document.getElementById('s-' + part);
+  markFocus();
+  if (el) { el.focus({ preventScroll: true }); el.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }
+  renderBar();
+}
+
+function markFocus() {
+  for (const [p, el] of secEls) el.classList.toggle('is-focused', p === S.ui.focus);
+}
+
+function moveFocus(delta) {
+  const order = sections().filter(s => s.kind !== 'lacuna' && secEls.has(s.part)).map(s => s.part);
+  const i = order.indexOf(S.ui.focus);
+  const next = order[Math.max(0, Math.min(order.length - 1, (i < 0 ? 0 : i + delta)))];
+  if (next) focusSection(next);
+}
+
+function firstField(sec) {
+  if (sec.kind === 'head') return 'title';
+  if (sec.kind === 'comment') return 'translation';
+  return 'en:' + sec.lines[0].part;
+}
+
+// ---------------------------------------------------------------- panel
+function openTerm(id) {
+  S.ui.tab = 'terms'; S.ui.termOpen = id;
+  if (!songTermIds().includes(id)) S.ui.allTerms = true;
+  S.ui.drawer = 'panel'; document.body.dataset.drawer = 'panel';
+  renderPanel(); renderTop();
+  setTimeout(() => document.getElementById('t-' + id)?.scrollIntoView({ block: 'nearest' }), 0);
+}
+
+function songTermIds() {
+  const u = unit(); if (!u) return [];
+  const ids = new Set(u.termsToDecide);
+  for (const s of u.sections) for (const id of M.termsIn(s, dsec(s.part), termsOf)) ids.add(id);
+  return [...ids].filter(id => entry(id));
+}
+
+function renderPanel() {
+  const panel = $('#panel'); if (!panel) return;
+  const u = unit();
+  const tabs = [['terms', 'Terms'], ['questions', `Questions${u?.questions.length ? ` (${u.questions.length})` : ''}`], ['style', 'Style notes']];
+  const head = h('div', { class: 'tabs', role: 'tablist', 'aria-label': 'Panel' }, tabs.map(([id, label]) => h('button', {
+    type: 'button', role: 'tab', class: 'tab', id: 'tab-' + id, 'aria-selected': S.ui.tab === id ? 'true' : 'false', 'aria-controls': 'tabpanel',
+    onclick: () => { S.ui.tab = id; renderPanel(); } }, label)),
+    h('button', { type: 'button', class: 'btn btn--quiet only-narrow panel__close', onclick: () => toggleDrawer('panel') }, 'Close'));
+  const body = h('div', { class: 'tabpanel', id: 'tabpanel', role: 'tabpanel', 'aria-labelledby': 'tab-' + S.ui.tab });
+  append(body, [S.ui.tab === 'terms' ? termsTab() : S.ui.tab === 'questions' ? questionsTab() : styleTab()]);
+  fill(panel, head, body);
+}
+
+function termsTab() {
+  const scope = h('div', { class: 'tools__filter', role: 'group', 'aria-label': 'Which terms' },
+    h('button', { type: 'button', class: 'seg', 'aria-pressed': !S.ui.allTerms ? 'true' : 'false', disabled: !unit(), onclick: () => { S.ui.allTerms = false; renderPanel(); } }, 'This song'),
+    h('button', { type: 'button', class: 'seg', 'aria-pressed': S.ui.allTerms ? 'true' : 'false', onclick: () => { S.ui.allTerms = true; renderPanel(); } }, 'All terms'));
+  const filter = h('input', { type: 'search', class: 'terms__filter', id: 'terms-filter', placeholder: 'Filter terms', 'aria-label': 'Filter terms', value: S.ui.termFilter });
+  filter.addEventListener('input', () => { S.ui.termFilter = filter.value; renderTermList(listEl); });
+  const listEl = h('div', { class: 'terms' });
+  renderTermList(listEl);
+  if (!S.glossary.size) {
+    return [scope, h('div', { class: 'empty empty--inline' }, h('p', {}, 'Terms Claude proposes appear here for you to approve.'))];
+  }
+  return [scope, filter, listEl];
+}
+
+function renderTermList(listEl) {
+  const ids = S.ui.allTerms || !unit() ? [...S.glossary.values()].filter(e => e.text === S.text).map(e => e.id) : songTermIds();
+  const f = S.ui.termFilter.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
+  const all = ids.map(entry).filter(Boolean)
+    .filter(e => !f || (e.en + ' ' + e.id + ' ' + e.definition).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').includes(f));
+  const open = all.filter(e => !termDecided(e.id) && gdec(e.id)?.decision !== 'reject');
+  const done = all.filter(e => !open.includes(e));
+  const fold = s => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+  const sort = list => list.sort((a, b) => fold(a.en).localeCompare(fold(b.en)));
+  fill(listEl, 
+    open.length ? h('h3', { class: 'panel__h' }, `To decide (${open.length})`) : null,
+    ...sort(open).map(termBlock),
+    done.length ? h('h3', { class: 'panel__h' }, `Decided (${done.length})`) : null,
+    ...sort(done).map(termBlock));
+}
+
+// Readable names for ids ("Munidatta on 1.1" for cp.01.m2), rebuilt when the text's index changes.
+let placesFor = null, placesMemo = null;
+function places() {
+  const m = textMeta();
+  if (placesFor !== m) {
+    placesFor = m;
+    placesMemo = makePlaces({ prefix: m?.idPrefix || '', unitLabel: m?.unitLabel || 'Song', groupLabel: m?.groupLabel || 'passage',
+      commentator: m?.commentary || 'the commentary', comments: m?.comments || {} });
+  }
+  return placesMemo;
+}
+
+/** Go to the passage an id names, if that song is in the Studio. */
+function canGo(id) {
+  const unitId = String(id).split('.').slice(0, 2).join('.');
+  return songs().some(x => x.id === unitId && (x.reviewable || x.approved));
+}
+function goToId(id) {
+  const [, , p = ''] = String(id).split('.');
+  const unitId = String(id).split('.').slice(0, 2).join('.');
+  const part = !p ? 'head' : /^m\d+$/.test(p) ? p : /^h/.test(p) ? 'h' : p.replace(/[a-z]$/, '');
+  if (S.ui.drawer === 'panel') toggleDrawer('panel');
+  if (unitId !== S.unitId) { chooseSong(unitId); S.ui.pendingFocus = part; }
+  else focusSection(part);
+}
+const placeNode = (id, form = 'long') => canGo(id)
+  ? h('button', { type: 'button', class: 'link tb__at', onclick: ev => { ev.stopPropagation(); goToId(id); } }, places()[form](id))
+  : places()[form](id);
+
+// Where a form comes from, in words: the glossary's attestation codes (AS, AO…) spelled out.
+function formSource(f) {
+  const at = places().isId(f.where) ? f.where : '';
+  const says = {
+    AS: at ? ['in ', placeNode(at)] : null,   // the manuscript, which goes without saying
+    AO: f.lang === 'bod' ? (at ? ['in the Tibetan of ', placeNode(at)] : ['in the Tibetan translation']) : ['in another manuscript'],
+    AD: ['from the dictionaries'],
+    AA: ['an approximation'],
+    RP: ['reconstructed from its sound'],
+    RS: ['reconstructed from its sense'],
+  }[f.att];
+  return says ? h('span', { class: 'tb__src', title: !at && f.where ? f.where : null }, ' (', ...says, ')') : null;
+}
+
+/**
+ * How the image is read: the image, then each reading on its own line with who gives
+ * it and where. An edited value is shown as typed.
+ */
+function symbolicBlock(e, v) {
+  const sym = v('symbolic');
+  if (!sym) return null;
+  const parts = e.symbolicParts;
+  if (sym !== e.symbolic || !parts || (!parts.image && !parts.readings.length)) {
+    return h('p', { class: 'tb__sym' }, h('span', { class: 'tb__label' }, 'Read symbolically: '), ...richText(sym, { explain: true }));
+  }
+  // Group the places by reader: "Munidatta, at 10.2, 10.4".
+  const at = r => r.where.length ? [', at ', ...r.where.flatMap((id, i) => [i ? ', ' : null, canGo(id)
+    ? h('button', { type: 'button', class: 'link tb__at', onclick: ev => { ev.stopPropagation(); goToId(id); } }, places().ref(id)) : places().ref(id)])] : [];
+  return h('div', { class: 'tb__sym' },
+    parts.image ? h('p', {}, h('span', { class: 'tb__label' }, 'The image: '), parts.image) : null,
+    parts.readings.length ? h('p', { class: 'tb__label' }, 'Read as:') : null,
+    parts.readings.length ? h('ul', { class: 'tb__readings' }, parts.readings.map(r => h('li', {}, r.referent,
+      h('span', { class: 'tb__src' }, ' (', r.per || 'unattributed', ...at(r), ')')))) : null);
+}
+
+/** The entry's forms, one row per language: the word in its script, its transliteration, and where it comes from. */
+function formsBlock(e) {
+  const meta = textMeta();
+  const names = meta?.langNames || {}, html = meta?.htmlLangs || {};
+  const byLang = new Map();
+  for (const f of e.forms) {
+    const list = byLang.get(f.lang) || byLang.set(f.lang, []).get(f.lang);
+    if (!list.some(x => x.script === f.script && x.translit === f.translit)) list.push(f);
+  }
+  if (!byLang.size) return null;
+  const open = S.ui.termOpen === e.id;
+  return h('dl', { class: 'tb__forms' }, [...byLang].flatMap(([lang, list]) => {
+    const shown = open ? list : list.slice(0, 2);
+    return [h('dt', {}, names[lang] || lang), h('dd', {},
+      ...shown.flatMap((f, i) => [i ? h('span', { class: 'tb__sep', 'aria-hidden': 'true' }, ' · ') : null,
+        f.script ? h('span', { class: 'tb__script', lang: html[lang] || null }, f.script) : null, f.script && f.translit ? ' ' : null,
+        f.translit ? h('i', { lang: (html[lang] || 'und') + '-Latn' }, f.translit) : null, formSource(f)]),
+      list.length > shown.length ? h('span', { class: 'tb__muted' }, ` and ${list.length - shown.length} more`) : null)];
+  }));
+}
+
+function termBlock(e) {
+  const gd = gdec(e.id);
+  const live = gd && gd.entrySha === e.entrySha ? gd : null;
+  const v = f => A.glossaryValue(e, live, f);
+  const expanded = S.ui.termOpen === e.id;
+  const state = live?.decision === 'approve' ? 'Approved here' : live?.decision === 'reject' ? 'Rejected here' : live?.decision === 'defer' ? 'Deferred'
+    : e.status === 'approved' ? 'Approved' : e.status === 'rejected' ? 'Rejected' : 'Proposed by Claude';
+  const decideBtn = (value, label, cls) => h('button', { type: 'button', class: `btn ${cls}`, 'aria-pressed': live?.decision === value ? 'true' : 'false',
+    disabled: !S.env.canWrite,
+    onclick: () => { glossaryChange(e.id, (g, en) => A.glossaryDecide(g, en, live?.decision === value ? null : value, now()), { immediate: true }); renderPanel(); renderGrid(); renderRail(); } }, label);
+  const el = h('article', { class: `tb${expanded ? ' is-open' : ''}`, id: 't-' + e.id },
+    h('button', { type: 'button', class: 'tb__head', 'aria-expanded': expanded ? 'true' : 'false', onclick: () => { S.ui.termOpen = expanded ? null : e.id; renderPanel(); } },
+      h('span', { class: 'tb__en' }, v('en')), v('type') !== 'term' ? h('span', { class: 'tb__type' }, v('type')) : null, h('span', { class: 'tb__state' }, state)),
+    h('p', { class: 'tb__def' }, ...(v('definition') ? richText(v('definition'), { explain: true }) : [h('i', {}, 'No definition yet')])),
+    formsBlock(e),
+    symbolicBlock(e, v),
+    e.usedIn.length ? h('p', { class: 'tb__used' }, 'Our English uses it at ' + [...new Set(e.usedIn)].map(id => places().short(id)).join(', ')) : null,
+    h('div', { class: 'tb__actions' }, decideBtn('approve', 'Approve', 'btn--ok'), decideBtn('reject', 'Reject', 'btn--quiet'), decideBtn('defer', 'Later', 'btn--quiet')),
+    expanded ? termDetail(e, live, v) : null);
+  return el;
+}
+
+// An opened term: where it occurs and how it has been rendered, then where to look it up.
+// Editing the entry is one step further, so the card stays quiet by default.
+function termDetail(e, live, v) {
+  if (S.ui.termEdit === e.id) {
+    return h('div', { class: 'tb__more' }, termEditor(e, live, v),
+      h('button', { type: 'button', class: 'btn btn--quiet tb__editbtn', onclick: () => { S.ui.termEdit = null; renderPanel(); } }, 'Done editing'));
+  }
+  loadConcord(e.id);
+  const c = S.concord.get(e.id);
+  const names = textMeta()?.langNames || {};
+  const look = lookups(e);
+  return h('div', { class: 'tb__more' },
+    c === undefined ? h('p', { class: 'tb__muted' }, 'Finding where it occurs…')
+      : c === null ? h('p', { class: 'tb__muted' }, 'It does not occur in the source loaded so far.')
+      : usageBlock(e, c),
+    look.length ? h('div', { class: 'tb__look' }, h('h4', { class: 'tb__h' }, 'Look it up in'),
+      ...look.map(r => h('p', { class: 'look' },
+        h('span', { class: 'look__form' }, (names[r.lang] || r.lang) + ' ', h('i', {}, r.form)), ' ',
+        ...r.links.flatMap((l, i) => [i ? h('span', { class: 'look__sep', 'aria-hidden': 'true' }, ' · ') : null,
+          h('a', { href: l.href, target: '_blank', rel: 'noopener noreferrer' }, l.label)])))) : null,
+    h('button', { type: 'button', class: 'btn btn--quiet tb__editbtn', disabled: !S.env.canWrite, onclick: () => { S.ui.termEdit = e.id; renderPanel(); } }, 'Edit entry'));
+}
+
+function loadConcord(id) {
+  if (S.concord.has(id) || !S.env.db) return;
+  S.concord.set(id, undefined);
+  S.env.db.doc('concord/' + id).get()
+    .then(snap => { S.concord.set(id, snap.exists ? snap.data() : null); })
+    .catch(() => { S.concord.set(id, null); })
+    .finally(() => { if (S.ui.termOpen === id) renderPanel(); });
+}
+
+function usageBlock(e, c) {
+  const all = S.ui.concordAll === e.id;
+  const hits = all ? c.hits : c.hits.slice(0, 5);
+  const who = textMeta()?.commentary || 'the commentary';
+  const times = n => (n === 1 ? 'once' : n === 2 ? 'twice' : `${n} times`);
+  const where = c.verse && c.comm ? ` (${c.verse} in the songs, ${c.comm} in ${who}’s commentary)` : c.comm ? ` in ${who}’s commentary` : c.verse ? ' in the songs' : '';
+  return [
+    c.renderings.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__label' }, 'Translated as '),
+      ...c.renderings.flatMap((r, i) => [i ? ', ' : null, '“', h('b', {}, r.surface), '”', h('span', { class: 'tb__count' }, ` ${times(r.n)}`)])) : null,
+    c.tibetan?.forms?.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__label' }, 'The Tibetan translators wrote '),
+      ...c.tibetan.forms.flatMap((f, i) => [i ? ', ' : null, h('span', { class: 'tb__bo', lang: 'bo' }, f.script), ' ', h('i', { lang: 'bo-Latn' }, f.wylie), h('span', { class: 'tb__count' }, ` ${times(f.n)}`)]),
+      h('span', { class: 'tb__count' }, ` (of ${c.tibetan.aligned} ${c.tibetan.aligned === 1 ? 'place that has' : 'places that have'} Tibetan)`)) : null,
+    c.total ? h('h4', { class: 'tb__h' }, `Where it occurs: ${c.total} ${c.total === 1 ? 'place' : 'places'}${where}`) : null,
+    c.total ? h('ol', { class: 'kwic' }, hits.map(kwicRow)) : null,
+    c.hits.length > 5 ? h('button', { type: 'button', class: 'btn btn--quiet kwic__more',
+      onclick: () => { S.ui.concordAll = all ? null : e.id; renderPanel(); } }, all ? 'Show fewer' : `Show all ${c.hits.length}`) : null,
+    all && c.capped ? h('p', { class: 'tb__muted' }, `The first ${c.hits.length} of ${c.total} are listed.`) : null,
+  ];
+}
+
+function kwicRow(hit) {
+  const meta = textMeta();
+  const html = meta?.htmlLangs?.[hit.lang] || '';
+  const who = meta?.commentary || 'the commentary';
+  const ref = hit.kind === 'comm' ? (hit.on ? `${hit.n}.${hit.on}` : `${hit.n}`) : hit.kind === 'heading' ? `${hit.n}` : `${hit.n}.${hit.part}`;
+  const what = hit.kind === 'comm' ? (hit.on ? `${who}’s comment` : `${who}’s introduction`) : hit.kind === 'heading' ? 'Heading' : '';
+  const ell = (cut, s, end) => (cut && !(end ? s.endsWith('…') : s.startsWith('…')) ? '…' : '');
+  const line = (pre, mid, post, cut, cls, lang, wordPre = '', wordPost = '') => h('p', { class: cls, lang: lang || null },
+    ell(cut[0], pre || wordPre || '', false), pre ? pre + ' ' : '', wordPre, h('mark', {}, mid), wordPost,
+    post ? (/^[।॥|,;.:]/u.test(post) ? '' : ' ') + post : '', ell(cut[1], post || wordPost || '', true));
+  // Our English, with the term marked where it is rendered.
+  const en = () => {
+    const i = hit.surface ? hit.en.indexOf(hit.surface) : -1;
+    return h('p', { class: 'kwic__en' }, ...(i < 0 ? [hit.en] : [hit.en.slice(0, i), h('mark', {}, hit.surface), hit.en.slice(i + hit.surface.length)]));
+  };
+  return h('li', { class: 'kwic__row' },
+    h('button', { type: 'button', class: 'kwic__ref', title: `Go to ${places().long(hit.id)}`, onclick: () => goToHit(hit) }, ref),
+    h('div', { class: 'kwic__body' },
+      what ? h('p', { class: 'kwic__who' }, what) : null,
+      hit.en ? en() : null,
+      line(hit.pre, hit.hit, hit.post, hit.cut, 'kwic__src', html, hit.wordPre, hit.wordPost),
+      hit.tlHit ? line(hit.tlPre, hit.tlHit, hit.tlPost, hit.cut, 'kwic__tl', html ? html + '-Latn' : '', hit.tlWordPre, hit.tlWordPost) : null,
+      S.ui.parallel && hit.bo ? h('div', { class: 'kwic__bo' },
+        hit.bo.at ? [line(hit.bo.at.pre, hit.bo.at.hit, hit.bo.at.post, hit.bo.at.cut, 'kwic__src', 'bo'),
+          line(hit.bo.at.tlPre, hit.bo.at.tlHit, hit.bo.at.tlPost, hit.bo.at.cut, 'kwic__tl', 'bo-Latn')]
+          : [h('p', { class: 'kwic__src', lang: 'bo' }, hit.bo.src), h('p', { class: 'kwic__tl', lang: 'bo-Latn' }, hit.bo.translit)]) : null));
+}
+
+function goToHit(hit) {
+  const part = hit.kind === 'comm' ? hit.part : hit.kind === 'heading' ? 'h' : hit.part.replace(/[a-z]$/, '');
+  if (S.ui.drawer === 'panel') toggleDrawer('panel');
+  if (hit.unit !== S.unitId) { chooseSong(hit.unit); S.ui.pendingFocus = part; }
+  else focusSection(part);
+}
+
+function termEditor(e, live, v) {
+  const row = (field, label, input) => h('label', { class: 'tf' }, h('span', { class: 'tf__label' }, label), input);
+  const text = (field, multiline) => {
+    const val = v(field);
+    const el = multiline ? h('textarea', { class: 'tf__input', id: `tf-${e.id}-${field}` }) : h('input', { type: 'text', class: 'tf__input', id: `tf-${e.id}-${field}` });
+    el.value = Array.isArray(val) ? val.join('; ') : val || '';
+    el.disabled = !S.env.canWrite;
+    el.addEventListener('input', () => {
+      const value = ['alt', 'variants', 'never'].includes(field) ? el.value.split(';').map(s => s.trim()).filter(Boolean) : el.value;
+      glossaryChange(e.id, (g, en) => A.glossaryEdit(g, en, field, value, now()));
+      if (multiline) autosize(el);
+    });
+    el.addEventListener('change', () => renderPanel());
+    if (multiline) queueMicrotask(() => autosize(el));
+    return el;
+  };
+  const select = (field, options) => {
+    const el = h('select', { class: 'tf__input', id: `tf-${e.id}-${field}`, disabled: !S.env.canWrite },
+      options.map(o => h('option', { value: o, selected: v(field) === o }, o)));
+    el.addEventListener('change', () => { glossaryChange(e.id, (g, en) => A.glossaryEdit(g, en, field, el.value, now()), { immediate: true }); renderPanel(); });
+    return el;
+  };
+  return h('div', { class: 'tb__edit' },
+    row('en', 'English', text('en')),
+    row('type', 'Type', select('type', ['term', 'person', 'place', 'text'])),
+    row('policy', 'Policy', select('policy', ['translate', 'keep-source', 'keep-source-first-gloss'])),
+    row('definition', 'Definition', text('definition', true)),
+    row('symbolic', 'Image → reading (who, passage)', text('symbolic', true)),
+    row('alt', 'Other renderings (separate with ;)', text('alt')),
+    row('variants', 'Accepted variants (plural, possessive)', text('variants')),
+    row('never', 'Never inside a verse line', text('never')),
+    h('p', { class: 'tb__note' }, 'Changing a field clears an approval, so you approve exactly what you see.'));
+}
+
+function questionsTab() {
+  const u = unit();
+  if (!u) return [h('p', { class: 'empty empty--inline' }, 'Choose a song to see the drafter’s questions.')];
+  if (!u.questions.length) return [h('p', { class: 'empty empty--inline' }, 'The drafter had no questions about this song.')];
+  const answers = new Map((liveDecision()?.answers || []).map(a => [a.q, a.a]));
+  return [h('p', { class: 'panel__lead' }, 'Your answers travel with this song to the next draft.'),
+    ...u.questions.map((q, i) => {
+      const ta = h('textarea', { class: 'tf__input', id: `qa-${i}`, placeholder: 'Your answer', disabled: !S.env.canWrite });
+      ta.value = answers.get(q) || '';
+      ta.addEventListener('input', () => { autosize(ta); answerQuestion(q, ta.value); });
+      queueMicrotask(() => autosize(ta));
+      ta.setAttribute('aria-labelledby', `qa-q-${i}`);
+      return h('div', { class: 'qa' }, h('p', { class: 'qa__q', id: `qa-q-${i}` }, ...richText(q, { explain: true })), ta);
+    })];
+}
+
+function styleTab() {
+  const meta = textMeta();
+  const style = (meta?.style || '').split('\n').filter(l => /^\s*-\s+\S/.test(l)).map(l => l.replace(/^\s*-\s+/, ''));
+  return [
+    h('p', { class: 'panel__lead' }, 'Standing preferences Claude follows in every draft of this text.'),
+    style.length ? h('ul', { class: 'style' }, style.map(s => h('li', {}, s))) : h('p', { class: 'empty empty--inline' }, 'No style notes yet.'),
+    promptBox(`Add to my style notes for ${meta?.title || 'this text'}: …`),
+  ];
+}
+
+// ---------------------------------------------------------------- bottom bar (phones) and sheets
+function renderBar() {
+  const bar = $('#bar'); if (!bar) return;
+  const sec = secByPart(S.ui.focus);
+  if (!sec || !M.reviewable(sec) || !S.env.canWrite) { fill(bar); return; }
+  const d = dsec(sec.part);
+  fill(bar, 
+    h('span', { class: 'bar__where' }, labelOf(sec)),
+    h('button', { type: 'button', class: 'btn btn--ok', onclick: () => approveAndMove(sec.part) }, d?.decision === 'ok' ? 'Approved' : 'Approve'),
+    h('button', { type: 'button', class: 'btn btn--quiet', onclick: () => startEdit(sec.part, firstField(sec)) }, 'Edit'),
+    h('button', { type: 'button', class: 'btn btn--quiet', onclick: () => { S.ui.redraftOpen = sec.part; renderSection(sec.part); focusSection(sec.part); } }, 'Redraft'));
+}
+
+function renderSheet() {
+  const sheet = $('#sheet'); if (!sheet) return;
+  if (!S.ui.sheet) { sheet.hidden = true; fill(sheet); return; }
+  const close = () => { S.ui.sheet = null; renderSheet(); $('#grid')?.focus(); };
+  let body;
+  if (S.ui.sheet === 'keys') {
+    const rows = [['J or ↓', 'Next passage'], ['K or ↑', 'Previous passage'], ['E or Enter', 'Edit the passage'], ['Esc', 'Stop editing'],
+      ['Ctrl+Enter', 'Approve and go to the next passage'], ['Ctrl+Shift+Enter', 'Approve and go to the next that needs attention'],
+      ['R', 'Ask for a redraft, with a note'], ['Ctrl+K', 'Insert a glossary term while editing'], ['D', 'Show changes from Claude’s draft'], ['T', 'Show the Tibetan translation'],
+      ['[ and ]', 'Previous and next song'], ['T', 'Terms'], ['?', 'This list']];
+    body = [h('h2', { class: 'sheet__h', id: 'sheet-h' }, 'Keyboard'),
+      h('p', { class: 'panel__lead' }, 'Single keys work when a passage has focus. Every action also has a button.'),
+      h('dl', { class: 'keys' }, rows.map(([k, v]) => [h('dt', {}, h('kbd', {}, k)), h('dd', {}, v)]))];
+  } else if (S.ui.sheet === 'send') {
+    const u = unit(); const meta = textMeta(); const p = u ? M.progress(u, liveDecision()) : { ok: 0, redraft: 0, total: 0 };
+    const left = p.total - p.ok - p.redraft;
+    body = [h('h2', { class: 'sheet__h', id: 'sheet-h' }, 'Sent to Claude'),
+      h('p', {}, `${meta.unitLabel} ${u?.n} is marked ready. ${p.ok} approved, ${p.redraft} for redraft${left ? `, ${left} still undecided (they stay in review)` : ''}.`),
+      h('p', {}, 'The Studio can’t reach Claude by itself. Paste this into the Claude Code session:'),
+      promptBox(`Pull my Studio decisions for ${meta.title}.`),
+      h('p', { class: 'panel__lead' }, 'When Claude has read them, this song shows “Claude has this”.')];
+  }
+  sheet.hidden = false;
+  fill(sheet, h('div', { class: 'sheet__card', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'sheet-h' },
+    ...body, h('div', { class: 'sheet__actions' }, h('button', { type: 'button', class: 'btn btn--primary', id: 'sheet-close', onclick: close }, 'Done'))));
+  setTimeout(() => $('#sheet-close')?.focus(), 0);
+}
+
+// ---------------------------------------------------------------- navigation
+function chooseText(slug) {
+  S.text = slug; store('studio:text', slug);
+  const first = songs().find(s => s.id === store('studio:song:' + slug)) || songs().find(s => s.reviewable || s.approved);
+  chooseSong(first?.id || '');
+}
+
+function chooseSong(id) {
+  finishEdit();
+  S.unitId = id; S.unit = null; S.ui.focus = 'head'; S.ui.filter = 'all'; S.ui.previous = null;
+  if (id) { store('studio:song:' + S.text, id); sync?.watchUnit(id); }
+  if (S.ui.drawer === 'rail') toggleDrawer('rail');
+  renderAll();
+}
+
+function songStep(delta) {
+  const list = songs().filter(s => s.reviewable || s.approved);
+  const i = list.findIndex(s => s.id === S.unitId);
+  const next = list[i + delta];
+  if (next) chooseSong(next.id);
+}
+
+// ---------------------------------------------------------------- keyboard
+function onKey(ev) {
+  if (ev.key === 'Escape' && pop.el && !pop.el.hidden) { ev.preventDefault(); closePop(true); return; }
+  if (S.ui.sheet) { if (ev.key === 'Escape') { ev.preventDefault(); S.ui.sheet = null; renderSheet(); } return; }
+  const t = ev.target;
+  const typing = t && (t.tagName === 'TEXTAREA' || t.tagName === 'INPUT' || t.tagName === 'SELECT' || t.isContentEditable);
+  if (typing) return;           // editors handle their own keys
+  const mod = ev.ctrlKey || ev.metaKey;
+  const inSection = t && t.closest && t.closest('.sec');
+  const sec = secByPart(S.ui.focus);
+  if (mod && ev.key === 'Enter' && sec) { ev.preventDefault(); approveAndMove(sec.part, { attentionOnly: ev.shiftKey }); return; }
+  if (mod || ev.altKey) return;
+  if (ev.key === '?') { ev.preventDefault(); S.ui.sheet = 'keys'; renderSheet(); return; }
+  if (ev.key === '[') { songStep(-1); return; }
+  if (ev.key === ']') { songStep(1); return; }
+  if (ev.key === 'Escape' && S.ui.drawer) { toggleDrawer(S.ui.drawer); return; }
+  const onGrid = inSection || t === $('#grid') || t === document.body;
+  if (!onGrid) return;
+  if (ev.key === 'j' || ev.key === 'ArrowDown') { ev.preventDefault(); moveFocus(1); }
+  else if (ev.key === 'k' || ev.key === 'ArrowUp') { ev.preventDefault(); moveFocus(-1); }
+  else if ((ev.key === 'e' || ev.key === 'Enter') && sec && inSection && t.tagName !== 'BUTTON' && t.tagName !== 'A') { ev.preventDefault(); startEdit(sec.part, firstField(sec)); }
+  else if (ev.key === 'r' && sec && M.reviewable(sec)) { ev.preventDefault(); S.ui.redraftOpen = sec.part; renderSection(sec.part); setTimeout(() => $(`#next-${sec.part}`)?.focus(), 0); }
+  else if (ev.key === 'd') { S.ui.diff = !S.ui.diff; renderGrid(); announce(S.ui.diff ? 'Showing changes from Claude’s draft.' : 'Showing your text.'); }
+  else if (ev.key === 't' && unit()?.parallels?.length) { setParallel(!S.ui.parallel); announce(S.ui.parallel ? 'Showing the Tibetan.' : 'Tibetan hidden.'); }
+  else if (ev.key === 't') { S.ui.tab = 'terms'; renderPanel(); }
+}
+
+// ---------------------------------------------------------------- data in
+function onCollection(name, docs) {
+  if (name === 'meta') {
+    S.meta = docs;
+    if (!S.text || !S.meta.has('text-' + S.text)) {
+      const texts = [...docs.values()].filter(m => m.slug);
+      const remembered = store('studio:text');
+      const pick = texts.find(m => m.slug === remembered) || texts[0];
+      if (pick) { S.text = pick.slug; const song = pick.songs.find(s => s.id === store('studio:song:' + pick.slug)) || pick.songs.find(s => s.reviewable || s.approved); if (song) { S.unitId = song.id; sync.watchUnit(song.id); } }
+    }
+  } else if (name === 'glossary') S.glossary = docs;
+  else if (name === 'receipts') S.receipts = docs;
+  else if (name === 'decisions') {
+    for (const [id, doc] of docs) if (!sync.dirty('decisions/' + id)) S.decisions.set(id, doc);
+  } else if (name === 'glossaryDecisions') {
+    for (const [id, doc] of docs) if (!sync.dirty('glossaryDecisions/' + id)) S.gdecisions.set(id, doc);
+  }
+  S.loaded.add(name);
+  if (!S.env.started && ['meta', 'glossary', 'decisions', 'glossaryDecisions'].every(n => S.loaded.has(n))) S.env.started = true;
+  if (!S.env.started) return;
+  if (name === 'decisions' && S.ui.editing) { renderTop(); renderRail(); renderBanner(); return; }
+  scheduleRender();
+}
+
+function onUnit(id, doc) {
+  if (id !== S.unitId) return;
+  if (doc && doc.v > 1) { S.unit = null; S.env.fatal = { code: 'version' }; renderBanner(); return; }
+  S.unit = doc;
+  if (S.ui.editing) return;          // never pull the text out from under an editor
+  scheduleRender();
+}
+
+let pending = 0;
+function scheduleRender() {
+  if (pending) return;
+  pending = requestAnimationFrame(() => {
+    pending = 0;
+    if (!S.ui.editing) renderAll(); else { renderTop(); renderRail(); renderPanel(); renderBanner(); }
+    // A concordance line in another song: focus its passage once that song has loaded.
+    if (S.ui.pendingFocus && unit()) { const p = S.ui.pendingFocus; S.ui.pendingFocus = null; focusSection(p); }
+  });
+}
+
+// ---------------------------------------------------------------- boot
+function renderAbsent(reason) {
+  $('#app').removeAttribute('aria-busy');
+  fill($('#app'), h('div', { class: 'absent' },
+    h('p', { class: 'brand' }, h('span', { class: 'brand__mark', 'aria-hidden': 'true' }, '॥'), h('span', { class: 'brand__name' }, 'Studio')),
+    h('h1', { class: 'absent__title' }, 'Open this Studio in Claude'),
+    h('p', {}, reason === 'top'
+      ? 'This page is a private review workspace. It works only inside claude.ai or the Claude app, where it can reach its database.'
+      : 'This Studio keeps your review in its own database, and this view can’t reach it. Open it in claude.ai or the Claude app, signed in as its owner.'),
+    h('p', { class: 'panel__lead' }, 'Nothing is lost: the drafts and your decisions are stored with the Studio, not in this browser.')));
+}
+
+async function boot() {
+  document.addEventListener('keydown', onKey);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') sync?.flushAll(); });
+  renderAll();
+  if (!window.claude || typeof window.claude.use !== 'function') { S.env.noClaude = true; renderAbsent('top'); return; }
+  const [db, user, sample] = await Promise.all([window.claude.use('db'), window.claude.use('user'), window.claude.use('sample')]);
+  if (!db) { renderAbsent('db'); return; }
+  S.env.db = db;
+  S.env.sample = sample || null;
+  if (user) { const can = await user.can('data.write'); S.env.canWrite = can !== false; }
+  sync = createSync(db, {
+    onCollection, onUnit,
+    onSaveState: state => { S.save = state; renderTop(); },
+    onFatal: e => { S.env.fatal = e; S.env.canWrite = false; renderBanner(); renderTop(); },
+  });
+}
+
+return { boot };
+})();
+// studio/src/main.mjs
+const __m0 = (() => {
+const { boot } = __m1;
+/*import ./app.mjs*/
+
+boot();
+
+return {  };
+})();
+})();
+</script>
+</body></html>

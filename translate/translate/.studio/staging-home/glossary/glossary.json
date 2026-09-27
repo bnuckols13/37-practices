@@ -1,0 +1,138 @@
+{
+  "entries": [
+    {
+      "id": "mahasukha",
+      "type": "term",
+      "status": "proposed",
+      "en": "great bliss",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহাসুহ",
+          "translit": "mahāsuha",
+          "lemma": "",
+          "att": "AS",
+          "where": "fx.01.2a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মহাসুহ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The bliss realized in tantric practice, identified with the innate nature of mind.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "fixture"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "p-luyi",
+      "type": "person",
+      "status": "proposed",
+      "en": "Lūyī",
+      "alt": [
+        "Lūyīpāda"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লুই",
+          "translit": "lui",
+          "lemma": "",
+          "att": "AS",
+          "where": "fx.01.2b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "লুই"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A siddha to whom the first song is attributed.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "fixture"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "taruvara",
+      "type": "term",
+      "status": "proposed",
+      "en": "tree",
+      "alt": [
+        "fine tree"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তরুবর",
+          "translit": "tarubara",
+          "lemma": "",
+          "att": "AS",
+          "where": "fx.01.1a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "তরুবর"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A fine or excellent tree; in the songs, the body pictured as a tree.",
+      "symbolic": {
+        "image": "the body as a tree with five branches",
+        "readings": [
+          {
+            "referent": "the five aggregates",
+            "per": "Munidatta",
+            "where": [
+              "fx.01.m1"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "aggregates"
+      ],
+      "texts": [
+        "fixture"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    }
+  ]
+}

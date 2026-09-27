@@ -2656,6 +2656,48 @@
       }
     },
     {
+      "id": "balayogin",
+      "type": "term",
+      "status": "proposed",
+      "en": "novice yogin",
+      "alt": [
+        "beginner in yoga"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বালযোগিন্",
+          "translit": "bālayogin",
+          "lemma": "bālayogin",
+          "att": "AS",
+          "where": "cp.15.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "বালযোগি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A beginner in yoga. Munidatta addresses the novice yogin (bālayogin) where the song calls out \"fool\" (mūḍha), and says the ocean of illusion has no end for him (cp.15.m3, cp.15.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "bandhana",
       "type": "term",
       "status": "proposed",
@@ -6869,7 +6911,8 @@
           "দ্যূত"
         ],
         "bod": [
-          "རྒྱན་པོ་འགྱེད"
+          "རྒྱན་པོ་འགྱེད",
+          "རྒྱན་པོ"
         ]
       },
       "matchRe": {},
@@ -14116,7 +14159,6 @@
           "নাড়ি"
         ],
         "bod": [
-          "རྩ",
           "ནཱ་ཌི",
           "ནཱ་ཌཱི"
         ],
@@ -14124,7 +14166,11 @@
           "নাড়ি"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<=^|[\\u0F04-\\u0F14\\s])(?<!ཅུ་)རྩ(?=$|[།༎\\s]|འི|་(?!བ(?:་|།|འི)|ནས|དང་ཚེར|བཞི))"
+        ]
+      },
       "definition": "A channel of the subtle body. In tantric yoga the vital winds move through a network of channels, of which the chief three are lalanā, rasanā and the central avadhūtī. Munidatta speaks of pressing these three (cp.04.m2).",
       "symbolic": {
         "image": "",
@@ -14602,6 +14648,69 @@
         "true guru",
         "teacher"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "nidra",
+      "type": "term",
+      "status": "proposed",
+      "en": "sleep",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিংদ",
+          "translit": "niṃda",
+          "lemma": "niṃda",
+          "att": "AS",
+          "where": "cp.13.4b"
+        },
+        {
+          "lang": "san",
+          "script": "প্রতিনিদ্রাস্ত্যানরহিততয়া",
+          "translit": "pratinidrāstyānarahitatayā",
+          "lemma": "nidrā",
+          "att": "AS",
+          "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིད",
+          "translit": "gnyid",
+          "lemma": "gnyid",
+          "att": "AO",
+          "where": "cp.13.4b"
+        }
+      ],
+      "match": {
+        "bod": [
+          "གཉིད"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])নিংদ(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<!যোগ)নিদ্রা"
+        ]
+      },
+      "definition": "Sleep (Sanskrit nidrā; Old Bengali niṃda; Tibetan gnyid). With dream, a stock comparison for how things appear without being real. Song 13 speaks of a dream without sleep, and Munidatta says one free of sleep and torpor sees things in the waking state as in a dream (cp.13.m5). Distinct from yogic sleep (yoganidrā).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -25829,11 +25938,13 @@
           "থোপায়",
           "ন্দোপায়"
         ],
+        "bod": []
+      },
+      "matchRe": {
         "bod": [
-          "ཐབས"
+          "(?<=^|[\\u0F04-\\u0F14\\s])(?<!ཕན་)ཐབས(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|འམ|འང|འུ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
         ]
       },
-      "matchRe": {},
       "definition": "Means or method (upāya): in Mahāyāna thought the skilful, compassionate method by which awakening is reached, paired with wisdom (prajñā); in the tantras it is pictured as male. Munidatta calls the refrain of song 13 praise of 'the fourth means', and the boat 'the boat of the means of the fourth joy' (cp.13.m3). The Tibetan has thabs.",
       "symbolic": {
         "image": "",

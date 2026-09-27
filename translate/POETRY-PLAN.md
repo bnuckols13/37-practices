@@ -1,26 +1,27 @@
 # The poetry workshop: study and practice across traditions
 
-> **Status:** research under way (27 Sept 2026): four notes in progress, Morton, the Sufi poets, the Zen mountain poets and Shakespeare. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
+> **Status:** research under way (27 Sept 2026): five notes in progress, Morton, the Sufi poets, the Zen mountain poets, Shakespeare and the Irish bardic tradition. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
 
 ## Why
 
-The Workshop makes English poems from the caryās through Western lenses, and it reads every English on Morton's mixing board ([`research/how-to-read-a-song.md`](research/how-to-read-a-song.md), [`research/western-lenses.md`](research/western-lenses.md)). This plan widens it into a whole practice of reading and making poems: Morton read in depth, then three traditions studied by one method, each put to work in the engine and the Workshop.
+The Workshop makes English poems from the caryās through Western lenses, and it reads every English on Morton's mixing board ([`research/how-to-read-a-song.md`](research/how-to-read-a-song.md), [`research/western-lenses.md`](research/western-lenses.md)). This plan widens it into a whole practice of reading and making poems: Morton read in depth, then four traditions studied by one method, each put to work in the engine and the Workshop.
 
 - **Morton**, as the method of reading.
 - **Rumi and the Sufi poets**, Arabic and Persian.
 - **The Zen mountain poets**, Chinese and Japanese.
 - **Shakespeare's sonnets**, centred on Sonnet 29 ("Like to the lark at break of day arising / From sullen earth, sings hymns at heaven's gate"), which Judi Dench has performed.
+- **The Irish bardic tradition**, from the poet-seers and the bardic schools to the street rhymers, ending with Michael Moran, "Zozimus" (c. 1794–1846), the blind rhymer of Dublin whom Yeats called "The Last Gleeman": a figure of special importance to the maker.
 
-## The one idea: the same problems, solved four ways
+## The one idea: the same problems, solved five ways
 
 Every tradition here solves the problems a caryā solves. The study is organised around them:
 
-| problem | caryā | Sufi | Zen | Shakespeare |
-|---|---|---|---|---|
-| **The line that comes back** (Morton's absolute rhyme, the hottest pole) | the refrain, ধ্রু | the ghazal's *radīf*; *dhikr*, the repeated divine names | the parallel couplet; the linked verse's return | "state", "like", "heaven" struck again and changed |
-| **The singer who signs the song** | the bhaṇitā, "Lūyī says" | the *takhalluṣ* in the last couplet (Rumi signs *Khāmūsh*, "Silent", or Shams) | Hanshan named for his mountain | the sonnet that says it will outlive its subject |
-| **The answering poem** | (versions, here) | *naẓīra*: a reply in the same metre and rhyme | *hè shī*, *cì yùn*: a reply on a friend's rhyme words | imitation (Dryden's third kind) |
-| **The double language** | *sandhyā-bhāṣā*, twilight language | wine, tavern and beloved read as the path | the capping phrase answering a koan | the conceit |
+| problem | caryā | Sufi | Zen | Shakespeare | Bardic |
+|---|---|---|---|---|---|
+| **The line that comes back** (Morton's absolute rhyme, the hottest pole) | the refrain, ধ্রু | the ghazal's *radīf*; *dhikr*, the repeated divine names | the parallel couplet; the linked verse's return | "state", "like", "heaven" struck again and changed | the *dúnadh*: the poem closes on the word it opened with; the keen's cry |
+| **The singer who signs the song** | the bhaṇitā, "Lūyī says" | the *takhalluṣ* in the last couplet (Rumi signs *Khāmūsh*, "Silent", or Shams) | Hanshan named for his mountain | the sonnet that says it will outlive its subject | "Zozimus", the name the rhymer took from his own best-known recitation (to verify) |
+| **The answering poem** | (versions, here) | *naẓīra*: a reply in the same metre and rhyme | *hè shī*, *cì yùn*: a reply on a friend's rhyme words | imitation (Dryden's third kind) | the Contention of the Bards (*Iomarbhá na bhFileadh*, 1616–24) |
+| **The double language** | *sandhyā-bhāṣā*, twilight language | wine, tavern and beloved read as the path | the capping phrase answering a koan | the conceit | the *aisling*: the woman in the vision is Ireland |
 
 The last row pulls against Morton's rule, "no symbolism". The edition already settles it in its own way: the tradition's reading of an image lives in the notes, and the line keeps its strangeness. The study tests that rule against each tradition and says where it holds.
 
@@ -71,7 +72,16 @@ Rumi wrote mainly in Persian, in a metre inherited from Arabic (*ʿarūḍ*, cod
 - **Other sonnets for contrast.** 18, 73 and 116.
 - **Performance.** Find and cite the Judi Dench performance. Claude cannot watch or hear video, so the study reads the text for breath and phrasing, and the maker listens and marks where the voice lifts. That becomes an exercise: perform it yourself.
 
-## 5. The maker's own poems
+## 5. The Irish bardic tradition, to Zozimus
+
+- **The arc.** The *fili* (poet-seers), the early Irish hermit lyrics (the blackbird over Belfast Lough, Pangur Bán), the classical bardic order (c. 1200–1650: the *ollamh*, the schools, praise and satire), its collapse in the seventeenth century, the song tradition in Irish (*aisling*, the keen, *sean-nós*), and the Hiberno-English street ballad and the gleemen.
+- **Zozimus.** Michael Moran: blind from infancy, reciting in the streets of the Liberties; his name taken from a poem on St Mary of Egypt, the sinner who became a desert saint, found by the monk Zosimas; his "Moses" and mock-heroic couplets; Yeats's "The Last Gleeman" (*The Celtic Twilight*, 1893). Every detail verified, legend kept apart from record.
+- **Practice.** Years of training in the bardic schools and composition lying down in darkness (the Clanricarde *Memoirs*, 1722; Martin Martin, 1703); the Contention of the Bards; the keen as women's improvised lament; the gleeman's memory and street voice.
+- **Machinery.** Syllabic *dán díreach* (*deibhidhe*, *rannaíocht*, *séadna*), where English counts stresses; Irish rhyme by classes of consonant (*comhardadh*); alliteration (*uaim*); *aicill* (a line-end answered inside the next line); the *dúnadh*; the accentual song metres and their assonance; Hiberno-English syntax as the carrier of Irish into English.
+- **Touchstones.** An Old Irish hermit lyric; a bardic quatrain with its scansion; the opening of *Caoineadh Airt Uí Laoghaire* (Eibhlín Dubh Ní Chonaill, 1773); a Zozimus recitation.
+- **In English.** Mangan, Ferguson, Hyde's *Love Songs of Connacht* (1893), Kuno Meyer, Yeats, Austin Clarke's assonance, Frank O'Connor, Kinsella, Heaney's *Sweeney Astray* (the mad king-poet in the trees, kin to Hanshan), Ciaran Carson.
+
+## 6. The maker's own poems
 
 The maker's poems (in their Google Drive) are read as a fifth study, by the same method, so the practice starts from the maker's own forms and habits rather than a generic workshop. They are read in the session and never committed; notes on them stay in `.private/`.
 
@@ -79,27 +89,27 @@ The maker's poems (in their Google Drive) are read as a fifth study, by the same
 - **Their own revision method:** one channel per draft (structure, texture, perception, narrator, narrative), which the Workshop keeps as a way of working.
 - **Response to a poem** keeps the poet in control: Liz Lerman's Critical Response Process order (statements of meaning, the poet's questions, neutral questions, opinions only when asked), with the board as the evidence.
 
-## 6. Synthesis, then building
+## 7. Synthesis, then building
 
 - **A comparison note:** what works in poems everywhere, and what it changes in the edition's translation rules.
-- **Lenses** in `prompts/lenses.json`, each with its board: Ghazal (*radīf* and signature), *Masnavī* couplets, *Rubāʿī* (aaba), Cold Mountain, Parallel couplet, Haiku cut, Shakespearean sonnet.
-- **The English ear** (`lib/english.mjs`, `lib/reading.mjs`): find a *radīf*, measure parallelism between two half-lines, find the turn, measure how regular a pentameter runs.
+- **Lenses** in `prompts/lenses.json`, each with its board: Ghazal (*radīf* and signature), *Masnavī* couplets, *Rubāʿī* (aaba), Cold Mountain, Parallel couplet, Haiku cut, Shakespearean sonnet, Bardic (syllable count, inner rhyme, *dúnadh*), Keen, Gleeman, Hermit lyric.
+- **The English ear** (`lib/english.mjs`, `lib/reading.mjs`): find a *radīf*, measure parallelism between two half-lines, find the turn, measure how regular a pentameter runs, find a *dúnadh*, an *aicill* and inner rhyme.
 - **The Workshop:**
   - a **Study** room: the touchstone poems read on the board, annotated;
-  - a **Practice** room: daily exercises (the answering poem, one-word revision, the capping phrase, read aloud, Hotter and Cooler);
+  - a **Practice** room: daily exercises (the answering poem, one-word revision, the capping phrase, composing in the dark, closing on the first word, learning by heart and saying it in the street voice, read aloud, Hotter and Cooler);
   - a **Your poems** room: the maker's own poem on the board, drafts side by side, one channel per draft;
   - the existing drafting of versions of the songs.
 
 ## Rules
 
 - Every claim cites a scholar, with the same verification marks as the existing research notes.
-- Long quotation only from originals and out-of-copyright translations (Shakespeare, Nicholson, Whinfield, FitzGerald, Pound's *Cathay*). Barks, Snyder, Hinton and other living translators are discussed and quoted briefly. The overlap guard still applies.
+- Long quotation only from originals and out-of-copyright translations (Shakespeare, Nicholson, Whinfield, FitzGerald, Pound's *Cathay*, Meyer, Hyde, Mangan, the Zozimus texts). Barks, Snyder, Hinton and other living translators are discussed and quoted briefly. The overlap guard still applies.
 - Persian, Arabic and Chinese are read through scholarship and dictionaries, not natively; notes say so where it matters.
 - Versions of the songs still keep every image, the refrain and the shape, and keep the tradition's readings out of their lines ([`prompts/tasks/version.md`](prompts/tasks/version.md)).
 
 ## Order of work
 
-1. Research notes, in parallel: Morton, the Sufi poets, the Zen mountain poets, Shakespeare. Shown to the maker before anything is built.
+1. Research notes, in parallel: Morton, the Sufi poets, the Zen mountain poets, Shakespeare, the bardic tradition. Shown to the maker before anything is built.
 2. The comparison note.
 3. Lenses and the English ear, with tests.
 4. The Workshop's Study and Practice rooms; rebuilt and republished to the same URL.

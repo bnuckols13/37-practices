@@ -153,33 +153,49 @@ A reviewer may prefer plain "Tokme Zangpo", since "Gyalse" is an honorific and t
 
 ---
 
-## 5. Suggested outline (headings and what goes under them)
+## 5. Recommended outline
 
-This is a structure, not text. Page pointers for every item are in reading-guide.md, under the same headings.
+This structure is modelled on Wikipedia's Good Articles about premodern figures known through traditional biographies:
+- *Buddhaghosa*: Name → Biography → his thought → works → legacy.
+- *Aṅgulimāla*: textual sources → the story → scholarly analysis.
+- *Matsuo Bashō*: biography → influence → works.
 
-1. **Lead** (2–3 short paragraphs, written *last*). Summarise the body:
-   - who he was;
-   - dates and place;
-   - what he's known for (the 37 Practices);
-   - the one or two most important facts about his life and works.
-   - Leave out anything that isn't in the body.
-2. **Names**: birth name, novice name, how he got "Tokme" and "Gyalse", why "Ngulchu", and the variant spellings (in a footnote).
-3. **Life**
-   - *Sources for his life*: the three early biographies, and a note that they are hagiographic. This short subsection makes the rest easy to write neutrally.
-   - *Early life and education*
-   - *Tara monastery and Bodong É*: follow the early biographies, and footnote the conflicting "abbot of Bodong É" claim.
-   - *Retreat at Ngulchu and later life*
-   - *Death*
-4. **Reputation for compassion**, or fold this into Life. Attribute every story: "According to his earliest biography…".
-5. **Works**
-   - *Collected works*: the four editions and the 113/114 texts.
-   - *Commentaries*: on the Bodhicaryāvatāra, the Mahāyānasūtrālaṃkāra and the Ratnagotravibhāga.
-   - *Mind-training writings*: including his lineage text, with Chien's argument attributed to her.
-   - *The Thirty-Seven Practices of Bodhisattvas*: composition, structure, reception and commentaries.
-6. **Legacy**: how Sakya, Kadam and Gelug each claim him; his students; the site today; the painting.
-7. Then **Notes**, **References**, **Further reading**, **External links**, `{{Authority control}}` and categories, in that order ([MOS:ORDER](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Layout#Order_of_article_elements)).
+The one principle behind it: **datable facts go in Life, the traditional stories and the scholarship about them go in their own section, and each fact is told in only one place.**
 
----
+Target: about 2,500–3,000 words, similar to the Buddhaghosa and Bashō Good Articles. The workbench shows a word target for each section.
+
+| # | Section (level) | What goes in it | ~Words |
+|---|---|---|---|
+| — | **Lead** (no heading) | Summary of the body; written **last** | 225 |
+| 1 | **Names and titles** (==) | What each name means, briefly; variant spellings in a footnote. Tell the stories behind the names where they happen. | 130 |
+| 2 | **Life** (==) | Chronological, datable facts | ~1,050 |
+| | Biographical sources (===) | The three early biographies; their hagiographic nature | 120 |
+| | Early life and education (===) | 1295 birth → orphaned → novice 1308 → studies, teachers, the "Tokme" debate → full ordination about 1325 | 350 |
+| | Tara monastery and Bodong É (===) | Head of Tara from 1326; declined Bodong É in 1333; the conflicting claim in a footnote | 220 |
+| | Retreat at Ngulchu and later years (===) | 1337 retreat, the patrons who invited him, 1361–63 travels | 250 |
+| | Death (===) | 1369, Ngulchu; no reincarnation line | 110 |
+| 3 | **Portrayal in the biographies** (==) | How the early lives present him as a model of compassion: the lice story (which explains "Gyalse"), one or two others, all attributed. Then Chien's analysis: stock motifs, the Asaṅga parallel, the biographer's aims. | 350 |
+| 4 | **Works** (==) | Thematic, most important first | ~900 |
+| | *The Thirty-Seven Practices of Bodhisattvas* (===) | Title, composition story, colophon, structure, scholarly assessment, commentary history, modern teachers | 400 |
+| | Mind-training writings (===) | The Seven-Point commentaries; his lineage text; Chien's argument | 200 |
+| | Scholastic commentaries (===) | Bodhicaryāvatāra, Mahāyānasūtrālaṃkāra, Ratnagotravibhāga; the 2026 English translation | 150 |
+| | Collected works (===) | Four editions, 113/114 texts, the editors' role | 150 |
+| 5 | **Legacy** (==) | How Sakya, Kadam and Gelug each claim him; how he's remembered; students; the hermitage today; the painting | 300 |
+| | Notes · References (Citations, Sources) · Further reading · External links | [MOS:ORDER](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Layout#Order_of_article_elements) | |
+
+**Why this shape:**
+- **Portrayal gets its own section rather than sitting inside Life.** Life stays verifiable and neutral. The stories are then framed as what the biographies say and how scholars read them, which is exactly how the Aṅgulimāla Good Article handles tradition, and how reviewers want hagiography handled. Chien's 2020 article on how his biography builds his sanctity makes this section strongly sourced.
+- ***The Thirty-Seven Practices* comes first under Works** because it's why readers come. Collected works goes last because it's bibliographic detail.
+- **Names and titles is short.** The name stories are events, so they belong in the narrative; the Names section only says what each name means.
+
+**Structure rules reviewers check:**
+- No section with just one subsection.
+- No one-sentence paragraphs.
+- Headings in sentence case.
+- No "See also" entries that are already linked in the text.
+- No "In popular culture" section.
+
+**Writing order** (different from reading order): Life → Works → Portrayal → Legacy → Names and titles → Lead.
 
 ## 6. Writing rules reviewers actually check
 

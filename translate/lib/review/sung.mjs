@@ -14,7 +14,7 @@ import { partOf, passageNo } from '../ids.mjs';
 import * as markup from '../markup.mjs';
 import { withHeader, isEdited, quote, decision } from './sheet.mjs';
 import { parseSheet } from './parse.mjs';
-import { soundProfile } from '../sound.mjs';
+import { soundProfile, songAdvice } from '../sound.mjs';
 import { accurateEnglish, sungKey } from '../pack.mjs';
 import { ApprovedSung } from '../../schemas/sung.mjs';
 
@@ -41,6 +41,7 @@ export function writeSungSheet(slug, id, { force = false } = {}) {
   const profile = soundProfile(unit);
   const acc = new Map(accurateEnglish(slug, unit).lines.map(l => [l.id, l.en]));
   const sungLine = new Map(sung.lines.map(l => [l.id, l.en]));
+  const advice = songAdvice(sung.lines, accurateEnglish(slug, unit).lines, markup.strip);
 
   const out = [
     `# ${text.unitLabel} ${unit.n}${poet ? ' · ' + poet : ''}${unit.raga ? ' · rāga ' + unit.raga : ''} · sung version`,
@@ -62,6 +63,7 @@ export function writeSungSheet(slug, id, { force = false } = {}) {
       ...lines.map(l => `${l.src}   ${l.translit}`),
       `The source ${RHYME_WORD[c.rhyme]}${c.rhyme !== 'none' ? ` on -${c.halves.map(h => h.end.sound).join(' / -')}` : ''}.`,
       ...lines.map(l => `accurate ${partOf(l.id)}: ${acc.get(l.id) || ''}`),
+      ...advice.filter(a => lines.some(l => a.startsWith(l.id + ':'))).map(a => 'NOTE ' + a),
     ].join('\n')));
     for (const l of lines) out.push(`**Sung ${partOf(l.id)}:** ${sungLine.get(l.id) || ''}`);
     out.push(`**Kept:** ${note.kept}`, `**Let go:** ${note.letGo}`, '**Decision:**', '**Note to next draft:**');

@@ -157,7 +157,10 @@ const commands = {
   async ingest() {
     const { ingest } = await import('./lib/ingest.mjs');
     const res = ingest(slug, await unitsFor(slug, sel), { task: o.task || 'draft', model: o.model });
-    for (const r of res) log(`  ${r.unit}: ${r.ok ? 'ok -> ' + rel(r.wrote) : 'skipped (' + r.reason + ')'}`);
+    for (const r of res) {
+      log(`  ${r.unit}: ${r.ok ? 'ok -> ' + rel(r.wrote) : 'skipped (' + r.reason + ')'}`);
+      for (const a of r.advice || []) log(`    ~ ${a}`);
+    }
     const added = res.flatMap(r => r.proposals || []);
     if (added.length) log(`  glossary: proposed ${[...new Set(added)].join(', ')}`);
     const bo = res.flatMap(r => r.tibetan || []);

@@ -137,6 +137,7 @@ test('an approved sung version renders as a song: lines, refrain cue, the rhyme 
   assert.equal((html.match(/class="cue"/g) || []).length, 1, 'no cue after the refrain itself');
   assert.match(html, /<p class="heard" lang="bn-Latn">kāā tarubara pañca bi <span class="rh">ḍāla<\/span>/);
   assert.match(html, /<p class="voice"><span class="who">Sung\.<\/span> TEST FIXTURE\./);
+  assert.match(html, /<p class="voice about">The manuscript names the rāga, Paṭamañjarī; its melody is lost\. It marks the refrain with <span lang="bn">ধ্রু<\/span> \(<i>dhru<\/i>\); [^<]*not a record of it\.<\/p>/, 'the sung view says what it reconstructs');
   assert.match(html, /The sung version was drafted with Claude and approved by [^<]+ after revising its one couplet\.|The sung version was drafted with Claude and approved by [^<]+ after revising one of its two couplets\./);
   const js = read(path.join(process.env.SITE_ROOT, 'translations', 'assets', 'reader.js'));
   assert.match(js, /\['sung', 'As a song'/);

@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en" data-page-type="hearing">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="assets/analytics.js"></script>
+<title>Hearing the Verses — 37 Practices of a Bodhisattva</title>
+<meta name="description" content="The 37 Practices is a poem made to be chanted. What it sounds like in Tibetan, what English loses, how translators of the Psalms and of Tibetan song have carried the music across, and verses sounded in English for chanting together.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://37practices.space/hearing-the-verses.html">
+<meta name="theme-color" content="#4A0F0F">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&family=Jomolhari&family=Noto+Serif+Tibetan:wght@400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --maroon: #6B1A1A;
+  --maroon-deep: #4A0F0F;
+  --saffron: #C8821A;
+  --saffron-light: #E8A84A;
+  --cream: #FAF5EC;
+  --cream-dark: #F0E8D5;
+  --ink: #1C1008;
+  --ink-soft: #3D2B1A;
+  --rule: rgba(200,130,26,0.25);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+a { color: var(--maroon); }
+em { font-style: italic; }
+strong { font-weight: 600; color: var(--ink); }
+.bo { font-family: 'Jomolhari', 'Noto Serif Tibetan', serif; font-weight: 400; }
+
+/* ---------- masthead ---------- */
+.masthead {
+  background: var(--maroon-deep);
+  color: var(--cream);
+  padding: 60px 24px 50px;
+  text-align: center;
+  border-bottom: 3px solid var(--saffron);
+}
+.masthead .eyebrow {
+  font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 5px;
+  text-transform: uppercase; color: var(--saffron-light); margin-bottom: 14px;
+}
+.masthead h1 { font-weight: 300; font-size: clamp(36px, 6.5vw, 58px); line-height: 1.08; margin-bottom: 14px; }
+.masthead .lede { font-size: clamp(17px, 2.4vw, 20px); font-weight: 300; font-style: italic;
+  color: rgba(250,245,236,.8); max-width: 34em; margin: 0 auto; line-height: 1.6; }
+.mast-nav { margin-top: 22px; font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+.mast-nav a { color: var(--saffron-light); text-decoration: none; margin: 0 12px; display: inline-block; }
+.mast-nav a:hover { color: #fff; text-decoration: underline; }
+.draft-flag { display: inline-block; margin-top: 20px; font-family: 'Lato', sans-serif; font-size: 10.5px;
+  letter-spacing: 1.5px; text-transform: uppercase; color: var(--maroon-deep); background: var(--saffron-light);
+  padding: 4px 12px; border-radius: 12px; }
+
+/* ---------- prose ---------- */
+main { max-width: 760px; margin: 0 auto; padding: 56px 24px 40px; }
+.part { margin-bottom: 64px; }
+.part > .kicker {
+  font-family: 'Cinzel', serif; font-size: 10.5px; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--saffron); margin-bottom: 8px;
+}
+h2 { font-weight: 300; font-size: clamp(28px, 4.4vw, 38px); line-height: 1.18; color: var(--maroon); margin-bottom: 8px; }
+.part > .rule { width: 56px; height: 2px; background: var(--saffron); margin: 14px 0 26px; }
+p { color: var(--ink-soft); font-weight: 300; margin-bottom: 16px; }
+main p strong { color: var(--ink); }
+h3 {
+  font-family: 'Lato', sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--saffron); font-weight: 700; margin: 34px 0 12px;
+}
+
+/* the refrain, shown large */
+.refrain-show { text-align: center; margin: 34px 0 30px; padding: 30px 18px 26px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.refrain-show .bo { display: block; font-size: clamp(30px, 6vw, 44px); color: var(--maroon); line-height: 1.5; }
+.refrain-show .ph { display: block; font-family: 'Cinzel', serif; font-size: 15px; letter-spacing: 3px; color: var(--saffron); margin-top: 6px; }
+.refrain-show .gloss-row { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 20px; margin-top: 16px; }
+.refrain-show .gloss-row span { font-family: 'Lato', sans-serif; font-size: 12px; letter-spacing: .5px; color: var(--ink-soft); }
+.refrain-show .gloss-row b { display: block; font-family: 'Cinzel', serif; font-weight: 400; font-size: 13px; letter-spacing: 2px; color: var(--maroon); }
+.refrain-show .says { font-style: italic; font-size: 20px; color: var(--maroon); margin: 16px 0 0; }
+
+/* three translations side by side */
+.compare { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; margin: 20px 0 22px; }
+.compare > div { border: 1px solid var(--rule); background: var(--cream-dark); padding: 14px 14px 12px; }
+.compare .who { font-family: 'Lato', sans-serif; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--maroon); font-weight: 700; margin-bottom: 8px; }
+.compare p { font-size: 15.5px; font-style: italic; color: var(--maroon); line-height: 1.55; margin: 0; }
+.compare mark { background: rgba(232,168,74,.35); color: inherit; padding: 0 2px; }
+
+/* precedent cards */
+.precedents { display: grid; gap: 14px; margin-top: 8px; }
+.prec { border-left: 3px solid var(--saffron); background: #fff; padding: 16px 20px 14px; }
+.prec .era { font-family: 'Lato', sans-serif; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--saffron); font-weight: 700; }
+.prec h4 { font-weight: 600; font-size: 20px; color: var(--maroon); line-height: 1.3; margin: 3px 0 6px; }
+.prec p { font-size: 16.5px; margin-bottom: 8px; }
+.prec blockquote { font-style: italic; font-size: 16.5px; color: var(--maroon); border-left: 1px solid var(--rule); padding-left: 12px; margin: 4px 0 10px; }
+.prec blockquote cite { display: block; font-style: normal; font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: .4px; color: rgba(61,43,26,.62); margin-top: 3px; }
+.prec .take { font-size: 16px; color: var(--ink); background: rgba(200,130,26,.08); padding: 7px 11px; margin: 0; }
+.prec .take b { font-family: 'Lato', sans-serif; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--maroon); margin-right: 6px; }
+.prec.caution { border-left-color: var(--maroon); }
+.group-label { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--saffron); font-weight: 700; margin: 30px 0 10px; display: flex; align-items: center; gap: 10px; }
+.group-label:after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+
+/* principles */
+ol.principles { list-style: none; counter-reset: p; margin: 10px 0 0; }
+ol.principles li { counter-increment: p; position: relative; padding: 0 0 18px 50px; color: var(--ink-soft); font-weight: 300; }
+ol.principles li:before { content: counter(p); position: absolute; left: 0; top: 2px; width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--saffron); color: var(--maroon); font-family: 'Cinzel', serif; font-size: 14px; text-align: center; line-height: 30px; }
+ol.principles b { display: block; font-weight: 600; font-size: 19px; color: var(--maroon); }
+ol.principles .from { display: block; margin-top: 2px; font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: .4px; color: rgba(61,43,26,.6); }
+
+/* layers legend */
+.layers { display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 10px; margin: 18px 0 8px; }
+.layers div { border: 1px solid var(--rule); padding: 12px 14px; background: #fff; }
+.layers b { display: block; font-family: 'Lato', sans-serif; font-size: 10.5px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--maroon); margin-bottom: 4px; }
+.layers span { font-size: 15px; color: var(--ink-soft); font-weight: 300; line-height: 1.45; display: block; }
+
+/* ---------- the verses ---------- */
+.verses-wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+.verse { border-top: 3px solid var(--maroon); background: #fff; margin: 0 0 44px; padding: 28px 32px 30px; box-shadow: 0 1px 0 var(--rule); }
+.verse .v-eyebrow { font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 3.5px; text-transform: uppercase; color: var(--saffron); }
+.verse .v-eyebrow a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--saffron); }
+.verse h3.v-title { font-family: 'Cormorant Garamond', serif; text-transform: none; letter-spacing: 0; font-weight: 300;
+  font-size: clamp(26px, 4vw, 34px); color: var(--maroon); margin: 4px 0 20px; line-height: 1.2; }
+.layer-label { font-family: 'Lato', sans-serif; font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--saffron); font-weight: 700; margin: 26px 0 12px; display: flex; align-items: center; gap: 10px; }
+.layer-label:after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+.layer-label:first-child { margin-top: 0; }
+
+/* interlinear */
+.tib { display: grid; gap: 4px; }
+.tline { display: flex; flex-wrap: wrap; gap: 4px 6px; padding: 10px 0 12px; border-bottom: 1px dashed var(--rule); }
+.tline:last-child { border-bottom: 0; }
+.grp { display: inline-flex; flex-direction: column; align-items: flex-start; padding: 4px 9px 5px; border-radius: 3px; background: var(--cream); min-width: 0; }
+.grp .bo { font-size: 23px; color: var(--ink); line-height: 1.55; white-space: nowrap; }
+.grp .ph { font-family: 'Lato', sans-serif; font-size: 12.5px; letter-spacing: .6px; color: var(--maroon); font-weight: 700; white-space: nowrap; }
+.grp .gl { font-family: 'Lato', sans-serif; font-size: 11.5px; color: rgba(61,43,26,.72); line-height: 1.35; margin-top: 2px; }
+.grp.refrain { background: rgba(232,168,74,.28); }
+.grp.refrain .ph { color: var(--maroon-deep); }
+.beats { font-family: 'Lato', sans-serif; font-size: 10.5px; letter-spacing: .5px; color: rgba(61,43,26,.55); margin-top: 8px; }
+
+/* chant */
+.chant { background: var(--cream); border-left: 3px solid var(--maroon); padding: 18px 24px 18px; }
+.chant .ln { display: block; font-size: 21px; color: var(--maroon); line-height: 1.55; padding-left: 1.2em; text-indent: -1.2em; }
+.chant .rf { display: block; margin-top: 6px; font-size: 21px; font-weight: 600; color: var(--saffron); letter-spacing: .3px; }
+html:not([data-refrain="bo"]) .rf .ti, html[data-refrain="bo"] .rf .en { display: none; }
+.rf .ti .bo { font-size: .8em; font-weight: 400; margin-left: 8px; opacity: .8; }
+.bt { font-weight: 600; background: linear-gradient(transparent 64%, rgba(232,168,74,.42) 64%); }
+html[data-beats="off"] .bt { font-weight: inherit; background: none; }
+.sheet .bt { background: linear-gradient(transparent 66%, rgba(232,168,74,.32) 66%); }
+html[data-beats="off"] .sheet .bt { background: none; }
+.chant .credit { font-family: 'Lato', sans-serif; font-size: 10.5px; letter-spacing: .4px; color: rgba(61,43,26,.55); margin-top: 10px; }
+
+.notes { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; margin-top: 28px; }
+.notes p { font-size: 16.5px; line-height: 1.7; margin-bottom: 0; }
+.notes p + p { margin-top: 10px; }
+
+/* refrain switch */
+.switch { display: inline-flex; border: 1px solid var(--saffron); border-radius: 16px; overflow: hidden; vertical-align: middle; }
+.switch button { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+  border: 0; background: #fff; color: var(--maroon); padding: 6px 13px; cursor: pointer; }
+.switch button[aria-pressed="true"] { background: var(--maroon); color: var(--cream); }
+.switch-row { display: flex; align-items: center; justify-content: center; gap: 8px 22px; flex-wrap: wrap; font-family: 'Lato', sans-serif; font-size: 12px;
+  letter-spacing: .4px; color: var(--ink-soft); margin: 0; }
+.switch-row .pair { display: inline-flex; align-items: center; gap: 9px; white-space: nowrap; }
+.notes .bo, .part p .bo { font-size: 1.2em; line-height: 1; }
+.sticky-switch { position: sticky; top: 0; z-index: 10; background: rgba(250,245,236,.95); backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--rule); padding: 10px 24px; display: flex; justify-content: center; }
+.sticky-switch .switch-row { margin: 0; }
+
+/* verses intro + concordance */
+.verses-intro { max-width: 760px; margin: 0 auto 34px; padding: 0 0; }
+.verses-intro .kicker { font-family: 'Cinzel', serif; font-size: 10.5px; letter-spacing: 4px; text-transform: uppercase; color: var(--saffron); margin-bottom: 8px; }
+.verses-intro .rule { width: 56px; height: 2px; background: var(--saffron); margin: 14px 0 22px; }
+.concord { background: #fff; border-top: 3px solid var(--saffron); padding: 26px 30px 24px; margin: 0 0 60px; }
+.concord p { font-size: 16.5px; }
+.table-wrap { overflow-x: auto; }
+.concord table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.concord th { font-family: 'Lato', sans-serif; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--saffron); text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--rule); }
+.concord td { padding: 8px 10px 8px 0; border-bottom: 1px dashed var(--rule); color: var(--ink-soft); font-weight: 300; vertical-align: baseline; }
+.concord td.bo { font-size: 20px; color: var(--ink); white-space: nowrap; }
+.concord td.cph { font-family: 'Lato', sans-serif; font-size: 12.5px; font-weight: 700; color: var(--maroon); white-space: nowrap; }
+.concord td.cen { font-weight: 600; color: var(--maroon); white-space: nowrap; }
+ul.plain { margin: 0 0 16px 22px; }
+ul.plain li { color: var(--ink-soft); font-weight: 300; margin-bottom: 8px; }
+sup a { text-decoration: none; font-family: 'Lato', sans-serif; font-size: 10px; color: var(--saffron); padding: 0 1px; }
+
+/* chant sheet */
+.sheet { background: var(--maroon-deep); color: var(--cream); padding: 64px 24px 70px; border-top: 3px solid var(--saffron); }
+.sheet-inner { max-width: 640px; margin: 0 auto; }
+.sheet .kicker { font-family: 'Cinzel', serif; font-size: 10.5px; letter-spacing: 4px; text-transform: uppercase; color: var(--saffron-light); margin-bottom: 8px; text-align: center; }
+.sheet h2 { color: var(--cream); text-align: center; }
+.sheet .intro { color: rgba(250,245,236,.8); text-align: center; font-style: italic; margin: 10px auto 34px; max-width: 32em; }
+.sheet .st { margin: 0 0 34px; }
+.sheet .st .num { font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 3px; color: var(--saffron-light); margin-bottom: 4px; }
+.sheet .st .ln { display: block; font-size: 21px; line-height: 1.55; color: var(--cream); font-weight: 300; padding-left: 1.2em; text-indent: -1.2em; }
+.sheet .st .rf { display: block; font-size: 21px; font-weight: 600; color: var(--saffron-light); margin-top: 4px; }
+.sheet .st .rf:before { content: 'All'; font-family: 'Lato', sans-serif; font-size: 9.5px; letter-spacing: 1.5px; text-transform: uppercase;
+  font-weight: 700; border: 1px solid var(--saffron-light); border-radius: 8px; padding: 1px 7px; margin-right: 10px; vertical-align: 3px; }
+.sheet .st .role { display: block; font-family: 'Lato', sans-serif; font-size: 9.5px; letter-spacing: 1.5px; text-transform: uppercase;
+  font-weight: 700; color: rgba(250,245,236,.55); margin-bottom: 2px; }
+
+/* how-to list */
+.howto { counter-reset: h; list-style: none; margin: 0; }
+.howto li { counter-increment: h; padding: 0 0 12px 34px; position: relative; color: var(--ink-soft); font-weight: 300; }
+.howto li:before { content: counter(h) '.'; position: absolute; left: 0; font-family: 'Cinzel', serif; color: var(--saffron); }
+
+.listen { display: grid; gap: 10px; margin: 12px 0 0; }
+.listen a { display: block; border: 1px solid var(--rule); background: #fff; padding: 11px 16px; text-decoration: none; color: var(--ink-soft); font-size: 16px; }
+.listen a b { color: var(--maroon); font-weight: 600; }
+.listen a:hover { border-color: var(--saffron); }
+
+.next { border: 1px solid var(--rule); border-left: 3px solid var(--saffron); background: rgba(200,130,26,.06); padding: 22px 26px; }
+.next ul { margin: 6px 0 0 20px; }
+.next li { color: var(--ink-soft); font-weight: 300; margin-bottom: 8px; }
+
+/* sources */
+.sources { max-width: 760px; margin: 0 auto; padding: 50px 24px 30px; }
+.sources ol { margin: 8px 0 0 20px; font-family: 'Lato', sans-serif; font-size: 12.5px; line-height: 1.7; color: rgba(61,43,26,.75); }
+.sources li { margin-bottom: 5px; }
+.sources a { color: var(--maroon); word-break: break-word; }
+
+.foot { max-width: 760px; margin: 0 auto; padding: 24px 24px 50px; border-top: 1px solid var(--rule);
+  font-family: 'Lato', sans-serif; font-size: 11.5px; letter-spacing: .4px; color: rgba(61,43,26,.6); line-height: 1.8; text-align: center; }
+.foot a { color: var(--saffron); }
+
+@media (max-width: 760px) {
+  .compare { grid-template-columns: 1fr; }
+  .notes { grid-template-columns: 1fr; gap: 24px 0; }
+  .switch button { padding: 5px 10px; font-size: 10px; }
+  .switch-row { gap: 6px 14px; font-size: 11px; }
+  .verse { padding: 22px 18px 24px; }
+  .verses-wrap { padding: 0 12px; }
+  .grp .bo { font-size: 20px; }
+  .tline { gap: 4px; }
+  .grp { padding: 3px 6px 4px; }
+  .grp .ph { font-size: 12px; letter-spacing: .3px; }
+  .grp .gl { font-size: 11px; }
+  .chant { padding: 16px 16px; }
+  .chant .ln, .chant .rf { font-size: 19px; }
+  .concord { padding: 22px 16px; }
+  .concord td.bo { font-size: 18px; }
+  .sticky-switch { padding: 8px 12px; }
+}
+@media print {
+  .masthead { background: none; color: #000; }
+  .mast-nav, .sticky-switch, .switch-row { display: none !important; }
+  .verse { break-inside: avoid; box-shadow: none; }
+  .sheet { background: none; color: #000; break-before: page; }
+  .sheet .st .ln, .sheet h2 { color: #000; }
+}
+
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow">37 Practices of a Bodhisattva</div>
+  <h1>Hearing the Verses</h1>
+  <p class="lede">The 37 Practices is a poem, made to be chanted. This page is about carrying its music into English: the sound, the images, the feeling, not only the meaning.</p>
+  <nav class="mast-nav">
+    <a href="index.html">Home</a>
+    <a href="study-the-verses.html">Study the Verses</a>
+    <a href="toolkit.html">Facilitator Guide</a>
+  </nav>
+  <div class="draft-flag">Draft for review · not yet linked from the site</div>
+</header>
+
+<main>
+
+<section class="part" id="sound">
+  <div class="kicker">The sound of the Tibetan</div>
+  <h2>Before it was studied, it was chanted</h2>
+  <div class="rule"></div>
+  <p>Gyalse Tokme Zangpo wrote the 37 Practices in the classic shape of Tibetan teaching verse: four lines to a stanza, nine syllables to a line. It was made to be memorised and sounded, and it still is: monasteries chant it, Garchen Rinpoche’s students recite it, and sanghas in the West have recorded it in English. The Tibetan word for poetry, <em>nyen-ngak</em>, means “beautiful sound”.<sup><a href="#s-trungpa">1</a></sup></p>
+  <p>Say a line of it aloud and you feel how it moves: in pairs of syllables, like footsteps, with a group of three to finish. Nine syllables make about four steps. Then comes the thing everyone who has chanted the text remembers. <strong>Every one of the thirty-seven verses ends with the same five syllables.</strong></p>
+
+  <div class="refrain-show">
+    <span class="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span>
+    <span class="ph">gyal sé · lak len · yin</span>
+    <div class="gloss-row">
+      <span><b>gyal sé</b>the Victor’s children</span>
+      <span><b>lak len</b>practice · “hand” + “take”</span>
+      <span><b>yin</b>is</span>
+    </div>
+    <p class="says">“…is what the heirs of the buddhas practise.”</p>
+  </div>
+
+  <p><em>Gyal sé</em>, the Victor’s children, is the Tibetan’s name for bodhisattvas here: the heirs of the buddhas. <em>Lak len</em>, practice, is built from the words for “hand” and “take”: practice as something you take in hand. Thirty-seven times the verse ends on these words, like a bell struck at the end of each round. By the tenth verse you hear it coming. By the thirtieth you are saying it with the chanter.</p>
+  <p>The fourth line of every verse is built the same way: four syllables that name the practice, then the five of the refrain. The images and the reasons come first. The practice itself lands last, one breath before the bell.</p>
+  <p>The refrain is the whole text in small. The Tibetan title is <em>Gyalse Laklen Sodünma</em>, “the thirty-seven practices of the Victor’s children”, and Tokme Zangpo’s own title, <em>Gyalse</em>, is the refrain’s first word. The opening promise ends by announcing it (“I will explain the practice of the Victor’s children”), and the closing verses sound it again after the thirty-seventh. It is struck before the first verse and it rings on after the last.</p>
+</section>
+
+<section class="part" id="loses">
+  <div class="kicker">Three good translations, three different sounds</div>
+  <h2>What English loses</h2>
+  <div class="rule"></div>
+  <p>Here is how the three translations on this site end verse 1. Each is careful and each is right for study. But listen to where the refrain falls:</p>
+  <div class="compare">
+    <div><div class="who">Garchen Institute</div><p>…listen, reflect, and meditate day and night without distraction. <mark>This is the way of a bodhisattva.</mark></p></div>
+    <div><div class="who">Adam Pearcey</div><p><mark>The practice of all the bodhisattvas is</mark> to study, reflect and meditate, / Tirelessly, both day and night…</p></div>
+    <div><div class="who">Ken McLeod</div><p>…Day and night, fully alert and present, / Study, reflect, and meditate <mark>— this is the practice of a bodhisattva.</mark></p></div>
+  </div>
+  <p>Pearcey moves the refrain to the front, which reads naturally in English, but it means the bell rings before the verse begins. McLeod keeps it where the Tibetan has it, at the end of line four. The Garchen booklet, which Garchen Rinpoche arranged for daily recitation, gives it a sentence of its own, <em>This is the way of a bodhisattva</em>, and uses exactly those words in all thirty-seven verses. Our own lineage’s text already keeps the bell.</p>
+  <p>Other things fall away in any translation made for study:</p>
+  <ul class="plain">
+    <li><strong>The length of the words.</strong> <em>Gyal sé</em> is two syllables; <em>bodhisattva</em> is four. English, full of long words, cannot fit the nine-syllable line the way Tibetan translators once fitted Sanskrit into it.<sup><a href="#s-hahn">2</a></sup></li>
+    <li><strong>The order.</strong> Tibetan puts the verb last, so a verse unfolds as picture, reason, then practice. English wants the instruction first.</li>
+    <li><strong>The pictures inside the words.</strong> The Victor’s children, the hand that takes: these live in the Tibetan and vanish into “bodhisattva” and “practice”.</li>
+    <li><strong>The sound itself.</strong> The footsteps of the line, the bell of the refrain, the shared breath of a room chanting together.</li>
+  </ul>
+  <p>None of this is a fault in the translations. A translation for study has to choose clarity, and the commentaries depend on it. Carrying the sound is a second job, and it needs its own layer.</p>
+</section>
+
+<section class="part" id="precedents">
+  <div class="kicker">We are not the first</div>
+  <h2>How others have carried a song across</h2>
+  <div class="rule"></div>
+  <p>Every tradition whose scripture is poetry has faced this, and the solutions are strikingly consistent. The Hebrew Psalms have the longest history of it in English, so that is where we start.</p>
+
+  <div class="group-label">From the Psalms</div>
+  <div class="precedents">
+    <div class="prec">
+      <div class="era">Psalm 136 · King James Bible, 1611 · Robert Alter, 2007</div>
+      <h4>One refrain, twenty-six times, answered by everyone</h4>
+      <p>Every verse of Psalm 136 ends with the same Hebrew refrain, <em>ki le’olam ḥasdo</em>. The King James Bible renders it identically every time: “for his mercy endureth for ever.” Alter believes it was sung back by the whole congregation:</p>
+      <blockquote>“This repeated refrain clearly must have been an antiphonal response in the liturgy, perhaps by the whole community of worshippers.”<cite>Robert Alter, <em>The Book of Psalms</em></cite></blockquote>
+      <p class="take"><b>For us</b>Choose one refrain and never vary it. Set it apart on the page. Let a leader read the verse and everyone answer with the refrain.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Robert Lowth, 1753 · C. S. Lewis, 1958</div>
+      <h4>Rhyming thoughts, not sounds</h4>
+      <p>Lowth discovered that Hebrew poetry is built on <em>parallelism</em>: the second line answers the first, echoing it, opposing it or carrying it further. Parallelism is the part of a poem that survives translation, because it lives in the meaning, not in the sound.</p>
+      <blockquote>“…one that does not disappear (as mere metre does) in translation.”<cite>C. S. Lewis on parallelism, <em>Reflections on the Psalms</em></cite></blockquote>
+      <p class="take"><b>For us</b>Tokme Zangpo pairs things constantly: water and fire, self and others, day and night. Keep every pair inside its line.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Joseph Gelineau &amp; the Grail Psalms, 1963</div>
+      <h4>Count the beats, not the syllables</h4>
+      <p>Gelineau wanted congregations to sing the psalms in English with the pulse of the Hebrew. His translators gave each line a fixed number of stressed syllables and let the unstressed ones vary. The stresses were printed with accents so anyone could find the beat, and each psalm was framed by a short sung refrain.</p>
+      <blockquote>“The words must never be allowed to fall into set musical rhythmical patterns which are opposed to the natural relative lengths of their syllables.”<cite>Joseph Gelineau</cite></blockquote>
+      <p class="take"><b>For us</b>This is the closest model we have. Give each line about four beats, mark them, and let the English syllables fall where English wants them.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Buber &amp; Rosenzweig, 1925 · Everett Fox, 1995</div>
+      <h4>A line is a breath; a word is a melody</h4>
+      <p>Fox prints the Bible in lines based on spoken phrasing, each one, as Buber put it, “simultaneously a unit of breathing and of meaning.” He also keeps a key word the same each time it recurs, so the echo can be heard, the way a theme returns in music.</p>
+      <blockquote>“…cola divisions do facilitate reading aloud and make it possible for the listener to sense the text’s inner rhythm.”<cite>Everett Fox, <em>The Five Books of Moses</em>, preface</cite></blockquote>
+      <p class="take"><b>For us</b>One breath per line. The same English for the same Tibetan key word across all thirty-seven verses, loosened where it strains, as Fox himself did.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Robert Alter, 2004</div>
+      <h4>Don’t explain the poem inside the poem</h4>
+      <p>Alter’s complaint about modern Bibles is that they smooth, clarify and lengthen until the compact, strange original is gone. He calls this “the heresy of explanation”:</p>
+      <blockquote>“…the use of translation as a vehicle for explaining the Bible instead of representing it in another language.”<cite>Robert Alter, <em>The Five Books of Moses</em>, introduction</cite></blockquote>
+      <p class="take"><b>For us</b>The commentaries do the explaining. The sounded version leaves the dewdrop a dewdrop.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Thomas Cranmer, 1544 · the Coverdale Psalter</div>
+      <h4>For every syllable a note</h4>
+      <p>When Cranmer made the first English litany, he asked for music “not full of notes, but, as near as may be, for every syllable a note.” Coverdale’s prose Psalms have been sung for nearly five centuries on simple chant tones, each verse marked at its midpoint so the voice knows where to turn.</p>
+      <p class="take"><b>For us</b>English needs no strict metre to be chanted. Plain lines on one note, with a marked turn, carry a room of voices.</p>
+    </div>
+  </div>
+
+  <div class="group-label">From other songs</div>
+  <div class="precedents">
+    <div class="prec">
+      <div class="era">Arthur Waley, 1918</div>
+      <h4>One stress for every syllable of the original</h4>
+      <p>Translating Chinese poems whose lines are counted in syllables, Waley found an English rhythm by counting beats instead:</p>
+      <blockquote>“Each character in the Chinese is represented by a stress in the English; but between the stresses unstressed syllables are of course interposed.”<cite>Arthur Waley, <em>A Hundred and Seventy Chinese Poems</em></cite></blockquote>
+      <p>He also refused to add or remove a single image: “considering imagery to be the soul of poetry.”</p>
+      <p class="take"><b>For us</b>A beat for each Tibetan pair gives four or five to a line. Every image of the Tibetan stays; none is added.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Jerome Rothenberg, 1970</div>
+      <h4>Total translation: the sound is part of the meaning</h4>
+      <p>Earlier translators of Navajo horse songs kept the words and threw away the sung syllables that carry no dictionary meaning. Rothenberg translated those too, and sang the results, treating the song, not the words, as the thing to be carried.</p>
+      <p class="take"><b>For us</b>Keep the Tibetan audible. Print it, give its sound, and let groups chant it.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Seamus Heaney, <em>Beowulf</em>, 1999</div>
+      <h4>Find the voice first</h4>
+      <p>Heaney found his Beowulf in the speech of his “big-voiced Scullion” relatives, and rendered the poem’s first word, <em>Hwæt</em>, as a plain “So.”</p>
+      <p class="take"><b>For us</b>Tokme Zangpo was a hermit monk teaching students plainly. Every line is tested aloud in that voice: direct, humble, unornamented.</p>
+    </div>
+  </div>
+
+  <div class="group-label">From Tibet itself</div>
+  <div class="precedents">
+    <div class="prec">
+      <div class="era">Garchen Institute · our own lineage</div>
+      <h4>Our lineage already sings this text in English</h4>
+      <p>Besides the recitation booklet quoted across this site, the Garchen Institute publishes an English verse translation, <em>What Bodhisattvas Do</em>, in rhymed four-line stanzas made to be sung. Its first three-year retreat group recorded it in an “English musical version” and a “simple melody version”. It too keeps one refrain for every verse: “…is what bodhisattvas do.”</p>
+      <p class="take"><b>For us</b>This page does not replace that version. It tries a different road to the same place: unrhymed, closer to the Tibetan’s order and beat, and built to be read alongside the Tibetan.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Tokme Zangpo, 14th century</div>
+      <h4>The text itself keeps a line in the original</h4>
+      <p>The 37 Practices opens with <em>Namo Lokeśvarāya</em>, a Sanskrit homage left untranslated inside the Tibetan. Christian liturgy does the same with the Hebrew <em>Amen</em> and <em>Hallelujah</em>, and the Latin Mass kept the Greek <em>Kyrie eleison</em>. Holding one line in the original language is old and honourable.</p>
+      <p class="take"><b>For us</b>The refrain can be sung in Tibetan, <em>gyal sé lak len yin</em>, even when the verse is read in English.</p>
+    </div>
+    <div class="prec">
+      <div class="era">FPMT prayer practice</div>
+      <h4>Tibetan for the melody, English for the meaning</h4>
+      <p>The Foundation for the Preservation of the Mahayana Tradition mixes the two languages on purpose:</p>
+      <blockquote>“Verses chanted in Tibetan are emphasized for receiving the blessing of the tunes… Verses or sections recited in English are recommended… due to the importance of understanding the meaning.”<cite>FPMT, <em>Lama Chöpa Audio Guide</em></cite></blockquote>
+      <p class="take"><b>For us</b>A living Tibetan community already uses the hybrid we propose.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Alexander Berzin, 2006</div>
+      <h4>The Tibetans changed the metre too</h4>
+      <p>When Tibetans translated Indian verse they recast it into their own seven- and nine-syllable lines, making no attempt to keep the Sanskrit metre. Berzin draws the conclusion:</p>
+      <blockquote>“Tibetans changed the meter, and the Chinese changed the meter, so we can change the meter as well. The point is to make it beautiful and harmonious.”<cite>Alexander Berzin, <em>Study Buddhism</em></cite></blockquote>
+      <p>He also warns against the opposite failure, ritual texts set so they sound “like some hippie singing a folk song.”</p>
+      <p class="take"><b>For us</b>English should not imitate nine syllables. It needs its own rhythm, and dignity rather than jingle.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Chögyam Trungpa &amp; the Nālandā Translation Committee, 1970s</div>
+      <h4>Translate literally, then chant it together until it works</h4>
+      <p>Trungpa’s translators decided early that Western students would chant in English. They aimed to be “as literal and accurate as possible,” then spent hours at their seminaries “experimenting with different styles of chanting, drum patterns, gong ringing” until the English could be sung.</p>
+      <p class="take"><b>For us</b>Nothing here is finished until a group has chanted it.</p>
+    </div>
+    <div class="prec">
+      <div class="era">Khenpo Tsültrim Gyamtso Rinpoche, 2007</div>
+      <h4>Singing the instructions is the tradition</h4>
+      <p>One of the seven teachers on this site had his translators set the songs of Milarepa and his own songs in plain English so they could be sung. One of his shortest songs, in Ari Goldfield’s translation, is the whole argument of this page:</p>
+      <blockquote>“Singing the key instructions / Isn’t meaningless, / It’s the lineage tradition.”<cite>Khenpo Tsültrim Gyamtso, “Why We Sing”</cite></blockquote>
+    </div>
+  </div>
+
+  <div class="group-label">Two warnings</div>
+  <div class="precedents">
+    <div class="prec caution">
+      <div class="era">The Bay Psalm Book, 1640</div>
+      <h4>Forcing the song into a familiar tune</h4>
+      <p>The first book printed in British North America squeezed the psalms into English hymn metres so they could be sung to tunes people already knew. Its editors admitted they “attended conscience rather than elegance, fidelity rather than poetry.” None of its versions are still in use.</p>
+      <p class="take"><b>For us</b>Rhyme and a familiar metre make a verse easy to sing, and they cost something in exchange. The version on this page makes the other trade: no rhyme scheme, and a rhythm that comes from the Tibetan’s own beat.</p>
+    </div>
+    <div class="prec caution">
+      <div class="era">Coleman Barks’s Rumi, 1990s to now</div>
+      <h4>Wonder cut loose from its source</h4>
+      <p>Barks made Rumi one of the most widely read poets in America, working without reading Persian: his versions were reworked from earlier English translations. Critics have shown how much of Rumi’s Islam disappeared on the way.<sup><a href="#s-ali">3</a></sup> The result is lovely, and much of it is no longer Rumi.</p>
+      <p class="take"><b>For us</b>Every choice must be traceable to Tokme Zangpo’s Tibetan. Refuge, bodhicitta and emptiness stay in; nothing is universalised away.</p>
+    </div>
+  </div>
+</section>
+
+<section class="part" id="approach">
+  <div class="kicker">What we take from all of this</div>
+  <h2>Eight rules for sounding the verses in English</h2>
+  <div class="rule"></div>
+  <ol class="principles">
+    <li><b>The refrain comes last, in the same words, every time.</b>We use the Garchen booklet’s own refrain, <em>This is the way of a bodhisattva</em>, so it matches what our lineage already recites. <span class="from">Psalm 136 · King James Bible · Garchen Institute</span></li>
+    <li><b>The refrain can also be sung in Tibetan.</b>Groups can answer every verse with <em>gyal sé lak len yin</em>, its original five syllables. <span class="from">Namo Lokeśvarāya · FPMT · Amen, Hallelujah, Kyrie</span></li>
+    <li><b>The practice lands just before the refrain.</b>As in the Tibetan fourth line: pictures and reasons first, then the practice, then the bell. <span class="from">The Tibetan · McLeod</span></li>
+    <li><b>Four lines, one breath each.</b>Never run on as prose. <span class="from">Buber &amp; Rosenzweig · Fox</span></li>
+    <li><b>About four beats a line, marked.</b>Stresses, not syllables, carry the rhythm; the beats are marked so anyone can find them. <span class="from">Waley · Gelineau · Alter · Berzin</span></li>
+    <li><b>Every image whole, none added, none explained.</b>The ship, the ocean, the dewdrop, the rainbow, the dream all stay. <span class="from">Waley · Alter</span></li>
+    <li><b>Pairs stay paired; key words stay the same.</b>What Tokme sets side by side stays side by side, and a key Tibetan word keeps one English word throughout. <span class="from">Lowth · Buber &amp; Rosenzweig · Fox</span></li>
+    <li><b>A plain voice, tested aloud, with every choice shown.</b>Each verse says what we kept and what we let go, so no one mistakes this for the source. <span class="from">Heaney · Nālandā Translation Committee · the warning of Barks</span></li>
+  </ol>
+
+  <h3>Each verse, in five layers</h3>
+  <p>A study translation gives you one layer. This gives five, each doing one job, so no single English version has to do everything:</p>
+  <div class="layers">
+    <div><b>Hear it</b><span>The Tibetan in its natural pairs, with how it sounds.</span></div>
+    <div><b>Word by word</b><span>A literal gloss under each pair, in Tibetan order: the original shining through.</span></div>
+    <div><b>Sounded in English</b><span>Our version for chanting, with the beat marked.</span></div>
+    <div><b>At its heart</b><span>The picture or feeling the verse turns on.</span></div>
+    <div><b>Kept &amp; let go</b><span>What we chose, and what we gave up.</span></div>
+  </div>
+</section>
+
+</main>
+
+<div class="sticky-switch" aria-label="Display options">
+  <div class="switch-row">
+    <span class="pair"><span class="lbl">Refrain</span>
+    <span class="switch" role="group" aria-label="Sing the refrain in"><button type="button" data-set="refrain" data-val="en" aria-pressed="true">English</button><button type="button" data-set="refrain" data-val="bo" aria-pressed="false">Tibetan</button></span></span>
+    <span class="pair"><span class="lbl">Beat</span>
+    <span class="switch" role="group" aria-label="Beat marks"><button type="button" data-set="beats" data-val="on" aria-pressed="true">Marked</button><button type="button" data-set="beats" data-val="off" aria-pressed="false">Plain</button></span></span>
+  </div>
+</div>
+
+<section class="verses-wrap" id="verses">
+  <div class="verses-intro">
+    <div class="kicker">Nine verses, sounded</div>
+    <h2>The verses, layer by layer</h2>
+    <div class="rule"></div>
+    <p>Nine verses from across the text, from the great ship to the dedication. Read the Tibetan aloud first, even if you only follow the sounds: the pairs of syllables are grouped as they are chanted, with a word-by-word gloss beneath each pair. Then read the English aloud. The highlighted syllables carry the beat. Lean on them and let the rest fall in between.</p>
+  </div>
+
+  <article class="verse" id="v1">
+    <div class="v-eyebrow"><a href="verses/1.html">Verse 1</a> · The preliminaries</div>
+    <h3 class="v-title">The great ship</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དལ་འབྱོར་</span><span class="ph">dal jor</span><span class="gl">freedom, fortune</span></span><span class="grp"><span class="bo" lang="bo">གྲུ་ཆེན་</span><span class="ph">dru chen</span><span class="gl">great ship</span></span><span class="grp"><span class="bo" lang="bo">རྙེད་དཀའ་</span><span class="ph">nyé ka</span><span class="gl">hard to find</span></span><span class="grp"><span class="bo" lang="bo">ཐོབ་དུས་འདིར།</span><span class="ph">tob dü dir</span><span class="gl">gained, now</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">བདག་གཞན་</span><span class="ph">dak zhen</span><span class="gl">self, others</span></span><span class="grp"><span class="bo" lang="bo">འཁོར་བའི་</span><span class="ph">khor wé</span><span class="gl">samsara’s</span></span><span class="grp"><span class="bo" lang="bo">མཚོ་ལས་</span><span class="ph">tso lé</span><span class="gl">from the ocean</span></span><span class="grp"><span class="bo" lang="bo">བསྒྲལ་བྱའི་ཕྱིར།</span><span class="ph">dral jé chir</span><span class="gl">in order to free</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཉིན་དང་</span><span class="ph">nyin dang</span><span class="gl">day and</span></span><span class="grp"><span class="bo" lang="bo">མཚན་དུ་</span><span class="ph">tsen du</span><span class="gl">by night</span></span><span class="grp"><span class="bo" lang="bo">གཡེལ་བ་</span><span class="ph">yel wa</span><span class="gl">idleness</span></span><span class="grp"><span class="bo" lang="bo">མེད་པར་ནི།</span><span class="ph">mé par ni</span><span class="gl">without</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཉན་སེམས་</span><span class="ph">nyen sem</span><span class="gl">listen, reflect</span></span><span class="grp"><span class="bo" lang="bo">སྒོམ་པ་</span><span class="ph">gom pa</span><span class="gl">meditate</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln"><b class="bt">Free</b>dom and <b class="bt">for</b>tune, the great <b class="bt">ship</b>, hard to <b class="bt">find</b>, now <b class="bt">found</b>:</span>
+      <span class="ln">to <b class="bt">free</b> myself and <b class="bt">oth</b>ers from sam<b class="bt">sa</b>ra’s <b class="bt">sea</b>,</span>
+      <span class="ln">by <b class="bt">day</b> and by <b class="bt">night</b>, <b class="bt">nev</b>er <b class="bt">i</b>dle,</span>
+      <span class="ln"><b class="bt">lis</b>ten, re<b class="bt">flect</b>, and <b class="bt">med</b>itate.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>A precious human life, with its freedoms and fortunes, is pictured as a great ship on the ocean of samsara: big enough to carry others, not a raft for one. Shantideva uses the same picture. A ship is built for crossing, and the verse lives in the gap between <em>now found</em> and the open sea still ahead.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the Tibetan order. The verse opens on the gift (freedom, fortune, the ship) before it names the task. “Hard to find, now found” keeps the Tibetan’s two verbs side by side, <em>nyé ka</em> and <em>tob</em>.</p>
+<p><strong>Let go:</strong> the count. Tradition numbers the freedoms and fortunes at eight and ten; the chant leaves the counting to the commentaries. And a rhyme: the Tibetan’s first two lines end alike, <em>tob dü dir</em> / <em>dral jé chir</em>. The English does not try.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v2">
+    <div class="v-eyebrow"><a href="verses/2.html">Verse 2</a> · The preliminaries</div>
+    <h3 class="v-title">Water, fire, darkness</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">གཉེན་གྱི་</span><span class="ph">nyen gyi</span><span class="gl">kin’s</span></span><span class="grp"><span class="bo" lang="bo">ཕྱོགས་ལ་</span><span class="ph">chok la</span><span class="gl">side, toward</span></span><span class="grp"><span class="bo" lang="bo">འདོད་ཆགས་</span><span class="ph">dö chak</span><span class="gl">desire</span></span><span class="grp"><span class="bo" lang="bo">ཆུ་ལྟར་གཡོ།</span><span class="ph">chu tar yo</span><span class="gl">like water surges</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དགྲ་ཡི་</span><span class="ph">dra yi</span><span class="gl">enemies’</span></span><span class="grp"><span class="bo" lang="bo">ཕྱོགས་ལ་</span><span class="ph">chok la</span><span class="gl">side, toward</span></span><span class="grp"><span class="bo" lang="bo">ཞེ་སྡང་</span><span class="ph">zhé dang</span><span class="gl">hatred</span></span><span class="grp"><span class="bo" lang="bo">མེ་ལྟར་འབར།</span><span class="ph">mé tar bar</span><span class="gl">like fire blazes</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">བླང་དོར་</span><span class="ph">lang dor</span><span class="gl">take up, put down</span></span><span class="grp"><span class="bo" lang="bo">བརྗེད་པའི་</span><span class="ph">jé pé</span><span class="gl">forgetting</span></span><span class="grp"><span class="bo" lang="bo">གཏི་མུག་</span><span class="ph">ti muk</span><span class="gl">delusion</span></span><span class="grp"><span class="bo" lang="bo">མུན་ནག་ཅན།</span><span class="ph">mün nak chen</span><span class="gl">pitch-dark</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཕ་ཡུལ་</span><span class="ph">pa yul</span><span class="gl">father-land</span></span><span class="grp"><span class="bo" lang="bo">སྤོང་བ་</span><span class="ph">pong wa</span><span class="gl">giving up</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln">For my <b class="bt">kin</b>, de<b class="bt">sire</b> <b class="bt">surg</b>es like <b class="bt">wa</b>ter;</span>
+      <span class="ln">for my <b class="bt">foes</b>, <b class="bt">ha</b>tred <b class="bt">blaz</b>es like <b class="bt">fire</b>;</span>
+      <span class="ln"><b class="bt">pitch</b>-dark de<b class="bt">lu</b>sion for<b class="bt">gets</b> what to <b class="bt">take</b> up, what to put <b class="bt">down</b>:</span>
+      <span class="ln"><b class="bt">leave</b> your <b class="bt">home</b>land.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>Three poisons, three elements. Desire moves like water and will not stay still; hatred blazes like fire; delusion is pitch-dark. The home you know best is where all three are fed every day.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the first two lines are built identically in Tibetan, <em>nyen gyi chok la</em> / <em>dra yi chok la</em>, so the English repeats its shape exactly. And “take up”: <em>lang</em> is a form of the same verb as <em>len</em> in the refrain. Delusion forgets what to take up; the refrain names what to take in hand.</p>
+<p><strong>Let go:</strong> <em>pa yul</em> is literally “father-land”. In English that word carries other history, so we say “homeland”, as all three translations do.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v4">
+    <div class="v-eyebrow"><a href="verses/4.html">Verse 4</a> · The preliminaries</div>
+    <h3 class="v-title">The guesthouse</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཡུན་རིང་</span><span class="ph">yün ring</span><span class="gl">long time</span></span><span class="grp"><span class="bo" lang="bo">འགྲོགས་པའི་</span><span class="ph">drok pé</span><span class="gl">companion</span></span><span class="grp"><span class="bo" lang="bo">མཛའ་བཤེས་</span><span class="ph">dza shé</span><span class="gl">dear friends</span></span><span class="grp"><span class="bo" lang="bo">སོ་སོར་འབྲལ།</span><span class="ph">so sor dral</span><span class="gl">part, each alone</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">འབད་པས་</span><span class="ph">bé pé</span><span class="gl">with effort</span></span><span class="grp"><span class="bo" lang="bo">བསྒྲུབས་པའི་</span><span class="ph">drub pé</span><span class="gl">gathered</span></span><span class="grp"><span class="bo" lang="bo">ནོར་རྫས་</span><span class="ph">nor dzé</span><span class="gl">wealth, goods</span></span><span class="grp"><span class="bo" lang="bo">ཤུལ་དུ་ལུས།</span><span class="ph">shul du lü</span><span class="gl">left behind</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ལུས་ཀྱི་</span><span class="ph">lü kyi</span><span class="gl">the body’s</span></span><span class="grp"><span class="bo" lang="bo">མགྲོན་ཁང་</span><span class="ph">drön khang</span><span class="gl">guesthouse</span></span><span class="grp"><span class="bo" lang="bo">རྣམ་ཤེས་</span><span class="ph">nam shé</span><span class="gl">consciousness</span></span><span class="grp"><span class="bo" lang="bo">མགྲོན་པོས་བོར།</span><span class="ph">drön pö bor</span><span class="gl">the guest leaves</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཚེ་འདི་</span><span class="ph">tsé di</span><span class="gl">this life</span></span><span class="grp"><span class="bo" lang="bo">བློས་བཏང་</span><span class="ph">lö tang</span><span class="gl">let go in mind</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln"><b class="bt">Friends</b> of many <b class="bt">years</b> will <b class="bt">part</b>, each a<b class="bt">lone</b>;</span>
+      <span class="ln">the <b class="bt">wealth</b> we <b class="bt">worked</b> for will be <b class="bt">left</b> be<b class="bt">hind</b>;</span>
+      <span class="ln"><b class="bt">con</b>sciousness, the <b class="bt">guest</b>, will <b class="bt">leave</b> the body’s <b class="bt">guest</b>house:</span>
+      <span class="ln">let <b class="bt">go</b> of this <b class="bt">life</b>.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>The body is a guesthouse and consciousness is the guest. You stay a while, and in the morning you go. Nothing in the verse is harsh: friends part, the savings stay behind, the guest leaves, the way it always happens at an inn.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the echo of guest and guesthouse, <em>drön khang</em> and <em>drön po</em>, which Tokme sets in one line.</p>
+<p><strong>Let go:</strong> a pun. Line two ends with <span class="bo" lang="bo">ལུས</span> <em>lü</em>, “left behind”; line three begins with the same written word, <span class="bo" lang="bo">ལུས</span> <em>lü</em>, “body”. What is left behind, and the body, sound the same. English cannot keep it.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v9">
+    <div class="v-eyebrow"><a href="verses/9.html">Verse 9</a> · The three capacities</div>
+    <h3 class="v-title">Dew on the grass</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">སྲིད་གསུམ་</span><span class="ph">si sum</span><span class="gl">three realms’</span></span><span class="grp"><span class="bo" lang="bo">བདེ་བ་</span><span class="ph">dé wa</span><span class="gl">happiness</span></span><span class="grp"><span class="bo" lang="bo">རྩྭ་རྩེའི་</span><span class="ph">tsa tsé</span><span class="gl">grass-tip’s</span></span><span class="grp"><span class="bo" lang="bo">ཟིལ་པ་བཞིན།</span><span class="ph">zil pa zhin</span><span class="gl">like dew</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཡུད་ཙམ་</span><span class="ph">yü tsam</span><span class="gl">an instant</span></span><span class="grp"><span class="bo" lang="bo">ཞིག་གིས་</span><span class="ph">zhik gi</span><span class="gl">just, in</span></span><span class="grp"><span class="bo" lang="bo">འཇིག་པའི་</span><span class="ph">jik pé</span><span class="gl">perishing</span></span><span class="grp"><span class="bo" lang="bo">ཆོས་ཅན་ཡིན།</span><span class="ph">chö chen yin</span><span class="gl">by nature is</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ནམ་ཡང་</span><span class="ph">nam yang</span><span class="gl">never</span></span><span class="grp"><span class="bo" lang="bo">མི་འགྱུར་</span><span class="ph">mi gyur</span><span class="gl">not changing</span></span><span class="grp"><span class="bo" lang="bo">ཐར་པའི་</span><span class="ph">tar pé</span><span class="gl">liberation’s</span></span><span class="grp"><span class="bo" lang="bo">གོ་འཕང་མཆོག</span><span class="ph">go pang chok</span><span class="gl">highest state</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དོན་དུ་</span><span class="ph">dön du</span><span class="gl">as the goal</span></span><span class="grp"><span class="bo" lang="bo">གཉེར་བ་</span><span class="ph">nyer wa</span><span class="gl">striving for</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln"><b class="bt">Joy</b> in the three <b class="bt">worlds</b> is <b class="bt">dew</b> on the tip of the <b class="bt">grass</b>:</span>
+      <span class="ln">a <b class="bt">mo</b>ment, and it <b class="bt">per</b>ishes; <b class="bt">that</b> is its <b class="bt">na</b>ture.</span>
+      <span class="ln"><b class="bt">Nev</b>er <b class="bt">chang</b>ing, liber<b class="bt">a</b>tion’s highest <b class="bt">state</b>:</span>
+      <span class="ln"><b class="bt">strive</b> for it as your <b class="bt">goal</b>.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>A dewdrop on the tip of a blade of grass holds the whole morning sky, and it is gone as soon as the sun is up. Tokme does not call happiness false. He shows you something beautiful and lets you watch it go.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the dewdrop, untouched: no “fleeting pleasures” to explain it. Line two ends on <em>yin</em>, “is”, like the refrain: what the world’s joy is, and what the practice is. The English puts “is” at the heart of both.</p>
+<p><strong>Let go:</strong> <em>go pang chok</em>, literally “supreme rank”, becomes the plainer “highest state”.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v10">
+    <div class="v-eyebrow"><a href="verses/10.html">Verse 10</a> · The three capacities</div>
+    <h3 class="v-title">Our mothers</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཐོག་མེད་</span><span class="ph">tok mé</span><span class="gl">without beginning</span></span><span class="grp"><span class="bo" lang="bo">དུས་ནས་</span><span class="ph">dü né</span><span class="gl">since time</span></span><span class="grp"><span class="bo" lang="bo">བདག་ལ་</span><span class="ph">dak la</span><span class="gl">toward me</span></span><span class="grp"><span class="bo" lang="bo">བརྩེ་བ་ཅན།</span><span class="ph">tsé wa chen</span><span class="gl">the loving ones</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">མ་རྣམས་</span><span class="ph">ma nam</span><span class="gl">mothers</span></span><span class="grp"><span class="bo" lang="bo">སྡུག་ན་</span><span class="ph">duk na</span><span class="gl">if they suffer</span></span><span class="grp"><span class="bo" lang="bo">རང་བདེས་</span><span class="ph">rang dé</span><span class="gl">my own happiness</span></span><span class="grp"><span class="bo" lang="bo">ཅི་ཞིག་བྱ།</span><span class="ph">chi zhik ja</span><span class="gl">what use?</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དེ་ཕྱིར་</span><span class="ph">dé chir</span><span class="gl">therefore</span></span><span class="grp"><span class="bo" lang="bo">མཐའ་ཡས་</span><span class="ph">ta yé</span><span class="gl">without limit</span></span><span class="grp"><span class="bo" lang="bo">སེམས་ཅན་</span><span class="ph">sem chen</span><span class="gl">beings</span></span><span class="grp"><span class="bo" lang="bo">བསྒྲལ་བྱའི་ཕྱིར།</span><span class="ph">dral jé chir</span><span class="gl">in order to free</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">བྱང་ཆུབ་</span><span class="ph">jang chub</span><span class="gl">awakening</span></span><span class="grp"><span class="bo" lang="bo">སེམས་བསྐྱེད་</span><span class="ph">sem kyé</span><span class="gl">arouse mind</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln">They have <b class="bt">loved</b> me since <b class="bt">time</b> with<b class="bt">out</b> be<b class="bt">gin</b>ning:</span>
+      <span class="ln">if my <b class="bt">moth</b>ers <b class="bt">suf</b>fer, what <b class="bt">good</b> is my own <b class="bt">joy</b>?</span>
+      <span class="ln">So, to <b class="bt">free</b> <b class="bt">be</b>ings with<b class="bt">out</b> <b class="bt">lim</b>it,</span>
+      <span class="ln">give <b class="bt">rise</b> to bodhi<b class="bt">cit</b>ta.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>Over lives without beginning, every being has been our mother and loved us. The verse runs from time <em>without beginning</em> (<em>tok mé</em>) to beings <em>without limit</em> (<em>ta yé</em>): no first moment, no outer edge. To a Tibetan ear, <em>tok mé</em>, “beginningless”, also sounds exactly like the author’s own name, Tokme, spelled with one letter more.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the delay. The Tibetan speaks of those who have loved us before it names them; “mothers” arrives only in line two. And both <em>withouts</em>, so the echo can be heard. “To free” is the same phrase as in verse 1, <em>dral jé chir</em>.</p>
+<p><strong>Let go:</strong> <em>chi zhik ja</em>, “what is to be done with it?”, becomes “what good is it?”</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v16">
+    <div class="v-eyebrow"><a href="verses/16.html">Verse 16</a> · Transforming adversity</div>
+    <h3 class="v-title">The sick child</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">བདག་གི་</span><span class="ph">dak gi</span><span class="gl">my own</span></span><span class="grp"><span class="bo" lang="bo">བུ་བཞིན་</span><span class="ph">bu zhin</span><span class="gl">like a child</span></span><span class="grp"><span class="bo" lang="bo">གཅེས་པར་</span><span class="ph">ché par</span><span class="gl">dearly</span></span><span class="grp"><span class="bo" lang="bo">བསྐྱངས་པའི་མིས།</span><span class="ph">kyang pé mi</span><span class="gl">the one I raised</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">བདག་ལ་</span><span class="ph">dak la</span><span class="gl">at me</span></span><span class="grp"><span class="bo" lang="bo">དགྲ་བཞིན་</span><span class="ph">dra zhin</span><span class="gl">like an enemy</span></span><span class="grp"><span class="bo" lang="bo">ལྟ་བར་</span><span class="ph">ta war</span><span class="gl">looks</span></span><span class="grp"><span class="bo" lang="bo">བྱེད་ན་ཡང༌།</span><span class="ph">jé na yang</span><span class="gl">even if</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ནད་ཀྱིས་</span><span class="ph">né kyi</span><span class="gl">by illness</span></span><span class="grp"><span class="bo" lang="bo">བཏབ་པའི་</span><span class="ph">tab pé</span><span class="gl">struck</span></span><span class="grp"><span class="bo" lang="bo">བུ་ལ་</span><span class="ph">bu la</span><span class="gl">toward a child</span></span><span class="grp"><span class="bo" lang="bo">མ་བཞིན་དུ།</span><span class="ph">ma zhin du</span><span class="gl">like a mother</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ལྷག་པར་</span><span class="ph">lhak par</span><span class="gl">all the more</span></span><span class="grp"><span class="bo" lang="bo">བརྩེ་བ་</span><span class="ph">tsé wa</span><span class="gl">love</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln">One I <b class="bt">cher</b>ished and <b class="bt">raised</b> like my <b class="bt">own</b> <b class="bt">child</b></span>
+      <span class="ln">may <b class="bt">look</b> at me <b class="bt">like</b> an <b class="bt">en</b>emy:</span>
+      <span class="ln">like a <b class="bt">moth</b>er with her <b class="bt">child</b> <b class="bt">struck</b> by <b class="bt">ill</b>ness,</span>
+      <span class="ln"><b class="bt">love</b> them <b class="bt">all</b> the <b class="bt">more</b>.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>A mother whose child is ill does not love less when the child is difficult. She loves more, because the child is ill. The verse turns on three likenesses, each built on one small word, <em>zhin</em>, “like”: like a child, like an enemy, like a mother.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> all three “likes”, in order. The love asked for here, <em>tsé wa</em>, is the same word verse 10 uses for our mothers’ love for us. The love we were given is the love we are asked to give.</p>
+<p><strong>Let go:</strong> the Tibetan’s “even if” becomes a colon. English parallel lines can carry the turn without it.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v23">
+    <div class="v-eyebrow"><a href="verses/23.html">Verse 23</a> · Ultimate bodhicitta</div>
+    <h3 class="v-title">The summer rainbow</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཡིད་དུ་</span><span class="ph">yi du</span><span class="gl">to the mind</span></span><span class="grp"><span class="bo" lang="bo">འོང་བའི་</span><span class="ph">ong wé</span><span class="gl">pleasing</span></span><span class="grp"><span class="bo" lang="bo">ཡུལ་དང་</span><span class="ph">yul dang</span><span class="gl">things, with</span></span><span class="grp"><span class="bo" lang="bo">འཕྲད་པ་ན།</span><span class="ph">tré pa na</span><span class="gl">when meeting</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དབྱར་གྱི་</span><span class="ph">yar gyi</span><span class="gl">summer’s</span></span><span class="grp"><span class="bo" lang="bo">དུས་ཀྱི་</span><span class="ph">dü kyi</span><span class="gl">season’s</span></span><span class="grp"><span class="bo" lang="bo">འཇའ་ཚོན་</span><span class="ph">ja tsön</span><span class="gl">rainbow</span></span><span class="grp"><span class="bo" lang="bo">ཇི་བཞིན་དུ།</span><span class="ph">ji zhin du</span><span class="gl">just like</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">མཛེས་པར་</span><span class="ph">dzé par</span><span class="gl">beautiful</span></span><span class="grp"><span class="bo" lang="bo">སྣང་ཡང་</span><span class="ph">nang yang</span><span class="gl">though appearing</span></span><span class="grp"><span class="bo" lang="bo">བདེན་པར་</span><span class="ph">den par</span><span class="gl">as real</span></span><span class="grp"><span class="bo" lang="bo">མི་ལྟ་ཞིང༌།</span><span class="ph">mi ta zhing</span><span class="gl">not seeing</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">ཞེན་ཆགས་</span><span class="ph">zhen chak</span><span class="gl">clinging</span></span><span class="grp"><span class="bo" lang="bo">སྤོང་བ་</span><span class="ph">pong wa</span><span class="gl">giving up</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln">When you <b class="bt">meet</b> with what <b class="bt">pleas</b>es the <b class="bt">mind</b>,</span>
+      <span class="ln">like a <b class="bt">rain</b>bow in the <b class="bt">sum</b>mer<b class="bt">time</b>,</span>
+      <span class="ln"><b class="bt">beau</b>tiful as it ap<b class="bt">pears</b>, do <b class="bt">not</b> see it as <b class="bt">real</b>:</span>
+      <span class="ln">give <b class="bt">up</b> <b class="bt">cling</b>ing.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>A summer rainbow is the most vivid thing in the sky, and there is nothing there to hold. The verse does not say the rainbow is ugly or unreal. It says: it appears, beautifully. Enjoy the appearing, and do not reach for it.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the verbs. Verses 23 and 24 are a pair, built from the same words. In both you <em>meet</em> something (<em>tré</em>): here the pleasant, there the painful. In both you <em>see</em> (<em>ta</em>): here not as real, there as delusion. The English uses “meet” and “see” in both, so the pair can be heard.</p>
+<p><strong>Let go:</strong> <em>yi du ong</em>, literally “coming to the mind”, becomes “pleases the mind”.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v24">
+    <div class="v-eyebrow"><a href="verses/24.html">Verse 24</a> · Ultimate bodhicitta</div>
+    <h3 class="v-title">A dream of a child’s death</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">སྡུག་བསྔལ་</span><span class="ph">duk ngal</span><span class="gl">suffering</span></span><span class="grp"><span class="bo" lang="bo">སྣ་ཚོགས་</span><span class="ph">na tsok</span><span class="gl">of every kind</span></span><span class="grp"><span class="bo" lang="bo">རྨི་ལམ་</span><span class="ph">mi lam</span><span class="gl">in a dream</span></span><span class="grp"><span class="bo" lang="bo">བུ་ཤི་ལྟར།</span><span class="ph">bu shi tar</span><span class="gl">like a child’s death</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">འཁྲུལ་སྣང་</span><span class="ph">trul nang</span><span class="gl">deluded appearance</span></span><span class="grp"><span class="bo" lang="bo">བདེན་པར་</span><span class="ph">den par</span><span class="gl">as real</span></span><span class="grp"><span class="bo" lang="bo">བཟུང་བས་</span><span class="ph">zung wé</span><span class="gl">by holding</span></span><span class="grp"><span class="bo" lang="bo">ཨ་ཐང་ཆད།</span><span class="ph">a tang ché</span><span class="gl">strength is spent</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དེ་ཕྱིར་</span><span class="ph">dé chir</span><span class="gl">therefore</span></span><span class="grp"><span class="bo" lang="bo">མི་མཐུན་</span><span class="ph">mi tün</span><span class="gl">adverse</span></span><span class="grp"><span class="bo" lang="bo">རྐྱེན་དང་</span><span class="ph">kyen dang</span><span class="gl">conditions, with</span></span><span class="grp"><span class="bo" lang="bo">འཕྲད་པའི་ཚེ།</span><span class="ph">tré pé tsé</span><span class="gl">when meeting</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">འཁྲུལ་པར་</span><span class="ph">trul par</span><span class="gl">as delusion</span></span><span class="grp"><span class="bo" lang="bo">ལྟ་བ་</span><span class="ph">ta wa</span><span class="gl">seeing</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln">All <b class="bt">suf</b>fering is like a <b class="bt">child</b>’s <b class="bt">death</b> in a <b class="bt">dream</b>:</span>
+      <span class="ln"><b class="bt">grasp</b>ing what de<b class="bt">lu</b>sion shows as <b class="bt">real</b> wears us <b class="bt">out</b>.</span>
+      <span class="ln">So, when you <b class="bt">meet</b> with what <b class="bt">goes</b> a<b class="bt">gainst</b> you,</span>
+      <span class="ln"><b class="bt">see</b> it as de<b class="bt">lu</b>sion.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>In the dream the grief is complete. You wake, and there was never a child. The verse does not tell you the pain is nothing. It says that holding what delusion shows as real wears you out: <em>a tang ché</em>, your strength is cut.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> the plain “wears us out”. Grief in the Tibetan is not dressed up. “Meet” and “see” match verse 23.</p>
+<p><strong>Let go:</strong> <em>na tsok</em>, “of every kind”, becomes simply “all”. And <em>trul nang</em>, “deluded appearance”, becomes “what delusion shows”, which is shorter to sing.</p></div>
+    </div>
+  </article>
+  <article class="verse" id="v37">
+    <div class="v-eyebrow"><a href="verses/37.html">Verse 37</a> · Final precepts, daily conduct</div>
+    <h3 class="v-title">Dedication</h3>
+    <div class="layer-label">Hear it · word by word</div>
+    <div class="tib">
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">དེ་ལྟར་</span><span class="ph">dé tar</span><span class="gl">in this way</span></span><span class="grp"><span class="bo" lang="bo">བརྩོན་པས་</span><span class="ph">tsön pé</span><span class="gl">with effort</span></span><span class="grp"><span class="bo" lang="bo">བསྒྲུབས་པའི་</span><span class="ph">drub pé</span><span class="gl">accomplished</span></span><span class="grp"><span class="bo" lang="bo">དགེ་བ་རྣམས།</span><span class="ph">gé wa nam</span><span class="gl">the virtues</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">མཐའ་ཡས་</span><span class="ph">ta yé</span><span class="gl">without limit</span></span><span class="grp"><span class="bo" lang="bo">འགྲོ་བའི་</span><span class="ph">dro wé</span><span class="gl">beings’</span></span><span class="grp"><span class="bo" lang="bo">སྡུག་བསྔལ་</span><span class="ph">duk ngal</span><span class="gl">suffering</span></span><span class="grp"><span class="bo" lang="bo">བསལ་བྱའི་ཕྱིར།</span><span class="ph">sal jé chir</span><span class="gl">in order to clear</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">འཁོར་གསུམ་</span><span class="ph">khor sum</span><span class="gl">three spheres</span></span><span class="grp"><span class="bo" lang="bo">རྣམ་པར་</span><span class="ph">nam par</span><span class="gl">completely</span></span><span class="grp"><span class="bo" lang="bo">དག་པའི་</span><span class="ph">dak pé</span><span class="gl">pure</span></span><span class="grp"><span class="bo" lang="bo">ཤེས་རབ་ཀྱིས།</span><span class="ph">shé rab kyi</span><span class="gl">with wisdom</span></span></div>
+      <div class="tline"><span class="grp"><span class="bo" lang="bo">བྱང་ཆུབ་</span><span class="ph">jang chub</span><span class="gl">to awakening</span></span><span class="grp"><span class="bo" lang="bo">བསྔོ་བ་</span><span class="ph">ngo wa</span><span class="gl">dedicating</span></span><span class="grp refrain"><span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span><span class="ph">gyal sé lak len yin</span><span class="gl">is the Victor’s children’s practice</span></span></div>
+    </div>
+    <div class="layer-label">Sounded in English</div>
+    <div class="chant">
+      <span class="ln"><b class="bt">All</b> the <b class="bt">vir</b>tue <b class="bt">won</b> by <b class="bt">striv</b>ing like this,</span>
+      <span class="ln">to <b class="bt">clear</b> the <b class="bt">suf</b>fering of <b class="bt">be</b>ings with<b class="bt">out</b> <b class="bt">lim</b>it,</span>
+      <span class="ln">with <b class="bt">wis</b>dom <b class="bt">pure</b> of the <b class="bt">three</b> <b class="bt">spheres</b>,</span>
+      <span class="ln"><b class="bt">ded</b>icate to a<b class="bt">wak</b>ening.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="notes">
+      <div><div class="layer-label">At its heart</div><p>The last verse gives everything away. Whatever good the thirty-six practices have made is turned toward awakening, for beings <em>without limit</em>, the phrase verse 10 used for our mothers. The wisdom that does it is pure of the three spheres: no one giving, nothing given, no one receiving held as real.</p></div>
+      <div><div class="layer-label">Kept &amp; let go</div><p><strong>Kept:</strong> <em>ta yé</em>, “without limit”, the same in verse 10 and here, so the end answers the middle. In Tibetan the end also answers the beginning: line two closes <em>sal jé chir</em>, the cadence of verse 1’s <em>dral jé chir</em>, so the first and last verses turn on the same sound.</p>
+<p><strong>Let go:</strong> the three spheres go unexplained in the chant. That is the commentaries’ work.</p></div>
+    </div>
+  </article>
+
+  <div class="concord">
+    <div class="layer-label">Words that stay the same</div>
+    <p>When a Tibetan word comes back, its English word comes back with it, so the echo can be heard from verse to verse. This is the leading-word principle of Buber, Rosenzweig and Fox.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Tibetan</th><th>Sound</th><th>English</th><th>Where</th></tr></thead>
+        <tbody>
+        <tr><td class="bo" lang="bo">ལེན / བླང</td><td class="cph">len / lang</td><td class="cen">take</td><td>The refrain’s <em>lak len</em>; verse 2’s “what to take up”</td></tr>
+        <tr><td class="bo" lang="bo">བསྒྲལ་བྱའི་ཕྱིར</td><td class="cph">dral jé chir</td><td class="cen">to free</td><td>Verses 1 and 10</td></tr>
+        <tr><td class="bo" lang="bo">བརྩེ་བ</td><td class="cph">tsé wa</td><td class="cen">love</td><td>Verses 10 and 16</td></tr>
+        <tr><td class="bo" lang="bo">མཐའ་ཡས</td><td class="cph">ta yé</td><td class="cen">without limit</td><td>Verses 10 and 37</td></tr>
+        <tr><td class="bo" lang="bo">བདེ་བ</td><td class="cph">dé wa</td><td class="cen">joy</td><td>Verses 9 and 10</td></tr>
+        <tr><td class="bo" lang="bo">འཕྲད / ལྟ</td><td class="cph">tré / ta</td><td class="cen">meet / see</td><td>Verses 23 and 24</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="sheet" id="chant">
+  <div class="sheet-inner">
+    <div class="kicker">For your group</div>
+    <h2>The chant sheet</h2>
+    <p class="intro">The nine verses on their own, set for a leader and a group. The leader reads the verse; everyone answers with the refrain. The switch at the top of the screen sets the refrain in English or Tibetan.</p>
+    <div class="st">
+      <div class="num">Verse 1 · The great ship</div>
+      <span class="role">Leader</span>
+      <span class="ln"><b class="bt">Free</b>dom and <b class="bt">for</b>tune, the great <b class="bt">ship</b>, hard to <b class="bt">find</b>, now <b class="bt">found</b>:</span>
+      <span class="ln">to <b class="bt">free</b> myself and <b class="bt">oth</b>ers from sam<b class="bt">sa</b>ra’s <b class="bt">sea</b>,</span>
+      <span class="ln">by <b class="bt">day</b> and by <b class="bt">night</b>, <b class="bt">nev</b>er <b class="bt">i</b>dle,</span>
+      <span class="ln"><b class="bt">lis</b>ten, re<b class="bt">flect</b>, and <b class="bt">med</b>itate.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 2 · Water, fire, darkness</div>
+      <span class="role">Leader</span>
+      <span class="ln">For my <b class="bt">kin</b>, de<b class="bt">sire</b> <b class="bt">surg</b>es like <b class="bt">wa</b>ter;</span>
+      <span class="ln">for my <b class="bt">foes</b>, <b class="bt">ha</b>tred <b class="bt">blaz</b>es like <b class="bt">fire</b>;</span>
+      <span class="ln"><b class="bt">pitch</b>-dark de<b class="bt">lu</b>sion for<b class="bt">gets</b> what to <b class="bt">take</b> up, what to put <b class="bt">down</b>:</span>
+      <span class="ln"><b class="bt">leave</b> your <b class="bt">home</b>land.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 4 · The guesthouse</div>
+      <span class="role">Leader</span>
+      <span class="ln"><b class="bt">Friends</b> of many <b class="bt">years</b> will <b class="bt">part</b>, each a<b class="bt">lone</b>;</span>
+      <span class="ln">the <b class="bt">wealth</b> we <b class="bt">worked</b> for will be <b class="bt">left</b> be<b class="bt">hind</b>;</span>
+      <span class="ln"><b class="bt">con</b>sciousness, the <b class="bt">guest</b>, will <b class="bt">leave</b> the body’s <b class="bt">guest</b>house:</span>
+      <span class="ln">let <b class="bt">go</b> of this <b class="bt">life</b>.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 9 · Dew on the grass</div>
+      <span class="role">Leader</span>
+      <span class="ln"><b class="bt">Joy</b> in the three <b class="bt">worlds</b> is <b class="bt">dew</b> on the tip of the <b class="bt">grass</b>:</span>
+      <span class="ln">a <b class="bt">mo</b>ment, and it <b class="bt">per</b>ishes; <b class="bt">that</b> is its <b class="bt">na</b>ture.</span>
+      <span class="ln"><b class="bt">Nev</b>er <b class="bt">chang</b>ing, liber<b class="bt">a</b>tion’s highest <b class="bt">state</b>:</span>
+      <span class="ln"><b class="bt">strive</b> for it as your <b class="bt">goal</b>.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 10 · Our mothers</div>
+      <span class="role">Leader</span>
+      <span class="ln">They have <b class="bt">loved</b> me since <b class="bt">time</b> with<b class="bt">out</b> be<b class="bt">gin</b>ning:</span>
+      <span class="ln">if my <b class="bt">moth</b>ers <b class="bt">suf</b>fer, what <b class="bt">good</b> is my own <b class="bt">joy</b>?</span>
+      <span class="ln">So, to <b class="bt">free</b> <b class="bt">be</b>ings with<b class="bt">out</b> <b class="bt">lim</b>it,</span>
+      <span class="ln">give <b class="bt">rise</b> to bodhi<b class="bt">cit</b>ta.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 16 · The sick child</div>
+      <span class="role">Leader</span>
+      <span class="ln">One I <b class="bt">cher</b>ished and <b class="bt">raised</b> like my <b class="bt">own</b> <b class="bt">child</b></span>
+      <span class="ln">may <b class="bt">look</b> at me <b class="bt">like</b> an <b class="bt">en</b>emy:</span>
+      <span class="ln">like a <b class="bt">moth</b>er with her <b class="bt">child</b> <b class="bt">struck</b> by <b class="bt">ill</b>ness,</span>
+      <span class="ln"><b class="bt">love</b> them <b class="bt">all</b> the <b class="bt">more</b>.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 23 · The summer rainbow</div>
+      <span class="role">Leader</span>
+      <span class="ln">When you <b class="bt">meet</b> with what <b class="bt">pleas</b>es the <b class="bt">mind</b>,</span>
+      <span class="ln">like a <b class="bt">rain</b>bow in the <b class="bt">sum</b>mer<b class="bt">time</b>,</span>
+      <span class="ln"><b class="bt">beau</b>tiful as it ap<b class="bt">pears</b>, do <b class="bt">not</b> see it as <b class="bt">real</b>:</span>
+      <span class="ln">give <b class="bt">up</b> <b class="bt">cling</b>ing.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 24 · A dream of a child’s death</div>
+      <span class="role">Leader</span>
+      <span class="ln">All <b class="bt">suf</b>fering is like a <b class="bt">child</b>’s <b class="bt">death</b> in a <b class="bt">dream</b>:</span>
+      <span class="ln"><b class="bt">grasp</b>ing what de<b class="bt">lu</b>sion shows as <b class="bt">real</b> wears us <b class="bt">out</b>.</span>
+      <span class="ln">So, when you <b class="bt">meet</b> with what <b class="bt">goes</b> a<b class="bt">gainst</b> you,</span>
+      <span class="ln"><b class="bt">see</b> it as de<b class="bt">lu</b>sion.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+    <div class="st">
+      <div class="num">Verse 37 · Dedication</div>
+      <span class="role">Leader</span>
+      <span class="ln"><b class="bt">All</b> the <b class="bt">vir</b>tue <b class="bt">won</b> by <b class="bt">striv</b>ing like this,</span>
+      <span class="ln">to <b class="bt">clear</b> the <b class="bt">suf</b>fering of <b class="bt">be</b>ings with<b class="bt">out</b> <b class="bt">lim</b>it,</span>
+      <span class="ln">with <b class="bt">wis</b>dom <b class="bt">pure</b> of the <b class="bt">three</b> <b class="bt">spheres</b>,</span>
+      <span class="ln"><b class="bt">ded</b>icate to a<b class="bt">wak</b>ening.</span>
+      <span class="rf"><span class="en">This is the way of a bodhisattva.</span><span class="ti">gyal sé lak len yin <span class="bo" lang="bo">རྒྱལ་སྲས་ལག་ལེན་ཡིན།</span></span></span>
+    </div>
+  </div>
+</section>
+
+<main>
+<section class="part" id="together">
+  <div class="kicker">Using it together</div>
+  <h2>Chanting in a study group</h2>
+  <div class="rule"></div>
+  <ol class="howto">
+    <li><strong>Hear the Tibetan first.</strong> Play a recording, or have someone read one verse slowly from the sounds above. Listen for the footsteps and the bell, not for the meaning.</li>
+    <li><strong>Leader and group.</strong> The leader reads the four English lines. Everyone answers with the refrain, in English or, once the group knows it, in Tibetan. <em>Gyal sé lak len yin</em> takes about three verses to learn.</li>
+    <li><strong>One breath a line.</strong> Lean on the marked syllables and let the rest fall between them. A steady pulse is enough; no tune is needed.</li>
+    <li><strong>Leave a breath of silence</strong> after each refrain, before the next verse begins.</li>
+    <li><strong>Chant the session’s verses twice,</strong> once before the discussion and once after. Notice whether they sound different.</li>
+    <li><strong>Say what doesn’t work.</strong> These are drafts. A line that trips the tongue in a room full of people is a line to rewrite; that is how the Nālandā translators worked.</li>
+  </ol>
+
+  <h3>Listen first</h3>
+  <p>Others already chant this text in English. It is worth hearing them before adding anything new.</p>
+  <div class="listen">
+    <a href="https://garchen.net/library-37practices-subject/" target="_blank" rel="noopener"><b>Garchen Institute</b> · the English verse translation <em>What Bodhisattvas Do</em>, with the retreat group’s musical and simple-melody recordings</a>
+    <a href="https://thubtenchodron.org/2005/04/mahayana-verses/" target="_blank" rel="noopener"><b>Sravasti Abbey</b> · a group recitation in English (2010), opening with a slow, sung <em>Namo Lokeshvaraya</em></a>
+    <a href="https://nalandabodhi.org/2022/05/27/37-practices-of-a-bodhisattva-recitation/" target="_blank" rel="noopener"><b>Nalandabodhi</b> · an English recitation of the Marpa Translation Committee’s version, and why to memorise it</a>
+    <a href="https://studybuddhism.com/en/tibetan-buddhism/original-texts/sutra-texts/37-bodhisattva-practices/37-bodhisattva-practices-poetic-rendering" target="_blank" rel="noopener"><b>Alexander Berzin</b> · a metrical “poetic rendering”, with the refrain “the Sons of the Buddhas all practice this way”</a>
+  </div>
+
+  <h3>Where this goes next</h3>
+  <div class="next">
+    <p>This page is a draft to see whether the approach works. If it does:</p>
+    <ul>
+      <li>A reader of Tibetan checks the word-by-word glosses and the sounded versions.</li>
+      <li>One study group chants these nine for a few weeks, and the lines that don’t work are rewritten.</li>
+      <li>The other twenty-eight verses, the homage and the closing verses follow, with a “Hear it” layer on every verse page and a printable chant booklet.</li>
+      <li>Recordings: the Tibetan read by a teacher or native speaker, and a group chanting the English.</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<section class="sources" id="sources">
+  <h3>Sources</h3>
+  <ol>
+    <li id="s-trungpa">Chögyam Trungpa, “Tibetan Poetics”, <em>Loka 2</em> (1976), on <em>nyen-ngak</em> and the nine-syllable line. <a href="https://beezone.com/current/tibetan-poetics-chogyam-trungpa-rinpoche.html" target="_blank" rel="noopener">beezone.com</a></li>
+    <li id="s-hahn"><em>Tricycle</em>, review of <em>Guide to the Bodhisattva’s Way of Life</em>, on English’s long words; see also Michael Hahn in <em>Pacific World</em> on how Tibetan translators re-metred Sanskrit verse. <a href="https://tricycle.org/magazine/guide-bodhisattva-way-life/" target="_blank" rel="noopener">tricycle.org</a></li>
+    <li id="s-ali">Rozina Ali, “The Erasure of Islam from the Poetry of Rumi”, <em>The New Yorker</em>, 5 January 2017. <a href="https://www.newyorker.com/books/page-turner/the-erasure-of-islam-from-the-poetry-of-rumi" target="_blank" rel="noopener">www.newyorker.com</a></li>
+    <li>Psalm 136 and its refrain. <a href="https://en.wikipedia.org/wiki/Psalm_136" target="_blank" rel="noopener">en.wikipedia.org</a></li>
+    <li>Robert Alter’s note on Psalm 136, as reproduced. <a href="https://disjectamembra2014.blogspot.com/2016/12/robert-alter-book-of-psalms.html" target="_blank" rel="noopener">disjectamembra2014.blogspot.com</a></li>
+    <li>F. W. Dobbs-Allsopp, <em>Divine Style</em>, ch. 4, on Lowth and parallelism. <a href="https://books.openbookpublishers.com/10.11647/obp.0357/ch4.xhtml" target="_blank" rel="noopener">books.openbookpublishers.com</a></li>
+    <li>C. S. Lewis, <em>Reflections on the Psalms</em>, on parallelism, as quoted. <a href="https://heidelblog.net/2023/05/saturday-psalm-series-parallelism-and-poetic-imagination-in-the-psalms-c-s-lewis-reflections-on-the-psalms/" target="_blank" rel="noopener">heidelblog.net</a></li>
+    <li>Gelineau psalmody. <a href="https://en.wikipedia.org/wiki/Gelineau_psalmody" target="_blank" rel="noopener">en.wikipedia.org</a></li>
+    <li>The Grail Psalms. <a href="https://en.wikipedia.org/wiki/Grail_Psalms" target="_blank" rel="noopener">en.wikipedia.org</a></li>
+    <li>Everett Fox, <em>The Five Books of Moses</em>, translator’s preface. <a href="https://www.sefaria.org/The_Five_Books_of_Moses,_by_Everett_Fox,_Translator%27s_Preface" target="_blank" rel="noopener">www.sefaria.org</a></li>
+    <li>Robert Alter on “the heresy of explanation”, as quoted. <a href="https://maudnewton.com/2007/01/biblical-translation-the-seed-of-abraham-or-the-offspring/" target="_blank" rel="noopener">maudnewton.com</a></li>
+    <li>Thomas Cranmer’s letter to Henry VIII, 1544. <a href="https://adoremus.org/1999/11/quotmore-than-the-liberty-of-a-translatorquot/" target="_blank" rel="noopener">adoremus.org</a></li>
+    <li>Pointing the psalms for Anglican chant. <a href="https://1928commonprayer.org/offices/guide-to-anglican-chant" target="_blank" rel="noopener">1928commonprayer.org</a></li>
+    <li>Arthur Waley, <em>A Hundred and Seventy Chinese Poems</em> (1918), introduction. <a href="https://www.gutenberg.org/files/42290/42290-h/42290-h.htm" target="_blank" rel="noopener">www.gutenberg.org</a></li>
+    <li>Jerome Rothenberg’s “total translation”, <em>Jacket2</em>. <a href="https://jacket2.org/article/total-translation" target="_blank" rel="noopener">jacket2.org</a></li>
+    <li>Tom Shippey on Heaney’s <em>Beowulf</em>, <em>TLS</em> 1999. <a href="https://drmarkwomack.com/engl-2322/handouts/shippey-review/" target="_blank" rel="noopener">drmarkwomack.com</a></li>
+    <li>FPMT, <em>Lama Chöpa Audio Guide</em>. <a href="https://shop.fpmt.org/assets/images/eproducts/lamachopaguide.pdf" target="_blank" rel="noopener">shop.fpmt.org</a></li>
+    <li>Alexander Berzin, “The Role of Translation and Concepts in Practice”. <a href="https://studybuddhism.com/en/advanced-studies/vajrayana/tantra-theory/overview-of-tantra/tantra-the-role-of-translation-and-concepts-in-practice" target="_blank" rel="noopener">studybuddhism.com</a></li>
+    <li>Larry Mermelstein, “Chögyam the Translator”. <a href="https://www.chronicleproject.com/chogyam-the-translator/" target="_blank" rel="noopener">www.chronicleproject.com</a></li>
+    <li>Khenpo Tsültrim Gyamtso, “Why We Sing”, tr. Ari Goldfield. <a href="https://www.ktgrinpoche.org/songs/why-we-sing" target="_blank" rel="noopener">www.ktgrinpoche.org</a></li>
+    <li><em>Lion’s Roar</em> on singing the songs of Milarepa in English. <a href="https://www.lionsroar.com/songs-of-milarepa/" target="_blank" rel="noopener">www.lionsroar.com</a></li>
+    <li>The Bay Psalm Book. <a href="https://en.wikipedia.org/wiki/Bay_Psalm_Book" target="_blank" rel="noopener">en.wikipedia.org</a></li>
+    <li>The Bay Psalm Book, preface. <a href="https://cprc.co.uk/quotes/prefacebaypsalmbook/" target="_blank" rel="noopener">cprc.co.uk</a></li>
+    <li>Coleman Barks. <a href="https://en.wikipedia.org/wiki/Coleman_Barks" target="_blank" rel="noopener">en.wikipedia.org</a></li>
+    <li>Garchen Institute practice texts and recordings, as listed. <a href="https://drikungdharmasurya.org/dharma-text-from-garchen-institude-official-web-site/" target="_blank" rel="noopener">drikungdharmasurya.org</a></li>
+    <li>Tibetan text: Lotsawa House, compared line by line with the StudyBuddhism, Esukhia and 2013 Bhutanese editions; where Lotsawa House stood alone against all three, we followed the others. <a href="https://www.lotsawahouse.org/bo/tibetan-masters/gyalse-thogme-zangpo/37-practices-all-bodhisattvas" target="_blank" rel="noopener">www.lotsawahouse.org</a></li>
+    <li>On the rhythm of Tibetan verse lines: Jennifer Divall, <em>Songs of a Wandering Yogi</em> (McGill, 2014), pp. 33–42. <a href="https://central.bac-lac.gc.ca/.item?app=Library&amp;id=TC-QMM-127122&amp;is_thesis=1&amp;oclc_number=911201974&amp;op=pdf" target="_blank" rel="noopener">central.bac-lac.gc.ca</a></li>
+  </ol>
+</section>
+
+<footer class="foot">
+  37 Practices of a Bodhisattva · Sangha Study Groups · <a href="index.html">37practices.space</a><br>
+  Tibetan root text by Gyalse Tokme Zangpo (1295–1369). The sounded versions on this page are drafts for review.
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var defaults = { refrain: 'en', beats: 'on' };
+  function set(key, val) {
+    root.setAttribute('data-' + key, val);
+    var btns = document.querySelectorAll('[data-set="' + key + '"]');
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].setAttribute('aria-pressed', String(btns[i].getAttribute('data-val') === val));
+    }
+    try { localStorage.setItem('hearing.' + key, val); } catch (e) {}
+  }
+  Object.keys(defaults).forEach(function (key) {
+    var saved = null;
+    try { saved = localStorage.getItem('hearing.' + key); } catch (e) {}
+    set(key, saved || defaults[key]);
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-set]') : null;
+    if (b) set(b.getAttribute('data-set'), b.getAttribute('data-val'));
+  });
+})();
+</script>
+</body>
+</html>

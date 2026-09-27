@@ -1267,7 +1267,8 @@
           "অনাহত"
         ],
         "bod": [
-          "གཞོམ་མེད"
+          "གཞོམ་མེད",
+          "གཞོམ་དུ་མེད་པའི"
         ]
       },
       "matchRe": {
@@ -3386,6 +3387,14 @@
           "lemma": "beṇi",
           "att": "AS",
           "where": "cp.17.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས",
+          "translit": "gnyis",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.16.3a"
         }
       ],
       "match": {},
@@ -3513,8 +3522,7 @@
       ],
       "match": {
         "san": [
-          "ভগং",
-          "ভগ"
+          "ভগং"
         ],
         "bod": [
           "བྷ་ག"
@@ -5163,6 +5171,14 @@
           "lemma": "sangs rgyas",
           "att": "AD",
           "where": ""
+        },
+        {
+          "lang": "bod",
+          "script": "མཁས་རྣམས",
+          "translit": "mkhas rnams",
+          "lemma": "mkhas pa",
+          "att": "AO",
+          "where": "cp.16.m2"
         }
       ],
       "match": {
@@ -9032,6 +9048,14 @@
           "lemma": "nam mkha'",
           "att": "AO",
           "where": "cp.16.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁར",
+          "translit": "nam mkhar",
+          "lemma": "nam mkha'",
+          "att": "AO",
+          "where": "cp.16.m4"
         }
       ],
       "match": {
@@ -9045,7 +9069,8 @@
         ],
         "bod": [
           "ནམ་མཁའ",
-          "ནམ་མཁའི"
+          "ནམ་མཁའི",
+          "ནམ་མཁར"
         ]
       },
       "matchRe": {},
@@ -13375,6 +13400,14 @@
           "lemma": "mtsho",
           "att": "AO",
           "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚོའི",
+          "translit": "mtsho'i",
+          "lemma": "mtsho",
+          "att": "AO",
+          "where": "cp.16.m4"
         }
       ],
       "match": {
@@ -15376,6 +15409,30 @@
           "lemma": "myos pa",
           "att": "AO",
           "where": "cp.16.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱོས་པར",
+          "translit": "myos par",
+          "lemma": "myos pa",
+          "att": "AO",
+          "where": "cp.16.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱོས",
+          "translit": "myos",
+          "lemma": "myos pa",
+          "att": "AO",
+          "where": "cp.16.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་ཏུ་དགྱེས་པའི",
+          "translit": "rab tu dgyes pa'i",
+          "lemma": "rab tu dgyes pa",
+          "att": "AO",
+          "where": "cp.16.m2"
         }
       ],
       "match": {
@@ -15384,6 +15441,10 @@
         ],
         "san": [
           "প্রমত্ত"
+        ],
+        "bod": [
+          "མྱོས་པར",
+          "མྱོས"
         ]
       },
       "matchRe": {},
@@ -17635,6 +17696,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.18.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱ་ངན་ལས་འདས་པའི",
+          "translit": "mya ngan las 'das pa'i",
+          "lemma": "mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.16.m4"
         }
       ],
       "match": {
@@ -17648,7 +17717,8 @@
           "མྱ་ངན་འདས",
           "མྱ་ངན་འདའ",
           "མྱ་ངན་ལས་འདའ",
-          "མྱ་ངན་ལས་འདས་པ"
+          "མྱ་ངན་ལས་འདས་པ",
+          "མྱ་ངན་ལས་འདས་པའི"
         ],
         "oben": [
           "নিবাণ",
@@ -21311,6 +21381,14 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་གསུམ",
+          "translit": "rnam gsum",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.16.1a"
         }
       ],
       "match": {
@@ -26593,6 +26671,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་མེད་སྒྲ",
+          "translit": "gzhom med sgra",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.16.3b"
         }
       ],
       "match": {

@@ -9685,6 +9685,46 @@
       }
     },
     {
+      "id": "dpa-boi-ti-la",
+      "type": "term",
+      "status": "proposed",
+      "en": "dpa' bo'i ti la",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "dpa' bo'i ti la",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.24.h1"
+        }
+      ],
+      "match": {
+        "bod": [
+          "དཔའ་བོའི་ཏི་ལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The name of the rāga (melodic mode) to which song 24 is sung, known only from the Tibetan heading. dpa' bo is the regular Tibetan for vīra, 'hero'; ti la looks like a transcription, perhaps of tila or tilaka. The Indian name behind it is not identified, so the Wylie is kept.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "dundubhi",
       "type": "term",
       "status": "proposed",
@@ -20909,6 +20949,14 @@
           "lemma": "pad+ma'i tshal",
           "att": "AO",
           "where": "cp.23.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ",
+          "translit": "khyim",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.23.2b"
         }
       ],
       "match": {

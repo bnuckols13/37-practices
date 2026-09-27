@@ -1,0 +1,40 @@
+{
+  "unit": "cp.23",
+  "equivalents": [
+    {
+      "id": "mamsa",
+      "line": "cp.23.2b",
+      "script": "ཤ",
+      "wylie": "sha",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan reads sha ni med par, 'without flesh', with nothing for the haṇa ('kill'?) of Shastri's haṇabiṇu; marked likely only because the bare syllable ཤ also stands inside other words (e.g. sha ba, which the Tibetan uses for Śabara)."
+    },
+    {
+      "id": "nalinivana",
+      "line": "cp.23.2b",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the Bengali has padmabaṇa, 'lotus grove' (rendered pad+ma'i tshal in 1b), the Tibetan line has khyim, 'house', and Munidatta's Tibetan comment follows it with 'the house of great bliss' (bde ba chen po'i khyim, cp.23.m3), so the translators either read another word here or took the grove as a dwelling."
+    }
+  ],
+  "questions": [
+    "nalinivana at cp.23.2b: khyim is matched by position only (it stands where padmabaṇa stands, before 'jug, 'enter'); it does not mean 'lotus grove', and the house and hut entries already list khyim, so the reviewer may prefer to record it as a variant reading of the line rather than as a Tibetan form of nalinivana."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "2c351fdb78625dd300a196d5d9b402541a4158b61e98f3c2d1fd70fd07208a0d",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "d3794d37c22e1ad1ce921c272b58804036d5cb34877241367a24c7d4523801b6",
+    "sourceSha": "84f5047ce7878b908fbea514455f99478fbf4cc8ec3af69ac2ac6e20bb4f30e2",
+    "parallelSha": "da9b2cea868f0af4fb6b93a59fd09c8ee27f1e03974fa79226658b97b1249c8a"
+  }
+}

@@ -3323,6 +3323,9 @@
       "match": {
         "san": [
           "বিপরীতভাবনা"
+        ],
+        "bod": [
+          "སྒོམ་པ"
         ]
       },
       "matchRe": {
@@ -8455,6 +8458,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.13.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "གདོས་པ་འཛིན",
+          "translit": "gdos pa 'dzin",
+          "lemma": "gdos pa 'dzin pa",
+          "att": "AO",
+          "where": "cp.13.m6"
         }
       ],
       "match": {
@@ -10300,6 +10311,14 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.13.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉེན་པ",
+          "translit": "mnyen pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.13.3a"
         }
       ],
       "match": {
@@ -12728,6 +12747,14 @@
           "lemma": "lam",
           "att": "AO",
           "where": "cp.15.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ",
+          "translit": "lam",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.13.m6"
         }
       ],
       "match": {
@@ -21477,6 +21504,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བསྒྲུབ",
+          "translit": "bsgrub",
+          "lemma": "sgrub pa",
+          "att": "AO",
+          "where": "cp.13.m5"
         }
       ],
       "match": {
@@ -28526,6 +28561,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟུང་དུ་འཇུག",
+          "translit": "zung du 'jug",
+          "lemma": "zung du 'jug pa",
+          "att": "AO",
+          "where": "cp.13.m2"
         }
       ],
       "match": {
@@ -28534,7 +28577,8 @@
           "যুগনদ্ধরূপং"
         ],
         "bod": [
-          "ཟུང་འཇུག"
+          "ཟུང་འཇུག",
+          "ཟུང་དུ་འཇུག"
         ]
       },
       "matchRe": {},

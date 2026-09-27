@@ -13,6 +13,7 @@ import { diffWords } from './diff.mjs';
 import { createSync } from './sync.mjs';
 import { whyPrompt, askWhy, WHY_ERRORS } from './why.mjs';
 import { lookups } from '../../lib/lookup.mjs';
+import { makePlaces } from '../../lib/places.mjs';
 
 const S = {
   env: { db: null, sample: null, canWrite: true, fatal: null, started: false, noClaude: false },
@@ -806,6 +807,91 @@ function renderTermList(listEl) {
     ...sort(done).map(termBlock));
 }
 
+// Readable names for ids ("Munidatta on 1.1" for cp.01.m2), rebuilt when the text's index changes.
+let placesFor = null, placesMemo = null;
+function places() {
+  const m = textMeta();
+  if (placesFor !== m) {
+    placesFor = m;
+    placesMemo = makePlaces({ prefix: m?.idPrefix || '', unitLabel: m?.unitLabel || 'Song', groupLabel: m?.groupLabel || 'passage',
+      commentator: m?.commentary || 'the commentary', comments: m?.comments || {} });
+  }
+  return placesMemo;
+}
+
+/** Go to the passage an id names, if that song is in the Studio. */
+function canGo(id) {
+  const unitId = String(id).split('.').slice(0, 2).join('.');
+  return songs().some(x => x.id === unitId && (x.reviewable || x.approved));
+}
+function goToId(id) {
+  const [, , p = ''] = String(id).split('.');
+  const unitId = String(id).split('.').slice(0, 2).join('.');
+  const part = !p ? 'head' : /^m\d+$/.test(p) ? p : /^h/.test(p) ? 'h' : p.replace(/[a-z]$/, '');
+  if (S.ui.drawer === 'panel') toggleDrawer('panel');
+  if (unitId !== S.unitId) { chooseSong(unitId); S.ui.pendingFocus = part; }
+  else focusSection(part);
+}
+const placeNode = (id, form = 'long') => canGo(id)
+  ? h('button', { type: 'button', class: 'link tb__at', onclick: ev => { ev.stopPropagation(); goToId(id); } }, places()[form](id))
+  : places()[form](id);
+
+// Where a form comes from, in words: the glossary's attestation codes (AS, AO…) spelled out.
+function formSource(f) {
+  const at = places().isId(f.where) ? f.where : '';
+  const says = {
+    AS: at ? ['in ', placeNode(at)] : null,   // the manuscript, which goes without saying
+    AO: f.lang === 'bod' ? (at ? ['in the Tibetan of ', placeNode(at)] : ['in the Tibetan translation']) : ['in another manuscript'],
+    AD: ['from the dictionaries'],
+    AA: ['an approximation'],
+    RP: ['reconstructed from its sound'],
+    RS: ['reconstructed from its sense'],
+  }[f.att];
+  return says ? h('span', { class: 'tb__src', title: !at && f.where ? f.where : null }, ' (', ...says, ')') : null;
+}
+
+/**
+ * How the image is read: the image, then each reading on its own line with who gives
+ * it and where. An edited value is shown as typed.
+ */
+function symbolicBlock(e, v) {
+  const sym = v('symbolic');
+  if (!sym) return null;
+  const parts = e.symbolicParts;
+  if (sym !== e.symbolic || !parts || (!parts.image && !parts.readings.length)) {
+    return h('p', { class: 'tb__sym' }, h('span', { class: 'tb__label' }, 'Read symbolically: '), places().text(sym));
+  }
+  // Group the places by reader: "Munidatta, at 10.2, 10.4".
+  const at = r => r.where.length ? [', at ', ...r.where.flatMap((id, i) => [i ? ', ' : null, canGo(id)
+    ? h('button', { type: 'button', class: 'link tb__at', onclick: ev => { ev.stopPropagation(); goToId(id); } }, places().ref(id)) : places().ref(id)])] : [];
+  return h('div', { class: 'tb__sym' },
+    parts.image ? h('p', {}, h('span', { class: 'tb__label' }, 'The image: '), parts.image) : null,
+    parts.readings.length ? h('p', { class: 'tb__label' }, 'Read as:') : null,
+    parts.readings.length ? h('ul', { class: 'tb__readings' }, parts.readings.map(r => h('li', {}, r.referent,
+      h('span', { class: 'tb__src' }, ' (', r.per || 'unattributed', ...at(r), ')')))) : null);
+}
+
+/** The entry's forms, one row per language: the word in its script, its transliteration, and where it comes from. */
+function formsBlock(e) {
+  const meta = textMeta();
+  const names = meta?.langNames || {}, html = meta?.htmlLangs || {};
+  const byLang = new Map();
+  for (const f of e.forms) {
+    const list = byLang.get(f.lang) || byLang.set(f.lang, []).get(f.lang);
+    if (!list.some(x => x.script === f.script && x.translit === f.translit)) list.push(f);
+  }
+  if (!byLang.size) return null;
+  const open = S.ui.termOpen === e.id;
+  return h('dl', { class: 'tb__forms' }, [...byLang].flatMap(([lang, list]) => {
+    const shown = open ? list : list.slice(0, 2);
+    return [h('dt', {}, names[lang] || lang), h('dd', {},
+      ...shown.flatMap((f, i) => [i ? h('span', { class: 'tb__sep', 'aria-hidden': 'true' }, ' · ') : null,
+        f.script ? h('span', { class: 'tb__script', lang: html[lang] || null }, f.script) : null, f.script && f.translit ? ' ' : null,
+        f.translit ? h('i', { lang: (html[lang] || 'und') + '-Latn' }, f.translit) : null, formSource(f)]),
+      list.length > shown.length ? h('span', { class: 'tb__muted' }, ` and ${list.length - shown.length} more`) : null)];
+  }));
+}
+
 function termBlock(e) {
   const gd = gdec(e.id);
   const live = gd && gd.entrySha === e.entrySha ? gd : null;
@@ -813,17 +899,16 @@ function termBlock(e) {
   const expanded = S.ui.termOpen === e.id;
   const state = live?.decision === 'approve' ? 'Approved here' : live?.decision === 'reject' ? 'Rejected here' : live?.decision === 'defer' ? 'Deferred'
     : e.status === 'approved' ? 'Approved' : e.status === 'rejected' ? 'Rejected' : 'Proposed by Claude';
-  const forms = e.forms.map(f => [f.script, f.translit].filter(Boolean).join(' ') + ` (${f.att}${f.where ? ', ' + f.where : ''})`).join(' · ');
   const decideBtn = (value, label, cls) => h('button', { type: 'button', class: `btn ${cls}`, 'aria-pressed': live?.decision === value ? 'true' : 'false',
     disabled: !S.env.canWrite,
     onclick: () => { glossaryChange(e.id, (g, en) => A.glossaryDecide(g, en, live?.decision === value ? null : value, now()), { immediate: true }); renderPanel(); renderGrid(); renderRail(); } }, label);
   const el = h('article', { class: `tb${expanded ? ' is-open' : ''}`, id: 't-' + e.id },
     h('button', { type: 'button', class: 'tb__head', 'aria-expanded': expanded ? 'true' : 'false', onclick: () => { S.ui.termOpen = expanded ? null : e.id; renderPanel(); } },
-      h('span', { class: 'tb__en' }, v('en')), h('span', { class: 'tb__type' }, v('type')), h('span', { class: 'tb__state' }, state)),
-    h('p', { class: 'tb__forms' }, forms),
-    h('p', { class: 'tb__def' }, v('definition') || h('i', {}, 'No definition yet')),
-    v('symbolic') ? h('p', { class: 'tb__sym' }, v('symbolic')) : null,
-    e.usedIn.length ? h('p', { class: 'tb__used' }, 'Used in ' + e.usedIn.join(', ')) : null,
+      h('span', { class: 'tb__en' }, v('en')), v('type') !== 'term' ? h('span', { class: 'tb__type' }, v('type')) : null, h('span', { class: 'tb__state' }, state)),
+    h('p', { class: 'tb__def' }, places().text(v('definition')) || h('i', {}, 'No definition yet')),
+    formsBlock(e),
+    symbolicBlock(e, v),
+    e.usedIn.length ? h('p', { class: 'tb__used' }, 'Our English uses it at ' + [...new Set(e.usedIn)].map(id => places().short(id)).join(', ')) : null,
     h('div', { class: 'tb__actions' }, decideBtn('approve', 'Approve', 'btn--ok'), decideBtn('reject', 'Reject', 'btn--quiet'), decideBtn('defer', 'Later', 'btn--quiet')),
     expanded ? termDetail(e, live, v) : null);
   return el;
@@ -844,7 +929,7 @@ function termDetail(e, live, v) {
     c === undefined ? h('p', { class: 'tb__muted' }, 'Finding where it occurs…')
       : c === null ? h('p', { class: 'tb__muted' }, 'It does not occur in the source loaded so far.')
       : usageBlock(e, c),
-    look.length ? h('div', { class: 'tb__look' }, h('h4', { class: 'tb__h' }, 'Look it up'),
+    look.length ? h('div', { class: 'tb__look' }, h('h4', { class: 'tb__h' }, 'Look it up in'),
       ...look.map(r => h('p', { class: 'look' },
         h('span', { class: 'look__form' }, (names[r.lang] || r.lang) + ' ', h('i', {}, r.form)), ' ',
         ...r.links.flatMap((l, i) => [i ? h('span', { class: 'look__sep', 'aria-hidden': 'true' }, ' · ') : null,
@@ -864,14 +949,16 @@ function loadConcord(id) {
 function usageBlock(e, c) {
   const all = S.ui.concordAll === e.id;
   const hits = all ? c.hits : c.hits.slice(0, 5);
-  const where = c.verse && c.comm ? `, ${c.verse} in the songs and ${c.comm} in the commentary` : '';
+  const who = textMeta()?.commentary || 'the commentary';
+  const times = n => (n === 1 ? 'once' : n === 2 ? 'twice' : `${n} times`);
+  const where = c.verse && c.comm ? ` (${c.verse} in the songs, ${c.comm} in ${who}’s commentary)` : c.comm ? ` in ${who}’s commentary` : c.verse ? ' in the songs' : '';
   return [
-    c.renderings.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__h' }, 'Rendered as '),
-      ...c.renderings.flatMap((r, i) => [i ? ', ' : null, h('b', {}, r.surface), h('span', { class: 'tb__count' }, ` ${r.n}×`)])) : null,
-    c.tibetan?.forms?.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__h' }, 'In the Tibetan '),
-      ...c.tibetan.forms.flatMap((f, i) => [i ? ', ' : null, h('span', { class: 'tb__bo', lang: 'bo' }, f.script), ' ', h('i', { lang: 'bo-Latn' }, f.wylie), h('span', { class: 'tb__count' }, ` ${f.n}×`)]),
-      h('span', { class: 'tb__count' }, ` of ${c.tibetan.aligned} ${c.tibetan.aligned === 1 ? 'place' : 'places'} with Tibetan`)) : null,
-    c.total ? h('h4', { class: 'tb__h' }, `In the text: ${c.total} ${c.total === 1 ? 'place' : 'places'}${where}`) : null,
+    c.renderings.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__label' }, 'Translated as '),
+      ...c.renderings.flatMap((r, i) => [i ? ', ' : null, '“', h('b', {}, r.surface), '”', h('span', { class: 'tb__count' }, ` ${times(r.n)}`)])) : null,
+    c.tibetan?.forms?.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__label' }, 'The Tibetan translators wrote '),
+      ...c.tibetan.forms.flatMap((f, i) => [i ? ', ' : null, h('span', { class: 'tb__bo', lang: 'bo' }, f.script), ' ', h('i', { lang: 'bo-Latn' }, f.wylie), h('span', { class: 'tb__count' }, ` ${times(f.n)}`)]),
+      h('span', { class: 'tb__count' }, ` (of ${c.tibetan.aligned} ${c.tibetan.aligned === 1 ? 'place that has' : 'places that have'} Tibetan)`)) : null,
+    c.total ? h('h4', { class: 'tb__h' }, `Where it occurs: ${c.total} ${c.total === 1 ? 'place' : 'places'}${where}`) : null,
     c.total ? h('ol', { class: 'kwic' }, hits.map(kwicRow)) : null,
     c.hits.length > 5 ? h('button', { type: 'button', class: 'btn btn--quiet kwic__more',
       onclick: () => { S.ui.concordAll = all ? null : e.id; renderPanel(); } }, all ? 'Show fewer' : `Show all ${c.hits.length}`) : null,
@@ -882,17 +969,25 @@ function usageBlock(e, c) {
 function kwicRow(hit) {
   const meta = textMeta();
   const html = meta?.htmlLangs?.[hit.lang] || '';
-  const ref = `${hit.n}.${hit.part}`;
-  const who = hit.kind === 'comm' ? `${meta?.commentary || 'Commentary'}${hit.on ? ` on ${hit.n}.${hit.on}` : ''}` : '';
-  const line = (pre, mid, post, cut, cls, lang) => h('p', { class: cls, lang: lang || null },
-    cut[0] ? '… ' : '', pre ? pre + ' ' : '', h('mark', {}, mid), post ? (/^[।॥|,;.:]/u.test(post) ? '' : ' ') + post : '', cut[1] ? ' …' : '');
+  const who = meta?.commentary || 'the commentary';
+  const ref = hit.kind === 'comm' ? (hit.on ? `${hit.n}.${hit.on}` : `${hit.n}`) : hit.kind === 'heading' ? `${hit.n}` : `${hit.n}.${hit.part}`;
+  const what = hit.kind === 'comm' ? (hit.on ? `${who}’s comment` : `${who}’s introduction`) : hit.kind === 'heading' ? 'Heading' : '';
+  const ell = (cut, s, end) => (cut && !(end ? s.endsWith('…') : s.startsWith('…')) ? '…' : '');
+  const line = (pre, mid, post, cut, cls, lang, wordPre = '', wordPost = '') => h('p', { class: cls, lang: lang || null },
+    ell(cut[0], pre || wordPre || '', false), pre ? pre + ' ' : '', wordPre, h('mark', {}, mid), wordPost,
+    post ? (/^[।॥|,;.:]/u.test(post) ? '' : ' ') + post : '', ell(cut[1], post || wordPost || '', true));
+  // Our English, with the term marked where it is rendered.
+  const en = () => {
+    const i = hit.surface ? hit.en.indexOf(hit.surface) : -1;
+    return h('p', { class: 'kwic__en' }, ...(i < 0 ? [hit.en] : [hit.en.slice(0, i), h('mark', {}, hit.surface), hit.en.slice(i + hit.surface.length)]));
+  };
   return h('li', { class: 'kwic__row' },
-    h('button', { type: 'button', class: 'kwic__ref', title: `Go to ${ref}`, onclick: () => goToHit(hit) }, ref),
+    h('button', { type: 'button', class: 'kwic__ref', title: `Go to ${places().long(hit.id)}`, onclick: () => goToHit(hit) }, ref),
     h('div', { class: 'kwic__body' },
-      who ? h('p', { class: 'kwic__who' }, who) : null,
-      line(hit.pre, hit.hit, hit.post, hit.cut, 'kwic__src', html),
-      hit.tlHit ? line(hit.tlPre, hit.tlHit, hit.tlPost, hit.cut, 'kwic__tl', html ? html + '-Latn' : '') : null,
-      hit.en ? h('p', { class: 'kwic__en' }, hit.en) : null,
+      what ? h('p', { class: 'kwic__who' }, what) : null,
+      hit.en ? en() : null,
+      line(hit.pre, hit.hit, hit.post, hit.cut, 'kwic__src', html, hit.wordPre, hit.wordPost),
+      hit.tlHit ? line(hit.tlPre, hit.tlHit, hit.tlPost, hit.cut, 'kwic__tl', html ? html + '-Latn' : '', hit.tlWordPre, hit.tlWordPost) : null,
       S.ui.parallel && hit.bo ? h('div', { class: 'kwic__bo' },
         hit.bo.at ? [line(hit.bo.at.pre, hit.bo.at.hit, hit.bo.at.post, hit.bo.at.cut, 'kwic__src', 'bo'),
           line(hit.bo.at.tlPre, hit.bo.at.tlHit, hit.bo.at.tlPost, hit.bo.at.cut, 'kwic__tl', 'bo-Latn')]

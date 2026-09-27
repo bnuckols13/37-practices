@@ -220,18 +220,29 @@ ins { color: var(--ok); text-decoration: none; background: var(--ok-wash); }
 .tb { padding: 12px 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 60px; }
 .tb__head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; width: 100%; padding: 0; background: none; border: 0; text-align: left; cursor: pointer; }
 .tb__en { font: 700 18px/1.25 var(--font-text); color: var(--ink); }
-.tb__type { font: 700 10.5px/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; color: var(--faint); }
+.tb__type { font: italic 13px/1 var(--font-text); color: var(--muted); }
 .tb__state { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--muted); }
-.tb__forms { margin: 4px 0 0; font: 15px/1.45 var(--font-bengali); color: var(--muted); }
+.tb__forms { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 3px 10px; margin: 8px 0 0; font: 14.5px/1.5 var(--font-text); color: var(--ink); }
+.tb__forms dt { font: 12px/1.9 var(--font-ui); color: var(--muted); }
+.tb__forms dd { margin: 0; min-width: 0; }
+.tb__script { font: 16px/1.5 var(--font-bengali); }
+.tb__script:lang(bo) { font-family: var(--font-tibetan); }
+.tb__src { color: var(--muted); font-size: 13.5px; }
+.tb__at { font-size: inherit; font-weight: 400; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+.tb__sep { color: var(--faint); }
+.tb__label { font-style: normal; color: var(--muted); }
 .tb__def { margin: 6px 0 0; font: 15px/1.5 var(--font-text); }
-.tb__sym { margin: 4px 0 0; font: italic 14.5px/1.5 var(--font-text); color: var(--muted); }
+.tb__sym { margin: 6px 0 0; font: 14.5px/1.5 var(--font-text); color: var(--ink); }
+.tb__sym p { margin: 0; }
+.tb__readings { margin: 2px 0 0; padding-left: 1.1em; }
+.tb__readings li { margin: 1px 0; }
 .tb__used { margin: 4px 0 0; font-size: 12px; color: var(--faint); }
 .tb__actions { display: flex; gap: 6px; margin-top: 8px; }
 .tb__edit { margin-top: 10px; display: grid; gap: 8px; }
 .tb__note { font-size: 12px; color: var(--faint); margin: 0; }
 /* an opened term: where it occurs, how it is rendered, where to look it up */
 .tb__more { margin-top: 12px; padding-top: 10px; border-top: 1px dotted var(--rule); }
-.tb__h { margin: 12px 0 4px; font: 700 11px/1.3 var(--font-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.tb__h { margin: 12px 0 4px; font: 600 13px/1.4 var(--font-ui); color: var(--muted); }
 .tb__rend .tb__h { margin: 0; }
 .tb__rend { margin: 0; font: 15px/1.5 var(--font-text); }
 .tb__rend b { font-weight: 700; }

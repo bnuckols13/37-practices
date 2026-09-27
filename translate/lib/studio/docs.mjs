@@ -6,7 +6,7 @@
  */
 
 import { paths, readJSON, readText, exists, hashOf, short, config } from '../io.mjs';
-import { loadText, unitsIndex } from '../text.mjs';
+import { loadText, unitsIndex, loadUnit } from '../text.mjs';
 import { load, scoped } from '../glossary.mjs';
 import { reviewModel } from '../review/model.mjs';
 import { formatSymbolic } from '../review/sheet.mjs';
@@ -54,6 +54,8 @@ export function glossaryDoc(slug, e, usedIn = []) {
   return {
     v: 1, id: e.id, text: slug, status: e.status, type: e.type, en: e.en, policy: e.policy, alt: e.alt, variants: e.variants,
     definition: e.definition, symbolic: formatSymbolic(e.symbolic), forbiddenInLine: e.forbiddenInLine,
+    // The same, structured, for display: the image, then each reading with who gives it and where.
+    symbolicParts: { image: e.symbolic.image, readings: e.symbolic.readings.map(r => ({ referent: r.referent, per: r.per, where: r.where })) },
     forms: e.forms.map(f => ({ lang: f.lang, script: f.script, translit: f.translit, lemma: f.lemma || '', att: f.att, where: f.where })),
     usedIn, proposedBy: e.provenance.proposed?.by || '', entrySha: entrySha(e),
   };
@@ -104,8 +106,12 @@ export function metaDoc(slug) {
     { id: 'review', label: 'Review a song and send it', done: songs.some(s => s.approved),
       prompt: `Pull my Studio decisions for ${title}.` },
   ];
+  // What each commentary segment is about, so the Studio can name it ("Munidatta on 1.1").
+  const comments = {};
+  for (const u of idx.units) for (const c of loadUnit(slug, u.id).commentary) comments[c.id] = c.anchor === u.id ? '' : partOf(c.anchor);
   return {
     v: 1, slug, title, alt: text.title.alt, unitLabel: text.unitLabel, total: text.catalog.total || songs.length,
+    idPrefix: text.idPrefix, groupLabel: text.segmentation.rule === 'caryagiti' ? 'couplet' : 'stanza', comments,
     lost: text.catalog.lost, partial: text.catalog.partial, reviewer: config().reviewer || '',
     commentary: text.commentary?.author || '', langNames: text.lang.names, htmlLangs: text.lang.html, style, songs, checklist,
     glossaryCount: inScope.length, toDecide: inScope.filter(e => e.status === 'proposed').length,

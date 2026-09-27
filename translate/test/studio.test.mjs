@@ -205,3 +205,28 @@ test('look-ups: headwords, SLP1 keys and one row per language', async () => {
   assert.deepEqual(rows[1].links.map(l => l.id), ['cdial']);
   assert.deepEqual(rows[2].links.map(l => l.id), ['84000', 'bdrc']);
 });
+
+test('places: ids read as places, in lists and in prose', async () => {
+  const { makePlaces } = await import('../lib/places.mjs');
+  const P = makePlaces({ prefix: 'cp', groupLabel: 'couplet', commentator: 'Munidatta', comments: { 'cp.01.m2': '1', 'cp.01.m1': '' } });
+  assert.equal(P.short('cp.10.2a'), '10.2a');
+  assert.equal(P.long('cp.10.2a'), 'song 10, line 2a');
+  assert.equal(P.long('cp.10.2'), 'song 10, couplet 2');
+  assert.equal(P.short('cp.01.m2'), 'Munidatta on 1.1');
+  assert.equal(P.long('cp.01.m2'), 'Munidatta’s comment on 1.1');
+  assert.equal(P.long('cp.01.m1'), 'Munidatta’s introduction to song 1');
+  assert.equal(P.short('cp.10.h1'), 'song 10, heading');
+  assert.equal(P.text('Lūyī wished to rescue them (cp.01.m2); compare cp.10.2a and cp.01.'), 'Lūyī wished to rescue them (Munidatta on 1.1); compare 10.2a and song 1.');
+  assert.equal(P.isId('standard Tibetan equivalent'), false);
+  assert.equal(P.short('not an id'), 'not an id');
+});
+
+test('concordance: a compound is cut down around the form, and a comment brings its English', async () => {
+  const { kwic, sentenceWith } = await import('../lib/concord.mjs');
+  const k = kwic('অ শ্রীমদ্গুরুচরণারবিন্দমকরন্দ সত্যদ্বয়মহামোহভ্রমজলধিমধ্যনিমগ্ন হি', 'a śrīmadgurucaraṇāravindamakaranda satyadvayamahāmohabhramajaladhimadhyanimagna hi', 'সত্যদ্বয়', -1, 'satyadvaya');
+  assert.equal(k.hit, 'সত্যদ্বয়');
+  assert.equal(k.tlHit, 'satyadvaya');
+  assert.ok(k.tlWordPost.endsWith('…') && k.tlWordPost.length <= 15, k.tlWordPost);
+  assert.ok(k.tlPre.startsWith('…') && k.tlPre.length <= 17, k.tlPre);
+  assert.deepEqual(sentenceWith('He saw it. The [two truths]{satyadvaya} are one; so it is.', 'satyadvaya'), { en: 'The two truths are one;', surface: 'two truths' });
+});

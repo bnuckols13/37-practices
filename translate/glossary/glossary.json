@@ -986,6 +986,70 @@
       }
     },
     {
+      "id": "anuttara",
+      "type": "term",
+      "status": "proposed",
+      "en": "unsurpassed",
+      "alt": [
+        "supreme"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনুত্তরসামী",
+          "translit": "anuttarasāmī",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.05.5b"
+        },
+        {
+          "lang": "san",
+          "script": "নুত্তরধর্ম্মস্বামিনম",
+          "translit": "(a)nuttaradharmmasvāminam",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.05.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མེད",
+          "translit": "bla med",
+          "lemma": "bla na med pa",
+          "att": "AO",
+          "where": "cp.05.5b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অনুত্তর"
+        ],
+        "san": [
+          "নুত্তরধর্ম্ম"
+        ],
+        "bod": [
+          "བླ་མེད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Unsurpassed, having none above (anuttara): a standard epithet of the highest awakening and of what leads to it. In the last line of song 5 it qualifies the lord (sāmī) to be asked; Munidatta has 'the lord of the unsurpassed Dharma' (cp.05.m6), and the Tibetan translation 'unsurpassed awakening' (bla med byang chub).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "ardharatri",
       "type": "term",
       "status": "proposed",
@@ -5249,6 +5313,59 @@
       }
     },
     {
+      "id": "hunter",
+      "type": "term",
+      "status": "proposed",
+      "en": "hunter",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভুসুক্কুপাদাঽখেটিকঃ",
+          "translit": "bhusukkupādā'kheṭikaḥ",
+          "lemma": "ākheṭika",
+          "att": "AS",
+          "where": "cp.06.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "আখেটিক",
+          "ঽখেটিক"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A hunter (Sanskrit ākheṭika). The word is not in song 6, whose refrain has Bhusuku keeping the hunted deer in sight, but Munidatta calls Bhusukupāda the hunter, who strikes 'the other' with the arrow of the true guru's words (cp.06.m3). At that point the Tibetan translation has sor rtog, 'examination', instead.",
+      "symbolic": {
+        "image": "a hunter pursuing a deer",
+        "readings": [
+          {
+            "referent": "Bhusukupāda himself, who strikes 'the other' with the arrow of the true guru's words (sadguruvacanavāṇa); the Tibetan has his 'examination' (sor rtog) and the arrow of the true guru's feet",
+            "per": "Munidatta",
+            "where": [
+              "cp.06.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "guru's words",
+        "true guru",
+        "instruction"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "hut",
       "type": "term",
       "status": "proposed",
@@ -8110,6 +8227,70 @@
       }
     },
     {
+      "id": "moksa",
+      "type": "term",
+      "status": "proposed",
+      "en": "liberation",
+      "alt": [
+        "release"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মোক্ষোৎসুকা",
+          "translit": "mokṣotsukā",
+          "lemma": "mokṣa",
+          "att": "AS",
+          "where": "cp.05.m3"
+        },
+        {
+          "lang": "pra",
+          "script": "মোক্খ",
+          "translit": "mokkha",
+          "lemma": "mokkha",
+          "att": "AS",
+          "where": "cp.05.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐར་པ",
+          "translit": "thar pa",
+          "lemma": "thar pa",
+          "att": "AO",
+          "where": "cp.05.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "মোক্ষ"
+        ],
+        "pra": [
+          "মোক্খ"
+        ],
+        "bod": [
+          "ཐར་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Liberation (mokṣa): release from saṃsāra, the round of birth and death. Munidatta speaks of yogins eager for liberation who, by the siddha's means, reach the far shore of the ocean of saṃsāra, and quotes Saraha: one who meditates on compassion alone does not gain liberation in a thousand births (cp.05.m3). The Tibetan has thar pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "moon",
       "type": "term",
       "status": "proposed",
@@ -9099,6 +9280,80 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nivasa",
+      "type": "term",
+      "status": "proposed",
+      "en": "dwelling",
+      "alt": [
+        "home",
+        "abode"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিবাস",
+          "translit": "nibāsa",
+          "lemma": "nibāsa",
+          "att": "AS",
+          "where": "cp.07.2a"
+        },
+        {
+          "lang": "san",
+          "script": "নিবাসঃ",
+          "translit": "nivāsaḥ",
+          "lemma": "nivāsa",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གནས",
+          "translit": "gnas",
+          "lemma": "gnas",
+          "att": "AO",
+          "where": "cp.07.2a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নিবাস"
+        ],
+        "san": [
+          "নিবাস"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A dwelling or place to live (Old Bengali nibāsa, Sanskrit nivāsa). In the refrain of song 7 Kāṇha asks where he is to go and make his dwelling. Munidatta says the refrain breaks down the imputing of a dwelling of one's own, since the world is pervaded by bliss (cp.07.m3). The Tibetan has gnas.",
+      "symbolic": {
+        "image": "the dwelling Kāṇha asks where to make",
+        "readings": [
+          {
+            "referent": "the imputing (āropaṇa) of a dwelling of one's own, which the refrain is said to break down: since the world is pervaded by bliss, there is no place where a dwelling is to be made",
+            "per": "Munidatta",
+            "where": [
+              "cp.07.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "imputation",
+        "attribution",
+        "bliss"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -13494,6 +13749,57 @@
       }
     },
     {
+      "id": "satataloka",
+      "type": "term",
+      "status": "proposed",
+      "en": "constant light",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সততালোকং",
+          "translit": "satatālokaṃ",
+          "lemma": "satatāloka",
+          "att": "AS",
+          "where": "cp.05.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟག་ཏུ་འོད་གསལ",
+          "translit": "rtag tu 'od gsal",
+          "lemma": "rtag tu 'od gsal",
+          "att": "AO",
+          "where": "cp.05.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "সততালোক"
+        ],
+        "bod": [
+          "རྟག་ཏུ་འོད་གསལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Constant light' (satatāloka): in Munidatta's gloss on the planks of song 5, what is made one with the plank (cp.05.m4). The Tibetan renders it 'constant clear light' (rtag tu 'od gsal), linking it with clear light (prabhāsvara); Munidatta does not explain the phrase.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "satyadvaya",
       "type": "term",
       "status": "proposed",
@@ -16488,6 +16794,56 @@
       }
     },
     {
+      "id": "utpada-bhanga",
+      "type": "term",
+      "status": "proposed",
+      "en": "arising and perishing",
+      "alt": [
+        "arising and ceasing"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "এষামুৎপাদভঙ্গেষু",
+          "translit": "eṣām utpādabhaṅgeṣu",
+          "lemma": "utpādabhaṅga",
+          "att": "AS",
+          "where": "cp.07.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ་དང་འཇིག་པ",
+          "translit": "skye ba dang 'jig pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "ৎপাদভঙ্গ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Arising and perishing (utpāda, bhaṅga): the coming into being and destruction of conditioned things. Munidatta's paraphrase of the fourth couplet of song 7 puts it where the song has ‘coming and going’: knowing the nature of conventional truth in the arising and perishing of things, Kāṇha becomes of distinguished mind (cp.07.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "utpattikrama",
       "type": "term",
       "status": "proposed",
@@ -17878,6 +18234,54 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "vyapya-vyapaka",
+      "type": "term",
+      "status": "proposed",
+      "en": "pervaded and pervader",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ব্যাপ্যব্যাপকরূপেণ",
+          "translit": "vyāpyavyāpakarūpeṇa",
+          "lemma": "vyāpyavyāpaka",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱབ་པར་བྱ་བ་དང་ཁྱབ་པར་བྱེད་པ",
+          "translit": "khyab par bya ba dang khyab par byed pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "ব্যাপ্যব্যাপক"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The pervaded (vyāpya) and the pervader (vyāpaka): in Indian logic, the two terms of a relation of invariable concomitance. Munidatta uses the pair for the way bliss fills the world, which he says is pervaded by bliss ‘in the form of pervaded and pervader’ (cp.07.m3). The Tibetan has ‘great bliss’ there.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },

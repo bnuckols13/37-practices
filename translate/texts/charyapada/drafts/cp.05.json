@@ -1,0 +1,686 @@
+{
+  "unit": "cp.05",
+  "title": "Cāṭila's Bridge",
+  "summary": "The river of existence runs deep and fast, with mud on both banks and no footing midstream; Cāṭila splits the tree of delusion into planks and builds a bridge so that people bound for the far shore can cross, and tells those on it not to go right or left, since awakening is near. Munidatta reads the river as the three appearances and its footless middle as the avadhūtī (cp.05.m2), and the bridge as the unity of the conventional and the ultimate (cp.05.m3) or of self-blessing and clear light (cp.05.m5); the one to be asked, he says, is the lord of the unsurpassed Dharma (cp.05.m6).",
+  "lines": [
+    {
+      "id": "cp.05.h1",
+      "translit": "rāga guñjarī",
+      "gloss": "rāga (melodic mode) · Guñjarī (name of the rāga)",
+      "en": "[Rāga]{raga} [Guñjarī]{gunjari} · [Cāṭilapāda]{p-catila}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "gunjari",
+          "src": "গুঞ্জরী"
+        },
+        {
+          "id": "p-catila",
+          "src": "চাটিল্লপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The heading line itself gives only the rāga. The poet's name is added from the attribution cāṭillapādānām, 'of Cāṭillapāda', written before the song (removed from line 1a by emendation), and from the Tibetan heading, which ends tsA TI la'i zhabs kyi'o, 'of Cāṭilapāda'."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.1a",
+      "translit": "bhavaṇai gahaṇa gambhīra begem̐ bāhī |",
+      "gloss": "existence-river · dense, impenetrable · deep · with speed · flows",
+      "en": "The [river]{river} of [existence]{bhava}, fathomless and deep, flows swiftly.",
+      "terms": [
+        {
+          "id": "river",
+          "src": "ভবণই"
+        },
+        {
+          "id": "bhava",
+          "src": "ভবণই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "gahaṇa (Sanskrit gahana) is 'dense, impenetrable, deep'. Chosen: 'fathomless', water that cannot be sounded. Alternatives: 'impenetrable', 'dense'; Munidatta glosses it bhayānaka, 'fearful' (cp.05.m2), and the Tibetan has klong bcas, 'with depths' or 'with whirlpools', which its comment also glosses 'fearful'. 'Fathomless and deep' comes close to doubling gambhīra; 'dreadful and deep' would follow Munidatta."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.1b",
+      "translit": "duānte cikhila mājhem̐ na thāhī || dhru ||",
+      "gloss": "at both ends · mud · in the middle · not · footing · (refrain cue, not translated)",
+      "en": "On [both sides]{antadvaya}, [mud]{cikhila}; in the middle, no [footing]{thaha}.",
+      "terms": [
+        {
+          "id": "antadvaya",
+          "src": "দুআন্তে"
+        },
+        {
+          "id": "cikhila",
+          "src": "চিখিল"
+        },
+        {
+          "id": "thaha",
+          "src": "থাহী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan has rab 'dred, 'very slippery', for cikhila, 'mud', and 'dug gnas med, 'no place to stay', for na thāhī; the picture is the same. Its comment, against the Sanskrit, calls the middle 'not stained by the mud of the faults of nature' (see the witness note on this line)."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.2a",
+      "translit": "dhāmārthe cāṭila sāṅkama gaṭai |",
+      "gloss": "for the sake of dharma · Cāṭila · bridge · builds (joins)",
+      "en": "For the sake of [dharma]{dharma}, [Cāṭila]{p-catila} builds a [bridge]{bridge}:",
+      "terms": [
+        {
+          "id": "dharma",
+          "src": "ধামার্থে"
+        },
+        {
+          "id": "p-catila",
+          "src": "চাটিল"
+        },
+        {
+          "id": "bridge",
+          "src": "সাঙ্কম"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "dhāmārthe, 'for the sake of dharma', can mean for the teaching; for religious merit (a bridge built as a pious work); or, with Munidatta, for 'phenomenon' (cp.05.m3). The Tibetan has chos dbyings, 'sphere of phenomena'. The keep-source 'dharma' leaves the choice open, as the Bengali does."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "The approved English of p-catila is 'Cāṭilapāda'. The song has the bare name cāṭila, without the honorific -pāda, so the line reads 'Cāṭila', still linked to the entry. Please confirm, or restore 'Cāṭilapāda'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "gaṭai (Sanskrit ghaṭayati, 'joins, puts together') is present: 'builds'. The Tibetan has the past byas, 'made'."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.2b",
+      "translit": "pāragāmi loa nibhara tarai || dhru ||",
+      "gloss": "far-shore-going · people · fully (certainly?) · cross · (refrain cue, not translated)",
+      "en": "people who would go [across]{para} cross without fail.",
+      "terms": [
+        {
+          "id": "para",
+          "src": "পারগামি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "nibhara: taken as Sanskrit nirbhara, 'full, complete', used as an adverb, and rendered 'without fail' after Munidatta's niyataṃ and the Tibetan nges par, both 'certainly'. Alternatives: 'fully, wholly'; 'fearlessly' (if the word is nirbhaya); 'unburdened'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan makes the verb causative, with the builder as subject: pha rol 'gro ba'i 'jig rten nges par sgrol bar byed, 'he surely carries across the world that goes to the far side'. The Bengali tarai is the plain intransitive 'crosses', with the people as subject; kept."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "pāragāmi is literally 'going to the far shore'. The glossary's 'across' is used ('who would go across'); 'bound for the far shore' would be closer if a variant were allowed."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.3a",
+      "translit": "phāḍḍia mohataru paṭi joṛia |",
+      "gloss": "having split · delusion-tree · planks · having joined",
+      "en": "Splitting the [tree of delusion]{mohataru}, joining the [planks]{plank},",
+      "terms": [
+        {
+          "id": "mohataru",
+          "src": "মোহতরু"
+        },
+        {
+          "id": "plank",
+          "src": "পটি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Munidatta cites the word as phāṛia where the verse text has phāḍḍia (the same verb, 'having split'). The Tibetan has ma rig ljon shing, 'tree of ignorance', for 'tree of delusion'."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.3b",
+      "translit": "ādaa-diṭi ṭāṅgī nibāṇe kohia || dhru ||",
+      "gloss": "nondual(?)-firm(?) · axe · at nirvāṇa · having fastened (struck? bored?) · (refrain cue, not translated)",
+      "en": "with the [nondual]{advaya} [axe]{axe} he fastens them firm at [nirvāṇa]{nirvana}.",
+      "terms": [
+        {
+          "id": "advaya",
+          "src": "আদঅ"
+        },
+        {
+          "id": "axe",
+          "src": "টাঙ্গী"
+        },
+        {
+          "id": "nirvana",
+          "src": "নিবাণে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "ādaadiṭi is one word in the edition and its division is uncertain. Chosen: ādaa = advaya, 'nondual', plus diṭi = diḍha (Sanskrit dṛḍha), 'firm', taken with the verb ('fastens them firm'), as both Munidatta (yuganaddhaparaśunā dṛḍhaṃ karoti, cp.05.m4) and the Tibetan (brtan par, 'firmly') take it. Alternatives: diṭi = diṭṭhi (dṛṣṭi), 'with the axe of the nondual view'; or the Tibetan's gzong gnyis, 'two chisels', which finds 'two' in ādaa."
+        },
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "kohia: sense uncertain. Chosen: 'fastens', from the carpentry of the couplet (planks joined, then made fast) and Munidatta's 'makes firm' (dṛḍhaṃ karoti, cp.05.m4). Alternatives: 'hews, cuts', as one does with an axe; the Tibetan phug, 'bored, pierced', which would give 'bores through to nirvāṇa'."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "nibāṇe is taken as locative, 'at nirvāṇa', where the bridge is made fast; 'in nirvāṇa' is equally possible, and the -e ending can also be instrumental. Munidatta's gloss does not repeat the word. The finite 'he fastens' renders an absolutive (kohia), like phāḍḍia and joṛia in 3a; the main verb of the sentence is the refrain's gaṭai, 'builds'."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.4a",
+      "translit": "sāṅkamata caṛile dāhiṇa bāma mā hohī |",
+      "gloss": "on the bridge · having climbed (when one has climbed) · right · left · do not · be",
+      "en": "Once you climb onto the [bridge]{bridge}, do not go [right or left]{vama-daksina}.",
+      "terms": [
+        {
+          "id": "bridge",
+          "src": "সাঙ্কমত"
+        },
+        {
+          "id": "vama-daksina",
+          "src": "দাহিণ বাম"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "mā hohī is literally 'do not be (right or left)'; rendered 'do not go', as the Tibetan has it (ma 'gro cig). caṛile, 'when one has climbed', is impersonal; rendered with 'you', since the next line and the last couplet address the listeners."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The approved English of vama-daksina is 'left and right'. The song puts right first (dāhiṇa bāma) inside a prohibition, so the surface is 'right or left'. Please confirm the variant."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.4b",
+      "translit": "niyaḍḍī bohi dūra ma jāhī || dhru ||",
+      "gloss": "near · awakening · far · do not · go · (refrain cue, not translated)",
+      "en": "[Awakening]{bodhi} is near: do not go far.",
+      "terms": [
+        {
+          "id": "bodhi",
+          "src": "বোহি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line has no word for awakening: nye bar bdog pas ring du 'gro bar ma byed cig, 'since it is close at hand, do not go far'. Munidatta's comment, in the Sanskrit and in the Tibetan, has bodhi here (cp.05.m5), so bohi is kept."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.5a",
+      "translit": "jai tumhe loa he hoiba pāragāmī |",
+      "gloss": "if · you · people · O · will be · far-shore-goers",
+      "en": "If you, people, would go [across]{para},",
+      "terms": [
+        {
+          "id": "para",
+          "src": "পারগামী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "hoiba pāragāmī, 'will be goers to the far shore': the -iba form of ho-, 'be', for the future or for intention; rendered 'would go across', with Munidatta's 'if it is desired' (yadīṣyate, cp.05.m6). The vocative particle he is carried by the comma of address. The Tibetan has 'jig rten, 'world', for loa, 'people'."
+        }
+      ]
+    },
+    {
+      "id": "cp.05.5b",
+      "translit": "pucchatu cāṭila anuttarasāmī ||",
+      "gloss": "ask · Cāṭila · unsurpassed lord",
+      "en": "ask [Cāṭila]{p-catila}, the [unsurpassed]{anuttara} lord.",
+      "terms": [
+        {
+          "id": "p-catila",
+          "src": "চাটিল"
+        },
+        {
+          "id": "anuttara",
+          "src": "অনুত্তরসামী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "Whose title is 'the unsurpassed lord'? Chosen: in apposition to Cāṭila, 'ask Cāṭila, the unsurpassed lord', as the Tibetan (tsA TI la la dri bar gyis, 'ask Cāṭila') implies. Alternative: ''Ask the unsurpassed lord,' says Cāṭila', a bhaṇitā with 'says' understood, the lord being the guru. Munidatta's 'lord of the unsurpassed Dharma' (cp.05.m6) fits either."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan has bla med byang chub, 'unsurpassed awakening', where the Bengali has anuttarasāmī, 'unsurpassed lord': 'ask Cāṭila about unsurpassed awakening'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "pucchatu has what looks like a third-person imperative ending (-tu, 'let him ask'), but Munidatta's pṛcchatha and the Tibetan dri bar gyis take it as addressed to 'you, people' of 5a; rendered 'ask'."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "Surface 'Cāṭila' for p-catila (approved English 'Cāṭilapāda'); see the flag on 2a. 'Lord' renders sāmī (Sanskrit svāmin); 'master' is possible."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.05",
+      "kind": "imagery",
+      "text": "The literal picture: a river in spate, deep and fast, with mud along both banks and nowhere to stand midstream; Cāṭila splits a tree, joins its planks into a bridge, makes them fast with an axe, and tells those who climb on not to stray to either side. Part of the allegory is on the song's own surface: the poet himself calls the river that of 'existence' (bhava) and the tree that of 'delusion' (moha), and names nirvāṇa and awakening (bohi). Those words stay in the lines because they are his.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.05",
+      "kind": "witness",
+      "text": "Shastri's text prints the refrain cue ধ্রু (dhru) after couplets 1, 2, 3 and 4 but not after couplet 5; its place after couplet 1, before the refrain, is unusual. It is not translated. Munidatta makes couplet 2 the refrain: he opens his comment on couplet 2 with 'with the refrain (dhruvapadena), illuminating the fourth joy, he says' (cp.05.m3; Shastri's edition runs the sentence on at the end of the comment on couplet 1), as does the Tibetan translation (Toh 2293) (d+h+rU'i rkang pas bzhi pa'i dga' ba nye bar gsal bar gsungs te, cp.05.m3). He then introduces couplets 3, 4 and 5 as 'another verse', 'the third verse' and 'the fourth verse' (cp.05.m4, cp.05.m5, cp.05.m6).",
+      "cites": [
+        "cp.05.m2",
+        "cp.05.m3",
+        "cp.05.m4",
+        "cp.05.m5",
+        "cp.05.m6"
+      ]
+    },
+    {
+      "anchor": "cp.05",
+      "kind": "doctrine",
+      "text": "Munidatta opens by saying that Cāṭillapāda makes plain 'that same meaning as it truly is' (tam eva yathābhūtārtham) 'with other words', apparently the meaning set out in the songs before (cp.05.m1). The Tibetan translation (Toh 2293) attaches 'as it truly is' to the poet instead: de kho na nyid kyi don ji lta ba bzhin du gyur pa'i tsA TI la'i zhabs, roughly 'Cāṭilapāda, who has become one with the meaning of reality as it is'.",
+      "cites": [
+        "cp.05.m1"
+      ]
+    },
+    {
+      "anchor": "cp.05.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music; each song's heading names the one it is sung to. The Tibetan translation (Toh 2293) transcribes this one as gu dz+dza rI and calls it glu'i gdangs, 'melody'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.05.h1",
+      "kind": "witness",
+      "text": "The poet's name is not in the heading line of Shastri's text. It comes from the attribution cāṭillapādānām, 'of Cāṭillapāda', written before the song and removed from line 1a by emendation as not part of the verse, and from the Tibetan heading (Toh 2293): gu dz+dza rI zhes bya ba'i glu'i gdangs tsA TI la'i zhabs kyi'o, 'the melody called gu dz+dza rI, by Cāṭilapāda'. Munidatta spells the name Cāṭilla (cp.05.m1) and Cāṭila (cp.05.m3).",
+      "cites": [
+        "cp.05.m1",
+        "cp.05.m3"
+      ]
+    },
+    {
+      "anchor": "cp.05.1a",
+      "kind": "philology",
+      "text": "bhavaṇai is bhava, 'existence', joined to ṇaī (Sanskrit nadī), 'river'. gahaṇa is Sanskrit gahana, 'dense, impenetrable, deep'; Munidatta glosses it bhayānaka, 'fearful' (cp.05.m2). begem̐ is vega, 'speed, force', with the instrumental ending -em̐; bāhī, 'flows' (Sanskrit vah-).",
+      "cites": [
+        "cp.05.m2"
+      ]
+    },
+    {
+      "anchor": "cp.05.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads srid pa'i chu klung klong bcas zab mo rgyug cing 'bab, 'the river of existence, with depths (or whirlpools), deep, runs and pours down'. klong bcas answers to gahaṇa, and the Tibetan comment glosses klong dang bcas pa as 'jigs su rung ba, 'fearful', as Munidatta glosses gahana (cp.05.m2).",
+      "cites": [
+        "cp.05.m2"
+      ]
+    },
+    {
+      "anchor": "cp.05.1",
+      "kind": "doctrine",
+      "text": "Munidatta reads the river as the three [appearances]{abhasa}, '[lalanā]{lalana}, [rasanā]{rasana} and the rest' spoken of before, which are to be understood as a river in [twilight language]{sandhya-bhasa} because of the depth of their near and far banks; in it the surge of sense objects rises and perishes by day, by night and at twilight. That is why it is 'fearful'. It is deep 'because of the [faults of nature]{prakrtidosa}', since urine, excrement and the like flow out through the six openings (cp.05.m2).",
+      "cites": [
+        "cp.05.m2"
+      ]
+    },
+    {
+      "anchor": "cp.05.1b",
+      "kind": "doctrine",
+      "text": "Munidatta takes the 'two sides' (antadvaya) as the near and far banks, left and right, and 'mud' as their being smeared with the mud of the faults of nature. Of the middle without footing (thāha) he says only that a novice yogin cannot take the measure of the [avadhūtī]{avadhuti} (in tantric yoga, the central channel of the subtle body), which implies that the middle is the avadhūtī (cp.05.m2).",
+      "cites": [
+        "cp.05.m2"
+      ]
+    },
+    {
+      "anchor": "cp.05.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads mtha' ma gnyis ni rab 'dred dbus na 'dug gnas med, 'the two edges are very slippery; in the middle there is no place to stay'. Its comment diverges from the Sanskrit over the mud: Munidatta has the banks 'smeared with the mud of the faults of nature' (prakṛtidoṣapaṅkānuliptaṃ), while the Tibetan calls the banks 'very slippery' (shin tu 'dred pa) and says of the middle that it is 'not stained by the mud of the faults of nature' (rang bzhin gyi skyon gyi 'dam gyis ma gos pa), perhaps from a text with a negative (cp.05.m2).",
+      "cites": [
+        "cp.05.m2"
+      ]
+    },
+    {
+      "anchor": "cp.05.2a",
+      "kind": "philology",
+      "text": "dhāmārthe: 'for the sake of dharma', with dhāma for dhamma (Sanskrit dharma); Munidatta's lemma is dharmārthaṃ (cp.05.m3). Building bridges, wells and rest houses for travellers counted in India as works of merit, so 'for dharma's sake' may first of all mean 'as a pious work'. sāṅkama (Sanskrit saṃkrama) is a crossing or footbridge; gaṭai (Sanskrit ghaṭayati) is 'joins, puts together', the verb Munidatta reuses in his gloss (ghaṭayati).",
+      "cites": [
+        "cp.05.m3"
+      ]
+    },
+    {
+      "anchor": "cp.05.2a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads chos dbyings don du tsA TI la yis zam pa byas, 'for the sake of the sphere of phenomena (dharmadhātu), Cāṭila made a bridge': chos dbyings where the Bengali has only dharma, and a past tense (byas) for the present gaṭai.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.05.2",
+      "kind": "doctrine",
+      "text": "Munidatta says the refrain illuminates the fourth joy (cp.05.m2; the Tibetan puts this at the head of cp.05.m3). He takes dharma as 'phenomenon': a dharma is so called because it holds its own characteristic, a transformation of the elements such as a pot, cloth, pillar or jar, and it has no form by its own nature, since the analysis taught in the chapter on reality of the [Śrī Heruka Tantra]{tx-heruka-tantra} finds nothing to apprehend. The bridge is the unity of the [conventional]{samvrti} and the [ultimate]{paramartha}, which the siddha master Cāṭila joins through the guru's lineage; the word he cites for the song's bridge, śatrumam, looks corrupt, and the Tibetan has zam pa, 'bridge'. He quotes [Saraha]{p-saraha} on joining emptiness and compassion: one who meditates on compassion alone does not gain liberation in a thousand births (the Apabhraṃśa is partly corrupt; the Tibetan reads smoothly). The people bound across are yogins eager for liberation, who by this siddha's means 'certainly' reach the far shore of the ocean of saṃsāra (cp.05.m3).",
+      "cites": [
+        "cp.05.m2",
+        "cp.05.m3"
+      ]
+    },
+    {
+      "anchor": "cp.05.2b",
+      "kind": "philology",
+      "text": "pāragāmi loa: 'people going to the far shore' (pāra, the far bank, with gāmin, 'going'). nibhara is most likely Sanskrit nirbhara, 'full, complete', used as an adverb, 'fully, thoroughly'; nirbhaya, 'fearless', is also possible. Munidatta's paraphrase has niyataṃ, 'certainly', in its place, and the Tibetan nges par, 'certainly'; the draft follows them with 'without fail' (cp.05.m3). tarai is 'crosses'; a causative 'carries across' would be expected as tārai.",
+      "cites": [
+        "cp.05.m3"
+      ]
+    },
+    {
+      "anchor": "cp.05.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads pha rol 'gro ba'i 'jig rten nges par sgrol bar byed, 'he surely carries across the world that goes to the far side': sgrol bar byed is causative, so the bridge-builder, not the people, is the subject, and 'jig rten, 'world', stands for loa, 'people'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.05.3a",
+      "kind": "witness",
+      "text": "Munidatta cites the line as phāṛia (cp.05.m4) where Shastri's verse text has phāḍḍia; both are 'having split' (compare Hindi phāṛnā, 'to tear'). The Tibetan translation (Toh 2293) reads ma rig ljon shing gshags nas spang leb yang dag bsgrigs, 'having split the tree of ignorance, the planks were fitted well together': ma rig, 'ignorance', where the Bengali has moha, 'delusion'.",
+      "cites": [
+        "cp.05.m4"
+      ]
+    },
+    {
+      "anchor": "cp.05.3",
+      "kind": "doctrine",
+      "text": "Munidatta reads the tree of delusion as the tree of conventional [bodhicitta]{bodhicitta}, after first setting it beside the sense object (viṣaya); splitting it means cutting off its grasping of sense objects. Of the planks he says that the [constant light]{satataloka} (satatāloka) is made one with the plank; the Tibetan has 'the constant clear light is the plank' (rtag tu 'od gsal ni yang spang leb). Then, 'to show its fruit', it is made firm with the axe of [coupled union]{yuganaddha} (cp.05.m4). The syntax of the Sanskrit gloss is loose.",
+      "cites": [
+        "cp.05.m4"
+      ]
+    },
+    {
+      "anchor": "cp.05.3b",
+      "kind": "philology",
+      "text": "ādaadiṭi is written as one word and its division is uncertain. The draft takes it as ādaa, for advaya, 'nondual', and diṭi, for diḍha (Sanskrit dṛḍha), 'firm', read with the verb. Both commentaries support the second part: Munidatta has yuganaddhaparaśunā dṛḍhaṃ karoti, 'makes it firm with the axe of coupled union' (cp.05.m4), and the Tibetan brtan par, 'firmly'. diṭi could instead be diṭṭhi (dṛṣṭi), 'view': 'with the axe of the nondual view'. ṭāṅgī is an axe (Munidatta's paraśu). kohia is the hardest word: perhaps 'having struck, driven in'; Munidatta's gloss offers only 'makes firm', and the Tibetan has phug, 'bored, pierced'. nibāṇe is nirvāṇa with the locative -e; Munidatta does not repeat the word, and his 'to show its fruit' (phalapratipādanāya) may stand in its place.",
+      "cites": [
+        "cp.05.m4"
+      ]
+    },
+    {
+      "anchor": "cp.05.3b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads gzong gnyis kyis ni brtan par mya ngan 'das pa phug, roughly 'with two chisels, firmly, nirvāṇa was bored (or pierced)'. It takes ṭāṅgī as a chisel (gzong), though its comment has sta re, 'axe' (cp.05.m4); it finds 'two' (gnyis) in ādaa, which may reflect advaya, 'not two', or a text reading dua, 'two'; and it has brtan par, 'firmly', for diṭi. Its phug points to boring holes in the planks rather than hewing.",
+      "cites": [
+        "cp.05.m4"
+      ]
+    },
+    {
+      "anchor": "cp.05.4a",
+      "kind": "philology",
+      "text": "caṛile, 'when (one) has climbed', is the conditional use of the -ile participle. mā hohī is a prohibition, literally 'do not be'; the draft has 'do not go', as the Tibetan translation (Toh 2293) does (zam pa de la 'gro na g.yas g.yon ma 'gro cig, 'if you go onto that bridge, do not go right or left'). The song and the Tibetan line put right before left; Munidatta and the Tibetan comment put left first (cp.05.m5).",
+      "cites": [
+        "cp.05.m5"
+      ]
+    },
+    {
+      "anchor": "cp.05.4",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet 'the third verse', in praise of the path. The bridge is the unity of [self-blessing]{svadhisthana} (the Sanskrit writes sthādhiṣṭhāna; the Tibetan rang byin gyis brlab pa confirms svādhiṣṭhāna) and [clear light]{prabhasvara}: the bridge of the [Jina]{p-jina} for carrying beings across the ocean of saṃsāra (the Tibetan has no word for 'Jina'). Right and left are the moon-appearance and the sun-appearance, which, once they have first been stopped by [vajra recitation]{vajrajapa}, the yogins on the bridge are not to think of again. By the force of this practice the accomplishment of bodhi-[Mahāmudrā]{mahamudra} is not far but very near; so they are not to strive on a wrong path, or 'go far' (cp.05.m5).",
+      "cites": [
+        "cp.05.m5"
+      ]
+    },
+    {
+      "anchor": "cp.05.4b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) of this line has no word for awakening: nye bar bdog pas ring du 'gro bar ma byed cig, 'since it is close at hand, do not go far'. Its comment, like Munidatta's, does speak of the accomplishment of awakening-Mahāmudrā as not far (byang chub pa phyag rgya chen po'i dngos grub mi ring ba, cp.05.m5), and its last line has byang chub, 'awakening', where the Bengali has sāmī, 'lord' (see 5b). Whether its text lacked bohi here cannot be told from this evidence. niyaḍḍī, 'near', is from Sanskrit nikaṭa.",
+      "cites": [
+        "cp.05.m5"
+      ]
+    },
+    {
+      "anchor": "cp.05.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads gal te khyed rnams 'jig rten pha rol 'gro na yang, 'even if you go to the far side of the world' (or 'if you, the world, go to the far side'): 'jig rten, 'world', for loa, 'people', as in 2b, and a plain 'go' for hoiba ... pāragāmī, 'will be goers to the far shore'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.05.5b",
+      "kind": "philology",
+      "text": "anuttarasāmī: 'unsurpassed lord' (Sanskrit anuttara-svāmin); Munidatta has 'the lord of the unsurpassed Dharma' (anuttaradharmasvāmin, cp.05.m6). The line has no verb of saying, so it can be read two ways: 'ask Cāṭila, the unsurpassed lord' (chosen), or 'ask the unsurpassed lord', with Cāṭila as the speaker of the bhaṇitā. The Tibetan translation (Toh 2293), bla med byang chub tsA TI la la dri bar gyis, 'ask Cāṭila about unsurpassed awakening', makes Cāṭila the one asked (the dative la), and has byang chub, 'awakening', where the Bengali has sāmī.",
+      "cites": [
+        "cp.05.m6"
+      ]
+    },
+    {
+      "anchor": "cp.05.5",
+      "kind": "doctrine",
+      "text": "Munidatta: if the yogins wish to cross the river of great delusion that is the three appearances, they are to ask the lord of the unsurpassed Dharma, through the succession of the siddha masters' instruction. He has the poet add, 'hence I know the instruction on [innate joy]{sahajananda} for certain', while other yogins do not know it so, being proud of what they have seen in books; and he quotes [Kāṇha]{p-kanha}'s [Dohākoṣa]{tx-dohakosa}: Kāṇha clearly knows the one path of the innate, while those who read and recite the many scriptures know nothing (cp.05.m6). Where the Sanskrit has 'river' (nadī), the Tibetan comment has rtsa, 'channel', apparently reading nāḍī.",
+      "cites": [
+        "cp.05.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    {
+      "id": "anuttara",
+      "type": "term",
+      "en": "unsurpassed",
+      "policy": "translate",
+      "alt": [
+        "supreme"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনুত্তরসামী",
+          "translit": "anuttarasāmī",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.05.5b"
+        },
+        {
+          "lang": "san",
+          "script": "নুত্তরধর্ম্মস্বামিনম",
+          "translit": "(a)nuttaradharmmasvāminam",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.05.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མེད",
+          "translit": "bla med",
+          "lemma": "bla na med pa",
+          "att": "AO",
+          "where": "cp.05.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অনুত্তর"
+        },
+        {
+          "lang": "san",
+          "form": "নুত্তরধর্ম্ম"
+        },
+        {
+          "lang": "bod",
+          "form": "བླ་མེད"
+        }
+      ],
+      "definition": "Unsurpassed, having none above (anuttara): a standard epithet of the highest awakening and of what leads to it. In the last line of song 5 it qualifies the lord (sāmī) to be asked; Munidatta has 'the lord of the unsurpassed Dharma' (cp.05.m6), and the Tibetan translation 'unsurpassed awakening' (bla med byang chub).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal epithet in the song's own words and in Munidatta's gloss, with a fixed Tibetan equivalent (bla na med pa); an entry keeps it from drifting between 'unsurpassed', 'supreme' and 'highest' across songs."
+    },
+    {
+      "id": "moksa",
+      "type": "term",
+      "en": "liberation",
+      "policy": "translate",
+      "alt": [
+        "release"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মোক্ষোৎসুকা",
+          "translit": "mokṣotsukā",
+          "lemma": "mokṣa",
+          "att": "AS",
+          "where": "cp.05.m3"
+        },
+        {
+          "lang": "pra",
+          "script": "মোক্খ",
+          "translit": "mokkha",
+          "lemma": "mokkha",
+          "att": "AS",
+          "where": "cp.05.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐར་པ",
+          "translit": "thar pa",
+          "lemma": "thar pa",
+          "att": "AO",
+          "where": "cp.05.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মোক্ষ"
+        },
+        {
+          "lang": "pra",
+          "form": "মোক্খ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐར་པ"
+        }
+      ],
+      "definition": "Liberation (mokṣa): release from saṃsāra, the round of birth and death. Munidatta speaks of yogins eager for liberation who, by the siddha's means, reach the far shore of the ocean of saṃsāra, and quotes Saraha: one who meditates on compassion alone does not gain liberation in a thousand births (cp.05.m3). The Tibetan has thar pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core soteriological term with no entry of its own; the entry for 'across' already forbids 'liberation' inside verse lines, so the word needs a home for the commentary."
+    },
+    {
+      "id": "satataloka",
+      "type": "term",
+      "en": "constant light",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সততালোকং",
+          "translit": "satatālokaṃ",
+          "lemma": "satatāloka",
+          "att": "AS",
+          "where": "cp.05.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟག་ཏུ་འོད་གསལ",
+          "translit": "rtag tu 'od gsal",
+          "lemma": "rtag tu 'od gsal",
+          "att": "AO",
+          "where": "cp.05.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সততালোক"
+        },
+        {
+          "lang": "bod",
+          "form": "རྟག་ཏུ་འོད་གསལ"
+        }
+      ],
+      "definition": "'Constant light' (satatāloka): in Munidatta's gloss on the planks of song 5, what is made one with the plank (cp.05.m4). The Tibetan renders it 'constant clear light' (rtag tu 'od gsal), linking it with clear light (prabhāsvara); Munidatta does not explain the phrase.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The plank entry already forbids 'constant light' inside a verse line, but the phrase itself has no entry; the woven commentary on cp.05.m4 needs a stable rendering."
+    }
+  ],
+  "questions": [
+    "p-catila: the approved English is 'Cāṭilapāda', but the poet names himself cāṭila, without the honorific, in the refrain (2a) and the last line (5b). I used 'Cāṭila' in those lines, still linked to the entry, and 'Cāṭilapāda' in the heading. May 'Cāṭila' be added as a listed variant, or should the lines read 'Cāṭilapāda'?",
+    "para: 'across' fits pāra kar-, 'take across', but pāragāmi / pāragāmī (2b, 5a) mean 'going to the far shore'. I wrote 'who would go across' and 'would go across'. Would you allow 'far shore' as a variant, so the lines can read 'people bound for the far shore'?",
+    "3b: do you accept dividing ādaadiṭi as advaya + dṛḍha, which puts 'nondual' in the line? The division is shared by the glossary's advaya entry and supported by both commentaries for the 'firm' part, but it is not certain. For kohia: 'fastens them firm' (my choice), 'hews', or the Tibetan's 'bores'?",
+    "5b: 'ask Cāṭila, the unsurpassed lord' (Cāṭila as the one asked, as in the Tibetan) or ''Ask the unsurpassed lord,' says Cāṭila' (the guru as the one asked)? And is 'lord' right for sāmī, or would 'master' suit a teacher better?",
+    "1a: gahaṇa as 'fathomless' (literal, but close to doubling 'deep') or, following Munidatta's bhayānaka, 'dreadful'?",
+    "2b: nibhara as 'without fail' (following both commentaries' 'certainly') or the more literal 'fully'?",
+    "4a: surface 'right or left' for vama-daksina (approved 'left and right'), to keep the song's order inside a prohibition: acceptable as a variant?",
+    "Proposals: anuttara ('unsurpassed'), moksa ('liberation') and satataloka ('constant light'). Is 'unsurpassed' worth an entry, and should 'constant light' rather be folded into the clear-light entry?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "87c478ab6ff5791247819955eba43cbd73d857b6a3585e090c9bd31c7c372370",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "93804322c04340c3835e5f61ecee23f1498061f02c11f394fc21121a5bdf3716",
+    "sourceSha": "c9ecf07d6e0a37ffccbe791a3f2014a6fa8df2ccd5255fd9d088d39c074c9f42"
+  }
+}

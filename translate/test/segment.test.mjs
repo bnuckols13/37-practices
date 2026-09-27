@@ -33,6 +33,13 @@ test('caryagiti: one-line couplets split at the first internal daṇḍa; two-li
   ]);
 });
 
+test('caryagiti: @split divides a commentary line between two comments, leaving the source as imported', () => {
+  const [u] = run('@song 5\nক খ। গ ঘ॥\n@comm\n@split চেত্যাদি।\nআহ—চেত্যাদি। ছ জ।\n\n@comm 1\nঝ।\n');
+  assert.deepEqual(u.commentary.map(s => [s.anchor, s.src]), [['fx.05', 'আহ—'], ['fx.05.1', 'চেত্যাদি। ছ জ। ঝ।']]);
+  assert.throws(() => run('@song 5\nক খ। গ ঘ॥\n@comm\n@split চ\nআ চ।\nঝ।\n'), /the rest of the split line needs a directive/);
+  assert.throws(() => run('@song 5\nক খ। গ ঘ॥\n@comm\n@split ট\nআ চ।\n@comm 1\n'), /is not inside the next line/);
+});
+
 test('caryagiti: Wikisource layout, with a blank line between half-lines', () => {
   const [u] = run('@song 4\nক খ\n\nগ ঘ॥\n\nচ ছ\n\nজ ঝ॥ ধ্রু॥\n');
   assert.deepEqual(u.lines.map(l => [l.id, l.src]), [['fx.04.1a', 'ক খ'], ['fx.04.1b', 'গ ঘ॥'], ['fx.04.2a', 'চ ছ'], ['fx.04.2b', 'জ ঝ॥ ধ্রু॥']]);

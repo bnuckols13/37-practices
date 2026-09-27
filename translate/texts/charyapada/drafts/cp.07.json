@@ -1,0 +1,631 @@
+{
+  "unit": "cp.07",
+  "title": "The Blocked Road",
+  "summary": "Āli and kāli block the road and Kāṇha, seeing it, grows downcast; the refrain asks where he is to go and make his dwelling, since whatever lies in the range of the mind is indifferent. The threes split apart, existence is cut off, all that came has gone, and at the end the city of the Jina is near. Munidatta reads the road as the path of the avadhūtī, which Kāṇha blocks by making āli and kāli (glossed as light and the spreading of light) one, and in his paraphrase the song's ‘downcast’ becomes ‘of distinguished mind’ (cp.07.m2, cp.07.m5).",
+  "lines": [
+    {
+      "id": "cp.07.h1",
+      "translit": "rāga paṭamañjarī",
+      "gloss": "rāga (melody) · Paṭamañjarī (name of the rāga)",
+      "en": "[Rāga]{raga} [Paṭamañjarī]{patamanjari} · [Kāṇhapāda]{p-kanha}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "patamanjari",
+          "src": "পটমঞ্জরী"
+        },
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নুপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The poet's name is not in the heading line itself. It comes from the attribution kāhnupādānām (‘of Kāhnupāda’) that the manuscript writes before line 1a, which was emended out of that line. The Tibetan heading also names the poet (nag po spyod pa pa'i zhabs). Drop it if headings should render only the heading line."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "‘Kāṇhapāda’ follows the brief's model heading (‘Lūyīpāda’). The approved English for p-kanha is ‘Kāṇha’."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.1a",
+      "translit": "aliem̐ kāliem̐ bāṭa rundhelā |",
+      "gloss": "by āli (the vowel series) · by kāli (the consonant series) · road · blocked",
+      "en": "[Āli]{ali} and [kāli]{kali} blocked the [road]{road};",
+      "terms": [
+        {
+          "id": "ali",
+          "src": "অলিএঁ"
+        },
+        {
+          "id": "kali",
+          "src": "কালিএঁ"
+        },
+        {
+          "id": "road",
+          "src": "বাট"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "With the past verb rundhelā, the instrumentals aliem̐ kāliem̐ most naturally make āli and kāli the agents. I chose that reading. Munidatta takes them as the means, with Kāṇha as the one who blocks the path (cp.07.m2), which would give ‘with āli and kāli the road was blocked’."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan ('jigs byed dus mtshan ma yis lam ni bkag) does not seem to read the two letter series here. See the witness note."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The song writes ali with a short a. I take it as āli, following Munidatta's lemma ālī (cp.07.m2). Sanskrit ali, ‘bee’, seems unlikely beside kāli."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.1b",
+      "translit": "tā dekhi kāhnu bimana bhailā || dhru ||",
+      "gloss": "that · having seen · Kāṇha · downcast · became · (dhru: refrain cue, not translated)",
+      "en": "seeing it, [Kāṇha]{p-kanha} grew [downcast]{vimana}.",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নু"
+        },
+        {
+          "id": "vimana",
+          "src": "বিমন"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bimana means ‘downcast’ (the glossary rendering; the Tibetan of the song has rnam mi dga', ‘unhappy’). Literally it is ‘without mind’ or ‘of altered mind’. In its place Munidatta's paraphrase has ‘became of distinguished mind’ (viśiṣṭamanaso bhūtāḥ, cp.07.m2). I kept the song's sense and set out the divergence in a doctrine note."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri prints ধ্রু after 1b as well, although couplet 2 is the refrain. It is not translated."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.2a",
+      "translit": "kāhnu kahim̐ gai kariba nibāsa",
+      "gloss": "Kāṇha (addressed, or subject) · where · having gone · will make (first person?) · dwelling",
+      "en": "[Kāṇha]{p-kanha}, where shall I go and make my [dwelling]{nivasa}?",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নু"
+        },
+        {
+          "id": "nivasa",
+          "src": "নিবাস"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "kāhnu may be addressed or may be the subject. Munidatta reads self-address with a first-person question: ‘in what place is a dwelling to be made by us?’ (cp.07.m3). The Tibetan puts Kāṇha in the agent case (kAh+Nas), which gives ‘Where will Kāṇha go and make a dwelling?’. I chose address and the first person, reading kariba as a first-person future. ‘My’ is supplied for the English."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "The print runs কহিঁগই together. I divide it as kahim̐ gai, the way Munidatta quotes it (cp.07.m3)."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.2b",
+      "translit": "jo managoara so uāsa || dhru ||",
+      "gloss": "which, who · in the mind's range · that · indifferent · (dhru: refrain cue, not translated)",
+      "en": "Whatever lies in the [range of the mind]{manogocara} is [indifferent]{udasa}.",
+      "terms": [
+        {
+          "id": "manogocara",
+          "src": "মনগোঅর"
+        },
+        {
+          "id": "udasa",
+          "src": "উআস"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "jo can mean ‘what’ or ‘who’. The Tibetan (yid kyi spyod yul gang de) takes it of things, and I followed it. Munidatta applies the line to yogins who stay within the range of the mind and are indifferent to this teaching (cp.07.m3). That would give ‘Whoever stays in the range of the mind is indifferent’."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "‘Indifferent’ (udasa) sits awkwardly when said of things in English. ‘Stands apart’ or ‘detached’ would read more easily. See questions."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.3a",
+      "translit": "te tini te tini tini ho bhinnā",
+      "gloss": "those · three · those · three · three · are (or an emphatic particle) · separate, split",
+      "en": "Those three, those three: the three are split apart;",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bhinnā can mean ‘separate, distinct’ (the Tibetan so sor 'dug, ‘remain each apart’) or ‘broken, split’. ‘Split apart’ tries to keep both. Munidatta speaks of no difference among the threes (cp.07.m4) but does not gloss the word."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "I read ho as the verb ‘are’. It could be an emphatic particle."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan calls the first three ‘the three realms’ (khams gsum). The Bengali names nothing."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.3b",
+      "translit": "bhaṇai kāhnu bhava paricchinnā || dhru ||",
+      "gloss": "says · Kāṇha · existence · cut off · (dhru: refrain cue, not translated)",
+      "en": "[Kāṇha]{p-kanha} says, [existence]{bhava} is cut off.",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নু"
+        },
+        {
+          "id": "bhava",
+          "src": "ভব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "paricchinnā means ‘cut off’, but can also mean ‘delimited, ascertained’. The Tibetan yongs su gcod allows either sense. Munidatta's ‘we are cutters of the concepts of existence’ supports ‘cut’ (cp.07.m4)."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.4a",
+      "translit": "je je āilā te te gelā |",
+      "gloss": "which · which · came · that · that · went",
+      "en": "Each one that came, each one went;",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "je je … te te is a doubled relative and correlative (‘each that … each’). ‘Each one … each one’ keeps the doubling. Munidatta and the Tibetan comment take the line of things (bhāva) (cp.07.m5). The line itself could equally be about people."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.4b",
+      "translit": "abaṇāgabaṇe kāhnu bimana bhaiīlā || dhru ||",
+      "gloss": "in coming and going · Kāṇha · downcast · became · (dhru: refrain cue, not translated)",
+      "en": "in [coming and going]{coming-and-going}, [Kāṇha]{p-kanha} grew [downcast]{vimana}.",
+      "terms": [
+        {
+          "id": "coming-and-going",
+          "src": "অবণাগবণে"
+        },
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নু"
+        },
+        {
+          "id": "vimana",
+          "src": "বিমন"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "For abaṇāgabaṇe the Tibetan reads bdag nyid 'ongs nas, ‘having come himself’. See the witness note."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bimana as in 1b. Munidatta again paraphrases ‘of distinguished mind, purified’, and he calls this couplet the poet's praise of himself (cp.07.m5)."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "bhaiīlā is an odd spelling. I take it as bhailā, the form in 1b."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.5a",
+      "translit": "heri se kāhni ṇiaṛi jinaura baṭṭai",
+      "gloss": "look (or having looked) · it, that · Kāṇha (addressed) · near · city of the Jina · is",
+      "en": "Look, [Kāṇha]{p-kanha}: it is near, the [city of the Jina]{jinapura}.",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নি"
+        },
+        {
+          "id": "jinapura",
+          "src": "জিনউর"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "heri may be an imperative (‘look’) or an absolutive (‘having looked’, like dekhi in 1b). I read se as ‘it’, looking ahead to jinaura; it could instead be ‘that’ qualifying jinaura. I take kāhni as addressed, as Munidatta does (cp.07.m6)."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "For jinaura the Tibetan has ‘king's palace’ (rgyal po'i pho brang). See the witness note."
+        }
+      ]
+    },
+    {
+      "id": "cp.07.5b",
+      "translit": "bhaṇai kāhnu mohiahi na paisai || dhru ||",
+      "gloss": "says · Kāṇha · in my heart (mo + hiahi; or: into the deluded) · not · enters · (dhru: refrain cue, not translated)",
+      "en": "[Kāṇha]{p-kanha} says, it does not enter my heart.",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "I read mohiahi as mo hiahi, ‘in my heart’, which the Tibetan supports (bdag gi snying, ‘my heart’). It could also be divided mohia-hi, ‘into the deluded’ (Sanskrit mohita), giving ‘Kāṇha says, it does not enter the deluded’. The subject of ‘enter’ is not stated. Munidatta's comment on couplet 5 (cp.07.m6) does not take up this line."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.07",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song as spoken by [Kāṇha]{p-kanha} (Kṛṣṇācāryapāda), whose heart is soaked with the weight of [compassion]{karuna} for the good of the world, to specify further ‘that same meaning’ (tam evārthaṃ); he does not say which. The Tibetan translation (Toh 2293) has ‘the especially exalted meaning of reality’ (de kho na nyid kyi don khyad par du 'phags pa).",
+      "cites": [
+        "cp.07.m1"
+      ]
+    },
+    {
+      "anchor": "cp.07.h1",
+      "kind": "philology",
+      "text": "[Rāga]{raga}: a melodic mode of Indian music. The heading names the melody, [Paṭamañjarī]{patamanjari}, to which the song is sung.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.07.h1",
+      "kind": "witness",
+      "text": "The manuscript writes the attribution kāhnupādānām, ‘of Kāhnupāda’, before the first line. It was emended out of line 1a and is rendered here in the heading. The Tibetan translation (Toh 2293) heads the song rnga'i tshogs pa zhes bya ba'i glu'i dbyangs nag po spyod pa pa'i zhabs kyi'o, ‘the melody called Assembly of Drums; of Kṛṣṇācāryapāda’. Rather than transcribing the rāga name, rnga'i tshogs pa, ‘cluster of drums’, seems to translate it as if it were paṭaha, ‘drum’, with mañjarī, ‘cluster’.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.07.1a",
+      "kind": "philology",
+      "text": "[Āli]{ali} and [kāli]{kali}: in ordinary Sanskrit usage, the two series of the alphabet. Āli is the vowels (a, ā, i …) and kāli the consonants (ka, kha …). The song writes ali with a short a; Munidatta's lemma is ālī (cp.07.m2). Both words carry the instrumental ending -em̐. With a past verb this usually marks the agent: ‘by āli and kāli the road was blocked’.",
+      "cites": [
+        "cp.07.m2"
+      ]
+    },
+    {
+      "anchor": "cp.07.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads 'jigs byed dus mtshan ma yis lam ni bkag, ‘the terrifying one and the one of the night blocked the road’. 'jigs byed is the usual rendering of Bhairava or bhīṣaṇa, ‘terrifying’, and dus mtshan ma looks like a feminine of dus mtshan, ‘night’. So the translators do not seem to have read the words as the letter series; dus mtshan ma may reflect kālī, ‘the dark one’. The Tibetan commentary keeps these words as its lemmas, glossing 'jigs byed as ye shes kyi snang ba and dus mtshan ma as snang ba mched pa (cp.07.m2).",
+      "cites": [
+        "cp.07.m2"
+      ]
+    },
+    {
+      "anchor": "cp.07.1",
+      "kind": "doctrine",
+      "text": "Munidatta: Kṛṣṇācārya ([Kāṇha]{p-kanha}) received the instruction in [vajra recitation]{vajrajapa}, preceded by [deity yoga]{devatayoga} with his own deity. He then made āli and kāli one and firmly blocked the path of the [avadhūtī]{avadhuti} (the central channel of the subtle body). Munidatta glosses āli as lokajñāna and kāli as lokabhāsa. These seem to stand for ālokajñāna, the knowledge that is [light]{aloka}, and ālokābhāsa, the [spreading of light]{alokabhasa}, as the Tibetan ye shes kyi snang ba and snang ba mched pa suggest. In his paraphrase Kāṇha does the blocking and āli and kāli are the means, whereas the song's instrumentals more naturally make them the agents. The Tibetan version of the comment has the two made one, then held firm and stopped in the path of the avadhūtī, so that what is blocked is the pair rather than the path.",
+      "cites": [
+        "cp.07.m2"
+      ]
+    },
+    {
+      "anchor": "cp.07.1b",
+      "kind": "doctrine",
+      "text": "Divergence. Twice the song says Kāṇha became bimana, ‘downcast’ (literally ‘without mind’ or ‘of altered mind’), and the Tibetan translation of the song reads it that way (rnam mi dga' in 1b, yid mi bde in 4b). Munidatta's paraphrase, in the Sanskrit and the Tibetan alike, puts ‘became of distinguished mind’ in its place. In cp.07.m2 this happens by the true [guru]{guru}'s grace, in the form of the naturally purified avadhūtikā, after the path is blocked. In cp.07.m5 it is ‘of distinguished mind, purified’, through knowing conventional truth. He also calls the fourth couplet the poet's praise of himself. He seems to take vi- as ‘distinguished’ (viśiṣṭa), but gives no explicit gloss. The translation keeps ‘downcast’.",
+      "cites": [
+        "cp.07.m2",
+        "cp.07.m5"
+      ]
+    },
+    {
+      "anchor": "cp.07.1b",
+      "kind": "witness",
+      "text": "Shastri prints ধ্রু after 1b too. Yet Munidatta treats couplet 2 as the [refrain]{dhruvapada} and counts couplets 3 to 5 as his second, third and fourth [verses]{pada} (cp.07.m3–m6). The cue is not translated.",
+      "cites": [
+        "cp.07.m3",
+        "cp.07.m4",
+        "cp.07.m5",
+        "cp.07.m6"
+      ]
+    },
+    {
+      "anchor": "cp.07.2",
+      "kind": "doctrine",
+      "text": "Munidatta says that with the [refrain]{dhruvapada} Kāṇha breaks down the imputing of a dwelling of his own (nijavāsāropaṇa). Addressing himself (‘O Kṛṣṇavajrapāda’), he says the world is pervaded by [bliss]{sukha} as [pervaded and pervader]{vyapya-vyapaka}, as the [Heruka Tantra]{tx-heruka-tantra} teaches, so in what place is a dwelling to be made? Everything is of that nature, so even [yogis]{yogi} who stay within the [range of the mind]{manogocara}, in whom understanding through the mind-sense predominates, are [indifferent]{udasa} to this [dharma]{dharma} and very far from it. He quotes [Saraha]{p-saraha}: where mind and [wind]{vayu} do not move and [sun]{surya} and [moon]{moon} have no entry, there, fool, give the [mind]{citta} rest; so Saraha gives the [instruction]{upadesa}. Where the Sanskrit has ‘bliss’, the Tibetan has ‘great bliss’.",
+      "cites": [
+        "cp.07.m3"
+      ]
+    },
+    {
+      "anchor": "cp.07.2a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has kAh+Nas gang du phyin nas gnas 'cha' byed, ‘Where will Kāṇha go and make a dwelling?’. Kāṇha is in the agent case, the subject rather than the one addressed. Munidatta reads the line as self-address with a first-person question: ‘in what place is a dwelling to be made by us?’ (kutra sthāne asmābhir nivāsaḥ karaṇīyaḥ).",
+      "cites": [
+        "cp.07.m3"
+      ]
+    },
+    {
+      "anchor": "cp.07.2b",
+      "kind": "philology",
+      "text": "managoara is Sanskrit manogocara, ‘range of the mind’. uāsa is udāsa, ‘indifferent, standing apart’, with the loss of d between vowels that is usual in Prakrit. Munidatta has udāsāḥ, adding sudūratarāḥ, ‘very far removed’, and the Tibetan translation has btang snyoms, ‘equanimity, indifference’, in the song and the comment. Munidatta applies the line to persons, yogins who stay within the mind's range. The Tibetan of the song, yid kyi spyod yul gang de, ‘whatever is the mind's domain, that’, takes it of things. uāsa rhymes with nibāsa, ‘dwelling’, in 2a.",
+      "cites": [
+        "cp.07.m3"
+      ]
+    },
+    {
+      "anchor": "cp.07.3",
+      "kind": "doctrine",
+      "text": "Munidatta lists the threes. Outwardly they are heaven, earth and the underworld; inwardly body, speech and mind; also day, night and twilight, and yoga and yoginī tantras, and so on. For [yogis]{yogi} who know the [ultimate]{paramartha}, these show no mark of difference from one another, since [great bliss]{mahasukha} pervades them. He cites scripture: ‘heaven, earth and underworld become one form in an instant’. He then quotes a verse, stated by a ‘caryāpāda’, saying there is no difference among the three [maṇḍalas]{mandala}. Whether caryāpāda is a person's name or means a verse of the songs is unclear; the Tibetan has spyod pa pa glu dbyangs zhabs. The Old Bengali of that verse is garbled; the Tibetan reads ‘thirty-seven, nine and thirty-eight’. Finally he has Kāṇha say, ‘We are cutters of the [conceptual thought]{vikalpa} of existence.’ Munidatta does not gloss bhinnā. His ‘no difference’ sits uneasily with the song's ‘the three are split apart’ (or ‘separate’), unless bhinnā is taken as ‘broken’. The translation follows the song.",
+      "cites": [
+        "cp.07.m4"
+      ]
+    },
+    {
+      "anchor": "cp.07.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads khams gsum gsum pa gsum kyang so sor 'dug, ‘the three realms, the threefold three, these three too remain each apart’. It names the first three as realms (khams gsum), which the Bengali does not, apparently following the commentary's outer three (heaven, earth, underworld). It takes bhinnā as ‘separately’ (so sor).",
+      "cites": [
+        "cp.07.m4"
+      ]
+    },
+    {
+      "anchor": "cp.07.3b",
+      "kind": "philology",
+      "text": "paricchinnā is Sanskrit paricchinna, ‘cut off, severed’, which also means ‘delimited, ascertained’. The Tibetan translation's srid pa yongs su gcod can mean ‘cuts off existence entirely’ or ‘fully determines existence’. Munidatta's ‘we are cutters of the concepts of existence’ (bhavavikalpacchedakāḥ) supports ‘cut’. The rhyme bhinnā / paricchinnā pairs the splitting in 3a with this cutting.",
+      "cites": [
+        "cp.07.m4"
+      ]
+    },
+    {
+      "anchor": "cp.07.4",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet the poet's praise of himself. Whatever things (bhāva) arose have dissolved. By the [guru]{guru}'s grace Kṛṣṇācārya knew the nature of [conventional]{samvrti} truth in their [arising and perishing]{utpada-bhanga}, and so became of distinguished mind and purified. He cites scripture: full knowledge of [existence]{bhava} itself is called [nirvāṇa]{nirvana}. The Tibetan version of the comment agrees.",
+      "cites": [
+        "cp.07.m5"
+      ]
+    },
+    {
+      "anchor": "cp.07.4b",
+      "kind": "witness",
+      "text": "abaṇāgabaṇe seems to be a pair of verbal nouns, ‘coming’ and ‘going’ (Sanskrit āgamana, gamana), in the locative. The Tibetan translation (Toh 2293) has bdag nyid 'ongs nas, ‘having come himself’, as if it read apaṇā, ‘self’ (Sanskrit ātman), with āgabaṇa, ‘coming’. The Bengali spells the verb bhaiīlā, against bhailā in 1b. It is taken as the same form.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.07.5",
+      "kind": "doctrine",
+      "text": "Munidatta calls the last couplet, too, the poet's praise of himself; the Tibetan calls it praise of the path (lam gyi rjes su bsngags pa). Addressing himself, ‘O Kṛṣṇavajrapāda’, Kāṇha says that through the [five stages]{pancakrama} in order, the [city of the Jina]{jinapura}, the city of [great bliss]{mahasukha}, is again very near to him. Munidatta quotes [Nāgārjuna]{p-nagarjuna}: for those established in the [generation stage]{utpattikrama} who long for the [completion stage]{nispannakrama}, the Buddha fashioned this means like a stairway. He does not comment on 5b.",
+      "cites": [
+        "cp.07.m6"
+      ]
+    },
+    {
+      "anchor": "cp.07.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads 'di ni kAh+Na rgyal po'i pho brang nye, ‘This, Kāṇha: the king's palace is near’. For jina it has rgyal po, ‘king’, where the usual word is rgyal ba, ‘victor’; for pura it has pho brang, ‘palace’, not ‘city’. The Tibetan comment also has rgyal po'i pho brang, glossed as the city of great bliss (cp.07.m6). 'di ni, ‘this’, seems to render heri se.",
+      "cites": [
+        "cp.07.m6"
+      ]
+    },
+    {
+      "anchor": "cp.07.5a",
+      "kind": "imagery",
+      "text": "Jina, ‘Victor’, is a title of the Buddha. The song begins with a blocked road and a question about where to dwell, and ends with a city close at hand.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.07.5b",
+      "kind": "philology",
+      "text": "I take mohiahi as mo, ‘my’, with hiahi, ‘in the heart’. The phrase recalls the last line of song 6, where it does not enter the hearts of fools. The Tibetan translation supports this reading: kAh+Nas smras kyang bdag gi snying mi 'jug, ‘Kāṇha has spoken, yet it does not enter my heart’. Another division is possible: mohia-hi, ‘into the deluded’ (Sanskrit mohita). That would give ‘Kāṇha says, it does not enter the deluded’, closer to the fools of song 6. Munidatta's comment on couplet 5 (cp.07.m6) does not take up this line.",
+      "cites": [
+        "cp.07.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "citta",
+      "line": "cp.07.1b",
+      "reason": "This hit is in the Tibetan only: sems in rnam mi dga', ‘the mind is unhappy’, the Tibetan rendering of bimana. The Bengali has no separate word for mind, so the English has none."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "nivasa",
+      "type": "term",
+      "en": "dwelling",
+      "policy": "translate",
+      "alt": [
+        "home",
+        "abode"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিবাস",
+          "translit": "nibāsa",
+          "lemma": "nibāsa",
+          "att": "AS",
+          "where": "cp.07.2a"
+        },
+        {
+          "lang": "san",
+          "script": "নিবাসঃ",
+          "translit": "nivāsaḥ",
+          "lemma": "nivāsa",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གནས",
+          "translit": "gnas",
+          "lemma": "gnas",
+          "att": "AO",
+          "where": "cp.07.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নিবাস"
+        },
+        {
+          "lang": "san",
+          "form": "নিবাস"
+        }
+      ],
+      "definition": "A dwelling or place to live (Old Bengali nibāsa, Sanskrit nivāsa). In the refrain of song 7 Kāṇha asks where he is to go and make his dwelling. Munidatta says the refrain breaks down the imputing of a dwelling of one's own, since the world is pervaded by bliss (cp.07.m3). The Tibetan has gnas.",
+      "symbolicImage": "the dwelling Kāṇha asks where to make",
+      "symbolicReadings": [
+        {
+          "referent": "the imputing (āropaṇa) of a dwelling of one's own, which the refrain is said to break down: since the world is pervaded by bliss, there is no place where a dwelling is to be made",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "imputation",
+        "attribution",
+        "bliss"
+      ],
+      "rationale": "It is the key word of the refrain of song 7 and the subject of Munidatta's comment on it. It is distinct from house (ghara) and hut (kuṛiā)."
+    },
+    {
+      "id": "vyapya-vyapaka",
+      "type": "term",
+      "en": "pervaded and pervader",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ব্যাপ্যব্যাপকরূপেণ",
+          "translit": "vyāpyavyāpakarūpeṇa",
+          "lemma": "vyāpyavyāpaka",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱབ་པར་བྱ་བ་དང་ཁྱབ་པར་བྱེད་པ",
+          "translit": "khyab par bya ba dang khyab par byed pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ব্যাপ্যব্যাপক"
+        }
+      ],
+      "definition": "The pervaded (vyāpya) and the pervader (vyāpaka): in Indian logic, the two terms of a relation of invariable concomitance. Munidatta uses the pair for the way bliss fills the world, which he says is pervaded by bliss ‘in the form of pervaded and pervader’ (cp.07.m3). The Tibetan has ‘great bliss’ there.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical pair in Munidatta's comment on the refrain of song 7. A fixed rendering will keep the woven commentary consistent if the pair recurs."
+    },
+    {
+      "id": "utpada-bhanga",
+      "type": "term",
+      "en": "arising and perishing",
+      "policy": "translate",
+      "alt": [
+        "arising and ceasing"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "এষামুৎপাদভঙ্গেষু",
+          "translit": "eṣām utpādabhaṅgeṣu",
+          "lemma": "utpādabhaṅga",
+          "att": "AS",
+          "where": "cp.07.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ་དང་འཇིག་པ",
+          "translit": "skye ba dang 'jig pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ৎপাদভঙ্গ"
+        }
+      ],
+      "definition": "Arising and perishing (utpāda, bhaṅga): the coming into being and destruction of conditioned things. Munidatta's paraphrase of the fourth couplet of song 7 puts it where the song has ‘coming and going’: knowing the nature of conventional truth in the arising and perishing of things, Kāṇha becomes of distinguished mind (cp.07.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "This is Munidatta's term in his gloss on song 7. The coming-and-going entry already forbids it inside a verse line, so it needs its own entry for use in notes and the woven commentary."
+    }
+  ],
+  "questions": [
+    "Heading: I added the poet's name from the attribution kāhnupādānām, which was emended out of 1a, as ‘Kāṇhapāda’, following the brief's model heading. Should it stay as it is, become ‘Kāṇha’ (the approved English), or be dropped?",
+    "bimana (1b, 4b): I used the approved ‘downcast’, which the Tibetan of the song supports. Munidatta, though, paraphrases ‘of distinguished mind’ and calls couplets 4 and 5 self-praise. Would you consider a rendering that keeps both senses, such as ‘beside himself’? If not, ‘downcast’ stands.",
+    "Refrain, 2a: should it be address with the first person (‘Kāṇha, where shall I go…’, as Munidatta reads it) or the third person (‘Where will Kāṇha go…’, as the Tibetan reads it)?",
+    "3a, bhinnā: is ‘split apart’ acceptable as a way to hold both ‘separate’ and ‘broken’, or do you prefer one sense?",
+    "5b, mohiahi: should it be ‘it does not enter my heart’ (mo hiahi, the Tibetan reading) or ‘it does not enter the deluded’ (mohia-hi)? Munidatta is silent on this line.",
+    "2b: ‘indifferent’ (udasa) is awkward when said of things. May I add ‘stands apart’ or ‘detached’ as listed variants?",
+    "Should nibāsa, ‘dwelling’, the key word of the refrain, become a glossary term (proposed here as nivasa)?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "99cc3808e1032dd402950112dc49a9782e70a5c7d2929a38fab00a27306de8f5",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "99ca9c98d5c14cf1426497ab131dd398fb048420c99ad10957f25be5f819be7d",
+    "sourceSha": "a10ecd905f7e8278eeb643c001bec34af71b407ba257b4b59380b20029d9dc39"
+  }
+}

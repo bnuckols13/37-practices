@@ -1,0 +1,510 @@
+{
+  "unit": "cp.06",
+  "title": "The Hunted Deer",
+  "summary": "A deer is surrounded by the cries of a hunt, made an enemy by its own flesh, and watched without a moment's pause by Bhusuku. It touches no grass and drinks no water, the doe tells it to leave the forest, and it bounds away so fast that its hooves are not seen. Munidatta says the poet speaks in the twilight language of the word 'deer' and reads it throughout as the mind, the 'mind-deer'; for him the doe is the wisdom seal, Nairātmā, and the fools of the last line are scholars proud of outer learning.",
+  "lines": [
+    {
+      "id": "cp.06.h1",
+      "translit": "rāga paṭamañjarī",
+      "gloss": "rāga (melody) · Paṭamañjarī (name of the rāga)",
+      "en": "[Rāga]{raga} [Paṭamañjarī]{patamanjari} · [Bhusukupāda]{p-bhusuku}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "patamanjari",
+          "src": "পটমঞ্জরী"
+        },
+        {
+          "id": "p-bhusuku",
+          "src": "ভুসুকুপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The poet's name is not in the heading line itself. It comes from the attribution bhusukupādānām, 'of Bhusukupāda', which the manuscript writes before the song; the edition runs it into line 1a, from which it has been removed. The Tibetan heading also names b+hu su ku'i zhabs. Drop it if the heading should render only the rāga line."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.1a",
+      "translit": "kāhairi ghini meli acchahu kīsa |",
+      "gloss": "whom? · having taken · having let go · (I) remain · why?",
+      "en": "Whom do I take, whom let go? Why do I stay?",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "The line is obscure. I follow Munidatta's renderings of ghini and meli (gṛhītvā, muktvā: 'having taken', 'having let go') and his first person (sthito'ham, 'I remain'), with kīsa as 'why?'. Alternatives: 'How can I stay?'; or acchahu as a second plural (like hohu, 'be!', in 4b), which makes the line a question put to the deer: 'Whom have you taken, whom let go? Why do you stay?'"
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "Munidatta's lemma reads kāhere for the text's kāhairi (cp.06.m2)."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) has gang gis zas la 'dus nas ci ste 'dug, roughly 'by whom, gathered at food, why stay?': 'food' (zas) and 'gathering' ('dus) where the Bengali, on Munidatta's reading, has 'taken' and 'let go'. I follow Munidatta."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.1b",
+      "translit": "beṭila hāka paṛaa caudīsa || dhru ||",
+      "gloss": "surrounded · shout · falls · four directions",
+      "en": "Surrounded — the cry goes up on all four sides.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "beṭila may be a participle, 'surrounded' (the speaker or the deer), or a past tense with hāka as its subject, 'the cry has surrounded (me)'. The dash leaves the subject open, as the Bengali does."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan translation has rgol ba, 'attackers', standing in the four directions, where the Bengali has hāka, 'shout, cry'."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.2a",
+      "translit": "apaṇā māṃsem̐ hariṇā bairī |",
+      "gloss": "own · by flesh · deer · enemy",
+      "en": "Its own flesh makes the [deer]{deer} an enemy.",
+      "terms": [
+        {
+          "id": "deer",
+          "src": "হরিণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "The line does not say whose enemy. Its flesh makes the deer everyone's quarry, or makes it its own enemy (as the Tibetan has it); Munidatta calls the mind-deer 'the sworn enemy of all' (cp.06.m3). If hariṇā is read as a genitive, the line means 'Its own flesh is the deer's enemy'. The rendering keeps the question open."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation has ri dgas rang shar rang gi dgra ru langs, 'the deer, self-arisen, has risen as its own enemy'. It has no word for 'flesh', unless shar is a slip for sha, 'flesh' (rang sha, 'its own flesh')."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.2b",
+      "translit": "khanaha na chāṛaa bhukua heri || dhru ||",
+      "gloss": "even for a moment · not · lets go · Bhukua (Bhusuku) · having seen",
+      "en": "[Bhusuku]{p-bhusuku} has seen it and does not let it go for a moment.",
+      "terms": [
+        {
+          "id": "p-bhusuku",
+          "src": "ভুকুঅ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "Shastri's text has bhukua. I take it as the poet's name, as Munidatta (Bhusukupāda, cp.06.m3) and the Tibetan line (b+hu su ku) do; it has as many syllables as bhusuku and may be a scribal slip. If bhukua is a word in its own right, I do not know its sense."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "heri means 'having seen' or 'looking (at it)'; the Tibetan renders it sor rtog, 'examining'. In the English it becomes a finite verb, 'has seen it and'."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.3a",
+      "translit": "tiṇa na cchupai hariṇā pibai na pāṇī |",
+      "gloss": "grass · not · touches · deer · drinks · not · water",
+      "en": "The [deer]{deer} touches no grass, drinks no water.",
+      "terms": [
+        {
+          "id": "deer",
+          "src": "হরিণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "Munidatta's lemma has khaṇḍai, 'breaks, crops', for the text's cchupai, 'touches' (cp.06.m4). The Tibetan line, rtswa la mi reg, 'does not touch grass', supports cchupai, which is kept."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.3b",
+      "translit": "hariṇā hariṇira nilaa ṇa jāṇī || dhru ||",
+      "gloss": "deer · of doe · dwelling · not · is known",
+      "en": "The dwelling of the [deer]{deer} and the [doe]{doe} is not known.",
+      "terms": [
+        {
+          "id": "deer",
+          "src": "হরিণা"
+        },
+        {
+          "id": "doe",
+          "src": "হরিণির"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "Taken as a pair, 'the deer and the doe', with one genitive ending covering both, as Munidatta ('those two', cp.06.m4) and the Tibetan (ri dgas pho mo, 'male and female deer') read it. Also possible: 'The deer does not know the doe's dwelling'; or, with jāṇī as a first person, 'I do not know the dwelling of the deer and the doe'."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line opens with kye ma, 'alas', which the Bengali lacks."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.4a",
+      "translit": "hariṇī bolaa hariṇā suṇa hariā to |",
+      "gloss": "doe · says · deer (vocative) · listen · deer (vocative?) · you (or: then)",
+      "en": "The [doe]{doe} says, “[Deer]{deer}, listen. You, [deer]{deer},",
+      "terms": [
+        {
+          "id": "doe",
+          "src": "হরিণী"
+        },
+        {
+          "id": "deer",
+          "src": "হরিণা"
+        },
+        {
+          "id": "deer",
+          "src": "হরিআ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "hariā to is unclear. I take hariā as a second vocative, 'deer' (perhaps an affectionate by-form), and to as 'you', which carries the address into the command of 4b. Alternatively to may mean 'then, so' (as Apabhraṃśa to does), and hariṇā may be the one addressed: 'The doe says to the deer, “Listen, deer, and so…”'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation has ri dgas smra nyon rtswa med ri dgas ma. It has rtswa med, 'without grass', where the Bengali has hariā to, and its word order could make the deer the speaker and the doe the one addressed."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.4b",
+      "translit": "e baṇa cchāṛī hohu bhānto || dhru ||",
+      "gloss": "this · forest · having left · be · wandering",
+      "en": "leave this [forest]{forest} and go wandering.”",
+      "terms": [
+        {
+          "id": "forest",
+          "src": "বণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bhānto is Sanskrit bhrānta, 'wandering, roaming', also 'astray, bewildered'. hohu bhānto, 'become a wanderer', is rendered 'go wandering'; 'be gone' would also fit."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation has 'jigs med gnas su song, 'go to the fearless place', where the Bengali has hohu bhānto, naming a destination the Bengali does not."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.5a",
+      "translit": "taraṅgante hariṇāra khūra na dīsaa |",
+      "gloss": "while bounding (lit. while surging like waves) · of the deer · hoof · not · is seen",
+      "en": "As it bounds, the [deer]{deer}'s [hooves]{hoof} are not seen.",
+      "terms": [
+        {
+          "id": "deer",
+          "src": "হরিণার"
+        },
+        {
+          "id": "hoof",
+          "src": "খূর"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The glossary's 'hoof' is used in the plural, 'hooves'; khūra is not marked for number."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "Munidatta's lemma reads taraṃgate (cp.06.m6). The text's taraṅgante, 'while surging' (from taraṅga, 'wave'), is kept and rendered 'as it bounds'."
+        }
+      ]
+    },
+    {
+      "id": "cp.06.5b",
+      "translit": "bhusuku bhaṇai mūṛhā hia hi ṇa paisaī || dhru ||",
+      "gloss": "Bhusuku · says · of fools · heart · in · not · enters",
+      "en": "[Bhusuku]{p-bhusuku} says: it does not enter the hearts of [fools]{mudha}.",
+      "terms": [
+        {
+          "id": "p-bhusuku",
+          "src": "ভুসুকু"
+        },
+        {
+          "id": "mudha",
+          "src": "মূঢ়া"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The glossary's English for the poet is Bhusukupāda. He names himself Bhusuku, and that form is kept here and in 2b."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "The line does not say what fails to enter; 'it' keeps the gap. Munidatta speaks of reality (tattva) not opening in their hearts (cp.06.m6)."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.06",
+      "kind": "imagery",
+      "text": "The song is a hunt. A deer is surrounded, and the hunters' cry comes from all four sides; its own flesh is what makes it an enemy; Bhusuku has sighted it and will not let it go. The deer neither grazes nor drinks, the doe urges it to leave the forest, and it runs so fast that its hooves cannot be seen. The song does not say who speaks couplet 1; it reads most easily as the voice of the hunted animal.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song by saying that [Bhusukupāda]{p-bhusuku}, his mind stirred by [compassion]{karuna}, speaks for the sake of others 'in the [twilight language]{sandhya-bhasa} of the word deer' (hariṇāśabdasandhyābhāṣayā) (cp.06.m1). Throughout his comment the deer is the 'mind-deer' (cittahariṇa), and in his paraphrase of couplet 1 the poet speaks in the first person of 'my mind-deer' (cp.06.m2).",
+      "cites": [
+        "cp.06.m1",
+        "cp.06.m2"
+      ]
+    },
+    {
+      "anchor": "cp.06.h1",
+      "kind": "philology",
+      "text": "[Rāga]{raga}: a melodic mode; the heading names the one to which the song is sung. [Paṭamañjarī]{patamanjari} is also the rāga of song 1. The Tibetan translation (Toh 2293) transcribes the name pa ta ha many+dza ri and calls it a melody (glu'i gdangs).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06.h1",
+      "kind": "witness",
+      "text": "The poet's name in the heading comes from the attribution the manuscript writes before the song, bhusukupādānām, 'of Bhusukupāda'. In the edition's text it runs into line 1a and has been removed there, since it is not part of the verse. The Tibetan translation's heading also names him: b+hu su ku'i zhabs kyis so, 'by Bhusukupāda'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06.1a",
+      "kind": "philology",
+      "text": "kāhairi: 'whom?' (Munidatta's lemma reads kāhere). ghini: 'having taken', Munidatta's gṛhītvā. meli: 'having let go', his muktvā; the verb mel- can also mean 'meet, gather'. acchahu: 'remain'; the ending -hu can be a first plural used of the speaker (Munidatta paraphrases sthito'ham, 'I remain'), or a second plural, as in hohu, 'be!', in 4b, which would give 'Why do you stay?'. kīsa: 'why?' or 'how?'.",
+      "cites": [
+        "cp.06.m2"
+      ]
+    },
+    {
+      "anchor": "cp.06.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has gang gis zas la 'dus nas ci ste 'dug, roughly 'by whom, gathered at food, why does one stay?'. It seems to find a word for food (zas) in the opening words and to take meli as 'gathering' ('dus); nothing in it corresponds to 'let go'. The translation follows Munidatta's gṛhītvā muktvā, 'having taken, having let go'.",
+      "cites": [
+        "cp.06.m2"
+      ]
+    },
+    {
+      "anchor": "cp.06.1b",
+      "kind": "philology",
+      "text": "beṭila: 'surrounded' (Sanskrit veṣṭita), or as a past tense '(it) surrounded'. hāka: a shout or call, here the cry of a hunt. paṛaa: 'falls', that is, the cry goes up. caudīsa: 'the four directions'. The Tibetan translation has mtha' skor rgol ba phyogs bzhi rnams gnas so, 'encircling at the edge, the attackers stand in the four directions', taking hāka as the attackers rather than their cry.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06.1b",
+      "kind": "witness",
+      "text": "Shastri prints the refrain cue ধ্রু after this first couplet as well as after the refrain and the later couplets. It is not translated. Munidatta names couplet 2 as the refrain (cp.06.m3).",
+      "cites": [
+        "cp.06.m3"
+      ]
+    },
+    {
+      "anchor": "cp.06.1",
+      "kind": "doctrine",
+      "text": "Munidatta (cp.06.m2): from beginningless time, through the fault of lacking [vigilance]{samprajanya}, 'my mind-deer', wrapped in the poison of the [Māra of death]{mrtyumara}, heard the cry 'kill! kill!' (māra māra; the words of the cry echo the name Māra). Now, by the power of the dust of the [guru]{guru}'s feet, it has left that behind; through the [non-apprehension]{anupalambha} of all things, since [the grasped and the grasper]{grahya-grahaka} are absent, 'having taken up anything whatever and let it go, I remain'. The Tibetan translation renders the cry sod sod, 'kill, kill', has dmigs su med pa (supporting anupalambha against the manuscript's anulambha), and ends 'I abide freed' (bdag nyid grol bar gnas pa).",
+      "cites": [
+        "cp.06.m2"
+      ]
+    },
+    {
+      "anchor": "cp.06.2a",
+      "kind": "witness",
+      "text": "apaṇā māṃsem̐: 'by its own flesh' (instrumental -em̐); bairī: 'enemy' (Sanskrit vairin). The Tibetan translation (Toh 2293) has ri dgas rang shar rang gi dgra ru langs, 'the deer, self-arisen, has risen as its own enemy'. It has no word for 'flesh', unless shar is a slip for sha, 'flesh' (rang sha, 'its own flesh'), and it makes the deer its own enemy.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06.2",
+      "kind": "doctrine",
+      "text": "Munidatta (cp.06.m3), naming this couplet the [refrain]{dhruvapada}: through the faults of [ignorance]{avidya} and [avarice]{matsarya} that it has itself made, and through its restlessness, the mind-deer is the sworn enemy of all. He calls Bhusukupāda the [hunter]{hunter} (ākheṭika), who strikes 'the other' with the arrow of the true guru's words, and quotes the [Bodhicaryāvatāra]{tx-bodhicaryavatara}: separate this bag of skin with your own understanding, free the flesh from the cage of bones with the knife of [wisdom]{prajna}, separate the bones too, and consider for yourself what core there is here. The quoted verse, like the refrain, speaks of flesh. Where the Sanskrit has 'hunter', the Tibetan translation has Bhusukupāda's sor rtog, 'examination', the word by which it renders heri in the line. The clause about not leaving the mind-deer even for a moment lacks a negative in both the Sanskrit and the Tibetan, so its wording is unclear.",
+      "cites": [
+        "cp.06.m3"
+      ]
+    },
+    {
+      "anchor": "cp.06.2b",
+      "kind": "witness",
+      "text": "Shastri's text has bhukua, taken here as the poet's name: Munidatta names Bhusukupāda in his comment on this couplet (cp.06.m3), and the Tibetan translation's line has b+hu su ku (sor rtog skad cig mi 'dor b+hu su ku, 'examining, Bhusuku does not abandon it for an instant'). bhukua has as many syllables as bhusuku and may be a scribal slip. heri: 'having seen' or 'looking', which the Tibetan renders sor rtog, 'examining'.",
+      "cites": [
+        "cp.06.m3"
+      ]
+    },
+    {
+      "anchor": "cp.06.3a",
+      "kind": "witness",
+      "text": "cchupai: 'touches'. Munidatta's lemma reads tiṇa na khaṇḍai, 'does not break (crop) grass', and he glosses it with tṛṇaccheda, 'cutting grass' (cp.06.m4); the lemma in the Tibetan comment has rtswa mi za, 'does not eat grass'. The Tibetan translation of the line has rtswa la mi reg, 'does not touch grass', which supports the text's cchupai; it is kept.",
+      "cites": [
+        "cp.06.m4"
+      ]
+    },
+    {
+      "anchor": "cp.06.3b",
+      "kind": "philology",
+      "text": "hariṇā hariṇira is taken as 'of the deer and the doe', the genitive ending -ira covering the pair, since Bengali can mark only the last of two joined nouns. nilaa: 'dwelling, resting place' (Sanskrit nilaya). ṇa jāṇī: 'is not known', or 'I do not know'. Munidatta speaks of the dwelling of 'those two' (tayoḥ) (cp.06.m4), and the Tibetan translation has kye ma ri dgas pho mo gnas mi shes, 'alas, the dwelling of the male and female deer is not known', both reading a pair. 'Alas' (kye ma) has no counterpart in the Bengali.",
+      "cites": [
+        "cp.06.m4"
+      ]
+    },
+    {
+      "anchor": "cp.06.3",
+      "kind": "doctrine",
+      "text": "Munidatta (cp.06.m4): outer deer crop grass and drink from streams; the mind-deer does neither. The dwelling (nilaya, which he glosses nivāsa) of 'those two, mind and [wind]{vayu}' is not understood through the door of the [senses]{indriya}. He does not say which animal is the mind and which the wind. He quotes [Kāṇha]{p-kanha}'s [Dohākoṣa]{tx-dohakosa}: on a high mountain peak the [Śabaras]{sabara} have made their dwelling; the lion does not leap there, and the great [elephant]{elephant} dwells far off (the Apabhraṃśa of the second line is corrupt). The Tibetan version of the quotation has sha ba, 'deer', for the Śabaras.",
+      "cites": [
+        "cp.06.m4"
+      ]
+    },
+    {
+      "anchor": "cp.06.4a",
+      "kind": "philology",
+      "text": "hariṇā is taken as a vocative, 'deer', and hariā as a second vocative, perhaps an affectionate by-form; to as 'you'. to can also mean 'then, so', as in Apabhraṃśa, and hariṇā could be the one addressed ('says to the deer'). The Tibetan translation has ri dgas smra nyon rtswa med ri dgas ma, which can be read 'The deer says: listen, doe, there is no grass', reversing speaker and hearer, or 'The doe says: deer, listen, there is no grass'. Either way it has rtswa med, 'without grass', where the Bengali has hariā to; my guess is that it read a word for green fodder (compare Sanskrit harita, 'green'), but that is only a guess.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06.4b",
+      "kind": "witness",
+      "text": "e baṇa cchāṛī: 'leaving this forest'. hohu: 'be, become' (imperative). bhānto: Sanskrit bhrānta, 'wandering, roaming', also 'astray'; hence 'become a wanderer, go off roaming'. The Tibetan translation has nags 'di spangs nas 'jigs med gnas su song, 'leave this forest and go to the fearless place', which gives a destination the Bengali does not name.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.06.4",
+      "kind": "doctrine",
+      "text": "Munidatta (cp.06.m5), calling this couplet the third verse, says it speaks of the withdrawal of the shoots (pallava) of body, wind and [sense objects]{visaya}. He derives hariṇī from harati, 'takes away': she takes away and breaks the drinking of poison and the graspings of existence (the Tibetan has 'the water of objects', yul gyi chu, as if reading viṣaya, 'object', where Shastri's text has viṣa, 'poison'). In twilight language the doe is the [jñānamudrā]{jnanamudra} ('wisdom seal'), [Nairātmā]{nairatma}; as the meditator's practice matures she comforts the mind-deer: leave behind the grasping at the body of 'this body-forest' (kāyavana) and go to the lotus grove of [great bliss]{mahasukha}. He quotes the [Sahajasaṃvara]{tx-sahajasamvara}: [emptiness]{sunyata}, like a woman in desire, at once embraces the mind that pervades all, free of appearance and of one taste with compassion.",
+      "cites": [
+        "cp.06.m5"
+      ]
+    },
+    {
+      "anchor": "cp.06.5a",
+      "kind": "philology",
+      "text": "taraṅgante: 'while surging', from taraṅga, 'wave': the deer's bounding run, rising and falling. Munidatta's lemma reads taraṃgate (cp.06.m6). The Tibetan translation has mchong zhes rgyug pas ri dgas rkang mi snang, 'running with leaps, the deer's feet are not seen', with rkang, 'foot, leg', for khūra, 'hoof'.",
+      "cites": [
+        "cp.06.m6"
+      ]
+    },
+    {
+      "anchor": "cp.06.5",
+      "kind": "doctrine",
+      "text": "Munidatta (cp.06.m6), calling this couplet the fourth verse, says it states the praise (anuśaṃsā) of the practitioner of the very highest capacity (adhimātrādhimātra); the Tibetan has 'of the small, the great and so on'. His paraphrase puts the parts (avayava) and so on of one's own mind-deer where the song has the hooves: [yogis]{yogi} who have realized [innate]{sahaja} knowledge form no concepts of them. The [fools]{mudha} are scholars proud of outer treatises and scriptures, thoroughly deluded about this teaching and far from it: not even a glimmer of [reality]{tattva} opens in their hearts. He quotes the [Caturdevīparipṛcchā]{tx-caturdevipariprccha}: for those who do not know reality, the Sage's eighty-four thousand [heaps of Dharma]{dharmaskandha} are fruitless. The Tibetan version of the quotation ends 'bral med yin, 'are inseparable', perhaps a slip for 'bras med, 'fruitless'.",
+      "cites": [
+        "cp.06.m6"
+      ]
+    },
+    {
+      "anchor": "cp.06.5b",
+      "kind": "philology",
+      "text": "What does not enter the hearts of fools is not stated; 'it' keeps the gap. hia hi: 'in the heart' (hia, Sanskrit hṛdaya, with the locative particle hi). The Tibetan translation agrees: b+hu su kus smras blun snying la mi 'jug, 'Bhusuku said: it does not enter the heart of a fool'.",
+      "cites": []
+    }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    {
+      "id": "hunter",
+      "type": "term",
+      "en": "hunter",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভুসুক্কুপাদাঽখেটিকঃ",
+          "translit": "bhusukkupādā'kheṭikaḥ",
+          "lemma": "ākheṭika",
+          "att": "AS",
+          "where": "cp.06.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আখেটিক"
+        },
+        {
+          "lang": "san",
+          "form": "ঽখেটিক"
+        }
+      ],
+      "definition": "A hunter (Sanskrit ākheṭika). The word is not in song 6, whose refrain has Bhusuku keeping the hunted deer in sight, but Munidatta calls Bhusukupāda the hunter, who strikes 'the other' with the arrow of the true guru's words (cp.06.m3). At that point the Tibetan translation has sor rtog, 'examination', instead.",
+      "symbolicImage": "a hunter pursuing a deer",
+      "symbolicReadings": [
+        {
+          "referent": "Bhusukupāda himself, who strikes 'the other' with the arrow of the true guru's words (sadguruvacanavāṇa); the Tibetan has his 'examination' (sor rtog) and the arrow of the true guru's feet",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "guru's words",
+        "true guru",
+        "instruction"
+      ],
+      "rationale": "The hunt frames song 6, and Munidatta names the hunter and gives him an arrow; hunting images may recur in songs set among the Śabaras of the hills. An entry would carry the reading of the hunter and his arrow and keep 'hunter' consistent if the word appears in a later line."
+    }
+  ],
+  "questions": [
+    "Heading: I added 'Bhusukupāda' after the rāga, from the attribution the manuscript writes before the song (the edition runs it into line 1a, where it has been removed). Keep it, or render the heading line alone?",
+    "The approved English for the poet is 'Bhusukupāda', but he names himself Bhusuku; I use 'Bhusuku' in 2b and 5b. Is that acceptable, and should 'Bhusuku' be added to the entry as a variant?",
+    "2b: Shastri's text has bhukua. I translate it as 'Bhusuku' on the strength of Munidatta and the Tibetan. Would you rather keep 'Bhukua' in the English and put the identification in a note?",
+    "1a is the line I am least sure of. I follow Munidatta's 'take / let go' and his first person ('Why do I stay?'). Would you prefer acchahu as a second person ('Why do you stay?'), which makes couplet 1 a warning to the deer?",
+    "4a: I read hariā as a second vocative ('deer') and to as 'you'. Do you know a firmer sense for hariā to? The Tibetan's 'without grass' suggests the thirteenth-century translators were unsure too.",
+    "2a: 'Its own flesh makes the deer an enemy' leaves open whose enemy it is. Would you prefer 'Its own flesh is the deer's enemy', taking hariṇā as a genitive?",
+    "3b: I follow the pair reading, 'the dwelling of the deer and the doe is not known', with Munidatta and the Tibetan. Confirm, or prefer 'The deer does not know the doe's dwelling'?",
+    "4b: 'go wandering' for hohu bhānto (bhrānta). Acceptable, or would you prefer 'be gone'?",
+    "I propose a 'hunter' entry for Munidatta's ākheṭika (cp.06.m3). Is it worth an entry, or should it stay in the notes?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "072f274e160d8fa4656d4ceb3311c7f448c62d8abd198265980f94b53400a56b",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "99ca9c98d5c14cf1426497ab131dd398fb048420c99ad10957f25be5f819be7d",
+    "sourceSha": "1900eb1156d2b11ced337a6a09d1703718b5db9426f521e23b211fabea39747c"
+  }
+}

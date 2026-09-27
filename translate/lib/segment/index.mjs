@@ -11,6 +11,8 @@
  *   @lang CODE                  language of the following lines
  *   @lacuna [note]              a gap in the witness
  *   @emend ID FROM => TO | why  correct a line; recorded on the unit, raw text untouched
+ *   @split TEXT                 the next line divides where TEXT begins: the part before ends
+ *                               this block, the rest opens the next one (source left as imported)
  *   @-- anything                comment
  *
  * A file that starts with @parallel is a translation of the same text; its lines

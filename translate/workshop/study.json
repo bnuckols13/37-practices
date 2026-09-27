@@ -1,0 +1,829 @@
+{
+  "about": "The Study room: touchstone poems from five traditions, read on Morton's board. Texts are originals or translations published before 1929, copied from the verified passages of the research notes or checked at a public-domain source; the notes are ours, drawn from the research notes. A line \"…\" marks omitted lines; \"\" marks a stanza break. \"across\" sets the same four problems side by side in the caryā and the four traditions (POETRY-PLAN.md).",
+  "traditions": [
+    {
+      "id": "morton",
+      "name": "Morton's own examples",
+      "research": "research/morton-in-depth.md",
+      "summary": "Timothy Morton's close-reading course (UC Davis, 2012): the poem as an object, read channel by channel from hot (repetition, pattern) to cool (variation, surprise). The method every other study here borrows."
+    },
+    {
+      "id": "sufi",
+      "name": "The Sufi poets, Arabic and Persian",
+      "research": "research/sufi-poets.md",
+      "summary": "Rumi, Ibn al-Fāriḍ and the Persian quatrain: quantitative metre, monorhyme and the radīf, poems made for listening and signed in the last couplet, and a double register kept open on purpose."
+    },
+    {
+      "id": "zen",
+      "name": "The Zen mountain poets, Chinese and Japanese",
+      "research": "research/zen-mountain-poets.md",
+      "summary": "Hanshan, Wang Wei, Jia Dao and Bashō: closed lines, the parallel couplet and the cut, grammar without a subject, and revision as the search for one word."
+    },
+    {
+      "id": "shakespeare",
+      "name": "Shakespeare's sonnets",
+      "research": "research/shakespeare-sonnets.md",
+      "summary": "Sonnet 29 at the centre, with 130 for contrast: hot sound round a thinking sentence, a word struck again and changed, and a turn that falls where an Italian sonnet turns."
+    },
+    {
+      "id": "bardic",
+      "name": "The Irish bardic tradition",
+      "research": "research/bardic-tradition.md",
+      "summary": "From the early nature quatrains and the court poets' syllabic metres to the keen and the Dublin street rhymer Zozimus: rhyme by consonant class, the poem shut on its first word, composition in the dark."
+    }
+  ],
+  "poems": [
+    {
+      "id": "tyger",
+      "tradition": "morton",
+      "title": "The Tyger",
+      "poet": "William Blake",
+      "date": "1794",
+      "lang": "en",
+      "original": [
+        "Tyger! Tyger! burning bright",
+        "In the forests of the night,",
+        "What immortal hand or eye",
+        "Could frame thy fearful symmetry?",
+        "",
+        "In what distant deeps or skies",
+        "Burnt the fire of thine eyes?",
+        "On what wings dare he aspire?",
+        "What the hand dare sieze the fire?",
+        "",
+        "And what shoulder, & what art,",
+        "Could twist the sinews of thy heart?",
+        "And when thy heart began to beat,",
+        "What dread hand? & what dread feet?",
+        "",
+        "What the hammer? what the chain?",
+        "In what furnace was thy brain?",
+        "What the anvil? what dread grasp",
+        "Dare its deadly terrors clasp?",
+        "",
+        "When the stars threw down their spears,",
+        "And water'd heaven with their tears,",
+        "Did he smile his work to see?",
+        "Did he who made the Lamb make thee?",
+        "",
+        "Tyger! Tyger! burning bright",
+        "In the forests of the night,",
+        "What immortal hand or eye,",
+        "Dare frame thy fearful symmetry?"
+      ],
+      "notes": [
+        "Morton's rhythm class (class 5) reads this poem for stress and feet. Four beats to a line, most lines seven syllables: the line drops its last weak beat and ends on a stress, so it shuts like a door.",
+        "Hot rhythm meets hot rhyme, Morton's 'extra heat': couplets rhymed in pairs on one steady groove. Lineation runs hot too, six closed quatrains of the same shape.",
+        "Every stanza is made of questions, laid one beside the next, and none is answered. 'The Lamb', Morton's example of hot parataxis, is named in the fifth stanza.",
+        "The first stanza returns as the last with one word changed: 'Could frame' becomes 'Dare frame'. A refrain changed by a word, as the ballads change theirs.",
+        "Sampson's apparatus shows the poem drifting in print: Malkin's 1806 text reads 'forest', and three later editions drop the last stanza. A printed text is a witness, not the poem."
+      ],
+      "questions": [
+        "Say it aloud in an exaggerated voice, then in a robot's flat one: where does the four-beat groove hold, and where does a word crowd it?",
+        "What does 'Dare' do that 'Could' did not, when the first stanza comes back?",
+        "Which images are switched on only inside a question? Are they on, or half on?"
+      ],
+      "research": "research/morton-in-depth.md#rhythm-c5-c6-c7",
+      "verified": "John Sampson's verbatim text from Blake's engraved plate (Oxford, 1905), pp. 110–11, read on the page images."
+    },
+    {
+      "id": "sonnet-29",
+      "tradition": "shakespeare",
+      "title": "Sonnet 29 (\"When, in disgrace with fortune and men's eyes\")",
+      "poet": "William Shakespeare",
+      "date": "1609",
+      "lang": "en",
+      "original": [
+        "When, in disgrace with fortune and men's eyes,",
+        "I all alone beweep my outcast state,",
+        "And trouble deaf heaven with my bootless cries,",
+        "And look upon myself and curse my fate,",
+        "Wishing me like to one more rich in hope,",
+        "Featured like him, like him with friends possessed,",
+        "Desiring this man's art and that man's scope,",
+        "With what I most enjoy contented least;",
+        "Yet in these thoughts myself almost despising,",
+        "Haply I think on thee, and then my state,",
+        "(Like to the lark at break of day arising",
+        "From sullen earth) sings hymns at heaven's gate;",
+        "For thy sweet love remembered such wealth brings",
+        "That then I scorn to change my state with kings."
+      ],
+      "notes": [
+        "The 1609 Quarto reads lines 11–12 '(Like to the Larke at breake of daye arising) / From sullen earth sings himns at Heauens gate,': its bracket keeps the state singing from the earth; here the lark rises from it.",
+        "A Baked Alaska: lineation, rhythm and rhyme hot (0.8, 0.8, 0.85) round a cool, thinking syntax (0.35). One sentence, its main clause held back to line 10: 'Haply I think on thee'.",
+        "'State' ends lines 2 and 10 and sits inside line 14, rhymed first with 'fate', then with heaven's 'gate'. Lettered against every earlier end, the scheme is ABAB CDCD EBEB FF.",
+        "The turn falls at 'Yet' (line 9), where an Italian sonnet turns, carried by the only feminine rhymes, despising / arising. The one image, the lark, arrives late, at the turn, flagged by 'Like to'.",
+        "What never survives translation out of English: 'Haply' (chance and happiness at once), the -sing chime (despising, arising, sings), and 'heaven' squeezed to one syllable in line 3, opened to two in line 12.",
+        "Judi Dench read this text at Westminster Abbey on 26 April 2022. Machine captions of a 2023 television recital suggest about 62 seconds, with lines 3 and 4 run together."
+      ],
+      "questions": [
+        "Say it twice, with the Quarto's bracket and with this one: which lark rises, and which state stays on the ground?",
+        "Where does your voice want to fall before 'kings', and what happens to the one sentence if it does?",
+        "What does 'like' mean at line 5, and what at line 11?"
+      ],
+      "research": "research/shakespeare-sonnets.md#1-sonnet-29-the-text",
+      "verified": "The modern text printed in the order of service for the Westminster Abbey reading (26 April 2022, p. 6), as transcribed in the research note; the Quarto's lines 11–12 from the Internet Shakespeare Editions transcription checked there against the facsimile."
+    },
+    {
+      "id": "sonnet-130",
+      "tradition": "shakespeare",
+      "title": "Sonnet 130 (\"My mistress' eyes are nothing like the sun\")",
+      "poet": "William Shakespeare",
+      "date": "1609",
+      "lang": "en",
+      "original": [
+        "My mistress' eyes are nothing like the sun;",
+        "Coral is far more red, than her lips red:",
+        "If snow be white, why then her breasts are dun;",
+        "If hairs be wires, black wires grow on her head.",
+        "I have seen roses damask'd, red and white,",
+        "But no such roses see I in her cheeks;",
+        "And in some perfumes is there more delight",
+        "Than in the breath that from my mistress reeks.",
+        "I love to hear her speak, yet well I know",
+        "That music hath a far more pleasing sound:",
+        "I grant I never saw a goddess go;",
+        "My mistress, when she walks, treads on the ground:",
+        "And yet by heaven, I think my love as rare,",
+        "As any she belied with false compare."
+      ],
+      "notes": [
+        "Morton pairs this sonnet with 116 in class 7, and returns to it in class 10 on negative imagery. Every blazon image (sun, coral, snow, wires, roses, perfume, music, goddess) is switched on to be switched off.",
+        "Hot rhyme carrying negative images, another Baked Alaska: every pair perfect, sun / dun, red / head, white / delight, cheeks / reeks, know / go, sound / ground, rare / compare.",
+        "The turn comes late, at 'And yet' (line 13): the English sonnet's trip. Twelve lines of denial, then a couplet that turns them into praise.",
+        "Its words agree with the 1609 Quarto, which reads 'Currall is farre more red, then her lips red,': the odd comma in line 2 is the Quarto's own."
+      ],
+      "questions": [
+        "What is the brightest thing in the poem, the sun it denies or the ground she treads on, and what does its light hide?",
+        "Say it without it: what does each 'no' and 'nothing' make you picture anyway?",
+        "Where does the rhyme stay hot while the images go cold?"
+      ],
+      "research": "research/shakespeare-sonnets.md#3-contrast-sonnets-18-73-116-130",
+      "verified": "Project Gutenberg #1041 (modern spelling), fetched, and checked word for word against the 1609 Quarto as printed in Alden's Variorum (1916), p. 314."
+    },
+    {
+      "id": "reed",
+      "tradition": "sufi",
+      "title": "Listen to the reed (Masnavī I, the prologue: couplets 1–3, 9–10, 18)",
+      "poet": "Jalāl al-Dīn Rūmī",
+      "date": "begun c. 1258",
+      "lang": "fa",
+      "original": [
+        "بشنو این نی چون شکایت می‌کند",
+        "از جدایی‌ها حکایت می‌کند",
+        "کز نِیِستان تا مرا بُبْریده‌اند",
+        "در نَفیرم مرد و زن نالیده‌اند",
+        "سینه خواهم شَرحه‌شَرحه از فراق",
+        "تا بگویم شرحِ دردِ اشتیاق",
+        "…",
+        "آتش است این بانگِ نای و نیست باد",
+        "هر که این آتش ندارد نیست باد",
+        "آتشِ عشق است کاندر نیْ فتاد",
+        "جوششِ عشق است کاندر میْ فتاد",
+        "…",
+        "در نیابد حالِ پُخته هیچ خام",
+        "پس سخن کوتاه باید والسّلام"
+      ],
+      "translit": [
+        "bishnaw īn nay chūn shikāyat mī-kunad",
+        "az judāʾī-hā ḥikāyat mī-kunad",
+        "k-az nayistān tā ma-rā bubrīda-and",
+        "dar nafīr-am mard u zan nālīda-and",
+        "sīna khwāham sharḥa sharḥa az firāq",
+        "tā bigūyam sharḥ-i dard-i ishtiyāq",
+        "…",
+        "ātash ast īn bāng-i nāy u nīst bād",
+        "har ki īn ātash na-dārad nīst bād",
+        "ātash-i ʿishq ast k-andar nay futād",
+        "jūshish-i ʿishq ast k-andar may futād",
+        "…",
+        "dar nayābad ḥāl-i pukhta hīch khām",
+        "pas sukhan kūtāh bāyad, wa-s-salām"
+      ],
+      "gloss": [
+        "listen: this reed, how it makes complaint",
+        "of separations it makes a tale",
+        "since from the reed-bed they cut me",
+        "in my cry man and woman have wept",
+        "I want a breast torn strip by strip by parting",
+        "to tell the exposition of the pain of longing",
+        "…",
+        "fire is this cry of the reed, and is not wind",
+        "whoever has not this fire, may he be naught",
+        "it is love's fire that fell into the reed",
+        "it is love's ferment that fell into the wine",
+        "…",
+        "no raw one grasps the state of the cooked",
+        "so speech must be short: and peace (Arabic, \"farewell\")"
+      ],
+      "english": [
+        "Hearken to the reed-flute, how it discourses",
+        "When complaining of the pains of separation—",
+        "“Ever since they tore me from my osier bed,",
+        "My plaintive notes have moved men and women to tears.",
+        "I burst my breast, striving to give vent to sighs,",
+        "And to express the pangs of my yearning for my home.",
+        "…",
+        "This plaint of the flute is fire, not mere air.",
+        "Let him who lacks this fire be accounted dead!",
+        "'Tis the fire of love that inspires the flute,",
+        "'Tis the ferment of love that possesses the wine.",
+        "…",
+        "So the “Raw” comprehend not the state of the “Ripe;”",
+        "Therefore it behoves me to shorten my discourse."
+      ],
+      "englishBy": "E. H. Whinfield, 1898",
+      "notes": [
+        "One fixed metre in every hemistich (ramal, – ∪ – – | – ∪ – – | – ∪ –) and every couplet rhymed: rhythm 0.95, rhyme 0.9. Fifteen of the eighteen prologue couplets add a radīf.",
+        "Couplet 9 rhymes a phrase with itself: nīst bād, 'is not wind', against nīst bād, 'may he be naught'. Nicholson keeps both senses in prose; Whinfield flattens the pun to 'fire, not mere air'.",
+        "Couplets 1 and 10 set near-homonyms inside the rhyme: ḥikāyat / shikāyat (tale, complaint), nay / may (reed, wine). No English keeps them.",
+        "The poet commands 'listen', then the reed speaks as 'I'. The Persian has no quotation marks, so where the reed stops is an editor's choice: Whinfield closes its speech after couplet 8.",
+        "The prologue ends 'so speech must be short' and an Arabic farewell: the move Rumi signs with, Khāmūsh, 'Silent'. Whinfield puts his reading of 'love' in a footnote, never in the line.",
+        "Ganjoor reads 'bishnaw īn nay chūn shikāyat… ḥikāyat'. The better-known order, 'ḥikāyat… shikāyat', which Nicholson's 1926 English implies, is recorded as a variant."
+      ],
+      "questions": [
+        "Where does the reed stop speaking and the poet begin? Where would you close the quotation marks?",
+        "Which heat did Whinfield keep, the couplet shape or the rhyme, and which did he trade?",
+        "What does 'so speech must be short' do to everything before it?"
+      ],
+      "research": "research/sufi-poets.md#31-listen-to-the-reed-masnavī-i-couplets-118",
+      "verified": "Persian from Ganjoor (Masnavī I, section 1), fetched and checked; transliteration and gloss from the research note; English from Whinfield's Masnavi (1898), pp. 1–2, read on the page images."
+    },
+    {
+      "id": "ghazal-2219",
+      "tradition": "sufi",
+      "title": "Say nothing (Dīvān-e Shams, ghazal 2219: couplets 1–4 and 11)",
+      "poet": "Jalāl al-Dīn Rūmī",
+      "date": "13th century",
+      "lang": "fa",
+      "original": [
+        "من غلام قمرم، غیر قمر هیچ مگو",
+        "پیش من جز سخن شمع و شکَر هیچ مگو",
+        "سخن رنج مگو، جز سخن گنج، مگو",
+        "ور از این بی‌خبری، رنج مبر، هیچ مگو",
+        "دوش دیوانه شدم، عشق مرا دید و بگفت:",
+        "«آمدم، نعره مزن، جامه مدر، هیچ مگو»",
+        "گفتم: «ای عشق! من از چیز دگر می‌ترسم»",
+        "گفت: «آن چیزِ دگر، نیست دگر، هیچ مگو",
+        "…",
+        "گفتم: «ای دل! پدری کن، نه که این وصف خداست؟»",
+        "گفت: «این هست، ولی جان پدر! هیچ مگو»"
+      ],
+      "translit": [
+        "man ghulām-i qamar-am, ghayr-i qamar hīch magū",
+        "pīsh-i man juz sukhan-i shamʿ u shakar hīch magū",
+        "sukhan-i ranj magū, juz sukhan-i ganj magū",
+        "w-ar az īn bī-khabarī, ranj ma-bar, hīch magū",
+        "dūsh dīwāna shudam; ʿishq ma-rā dīd u bi-guft:",
+        "\"āmadam; naʿra ma-zan, jāma ma-dar, hīch magū\"",
+        "guftam: \"ay ʿishq, man az chīz-i digar mī-tarsam\"",
+        "guft: \"ān chīz-i digar nīst digar; hīch magū\"",
+        "…",
+        "guftam: \"ay dil, pidarī kun: na ki īn waṣf-i khudā-st?\"",
+        "guft: \"īn hast, walī, jān-i pidar, hīch magū\""
+      ],
+      "gloss": [
+        "I am the moon's slave: but the moon, say nothing",
+        "before me, but talk of candle and sugar, say nothing",
+        "talk of pain, don't; but talk of treasure, don't",
+        "and if you know nothing of this, take no pain: say nothing",
+        "last night I went mad; Love saw me and said:",
+        "\"I have come. Don't shout, don't tear your clothes, say nothing\"",
+        "I said: \"O Love, I fear something other\"",
+        "he said: \"that other thing is no more; say nothing\"",
+        "…",
+        "I said: \"O heart, be a father: isn't this the describing of God?\"",
+        "he said: \"It is. But, my dear, say nothing\""
+      ],
+      "notes": [
+        "The radīf hīch magū, 'say nothing', closes every couplet after a perfect rhyme on -ar in all twelve slots: rhyme 1.0, Morton's sun and an inner planet struck together.",
+        "Forms of 'to say' fill about 27 of its 180 words, 'I said… he said…' ten times. The poem that forbids speech is made of speech-verbs.",
+        "It carries no pen name. The radīf does the signature's work: the poet who signs 'Silent!' says 'say nothing' in every couplet. The reading is the research note's, supported by Lewis on Khamūsh.",
+        "The turn is the last couplet: 'isn't this the describing of God?' 'It is', and in the same breath, say nothing. A lover's hush becomes unsaying: the name confirmed and silenced at once.",
+        "No English before 1929 is known, so the gloss is the evidence. Keeping 'say nothing' at each couplet's end keeps the sun of the system and most of the syntax; the -ar chime and the metre go."
+      ],
+      "questions": [
+        "Read only the radīf, twelve times over: what does 'say nothing' mean by the last?",
+        "Who speaks each line: the lover, Love, or the heart? Where do the voices change?",
+        "What would an English lose if it answered the last question instead of keeping the silence?"
+      ],
+      "research": "research/sufi-poets.md#32-a-ghazal-with-a-radīf-dīvān-e-shams-2219-hīch-magū-say-nothing",
+      "verified": "Persian from Ganjoor (ghazal 2219), fetched and checked; transliteration and gloss from the research note, whose numbers are couplets. Ganjoor opens a quotation in couplet 4 that closes after couplet 6."
+    },
+    {
+      "id": "wine-ode",
+      "tradition": "sufi",
+      "title": "The Wine Ode (al-Khamriyya), verses 1–3",
+      "poet": "ʿUmar Ibn al-Fāriḍ",
+      "date": "before 1235",
+      "lang": "ar",
+      "original": [
+        "شربنا على ذكرِ الحبيبِ مدامةً",
+        "سَكِرْنا بها، من قبلِ أن يُخلق الكَرمُ",
+        "لها البدرُ كأسٌ وهيَ شمسٌ يديرها",
+        "هِلالٌ، وكم يبدو إذا مُزِجَتْ نَجمُ",
+        "ولولا شذاها ما اهتديتُ لحانها",
+        "ولو لا سناها ما تصوَّرها الوهمُ"
+      ],
+      "translit": [
+        "sharibnā ʿalā dhikri l-ḥabībi mudāmatan",
+        "sakirnā bihā min qabli an yukhlaqa l-karmu",
+        "lahā l-badru kaʾsun wa-hya shamsun yudīruhā",
+        "hilālun, wa-kam yabdū idhā muzijat najmu",
+        "wa-law-lā shadhāhā mā htadaytu li-ḥānihā",
+        "wa-law-lā sanāhā mā taṣawwarahā l-wahmu"
+      ],
+      "gloss": [
+        "we drank, remembering the Beloved, a wine",
+        "we were drunk with it before the vine was made",
+        "its cup the full moon; it a sun passed round by",
+        "a crescent; and when it is mixed, how many a star appears",
+        "but for its scent I had not found its tavern",
+        "but for its gleam imagination had not pictured it"
+      ],
+      "english": [
+        "(1) In memory of the Beloved we quaffed a vintage that made us drunk before the creation of the vine.",
+        "(2) Its cup the full-moon; itself a sun which a new moon causes to circle. When it is mingled (with water), how many stars appear!",
+        "(3) But for its perfume, I should not have found the way to its taverns; and but for its resplendence, the imagination would not have pictured it."
+      ],
+      "englishBy": "R. A. Nicholson, 1921",
+      "notes": [
+        "Ṭawīl, the Arabic workhorse metre, runs fixed through forty-one verses, and every verse ends on a consonant and -mu (karmu, najmu, wahmu): monorhyme. Rhythm and rhyme both 0.85.",
+        "The paradox is in the line itself: drunk before the vine was made. It glosses itself and stays an image. Verse 1 does not rhyme its two halves.",
+        "Syntax 0.6: 'but for… I had not' hangs clause under clause, yet from verse 8 the 'and had…' openings stack into a drumbeat. Subordination becomes pattern.",
+        "Nicholson keeps every image in order and every paradox, numbering his prose verses; the metre and the forty-one-fold -mu are lost. His doctrinal readings sit in footnotes, never in the line.",
+        "Root-play the English cannot carry: karm, 'vine' (verse 1), against yakrumu, 'is generous' (verse 19), both from the root k-r-m."
+      ],
+      "questions": [
+        "Which images are on, and which only possible, inside 'but for'?",
+        "What does 'before the vine was made' ask you to picture, and can you?",
+        "Nicholson's footnotes say what the wine is. Read the verses without them: what does the line keep open?"
+      ],
+      "research": "research/sufi-poets.md#33-the-wine-ode-ibn-al-fāriḍs-khamriyya-verses-13",
+      "verified": "Arabic from Arabic Wikisource (41 verses), fetched and checked, one line to each half-verse; transliteration and gloss from the research note; English from Nicholson, Studies in Islamic Mysticism (1921), p. 184, fetched (footnote marks omitted)."
+    },
+    {
+      "id": "rubai-157",
+      "tradition": "sufi",
+      "title": "Beyond unbelief and Islam (rubāʿī 157)",
+      "poet": "Jalāl al-Dīn Rūmī (attributed)",
+      "date": "13th century",
+      "lang": "fa",
+      "original": [
+        "از کفر و ز اسلام برون صحرائیست",
+        "ما را به میان آن فضا سودائیست",
+        "عارف چو بدان رسید سر را بنهد",
+        "نه کفر و نه اسلام و نه آنجا جائیست"
+      ],
+      "translit": [
+        "az kufr u zi islām birūn ṣaḥrāʾī-st",
+        "mā-rā ba miyān-i ān faḍā sawdāʾī-st",
+        "ʿārif chu badān rasīd sar rā binihad",
+        "na kufr u na islām u na ānjā jāʾī-st"
+      ],
+      "gloss": [
+        "Beyond unbelief and Islam there is a plain;",
+        "in the midst of that space we have a longing;",
+        "the knower, reaching it, lays down his head:",
+        "no unbelief, no Islam, not even a 'there' is there."
+      ],
+      "notes": [
+        "A rubāʿī rhymes a a b a: here on -āʾī, with the radīf -st, in lines 1, 2 and 4, the third line held back unrhymed before the close.",
+        "Kufr and islām, unbelief and Islam, frame the quatrain in its first line and its last. The field lies beyond both, and the last line unsays even 'there'.",
+        "In Rozina Ali's account, the best-known American version turns religion and unbelief into ideas of rightdoing and wrongdoing: the line named a faith, and the English took it out. That is the mirror of reading in.",
+        "Rumi's quatrains are the least secure part of his canon; scholarship may remove many of them. Treat this one as attributed."
+      ],
+      "questions": [
+        "What does the last line switch off, one thing after another?",
+        "If an English dropped 'Islam', what would the line no longer name, and what would the field become?"
+      ],
+      "research": "research/sufi-poets.md#24-the-forms",
+      "verified": "Persian from Ganjoor (rubāʿī 157), fetched and checked; transliteration and gloss from the research note, the gloss divided at its own stops into four lines."
+    },
+    {
+      "id": "fitzgerald-1",
+      "tradition": "sufi",
+      "title": "Rubáiyát of Omar Khayyám, quatrain I",
+      "poet": "Edward FitzGerald, after Omar Khayyām",
+      "date": "1859",
+      "lang": "en",
+      "original": [
+        "Awake! for Morning in the Bowl of Night",
+        "Has flung the Stone that puts the Stars to Flight:",
+        "And Lo! the Hunter of the East has caught",
+        "The Sultan's Turret in a Noose of Light."
+      ],
+      "notes": [
+        "FitzGerald kept the Persian quatrain's a a b a in English pentameter: Night / Flight / Light rhyme, and the third line, ending 'caught', is held back unrhymed before the close.",
+        "What crossed whole: the rhyme and the turn. What did not: the poet. Readers took FitzGerald for Khayyam, the danger of every imitation.",
+        "He kept the allusions in his lines and explained them in notes, as the edition does: the image works first, and the reading sits below it.",
+        "Nicholson, who put his own Rumi into prose on principle, called FitzGerald's Omar the classic example of the highest and rarest kind of translation."
+      ],
+      "questions": [
+        "Where does the third line hold its breath, and what does the fourth do with it?",
+        "How much of this quatrain is image, and how much is argument?"
+      ],
+      "research": "research/sufi-poets.md#part-4--what-survives-into-english-and-why",
+      "verified": "Project Gutenberg #246, the first-edition text (1859), fetched and checked. Gutenberg prints 'Sultan's' without the accent the research note gives it."
+    },
+    {
+      "id": "cold-mountain",
+      "tradition": "zen",
+      "title": "人問寒山道 (People ask the way to Cold Mountain)",
+      "poet": "Hanshan (Cold Mountain)",
+      "date": "Tang dynasty",
+      "lang": "zh",
+      "original": [
+        "人問寒山道",
+        "寒山路不通",
+        "夏天冰未釋",
+        "日出霧朦朧",
+        "似我何由屆",
+        "與君心不同",
+        "君心若似我",
+        "還得到其中"
+      ],
+      "translit": [
+        "rén wèn Hánshān dào",
+        "Hánshān lù bù tōng",
+        "xià tiān bīng wèi shì",
+        "rì chū wù ménglóng",
+        "sì wǒ hé yóu jiè",
+        "yǔ jūn xīn bù tóng",
+        "jūn xīn ruò sì wǒ",
+        "huán (hái) dé dào qí zhōng"
+      ],
+      "gloss": [
+        "person · ask · cold · mountain · road (also: the Way)",
+        "cold · mountain · path · not · go-through",
+        "summer · sky/season · ice · not-yet · melt",
+        "sun · come-out · fog · dim-hazy (a rhyming pair)",
+        "resemble · me · what · means · arrive",
+        "with · you · heart-mind · not · same",
+        "you · heart-mind · if · resemble · me",
+        "then · get-to · arrive · its · middle"
+      ],
+      "notes": [
+        "Eight closed five-character lines, every even line rhyming in one level-tone group (通, 朧, 同, 中): lineation 0.9, rhyme 0.85. The rhyming pair 朦朧 sits inside line 4.",
+        "The signature is in the first line: the name is the place. 寒山 is struck twice across the line break, 似我 and 君心 twice each, 不 twice.",
+        "The turn is line 5, 似我, 'like me': the road that 'doesn't go through' becomes a mind that 'is not the same'. A to not-A, made twice on 不.",
+        "The double language: 道 is road and Way; 釋 'melt' begins 釋迦, Śākya. By the edition's rule the line keeps 'road' and 'melt', and the readings go in a note.",
+        "Hanshan's register is low and colloquial on purpose, like the caryās' highest truth in the lowest terms. That is why he went so easily into American vernacular."
+      ],
+      "questions": [
+        "Where does the landscape become an argument?",
+        "Who asks, and who answers? What must you become to say 'like me' aloud?",
+        "Which 'not' is a hole, and which an openness?"
+      ],
+      "research": "research/zen-mountain-poets.md#31-hanshan-人問寒山道-people-ask-the-way-to-cold-mountain",
+      "verified": "Characters, pinyin and gloss from the research note, which checked them against the Quan Tang shi, juan 806, on Wikisource. No English before 1929 is known."
+    },
+    {
+      "id": "deer-park",
+      "tradition": "zen",
+      "title": "鹿柴 (Deer Park)",
+      "poet": "Wang Wei",
+      "date": "8th century",
+      "lang": "zh",
+      "original": [
+        "空山不見人",
+        "但聞人語響",
+        "返景入深林",
+        "復照青苔上"
+      ],
+      "translit": [
+        "kōng shān bú jiàn rén",
+        "dàn wén rén yǔ xiǎng",
+        "fǎn jǐng (yǐng) rù shēn lín",
+        "fù zhào qīng tái shàng"
+      ],
+      "gloss": [
+        "empty · mountain · not · see · person",
+        "only · hear · person · talk · sound/echo",
+        "return · light · enter · deep · wood",
+        "again · shine · blue-green · moss · on"
+      ],
+      "english": [
+        "So lone seem the hills; there is no one in sight there.",
+        "But whence is the echo of voices I hear?",
+        "The rays of the sunset pierce slanting the forest,",
+        "And in their reflection green mosses appear."
+      ],
+      "englishBy": "W. J. B. Fletcher, 1919",
+      "notes": [
+        "Four clauses side by side, with no subject and nothing hung under: syntax 0.9. The only hinges are empty words, 不 'not', 但 'only', 復 'again': the turn is made of grammar.",
+        "The turn falls on 返, 'return', at line 3: from sound back to light, from 不見 'not see' to 照 'shine'.",
+        "No narrator: who sees and hears is never said. Fletcher's rhymed English adds an 'I' and a question the Chinese never asks, the drift Weinberger marks every time.",
+        "Fletcher runs hot in rhythm and rhyme (hear / appear) and cooler in syntax. Nineteen Ways sets the poem as way one, the pinyin as two, the gloss as three, then each English by date.",
+        "The empty mountain holds two readings: a negative image (you picture the person not seen) and an empty one, a mountain with no concept on it."
+      ],
+      "questions": [
+        "What do you picture when you are told that no one is seen?",
+        "Which words in Fletcher's English are not in the gloss?",
+        "Where does sound turn into light?"
+      ],
+      "research": "research/zen-mountain-poets.md#32-wang-wei-鹿柴-deer-park-literally-deer-enclosure",
+      "verified": "Characters, pinyin and gloss from the research note, checked there against the Quan Tang shi, juan 128; Fletcher's English from Gems of Chinese Verse (Shanghai, 1919), p. 123, as verified there."
+    },
+    {
+      "id": "push-knock",
+      "tradition": "zen",
+      "title": "鳥宿池邊樹，僧敲月下門 (the push-or-knock couplet)",
+      "poet": "Jia Dao",
+      "date": "9th century",
+      "lang": "zh",
+      "original": [
+        "鳥宿池邊樹",
+        "僧敲月下門"
+      ],
+      "translit": [
+        "niǎo sù chí biān shù",
+        "sēng qiāo yuè xià mén"
+      ],
+      "gloss": [
+        "bird · roost · pool-side · tree",
+        "monk · knock · moon-under · gate"
+      ],
+      "notes": [
+        "The required parallel couplet of a regulated poem: creature answers creature, verb verb, place place, thing thing. Lineation and syntax 0.95; the heat is grammatical equivalence, not sound.",
+        "Jia Dao weighed 推 'push' against 敲 'knock'. Both are level tone and both take 門, so neither metre nor grammar could choose. Han Yu said knock, and the story gave Chinese its word for revising.",
+        "What decided it: sound (a knock is heard, a push is not), scene (is anyone inside?) and the turn (a sound in the still line of roosting birds).",
+        "Wang Fuzhi's dissent is a translator's rule: choose from the scene, not by weighing words. For a version the scene is the source: go back to the gloss, not to the thesaurus."
+      ],
+      "questions": [
+        "Read the second line with 'push', then with 'knock': what wakes?",
+        "Which word in your last draft is its eye, and what did the scene ask for there?"
+      ],
+      "research": "research/zen-mountain-poets.md#33-jia-dao-題李凝幽居-one-word-in-a-parallel-couplet",
+      "verified": "Lines 3–4 of 題李凝幽居 from the research note, checked there against the Quan Tang shi, juan 572; pinyin and gloss assembled from its position-by-position table."
+    },
+    {
+      "id": "old-pond",
+      "tradition": "zen",
+      "title": "古池や (the old pond)",
+      "poet": "Matsuo Bashō",
+      "date": "1686",
+      "lang": "ja",
+      "original": [
+        "古池や蛙飛こむ水の音"
+      ],
+      "translit": [
+        "furu ike ya / kawazu tobikomu / mizu no oto"
+      ],
+      "gloss": [
+        "old · pond · [cut] / frog · jump-in / water · 's · sound"
+      ],
+      "notes": [
+        "Seventeen morae, 5-7-5, one cut (ya): a noun phrase, then a clause and a noun phrase, with no connective and no subject. Syntax 0.9, rhyme 0.25.",
+        "Made back to front: Bashō had the last two phrases first. Kikaku offered 'yamabuki ya', the frog's classical partner; Bashō chose 'furuike ya'. Revising the cut changed what it sets side by side.",
+        "The frog jumps where the tradition had it sing. From a thing to an act to a sound; a hearer is implied only by oto, 'sound'.",
+        "What Morton said of it in class 11 is not known. Read by the method, the cut is lineation inside the line, and the poem ends on a sound made by water, not a voice.",
+        "In English the cut becomes a dash or nothing, and forcing seventeen English syllables yields, in Wilkinson's warning, repetitive gibberish."
+      ],
+      "questions": [
+        "Where is the cut, and what two things does it set side by side?",
+        "How long does the sound take to arrive?",
+        "What is added if an English says 'I hear'?"
+      ],
+      "research": "research/zen-mountain-poets.md#34-bashō-古池や-the-old-pond",
+      "verified": "As printed by Geoffrey Wilkinson (Frogpond 41:2, 2018), p. 99, via the research note, one line as in the Japanese; romanization and gloss from the note."
+    },
+    {
+      "id": "int-en-bec",
+      "tradition": "bardic",
+      "title": "Int én bec (the blackbird over Belfast Lough)",
+      "poet": "anonymous",
+      "date": "9th century?",
+      "lang": "sga",
+      "original": [
+        "Int én bec",
+        "ro léic feit",
+        "do rinn guip",
+        "glanbuidi:",
+        "fo-ceird faíd",
+        "ós Loch Laíg,",
+        "lon do chraíb",
+        "charnbuidi."
+      ],
+      "gloss": [
+        "The little bird",
+        "has let a whistle go",
+        "from the tip of a beak",
+        "clean-yellow:",
+        "it throws a cry",
+        "over Loch Laíg,",
+        "a blackbird from a branch",
+        "heaped yellow."
+      ],
+      "notes": [
+        "Eight lines of three syllables; each half closes on a compound in -buidi, 'yellow', struck twice, the beak and the branch. Lineation 0.95, rhyme 0.95.",
+        "faíd, Laíg and chraíb chime by consonant class, and alliteration binds Loch Laíg to lon. A dense chime inside a tiny frame.",
+        "No 'I': the listener is only an ear, then an eye. The bird's name, lon, waits for the last half. The famous hermit is not in the poem.",
+        "It survives as a metrist's example of a metre, not a monk's note in a margin. Its turn is one of perception: from sound to sight, from the small bird to the whole lough."
+      ],
+      "questions": [
+        "How long does the blackbird take to arrive, and what do you hear before you see it?",
+        "Where is the yellow, and why twice?"
+      ],
+      "research": "research/bardic-tradition.md#51-an-early-lyric-int-én-bec-9th-century",
+      "verified": "Murphy's text (Early Irish Lyrics, 1956, p. 6) via CELT, as quoted in the research note (16 words); the gloss is the note's. No English before 1929 was verified."
+    },
+    {
+      "id": "pangur-ban",
+      "tradition": "bardic",
+      "title": "Messe ocus Pangur Bán (Pangur Bán), quatrains 1 and 8",
+      "poet": "anonymous",
+      "date": "9th century",
+      "lang": "sga",
+      "original": [
+        "Messe ocus Pangur Bán · cechtar nathar fria saindan",
+        "bíth a menmasam fri seilgg · mu menma céin im saincheirdd.",
+        "…",
+        "He fesin as choimsid dáu · in muid dungní cach oenláu",
+        "du thabairt doraid du glé · for mu mud cein am messe."
+      ],
+      "english": [
+        "I and my white Pangur",
+        "Have each his special art:",
+        "His mind is set on hunting mice,",
+        "Mine is upon my special craft.",
+        "…",
+        "He is a master of the work",
+        "Which every day he does:",
+        "While I am at my own work",
+        "To bring difficulty to clearness."
+      ],
+      "englishBy": "Kuno Meyer, 1911",
+      "notes": [
+        "A dúnadh: the poem opens on Messe, 'I', and its last word is messe again. The closing word shuts the poem like a fort; dúnad also means 'encampment'.",
+        "Meyer's Primer (1909) gives the first quatrain as its example of deibhidhe: seven syllables to a line, and a rhyme that sets a stressed syllable against an unstressed one.",
+        "Each quatrain makes sense on its own; the stanza is closed, as a caryā couplet is. Scholar and cat are laid side by side, quatrain after quatrain.",
+        "Meyer made no attempt at rhythm or rhyme. What survives is the paired image, the scholar's net and the cat's, stripped of sound, as in Cathay.",
+        "Thesaurus Palaeohibernicus prints each quatrain as two long lines divided by a point, with its own literal English below."
+      ],
+      "questions": [
+        "Which of the two, scholar or cat, is the poem's 'I' by the end?",
+        "What does ending on the first word do that a refrain does not?"
+      ],
+      "research": "research/bardic-tradition.md#35-the-dúnadh-the-poem-as-a-circle",
+      "verified": "Old Irish from Thesaurus Palaeohibernicus II (1903), pp. 293–94, read on the page images (it prints 'cein' unaccented in quatrain 8, where the research note has 'céin'); English from Meyer, Selections from Ancient Irish Poetry (1911), pp. 81–82, read on the page images."
+    },
+    {
+      "id": "fuar-liom",
+      "tradition": "bardic",
+      "title": "Fuar liom an adhaighsi dh'Aodh, quatrain 1",
+      "poet": "Eochaidh Ó hEódhasa",
+      "date": "c. 1600",
+      "lang": "ga",
+      "original": [
+        "Fúar liom an adhaighsi dh'Aodh,",
+        "cúis tuirse truime a ciothbhraon;",
+        "mo thrúaighe sein dár seise,",
+        "neimh fhúaire na hoidhcheise."
+      ],
+      "gloss": [
+        "Cold I find this night for Aodh;",
+        "a cause of grief, the weight of its showers;",
+        "my sorrow that, for our comrade:",
+        "the venom of this night's cold."
+      ],
+      "english": [
+        "Where is my Chief, my Master, this bleak night, mavrone!",
+        "O, cold, cold, miserably cold is this bleak night for Hugh,",
+        "It's showery, arrowy, speary sleet pierceth one through and through,",
+        "Pierceth one to the very bone!"
+      ],
+      "englishBy": "James Clarence Mangan, 1846",
+      "notes": [
+        "Deibhidhe: seven syllables to a line; the stressed Aodh rhymes with the unstressed tail of ciothbhraon, and seise with oidhcheise. Two inner rhymes bind the second couplet, and the last two words alliterate.",
+        "The quatrain opens and closes on 'cold… this night' (Fúar… fhúaire, an adhaighsi… na hoidhcheise): a small dúnadh inside the first stanza.",
+        "Rhythm reads only 0.55 on a board of stresses: the heat lives in the syllable count, which English does not hear.",
+        "The poet, dry at home, feels his patron's weather for him. The turn waits for the sixteenth quatrain, where the fortresses he burned warm the hero; Mangan kept it.",
+        "Mangan's stanza adds a first line of its own and packs the rest with chime ('showery, arrowy, speary sleet'). It keeps the argument and the turn, and loses the count, the closed quatrain and the dúnadh."
+      ],
+      "questions": [
+        "Count the syllables, then the stresses: which is this poem's pulse?",
+        "What did Mangan add, and what did it cost?",
+        "Where does 'cold' come back, and changed how?"
+      ],
+      "research": "research/bardic-tradition.md#52-a-classical-quatrain-fuar-liom-an-adhaighsi-dhaodh-eochaidh-ó-heódhasa-c-1600",
+      "verified": "Bergin's text (Irish Bardic Poetry, 1970, no. 29) via CELT, as quoted in the research note (18 words), with the note's gloss; Mangan's first stanza from O'Donoghue's 1903 text of the poem (first printed 1846), fetched from CELT."
+    },
+    {
+      "id": "caoineadh",
+      "tradition": "bardic",
+      "title": "Caoineadh Airt Uí Laoghaire (the lament for Art O'Leary), the opening",
+      "poet": "Eibhlín Dubh Ní Chonaill (attributed)",
+      "date": "1773",
+      "lang": "ga",
+      "original": [
+        "Mo chara go daingion thu!",
+        "Lá da bhfacaidh thu,",
+        "Ag ceann tighe'n mhargaidh,",
+        "Do thug mo shúil aire dhuit,",
+        "'S do thug mo chroidhe taithneamh dhuit;",
+        "D'éaluigheas ó'm charaid leat,",
+        "A bhfad ó bhaile leat;"
+      ],
+      "gloss": [
+        "My friend and firmly [mine] you are!",
+        "The day I saw you",
+        "at the end of the market-house,",
+        "my eye took notice of you,",
+        "and my heart took delight in you;",
+        "I stole away from my friends with you,",
+        "far from home with you."
+      ],
+      "english": [
+        "Beloved of my steadfast heart! loved with the fondest love from the day I first beheld you ride past the gable of the market-house.",
+        "Eagerly my glances sought you; then I gave the deep love of my heart to you.",
+        "I stole away from my kindred with you; I fled from my home with you."
+      ],
+      "englishBy": "Mrs M. J. O'Connell, 1892, from Fr Peter O'Leary's literal version",
+      "notes": [
+        "Every line's last stressed vowel is a, carried down the run, and the pronoun endings pair off as absolute rhyme: thu, thu… dhuit, dhuit… leat, leat. Rhyme 0.9.",
+        "The line that comes back is the address itself: later runs open 'Mo chara 'as mo stor thú!' and 'Mo grádh thu go daingion!', changed by a word each time.",
+        "Parataxis and anaphora ('Do thug mo… 'S do thug mo…'): a litany. The widow speaks to the dead man as 'you', in front of the community.",
+        "Taken down about 1800 from the keener Norry Singleton, through a hedge-schoolmaster's manuscript: oral carrying keeps the shape and drifts the words, and the 1892 headnote warns of interpolated verses.",
+        "The 1892 English is prose that keeps 'more or less the form of the lines': the address and the order of the memory survive; the vowel run and the pronoun rhyme do not."
+      ],
+      "questions": [
+        "Say the Irish line-ends aloud: what does the one vowel do to the grief?",
+        "Where would a wordless cry come in, and why there?",
+        "What changes each time the address returns?"
+      ],
+      "research": "research/bardic-tradition.md#53-the-keen-the-opening-of-caoineadh-airt-uí-laoghaire-1773",
+      "verified": "Irish from The Last Colonel of the Irish Brigade (1892), vol. II, p. 327, as transcribed from the Gaelic type in the research note, with its gloss; English from vol. I, p. 239, fetched and checked (the section's opening quotation mark omitted)."
+    },
+    {
+      "id": "finding-of-moses",
+      "tradition": "bardic",
+      "title": "The Finding of Moses",
+      "poet": "Michael Moran, 'Zozimus'",
+      "date": "before 1846 (printed 1871)",
+      "lang": "en",
+      "original": [
+        "In Egypt's kingdom, upon the banks of Nile,",
+        "King Pharoah's daughter went to bathe in style;",
+        "She tuk her dip, then walked unto the land,",
+        "And to dry her royal pelt she ran along the strand.",
+        "A bulrush tripped her, whereupon she saw",
+        "A smiling babby in a wad o' straw.",
+        "…",
+        "'Oh!' says the king, to end this pother,",
+        "'I'll kick the reptile from Nile to Dodder,",
+        "And then I'll search every hole and nook,",
+        "And likely I'll find him at Donnybrook.'"
+      ],
+      "notes": [
+        "Rhymed couplets, each a closed step of the story: perfect rhymes (Nile / style, land / strand, saw / straw, nook / Donnybrook), and the comic feminine pother / Dodder, off on the page and nearly perfect in the mouth. Rhyme 0.9.",
+        "The pentameter stretches when the joke lands: line 4 swells to about seven stresses. The deviation is the laugh.",
+        "Bathos at 'A bulrush tripped her': the sacred slips into slapstick. Egypt's river runs into a Dublin one, 'from Nile to Dodder', and Pharaoh ends up searching Donnybrook.",
+        "The famous 'contagious to the Nile' is not in the 1871 Memoir: it is Yeats's text (1893). Print it as tradition, never as the record.",
+        "The frame was the reciter's own: he called the crowd with his name inside the rhyme ('Gather round poor Zozimus, yer friend'), a gleeman's bhaṇitā."
+      ],
+      "questions": [
+        "Where does the high style crack, and what does the crack let in?",
+        "Say it standing, in a street voice: where does your breath want the laugh?",
+        "Whose voices speak besides the reciter's?"
+      ],
+      "research": "research/bardic-tradition.md#54-a-gleemans-recitation-the-finding-of-moses-1871-text",
+      "verified": "Memoir of the Great Original Zozimus (1871), p. 21, checked on the page image in the research note; the middle stanza, which uses a period racial term, is omitted there and here."
+    }
+  ],
+  "across": [
+    {
+      "problem": "The line that comes back",
+      "carya": "the refrain (ধ্রু), sung again after every couplet",
+      "sufi": "the ghazal's radīf at every couplet's end; dhikr, the divine name repeated",
+      "zen": "the parallel couplet; a word chained across the line break (寒山道，寒山路)",
+      "shakespeare": "'state', 'like', 'heaven' and 'then' struck again and changed, and the -sing chime",
+      "bardic": "the dúnadh, the poem closed on the word it opened with; the keen's returning address"
+    },
+    {
+      "problem": "The singer who signs the song",
+      "carya": "the bhaṇitā, 'Lūyī says', in the third person",
+      "sufi": "the takhalluṣ in the last couplet, spoken to oneself (Rumi signs Khāmūsh, 'Silent', or Shams)",
+      "zen": "Hanshan, named for his mountain: 'Hanshan puts out these words'",
+      "shakespeare": "the sonnet that says it will outlive its subject (18), and 136's 'Will'; 29 does not sign",
+      "bardic": "'Zozimus', the name the crowd gave the rhymer, which he put into his own call ('Gather round poor Zozimus')"
+    },
+    {
+      "problem": "The answering poem",
+      "carya": "the versions made here, each after its song",
+      "sufi": "naẓīra: a reply in the same metre and rhyme",
+      "zen": "hè shī and cì yùn: a reply on a friend's rhyme words",
+      "shakespeare": "Wyatt from Petrarch; Ascham's double translation; Erasmus's copia",
+      "bardic": "the Contention of the Bards (1616–24), answered in the same form before an audience"
+    },
+    {
+      "problem": "The double language",
+      "carya": "sandhyā-bhāṣā, twilight language, read by the commentary",
+      "sufi": "wine, tavern and beloved, kept on two levels at once",
+      "zen": "the capping phrase answering a koan with an image",
+      "shakespeare": "the conceit, and the Quarto's bracket that points a line two ways",
+      "bardic": "the aisling: the woman in the vision is Ireland"
+    }
+  ]
+}

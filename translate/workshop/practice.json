@@ -1,0 +1,544 @@
+{
+  "about": "The Practice room: short exercises from the five research notes (Morton, the Sufi poets, the Zen mountain poets, Shakespeare, the bardic tradition) and the maker's own method. Most work on a version of a caryā and on a poem of your own.",
+  "exercises": [
+    {
+      "id": "one-channel-per-draft",
+      "title": "One channel per draft",
+      "tradition": "maker",
+      "channel": "revision",
+      "minutes": 60,
+      "steps": [
+        "Take a poem of your own, or a version of a caryā, and keep it as draft 0.",
+        "Draft 1, structure: change only the space, the stanzas, the line breaks and the syntax.",
+        "Draft 2, texture: change only the rhythm and the rhyme.",
+        "Draft 3, perception: change only the images, their order and the figures.",
+        "Draft 4, narrator: change only who speaks, and to whom.",
+        "Draft 5, narrative: change only what happens, and when.",
+        "Keep every draft. Read them aloud in order and write one line on what each channel changed."
+      ],
+      "why": "Morton reads outward from the page in a fixed order, and the maker's own method revises the same way, one channel at a time, so that every change can be heard.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "hotter-cooler",
+      "title": "Hotter, cooler",
+      "tradition": "morton",
+      "channel": "revision",
+      "minutes": 20,
+      "steps": [
+        "Take one couplet: from a version of a caryā, or two lines of your own.",
+        "Write it hotter: more repetition, a rhyme nearer the sun, one steady beat, every line closed.",
+        "Write it cooler: let a line run on, hang one clause under another, loosen the rhyme or drop it.",
+        "Read all three aloud.",
+        "Keep the one nearest the source's heat, or the trade you mean, and say in a line what you traded."
+      ],
+      "why": "Morton teaches form by manipulation: change one thing and feel what changes.",
+      "source": "research/how-to-read-a-song.md"
+    },
+    {
+      "id": "two-words-three-ways",
+      "title": "Two words, three ways",
+      "tradition": "morton",
+      "channel": "space",
+      "minutes": 10,
+      "steps": [
+        "Take two words from a song or from your poem, such as 'row' and 'Ḍombī'.",
+        "Set them on the page three ways: touching, on two lines, far apart.",
+        "Under each arrangement write two lines on what the blank between them does."
+      ],
+      "why": "Morton treats the blank of the page as a thick medium, not an empty void, and the first paragraph of any reading is about marks and blankness.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "reveal-line-by-line",
+      "title": "Reveal it line by line",
+      "tradition": "morton",
+      "channel": "lineation",
+      "minutes": 10,
+      "steps": [
+        "Cover the poem with a sheet of paper.",
+        "Draw the sheet down one line at a time.",
+        "Before each new line, say aloud what you expect it to do.",
+        "Mark every line that surprised you, and note whether the surprise came at the break."
+      ],
+      "why": "A poem happens in time, and only line by line can you feel each break as an event rather than a shape on the page.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "say-it-without-it",
+      "title": "Say it without it",
+      "tradition": "morton",
+      "channel": "perception",
+      "minutes": 20,
+      "steps": [
+        "Choose one thing: an image from a caryā, or something from your own life.",
+        "Describe it in four lines using only what it is not, as Sonnet 130 praises by denial.",
+        "Then write it positively, in four lines.",
+        "Ask which version makes the brighter image, and why the denied one still appears.",
+        "Last, pack it into one line of four pairs, 'X, and no Y', as the Wine Ode's verse 22 does, using only pairs the source itself allows."
+      ],
+      "why": "An image you are told not to picture is pictured anyway, so negation is one of the strongest ways a poem switches an image on.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "occupatio",
+      "title": "Occupatio",
+      "tradition": "morton",
+      "channel": "perception",
+      "minutes": 10,
+      "steps": [
+        "Choose something you want to praise.",
+        "Write four lines that refuse to speak of it ('I will not tell of…').",
+        "Read it aloud and list what the refusal made the listener see."
+      ],
+      "why": "Occupatio says a thing by saying it will not say it, the rhetorical cousin of the negative theology Morton teaches beside negative imagery.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "image-on-off",
+      "title": "Switch an image on and off",
+      "tradition": "morton",
+      "channel": "perception",
+      "minutes": 10,
+      "steps": [
+        "Take one image.",
+        "Write it three times: stated plainly (on), inside 'as if' or 'might' (half on), and negated (off).",
+        "Read the three aloud and mark each ●, ◐ or ○.",
+        "In a version of a caryā, check that every image is as far on as it is in the song."
+      ],
+      "why": "Mood and negation switch an image half on or off, and an English that moves the switch changes what the hearer sees.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "rhyme-orbit",
+      "title": "The rhyme orbit",
+      "tradition": "morton",
+      "channel": "rhyme",
+      "minutes": 20,
+      "steps": [
+        "Take one couplet.",
+        "Close it six ways: absolute (the same word again), perfect, vowel, off, para, and alliteration only.",
+        "Read all six aloud.",
+        "Choose one, and say in a sentence why that planet suits this couplet."
+      ],
+      "why": "Morton's solar system of rhyme runs from the sun of the repeated word to the cold of para rhyme, and each planet colours a couplet differently.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "lay-rhyme-off",
+      "title": "Lay the rhyme off",
+      "tradition": "morton",
+      "channel": "rhyme",
+      "minutes": 15,
+      "steps": [
+        "Take a rhymed couplet.",
+        "Take the rhyme out.",
+        "Pay the heat back somewhere else: a word struck twice, a firmer beat, a chime inside the line.",
+        "Read both aloud and say what the trade cost and what it bought."
+      ],
+      "why": "Milton called rhyme a bondage, and laying it off honestly means paying its heat back through another channel, which is a translator's everyday trade.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "run-the-trope",
+      "title": "Run the trope",
+      "tradition": "morton",
+      "channel": "perception",
+      "minutes": 15,
+      "steps": [
+        "Write one metaphor as a rule: 'every X becomes a kind of boat'.",
+        "Run the rule over five lines, letting it make each image.",
+        "Stop when the rule breaks, and look at what it made."
+      ],
+      "why": "A trope is a turn that can be run as a rule, the way a plant grows by rewriting rules, and running it shows what the metaphor was already carrying.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "ekphrasis",
+      "title": "Ekphrasis",
+      "tradition": "morton",
+      "channel": "perception",
+      "minutes": 20,
+      "steps": [
+        "Choose one object: a manuscript leaf, a boat, a skull cup, a thing on your desk.",
+        "Describe it so closely that the poem stops moving for two lines.",
+        "Set those two lines inside a poem that is going somewhere, and read the whole aloud."
+      ],
+      "why": "For Morton ekphrasis is a bristling vividness that interrupts a narrative's flow, and learning to stop time is learning where a poem's time runs.",
+      "source": "research/morton-in-depth.md"
+    },
+    {
+      "id": "radif",
+      "title": "Radīf",
+      "tradition": "sufi",
+      "channel": "rhyme",
+      "minutes": 30,
+      "steps": [
+        "Take the word or name a song strikes most (song 10's Ḍombī), or the one your own poem keeps coming back to.",
+        "Write five to seven couplets, each complete in itself, every one ending on that word.",
+        "Just before it, put a rhyme word that changes each time.",
+        "End both lines of the first couplet on it.",
+        "Read the poem aloud with the radīf, then without it, and say what the heat did."
+      ],
+      "why": "The radīf is absolute rhyme after perfect rhyme, the sun and an inner planet struck together, and the most portable heat there is, since it costs English nothing.",
+      "source": "research/sufi-poets.md"
+    },
+    {
+      "id": "nazira",
+      "title": "Naẓīra: answer a poem in its own metre and rhyme",
+      "tradition": "sufi",
+      "channel": "rhyme",
+      "minutes": 40,
+      "steps": [
+        "Choose a poem to answer: a caryā, or a poem you love.",
+        "Keep its rhyme sound and its measure; for a caryā, keep its refrain couplet too.",
+        "Write five new couplets in your own voice that agree with its claim, argue with it or carry it further.",
+        "Head it 'a reply to' its poet, and set it after the poem it answers, never in its place."
+      ],
+      "why": "The Persian answering poem names what it answers, keeps the model's metre and rhyme, and says something new, which is what the Workshop's versions already do for the songs.",
+      "source": "research/sufi-poets.md"
+    },
+    {
+      "id": "takhallus",
+      "title": "Choose a pen name",
+      "tradition": "sufi",
+      "channel": "narrator",
+      "minutes": 15,
+      "steps": [
+        "Choose a pen name that is a quality: 'Silent', 'Witness', 'Ferryman'.",
+        "Write only a last couplet: one line consoling yourself by that name, one rebuking yourself.",
+        "Set it beside 'Lūyī says' and read both aloud.",
+        "Write a sentence on the distance between speaking to yourself and speaking of yourself."
+      ],
+      "why": "The ghazal poet signs by turning on his own persona and the caryā poet by naming himself from outside the song: the slot is the same, the distance is not.",
+      "source": "research/sufi-poets.md"
+    },
+    {
+      "id": "dhikr-line",
+      "title": "A dhikr line",
+      "tradition": "sufi",
+      "channel": "rhythm",
+      "minutes": 15,
+      "steps": [
+        "Choose one word from a caryā or from your poem (boat, ferry).",
+        "Write a line that strikes it three times and changes what stands around it each time.",
+        "Say the line aloud nine times, with the body.",
+        "Keep what survives the ninth saying."
+      ],
+      "why": "The repeated divine name is the Sufi's practice of remembrance, and the reed prologue strikes 'is not' ten times: repetition is where rhythm and rhyme become one heat.",
+      "source": "research/sufi-poets.md"
+    },
+    {
+      "id": "rubai-turn",
+      "title": "The rubāʿī turn",
+      "tradition": "sufi",
+      "channel": "narrative",
+      "minutes": 15,
+      "steps": [
+        "Take a couplet and the refrain sung after it.",
+        "Make the four lines a quatrain rhymed a a b a: the third line held back unrhymed, the fourth turning on it.",
+        "Ask what the turn added, and whether it was in the song."
+      ],
+      "why": "FitzGerald carried the Persian quatrain's a a b a and its sting into English, and a caryā couplet with its refrain is four lines that can turn in the last.",
+      "source": "research/sufi-poets.md"
+    },
+    {
+      "id": "tuiqiao",
+      "title": "Tuīqiāo: one word",
+      "tradition": "zen",
+      "channel": "revision",
+      "minutes": 20,
+      "steps": [
+        "Take one line of a draft and find its eye: usually the verb.",
+        "Write five candidates in the margin, as Wang Anshi did ('reaches, passes, enters, fills… greens'), and say each aloud.",
+        "Decide the way Wang Fuzhi asks: go back to the gloss, or to the scene, and ask which word it makes, not which sounds best.",
+        "Keep every rejected word, circled, in the record."
+      ],
+      "why": "Jia Dao's push or knock gave Chinese its word for revising, and Wang Fuzhi's objection is the translator's rule: the scene chooses, not the thesaurus.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "capping-phrase",
+      "title": "The capping phrase",
+      "tradition": "zen",
+      "channel": "perception",
+      "minutes": 15,
+      "steps": [
+        "Treat a caryā couplet, or a line of your own you cannot explain, as a koan.",
+        "Answer it with one line of your own: an image or a plain sentence.",
+        "Use no doctrine word: the edition's 'never in a line' list is the Zen rule that technical terms stink.",
+        "Judge the answer by what it shows: grasp, nerve, pedantry or imagination."
+      ],
+      "why": "In koan training the monk answers in poetry or everyday speech, never in a technical term, which is the edition's own rule that readings stay out of the line.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "nineteen-ways",
+      "title": "Nineteen ways",
+      "tradition": "zen",
+      "channel": "revision",
+      "minutes": 40,
+      "steps": [
+        "Take one couplet and its gloss.",
+        "Translate it many ways: rhymed, as Cathay, in broken lines, with an 'I' and without, as a fragment, as a command.",
+        "Set them side by side, each with its board.",
+        "Under each write one line in Weinberger's manner: 'adds an I', 'explains the moss', 'keeps only'.",
+        "Put your own version last, and let the list grow."
+      ],
+      "why": "Weinberger's Nineteen Ways of Looking at Wang Wei shows that no single English exhausts a poem, and that setting many side by side is the surest way to hear what each added or dropped.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "reply-on-rhyme-words",
+      "title": "Reply on the rhyme words (cì yùn)",
+      "tradition": "zen",
+      "channel": "rhyme",
+      "minutes": 30,
+      "steps": [
+        "Take the end words of a caryā's couplets in the accurate English, or the end words of a friend's poem.",
+        "Write a new poem on them: the same words in the same order (cì yùn), the same words in any order (yòng yùn), or only rhyming with them (hè yùn).",
+        "Say which of the three you managed, and where your hands felt tied."
+      ],
+      "why": "Chinese poets answered their friends on the friends' own rhyme words, a practice the critic Wu Qiao likened to fighting with your hands and feet tied.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "the-cut",
+      "title": "The cut",
+      "tradition": "zen",
+      "channel": "lineation",
+      "minutes": 10,
+      "steps": [
+        "Write two images in three lines, with one hard cut (a dash) between them and no 'like', 'as' or 'because'.",
+        "Move the cut to another place, and read again.",
+        "Move it to a line's end, and read again.",
+        "Write one line on what each placement set side by side."
+      ],
+      "why": "The Japanese cutting word both cuts and joins, and Morton's caesura is literally a cut: where it falls decides which two things the hearer must put together.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "write-on-a-rock",
+      "title": "Write on a rock",
+      "tradition": "zen",
+      "channel": "space",
+      "minutes": 30,
+      "steps": [
+        "Write a short poem where the place it names is, or name the place where you write it: a ferry song at a river crossing, a mountain poem on the way up.",
+        "Leave it there, in chalk, on a note, or in a photograph.",
+        "Sign it with the place, as Hanshan signed with his mountain."
+      ],
+      "why": "Hanshan's poems are signed by a place and, the story goes, were written on rocks and trees where they would be found, so the ground itself was their page.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "link-and-shift",
+      "title": "Link and shift (linked verse for two)",
+      "tradition": "zen",
+      "channel": "narrative",
+      "minutes": 30,
+      "steps": [
+        "With another maker, start from a caryā couplet or a line of a poem.",
+        "Make the first added line stand alone, naming the season and the place.",
+        "Take turns: each new line links only to the one before it, and shifts away from the one before that.",
+        "Stop at twelve lines and read the chain aloud."
+      ],
+      "why": "Linked verse was made in company, each stanza touching only its neighbour, which trains the ear for the join between two lines.",
+      "source": "research/zen-mountain-poets.md"
+    },
+    {
+      "id": "copia",
+      "title": "Copia: twenty ways (Erasmus)",
+      "tradition": "shakespeare",
+      "channel": "syntax",
+      "minutes": 30,
+      "steps": [
+        "Take one accurate English line, such as 'I will kill Ḍombī; I will take her life', or one line of your own.",
+        "Write twenty versions of it.",
+        "Use Erasmus's moves: a synonym, the other voice, a denied opposite ('not unwilling'), a question, another person, a metaphor, a periphrasis, an expansion, a contraction.",
+        "Put each through the board and keep the one nearest the song's heat."
+      ],
+      "why": "Tudor schoolboys learned style by varying one sentence a hundred ways and more, the practice Erasmus set out in De copia (1512).",
+      "source": "research/shakespeare-sonnets.md"
+    },
+    {
+      "id": "double-translation",
+      "title": "Double translation (Ascham)",
+      "tradition": "shakespeare",
+      "channel": "revision",
+      "minutes": 90,
+      "steps": [
+        "Make your English from the gloss.",
+        "Put the gloss away for an hour.",
+        "Rebuild a word-by-word gloss from your English alone.",
+        "Lay the two glosses side by side: every word that did not come back is a drift.",
+        "If you read Old Bengali, go back into the song itself, as Ascham's pupils went back into Latin."
+      ],
+      "why": "Ascham's pupils put Cicero into English and, an hour later, back into Latin, and the words that failed to return showed exactly where the English had drifted.",
+      "source": "research/shakespeare-sonnets.md"
+    },
+    {
+      "id": "wyatts-move",
+      "title": "Wyatt's move",
+      "tradition": "shakespeare",
+      "channel": "narrative",
+      "minutes": 45,
+      "steps": [
+        "Make a sonnet, or a ten-line curtal sonnet, from one caryā or from a poem you love.",
+        "Keep every image and the refrain, and turn where the song turns.",
+        "Change one thing on purpose, as Wyatt turned Petrarch's 'free' into 'Caesar's I am'.",
+        "Say in a note what you changed and why."
+      ],
+      "why": "The English sonnet was born as translation, and Wyatt's Petrarch is the model of an imitation that keeps the images and owns its one change.",
+      "source": "research/shakespeare-sonnets.md"
+    },
+    {
+      "id": "one-sentence",
+      "title": "The single-sentence sonnet",
+      "tradition": "shakespeare",
+      "channel": "syntax",
+      "minutes": 30,
+      "steps": [
+        "Write fourteen lines, or ten, as one sentence.",
+        "Hold the main verb back to the turn, laying out the trouble in phrases before it.",
+        "Say it aloud without letting your voice fall before the last word: breathe at line ends, but keep the pitch up."
+      ],
+      "why": "Sonnet 29 is one sentence whose main clause waits until line 10, and that held-back verb is the poem's suspense.",
+      "source": "research/shakespeare-sonnets.md"
+    },
+    {
+      "id": "strike-three-times",
+      "title": "Strike it three times",
+      "tradition": "shakespeare",
+      "channel": "rhyme",
+      "minutes": 15,
+      "steps": [
+        "Take the key word of a song or of your poem.",
+        "Use it three times with three meanings, as Sonnet 29 uses 'state': a condition, a singer, a rank.",
+        "Or strike a name, as song 10 strikes Ḍombī nine times, and let each return mean more."
+      ],
+      "why": "The same word rhymed first with doom and then with heaven is the whole movement of Sonnet 29: absolute rhyme that changes its sense each time it comes.",
+      "source": "research/shakespeare-sonnets.md"
+    },
+    {
+      "id": "breath-map",
+      "title": "Breath map, then record yourself",
+      "tradition": "shakespeare",
+      "channel": "performance",
+      "minutes": 30,
+      "steps": [
+        "Print the poem and mark breaths (/), holds (_) and lifts (↑).",
+        "Record it twice: Sonnet 29 once with the Quarto's bracket and once with Malone's, or your own poem with two different breath maps.",
+        "Time each line, and compare with the roughly 62 seconds of Judi Dench's television recital.",
+        "Mark where your voice fell to a full stop before the end, and write one sentence on what your breath did to the thought."
+      ],
+      "why": "Breath and pitch decide where a poem of one sentence holds or breaks, and only the voice, recorded and timed, can show where.",
+      "source": "research/shakespeare-sonnets.md"
+    },
+    {
+      "id": "compose-in-the-dark",
+      "title": "Compose in the dark; write at first light",
+      "tradition": "bardic",
+      "channel": "rhythm",
+      "minutes": 45,
+      "steps": [
+        "At night, set yourself a subject and a form: seven syllables, four lines, a rhyme word.",
+        "Lie down with the lights off and your eyes covered.",
+        "Compose in your head, and write nothing.",
+        "Write it down only when the light comes on, or at first light.",
+        "Count the syllables, and note what the dark changed."
+      ],
+      "why": "The bardic schools composed lying down in a windowless hut and wrote only when candles came, withdrawing sight so that the ear could build.",
+      "source": "research/bardic-tradition.md"
+    },
+    {
+      "id": "close-on-first-word",
+      "title": "Close on the first word (dúnadh)",
+      "tradition": "bardic",
+      "channel": "rhyme",
+      "minutes": 15,
+      "steps": [
+        "Take any draft of your own.",
+        "Make its last word repeat its first (saigid).",
+        "Then try half of the first word (ascnam), then only its opening sound (com-indsma).",
+        "Read each aloud and hear which closing shuts the poem hardest.",
+        "In a version of a caryā, close this way only if the song's last line can honestly end there."
+      ],
+      "why": "Every bardic poem had to end on the word it began with, absolute rhyme stretched across the whole poem, so that it closed like a fort.",
+      "source": "research/bardic-tradition.md"
+    },
+    {
+      "id": "deibhidhe-couplet",
+      "title": "A deibhidhe couplet in English",
+      "tradition": "bardic",
+      "channel": "rhyme",
+      "minutes": 20,
+      "steps": [
+        "Write two lines of seven syllables each.",
+        "End the first on a stressed word of one syllable.",
+        "End the second on a two-syllable word stressed on its first syllable, whose unstressed tail rhymes with the first (Hugh / curfew).",
+        "Add a second couplet with two rhymes inside it, and two alliterating words in every line."
+      ],
+      "why": "Irish counted syllables and rhymed a stressed syllable against an unstressed one, a rhyme that trips an English ear and shows what a count can do that a stress cannot.",
+      "source": "research/bardic-tradition.md"
+    },
+    {
+      "id": "keen-cry",
+      "title": "A keen with a cry-refrain",
+      "tradition": "bardic",
+      "channel": "lineation",
+      "minutes": 20,
+      "steps": [
+        "Address the dead in your first line.",
+        "Bring that address back to open every run, changed by one word each time.",
+        "Carry one stressed vowel down each run, and end lines in pairs on the same small word (you, you; with you, with you).",
+        "Leave room for a wordless cry (och, ochón) as a line of its own."
+      ],
+      "why": "The keen was improvised over the body, and its returning address is a refrain made of grief, as hot as a caryā's ধ্রু.",
+      "source": "research/bardic-tradition.md"
+    },
+    {
+      "id": "street-voice",
+      "title": "Learn it by heart; say it in the street voice",
+      "tradition": "bardic",
+      "channel": "performance",
+      "minutes": 60,
+      "steps": [
+        "Have someone read you thirty lines of rhymed couplets aloud, and learn them by ear.",
+        "Perform them standing, opening with a call to gather that has your own name in it.",
+        "Compare with the page and list what memory changed, as Coyle's 'not' became 'on' in the Zozimus text."
+      ],
+      "why": "Zozimus learned whole poems by ear and carried them for years, and what memory changed in the carrying shows how oral songs, the caryās among them, keep their shape and drift their words.",
+      "source": "research/bardic-tradition.md"
+    },
+    {
+      "id": "answer-a-bard",
+      "title": "Answer a bard (the Contention)",
+      "tradition": "bardic",
+      "channel": "narrator",
+      "minutes": 30,
+      "steps": [
+        "Choose a short poem that makes a claim.",
+        "Reply in its metre, naming its poet in your first line.",
+        "Dispute one claim point by point, as Tadhg answered Torna and Lughaidh answered Tadhg.",
+        "Read the two aloud, one after the other, to someone who will judge."
+      ],
+      "why": "In the Contention of the Bards (1616–24) poets answered each other in the same form before an audience that judged, and even answered a poet long dead, as a version answers its source.",
+      "source": "research/bardic-tradition.md"
+    },
+    {
+      "id": "hyde-prose",
+      "title": "A Hyde-style prose version",
+      "tradition": "bardic",
+      "channel": "syntax",
+      "minutes": 15,
+      "steps": [
+        "Translate a caryā couplet word for word into English prose that keeps the source's order and idiom ('It is it that is big').",
+        "Then write the same couplet in plain English.",
+        "Read both aloud and list what the first kept that the second smoothed away."
+      ],
+      "why": "Hyde's literal prose carried Irish syntax into English more fully than his verse did, and fed the English of Synge and Lady Gregory.",
+      "source": "research/bardic-tradition.md"
+    }
+  ]
+}

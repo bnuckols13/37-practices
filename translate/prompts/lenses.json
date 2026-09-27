@@ -1,5 +1,5 @@
 {
-  "about": "Lenses for the Workshop: ways English poets have made songs, each a way to make a version of a caryā. A lens sets the mixing board (0 cool .. 1 hot on lineation, syntax, rhythm, rhyme) and says how the English moves. Touchstones are public-domain lines only. See research/western-lenses.md.",
+  "about": "Lenses for the Workshop: ways poets have made songs, each a way to make a version of a caryā without breaking its shape (one English line per half-line, the refrain the same every time, the signature couplet kept). A lens sets the mixing board (0 cool .. 1 hot on lineation, syntax, rhythm, rhyme) and says how the English moves inside that shape. Each names its tradition: english, sufi, zen, shakespeare or bardic. Touchstones are public-domain lines only (originals, or translations published before 1929). See research/western-lenses.md, research/sufi-poets.md, research/zen-mountain-poets.md, research/shakespeare-sonnets.md and research/bardic-tradition.md.",
   "lenses": [
     {
       "id": "blake",
@@ -9,7 +9,8 @@
       "why": "Blake called his books illuminated printing: word and picture etched on one copper plate and coloured by hand. His Songs are the English tradition's nearest kin to the siddhas: short sung poems of vision against the temple, in couplets.",
       "touchstone": "Tyger Tyger, burning bright, / In the forests of the night",
       "board": { "lineation": 0.9, "syntax": 0.85, "rhythm": 0.9, "rhyme": 0.85 },
-      "suits": "the teaching songs, the riddles, a refrain that must ring"
+      "suits": "the teaching songs, the riddles, a refrain that must ring",
+      "tradition": "english"
     },
     {
       "id": "ballad",
@@ -19,7 +20,8 @@
       "why": "The ballad refrain (\"Binnorie, O Binnorie\") is the English twin of the caryā's ধ্রু: a line the singers come back to after every verse, whatever happens in it.",
       "touchstone": "Binnorie, O Binnorie",
       "board": { "lineation": 0.85, "syntax": 0.9, "rhythm": 0.85, "rhyme": 0.7 },
-      "suits": "songs with a story, a woman's name struck again and again, a sudden turn"
+      "suits": "songs with a story, a woman's name struck again and again, a sudden turn",
+      "tradition": "english"
     },
     {
       "id": "hymn",
@@ -29,7 +31,8 @@
       "why": "Dickinson made a private, riddling, ecstatic poetry out of the plainest church tune, as the siddhas made theirs out of the plainest folk song. Her slant rhyme is the honest rhyme English can afford.",
       "touchstone": "",
       "board": { "lineation": 0.7, "syntax": 0.45, "rhythm": 0.8, "rhyme": 0.45 },
-      "suits": "the twilight-language riddles, paradox, the inward songs"
+      "suits": "the twilight-language riddles, paradox, the inward songs",
+      "tradition": "english"
     },
     {
       "id": "psalm",
@@ -39,7 +42,8 @@
       "why": "Robert Lowth (1753) showed that Hebrew poetry rhymes in thought, not sound, which is why the Psalms survive translation. The caryā couplet, a statement and its answer, can be heard the same way.",
       "touchstone": "O give thanks unto the LORD; for he is good: for his mercy endureth for ever.",
       "board": { "lineation": 0.8, "syntax": 0.95, "rhythm": 0.35, "rhyme": 0.25 },
-      "suits": "the rapt songs, a refrain like a response, the grave teaching"
+      "suits": "the rapt songs, a refrain like a response, the grave teaching",
+      "tradition": "english"
     },
     {
       "id": "hopkins",
@@ -49,7 +53,8 @@
       "why": "Hopkins heard the world's things each 'selving', flashing out their own being; the caryā's objects (oars, the sky-scoop, the lotus root) ask to be heard that hard.",
       "touchstone": "As kingfishers catch fire, dragonflies draw flame",
       "board": { "lineation": 0.4, "syntax": 0.45, "rhythm": 0.85, "rhyme": 0.65 },
-      "suits": "songs dense with objects, the boat songs, ecstasy"
+      "suits": "songs dense with objects, the boat songs, ecstasy",
+      "tradition": "english"
     },
     {
       "id": "cathay",
@@ -59,7 +64,8 @@
       "why": "Pound made Cathay from Ernest Fenollosa's word-by-word notes on Chinese poems he could not read: the English tradition's great example of poems made from a gloss. This edition's word-by-word gloss is that notebook.",
       "touchstone": "",
       "board": { "lineation": 0.8, "syntax": 0.95, "rhythm": 0.25, "rhyme": 0.05 },
-      "suits": "any song, as the cool pole: to hear what the images do alone"
+      "suits": "any song, as the cool pole: to hear what the images do alone",
+      "tradition": "english"
     },
     {
       "id": "shanty",
@@ -69,17 +75,151 @@
       "why": "The ferry songs are rowing songs: \"Row, Ḍombī, row\". Work songs keep a crew together by the same means the caryā keeps its hearers: the call, the answer, the return.",
       "touchstone": "",
       "board": { "lineation": 0.95, "syntax": 0.95, "rhythm": 0.95, "rhyme": 0.7 },
-      "suits": "the boat and ferry songs, commands, refrains"
+      "suits": "the boat and ferry songs, commands, refrains",
+      "tradition": "english"
     },
     {
       "id": "owen",
       "name": "Owen",
       "after": "after Wilfred Owen's para rhyme (poems 1920)",
       "how": "Para rhyme: keep the consonants of the word you would rhyme and change its vowel (hall, hell), so the ear expects a chime and gets a shudder. Steady, heavy lines. Plain words; the horror left in the thing itself.",
-      "why": "Owen used the coldest rhyme there is for the trenches. The caryās have their cremation grounds, their bone garlands and their sudden threats, where a sweet rhyme would lie.",
+      "why": "Owen used the coldest rhyme there is for the trenches. The caryās have their threats and their terrors, where a sweet rhyme would lie; but their charnel ground is the tantric yogi's own intimate place, and there the cold chime can lie instead.",
       "touchstone": "",
       "board": { "lineation": 0.7, "syntax": 0.7, "rhythm": 0.7, "rhyme": 0.2 },
-      "suits": "the fierce songs: the charnel ground, the kāpālika, the threat"
+      "suits": "threat and horror: the fierce songs, a sudden threat, the kāpālika's menace. Not every cremation-ground image: where a song is at home among the bones, para rhyme is the wrong temperature",
+      "tradition": "english"
+    },
+    {
+      "id": "ghazal",
+      "name": "Ghazal",
+      "after": "after the Persian ghazal of Rumi and Hafez, and Agha Shahid Ali's ghazals in English (2000–2003)",
+      "how": "Close the second line of every couplet on one end-phrase, the radif, with a different rhyme word just before it each time; the first couplet closes both its lines on it. Take the radif from the song itself, the name or word it strikes most, set where the line holds it or can hold it by reordering, never brought in from outside. Keep each couplet closed on itself, and let address, command, question and 'I said… he said' carry it where the song has them. The refrain stays word for word. The signature couplet speaks as the ghazal's signature does, the singer summing himself up, rebuking or consoling, but keeps the song's person: 'Lūyī says', never 'O Lūyī'.",
+      "why": "The radif is the Persian tradition's absolute rhyme: the refrain folded into the end of the line, where the mystical poet can go on repeating one name. The signature in the last couplet is the ghazal's bhaṇitā, turned inward. Both carry into English: Dick Davis finds the radif often transferable, and Agha Shahid Ali proved it.",
+      "touchstone": "man ghulām-i qamar-am, ghayr-i qamar hīch magū",
+      "board": { "lineation": 0.95, "syntax": 0.8, "rhythm": 0.75, "rhyme": 0.95 },
+      "suits": "songs that strike one name or word again and again (song 10's Ḍombī), the addressed and rapt songs, a song whose last couplet signs",
+      "tradition": "sufi"
+    },
+    {
+      "id": "masnavi",
+      "name": "Masnavi couplets",
+      "after": "after Rumi's Masnavi (1258–73), and its English in Whinfield (1898) and Nicholson (1926)",
+      "how": "Rhyme each couplet on its own sound (aa bb cc), both lines on one steady measure: the caryā already rhymes couplet by couplet, so keep its rhymes and bring them to a full chime where English honestly can. Where the song commands its hearer, command as plainly ('listen'); where a thing in the song speaks, let it say 'I'; add no speaker and no hearer the song lacks. Lay saying beside story, and where the song strikes a plain word at a couplet's end, strike it there each time. The refrain stays word for word, the signature keeps 'says', and the last line lands short and plain.",
+      "why": "The Masnavi teaches in couplets that rhyme two by two, and fifteen of its opening eighteen couplets end on a repeated word. A caryā rhymes the same way, couplet by couplet: it rhymes like a masnavi and signs like a ghazal.",
+      "touchstone": "Listen to the reed how it tells a tale, complaining of separations",
+      "board": { "lineation": 0.85, "syntax": 0.65, "rhythm": 0.85, "rhyme": 0.8 },
+      "suits": "the teaching songs, songs in which a thing speaks or is spoken to (the boat, the oar, the hut), the parables",
+      "tradition": "sufi"
+    },
+    {
+      "id": "rubai",
+      "name": "Rubai",
+      "after": "after the Persian quatrain and FitzGerald's Rubáiyát of Omar Khayyám (1859)",
+      "how": "Hear each couplet with the refrain sung after it as one quatrain rhymed a a b a. The couplet's two lines rhyme together and on the refrain's closing sound; the refrain's first line stays unrhymed, the held breath, and its second line is the turn that closes hard. The refrain stays word for word, so the couplets do the rhyming, honestly or not at all. One steady measure (FitzGerald's five beats), plain words, a paradox stated and not explained. The signature keeps 'says'.",
+      "why": "The rubai is the Persian tradition's shortest whole poem and its aphorism, and FitzGerald kept its aaba and made English poems of it. A caryā couplet with its refrain after it is four lines that can turn in the last.",
+      "touchstone": "Awake! for Morning in the Bowl of Night",
+      "board": { "lineation": 0.9, "syntax": 0.7, "rhythm": 0.8, "rhyme": 0.8 },
+      "suits": "the riddles, a paradox that turns in the last line, a refrain whose closing sound can carry the song",
+      "tradition": "sufi"
+    },
+    {
+      "id": "coldmountain",
+      "name": "Cold Mountain",
+      "after": "after Hanshan (Cold Mountain) and the Chan hermit poets",
+      "how": "Plain spoken English, low and colloquial, each line a closed sentence of about the same length. Where the song has an 'I' and a 'you', let them talk plainly, and put the song's own questions straight; add none. Where the song mocks the learned, laugh as bluntly; no ornament, no doctrine explained. Rhyme lightly on a couplet's second line, or not at all. The refrain stays word for word, and the signature keeps 'says' in a street voice, as Hanshan names himself: 'Hanshan puts out these words'.",
+      "why": "Hanshan wrote freer ancient-style verse in more colloquial language than almost any Tang poet, signed his poems with the mountain he lived on, and mocked the scholar who said he could not keep the tones. The siddhas sang in the vernacular too, and signed their songs.",
+      "touchstone": "人問寒山道，寒山路不通",
+      "board": { "lineation": 0.85, "syntax": 0.7, "rhythm": 0.55, "rhyme": 0.5 },
+      "suits": "the signed songs, the songs that mock pandits, riddles put to the listener",
+      "tradition": "zen"
+    },
+    {
+      "id": "parallel",
+      "name": "Parallel couplet",
+      "after": "after the middle couplets of Tang regulated verse (對仗)",
+      "how": "Set a couplet's two lines on one frame wherever the song's two half-lines already pair: noun answers noun, verb answers verb, place answers place, in the same order; creature against creature, stillness against sound. Close each line, with no 'and' between them: the pairing is the join. Where the song strikes a word twice, strike it twice. Never force a pair the song does not make; a couplet that tells a story stays a story. The refrain stays word for word, and the signature keeps 'says'.",
+      "why": "Regulated verse required its middle couplets to be parallel, and Kao and Mei call parallelism a grammatical equivalence, as rhyme is a phonetic one. It survives translation when sound does not, and a caryā couplet is often a statement and its answer.",
+      "touchstone": "Drawing sword, cut into water, water again flow: / Raise cup, quench sorrow, sorrow again sorry.",
+      "board": { "lineation": 0.9, "syntax": 0.95, "rhythm": 0.6, "rhyme": 0.4 },
+      "suits": "paired images (the two rivers, sun and moon), paradox, the refrain couplet",
+      "tradition": "zen"
+    },
+    {
+      "id": "haikucut",
+      "name": "Haiku cut",
+      "after": "after Bashō's hokku and the cutting word (kireji)",
+      "how": "Inside each couplet, set the song's two things side by side with one cut between them and nothing to join them: no 'like', no 'as', no 'because'. The cut is a line's end, a dash or a colon. Concrete things of one moment, short lines, uncounted; where the song gives a motion or a sound, let it come after the cut. Add no 'I' and no one to hear. The refrain stays whole, and the signature keeps 'says'.",
+      "why": "The kireji both cuts and joins: two centres, and an equation the listener must make. Bashō's frog jumps where the tradition had it sing. A caryā image set against the next without the commentary's bridge asks the same of its hearer.",
+      "touchstone": "furuike ya / kawazu tobikomu / mizu no oto",
+      "board": { "lineation": 0.65, "syntax": 0.9, "rhythm": 0.45, "rhyme": 0.1 },
+      "suits": "single images, the moment before a turn, a couplet cut to its two centres",
+      "tradition": "zen"
+    },
+    {
+      "id": "sonnet",
+      "name": "Shakespearean sonnet",
+      "after": "after Shakespeare's Sonnets (1609), above all Sonnet 29",
+      "how": "Five-beat lines, rhymed as the sonnet rhymes: alternate rhymes across two couplets (abab), the song's last couplet rhymed on itself. Let the syntax think: where the song's grammar allows, hold a main verb back and lay the trouble out in phrases side by side before it. Turn where the song turns, on one word ('yet', 'but'), as hard as it turns; the sonnet's own places, line 9 and the couplet, never move it. Where the song strikes a word again, let each return mean something new; an identity stays an identity, never a 'like'. The refrain stays word for word, and the signature keeps 'says'.",
+      "why": "The English sonnet was born as translation: Wyatt made his from Petrarch, keeping the images and changing the ending. It is English's form for a mind that turns, as song 10 turns from courting Ḍombī to killing her, and its cool, thinking syntax under hot sound is a gap no other lens gives.",
+      "touchstone": "Like to the lark at break of day arising / From sullen earth, sings hymns at heaven's gate",
+      "board": { "lineation": 0.8, "syntax": 0.35, "rhythm": 0.85, "rhyme": 0.85 },
+      "suits": "songs that turn hard, a key word struck again with a new sense, a song that thinks in one long sentence",
+      "tradition": "shakespeare"
+    },
+    {
+      "id": "bardic",
+      "name": "Bardic",
+      "after": "after the classical Irish court poets (c. 1250–1650) and the deibhidhe",
+      "how": "Count syllables, not stresses: seven to every line, each couplet closing its sense. Rhyme each couplet the deibhidhe way, a stressed last word against an unstressed tail one syllable longer (Hugh / curfew). Give every line two alliterating words and, where the song allows, a word inside one line rhyming with a word inside the next. If the song's last line can honestly end on the song's first word, end it there and shut the poem (the dúnadh); if it cannot, say so. The refrain stays word for word, and the signature keeps 'says'.",
+      "why": "The dúnadh is the refrain folded into a circle: the poem's first word comes back once, at the end, and shuts it. The bardic quatrain, like the caryā couplet, must make sense on its own, and its rhyme by consonant class runs hotter in pattern than English perfect rhyme.",
+      "touchstone": "Messe ocus Pangur Bán · cechtar nathar fria saindan",
+      "board": { "lineation": 0.9, "syntax": 0.75, "rhythm": 0.55, "rhyme": 0.95 },
+      "suits": "the teaching songs, a song that should close on its first word",
+      "tradition": "bardic"
+    },
+    {
+      "id": "keen",
+      "name": "Keen",
+      "after": "after the caoineadh: the keening women and Eibhlín Dubh Ní Chonaill's lament (1773)",
+      "how": "Short lines of two or three beats, one to each half-line. Where the song calls someone, let the call open the couplet and come back changed by a word each time, as the keen's 'my friend' does; add no call the song lacks. Carry one stressed vowel through a couplet, and where the grammar allows end its two lines on the same small word (you, you; with you, with you). Keep every thing the song names exactly, the body too. The refrain comes back whole, like the keeners' cry, and the signature keeps 'says'.",
+      "why": "The keen is improvised over the body and remembered by the women who heard it. Its returning address is a ধ্রু made of grief, and its word for the cry (faíd) is the one Old Irish uses for a bird's call.",
+      "touchstone": "Beloved of my steadfast heart!",
+      "board": { "lineation": 0.8, "syntax": 0.9, "rhythm": 0.75, "rhyme": 0.9 },
+      "suits": "the songs of loss and parting, a woman's voice, a name called again and again",
+      "tradition": "bardic"
+    },
+    {
+      "id": "gleeman",
+      "name": "Gleeman",
+      "after": "after Michael Moran, 'Zozimus' (d. 1846), the blind reciter of the Dublin streets",
+      "how": "Rhymed couplets, perfect rhyme where it falls, in a high measure spoken in the street's own words: the grand line and the plain word side by side. Let a line stretch by a beat or two where the song's joke or mockery lands. Keep the song's holy things and its low things in the same breath, as the song has them; add no place, no joke and no patter of your own. The refrain comes back word for word, ringing like a call to the crowd, and the signature couplet sets the singer's name where the rhyme falls if it can, keeping 'says'.",
+      "why": "The gleeman signs his song inside it ('Gather round poor Zozimus, yer friend') as the siddha does ('Lūyī says'), and carries a whole book in memory. He sets the high couplet against the street's speech, as the siddhas put the highest truth in the lowest terms.",
+      "touchstone": "Ye sons and daughters of Erin, attend, / Gather round poor Zozimus, yer friend;",
+      "board": { "lineation": 0.85, "syntax": 0.85, "rhythm": 0.7, "rhyme": 0.9 },
+      "suits": "the mocking songs, the songs against pious show, a signature that must ring",
+      "tradition": "bardic"
+    },
+    {
+      "id": "hermit",
+      "name": "Hermit lyric",
+      "after": "after the early Irish nature quatrains (8th–10th centuries): the blackbird over Belfast Lough, the scribe under the hedge of trees",
+      "how": "Very short lines, one to each half-line, each closed. Every thing the song names made exact in colour and sound, heard before it is seen where the song's order allows; a name may wait to the end of its line. No moral, and no 'I' the song lacks. Chime inside the line: the same vowel, the same first consonant. The refrain stays word for word, and the signature keeps 'says'.",
+      "why": "Meyer: 'the half-said thing to them is dearest'. These are the Irish twins of the Zen mountain poems, and they give a caryā image the cool clarity it has before any reading is put on it.",
+      "touchstone": "A hedge of trees surrounds me, / A blackbird's lay sings to me",
+      "board": { "lineation": 0.9, "syntax": 0.8, "rhythm": 0.85, "rhyme": 0.85 },
+      "suits": "the nature images, the bird, the boat on the water, any one thing seen",
+      "tradition": "bardic"
+    },
+    {
+      "id": "aisling",
+      "name": "Aisling",
+      "after": "after the vision poems of Aogán Ó Rathaille and the song-poets (c. 1700–1800)",
+      "how": "Long lines of four or five stresses, one to each half-line, with the same vowel in the same stressed places line after line (the song-poets' stress-frame). Where the song meets a figure (Ḍombī at the edge of town), describe her part by part in the song's own words, and where the song doubles a word, double it (brightness of brightness). What she stands for is never said in the line: the reading stays in the notes. The refrain stays word for word, and the signature keeps 'says'.",
+      "why": "The aisling is a twilight language: love on the surface, a hidden allegiance beneath. It is the test of the edition's rule that readings go in the notes and the line keeps its strangeness.",
+      "touchstone": "The Brightness of Brightness I saw in a lonely path",
+      "board": { "lineation": 0.8, "syntax": 0.7, "rhythm": 0.85, "rhyme": 0.8 },
+      "suits": "Ḍombī, the woman met at the edge of town, the songs read two ways",
+      "tradition": "bardic"
     }
   ]
 }

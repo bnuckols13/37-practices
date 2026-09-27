@@ -78,7 +78,8 @@ export function makeCtx({ text, units, records, entries, preview }) {
     if (!publishable(e)) return esc(surface);
     return `<a class="gl" href="glossary.html#g-${attr(id)}" data-g="${attr(id)}" aria-expanded="false">${esc(surface)}</a>`;
   };
-  const md = s => markup.render(s, termLink, esc);
+  // Ids a drafter wrote into prose ("cp.14.m2") reach readers as places ("Munidatta on 14.1").
+  const md = s => markup.render(places.text(s), termLink, esc);
 
   return { text, units, unitById, records, entries, preview, publishable, where, langName, htmlLang, popData, md, symText, imprint, reviewer, places, formSource };
 }

@@ -64,5 +64,7 @@ export function makePlaces({ prefix, unitLabel = 'Song', groupLabel = 'passage',
     return short(id);
   };
   const text = s => String(s || '').replace(ID, m => short(m));
-  return { parse, short, long, ref, text, isId: id => !!parse(id) };
+  /** Every id in a text: [{ index, length, id }], in order. */
+  const find = s => [...String(s || '').matchAll(ID)].map(m => ({ index: m.index, length: m[0].length, id: m[0] }));
+  return { parse, short, long, ref, text, find, isId: id => !!parse(id) };
 }

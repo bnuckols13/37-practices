@@ -230,3 +230,12 @@ test('concordance: a compound is cut down around the form, and a comment brings 
   assert.ok(k.tlPre.startsWith('…') && k.tlPre.length <= 17, k.tlPre);
   assert.deepEqual(sentenceWith('He saw it. The [two truths]{satyadvaya} are one; so it is.', 'satyadvaya'), { en: 'The two truths are one;', surface: 'two truths' });
 });
+
+test('jargon: editorial words explain themselves, once each, by whole words', async () => {
+  const { findJargon, KINDS } = await import('../lib/jargon.mjs');
+  const keys = t => findJargon(t).map(j => j.key);
+  assert.deepEqual(keys('The Tibetan (Toh 2293) reads zla ba; in Wylie, moon. Toh 2293 again.'), ['toh', 'wylie'], 'first mention only');
+  assert.deepEqual(keys('This couplet is the bhaṇitā; ধ্রু follows.'), ['bhanita', 'dhruva'], 'ā and Bengali count as letters');
+  assert.deepEqual(keys('the padding of a pad'), [], 'not inside other words');
+  assert.ok(KINDS.witness && KINDS.high);
+});

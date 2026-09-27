@@ -14,6 +14,7 @@ import { createSync } from './sync.mjs';
 import { whyPrompt, askWhy, WHY_ERRORS } from './why.mjs';
 import { lookups } from '../../lib/lookup.mjs';
 import { makePlaces } from '../../lib/places.mjs';
+import { findJargon, KINDS } from '../../lib/jargon.mjs';
 
 const S = {
   env: { db: null, sample: null, canWrite: true, fatal: null, started: false, noClaude: false },
@@ -135,14 +136,150 @@ function termNode(surface, id) {
   }, surface);
 }
 
-function richText(s) {
+/**
+ * Text with glossary markup made into term buttons. With `explain` (for editorial text:
+ * notes, flags, questions, definitions, never the translation itself), ids become
+ * tappable place names and the first mention of each editorial word (Toh, Wylie,
+ * bhaṇitā…) explains itself.
+ */
+function richText(s, { explain = false } = {}) {
   const out = []; let last = 0; const str = String(s || '');
+  const seen = new Set();
+  const plain = t => (explain ? explained(t, seen) : [t]);
   for (const m of str.matchAll(TERM_RE)) {
-    if (m.index > last) out.push(str.slice(last, m.index));
+    if (m.index > last) out.push(...plain(str.slice(last, m.index)));
     out.push(termNode(m[1], m[2]));
     last = m.index + m[0].length;
   }
-  if (last < str.length) out.push(str.slice(last));
+  if (last < str.length) out.push(...plain(str.slice(last)));
+  return out;
+}
+
+function explained(t, seen) {
+  const marks = [
+    ...places().find(t).map(x => ({ ...x, node: () => refNode(x.id) })),
+    ...findJargon(t).filter(j => !seen.has(j.key)).map(j => ({ ...j, node: () => { seen.add(j.key); return jargonNode(t.substr(j.index, j.length), j.term, j.explain); } })),
+  ].sort((a, b) => a.index - b.index);
+  const out = []; let at = 0;
+  for (const m of marks) {
+    if (m.index < at) continue;   // overlaps an earlier mark
+    if (m.index > at) out.push(t.slice(at, m.index));
+    out.push(m.node());
+    at = m.index + m.length;
+  }
+  if (at < t.length) out.push(t.slice(at));
+  return out;
+}
+
+// ---------------------------------------------------------------- popups: places and editorial words
+// One popup for the page. A tap or click pins it; on a device with hover, resting the pointer opens it.
+const pop = { el: null, anchor: null, pinned: false, timer: 0, key: '' };
+const canHover = () => window.matchMedia && window.matchMedia('(hover: hover)').matches;
+
+function popEl() {
+  if (!pop.el) {
+    pop.el = h('div', { class: 'pop', id: 'pop', role: 'dialog', 'aria-modal': 'false', hidden: true,
+      onmouseenter: () => clearTimeout(pop.timer), onmouseleave: () => { if (!pop.pinned) closePopSoon(); } });
+    document.body.append(pop.el);
+    document.addEventListener('click', ev => { if (!pop.el.hidden && !pop.el.contains(ev.target) && ev.target !== pop.anchor) closePop(); });
+    window.addEventListener('scroll', () => { if (!pop.el.hidden && !pop.pinned) closePop(); }, true);
+    window.addEventListener('resize', () => closePop());
+  }
+  return pop.el;
+}
+function placePop() {
+  const el = popEl(), r = pop.anchor.getBoundingClientRect();
+  el.style.left = '0px'; el.style.top = '0px';
+  const w = el.offsetWidth, hgt = el.offsetHeight;
+  const left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
+  const below = r.bottom + 6 + hgt <= window.innerHeight - 8;
+  el.style.left = left + 'px';
+  el.style.top = (below ? r.bottom + 6 : Math.max(8, r.top - 6 - hgt)) + 'px';
+}
+function openPop(anchor, key, build, pinned) {
+  clearTimeout(pop.timer);
+  const el = popEl();
+  pop.anchor?.setAttribute('aria-expanded', 'false');
+  pop.anchor = anchor; pop.key = key; pop.pinned = pinned;
+  anchor.setAttribute('aria-expanded', 'true');
+  fill(el, ...build(), h('button', { type: 'button', class: 'pop__close', 'aria-label': 'Close', onclick: () => closePop(true) }, '×'));
+  el.hidden = false;
+  placePop();
+  if (pinned) el.querySelector('.pop__close')?.focus({ preventScroll: true });
+}
+function closePop(restore = false) {
+  clearTimeout(pop.timer);
+  if (!pop.el || pop.el.hidden) return;
+  pop.el.hidden = true;
+  pop.anchor?.setAttribute('aria-expanded', 'false');
+  if (restore) pop.anchor?.focus({ preventScroll: true });
+  pop.anchor = null; pop.key = ''; pop.pinned = false;
+}
+const closePopSoon = () => { clearTimeout(pop.timer); pop.timer = setTimeout(() => closePop(), 250); };
+// Rebuild an open popup whose content has arrived (a song fetched for a place).
+function refreshPop(key, build) { if (pop.el && !pop.el.hidden && pop.key === key) openPop(pop.anchor, key, build, pop.pinned); }
+
+function explainer(cls, label, key, build) {
+  return h('button', {
+    type: 'button', class: cls, 'aria-haspopup': 'dialog', 'aria-expanded': 'false',
+    onclick: ev => { ev.stopPropagation(); const a = ev.currentTarget; if (pop.anchor === a && pop.pinned) closePop(); else openPop(a, key, build, true); },
+    onmouseenter: ev => { if (!canHover() || pop.pinned) return; const a = ev.currentTarget; clearTimeout(pop.timer); pop.timer = setTimeout(() => openPop(a, key, build, false), 350); },
+    onmouseleave: () => { if (!pop.pinned) closePopSoon(); },
+  }, label);
+}
+
+/** An editorial word, explained in place. */
+function jargonNode(text, term, explain) {
+  return explainer('jargon', text, 'j:' + term, () => [h('p', { class: 'pop__title' }, term), h('p', {}, explain)]);
+}
+/** A kind of flag or note ("witness", "medium"), explained in place. */
+function kindNode(kind) {
+  return KINDS[kind] ? explainer('jargon', kind, 'k:' + kind, () => [h('p', { class: 'pop__title' }, kind), h('p', {}, KINDS[kind])]) : kind;
+}
+
+/** A place in the text by name ("Munidatta on 1.1"); its popup shows what is there, with a way to go to it. */
+function refNode(id) {
+  return explainer('ref', places().short(id), 'r:' + id, () => refPop(id));
+}
+const unitCache = new Map();   // unit id -> unit doc (null: not in the Studio), fetched when a place is opened
+function unitFor(unitId) {
+  if (unitId === S.unitId && unit()) return unit();
+  if (unitCache.has(unitId)) return unitCache.get(unitId);
+  if (!S.env.db || !canGo(unitId)) return null;
+  unitCache.set(unitId, undefined);
+  S.env.db.doc('units/' + unitId).get()
+    .then(snap => { unitCache.set(unitId, snap.exists ? snap.data() : null); })
+    .catch(() => { unitCache.set(unitId, null); })
+    .finally(() => { const k = pop.key; if (k === 'r:' + unitId || k.startsWith('r:' + unitId + '.')) refreshPop(k, () => refPop(k.slice(2))); });
+  return undefined;
+}
+function refPop(id) {
+  const P = places();
+  const title = P.long(id);
+  const out = [h('p', { class: 'pop__title' }, title.charAt(0).toUpperCase() + title.slice(1))];
+  const [, , part = ''] = String(id).split('.');
+  const unitId = String(id).split('.').slice(0, 2).join('.');
+  const u = unitFor(unitId);
+  const clip = (t, n = 280) => { const x = strip(t || '').trim(); return x.length > n ? x.slice(0, n).replace(/\s+\S*$/, '') + '…' : x; };
+  if (u === undefined) out.push(h('p', { class: 'pop__muted' }, 'Opening…'));
+  else if (!u) out.push(h('p', { class: 'pop__muted' }, `${textMeta()?.unitLabel || 'Song'} ${P.parse(id)?.n || ''} is not in the Studio yet.`));
+  else {
+    const secs = u.sections || [];
+    const cur = sec => (u === unit() ? M.current(sec, dsec(sec.part)) : sec);
+    if (!part) {
+      const head = secs.find(x => x.kind === 'head');
+      if (head) out.push(h('p', { class: 'pop__en' }, cur(head).title || ''), h('p', {}, clip(cur(head).summary)));
+    } else if (/^m\d+$/.test(part)) {
+      const sec = secs.find(x => x.part === part);
+      if (sec) out.push(sec.woven ? h('p', { class: 'pop__en' }, clip(cur(sec).translation)) : h('p', { class: 'pop__src', lang: u.commentLang }, clip(sec.src, 200)));
+    } else {
+      const k = part.replace(/[a-z]$/, ''), linePart = /[a-z]$/.test(part) && !/^h/.test(part) ? part : null;
+      const sec = secs.find(x => (x.kind === 'group' || x.kind === 'heading') && (x.part === k || (x.kind === 'heading' && /^h/.test(part))));
+      const lines = sec ? sec.lines.filter(l => !linePart || l.part === linePart) : [];
+      for (const l of lines) out.push(h('p', { class: 'pop__src', lang: l.html }, l.src), h('p', { class: 'pop__en' }, strip(cur(sec).en?.[l.part] ?? l.en)));
+    }
+  }
+  if (canGo(id)) out.push(h('button', { type: 'button', class: 'link pop__go', onclick: () => { closePop(); goToId(id); } }, 'Go to it'));
   return out;
 }
 
@@ -443,7 +580,7 @@ function groupBody(sec, d) {
       h('div', { class: 'line__en' },
         fieldView(sec, 'en:' + l.part, c.en[l.part], l.en, 'en'),
         l.flags.length ? h('ul', { class: 'flags' }, l.flags.map(f => h('li', { class: `flag flag--${f.level}` },
-          h('span', { class: 'flag__kind' }, `${f.kind} · ${f.level}`), ' ', f.note))) : null,
+          h('span', { class: 'flag__kind' }, kindNode(f.kind), ' · ', kindNode(f.level)), ' ', ...richText(f.note, { explain: true })))) : null,
         sec.kind === 'group' ? whyBlock(sec, l) : null))),
   ];
 }
@@ -467,7 +604,7 @@ function commentBody(sec, d) {
       sec.equations.map((e, i) => [i ? '; ' : '', h('i', {}, e.src), ' = ', e.en, e.term ? [' (', termNode(entry(e.term)?.en || e.term, e.term), ')'] : ''])) : null,
     sec.citations.length ? h('p', { class: 'eqs' }, h('span', { class: 'field__label' }, 'Quotes: '),
       sec.citations.map((q, i) => [i ? '; ' : '', `“${q.quoted}” (${q.work || 'unidentified'}${q.confident ? '' : ', unsure'})`])) : null,
-    sec.flags.length ? h('ul', { class: 'flags' }, sec.flags.map(f => h('li', { class: `flag flag--${f.level}` }, h('span', { class: 'flag__kind' }, `${f.kind} · ${f.level}`), ' ', f.note))) : null,
+    sec.flags.length ? h('ul', { class: 'flags' }, sec.flags.map(f => h('li', { class: `flag flag--${f.level}` }, h('span', { class: 'flag__kind' }, kindNode(f.kind), ' · ', kindNode(f.level)), ' ', ...richText(f.note, { explain: true })))) : null,
   ];
 }
 
@@ -475,7 +612,8 @@ function fieldView(sec, field, value, draftValue, cls) {
   const editing = S.ui.editing && S.ui.editing.part === sec.part && S.ui.editing.field === field;
   if (editing) return editorFor(sec, field, value);
   const changed = M.flat(value) !== M.flat(draftValue);
-  const content = S.ui.diff && changed ? diffNodes(draftValue, value) : richText(value);
+  const editorial = field === 'summary' || field === 'note' || field.startsWith('note:');
+  const content = S.ui.diff && changed ? diffNodes(draftValue, value) : richText(value, { explain: editorial });
   return h('p', {
     class: `fv ${cls}${changed ? ' is-changed' : ''}`, 'data-field': field,
     ondblclick: () => startEdit(sec.part, field),
@@ -577,7 +715,8 @@ function notesBlock(sec, d) {
   const out = [];
   if (notes.length) {
     out.push(h('ol', { class: 'notes' }, notes.map(n => h('li', { class: 'note' },
-      h('span', { class: 'note__kind' }, `Note ${n.n} · ${n.kind}${n.cites.length ? ' · cites ' + n.cites.join(', ') : ''}`),
+      h('span', { class: 'note__kind' }, `Note ${n.n} · `, kindNode(n.kind),
+        ...(n.cites.length ? [' · drawn from ', ...n.cites.flatMap((c, i) => [i ? ', ' : null, refNode(c)])] : [])),
       fieldView(sec, 'note:' + n.n, n.text, (sec.notes.find(x => x.n === n.n) || {}).text || '', 'note__text')))));
   }
   if (S.env.canWrite) {
@@ -859,7 +998,7 @@ function symbolicBlock(e, v) {
   if (!sym) return null;
   const parts = e.symbolicParts;
   if (sym !== e.symbolic || !parts || (!parts.image && !parts.readings.length)) {
-    return h('p', { class: 'tb__sym' }, h('span', { class: 'tb__label' }, 'Read symbolically: '), places().text(sym));
+    return h('p', { class: 'tb__sym' }, h('span', { class: 'tb__label' }, 'Read symbolically: '), ...richText(sym, { explain: true }));
   }
   // Group the places by reader: "Munidatta, at 10.2, 10.4".
   const at = r => r.where.length ? [', at ', ...r.where.flatMap((id, i) => [i ? ', ' : null, canGo(id)
@@ -905,7 +1044,7 @@ function termBlock(e) {
   const el = h('article', { class: `tb${expanded ? ' is-open' : ''}`, id: 't-' + e.id },
     h('button', { type: 'button', class: 'tb__head', 'aria-expanded': expanded ? 'true' : 'false', onclick: () => { S.ui.termOpen = expanded ? null : e.id; renderPanel(); } },
       h('span', { class: 'tb__en' }, v('en')), v('type') !== 'term' ? h('span', { class: 'tb__type' }, v('type')) : null, h('span', { class: 'tb__state' }, state)),
-    h('p', { class: 'tb__def' }, places().text(v('definition')) || h('i', {}, 'No definition yet')),
+    h('p', { class: 'tb__def' }, ...(v('definition') ? richText(v('definition'), { explain: true }) : [h('i', {}, 'No definition yet')])),
     formsBlock(e),
     symbolicBlock(e, v),
     e.usedIn.length ? h('p', { class: 'tb__used' }, 'Our English uses it at ' + [...new Set(e.usedIn)].map(id => places().short(id)).join(', ')) : null,
@@ -1046,7 +1185,8 @@ function questionsTab() {
       ta.value = answers.get(q) || '';
       ta.addEventListener('input', () => { autosize(ta); answerQuestion(q, ta.value); });
       queueMicrotask(() => autosize(ta));
-      return h('div', { class: 'qa' }, h('label', { class: 'qa__q', for: `qa-${i}` }, q), ta);
+      ta.setAttribute('aria-labelledby', `qa-q-${i}`);
+      return h('div', { class: 'qa' }, h('p', { class: 'qa__q', id: `qa-q-${i}` }, ...richText(q, { explain: true })), ta);
     })];
 }
 
@@ -1125,6 +1265,7 @@ function songStep(delta) {
 
 // ---------------------------------------------------------------- keyboard
 function onKey(ev) {
+  if (ev.key === 'Escape' && pop.el && !pop.el.hidden) { ev.preventDefault(); closePop(true); return; }
   if (S.ui.sheet) { if (ev.key === 'Escape') { ev.preventDefault(); S.ui.sheet = null; renderSheet(); } return; }
   const t = ev.target;
   const typing = t && (t.tagName === 'TEXTAREA' || t.tagName === 'INPUT' || t.tagName === 'SELECT' || t.isContentEditable);

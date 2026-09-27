@@ -89,7 +89,9 @@ function core(src, T, stray = []) {
       if (nx === '[' && T.signs[s[i + 2]]) { out += '[' + T.signs[s[i + 2]]; i += 2; continue; }
       out += 'a';
     } else if (T.vowels[ch]) out += T.vowels[ch];
-    else if (T.signs[ch]) stray.push(i ? `${ch} after ${s[i - 1]}` : ch);
+    // A form that starts with a vowel sign starts mid-word (the glossary's াভাস, matched
+    // inside চন্দ্রাভাস): the sign reads as its vowel. Anywhere else no consonant carries it.
+    else if (T.signs[ch]) { if (i) stray.push(`${ch} after ${s[i - 1]}`); else out += T.signs[ch]; }
     else if (T.other[ch] !== undefined) out += T.other[ch];
     else if (ch === T.nuktaMark || ch === T.virama || ch === T.lengthMark) { /* stray mark */ }
     else out += ch;

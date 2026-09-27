@@ -47,6 +47,9 @@ test('a vowel sign with no consonant to carry it is left out and reported; a res
   // cp.01.m3: Shastri restores the ending in brackets, parting ā from its consonant
   assert.equal(transliterate('ধীর্যস্য[াঃ] প্রসাদাৎ', { lang: 'san', warn }), 'dhīryasy[āḥ] prasādāt');
   assert.equal(heard.length, 2, 'a restoration is not a stray sign');
+  // a glossary form that starts mid-word, to match inside চন্দ্রাভাস
+  assert.equal(transliterate('াভাস', { lang: 'san', warn }), 'ābhāsa');
+  assert.equal(heard.length, 2, 'a form may start with a vowel sign');
   assert.equal(transliterate('পাঅপএে', { lang: 'oben', overrides: { 'পাঅপএে': 'pāapae' }, warn }), 'pāapae');
   assert.equal(heard.length, 2, 'an override settles the word');
   assert.equal(transliterate('পাঅপএে', { lang: 'oben' }), 'pāapae', 'no listener, no leak');

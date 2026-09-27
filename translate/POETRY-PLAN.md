@@ -1,6 +1,6 @@
 # The poetry workshop: study and practice across traditions
 
-> **Status:** research done (27 Sept 2026): five notes in `research/` ([Morton](research/morton-in-depth.md), [the Sufi poets](research/sufi-poets.md), [the Zen mountain poets](research/zen-mountain-poets.md), [Shakespeare](research/shakespeare-sonnets.md), [the bardic tradition](research/bardic-tradition.md)). Next: the comparison note, then building. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
+> **Status:** research done (27 Sept 2026): five notes in `research/` ([Morton](research/morton-in-depth.md), [the Sufi poets](research/sufi-poets.md), [the Zen mountain poets](research/zen-mountain-poets.md), [Shakespeare](research/shakespeare-sonnets.md), [the bardic tradition](research/bardic-tradition.md)). The comparison is [`research/across-traditions.md`](research/across-traditions.md). Next: building. Decided: the Shakespeare centrepiece is Sonnet 29, and the Workshop takes the maker's own poems as well as versions of the songs. Still wanted: the class pages of the maker's Morton transcripts (see [Open questions](#open-questions)).
 
 ## Why
 
@@ -18,7 +18,7 @@ Every tradition here solves the problems a caryā solves. The study is organised
 
 | problem | caryā | Sufi | Zen | Shakespeare | Bardic |
 |---|---|---|---|---|---|
-| **The line that comes back** (Morton's absolute rhyme, the hottest pole) | the refrain, ধ্রু | the ghazal's *radīf*; *dhikr*, the repeated divine names | the parallel couplet; the linked verse's return | "state", "like", "heaven" struck again and changed | the *dúnadh*: the poem closes on the word it opened with; the keen's cry |
+| **The line that comes back** (Morton's absolute rhyme, the hottest pole) | the refrain, ধ্রু | the ghazal's *radīf*; *dhikr*, the repeated divine names | the parallel couplet, the chained word and the closing cut (linked verse moves forward, not back) | "state", "like", "heaven" struck again and changed | the *dúnadh*: the poem closes on the word it opened with; the keen's cry |
 | **The singer who signs the song** | the bhaṇitā, "Lūyī says" | the *takhalluṣ* in the last couplet (Rumi signs *Khāmūsh*, "Silent", or Shams) | Hanshan named for his mountain | the sonnet that says it will outlive its subject | "Zozimus": the name the crowd gave the rhymer from his best-known recitation, which he then put into his own call ("Gather round poor Zozimus") |
 | **The answering poem** | (versions, here) | *naẓīra*: a reply in the same metre and rhyme | *hè shī*, *cì yùn*: a reply on a friend's rhyme words | imitation (Dryden's third kind) | the Contention of the Bards (*Iomarbhá na bhFileadh*, 1616–24) |
 | **The double language** | *sandhyā-bhāṣā*, twilight language | wine, tavern and beloved read as the path | the capping phrase answering a koan | the conceit | the *aisling*: the woman in the vision is Ireland |

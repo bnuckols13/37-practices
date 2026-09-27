@@ -411,6 +411,14 @@
           "lemma": "āgama",
           "att": "AS",
           "where": "cp.19.m4"
+        },
+        {
+          "lang": "san",
+          "script": "চাগমঃ",
+          "translit": "cāgamaḥ",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.21.m6"
         }
       ],
       "match": {
@@ -421,7 +429,8 @@
       "matchRe": {
         "san": [
           "(?<![\\p{L}\\p{M}])আগম[ঃেং]?(?![\\p{L}\\p{M}])",
-          "(?<=চ|ত্য)াগম[ঃেং]?(?![\\p{L}\\p{M}])"
+          "(?<=চ|ত্য)াগম[ঃেং]?(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}])চাগম"
         ]
       },
       "definition": "Scripture, authoritative tradition (āgama). Munidatta uses the word when he quotes a verse without naming its work ('and so the scripture': tathā cāgamaḥ); in song 16 it introduces a verse saying that whatever is conceptualized is false (cp.16.m6). The Tibetan has lung.",
@@ -1073,6 +1082,143 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "amana-dhana",
+      "type": "term",
+      "status": "proposed",
+      "en": "amaṇa dhāṇa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অমণ ধাণ",
+          "translit": "amaṇa dhāṇa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.21.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་ཀྱི་ཆོས",
+          "translit": "yid kyi chos",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.4b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অমণ ধাণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A phrase of uncertain sense in song 21 (4b): what the mouse, risen into the sky, grazes on. Dhāṇa may be 'paddy, grain' (Sanskrit dhānya) and amaṇa the name of a rice crop, or amanas, 'mindless'; the Tibetan line has yid kyi chos, 'the mind's dharma'. Munidatta's paraphrase has the honey of ultimate bodhicitta in its place (cp.21.m4).",
+      "symbolic": {
+        "image": "what the mouse grazes on when it rises into the sky",
+        "readings": [
+          {
+            "referent": "the drink of the honey of ultimate bodhicitta (paramārthabodhicitta), which the mouse tastes after going, through the guru's lineage, to the lotus grove of great bliss and coming back (his paraphrase puts this where the song has it graze amaṇa dhāṇa; there is no explicit gloss)",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "ultimate bodhicitta",
+        "honey",
+        "lotus grove",
+        "great bliss"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "amrta",
+      "type": "term",
+      "status": "proposed",
+      "en": "nectar",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অমিঅ",
+          "translit": "amia",
+          "lemma": "amia",
+          "att": "AS",
+          "where": "cp.21.1b"
+        },
+        {
+          "lang": "san",
+          "script": "বোধিচিত্তামৃতাস্বাদাহারং",
+          "translit": "bodhicittāmṛtāsvādāhāraṃ",
+          "lemma": "amṛta",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདུད་རྩི",
+          "translit": "bdud rtsi",
+          "lemma": "bdud rtsi",
+          "att": "AO",
+          "where": "cp.21.1b"
+        }
+      ],
+      "match": {
+        "bod": [
+          "བདུད་རྩི"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])অমিঅ"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])অমৃত|(?<=চিত্ত)ামৃত"
+        ]
+      },
+      "definition": "Nectar (Old Bengali amia, Sanskrit amṛta, 'deathless'; Tibetan bdud rtsi): in Indian myth the drink of immortality, and in tantric writing a name for bodhicitta and other vital essences. In song 21 the mouse makes its meal of nectar; Munidatta speaks of the taste of the nectar of bodhicitta (cp.21.m2).",
+      "symbolic": {
+        "image": "the nectar the mouse eats as its meal",
+        "readings": [
+          {
+            "referent": "the nectar of bodhicitta, whose taste the mouse, the mind-wind, itself makes its meal in the union of vajra and lotus, through the joys beginning with the joy of the body in the moments beginning with vicitra; the Tibetan agrees (byang chub kyi sems bdud rtsi'i zas)",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "semen",
+        "vital essence"
+      ],
       "texts": [
         "charyapada"
       ],
@@ -2098,15 +2244,59 @@
           "lemma": "sgro 'dogs pa",
           "att": "AO",
           "where": "cp.18.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবারোপণং",
+          "translit": "bhāvāropaṇaṃ",
+          "lemma": "āropaṇa",
+          "att": "AS",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "san",
+          "script": "প্রত্যারোপয়তা",
+          "translit": "pratyāropayatā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.21.m6"
+        },
+        {
+          "lang": "san",
+          "script": "মিথ্যারোপকৃতো",
+          "translit": "mithyāropakṛto",
+          "lemma": "āropa",
+          "att": "AS",
+          "where": "cp.21.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲོ་བཏགས",
+          "translit": "sgro btags",
+          "lemma": "sgro 'dogs pa",
+          "att": "AO",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོག་པར་སྒྲོ་བཏགས",
+          "translit": "log par sgro btags",
+          "lemma": "sgro 'dogs pa",
+          "att": "AO",
+          "where": "cp.21.m6"
         }
       ],
       "match": {
         "san": [
           "অসদারোপ",
-          "আরোপ"
+          "আরোপ",
+          "ভাবারোপণ",
+          "প্রত্যারোপ",
+          "মিথ্যারোপ"
         ],
         "bod": [
-          "སྒྲོ་འདོགས"
+          "སྒྲོ་འདོགས",
+          "སྒྲོ་བཏགས"
         ]
       },
       "matchRe": {},
@@ -3111,11 +3301,22 @@
           "lemma": "bālayogin",
           "att": "AS",
           "where": "cp.15.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱིས་པའི་རྣལ་འབྱོར་པ",
+          "translit": "byis pa'i rnal 'byor pa",
+          "lemma": "byis pa'i rnal 'byor pa",
+          "att": "AO",
+          "where": "cp.21.m2"
         }
       ],
       "match": {
         "san": [
           "বালযোগি"
+        ],
+        "bod": [
+          "བྱིས་པའི་རྣལ་འབྱོར་པ"
         ]
       },
       "matchRe": {},
@@ -3210,11 +3411,36 @@
           "lemma": "bāndhana",
           "att": "AS",
           "where": "cp.17.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "বান্ধন",
+          "translit": "bāndhana",
+          "lemma": "bāndhaṇa",
+          "att": "AS",
+          "where": "cp.21.6b"
+        },
+        {
+          "lang": "san",
+          "script": "সংসারবন্ধনং",
+          "translit": "saṃsārabandhanaṃ",
+          "lemma": "bandhana",
+          "att": "AS",
+          "where": "cp.21.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅིངས",
+          "translit": "bcings",
+          "lemma": "'ching ba",
+          "att": "AO",
+          "where": "cp.21.6b"
         }
       ],
       "match": {
         "oben": [
-          "বান্ধণ"
+          "বান্ধণ",
+          "বান্ধন"
         ],
         "san": [
           "বন্ধন",
@@ -6288,6 +6514,59 @@
       }
     },
     {
+      "id": "cittapavana",
+      "type": "term",
+      "status": "proposed",
+      "en": "mind-wind",
+      "alt": [
+        "mind and wind"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তপবনঃ",
+          "translit": "cittapavanaḥ",
+          "lemma": "cittapavana",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་དང་རླུང",
+          "translit": "sems dang rlung",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "চিত্তপবন"
+        ],
+        "bod": [
+          "སེམས་དང་རླུང"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Mind and wind taken as one (Sanskrit cittapavana): in tantric yoga the mind is said to ride on the vital wind, so that the two move, and are stilled, together. Munidatta reads the mouse of song 21 as the mind-wind (cp.21.m2), and speaks in song 6 of the pair's dwelling; the Tibetan has sems dang rlung, 'mind and wind'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "coming-and-going",
       "type": "term",
       "status": "proposed",
@@ -6313,11 +6592,51 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.07.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "অবণা গবণা",
+          "translit": "abaṇā gabaṇā",
+          "lemma": "abaṇāgabaṇa",
+          "att": "AS",
+          "where": "cp.21.2b"
+        },
+        {
+          "lang": "san",
+          "script": "যাতায়াতং",
+          "translit": "yātāyātaṃ",
+          "lemma": "yātāyāta",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་དང་འོང་བ",
+          "translit": "'gro dang 'ong ba",
+          "lemma": "'gro 'ong",
+          "att": "AO",
+          "where": "cp.21.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་བ་དང་འོང་བ",
+          "translit": "'gro ba dang 'ong ba",
+          "lemma": "'gro 'ong",
+          "att": "AO",
+          "where": "cp.21.m2"
         }
       ],
       "match": {
         "oben": [
-          "অবণাগবণ"
+          "অবণাগবণ",
+          "অবণা গবণা"
+        ],
+        "san": [
+          "যাতায়াত"
+        ],
+        "bod": [
+          "འགྲོ་དང་འོང་བ",
+          "འགྲོ་བ་དང་འོང་བ"
         ]
       },
       "matchRe": {},
@@ -8400,6 +8719,59 @@
       }
     },
     {
+      "id": "durgati",
+      "type": "term",
+      "status": "proposed",
+      "en": "lower realms",
+      "alt": [
+        "bad destinies"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তির্য্যঙ্নরকাদিদুর্গতিপাতঞ্চ",
+          "translit": "tiryyaṅnarakādidurgatipātañca",
+          "lemma": "durgati",
+          "att": "AS",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ངན་འགྲོ",
+          "translit": "ngan 'gro",
+          "lemma": "ngan 'gro",
+          "att": "AO",
+          "where": "cp.21.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "দুর্গতি"
+        ],
+        "bod": [
+          "ངན་འགྲོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The bad destinies or lower realms of rebirth (Sanskrit durgati, Tibetan ngan 'gro): usually the animal realm, the hungry ghosts and the hells, the unhappy half of the six realms. Munidatta says the mind-mouse itself brings about the fall into them, naming animals and hells (cp.21.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "dvesa",
       "type": "term",
       "status": "proposed",
@@ -9375,12 +9747,21 @@
           "lemma": "nam mkha'",
           "att": "AO",
           "where": "cp.16.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "গঅণে",
+          "translit": "gaaṇe",
+          "lemma": "gaaṇa",
+          "att": "AS",
+          "where": "cp.21.4b"
         }
       ],
       "match": {
         "oben": [
           "গঅণ",
-          "অম্বর"
+          "অম্বর",
+          "গঅণে"
         ],
         "san": [
           "গগন",
@@ -10215,6 +10596,30 @@
           "lemma": "guru",
           "att": "AS",
           "where": "cp.12.m2"
+        },
+        {
+          "lang": "san",
+          "script": "গুরৌ",
+          "translit": "gurau",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.21.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་བླ་མ",
+          "translit": "rdo rje bla ma",
+          "lemma": "rdo rje bla ma",
+          "att": "AO",
+          "where": "cp.21.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔལ་ལྡན་བླ་མ",
+          "translit": "dpal ldan bla ma",
+          "lemma": "bla ma",
+          "att": "AO",
+          "where": "cp.21.m2"
         }
       ],
       "match": {
@@ -10230,7 +10635,8 @@
           "শ্রীগুরৌ",
           "সদ্গুরু",
           "গুরুচরণ",
-          "বজ্রগুরো"
+          "বজ্রগুরো",
+          "গুরৌ"
         ],
         "bod": [
           "བླ་མ",
@@ -10419,6 +10825,78 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "hole",
+      "type": "term",
+      "status": "proposed",
+      "en": "hole",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গাতী",
+          "translit": "gātī",
+          "lemma": "gātī",
+          "att": "AS",
+          "where": "cp.21.3a"
+        },
+        {
+          "lang": "san",
+          "script": "গতীতি",
+          "translit": "gatīti",
+          "lemma": "gati",
+          "att": "AS",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩིག་པ",
+          "translit": "rtsig pa",
+          "lemma": "rtsig pa",
+          "att": "AO",
+          "where": "cp.21.3a"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])গাতী"
+        ]
+      },
+      "definition": "Old Bengali gātī, apparently a hole or pit (compare Sanskrit garta), which the mouse digs in song 21 (3a). Munidatta cites the word as gatī and takes it as gati, 'destiny' (cp.21.m3). The Tibetan line instead has the mouse bore through a wall (rtsig pa).",
+      "symbolic": {
+        "image": "the holes the mouse digs",
+        "readings": [
+          {
+            "referent": "the fall into the bad destinies, the animal realm, the hells and the rest, which the mind-mouse brings about by itself; he takes the word as gati, 'destiny', and the Tibetan comment makes the wall (rtsig pa) of its line that fall into the bad destinies (ngan 'gro)",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bad destinies",
+        "lower realms",
+        "destinies",
+        "destiny",
+        "hell",
+        "hells",
+        "rebirth"
+      ],
       "texts": [
         "charyapada"
       ],
@@ -11272,6 +11750,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কালেত্যাদি",
+          "translit": "kāletyādi",
+          "lemma": "kāla",
+          "att": "AS",
+          "where": "cp.21.m4"
         }
       ],
       "match": {
@@ -12350,12 +12836,38 @@
           "lemma": "las kyi phyag rgya",
           "att": "AO",
           "where": "cp.02.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্মাঙ্গনা",
+          "translit": "karmmāṅganā",
+          "lemma": "karmāṅganā",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্মাঙ্গনায়া",
+          "translit": "karmmāṅganāyā",
+          "lemma": "karmāṅganā",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལས་ཀྱི་ཡན་ལག",
+          "translit": "las kyi yan lag",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.m2"
         }
       ],
       "match": {
         "san": [
           "কর্ম্মমুদ্রাপ্রসঙ্গাৎ",
-          "কর্ম্মমুদ্রা"
+          "কর্ম্মমুদ্রা",
+          "কর্ম্মাঙ্গনা",
+          "কর্মাঙ্গনা"
         ],
         "bod": [
           "ལས་ཀྱི་ཕྱག་རྒྱ"
@@ -15139,6 +15651,58 @@
       }
     },
     {
+      "id": "mana-pride",
+      "type": "term",
+      "status": "proposed",
+      "en": "pride",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মোহমানেনোন্নতো",
+          "translit": "mohamānenonnato",
+          "lemma": "māna",
+          "att": "AS",
+          "where": "cp.21.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ང་རྒྱལ",
+          "translit": "nga rgyal",
+          "lemma": "nga rgyal",
+          "att": "AO",
+          "where": "cp.21.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ང་རྒྱལ"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "(?<=মোহ)মান"
+        ]
+      },
+      "definition": "Pride or conceit (Sanskrit māna, Tibetan nga rgyal): an inflated sense of oneself, which Buddhist lists count among the root afflictions. Munidatta says the mind-mouse stays puffed up with delusion and pride only until the device of the true guru's word is at hand (cp.21.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "mandala",
       "type": "term",
       "status": "proposed",
@@ -17024,6 +17588,165 @@
       }
     },
     {
+      "id": "mouse",
+      "type": "term",
+      "status": "proposed",
+      "en": "mouse",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মুসা",
+          "translit": "musā",
+          "lemma": "musā",
+          "att": "AS",
+          "where": "cp.21.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "মুষা",
+          "translit": "muṣā",
+          "lemma": "musā",
+          "att": "AS",
+          "where": "cp.21.4a"
+        },
+        {
+          "lang": "san",
+          "script": "মূষকসন্ধ্যাবচনেন",
+          "translit": "mūṣakasandhyāvacanena",
+          "lemma": "mūṣaka",
+          "att": "AS",
+          "where": "cp.21.m1"
+        },
+        {
+          "lang": "san",
+          "script": "মূষকঃ",
+          "translit": "mūṣakaḥ",
+          "lemma": "mūṣaka",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "san",
+          "script": "মূষকচিত্তস্য",
+          "translit": "mūṣakacittasya",
+          "lemma": "mūṣaka",
+          "att": "AS",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তমূষকস্য",
+          "translit": "cittamūṣakasya",
+          "lemma": "mūṣaka",
+          "att": "AS",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তমূষকঃ",
+          "translit": "cittamūṣakaḥ",
+          "lemma": "mūṣaka",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱི་བ",
+          "translit": "byi ba",
+          "lemma": "byi ba",
+          "att": "AO",
+          "where": "cp.21.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "རླུང་བྱི",
+          "translit": "rlung byi",
+          "lemma": "byi ba",
+          "att": "AO",
+          "where": "cp.21.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་ཀྱི་བྱི་བ",
+          "translit": "sems kyi byi ba",
+          "lemma": "byi ba",
+          "att": "AO",
+          "where": "cp.21.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "মূষক"
+        ],
+        "bod": [
+          "བྱི་བ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])মু[সষ]া"
+        ]
+      },
+      "definition": "A mouse (Old Bengali musā, muṣā; Sanskrit mūṣaka), the central image of song 21: in the dark night it eats nectar, digs holes and runs restlessly until its movement is cut off; the refrain sets it beside pabaṇā, 'wind'. Munidatta says the poet speaks in the twilight language of 'mouse' (cp.21.m1) and derives mūṣaka from muṣṇāti, 'steals' (cp.21.m2).",
+      "symbolic": {
+        "image": "a restless mouse that roams in the dark night, eats nectar and digs, until its movement is cut off",
+        "readings": [
+          {
+            "referent": "the mind-wind (cittapavana): mūṣaka, 'the stealer' (from muṣṇāti, 'steals'), is in twilight language the mind-wind, which itself makes its meal of the taste of the nectar of bodhicitta in the union of vajra and lotus; the Tibetan has 'mind and wind' (sems dang rlung)",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m2"
+            ]
+          },
+          {
+            "referent": "the mind, which Munidatta calls 'the mind-mouse' (cittamūṣaka, mūṣakacitta) throughout his comments on the later couplets",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m3",
+              "cp.21.m4",
+              "cp.21.m5",
+              "cp.21.m6"
+            ]
+          },
+          {
+            "referent": "the mind-mouse that, through its natural restlessness, tears apart existence, which he explains as one's own body, and itself brings about the fall into the bad destinies; knowing this natural fault, the yogin is not to impute real existence to it",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m3"
+            ]
+          },
+          {
+            "referent": "kāla (the word means both 'black' and 'time, death'): the mind-mouse is kāla because it destroys conventional bodhicitta; the Tibetan comment makes it Rāhu (sgra gcan), which destroys the moon of conventional bodhicitta",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "mind",
+        "mind-wind",
+        "mind-mouse",
+        "citta",
+        "cittapavana",
+        "thought",
+        "Rāhu"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "mrtyumara",
       "type": "term",
       "status": "proposed",
@@ -17628,6 +18351,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.15.m2"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখকমলবনং",
+          "translit": "mahāsukhakamalavanaṃ",
+          "lemma": "kamalavana",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་སྐྱེས་ཀྱི་ཚལ",
+          "translit": "chu skyes kyi tshal",
+          "lemma": "chu skyes tshal",
+          "att": "AO",
+          "where": "cp.21.m4"
         }
       ],
       "match": {
@@ -17636,10 +18375,12 @@
         ],
         "san": [
           "নলিনীবন",
-          "শরসিজবন"
+          "শরসিজবন",
+          "কমলবন"
         ],
         "bod": [
-          "ཆུ་སྐྱེས་ཚལ"
+          "ཆུ་སྐྱེས་ཚལ",
+          "ཆུ་སྐྱེས་ཀྱི་ཚལ"
         ]
       },
       "matchRe": {},
@@ -18015,6 +18756,95 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "night",
+      "type": "term",
+      "status": "proposed",
+      "en": "night",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিসিঅ",
+          "translit": "nisia",
+          "lemma": "nisi",
+          "att": "AS",
+          "where": "cp.21.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নিশি",
+          "translit": "niśi",
+          "lemma": "niś",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নিসি",
+          "translit": "nisi",
+          "lemma": "nisi",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་མོ",
+          "translit": "mtshan mo",
+          "lemma": "mtshan mo",
+          "att": "AO",
+          "where": "cp.21.1a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নিসিঅ"
+        ],
+        "bod": [
+          "མཚན་མོ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])নি[সশ]ি(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])নি[সশ]ি(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Night (Old Bengali nisi; Sanskrit niś, niśā; Tibetan mtshan mo). Song 21 opens with the dark night in which the mouse roams. Munidatta reads the night as prajñā, 'wisdom', a name also given to the female partner, or as the action-woman (karmāṅganā) (cp.21.m2).",
+      "symbolic": {
+        "image": "the dark night in which the mouse roams",
+        "readings": [
+          {
+            "referent": "prajñā ('wisdom', also a name for the female partner) or the action-woman (karmāṅganā), with whom, in the union of vajra and lotus, the mind-wind makes its meal of the nectar of bodhicitta; the Tibetan has 'the limb of the wisdom action seal' (shes rab las kyi phyag rgya'i yan lag)",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "wisdom",
+        "prajñā",
+        "karmamudrā",
+        "action seal",
+        "action-woman",
+        "consort"
+      ],
       "texts": [
         "charyapada"
       ],
@@ -19196,6 +20026,30 @@
           "lemma": "b+hu su ku pa",
           "att": "AO",
           "where": "cp.06.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদাঃ",
+          "translit": "bhusukupādāḥ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.21.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "འདུ་ཤེས་གསུམ་པའི་ཞབས",
+          "translit": "'du shes gsum pa'i zhabs",
+          "lemma": "'du shes gsum pa",
+          "att": "AO",
+          "where": "cp.21.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷཱུ་སུ་ཀུ",
+          "translit": "b+hU su ku",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.6b"
         }
       ],
       "match": {
@@ -19205,10 +20059,13 @@
         ],
         "san": [
           "ভুসুকু",
-          "ভুসুক্কু"
+          "ভুসুক্কু",
+          "ভুসুকুপাদ"
         ],
         "bod": [
-          "བྷུ་སུ་ཀུ"
+          "བྷུ་སུ་ཀུ",
+          "འདུ་ཤེས་གསུམ་པའི་ཞབས",
+          "བྷཱུ་སུ་ཀུ"
         ]
       },
       "matchRe": {},
@@ -20495,6 +21352,57 @@
       }
     },
     {
+      "id": "p-minanatha",
+      "type": "person",
+      "status": "proposed",
+      "en": "Mīnanātha",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মীননাথঃ",
+          "translit": "mīnanāthaḥ",
+          "lemma": "mīnanātha",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མཱི་ན་ནཱ་ཐ",
+          "translit": "mI na nA tha",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "মীননাথ"
+        ],
+        "bod": [
+          "མཱི་ན་ནཱ་ཐ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Teacher whom Munidatta quotes 'in another school' (paradarśane) for an Old Bengali verse: the guru tells of the road of the ultimate, and the bee drinks the honey of the opened lotus (cp.21.m4). The Tibetan calls him a holder of an outsider's view (phyi rol gyi lta ba pa). The Nāth tradition honours a Mīnanātha among its first gurus.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "p-nagarjuna",
       "type": "person",
       "status": "proposed",
@@ -21309,6 +22217,14 @@
           "lemma": "pada",
           "att": "AS",
           "where": "cp.12.m6"
+        },
+        {
+          "lang": "san",
+          "script": "পঞ্চমপদেন",
+          "translit": "pañcamapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.21.m6"
         }
       ],
       "match": {
@@ -21319,7 +22235,8 @@
           "চতুর্থপদম",
           "দ্বিতীয়পদেন",
           "দ্বিতীয়পদ",
-          "চতুর্থপদ"
+          "চতুর্থপদ",
+          "পঞ্চমপদ"
         ],
         "bod": [
           "རྐང་པ"
@@ -21913,6 +22830,14 @@
           "lemma": "don dam pa",
           "att": "AO",
           "where": "cp.04.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "পরমার্থের",
+          "translit": "paramārthera",
+          "lemma": "paramārtha",
+          "att": "AS",
+          "where": "cp.21.m4"
         }
       ],
       "match": {
@@ -22116,6 +23041,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.16.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "পাট",
+          "translit": "pāṭa",
+          "lemma": "pāṭa",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒོ་གླེགས",
+          "translit": "sgo glegs",
+          "lemma": "sgo glegs",
+          "att": "AO",
+          "where": "cp.21.m4"
         }
       ],
       "match": {
@@ -22126,6 +23067,9 @@
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])পাটে?ঁ?(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])পাট(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "An Old Bengali word of uncertain sense in the first line of song 16, where three pāṭas are 'attached' (lāgeli). It may go back to Sanskrit paṭṭa, 'slab, seat, band'. The Tibetan line has only 'the three' (rnam gsum). Munidatta takes the three pāṭas as the joys beginning with the joy of the body (cp.16.m2).",
@@ -22509,6 +23453,54 @@
         "obscurations",
         "non-apprehension"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "pindagraha-anubheda",
+      "type": "term",
+      "status": "proposed",
+      "en": "piṇḍagrāha and anubheda",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পিণ্ডগ্রাহানুভেদে",
+          "translit": "piṇḍagrāhānubhede",
+          "lemma": "piṇḍagrāha",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕུང་པོ་ཟ་བས་དབྱེ་བས",
+          "translit": "phung po za bas dbye bas",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "পিণ্ডগ্রাহ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Apparently the two meditations of the Guhyasamāja completion stage for dissolving into clear light: piṇḍagrāha, 'holding as a whole', and anubheda, 'successive dissolution', in which the body, the world and oneself are withdrawn in stages. Munidatta says that when the mind-mouse is examined in them no colour is found to apprehend (cp.21.m4). The Tibetan reads the compound differently.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -30659,6 +31651,30 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.12.2b"
+        },
+        {
+          "lang": "san",
+          "script": "প্রসাদাপ্তোপদেশেন",
+          "translit": "prasādāptopadeśena",
+          "lemma": "upadeśa",
+          "att": "AS",
+          "where": "cp.21.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বর্ণোপলম্ভোপদেশো",
+          "translit": "varṇopalambhopadeśo",
+          "lemma": "upadeśa",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གདམས་པ",
+          "translit": "gdams pa",
+          "lemma": "gdams pa",
+          "att": "AO",
+          "where": "cp.21.m4"
         }
       ],
       "match": {
@@ -30667,10 +31683,12 @@
           "হিতোপদেশ",
           "চতুর্থোপদেশ",
           "উববেস",
-          "উপকারিকোপদেশ"
+          "উপকারিকোপদেশ",
+          "োপদেশ"
         ],
         "bod": [
-          "མན་ངག"
+          "མན་ངག",
+          "གདམས་པ"
         ]
       },
       "matchRe": {
@@ -31663,6 +32681,57 @@
       }
     },
     {
+      "id": "varadi",
+      "type": "term",
+      "status": "proposed",
+      "en": "Varāḍī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বরাড়ী",
+          "translit": "barāṛī",
+          "lemma": "barāṛī",
+          "att": "AS",
+          "where": "cp.21.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བ་རཱ་ཌཱི",
+          "translit": "ba rA DI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.21.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বরাড়ী"
+        ],
+        "bod": [
+          "བ་རཱ་ཌཱི"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Varāḍī, the name of the rāga (melodic mode) to which song 21 is sung, given in its heading. The Tibetan translation transcribes the name (ba rA DI) instead of translating it. Sanskrit music treatises name a rāga Varāṭī, probably the same melody.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "varuni",
       "type": "term",
       "status": "proposed",
@@ -31910,6 +32979,14 @@
           "lemma": "srog gi me",
           "att": "AO",
           "where": "cp.19.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "পবণা",
+          "translit": "pabaṇā",
+          "lemma": "pavaṇa",
+          "att": "AS",
+          "where": "cp.21.2a"
         }
       ],
       "match": {
@@ -31928,7 +33005,8 @@
           "জীবানিল"
         ],
         "oben": [
-          "পবণ"
+          "পবণ",
+          "পবণা"
         ],
         "bod": [
           "རླུང"
@@ -32146,11 +33224,28 @@
           "lemma": "rnam pa sna tshogs",
           "att": "AO",
           "where": "cp.04.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বিচিত্রাদিক্ষণে",
+          "translit": "vicitrādikṣaṇe",
+          "lemma": "vicitra",
+          "att": "AS",
+          "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣ་ཚོགས་པ",
+          "translit": "sna tshogs pa",
+          "lemma": "sna tshogs pa",
+          "att": "AO",
+          "where": "cp.21.m2"
         }
       ],
       "match": {
         "san": [
-          "বিচিত্র"
+          "বিচিত্র",
+          "বিচিত্রাদিক্ষণ"
         ]
       },
       "matchRe": {},
@@ -33908,12 +35003,21 @@
           "lemma": "byis pa'i rnal 'byor pa",
           "att": "AO",
           "where": "cp.15.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "জোইআ",
+          "translit": "joiā",
+          "lemma": "joi",
+          "att": "AS",
+          "where": "cp.21.2a"
         }
       ],
       "match": {
         "oben": [
           "জোই",
-          "যোগী"
+          "যোগী",
+          "জোইআ"
         ],
         "san": [
           "যোগিনাং",

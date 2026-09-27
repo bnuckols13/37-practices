@@ -1,0 +1,426 @@
+{
+  "unit": "cp.14",
+  "equivalents": [
+    {
+      "id": "raga",
+      "line": "cp.14.h1",
+      "script": "གླུ་དབྱངས",
+      "wylie": "glu dbyangs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan heading renders rāga with glu dbyangs, 'song, melody' ('the melody called d+ha ni sI'), not with a word for passion."
+    },
+    {
+      "id": "p-dombi",
+      "line": "cp.14.h1",
+      "script": "ཌོམྦི་པའི་ཞབས",
+      "wylie": "Dom+bi pa'i zhabs",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan heading names the poet as Dom+bi pa'i zhabs, a calque of Ḍombīpāda with zhabs for -pāda, where the Bengali heading gives only the rāga; m1 calls him grub pa'i slob dpon Dom+bi pa."
+    },
+    {
+      "id": "pl-ganga",
+      "line": "cp.14.1a",
+      "script": "གངྒཱ",
+      "wylie": "gang+gA",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "pl-yamuna",
+      "line": "cp.14.1a",
+      "script": "ཡ་མུ་ན",
+      "wylie": "ya mu na",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan transliterates the Sanskrit name Yamunā (spelled ya mu na), not the song's vernacular jaunā."
+    },
+    {
+      "id": "matangi",
+      "line": "cp.14.1b",
+      "script": "གདོལ་པའི་བུ་མོ",
+      "wylie": "gdol pa'i bu mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan does not keep the caste name but has gdol pa'i bu mo, 'outcaste girl', the same phrase m2 sets beside g.yung mo for Ḍombī."
+    },
+    {
+      "id": "para",
+      "line": "cp.14.1b",
+      "script": "སྒྲོལ་བར་བྱེད",
+      "wylie": "sgrol bar byed",
+      "lemma": "sgrol ba",
+      "confidence": "likely",
+      "note": "Here the whole phrase pāra karei is rendered by the verb sgrol ba, 'ferry across', which also means 'rescue, liberate'; there is no separate word for pāra, which 5a renders pha rol."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.14.2a",
+      "script": "ཌོམྦི",
+      "wylie": "Dom+bi",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The song lines keep the name in transliteration (Dom+bi), whereas the commentary at m2 translates it with g.yung mo."
+    },
+    {
+      "id": "guru",
+      "line": "cp.14.2b",
+      "script": "བླ་མ",
+      "wylie": "bla ma",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "sadguru is rendered bla ma dam pa, 'holy guru', here and in m3."
+    },
+    {
+      "id": "jinapura",
+      "line": "cp.14.2b",
+      "script": "རྒྱལ་བའི་ཕོ་བྲང",
+      "wylie": "rgyal ba'i pho brang",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan makes the Jina's city a palace (pho brang), and keeps that word in m3, where Munidatta's gloss mahāsukhapura becomes bde ba chen po'i grong khyer, 'city of great bliss'."
+    },
+    {
+      "id": "keruala",
+      "line": "cp.14.3a",
+      "script": "སྐྱ་བ",
+      "wylie": "skya ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan has skya ba 'dzin pa lnga, 'five holding oars' or 'five oar-holders', which may read the five as rowers rather than oars, and m4 cites the verse by the same phrase."
+    },
+    {
+      "id": "gagana",
+      "line": "cp.14.3b",
+      "script": "ནམ་མཁའི",
+      "wylie": "nam mkha'i",
+      "lemma": "nam mkha'",
+      "confidence": "clear",
+      "note": "The compound gaaṇadukhola is rendered nam mkha'i ko ba, with ko ba ('hide', a leather vessel) for dukhola, and m4 repeats nam mkha'i ko ba for gaganadukholaka."
+    },
+    {
+      "id": "moon",
+      "line": "cp.14.4a",
+      "script": "ཟླ་བ",
+      "wylie": "zla ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "surya",
+      "line": "cp.14.4a",
+      "script": "ཉི་མ",
+      "wylie": "nyi ma",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "wheel",
+      "line": "cp.14.4a",
+      "script": "འཁོར་ལོ",
+      "wylie": "'khor lo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The same 'khor lo serves in m4 for the subtle-body wheels ('khor lo'i phyogs su for cakroddeśena), so the Tibetan does not separate the two senses by wording."
+    },
+    {
+      "id": "srsti-samhara",
+      "line": "cp.14.4a",
+      "script": "བསྐྱེད་དང་སྡུད་པ",
+      "wylie": "bskyed dang sdud pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "sdud pa, 'gathering in', renders saṃhāra in its sense of withdrawal rather than destruction, and m5 repeats the pair as skyed pa dang sdud pa of saṃsāra."
+    },
+    {
+      "id": "pulinda",
+      "line": "cp.14.4a",
+      "script": "བུ་ལིནྡ",
+      "wylie": "bu lin+da",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan transliterates the word (bu lin+da) rather than translating it, so the translators too seem to have treated it as opaque, and the Tibetan of m5 lacks Munidatta's gloss of it as napuṃsaka."
+    },
+    {
+      "id": "kabadi",
+      "line": "cp.14.5a",
+      "script": "འགྲོན་བུ",
+      "wylie": "'gron bu",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan names only one fare, so the Bengali pair kabaḍī … boḍī is rendered by 'gron bu alone, and it adds Ḍombī (Dom+bi) as the subject of the line."
+    },
+    {
+      "id": "para",
+      "line": "cp.14.5a",
+      "script": "ཕ་རོལ",
+      "wylie": "pha rol",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "kula-shore",
+      "line": "cp.14.5b",
+      "script": "དོགས",
+      "wylie": "dogs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "As it stands dogs su would mean 'into doubt', but m6 twice has ngogs su, 'at the bank', so dogs is probably a corruption of ngogs, and phan tshun, 'here and there', may render the doubled kulem̐ kula."
+    },
+    {
+      "id": "siddha",
+      "line": "cp.14.m1",
+      "script": "གྲུབ་པའི",
+      "wylie": "grub pa'i",
+      "lemma": "grub pa",
+      "confidence": "clear",
+      "note": "siddhācārya is rendered grub pa'i slob dpon, with grub pa rather than grub thob, the Tibetan form already in the glossary."
+    },
+    {
+      "id": "boat",
+      "line": "cp.14.m2",
+      "script": "གྲུ",
+      "wylie": "gru",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Later in the same segment 'khor ba'i gru la, 'on the boat of saṃsāra', stands where the Sanskrit has saṃsārārṇave, 'in the ocean of saṃsāra', so the Tibetan has a boat in place of the ocean."
+    },
+    {
+      "id": "abhasa",
+      "line": "cp.14.m2",
+      "script": "སྣང་བ",
+      "wylie": "snang ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "candrābhāsasūryābhāsau is rendered zla ba dang nyi ma'i snang ba with a single snang ba, and m5's three appearances are snang ba gsum."
+    },
+    {
+      "id": "grahya-grahaka",
+      "line": "cp.14.m2",
+      "script": "གཟུང་བ་དང་འཛིན་པ",
+      "wylie": "gzung ba dang 'dzin pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "avadhuti",
+      "line": "cp.14.m2",
+      "script": "ཨ་ཝ་དྷཱུ་ཏཱིའི",
+      "wylie": "a wa d+hU tI'i",
+      "lemma": "a wa d+hU tI",
+      "confidence": "clear",
+      "note": "Here the Tibetan transliterates avadhūtī (a wa d+hU tI) instead of using kun 'dar ma, the form in the glossary; the term was not listed for this segment because the folio number [22ka] splits the Bengali word."
+    },
+    {
+      "id": "viramananda",
+      "line": "cp.14.m2",
+      "script": "ཁྱད་པར་གྱི་དགའ་བ",
+      "wylie": "khyad par gyi dga' ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "viramānanda is rendered khyad par gyi dga' ba, 'distinctive joy', here and in m3, a name that says nothing of cessation and is worth checking against the glossary's 'joy of cessation'."
+    },
+    {
+      "id": "sahaja",
+      "line": "cp.14.m2",
+      "script": "ལྷན་ཅིག་སྐྱེས་པའི",
+      "wylie": "lhan cig skyes pa'i",
+      "lemma": "lhan cig skyes pa",
+      "confidence": "clear",
+      "note": "For sahajayānapramattāṅgī the Tibetan has lhan cig skyes pa'i chang gi btung ba, 'the liquor drink of the innate', as if reading -pāna- 'drink' for -yāna- 'vehicle'."
+    },
+    {
+      "id": "sandhya-bhasa",
+      "line": "cp.14.m2",
+      "script": "དགོངས་པའི་སྐད",
+      "wylie": "dgongs pa'i skad",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "dgongs pa'i skad, 'language of intention', reflects the sense sandhā 'intention' rather than sandhyā 'twilight', and m1 uses the same phrase for vyāja, 'guise'."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.14.m2",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the song lines transliterate Dom+bi, the commentary renders ḍomvī nairātmā as gdol pa'i bu mo g.yung mo bdag med ma, so ḍombī is translated by g.yung mo, 'low-caste woman', perhaps together with gdol pa'i bu mo, 'outcaste girl'."
+    },
+    {
+      "id": "nairatma",
+      "line": "cp.14.m2",
+      "script": "བདག་མེད་མས",
+      "wylie": "bdag med mas",
+      "lemma": "bdag med ma",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "samsara",
+      "line": "cp.14.m2",
+      "script": "འཁོར་བའི",
+      "wylie": "'khor ba'i",
+      "lemma": "'khor ba",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "yogindra",
+      "line": "cp.14.m2",
+      "script": "རྣལ་འབྱོར་གྱི་དབང་ཕྱུག",
+      "wylie": "rnal 'byor gyi dbang phyug",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "dhruvapada",
+      "line": "cp.14.m3",
+      "script": "བརྟན་པའི་རྐང་པས",
+      "wylie": "brtan pa'i rkang pas",
+      "lemma": "brtan pa'i rkang pa",
+      "confidence": "clear",
+      "note": "A literal calque, with brtan pa, 'firm', for dhruva and rkang pa, 'foot, verse', for pada."
+    },
+    {
+      "id": "mahasukha",
+      "line": "cp.14.m3",
+      "script": "བདེ་བ་ཆེན་པོའི",
+      "wylie": "bde ba chen po'i",
+      "lemma": "bde ba chen po",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "sahajananda",
+      "line": "cp.14.m4",
+      "script": "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བས",
+      "wylie": "lhan cig skyes pa'i dga' bas",
+      "lemma": "lhan cig skyes pa'i dga' ba",
+      "confidence": "clear",
+      "note": "The Tibetan says bodhicitta is rnam par bzung, 'held', by innate joy, where the Sanskrit has vivṛtaṃ, 'opened', perhaps reading vidhṛtaṃ."
+    },
+    {
+      "id": "ananda",
+      "line": "cp.14.m4",
+      "script": "དགའ་བས",
+      "wylie": "dga' bas",
+      "lemma": "dga' ba",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "bodhicitta",
+      "line": "cp.14.m4",
+      "script": "བྱང་ཆུབ་ཀྱི་སེམས",
+      "wylie": "byang chub kyi sems",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "manimula",
+      "line": "cp.14.m4",
+      "script": "ནོར་བུའི་རྩ་བར",
+      "wylie": "nor bu'i rtsa bar",
+      "lemma": "nor bu'i rtsa ba",
+      "confidence": "clear",
+      "note": "The Tibetan gdang bu ni nor bu'i rtsa bar gyur pa makes the kacchikā (gdang bu, the verse's kācchī) the thing that has reached or become the root of the jewel, a looser construal of kacchikāmaṇimūlaṃ gataṃ."
+    },
+    {
+      "id": "pancakrama",
+      "line": "cp.14.m4",
+      "script": "རིམ་པ་ལྔའི",
+      "wylie": "rim pa lnga'i",
+      "lemma": "rim pa lnga",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "abhiseka",
+      "line": "cp.14.m4",
+      "script": "དབང་བསྐུར་བ",
+      "wylie": "dbang bskur ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "caturthābhiṣekeṇa is rendered dbang bzhi pas dbang bskur ba, 'empowered by the fourth empowerment', using both dbang and dbang bskur ba; the term was not listed for this segment because of the vowel sandhi in caturth-ābhiṣekeṇa."
+    },
+    {
+      "id": "visaya",
+      "line": "cp.14.m4",
+      "script": "ཡུལ",
+      "wylie": "yul",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan says the water, a stirring toward objects (yul la g.yo ba), does not enter (mi 'jug) the yogi's body, a negative that the printed Sanskrit (viśati, 'enters') lacks but that matches the verse's na paisai."
+    },
+    {
+      "id": "vilaksana",
+      "line": "cp.14.m5",
+      "script": "མཚན་ཉིད་དང་བྲལ་བས",
+      "wylie": "mtshan nyid dang bral bas",
+      "lemma": "mtshan nyid dang bral ba",
+      "confidence": "clear",
+      "note": "vilakṣaṇa is rendered by its etymology, mtshan nyid dang bral ba, 'free of characteristics'."
+    },
+    {
+      "id": "pada",
+      "line": "cp.14.m5",
+      "script": "རྐང་པ",
+      "wylie": "rkang pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "rkang pa renders pada throughout: couplets 3, 4 and 5 are the second, third and fourth rkang pa (m4, m5, m6), and the refrain is brtan pa'i rkang pa (m3)."
+    },
+    {
+      "id": "kula-shore",
+      "line": "cp.14.m6",
+      "script": "ངོགས",
+      "wylie": "ngogs",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "kule śarīre is rendered lus kyi ngogs su, 'on the bank of the body', and the Tibetan ends with the ignorant sinking at the bank (ngogs su 'bying), echoing the verse."
+    },
+    {
+      "id": "nairatmya",
+      "line": "cp.14.m6",
+      "script": "བདག་མེད་པའི",
+      "wylie": "bdag med pa'i",
+      "lemma": "bdag med pa",
+      "confidence": "clear",
+      "note": "The Tibetan distinguishes the two occurrences of nairātmadharma in this segment: the first is bdag med pa'i chos, 'the dharma of selflessness', the second bdag med ma'i chos, 'the dharma of Nairātmā'."
+    }
+  ],
+  "questions": [
+    "boat at cp.14.1a: the Tibetan line has no boat. It reads gang+gA dang ni ya mu na dbus gtsang po 'bab, 'between the Gaṅgā and the Yamunā a river flows', so nāī seems to have been taken as 'river' (gtsang po; perhaps Skt nadī) rather than 'boat'. I recorded boat from cp.14.m2 (gru) instead; line 1a may deserve a witness note.",
+    "guru and vilaksana at cp.14.m2: the Tibetan of m2 has nothing for 'sadguru ityādi vilakṣaṇaśuddhā'; guru is recorded from 2b and vilakṣaṇa from m5.",
+    "moon, surya, pulinda and sandhya-bhasa at cp.14.m5: the Tibetan of m5 leaves out the whole gloss 'candraṃ prajñājñānaṃ sūryam … pulindaṃ sandhyābhāṣayā napuṃsakaṃ', going straight from snang ba gsum 'gog pa to 'khor ba skyed pa dang sdud pa'i byed pa po'o. There is no Tibetan for Munidatta's readings of the moon, sun and pulinda, so the symbolic readings in those glossary entries rest on the Sanskrit alone.",
+    "nairatmya at cp.14.m2: a false match on the stem of nairātmā (the goddess), which the Tibetan renders bdag med ma; recorded under nairatma. nairatmya itself is recorded from m6.",
+    "citta at cp.14.m4 and cp.14.m5: occurs only inside bodhicitta (byang chub kyi sems); there is no separate rendering of citta to record.",
+    "bhaga at cp.14.m6: a false match inside bhagavatī, which the Tibetan renders bcom ldan 'das ma, an epithet of Nairātmā; not the bhaga term. I did not add it under p-bhagavat, which is the Buddha's epithet.",
+    "carya at cp.14.m6: a false match inside paricaryā, 'service'; the Tibetan has a different reading here, shes ba tsam du bzung ba, 'held as mere knowing'.",
+    "dombi at cp.14.m1 is the poet's name (siddhācāryo hi ḍomvī), rendered grub pa'i slob dpon Dom+bi pa; I recorded it under p-dombi from the Tibetan heading (cp.14.h1). dombi at cp.14.m6 has no counterpart: the Tibetan there has only bcom ldan 'das ma bdag med ma.",
+    "Terms that recur in other segments with the same Tibetan word as the entry already given (e.g. pl-ganga, moon, surya and para in m2; guru, jinapura and sahaja in m3; gagana and yogindra in m4; grahya-grahaka, nairatma and para in m6) are not repeated."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "2e0bc62d1813d5a62be48170b6df714a7c3957d193836c2c10101f495aeeb27a",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "b0728a0a9a0c1854b8a0abd5398c1e2fd3db2b3ee62f050804c2f7f152417c42",
+    "sourceSha": "ac0766c33fbb2f68a6a32782aedeb12679537205c437bf659bd2607ad7227b17",
+    "parallelSha": "7de73d39f16e6ba00946601a978fc06acf47a276ea9dbd2a37e30158b7b8c28d"
+  }
+}

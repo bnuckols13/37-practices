@@ -11,7 +11,7 @@ import { loadText, unitsIndex, loadUnit } from './text.mjs';
 import { load, scoped, matchSource } from './glossary.mjs';
 import { partOf } from './ids.mjs';
 import * as markup from './markup.mjs';
-import { tibetanToWylie } from './translit/tibetan.mjs';
+import { tibetanToWylie, wylieToTibetan, tibetanIndex } from './translit/tibetan.mjs';
 
 export const MAX_HITS = 80;   // per term, so a Studio document stays small
 const WINDOW = 3;             // words of context on each side
@@ -44,7 +44,7 @@ export function kwic(src, translit, form) {
  */
 export function kwicTibetan(src, form, n = 6) {
   const s = String(src).normalize('NFC'), f = form.normalize('NFC');
-  const i = s.indexOf(f);
+  const i = tibetanIndex(s, f);
   if (i < 0) return null;
   const pre = s.slice(0, i).split(/(?<=་)/u).filter(Boolean), post = s.slice(i + f.length).split(/(?<=་)/u).filter(Boolean);
   const a = pre.slice(Math.max(0, pre.length - n)).join(''), b = post.slice(0, n).join('');
@@ -74,7 +74,15 @@ export function concordance(slug) {
   const units = unitsIndex(slug).units.map(u => loadUnit(slug, u.id));
   const out = new Map(entries.map(e => [e.id, { id: e.id, hits: [], renderings: new Map(), total: 0, verse: 0, comm: 0, tibetan: { aligned: 0, forms: new Map() } }]));
   const byId = new Map(entries.map(e => [e.id, e]));
-  const wylieOf = (e, script) => e.forms.find(f => f.lang === 'bod' && f.script === script)?.translit || tibetanToWylie(script);
+  // The Tibetan word for a term in an aligned passage: the longest of the entry's Tibetan
+  // forms found there, tallied under its dictionary form so that pa and pa'i count together.
+  const tibetanIn = (e, par) => {
+    const found = (e.match.bod || []).filter(f => tibetanIndex(par.src, f) >= 0).sort((a, b) => b.length - a.length)[0];
+    if (!found) return null;
+    const form = e.forms.find(f => f.lang === 'bod' && f.script === found);
+    const key = form?.lemma || form?.translit || tibetanToWylie(found);
+    return { script: found, key };
+  };
   const commLang = text.lang.commentary;
 
   for (const u of units) {
@@ -94,11 +102,12 @@ export function concordance(slug) {
         if (!c || !k) continue;
         c.total++; c[s.kind === 'comm' ? 'comm' : 'verse']++;
         // Which Tibetan word renders the term here, among the forms the glossary knows.
-        const boForm = par ? (byId.get(hit.id).match.bod || []).find(f => par.src.normalize('NFC').includes(f.normalize('NFC'))) : null;
+        const bw = par ? tibetanIn(byId.get(hit.id), par) : null;
+        const boForm = bw?.script;
         if (par) {
           c.tibetan.aligned++;
-          if (boForm) {
-            const row = c.tibetan.forms.get(boForm) || c.tibetan.forms.set(boForm, { script: boForm, wylie: wylieOf(byId.get(hit.id), boForm), n: 0 }).get(boForm);
+          if (bw) {
+            const row = c.tibetan.forms.get(bw.key) || c.tibetan.forms.set(bw.key, { script: wylieToTibetan(bw.key), wylie: bw.key, n: 0 }).get(bw.key);
             row.n++;
           }
         }

@@ -1,0 +1,512 @@
+{
+  "unit": "cp.01",
+  "equivalents": [
+    {
+      "id": "taruvara",
+      "line": "cp.01.1a",
+      "script": "ལྗོན་ཤིང་མཆོག",
+      "wylie": "ljon shing mchog",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "citta",
+      "line": "cp.01.1b",
+      "script": "སེམས",
+      "wylie": "sems",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "kala",
+      "line": "cp.01.1b",
+      "script": "སྒྲ་གཅན",
+      "wylie": "sgra gcan",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the Bengali has kāla the Tibetan song has sgra gcan, 'Rāhu', writing Munidatta's identification of Kāla with Rāhu (cp.01.m2) into the line itself."
+    },
+    {
+      "id": "mahasukha",
+      "line": "cp.01.2a",
+      "script": "བདེ་ཆེན",
+      "wylie": "bde chen",
+      "lemma": "bde ba chen po",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "guru",
+      "line": "cp.01.2b",
+      "script": "བླ་མ",
+      "wylie": "bla ma",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-luyi",
+      "line": "cp.01.2b",
+      "script": "ལཱུ་ཡིས",
+      "wylie": "lU yis",
+      "lemma": "lU yi",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "samadhi",
+      "line": "cp.01.3a",
+      "script": "ཏིང་འཛིན",
+      "wylie": "ting 'dzin",
+      "lemma": "ting nge 'dzin",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "sunyata",
+      "line": "cp.01.4b",
+      "script": "སྟོང་ཉིད",
+      "wylie": "stong nyid",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-luyi",
+      "line": "cp.01.5a",
+      "script": "ལཱུ་ཡི",
+      "wylie": "lU yi",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "dhamana",
+      "line": "cp.01.5b",
+      "script": "ཟླ་བ",
+      "wylie": "zla ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the Bengali has dhamaṇa the Tibetan song has zla ba, 'moon', taking over Munidatta's gloss (āli, with the purification of the moon), and its commentary (cp.01.m6) then glosses zla ba, not dhavana, as A li."
+    },
+    {
+      "id": "camana",
+      "line": "cp.01.5b",
+      "script": "ཉི་མ",
+      "wylie": "nyi ma",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the Bengali has camaṇa the Tibetan song has nyi ma, 'sun', again taking over Munidatta's gloss (kāli, with the purification of the sun), which its commentary (cp.01.m6) applies to nyi ma."
+    },
+    {
+      "id": "siddha",
+      "line": "cp.01.m1",
+      "script": "གྲུབ་པ",
+      "wylie": "grub pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Rendered grub pa here and in grub pa'i slob dpon for siddhācārya (cp.01.m2, cp.01.m6) rather than the glossary's grub thob, and cp.01.m6 once writes ādisiddhācārya as dang po sgrub pa'i slob dpon, with sgrub."
+    },
+    {
+      "id": "kala",
+      "line": "cp.01.m2",
+      "script": "དུས",
+      "wylie": "dus",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Munidatta's sa eva kālaḥ ('he is Kāla') appears as de nyid kyi dus su, 'at that very time', so the Tibetan reads kāla as time rather than as a name for Rāhu; kālāgni in Kṛṣṇa's verse is likewise dus kyi me."
+    },
+    {
+      "id": "p-rahu",
+      "line": "cp.01.m2",
+      "script": "སྒྲ་གཅན",
+      "wylie": "sgra gcan",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan calls Rāhu tha mal pa'i sems 'dzag pa'i rang bzhin, 'having the nature of the leaking of the ordinary mind', apparently reading cyuti, 'falling', where Shastri's text has acyutirūpo."
+    },
+    {
+      "id": "moon",
+      "line": "cp.01.m2",
+      "script": "རི་དགས་མཚན",
+      "wylie": "ri dgas mtshan",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "A word-for-word calque of mṛgāṅka, 'deer-marked', rather than the ordinary zla ba."
+    },
+    {
+      "id": "nispannakrama",
+      "line": "cp.01.m2",
+      "script": "རྫོགས་པའི་རིམ་པ",
+      "wylie": "rdzogs pa'i rim pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-aryadeva",
+      "line": "cp.01.m2",
+      "script": "འཕགས་པ་ལྷའི",
+      "wylie": "'phags pa lha'i",
+      "lemma": "'phags pa lha",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-bhagavat",
+      "line": "cp.01.m2",
+      "script": "བཅོམ་ལྡན་འདས",
+      "wylie": "bcom ldan 'das",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan construes bhagavataḥ as the agent of paripakvakuśalāḥ (bcom ldan 'das kyis dge ba rnams yongs su smin pa, 'whose virtues the Blessed One has ripened') rather than with pañcakrama, so the five stages are not called the Blessed One's."
+    },
+    {
+      "id": "pancakrama",
+      "line": "cp.01.m2",
+      "script": "རིམ་པ་ལྔ",
+      "wylie": "rim pa lnga",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "patamanjari",
+      "line": "cp.01.m2",
+      "script": "པ་ཊ་ཧའི་སྙེ་མ",
+      "wylie": "pa Ta ha'i snye ma",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Half transliterated and half translated: paṭa appears as pa Ta ha (as if paṭaha, 'drum') and mañjarī as snye ma, 'cluster', while rāga is rendered glu'i gdangs, 'melody of the song'."
+    },
+    {
+      "id": "samsara",
+      "line": "cp.01.m2",
+      "script": "འཁོར་བར",
+      "wylie": "'khor bar",
+      "lemma": "'khor ba",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "satyadvaya",
+      "line": "cp.01.m2",
+      "script": "བདེན་པ་གཉིས",
+      "wylie": "bden pa gnyis",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "siddhi",
+      "line": "cp.01.m2",
+      "script": "དངོས་གྲུབ",
+      "wylie": "dngos grub",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "In the Rativajra verse the Tibetan has 'dod pa'i dngos grub, 'the desired accomplishment', where the Sanskrit has siddhir aninditā, 'flawless accomplishment'."
+    },
+    {
+      "id": "skandha",
+      "line": "cp.01.m2",
+      "script": "ཕུང་པོ",
+      "wylie": "phung po",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan has gzugs la sogs pa'i phung po rnams, without the number five of rūpādayaḥ pañcaskandhāḥ."
+    },
+    {
+      "id": "tx-rativajra",
+      "line": "cp.01.m2",
+      "script": "ར་ཏི་བཛྲ",
+      "wylie": "ra ti badzra",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Transliterated, and construed with the agentive (ra ti badzra gyis kyang) as if an author were speaking, where the Sanskrit has the locative rativajre, 'in the Rativajra'."
+    },
+    {
+      "id": "tx-samputa",
+      "line": "cp.01.m2",
+      "script": "སཾ་པུཊ་འབྱུང་བའི",
+      "wylie": "saM puT 'byung ba'i",
+      "lemma": "saM puT 'byung ba",
+      "confidence": "clear",
+      "note": "Half transliterated and half translated: saṃpuṭa is kept as saM puT, udbhava is rendered 'byung ba, and tantrarāja is given as rgyud kyi rgyal po."
+    },
+    {
+      "id": "visaya",
+      "line": "cp.01.m2",
+      "script": "ཡུལ",
+      "wylie": "yul",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "yuganaddha",
+      "line": "cp.01.m2",
+      "script": "ཟུང་འཇུག",
+      "wylie": "zung 'jug",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Here zung 'jug is followed by bcings pa, 'bound' (zung 'jug bcings pa'i ngo bo), apparently rendering naddha a second time; cp.01.m6 has zung du 'jug pa'i ngo bo."
+    },
+    {
+      "id": "ananda",
+      "line": "cp.01.m3",
+      "script": "དགའ་བ",
+      "wylie": "dga' ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "klesa",
+      "line": "cp.01.m3",
+      "script": "ཉོན་མོངས",
+      "wylie": "nyon mongs",
+      "lemma": "nyon mongs pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "nirvana",
+      "line": "cp.01.m3",
+      "script": "མྱང་འདས",
+      "wylie": "myang 'das",
+      "lemma": "mya ngan las 'das pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-nagarjuna",
+      "line": "cp.01.m3",
+      "script": "ཀླུ་སྒྲུབ",
+      "wylie": "klu sgrub",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-saraha",
+      "line": "cp.01.m3",
+      "script": "ས་ར་ཧའི",
+      "wylie": "sa ra ha'i",
+      "lemma": "sa ra ha",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "sahajananda",
+      "line": "cp.01.m3",
+      "script": "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བ",
+      "wylie": "lhan cig skyes pa'i dga' ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "samaya",
+      "line": "cp.01.m3",
+      "script": "དམ་ཚིག",
+      "wylie": "dam tshig",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "tx-guhyasamaja",
+      "line": "cp.01.m3",
+      "script": "གསང་བ་འདུས་པ",
+      "wylie": "gsang ba 'dus pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Where the Sanskrit has the short title Śrī Samāja, the Tibetan gives the full name, dpal gsang ba 'dus pa."
+    },
+    {
+      "id": "tx-hevajra",
+      "line": "cp.01.m3",
+      "script": "དགྱེས་པའི་རྡོ་རྗེ",
+      "wylie": "dgyes pa'i rdo rje",
+      "lemma": "dgyes pa rdo rje",
+      "confidence": "clear",
+      "note": "Translated as dpal dgyes pa'i rdo rje (dgyes pa rdo rje in cp.01.m4), not the glossary's kye'i rdo rje'i rgyud."
+    },
+    {
+      "id": "upadesa",
+      "line": "cp.01.m3",
+      "script": "མན་ངག",
+      "wylie": "man ngag",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "vajra",
+      "line": "cp.01.m3",
+      "script": "རྡོ་རྗེ",
+      "wylie": "rdo rje",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Both vajra (vajraguru, rdo rje bla ma) and its synonym kuliśa (kuliśāravinda, rdo rje dang chu skyes) are rendered rdo rje in this segment."
+    },
+    {
+      "id": "viramananda",
+      "line": "cp.01.m3",
+      "script": "ཁྱད་པར་གྱིས་དགའ་བ",
+      "wylie": "khyad par gyis dga' ba",
+      "lemma": "khyad par dga' ba",
+      "confidence": "likely",
+      "note": "By position the Tibetan has khyad par gyis dga' ba, 'joy through distinction', with an instrumental where the Sanskrit has the locative viramānande, and no word meaning 'cessation'."
+    },
+    {
+      "id": "gagana",
+      "line": "cp.01.m4",
+      "script": "ནམ་མཁའ",
+      "wylie": "nam mkha'",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "maharaganaya",
+      "line": "cp.01.m4",
+      "script": "འདོད་ཆགས་ཆེན་པོའི་ཚུལ",
+      "wylie": "'dod chags chen po'i tshul",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "pada",
+      "line": "cp.01.m4",
+      "script": "རྐང་པ",
+      "wylie": "rkang pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "tirthika",
+      "line": "cp.01.m4",
+      "script": "མུ་སྟེགས",
+      "wylie": "mu stegs",
+      "lemma": "mu stegs pa",
+      "confidence": "clear",
+      "note": "The verse has sangs rgyas mu stegs, but the prose after it renders buddhatīrthikaḥ as sangs rgyas pa'i mu stegs pa rnams, 'the tīrthikas of the Buddhists', reading the compound as dependent rather than as 'Buddhists and tīrthikas'."
+    },
+    {
+      "id": "maharaganaya",
+      "line": "cp.01.m5",
+      "script": "ཆགས་པ་ཆེན་པོའི་ཚུལ",
+      "wylie": "chags pa chen po'i tshul",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Here rāga is rendered chags pa, not the 'dod chags of cp.01.m4."
+    },
+    {
+      "id": "nairatma",
+      "line": "cp.01.m5",
+      "script": "བདག་མེད་པའི",
+      "wylie": "bdag med pa'i",
+      "lemma": "bdag med pa",
+      "confidence": "likely",
+      "note": "The Tibetan reads bdag med pa'i chos, 'the dharma of selflessness', with bdag med pa rather than the goddess name bdag med ma, so this occurrence fits selflessness (nairatmya) better than Nairātmā."
+    },
+    {
+      "id": "nairatmya",
+      "line": "cp.01.m5",
+      "script": "བདག་མེད",
+      "wylie": "bdag med",
+      "lemma": "bdag med pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "pada",
+      "line": "cp.01.m5",
+      "script": "རྐང་པ",
+      "wylie": "rkang pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Munidatta's tṛtīyapadam, 'the third verse', appears as rkang pa gsum, 'three verses', without the ordinal pa (contrast rkang pa bzhi pas for caturthapadena in cp.01.m6)."
+    },
+    {
+      "id": "sahaja",
+      "line": "cp.01.m5",
+      "script": "ལྷན་སྐྱེས",
+      "wylie": "lhan skyes",
+      "lemma": "lhan cig skyes pa",
+      "confidence": "clear",
+      "note": "A short form of the glossary's lhan cig skyes pa, in the verse Munidatta quotes."
+    },
+    {
+      "id": "ali",
+      "line": "cp.01.m6",
+      "script": "ཨཱ་ལི",
+      "wylie": "A li",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "kali",
+      "line": "cp.01.m6",
+      "script": "ཀཱ་ལི",
+      "wylie": "kA li",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "moon",
+      "line": "cp.01.m6",
+      "script": "རི་བོང་འཛིན་པ",
+      "wylie": "ri bong 'dzin pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "A calque of śaśin, 'hare-holder' (dkar po ri bong 'dzin pa), in a gloss that the Tibetan heads with zla ba, the word its song has in place of dhamaṇa."
+    },
+    {
+      "id": "p-vajrasattva",
+      "line": "cp.01.m6",
+      "script": "རྡོ་རྗེ་སེམས་དཔའི",
+      "wylie": "rdo rje sems dpa'i",
+      "lemma": "rdo rje sems dpa'",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "tx-hevajra",
+      "line": "cp.01.m6",
+      "script": "བརྟག་པ་གཉིས་པ",
+      "wylie": "brtag pa gnyis pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Munidatta's alternative title Dvikalpa is translated brtag pa gnyis pa, kalpa rendered brtag pa, 'examination'."
+    }
+  ],
+  "questions": [
+    "bhaga (cp.01.m2, cp.01.m4): the term does not occur in these segments; the match is on bhagavat (ভগবতঃ, ভগবতৈব), entered under p-bhagavat.",
+    "vajra in cp.01.m4 and cp.01.m6 and siddha in cp.01.m4 match only inside other words (śrīhevajre, vajrasattvasya; siddhir, siddhyanti), so no separate equivalent is given there; the Tibetan has dgyes pa rdo rje, rdo rje sems dpa', dngos grub and 'grub.",
+    "camana and dhamana in cp.01.m6 (cavaṇa, dhavana) have no word of their own in the Tibetan, which glosses zla ba and nyi ma instead; see the entries for cp.01.5b.",
+    "Not answered because the glossary's Tibetan already matches and the segment uses the same word: bodhicitta (byang chub kyi sems, cp.01.m2, where the Rativajra verse has the short byang chub sems), carya (spyod pa, cp.01.m1, cp.01.m4, cp.01.m5), sahaja (lhan cig skyes pa, cp.01.m2, cp.01.m3), samvrti (kun rdzob, cp.01.m2), p-kanha (nag po spyod pa, cp.01.m2).",
+    "Recurring terms are given once, from the verse line where there is one; the other occurrences use the same word, apart from full forms in the commentary (ting nge 'dzin, bde ba chen po), taruvara cited in cp.01.m2 also as lus ljon pa'i shing, and Lūyī named in the commentary as lU yi (pa'i) zhabs for Lūyīpāda."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "040fc9a45461a7fc4a02b258ae79573a62f4b35ca7b669ac7f82deeaa41f44de",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "b0728a0a9a0c1854b8a0abd5398c1e2fd3db2b3ee62f050804c2f7f152417c42",
+    "sourceSha": "da764dd0f3bf26a491366294093127c5bfb978c1c259aceafa1e80aef02767d9",
+    "parallelSha": "be3f6d05d0133597f172b69a2d91e794fb1db3b8005b41eb72ac44c2c8416638"
+  }
+}

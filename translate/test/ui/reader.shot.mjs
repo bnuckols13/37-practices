@@ -120,12 +120,17 @@ const noHScroll = page => page.evaluate(() => document.documentElement.scrollWid
   // settings: labelled with their state
   const label = () => page.locator('#settings-btn .runhead__label').innerText();
   ok('settings label states the display', await label() === 'Display: English, commentary in the margin', await label());
+  ok('the Tibetan stays out of the English display', !(await page.locator('#c1 .par').first().isVisible()));
   await page.locator('#settings-btn').click();
   await page.locator('label[for="set-display-study"]').click();
   await page.locator('label[for="set-comm-inline"]').click();
   ok('study display shows source, transliteration and gloss', await page.locator('#c1 .src').first().isVisible() && await page.locator('#c1 .lit').first().isVisible());
   const facing = await page.evaluate(() => { const s = document.querySelector('#c1 .src').getBoundingClientRect(), e = document.querySelector('#c1 .en').getBoundingClientRect(); return s.right <= e.left && Math.abs(s.top - e.top) < 12; });
   ok('the source faces the English, line by line', facing);
+  ok('study display adds the aligned Tibetan, script above Wylie', await page.locator('#c1 .par__src').first().isVisible()
+    && await page.evaluate(() => { const a = document.querySelector('#c1 .par__src').getBoundingClientRect(), b = document.querySelector('#c1 .par__tl').getBoundingClientRect(); return a.bottom <= b.top + 1; }));
+  await page.evaluate(() => document.fonts.ready);
+  ok('the Tibetan face loads from our own server', await page.evaluate(() => [...document.fonts].some(f => f.family.replace(/"/g, '') === 'Noto Serif Tibetan' && f.status === 'loaded')));
   ok('settings label follows the choice', await label() === 'Display: Study, commentary under each couplet', await label());
   await page.locator('.dialog__done .link').click();
   const inline = await page.evaluate(() => {

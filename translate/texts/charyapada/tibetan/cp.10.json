@@ -1,0 +1,568 @@
+{
+  "unit": "cp.10",
+  "equivalents": [
+    {
+      "id": "raga",
+      "line": "cp.10.h1",
+      "script": "གླུ་དབྱངས",
+      "wylie": "glu dbyangs",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan heading renders rāga as glu dbyangs 'melody', transliterates the name as de sha kha, and adds the poet, nag po spyod pa'i zhabs, whom the Bengali heading does not name."
+    },
+    {
+      "id": "town",
+      "line": "cp.10.1a",
+      "script": "གྲོང་ཁྱེར",
+      "wylie": "grong khyer",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.1a",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Throughout the song the Tibetan translates Ḍombī with the common noun g.yung mo 'low-caste woman' instead of transliterating the name."
+    },
+    {
+      "id": "hut",
+      "line": "cp.10.1a",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "khyim is 'house, home' rather than a word for a hut, matching Munidatta's tavāgāra 'your house', which cp.10.m2 renders khyod kyi khyim."
+    },
+    {
+      "id": "brahmin",
+      "line": "cp.10.1b",
+      "script": "བྲམ་ཟེའི",
+      "wylie": "bram ze'i",
+      "lemma": "bram ze",
+      "confidence": "clear",
+      "note": "The Tibetan has bram ze'i bu 'brahmin's son, brahmin boy' for bāhma nāṛiā, apparently taking nāṛiā as 'lad' rather than 'shaven-headed', in line with Munidatta's cittavaṭuka, which cp.10.m2 renders sems ni bram ze'i bu."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.2a",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-kanha",
+      "line": "cp.10.2b",
+      "script": "ཀཱཧྞ",
+      "wylie": "kAh+Na",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The verse transliterates the vernacular name (Kāhna), while the heading and the commentary use the Tibetan name nag po spyod pa (see cp.10.m1)."
+    },
+    {
+      "id": "kapalika",
+      "line": "cp.10.2b",
+      "script": "ཐོད་པའི",
+      "wylie": "thod pa'i",
+      "lemma": "thod pa",
+      "confidence": "clear",
+      "note": "Here kāpāli is rendered adjectivally, thod pa'i rnal 'byor 'skull yogi', whereas 6a transliterates it (ka pA li) and cp.10.m7 has thod pa can."
+    },
+    {
+      "id": "yogi",
+      "line": "cp.10.2b",
+      "script": "རྣལ་འབྱོར",
+      "wylie": "rnal 'byor",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "nirghrna",
+      "line": "cp.10.2b",
+      "script": "སྐྱུག་བྲོ་སྤངས",
+      "wylie": "skyug bro spangs",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Rendered analytically as skyug bro spangs, 'having given up revulsion'."
+    },
+    {
+      "id": "lotus",
+      "line": "cp.10.3a",
+      "script": "པད",
+      "wylie": "pad",
+      "lemma": "pad ma",
+      "confidence": "clear",
+      "note": "The Tibetan compresses 'one lotus, sixty-four petals' into gcig nyid pad 'dab 'the one, lotus petals', so the lotus appears only as the first member of the compound pad 'dab (the commentary has the full pad+ma)."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.3b",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "In this line caṛi 'climbing' becomes der gnas 'staying there' (matching Munidatta's tatra sthitvā), and bāpuṛī seems to be transliterated (pa pu lI'i or pu lI'i after gar byed) rather than translated."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.4a",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "boat",
+      "line": "cp.10.4b",
+      "script": "གྲུ",
+      "wylie": "gru",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "tanti",
+      "line": "cp.10.5a",
+      "script": "རྒྱུད",
+      "wylie": "rgyud",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "rgyud, a word that also means 'tantra' and 'lineage', renders both tānti here and Munidatta's tantrī in cp.10.m6."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.5a",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.6a",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "kapalika",
+      "line": "cp.10.6a",
+      "script": "ཀ་པཱ་ལི",
+      "wylie": "ka pA li",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Transliterated here (ka pA li), unlike the translated thod pa'i of 2b."
+    },
+    {
+      "id": "bone-garland",
+      "line": "cp.10.6b",
+      "script": "རུས་ཕྲེང",
+      "wylie": "rus phreng",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "lake",
+      "line": "cp.10.7a",
+      "script": "རྫིང་བུ",
+      "wylie": "rdzing bu",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "rdzing bu is 'pond, pool'; cp.10.m8 uses the same word for sarovara and renders kāyapuṣkara as lus kyi rdzing bu 'the pool of the body'."
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.7a",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "lotus-root",
+      "line": "cp.10.7a",
+      "script": "པད་རྩ",
+      "wylie": "pad rtsa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "dombi",
+      "line": "cp.10.7b",
+      "script": "གཡུང་མོ",
+      "wylie": "g.yung mo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan makes Ḍombī the object of 'taking' (g.yung mo blangs nas 'having taken the g.yung mo') and ends bdag gi pha rol gsod 'I kill the other (or: my adversary)', apparently reading parāṇa as para 'other' rather than prāṇa 'life'."
+    },
+    {
+      "id": "nairatmya",
+      "line": "cp.10.m1",
+      "script": "བདག་མེད་པའི",
+      "wylie": "bdag med pa'i",
+      "lemma": "bdag med pa",
+      "confidence": "clear",
+      "note": "Munidatta's nairātmadharma is bdag med pa'i chos 'the dharma of selflessness', with the abstract bdag med pa rather than the goddess's name bdag med ma."
+    },
+    {
+      "id": "p-kanha",
+      "line": "cp.10.m1",
+      "script": "ནག་པོ་སྤྱོད་པའི་ཞབས",
+      "wylie": "nag po spyod pa'i zhabs",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The commentary uses the Tibetan name nag po spyod pa'i zhabs for Kṛṣṇapāda (also nag po zhabs in cp.10.m2 and nag po spyod pa pa in cp.10.m4), against the transliterated kAh+Na of verse 2b."
+    },
+    {
+      "id": "sandhya-bhasa",
+      "line": "cp.10.m1",
+      "script": "དགོངས་པའི་སྐད",
+      "wylie": "dgongs pa'i skad",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan renders the term as dgongs pa'i skad 'language of intention', reading sandhā/saṃdhā 'intention' rather than sandhyā 'twilight', and renders ḍombīśabda as g.yung mo'i sgra."
+    },
+    {
+      "id": "avadhuti",
+      "line": "cp.10.m2",
+      "script": "ཨ་ཝ་དྷཱུ་ཏཱི",
+      "wylie": "a wa d+hU tI",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Transliterated (a wa d+hU tI) rather than translated with kun 'dar ma, here and in cp.10.m8 (a wa d+hU tI pa yongs su ma dag pa can)."
+    },
+    {
+      "id": "nairatma",
+      "line": "cp.10.m2",
+      "script": "བདག་མེད་མར",
+      "wylie": "bdag med mar",
+      "lemma": "bdag med ma",
+      "confidence": "clear",
+      "note": "bdag med mar renders the identification of Ḍombī with Nairātmā; later in the segment the vocative bho nairātmā is joined to the next lemma as kye bdag med ma'i grong khyer la, 'O, to Nairātmā's town'."
+    },
+    {
+      "id": "citta",
+      "line": "cp.10.m2",
+      "script": "སེམས",
+      "wylie": "sems",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Munidatta's cittavaṭuka 'mind-lad' becomes a sentence, sems ni bram ze'i bu 'the mind is the brahmin boy', reusing the verse's bram ze'i bu."
+    },
+    {
+      "id": "guru-sampradaya",
+      "line": "cp.10.m2",
+      "script": "བླ་མའི་མན་ངག",
+      "wylie": "bla ma'i man ngag",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "sampradāya is rendered man ngag 'instruction', and the Tibetan reads asampradāyayogināṃ positively as man ngag thob pa'i rnal 'byor pa 'the yogin who has obtained the instruction', without the negation."
+    },
+    {
+      "id": "bodhicitta",
+      "line": "cp.10.m2",
+      "script": "བྱང་ཆུབ་ཀྱི་སེམས",
+      "wylie": "byang chub kyi sems",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "samvrti",
+      "line": "cp.10.m2",
+      "script": "ཀུན་རྫོབ",
+      "wylie": "kun rdzob",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "manimula",
+      "line": "cp.10.m2",
+      "script": "ནོར་བུའི་རྩ་བ",
+      "wylie": "nor bu'i rtsa ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "viramananda",
+      "line": "cp.10.m2",
+      "script": "དགའ་བྲལ",
+      "wylie": "dga' bral",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "mahasukha",
+      "line": "cp.10.m2",
+      "script": "བདེ་བ་ཆེན་པོའི",
+      "wylie": "bde ba chen po'i",
+      "lemma": "bde ba chen po",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "mahasukha-cakra",
+      "line": "cp.10.m2",
+      "script": "བདེ་བ་ཆེན་པོའི་འཁོར་ལོ",
+      "wylie": "bde ba chen po'i 'khor lo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "siddha",
+      "line": "cp.10.m2",
+      "script": "གྲུབ་པའི་སློབ་དཔོན",
+      "wylie": "grub pa'i slob dpon",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "siddhācārya is grub pa'i slob dpon here, not the grub thob recorded in the glossary."
+    },
+    {
+      "id": "nirghrna",
+      "line": "cp.10.m3",
+      "script": "སྐྱུག་བྲོ་བ",
+      "wylie": "skyug bro ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan turns nirghṛṇa into one of the faults listed, skyug bro ba dang ngo tsha ba la sogs pa'i skyon dang bral ba 'free of faults such as revulsion and shame', instead of a separate predicate."
+    },
+    {
+      "id": "prajnopaya",
+      "line": "cp.10.m3",
+      "script": "ཐབས་དང་ཤེས་རབ",
+      "wylie": "thabs dang shes rab",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan reverses the pair to thabs dang shes rab 'means and wisdom', here and in the Hevajra quotation, unlike the glossary's shes rab dang thabs."
+    },
+    {
+      "id": "mahamudra",
+      "line": "cp.10.m3",
+      "script": "ཕྱག་རྒྱ་ཆེན་པོའི",
+      "wylie": "phyag rgya chen po'i",
+      "lemma": "phyag rgya chen po",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "siddhi",
+      "line": "cp.10.m3",
+      "script": "དངོས་གྲུབ",
+      "wylie": "dngos grub",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "tx-hevajra",
+      "line": "cp.10.m3",
+      "script": "དཔལ་དགྱེས་པའི་རྡོ་རྗེ",
+      "wylie": "dpal dgyes pa'i rdo rje",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan names the tantra dpal dgyes pa'i rdo rje 'glorious Hevajra' (so also in cp.10.m4 and cp.10.m5), not the kye'i rdo rje'i rgyud recorded in the glossary."
+    },
+    {
+      "id": "nirmana-cakra",
+      "line": "cp.10.m4",
+      "script": "སྤྲུལ་པའི་འཁོར་ལོར",
+      "wylie": "sprul pa'i 'khor lor",
+      "lemma": "sprul pa'i 'khor lo",
+      "confidence": "clear",
+      "note": "The Tibetan places the lotus in the wheel (sprul pa'i 'khor lor pad+ma 'dab ma drug cu rtsa bzhi dang ldan pa 'in the wheel of emanation, a lotus with sixty-four petals') rather than equating the two as padmaikaṃ nirmāṇacakraṃ does."
+    },
+    {
+      "id": "ekarasa",
+      "line": "cp.10.m4",
+      "script": "རོ་གཅིག",
+      "wylie": "ro gcig",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-heruka",
+      "line": "cp.10.m4",
+      "script": "ཧེ་རུ་ཀ",
+      "wylie": "he ru ka",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "pada",
+      "line": "cp.10.m5",
+      "script": "རྐང་པ",
+      "wylie": "rkang pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan counts as Munidatta does, rkang pa gsum pa 'third verse' for couplet 4 (and rkang pa gnyis pa for couplet 3 in cp.10.m4), leaving the refrain out."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.10.m5",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan fuses sadbhāvena svarūpāśayena into bden pa'i dngos po'i rang bzhin gyi bsam pas 'with the thought of the nature of the true thing', while the Hevajra quotation in the same segment renders svarūpa as ngo bo and ngo bo nyid."
+    },
+    {
+      "id": "sahaja",
+      "line": "cp.10.m5",
+      "script": "ལྷན་ཅིག་སྐྱེས",
+      "wylie": "lhan cig skyes",
+      "lemma": "lhan cig skyes pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "nirvana",
+      "line": "cp.10.m5",
+      "script": "མྱ་ངན་འདས",
+      "wylie": "mya ngan 'das",
+      "lemma": "mya ngan las 'das pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.10.m6",
+      "script": "ངོ་བོ་ཉིད",
+      "wylie": "ngo bo nyid",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Here nairātmadharmasvarūpa is chos thams cad bdag med pa'i ngo bo nyid, so svarūpa is ngo bo nyid, as in the Hevajra quotation of cp.10.m5, while the glosses in cp.10.m5 and cp.10.m7 use rang bzhin."
+    },
+    {
+      "id": "bhaga",
+      "line": "cp.10.m6",
+      "script": "བྷ་ག",
+      "wylie": "b+ha ga",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Transliterated (b+ha ga) and followed by pad+ma'i gnas su 'as the place of the lotus'."
+    },
+    {
+      "id": "avidya",
+      "line": "cp.10.m6",
+      "script": "མ་རིག་པའི",
+      "wylie": "ma rig pa'i",
+      "lemma": "ma rig pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "visaya",
+      "line": "cp.10.m6",
+      "script": "ཡུལ",
+      "wylie": "yul",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "yul gyi snang ba 'appearance of objects' supports reading viṣayābhāsa for the printed ṣiṣayābhāsaṃ; in cp.10.m2 the Tibetan has no word for viṣaya."
+    },
+    {
+      "id": "samsara",
+      "line": "cp.10.m6",
+      "script": "འཁོར་བའི",
+      "wylie": "'khor ba'i",
+      "lemma": "'khor ba",
+      "confidence": "clear",
+      "note": "saṃsārapeṭaka 'the basket (or box) of saṃsāra' is rendered 'khor ba'i mdzod 'the treasury of saṃsāra'."
+    },
+    {
+      "id": "yogindra",
+      "line": "cp.10.m7",
+      "script": "རྣལ་འབྱོར་གྱི་དབང་ཕྱུག",
+      "wylie": "rnal 'byor gyi dbang phyug",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "carya",
+      "line": "cp.10.m7",
+      "script": "སྤྱོད་པ",
+      "wylie": "spyod pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "saprapañcacaryā is rendered spyod pa rab tu gsal bar gsungs 'explains the conduct very clearly', so saprapañca is read as describing the explanation rather than the conduct."
+    },
+    {
+      "id": "guru",
+      "line": "cp.10.m7",
+      "script": "བླ་མ་དམ་པའི",
+      "wylie": "bla ma dam pa'i",
+      "lemma": "bla ma dam pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "kapalika",
+      "line": "cp.10.m7",
+      "script": "ཐོད་པ་ཅན",
+      "wylie": "thod pa can",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Here kāpālikaḥ caryādharaś ca becomes thod pa can gyi spyod pa 'dzin pa 'holding the conduct of a skull-bearer', and the Tibetan keeps Munidatta's letter-etymology in transliteration (kaM 'your bliss', pA 'able to protect')."
+    },
+    {
+      "id": "tathagata",
+      "line": "cp.10.m7",
+      "script": "དེ་བཞིན་གཤེགས་པ",
+      "wylie": "de bzhin gshegs pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan reads the compound as 'the wheel of the six tathāgatas' (de bzhin gshegs pa drug gi 'khor lo), followed by earrings, necklace and bone ornaments (rus rgyan)."
+    },
+    {
+      "id": "guru-sampradaya",
+      "line": "cp.10.m8",
+      "script": "བླ་མའི་དྲིན",
+      "wylie": "bla ma'i drin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "For gurusampradāyavihīnasya the Tibetan has bla ma'i drin gyis rnam par dman pa, with drin 'kindness, grace' where cp.10.m2 has man ngag, and its syntax ('deficient by the guru's grace') is loose."
+    }
+  ],
+  "questions": [
+    "dombi, cp.10.4b: the Tibetan line ('ong dang 'gro ba gang gi gru la byed) has no word for Ḍombī, so no equivalent is given for this line.",
+    "dombi, cp.10.m6: bho ḍombi nairātme is rendered kye'i bdag med ma alone, with no g.yung mo.",
+    "visaya, cp.10.m2: rūpādiviṣayasamūhaṃ is rendered phyi rol gyi gzugs la sogs pa'i tshogs, with no word for viṣaya (phyi rol may stand for tasya bāhye); the equivalent is taken from cp.10.m6 instead.",
+    "Substring matches with no equivalent: siddha in cp.10.m3 (the word is siddhiṃ, given under siddhi); vajra in cp.10.m3, m4 and m5 (only inside śrīhevajre, given under tx-hevajra); citta in cp.10.m5 and m8 (only inside bodhicitta).",
+    "bhaga, cp.10.m4: a false match on bhagavatyā, which the Tibetan renders bcom ldan 'das; that belongs to p-bhagavat, but here it is an epithet of Nairātmā. Should p-bhagavat cover the feminine bhagavatī?",
+    "nairatma / nairatmya: in cp.10.m1 nairātmadharma is the abstract (bdag med pa'i chos) and is given under nairatmya; in cp.10.m2-m7 the Sanskrit has the goddess's name nairātmā (bdag med ma), given under nairatma at cp.10.m2 only, so the nairatmya matches in those segments are not answered.",
+    "Not repeated: commentary occurrences of terms that use the same Tibetan word as the verse or an earlier segment (dombi g.yung mo, town grong khyer, brahmin bram ze, boat gru, lotus pad+ma, tanti rgyud, lake rdzing bu, bodhicitta, samvrti, nairatma bdag med ma, tx-hevajra, avadhuti in cp.10.m8, p-kanha nag po spyod pa) are left out."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "d92684af2c3f55a2d32ba89099ac2f7d6674204cd754ca894910fc7553a240aa",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "b0728a0a9a0c1854b8a0abd5398c1e2fd3db2b3ee62f050804c2f7f152417c42",
+    "sourceSha": "b2b73080b2d2f152afbb1c9f873674b6f3d0c042176937835185fdb3afc957f2",
+    "parallelSha": "65d6a18be6280c2348a263d9461f839e11bb39b74ef49730233a90d9629a4c93"
+  }
+}

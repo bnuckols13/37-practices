@@ -7,6 +7,7 @@
 import { glossaryPath, readJSON, writeJSON, hashOf, fail, today } from './io.mjs';
 import { Glossary, Entry, Form } from '../schemas/glossary.mjs';
 import { TERM_ID_RE } from './ids.mjs';
+import { tibetanIndex } from './translit/tibetan.mjs';
 
 export function load() {
   const r = Glossary.safeParse(readJSON(glossaryPath(), { entries: [] }));
@@ -32,8 +33,9 @@ export const scopeSha = (g, slug) => hashOf(scoped(g, slug));
 export function matchSource(entries, src, lang) {
   const hits = [];
   const s = String(src).normalize('NFC');
+  const has = lang === 'bod' ? f => tibetanIndex(s, f) >= 0 : f => s.includes(f.normalize('NFC'));
   for (const e of entries) {
-    const forms = (e.match[lang] || []).filter(f => f && s.includes(f.normalize('NFC')));
+    const forms = (e.match[lang] || []).filter(f => f && has(f));
     for (const re of e.matchRe[lang] || []) {
       let m;
       try { m = s.match(new RegExp(re, 'u')); } catch { continue; }

@@ -61,6 +61,16 @@ for (const [name, viewport, scheme] of [['desktop-light', { width: 1360, height:
     await p.click('.why .btn');
     await p.waitForTimeout(200);
     await p.screenshot({ path: path.join(OUT, 'studio-panel-why.png') });
+    // The Tibetan: hidden until asked, then script above Wylie under the Bengali, and in the term's usage.
+    results.tibetan = { hiddenFirst: await p.locator('#s-1 .par').count() === 0 };
+    await p.click('#parallel-toggle');
+    await p.waitForTimeout(100);
+    results.tibetan.shown = await p.locator('#s-1 .line[data-line="1a"] .par .src[lang="bo"]').isVisible();
+    results.tibetan.order = await p.evaluate(() => { const a = document.querySelector('#s-1 .par .src').getBoundingClientRect(), b = document.querySelector('#s-1 .par .tl').getBoundingClientRect(); return a.bottom <= b.top + 1; });
+    results.tibetan.comment = await p.locator('#s-m1 details.csrc').count() === 2;
+    await p.screenshot({ path: path.join(OUT, 'studio-tibetan.png') });
+    await p.keyboard.press('t');
+    results.tibetan.keyOff = await p.locator('#s-1 .par').count() === 0;
     // Edit line 1b through the editor.
     await p.click('#s-1 .line[data-line="1b"] .fv__edit');
     await p.fill('.ed__ta', 'time has entered the restless mind.');

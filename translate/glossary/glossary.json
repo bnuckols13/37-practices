@@ -26,6 +26,14 @@
           "lemma": "ābhāsa",
           "att": "AS",
           "where": "cp.14.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣང་བ",
+          "translit": "snang ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.m2"
         }
       ],
       "match": {
@@ -34,6 +42,9 @@
           "সূর্য্যাভাস",
           "আভাষ",
           "আভাস"
+        ],
+        "bod": [
+          "སྣང་བ"
         ]
       },
       "matchRe": {},
@@ -88,6 +99,14 @@
           "lemma": "abhiṣeka",
           "att": "AS",
           "where": "cp.14.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་བསྐུར་བ",
+          "translit": "dbang bskur ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.m4"
         }
       ],
       "match": {
@@ -97,6 +116,9 @@
           "অভিষিক্তো",
           "অভিষিক্তঃ",
           "অভিষেকেণ"
+        ],
+        "bod": [
+          "དབང་བསྐུར་བ"
         ]
       },
       "matchRe": {},
@@ -142,6 +164,14 @@
           "lemma": "āli",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨཱ་ལི",
+          "translit": "A li",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m6"
         }
       ],
       "match": {
@@ -149,6 +179,9 @@
           "আলি",
           "আলিনা",
           "আলিকালি"
+        ],
+        "bod": [
+          "ཨཱ་ལི"
         ]
       },
       "matchRe": {},
@@ -202,6 +235,22 @@
           "lemma": "ānanda",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བ",
+          "translit": "dga' ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བས",
+          "translit": "dga' bas",
+          "lemma": "dga' ba",
+          "att": "AO",
+          "where": "cp.14.m4"
         }
       ],
       "match": {
@@ -211,6 +260,10 @@
           "চতুর্থানন্দং",
           "বিরমানন্দে",
           "সহজানন্দ"
+        ],
+        "bod": [
+          "དགའ་བ",
+          "དགའ་བས"
         ]
       },
       "matchRe": {},
@@ -272,6 +325,22 @@
           "lemma": "avadhūtī",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨ་ཝ་དྷཱུ་ཏཱི",
+          "translit": "a wa d+hU tI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨ་ཝ་དྷཱུ་ཏཱིའི",
+          "translit": "a wa d+hU tI'i",
+          "lemma": "a wa d+hU tI",
+          "att": "AO",
+          "where": "cp.14.m2"
         }
       ],
       "match": {
@@ -280,6 +349,10 @@
           "অবধূতিকা",
           "পরিশুদ্ধাবধূতী",
           "অপরিশুদ্ধাবধূতিকা"
+        ],
+        "bod": [
+          "ཨ་ཝ་དྷཱུ་ཏཱི",
+          "ཨ་ཝ་དྷཱུ་ཏཱིའི"
         ]
       },
       "matchRe": {},
@@ -315,11 +388,22 @@
           "lemma": "avidyā",
           "att": "AS",
           "where": "cp.10.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རིག་པའི",
+          "translit": "ma rig pa'i",
+          "lemma": "ma rig pa",
+          "att": "AO",
+          "where": "cp.10.m6"
         }
       ],
       "match": {
         "san": [
           "অবিদ্যা"
+        ],
+        "bod": [
+          "མ་རིག་པའི"
         ]
       },
       "matchRe": {},
@@ -355,12 +439,23 @@
           "lemma": "bhaga",
           "att": "AS",
           "where": "cp.10.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷ་ག",
+          "translit": "b+ha ga",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m6"
         }
       ],
       "match": {
         "san": [
           "ভগং",
           "ভগ"
+        ],
+        "bod": [
+          "བྷ་ག"
         ]
       },
       "matchRe": {},
@@ -420,6 +515,14 @@
           "lemma": "naukā",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུ",
+          "translit": "gru",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.4b"
         }
       ],
       "match": {
@@ -431,6 +534,9 @@
         "san": [
           "নৌকা",
           "নৌঃ"
+        ],
+        "bod": [
+          "གྲུ"
         ]
       },
       "matchRe": {},
@@ -550,6 +656,9 @@
           "বোধিচিত্ত",
           "বোধিচিত্তে",
           "বোধিচিত্তং"
+        ],
+        "bod": [
+          "བྱང་ཆུབ་ཀྱི་སེམས"
         ]
       },
       "matchRe": {},
@@ -588,11 +697,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.10.6b"
+        },
+        {
+          "lang": "bod",
+          "script": "རུས་ཕྲེང",
+          "translit": "rus phreng",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.6b"
         }
       ],
       "match": {
         "oben": [
           "হাড়েরি মালী"
+        ],
+        "bod": [
+          "རུས་ཕྲེང"
         ]
       },
       "matchRe": {},
@@ -638,6 +758,14 @@
           "lemma": "brāhmaṇa",
           "att": "AS",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བྲམ་ཟེའི",
+          "translit": "bram ze'i",
+          "lemma": "bram ze",
+          "att": "AO",
+          "where": "cp.10.1b"
         }
       ],
       "match": {
@@ -647,6 +775,9 @@
         "san": [
           "ব্রহ্মণেতি",
           "ব্রহ্মণ"
+        ],
+        "bod": [
+          "བྲམ་ཟེའི"
         ]
       },
       "matchRe": {},
@@ -702,6 +833,14 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉི་མ",
+          "translit": "nyi ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.5b"
         }
       ],
       "match": {
@@ -710,6 +849,9 @@
         ],
         "san": [
           "চবণং"
+        ],
+        "bod": [
+          "ཉི་མ"
         ]
       },
       "matchRe": {},
@@ -776,6 +918,9 @@
           "চর্য্যা",
           "চর্য্যাং",
           "চর্য্যাধর"
+        ],
+        "bod": [
+          "སྤྱོད་པ"
         ]
       },
       "matchRe": {},
@@ -819,6 +964,14 @@
           "lemma": "citta",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས",
+          "translit": "sems",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.1b"
         }
       ],
       "match": {
@@ -828,6 +981,9 @@
         "san": [
           "চিত্ত",
           "চিত্তং"
+        ],
+        "bod": [
+          "སེམས"
         ]
       },
       "matchRe": {},
@@ -871,6 +1027,14 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟླ་བ",
+          "translit": "zla ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.5b"
         }
       ],
       "match": {
@@ -879,6 +1043,9 @@
         ],
         "san": [
           "ধবনং"
+        ],
+        "bod": [
+          "ཟླ་བ"
         ]
       },
       "matchRe": {},
@@ -928,12 +1095,23 @@
           "lemma": "dhruvapada",
           "att": "AS",
           "where": "cp.14.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟན་པའི་རྐང་པས",
+          "translit": "brtan pa'i rkang pas",
+          "lemma": "brtan pa'i rkang pa",
+          "att": "AO",
+          "where": "cp.14.m3"
         }
       ],
       "match": {
         "san": [
           "ধ্রুবপদেন",
           "ধ্রুবপদ"
+        ],
+        "bod": [
+          "བརྟན་པའི་རྐང་པས"
         ]
       },
       "matchRe": {},
@@ -1027,6 +1205,22 @@
           "lemma": "ḍomba",
           "att": "AS",
           "where": "cp.14.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡུང་མོ",
+          "translit": "g.yung mo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཌོམྦི",
+          "translit": "Dom+bi",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.2a"
         }
       ],
       "match": {
@@ -1039,6 +1233,10 @@
           "ডোম্বী",
           "ডোম্বীতি",
           "ডোম্বিনী"
+        ],
+        "bod": [
+          "གཡུང་མོ",
+          "ཌོམྦི"
         ]
       },
       "matchRe": {},
@@ -1122,6 +1320,9 @@
         "san": [
           "একরসতয়া",
           "একরস"
+        ],
+        "bod": [
+          "རོ་གཅིག"
         ]
       },
       "matchRe": {},
@@ -1167,6 +1368,22 @@
           "lemma": "gagana",
           "att": "AS",
           "where": "cp.14.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ",
+          "translit": "nam mkha'",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའི",
+          "translit": "nam mkha'i",
+          "lemma": "nam mkha'",
+          "att": "AO",
+          "where": "cp.14.3b"
         }
       ],
       "match": {
@@ -1175,6 +1392,10 @@
         ],
         "san": [
           "গগন"
+        ],
+        "bod": [
+          "ནམ་མཁའ",
+          "ནམ་མཁའི"
         ]
       },
       "matchRe": {},
@@ -1223,12 +1444,23 @@
           "lemma": "grāhya",
           "att": "AS",
           "where": "cp.14.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུང་བ་དང་འཛིན་པ",
+          "translit": "gzung ba dang 'dzin pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.m2"
         }
       ],
       "match": {
         "san": [
           "গ্রাহ্যগ্রাহকৌ",
           "গ্রাহ্যগ্রাহকতয়া"
+        ],
+        "bod": [
+          "གཟུང་བ་དང་འཛིན་པ"
         ]
       },
       "matchRe": {},
@@ -1308,6 +1540,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.14.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ",
+          "translit": "bla ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ་དམ་པའི",
+          "translit": "bla ma dam pa'i",
+          "lemma": "bla ma dam pa",
+          "att": "AO",
+          "where": "cp.10.m7"
         }
       ],
       "match": {
@@ -1323,6 +1571,10 @@
           "সদ্গুরোঃ",
           "শ্রীগুরৌ",
           "সদ্গুরু"
+        ],
+        "bod": [
+          "བླ་མ",
+          "བླ་མ་དམ་པའི"
         ]
       },
       "matchRe": {},
@@ -1370,6 +1622,22 @@
           "lemma": "sampradāya",
           "att": "AS",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མའི་མན་ངག",
+          "translit": "bla ma'i man ngag",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མའི་དྲིན",
+          "translit": "bla ma'i drin",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m8"
         }
       ],
       "match": {
@@ -1378,6 +1646,10 @@
           "গুরুসম্প্রদায়",
           "অসম্প্রদায়",
           "সম্প্রদায়"
+        ],
+        "bod": [
+          "བླ་མའི་མན་ངག",
+          "བླ་མའི་དྲིན"
         ]
       },
       "matchRe": {},
@@ -1415,11 +1687,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.10.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ",
+          "translit": "khyim",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.1a"
         }
       ],
       "match": {
         "oben": [
           "কুড়িআ"
+        ],
+        "bod": [
+          "ཁྱིམ"
         ]
       },
       "matchRe": {},
@@ -1478,6 +1761,14 @@
           "lemma": "jina",
           "att": "AS",
           "where": "cp.14.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་བའི་ཕོ་བྲང",
+          "translit": "rgyal ba'i pho brang",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.2b"
         }
       ],
       "match": {
@@ -1487,6 +1778,9 @@
         "san": [
           "জিনপুর",
           "জিনপুরং"
+        ],
+        "bod": [
+          "རྒྱལ་བའི་ཕོ་བྲང"
         ]
       },
       "matchRe": {},
@@ -1545,12 +1839,23 @@
           "lemma": "kapardikā",
           "att": "AS",
           "where": "cp.14.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོན་བུ",
+          "translit": "'gron bu",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.5a"
         }
       ],
       "match": {
         "oben": [
           "কবডী",
           "কবড়ী"
+        ],
+        "bod": [
+          "འགྲོན་བུ"
         ]
       },
       "matchRe": {},
@@ -1596,6 +1901,22 @@
           "lemma": "kāla",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲ་གཅན",
+          "translit": "sgra gcan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དུས",
+          "translit": "dus",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
@@ -1604,6 +1925,10 @@
         ],
         "san": [
           "কালঃ"
+        ],
+        "bod": [
+          "སྒྲ་གཅན",
+          "དུས"
         ]
       },
       "matchRe": {},
@@ -1659,12 +1984,23 @@
           "lemma": "kāli",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཱ་ལི",
+          "translit": "kA li",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m6"
         }
       ],
       "match": {
         "san": [
           "কালিনা",
           "আলিকালি"
+        ],
+        "bod": [
+          "ཀཱ་ལི"
         ]
       },
       "matchRe": {},
@@ -1720,6 +2056,30 @@
           "lemma": "kāpālika",
           "att": "AS",
           "where": "cp.10.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐོད་པའི",
+          "translit": "thod pa'i",
+          "lemma": "thod pa",
+          "att": "AO",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་པཱ་ལི",
+          "translit": "ka pA li",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.6a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐོད་པ་ཅན",
+          "translit": "thod pa can",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m7"
         }
       ],
       "match": {
@@ -1730,6 +2090,11 @@
         "san": [
           "কাপালিকঃ",
           "কাপালিক"
+        ],
+        "bod": [
+          "ཐོད་པའི",
+          "ཀ་པཱ་ལི",
+          "ཐོད་པ་ཅན"
         ]
       },
       "matchRe": {},
@@ -1775,11 +2140,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.14.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱ་བ",
+          "translit": "skya ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.3a"
         }
       ],
       "match": {
         "oben": [
           "কেড়ুআল"
+        ],
+        "bod": [
+          "སྐྱ་བ"
         ]
       },
       "matchRe": {},
@@ -1830,11 +2206,22 @@
           "lemma": "kleśa",
           "att": "AS",
           "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉོན་མོངས",
+          "translit": "nyon mongs",
+          "lemma": "nyon mongs pa",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
         "san": [
           "ক্লেশ"
+        ],
+        "bod": [
+          "ཉོན་མོངས"
         ]
       },
       "matchRe": {},
@@ -1888,6 +2275,22 @@
           "lemma": "kūla",
           "att": "AS",
           "where": "cp.14.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དོགས",
+          "translit": "dogs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ངོགས",
+          "translit": "ngogs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.m6"
         }
       ],
       "match": {
@@ -1897,6 +2300,10 @@
         ],
         "san": [
           "কুলে"
+        ],
+        "bod": [
+          "དོགས",
+          "ངོགས"
         ]
       },
       "matchRe": {},
@@ -1953,6 +2360,14 @@
           "lemma": "sarovara",
           "att": "AS",
           "where": "cp.10.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "རྫིང་བུ",
+          "translit": "rdzing bu",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.7a"
         }
       ],
       "match": {
@@ -1962,6 +2377,9 @@
         "san": [
           "সরোবরং",
           "সরোবর"
+        ],
+        "bod": [
+          "རྫིང་བུ"
         ]
       },
       "matchRe": {},
@@ -2016,6 +2434,14 @@
           "lemma": "padma",
           "att": "AS",
           "where": "cp.10.m4, cp.10.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "པད",
+          "translit": "pad",
+          "lemma": "pad ma",
+          "att": "AO",
+          "where": "cp.10.3a"
         }
       ],
       "match": {
@@ -2024,6 +2450,9 @@
         ],
         "san": [
           "পদ্ম"
+        ],
+        "bod": [
+          "པད"
         ]
       },
       "matchRe": {},
@@ -2073,11 +2502,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.10.7a"
+        },
+        {
+          "lang": "bod",
+          "script": "པད་རྩ",
+          "translit": "pad rtsa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.7a"
         }
       ],
       "match": {
         "oben": [
           "মোলাণ"
+        ],
+        "bod": [
+          "པད་རྩ"
         ]
       },
       "matchRe": {},
@@ -2135,12 +2575,23 @@
           "lemma": "",
           "att": "AD",
           "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱག་རྒྱ་ཆེན་པོའི",
+          "translit": "phyag rgya chen po'i",
+          "lemma": "phyag rgya chen po",
+          "att": "AO",
+          "where": "cp.10.m3"
         }
       ],
       "match": {
         "san": [
           "মহামুদ্রাং",
           "মহামুদ্রা"
+        ],
+        "bod": [
+          "ཕྱག་རྒྱ་ཆེན་པོའི"
         ]
       },
       "matchRe": {},
@@ -2186,12 +2637,32 @@
           "lemma": "mahārāga",
           "att": "AS",
           "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་ཆགས་ཆེན་པོའི་ཚུལ",
+          "translit": "'dod chags chen po'i tshul",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆགས་པ་ཆེན་པོའི་ཚུལ",
+          "translit": "chags pa chen po'i tshul",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m5"
         }
       ],
       "match": {
         "san": [
           "মহারাগনয়",
           "মহারাগনয়ে"
+        ],
+        "bod": [
+          "འདོད་ཆགས་ཆེན་པོའི་ཚུལ",
+          "ཆགས་པ་ཆེན་པོའི་ཚུལ"
         ]
       },
       "matchRe": {},
@@ -2243,6 +2714,22 @@
           "lemma": "mahāsukha",
           "att": "AS",
           "where": "cp.14.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་ཆེན",
+          "translit": "bde chen",
+          "lemma": "bde ba chen po",
+          "att": "AO",
+          "where": "cp.01.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོའི",
+          "translit": "bde ba chen po'i",
+          "lemma": "bde ba chen po",
+          "att": "AO",
+          "where": "cp.10.m2"
         }
       ],
       "match": {
@@ -2253,6 +2740,10 @@
           "মহাসুখ",
           "মহাসুখং",
           "মহাসুখপুরং"
+        ],
+        "bod": [
+          "བདེ་ཆེན",
+          "བདེ་བ་ཆེན་པོའི"
         ]
       },
       "matchRe": {},
@@ -2290,12 +2781,23 @@
           "lemma": "mahāsukha",
           "att": "AS",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོའི་འཁོར་ལོ",
+          "translit": "bde ba chen po'i 'khor lo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m2"
         }
       ],
       "match": {
         "san": [
           "মহাসুখচক্রং",
           "মহাসুখচক্র"
+        ],
+        "bod": [
+          "བདེ་བ་ཆེན་པོའི་འཁོར་ལོ"
         ]
       },
       "matchRe": {},
@@ -2339,11 +2841,31 @@
           "lemma": "maṇimūla",
           "att": "AS",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནོར་བུའི་རྩ་བ",
+          "translit": "nor bu'i rtsa ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནོར་བུའི་རྩ་བར",
+          "translit": "nor bu'i rtsa bar",
+          "lemma": "nor bu'i rtsa ba",
+          "att": "AO",
+          "where": "cp.14.m4"
         }
       ],
       "match": {
         "san": [
           "মণিমূল"
+        ],
+        "bod": [
+          "ནོར་བུའི་རྩ་བ",
+          "ནོར་བུའི་རྩ་བར"
         ]
       },
       "matchRe": {},
@@ -2379,12 +2901,23 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.14.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "གདོལ་པའི་བུ་མོ",
+          "translit": "gdol pa'i bu mo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.1b"
         }
       ],
       "match": {
         "oben": [
           "মাতঙ্গি",
           "মাতঙ্গী"
+        ],
+        "bod": [
+          "གདོལ་པའི་བུ་མོ"
         ]
       },
       "matchRe": {},
@@ -2455,6 +2988,30 @@
           "lemma": "candra",
           "att": "AS",
           "where": "cp.14.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་དགས་མཚན",
+          "translit": "ri dgas mtshan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་བོང་འཛིན་པ",
+          "translit": "ri bong 'dzin pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟླ་བ",
+          "translit": "zla ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.4a"
         }
       ],
       "match": {
@@ -2468,6 +3025,11 @@
         "oben": [
           "চন্দ",
           "চান্দ"
+        ],
+        "bod": [
+          "རི་དགས་མཚན",
+          "རི་བོང་འཛིན་པ",
+          "ཟླ་བ"
         ]
       },
       "matchRe": {},
@@ -2582,6 +3144,30 @@
           "lemma": "nairātmya",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་པའི",
+          "translit": "bdag med pa'i",
+          "lemma": "bdag med pa",
+          "att": "AO",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་མར",
+          "translit": "bdag med mar",
+          "lemma": "bdag med ma",
+          "att": "AO",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་མས",
+          "translit": "bdag med mas",
+          "lemma": "bdag med ma",
+          "att": "AO",
+          "where": "cp.14.m2"
         }
       ],
       "match": {
@@ -2591,6 +3177,11 @@
           "নৈরাত্ময়া",
           "নৈরাত্মধর্ম্ম",
           "নৈরাত্মাধিগমং"
+        ],
+        "bod": [
+          "བདག་མེད་པའི",
+          "བདག་མེད་མར",
+          "བདག་མེད་མས"
         ]
       },
       "matchRe": {},
@@ -2636,12 +3227,32 @@
           "lemma": "nairātmya",
           "att": "AS",
           "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད",
+          "translit": "bdag med",
+          "lemma": "bdag med pa",
+          "att": "AO",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་པའི",
+          "translit": "bdag med pa'i",
+          "lemma": "bdag med pa",
+          "att": "AO",
+          "where": "cp.10.m1"
         }
       ],
       "match": {
         "san": [
           "নৈরাত্ম",
           "নৈরাত্ম্য"
+        ],
+        "bod": [
+          "བདག་མེད",
+          "བདག་མེད་པའི"
         ]
       },
       "matchRe": {},
@@ -2688,6 +3299,22 @@
           "lemma": "nirghṛṇa",
           "att": "AS",
           "where": "cp.10.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱུག་བྲོ་སྤངས",
+          "translit": "skyug bro spangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱུག་བྲོ་བ",
+          "translit": "skyug bro ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m3"
         }
       ],
       "match": {
@@ -2697,6 +3324,10 @@
         "san": [
           "নির্ঘৃণো",
           "নির্ঘৃণ"
+        ],
+        "bod": [
+          "སྐྱུག་བྲོ་སྤངས",
+          "སྐྱུག་བྲོ་བ"
         ]
       },
       "matchRe": {},
@@ -2743,12 +3374,23 @@
           "lemma": "",
           "att": "AD",
           "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྲུལ་པའི་འཁོར་ལོར",
+          "translit": "sprul pa'i 'khor lor",
+          "lemma": "sprul pa'i 'khor lo",
+          "att": "AO",
+          "where": "cp.10.m4"
         }
       ],
       "match": {
         "san": [
           "নির্ম্মাণচক্রং",
           "নির্ম্মাণচক্র"
+        ],
+        "bod": [
+          "སྤྲུལ་པའི་འཁོར་ལོར"
         ]
       },
       "matchRe": {},
@@ -2784,12 +3426,32 @@
           "lemma": "nirvāṇa",
           "att": "AS",
           "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱང་འདས",
+          "translit": "myang 'das",
+          "lemma": "mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱ་ངན་འདས",
+          "translit": "mya ngan 'das",
+          "lemma": "mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.10.m5"
         }
       ],
       "match": {
         "san": [
           "নির্ব্বাণ",
           "নির্ব্বাণঞ্চ"
+        ],
+        "bod": [
+          "མྱང་འདས",
+          "མྱ་ངན་འདས"
         ]
       },
       "matchRe": {},
@@ -2825,11 +3487,22 @@
           "lemma": "niṣpanna",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྫོགས་པའི་རིམ་པ",
+          "translit": "rdzogs pa'i rim pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "নিষ্পন্নক্রম"
+        ],
+        "bod": [
+          "རྫོགས་པའི་རིམ་པ"
         ]
       },
       "matchRe": {},
@@ -2865,12 +3538,23 @@
           "lemma": "āryadeva",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཕགས་པ་ལྷའི",
+          "translit": "'phags pa lha'i",
+          "lemma": "'phags pa lha",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "আর্য্যদেব",
           "আর্য্যদেবপাদৈঃ"
+        ],
+        "bod": [
+          "འཕགས་པ་ལྷའི"
         ]
       },
       "matchRe": {},
@@ -2916,6 +3600,14 @@
           "lemma": "bhagavat",
           "att": "AS",
           "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅོམ་ལྡན་འདས",
+          "translit": "bcom ldan 'das",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
@@ -2923,6 +3615,9 @@
           "ভগবতঃ",
           "ভগবতৈব",
           "ভগবতা"
+        ],
+        "bod": [
+          "བཅོམ་ལྡན་འདས"
         ]
       },
       "matchRe": {},
@@ -2968,12 +3663,23 @@
           "lemma": "ḍombī",
           "att": "AS",
           "where": "cp.14.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཌོམྦི་པའི་ཞབས",
+          "translit": "Dom+bi pa'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.h1"
         }
       ],
       "match": {
         "san": [
           "ডোম্বীপাদানাং",
           "ডোম্বীপাদ"
+        ],
+        "bod": [
+          "ཌོམྦི་པའི་ཞབས"
         ]
       },
       "matchRe": {},
@@ -3023,6 +3729,9 @@
         "san": [
           "হেরুকরূপেণ",
           "হেরুক"
+        ],
+        "bod": [
+          "ཧེ་རུ་ཀ"
         ]
       },
       "matchRe": {},
@@ -3117,6 +3826,22 @@
           "lemma": "",
           "att": "AD",
           "where": "standard Tibetan name for Kṛṣṇācārya; not checked against toh2293"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཱཧྞ",
+          "translit": "kAh+Na",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པའི་ཞབས",
+          "translit": "nag po spyod pa'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m1"
         }
       ],
       "match": {
@@ -3132,6 +3857,10 @@
         ],
         "oben": [
           "কাহ্ন"
+        ],
+        "bod": [
+          "ཀཱཧྞ",
+          "ནག་པོ་སྤྱོད་པའི་ཞབས"
         ]
       },
       "matchRe": {},
@@ -3186,6 +3915,22 @@
           "lemma": "lūyīpāda",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ལཱུ་ཡིས",
+          "translit": "lU yis",
+          "lemma": "lU yi",
+          "att": "AO",
+          "where": "cp.01.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལཱུ་ཡི",
+          "translit": "lU yi",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.5a"
         }
       ],
       "match": {
@@ -3196,6 +3941,10 @@
           "লূইপাদঃ",
           "লূয়ীপাদ",
           "লূয়ীপাদেন"
+        ],
+        "bod": [
+          "ལཱུ་ཡིས",
+          "ལཱུ་ཡི"
         ]
       },
       "matchRe": {},
@@ -3231,12 +3980,23 @@
           "lemma": "nāgārjuna",
           "att": "AS",
           "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀླུ་སྒྲུབ",
+          "translit": "klu sgrub",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
         "san": [
           "নাগার্জ্জুন",
           "নাগার্জ্জুনপাদৈঃ"
+        ],
+        "bod": [
+          "ཀླུ་སྒྲུབ"
         ]
       },
       "matchRe": {},
@@ -3272,12 +4032,23 @@
           "lemma": "rāhu",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲ་གཅན",
+          "translit": "sgra gcan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "রাহু",
           "রাহুঃ"
+        ],
+        "bod": [
+          "སྒྲ་གཅན"
         ]
       },
       "matchRe": {},
@@ -3315,6 +4086,14 @@
           "lemma": "saraha",
           "att": "AS",
           "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ར་ཧའི",
+          "translit": "sa ra ha'i",
+          "lemma": "sa ra ha",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
@@ -3322,6 +4101,9 @@
           "সরহ",
           "সরহপাদ",
           "সরহপাদৈঃ"
+        ],
+        "bod": [
+          "ས་ར་ཧའི"
         ]
       },
       "matchRe": {},
@@ -3357,12 +4139,23 @@
           "lemma": "vajrasattva",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་སེམས་དཔའི",
+          "translit": "rdo rje sems dpa'i",
+          "lemma": "rdo rje sems dpa'",
+          "att": "AO",
+          "where": "cp.01.m6"
         }
       ],
       "match": {
         "san": [
           "বজ্রসত্ত্ব",
           "বজ্রসত্ত্বস্য"
+        ],
+        "bod": [
+          "རྡོ་རྗེ་སེམས་དཔའི"
         ]
       },
       "matchRe": {},
@@ -3416,6 +4209,14 @@
           "lemma": "pada",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་པ",
+          "translit": "rkang pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m4"
         }
       ],
       "match": {
@@ -3423,6 +4224,9 @@
           "পদান্তরেণ",
           "তৃতীয়পদ",
           "চতুর্থপদেন"
+        ],
+        "bod": [
+          "རྐང་པ"
         ]
       },
       "matchRe": {},
@@ -3476,12 +4280,32 @@
           "lemma": "pañcakrama",
           "att": "AS",
           "where": "cp.14.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རིམ་པ་ལྔ",
+          "translit": "rim pa lnga",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རིམ་པ་ལྔའི",
+          "translit": "rim pa lnga'i",
+          "lemma": "rim pa lnga",
+          "att": "AO",
+          "where": "cp.14.m4"
         }
       ],
       "match": {
         "san": [
           "পঞ্চক্রম",
           "পঞ্চক্রমানুপূর্ব্বেণ"
+        ],
+        "bod": [
+          "རིམ་པ་ལྔ",
+          "རིམ་པ་ལྔའི"
         ]
       },
       "matchRe": {},
@@ -3528,6 +4352,22 @@
           "lemma": "pāra",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲོལ་བར་བྱེད",
+          "translit": "sgrol bar byed",
+          "lemma": "sgrol ba",
+          "att": "AO",
+          "where": "cp.14.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕ་རོལ",
+          "translit": "pha rol",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.5a"
         }
       ],
       "match": {
@@ -3536,6 +4376,10 @@
         ],
         "san": [
           "পারং"
+        ],
+        "bod": [
+          "སྒྲོལ་བར་བྱེད",
+          "ཕ་རོལ"
         ]
       },
       "matchRe": {},
@@ -3584,11 +4428,22 @@
           "lemma": "paṭamañjarī",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "པ་ཊ་ཧའི་སྙེ་མ",
+          "translit": "pa Ta ha'i snye ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "পটমঞ্জরী"
+        ],
+        "bod": [
+          "པ་ཊ་ཧའི་སྙེ་མ"
         ]
       },
       "matchRe": {},
@@ -3632,6 +4487,14 @@
           "lemma": "gaṅgā",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གངྒཱ",
+          "translit": "gang+gA",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.1a"
         }
       ],
       "match": {
@@ -3640,6 +4503,9 @@
         ],
         "san": [
           "গঙ্গা"
+        ],
+        "bod": [
+          "གངྒཱ"
         ]
       },
       "matchRe": {},
@@ -3699,6 +4565,14 @@
           "lemma": "yamunā",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡ་མུ་ན",
+          "translit": "ya mu na",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.1a"
         }
       ],
       "match": {
@@ -3707,6 +4581,9 @@
         ],
         "san": [
           "যমুনা"
+        ],
+        "bod": [
+          "ཡ་མུ་ན"
         ]
       },
       "matchRe": {},
@@ -3767,6 +4644,14 @@
           "lemma": "",
           "att": "AD",
           "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐབས་དང་ཤེས་རབ",
+          "translit": "thabs dang shes rab",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m3"
         }
       ],
       "match": {
@@ -3774,6 +4659,9 @@
           "প্রজ্ঞোপায়াত্মিকাং",
           "প্রজ্ঞোপায়াত্মকং",
           "প্রজ্ঞোপায়"
+        ],
+        "bod": [
+          "ཐབས་དང་ཤེས་རབ"
         ]
       },
       "matchRe": {},
@@ -3817,6 +4705,14 @@
           "lemma": "pulinda",
           "att": "AS",
           "where": "cp.14.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བུ་ལིནྡ",
+          "translit": "bu lin+da",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.4a"
         }
       ],
       "match": {
@@ -3825,6 +4721,9 @@
         ],
         "san": [
           "পুলিন্দং"
+        ],
+        "bod": [
+          "བུ་ལིནྡ"
         ]
       },
       "matchRe": {},
@@ -3898,11 +4797,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.14.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "གླུ་དབྱངས",
+          "translit": "glu dbyangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.h1"
         }
       ],
       "match": {
         "oben": [
           "রাগ"
+        ],
+        "bod": [
+          "གླུ་དབྱངས"
         ]
       },
       "matchRe": {},
@@ -3981,12 +4891,41 @@
           "lemma": "sahaja",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་སྐྱེས",
+          "translit": "lhan skyes",
+          "lemma": "lhan cig skyes pa",
+          "att": "AO",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས",
+          "translit": "lhan cig skyes",
+          "lemma": "lhan cig skyes pa",
+          "att": "AO",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་པའི",
+          "translit": "lhan cig skyes pa'i",
+          "lemma": "lhan cig skyes pa",
+          "att": "AO",
+          "where": "cp.14.m2"
         }
       ],
       "match": {
         "san": [
           "সহজ",
           "সহজং"
+        ],
+        "bod": [
+          "ལྷན་སྐྱེས",
+          "ལྷན་ཅིག་སྐྱེས",
+          "ལྷན་ཅིག་སྐྱེས་པའི"
         ]
       },
       "matchRe": {},
@@ -4025,12 +4964,32 @@
           "lemma": "sahajānanda",
           "att": "AS",
           "where": "cp.14.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བ",
+          "translit": "lhan cig skyes pa'i dga' ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བས",
+          "translit": "lhan cig skyes pa'i dga' bas",
+          "lemma": "lhan cig skyes pa'i dga' ba",
+          "att": "AO",
+          "where": "cp.14.m4"
         }
       ],
       "match": {
         "san": [
           "সহজানন্দেন",
           "সহজানন্দ"
+        ],
+        "bod": [
+          "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བ",
+          "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བས"
         ]
       },
       "matchRe": {},
@@ -4101,6 +5060,14 @@
           "lemma": "samādhi",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏིང་འཛིན",
+          "translit": "ting 'dzin",
+          "lemma": "ting nge 'dzin",
+          "att": "AO",
+          "where": "cp.01.3a"
         }
       ],
       "match": {
@@ -4114,6 +5081,9 @@
           "সমাধয়ঃ",
           "সমাধিভিঃ",
           "সমাধিং"
+        ],
+        "bod": [
+          "ཏིང་འཛིན"
         ]
       },
       "matchRe": {},
@@ -4151,11 +5121,22 @@
           "lemma": "samaya",
           "att": "AS",
           "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དམ་ཚིག",
+          "translit": "dam tshig",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
         "san": [
           "সময়সঙ্কেতদ্রব্য"
+        ],
+        "bod": [
+          "དམ་ཚིག"
         ]
       },
       "matchRe": {},
@@ -4217,6 +5198,22 @@
           "lemma": "saṃsāra",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་བར",
+          "translit": "'khor bar",
+          "lemma": "'khor ba",
+          "att": "AO",
+          "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་བའི",
+          "translit": "'khor ba'i",
+          "lemma": "'khor ba",
+          "att": "AO",
+          "where": "cp.10.m6"
         }
       ],
       "match": {
@@ -4225,6 +5222,10 @@
           "সংসারম্",
           "সংসারচক্রং",
           "সংসারস্য"
+        ],
+        "bod": [
+          "འཁོར་བར",
+          "འཁོར་བའི"
         ]
       },
       "matchRe": {},
@@ -4285,6 +5286,9 @@
         "san": [
           "সংবৃত্তি",
           "সংবৃত্ত্যা"
+        ],
+        "bod": [
+          "ཀུན་རྫོབ"
         ]
       },
       "matchRe": {},
@@ -4339,6 +5343,14 @@
           "lemma": "sandhyābhāṣā",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དགོངས་པའི་སྐད",
+          "translit": "dgongs pa'i skad",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m1"
         }
       ],
       "match": {
@@ -4348,6 +5360,9 @@
           "সন্ধ্যাভাষা",
           "সন্ধ্যাভাষয়া",
           "সন্ধ্যয়া"
+        ],
+        "bod": [
+          "དགོངས་པའི་སྐད"
         ]
       },
       "matchRe": {},
@@ -4383,11 +5398,22 @@
           "lemma": "satyadvaya",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེན་པ་གཉིས",
+          "translit": "bden pa gnyis",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "সত্যদ্বয়"
+        ],
+        "bod": [
+          "བདེན་པ་གཉིས"
         ]
       },
       "matchRe": {},
@@ -4457,6 +5483,30 @@
           "lemma": "",
           "att": "AD",
           "where": "standard Tibetan equivalent; not checked against toh2293"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུབ་པ",
+          "translit": "grub pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུབ་པའི་སློབ་དཔོན",
+          "translit": "grub pa'i slob dpon",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུབ་པའི",
+          "translit": "grub pa'i",
+          "lemma": "grub pa",
+          "att": "AO",
+          "where": "cp.14.m1"
         }
       ],
       "match": {
@@ -4464,6 +5514,11 @@
           "সিদ্ধ",
           "সিদ্ধাচার্য্য",
           "সিদ্ধাচার্য্যেণ"
+        ],
+        "bod": [
+          "གྲུབ་པ",
+          "གྲུབ་པའི་སློབ་དཔོན",
+          "གྲུབ་པའི"
         ]
       },
       "matchRe": {},
@@ -4510,12 +5565,23 @@
           "lemma": "siddhi",
           "att": "AS",
           "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་གྲུབ",
+          "translit": "dngos grub",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "সিদ্ধি",
           "সিদ্ধিঃ"
+        ],
+        "bod": [
+          "དངོས་གྲུབ"
         ]
       },
       "matchRe": {},
@@ -4561,6 +5627,14 @@
           "lemma": "skandha",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕུང་པོ",
+          "translit": "phung po",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
@@ -4568,6 +5642,9 @@
           "স্কন্ধ",
           "স্কন্ধাঃ",
           "পঞ্চস্কন্ধাঃ"
+        ],
+        "bod": [
+          "ཕུང་པོ"
         ]
       },
       "matchRe": {},
@@ -4613,6 +5690,14 @@
           "lemma": "sṛṣṭi",
           "att": "AS",
           "where": "cp.14.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བསྐྱེད་དང་སྡུད་པ",
+          "translit": "bskyed dang sdud pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.4a"
         }
       ],
       "match": {
@@ -4621,6 +5706,9 @@
         ],
         "san": [
           "সৃষ্টিসংহার"
+        ],
+        "bod": [
+          "བསྐྱེད་དང་སྡུད་པ"
         ]
       },
       "matchRe": {},
@@ -4664,6 +5752,14 @@
           "lemma": "śūnyatā",
           "att": "AS",
           "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་ཉིད",
+          "translit": "stong nyid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.4b"
         }
       ],
       "match": {
@@ -4674,6 +5770,9 @@
         "san": [
           "শূন্যতা",
           "শূন্যতাপক্ষ"
+        ],
+        "bod": [
+          "སྟོང་ཉིད"
         ]
       },
       "matchRe": {},
@@ -4717,6 +5816,14 @@
           "lemma": "sūrya",
           "att": "AS",
           "where": "cp.14.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉི་མ",
+          "translit": "nyi ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.4a"
         }
       ],
       "match": {
@@ -4725,6 +5832,9 @@
         ],
         "san": [
           "সূর্য্য"
+        ],
+        "bod": [
+          "ཉི་མ"
         ]
       },
       "matchRe": {},
@@ -4800,11 +5910,31 @@
           "lemma": "svarūpa",
           "att": "AS",
           "where": "cp.10.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན",
+          "translit": "rang bzhin",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ངོ་བོ་ཉིད",
+          "translit": "ngo bo nyid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m6"
         }
       ],
       "match": {
         "san": [
           "স্বরূপ"
+        ],
+        "bod": [
+          "རང་བཞིན",
+          "ངོ་བོ་ཉིད"
         ]
       },
       "matchRe": {},
@@ -4851,6 +5981,14 @@
           "lemma": "tantrī",
           "att": "AS",
           "where": "cp.10.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱུད",
+          "translit": "rgyud",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.5a"
         }
       ],
       "match": {
@@ -4859,6 +5997,9 @@
         ],
         "san": [
           "তন্ত্রী"
+        ],
+        "bod": [
+          "རྒྱུད"
         ]
       },
       "matchRe": {},
@@ -4917,6 +6058,14 @@
           "lemma": "taru",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྗོན་ཤིང་མཆོག",
+          "translit": "ljon shing mchog",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.1a"
         }
       ],
       "match": {
@@ -4926,6 +6075,9 @@
         "san": [
           "কায়স্তরুবরঃ",
           "কায়তরুবরত্বেন"
+        ],
+        "bod": [
+          "ལྗོན་ཤིང་མཆོག"
         ]
       },
       "matchRe": {},
@@ -4995,6 +6147,9 @@
       "match": {
         "san": [
           "তথাগত"
+        ],
+        "bod": [
+          "དེ་བཞིན་གཤེགས་པ"
         ]
       },
       "matchRe": {},
@@ -5040,6 +6195,14 @@
           "lemma": "tīrthika",
           "att": "AS",
           "where": "cp.01.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མུ་སྟེགས",
+          "translit": "mu stegs",
+          "lemma": "mu stegs pa",
+          "att": "AO",
+          "where": "cp.01.m4"
         }
       ],
       "match": {
@@ -5047,6 +6210,9 @@
           "তীর্থিক",
           "বুদ্ধতীর্থিকৈঃ",
           "বুদ্ধতীর্থিকো"
+        ],
+        "bod": [
+          "མུ་སྟེགས"
         ]
       },
       "matchRe": {},
@@ -5100,6 +6266,14 @@
           "lemma": "nagara",
           "att": "AS",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲོང་ཁྱེར",
+          "translit": "grong khyer",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.1a"
         }
       ],
       "match": {
@@ -5110,6 +6284,9 @@
           "নগরী",
           "নগরিকা",
           "নগরিকেতি"
+        ],
+        "bod": [
+          "གྲོང་ཁྱེར"
         ]
       },
       "matchRe": {},
@@ -5160,12 +6337,23 @@
           "lemma": "guhyasamāja",
           "att": "AS",
           "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གསང་བ་འདུས་པ",
+          "translit": "gsang ba 'dus pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
         "san": [
           "শ্রীসমাজে",
           "শ্রীসমাজ"
+        ],
+        "bod": [
+          "གསང་བ་འདུས་པ"
         ]
       },
       "matchRe": {},
@@ -5228,6 +6416,30 @@
           "lemma": "",
           "att": "AD",
           "where": "standard Tibetan title; not checked against toh2293"
+        },
+        {
+          "lang": "bod",
+          "script": "དགྱེས་པའི་རྡོ་རྗེ",
+          "translit": "dgyes pa'i rdo rje",
+          "lemma": "dgyes pa rdo rje",
+          "att": "AO",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟག་པ་གཉིས་པ",
+          "translit": "brtag pa gnyis pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔལ་དགྱེས་པའི་རྡོ་རྗེ",
+          "translit": "dpal dgyes pa'i rdo rje",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m3"
         }
       ],
       "match": {
@@ -5236,6 +6448,11 @@
           "হেবজ্রে",
           "দ্বিকল্পে",
           "হেবজ্র"
+        ],
+        "bod": [
+          "དགྱེས་པའི་རྡོ་རྗེ",
+          "བརྟག་པ་གཉིས་པ",
+          "དཔལ་དགྱེས་པའི་རྡོ་རྗེ"
         ]
       },
       "matchRe": {},
@@ -5271,11 +6488,22 @@
           "lemma": "rativajra",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ར་ཏི་བཛྲ",
+          "translit": "ra ti badzra",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "রতিবজ্র"
+        ],
+        "bod": [
+          "ར་ཏི་བཛྲ"
         ]
       },
       "matchRe": {},
@@ -5313,12 +6541,23 @@
           "lemma": "sampuṭa",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སཾ་པུཊ་འབྱུང་བའི",
+          "translit": "saM puT 'byung ba'i",
+          "lemma": "saM puT 'byung ba",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "সম্পুটোদ্ভব",
           "সম্পুটোদ্ভবতন্ত্ররাজে"
+        ],
+        "bod": [
+          "སཾ་པུཊ་འབྱུང་བའི"
         ]
       },
       "matchRe": {},
@@ -5364,6 +6603,14 @@
           "lemma": "upadeśa",
           "att": "AS",
           "where": "cp.01.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མན་ངག",
+          "translit": "man ngag",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
@@ -5371,6 +6618,9 @@
           "উপদেশ",
           "হিতোপদেশ",
           "চতুর্থোপদেশ"
+        ],
+        "bod": [
+          "མན་ངག"
         ]
       },
       "matchRe": {},
@@ -5424,6 +6674,14 @@
           "lemma": "vajra",
           "att": "AS",
           "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ",
+          "translit": "rdo rje",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m3"
         }
       ],
       "match": {
@@ -5431,6 +6689,9 @@
           "বজ্র",
           "কুলিশ",
           "কুলিশেন"
+        ],
+        "bod": [
+          "རྡོ་རྗེ"
         ]
       },
       "matchRe": {},
@@ -5476,11 +6737,22 @@
           "lemma": "vilakṣaṇa",
           "att": "AS",
           "where": "cp.14.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་ཉིད་དང་བྲལ་བས",
+          "translit": "mtshan nyid dang bral bas",
+          "lemma": "mtshan nyid dang bral ba",
+          "att": "AO",
+          "where": "cp.14.m5"
         }
       ],
       "match": {
         "san": [
           "বিলক্ষণ"
+        ],
+        "bod": [
+          "མཚན་ཉིད་དང་བྲལ་བས"
         ]
       },
       "matchRe": {},
@@ -5527,12 +6799,41 @@
           "lemma": "viramānanda",
           "att": "AS",
           "where": "cp.14.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱད་པར་གྱིས་དགའ་བ",
+          "translit": "khyad par gyis dga' ba",
+          "lemma": "khyad par dga' ba",
+          "att": "AO",
+          "where": "cp.01.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བྲལ",
+          "translit": "dga' bral",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱད་པར་གྱི་དགའ་བ",
+          "translit": "khyad par gyi dga' ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.m2"
         }
       ],
       "match": {
         "san": [
           "বিরমানন্দাৎ",
           "বিরমানন্দ"
+        ],
+        "bod": [
+          "ཁྱད་པར་གྱིས་དགའ་བ",
+          "དགའ་བྲལ",
+          "ཁྱད་པར་གྱི་དགའ་བ"
         ]
       },
       "matchRe": {},
@@ -5579,12 +6880,23 @@
           "lemma": "viṣaya",
           "att": "AS",
           "where": "cp.10.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡུལ",
+          "translit": "yul",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "বিষয়",
           "ষিষয়"
+        ],
+        "bod": [
+          "ཡུལ"
         ]
       },
       "matchRe": {},
@@ -5620,11 +6932,22 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.14.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་ལོ",
+          "translit": "'khor lo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.14.4a"
         }
       ],
       "match": {
         "oben": [
           "চকা"
+        ],
+        "bod": [
+          "འཁོར་ལོ"
         ]
       },
       "matchRe": {},
@@ -5673,6 +6996,14 @@
           "lemma": "yogin",
           "att": "AS",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར",
+          "translit": "rnal 'byor",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.2b"
         }
       ],
       "match": {
@@ -5681,6 +7012,9 @@
         ],
         "san": [
           "যোগিনাং"
+        ],
+        "bod": [
+          "རྣལ་འབྱོར"
         ]
       },
       "matchRe": {},
@@ -5726,12 +7060,23 @@
           "lemma": "yogīndra",
           "att": "AS",
           "where": "cp.14.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་གྱི་དབང་ཕྱུག",
+          "translit": "rnal 'byor gyi dbang phyug",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.10.m7"
         }
       ],
       "match": {
         "san": [
           "যোগীন্দ্র",
           "যোগীন্দ্রস্য"
+        ],
+        "bod": [
+          "རྣལ་འབྱོར་གྱི་དབང་ཕྱུག"
         ]
       },
       "matchRe": {},
@@ -5770,12 +7115,23 @@
           "lemma": "yuganaddha",
           "att": "AS",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟུང་འཇུག",
+          "translit": "zung 'jug",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.01.m2"
         }
       ],
       "match": {
         "san": [
           "যুগনদ্ধ",
           "যুগনদ্ধরূপং"
+        ],
+        "bod": [
+          "ཟུང་འཇུག"
         ]
       },
       "matchRe": {},

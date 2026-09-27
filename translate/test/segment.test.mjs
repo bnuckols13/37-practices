@@ -163,3 +163,13 @@ test('tengyur import: folio lines joined, a line per pāda, sentence and lemma, 
     '༄༅།', '།ཀ་ཁ།', '།ག་ང་བ།', '།ཅ་ཆ་ཇ་ཉག', '།ཏ་ཐ།', 'དེ་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་ན་པ། ཡིན། ཞ', '',
   ].join('\n'));
 });
+
+test('Tibetan forms match whole syllables, with particles written onto the last one', async () => {
+  const { tibetanIndex } = await import('../lib/translit/tibetan.mjs');
+  assert.equal(tibetanIndex('།གཡོ་བའི་སེམས་ལ་སྒྲ་གཅན་རབ་ཏུ་འཇུག', 'སྒྲ་གཅན'), 16);
+  assert.equal(tibetanIndex('གཅིག་ཉིད་པད་འདབ', 'པད'), 9, 'pad as a syllable');
+  assert.equal(tibetanIndex('སྤྲུལ་པའི་འཁོར་ལོར་པདྨ', 'པད'), -1, 'not inside pad+ma');
+  assert.equal(tibetanIndex('བདག་མེད་མས་', 'བདག་མེད་མ'), 0, 'with the -s particle');
+  assert.equal(tibetanIndex('བདག་མེད་མར་', 'བདག་མེད་མ་'), 0, 'a trailing tsheg in the form is ignored');
+  assert.equal(tibetanIndex('ཀྱེའི་གཡུང་མོ', 'གཡུ'), -1, 'not part of a syllable (g.yu in g.yung)');
+});

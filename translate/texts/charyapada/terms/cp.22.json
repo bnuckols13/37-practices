@@ -1,0 +1,1313 @@
+{
+  "unit": "cp.22",
+  "proposals": [
+    {
+      "id": "marana",
+      "type": "term",
+      "en": "death",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মরণ",
+          "translit": "maraṇa",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "মরণে",
+          "translit": "maraṇe",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.4a"
+        },
+        {
+          "lang": "san",
+          "script": "মরণাদিভয়ম্বা",
+          "translit": "maraṇādibhayaṃ vā",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "san",
+          "script": "মরণাদিভয়ে",
+          "translit": "maraṇādibhaye",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི་བ",
+          "translit": "'chi ba",
+          "lemma": "'chi ba",
+          "att": "AO",
+          "where": "cp.22.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི",
+          "translit": "'chi",
+          "lemma": "'chi ba",
+          "att": "AO",
+          "where": "cp.22.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འཆི་བ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মরণ"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মরণ"
+        }
+      ],
+      "definition": "Death (Sanskrit maraṇa; Tibetan 'chi ba). Song 22 pairs it with birth (jāma) throughout: it asks how birth, death and existence come about, and says birth and death are alike (2b, 3a). Munidatta says a yogin who fears death and the like turns to alchemy, while 'we' are without doubt or concepts about that fear (cp.22.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Death, paired with birth, is the theme of song 22 and had no entry of its own; 'death' is the plain rendering, distinct from Kāla and from the Māra of death."
+    },
+    {
+      "id": "rasayana",
+      "type": "term",
+      "en": "alchemy",
+      "policy": "translate",
+      "alt": [
+        "elixir"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রসানেরে",
+          "translit": "rasānere",
+          "lemma": "rasāna",
+          "att": "AS",
+          "where": "cp.22.4b"
+        },
+        {
+          "lang": "san",
+          "script": "রসায়নে",
+          "translit": "rasāyane",
+          "lemma": "rasāyana",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅུད་ལེན",
+          "translit": "bcud len",
+          "lemma": "bcud len",
+          "att": "AO",
+          "where": "cp.22.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གསེར་འགྱུར",
+          "translit": "gser 'gyur",
+          "lemma": "gser 'gyur",
+          "att": "AO",
+          "where": "cp.22.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "রসানের"
+        },
+        {
+          "lang": "san",
+          "form": "রসায়ন"
+        },
+        {
+          "lang": "bod",
+          "form": "བཅུད་ལེན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Rasāyana: in Indian medicine, rejuvenating treatment; in alchemy, the making of elixirs, often of mercury (rasa), meant to make the body ageless and deathless. In song 22 the one who fears birth and death pursues rasa and rasāyana (4b); Munidatta speaks of various procedures of rasāyana (cp.22.m5). The Tibetan has bcud len, 'extracting essence', and gser 'gyur, 'turning to gold'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of Indian medicine and alchemy that a reader needs explained; 'alchemy' suits both the song and Munidatta, with 'elixir' as a variant."
+    },
+    {
+      "id": "acintya",
+      "type": "term",
+      "en": "inconceivable",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অচিন্ত",
+          "translit": "acinta",
+          "lemma": "acinta",
+          "att": "AS",
+          "where": "cp.22.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্বরূপপরিজ্ঞানেনাচিন্ত্যা",
+          "translit": "bhāvasvarūpaparijñānenācintyā",
+          "lemma": "acintya",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "অচিন্ত্যো",
+          "translit": "acintyo",
+          "lemma": "acintya",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "བསམ་མེད",
+          "translit": "bsam med",
+          "lemma": "bsam med",
+          "att": "AO",
+          "where": "cp.22.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "བསམ་དུ་མེད་པ",
+          "translit": "bsam du med pa",
+          "lemma": "bsam du med pa",
+          "att": "AO",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অচিন্ত"
+        },
+        {
+          "lang": "san",
+          "form": "অচিন্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "བསམ་མེད"
+        },
+        {
+          "lang": "bod",
+          "form": "བསམ་དུ་མེད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=\\u09BE)চিন্ত্য"
+        }
+      ],
+      "definition": "Inconceivable (acintya): beyond the reach of thought. In song 22 the poet calls himself an acinta yogin (2a) and says 'that dhāma is acinta' (6b). Munidatta renders it acintya: through knowing the true nature of things by the guru's grace, 'we are inconceivable yogins' (cp.22.m3). The Tibetan has bsam med, which can also mean 'without thought'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A key word of the refrain and the bhaṇitā of song 22 and a standard term for what lies beyond concepts; 'inconceivable' follows Munidatta's acintya."
+    },
+    {
+      "id": "karma",
+      "type": "term",
+      "en": "action",
+      "policy": "translate",
+      "alt": [
+        "karma"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাম",
+          "translit": "kāma",
+          "lemma": "kāma",
+          "att": "AS",
+          "where": "cp.22.6a"
+        },
+        {
+          "lang": "oben",
+          "script": "কামে",
+          "translit": "kāme",
+          "lemma": "kāma",
+          "att": "AS",
+          "where": "cp.22.6a"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ত্তৃকর্ম্মবিহীনস্য",
+          "translit": "karttṛkarmmavihīnasya",
+          "lemma": "karman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্ম",
+          "translit": "karmma",
+          "lemma": "karman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্মণা",
+          "translit": "karmmaṇā",
+          "lemma": "karman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "ལས",
+          "translit": "las",
+          "lemma": "las",
+          "att": "AO",
+          "where": "cp.22.6a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কর্ম"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কামে?(?=\\s+(?:কি|জাম)(?![\\p{L}\\p{M}]))"
+        }
+      ],
+      "definition": "Action or deed (Sanskrit karman; Tibetan las), and the force of past deeds that brings rebirth. Song 22 asks whether kāma comes from birth or birth from kāma (6a); Munidatta and the Tibetan read kāma as karman, though the same spelling means 'desire'. Munidatta calls the lord of yogis free of agent and action (cp.22.m7).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The last couplet of song 22 turns on birth and action, and Munidatta's karman had no entry; 'action' also fits his 'agent and action', with 'karma' as a variant."
+    },
+    {
+      "id": "utpada",
+      "type": "term",
+      "en": "arising",
+      "policy": "translate",
+      "alt": [
+        "birth",
+        "origination"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপাদস্বরূপমাহুঃ",
+          "translit": "utpādasvarūpam āhuḥ",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "কস্যোৎপাদো",
+          "translit": "kasyotpādo",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "যস্যোৎপাদো",
+          "translit": "yasyotpādo",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "উৎপাদশ্চ",
+          "translit": "utpādaś ca",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ",
+          "translit": "skye ba",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.22.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:উ|(?<=\\u09CB))\\u09CEপাদ(?!ভঙ্গ|\\u09AF\\u09BC|\\u09BF|ন)"
+        }
+      ],
+      "definition": "Arising or origination (utpāda): a thing's coming into being, which Madhyamaka argues never truly takes place. Munidatta uses it for the song's birth (jāma): his second verse states 'the nature of arising', since for one who understands selflessness nothing arises, and what has no arising has no perishing (cp.22.m4). The Tibetan has skye ba, 'birth'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's key word on song 22, used alone as well as in the pair 'arising and perishing'; 'arising' matches that entry, with 'birth' as a variant where the Tibetan reads it so."
+    },
+    {
+      "id": "amaratva",
+      "type": "term",
+      "en": "deathlessness",
+      "policy": "translate",
+      "alt": [
+        "immortality"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুমার্গালব্ধত্বাদমরত্বং",
+          "translit": "gurumārgālabdhatvād amaratvaṃ",
+          "lemma": "amaratva",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི་བ་མེད་པ་ཉིད",
+          "translit": "'chi ba med pa nyid",
+          "lemma": "'chi ba med pa nyid",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অমরত্ব"
+        },
+        {
+          "lang": "bod",
+          "form": "འཆི་བ་མེད་པ་ཉིད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=[\\u0995-\\u09B9\\u09DC\\u09DD])মরত্ব"
+        }
+      ],
+      "definition": "Deathlessness (amaratva): freedom from death, the aim of alchemy and of yogic practices for immortality. Munidatta's gloss on the song's 'ageless and deathless' (5b): novice yogins who roam the world, or reach the heaven of the gods by mantras and herbs, do not attain deathlessness, since they lack the guru's path (cp.22.m6). The Tibetan has 'chi ba med pa nyid.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's abstract noun for the song's ajarāmara; its own entry lets it be rendered 'deathlessness' rather than 'ageless and deathless'."
+    },
+    {
+      "id": "sacaracara",
+      "type": "term",
+      "en": "the moving and the unmoving",
+      "policy": "translate",
+      "alt": [
+        "all that moves and does not move"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সচরাচর",
+          "translit": "sacarācara",
+          "lemma": "carācara",
+          "att": "AS",
+          "where": "cp.22.5a"
+        },
+        {
+          "lang": "san",
+          "script": "সচরাচরে",
+          "translit": "sacarācare",
+          "lemma": "carācara",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡོ་དང་མི་གཡོ",
+          "translit": "g.yo dang mi g.yo",
+          "lemma": "g.yo ba dang mi g.yo ba",
+          "att": "AO",
+          "where": "cp.22.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡོ་བ་དང་མི་གཡོ་བ",
+          "translit": "g.yo ba dang mi g.yo ba",
+          "lemma": "g.yo ba dang mi g.yo ba",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চরাচর"
+        },
+        {
+          "lang": "san",
+          "form": "চরাচর"
+        },
+        {
+          "lang": "bod",
+          "form": "གཡོ་དང་མི་གཡོ"
+        },
+        {
+          "lang": "bod",
+          "form": "གཡོ་བ་དང་མི་གཡོ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sacarācara, 'with the moving and the unmoving': beings that move and things that do not, a stock Sanskrit phrase for the whole world. In song 22 some roam sacarācara (5a); Munidatta places them in the great places of Jambudvīpa (cp.22.m6). The Tibetan has g.yo dang mi g.yo, 'moving and unmoving'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A stock cosmological phrase a reader may not know; the literal rendering keeps the pair."
+    },
+    {
+      "id": "tridasa",
+      "type": "term",
+      "en": "the Thirty",
+      "policy": "translate",
+      "alt": [
+        "the gods",
+        "heaven of the Thirty-three"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিঅস",
+          "translit": "tiasa",
+          "lemma": "tiasa",
+          "att": "AS",
+          "where": "cp.22.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রিদশং",
+          "translit": "tridaśaṃ",
+          "lemma": "tridaśa",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སུམ་ཅུ་རྩ་གསུམ",
+          "translit": "sum cu rtsa gsum",
+          "lemma": "sum cu rtsa gsum",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্রিদশ"
+        },
+        {
+          "lang": "bod",
+          "form": "སུམ་ཅུ་རྩ་གསུམ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])তিঅস(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The Thirty (Sanskrit tridaśa, Old Bengali tiasa): the gods, thirty in round numbers (strictly thirty-three), and their heaven. Munidatta takes the tiasa of song 22 (5a) as tridaśa, the abode of the gods, reached by mantras and herbs (cp.22.m6); the Tibetan comment has 'the Thirty-three'. The Tibetan line has no equivalent, and tiasa might instead mean 'thirst' (tṛṣā).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A cosmological term that needs explaining, whose reading in the song is uncertain enough to flag; 'the Thirty' follows Munidatta's tridaśa literally."
+    },
+    {
+      "id": "pl-jambudvipa",
+      "type": "place",
+      "en": "Jambudvīpa",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জম্বূদ্বীপমহাস্থানে",
+          "translit": "jambūdvīpamahāsthāne",
+          "lemma": "jambūdvīpa",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འཛམ་བུའི་གླིང",
+          "translit": "'dzam bu'i gling",
+          "lemma": "'dzam bu gling",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জম্বূদ্বীপ"
+        },
+        {
+          "lang": "san",
+          "form": "জম্বুদ্বীপ"
+        },
+        {
+          "lang": "bod",
+          "form": "འཛམ་བུའི་གླིང"
+        },
+        {
+          "lang": "bod",
+          "form": "འཛམ་བུ་གླིང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Jambudvīpa, 'Rose-apple Island': in Indian and Buddhist cosmology the southern continent, the world of humans, often meaning India. Munidatta says novice yogins wander in the great places (mahāsthāna) of Jambudvīpa, among the moving and the unmoving (cp.22.m6). The Tibetan has 'dzam bu'i gling.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A cosmological place name in Munidatta's comment that a reader needs explained; kept in source form, like the other place names."
+    },
+    {
+      "id": "tx-advayasiddhi",
+      "type": "text",
+      "en": "Advayasiddhi",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চাদ্বয়সিদ্ধৌ",
+          "translit": "cādvayasiddhau",
+          "lemma": "advayasiddhi",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས་སུ་མེད་པ་སྒྲུབ་པ",
+          "translit": "gnyis su med pa sgrub pa",
+          "lemma": "gnyis su med pa sgrub pa",
+          "att": "AO",
+          "where": "cp.22.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বয়সিদ্ধ"
+        },
+        {
+          "lang": "bod",
+          "form": "གཉིས་སུ་མེད་པ་སྒྲུབ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A work Munidatta cites as the Advayasiddhi ('Accomplishment of the Nondual'; Tibetan gnyis su med pa sgrub pa), quoting its verse: what has no arising by its own nature, and no destruction to be seen, is nondual knowledge, free of all conceptions (cp.22.m4). A work of this name is ascribed to Lakṣmīṅkarā; that the verse is from it is unchecked.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta names it as the source of a quoted verse, and works get their own entries; the title stays in source form like the other tx- entries."
+    },
+    {
+      "id": "mantra",
+      "type": "term",
+      "en": "mantra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মন্ত্রৌষধ্যাদিশক্ত্যা",
+          "translit": "mantrauṣadhyādiśaktyā",
+          "lemma": "mantra",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྔགས",
+          "translit": "sngags",
+          "lemma": "sngags",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মন্ত্র"
+        },
+        {
+          "lang": "bod",
+          "form": "སྔགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A mantra: a formula of sacred syllables recited in ritual and meditation, central to tantric practice. Munidatta says some novice yogins reach the heaven of the gods by the power of mantras, herbs and the like, yet do not attain deathlessness, since they lack the guru's path (cp.22.m6). The Tibetan has sngags.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic tantric term with no entry of its own (the glossary has only 'way of mantra'); kept in source form since 'mantra' is established in English."
+    },
+    {
+      "id": "prasada",
+      "type": "term",
+      "en": "grace",
+      "policy": "translate",
+      "alt": [
+        "kindness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুচরণরেণুপ্রসাদাৎ",
+          "translit": "gurucaraṇareṇuprasādāt",
+          "lemma": "prasāda",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲིན",
+          "translit": "drin",
+          "lemma": "drin",
+          "att": "AO",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রসাদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Grace or favour (prasāda; the word also means clarity or serenity): in tantric Buddhism, the guru's grace through which realization comes. Munidatta says that by the grace of the dust of the guru's feet, through knowing the true nature of things, 'we are inconceivable yogins' (cp.22.m3). The Tibetan has drin, 'kindness'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The id prasada entered the glossary from song 19 after this pack was built; this adds the song 22 form, in the phrase 'the grace of the dust of the guru's feet'."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সরহ",
+          "translit": "saraha",
+          "lemma": "saraha",
+          "att": "AS",
+          "where": "cp.22.6b"
+        },
+        {
+          "lang": "san",
+          "script": "সরহপাদঃ",
+          "translit": "sarahapādaḥ",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.22.m1"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্যসরহপাদা",
+          "translit": "siddhācāryyasarahapādā",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সরহপাদানাম্",
+          "translit": "sarahapādānām",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.22.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ར་ཧས",
+          "translit": "sa ra has",
+          "lemma": "sa ra ha",
+          "att": "AO",
+          "where": "cp.22.6b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সরহপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ས་ར་ཧ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সরহ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Siddha poet famous for his dohās. The manuscript attributes song 22 to Sarahapāda, and he names himself Saraha in its last couplet; Munidatta calls him the siddha master Sarahapāda (cp.22.m3). The Tibetan has sa ra ha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms from song 22 (the poet's self-naming, the attribution and Munidatta's forms) for the existing entry."
+    },
+    {
+      "id": "gunjari",
+      "type": "term",
+      "en": "Guñjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གུཉྫ་རི",
+          "translit": "guny+dza ri",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.22.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গুঞ্জরী"
+        },
+        {
+          "lang": "bod",
+          "form": "གུཉྫ་རི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Guñjarī, the rāga (melodic mode) to which songs 5 and 22 are sung, given in their headings. The Tibetan translation transcribes it gu dz+dza rI in song 5 and guny+dza ri in song 22.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan spelling of the rāga name in the heading of song 22."
+    },
+    {
+      "id": "janma",
+      "type": "term",
+      "en": "birth",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জামে",
+          "translit": "jāme",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.22.6a"
+        },
+        {
+          "lang": "san",
+          "script": "জামেত্যাদি",
+          "translit": "jāmetyādi",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "san",
+          "script": "জন্মনা",
+          "translit": "janmanā",
+          "lemma": "janman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ",
+          "translit": "skye",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.22.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জন্ম"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])জামে?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])জাম(?:ে|েত্যাদি)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Birth (Old Bengali jāma, Sanskrit janman), and so one life in the round of rebirth. Song 22 pairs birth with death throughout and asks whether action comes from birth or birth from action (6a); Munidatta renders jāma as janman there (cp.22.m7). The Tibetan has skye.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms from song 22, and a whole-word expression for the short jāma so it does not hit inside other words."
+    },
+    {
+      "id": "bhava-nirvana",
+      "type": "term",
+      "en": "existence and nirvāṇa",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভবনির্বাণা",
+          "translit": "bhabanirbāṇā",
+          "lemma": "bhabanirbāṇa",
+          "att": "AS",
+          "where": "cp.22.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ভবনির্ব্বাণকল্পারোপণং",
+          "translit": "bhavanirvvāṇakalpāropaṇaṃ",
+          "lemma": "bhava, nirvāṇa",
+          "att": "AS",
+          "where": "cp.22.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་བ་མྱ་ངན་འདས",
+          "translit": "'khor ba mya ngan 'das",
+          "lemma": "'khor ba dang mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.22.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པ་དང་མྱ་ངན་ལས་འདས་པ",
+          "translit": "srid pa dang mya ngan las 'das pa",
+          "lemma": "srid pa dang mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.22.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভবনির্বাণ"
+        },
+        {
+          "lang": "oben",
+          "form": "ভবনির্ব্বাণ"
+        },
+        {
+          "lang": "san",
+          "form": "ভবনির্ব্বাণ"
+        },
+        {
+          "lang": "san",
+          "form": "ভবনির্বাণ"
+        },
+        {
+          "lang": "bod",
+          "form": "འཁོར་བ་མྱ་ངན་འདས"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲིད་པ་དང་མྱ་ངན་ལས་འདས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existence (bhava), the round of rebirth, paired with nirvāṇa, its cessation. Song 22 opens with people making existence and nirvāṇa themselves (1a); Munidatta says the world, through the tendencies of beginningless ignorance, imputes the concept of existence and nirvāṇa and so binds itself (cp.22.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 22 spells the pair with a single ব (ভবনির্বাণা), which the existing forms do not cover."
+    },
+    {
+      "id": "utpada-bhanga",
+      "type": "term",
+      "en": "arising and perishing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপাদাদিভঙ্গং",
+          "translit": "utpādādibhaṅgaṃ",
+          "lemma": "utpāda, bhaṅga",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "উৎপাদস্থিতিভঙ্গদোষরহিতামিত্যাদি",
+          "translit": "utpādasthitibhaṅgadoṣarahitām ityādi",
+          "lemma": "utpāda, sthiti, bhaṅga",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ་དང་གནས་པ་དང་འཇིག་པ",
+          "translit": "skye ba dang gnas pa dang 'jig pa",
+          "lemma": "skye ba dang gnas pa dang 'jig pa",
+          "att": "AO",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উৎপাদাদিভঙ্গ"
+        },
+        {
+          "lang": "san",
+          "form": "উৎপাদস্থিতিভঙ্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐྱེ་བ་དང་གནས་པ་དང་འཇིག་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Arising and perishing (utpāda, bhaṅga): the coming into being and destruction of conditioned things. On the refrain of song 22 Munidatta says we do not know what arising and perishing are like, and cites a verse on what is free of the faults of arising, abiding and perishing (cp.22.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New compound forms from Munidatta's comment on song 22, including the triad with abiding (sthiti)."
+    },
+    {
+      "id": "p-bhagavati",
+      "type": "person",
+      "en": "Blessed Lady",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভ(ভব)গবতী",
+          "translit": "bha(bhava)gavatī",
+          "lemma": "bhagavatī",
+          "att": "AS",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভ(ভব)গবতী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'The Blessed Lady' (bhagavatī), an epithet of goddesses in the tantras. On song 22 Munidatta cites a verse of 'the one-verse Bhagavatī' (ekaślokā bhagavatī), perhaps the title of a hymn or work; the Tibetan has 'in one verse, to the Blessed Lady' (cp.22.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Shastri prints the word with a bracketed variant, ভ(ভব)গবতী, which the existing forms do not match."
+    },
+    {
+      "id": "tx-sutaka",
+      "type": "text",
+      "en": "Sūtaka",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སུ་ཏ་ཀེ",
+          "translit": "su ta ke",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.22.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সূতকে"
+        },
+        {
+          "lang": "bod",
+          "form": "སུ་ཏ་ཀེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A work Munidatta cites as the Sūtaka, not otherwise identified here. On song 22 he quotes from it a verse on sleeping and waking: one who desires the fruit of dreams imagines a difference (cp.22.m4). The Tibetan transcribes the title su ta ke.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan spelling with short u (su ta ke) found in the comment on song 22."
+    },
+    {
+      "id": "avidya",
+      "type": "term",
+      "en": "ignorance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনাদ্যবিদ্যাবাসনাদোষেণ",
+          "translit": "anādyavidyāvāsanādoṣeṇa",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.22.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অনাদ্যবিদ্যা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Ignorance: the basic misapprehension of how things are, at the root of saṃsāra. On song 22 Munidatta blames the fault of the tendencies of beginningless ignorance for imputing existence and nirvāṇa (cp.22.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In anādyavidyā ('beginningless ignorance') sandhi hides the a- of avidyā, so the form needs its own match."
+    },
+    {
+      "id": "aropa",
+      "type": "term",
+      "en": "imputation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভবনির্ব্বাণকল্পারোপণং",
+          "translit": "bhavanirvvāṇakalpāropaṇaṃ",
+          "lemma": "āropaṇa",
+          "att": "AS",
+          "where": "cp.22.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟོག་པར་སྒྲོ་བཏགས",
+          "translit": "rtog par sgro btags",
+          "lemma": "sgro btags",
+          "att": "AO",
+          "where": "cp.22.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কল্পারোপণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Imputation (āropa, āropaṇa): attributing to something a nature or existence it does not have. On song 22 Munidatta speaks of imputing the concept of existence and nirvāṇa (cp.22.m2); the Tibetan has rtog par sgro btags.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new form from Munidatta's comment on song 22, with its Tibetan."
+    },
+    {
+      "id": "advaya",
+      "type": "term",
+      "en": "nondual",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তজ্‌জ্ঞানমদ্বয়ন্নাম",
+          "translit": "tajjñānam advayaṃ nāma",
+          "lemma": "advaya",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས་མེད",
+          "translit": "gnyis med",
+          "lemma": "gnyis med",
+          "att": "AO",
+          "where": "cp.22.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অদ্বয়"
+        },
+        {
+          "lang": "san",
+          "form": "জ্ঞানমদ্বয়"
+        },
+        {
+          "lang": "bod",
+          "form": "གཉིས་མེད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Nondual (advaya): the absence of two, as of subject and object. In the Advayasiddhi verse Munidatta quotes on song 22, knowledge free of arising and destruction and of all conceptions is called nondual (cp.22.m4); the Tibetan has gnyis med ye shes.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A clear Sanskrit attestation with its Tibetan (gnyis med), where the existing forms are uncertain."
+    },
+    {
+      "id": "vikalpa",
+      "type": "term",
+      "en": "conceptual thought",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বসংকল্পবর্জ্জিতম্",
+          "translit": "sarvvasaṃkalpavarjjitam",
+          "lemma": "saṃkalpa",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "নিঃশঙ্কনির্ব্বিকল্পরূপাঃ",
+          "translit": "niḥśaṅkanirvvikalparūpāḥ",
+          "lemma": "nirvikalpa",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་རྟོག་པ་མེད་པ",
+          "translit": "rnam par rtog pa med pa",
+          "lemma": "rnam par rtog pa med pa",
+          "att": "AO",
+          "where": "cp.22.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নির্ব্বিকল্প"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:সংকল্প|সঙ্কল্প)(?!\\u09AF\\u09BC)"
+        }
+      ],
+      "definition": "Conceptual thought (vikalpa, saṃkalpa): the mind's construction of things through concepts. On song 22 Munidatta quotes a verse calling nondual knowledge free of all conceptions (saṃkalpa) (cp.22.m4), and says 'we' are without doubt and without concepts (nirvikalpa) about the fear of death (cp.22.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds saṃkalpa, a synonym Munidatta's quotation uses, and a nirvikalpa form with its Tibetan."
+    },
+    {
+      "id": "anusamsa",
+      "type": "term",
+      "en": "praise",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বয়মেবানুশংসামাহুঃ",
+          "translit": "svayam evānuśaṃsām āhuḥ",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরপ্যনুশংসামাহুঃ",
+          "translit": "punar apy anuśaṃsām āhuḥ",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নুশংসা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Praise or commendation (anuśaṃsā). Munidatta introduces couplets 4 and 5 of song 22 as the poet's praise of himself (cp.22.m5, cp.22.m6); the Tibetan has rjes su bsngags pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Two new sandhi forms from song 22, where the a- of anuśaṃsā is hidden."
+    },
+    {
+      "id": "marga",
+      "type": "term",
+      "en": "path",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বর্ত্ম(ত্মা)মাহাত্ম্যমাহুঃ",
+          "translit": "vartma(tmā)māhātmyam āhuḥ",
+          "lemma": "vartman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বর্ত্ম"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Path: the way of practice that leads to awakening. Munidatta introduces the last couplet of song 22 as stating the greatness of the path, using vartman, a synonym of mārga (cp.22.m7); the Tibetan has lam.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds vartman, a synonym of mārga that Munidatta uses on song 22."
+    }
+  ],
+  "questions": [
+    "Song 22 is sung to Guñjarī, which already had an entry (song 5); I added only the heading's Tibetan spelling (guny+dza ri). For existing ids only forms and match are merged, so the definitions I give for them just describe the song 22 occurrences.",
+    "Birth and death: janma (jāma) already had an entry, so I added forms and a whole-word matchRe for জাম, since the literal would also hit inside other words. Death (maraṇa) is new; its match is anchored at the start of a word, because a literal মরণ also sits inside স্মরণ ('remembering').",
+    "6a জামে কাম কি কামে জাম: Munidatta (janmanā karma, karmaṇā … utpāda) and the Tibetan (las) read kāma as karman, and the new 'karma' entry follows them. But কাম is also kāma 'desire', as in kāmacaṇḍālī, so the Old Bengali regex matches it only next to কি or জাম as in this line. Please confirm 'action' (variant 'karma') over keeping 'karma' in source form.",
+    "6b অচিন্ত সো ধাম: ধাম is already a form of dharma (the Tibetan has chos here, and chos nyid in m7), so I did not propose it again. It could also be Sanskrit dhāman, 'abode, state', which the draft may want to note.",
+    "5a তিঅস: Munidatta reads it as tridaśa, the gods' heaven (cp.22.m6), and the new 'tridasa' entry follows him. The Tibetan line has no equivalent, and tiasa might instead be 'thirst' (tṛṣā; compare Bengali tiyāsa). The draft should flag it.",
+    "5b অজরামর already has an entry (ajaramara). The Tibetan line reads the couplet as a question: why would they not become subject to age and death? (rga dang 'chi bar cis mi 'gyur). I proposed Munidatta's amaratva as a separate entry ('deathlessness'); it could instead become a form of ajaramara if you prefer one entry.",
+    "4b রস রসানেরে কখা: I proposed rasāyana ('alchemy', variant 'elixir') but no entry for rasa on its own (juice, essence, mercury). The Tibetan gser 'gyur bcud len may give gser 'gyur for rasa and bcud len for rasāyana. A rasa entry would need a whole-word regex, because রস sits inside many words.",
+    "4a বিসঙ্কা: Munidatta has fear (bhaya) and speaks of 'us' as niḥśaṅka, while the Tibetan line has the tshom med, 'no doubt', with a negative. I proposed no term for it, but the draft should flag this for witnesses.",
+    "m3 একশ্লোকা ভ(ভব)গবতী: this may be the title of a work (a one-verse hymn, perhaps to the Perfection of Wisdom), but the Tibetan reads it as 'in one verse, to the Blessed Lady'. I only added the form to p-bhagavati. A tx- entry may be wanted.",
+    "Arising (utpāda) is a new entry separate from janma. Munidatta's utpāda glosses the song's jāma, and the Tibetan has skye ba for both, so you may prefer to merge it into janma. Its sandhi forms (কস্যোৎপাদো) are caught by a regex that requires the ো before ৎপাদ, so তৎপাদ ('his feet') is not hit.",
+    "tx-advayasiddhi: the definition notes that a work of this name is ascribed to Lakṣmīṅkarā. I have not verified that the verse Munidatta quotes comes from it.",
+    "Since this pack was built, the glossary has gained 'prasada' (grace, from song 19) and 'jnana' (knowledge, Tibetan match only). My prasada proposal therefore only adds a form to that entry. I did not add forms to jnana, which is not in this pack: svajñānaṃ (m3) and tajjñānam (m4) are candidates, but a literal জ্ঞান would sit inside many longer terms."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "e0a842ff7d28e94f77c066b8dddd90bb0f6849c0eb8ac03cf040a345c9c7a99e",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "f08c01d66dfbbae085e3fe161d69f7f5e5ff8a801ef1dde1ba28b86ee251c0f9",
+    "sourceSha": "1cf3c20ca09f539ca563cc6d35c5d2e59b6e09a6691a34ae710e03d0e6b1c031"
+  }
+}

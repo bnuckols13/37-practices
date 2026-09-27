@@ -450,6 +450,89 @@
       }
     },
     {
+      "id": "acintya",
+      "type": "term",
+      "status": "proposed",
+      "en": "inconceivable",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অচিন্ত",
+          "translit": "acinta",
+          "lemma": "acinta",
+          "att": "AS",
+          "where": "cp.22.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্বরূপপরিজ্ঞানেনাচিন্ত্যা",
+          "translit": "bhāvasvarūpaparijñānenācintyā",
+          "lemma": "acintya",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "অচিন্ত্যো",
+          "translit": "acintyo",
+          "lemma": "acintya",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "བསམ་མེད",
+          "translit": "bsam med",
+          "lemma": "bsam med",
+          "att": "AO",
+          "where": "cp.22.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "བསམ་དུ་མེད་པ",
+          "translit": "bsam du med pa",
+          "lemma": "bsam du med pa",
+          "att": "AO",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অচিন্ত"
+        ],
+        "san": [
+          "অচিন্ত"
+        ],
+        "bod": [
+          "བསམ་མེད",
+          "བསམ་དུ་མེད"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "(?<=\\u09BE)চিন্ত্য"
+        ]
+      },
+      "definition": "Inconceivable (acintya): beyond the reach of thought. In song 22 the poet calls himself an acinta yogin (2a) and says 'that dhāma is acinta' (6b). Munidatta renders it acintya: through knowing the true nature of things by the guru's grace, 'we are inconceivable yogins' (cp.22.m3). The Tibetan has bsam med, which can also mean 'without thought'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "adarsajnana",
       "type": "term",
       "status": "proposed",
@@ -571,11 +654,34 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.05.3b"
+        },
+        {
+          "lang": "san",
+          "script": "তজ্‌জ্ঞানমদ্বয়ন্নাম",
+          "translit": "tajjñānam advayaṃ nāma",
+          "lemma": "advaya",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས་མེད",
+          "translit": "gnyis med",
+          "lemma": "gnyis med",
+          "att": "AO",
+          "where": "cp.22.m4"
         }
       ],
       "match": {
         "oben": [
           "আদঅ"
+        ],
+        "san": [
+          "অদ্বয়",
+          "জ্ঞানমদ্বয়"
+        ],
+        "bod": [
+          "གཉིས་མེད"
         ]
       },
       "matchRe": {},
@@ -1464,6 +1570,63 @@
         "lotus grove",
         "great bliss"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "amaratva",
+      "type": "term",
+      "status": "proposed",
+      "en": "deathlessness",
+      "alt": [
+        "immortality"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুমার্গালব্ধত্বাদমরত্বং",
+          "translit": "gurumārgālabdhatvād amaratvaṃ",
+          "lemma": "amaratva",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི་བ་མེད་པ་ཉིད",
+          "translit": "'chi ba med pa nyid",
+          "lemma": "'chi ba med pa nyid",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "অমরত্ব"
+        ],
+        "bod": [
+          "འཆི་བ་མེད་པ་ཉིད"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "(?<=[\\u0995-\\u09B9\\u09DC\\u09DD])মরত্ব"
+        ]
+      },
+      "definition": "Deathlessness (amaratva): freedom from death, the aim of alchemy and of yogic practices for immortality. Munidatta's gloss on the song's 'ageless and deathless' (5b): novice yogins who roam the world, or reach the heaven of the gods by mantras and herbs, do not attain deathlessness, since they lack the guru's path (cp.22.m6). The Tibetan has 'chi ba med pa nyid.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -2389,6 +2552,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.18.m6"
+        },
+        {
+          "lang": "san",
+          "script": "স্বয়মেবানুশংসামাহুঃ",
+          "translit": "svayam evānuśaṃsām āhuḥ",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরপ্যনুশংসামাহুঃ",
+          "translit": "punar apy anuśaṃsām āhuḥ",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.22.m6"
         }
       ],
       "match": {
@@ -2656,6 +2835,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.21.m6"
+        },
+        {
+          "lang": "san",
+          "script": "ভবনির্ব্বাণকল্পারোপণং",
+          "translit": "bhavanirvvāṇakalpāropaṇaṃ",
+          "lemma": "āropaṇa",
+          "att": "AS",
+          "where": "cp.22.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟོག་པར་སྒྲོ་བཏགས",
+          "translit": "rtog par sgro btags",
+          "lemma": "sgro btags",
+          "att": "AO",
+          "where": "cp.22.m2"
         }
       ],
       "match": {
@@ -2664,7 +2859,8 @@
           "আরোপ",
           "ভাবারোপণ",
           "প্রত্যারোপ",
-          "মিথ্যারোপ"
+          "মিথ্যারোপ",
+          "কল্পারোপণ"
         ],
         "bod": [
           "སྒྲོ་འདོགས",
@@ -3396,12 +3592,21 @@
           "lemma": "ma rig pa",
           "att": "AO",
           "where": "cp.16.m4"
+        },
+        {
+          "lang": "san",
+          "script": "অনাদ্যবিদ্যাবাসনাদোষেণ",
+          "translit": "anādyavidyāvāsanādoṣeṇa",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.22.m2"
         }
       ],
       "match": {
         "san": [
           "অবিদ্যা",
-          "কৃতাবিদ্যা"
+          "কৃতাবিদ্যা",
+          "অনাদ্যবিদ্যা"
         ],
         "bod": [
           "མ་རིག་པའི",
@@ -4712,18 +4917,54 @@
           "lemma": "'khor ba dang mya ngan las 'das",
           "att": "AO",
           "where": "cp.19.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "ভবনির্বাণা",
+          "translit": "bhabanirbāṇā",
+          "lemma": "bhabanirbāṇa",
+          "att": "AS",
+          "where": "cp.22.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ভবনির্ব্বাণকল্পারোপণং",
+          "translit": "bhavanirvvāṇakalpāropaṇaṃ",
+          "lemma": "bhava, nirvāṇa",
+          "att": "AS",
+          "where": "cp.22.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་བ་མྱ་ངན་འདས",
+          "translit": "'khor ba mya ngan 'das",
+          "lemma": "'khor ba dang mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.22.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པ་དང་མྱ་ངན་ལས་འདས་པ",
+          "translit": "srid pa dang mya ngan las 'das pa",
+          "lemma": "srid pa dang mya ngan las 'das pa",
+          "att": "AO",
+          "where": "cp.22.m2"
         }
       ],
       "match": {
         "oben": [
-          "ভবনির্ব্বাণ"
+          "ভবনির্ব্বাণ",
+          "ভবনির্বাণ"
         ],
         "san": [
-          "ভবনির্ব্বাণ"
+          "ভবনির্ব্বাণ",
+          "ভবনির্বাণ"
         ],
         "bod": [
           "སྲིད་དང་མྱ་ངན་འདས",
-          "འཁོར་བ་དང་མྱ་ངན་ལས་འདས"
+          "འཁོར་བ་དང་མྱ་ངན་ལས་འདས",
+          "འཁོར་བ་མྱ་ངན་འདས",
+          "སྲིད་པ་དང་མྱ་ངན་ལས་འདས་པ"
         ]
       },
       "matchRe": {},
@@ -8314,12 +8555,12 @@
           },
           {
             "referent": "the body's wind (in the Tibetan comment, \"the deer of body-wind\"); in song 6 the deer was the mind",
+            "per": "Munidatta",
             "where": [
               "cp.23.m2",
               "cp.23.m4",
               "cp.23.m6"
-            ],
-            "per": "Munidatta"
+            ]
           }
         ]
       },
@@ -10773,10 +11014,10 @@
           },
           {
             "referent": "form and the rest, all sky, where the fleeing deer dissolves into clear light (Tibetan comment)",
+            "per": "Munidatta",
             "where": [
               "cp.23.m6"
-            ],
-            "per": "Munidatta"
+            ]
           }
         ]
       },
@@ -11470,6 +11711,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.05.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "གུཉྫ་རི",
+          "translit": "guny+dza ri",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.22.h1"
         }
       ],
       "match": {
@@ -11477,7 +11726,8 @@
           "গুঞ্জরী"
         ],
         "bod": [
-          "གུ་ཛྫ་རཱི"
+          "གུ་ཛྫ་རཱི",
+          "གུཉྫ་རི"
         ]
       },
       "matchRe": {},
@@ -12494,6 +12744,38 @@
           "lemma": "skye ba",
           "att": "AO",
           "where": "cp.19.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "জামে",
+          "translit": "jāme",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.22.6a"
+        },
+        {
+          "lang": "san",
+          "script": "জামেত্যাদি",
+          "translit": "jāmetyādi",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "san",
+          "script": "জন্মনা",
+          "translit": "janmanā",
+          "lemma": "janman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ",
+          "translit": "skye",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.22.2b"
         }
       ],
       "match": {
@@ -12503,7 +12785,11 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])জাম(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])জাম(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}])জামে?(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])জাম(?:ে|েত্যাদি)?(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "Birth (Sanskrit janman, Old Bengali jāma), and so one life in the round of rebirth. The refrain of song 8 asks how a birth that is gone will come again. Munidatta says another birth returns to one who does not row the boat of the fourth means (cp.08.m2). The Tibetan has skye ba.",
@@ -14108,6 +14394,92 @@
         "consort",
         "wisdom seal"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "karma",
+      "type": "term",
+      "status": "proposed",
+      "en": "action",
+      "alt": [
+        "karma"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাম",
+          "translit": "kāma",
+          "lemma": "kāma",
+          "att": "AS",
+          "where": "cp.22.6a"
+        },
+        {
+          "lang": "oben",
+          "script": "কামে",
+          "translit": "kāme",
+          "lemma": "kāma",
+          "att": "AS",
+          "where": "cp.22.6a"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ত্তৃকর্ম্মবিহীনস্য",
+          "translit": "karttṛkarmmavihīnasya",
+          "lemma": "karman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্ম",
+          "translit": "karmma",
+          "lemma": "karman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্মণা",
+          "translit": "karmmaṇā",
+          "lemma": "karman",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "ལས",
+          "translit": "las",
+          "lemma": "las",
+          "att": "AO",
+          "where": "cp.22.6a"
+        }
+      ],
+      "match": {
+        "san": [
+          "কর্ম"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])কামে?(?=\\s+(?:কি|জাম)(?![\\p{L}\\p{M}]))"
+        ]
+      },
+      "definition": "Action or deed (Sanskrit karman; Tibetan las), and the force of past deeds that brings rebirth. Song 22 asks whether kāma comes from birth or birth from kāma (6a); Munidatta and the Tibetan read kāma as karman, though the same spelling means 'desire'. Munidatta calls the lord of yogis free of agent and action (cp.22.m7).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -17834,6 +18206,57 @@
       }
     },
     {
+      "id": "mantra",
+      "type": "term",
+      "status": "proposed",
+      "en": "mantra",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মন্ত্রৌষধ্যাদিশক্ত্যা",
+          "translit": "mantrauṣadhyādiśaktyā",
+          "lemma": "mantra",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྔགས",
+          "translit": "sngags",
+          "lemma": "sngags",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "মন্ত্র"
+        ],
+        "bod": [
+          "སྔགས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A mantra: a formula of sacred syllables recited in ritual and meditation, central to tantric practice. Munidatta says some novice yogins reach the heaven of the gods by the power of mantras, herbs and the like, yet do not attain deathlessness, since they lack the guru's path (cp.22.m6). The Tibetan has sngags.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "mantranaya",
       "type": "term",
       "status": "proposed",
@@ -17982,6 +18405,93 @@
       }
     },
     {
+      "id": "marana",
+      "type": "term",
+      "status": "proposed",
+      "en": "death",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মরণ",
+          "translit": "maraṇa",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "মরণে",
+          "translit": "maraṇe",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.4a"
+        },
+        {
+          "lang": "san",
+          "script": "মরণাদিভয়ম্বা",
+          "translit": "maraṇādibhayaṃ vā",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "san",
+          "script": "মরণাদিভয়ে",
+          "translit": "maraṇādibhaye",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི་བ",
+          "translit": "'chi ba",
+          "lemma": "'chi ba",
+          "att": "AO",
+          "where": "cp.22.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི",
+          "translit": "'chi",
+          "lemma": "'chi ba",
+          "att": "AO",
+          "where": "cp.22.4a"
+        }
+      ],
+      "match": {
+        "bod": [
+          "འཆི་བ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])মরণ"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])মরণ"
+        ]
+      },
+      "definition": "Death (Sanskrit maraṇa; Tibetan 'chi ba). Song 22 pairs it with birth (jāma) throughout: it asks how birth, death and existence come about, and says birth and death are alike (2b, 3a). Munidatta says a yogin who fears death and the like turns to alchemy, while 'we' are without doubt or concepts about that fear (cp.22.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "marga",
       "type": "term",
       "status": "proposed",
@@ -18029,11 +18539,20 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.13.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বর্ত্ম(ত্মা)মাহাত্ম্যমাহুঃ",
+          "translit": "vartma(tmā)māhātmyam āhuḥ",
+          "lemma": "vartman",
+          "att": "AS",
+          "where": "cp.22.m7"
         }
       ],
       "match": {
         "san": [
-          "মার্গ"
+          "মার্গ",
+          "বর্ত্ম"
         ],
         "bod": [
           "ལམ་མཆོག"
@@ -18662,10 +19181,10 @@
           },
           {
             "referent": "the net laid on the body in the bliss of the moments beginning with vicitra; illusion is the action seal (karmāṅganā) (Tibetan comment)",
+            "per": "Munidatta",
             "where": [
               "cp.23.m4"
-            ],
-            "per": "Munidatta"
+            ]
           }
         ]
       },
@@ -20340,10 +20859,10 @@
           },
           {
             "referent": "the wheel of great bliss, entered by the guru's grace once vajra and lotus are joined (Tibetan comment)",
+            "per": "Munidatta",
             "where": [
               "cp.23.m2"
-            ],
-            "per": "Munidatta"
+            ]
           }
         ]
       },
@@ -20848,10 +21367,10 @@
           },
           {
             "referent": "Bhusuku's night, its darkness of ignorance cleared (Tibetan comment)",
+            "per": "Munidatta",
             "where": [
               "cp.23.m6"
-            ],
-            "per": "Munidatta"
+            ]
           }
         ]
       },
@@ -21965,11 +22484,20 @@
           "lemma": "bcom ldan 'das ma",
           "att": "AO",
           "where": "cp.20.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভ(ভব)গবতী",
+          "translit": "bha(bhava)gavatī",
+          "lemma": "bhagavatī",
+          "att": "AS",
+          "where": "cp.22.m3"
         }
       ],
       "match": {
         "san": [
-          "ভগবতী"
+          "ভগবতী",
+          "ভ(ভব)গবতী"
         ],
         "bod": [
           "བཅོམ་ལྡན་འདས་མ"
@@ -23892,6 +24420,46 @@
           "lemma": "Saraha",
           "att": "AS",
           "where": "cp.20.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "সরহ",
+          "translit": "saraha",
+          "lemma": "saraha",
+          "att": "AS",
+          "where": "cp.22.6b"
+        },
+        {
+          "lang": "san",
+          "script": "সরহপাদঃ",
+          "translit": "sarahapādaḥ",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.22.m1"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্যসরহপাদা",
+          "translit": "siddhācāryyasarahapādā",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সরহপাদানাম্",
+          "translit": "sarahapādānām",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.22.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ར་ཧས",
+          "translit": "sa ra has",
+          "lemma": "sa ra ha",
+          "att": "AO",
+          "where": "cp.22.6b"
         }
       ],
       "match": {
@@ -23902,10 +24470,15 @@
           "সরহেঁ"
         ],
         "bod": [
-          "ས་ར་ཧའི"
+          "ས་ར་ཧའི",
+          "ས་ར་ཧ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])সরহ(?![\\p{L}\\p{M}])"
+        ]
+      },
       "definition": "Siddha poet famous for his dohās, rhymed couplet songs. Munidatta quotes him praising the true guru (cp.01.m3) and asking how the tender sprout of mind, if not watered with the pure juices of sense objects, could become the wish-granting tree (cp.01.m4).",
       "symbolic": {
         "image": "",
@@ -24585,10 +25158,10 @@
           },
           {
             "referent": "the five sense objects, become the aggregate of form, the mirror-like knowledge, the earth element, the eye faculty and so on, killed by withdrawing the maṇḍalas (Tibetan comment)",
+            "per": "Munidatta",
             "where": [
               "cp.23.m2"
-            ],
-            "per": "Munidatta"
+            ]
           }
         ]
       },
@@ -25926,6 +26499,59 @@
       }
     },
     {
+      "id": "pl-jambudvipa",
+      "type": "place",
+      "status": "proposed",
+      "en": "Jambudvīpa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জম্বূদ্বীপমহাস্থানে",
+          "translit": "jambūdvīpamahāsthāne",
+          "lemma": "jambūdvīpa",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འཛམ་བུའི་གླིང",
+          "translit": "'dzam bu'i gling",
+          "lemma": "'dzam bu gling",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "জম্বূদ্বীপ",
+          "জম্বুদ্বীপ"
+        ],
+        "bod": [
+          "འཛམ་བུའི་གླིང",
+          "འཛམ་བུ་གླིང"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Jambudvīpa, 'Rose-apple Island': in Indian and Buddhist cosmology the southern continent, the world of humans, often meaning India. Munidatta says novice yogins wander in the great places (mahāsthāna) of Jambudvīpa, among the moving and the unmoving (cp.22.m6). The Tibetan has 'dzam bu'i gling.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "pl-kamaru",
       "type": "place",
       "status": "proposed",
@@ -26948,6 +27574,22 @@
           "lemma": "drin",
           "att": "AO",
           "where": "cp.19.m5"
+        },
+        {
+          "lang": "san",
+          "script": "গুরুচরণরেণুপ্রসাদাৎ",
+          "translit": "gurucaraṇareṇuprasādāt",
+          "lemma": "prasāda",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲིན",
+          "translit": "drin",
+          "lemma": "drin",
+          "att": "AO",
+          "where": "cp.22.m3"
         }
       ],
       "match": {
@@ -27492,6 +28134,78 @@
       }
     },
     {
+      "id": "rasayana",
+      "type": "term",
+      "status": "proposed",
+      "en": "alchemy",
+      "alt": [
+        "elixir"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রসানেরে",
+          "translit": "rasānere",
+          "lemma": "rasāna",
+          "att": "AS",
+          "where": "cp.22.4b"
+        },
+        {
+          "lang": "san",
+          "script": "রসায়নে",
+          "translit": "rasāyane",
+          "lemma": "rasāyana",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅུད་ལེན",
+          "translit": "bcud len",
+          "lemma": "bcud len",
+          "att": "AO",
+          "where": "cp.22.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གསེར་འགྱུར",
+          "translit": "gser 'gyur",
+          "lemma": "gser 'gyur",
+          "att": "AO",
+          "where": "cp.22.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "রসানের"
+        ],
+        "san": [
+          "রসায়ন"
+        ],
+        "bod": [
+          "བཅུད་ལེན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Rasāyana: in Indian medicine, rejuvenating treatment; in alchemy, the making of elixirs, often of mercury (rasa), meant to make the body ageless and deathless. In song 22 the one who fears birth and death pursues rasa and rasāyana (4b); Munidatta speaks of various procedures of rasāyana (cp.22.m5). The Tibetan has bcud len, 'extracting essence', and gser 'gyur, 'turning to gold'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "ratna",
       "type": "term",
       "status": "proposed",
@@ -28012,6 +28726,79 @@
       },
       "matchRe": {},
       "definition": "A Śabara, one of a forest and hill people of eastern and central India whom caste society treated as outsiders; a Śabara woman, the Śabarī, is a figure of the songs. In the verse of Kṛṣṇācārya's Dohākoṣa that Munidatta quotes, the Śabaras dwell on a high mountain peak (cp.06.m4). The Tibetan renders the word sha ba, 'deer'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "sacaracara",
+      "type": "term",
+      "status": "proposed",
+      "en": "the moving and the unmoving",
+      "alt": [
+        "all that moves and does not move"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সচরাচর",
+          "translit": "sacarācara",
+          "lemma": "carācara",
+          "att": "AS",
+          "where": "cp.22.5a"
+        },
+        {
+          "lang": "san",
+          "script": "সচরাচরে",
+          "translit": "sacarācare",
+          "lemma": "carācara",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡོ་དང་མི་གཡོ",
+          "translit": "g.yo dang mi g.yo",
+          "lemma": "g.yo ba dang mi g.yo ba",
+          "att": "AO",
+          "where": "cp.22.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡོ་བ་དང་མི་གཡོ་བ",
+          "translit": "g.yo ba dang mi g.yo ba",
+          "lemma": "g.yo ba dang mi g.yo ba",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চরাচর"
+        ],
+        "san": [
+          "চরাচর"
+        ],
+        "bod": [
+          "གཡོ་དང་མི་གཡོ",
+          "གཡོ་བ་དང་མི་གཡོ་བ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Sacarācara, 'with the moving and the unmoving': beings that move and things that do not, a stock Sanskrit phrase for the whole world. In song 22 some roam sacarācara (5a); Munidatta places them in the great places of Jambudvīpa (cp.22.m6). The Tibetan has g.yo dang mi g.yo, 'moving and unmoving'.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -33128,6 +33915,73 @@
       }
     },
     {
+      "id": "tridasa",
+      "type": "term",
+      "status": "proposed",
+      "en": "the Thirty",
+      "alt": [
+        "the gods",
+        "heaven of the Thirty-three"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিঅস",
+          "translit": "tiasa",
+          "lemma": "tiasa",
+          "att": "AS",
+          "where": "cp.22.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রিদশং",
+          "translit": "tridaśaṃ",
+          "lemma": "tridaśa",
+          "att": "AS",
+          "where": "cp.22.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སུམ་ཅུ་རྩ་གསུམ",
+          "translit": "sum cu rtsa gsum",
+          "lemma": "sum cu rtsa gsum",
+          "att": "AO",
+          "where": "cp.22.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "ত্রিদশ"
+        ],
+        "bod": []
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])তিঅস(?![\\p{L}\\p{M}])"
+        ],
+        "bod": [
+          "(?<=^|[\\u0F04-\\u0F14\\s])སུམ་ཅུ་རྩ་གསུམ(?=་གྱི་གནས)"
+        ]
+      },
+      "definition": "The Thirty (Sanskrit tridaśa, Old Bengali tiasa): the gods, thirty in round numbers (strictly thirty-three), and their heaven. Munidatta takes the tiasa of song 22 (5a) as tridaśa, the abode of the gods, reached by mantras and herbs (cp.22.m6); the Tibetan comment has 'the Thirty-three'. The Tibetan line has no equivalent, and tiasa might instead mean 'thirst' (tṛṣā).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "trisarana",
       "type": "term",
       "status": "proposed",
@@ -33285,6 +34139,57 @@
       },
       "matchRe": {},
       "definition": "The vajra of body, of speech and of mind: a buddha's body, speech and mind, which tantric practice aims to make the practitioner's own. Munidatta says the lord of yogis first makes the vajra of body firm through deity yoga, steadies the vajra of speech by vajra recitation, then works to make the vajra of mind firm (cp.04.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "tx-advayasiddhi",
+      "type": "text",
+      "status": "proposed",
+      "en": "Advayasiddhi",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চাদ্বয়সিদ্ধৌ",
+          "translit": "cādvayasiddhau",
+          "lemma": "advayasiddhi",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས་སུ་མེད་པ་སྒྲུབ་པ",
+          "translit": "gnyis su med pa sgrub pa",
+          "lemma": "gnyis su med pa sgrub pa",
+          "att": "AO",
+          "where": "cp.22.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "দ্বয়সিদ্ধ"
+        ],
+        "bod": [
+          "གཉིས་སུ་མེད་པ་སྒྲུབ་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A work Munidatta cites as the Advayasiddhi ('Accomplishment of the Nondual'; Tibetan gnyis su med pa sgrub pa), quoting its verse: what has no arising by its own nature, and no destruction to be seen, is nondual knowledge, free of all conceptions (cp.22.m4). A work of this name is ascribed to Lakṣmīṅkarā; that the verse is from it is unchecked.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -34296,6 +35201,14 @@
           "lemma": "mdo",
           "att": "AO",
           "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སུ་ཏ་ཀེ",
+          "translit": "su ta ke",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.22.m4"
         }
       ],
       "match": {
@@ -34303,7 +35216,8 @@
           "সূতকে"
         ],
         "bod": [
-          "སཱུ་ཏ་ཀེ"
+          "སཱུ་ཏ་ཀེ",
+          "སུ་ཏ་ཀེ"
         ]
       },
       "matchRe": {},
@@ -34953,6 +35867,81 @@
       }
     },
     {
+      "id": "utpada",
+      "type": "term",
+      "status": "proposed",
+      "en": "arising",
+      "alt": [
+        "birth",
+        "origination"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপাদস্বরূপমাহুঃ",
+          "translit": "utpādasvarūpam āhuḥ",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "কস্যোৎপাদো",
+          "translit": "kasyotpādo",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "যস্যোৎপাদো",
+          "translit": "yasyotpādo",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "উৎপাদশ্চ",
+          "translit": "utpādaś ca",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.22.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ",
+          "translit": "skye ba",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.22.m4"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "san": [
+          "(?:উ|(?<=\\u09CB))\\u09CEপাদ(?!ভঙ্গ|\\u09AF\\u09BC|\\u09BF|ন)"
+        ]
+      },
+      "definition": "Arising or origination (utpāda): a thing's coming into being, which Madhyamaka argues never truly takes place. Munidatta uses it for the song's birth (jāma): his second verse states 'the nature of arising', since for one who understands selflessness nothing arises, and what has no arising has no perishing (cp.22.m4). The Tibetan has skye ba, 'birth'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "utpada-bhanga",
       "type": "term",
       "status": "proposed",
@@ -34986,14 +35975,41 @@
           "lemma": "utpādabhaṅga",
           "att": "AS",
           "where": "cp.19.m3"
+        },
+        {
+          "lang": "san",
+          "script": "উৎপাদাদিভঙ্গং",
+          "translit": "utpādādibhaṅgaṃ",
+          "lemma": "utpāda, bhaṅga",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "উৎপাদস্থিতিভঙ্গদোষরহিতামিত্যাদি",
+          "translit": "utpādasthitibhaṅgadoṣarahitām ityādi",
+          "lemma": "utpāda, sthiti, bhaṅga",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ་དང་གནས་པ་དང་འཇིག་པ",
+          "translit": "skye ba dang gnas pa dang 'jig pa",
+          "lemma": "skye ba dang gnas pa dang 'jig pa",
+          "att": "AO",
+          "where": "cp.22.m3"
         }
       ],
       "match": {
         "san": [
-          "ৎপাদভঙ্গ"
+          "ৎপাদভঙ্গ",
+          "উৎপাদাদিভঙ্গ",
+          "উৎপাদস্থিতিভঙ্গ"
         ],
         "bod": [
-          "སྐྱེ་བ་དང་འཇིག་པ"
+          "སྐྱེ་བ་དང་འཇིག་པ",
+          "སྐྱེ་བ་དང་གནས་པ་དང་འཇིག་པ"
         ]
       },
       "matchRe": {},
@@ -36789,6 +37805,30 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.19.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বসংকল্পবর্জ্জিতম্",
+          "translit": "sarvvasaṃkalpavarjjitam",
+          "lemma": "saṃkalpa",
+          "att": "AS",
+          "where": "cp.22.m4"
+        },
+        {
+          "lang": "san",
+          "script": "নিঃশঙ্কনির্ব্বিকল্পরূপাঃ",
+          "translit": "niḥśaṅkanirvvikalparūpāḥ",
+          "lemma": "nirvikalpa",
+          "att": "AS",
+          "where": "cp.22.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་རྟོག་པ་མེད་པ",
+          "translit": "rnam par rtog pa med pa",
+          "lemma": "rnam par rtog pa med pa",
+          "att": "AO",
+          "where": "cp.22.m5"
         }
       ],
       "match": {
@@ -36796,7 +37836,8 @@
           "অনাদিভববিকল্পঞ্চ",
           "নির্ব্বিকল্পং",
           "কল্পনাজালমুক্তঃ",
-          "বিকল্প"
+          "বিকল্প",
+          "নির্ব্বিকল্প"
         ],
         "bod": [
           "རྣམ་པར་རྟོག་པ",
@@ -36804,7 +37845,11 @@
           "རྣམ་རྟོག"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "(?:সংকল্প|সঙ্কল্প)(?!\\u09AF\\u09BC)"
+        ]
+      },
       "definition": "Conceptual thought (vikalpa, kalpanā): the mind's construction of things through concepts, which Buddhist tantric teaching treats as what binds. Munidatta speaks of shaking off the concepts of beginningless existence, of going to the wheel of great bliss free of concepts (nirvikalpa), and of the innate wind freed from the net of concepts (cp.02.m4, cp.02.m5).",
       "symbolic": {
         "image": "",

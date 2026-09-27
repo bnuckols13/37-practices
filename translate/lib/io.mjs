@@ -95,6 +95,7 @@ export function paths(slug) {
     pack: (task, id) => path.join(dir, 'packs', task, id),
     inboxFile: (task, id) => path.join(dir, 'inbox', task, id + '.json'),
     tibetanTerms: id => path.join(dir, 'tibetan', id + '.json'),   // terms-bo answers, as filed
+    termsAnswer: id => path.join(dir, 'terms', id + '.json'),       // terms answers, as filed (their questions are for the reviewer)
     sung: id => path.join(dir, 'sung', id + '.json'),               // the unit sounded in English (sing)
     sungSheet: id => path.join(dir, 'review', id + '.sung.md'),
     approvedSung: id => path.join(dir, 'approved', id + '.sung.json'),

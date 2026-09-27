@@ -132,7 +132,11 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
     let wrote = '', advice = [];
     if (t === 'draft' || t === 'redraft') { wrote = P.draft(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'weave') { wrote = P.weave(id); writeJSON(wrote, { ...out, provenance }); }
-    if (t === 'terms') wrote = 'glossary';
+    if (t === 'terms') {
+      // The glossary takes the proposals; the answer is kept for its questions and as a record.
+      wrote = P.termsAnswer(id);
+      writeJSON(wrote, { ...out, provenance });
+    }
     if (t === 'sing') {
       wrote = P.sung(id);
       writeJSON(wrote, { ...out, provenance: { ...provenance, draftSha: pack.draftSha } });

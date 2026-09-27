@@ -124,7 +124,10 @@ function hitsBlock(entries, items) {
 }
 
 function candidates(slug, unit, entries) {
-  const tok = s => s.normalize('NFC').split(/\s+/).map(t => t.replace(/[।॥,;:.!?()'"“”‘’\-\d০-৯]+/gu, '')).filter(t => [...t].length > 2);
+  // Words, without punctuation, dashes or folio marks ([৫ক]); ধ্রু is the refrain cue, not a word of the song.
+  const STOP = new Set(['ধ্রু']);
+  const tok = s => s.normalize('NFC').replace(/\[[০-৯0-9]+[কখ]?\]/gu, '').split(/[\s—–-]+/)
+    .map(t => t.replace(/[।॥|,;:.!?()\[\]'"“”‘’\d০-৯]+/gu, '')).filter(t => [...t].length > 2 && !STOP.has(t));
   const known = new Set(entries.flatMap(e => Object.values(e.match).flat()));
   const here = new Map(), all = new Map();
   const add = (m, t) => m.set(t, (m.get(t) || 0) + 1);

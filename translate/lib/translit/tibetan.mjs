@@ -23,6 +23,14 @@ function boundaryRe(form) {
   return re;
 }
 
+/** Every place a Tibetan form stands in a text as whole syllables, as [start, end) spans. */
+export function tibetanSpans(src, form) {
+  const f = String(form).normalize('NFC').replace(/[\u0F0B\u0F0D]+$/u, '');
+  if (!f) return [];
+  const re = new RegExp(boundaryRe(f).source, 'gu');
+  return [...String(src).normalize('NFC').matchAll(re)].map(m => [m.index, m.index + f.length]);
+}
+
 /** Where a Tibetan form stands in a text as whole syllables, or -1. */
 export function tibetanIndex(src, form) {
   const f = String(form).normalize('NFC').replace(/[་།]+$/u, '');

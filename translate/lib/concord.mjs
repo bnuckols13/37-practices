@@ -16,10 +16,15 @@ import { tibetanToWylie, wylieToTibetan, tibetanIndex } from './translit/tibetan
 export const MAX_HITS = 80;   // per term, so a Studio document stays small
 const WINDOW = 3;             // words of context on each side
 
-/** The word containing `form` and WINDOW words either side, in the source and (word-aligned) transliteration. */
-export function kwic(src, translit, form) {
+/**
+ * The word containing `form` and WINDOW words either side, in the source and (word-aligned)
+ * transliteration. `pos`, when given, is where in the source the form was matched.
+ */
+export function kwic(src, translit, form, pos = -1) {
   const words = String(src).split(/\s+/).filter(Boolean);
-  const at = words.findIndex(w => w.normalize('NFC').includes(form.normalize('NFC')));
+  const at = pos >= 0
+    ? String(src).slice(0, pos).split(/\s+/).filter(Boolean).length - (/\S$/.test(String(src).slice(0, pos)) ? 1 : 0)
+    : words.findIndex(w => w.normalize('NFC').includes(form.normalize('NFC')));
   if (at < 0) return null;
   const tl = String(translit || '').split(/\s+/).filter(Boolean);
   const aligned = tl.length === words.length;
@@ -42,9 +47,9 @@ export function kwic(src, translit, form) {
  * A Tibetan form in context. Tibetan has no spaces between words, so the context is
  * counted in syllables (split after each tsheg); `n` syllables each side, or all.
  */
-export function kwicTibetan(src, form, n = 6) {
+export function kwicTibetan(src, form, n = 6, pos = -1) {
   const s = String(src).normalize('NFC'), f = form.normalize('NFC');
-  const i = tibetanIndex(s, f);
+  const i = pos >= 0 ? pos : tibetanIndex(s, f);
   if (i < 0) return null;
   const pre = s.slice(0, i).split(/(?<=་)/u).filter(Boolean), post = s.slice(i + f.length).split(/(?<=་)/u).filter(Boolean);
   const a = pre.slice(Math.max(0, pre.length - n)).join(''), b = post.slice(0, n).join('');
@@ -98,7 +103,7 @@ export function concordance(slug) {
       const par = parallelFor(u, s.kind === 'comm' ? 'commentary' : 'lines', s.id);
       for (const hit of matchSource(entries, s.src, s.lang)) {
         const c = out.get(hit.id);
-        const k = s.lang === 'bod' ? kwicTibetan(s.src, hit.form) : kwic(s.src, s.translit, hit.form);
+        const k = s.lang === 'bod' ? kwicTibetan(s.src, hit.form, 6, hit.at) : kwic(s.src, s.translit, hit.form, hit.at);
         if (!c || !k) continue;
         c.total++; c[s.kind === 'comm' ? 'comm' : 'verse']++;
         // Which Tibetan word renders the term here, among the forms the glossary knows.

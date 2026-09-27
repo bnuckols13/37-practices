@@ -7,7 +7,7 @@
 import { glossaryPath, readJSON, writeJSON, hashOf, fail, today } from './io.mjs';
 import { Glossary, Entry, Form } from '../schemas/glossary.mjs';
 import { TERM_ID_RE } from './ids.mjs';
-import { tibetanIndex } from './translit/tibetan.mjs';
+import { tibetanSpans } from './translit/tibetan.mjs';
 
 export function load() {
   const r = Glossary.safeParse(readJSON(glossaryPath(), { entries: [] }));
@@ -29,21 +29,42 @@ export function scoped(g, slug, { includeRejected = false } = {}) {
 /** Hash of what a pack sees; changes whenever an in-scope entry changes. */
 export const scopeSha = (g, slug) => hashOf(scoped(g, slug));
 
-/** Glossary hits in one source string: literal forms and regexes for its language. */
+/** Every place a literal form stands in a text, as [start, end) spans. */
+function spansOf(s, form, lang) {
+  if (lang === 'bod') return tibetanSpans(s, form);
+  const f = form.normalize('NFC'), out = [];
+  for (let i = s.indexOf(f); i >= 0 && f; i = s.indexOf(f, i + 1)) out.push([i, i + f.length]);
+  return out;
+}
+
+/**
+ * Glossary hits in one source string: literal forms and regexes for its language.
+ * The longest term wins: a form standing inside a longer form of another entry is
+ * not a hit there (citta inside bodhicitta, vajra inside Hevajra, bhaga inside
+ * bhagavatī), while the same form elsewhere in the string still is. Compounds are
+ * kept: citta inside a compound no entry covers is still citta. Each hit gives
+ * the form found and where (`at`, the first place it counts).
+ */
 export function matchSource(entries, src, lang) {
-  const hits = [];
   const s = String(src).normalize('NFC');
-  const has = lang === 'bod' ? f => tibetanIndex(s, f) >= 0 : f => s.includes(f.normalize('NFC'));
+  const occ = [];
   for (const e of entries) {
-    const forms = (e.match[lang] || []).filter(f => f && has(f));
+    for (const f of e.match[lang] || []) if (f) for (const [a, b] of spansOf(s, f, lang)) occ.push({ id: e.id, form: f, a, b });
     for (const re of e.matchRe[lang] || []) {
-      let m;
-      try { m = s.match(new RegExp(re, 'u')); } catch { continue; }
-      if (m) forms.push(m[0]);
+      let r;
+      try { r = new RegExp(re, 'gu'); } catch { continue; }
+      for (const m of s.matchAll(r)) if (m[0]) occ.push({ id: e.id, form: m[0], a: m.index, b: m.index + m[0].length });
     }
-    if (forms.length) hits.push({ id: e.id, form: forms[0] });
   }
-  return hits;
+  const inside = o => occ.some(p => p.id !== o.id && p.a <= o.a && p.b >= o.b && p.b - p.a > o.b - o.a);
+  const first = new Map();
+  for (const o of occ) {
+    if (inside(o)) continue;
+    const cur = first.get(o.id);
+    if (!cur || o.a < cur.a) first.set(o.id, o);
+  }
+  // In glossary order, as before.
+  return entries.filter(e => first.has(e.id)).map(e => { const o = first.get(e.id); return { id: e.id, form: o.form, at: o.a }; });
 }
 
 /** One compact line per entry, for packs and `glossary show`. */

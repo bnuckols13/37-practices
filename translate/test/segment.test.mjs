@@ -173,3 +173,19 @@ test('Tibetan forms match whole syllables, with particles written onto the last 
   assert.equal(tibetanIndex('བདག་མེད་མར་', 'བདག་མེད་མ་'), 0, 'a trailing tsheg in the form is ignored');
   assert.equal(tibetanIndex('ཀྱེའི་གཡུང་མོ', 'གཡུ'), -1, 'not part of a syllable (g.yu in g.yung)');
 });
+
+test('glossary matching: the longest term wins, compounds still count, positions are kept', async () => {
+  const { matchSource } = await import('../lib/glossary.mjs');
+  const { Entry } = await import('../schemas/glossary.mjs');
+  const e = (id, san) => Entry.parse({ id, type: 'term', status: 'proposed', en: id, match: { san } });
+  const es = [e('citta', ['চিত্ত']), e('bodhicitta', ['বোধিচিত্ত']), e('moon', ['চন্দ্র']), e('abhasa', ['াভাস'])];
+  const ids = s => matchSource(es, s, 'san').map(h => h.id);
+  assert.deepEqual(ids('বোধিচিত্তং'), ['bodhicitta'], 'citta inside bodhicitta is bodhicitta');
+  assert.deepEqual(ids('বোধিচিত্তং চিত্তবটুক'), ['citta', 'bodhicitta'], 'citta elsewhere in the string still counts');
+  assert.deepEqual(ids('তনুতরচিত্তাঙ্কুরক'), ['citta'], 'inside a compound no entry covers');
+  assert.deepEqual(ids('চন্দ্রাভাস'), ['moon', 'abhasa'], 'side by side in a compound, both count');
+  const [h] = matchSource(es, 'বোধিচিত্তং চিত্তবটুক', 'san');
+  assert.equal(h.at, 'বোধিচিত্তং '.length, 'the hit points at the occurrence that counts');
+  const { kwic } = await import('../lib/concord.mjs');
+  assert.equal(kwic('বোধিচিত্তং চিত্তবটুক', 'bodhicittaṃ cittavaṭuka', h.form, h.at).tlHit, 'cittavaṭuka');
+});

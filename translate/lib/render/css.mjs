@@ -156,6 +156,27 @@ html[data-display="study"] .par { display: block; grid-column: 1; grid-row: 4; m
 html[data-display="bilingual"] .passage, html[data-display="study"] .passage { grid-template-columns: 4rem minmax(0, 60rem); }
 html[data-display="bilingual"] .sidenote, html[data-display="study"] .sidenote { grid-column: 2; justify-self: end; width: calc(53.5% - 17px); padding: 6px 0 4px 1.3em; font-size: 16px; }
 
+/* Versions: poems made from the song, set after it like imitations after a text. */
+.versions { max-width: 38rem; margin: 48px 0 0 4rem; }
+.versions h2 { margin: 0 0 6px; text-align: center; font-weight: 400; font-size: 19px; font-variant-caps: all-small-caps; letter-spacing: .08em; color: var(--muted); }
+.versions__lede { margin: 0 auto 8px; max-width: 32rem; text-align: center; font-style: italic; font-size: 15.5px; line-height: 1.55; color: var(--muted); text-wrap: balance; }
+.version { margin-top: 30px; border-top: 1px solid var(--rule); padding-top: 22px; }
+.version h3 { margin: 0; font-weight: 400; font-size: 24px; line-height: 1.3; text-wrap: balance; }
+.version__by { margin: 3px 0 0; font-size: 15.5px; font-style: italic; color: var(--muted); }
+.version__by .draft { color: var(--redo); }
+.version__text { margin-top: 16px; }
+.vs { margin: 0 0 14px; font-size: 20px; line-height: 1.6; }
+.vl { display: block; padding-left: 1.3em; text-indent: -1.3em; }
+.vs--refrain .vl { color: var(--rubric); }
+.vcue { display: block; padding-left: 2.6em; font-style: italic; font-size: 17px; color: var(--muted); }
+.version__added { margin: 0; font-size: 15.5px; color: var(--muted); }
+.version details { margin-top: 6px; font-size: 15.5px; line-height: 1.55; color: var(--muted); }
+.version summary { display: inline; list-style: none; cursor: pointer; font-style: italic; color: var(--navy); }
+.version summary::-webkit-details-marker { display: none; }
+.version summary:hover { text-decoration: underline; }
+.version details ul { margin: 6px 0 0; padding: 0; list-style: none; display: grid; gap: 5px; }
+.version details .pno { color: var(--rubric); font-variant-numeric: tabular-nums; }
+.version__voice { margin: 6px 0 0; }
 .after { margin-top: 40px; }
 .after h2 { margin: 0 0 10px; text-align: center; font-weight: 400; font-size: 19px; font-variant-caps: all-small-caps; letter-spacing: .08em; color: var(--muted); }
 .notes { margin: 0; padding-left: 1.6em; font-size: 16.5px; line-height: 1.6; }
@@ -288,7 +309,7 @@ html[data-display="bilingual"] .sidenote, html[data-display="study"] .sidenote {
 @media (max-width: 1180px) {
   .passage { grid-template-columns: 3.2rem minmax(0, 38rem); }
   .sidenote, .sidenote + .sidenote { grid-column: 2; padding: 6px 0 4px 1.3em; font-size: 16px; }
-  .head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .pager { margin-left: 3.2rem; }
+  .head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .versions, .pager { margin-left: 3.2rem; }
   html[data-display="bilingual"] .passage, html[data-display="study"] .passage { grid-template-columns: 3.2rem minmax(0, 1fr); }
 }
 @media (max-width: 900px) {
@@ -310,7 +331,7 @@ html[data-display="bilingual"] .sidenote, html[data-display="study"] .sidenote {
   .runhead__name, .runhead__text { display: none; }
   .runhead__home { margin-right: auto; }
   .passage, html[data-comm="inline"] .passage { grid-template-columns: 2.6rem minmax(0, 1fr); }
-  .head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .pager { margin-left: 0; }
+  .head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .versions, .pager { margin-left: 0; }
   .orn { padding-left: 2.6rem; }
   .en { font-size: 19.5px; }
   .howto { grid-template-columns: minmax(0, 1fr); }

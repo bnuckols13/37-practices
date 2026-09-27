@@ -1,0 +1,85 @@
+{
+  "about": "Lenses for the Workshop: ways English poets have made songs, each a way to make a version of a caryā. A lens sets the mixing board (0 cool .. 1 hot on lineation, syntax, rhythm, rhyme) and says how the English moves. Touchstones are public-domain lines only. See research/western-lenses.md.",
+  "lenses": [
+    {
+      "id": "blake",
+      "name": "Blake",
+      "after": "after William Blake, Songs of Innocence and of Experience (1789–94)",
+      "how": "Rhymed couplets of four beats, in plain words of one or two syllables. Lines that end on their stress, closing like a door. Paradox stated flat, never explained; a question asked and left hanging. The voice of a child or a prophet who does not trust priests.",
+      "why": "Blake called his books illuminated printing: word and picture etched on one copper plate and coloured by hand. His Songs are the English tradition's nearest kin to the siddhas: short sung poems of vision against the temple, in couplets.",
+      "touchstone": "Tyger Tyger, burning bright, / In the forests of the night",
+      "board": { "lineation": 0.9, "syntax": 0.85, "rhythm": 0.9, "rhyme": 0.85 },
+      "suits": "the teaching songs, the riddles, a refrain that must ring"
+    },
+    {
+      "id": "ballad",
+      "name": "Ballad",
+      "after": "after the Child ballads (the old songs of Scotland and the English border)",
+      "how": "Lines of four beats and three, rhymed on the short line. The refrain stitched between the lines as the ballads stitch in theirs. The story told in leaps, without explaining how one scene becomes the next. Incremental repetition: a line comes back changed by a word or two.",
+      "why": "The ballad refrain (\"Binnorie, O Binnorie\") is the English twin of the caryā's ধ্রু: a line the singers come back to after every verse, whatever happens in it.",
+      "touchstone": "Binnorie, O Binnorie",
+      "board": { "lineation": 0.85, "syntax": 0.9, "rhythm": 0.85, "rhyme": 0.7 },
+      "suits": "songs with a story, a woman's name struck again and again, a sudden turn"
+    },
+    {
+      "id": "hymn",
+      "name": "Dickinson",
+      "after": "after Emily Dickinson's hymn-metre riddles",
+      "how": "Hymn metre (eight syllables, then six, alternating, four beats then three). Slant rhyme, never a chime too sweet. Dashes that cut the syntax where the breath catches. Riddles put as definitions (\"X is Y\"). The strange thing kept strange and very close.",
+      "why": "Dickinson made a private, riddling, ecstatic poetry out of the plainest church tune, as the siddhas made theirs out of the plainest folk song. Her slant rhyme is the honest rhyme English can afford.",
+      "touchstone": "",
+      "board": { "lineation": 0.7, "syntax": 0.45, "rhythm": 0.8, "rhyme": 0.45 },
+      "suits": "the twilight-language riddles, paradox, the inward songs"
+    },
+    {
+      "id": "psalm",
+      "name": "Psalm",
+      "after": "after the King James Psalms (1611) and Hebrew parallelism",
+      "how": "Each line in two halves around a pause, the second echoing, answering or sharpening the first. No rhyme and no count of beats: the thought rhymes instead. A refrain answered by the congregation after every verse, word for word. Long, grave, open lines.",
+      "why": "Robert Lowth (1753) showed that Hebrew poetry rhymes in thought, not sound, which is why the Psalms survive translation. The caryā couplet, a statement and its answer, can be heard the same way.",
+      "touchstone": "O give thanks unto the LORD; for he is good: for his mercy endureth for ever.",
+      "board": { "lineation": 0.8, "syntax": 0.95, "rhythm": 0.35, "rhyme": 0.25 },
+      "suits": "the rapt songs, a refrain like a response, the grave teaching"
+    },
+    {
+      "id": "hopkins",
+      "name": "Hopkins",
+      "after": "after Gerard Manley Hopkins (poems 1918)",
+      "how": "Sprung rhythm: count only the stresses and let them crowd together. Alliteration and chimes inside the line; words struck against each other (\"sky-scoop\"). Compounds made on the spot. Ecstatic, packed, sensuous; syntax that bends to the stress.",
+      "why": "Hopkins heard the world's things each 'selving', flashing out their own being; the caryā's objects (oars, the sky-scoop, the lotus root) ask to be heard that hard.",
+      "touchstone": "As kingfishers catch fire, dragonflies draw flame",
+      "board": { "lineation": 0.4, "syntax": 0.45, "rhythm": 0.85, "rhyme": 0.65 },
+      "suits": "songs dense with objects, the boat songs, ecstasy"
+    },
+    {
+      "id": "cathay",
+      "name": "Cathay",
+      "after": "after Ezra Pound's Cathay (1915)",
+      "how": "Plain statement. One image to a line, the line closed. No rhyme, no ornament, no explaining; feeling held back and left to the images. Short sentences side by side. Proper names kept as they are.",
+      "why": "Pound made Cathay from Ernest Fenollosa's word-by-word notes on Chinese poems he could not read: the English tradition's great example of poems made from a gloss. This edition's word-by-word gloss is that notebook.",
+      "touchstone": "",
+      "board": { "lineation": 0.8, "syntax": 0.95, "rhythm": 0.25, "rhyme": 0.05 },
+      "suits": "any song, as the cool pole: to hear what the images do alone"
+    },
+    {
+      "id": "shanty",
+      "name": "Work song",
+      "after": "after the sea shanties and work songs of call and response",
+      "how": "A caller's line and the crew's answer. The beat of the oar stroke or the hauling rope: every line on the same strong four. The refrain after every verse, sung back exactly. Commands, names, calls. Rhyme where it falls easily; repetition always.",
+      "why": "The ferry songs are rowing songs: \"Row, Ḍombī, row\". Work songs keep a crew together by the same means the caryā keeps its hearers: the call, the answer, the return.",
+      "touchstone": "",
+      "board": { "lineation": 0.95, "syntax": 0.95, "rhythm": 0.95, "rhyme": 0.7 },
+      "suits": "the boat and ferry songs, commands, refrains"
+    },
+    {
+      "id": "owen",
+      "name": "Owen",
+      "after": "after Wilfred Owen's para rhyme (poems 1920)",
+      "how": "Para rhyme: keep the consonants of the word you would rhyme and change its vowel (hall, hell), so the ear expects a chime and gets a shudder. Steady, heavy lines. Plain words; the horror left in the thing itself.",
+      "why": "Owen used the coldest rhyme there is for the trenches. The caryās have their cremation grounds, their bone garlands and their sudden threats, where a sweet rhyme would lie.",
+      "touchstone": "",
+      "board": { "lineation": 0.7, "syntax": 0.7, "rhythm": 0.7, "rhyme": 0.2 },
+      "suits": "the fierce songs: the charnel ground, the kāpālika, the threat"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "unit": "cp.01",
+  "title": "The Tree of Five",
+  "lens": "blake",
+  "latitude": "close",
+  "board": {
+    "lineation": 0.9,
+    "syntax": 0.85,
+    "rhythm": 0.9,
+    "rhyme": 0.85
+  },
+  "voice": "Lūyī to his friends: a plain-spoken teacher who scoffs, commands and bears witness, in the child-prophet plainness of Blake's Songs.",
+  "refrainCue": "Make it firm, and measure great bliss",
+  "lines": [
+    {
+      "id": "cp.01.1a",
+      "en": "The body's a fine tree; its branches are five."
+    },
+    {
+      "id": "cp.01.1b",
+      "en": "Death has come into the restless mind."
+    },
+    {
+      "id": "cp.01.2a",
+      "en": "Make it firm, and measure great bliss:"
+    },
+    {
+      "id": "cp.01.2b",
+      "en": "ask the guru and know. Lūyī says this."
+    },
+    {
+      "id": "cp.01.3a",
+      "en": "What do all the samādhis do?"
+    },
+    {
+      "id": "cp.01.3b",
+      "en": "Through pleasure and pain you die, it's true."
+    },
+    {
+      "id": "cp.01.4a",
+      "en": "From the bonds of metre, from hope in the rules of practice, cut loose;"
+    },
+    {
+      "id": "cp.01.4b",
+      "en": "press close to the side of emptiness, friends, and take up the noose."
+    },
+    {
+      "id": "cp.01.5a",
+      "en": "Lūyī says: in meditation I have seen;"
+    },
+    {
+      "id": "cp.01.5b",
+      "en": "dhamaṇa, camaṇa, the two, I made my seat."
+    }
+  ],
+  "couplets": [
+    {
+      "group": "cp.01.1",
+      "kept": "The tree, its five branches, Death getting into the mind; a vowel rhyme on five / mind for the source's ḍāla / kāla.",
+      "letGo": "'Fine tree' keeps taruvara's praise but not its sound."
+    },
+    {
+      "group": "cp.01.2",
+      "kept": "Perfect rhyme on bliss / this, as on parimāṇa / jāṇa; the refrain short enough to sing back after every couplet.",
+      "letGo": "'Take the measure of' becomes 'measure'."
+    },
+    {
+      "group": "cp.01.3",
+      "kept": "Perfect rhyme on do / true for kariai / mariāi; the scoff at samādhis left as a question with no answer.",
+      "letGo": "'Certainly' becomes 'it's true', a spoken shrug more than a verdict."
+    },
+    {
+      "group": "cp.01.4",
+      "kept": "The one half-line the source makes too long for its metre is too long here too; perfect rhyme on loose / noose, as on āsa / pāsa.",
+      "letGo": "'Let go of' becomes 'cut loose from', which is harder."
+    },
+    {
+      "group": "cp.01.5",
+      "kept": "Lūyī's signature and what he saw, in the source's order.",
+      "letGo": "The source leaves this couplet unrhymed; seen / seat chimes a little."
+    }
+  ],
+  "added": [],
+  "note": "An example made with Claude to show the Blake lens; unreviewed.",
+  "id": "blake-the-tree-of-five",
+  "by": "Claude",
+  "made": "2026-09-27",
+  "via": "session",
+  "sourceSha": "da764dd0f3bf26a491366294093127c5bfb978c1c259aceafa1e80aef02767d9",
+  "status": "draft"
+}

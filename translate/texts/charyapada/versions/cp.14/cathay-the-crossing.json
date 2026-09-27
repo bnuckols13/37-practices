@@ -1,0 +1,91 @@
+{
+  "unit": "cp.14",
+  "title": "The Crossing",
+  "lens": "cathay",
+  "latitude": "close",
+  "board": {
+    "lineation": 0.8,
+    "syntax": 0.95,
+    "rhythm": 0.25,
+    "rhyme": 0.05
+  },
+  "voice": "Plain statement, one image to a line, feeling held back: the song as Pound made Cathay out of another man's word-by-word notes.",
+  "refrainCue": "Row, Ḍombī. Row, Ḍombī.",
+  "lines": [
+    {
+      "id": "cp.14.1a",
+      "en": "Between the Gaṅgā and the Yamunā a boat goes."
+    },
+    {
+      "id": "cp.14.1b",
+      "en": "The Mātaṅgī girl has plunged in. She ferries across, playing."
+    },
+    {
+      "id": "cp.14.2a",
+      "en": "Row, Ḍombī. Row, Ḍombī. The way is open."
+    },
+    {
+      "id": "cp.14.2b",
+      "en": "By the true guru's feet I will go again to the Jina's city."
+    },
+    {
+      "id": "cp.14.3a",
+      "en": "Five oars fall at the prow. The rope is tied at the stern."
+    },
+    {
+      "id": "cp.14.3b",
+      "en": "Bail with the sky-scoop. The water does not come in at the seams."
+    },
+    {
+      "id": "cp.14.4a",
+      "en": "Moon and sun: two wheels. Creation and destruction: the pulinda."
+    },
+    {
+      "id": "cp.14.4b",
+      "en": "Two roads, left and right. Look at neither. Row as you please."
+    },
+    {
+      "id": "cp.14.5a",
+      "en": "She takes no cowrie, she takes no coin. She ferries across of her own accord."
+    },
+    {
+      "id": "cp.14.5b",
+      "en": "Those who climbed into a chariot cannot row. They sink, shore after shore."
+    }
+  ],
+  "couplets": [
+    {
+      "group": "cp.14.1",
+      "kept": "Each image closed in its own sentence, so the rivers, the boat and the plunging girl arrive one at a time.",
+      "letGo": "The beat of the source's half-line."
+    },
+    {
+      "group": "cp.14.2",
+      "kept": "The call repeated whole; the refrain comes back word for word, the one hot thing in a cool version.",
+      "letGo": "The off rhyme uchārā / jiṇaurā, and any steady beat."
+    },
+    {
+      "group": "cp.14.3",
+      "kept": "The boat's gear named plainly, the sky-scoop left as strange as it is.",
+      "letGo": "The perfect rhyme of bāndhī / sāndhi."
+    },
+    {
+      "group": "cp.14.4",
+      "kept": "The riddle set out as bare equations, moon and sun: two wheels, with no answer.",
+      "letGo": "The off rhyme of pulindā / chandā."
+    },
+    {
+      "group": "cp.14.5",
+      "kept": "The doubled refusal of payment, and the flat last sentence of the sinking.",
+      "letGo": "Nothing the source has here, except its music."
+    }
+  ],
+  "added": [],
+  "note": "An example made with Claude: the cool pole of the Workshop board, to hear what the images do alone. Set it beside 'Row, Ḍombī'.",
+  "id": "cathay-the-crossing",
+  "by": "Claude",
+  "made": "2026-09-27",
+  "via": "session",
+  "sourceSha": "ac0766c33fbb2f68a6a32782aedeb12679537205c437bf659bd2607ad7227b17",
+  "status": "draft"
+}

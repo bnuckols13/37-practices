@@ -208,6 +208,37 @@ function glossFor(ctx, ids) {
 
 const ORN = '<div class="orn" aria-hidden="true">॥</div>';
 
+/**
+ * Versions made from the song in the Workshop: poems through a lens (after
+ * Blake, the ballad, the psalm…), each with its maker, set after the song as
+ * a book sets imitations after the text. The accurate translation stays the
+ * edition's text; a version says what it kept and what it let go.
+ */
+function versionsHtml(ctx, u, r) {
+  if (!r.versions?.length) return '';
+  const groups = groupsOf(u).filter(g => g.lines[0].role === 'line');
+  const refrainAt = groups.findIndex(g => g.lines[0].refrain);
+  const one = v => {
+    const en = new Map(v.lines.map(l => [l.id, l.en]));
+    const cue = v.refrainCue.trim().replace(/[…\s.]+$/, '');
+    const stanzas = groups.map((g, i) => `<p class="vs${g.lines[0].refrain ? ' vs--refrain' : ''}">`
+      + g.lines.map(l => `<span class="vl">${esc(en.get(l.id) || '')}</span>`).join('')
+      + (cue && refrainAt >= 0 && i > refrainAt ? `<span class="vcue">${esc(cue)}…</span>` : '') + '</p>').join('');
+    const how = v.couplets.map(c => `<li><span class="pno">${passageNo(c.group)}</span> <i>Kept.</i> ${esc(c.kept)}${c.letGo ? ` <i>Let go.</i> ${esc(c.letGo)}` : ''}</li>`).join('');
+    const by = [v.lensAfter ? cap(v.lensAfter) : 'A version made without a lens',
+      v.latitude === 'close' ? 'close to the song' : 'free: an imitation',
+      `made by ${esc(v.by)}${v.via === 'workshop' ? ' in the Workshop' : ''}`].join(' · ');
+    return `<article class="version" id="v-${attr(v.id)}"><h3>${esc(v.title || r.title)}</h3>`
+      + `<p class="version__by">${by}${v.status === 'kept' ? '' : ' · <span class="draft">draft</span>'}</p>`
+      + `<div class="version__text">${stanzas}</div>`
+      + (v.added.length ? `<p class="version__added"><i>Added:</i> ${esc(v.added.join('; '))}</p>` : '')
+      + `<details><summary>What it kept and let go</summary>${v.voice ? `<p class="version__voice">${esc(v.voice)}</p>` : ''}<ul>${how}</ul>${v.note ? `<p>${esc(v.note)}</p>` : ''}</details></article>`;
+  };
+  return `<section class="versions" aria-labelledby="versions-h"><h2 id="versions-h">Versions</h2>`
+    + `<p class="versions__lede">Poems made from this ${esc(ctx.text.unitLabel.toLowerCase())}, each through a way English poets have made songs. They keep its shape and its images and say what they changed; the translation above remains the edition's text.</p>`
+    + r.versions.map(one).join('') + '</section>';
+}
+
 export function songPage(ctx, r, prev, next, v) {
   const { text } = ctx;
   const u = ctx.unitById.get(r.unit);
@@ -268,6 +299,7 @@ ${parts.join('\n')}
   </div>
   <p class="end" aria-hidden="true">॥&#8239;${u.n}&#8239;॥</p>
   ${colophon(ctx, r, u)}
+  ${versionsHtml(ctx, u, r)}
   <div class="after">
     ${order.length ? `<h2>Notes</h2><ol class="notes">${order.map(n => `<li id="n${num.get(n)}" data-kind="${attr(n.kind)}">${ctx.md(n.text)}${n.anchor !== u.id ? `&nbsp;<a class="back" href="#nr${num.get(n)}" aria-label="Back to the passage">↩</a>` : ''}</li>`).join('')}</ol>` : ''}
     ${terms.length ? `<p class="terms">Glossary terms in this ${esc(text.unitLabel.toLowerCase())}: ${terms.join(', ')}.</p>` : ''}

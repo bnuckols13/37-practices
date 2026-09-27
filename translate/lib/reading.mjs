@@ -199,7 +199,8 @@ export function englishBoard(unit, lines) {
 
   const beats = scans.map(s => s.beats);
   const groove = mode(beats);
-  const onGroove = beats.filter(b => Math.abs(b - groove) <= 0).length / Math.max(1, beats.length);
+  // A song's groove bends: a line a beat off it is syncopation, half on the groove.
+  const onGroove = beats.reduce((n, b) => n + (b === groove ? 1 : Math.abs(b - groove) === 1 ? 0.5 : 0), 0) / Math.max(1, beats.length);
   const alternation = mean(scans.map(s => {
     const p = s.pattern; let alt = 0;
     for (let i = 1; i < p.length; i++) if (p[i] !== p[i - 1]) alt++;
@@ -231,7 +232,7 @@ export function englishBoard(unit, lines) {
       lineation: { heat: round(lineationHeat), facts: [`${Math.round(stopped * 100)}% of lines end-stopped`, `line lengths ${Math.min(...scans.map(s => s.syllables))}–${Math.max(...scans.map(s => s.syllables))} syllables`] },
       syntax: { heat: round(syntaxHeat), facts: [`${para} joins side by side (and, but, commas, colons) against ${hypo} hung under (when, which, because)`] },
       rhythm: { heat: round(rhythmHeat), groove, facts: [
-        `groove ${groove} beats a line; ${Math.round(onGroove * 100)}% of lines on it`,
+        `groove ${groove} beats a line; ${beats.filter(b => b === groove).length} of ${beats.length} lines on it, ${beats.filter(b => Math.abs(b - groove) === 1).length} a beat off`,
         `${masculine} of ${scans.length} lines end on a stress (a strong close, as in "burning bright")`,
       ] },
       rhyme: { heat: round(rhymeHeat), facts: [

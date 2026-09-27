@@ -98,6 +98,9 @@ export function paths(slug) {
     sung: id => path.join(dir, 'sung', id + '.json'),               // the unit sounded in English (sing)
     sungSheet: id => path.join(dir, 'review', id + '.sung.md'),
     approvedSung: id => path.join(dir, 'approved', id + '.sung.json'),
+    versions: path.join(dir, 'versions'),                           // poems made from a song (the Workshop)
+    versionDir: id => path.join(dir, 'versions', id),
+    version: (id, vid) => path.join(dir, 'versions', id, vid + '.json'),
   };
 }
 

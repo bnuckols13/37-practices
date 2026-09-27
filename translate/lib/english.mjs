@@ -27,15 +27,6 @@ export const plainWord = w => String(w).normalize('NFD').replace(/[̀-ͯ]/g, '')
 export const wordsOf = line => String(line).replace(/\[([^\]]*)\]\{[^}]*\}/g, '$1').split(/[\s—–-]+/)
   .map(w => ({ raw: w, w: plainWord(w) })).filter(x => x.w);
 
-// Spelling fallback: vowel groups are syllables; a word-final silent e is not.
-function spellSyllables(w) {
-  const groups = w.match(/[aeiouy]+/g) || [];
-  let n = groups.length;
-  if (n > 1 && /[^aeiouy]e$/.test(w) && !/[^aeiouy]le$/.test(w)) n--;
-  if (n > 1 && /[^aeiouy]es$|[^aeiouy]ed$/.test(w) && !/(ted|ded|ses|zes|ches|shes|ges)$/.test(w)) n--;
-  return Math.max(1, n);
-}
-
 // Pseudo-phones from spelling, good enough to compare two unknown words.
 function spellPhones(w) {
   const out = [];
@@ -49,20 +40,65 @@ function spellPhones(w) {
   return out;
 }
 
+const parse = entry => entry.split(' ').map(x => {
+  const m = /^([A-Z]+)([012])?$/.exec(x);
+  return { p: m[1], v: VOWEL_PHONES.has(m[1]), s: m[2] ? Number(m[2]) : null };
+});
+const P = s => parse(s);
+
+// A word the dictionary lacks may be a known word with a prefix or an ending (unmaking, oars').
+function derive(w) {
+  const d = x => DICT && DICT[x];
+  if (w.endsWith("'s") && d(w.slice(0, -2))) return [...P(d(w.slice(0, -2))), ...P('Z')];
+  if (w.endsWith("s'") && d(w.slice(0, -1))) return P(d(w.slice(0, -1)));
+  for (const [pre, ph] of [['un', 'AH0 N'], ['re', 'R IY0'], ['in', 'IH0 N']]) {
+    if (w.startsWith(pre) && w.length > pre.length + 2) {
+      const rest = d(w.slice(pre.length)) || (w.length > pre.length + 3 && derive(w.slice(pre.length)));
+      if (rest) return [...P(ph), ...(typeof rest === 'string' ? P(rest) : rest)];
+    }
+  }
+  for (const [suf, ph] of [['ing', 'IH0 NG'], ['ed', 'D'], ['es', 'Z'], ['s', 'Z'], ['ly', 'L IY0'], ['er', 'ER0']]) {
+    if (!w.endsWith(suf) || w.length < suf.length + 3) continue;
+    const stem = w.slice(0, -suf.length);
+    const base = d(stem) || d(stem + 'e') || (stem.length > 3 && stem.at(-1) === stem.at(-2) && d(stem.slice(0, -1)));
+    if (base) return [...P(base), ...P(ph)];
+  }
+  return null;
+}
+
 /** Phones of one word: [{p, v (vowel), s (stress 0|1|2)}], and whether they came from the dictionary. */
 export function phones(word) {
   const w = plainWord(word);
   if (!w) return { phones: [], known: false };
-  const hit = DICT && (DICT[w] || DICT[w.replace(/'s$/, '')] || null);
-  if (hit) {
-    const ph = hit.split(' ').map(x => {
-      const m = /^([A-Z]+)([012])?$/.exec(x);
-      return { p: m[1], v: VOWEL_PHONES.has(m[1]), s: m[2] ? Number(m[2]) : null };
-    });
-    if (w.endsWith("'s") && !DICT[w]) ph.push({ p: 'Z', v: false, s: null });
-    return { phones: ph, known: true };
-  }
+  const hit = DICT && DICT[w];
+  if (hit) return { phones: P(hit), known: true };
+  const derived = DICT && derive(w);
+  if (derived) return { phones: derived, known: true };
   return { phones: spellPhones(w), known: false };
+}
+
+/**
+ * Stress of a word the dictionary lacks: most are names and terms in IAST
+ * (Ḍombī, samādhi, kāpālika), so the Sanskrit rule a reader would use: the
+ * next-to-last syllable when it is heavy (a long vowel, or closed by a
+ * consonant), else the one before it.
+ */
+function guessStress(raw) {
+  const w = String(raw).normalize('NFC').toLowerCase().replace(/[^a-zāīūēōṛṝḷṅñṭḍṇśṣḥṃ']/g, '');
+  const sy = [];
+  // y is a consonant in IAST (Yamunā, Lūyī); only a word with no other vowel sounds it.
+  const re = /[aeiouāīūēōṛ]/.test(w) ? /([^aeiouāīūēōṛ]*)(ai|au|[aeiouāīūēōṛ])/g : /([^aeiouy]*)([aeiouy])/g;
+  let m, last = 0;
+  while ((m = re.exec(w))) { sy.push({ onset: m[1], v: m[2] }); last = re.lastIndex; }
+  if (!sy.length) return [1];
+  const coda = w.slice(last);
+  if (sy.length > 1 && sy.at(-1).v === 'e' && !coda && !/[āīū]/.test(w)) sy.pop();
+  const n = sy.length;
+  if (n === 1) return [1];
+  if (n === 2) return [1, 0];
+  const heavy = i => /[āīūēōeo]|ai|au/.test(sy[i].v) || (sy[i + 1] && sy[i + 1].onset.replace(/h/g, '').length >= 2) || (i === n - 1 && coda);
+  const k = heavy(n - 2) ? n - 2 : n - 3;
+  return sy.map((_, i) => (i === k ? 1 : 0));
 }
 
 /**
@@ -74,12 +110,9 @@ export function wordStress(word) {
   const w = plainWord(word);
   if (!w) return [];
   const { phones: ph, known } = phones(w);
+  if (!known) return guessStress(word);
   const vs = ph.filter(x => x.v);
   if (vs.length <= 1) return [LIGHT.has(w) ? 0 : 1];
-  if (!known) {
-    const n = spellSyllables(w);
-    return Array.from({ length: n }, (_, i) => (i === 0 ? 1 : 0));
-  }
   const s = vs.map(x => (x.s === 1 ? 1 : 0));
   vs.forEach((x, i) => { if (x.s === 2 && !s[i - 1] && !s[i + 1]) s[i] = 1; });
   if (!s.includes(1)) s[0] = 1;
@@ -91,8 +124,13 @@ export function syllableCount(line) {
 }
 
 /** The line scanned: words with their stress marks, the beat count, and the pattern as x and /. */
+// A light word that ends a line carries the voice ("what do they DO", "clings to YOU").
+const PROMOTE = new Set('do does did is are was were be been have has had will would can could may might must shall should you me him her them us it this that these those there here then so too up out off in on through'.split(' '));
+
 export function scan(line) {
-  const words = wordsOf(line).map(({ raw, w }) => ({ raw, stress: wordStress(w) }));
+  const words = wordsOf(line).map(({ raw, w }) => ({ raw, w, stress: wordStress(raw) }));
+  const tail = words.at(-1);
+  if (tail && tail.stress.length === 1 && !tail.stress[0] && PROMOTE.has(tail.w)) tail.stress = [1];
   // Stress is relative: in a run of three or more strong monosyllables the
   // voice lets the middle ones fall ("the ROAD's come CLEAR"). Two stay two: a spondee.
   let run = [];

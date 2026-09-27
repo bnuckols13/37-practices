@@ -1,0 +1,117 @@
+{
+  "unit": "cp.10",
+  "title": "Hey, Ḍombī",
+  "lens": "ballad",
+  "latitude": "close",
+  "board": {
+    "lineation": 0.85,
+    "syntax": 0.9,
+    "rhythm": 0.8,
+    "rhyme": 0.75
+  },
+  "voice": "Kāṇha, a kāpālika yogi, sings straight at Ḍombī at her hut outside the town: teasing, courting, showing off his outcaste gear, then turning without warning to the threat. A border ballad's bluntness.",
+  "refrainCue": "Hey Ḍombī, I'll keep company with you",
+  "lines": [
+    {
+      "id": "cp.10.1a",
+      "en": "Out past the town, Ḍombī, stands your hut;"
+    },
+    {
+      "id": "cp.10.1b",
+      "en": "the brahmin goes by, touching, touching, his head close-cut."
+    },
+    {
+      "id": "cp.10.2a",
+      "en": "Hey Ḍombī, I'll keep company with you:"
+    },
+    {
+      "id": "cp.10.2b",
+      "en": "Kāṇha, kāpālika yogi, without disgust, clings to you."
+    },
+    {
+      "id": "cp.10.3a",
+      "en": "A single lotus with sixty-four petals:"
+    },
+    {
+      "id": "cp.10.3b",
+      "en": "poor Ḍombī climbs up on it and dances."
+    },
+    {
+      "id": "cp.10.4a",
+      "en": "Hey Ḍombī, I ask in good faith, I want to know:"
+    },
+    {
+      "id": "cp.10.4b",
+      "en": "in whose boat, Ḍombī, do you come and go?"
+    },
+    {
+      "id": "cp.10.5a",
+      "en": "Ḍombī sells cord now, and no more baskets;"
+    },
+    {
+      "id": "cp.10.5b",
+      "en": "for your sake I've put down the performer's basket."
+    },
+    {
+      "id": "cp.10.6a",
+      "en": "Hey you, Ḍombī, I am a kāpālika;"
+    },
+    {
+      "id": "cp.10.6b",
+      "en": "for your sake I've put on a garland of bones."
+    },
+    {
+      "id": "cp.10.7a",
+      "en": "Breaking the lake, Ḍombī eats the lotus root."
+    },
+    {
+      "id": "cp.10.7b",
+      "en": "I'll kill Ḍombī. I'll take her life."
+    }
+  ],
+  "couplets": [
+    {
+      "group": "cp.10.1",
+      "kept": "Perfect rhyme on hut / close-cut for kuṛiā / nāṛiā; the doubled 'touching, touching' kept as the source doubles chaichoi.",
+      "letGo": ""
+    },
+    {
+      "group": "cp.10.2",
+      "kept": "Absolute rhyme, you / you, for the refrain the song keeps coming back to; Ḍombī named at its start.",
+      "letGo": "The vowel rhyme of sāṅga / lāga."
+    },
+    {
+      "group": "cp.10.3",
+      "kept": "The one lotus, its sixty-four petals, and poor Ḍombī dancing on it, plainly.",
+      "letGo": "The perfect rhyme of pākhuṛī / bāpuṛī: nothing honest rhymes with petals."
+    },
+    {
+      "group": "cp.10.4",
+      "kept": "Perfect rhyme on know / go for sadabhābe / nābem̐, and Ḍombī called twice, as in the source.",
+      "letGo": "'I want to know' spells out what the asking implies."
+    },
+    {
+      "group": "cp.10.5",
+      "kept": "Baskets / basket keeps the same word at both ends, a rougher chime than the source's off rhyme.",
+      "letGo": "The gloss is unsure of both baskets; the version does not say so."
+    },
+    {
+      "group": "cp.10.6",
+      "kept": "The boast and the garland of bones, short and hard.",
+      "letGo": "The perfect rhyme of kapālī / mālī."
+    },
+    {
+      "group": "cp.10.7",
+      "kept": "The turn to the threat, as sudden as the source's; both last lines end on a stress, like a door slammed.",
+      "letGo": "The perfect rhyme of molāṇa / parāṇa."
+    }
+  ],
+  "added": [],
+  "note": "An example made with Claude to show the ballad lens; unreviewed.",
+  "id": "ballad-hey-dombi",
+  "by": "Claude",
+  "made": "2026-09-27",
+  "via": "session",
+  "sourceSha": "b2b73080b2d2f152afbb1c9f873674b6f3d0c042176937835185fdb3afc957f2",
+  "status": "draft"
+}

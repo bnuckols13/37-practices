@@ -40,6 +40,11 @@ const HELP = `Illuminated translation engine
   render <text> [--preview]                       translations/<text>/… and sitemap-translations.xml
   glossary <text> [show|lint]                     inspect the glossary in scope
 
+  versions list <text> [units]                    poems made from the songs (the Workshop), with their boards
+  versions import <text> <file|-> [--by "…"] [--dry]  file versions handed over from the Workshop
+  versions keep <text> <unit> <id> [--undo]       show (or stop showing) a version in the Reading Room
+  workshop build <text> [units]                   build the Workshop page into translate/.workshop/workshop.html
+
   studio build [--target staging|prod]            build the Studio page into translate/.studio/studio.html
   studio export <text> [units] [--all]            write Studio docs + ArtifactData batches (only what changed)
   studio seeded <text>                            record that every batch was written
@@ -53,7 +58,7 @@ const { values: o, positionals } = parseArgs({
     label: { type: 'string' }, witness: { type: 'string' }, fetch: { type: 'string' }, task: { type: 'string' },
     model: { type: 'string' }, api: { type: 'boolean' }, batch: { type: 'boolean' }, force: { type: 'boolean' },
     dry: { type: 'boolean' }, preview: { type: 'boolean' }, strict: { type: 'boolean' }, glossary: { type: 'boolean' },
-    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, en: { type: 'string' }, help: { type: 'boolean', short: 'h' },
+    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, en: { type: 'string' }, by: { type: 'string' }, undo: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
   },
 });
 
@@ -243,6 +248,63 @@ const commands = {
     const r = render(slug, { preview: o.preview });
     for (const f of r.files) log(`  wrote ${rel(f)}`);
     if (r.note) log(`  ${r.note}`);
+  },
+
+  async versions() {
+    const sub = slug, text = rest[0];
+    const V = await import('./lib/versions.mjs');
+    if (!text) throw new UserError('versions list|import|keep <text> …');
+    if (sub === 'list') {
+      await import('./lib/ear.mjs');
+      const { englishBoard, sourceBoard, temperature, CHANNELS } = await import('./lib/reading.mjs');
+      const { loadUnit } = await import('./lib/text.mjs');
+      const { paths, readJSON } = await import('./lib/io.mjs');
+      const ids = rest[1] ? await unitsFor(text, rest[1]) : null;
+      const all = V.allVersions(text, ids);
+      if (!all.length) return log('  no versions yet: make one in the Workshop (workshop build), then versions import');
+      for (const { unit: id, versions } of all) {
+        const unit = loadUnit(text, id);
+        const src = sourceBoard(unit, readJSON(paths(text).draft(id), null));
+        log(`  ${id}   source: ${CHANNELS.map(c => `${c} ${temperature(src.channels[c].heat)}`).join(', ')}`);
+        for (const v of versions) {
+          const b = englishBoard(unit, v.lines);
+          const { warnings, errors } = V.validateVersion(text, v, { filed: true });
+          log(`    ${v.status === 'kept' ? '✓' : '·'} ${v.id.padEnd(28)} ${V.lensName(v.lens).padEnd(10)} ${v.latitude.padEnd(5)} by ${v.by}, ${v.made}`);
+          log(`      heard: ${CHANNELS.map(c => `${c} ${temperature(b.channels[c].heat)}`).join(', ')}`);
+          for (const e of errors) log(`      ✗ ${e}`);
+          for (const w of warnings) log(`      ! ${w}`);
+        }
+      }
+      return;
+    }
+    if (sub === 'import') {
+      const file = rest[1];
+      if (!file) throw new UserError('give the Workshop JSON file, or - to read it from stdin');
+      const res = V.importVersions(text, V.readInput(file), { by: o.by, dry: o.dry, via: 'workshop' });
+      for (const r of res) {
+        log(`  ${r.unit}: ${r.ok ? (o.dry ? 'would file ' : 'filed ') + r.id + (o.dry ? '' : ' -> ' + rel(r.path)) : 'refused'}`);
+        for (const e of r.errors || []) log(`    ✗ ${e}`);
+        for (const w of r.warnings || []) log(`    ! ${w}`);
+      }
+      if (res.some(r => !r.ok)) process.exitCode = 1;
+      return;
+    }
+    if (sub === 'keep') {
+      const [, unitSel, vid] = rest;
+      if (!unitSel || !vid) throw new UserError('versions keep <text> <unit> <id>');
+      const [id] = await unitsFor(text, unitSel);
+      const r = V.keepVersion(text, id, vid, { undo: o.undo });
+      return log(`  ${id}/${vid}: ${r.status}`);
+    }
+    throw new UserError('versions list | import | keep');
+  },
+
+  async workshop() {
+    const sub = slug, text = rest[0];
+    if (sub !== 'build' || !text) throw new UserError('workshop build <text> [units]');
+    const { buildWorkshop } = await import('./lib/workshop/build.mjs');
+    const r = buildWorkshop(text, rest[1] ? await unitsFor(text, rest[1]) : null);
+    log(`  wrote ${rel(r.path)} (${Math.round(r.bytes / 1024)} KB; ${r.units} song(s), ${r.versions} version(s))`);
   },
 
   async studio() {

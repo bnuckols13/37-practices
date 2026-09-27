@@ -1,0 +1,91 @@
+{
+  "unit": "cp.14",
+  "title": "Row, Ḍombī",
+  "lens": "shanty",
+  "latitude": "close",
+  "board": {
+    "lineation": 0.95,
+    "syntax": 0.9,
+    "rhythm": 0.85,
+    "rhyme": 0.6
+  },
+  "voice": "A caller's line and the crew's answer: Ḍombīpāda watches the Mātaṅgī girl at the crossing and urges the rower on, on the beat of the oar.",
+  "refrainCue": "Row, Ḍombī, row, Ḍombī",
+  "lines": [
+    {
+      "id": "cp.14.1a",
+      "en": "Between the Gaṅgā and the Yamunā a boat goes by;"
+    },
+    {
+      "id": "cp.14.1b",
+      "en": "the Mātaṅgī girl, plunged in, ferries over in play."
+    },
+    {
+      "id": "cp.14.2a",
+      "en": "Row, Ḍombī, row, Ḍombī, the way is clear:"
+    },
+    {
+      "id": "cp.14.2b",
+      "en": "by the true guru's feet I'll go again to the Jina's town."
+    },
+    {
+      "id": "cp.14.3a",
+      "en": "Five oars dip at the prow; the stern rope’s made fast;"
+    },
+    {
+      "id": "cp.14.3b",
+      "en": "bail with the sky-scoop: at the seams no water gets past."
+    },
+    {
+      "id": "cp.14.4a",
+      "en": "Moon and sun, two wheels; the pulinda, making and unmaking;"
+    },
+    {
+      "id": "cp.14.4b",
+      "en": "two roads, left and right: heed neither, row to your liking."
+    },
+    {
+      "id": "cp.14.5a",
+      "en": "No cowrie she takes, no coin she takes: she ferries across at will."
+    },
+    {
+      "id": "cp.14.5b",
+      "en": "Who climbed on a chariot can't row: they sink, shore after shore."
+    }
+  ],
+  "couplets": [
+    {
+      "group": "cp.14.1",
+      "kept": "The two rivers, the boat and the girl plunged in, in the source's order; 'playing' keeps the ease of her crossing.",
+      "letGo": "The source does not rhyme here, and neither does this."
+    },
+    {
+      "group": "cp.14.2",
+      "kept": "The call struck twice, Row, Ḍombī, as the source strikes bāhatu and ḍombī: absolute rhyme, sung back after every couplet.",
+      "letGo": "The off rhyme of uchārā and jiṇaurā."
+    },
+    {
+      "group": "cp.14.3",
+      "kept": "Perfect rhyme on fast / past for the source's perfect bāndhī / sāndhi; 'made fast' is the boatman's word for tied.",
+      "letGo": ""
+    },
+    {
+      "group": "cp.14.4",
+      "kept": "Off rhyme on unmaking / liking, as the source goes off-rhyme on pulindā / chandā; the riddle of the pulinda left unsolved.",
+      "letGo": "'Creation and destruction' becomes 'making and unmaking', plainer to sing."
+    },
+    {
+      "group": "cp.14.5",
+      "kept": "'No cowrie she takes, no coin she takes' keeps the source's doubled na lei; the chariot-riders sink shore after shore.",
+      "letGo": "The source does not rhyme here; neither does this."
+    }
+  ],
+  "added": [],
+  "note": "An example made with Claude to show the Workshop's work-song lens; unreviewed.",
+  "id": "shanty-row-dombi",
+  "by": "Claude",
+  "made": "2026-09-27",
+  "via": "session",
+  "sourceSha": "ac0766c33fbb2f68a6a32782aedeb12679537205c437bf659bd2607ad7227b17",
+  "status": "draft"
+}

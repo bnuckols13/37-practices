@@ -8,6 +8,7 @@
  */
 
 import { partOf } from './ids.mjs';
+import { syllableCount } from './english.mjs';
 
 // Longest first, so "ai" is one nucleus and "ā" is not read as "a".
 const VOWELS = ['ai', 'au', 'ā', 'ī', 'ū', 'ṝ', 'ḹ', 'a', 'i', 'u', 'e', 'o', 'ḷ'];
@@ -152,7 +153,7 @@ export function songAdvice(sungLines, accurateLines, strip = s => s) {
   const out = [];
   for (const l of sungLines) {
     if (acc.get(l.id) && plain(l.en) === acc.get(l.id)) out.push(`${l.id}: sung exactly as the accurate English; sing it, or say in kept why it stands`);
-    const n = englishSyllables(strip(l.en));
+    const n = syllableCount(strip(l.en));
     if (n > SUNG_LINE_MAX) out.push(`${l.id}: about ${n} syllables, long for a sung line (aim for four beats, about ${SUNG_LINE_MAX} syllables at most)`);
   }
   return out;

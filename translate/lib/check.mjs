@@ -20,6 +20,7 @@ import { forbiddenHere } from './review/sung.mjs';
 import { songAdvice } from './sound.mjs';
 import './ear.mjs';
 import { temperatureAdvice } from './reading.mjs';
+import { listVersions, validateVersion } from './versions.mjs';
 
 const words = s => markup.strip(s).toLowerCase().replace(/[^\p{L}\p{M}\s']/gu, ' ').split(/\s+/).filter(Boolean);
 const fold = s => String(s).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/\bdhru\b|[0-9]/g, '').replace(/[|।॥.,;:'"\s-]/g, '')
@@ -217,6 +218,14 @@ export function check(slug, { strict = false } = {}) {
     if (sung && !approvedSung && (approved || draft)) {
       for (const a of songAdvice(sung.lines, (approved || draft).lines, markup.strip)) W.push(`${u.id} sung: ${a}`);
       if (draft) for (const a of temperatureAdvice(unit, draft, sung.lines, 'the sung version')) W.push(`${u.id} sung: ${a}`);
+    }
+
+    // 11b. versions made in the Workshop: the song's shape, no reading inside a line, nothing copied
+    for (const v of listVersions(slug, u.id)) {
+      const { errors, warnings } = validateVersion(slug, v, { filed: true });
+      for (const e of errors) E.push(`${u.id} version ${v.id}: ${e}`);
+      for (const w of warnings) W.push(`${u.id} version ${v.id}: ${w}`);
+      for (const l of v.lines) overlap(`${l.id} (version ${v.id})`, l.en);
     }
 
     // 12. determinism: the same inputs must give the same pack

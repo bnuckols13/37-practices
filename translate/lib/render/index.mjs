@@ -16,6 +16,7 @@ import { makeCtx, searchIndex, fileOf } from './ctx.mjs';
 import { READER_CSS } from './css.mjs';
 import { READER_JS } from './client.mjs';
 import { site } from './shell.mjs';
+import { listVersions, lensName, lensAfter } from '../versions.mjs';
 
 /** The sung version beside a record: approved if current; the draft only in preview. */
 function sungOf(P, u, preview) {
@@ -26,20 +27,27 @@ function sungOf(P, u, preview) {
   return s && s.provenance.sourceSha === u.sourceSha ? { ...s, status: 'draft' } : null;
 }
 
+/** Versions made from a song: the ones the reviewer kept, current with the source; every one in preview. */
+function versionsOf(slug, u, preview) {
+  return listVersions(slug, u.id).filter(v => (preview || v.status === 'kept') && v.sourceSha === u.sourceSha)
+    .map(v => ({ ...v, lensName: lensName(v.lens), lensAfter: lensAfter(v.lens) }));
+}
+
 function records(slug, units, preview) {
   const P = paths(slug);
   const out = new Map();
   for (const u of units) {
     const sung = sungOf(P, u, preview);
+    const versions = versionsOf(slug, u, preview);
     const a = readJSON(P.approvedFile(u.id), null);
-    if (a && a.sourceSha === u.sourceSha) { out.set(u.id, { ...a, status: 'approved', sung }); continue; }
+    if (a && a.sourceSha === u.sourceSha) { out.set(u.id, { ...a, status: 'approved', sung, versions }); continue; }
     if (a && !preview) fail(`${u.id}: the approved text is stale (the source changed after approval); redraft and review before rendering`);
     if (!preview) continue;
     const d = readJSON(P.draft(u.id), null);
     if (!d) continue;
     const w = readJSON(P.weave(u.id), null);
     out.set(u.id, {
-      unit: u.id, n: u.n, title: d.title, summary: d.summary, status: 'draft', provenance: { draft: d.provenance }, sung,
+      unit: u.id, n: u.n, title: d.title, summary: d.summary, status: 'draft', provenance: { draft: d.provenance }, sung, versions,
       lines: d.lines.map(l => ({ id: l.id, en: l.en, gloss: l.gloss, translit: l.translit })),
       notes: d.notes,
       commentary: u.commentary.map(s => {

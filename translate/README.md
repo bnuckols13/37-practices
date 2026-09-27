@@ -229,6 +229,7 @@ Directives are whole lines starting with `@`. The raw import is never edited: `c
 | `@heading`, `@verse`, `@skip` | what the following lines are (`@skip` for page titles, footnotes, page numbers) |
 | `@comm [K]` | a commentary segment about couplet K (bare = the whole song) |
 | `@couplet N`, `@refrain`, `@bhanita` | number / flag the next couplet |
+| `@join` | the next verse line does not end its couplet, though it ends with ॥ (a daṇḍa misplaced in the edition) |
 | `@lang CODE` | language of the following lines (commentary defaults to the text's commentary language) |
 | `@lacuna [note]` | a gap in the witness |
 | `@emend ID FROM => TO \| reason` | correct a line without touching the raw text |

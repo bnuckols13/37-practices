@@ -8,6 +8,7 @@
  *   @comm [K|sK]                commentary segment about couplet K (or stanza sK); bare = whole unit
  *   @couplet N                  number the next couplet N
  *   @refrain  @bhanita          flag the next couplet
+ *   @join                       the next verse line does not end its couplet, though it ends with ॥
  *   @lang CODE                  language of the following lines
  *   @lacuna [note]              a gap in the witness
  *   @emend ID FROM => TO | why  correct a line; recorded on the unit, raw text untouched

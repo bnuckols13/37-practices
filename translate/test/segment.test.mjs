@@ -33,6 +33,12 @@ test('caryagiti: one-line couplets split at the first internal daṇḍa; two-li
   ]);
 });
 
+test('caryagiti: @join keeps a half-line that ends with ॥ from closing its couplet', () => {
+  const [u] = run('@song 5\nক খ। গ ঘ॥\n@join\nচ ছ॥\nজ ঝ॥ ধ্রু॥\nঞ ট। ঠ ড॥\n');
+  assert.deepEqual(u.lines.map(l => l.id), ['fx.05.1a', 'fx.05.1b', 'fx.05.2a', 'fx.05.2b', 'fx.05.3a', 'fx.05.3b']);
+  assert.equal(u.lines[2].src, 'চ ছ॥');
+});
+
 test('caryagiti: @split divides a commentary line between two comments, leaving the source as imported', () => {
   const [u] = run('@song 5\nক খ। গ ঘ॥\n@comm\n@split চেত্যাদি।\nআহ—চেত্যাদি। ছ জ।\n\n@comm 1\nঝ।\n');
   assert.deepEqual(u.commentary.map(s => [s.anchor, s.src]), [['fx.05', 'আহ—'], ['fx.05.1', 'চেত্যাদি। ছ জ। ঝ।']]);

@@ -9,6 +9,10 @@
  * edition prints ধ্রু after every couplet that follows the refrain, as a cue
  * to sing it again, so the marks alone would flag every couplet.
  *
+ * @join keeps the next verse line from ending its couplet though its tail carries ॥
+ * (a daṇḍa misplaced in the edition, as after the first half-line of song 27's
+ * fourth couplet).
+ *
  * @split TEXT divides the next line where TEXT begins, as in a parallel file: the
  * part before ends the current block, the rest begins the block the next directive
  * opens (Munidatta running one comment into the next), so the source stays as imported.
@@ -33,6 +37,7 @@ export const caryagiti = {
   file(st, evs) {
     let mode = 'verse', buf = [], seg = null, flags = {};
     let split = null, carry = null;   // @split: the text to cut at, then the cut-off rest awaiting its block
+    let join = false;                  // @join: the next verse line does not end its couplet
 
     const closeCouplet = () => {
       if (!buf.length) return;
@@ -84,6 +89,7 @@ export const caryagiti = {
           case 'couplet': closeCouplet(); flags.couplet = Number(arg); if (!Number.isInteger(flags.couplet)) fail(`${at}: @couplet needs a number`); break;
           case 'refrain': closeCouplet(); flags.refrain = true; break;
           case 'bhanita': closeCouplet(); flags.bhanita = true; break;
+          case 'join': join = true; break;
           case 'lang': st.lang = arg || fail(`${at}: @lang needs a code`); if (seg) seg.lang = st.lang; break;
           case 'lacuna': {
             flush(); const u = st.requireUnit(at); const id = `${u.id}.x${++u.counters.lacuna}`;
@@ -124,7 +130,8 @@ export const caryagiti = {
         seg.src += (seg.src && !seg.src.endsWith('\n') ? ' ' : '') + text;
       } else {
         buf.push(text);
-        if (closesCouplet(text)) closeCouplet();
+        if (closesCouplet(text) && !join) closeCouplet();
+        join = false;
       }
     }
     // The rest of a split line starts the block just opened.

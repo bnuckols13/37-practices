@@ -12151,6 +12151,89 @@
       }
     },
     {
+      "id": "honey",
+      "type": "term",
+      "status": "proposed",
+      "en": "honey",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "paramārthabodhicittamadhupānāsvādaṃ",
+          "lemma": "madhu",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "Beng",
+          "translit": "kamalamadhu",
+          "lemma": "madhu",
+          "att": "AS",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "sbrang gi btung ba",
+          "lemma": "sbrang",
+          "att": "AO",
+          "where": "cp.21.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "sbrang rtsi",
+          "lemma": "sbrang rtsi",
+          "att": "AO",
+          "where": "cp.21.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "মধু"
+        ],
+        "oben": [
+          "মধু"
+        ],
+        "bod": [
+          "སྦྲང་རྩི",
+          "སྦྲང་གི་བཏུང་བ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Honey (Sanskrit and Old Bengali madhu; Tibetan sbrang rtsi), the sweet juice bees gather from flowers, above all the lotus. Munidatta has the mind-mouse drink 'the honey of ultimate bodhicitta' after going to the lotus grove of great bliss, and quotes Mīnanātha on the bee drinking the honey of the opened lotus (cp.21.m4).",
+      "symbolic": {
+        "image": "honey drunk from a lotus",
+        "readings": [
+          {
+            "referent": "ultimate bodhicitta: 'the honey of ultimate bodhicitta' (paramārthabodhicittamadhu), which the mind-mouse drinks after going, through the guru's lineage, to the lotus grove of great bliss and returning",
+            "per": "Munidatta",
+            "where": [
+              "cp.21.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "ultimate bodhicitta",
+        "semen"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "hoof",
       "type": "term",
       "status": "proposed",

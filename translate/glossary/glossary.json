@@ -3779,6 +3779,83 @@
       }
     },
     {
+      "id": "bapura",
+      "type": "term",
+      "status": "proposed",
+      "en": "poor wretch",
+      "alt": [
+        "wretched",
+        "poor thing"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাপূড়া",
+          "translit": "bāpūṛā",
+          "lemma": "bāpuṛā",
+          "att": "AS",
+          "where": "cp.20.3b"
+        },
+        {
+          "lang": "san",
+          "script": "বরাকী",
+          "translit": "varākī",
+          "lemma": "varāka",
+          "att": "AS",
+          "where": "cp.20.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བ་པུ་ཌཱ",
+          "translit": "ba pu DA",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.20.3b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বাপূড়া"
+        ],
+        "san": [
+          "বরাকী"
+        ],
+        "bod": [
+          "བ་པུ་ཌཱ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Old Bengali bāpuṛā, 'poor wretch, wretched' (Sanskrit varāka), a word of pity or contempt. In song 20 (3b) it closes the examination of the channel. Munidatta renders it varākī, qualifying vāsanā (cp.20.m4); Shastri notes the feminine bāpuṛāi as the expected form, and the Tibetan transliterates it. Not bāpa, 'father'.",
+      "symbolic": {
+        "image": "that same poor wretch, set against the examination of the channel",
+        "readings": [
+          {
+            "referent": "the habitual tendencies (vāsanā) themselves, 'that very wretched vāsanā', which is not found at all when the body's channels, the thirty-two goddesses, are examined",
+            "per": "Munidatta",
+            "where": [
+              "cp.20.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "habitual tendencies",
+        "tendencies",
+        "vāsanā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "baria",
       "type": "term",
       "status": "proposed",
@@ -4889,6 +4966,60 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "biana",
+      "type": "term",
+      "status": "proposed",
+      "en": "birth",
+      "alt": [
+        "childbirth",
+        "bearing"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিআণ",
+          "translit": "biāṇa",
+          "lemma": "biāṇa",
+          "att": "AS",
+          "where": "cp.20.3a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বিআণ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Old Bengali biāṇa, taken here as 'birth, bringing forth' (compare Bengali biyāna, used of animals giving birth). In song 20 (3a) the speaker's first biāṇa is wrapped in habitual tendencies. Munidatta's paraphrase has 'this body was born' (prasūta) (cp.20.m4); the Tibetan line reads rnam shes, 'consciousness', as if the word were vijñāna.",
+      "symbolic": {
+        "image": "the speaker's first birth, wrapped in habitual tendencies",
+        "readings": [
+          {
+            "referent": "this body (kāya), born at first as a casket of conventional habitual tendencies (saṃvṛtivāsanāpuṭa); his paraphrase puts it where the song has 'my first birth', without an explicit gloss",
+            "per": "Munidatta",
+            "where": [
+              "cp.20.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "body",
+        "consciousness"
+      ],
       "texts": [
         "charyapada"
       ],

@@ -13524,6 +13524,87 @@
       }
     },
     {
+      "id": "lila",
+      "type": "term",
+      "status": "proposed",
+      "en": "play",
+      "alt": [
+        "sport"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লীড়েঁ",
+          "translit": "līṛem̐",
+          "lemma": "līṛa",
+          "att": "AS",
+          "where": "cp.18.1b"
+        },
+        {
+          "lang": "san",
+          "script": "লীলেমিতি",
+          "translit": "līlem iti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.18.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ক্রীড়য়া",
+          "translit": "krīṛayā",
+          "lemma": "krīḍā",
+          "att": "AS",
+          "where": "cp.18.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རོལ",
+          "translit": "rol",
+          "lemma": "rol ba",
+          "att": "AO",
+          "where": "cp.18.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "རོལ་རྩེད",
+          "translit": "rol rtsed",
+          "lemma": "rol rtsed",
+          "att": "AO",
+          "where": "cp.18.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "লীড়েঁ"
+        ],
+        "san": [
+          "লীলেমিতি",
+          "লীলয়া"
+        ],
+        "bod": [
+          "རོལ་རྩེད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Play or sport (Sanskrit līlā, Old Bengali līṛa): effortless, spontaneous activity, a favourite word of the siddhas for how the realized act. In song 18 Kāṇha falls asleep in the play of great bliss; Munidatta renders the word krīḍā, 'play', and says he went into yogic sleep in play (cp.18.m2). The Tibetan has rol, 'revel, play'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "lock",
       "type": "term",
       "status": "proposed",
@@ -15760,6 +15841,59 @@
         "woman",
         "consort"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "mithyajnana",
+      "type": "term",
+      "status": "proposed",
+      "en": "false knowledge",
+      "alt": [
+        "wrong knowledge"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মিথ্যাজ্ঞানেন",
+          "translit": "mithyājñānena",
+          "lemma": "mithyājñāna",
+          "att": "AS",
+          "where": "cp.18.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོག་པའི་ཤེས་པ",
+          "translit": "log pa'i shes pa",
+          "lemma": "log pa'i shes pa",
+          "att": "AO",
+          "where": "cp.18.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "মিথ্যাজ্ঞান"
+        ],
+        "bod": [
+          "ལོག་པའི་ཤེས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "False or mistaken knowledge (mithyājñāna): cognition that takes things for what they are not, close to confusion (bhrānti) and ignorance. Munidatta says that Ḍombī, the unpurified avadhūtī, has destroyed the whole threefold world of gods, asuras and humans through false knowledge (cp.18.m4). The Tibetan has log pa'i shes pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],

@@ -1,0 +1,593 @@
+{
+  "unit": "cp.16",
+  "title": "The Drunk Elephant",
+  "summary": "An unstruck sound roars and all of Māra's maṇḍala breaks; the drunk elephant of the refrain runs, snaps sin and merit and the chain at its post, and, scorched by the sun, goes into the courtyard of the sky, where the poet, sinking, sees nothing at all. The poem's own word for the animal is 'mind-elephant', and one line says the mind entered nirvāṇa. Munidatta reads the elephant as Mahīdhara's mind, drunk on the drink of knowledge, cutting the two nooses of saṃsāra and merging in the lake of great bliss, free of concepts (cp.16.m1, cp.16.m4, cp.16.m6).",
+  "lines": [
+    {
+      "id": "cp.16.h1",
+      "translit": "rāga bhairavī",
+      "gloss": "rāga · Bhairavī",
+      "en": "[Rāga]{raga} [Bhairavī]{bhairavi} · [Mahīdharapāda]{p-mahidhara}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "bhairavi",
+          "src": "ভৈরবী"
+        },
+        {
+          "id": "p-mahidhara",
+          "src": "মহীধরপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The poet's name is supplied from the attribution written before the song (mahīdharapādānām, 'of Mahīdharapāda', removed from line 1a in the input). The printed heading reads only rāga bhairabī."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.1a",
+      "translit": "tini em̐ pāṭem̐ lāgeli re aṇaha kasaṇa ghaṇa gājai",
+      "gloss": "three · these (?) · with/on pāṭas · attached · (exclamatory particle) · unstruck (sound) · fearsome · deep, dense (or: cloud; or: very) · roars, thunders",
+      "en": "With these three [pāṭa]{pata}s attached, the [unstruck]{anahata} sound roars, fearsome and deep;",
+      "terms": [
+        {
+          "id": "pata",
+          "src": "পাটেঁ"
+        },
+        {
+          "id": "anahata",
+          "src": "অণহ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "tini em̐ pāṭem̐ lāgeli has no stated subject, and -em̐ may be instrumental or locative. Chosen: 'with these three pāṭas attached', after the glossary's 'three pāṭas are attached'. Alternatives: 'fastened by (or to) these three pāṭas', with the elephant or the poet as subject; Munidatta makes the poet 'attached' (lagna) (cp.16.m2). em̐ may be a demonstrative ('these') or a particle."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "I make the unstruck (aṇaha, an adjective used as a noun; 'sound' supplied) the subject of gājai, 'roars, thunders'. Munidatta (cp.16.m2) and the Tibetan both have the elephant roar on hearing the unstruck sound: 'it roars, unstruck, fearsome and deep'. ghaṇa: 'deep, dense' (chosen), 'cloud', or an intensifier ('most fearsome'), which the Tibetan rab 'jigs may reflect."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line names an elephant (glang chen) as the one who roars; the Bengali line has no elephant. Not translated; see the witness note."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.1b",
+      "translit": "tā suni māra bhayaṅkara re saa maṇḍala saela bhājai || dhru ||",
+      "gloss": "that · hearing · Māra · terrifying · (particle) · own (sva?) · maṇḍala · all · breaks (or: flees)",
+      "en": "hearing it, the whole of terrible [Māra]{mara}'s own [maṇḍala]{mandala} breaks.",
+      "terms": [
+        {
+          "id": "mara",
+          "src": "মার"
+        },
+        {
+          "id": "mandala",
+          "src": "মণ্ডল"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "saa read as sva, 'own' (chosen); the Tibetan has yul, 'sense objects', in its place. bhājai: 'breaks' (chosen; Munidatta has bhagna, 'broken', cp.16.m2) or 'flees'. I take the maṇḍala as Māra's circle or host; the line could also say that Māra breaks his own maṇḍala."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.2a",
+      "translit": "mātela cīagaandā dhābai |",
+      "gloss": "drunk · mind-elephant (cīa 'mind', Sanskrit citta + gaanda 'lord of elephants', Sanskrit gajendra) · runs",
+      "en": "The [drunk]{matta} [elephant]{elephant} runs;",
+      "terms": [
+        {
+          "id": "matta",
+          "src": "মাতেল"
+        },
+        {
+          "id": "elephant",
+          "src": "চীঅগঅন্দা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "The source word is cīagaandā: cīa (Sanskrit citta, 'mind') + gaanda (gajendra, 'lord of elephants'), literally 'the mind-elephant'. The Tibetan line keeps 'mind' too (sems nyid ... glang chen dbang po). The glossary's elephant entry forbids 'mind' and 'citta' inside a verse line, so I have rendered only 'elephant', which leaves out a word the poet wrote. The rule seems meant to stop a commentator's referent from replacing the image; here the word is the poet's own and replaces nothing, and 3b says in the song's own words that the mind entered nirvāṇa. Literal alternative, not used because it breaks the rule (the project check would report 'mind' in this line): 'The drunk mind-elephant runs;'. Reviewer to decide; see the first question."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.2b",
+      "translit": "nirantara gaaṇanta tusem̐ gholai || dhru ||",
+      "gloss": "unceasing · sky's edge (gaaṇa 'sky' + anta 'end') · in delight (?; or: with chaff) · churns, stirs up",
+      "en": "without pause it churns the edge of the [sky]{gagana} in delight.",
+      "terms": [
+        {
+          "id": "gagana",
+          "src": "গঅণন্ত"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "tusem̐ is uncertain. Chosen: 'in delight' (Sanskrit toṣa, 'satisfaction, delight'), supported by Munidatta's introduction of the refrain as showing delight, pramoda (cp.16.m3), and by the Tibetan of that comment, 'fully satisfied' (rab tu tshim pa). Alternatives: 'with chaff' (tuṣa), or keep the word in source form. gaaṇanta: 'the edge of the sky' (chosen) or 'within the sky'. I take it as the object of gholai, 'churns', which may instead be intransitive ('whirls')."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line has 'sun and moon' (nyi zla) circling toward the sky and nothing matching tusem̐. Munidatta's gloss likewise has moon and sun (the concepts of moon and sun, day and night) as what is churned (cp.16.m3). The Bengali may once have read differently here."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.3a",
+      "translit": "pāpa puṇya beṇi tiṛia sikala moṛia khambhāṭhāṇā",
+      "gloss": "sin · merit · both · having snapped · chain · having twisted, wrenched · pillar's place (khambha 'pillar' + ṭhāṇa 'place')",
+      "en": "Snapping [both]{beni} [sin and merit]{papa-punya}, wrenching the [chain]{chain} at the [pillar]{khambha}'s place,",
+      "terms": [
+        {
+          "id": "beni",
+          "src": "বেণি"
+        },
+        {
+          "id": "papa-punya",
+          "src": "পাপ পুণ্য"
+        },
+        {
+          "id": "chain",
+          "src": "সিকল"
+        },
+        {
+          "id": "khambha",
+          "src": "খম্ভাঠাণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "Parse chosen: 'snapping both sin and merit, wrenching the chain', with khambhāṭhāṇā, 'the pillar's place', as where it happens (the word has no case ending). Munidatta (sin and merit are the two nooses; the pillar is crushed, cp.16.m4) and the Tibetan ('the iron chain of the two, virtue and sin') both make sin and merit the chain itself: 'snapping the chain of sin and merit, both, wrenching the pillar from its place'."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.3b",
+      "translit": "gaaṇa ṭākali lāgire cittā paiṭha ṇibānā || dhru ||",
+      "gloss": "sky · ṭākali (sense unknown) · touched by (lāgi) + particle (re) · mind · entered · nirvāṇa",
+      "en": "touched by the [sky]{gagana}'s [ṭākali]{takali}, the [mind]{citta} entered [nirvāṇa]{nirvana}.",
+      "terms": [
+        {
+          "id": "gagana",
+          "src": "গঅণ"
+        },
+        {
+          "id": "takali",
+          "src": "টাকলি"
+        },
+        {
+          "id": "citta",
+          "src": "চিত্তা"
+        },
+        {
+          "id": "nirvana",
+          "src": "ণিবানা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "lāgire: 'touched by' (chosen); also 'struck by', 'driven by' (Munidatta's preritaḥ, 'impelled', cp.16.m4), or the postposition lāgi, 'for, because of'. ṭākali is kept in source form: its sense is unknown."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line has 'the sky became the unstruck sound' in place of gaaṇa ṭākali lāgire, and 'abides' (bzhugs) for paiṭha, 'entered'."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.4a",
+      "translit": "mahārasa pāne mātela re tihuana saela uekhī",
+      "gloss": "great essence · by drinking · drunk · (particle) · three worlds · all · disregarding",
+      "en": "[Drunk]{matta} with drinking the [great essence]{maharasa}, disregarding all [three worlds]{trailokya},",
+      "terms": [
+        {
+          "id": "maharasa",
+          "src": "মহারস"
+        },
+        {
+          "id": "matta",
+          "src": "মাতেল"
+        },
+        {
+          "id": "trailokya",
+          "src": "তিহুঅন"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "uekhī (Sanskrit upekṣ-): 'disregarding' (chosen); also 'looking on with indifference'. The Tibetan has btang snyoms, 'equanimity, indifference'. It may be a finite verb ('disregards') rather than a participle."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.4b",
+      "translit": "pañca biṣaya re nāyakare bipakha ko bī na dekhī || dhru ||",
+      "gloss": "five · sense objects · (particle) · leader (+ -re) · adversary · any · at all · not · sees",
+      "en": "the [leader]{nayaka} of the five [sense objects]{visaya} sees no [adversary]{vipaksa} at all.",
+      "terms": [
+        {
+          "id": "visaya",
+          "src": "বিষয়"
+        },
+        {
+          "id": "nayaka",
+          "src": "নায়করে"
+        },
+        {
+          "id": "vipaksa",
+          "src": "বিপখ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The -re of nāyakare may be the particle or a case ending: 'to the leader of the five sense objects no adversary at all is seen'. The sense is the same."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.5a",
+      "translit": "khararabikiraṇasantāpe re gaaṇāṅgaṇa gai paiṭhā",
+      "gloss": "by the burning heat of the harsh sun's rays (khara 'harsh' + rabi 'sun' + kiraṇa 'rays' + santāpa 'burning heat'; -e, with re) · courtyard of the sky · having gone · entered",
+      "en": "Burned by the heat of the harsh [sun]{surya}'s rays, it went and entered the [courtyard]{courtyard} of the [sky]{gagana};",
+      "terms": [
+        {
+          "id": "surya",
+          "src": "রবি"
+        },
+        {
+          "id": "courtyard",
+          "src": "গঅণাঙ্গণ"
+        },
+        {
+          "id": "gagana",
+          "src": "গঅণাঙ্গণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "No subject is stated. 'It' (chosen) follows Munidatta, for whom it is the mind-elephant (cp.16.m6). Given 5b's mai, 'I', the poet himself is possible."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line ends 'gro zhing slob, 'goes and learns', which is probably corrupt; its comment has 'goes and reaches'. See the witness note."
+        }
+      ]
+    },
+    {
+      "id": "cp.16.5b",
+      "translit": "bhaṇanti mahittā mai ethu buṛante kimpi na diṭhā || dhru ||",
+      "gloss": "says (honorific plural) · Mahittā · I (by me) · here, in this · while sinking · anything at all · not · seen",
+      "en": "[Mahittā]{p-mahidhara} says: sinking here, I saw nothing at all.",
+      "terms": [
+        {
+          "id": "p-mahidhara",
+          "src": "মহিত্তা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "The glossary's English for p-mahidhara is 'Mahīdharapāda'. The poet names himself mahittā, without the honorific -pāda, so the line keeps his own form 'Mahittā', under the keep-source policy and the style note on keeping the bhaṇitā. The glossary does not list that form, so the project check will warn. Alternative: 'Mahīdharapāda says'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "buṛante, 'while sinking', has no stated subject: 'sinking here, I saw' (chosen) or 'as it sank here, I saw'. Munidatta's asmin magne sati is equally open (cp.16.m6)."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan names the poet Mahendra (ma hen+d+ra) and has byin te, perhaps for bying te, 'sinking'."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.16",
+      "kind": "doctrine",
+      "text": "Munidatta opens by saying that the siddha master Mahīdhara, drunk on the drink of knowledge, sets out the one meaning in the twilight language of the mind as lord of elephants (cittagajendra). He keeps that name for the animal throughout the comment. The Tibetan translation (Toh 2293) has 'the mind itself, lord of elephants' and 'the meaning of reality'.",
+      "cites": [
+        "cp.16.m1",
+        "cp.16.m2",
+        "cp.16.m3",
+        "cp.16.m4",
+        "cp.16.m6"
+      ]
+    },
+    {
+      "anchor": "cp.16.h1",
+      "kind": "philology",
+      "text": "Rāga: the melodic mode to which the song is sung. Bhairavī, the name here as in song 12, is also a name of a goddess. The Tibetan translation (Toh 2293) calls the melody rnga bo che, 'great drum'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.h1",
+      "kind": "witness",
+      "text": "The printed heading has only rāga bhairabī. The poet's name comes from the attribution the manuscript writes before the song, mahīdharapādānām ('of Mahīdharapāda'), which the input moves out of line 1a. The Tibetan heading ends sa 'dzin zhabs kyi'o, 'of Sa 'dzin zhabs', a translation of the name (mahī 'earth', dhara 'holding').",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.1a",
+      "kind": "philology",
+      "text": "pāṭa: an Old Bengali word of uncertain sense, kept in source form. It may go back to Sanskrit paṭṭa, 'band, strip, slab, seat'; tethering bands would suit an elephant, but nothing in the line settles it. The Tibetan line has only rnam gsum sbyor zhing, 'joining the three'. Munidatta glosses kasaṇa as 'fearsome' (bhayānaka); ghaṇa may be 'deep, dense', 'cloud', or an intensifier.",
+      "cites": [
+        "cp.16.m2"
+      ]
+    },
+    {
+      "anchor": "cp.16.1a",
+      "kind": "doctrine",
+      "text": "Munidatta takes the three pāṭas as the joys beginning with the joy of the body, treated as non-different, and says the poet is 'attached' (lagna) through the liquor of the drink of knowledge, citing the Guhyasamāja. He explains the unstruck as the sound of emptiness: hearing it, Mahīdhara's mind-elephant roars from the throat.",
+      "cites": [
+        "cp.16.m2"
+      ]
+    },
+    {
+      "anchor": "cp.16.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rnam gsum sbyor zhing gzhom med sgra ni rab 'jigs glang chen sgrogs, 'joining the three, the most fearsome elephant roars the unstruck sound'. It names an elephant, which the Bengali line does not, and makes it the one who roars. Its rab 'jigs, 'most fearsome', may render kasaṇa ghaṇa together.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.1b",
+      "kind": "philology",
+      "text": "maṇḍala: a circle; in the tantras, the circle of a deity with its retinue. Here it is apparently Māra's circle, his host. saa is probably Sanskrit sva, 'own', as in saa sambeaṇa (svasaṃvedana) in song 15. bhājai may be 'breaks' (Sanskrit bhañj-) or 'flees'. bhayaṅkara, 'terrifying', stands beside Māra.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.1b",
+      "kind": "doctrine",
+      "text": "Munidatta: on hearing that unstruck sound the Māras, the adventitious aggregates, afflictions and the like that make saṃsāra fearful, are broken (bhagna). He makes Māra plural, and supports the reading with a Rativajra verse on Śākyasiṃha and the other buddhas breaking Māra's mighty army.",
+      "cites": [
+        "cp.16.m2"
+      ]
+    },
+    {
+      "anchor": "cp.16.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads de thos bdud rnams skrag byed kye ma yul gyi dkyil 'khor thams cad 'joms. Its skrag byed, 'fear-making', renders bhayaṅkara literally, and kye ma renders the particle re. But it has yul gyi dkyil 'khor, 'the maṇḍalas of the sense objects', where the Bengali has saa maṇḍala, and a transitive 'destroys' ('joms).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.2a",
+      "kind": "philology",
+      "text": "The refrain's word is cīagaandā: cīa (Sanskrit citta, 'mind') with gaanda (gayanda, from gajendra, 'lord of elephants'). The song itself thus speaks of a 'mind-elephant'; the line as drafted gives only 'elephant', for the reason in the line's flag. Said of an elephant, mātela, 'drunk', can also mean maddened or in rut.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.2",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the refrain as the poet's display of delight in full joy (nirbharānandapramoda). That same drunk mind-elephant, he says, churns (gholayitvā) the concepts of moon and sun, day and night, takes the instruction of the sky, which he sets beside the instruction of the fourth joy, and goes unceasingly in the lake of great bliss.",
+      "cites": [
+        "cp.16.m3"
+      ]
+    },
+    {
+      "anchor": "cp.16.2a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads sems nyid myos par gyur pa'i glang chen dbang po rgyug, 'the lord of elephants, mind itself, grown drunk, runs', so the Tibetan line keeps 'mind'. Its comment on the refrain explains the drunkenness as 'drunk on reality' (de kho na nyid kyis myos pa).",
+      "cites": [
+        "cp.16.m3"
+      ]
+    },
+    {
+      "anchor": "cp.16.2b",
+      "kind": "philology",
+      "text": "tusem̐ is the hardest word here. I take it from Sanskrit toṣa, 'satisfaction, delight', hence 'in delight': Munidatta introduces the refrain as showing delight (pramoda), and the Tibetan of that comment has rab tu tshim pa, 'fully satisfied'. Sanskrit tuṣa, 'chaff', is also possible. gaaṇanta is gagana, 'sky', with anta, 'end, edge'; gholai means 'churns, stirs up' (Sanskrit gholayati).",
+      "cites": [
+        "cp.16.m3"
+      ]
+    },
+    {
+      "anchor": "cp.16.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rgyun mi 'chad par nam mkha'i phyogs su nyi zla 'khor, 'unceasingly, toward the sky, sun and moon circle' (or 'it spins sun and moon'). It has 'sun and moon' and nothing matching tusem̐; Munidatta's gloss also has moon and sun as what is churned. I cannot tell whether both reflect a different reading or a shared interpretation.",
+      "cites": [
+        "cp.16.m3"
+      ]
+    },
+    {
+      "anchor": "cp.16.3a",
+      "kind": "imagery",
+      "text": "The picture is a tethered elephant breaking free. sikala (Sanskrit śṛṅkhalā) is a chain, and khambhāṭhāṇā (khambha, Sanskrit stambha, 'pillar', with ṭhāṇa, Sanskrit sthāna, 'place') is apparently the post where it is tied. Compare the post (bākhoṛa) crushed in song 9. beṇi, 'both', follows the pair sin and merit.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.3a",
+      "kind": "doctrine",
+      "text": "Munidatta: having cut sin and merit, the two nooses of saṃsāra, and crushed (marddayitvā) the pillar of ignorance, which is how he reads khambha. He attaches the crushing to the pillar rather than the chain, and does not gloss the chain.",
+      "cites": [
+        "cp.16.m4"
+      ]
+    },
+    {
+      "anchor": "cp.16.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads dge sdig gnyis kyi lcags sgrog 'then nas ka ba'i gnas su nyed par byed, 'pulling the iron chain of the two, virtue and sin, it grinds at the pillar's place'. Like Munidatta, who calls sin and merit the two nooses, it makes sin and merit the chain.",
+      "cites": [
+        "cp.16.m4"
+      ]
+    },
+    {
+      "anchor": "cp.16.3b",
+      "kind": "philology",
+      "text": "ṭākali: a word of uncertain sense, kept in source form. Munidatta cites it as gaganaṭaka and explains it as being impelled by the unstruck sound; the Tibetan comment transliterates it (ṭa ge). A link with Sanskrit ṭaṅkāra, 'a ringing or twanging sound', would suit both, but is only a guess. lāgire is lāgi, 'touched, struck' (or the postposition 'for, because of'), with the particle re.",
+      "cites": [
+        "cp.16.m4"
+      ]
+    },
+    {
+      "anchor": "cp.16.3b",
+      "kind": "doctrine",
+      "text": "Munidatta: impelled by the unstruck sound, that same mind-elephant went to the lake of nirvāṇa (nirvāṇasarovara). He then points to a verse of Kṛṣṇācārya beginning 'earth, water' without quoting it. The lake is his; the song says only that the mind entered nirvāṇa.",
+      "cites": [
+        "cp.16.m4"
+      ]
+    },
+    {
+      "anchor": "cp.16.3b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads nam mkha' gzhom med sgra ru gyur nas sems ni mya ngan 'das par bzhugs, 'the sky having become the unstruck sound, the mind abides in nirvāṇa'. It has no word for ṭākali, and it has 'abides' (bzhugs) where the Bengali has 'entered' (paiṭha).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.4a",
+      "kind": "doctrine",
+      "text": "Munidatta calls the great essence the juice of great bliss, the oneness of being and nonbeing: drunk on it, he disregards the grasping of the three worlds. His next sentence says he 'makes' the concepts of being and nonbeing, the grasped and the rest. The Tibetan comment has 'does not conceptualize' (rnam par rtog pa mi bya), so a negative may have dropped out of the Sanskrit.",
+      "cites": [
+        "cp.16.m5"
+      ]
+    },
+    {
+      "anchor": "cp.16.4a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads bcud chen btung myos khams gsum ma lus btang snyoms so, 'drunk from drinking the great essence, indifferent to the three realms without remainder'. Its btang snyoms, 'equanimity, indifference', renders uekhī (Sanskrit upekṣā). The Tibetan comment lacks Munidatta's 'great bliss' here.",
+      "cites": [
+        "cp.16.m5"
+      ]
+    },
+    {
+      "anchor": "cp.16.4b",
+      "kind": "doctrine",
+      "text": "Munidatta: as leader of the five sense objects he is himself the sixth, the great Vajradhara, and he no longer sees affliction acting as an adversary. The Tibetan comment agrees.",
+      "cites": [
+        "cp.16.m5"
+      ]
+    },
+    {
+      "anchor": "cp.16.4b",
+      "kind": "philology",
+      "text": "nāyakare is nāyaka, 'leader, chief', with -re, either the particle re again or a case ending ('to the leader no adversary is seen'). ko bī is Sanskrit ko 'pi, 'any at all'. The Tibetan line reads yul lnga 'dren byed gang la gang du'ang mi mthun phyogs mi mthong, 'the leader of the five objects sees no adversary in anything, anywhere'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.5a",
+      "kind": "imagery",
+      "text": "Scorched by the sun (khara-rabi-kiraṇa-santāpa, 'the burning of the harsh sun's rays'), the one in the song goes into the courtyard of the sky, and in the next line something sinks (buṛante, 'sinking, drowning'), as if into water. An overheated elephant plunging into a pool may be the picture, but the song does not say so.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.5a",
+      "kind": "doctrine",
+      "text": "Munidatta: impelled by the fire of the passion of great bliss, that same mind-elephant went to the sky-Gaṅgā, the lake of the wheel of great bliss, and merged with it. His paraphrase puts the fire of passion where the song has the sun's heat, and the sky-Gaṅgā where it has the courtyard of the sky; neither is an explicit gloss.",
+      "cites": [
+        "cp.16.m6"
+      ]
+    },
+    {
+      "anchor": "cp.16.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads mi bzad nyi mas rab tu gdungs pas nam mkha'i 'khor sar 'gro zhing slob, 'tormented by the unbearable sun, it goes to the courtyard of the sky and slob'. slob, 'learn, teach', makes no sense here. The Tibetan comment has 'goes and reaches' ('gro zhing thob pa), so slob may be a corruption, perhaps of slebs, 'arrives'.",
+      "cites": [
+        "cp.16.m6"
+      ]
+    },
+    {
+      "anchor": "cp.16.5b",
+      "kind": "philology",
+      "text": "Mahittā is the poet's own form of his name, Mahīdhara, 'earth-holder'; bhaṇanti, 'says', is an honorific plural. ethu is 'here, in this'. buṛante, 'while sinking', has no stated subject, so 'as it sank here' is also possible.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.16.5b",
+      "kind": "doctrine",
+      "text": "Munidatta: the siddha master Mahīdhara says that when it was immersed in this, he saw nothing of its own nature, which is free of concepts. He ends with a scripture verse: all is false as far as it is conceptualized, and reality is what is not conceptualized.",
+      "cites": [
+        "cp.16.m6"
+      ]
+    },
+    {
+      "anchor": "cp.16.5b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) names the poet Mahendra here (ma hen+d+ra), not Sa 'dzin as in the heading and the comment. Its 'di la byin te, literally 'having given to this', stands where the Bengali has ethu buṛante, 'sinking here'. byin may be a slip for bying, 'sink'; the comment repeats it ('di la byin pa).",
+      "cites": [
+        "cp.16.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "citta",
+      "line": "cp.16.2a",
+      "reason": "cīagaandā contains cīa (citta, 'mind'), and the Tibetan line has sems nyid. The elephant entry forbids 'mind' and 'citta' inside a verse line, so the draft renders only the elephant; see the term flag on the line and the first question."
+    },
+    {
+      "id": "elephant",
+      "line": "cp.16.1a",
+      "reason": "Tibetan only: the Tibetan line has glang chen, 'elephant', as the one who roars. The Bengali line names no elephant."
+    },
+    {
+      "id": "visaya",
+      "line": "cp.16.1b",
+      "reason": "Tibetan only: the Tibetan has yul gyi dkyil 'khor, 'the maṇḍalas of the sense objects', where the Bengali has saa maṇḍala. The Bengali has no word for sense objects."
+    },
+    {
+      "id": "anahata",
+      "line": "cp.16.3b",
+      "reason": "Tibetan only: the Tibetan line has gzhom med sgra, 'the unstruck sound', where the Bengali has gaaṇa ṭākali. The unstruck sound is the commentary's gloss of ṭākali (cp.16.m4) and goes in a note."
+    },
+    {
+      "id": "udasa",
+      "line": "cp.16.4a",
+      "reason": "Tibetan only: btang snyoms renders the Bengali uekhī (Sanskrit upekṣā, 'disregard'), not uāsa. The line renders uekhī as 'disregarding' without this entry."
+    }
+  ],
+  "proposals": [],
+  "questions": [
+    "Line 2a (the refrain): the poet's word cīagaandā is literally 'mind-elephant' (cīa = citta), and the Tibetan line keeps 'mind' (sems nyid). Because the elephant entry forbids 'mind' and 'citta' in a verse line, I drafted 'The drunk elephant runs', which leaves out a word the poet wrote; line 3b then says, in the song's own words, that 'the mind entered nirvāṇa'. May 2a read 'The drunk mind-elephant runs'? If so, the elephant entry needs an exception for lines whose source itself compounds cīa or citta with the elephant, or the project check will report 'mind' in this line as an error.",
+    "Line 5b: keep the poet's own form 'Mahittā' in the bhaṇitā (as drafted), or use the entry's English 'Mahīdharapāda', which adds the honorific -pāda the poet does not use of himself? If Mahittā stays, could it be added as a variant of p-mahidhara? The heading uses 'Mahīdharapāda', taken from the attribution written before the song; is it right to add the poet's name there?",
+    "Line 2b: tusem̐ is the least certain word in the song. I rendered 'in delight' (from toṣa, 'satisfaction'), guided by Munidatta's introduction of the refrain as showing delight (cp.16.m3) and the Tibetan comment's 'fully satisfied'. The Tibetan line has 'sun and moon' instead, and 'with chaff' (tuṣa) is possible. Accept 'in delight', or keep the word in source form with a note?",
+    "Line 1a: I made 'the unstruck sound' the subject of gājai ('roars'), supplying 'sound' for an adjective used as a noun. Munidatta (cp.16.m2) and the Tibetan both have the elephant roar on hearing the unstruck sound. Keep the sound as subject, or render '... it roars, unstruck, fearsome and deep'?",
+    "Line 1b: I read saa as sva, 'own' (as saa sambeaṇa = svasaṃvedana in song 15), and bhājai as 'breaks' (Munidatta's bhagna, cp.16.m2). The Tibetan has 'all the maṇḍalas of the sense objects' and 'destroys'. Is 'the whole of terrible Māra's own maṇḍala breaks' acceptable, or would you prefer 'flees' for bhājai?",
+    "Line 3a: I kept the Bengali order, with sin and merit snapped and the chain wrenched. Munidatta (sin and merit are the two nooses, cp.16.m4) and the Tibetan ('the iron chain of virtue and sin') make sin and merit the chain itself: 'snapping the chain of sin and merit, both, wrenching the pillar from its place'. Which parse do you want?",
+    "Line 3b: lāgire is rendered 'touched by'. Munidatta's preritaḥ (cp.16.m4) suggests 'driven by', and 'for the sake of' is also possible. Confirm 'touched by'?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "c30d44de1c262dfaf505ed0cac6e7e6d635c43f9fc84dab4adc83885340d4cd1",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "1afd49b24616265efade34f09c68dc57af780257a5ab81bb20624b44834384bf",
+    "sourceSha": "62f5e21d65d83b48609cea88de59bcd38311ccb5680fd46ae79cddca12261764"
+  }
+}

@@ -636,6 +636,9 @@
       "matchRe": {
         "san": [
           "(?<![\\p{L}\\p{M}])আলি(?![\\p{L}\\p{M}])"
+        ],
+        "oben": [
+          "(?<![\\p{L}\\p{M}])আলি(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "The series of Sanskrit vowels. Munidatta glosses the dhamaṇa of song 1 as āli, with the purification of the moon, and quotes the Dvikalpa: the union of āli and kāli is Vajrasattva's seat (cp.01.m6). In song 7 Munidatta reads the pair differently: āli with (ā)lokajñāna and kāli with (ā)lokābhāsa, apparently the light and the spreading of light of the completion stage (cp.07.m2); the Tibetan there has 'jigs byed and dus mtshan ma.",
@@ -798,6 +801,14 @@
           "lang": "bod",
           "script": "གཞོམ་དུ་མེད་པ",
           "translit": "gzhom du med pa",
+          "lemma": "gzhom du med pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་དུ་མེད་པའི",
+          "translit": "gzhom du med pa'i",
           "lemma": "gzhom du med pa",
           "att": "AO",
           "where": "cp.11.m2"
@@ -5484,6 +5495,14 @@
           "lemma": "rigs gcig",
           "att": "AO",
           "where": "cp.11.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "རིགས་གཅིག་པ",
+          "translit": "rigs gcig pa",
+          "lemma": "rigs gcig",
+          "att": "AO",
+          "where": "cp.11.m2"
         }
       ],
       "match": {
@@ -13171,7 +13190,9 @@
           "རྡོ་རྗེ་ནག་པོ",
           "ནག་པོ་གླུ་དབྱངས་ཞབས",
           "སྤྱོད་པའི་ཞབས",
-          "ནག་པོའི་སྤྱོད་པ་པ"
+          "ནག་པོའི་སྤྱོད་པ་པ",
+          "ནག་པོ་སྤྱོད་པས",
+          "ནག་པོ་སྤྱོད་པ་པ"
         ]
       },
       "matchRe": {},
@@ -14432,6 +14453,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.09.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "པ་ཌ་ཧ་མཉྫ་རི",
+          "translit": "pa Da ha many+dza ri",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.h1"
         }
       ],
       "match": {
@@ -14442,7 +14471,8 @@
           "པ་ཊ་ཧའི་སྙེ་མ",
           "པ་ཏ་ཧ་མཉྫ་རི",
           "རྔའི་ཚོགས་པ",
-          "པ་ཌ་ཧའི་ཚོགས་པ"
+          "པ་ཌ་ཧའི་ཚོགས་པ",
+          "པ་ཌ་ཧ་མཉྫ་རི"
         ],
         "oben": [
           "পটমঞ্জরী"
@@ -18028,6 +18058,14 @@
           "lemma": "suṇṇa",
           "att": "AS",
           "where": "cp.05.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་ཉིད",
+          "translit": "stong pa nyid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m2"
         }
       ],
       "match": {
@@ -18041,7 +18079,8 @@
           "সুণ্ণ"
         ],
         "bod": [
-          "སྟོང་ཉིད"
+          "སྟོང་ཉིད",
+          "སྟོང་པ་ཉིད"
         ],
         "pra": [
           "সুণ্ণ"

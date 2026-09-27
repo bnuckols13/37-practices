@@ -276,7 +276,7 @@ The rules as the edition states them (prompts/tasks/version.md; how-to-read-a-so
 
 ## 5. Open questions
 
-- **Morton's untranscribed classes.** Classes 13–17, the interim theory class and the revision class (about nine hours) hold the narrator and narrative tools and the course's theory. They are known only by their archive tags (morton-in-depth.md §1, Open gaps). The class pages for 8–11 are also missing, so every IDX gloss needs checking: the heat of rhyme schemes, the image on or off, the trope as algorithm, hot metaphor and cool metonymy (morton-in-depth.md, Open gaps). What Morton said of Bashō's old pond in class 11 is unknown (zen-mountain-poets.md §3.4). Every Morton quotation marked ◐ must be checked against the audio.
+- **Morton's second half, from transcripts.** Classes 13–17, the interim theory class and the revision class are now transcribed (privately; the recordings are CC BY-NC-ND) and read in morton-in-depth.md §2b: the narrator and narrative tools and the course's theory. Every quotation from them is ◐ until checked against the audio. The class pages for 8–11 are still missing, so every IDX gloss needs checking: the heat of rhyme schemes, the image on or off, the trope as algorithm, hot metaphor and cool metonymy (morton-in-depth.md, Open gaps). What Morton said of Bashō's old pond in class 11 is unknown (zen-mountain-poets.md §3.4).
 - **Unverified items this synthesis leans on hardest:**
   - **Sonnet 116's cool rhymes** (§2 above). Crystal's index says they were full in 1600; what Morton said in class 7 is ◐ (morton-in-depth.md §4c; shakespeare-sonnets.md §2i).
   - **Composing while turning** is hagiography, and the *Encyclopaedia Iranica*'s account of the *Masnavī*'s composition was blocked (sufi-poets.md §1.1, Open gaps).

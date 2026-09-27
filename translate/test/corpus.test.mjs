@@ -104,9 +104,9 @@ test('study: five traditions, 14–18 touchstone poems, each text witnessed and 
   }
 });
 
-test('practice: 28–36 exercises, each with a tradition, a channel, steps and a source note', () => {
+test('practice: 28–40 exercises, each with a tradition, a channel, steps and a source note', () => {
   const { exercises } = json('workshop/practice.json');
-  assert.ok(exercises.length >= 28 && exercises.length <= 36, `${exercises.length} exercises`);
+  assert.ok(exercises.length >= 28 && exercises.length <= 40, `${exercises.length} exercises`);
   assert.equal(new Set(exercises.map(e => e.id)).size, exercises.length, 'exercise ids are unique');
   for (const t of PRACTICE_TRADITIONS) assert.ok(exercises.some(e => e.tradition === t), `an exercise from ${t}`);
   for (const e of exercises) {

@@ -25,8 +25,10 @@ test('english: the solar system of rhyme', () => {
   assert.equal(k('hall', 'hell'), 'para');
   assert.equal(k('clear', 'town'), 'none');
   assert.equal(en.rhymeWords('shaken', 'taken').feminine, true);
-  assert.deepEqual(en.syntaxOf(['I went and I ate and I slept']), { para: 2, hypo: 0 });
-  assert.deepEqual(en.syntaxOf(['when I went, because I was hungry']), { para: 1, hypo: 2 });
+  const syntax = lines => { const { para, hypo } = en.syntaxOf(lines); return { para, hypo }; };
+  assert.deepEqual(syntax(['I went and I ate and I slept']), { para: 2, hypo: 0 });
+  // a comma counts half a join side by side
+  assert.deepEqual(syntax(['when I went, because I was hungry']), { para: 0.5, hypo: 2 });
 });
 
 test('source: rhymes and mātrās from the transliteration', () => {

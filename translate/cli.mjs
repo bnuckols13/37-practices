@@ -28,6 +28,7 @@ const HELP = `Illuminated translation engine
   sing <text> [units]                             write packs for the sung version (the song sounded in English)
   sound <text> [units]                            how the source sounds: rhymes, refrain, self-naming, rāga
   read <text> [units] [--en accurate,sung]        how the song works: Morton's five steps and the hot/cool mixing board
+  poem <file|-> [--lens <id>] [--json] [--titled]  read any English poem the same way: the board, scheme and form, the turn, the metre
   ingest <text> [units] --task draft|redraft|weave|terms|terms-bo|sing [--model "…"]
   check <text> [--strict]                         every validator; exit 1 on errors
 
@@ -59,6 +60,7 @@ const { values: o, positionals } = parseArgs({
     model: { type: 'string' }, api: { type: 'boolean' }, batch: { type: 'boolean' }, force: { type: 'boolean' },
     dry: { type: 'boolean' }, preview: { type: 'boolean' }, strict: { type: 'boolean' }, glossary: { type: 'boolean' },
     retire: { type: 'boolean' }, all: { type: 'boolean' }, discard: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, en: { type: 'string' }, by: { type: 'string' }, undo: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
+    lens: { type: 'string' }, json: { type: 'boolean' }, titled: { type: 'boolean' },
   },
 });
 
@@ -173,6 +175,26 @@ const commands = {
       if (want.includes('sung') && sung) englishes.push({ label: 'sung', board: englishBoard(unit, sung.lines) });
       log(readingText(unit, sourceBoard(unit, draft), englishes, { images: markedWords(accurate?.lines), poet: names.get(unit.poet)?.en || '' }) + '\n');
     }
+  },
+
+  async poem() {
+    const file = slug;
+    if (!file) throw new UserError('give a poem file, or - to read it from stdin');
+    if (file !== '-' && !fs.existsSync(file)) throw new UserError(`no such file: ${file}`);
+    await import('./lib/ear.mjs');
+    const { poemBoard, poemText, compareToLens } = await import('./lib/poetics.mjs');
+    const board = poemBoard(fs.readFileSync(file === '-' ? 0 : file, 'utf8'), { title: o.titled });
+    if (!board.lines.length) throw new UserError('the poem has no lines');
+    let lens = null;
+    if (o.lens) {
+      const { lenses } = await import('./lib/versions.mjs');
+      lens = lenses().find(l => l.id === o.lens);
+      if (!lens) throw new UserError(`unknown lens "${o.lens}" (one of ${lenses().map(l => l.id).join(', ')})`);
+    }
+    if (o.json) {
+      return log(JSON.stringify(lens ? { ...board, lens: { id: lens.id, name: lens.name, board: lens.board }, advice: compareToLens(board, lens) } : board, null, 2));
+    }
+    log(poemText(board, { lens }));
   },
 
   async stage(task) {

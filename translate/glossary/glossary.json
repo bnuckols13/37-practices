@@ -7203,6 +7203,68 @@
       }
     },
     {
+      "id": "janma",
+      "type": "term",
+      "status": "proposed",
+      "en": "birth",
+      "alt": [
+        "life"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জাম",
+          "translit": "jāma",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.08.2b"
+        },
+        {
+          "lang": "san",
+          "script": "জন্মান্তরং",
+          "translit": "janmāntaraṃ",
+          "lemma": "janmāntara",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ",
+          "translit": "skye ba",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.08.2b"
+        }
+      ],
+      "match": {
+        "san": [
+          "জন্ম"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])জাম(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Birth (Sanskrit janman, Old Bengali jāma), and so one life in the round of rebirth. The refrain of song 8 asks how a birth that is gone will come again. Munidatta says another birth returns to one who does not row the boat of the fourth means (cp.08.m2). The Tibetan has skye ba.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "jinapura",
       "type": "term",
       "status": "proposed",
@@ -21938,6 +22000,58 @@
       },
       "matchRe": {},
       "definition": "'Variety': in the Hevajra system, the first of the four moments (kṣaṇa) of yogic union, followed by vipāka, vimarda and vilakṣaṇa. Munidatta says the yoginī gives the sequence of joys through union with the characteristics beginning with vicitra (cp.04.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vidya",
+      "type": "term",
+      "status": "proposed",
+      "en": "knowledge",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিদ্যাকরি",
+          "translit": "vidyākari",
+          "lemma": "vidyā",
+          "att": "AS",
+          "where": "cp.09.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རིག་པ",
+          "translit": "rig pa",
+          "lemma": "rig pa",
+          "att": "AO",
+          "where": "cp.09.5b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বিদ্যাকরি"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বিদ্যা"
+        ]
+      },
+      "definition": "Knowledge (vidyā): in Buddhist thought the opposite of ignorance (avidyā); in the tantras the word can also name a spell and the yogin's female partner. In song 9 the poet tames 'the elephant of knowledge' (vidyākari); Munidatta reads 'the lord-elephant of ignorance' (cp.09.m5), while the Tibetan song has rig pa'i glang dbang.",
       "symbolic": {
         "image": "",
         "readings": []

@@ -1,0 +1,520 @@
+{
+  "unit": "cp.08",
+  "title": "The Boat of Compassion",
+  "summary": "A boat of compassion is so full of gold that there is no room in it for silver. With its stake pulled up and its rope let go, the poet, calling himself Kāmali, tells himself to row toward the sky and to ask the true guru. There is no oar, yet pressing left and right he meets great bliss on the road as companion. Munidatta reads the boat as bodhicitta, the silver as form and the other aggregates, the stake as the fault of appearance, and the companion as the knowledge of Nairātmā.",
+  "lines": [
+    {
+      "id": "cp.08.h1",
+      "translit": "rāga devakrī",
+      "gloss": "melodic mode · Devakrī",
+      "en": "[Rāga]{raga} [Devakrī]{devakri} · [Kambalāmbarapāda]{p-kambala}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "devakri",
+          "src": "দেবক্রী"
+        },
+        {
+          "id": "p-kambala",
+          "src": "কম্বলাম্বরপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The heading line names only the rāga. 'Kambalāmbarapāda' renders the attribution kamvalāmvarapādānām ('of Kambalāmbarapāda') that stands before the song and was removed from 1a. The Tibetan translation (Toh 2293) names the poet la ba'i na bza' can gyi zhabs, 'the one who wears a woollen garment', and the melody lha rnams rol pa, 'play of the gods'."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.1a",
+      "translit": "sone bharitī karuṇā nābī",
+      "gloss": "with gold · filled · compassion · boat",
+      "en": "The [boat]{boat} of [compassion]{karuna} is filled with [gold]{gold}:",
+      "terms": [
+        {
+          "id": "boat",
+          "src": "নাবী"
+        },
+        {
+          "id": "karuna",
+          "src": "করুণা"
+        },
+        {
+          "id": "gold",
+          "src": "সোনে"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.08.1b",
+      "translit": "rūpā thoi mahike ṭhābī || dhru ||",
+      "gloss": "silver · to put · in it + what? (mahi ke; uncertain) · place · (refrain cue)",
+      "en": "where in it is there room to put [silver]{silver}?",
+      "terms": [
+        {
+          "id": "silver",
+          "src": "রূপা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The line has no negative word. Chosen: mahike as mahi, 'in (it)', plus ke, 'what?', making a rhetorical question ('to put silver, in it what place?'), like the questions in 2b and 4b. Alternatives: a plain statement, 'there is no room in it for silver', which is how the Tibetan (dngul la gzhag pa'i gnas nyid med par gyur) and Munidatta (sthānabhedaṃ nāsti, cp.08.m2) give the sense; or mahike 'for me', which leaves the negative unexpressed and would imply a defective line."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri prints ধ্রু after this couplet as well, although the refrain is couplet 2. Not translated."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.2a",
+      "translit": "bāhatu kāmali gaaṇa ubesem̐ |",
+      "gloss": "row (imperative) · Kāmali · sky · toward? (instrumental -em̐)",
+      "en": "Row, [Kāmali]{p-kambala}, toward the [sky]{gagana};",
+      "terms": [
+        {
+          "id": "p-kambala",
+          "src": "কামলি"
+        },
+        {
+          "id": "gagana",
+          "src": "গঅণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ubesem̐ is uncertain. Chosen: 'toward', following Munidatta's uddeśena, 'with the aim of', which stands in the same case where the song has ubesem̐ (cp.08.m2), and the Tibetan nam mkha' bltas nas, 'having looked at the sky'. Alternatives: ubesa from upadeśa, 'by the instruction of the sky' (the better sound change); or from upaviś-, 'seated (in the sky)'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "bāhatu is formally a third-person imperative ('let Kāmali row'). Rendered as the poet speaking to himself, as Munidatta takes it (ātmānaṃ saṃbodhya, 'addressing himself', cp.08.m2). The Tibetan has a statement: la ba pa yis 'gro, 'the blanket-wearer goes'."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.2b",
+      "translit": "gelī jāma bahu ui kaisem̐ || dhru ||",
+      "gloss": "gone · birth · again · rises · how · (refrain cue)",
+      "en": "the birth that is gone, how will it come again?",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "jāma read as janma, 'birth', with the Tibetan (skye ba) and Munidatta (janmāntara, 'another birth', cp.08.m2). Bengali script does not separate j and y, so it could also be yāma, 'a watch of the night', giving 'the hour that is gone, how will it come again?'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "bahu ui parsed as 'again' (compare bahuṛi) and 'rises, comes up'. The Tibetan slar yang ... 'byung, 'arise again', supports the sense, but the division of the words is not certain."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.3a",
+      "translit": "khuṇṭi upāṛī melili kācchi",
+      "gloss": "stake · having pulled up · let loose (past) · rope",
+      "en": "The [stake]{khunti} pulled up, the [rope]{kacchi} has been let loose;",
+      "terms": [
+        {
+          "id": "khunti",
+          "src": "খুণ্টি"
+        },
+        {
+          "id": "kacchi",
+          "src": "কাচ্ছি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "melili is a past form in -il- with a feminine -i, taken as agreeing with kācchi (Sanskrit kacchikā is feminine) in the older passive construction. The agent is therefore left unstated. Alternatives: a second person, 'you let loose the rope', addressed to Kāmali (compare the later Bengali past in -li); or the imperatives of the Tibetan (brtod phur thong la nyag thag thong, 'let go the stake and let go the rope'). Munidatta also paraphrases with imperatives to the 'best of yogis' (cp.08.m3)."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.3b",
+      "translit": "bāhatu kāmali sadguru pucchi || dhru ||",
+      "gloss": "row (imperative) · Kāmali · true guru · having asked · (refrain cue)",
+      "en": "row, [Kāmali]{p-kambala}, having asked the true [guru]{guru}.",
+      "terms": [
+        {
+          "id": "p-kambala",
+          "src": "কামলি"
+        },
+        {
+          "id": "guru",
+          "src": "সদ্গুরু"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.08.4a",
+      "translit": "māṅgata canhile caudisa cāhaa",
+      "gloss": "on the māṅga · having climbed · four directions · looks",
+      "en": "Climbing onto the [māṅga]{manga}, he looks in the four directions;",
+      "terms": [
+        {
+          "id": "manga",
+          "src": "মাঙ্গত"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "māṅga is uncertain: Munidatta has mārga, 'path' (cp.08.m4); the Tibetan has gru yi mjug, 'the stern of the boat'. Kept in its source form, as the glossary asks."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The subject is unexpressed; 'he' is supplied, the rower of the refrain. Munidatta takes the couplet generically, of one who lacks the guru's lineage (cp.08.m4)."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line, gru yi mjug la zhon pas mtshon zhing 'gro, 'mounted on the stern, it goes, pointing(?)', has no 'four directions', though its comment has phyogs bzhir."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.4b",
+      "translit": "keṛuyāla nāhi kem̐ ki bāhabake pāraa || dhru ||",
+      "gloss": "oar · there is not · by whom · (interrogative) · to row · is able · (refrain cue)",
+      "en": "there is no [oar]{keruala}: who can row?",
+      "terms": [
+        {
+          "id": "keruala",
+          "src": "কেড়ুয়াল"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "pāraa taken as the verb pār-, 'be able' (Bengali pāre, 'can'), with bāhabake, 'to row'. Alternative: pāra, 'far bank', giving 'how can one row across?'. kem̐ is taken as 'by whom'; it could be 'how'."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan has gru skya med par mnyen pa gang gis 'gro, 'without an oar, by what does the mnyen pa go?'. The sense of mnyen pa is unclear to me (perhaps mnyan pa, 'ferryman')."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.5a",
+      "translit": "bāma dāhiṇa cāpī mili mili māgā",
+      "gloss": "left · right · having pressed · meeting · meeting · māgā",
+      "en": "Pressing [left and right]{vama-daksina}, meeting, meeting on the [māgā]{manga},",
+      "terms": [
+        {
+          "id": "vama-daksina",
+          "src": "বাম দাহিণ"
+        },
+        {
+          "id": "manga",
+          "src": "মাগা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "māgā is taken as the same word as māṅga in 4a, as the glossary does, and kept in its source spelling. Munidatta again has mārga, 'path' (cp.08.m5); the Tibetan has gru sna, 'prow'."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "māgā has no case ending; 'on the' is supplied. The line does not say what is pressed left and right, or who meets: the left and right with each other, or the rower."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line, byang dang lho dag bcum nas gru sna zhon, 'having pressed north and south, mount the prow', has nothing for mili mili."
+        }
+      ]
+    },
+    {
+      "id": "cp.08.5b",
+      "translit": "bāṭata milila mahāsuha sa(su)ṅgā ||",
+      "gloss": "on the road · met · great bliss · companion",
+      "en": "on the [road]{road} he met [great bliss]{mahasukha} as [companion]{companion}.",
+      "terms": [
+        {
+          "id": "road",
+          "src": "বাটত"
+        },
+        {
+          "id": "mahasukha",
+          "src": "মহাসুহ"
+        },
+        {
+          "id": "companion",
+          "src": "স(সু)ঙ্গা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "mahāsuha and saṅgā stand side by side with no case ending. Chosen: 'great bliss as companion'. Alternative: 'the companion of great bliss', which is how Munidatta (cp.08.m5) and the Tibetan (bde ba chen po'i grogs) take it."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "The edition prints sa(su)ṅgā, marking the vowel as doubtful. saṅgā, 'companion, company', is chosen; the Tibetan grogs, 'companion', agrees."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The subject is unexpressed; 'he' is supplied. Munidatta's paraphrase is in the first person, 'obtained by me' (cp.08.m5)."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.08.h1",
+      "kind": "witness",
+      "text": "Shastri's heading line names only the rāga, Devakrī. The attribution kamvalāmvarapādānām, 'of Kambalāmbarapāda', is written before the song; the input removes it from line 1a, and it is rendered in the heading here. The Tibetan translation (Toh 2293) heads the song lha rnams rol pa zhes bya ba'i glu dbyangs la ba'i na bza' can gyi zhabs kyis kyang: 'the melody called Play of the Gods, by the one who wears a woollen garment, too'. It calls the poet by the meaning of his name.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.08.h1",
+      "kind": "philology",
+      "text": "Rāga: the melodic mode to which a song is sung. Devakrī is the name of this song's mode. The Tibetan 'play of the gods' suggests that its translators read the name as devakrīḍā, 'divine play'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.08.1a",
+      "kind": "imagery",
+      "text": "A river boat so heavily laden with gold that there is no room left for silver, the lesser metal. 'Boat of compassion' (karuṇā nābī) is the song's own phrase. The Tibetan translation (Toh 2293) has the same, snying rje'i gru, and adds rab tu, 'completely' (filled).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.08.1a",
+      "kind": "doctrine",
+      "text": "Munidatta says that 'compassion' is twilight language, and that bodhicitta itself is to be understood as the 'boat', by the figure of poetic fancy (utprekṣā). The Tibetan comment has gzugs kyi rgyan, 'figure of form', perhaps for rūpaka, 'metaphor'. Where the song has 'filled with gold', his paraphrase has the boat filled with the essence of the true guru's grace, through its identity with emptiness endowed with all supreme aspects. He gives no explicit gloss of the gold.",
+      "cites": [
+        "cp.08.m2"
+      ]
+    },
+    {
+      "anchor": "cp.08.1b",
+      "kind": "doctrine",
+      "text": "Munidatta takes rūpā, 'silver', as rūpa, 'form': form, feeling, perception, formations and consciousness have no separate place, 'since everything is made of that'. The reading depends on the sound of the word. The Tibetan comment keeps the sound (rU pa), while the Tibetan line has dngul, 'silver'.",
+      "cites": [
+        "cp.08.m2"
+      ]
+    },
+    {
+      "anchor": "cp.08.1b",
+      "kind": "philology",
+      "text": "No word in the line is negative. I read mahike as mahi, 'in (it)' (compare Apabhraṃśa mahi, māhi, 'within'), plus ke, an interrogative, and take the line as a rhetorical question: 'to put silver, in it what place?'. That gives the sense both old witnesses state plainly. The Tibetan translation (Toh 2293) has dngul la gzhag pa'i gnas nyid med par gyur, 'there came to be no place at all to put silver'. Munidatta has sthānabhedaṃ nāsti, 'there is no distinction of place'. thoi is from thov-, 'put, set down' (compare Bengali thoā).",
+      "cites": [
+        "cp.08.m2"
+      ]
+    },
+    {
+      "anchor": "cp.08.2",
+      "kind": "witness",
+      "text": "Refrain. Munidatta's count confirms that this couplet is the refrain: after couplet 1 he calls couplet 3 'the next verse' (padāntareṇa), couplet 4 'the third' and couplet 5 'the fourth'. He still paraphrases the refrain inside his comment on couplet 1. Shastri prints ধ্রু after couplets 1 to 4 (not after 5), as a cue to sing the refrain; it is not translated.",
+      "cites": [
+        "cp.08.m2",
+        "cp.08.m3",
+        "cp.08.m4",
+        "cp.08.m5"
+      ]
+    },
+    {
+      "anchor": "cp.08.2",
+      "kind": "doctrine",
+      "text": "Munidatta paraphrases the refrain in his comment on couplet 1. The siddha master Kambalāmbarapāda, addressing himself, rows the boat 'with the aim of the ocean of going to the wheel of great bliss'. 'Without rowing the boat of the fourth means, the birth that has gone returns to me, the siddha master.' He then tells himself to practise a continuous flow of non-conceptual thought. The Tibetan comment turns this round: going by boat on 'the fourth thab sa' ('hearth', perhaps a slip for thabs, 'means'), having become a siddha master, he will not turn back into births. Munidatta closes his comment with a Bodhicaryāvatāra verse: having gained the boat of human birth, cross the great river of suffering; this is no time for sleep, for this boat is hard to find again. He does not tie the verse to a particular line.",
+      "cites": [
+        "cp.08.m2"
+      ]
+    },
+    {
+      "anchor": "cp.08.2a",
+      "kind": "philology",
+      "text": "ubesem̐ is uncertain. Munidatta's paraphrase has uddeśena, 'with the aim of, toward', in the same instrumental case where the song has ubesem̐; he names the ocean and the wheel of great bliss, not the sky. The Tibetan translation (Toh 2293) has nam mkha' bltas nas, 'having looked at the sky', and renders bāhatu, 'row', as 'gro, 'goes'. By sound, ubesa could come from upadeśa, 'instruction' ('by the sky's instruction'), or from upaviś-, 'sit'. 'Toward' follows the two old witnesses.",
+      "cites": [
+        "cp.08.m2"
+      ]
+    },
+    {
+      "anchor": "cp.08.2b",
+      "kind": "philology",
+      "text": "jāma is taken as janma, 'birth', with the Tibetan translation (skye ba) and Munidatta's janmāntara, 'another birth'. It could also be yāma, 'a watch of the night', since the script does not separate j and y. gelī is 'gone'; bahu ui is read as 'again' and 'rises, comes up' (Tibetan slar yang ... 'byung); kaisem̐ is 'how' (Tibetan ji ltar).",
+      "cites": [
+        "cp.08.m2"
+      ]
+    },
+    {
+      "anchor": "cp.08.3a",
+      "kind": "imagery",
+      "text": "A river boat is moored to a stake driven into the bank and tied to it with a rope. Pulling up the stake and letting the rope go sets it off. The Tibetan translation (Toh 2293) has gru yi brtod phur, 'the boat's tethering stake', and nyag thag, 'rope'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.08.3a",
+      "kind": "doctrine",
+      "text": "Munidatta: the stake is the fault of appearance (ābhāṣadoṣa). Once the 'best of yogis' has made the guru's word firm, he is to pull it up. Then he is to loosen 'a thread of knowledge' in the ropes (kacchikāsu vidyāsūtrañ ca) and make the boat run swiftly. By this special kind of appearance, he says, one comes to realize the unsurpassed Dharma directly, 'there is no doubt'. The Sanskrit compound at that point is corrupt; the Tibetan has bla na med pa'i chos mngon sum du byed par 'gyur. The Tibetan comment has the guru's word producing firmness against the fault of appearance, without the pulling up. It calls the rope 'the thread of ignorance' (ma rig pa'i srad bu), as if reading avidyāsūtra.",
+      "cites": [
+        "cp.08.m3"
+      ]
+    },
+    {
+      "anchor": "cp.08.4a",
+      "kind": "philology",
+      "text": "māṅga: a word of uncertain sense, kept in its source form. Munidatta renders it mārga, 'path' (cp.08.m4); the Tibetan translation (Toh 2293) has gru yi mjug, 'the stern of the boat'. The word seems to return as māgā in 5a, where Munidatta again has mārga and the Tibetan gru sna, 'prow' (cp.08.m5). māgā is the regular Old Bengali outcome of Sanskrit mārga (Prakrit magga), which supports 'path', at least in 5a. The boat scene supports a part of the boat. canhile, 'having climbed', seems to be a form of caṛh-, 'climb'; the Tibetan zhon, 'mounted', confirms the sense.",
+      "cites": [
+        "cp.08.m4",
+        "cp.08.m5"
+      ]
+    },
+    {
+      "anchor": "cp.08.4",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet the error that comes from lacking the guru's lineage. Having gone on the path, the joy of cessation, and looking in the four directions at the grasped and the rest, one falls into saṃsāra. He quotes a caryā line: 'if it falls into the ditch, the camphor is lost'. Then he adds that whoever seeks the bliss of vajra and lotus by the true guru's word reaches the far shore of the ocean of existence, and he quotes Kṛṣṇācārya's verse on the innate that shines day after day. The Tibetan comment is fuller: one who looks at and thinks about the grasped and the grasper in the four directions lacks 'the mnyen pa of the guru's word', and so cannot go to the wheel of great bliss. The Sanskrit at that point (grāhyādi vinā, with a folio number inside vinā) may be defective.",
+      "cites": [
+        "cp.08.m4"
+      ]
+    },
+    {
+      "anchor": "cp.08.4b",
+      "kind": "philology",
+      "text": "keṛuyāla is the oar (Tibetan gru skya). pāraa is taken as the verb pār-, 'be able', with bāhabake, 'to row', a verbal noun with the dative -ke: 'who can row?'. If it is read as pāra, 'the far bank', the line becomes 'how can one row across?'. Munidatta's comment speaks of reaching the far shore (pāraṃ gacchati), but in his own sentence, not as a gloss of this word. The Tibetan translation (Toh 2293) reads gru skya med par mnyen pa gang gis 'gro, 'without an oar, by what does the mnyen pa go?'. The same mnyen pa appears in its comment on this couplet.",
+      "cites": [
+        "cp.08.m4"
+      ]
+    },
+    {
+      "anchor": "cp.08.5",
+      "kind": "imagery",
+      "text": "The rower presses left and right, perhaps working the boat on both sides; the song does not say with what. 'Meeting, meeting' (mili mili) and 'met' (milila) repeat one verb, mil-, 'meet, come together', and the English keeps the echo.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.08.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has byang dang lho dag bcum nas gru sna zhon, 'having pressed north and south, mount the prow'. It renders bāma dāhiṇa as 'north and south' (Sanskrit dakṣiṇa means both 'right' and 'south', and facing east the left is north). It has nothing for mili mili, and it takes māgā as the prow. The Tibetan of Munidatta's comment has left and right (g.yon dang g.yas).",
+      "cites": [
+        "cp.08.m5"
+      ]
+    },
+    {
+      "anchor": "cp.08.5",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet the making plain of the fruit. The two appearances, left and right, are made to enter the middle one, the central channel. Bodhicitta has gone to the path, the joy of cessation, and is purified by one's own knowledge. When it has met 'in the direction of the ocean of the wheel of great bliss', he says, 'on that path I have obtained the embrace of the knowledge of Nairātmā, the companion of great bliss'. Where the Sanskrit has the joy of cessation (viramānanda), the Tibetan comment has sna tshogs pa'i dga' ba, 'the joy of variety'. For Nairātmā-knowledge it has bdag med pa'i ye shes, 'the knowledge of selflessness'.",
+      "cites": [
+        "cp.08.m5"
+      ]
+    },
+    {
+      "anchor": "cp.08.5b",
+      "kind": "philology",
+      "text": "mahāsuha saṅgā: the two words stand side by side with no case ending, so both 'great bliss as companion' and 'the companion of great bliss' are possible. Munidatta and the Tibetan translation (bde ba chen po'i grogs, 'the companion of great bliss') take the second, and Munidatta names the companion as the knowledge of Nairātmā. The edition prints sa(su)ṅgā, marking the vowel as doubtful. bāṭata is bāṭa, 'road', with the locative -ta, as in māṅgata (4a).",
+      "cites": [
+        "cp.08.m5"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "para",
+      "line": "cp.08.4b",
+      "reason": "পারঅ (pāraa) is taken here as the verb pār-, 'be able' (can), not pāra, 'far bank'. The alternative 'row across' is flagged on the line."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "janma",
+      "type": "term",
+      "en": "birth",
+      "policy": "translate",
+      "alt": [
+        "life"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জাম",
+          "translit": "jāma",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.08.2b"
+        },
+        {
+          "lang": "san",
+          "script": "জন্মান্তরং",
+          "translit": "janmāntaraṃ",
+          "lemma": "janmāntara",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ",
+          "translit": "skye ba",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.08.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জন্ম"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])জাম(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Birth (Sanskrit janman, Old Bengali jāma), and so one life in the round of rebirth. The refrain of song 8 asks how a birth that is gone will come again. Munidatta says another birth returns to one who does not row the boat of the fourth means (cp.08.m2). The Tibetan has skye ba.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Birth and rebirth recur in the songs and the commentary. An entry fixes 'birth' as the rendering, and it records the j/y ambiguity of Old Bengali jāma, which could also be yāma, 'a watch of the night'. The whole-word pattern keeps jāma from matching inside longer words."
+    }
+  ],
+  "questions": [
+    "Poet's name: in 2a and 3b I used the song's own form, 'Kāmali' (marked as p-kambala), instead of the entry's English 'Kambalāmbarapāda', to keep the self-naming; the heading uses the full name, taken from the attribution before the song. Should 'Kāmali' be added to p-kambala as a variant?",
+    "māṅga (4a) and māgā (5a): I kept both source spellings under one id. Should 5a show the headword 'māṅga' instead? māgā is the regular outcome of mārga, which supports Munidatta's 'path'; the Tibetan has stern and prow. 'Path' is also on the boat entry's list of words kept out of verse lines, so the source form seems safest for now.",
+    "1b: I made the line a rhetorical question ('where in it is there room to put silver?'), reading mahike as mahi 'in it' plus ke 'what'. Both old witnesses give a plain statement ('there is no place to put silver'). Which do you prefer?",
+    "2a: 'toward the sky' follows Munidatta's uddeśena and the Tibetan 'looking at the sky'. By sound, ubesem̐ fits upadeśa better: 'by the sky's instruction', which would parallel 'having asked the true guru' in 3b. Keep 'toward'?",
+    "2b: 'birth' (jāma = janma, as both witnesses have it), or 'the watch / hour that is gone' (jāma = yāma)?",
+    "3a: I left the agent out ('the rope has been let loose'), reading melili as a past form agreeing with kācchi. Would you rather have 'you let loose the rope' (addressed to Kāmali) or the Tibetan's imperative ('pull up the stake, let loose the rope')?",
+    "5b: 'he met great bliss as companion', or 'he met the companion of great bliss', as Munidatta and the Tibetan read it?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "fa0b07c66f4ed23ba936b1895462c2f5fffaaeb2a4c8d9b73398a72cce70dc3c",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "c6e6f7a0966e51c83b0feab8723ccd1b1803825222c10fecb38dbeaac4854fce",
+    "sourceSha": "4e9a2bea3e58d954b166df4e148c86a00a3a3bd142a016dfcb4baf6440608c3d"
+  }
+}

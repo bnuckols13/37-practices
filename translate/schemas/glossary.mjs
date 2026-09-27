@@ -13,6 +13,7 @@ export const Form = z.object({
   lang: z.string(),
   script: z.string().default(''),          // form in its own script
   translit: z.string().default(''),        // IAST / Wylie
+  lemma: z.string().default(''),           // dictionary headword, for look-ups (kāya for kāyasya)
   att: Att.default('SU'),
   where: z.string().default(''),           // passage id where attested
 });
@@ -59,7 +60,9 @@ export const Proposal = z.object({
   policy: Policy,
   alt: z.array(z.string()),
   forms: z.array(z.object({
-    lang: z.string(), script: z.string(), translit: z.string(), att: Att, where: z.string(),
+    lang: z.string(), script: z.string(), translit: z.string(),
+    lemma: z.string().default('').describe('the dictionary headword: the Sanskrit stem as Monier-Williams lists it (kāya for kāyasya), the Old Bengali base form, the Tibetan word in Wylie; "" if unsure'),
+    att: Att, where: z.string(),
   })),
   match: z.array(z.object({ lang: z.string(), form: z.string() }))
     .describe('source-script surface forms that should be recognised as this term'),

@@ -226,6 +226,34 @@ ins { color: var(--ok); text-decoration: none; background: var(--ok-wash); }
 .tb__actions { display: flex; gap: 6px; margin-top: 8px; }
 .tb__edit { margin-top: 10px; display: grid; gap: 8px; }
 .tb__note { font-size: 12px; color: var(--faint); margin: 0; }
+/* an opened term: where it occurs, how it is rendered, where to look it up */
+.tb__more { margin-top: 12px; padding-top: 10px; border-top: 1px dotted var(--rule); }
+.tb__h { margin: 12px 0 4px; font: 700 11px/1.3 var(--font-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.tb__rend .tb__h { margin: 0; }
+.tb__rend { margin: 0; font: 15px/1.5 var(--font-text); }
+.tb__rend b { font-weight: 700; }
+.tb__count { color: var(--faint); font: 12px var(--font-ui); }
+.tb__muted { margin: 4px 0; font-size: 13px; color: var(--muted); }
+.kwic { list-style: none; margin: 0; padding: 0; }
+.kwic__row { display: grid; grid-template-columns: 3.4rem minmax(0, 1fr); gap: 2px 8px; padding: 7px 0; border-bottom: 1px solid color-mix(in srgb, var(--rule) 60%, transparent); }
+.kwic__row:last-child { border-bottom: 0; }
+.kwic__ref { align-self: start; padding: 1px 0 0; background: none; border: 0; text-align: left; font: 700 12px/1.5 var(--font-ui); color: var(--rubric); cursor: pointer; font-variant-numeric: tabular-nums; }
+.kwic__ref:hover { text-decoration: underline; }
+.kwic__body { min-width: 0; }
+.kwic__body p { margin: 0; overflow-wrap: anywhere; }
+.kwic__who { font: 12px/1.4 var(--font-ui); color: var(--muted); }
+.kwic__src { font: 16px/1.5 var(--font-bengali); color: var(--ink); }
+.kwic__src:lang(bo) { font-family: var(--font-tibetan); }
+.kwic__tl { font: italic 13.5px/1.45 var(--font-text); color: var(--muted); }
+.kwic__en { font: 14px/1.45 var(--font-text); color: var(--ink); }
+.kwic mark { background: none; color: inherit; font-weight: 700; box-shadow: inset 0 -2px 0 var(--navy-wash); }
+.kwic__more { margin-top: 4px; }
+.tb__look { margin-top: 4px; }
+.look { margin: 2px 0; font: 13.5px/1.6 var(--font-ui); color: var(--muted); }
+.look__form i { font: italic 15px var(--font-text); color: var(--ink); }
+.look a { color: var(--navy); }
+.look__sep { color: var(--faint); }
+.tb__editbtn { margin-top: 10px; }
 .tf { display: grid; gap: 3px; }
 .tf__label { font: 700 11px/1.3 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .tf__input { box-sizing: border-box; width: 100%; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 3px; background: var(--raised); font: 15px/1.45 var(--font-text); }

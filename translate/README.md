@@ -120,6 +120,14 @@ node translate/cli.mjs studio import charyapada          # approved/, glossary, 
 - A decision made on an older draft is refused as stale; the Studio then offers "Start review of the new draft", which keeps unchanged passages.
 - One review channel per song: a hand-edited sheet blocks a Studio import unless you pass `--force`.
 
+**Opening a term** (click it in the text or in the panel) shows, below its decision buttons:
+- **Rendered as:** how the term has been translated so far, with counts, across the songs, notes and commentary.
+- **In the text:** every place its source forms occur (`lib/concord.mjs`), each in context in the source script and transliteration, with the English of that line. Select a reference to go to that passage, in any song.
+- **Look it up:** one row per language linking to the reference works (`lib/lookup.mjs`): Monier-Williams and Edgerton's *Buddhist Hybrid Sanskrit Dictionary* (Cologne), Turner's *Comparative Dictionary of the Indo-Aryan Languages* (DSAL, which cites Old Bengali forms), and for Tibetan the 84000 glossary and BDRC's texts. Links use each form's `lemma` (its dictionary headword) when the glossary gives one. Nothing is copied from these works.
+- **Edit entry** opens the fields.
+
+Concordances are one small document per term (`concord/<id>`), read only when a term is opened, and rebuilt on every export. Overwrites are pinned: `seeded.json` records each document's version, and every re-sent document carries `if_version`.
+
 ## Source directives
 
 Directives are whole lines starting with `@`. The raw import is never edited: `check` proves that the working copy minus its directives equals the raw text. Corrections go through `@emend`, which is recorded on the unit.

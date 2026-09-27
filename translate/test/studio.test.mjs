@@ -53,7 +53,8 @@ const approveAllGlossary = dir => {
 test('export: every doc fits the budget, the index is written last, batches hold at most 50 writes', async () => {
   const dir = await draftedHome();
   const docs = textDocs('fixture');
-  assert.deepEqual(docs.map(d => d.collection), ['glossary', 'glossary', 'glossary', 'units', 'meta']);
+  assert.deepEqual([...new Set(docs.map(d => d.collection))], ['glossary', 'units', 'concord', 'meta'], 'glossary, units, concordances, then the index');
+  assert.equal(docs.at(-1).collection, 'meta');
   const unit = docs.find(d => d.collection === 'units').data;
   assert.deepEqual(unit.sections.map(s => s.part), ['head', 'h', '1', 'm1', '2']);
   assert.equal(unit.sections.find(s => s.part === 'm1').anchorPart, '1');
@@ -64,12 +65,22 @@ test('export: every doc fits the budget, the index is written last, batches hold
     assert.ok(writes.length <= BATCH_SIZE);
     for (const w of writes) {
       assert.equal(w.op, 'set');
-      assert.match(w.collection, /^(glossary|units|meta)$/);
+      assert.match(w.collection, /^(glossary|units|concord|meta)$/);
       assert.ok(fs.existsSync(w.file_path));
     }
   }
   markSeeded('staging');
   assert.equal(writeOutbox('staging', textDocs('fixture')).count, 0, 'nothing changed, nothing to write');
+  // A changed document is re-sent pinned to the version the Studio holds; the database refuses unpinned overwrites.
+  const changed = textDocs('fixture').map(d => d.collection === 'meta' ? { ...d, data: { ...d.data, style: '- changed' } } : d);
+  const again = writeOutbox('staging', changed);
+  assert.equal(again.count, 1);
+  const [w] = JSON.parse(read(again.batches[0])).writes;
+  assert.equal(w.collection, 'meta');
+  assert.equal(w.if_version, 1);
+  markSeeded('staging');
+  const third = writeOutbox('staging', changed.map(d => d.collection === 'meta' ? { ...d, data: { ...d.data, style: '- changed twice' } } : d));
+  assert.equal(JSON.parse(read(third.batches[0])).writes[0].if_version, 2, 'each successful set is the next version');
   const meta = docs.at(-1).data;
   assert.equal(meta.songs[0].stage, 'in review');
   assert.ok(meta.checklist.find(c => c.id === 'draft').done);
@@ -153,4 +164,44 @@ test('import: untrusted docs that do not match the schema are rejected with a re
   putInbox(dir, 'decisions', 'fx.01', { v: 1, unit: 'fx.01', sections: 'not an object' });
   const r = importStudio('fixture', { target: 'staging', dry: true });
   assert.match(r.problems.join(), /decisions\/fx\.01/);
+});
+
+test('concordance: each term in context, with how it has been rendered', async () => {
+  await draftedHome();
+  const { concordance, kwic } = await import('../lib/concord.mjs');
+  const c = concordance('fixture').get('taruvara');
+  assert.ok(c.total >= 1 && c.verse >= 1, 'found in the verse');
+  const hit = c.hits.find(x => x.kind === 'verse');
+  assert.equal(hit.unit, 'fx.01');
+  assert.equal(hit.part, '1a');
+  assert.equal(hit.hit, 'তরুবর');
+  assert.equal(hit.tlHit, 'tarubara', 'transliteration is word-aligned');
+  assert.match(hit.en, /tree/);
+  assert.equal(hit.surface, 'tree');
+  assert.deepEqual(c.renderings.map(r => r.surface), ['tree']);
+  const k = kwic('এক দুই তিন চার পাঁচ ছয় সাত আট॥ নয়', 'ek dui tin cār pāṁc chay sāt āṭ|| nay', 'আট');
+  assert.equal(k.hit, 'আট');
+  assert.equal(k.post, '॥ নয়', 'punctuation stays with the context');
+  assert.deepEqual(k.cut, [true, false]);
+  assert.equal(k.within, false);
+  assert.equal(kwic('কায়স্তরুবরঃ।', 'kāyastaruvaraḥ|', 'তরুবর').within, true, 'a form inside a compound');
+});
+
+test('look-ups: headwords, SLP1 keys and one row per language', async () => {
+  const { toSlp1, headword, lookups } = await import('../lib/lookup.mjs');
+  assert.equal(toSlp1('nairātmya'), 'nErAtmya');
+  assert.equal(toSlp1('kṛṣṇācārya'), 'kfzRAcArya');
+  assert.equal(toSlp1('saṃsāra'), 'saMsAra');
+  assert.equal(headword({ lang: 'san', translit: 'kālaḥ' }), 'kāla');
+  assert.equal(headword({ lang: 'san', translit: 'cittaṃ|' }), 'citta');
+  assert.equal(headword({ lang: 'san', translit: 'nairātmayā', lemma: 'nairātmya' }), 'nairātmya');
+  assert.equal(headword({ lang: 'bod', translit: 'bdag med ma/' }), 'bdag med ma', 'Tibetan words keep their syllables');
+  const rows = lookups({ forms: [
+    { lang: 'san', translit: 'nairātmayā', lemma: 'nairātmya' }, { lang: 'san', translit: 'nairātme' },
+    { lang: 'oben', translit: 'ḍombī' }, { lang: 'bod', translit: 'bdag med ma' }] });
+  assert.deepEqual(rows.map(r => [r.lang, r.form]), [['san', 'nairātmya'], ['oben', 'ḍombī'], ['bod', 'bdag med ma']]);
+  const mw = rows[0].links.find(l => l.id === 'mw');
+  assert.equal(mw.href, 'https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/getword.php?dict=mw&key=nErAtmya&input=slp1&output=iast');
+  assert.deepEqual(rows[1].links.map(l => l.id), ['cdial']);
+  assert.deepEqual(rows[2].links.map(l => l.id), ['84000', 'bdrc']);
 });

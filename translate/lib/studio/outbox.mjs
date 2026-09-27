@@ -2,7 +2,10 @@
  * The Studio outbox: documents to write into the artifact's database, as
  * files plus ArtifactData batch manifests (at most 50 writes each). This is
  * the only module that knows the shape of an ArtifactData batch entry.
- * A per-target ledger (seeded.json) keeps later exports to what changed.
+ * A per-target ledger (seeded.json) keeps later exports to what changed, and
+ * records each document's version: the database refuses to overwrite a
+ * document unless the write names the version it expects (if_version). Only
+ * Claude writes these collections, so each successful set is version + 1.
  */
 
 import fs from 'node:fs';
@@ -34,7 +37,7 @@ export function writeOutbox(target, docs, { all = false } = {}) {
   const dir = studioDir(target);
   const out = path.join(dir, 'out');
   fs.rmSync(out, { recursive: true, force: true });
-  const ledger = all ? {} : readJSON(path.join(dir, 'seeded.json'), {});
+  const ledger = readLedger(dir);
   const pending = {};
   const writes = [];
   for (const d of docs) {
@@ -42,11 +45,12 @@ export function writeOutbox(target, docs, { all = false } = {}) {
     const body = JSON.stringify(d.data);
     if (Buffer.byteLength(body) > MAX_DOC_BYTES) fail(`${key} is ${Math.round(body.length / 1024)} KiB, over the ${MAX_DOC_BYTES / 1024} KiB budget`);
     const h = hashOf(d.data);
-    if (ledger[key] === h) continue;
-    pending[key] = h;
+    const was = ledger[key];
+    if (!all && was?.sha === h) continue;
+    pending[key] = { sha: h, version: (was?.version || 0) + 1 };
     const file = path.join(out, d.collection, d.id + '.json');
     writeJSON(file, d.data);
-    writes.push({ op: 'set', collection: d.collection, doc_id: d.id, file_path: file });
+    writes.push({ op: 'set', collection: d.collection, doc_id: d.id, file_path: file, ...(was ? { if_version: was.version } : {}) });
   }
   const batches = [];
   for (let i = 0; i < writes.length; i += BATCH_SIZE) {
@@ -58,12 +62,18 @@ export function writeOutbox(target, docs, { all = false } = {}) {
   return { batches, count: writes.length, unchanged: docs.length - writes.length };
 }
 
+/** The ledger, upgrading entries written before versions were recorded (each had been set once). */
+function readLedger(dir) {
+  const raw = readJSON(path.join(dir, 'seeded.json'), {});
+  return Object.fromEntries(Object.entries(raw).map(([k, v]) => [k, typeof v === 'string' ? { sha: v, version: 1 } : v]));
+}
+
 /** After every batch succeeded: remember what the Studio now holds. */
 export function markSeeded(target) {
   const dir = studioDir(target);
   const pending = readJSON(path.join(dir, 'pending.json'), null);
   if (!pending) fail('nothing pending; run studio export first');
-  const ledger = { ...readJSON(path.join(dir, 'seeded.json'), {}), ...pending };
+  const ledger = { ...readLedger(dir), ...pending };
   writeJSON(path.join(dir, 'seeded.json'), ledger);
   fs.rmSync(path.join(dir, 'pending.json'));
   return Object.keys(pending).length;

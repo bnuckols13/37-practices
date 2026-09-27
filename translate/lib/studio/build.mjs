@@ -12,6 +12,7 @@ import path from 'node:path';
 import { ENGINE, sha256, writeText, fail } from '../io.mjs';
 import { themeCss, FONT_URL } from '../design/tokens.mjs';
 import { studioConfig, studioDir } from './outbox.mjs';
+import { SOURCES } from '../lookup.mjs';
 
 const STUDIO = path.join(ENGINE, 'studio');
 export const SIZE_BUDGET = 150 * 1024;
@@ -102,7 +103,9 @@ export function checkBuild(html, js) {
   if (/\b(alert|confirm|prompt)\s*\(/.test(js.replace(/whyPrompt|promptBox|prompt__|\.prompt\b/g, ''))) out.push('uses alert/confirm/prompt, which the viewer blocks');
   if (/window\.print\s*\(|\bprint\s*\(\s*\)/.test(js)) out.push('calls print(), which the viewer blocks');
   const hosts = [...html.matchAll(/https?:\/\/([a-z0-9.-]+)/gi)].map(m => m[1].toLowerCase());
-  const allowed = ['fonts.googleapis.com', 'fonts.gstatic.com'];
+  // Fonts are the only resources the page loads; the reference sites are links the reviewer follows.
+  const linkOut = SOURCES.map(src => new URL(src.href({ lang: src.langs[0], translit: 'a' })).hostname);
+  const allowed = ['fonts.googleapis.com', 'fonts.gstatic.com', ...linkOut];
   const bad = [...new Set(hosts.filter(hh => !allowed.includes(hh)))];
   if (bad.length) out.push(`references hosts the page may not load from: ${bad.join(', ')}`);
   if (Buffer.byteLength(html) > SIZE_BUDGET) out.push(`page is ${Math.round(Buffer.byteLength(html) / 1024)} KB, over the ${SIZE_BUDGET / 1024} KB budget`);

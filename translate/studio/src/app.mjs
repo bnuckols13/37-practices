@@ -12,14 +12,17 @@ import * as A from './store.mjs';
 import { diffWords } from './diff.mjs';
 import { createSync } from './sync.mjs';
 import { whyPrompt, askWhy, WHY_ERRORS } from './why.mjs';
+import { lookups } from '../../lib/lookup.mjs';
 
 const S = {
   env: { db: null, sample: null, canWrite: true, fatal: null, started: false, noClaude: false },
   meta: new Map(), glossary: new Map(), decisions: new Map(), gdecisions: new Map(), receipts: new Map(),
+  concord: new Map(),   // term id -> concordance doc (null: none), read once when the term is opened
   loaded: new Set(),
   text: '', unitId: '', unit: null,
   ui: { focus: 'head', editing: null, tab: 'terms', allTerms: false, diff: false, filter: 'all', drawer: null,
-        sheet: null, termOpen: null, termFilter: '', whyOpen: null, redraftOpen: null, lastSent: '' },
+        sheet: null, termOpen: null, termFilter: '', whyOpen: null, redraftOpen: null, lastSent: '',
+        termEdit: null, concordAll: null, pendingFocus: null },
   save: 'idle',
 };
 let sync = null;
@@ -800,8 +803,78 @@ function termBlock(e) {
     v('symbolic') ? h('p', { class: 'tb__sym' }, v('symbolic')) : null,
     e.usedIn.length ? h('p', { class: 'tb__used' }, 'Used in ' + e.usedIn.join(', ')) : null,
     h('div', { class: 'tb__actions' }, decideBtn('approve', 'Approve', 'btn--ok'), decideBtn('reject', 'Reject', 'btn--quiet'), decideBtn('defer', 'Later', 'btn--quiet')),
-    expanded ? termEditor(e, live, v) : null);
+    expanded ? termDetail(e, live, v) : null);
   return el;
+}
+
+// An opened term: where it occurs and how it has been rendered, then where to look it up.
+// Editing the entry is one step further, so the card stays quiet by default.
+function termDetail(e, live, v) {
+  if (S.ui.termEdit === e.id) {
+    return h('div', { class: 'tb__more' }, termEditor(e, live, v),
+      h('button', { type: 'button', class: 'btn btn--quiet tb__editbtn', onclick: () => { S.ui.termEdit = null; renderPanel(); } }, 'Done editing'));
+  }
+  loadConcord(e.id);
+  const c = S.concord.get(e.id);
+  const names = textMeta()?.langNames || {};
+  const look = lookups(e);
+  return h('div', { class: 'tb__more' },
+    c === undefined ? h('p', { class: 'tb__muted' }, 'Finding where it occurs…')
+      : c === null ? h('p', { class: 'tb__muted' }, 'It does not occur in the source loaded so far.')
+      : usageBlock(e, c),
+    look.length ? h('div', { class: 'tb__look' }, h('h4', { class: 'tb__h' }, 'Look it up'),
+      ...look.map(r => h('p', { class: 'look' },
+        h('span', { class: 'look__form' }, (names[r.lang] || r.lang) + ' ', h('i', {}, r.form)), ' ',
+        ...r.links.flatMap((l, i) => [i ? h('span', { class: 'look__sep', 'aria-hidden': 'true' }, ' · ') : null,
+          h('a', { href: l.href, target: '_blank', rel: 'noopener noreferrer' }, l.label)])))) : null,
+    h('button', { type: 'button', class: 'btn btn--quiet tb__editbtn', disabled: !S.env.canWrite, onclick: () => { S.ui.termEdit = e.id; renderPanel(); } }, 'Edit entry'));
+}
+
+function loadConcord(id) {
+  if (S.concord.has(id) || !S.env.db) return;
+  S.concord.set(id, undefined);
+  S.env.db.doc('concord/' + id).get()
+    .then(snap => { S.concord.set(id, snap.exists ? snap.data() : null); })
+    .catch(() => { S.concord.set(id, null); })
+    .finally(() => { if (S.ui.termOpen === id) renderPanel(); });
+}
+
+function usageBlock(e, c) {
+  const all = S.ui.concordAll === e.id;
+  const hits = all ? c.hits : c.hits.slice(0, 5);
+  const where = c.verse && c.comm ? `, ${c.verse} in the songs and ${c.comm} in the commentary` : '';
+  return [
+    c.renderings.length ? h('p', { class: 'tb__rend' }, h('span', { class: 'tb__h' }, 'Rendered as '),
+      ...c.renderings.flatMap((r, i) => [i ? ', ' : null, h('b', {}, r.surface), h('span', { class: 'tb__count' }, ` ${r.n}×`)])) : null,
+    c.total ? h('h4', { class: 'tb__h' }, `In the text: ${c.total} ${c.total === 1 ? 'place' : 'places'}${where}`) : null,
+    c.total ? h('ol', { class: 'kwic' }, hits.map(kwicRow)) : null,
+    c.hits.length > 5 ? h('button', { type: 'button', class: 'btn btn--quiet kwic__more',
+      onclick: () => { S.ui.concordAll = all ? null : e.id; renderPanel(); } }, all ? 'Show fewer' : `Show all ${c.hits.length}`) : null,
+    all && c.capped ? h('p', { class: 'tb__muted' }, `The first ${c.hits.length} of ${c.total} are listed.`) : null,
+  ];
+}
+
+function kwicRow(hit) {
+  const meta = textMeta();
+  const html = meta?.htmlLangs?.[hit.lang] || '';
+  const ref = `${hit.n}.${hit.part}`;
+  const who = hit.kind === 'comm' ? `${meta?.commentary || 'Commentary'}${hit.on ? ` on ${hit.n}.${hit.on}` : ''}` : '';
+  const line = (pre, mid, post, cut, cls, lang) => h('p', { class: cls, lang: lang || null },
+    cut[0] ? '… ' : '', pre ? pre + ' ' : '', h('mark', {}, mid), post ? (/^[।॥|,;.:]/u.test(post) ? '' : ' ') + post : '', cut[1] ? ' …' : '');
+  return h('li', { class: 'kwic__row' },
+    h('button', { type: 'button', class: 'kwic__ref', title: `Go to ${ref}`, onclick: () => goToHit(hit) }, ref),
+    h('div', { class: 'kwic__body' },
+      who ? h('p', { class: 'kwic__who' }, who) : null,
+      line(hit.pre, hit.hit, hit.post, hit.cut, 'kwic__src', html),
+      hit.tlHit ? line(hit.tlPre, hit.tlHit, hit.tlPost, hit.cut, 'kwic__tl', html ? html + '-Latn' : '') : null,
+      hit.en ? h('p', { class: 'kwic__en' }, hit.en) : null));
+}
+
+function goToHit(hit) {
+  const part = hit.kind === 'comm' ? hit.part : hit.kind === 'heading' ? 'h' : hit.part.replace(/[a-z]$/, '');
+  if (S.ui.drawer === 'panel') toggleDrawer('panel');
+  if (hit.unit !== S.unitId) { chooseSong(hit.unit); S.ui.pendingFocus = part; }
+  else focusSection(part);
 }
 
 function termEditor(e, live, v) {
@@ -986,7 +1059,12 @@ function onUnit(id, doc) {
 let pending = 0;
 function scheduleRender() {
   if (pending) return;
-  pending = requestAnimationFrame(() => { pending = 0; if (!S.ui.editing) renderAll(); else { renderTop(); renderRail(); renderPanel(); renderBanner(); } });
+  pending = requestAnimationFrame(() => {
+    pending = 0;
+    if (!S.ui.editing) renderAll(); else { renderTop(); renderRail(); renderPanel(); renderBanner(); }
+    // A concordance line in another song: focus its passage once that song has loaded.
+    if (S.ui.pendingFocus && unit()) { const p = S.ui.pendingFocus; S.ui.pendingFocus = null; focusSection(p); }
+  });
 }
 
 // ---------------------------------------------------------------- boot

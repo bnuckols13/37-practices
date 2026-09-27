@@ -1,7 +1,8 @@
 /**
  * The documents Claude writes into the Studio's database: one per unit (built
- * from the shared review model), one per glossary entry, and one index per
- * text that drives the rail and the first-run checklist.
+ * from the shared review model), one per glossary entry, one concordance per
+ * term (read only when the reviewer opens that term), and one index per text
+ * that drives the rail and the first-run checklist.
  */
 
 import { paths, readJSON, readText, exists, hashOf, short, config } from '../io.mjs';
@@ -11,6 +12,7 @@ import { reviewModel } from '../review/model.mjs';
 import { formatSymbolic } from '../review/sheet.mjs';
 import { partOf } from '../ids.mjs';
 import * as markup from '../markup.mjs';
+import { concordDocs } from '../concord.mjs';
 
 /** What a glossary decision was made against: the reviewer-editable fields and status only. */
 export function entrySha(e) {
@@ -44,7 +46,7 @@ export function glossaryDoc(slug, e, usedIn = []) {
   return {
     v: 1, id: e.id, text: slug, status: e.status, type: e.type, en: e.en, policy: e.policy, alt: e.alt, variants: e.variants,
     definition: e.definition, symbolic: formatSymbolic(e.symbolic), forbiddenInLine: e.forbiddenInLine,
-    forms: e.forms.map(f => ({ lang: f.lang, script: f.script, translit: f.translit, att: f.att, where: f.where })),
+    forms: e.forms.map(f => ({ lang: f.lang, script: f.script, translit: f.translit, lemma: f.lemma || '', att: f.att, where: f.where })),
     usedIn, proposedBy: e.provenance.proposed?.by || '', entrySha: entrySha(e),
   };
 }
@@ -97,12 +99,12 @@ export function metaDoc(slug) {
   return {
     v: 1, slug, title, alt: text.title.alt, unitLabel: text.unitLabel, total: text.catalog.total || songs.length,
     lost: text.catalog.lost, partial: text.catalog.partial, reviewer: config().reviewer || '',
-    commentary: text.commentary?.author || '', style, songs, checklist,
+    commentary: text.commentary?.author || '', langNames: text.lang.names, htmlLangs: text.lang.html, style, songs, checklist,
     glossaryCount: inScope.length, toDecide: inScope.filter(e => e.status === 'proposed').length,
   };
 }
 
-/** Every document to seed for a text: glossary, units (drafted ones), then the index last. */
+/** Every document to seed for a text: glossary, units (drafted ones), concordances, then the index last. */
 export function textDocs(slug) {
   const idx = unitsIndex(slug);
   const P = paths(slug);
@@ -116,6 +118,7 @@ export function textDocs(slug) {
     if (u.segments > 0 && !exists(P.weave(u.id))) continue;
     docs.push({ collection: 'units', id: u.id, data: unitDoc(slug, u.id) });
   }
+  docs.push(...concordDocs(slug));
   docs.push({ collection: 'meta', id: `text-${slug}`, data: metaDoc(slug) });
   return docs;
 }

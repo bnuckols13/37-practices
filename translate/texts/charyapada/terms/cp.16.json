@@ -1,0 +1,1890 @@
+{
+  "unit": "cp.16",
+  "proposals": [
+    {
+      "id": "p-mahidhara",
+      "type": "person",
+      "en": "Mahīdharapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Mahittā",
+        "Mahitta",
+        "Mahīdhara"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহিত্তা",
+          "translit": "mahittā",
+          "lemma": "mahitta",
+          "att": "AS",
+          "where": "cp.16.5b"
+        },
+        {
+          "lang": "san",
+          "script": "মহীধরপাদানাম্",
+          "translit": "mahīdharapādānām",
+          "lemma": "mahīdharapāda",
+          "att": "AS",
+          "where": "cp.16.1a"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্যমহীধরঃ",
+          "translit": "siddhācāryyamahīdharaḥ",
+          "lemma": "mahīdhara",
+          "att": "AS",
+          "where": "cp.16.m1"
+        },
+        {
+          "lang": "san",
+          "script": "মহীধরঃ",
+          "translit": "mahīdharaḥ",
+          "lemma": "mahīdhara",
+          "att": "AS",
+          "where": "cp.16.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་འཛིན་ཞབས",
+          "translit": "sa 'dzin zhabs",
+          "lemma": "sa 'dzin",
+          "att": "AO",
+          "where": "cp.16.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་འཛིན",
+          "translit": "sa 'dzin",
+          "lemma": "sa 'dzin",
+          "att": "AO",
+          "where": "cp.16.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་ཧེནྡྲ",
+          "translit": "ma hen+d+ra",
+          "lemma": "ma hen+d+ra",
+          "att": "AO",
+          "where": "cp.16.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মহিত্ত"
+        },
+        {
+          "lang": "san",
+          "form": "মহীধর"
+        },
+        {
+          "lang": "bod",
+          "form": "ས་འཛིན་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "སློབ་དཔོན་ས་འཛིན"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་ཧེནྡྲ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mahīdharapāda, the siddha to whom song 16 is ascribed; in its last couplet he calls himself Mahittā. Munidatta calls him the siddha master Mahīdhara, drunk on the drink of knowledge (cp.16.m1). The Tibetan translation names him sa 'dzin ('earth-holder', for Mahīdhara) in the heading and comment, but Mahendra (ma hen+d+ra) in the last line.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 16 needs a person entry (the unit already uses this id); the heading attribution and the commentary give Mahīdhara(pāda), so the entry follows the -pāda form used for other poets and lists Mahittā, his name in the bhaṇitā, as a variant."
+    },
+    {
+      "id": "mara",
+      "type": "term",
+      "en": "Māra",
+      "policy": "keep-source",
+      "alt": [
+        "Māras"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মার",
+          "translit": "māra",
+          "lemma": "māra",
+          "att": "AS",
+          "where": "cp.16.1b"
+        },
+        {
+          "lang": "san",
+          "script": "মারা",
+          "translit": "mārā",
+          "lemma": "māra",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "san",
+          "script": "মারসৈন্যং",
+          "translit": "mārasainyaṃ",
+          "lemma": "mārasainya",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདུད",
+          "translit": "bdud",
+          "lemma": "bdud",
+          "att": "AO",
+          "where": "cp.16.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "བདུད་ཀྱི་སྡེ",
+          "translit": "bdud kyi sde",
+          "lemma": "bdud kyi sde",
+          "att": "AO",
+          "where": "cp.16.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মারসৈন্য"
+        },
+        {
+          "lang": "bod",
+          "form": "བདུད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])(?<!মার\\s)মার[াঃ]?(?![\\p{L}\\p{M}])(?!\\sমার(?![\\p{L}\\p{M}]))"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])(?<!মার\\s)মার[াঃ]?(?![\\p{L}\\p{M}])(?!\\sমার(?![\\p{L}\\p{M}]))"
+        }
+      ],
+      "definition": "Māra, 'the killer': in Buddhist myth the tempter whose army tried to stop the Buddha's awakening, and by extension whatever binds beings to saṃsāra, often counted as four Māras. In song 16 Māra is named when the unstruck roar is heard. Munidatta takes the Māras as the adventitious aggregates, afflictions and the like (cp.16.m2).",
+      "symbolicImage": "Māra, when the unstruck roar is heard",
+      "symbolicReadings": [
+        {
+          "referent": "the Māras: the adventitious aggregates, afflictions and the like, which make saṃsāra fearful, broken on hearing the unstruck sound; he then quotes the Rativajra on the buddhas breaking Māra's army",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "aggregates",
+        "afflictions"
+      ],
+      "rationale": "Māra occurs in song 16 and twice in its commentary, and the only Māra entry in the pack's glossary is the narrower 'Māra of death' (mrtyumara), so a general entry is proposed; the name stays in source form."
+    },
+    {
+      "id": "pata",
+      "type": "term",
+      "en": "pāṭa",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাটেঁ",
+          "translit": "pāṭem̐",
+          "lemma": "pāṭa",
+          "att": "AS",
+          "where": "cp.16.1a"
+        },
+        {
+          "lang": "san",
+          "script": "পাটত্রয়ং",
+          "translit": "pāṭatrayaṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.16.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পাটত্রয়"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])পাটে?ঁ?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "An Old Bengali word of uncertain sense in the first line of song 16, where three pāṭas are 'attached' (lāgeli). It may go back to Sanskrit paṭṭa, 'slab, seat, band'. The Tibetan line has only 'the three' (rnam gsum). Munidatta takes the three pāṭas as the joys beginning with the joy of the body (cp.16.m2).",
+      "symbolicImage": "three pāṭas",
+      "symbolicReadings": [
+        {
+          "referent": "the joys beginning with the joy of the body (kāyānanda), taken together by treating them as non-different (abhedopacāra); the Tibetan comment has 'the three are the joy of the body and so on'",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "joy",
+        "joys",
+        "joy of the body",
+        "body, speech and mind"
+      ],
+      "rationale": "The word is obscure, the Tibetan does not translate it, and Munidatta gives it a doctrinal reading, so the source form is kept with a first gloss until its sense is settled."
+    },
+    {
+      "id": "takali",
+      "type": "term",
+      "en": "ṭākali",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "টাকলি",
+          "translit": "ṭākali",
+          "lemma": "ṭākali",
+          "att": "AS",
+          "where": "cp.16.3b"
+        },
+        {
+          "lang": "san",
+          "script": "গগনটকেতি",
+          "translit": "gaganaṭaketi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཊ་གེ",
+          "translit": "Ta ge",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "টাকলি"
+        },
+        {
+          "lang": "bod",
+          "form": "ཊ་གེ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=গগন)টক"
+        }
+      ],
+      "definition": "A word of uncertain sense in song 16 (gaaṇa ṭākali, 'the sky's ṭākali'), just before the mind enters nirvāṇa. Munidatta repeats it as gaganaṭaka and explains it as being driven on by the unstruck sound (cp.16.m4). The Tibetan line has 'the sky became the unstruck sound'; the Tibetan comment only transliterates the word (ṭa ge).",
+      "symbolicImage": "the sky's ṭākali",
+      "symbolicReadings": [
+        {
+          "referent": "being impelled by the unstruck sound (anāhataśabda), so that the mind-elephant goes to the lake of nirvāṇa",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "unstruck sound",
+        "anāhata"
+      ],
+      "rationale": "An obscure word that Munidatta explains and the Tibetan translators left untranslated; keeping the source form with a gloss avoids guessing its meaning inside the line."
+    },
+    {
+      "id": "papa-punya",
+      "type": "term",
+      "en": "sin and merit",
+      "policy": "translate",
+      "alt": [
+        "evil and merit",
+        "misdeeds and merit"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাপ পুণ্য",
+          "translit": "pāpa puṇya",
+          "lemma": "pāpapuṇya",
+          "att": "AS",
+          "where": "cp.16.3a"
+        },
+        {
+          "lang": "san",
+          "script": "পাপপুণ্যৌ",
+          "translit": "pāpapuṇyau",
+          "lemma": "pāpapuṇya",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དགེ་སྡིག",
+          "translit": "dge sdig",
+          "lemma": "dge sdig",
+          "att": "AO",
+          "where": "cp.16.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྡིག་པ་དང་བསོད་ནམས",
+          "translit": "sdig pa dang bsod nams",
+          "lemma": "sdig pa dang bsod nams",
+          "att": "AO",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাপ পুণ্য"
+        },
+        {
+          "lang": "san",
+          "form": "পাপপুণ্য"
+        },
+        {
+          "lang": "san",
+          "form": "পাপ পুণ্য"
+        },
+        {
+          "lang": "bod",
+          "form": "དགེ་སྡིག"
+        },
+        {
+          "lang": "bod",
+          "form": "སྡིག་པ་དང་བསོད་ནམས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sin and merit (pāpa, puṇya): harmful and wholesome deeds and the bad and good results they store up. Tantric and siddha teaching often treats both as bonds to be left behind. In song 16 both are broken; Munidatta calls them the two nooses of saṃsāra (cp.16.m4). The Tibetan has dge sdig, 'virtue and sin'.",
+      "symbolicImage": "sin and merit, both broken",
+      "symbolicReadings": [
+        {
+          "referent": "the two nooses (pāśa) of saṃsāra, which the mind-elephant cuts",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "nooses",
+        "fetters",
+        "bonds of saṃsāra"
+      ],
+      "rationale": "A doctrinal pair a reader needs explained; 'sin and merit' is the plainest English pair, with 'evil and merit' as the alternative if 'sin' reads too theistic."
+    },
+    {
+      "id": "chain",
+      "type": "term",
+      "en": "chain",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সিকল",
+          "translit": "sikala",
+          "lemma": "sikala",
+          "att": "AS",
+          "where": "cp.16.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྕགས་སྒྲོག",
+          "translit": "lcags sgrog",
+          "lemma": "lcags sgrog",
+          "att": "AO",
+          "where": "cp.16.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সিকল"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྕགས་སྒྲོག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A chain (Old Bengali sikala, from Sanskrit śṛṅkhalā); in song 16 apparently the chain that tethers the elephant, which is twisted apart. The Tibetan line makes it 'the iron chain of the two, virtue and sin'. Munidatta's comment does not gloss the chain; it speaks of cutting sin and merit, the two nooses of saṃsāra (cp.16.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The tethered elephant's chain is part of the song's central image and needs a stable literal rendering; the commentary attests no reading of it, so none is given."
+    },
+    {
+      "id": "khambha",
+      "type": "term",
+      "en": "pillar",
+      "policy": "translate",
+      "alt": [
+        "post"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খম্ভাঠাণা",
+          "translit": "khambhāṭhāṇā",
+          "lemma": "khambha",
+          "att": "AS",
+          "where": "cp.16.3a"
+        },
+        {
+          "lang": "san",
+          "script": "খম্ভেতি",
+          "translit": "khambheti",
+          "lemma": "khambha",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "san",
+          "script": "অবিদ্যাস্তম্ভং",
+          "translit": "avidyāstambhaṃ",
+          "lemma": "stambha",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་བ",
+          "translit": "ka ba",
+          "lemma": "ka ba",
+          "att": "AO",
+          "where": "cp.16.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་བ",
+          "translit": "ka ba",
+          "lemma": "ka ba",
+          "att": "AO",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "খম্ভ"
+        },
+        {
+          "lang": "san",
+          "form": "খম্ভ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀ་བ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "স্তম্ভ(?=[ংঃো]|(?![\\p{L}\\p{M}]))"
+        }
+      ],
+      "definition": "A pillar or post (Old Bengali khambha, Sanskrit stambha). In song 16 khambhāṭhāṇā, 'the pillar's place', is apparently where the elephant is tethered. Munidatta reads it as the pillar of ignorance, which the mind-elephant crushes (cp.16.m4); the Tibetan has ka ba, 'pillar'. Compare the post (bākhoṛa) of song 9.",
+      "symbolicImage": "the pillar where the elephant is tied",
+      "symbolicReadings": [
+        {
+          "referent": "the pillar of ignorance (avidyāstambha), which the mind-elephant crushes",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "ignorance",
+        "pillar of ignorance"
+      ],
+      "rationale": "Part of the elephant image, with an attested reading; khambha is a different word from bākhoṛa ('post', song 9), so it gets its own entry, rendered 'pillar' after stambha and the Tibetan ka ba."
+    },
+    {
+      "id": "maharasa",
+      "type": "term",
+      "en": "great essence",
+      "policy": "translate",
+      "alt": [
+        "great juice",
+        "great nectar"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহারস",
+          "translit": "mahārasa",
+          "lemma": "mahārasa",
+          "att": "AS",
+          "where": "cp.16.4a"
+        },
+        {
+          "lang": "san",
+          "script": "মহারসেত্যাদি",
+          "translit": "mahārasetyādi",
+          "lemma": "mahārasa",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅུད་ཆེན",
+          "translit": "bcud chen",
+          "lemma": "bcud chen",
+          "att": "AO",
+          "where": "cp.16.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བཅུད་ཆེན"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "মহারস(?!ন)"
+        },
+        {
+          "lang": "san",
+          "re": "মহারস(?!ন)"
+        }
+      ],
+      "definition": "The great juice or essence (mahārasa; rasa is juice, flavour or essence). In song 16 drinking it makes one drunk, and the three worlds are disregarded. Munidatta calls it the juice of great bliss, the oneness of being and nonbeing (cp.16.m5). The Tibetan has bcud chen, 'great essence' or 'great elixir'.",
+      "symbolicImage": "the great essence, drunk until one is drunk",
+      "symbolicReadings": [
+        {
+          "referent": "the juice of great bliss (mahāsukharasa), which is the oneness of being and nonbeing (bhāva and abhāva); the Tibetan comment lacks 'great bliss' here",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "bliss",
+        "being and nonbeing"
+      ],
+      "rationale": "A drink image with an attested reading; 'great essence' follows the Tibetan bcud chen and avoids 'nectar', which suggests amṛta, though the reviewer may prefer 'great juice', or 'nectar' to match the lotus-nectar entry."
+    },
+    {
+      "id": "matta",
+      "type": "term",
+      "en": "drunk",
+      "policy": "translate",
+      "alt": [
+        "maddened",
+        "intoxicated"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাতেল",
+          "translit": "mātela",
+          "lemma": "mātela",
+          "att": "AS",
+          "where": "cp.16.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "মাতেল",
+          "translit": "mātela",
+          "lemma": "mātela",
+          "att": "AS",
+          "where": "cp.16.4a"
+        },
+        {
+          "lang": "san",
+          "script": "জ্ঞানপানপ্রমত্তো",
+          "translit": "jñānapānapramatto",
+          "lemma": "pramatta",
+          "att": "AS",
+          "where": "cp.16.m1"
+        },
+        {
+          "lang": "san",
+          "script": "প্রমত্তঃ",
+          "translit": "pramattaḥ",
+          "lemma": "pramatta",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱོས་པ",
+          "translit": "myos pa",
+          "lemma": "myos pa",
+          "att": "AO",
+          "where": "cp.16.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মাতেল"
+        },
+        {
+          "lang": "san",
+          "form": "প্রমত্ত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Drunk, intoxicated (Sanskrit matta, Old Bengali mātela); of an elephant, also maddened or in rut. In song 16 the mind-elephant runs drunk in the refrain, and in couplet 4 drinking the great essence makes one drunk. Munidatta speaks of intoxication with the drink of knowledge (cp.16.m1, cp.16.m2).",
+      "symbolicImage": "the drunk elephant; drunkenness from the great essence",
+      "symbolicReadings": [
+        {
+          "referent": "intoxication with the drink, or honey-liquor, of knowledge (jñānapāna, jñānamadhupāna), both of the siddha master Mahīdhara and of his mind-elephant; the Tibetan of the comment on the refrain has 'drunk on reality' (de kho na nyid)",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m1",
+            "cp.16.m2",
+            "cp.16.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "knowledge",
+        "wisdom",
+        "drink of knowledge",
+        "great bliss"
+      ],
+      "rationale": "Mātela occurs twice in the song, once in the refrain, and pramatta four times in the commentary; one rendering keeps the elephant's and the poet's drunkenness linked, and 'drunk' fits both."
+    },
+    {
+      "id": "nayaka",
+      "type": "term",
+      "en": "leader",
+      "policy": "translate",
+      "alt": [
+        "chief"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নায়করে",
+          "translit": "nāyakare",
+          "lemma": "nāyaka",
+          "att": "AS",
+          "where": "cp.16.4b"
+        },
+        {
+          "lang": "san",
+          "script": "নায়কত্বেন",
+          "translit": "nāyakatvena",
+          "lemma": "nāyakatva",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འདྲེན་བྱེད",
+          "translit": "'dren byed",
+          "lemma": "'dren byed",
+          "att": "AO",
+          "where": "cp.16.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "འདྲེན་པ",
+          "translit": "'dren pa",
+          "lemma": "'dren pa",
+          "att": "AO",
+          "where": "cp.16.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])নায়ক"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])নায়ক"
+        }
+      ],
+      "definition": "Leader, chief (Sanskrit nāyaka). In song 16 the one drunk on the great essence is the leader of the five sense objects and sees no adversary. Munidatta says that as their leader he is himself the sixth, the great Vajradhara (cp.16.m5); the Tibetan has 'dren byed, 'one who leads'.",
+      "symbolicImage": "the leader of the five sense objects",
+      "symbolicReadings": [
+        {
+          "referent": "he himself, as the sixth, the great Vajradhara; the Tibetan comment likewise has 'the sixth, the great Vajradhara'",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Vajradhara",
+        "the sixth"
+      ],
+      "rationale": "The title carries Munidatta's identification with Vajradhara; a fixed rendering keeps 'leader' distinct from 'lord' (nātha). No Tibetan match string, since 'dren pa is also an ordinary verb."
+    },
+    {
+      "id": "vipaksa",
+      "type": "term",
+      "en": "adversary",
+      "policy": "translate",
+      "alt": [
+        "opponent",
+        "opposing side"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিপখ",
+          "translit": "bipakha",
+          "lemma": "bipakha",
+          "att": "AS",
+          "where": "cp.16.4b"
+        },
+        {
+          "lang": "san",
+          "script": "বিপক্ষকারিণন্ন",
+          "translit": "vipakṣakāriṇanna",
+          "lemma": "vipakṣa",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་མཐུན་ཕྱོགས",
+          "translit": "mi mthun phyogs",
+          "lemma": "mi mthun phyogs",
+          "att": "AO",
+          "where": "cp.16.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিপখ"
+        },
+        {
+          "lang": "san",
+          "form": "বিপক্ষ"
+        },
+        {
+          "lang": "bod",
+          "form": "མི་མཐུན་ཕྱོགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The opposing side, adversary (Sanskrit vipakṣa, Old Bengali bipakha); in Buddhist usage what works against the path, as the afflictions do, set against its remedy (pratipakṣa). In song 16 the leader of the five sense objects sees no adversary at all; Munidatta says he no longer sees affliction acting as an adversary (cp.16.m5).",
+      "symbolicImage": "no adversary to be seen",
+      "symbolicReadings": [
+        {
+          "referent": "affliction (kleśa) acting as an adversary",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "affliction",
+        "afflictions"
+      ],
+      "rationale": "A technical word of Buddhist practice (Tibetan mi mthun phyogs) that Munidatta glosses; 'adversary' is plain and fits the line."
+    },
+    {
+      "id": "p-sakyasimha",
+      "type": "person",
+      "en": "Śākyasiṃha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শাক্যসিংহাদিভির্বুদ্ধৈঃ",
+          "translit": "śākyasiṃhādibhirvuddhaiḥ",
+          "lemma": "śākyasiṃha",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤཱཀྱ་སེང་གེ",
+          "translit": "shAkya seng ge",
+          "lemma": "shAkya seng ge",
+          "att": "AO",
+          "where": "cp.16.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শাক্যসিংহ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤཱཀྱ་སེང་གེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Lion of the Śākyas', an epithet of the historical Buddha, Śākyamuni. In the Rativajra verse Munidatta quotes, Śākyasiṃha and the other buddhas broke the mighty, dreadful army of Māra (cp.16.m2). The Tibetan has shAkya seng ge, but credits the victory to 'the wise' (mkhas rnams) where the Sanskrit has 'buddhas'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A name a reader needs explained; kept in source form like the other names."
+    },
+    {
+      "id": "buddha",
+      "type": "term",
+      "en": "buddha",
+      "policy": "keep-source",
+      "alt": [
+        "buddhas",
+        "Buddha"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শাক্যসিংহাদিভির্বুদ্ধৈঃ",
+          "translit": "śākyasiṃhādibhirvuddhaiḥ",
+          "lemma": "buddha",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སངས་རྒྱས",
+          "translit": "sangs rgyas",
+          "lemma": "sangs rgyas",
+          "att": "AD",
+          "where": ""
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སངས་རྒྱས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "বুদ্ধ(?![িী্])"
+        }
+      ],
+      "definition": "'Awakened one': one who has reached full awakening (bodhi); with a capital, the historical Buddha, Śākyamuni. In the Rativajra verse Munidatta quotes, Śākyasiṃha and the other buddhas broke Māra's army (cp.16.m2); the Tibetan there has mkhas rnams, 'the wise', perhaps reading budha, 'wise', for buddha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic term not yet in the glossary; 'buddha' is established English, so the source form is kept. The regex skips buddhi and buddhyā."
+    },
+    {
+      "id": "agama",
+      "type": "term",
+      "en": "scripture",
+      "policy": "translate",
+      "alt": [
+        "scriptural tradition"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তথাচাগমঃ",
+          "translit": "tathācāgamaḥ",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.16.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུང",
+          "translit": "lung",
+          "lemma": "lung",
+          "att": "AO",
+          "where": "cp.16.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])আগম[ঃেং]?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<=চ|ত্য)াগম[ঃেং]?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Scripture, authoritative tradition (āgama). Munidatta uses the word when he quotes a verse without naming its work ('and so the scripture': tathā cāgamaḥ); in song 16 it introduces a verse saying that whatever is conceptualized is false (cp.16.m6). The Tibetan has lung.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A recurring formula of the commentary (six times so far) that should be rendered the same way each time; the regexes skip āgamana 'coming' and samāgama 'union'."
+    },
+    {
+      "id": "gagana-ganga",
+      "type": "term",
+      "en": "sky-Gaṅgā",
+      "policy": "translate",
+      "alt": [
+        "Gaṅgā of the sky",
+        "heavenly Gaṅgā"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গগনগঙ্গা",
+          "translit": "gaganagaṅgā",
+          "lemma": "gaganagaṅgā",
+          "att": "AS",
+          "where": "cp.16.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গগনগঙ্গা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The Gaṅgā of the sky (gaganagaṅgā), in Indian myth the heavenly course of the Ganges. In Munidatta's comment on the last couplet of song 16, where the song has 'the courtyard of the sky', the mind-elephant goes to the sky-Gaṅgā, which he identifies with the lake of the wheel of great bliss (cp.16.m6). The Tibetan comment lacks it.",
+      "symbolicImage": "the Gaṅgā of the sky",
+      "symbolicReadings": [
+        {
+          "referent": "the lake of the wheel of great bliss (mahāsukhacakra), which the mind-elephant, driven by the fire of the passion of great bliss, reaches and merges with",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wheel of great bliss",
+        "great bliss"
+      ],
+      "rationale": "Munidatta's own image, kept apart from the river Gaṅgā (pl-ganga) so that his equation is recorded under the phrase he uses."
+    },
+    {
+      "id": "bhairavi",
+      "type": "term",
+      "en": "Bhairavī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভৈরবী",
+          "translit": "bhairavī",
+          "lemma": "bhairavī",
+          "att": "AS",
+          "where": "cp.16.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་བོ་ཆེ",
+          "translit": "rnga bo che",
+          "lemma": "rnga bo che",
+          "att": "AO",
+          "where": "cp.16.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভৈরবী"
+        },
+        {
+          "lang": "bod",
+          "form": "རྔ་བོ་ཆེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bhairavī, the name of the rāga (melodic mode) to which songs 12 and 16 are sung, given in their headings; also a name of a goddess. The Tibetan translation calls the melody rnga bo che, 'great drum', in both songs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Forms only: song 16 is also in Bhairavī, and its Tibetan heading again has rnga bo che."
+    },
+    {
+      "id": "anahata",
+      "type": "term",
+      "en": "unstruck",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অণহ",
+          "translit": "aṇaha",
+          "lemma": "aṇaha",
+          "att": "AS",
+          "where": "cp.16.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অনাহতমিতি",
+          "translit": "anāhatamiti",
+          "lemma": "anāhata",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "san",
+          "script": "অনাহতশব্দেন",
+          "translit": "anāhataśavdena",
+          "lemma": "anāhata",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་མེད་སྒྲ",
+          "translit": "gzhom med sgra",
+          "lemma": "gzhom med sgra",
+          "att": "AO",
+          "where": "cp.16.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অনাহত"
+        },
+        {
+          "lang": "bod",
+          "form": "གཞོམ་མེད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অণহ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Unstruck (anāhata): in Indian yoga, the inner sound heard without one thing striking another. In song 16 the unstruck (aṇaha) roars and Māra's whole maṇḍala breaks; Munidatta calls it the sound of emptiness (cp.16.m2).",
+      "symbolicImage": "the unstruck sound",
+      "symbolicReadings": [
+        {
+          "referent": "the sound of emptiness (śūnyatāśabda, śūnyatānāda), on hearing which the Māras are broken",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "emptiness",
+        "sound of emptiness"
+      ],
+      "rationale": "New forms: the Old Bengali spelling aṇaha (whole-word regex, since অণহ also stands inside gaaṇahi 'in the sky'), two commentary forms and the Tibetan gzhom med sgra."
+    },
+    {
+      "id": "elephant",
+      "type": "term",
+      "en": "elephant",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চীঅগঅন্দা",
+          "translit": "cīagaandā",
+          "lemma": "cīagaanda",
+          "att": "AS",
+          "where": "cp.16.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་ཆེན་དབང་པོ",
+          "translit": "glang chen dbang po",
+          "lemma": "glang chen dbang po",
+          "att": "AO",
+          "where": "cp.16.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চীঅগঅন্দ"
+        },
+        {
+          "lang": "bod",
+          "form": "གླང་ཆེན་དབང་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An elephant, one of the recurring images of siddha poetry. In the refrain of song 16 the drunk cīagaandā, 'mind-elephant' (Sanskrit cittagajendra, 'lord of elephants that is the mind'), runs; Munidatta says the poet speaks in the twilight language of the mind-elephant (cp.16.m1).",
+      "symbolicImage": "the mind-elephant",
+      "symbolicReadings": [
+        {
+          "referent": "the mind as lord of elephants (cittagajendra), in whose twilight language Mahīdhara teaches",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m1",
+            "cp.16.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind",
+        "citta"
+      ],
+      "rationale": "New forms: the Old Bengali compound cīagaandā (citta + gajendra) of the refrain and the Tibetan glang chen dbang po of the same line."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঅণন্ত",
+          "translit": "gaaṇanta",
+          "lemma": "gaaṇa",
+          "att": "AS",
+          "where": "cp.16.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "গঅণাঙ্গণ",
+          "translit": "gaaṇāṅgaṇa",
+          "lemma": "gaaṇa",
+          "att": "AS",
+          "where": "cp.16.5a"
+        },
+        {
+          "lang": "san",
+          "script": "গগনোপদেশচতুর্থানন্দোপদেশং",
+          "translit": "gaganopadeśacaturthānandopadeśaṃ",
+          "lemma": "gagana",
+          "att": "AS",
+          "where": "cp.16.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ",
+          "translit": "nam mkha'",
+          "lemma": "nam mkha'",
+          "att": "AO",
+          "where": "cp.16.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গঅণ"
+        },
+        {
+          "lang": "san",
+          "form": "গগন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sky; open space, a common image in siddha poetry and in Buddhist tantric language. Song 16 names the sky three times: the sky's end (gaaṇanta) in the refrain, the sky's ṭākali, and the courtyard of the sky. Munidatta speaks of 'the instruction of the sky', the instruction of the fourth joy (cp.16.m3).",
+      "symbolicImage": "the sky, in the refrain ('the instruction of the sky')",
+      "symbolicReadings": [
+        {
+          "referent": "the instruction of the fourth joy: Munidatta sets 'the instruction of the sky' and 'the instruction of the fourth joy' side by side",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "emptiness",
+        "void",
+        "fourth joy"
+      ],
+      "rationale": "New forms: gaaṇanta and gaaṇāṅgaṇa in the song and gaganopadeśa in the commentary."
+    },
+    {
+      "id": "courtyard",
+      "type": "term",
+      "en": "courtyard",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঅণাঙ্গণ",
+          "translit": "gaaṇāṅgaṇa",
+          "lemma": "āṅgaṇa",
+          "att": "AS",
+          "where": "cp.16.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་ས",
+          "translit": "'khor sa",
+          "lemma": "'khor sa",
+          "att": "AO",
+          "where": "cp.16.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འཁོར་ས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=গঅণ|গগন)াঙ্গণ"
+        }
+      ],
+      "definition": "The open yard of a house (Sanskrit aṅgana). In song 16 the elephant, scorched by the sun, enters 'the courtyard of the sky' (gaaṇāṅgaṇa); the Tibetan line has nam mkha'i 'khor sa. Munidatta's comment has the sky-Gaṅgā in its place (cp.16.m6).",
+      "symbolicImage": "the courtyard of the sky",
+      "symbolicReadings": [
+        {
+          "referent": "the sky-Gaṅgā, the lake of the wheel of great bliss; his paraphrase puts gaganagaṅgā where the song has 'courtyard of the sky', without an explicit gloss",
+          "per": "Munidatta",
+          "where": [
+            "cp.16.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wind",
+        "breath",
+        "emergence",
+        "wheel of great bliss"
+      ],
+      "rationale": "New forms: āṅgaṇa inside the compound gaaṇāṅgaṇa (matched only after 'sky', so that gagana keeps its own link) and the Tibetan 'khor sa."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিহুঅন",
+          "translit": "tihuana",
+          "lemma": "tihuana",
+          "att": "AS",
+          "where": "cp.16.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রিভুবনস্য",
+          "translit": "tribhuvanasya",
+          "lemma": "tribhuvana",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁམས་གསུམ",
+          "translit": "khams gsum",
+          "lemma": "khams gsum",
+          "att": "AO",
+          "where": "cp.16.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তিহুঅন"
+        },
+        {
+          "lang": "san",
+          "form": "ত্রিভুবন"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁམས་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The three worlds or realms of Buddhist cosmology (desire, form and the formless), or loosely the whole world. In song 16 the one drunk on the great essence disregards all the three worlds (tihuana, Sanskrit tribhuvana); Munidatta says he disregards grasping at them (cp.16.m5). The Tibetan has khams gsum.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: Old Bengali tihuana and Sanskrit tribhuvana, synonyms of trailokya, with the Tibetan khams gsum of the same line."
+    },
+    {
+      "id": "visaya",
+      "type": "term",
+      "en": "sense objects",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিষয়",
+          "translit": "biṣaya",
+          "lemma": "biṣaya",
+          "att": "AS",
+          "where": "cp.16.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পঞ্চবিষয়াণাং",
+          "translit": "pañcaviṣayāṇāṃ",
+          "lemma": "viṣaya",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡུལ་ལྔ",
+          "translit": "yul lnga",
+          "lemma": "yul lnga",
+          "att": "AO",
+          "where": "cp.16.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিষয়"
+        },
+        {
+          "lang": "san",
+          "form": "বিষয়"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡུལ་ལྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The objects of the senses: visible form, sound, smell, taste and touch. In song 16 the one drunk on the great essence is the leader of the five sense objects (pañca biṣaya); Munidatta repeats the phrase (cp.16.m5). The Tibetan has yul lnga.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the Old Bengali biṣaya of the song, the Sanskrit genitive plural and the Tibetan yul lnga."
+    },
+    {
+      "id": "mandala",
+      "type": "term",
+      "en": "maṇḍala",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মণ্ডল",
+          "translit": "maṇḍala",
+          "lemma": "maṇḍala",
+          "att": "AS",
+          "where": "cp.16.1b"
+        },
+        {
+          "lang": "san",
+          "script": "মন্ত্রপ্রয়োগমণ্ডলং",
+          "translit": "mantraprayogamaṇḍalaṃ",
+          "lemma": "maṇḍala",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དཀྱིལ་འཁོར",
+          "translit": "dkyil 'khor",
+          "lemma": "dkyil 'khor",
+          "att": "AO",
+          "where": "cp.16.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মণ্ডল"
+        },
+        {
+          "lang": "san",
+          "form": "মণ্ডল"
+        },
+        {
+          "lang": "bod",
+          "form": "དཀྱིལ་འཁོར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A circle or disc; in the tantras, the circular arrangement of a deity with its retinue and palace. In song 16 a whole maṇḍala breaks when the unstruck roar is heard; the Tibetan line calls it 'the maṇḍala of the objects' (yul gyi dkyil 'khor).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the maṇḍala of song 16 and of the Rativajra verse Munidatta quotes (cp.16.m2)."
+    },
+    {
+      "id": "nirvana",
+      "type": "term",
+      "en": "nirvāṇa",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণিবানা",
+          "translit": "ṇibānā",
+          "lemma": "nibāṇa",
+          "att": "AS",
+          "where": "cp.16.3b"
+        },
+        {
+          "lang": "san",
+          "script": "নির্ব্বাণসরোবরং",
+          "translit": "nirvvāṇasarovaraṃ",
+          "lemma": "nirvāṇa",
+          "att": "AS",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ণিবান"
+        },
+        {
+          "lang": "san",
+          "form": "নির্ব্বাণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The cessation of suffering and its causes; freedom from saṃsāra. In song 16 the mind enters nirvāṇa (ṇibānā); Munidatta speaks of the mind-elephant going to the lake of nirvāṇa (cp.16.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the Old Bengali spelling ṇibānā and Munidatta’s compound nirvāṇasarovara."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চিত্তা",
+          "translit": "cittā",
+          "lemma": "citta",
+          "att": "AS",
+          "where": "cp.16.3b"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচিত্তস্যাদ্বৈধীকারতামাহ",
+          "translit": "svacittasyādvaidhīkāratāmāha",
+          "lemma": "citta",
+          "att": "AS",
+          "where": "cp.16.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চিত্তা"
+        },
+        {
+          "lang": "san",
+          "form": "চিত্ত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mind: the stream of thought and awareness. In song 16 the mind (cittā) enters nirvāṇa, and the refrain's elephant is the mind-elephant (cīagaandā). Munidatta speaks of making one's own mind nondual (cp.16.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the Old Bengali cittā of cp.16.3b and svacitta in the commentary."
+    },
+    {
+      "id": "tx-guhyasamaja",
+      "type": "text",
+      "en": "Guhyasamāja",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুহ্যসমাজে",
+          "translit": "guhyasamāje",
+          "lemma": "guhyasamāja",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གསང་བ་འདུས་པ",
+          "translit": "gsang ba 'dus pa",
+          "lemma": "gsang ba 'dus pa",
+          "att": "AO",
+          "where": "cp.16.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গুহ্যসমাজ"
+        },
+        {
+          "lang": "bod",
+          "form": "གསང་བ་འདུས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The Guhyasamāja ('Secret Assembly') Tantra, a major Buddhist tantra. In the comment on song 16 Munidatta names it in full and quotes it on body and mind in the form of body and mind, and on the withdrawal of speech (cp.16.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the full name guhyasamāja (earlier units have śrīsamāja)."
+    },
+    {
+      "id": "tx-rativajra",
+      "type": "text",
+      "en": "Rativajra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "রতিবজ্রে",
+          "translit": "rativajre",
+          "lemma": "rativajra",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ར་ཏི་བཛྲ",
+          "translit": "ra ti badzra",
+          "lemma": "ra ti badzra",
+          "att": "AO",
+          "where": "cp.16.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "রতিবজ্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ར་ཏི་བཛྲ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A tantric work that Munidatta cites as the Rativajra, not otherwise identified here. In the comment on song 16 he quotes its verse on the buddhas, Śākyasiṃha and the rest, breaking Māra's mighty and dreadful army (cp.16.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New attestation in cp.16, with the stem as a match string (harmless if the entry already has it)."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যাঃ",
+          "translit": "kṛṣṇācāryyāḥ",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པའི་ཞབས",
+          "translit": "nag po spyod pa'i zhabs",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্য"
+        },
+        {
+          "lang": "bod",
+          "form": "ནག་པོ་སྤྱོད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Kāṇha (Kṛṣṇācārya), the siddha poet of several songs. In the comment on song 16 Munidatta cites a verse of his beginning 'earth, water' (cp.16.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the plural of respect kṛṣṇācāryāḥ."
+    },
+    {
+      "id": "p-vajradhara",
+      "type": "person",
+      "en": "Vajradhara",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাবজ্রধরঃ",
+          "translit": "mahāvajradharaḥ",
+          "lemma": "vajradhara",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་འཛིན་པ་ཆེན་པོ",
+          "translit": "rdo rje 'dzin pa chen po",
+          "lemma": "rdo rje 'dzin pa",
+          "att": "AO",
+          "where": "cp.16.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বজ্রধর"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེ་འཛིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Vajra-holder': a name of the buddha who teaches the tantras, in some systems the primordial buddha. Munidatta says the leader of the five sense objects is himself the sixth, the great Vajradhara (cp.16.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: mahāvajradhara, 'the great Vajradhara', and its Tibetan."
+    },
+    {
+      "id": "lake",
+      "type": "term",
+      "en": "lake",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখসরসি",
+          "translit": "mahāsukhasarasi",
+          "lemma": "saras",
+          "att": "AS",
+          "where": "cp.16.m3"
+        },
+        {
+          "lang": "san",
+          "script": "নির্ব্বাণসরোবরং",
+          "translit": "nirvvāṇasarovaraṃ",
+          "lemma": "sarovara",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখচক্রশরোবরং",
+          "translit": "mahāsukhacakraśarovaraṃ",
+          "lemma": "sarovara",
+          "att": "AS",
+          "where": "cp.16.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚོ",
+          "translit": "mtsho",
+          "lemma": "mtsho",
+          "att": "AO",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সরোবর"
+        },
+        {
+          "lang": "san",
+          "form": "শরোবর"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "সরসি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A lake or large pond, typically one where lotuses grow. Song 16 has no lake, but Munidatta sends its mind-elephant to one: the lake of great bliss (cp.16.m3), of nirvāṇa (cp.16.m4) and of the wheel of great bliss (cp.16.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms from the commentary: saras and sarovara, once misspelt śarovara (the regex for sarasi skips sarasija)."
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "en": "joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়ানন্দাদিকং",
+          "translit": "kāyānandādikaṃ",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐུའི་དགའ་བ",
+          "translit": "sku'i dga' ba",
+          "lemma": "dga' ba",
+          "att": "AO",
+          "where": "cp.16.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কায়ানন্দ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐུའི་དགའ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Joy. The tantras Munidatta cites count four joys arising in yogic union. In the comment on song 16 he reads the three pāṭas as the joys beginning with the joy of the body (cp.16.m2), and speaks of the instruction of the fourth joy (cp.16.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: kāyānanda, the joy of the body, which carries the reading of pāṭa."
+    },
+    {
+      "id": "avidya",
+      "type": "term",
+      "en": "ignorance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবিদ্যাস্তম্ভং",
+          "translit": "avidyāstambhaṃ",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.16.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རིག་པ",
+          "translit": "ma rig pa",
+          "lemma": "ma rig pa",
+          "att": "AO",
+          "where": "cp.16.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অবিদ্যা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Ignorance: the basic misapprehension of how things are, the first link of dependent arising. Munidatta reads the pillar of song 16 as the pillar of ignorance (cp.16.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: avidyāstambha, the pillar of ignorance; the pillar entry matches only the stambha half, so both links survive."
+    },
+    {
+      "id": "klesa",
+      "type": "term",
+      "en": "affliction",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ক্লেশং",
+          "translit": "kleśaṃ",
+          "lemma": "kleśa",
+          "att": "AS",
+          "where": "cp.16.m5"
+        },
+        {
+          "lang": "san",
+          "script": "সংসারভয়ঙ্করাগন্তুকস্কন্ধক্লেশাদয়ো",
+          "translit": "saṃsārabhayaṅkarāgantukaskandhakleśādayo",
+          "lemma": "kleśa",
+          "att": "AS",
+          "where": "cp.16.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉོན་མོངས་པ",
+          "translit": "nyon mongs pa",
+          "lemma": "nyon mongs pa",
+          "att": "AO",
+          "where": "cp.16.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ক্লেশ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཉོན་མོངས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The afflictions: disturbing mental states such as desire, hatred and delusion that keep beings in saṃsāra. Munidatta counts them among the Māras broken by the unstruck sound (cp.16.m2) and says the leader of the five sense objects sees no affliction acting as an adversary (cp.16.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms from the commentary on song 16, which carry the readings of Māra and adversary."
+    }
+  ],
+  "questions": [
+    "elephant (cp.16.2a): the refrain's own word is cīagaandā, 'mind-elephant' (citta + gajendra), so the song itself names the mind, while the elephant entry forbids 'mind' inside a verse line. I added the compound to elephant; the reviewer may want to allow 'mind-elephant' in this line, or give the compound an entry of its own.",
+    "veni (cp.16.3a): in pāpa puṇya beṇi, beṇi means 'both' (Munidatta dvau, Tibetan gnyis), not 'braid'. If the veni entry matches বেণি, it will mark this line as 'braid'; its match may need narrowing to its song 4 forms.",
+    "mara: the pack's glossary has only mrtyumara ('Māra of death'), but song 16 and Munidatta mean Māra and the Māras in general (aggregates, afflictions), so I proposed a new id 'mara'. If a general Māra entry exists outside this pack's scope, these forms belong with it. The regex skips the cry māra māra ('kill! kill!', cp.06.m2), but a lone imperative māra, 'kill!', in another song would still match.",
+    "matta / mada: the Tibetan myos pa ('drunk') in cp.16.2a, 4a and the commentary matches the mada ('ichor') entry, if that entry's match includes it. I listed myos pa under matta without a match string, to avoid a double hit. Should myos pa move from mada to matta?",
+    "Readings for existing entries: the merge keeps only new forms and match strings, so the cp.16 readings in the anahata (sound of emptiness, cp.16.m2), gagana (instruction of the fourth joy, cp.16.m3), courtyard (sky-Gaṅgā, cp.16.m6) and elephant proposals need adding by hand if wanted.",
+    "takali: my guess (not in the sources) is that ṭākali might be linked to Sanskrit ṭaṅkāra, 'twang, clang', which would suit Munidatta's 'driven by the unstruck sound' and the Tibetan's 'the sky became the unstruck sound', or to ṭaṅka, 'chisel, spike', which would suggest a goad. I kept the source form for now.",
+    "pata: keep pāṭa in source form, or translate it (for example 'band' or 'plank', after paṭṭa)? The Tibetan gives no help ('the three' only).",
+    "courtyard / gagana-ganga (cp.16.5a, cp.16.m6): where the song has gaaṇāṅgaṇa, 'the courtyard of the sky' (Tibetan nam mkha'i 'khor sa), Munidatta has gaganagaṅgā, 'the sky-Gaṅgā'. This may be a gloss, or a different reading in his copy of the song. I gave the sky-Gaṅgā its own entry, so a match on Gaṅgā alone does not link it to the river."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "1ce1cef174352d64b8e4372558bfcf431b03b6b011b76c5ceb56006f40692837",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "b9db61eff4bae7132da9851499a3109fc446746f022e18f2c577c6389af8f924",
+    "sourceSha": "62f5e21d65d83b48609cea88de59bcd38311ccb5680fd46ae79cddca12261764"
+  }
+}

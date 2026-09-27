@@ -1,0 +1,1222 @@
+{
+  "unit": "cp.18",
+  "proposals": [
+    {
+      "id": "gauda",
+      "type": "term",
+      "en": "Gauḍā",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গউড়া",
+          "translit": "gauṛā",
+          "lemma": "gauṛā",
+          "att": "AS",
+          "where": "cp.18.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆེན་པོ",
+          "translit": "chen po",
+          "lemma": "chen po",
+          "att": "AO",
+          "where": "cp.18.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গউড়া"
+        },
+        {
+          "lang": "san",
+          "form": "গউড়া"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Gauḍā, the name of the rāga (melodic mode) to which song 18 is sung, given in its heading; Gauḍa is also an old name for part of Bengal. The Tibetan translation calls the melody glu dbyangs chen po, 'the great melody', as it calls that of song 2 chen po; whether Gauḍā and Gavaṛā are one rāga is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Every heading names its rāga and the glossary has no entry for Gauḍā; like the other rāga names it stays in source form (see questions on Gavaṛā)."
+    },
+    {
+      "id": "bhabhariali",
+      "type": "term",
+      "en": "bhābhariālī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাভরিআলী",
+          "translit": "bhābhariālī",
+          "lemma": "bhābhariālī",
+          "att": "AS",
+          "where": "cp.18.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ভর্ভরিআলিকা",
+          "translit": "bharbhariālikā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.18.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྲ་ཡགས",
+          "translit": "skra yags",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.18.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভাভরিআলী"
+        },
+        {
+          "lang": "san",
+          "form": "ভাভরিআলী"
+        },
+        {
+          "lang": "san",
+          "form": "ভর্ভরিআলি"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐྲ་ཡགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in the refrain of song 18: the poet asks Ḍombī what kind of bhābhariālī is hers. Munidatta cites it as bharbhariālikā and sets 'false imputation' (asadāropa) beside it (cp.18.m3). The Tibetan has skra yags, apparently 'fine hair', in the line and in the comment.",
+      "symbolicImage": "Ḍombī's bhābhariālī, which the poet asks about in the refrain",
+      "symbolicReadings": [
+        {
+          "referent": "false imputation (asadāropa): the gloss sets asadāropeṇa beside the cited word, without an explicit equation, in a question put to Ḍombī as the avadhūtī; the Tibetan comment has 'imputing impermanence' (mi rtag par sgro 'dogs pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.18.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "false imputation",
+        "imputation",
+        "superimposition"
+      ],
+      "rationale": "The literal sense is unknown and Munidatta's gloss is a reading, so the source form should stand in the line, with a first-occurrence note, until the reviewer settles a rendering."
+    },
+    {
+      "id": "kulina",
+      "type": "term",
+      "en": "high-born",
+      "policy": "translate",
+      "alt": [
+        "high-born people",
+        "people of good family"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুলিণজণ",
+          "translit": "kuliṇajaṇa",
+          "lemma": "kuliṇajaṇa",
+          "att": "AS",
+          "where": "cp.18.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কুলিণজণ"
+        },
+        {
+          "lang": "san",
+          "form": "কুলিণজণ"
+        },
+        {
+          "lang": "oben",
+          "form": "কুলীন"
+        },
+        {
+          "lang": "san",
+          "form": "কুলীন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "High-born, of good family (Sanskrit kulīna, from kula, 'family'): people of respectable caste, bound by purity rules that forbid contact with outcastes. The refrain of song 18 sets the kuliṇajaṇa, 'high-born people', at the edge or outside (ante) and the kāpālī in the middle. Munidatta does not comment; the Tibetan has mtha' rigs skye ba, of unclear division.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The contrast between the high-born and the outcaste kāpālika is the point of the refrain, and the reader needs the caste sense of the word; 'high-born' keeps it plain."
+    },
+    {
+      "id": "vidujana",
+      "type": "term",
+      "en": "the wise",
+      "policy": "translate",
+      "alt": [
+        "wise people",
+        "the learned"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিদুজণ",
+          "translit": "bidujaṇa",
+          "lemma": "bidujaṇa",
+          "att": "AS",
+          "where": "cp.18.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "རིགས་ལྡན་སྐྱེ་བོ",
+          "translit": "rigs ldan skye bo",
+          "lemma": "rigs ldan",
+          "att": "AO",
+          "where": "cp.18.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিদুজণ"
+        },
+        {
+          "lang": "san",
+          "form": "বিদুজণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The wise or learned (Old Bengali bidujaṇa, from Sanskrit vidvajjana). In song 18 some people speak ill of Ḍombī, but the wise do not let go of her neck. The Tibetan has rigs ldan skye bo, 'people of good family', as if reading a word like kulīna. Munidatta's paraphrase has certain lords of yogis in their place (cp.18.m5).",
+      "symbolicImage": "the wise, who do not let go of Ḍombī's neck",
+      "symbolicReadings": [
+        {
+          "referent": "those lords of yogis (prādeśikā yogīndrāḥ, perhaps 'found here and there'; the Tibetan has phyogs gcig tu) who know Ḍombī through the imperishable bliss of the union of vajra and lotus, and who do not abandon the throat, the wheel of enjoyment, day and night (his paraphrase puts them where the song has the wise; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.18.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "lords of yogis",
+        "yogis",
+        "yogins",
+        "adepts"
+      ],
+      "rationale": "The couplet turns on the contrast between those who speak ill of Ḍombī and the wise; an entry keeps the plain word in the line and records that Munidatta and the Tibetan read the subject differently."
+    },
+    {
+      "id": "kantha",
+      "type": "term",
+      "en": "neck",
+      "policy": "translate",
+      "alt": [
+        "throat"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কণ্ঠ",
+          "translit": "kaṇṭha",
+          "lemma": "kaṇṭha",
+          "att": "AS",
+          "where": "cp.18.4b"
+        },
+        {
+          "lang": "san",
+          "script": "কণ্ঠে",
+          "translit": "kaṇṭhe",
+          "lemma": "kaṇṭha",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མགུལ",
+          "translit": "mgul",
+          "lemma": "mgul",
+          "att": "AO",
+          "where": "cp.18.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མགུལ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কণ্ঠ(?:ে|েঁ|া|ত|হি)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কণ্ঠ(?:ে|েঁ|া|ত|হি)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The neck or throat (Sanskrit kaṇṭha). In song 18 the wise do not let go of Ḍombī's neck, apparently keeping her in their embrace; the Tibetan line has mgul, 'neck', and 'khyud, 'embrace'. Munidatta reads the word as the wheel of enjoyment (sambhogacakra), the wheel at the throat (cp.18.m5).",
+      "symbolicImage": "Ḍombī's neck, which the wise do not let go of",
+      "symbolicReadings": [
+        {
+          "referent": "the wheel of enjoyment (sambhogacakra), named in apposition to the throat (kaṇṭhe sambhogacakre), which the lords of yogis who know Ḍombī do not abandon day and night; the Tibetan has 'gul ba, apparently for mgul ba, 'neck', beside 'the wheel of complete enjoyment'",
+          "per": "Munidatta",
+          "where": [
+            "cp.18.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wheel of enjoyment",
+        "sambhogacakra",
+        "cakra",
+        "throat wheel",
+        "throat cakra"
+      ],
+      "rationale": "Munidatta gives the neck an explicit subtle-body reading, so the image needs an entry that keeps 'neck' in the line and the reading in the notes; the whole-word regex keeps it out of words like utkaṇṭhā, 'longing'."
+    },
+    {
+      "id": "sambhoga-cakra",
+      "type": "term",
+      "en": "wheel of enjoyment",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সম্ভোগচক্রে",
+          "translit": "sambhogacakre",
+          "lemma": "sambhogacakra",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོངས་སྤྱོད་རྫོགས་པའི་འཁོར་ལོ",
+          "translit": "longs spyod rdzogs pa'i 'khor lo",
+          "lemma": "longs spyod rdzogs pa'i 'khor lo",
+          "att": "AO",
+          "where": "cp.18.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সম্ভোগচক্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ལོངས་སྤྱོད་རྫོགས་པའི་འཁོར་ལོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "In the yoginī-tantra map of the subtle body, the wheel (cakra) at the throat, between the wheel at the heart and the wheel of great bliss at the crown; usually pictured as a lotus of sixteen petals. Munidatta reads the neck of song 18 as this wheel (cp.18.m5). The Tibetan has longs spyod rdzogs pa'i 'khor lo.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the subtle body, parallel to the wheel of emanation and the wheel of great bliss already in the glossary; 'wheel of enjoyment' follows their pattern."
+    },
+    {
+      "id": "candali",
+      "type": "term",
+      "en": "Caṇḍālī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কামচণ্ডালী",
+          "translit": "kāmacaṇḍālī",
+          "lemma": "kāmacaṇḍālī",
+          "att": "AS",
+          "where": "cp.18.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কর্ম্মস্থসাধনোপায়চণ্ডালী",
+          "translit": "karmmasthasādhanopāyacaṇḍālī",
+          "lemma": "caṇḍālī",
+          "att": "AS",
+          "where": "cp.18.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏུམ་མོ",
+          "translit": "gtum mo",
+          "lemma": "gtum mo",
+          "att": "AO",
+          "where": "cp.18.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চণ্ডালী"
+        },
+        {
+          "lang": "san",
+          "form": "চণ্ডালী"
+        },
+        {
+          "lang": "bod",
+          "form": "གཏུམ་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A woman of the Caṇḍāla, the community caste society ranked lowest and treated as untouchable. In the last couplet of song 18 Kāṇha says he has sung the kāmacaṇḍālī, 'the Caṇḍālī of desire'; the next line names Ḍombī. The Tibetan has 'dod pa gtum mo; gtum mo is also its word for the caṇḍālī fire of tantric yoga.",
+      "symbolicImage": "the Caṇḍālī of desire, whom Kāṇha sings",
+      "symbolicReadings": [
+        {
+          "referent": "such a Caṇḍālī, 'the means of practice for one who abides in action' (karmasthasādhanopāya), whom Kṛṣṇācārya alone sings and no one else; the compound is obscure, and the Tibetan has 'the means of accomplishing the place of action' (las kyi gnas sgrub pa'i thabs)",
+          "per": "Munidatta",
+          "where": [
+            "cp.18.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "inner heat",
+        "inner fire",
+        "means of practice",
+        "gtum mo"
+      ],
+      "rationale": "The song names its outcaste woman by caste here, as Mātaṅgī and Ḍombī are named elsewhere; the caste name stays in source form like theirs, with a first-occurrence note."
+    },
+    {
+      "id": "chinali",
+      "type": "term",
+      "en": "loose woman",
+      "policy": "translate",
+      "alt": [
+        "wanton woman",
+        "unchaste woman"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চ্ছিণালী",
+          "translit": "cchiṇālī",
+          "lemma": "chiṇālī",
+          "att": "AS",
+          "where": "cp.18.5b"
+        },
+        {
+          "lang": "san",
+          "script": "চ্ছিন্ননাসিকা",
+          "translit": "cchinnanāsikā",
+          "lemma": "chinnanāsika",
+          "att": "AS",
+          "where": "cp.18.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དམངས་རིགས",
+          "translit": "dmangs rigs",
+          "lemma": "dmangs rigs",
+          "att": "AO",
+          "where": "cp.18.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ছিণালী"
+        },
+        {
+          "lang": "san",
+          "form": "ছিণালী"
+        },
+        {
+          "lang": "san",
+          "form": "ছিন্ননাসিক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Old Bengali chiṇālī: an unchaste or wanton woman, a term of abuse. The last line of song 18 says there is none beyond Ḍombī. Munidatta explains it as a woman whose nose has been cut off (chinnanāsikā), a traditional punishment for an unchaste woman, or as a woman of the town (nāgarikā). The Tibetan has dmangs rigs, 'low caste'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An abusive word turned into paradoxical praise in the bhaṇitā; the reader needs its force and Munidatta's two explanations, and 'loose woman' is plain without being archaic."
+    },
+    {
+      "id": "vajravanita",
+      "type": "term",
+      "en": "vajra woman",
+      "policy": "translate",
+      "alt": [
+        "vajra consort"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রবনিতাভিষ্ব(স)ঙ্গাৎ",
+          "translit": "vajravanitābhiṣva(sa)ṅgāt",
+          "lemma": "vajravanitā",
+          "att": "AS",
+          "where": "cp.18.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེའི་བཙུན་མོ",
+          "translit": "rdo rje'i btsun mo",
+          "lemma": "btsun mo",
+          "att": "AO",
+          "where": "cp.18.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বজ্রবনিতা"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེའི་བཙུན་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The vajra woman (vajravanitā), apparently a name for the female partner of tantric union. Munidatta has Kṛṣṇācārya say that through attachment to her (abhiṣvaṅga) the faults of the three worlds, body, speech and mind, were overcome with ease (cp.18.m2); whether a visualized or a physical partner is meant is not said. The Tibetan has rdo rje'i btsun mo.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A tantric term in Munidatta's own gloss that a reader of the woven commentary needs explained; 'vajra woman' keeps his word rather than choosing between consort, seal and goddess."
+    },
+    {
+      "id": "aropa",
+      "type": "term",
+      "en": "imputation",
+      "policy": "translate",
+      "alt": [
+        "superimposition"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অসদারোপেণ",
+          "translit": "asadāropeṇa",
+          "lemma": "āropa",
+          "att": "AS",
+          "where": "cp.18.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲོ་འདོགས་པ",
+          "translit": "sgro 'dogs pa",
+          "lemma": "sgro 'dogs pa",
+          "att": "AO",
+          "where": "cp.18.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অসদারোপ"
+        },
+        {
+          "lang": "san",
+          "form": "আরোপ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྒྲོ་འདོགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Imputation or superimposition (āropa): attributing to something a nature or existence it does not have. Munidatta sets 'false imputation' (asadāropa) beside Ḍombī's bhābhariālī (cp.18.m3); elsewhere he speaks of imputing a dwelling of one's own (cp.07.m3). The Tibetan has sgro 'dogs pa, here 'imputing impermanence'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta uses the word repeatedly (āropaṇa, āropita, asadāropa) and it deserves one consistent English rendering in the woven commentary."
+    },
+    {
+      "id": "camphor",
+      "type": "term",
+      "en": "camphor",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাপুর",
+          "translit": "kāpura",
+          "lemma": "kāpura",
+          "att": "AS",
+          "where": "cp.18.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ག་པུར",
+          "translit": "ga pur",
+          "lemma": "ga pur",
+          "att": "AO",
+          "where": "cp.18.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কর্পূর"
+        },
+        {
+          "lang": "san",
+          "form": "কর্পূর"
+        },
+        {
+          "lang": "bod",
+          "form": "ག་པུར"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কাপুর(?!ু)"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কাপুর(?!ু)"
+        }
+      ],
+      "definition": "Camphor (Old Bengali kāpura, Sanskrit karpūra), a white, fragrant substance that vanishes into the air if left exposed. In the line Munidatta quotes from 'the Caryā masters' on song 18, camphor fallen into a ditch is lost; he cites it after the destruction of the moon, conventional bodhicitta, without explaining the image (cp.18.m4). The Tibetan has ga pur.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An image in a line Munidatta quotes (the word occurs twice in the text so far); no reading of it is stated, so none is recorded, and the regex keeps it out of kāpuruṣa, 'coward'."
+    },
+    {
+      "id": "kakkola",
+      "type": "term",
+      "en": "kakkola",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কক্কোলপ্রিয়বোলমেলকতয়া",
+          "translit": "kakkolapriyabolamelakatayā",
+          "lemma": "kakkola",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཀྐོ་ལ",
+          "translit": "kak+ko la",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.18.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কক্কোল"
+        },
+        {
+          "lang": "san",
+          "form": "কক্কোল"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀཀྐོ་ལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A code word of the yoginī tantras; in ordinary Sanskrit kakkola is a fragrant berry or a perfume made from it. The Hevajra Tantra's list of code words gives it for the lotus, the female organ, and bola for the vajra. In the verse Munidatta quotes on song 18 it meets 'dear bola' (cp.18.m5), unexplained. The Tibetan transcribes it.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "lotus",
+        "female organ",
+        "vagina"
+      ],
+      "rationale": "A code word of the quoted verse that a reader cannot follow without a note, kept in source form like kundura and kāliñjara; its sense comes from the Hevajra Tantra, not from the input, and should be checked."
+    },
+    {
+      "id": "bola",
+      "type": "term",
+      "en": "bola",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কক্কোলপ্রিয়বোলমেলকতয়া",
+          "translit": "kakkolapriyabolamelakatayā",
+          "lemma": "bola",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "པོ་ལ",
+          "translit": "po la",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.18.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=প্রিয়)বোল"
+        },
+        {
+          "lang": "san",
+          "re": "(?<=প্রিয়)বোল"
+        }
+      ],
+      "definition": "A code word of the yoginī tantras; in ordinary Sanskrit bola is gum myrrh. In the Hevajra Tantra's list of code words bola (bolaka) names the vajra, the male organ, as kakkola names the lotus. In the verse Munidatta quotes on song 18, 'dear bola' meets kakkola (cp.18.m5); he does not explain it. The Tibetan transcribes it po la.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "vajra",
+        "male organ",
+        "penis"
+      ],
+      "rationale": "The partner code word of kakkola in the quoted verse; the regex matches it only after priya, since a bare বোল would hit Old Bengali bol-, 'speak' (bolai in 4a), and the Tibetan po la is too common to match."
+    },
+    {
+      "id": "tx-jnanasambodhi",
+      "type": "text",
+      "en": "Jñānasaṃbodhi",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানসম্বোধৌ",
+          "translit": "jñānasaṃbodhau",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.18.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་ཡང་དག་པར་བྱང་ཆུབ་པ",
+          "translit": "ye shes yang dag par byang chub pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.18.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জ্ঞানসম্বোধ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A work Munidatta cites as the Jñānasaṃbodhi ('Full Awakening of Knowledge'), not otherwise identified here. He quotes its verse: mind alone is the great seed of both existence and nirvāṇa; in the conventional it becomes the conventional, in nirvāṇa, lack of intrinsic nature (cp.18.m6). The Tibetan renders the title ye shes yang dag par byang chub pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary has an entry for each work Munidatta cites; the title stays in source form."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাহ্নে",
+          "translit": "kāhne",
+          "lemma": "kāhna",
+          "att": "AS",
+          "where": "cp.18.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণবজ্রপাদানাম্",
+          "translit": "kṛṣṇavajrapādānām",
+          "lemma": "kṛṣṇavajrapāda",
+          "att": "AS",
+          "where": "cp.18.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যৈঃ",
+          "translit": "kṛṣṇācāryyaiḥ",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.18.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাহ্নে"
+        },
+        {
+          "lang": "san",
+          "form": "কাহ্নে"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণবজ্রপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the agent form kāhne of the bhaṇitā (also cited in cp.18.m6), the attribution kṛṣṇavajrapādānām that the edition prints before the song (recorded as an emendation of cp.18.1a, hence that id), and the instrumental plural kṛṣṇācāryyaiḥ."
+    },
+    {
+      "id": "kapalika",
+      "type": "term",
+      "en": "kāpālika",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাবালী",
+          "translit": "kābālī",
+          "lemma": "kābālī",
+          "att": "AS",
+          "where": "cp.18.2b"
+        },
+        {
+          "lang": "san",
+          "script": "কাপালিকশ্চিত্তবজ্র-আধানং",
+          "translit": "kāpālikaś cittavajra-ādhānaṃ",
+          "lemma": "kāpālika",
+          "att": "AS",
+          "where": "cp.18.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་པཱ་ལ",
+          "translit": "ka pA la",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.18.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাবালী"
+        },
+        {
+          "lang": "san",
+          "form": "কাবালী"
+        },
+        {
+          "lang": "san",
+          "form": "কাপালিক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the refrain's spelling kābālī and the sandhi form kāpālikaś; the Tibetan ka pA la of the comment is not made a match form, since it is also the ordinary word for a skull-cup."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিণি ভুঅণ",
+          "translit": "tiṇi bhuaṇa",
+          "lemma": "bhuaṇa",
+          "att": "AS",
+          "where": "cp.18.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রিভুবনং",
+          "translit": "tribhuvanaṃ",
+          "lemma": "tribhuvana",
+          "att": "AS",
+          "where": "cp.18.m2"
+        },
+        {
+          "lang": "san",
+          "script": "দেবাসুরমনুষ্যাদিত্রৈধাতুকং",
+          "translit": "devāsuramanuṣyāditraidhātukaṃ",
+          "lemma": "traidhātuka",
+          "att": "AS",
+          "where": "cp.18.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་གསུམ",
+          "translit": "sa gsum",
+          "lemma": "sa gsum",
+          "att": "AO",
+          "where": "cp.18.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁམས་གསུམ",
+          "translit": "khams gsum",
+          "lemma": "khams gsum",
+          "att": "AO",
+          "where": "cp.18.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তিণি ভুঅণ"
+        },
+        {
+          "lang": "san",
+          "form": "তিণি ভুঅণ"
+        },
+        {
+          "lang": "oben",
+          "form": "ত্রিভুবন"
+        },
+        {
+          "lang": "san",
+          "form": "ত্রিভুবন"
+        },
+        {
+          "lang": "san",
+          "form": "ত্রৈধাতুক"
+        },
+        {
+          "lang": "bod",
+          "form": "ས་གསུམ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁམས་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the song's tiṇi bhuaṇa, Munidatta's tribhuvana and traidhātuka ('the three realms of gods, asuras, humans and the rest'), and the Tibetan sa gsum and khams gsum; see questions for Munidatta's reading of the three worlds as body, speech and mind."
+    },
+    {
+      "id": "moon",
+      "type": "term",
+      "en": "moon",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সসহর",
+          "translit": "sasahara",
+          "lemma": "sasahara",
+          "att": "AS",
+          "where": "cp.18.3b"
+        },
+        {
+          "lang": "san",
+          "script": "শশহরং",
+          "translit": "śaśaharaṃ",
+          "lemma": "śaśadhara",
+          "att": "AS",
+          "where": "cp.18.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সসহর"
+        },
+        {
+          "lang": "san",
+          "form": "সসহর"
+        },
+        {
+          "lang": "oben",
+          "form": "শশহর"
+        },
+        {
+          "lang": "san",
+          "form": "শশহর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the song's sasahara and Munidatta's śaśahara, 'hare-bearer', a name of the moon (the Tibetan ri bong 'dzin pa is already a form); see questions for his reading."
+    },
+    {
+      "id": "prakrti",
+      "type": "term",
+      "en": "natures",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ষষ্ট্যুত্তরশতপ্রকৃতিদোষো",
+          "translit": "ṣaṣṭyuttaraśataprakṛtidoṣo",
+          "lemma": "prakṛti",
+          "att": "AS",
+          "where": "cp.18.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲུག་ཅུ་ལྷག་པའི་བརྒྱའི་རང་བཞིན",
+          "translit": "drug cu lhag pa'i brgya'i rang bzhin",
+          "lemma": "rang bzhin",
+          "att": "AO",
+          "where": "cp.18.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ষষ্ট্যুত্তরশতপ্রকৃত"
+        },
+        {
+          "lang": "bod",
+          "form": "དྲུག་ཅུ་ལྷག་པའི་བརྒྱའི་རང་བཞིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: 'the fault of the hundred and sixty natures'; the longer match makes the compound count for this entry rather than for prakrtidosa ('faults of nature', the body's impurities), whose sense does not fit here (see questions)."
+    },
+    {
+      "id": "aksara-sukha",
+      "type": "term",
+      "en": "imperishable bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সম্যক্‌বজ্রাজসংযোগ[া]ক্ষরসুখতয়া",
+          "translit": "samyakvajrājasaṃyoga[ā]kṣarasukhatayā",
+          "lemma": "akṣara",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་འཛག་པའི་བདེ་བ",
+          "translit": "mi 'dzag pa'i bde ba",
+          "lemma": "mi 'dzag pa",
+          "att": "AO",
+          "where": "cp.18.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མི་འཛག་པའི་བདེ་བ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "[অা]ক্ষরসুখ"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the sandhi form (-saṃyoga-akṣarasukha-, with Shastri's restored ā) and a new Tibetan equivalent, mi 'dzag pa'i bde ba, 'bliss that does not leak'; the regex requires the a- of akṣara, so it cannot hit kṣarasukha, 'perishable bliss'."
+    },
+    {
+      "id": "kundura",
+      "type": "term",
+      "en": "kundura",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্ফুরৎকুন্দরাঃ",
+          "translit": "sphuratkundarāḥ",
+          "lemma": "kunduru",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུནྡུ་རུ",
+          "translit": "kun+du ru",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.18.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কুন্দরাঃ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀུནྡུ་རུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the spelling kundara in the verse Munidatta quotes (ānandasphuratkundarāḥ) and the Tibetan kun+du ru."
+    },
+    {
+      "id": "kalinjara",
+      "type": "term",
+      "en": "kāliñjara",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কালিঞ্জরাশ্চক্রিণঃ",
+          "translit": "kāliñjarāś cakriṇaḥ",
+          "lemma": "kāliñjara",
+          "att": "AS",
+          "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐལ་བ་དང་ལྡན",
+          "translit": "skal ba dang ldan",
+          "lemma": "skal ba dang ldan pa",
+          "att": "AO",
+          "where": "cp.18.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কালিঞ্জর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the plural in the quoted verse and the Tibetan's rendering by sense, skal ba dang ldan, 'fortunate', which is not made a match form because it is an ordinary phrase."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ধ্রুবপদেনাপরিশুদ্ধাবধূতিকামুপগময়তি",
+          "translit": "dhruvapadenāpariśuddhāvadhūtikām upagamayati",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.18.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বিন্যাঽপরিশুদ্ধাবধূতিকয়া",
+          "translit": "ḍombinyā'pariśuddhāvadhūtikayā",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.18.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོངས་སུ་མ་དག་པའི་ཨ་ཝ་དྷཱུ་ཏཱི་པ",
+          "translit": "yongs su ma dag pa'i a wa d+hU tI pa",
+          "lemma": "a wa d+hU tI",
+          "att": "AO",
+          "where": "cp.18.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পরিশুদ্ধাবধূতিক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the impure avadhūtī (apariśuddhāvadhūtikā) of cp.18.m3 and m4, whose sandhi forms the existing matches do not reach; the literal also covers the pure form split by a folio number in cp.18.m3."
+    },
+    {
+      "id": "dombi",
+      "type": "term",
+      "en": "Ḍombī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གདོལ་པ་མོ",
+          "translit": "gdol pa mo",
+          "lemma": "gdol pa mo",
+          "att": "AO",
+          "where": "cp.18.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form only: in the last line the Tibetan renders ḍombi as gdol pa mo, 'caṇḍāla woman'; it is not made a match form, since the same word can render other caste names."
+    }
+  ],
+  "questions": [
+    "Gauḍā and Gavaṛā: the Tibetan translation names the melody of song 18 glu dbyangs chen po and that of song 2 chen po. If the two headings are spellings of one rāga, gauda could instead become a form of the existing gavara entry.",
+    "Readings that new forms cannot carry (a proposal for an existing id adds forms only): (1) trailokya: Munidatta equates the three worlds of 18.1a with body, speech and mind, tribhuvanaṃ kāyavākcittaṃ (cp.18.m2); consider adding the reading and 'body, speech and mind' to its forbiddenInLine. (2) moon: śaśahara is conventional bodhicitta, 'the cause of clear light' (cp.18.m4); the existing reading cites only cp.01.m2. (3) kapalika: Munidatta derives kāpālika from ka and pālayati, 'he protects ka, conventional bodhicitta', and speaks of ka as the clear light dissolved in the body (kau śarīre) (cp.18.m3); the entry has no reading yet. (4) dombi: in this song Ḍombī is the impure avadhūtī (cp.18.m3, cp.18.m4), as in the reading already cited from cp.10.m8.",
+    "prakrtidosa is defined from cp.05.m2 as the body's impurities. In cp.18.m2 ṣaṣṭyuttaraśataprakṛtidoṣa is 'the fault of the hundred and sixty natures', so I gave prakrti a longer match to claim the compound. If prakrtidosa has a match such as প্রকৃতিদোষ, the reviewer may want its definition widened or the forms kept apart.",
+    "cp.18.m3 introduces the refrain as addressing the impure avadhūtī, and the Tibetan twice has yongs su ma dag pa'i a wa d+hU tI pa, but the Sanskrit reads bho ḍomvini pariśuddhāvadhūtikā ('pure'). An a- may have been lost in sandhi (ḍombiny apariśuddha-); the draft should flag this.",
+    "cp.18.m4 cites its camphor line with tathāca caryyāpādāḥ; the Tibetan has glu dbyangs zhabs kyis, with the honorific zhabs, as if naming a person (the p-kanha entry already has the form nag po glu dbyangs zhabs). The carya entry's match will read caryyā here as 'conduct'. Should caryāpādāḥ be 'the Caryā masters', a name of Kāṇha, or the songs themselves?",
+    "Not proposed, for the draft to settle: kājaṇa kāraṇa in 18.3b (the Tibetan bya ba byed pa suggests kārya-kāraṇa, 'effect and cause', and Munidatta calls the moon 'the cause of clear light'); biṭaliu and ṭāliu in 18.3a-b, which Munidatta glosses as nāśita and vinaṣṭīkṛta, 'destroyed', though Old Bengali biṭāl- may also carry caste pollution; and the other code words of the verse in cp.18.m5 (madana, śāli, pretāvāsa).",
+    "kakkola and bola: the Hevajra equations (kakkola the lotus, bola the vajra) and their ordinary senses (a fragrant berry; gum myrrh) come from my knowledge of the Hevajra Tantra and of Sanskrit usage, not from the input. Please check them before approval; if they cannot be checked, the definitions should drop those sentences.",
+    "The Tibetan has rigs, 'family, caste', in both 18.2b (mtha' rigs skye ba) and 18.4b (rigs ldan skye bo, where the Bengali has bidujaṇa, 'the wise'). Its manuscript may have read a word like kulīna in 4b, or the translators may have taken the wise as the well-born.",
+    "tx-jnanasambodhi: I read jñānasamvodhau as a title because it follows Munidatta's usual tathā ca + locative formula and the Tibetan has ye shes yang dag par byang chub pa la. I cannot identify the work; please confirm that it is a title and not a phrase."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "acdfcc5eb17d4a3fdcf5aeb4293f892ca5cf34753922cd9b8005830f6b8ff781",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "b9db61eff4bae7132da9851499a3109fc446746f022e18f2c577c6389af8f924",
+    "sourceSha": "46675a7e02686667c3c0da8f5ff7e6483e9357a9d9f8c8816289eea427728259"
+  }
+}

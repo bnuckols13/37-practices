@@ -109,6 +109,7 @@ function guessStress(raw) {
 export function wordStress(word) {
   const w = plainWord(word);
   if (!w) return [];
+  if (LIGHT.has(w)) return [0];
   const { phones: ph, known } = phones(w);
   if (!known) return guessStress(word);
   const vs = ph.filter(x => x.v);

@@ -112,6 +112,32 @@ node translate/cli.mjs render charyapada --preview      # Display › As a song
 - **Publishing:** a sung version is published only when approved, and only beside an approved song. Songs without one render exactly as before.
 - **Not yet:** the Studio has no sung view; review sung versions with the sheet.
 
+## Reading a song first: the mixing board
+
+Before an English is made, read how the song works. `read` prints Timothy Morton's five steps (structure, texture, perception, narrator, narrative) with everything that can be measured measured: each channel of the source and of any English on one scale from cool (variation) to hot (repetition, pattern), the rhyme of every couplet placed in Morton's "solar system" (absolute, perfect, vowel, off, para rhyme, alliteration), the song's groove in mātrās and the half-lines that break it, the words it strikes again and again. The method and what it found are in [`research/how-to-read-a-song.md`](research/how-to-read-a-song.md).
+
+```sh
+node translate/cli.mjs read charyapada 10                 # the source against the accurate and the sung English
+node translate/cli.mjs read charyapada 10 --en sung
+```
+
+English stresses and rhymes come from the CMU Pronouncing Dictionary (`lib/english.mjs`); names in IAST are stressed the Sanskrit way. Sing packs carry the source's board, and `ingest`, the sung sheet (lines marked **HEAT**) and `check` say where a sung version runs cooler than its song. All of it is advice for the ear, never a refusal.
+
+## Versions and the Workshop (poems made from the songs)
+
+The third English: a poem made from a song through a **lens**, one of the ways English poets have made songs (Blake's couplets, the ballad, Dickinson's hymn metre, the Psalms, Hopkins, Pound's *Cathay*, the work song, Owen's para rhyme; [`prompts/lenses.json`](prompts/lenses.json), [`research/western-lenses.md`](research/western-lenses.md)). A version keeps the song's shape, its refrain and every image, keeps readings out of its lines, and says what it kept and let go ([`prompts/tasks/version.md`](prompts/tasks/version.md)); a `free` one may add what an image implies and lists it.
+
+The **Workshop** is where they are made: a page with the song as an illuminated leaf (the Bengali, its rhymes in gold and vermilion, the ধ্রু refrain), the lenses, a board of four faders set against the song's own heat, Claude drafting three versions of a couplet (or the whole song) on request, Hotter and Cooler on every draft, and a box where the maker writes a line and hears its stresses and its rhyme as they type. Versions are saved to a shelf shared by everyone with the page, or copied as JSON for the engine.
+
+```sh
+node translate/cli.mjs workshop build charyapada          # -> translate/.workshop/workshop.html (publish it as an artifact)
+node translate/cli.mjs versions import charyapada version.json --by "Name"
+node translate/cli.mjs versions list charyapada           # each version, its lens, and how hot it runs
+node translate/cli.mjs versions keep charyapada 14 shanty-row-dombi   # show it in the Reading Room
+```
+
+Versions live in `texts/<text>/versions/<unit>/<id>.json`. `check` holds them to the song's shape, the refrain cue, the glossary's forbidden words and the overlap guard. The Reading Room sets **kept** versions after the song, each with its lens and maker (every version in `--preview`). To bring in the shelf: read the Workshop artifact's `versions` collection with ArtifactData, save the documents as a JSON list, and import them.
+
 ## The Studio (review in claude.ai)
 
 The Studio is a private claude.ai page with its own database. It lets you review without the CLI:

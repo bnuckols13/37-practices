@@ -96,3 +96,18 @@ test('keep: the Reading Room shows kept versions; preview shows drafts too; chec
   assert.ok(errors.some(e => /version blake-the-tree-2: fx\.01\.1a: "aggregates"/.test(e)), errors.join('\n'));
   assert.throws(() => keepVersion('fixture', 'fx.01', 'blake-the-tree-2'), /cannot be kept/);
 });
+
+test('workshop build: one page with the songs, the lenses and the examples baked in', async () => {
+  const { buildWorkshop } = await import('../lib/workshop/build.mjs');
+  const r = buildWorkshop('fixture');
+  const html = read(r.path);
+  assert.match(html.slice(0, 200), /<title>Charyapada Workshop<\/title>/);
+  assert.doesNotMatch(html, /<(html|head|body|!doctype)\b/i);
+  const data = JSON.parse(html.match(/<script type="application\/json" id="data">([\s\S]*?)<\/script>/)[1]);
+  assert.equal(data.songs[0].id, 'fx.01');
+  assert.ok(data.songs[0].lines.every(l => l.bnEnd && typeof l.gloss === 'string'));
+  assert.ok(data.songs[0].examples.length >= 1, 'filed versions travel with the page as examples');
+  assert.ok(data.lenses.some(l => l.id === 'blake'));
+  assert.match(data.prompt, /Same shape/);
+  assert.ok(r.units === 1 && r.bytes < 400 * 1024);
+});

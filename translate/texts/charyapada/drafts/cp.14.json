@@ -1,7 +1,7 @@
 {
   "unit": "cp.14",
   "title": "The Ferrywoman",
-  "summary": "A boat is moving between the Gaṅgā and the Yamunā, and an outcaste woman, the Mātaṅgī, ferries people across without taking so much as a cowrie; the singer urges Ḍombī to row, describes how the boat is worked, calls the moon and the sun its two wheels, and ends with those who climbed onto a chariot sinking at the shore. Munidatta reads the two rivers as the grasped and the grasper, the ferrywoman as Ḍombī Nairātmā, who takes the lord of yogis across the ocean of saṃsāra, and the city of the Jina as the city of great bliss (cp.14.m2, cp.14.m3, cp.14.m6).",
+  "summary": "A boat moves between the Gaṅgā and the Yamunā, where a Mātaṅgī girl ferries across in play and takes no fare; the singer urges Ḍombī to row, describes how the boat is worked, calls the moon and the sun its two wheels, and ends with those who climbed onto a chariot sinking at shore after shore. Munidatta reads the two rivers as the grasped and the grasper, the ferrywoman as Ḍombī Nairātmā, who takes the lord of yogis across the ocean of saṃsāra, and the city of the Jina as the city of great bliss (cp.14.m2, cp.14.m3, cp.14.m6). The Tibetan translation (Toh 2293) reads the song differently in places, most notably with a river flowing in 1a and no chariot in 5b.",
   "lines": [
     {
       "id": "cp.14.h1",
@@ -41,17 +41,22 @@
       ],
       "flags": [
         {
-          "kind": "meaning",
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) reads gang+gA dang ni ya mu na dbus gtsang po 'bab, 'between the Gaṅgā and the Yamunā a river flows': it takes nāī as 'river' (as if from nadī) and bahai as 'flows' ('bab). Munidatta reads the word as the boat (nauḥ, cp.14.m2), and the Tibetan translation of that same comment also says 'boat' (gru). I keep 'boat', with Munidatta and with the rowing of the refrain; the alternative line is 'Between the Gaṅgā and the Yamunā a river flows.' The Tibetan uses 'bab, 'flows', again in 4b, where the Bengali has the command 'row'."
+        },
+        {
+          "kind": "grammar",
           "level": "low",
-          "note": "nāī is read as 'boat' (Sanskrit nau, nāvā), as the glossary has it and as Munidatta takes it (nauḥ, cp.14.m2). In principle naī can also be 'river' (from nadī), which would make bahai 'flows'. I chose 'boat'. bahai itself is 'moves along, is borne'; I rendered 'is moving'."
+          "note": "bahai (vah-, 'carry, convey, flow') is used of a boat moving along; I rendered 'is moving'."
         }
       ]
     },
     {
       "id": "cp.14.1b",
       "translit": "tahim̐ buṛilī mātaṅgi poiālīle pāra karei",
-      "gloss": "there, in it · sunk, immersed (fem. past participle of buṛ-) · Mātaṅgī (outcaste woman) · young one (?) with ease (?) (poiā līle?) · far bank, across · makes (pāra kar-, ferry across)",
-      "en": "There the [Mātaṅgī]{matangi}, immersed, ferries the young one [across]{para} with ease.",
+      "gloss": "there, in it · immersed, having plunged in (fem. past participle of buṛ- 'sink, plunge') · Mātaṅgī (outcaste woman) · girl, young one (? poiā, compare Sanskrit pota) · in play, with ease (? līle, from līlā) · far bank, across · makes (pāra kar-, ferry across)",
+      "en": "There the [Mātaṅgī]{matangi} girl, immersed, ferries [across]{para} in play.",
       "terms": [
         {
           "id": "matangi",
@@ -66,20 +71,20 @@
         {
           "kind": "meaning",
           "level": "high",
-          "note": "poiālīle is unclear. I divide it poiā līle: poiā 'young one' (compare Sanskrit pota, 'young of an animal, child') and līle 'with ease, as play' (from līlā), giving 'ferries the young one across with ease'. Alternatives: poiālī le, 'taking the poiālī across'; or a link with pota in its other sense, 'boat' ('by boat', 'as ferrywoman'). Munidatta names the one ferried as the lord of yogis (cp.14.m2) but does not gloss the word."
+          "note": "poiālīle is unclear. Following the Tibetan translation (Toh 2293), which has gdol pa'i bu mo rol pas, 'the outcaste girl, in play', I now divide it poiā līle and take poiā ('young one', compare Sanskrit pota) with the Mātaṅgī, 'the Mātaṅgī girl', and līle as 'in play' (from līlā; Tibetan rol pa, 'play'). The line then has no expressed object; Munidatta supplies the lord of yogis (cp.14.m2). My previous draft took poiā as the object: 'ferries the young one across with ease'. Other options: poiālī le, 'taking the poiālī'; or pota in its sense 'boat'."
         },
         {
           "kind": "grammar",
-          "level": "medium",
-          "note": "buṛilī is a feminine past participle of buṛ-, 'sink, go under'. I take it with the Mātaṅgī: 'immersed' ('sunk' would keep the echo with buṛai, 'sink', in 5b and sharpen the paradox of a sunken ferrywoman). It could instead be the object, 'the one who has sunk, the drowning', which reads more easily but leaves the feminine form and the role of poiālīle unexplained."
+          "level": "low",
+          "note": "buṛilī, a feminine past participle of buṛ- 'sink, plunge', is taken with the Mātaṅgī. The Tibetan supports this: der zhugs, 'having entered there', said of the girl. It uses zhugs again in 5b for caṛilā, 'climbed on, boarded', and has 'bying, 'sink', for buṛai in 5b, so its translators did not hear 1b as 'sunk'. I keep 'immersed'; 'having gone in' would be closer to the Tibetan. The object reading ('the drowning one') is now less likely."
         }
       ]
     },
     {
       "id": "cp.14.2a",
       "translit": "bāhatu ḍombī bāhalo ḍombī bāṭata bhaila uchārā",
-      "gloss": "row (imperative) · Ḍombī · row + lo (particle used in calling to a woman) · Ḍombī · on the road · has become · delay, lateness (?)",
-      "en": "Row, [Ḍombī]{dombi}, row, [Ḍombī]{dombi}: it has grown late on the way.",
+      "gloss": "row (imperative) · Ḍombī · row + lo (particle used in calling to a woman) · Ḍombī · on the way, on the road · has become · clear, open (? uchārā, obscure)",
+      "en": "Row, [Ḍombī]{dombi}, row, [Ḍombī]{dombi}: the way has cleared.",
       "terms": [
         {
           "id": "dombi",
@@ -89,13 +94,13 @@
       "flags": [
         {
           "kind": "meaning",
-          "level": "medium",
-          "note": "uchārā is obscure. I follow Munidatta's paraphrase kimarthaṃ vilambaḥ kriyate, 'why is there delay?' (cp.14.m3), and render bāṭata bhaila uchārā as 'it has grown late on the way'. The subject is not expressed."
+          "level": "high",
+          "note": "uchārā is obscure. The Tibetan translation (Toh 2293) has Dom+bi'i lam ni drang po la, '(Ḍombī's) road is straight', and Munidatta's paraphrase opens 'once the boat-path of the joy of cessation ... has been reached' (cp.14.m3). On that evidence I now render bāṭata bhaila uchārā as 'the way has cleared'. My previous draft had 'it has grown late on the way', taking Munidatta's next words, 'why is there delay?' (kimarthaṃ vilambaḥ kriyate), as a gloss of uchārā. The Tibetan of the comment has the same question (ci'i phyir yun ring sdod par byed, 'why do you stay so long?'), but it reads as his comment on the urging to row rather than on this word. Both renderings remain possible."
         },
         {
           "kind": "grammar",
           "level": "low",
-          "note": "bāhatu is an imperative in -tu (possibly third person, 'let Ḍombī row'); bāhalo is the imperative bāha with lo, a particle used in calling to a woman. I render both as 'Row, Ḍombī' to keep the repetition."
+          "note": "bāhatu is an imperative in -tu (possibly third person, 'let Ḍombī row'); bāhalo is the imperative bāha with lo, a particle used in calling to a woman. The Tibetan has two imperatives, bskyod cig, 'set (it) going', with the vocative kye'i, 'O', where the Bengali has lo. I render both as 'Row, Ḍombī' to keep the repetition."
         }
       ]
     },
@@ -123,14 +128,14 @@
         {
           "kind": "meaning",
           "level": "low",
-          "note": "pāapae, literally 'by (or at) the feet', is the idiom for owing something to a teacher's kindness; I kept the feet rather than write 'grace'. jāiba can be first person singular or plural; I chose 'I'. puṇu is 'again', possibly 'then'."
+          "note": "pāapae, literally 'by (or at) the feet', is the idiom for owing something to a teacher's kindness. The Tibetan translation (Toh 2293) keeps the feet and adds the kindness: bla ma dam pa'i zhabs kyi drin gyis, 'through the kindness of the holy guru's feet'. I kept the feet, since the Bengali has no word for grace. The Tibetan's slar yang, 'again', supports 'again' for puṇu. jāiba can be first person singular or plural; I chose 'I'."
         }
       ]
     },
     {
       "id": "cp.14.3a",
       "translit": "pāñca keṛuāla paṛantem̐ māṅge piṭata kācchī bāndhī",
-      "gloss": "five · oars, paddles · falling, dipping (as they fall) · at the prow (?) · on the back, at the stern (?) · rope, cord, girth (?) · having tied, tie",
+      "gloss": "five · oars, paddles (or oar-holders?) · falling, dipping (as they fall) · at the prow (?) · on the back, at the stern (?) · rope, cord, girth (?) · having tied, tie",
       "en": "With five [oars]{keruala} dipping at the prow and the rope tied at the stern,",
       "terms": [
         {
@@ -142,7 +147,12 @@
         {
           "kind": "meaning",
           "level": "high",
-          "note": "The boat terms are uncertain. māṅge: I take it as 'at the prow' (compare Sanskrit maṅga, given in lexicons as the bow or side of a boat); piṭata, 'on the back', as the stern; kācchī as a rope or girth (compare Sanskrit kacchā, kakṣyā; Munidatta has kacchikā, cp.14.m4); paṛantem̐, 'falling', as the oars dipping into the water. bāndhī may be 'having tied' or an imperative 'tie!'; I took it as a participle and let the line lead into 3b."
+          "note": "The boat terms are uncertain. māṅge: I take it as 'at the prow' (compare Sanskrit maṅga, given in lexicons as the bow or side of a boat); piṭata, 'on the back', as the stern; kācchī as a rope or girth (compare Sanskrit kacchā, kakṣyā; Munidatta has kacchikā, cp.14.m4); paṛantem̐, 'falling', as the oars dipping into the water. The Tibetan translation (Toh 2293) supports two of these: rgyab tu, 'at the back', for piṭata, and bcings, 'tied', for bāndhī, which favours the participle over an imperative 'tie!'. Where the Bengali has paṛantem̐ māṅge the Tibetan has gru 'dzug skul byed, with gru, 'boat', and verbs I take as 'thrust in' and 'urge on'; it has no word for a prow. If skul byed renders māṅge, the translators heard the verb māṅg-, 'ask, demand'. Its word for kācchī, gdang bu, I cannot identify with confidence; it uses the same word for Munidatta's kacchikā (cp.14.m4)."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "keṛuāla: the Tibetan has skya ba 'dzin pa lnga yis, 'by the five oar-holders', and its translation of the commentary cites the verse by the same phrase (cp.14.m4). The translators may have taken the five as rowers rather than oars; the Bengali form could allow that if -āla is the agent suffix (keṛu 'oar' + -āla, 'one who handles'). I keep the glossary's 'oar'."
         }
       ]
     },
@@ -161,12 +171,12 @@
         {
           "kind": "term",
           "level": "medium",
-          "note": "gaaṇadukholem̐: gaaṇa is 'sky' (Sanskrit gagana); dukhola is unknown to me. It may be a bailing vessel, or du 'two' with khola 'shell, hollow' (two shells, or cupped hands). 'Sky-scoop' is provisional. siñc- is 'sprinkle, pour'; with water in a boat it most naturally means 'bail out'."
+          "note": "gaaṇadukholem̐: gaaṇa is 'sky' (Sanskrit gagana); dukhola is unknown to me. The Tibetan translation (Toh 2293) renders the compound nam mkha'i ko ba, 'the sky's hide', where ko ba is hide or leather and names leather vessels (and the hide boat). That favours a vessel over my other guess, du 'two' + khola 'shell' (cupped hands). 'Sky-scoop' is provisional; 'sky-bucket' would follow the Tibetan more closely. siñc- is 'sprinkle, pour'; with water in a boat it most naturally means 'bail out'."
         },
         {
-          "kind": "witness",
-          "level": "medium",
-          "note": "Divergence from the commentary: the song says the water does not get in (na paisai), while Munidatta's text as printed says that water, the surging of sense objects, enters (viśati) the yogi's body (cp.14.m4). A negative may have dropped out of the commentary. I translate the song as it stands."
+          "kind": "grammar",
+          "level": "low",
+          "note": "siñcahu is an imperative (-hu). The Tibetan has no command: chu yis bran pas, 'by splashing (or pouring) water', makes the first half the cause of the second, mtshams nas chu ni 'byung mi 'gyur, 'water does not come through at the seams'. The Tibetan confirms the song's negative."
         }
       ]
     },
@@ -201,12 +211,12 @@
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "The syntax is open: siṭhisaṃhāra pulindā may mean 'the pulinda is creation and destruction', 'the pulinda brings creation and destruction', or add a third item after the two wheels. Munidatta makes creation and destruction the work of all three, moon, sun and pulinda (cp.14.m5). I kept the source order and the bare apposition so as not to decide."
+          "note": "The syntax is open: siṭhisaṃhāra pulindā may mean 'the pulinda is creation and destruction', 'the pulinda brings creation and destruction', or add a third item after the two wheels. Munidatta makes creation and destruction the work of all three, moon, sun and pulinda (cp.14.m5). I kept the source order and the bare apposition so as not to decide. The Tibetan translation (Toh 2293) keeps the same bare sequence, zla ba nyi ma gnyis kyi 'khor lo bskyed dang sdud pa bu lin+da, where gnyis kyi 'khor lo could also be read 'the wheels of the two', that is, of the moon and the sun."
         },
         {
           "kind": "term",
           "level": "medium",
-          "note": "pulinda is kept in source form because its literal sense here is unknown. As a Sanskrit word it names a forest people; a part of the boat is conceivable but I cannot confirm it. Munidatta gives only a twilight-language reading ('the neuter', cp.14.m5)."
+          "note": "pulinda is kept in source form because its literal sense here is unknown. As a Sanskrit word it names a forest people; a part of the boat is conceivable but I cannot confirm it. Munidatta gives only a twilight-language reading ('the neuter', cp.14.m5). The Tibetan transliterates it (bu lin+da) rather than translating it, so its translators too seem to have found it opaque, and its translation of the commentary lacks the gloss 'the neuter'."
         }
       ]
     },
@@ -220,20 +230,25 @@
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "rebai is uncertain. Munidatta's paraphrase ('they do not see left and right, the front or the back shore', cp.14.m5) points to 'see, look to', which I followed. A verb of motion is also possible, giving 'does not go by the two ways'."
+          "note": "rebai is uncertain. Munidatta's paraphrase ('they do not see left and right, the front or the back shore', cp.14.m5) points to 'see, look to'; the Tibetan translation (Toh 2293) has mi bsam, 'does not think of, does not heed'. 'Not looking to' covers both seeing and heeding, so I kept it. A verb of motion is also possible, giving 'does not go by the two ways'."
         },
         {
           "kind": "grammar",
           "level": "medium",
           "note": "na rebai is a finite third-person verb with no expressed subject (the boat? the rower?). I rendered it as a participle attached to the imperative. A closer line: 'Left and right, the two ways, it does not see; row as you please.' I used 'ways' for māga (Sanskrit mārga) to keep it plain."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan renders bāhatu chandā as rgyun mi 'chad par 'bab, 'flows on without a break': an indicative, not a command, and 'without a break' where the Bengali has chandā, 'at will'. Taken with gtsang po 'bab, 'a river flows', in 1a, the Tibetan describes a river flowing, not a boat being rowed. Munidatta's imperative with svacchandena, 'at your own will' (cp.14.m5), supports the Bengali as I read it, and the Tibetan of that comment itself renders svacchandena as rang gi 'dun pas, 'by your own wish'. I translate the Bengali."
         }
       ]
     },
     {
       "id": "cp.14.5a",
       "translit": "kabaḍī na lei boḍī na lei succhaṛe pāra karei",
-      "gloss": "cowrie · not · takes · boḍī, a small coin (?) · not · takes · freely, for nothing (?) · far bank, across · makes (ferries across)",
-      "en": "She takes no [cowrie]{kabadi}, takes no coin; she ferries [across]{para} freely.",
+      "gloss": "cowrie · not · takes · boḍī, a small coin (?) · not · takes · of one's own will (? compare Sanskrit svacchanda) · far bank, across · makes (ferries across)",
+      "en": "She takes no [cowrie]{kabadi}, takes no coin; she ferries [across]{para} of her own accord.",
       "terms": [
         {
           "id": "kabadi",
@@ -248,17 +263,17 @@
         {
           "kind": "term",
           "level": "medium",
-          "note": "boḍī is named with the cowrie as something the ferrywoman does not take; it seems to be a small money unit or coin, but I cannot identify it. Rendered 'coin'; keeping boḍī in source form is an option."
+          "note": "boḍī is named with the cowrie as something the ferrywoman does not take; it seems to be a small money unit or coin, but I cannot identify it. Rendered 'coin'; keeping boḍī in source form is an option. The Tibetan names only one fare ('gron bu, 'cowrie') and has only one 'does not take' (mi len), so it gives no help with the word."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) reads Dom+bi 'gron bu mi len rang gi 'dod pas pha rol sgrol bar byed, 'Ḍombī takes no cowrie; of her own wish she ferries across to the far side'. It names Ḍombī as the subject, where the Bengali has no subject and a second fare (boḍī na lei). Either the translators supplied the subject and merged the two fares, or their manuscript had ḍombī where Shastri prints boḍī. I translate the Bengali; 'she' assumes the ferrywoman of 1b, as Munidatta does (Ḍombī Nairātmā, cp.14.m6)."
         },
         {
           "kind": "meaning",
           "level": "low",
-          "note": "succhaṛe: I take it as 'freely, at will' (compare Sanskrit svacchanda), which in English also carries 'free of charge'. 'For nothing' would make the fare sense explicit."
-        },
-        {
-          "kind": "grammar",
-          "level": "low",
-          "note": "The subject is not expressed; 'she' assumes the ferrywoman of 1b, as Munidatta does (Ḍombī Nairātmā, cp.14.m6)."
+          "note": "succhaṛe: I take it as 'at will' (compare Sanskrit svacchanda). The Tibetan rang gi 'dod pas, 'by her own wish', supports that sense, so I now write 'of her own accord' for my earlier 'freely', which also suggested 'free of charge'. The fare is already refused in the first half of the line."
         }
       ]
     },
@@ -279,14 +294,19 @@
       ],
       "flags": [
         {
-          "kind": "meaning",
+          "kind": "witness",
           "level": "medium",
-          "note": "bāhabāṇa jāi: I read bāhabā ṇa jāi, 'rowing does not go', that is 'cannot row' (or 'it cannot be rowed', of the chariot). The word division is mine; bāhabāṇa could instead be a single noun, perhaps a vehicle, with jāi 'goes'."
+          "note": "The Tibetan translation (Toh 2293) has no chariot: gang zhig de la zhugs nas, 'whoever, having boarded it', with de la, 'on it', where the Bengali has rathe, 'on the chariot'; zhugs is the verb it used in 1b. It may reflect a different reading, or the translators may have taken the vehicle to be the boat. Munidatta does not comment on the chariot. I translate the Bengali."
         },
         {
           "kind": "meaning",
-          "level": "medium",
-          "note": "kulem̐ kula buṛai: I render 'sink at shore after shore' (kula for kūla, 'bank'). Alternatives: 'sink right at the shore', or, taking kula as 'family, clan', 'sink, family and all'. Munidatta has them wander on the shore, which he calls the body (cp.14.m6)."
+          "level": "low",
+          "note": "bāhabāṇa jāi: I read bāhabā ṇa jāi, 'rowing does not go', that is 'cannot row'. The Tibetan supports a negative here: bgrod mi shes pa, 'does not know how to travel (make the crossing)'. bāhabāṇa could still be a single noun, perhaps a vehicle, with jāi 'goes'."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "kulem̐ kula buṛai: I render 'sink at shore after shore' (kula for kūla, 'bank'). The Tibetan has phan tshun dogs su 'bying. As it stands dogs su would mean 'into doubt', but the Tibetan of the commentary twice has ngogs su, 'at the bank' (cp.14.m6), so dogs is probably a corruption of ngogs, and phan tshun, 'here and there', may render the doubling: 'sinks here and there at the banks'. That supports a distributive reading over 'family and all' (kula as 'clan'). 'Sink right at the shore' remains possible."
         }
       ]
     }
@@ -295,13 +315,21 @@
     {
       "anchor": "cp.14",
       "kind": "witness",
-      "text": "In Shastri's edition the song is preceded by the word ḍombīpādānāṃ, 'of Ḍombīpāda', written before the first line. The input removes it from 1a as an attribution; the heading takes the poet's name from it. The cue ধ্রু printed after every couplet (a signal to sing the refrain again) is not translated.",
+      "text": "In Shastri's edition the song is preceded by the word ḍombīpādānāṃ, 'of Ḍombīpāda', written before the first line. The input removes it from 1a as an attribution; the heading takes the poet's name from it, as the Tibetan heading also names him (see the notes on the heading). The cue ধ্রু printed after every couplet (a signal to sing the refrain again) is not translated.",
       "cites": []
     },
     {
       "anchor": "cp.14",
+      "kind": "witness",
+      "text": "The Tibetan translation of Munidatta's commentary (Toh 2293) quotes the song line by line. It reads differently from the Bengali in several places, flagged on the lines: a river flowing rather than a boat moving (1a, with the same verb 'flows' in 4b); an outcaste girl with no one named as ferried (1b); a straight road (2a); five oar-holders (3a); Ḍombī named as the one who takes no fare (5a); and no chariot (5b). Elsewhere it agrees with the Bengali, and in 3b, and in Munidatta's comment on it, it has the negative that the printed Sanskrit comment lacks.",
+      "cites": [
+        "cp.14.m4"
+      ]
+    },
+    {
+      "anchor": "cp.14",
       "kind": "doctrine",
-      "text": "Munidatta introduces the song by saying that the siddha master Ḍombī, steeped again and again in supreme compassion, makes the same meaning plain under the guise of a boat journey (naukāpravāhavyājena).",
+      "text": "Munidatta introduces the song by saying that the siddha master Ḍombī, steeped again and again in supreme compassion, makes the same meaning plain under the guise of a boat journey (naukāpravāhavyājena). The Tibetan translation of this sentence has him speak of the boat journey 'in twilight language' (grus bsgrod pa dgongs pa'i skad kyis gsungs), where the Sanskrit has 'under the guise'.",
       "cites": [
         "cp.14.m1"
       ]
@@ -324,9 +352,23 @@
       "cites": []
     },
     {
+      "anchor": "cp.14.h1",
+      "kind": "witness",
+      "text": "The Tibetan heading reads d+ha ni sI zhes bya ba'i glu dbyangs Dom+bi pa'i zhabs kyi'o, 'the melody called Dhanisī, of Ḍombīpāda'. It renders rāga with glu dbyangs, 'song, melody', not with a word for passion; it spells the name Dhanisī; and it names the poet with a calque of Ḍombīpāda (zhabs for -pāda), which supports supplying the name in the English heading.",
+      "cites": []
+    },
+    {
       "anchor": "cp.14.1a",
       "kind": "philology",
-      "text": "mājhem̐re, 'in the middle, between'. bahai, from vah- 'carry, convey, flow', is used of a boat moving along; the same root gives bāha-, 'row', in the refrain. Munidatta takes nāī as the boat (nauḥ).",
+      "text": "mājhem̐re, 'in the middle, between'. bahai, from vah- 'carry, convey, flow', is used of a boat moving along; the same root gives bāha-, 'row', in the refrain. Munidatta takes nāī as the boat (nauḥ). The Tibetan transliterates the Sanskrit name Yamunā (ya mu na), not the song's vernacular jaunā, in agreement with the approved rendering.",
+      "cites": [
+        "cp.14.m2"
+      ]
+    },
+    {
+      "anchor": "cp.14.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation reads gang+gA dang ni ya mu na dbus gtsang po 'bab, 'between the Gaṅgā and the Yamunā a river flows', taking nāī as 'river' rather than 'boat'. Its translation of Munidatta's comment on the line nevertheless has the boat (de nyid gru dgongs pa'i skad du rtogs par byed do, 'that is understood, in twilight language, as the boat'). The translation follows the Bengali as Munidatta reads it.",
       "cites": [
         "cp.14.m2"
       ]
@@ -342,13 +384,36 @@
     {
       "anchor": "cp.14.1b",
       "kind": "philology",
-      "text": "Mātaṅgī: a woman of the Mātaṅga, a community ranked outside caste society, like the Ḍom. The word can also mean a female elephant, which does not fit here. buṛilī is a feminine past participle of buṛ-, 'sink, go under', the verb that returns in 5b; poiālīle is unclear (see the flags on this line).",
+      "text": "Mātaṅgī: a woman of the Mātaṅga, a community ranked outside caste society, like the Ḍom. The word can also mean a female elephant, which does not fit here. buṛilī is a feminine past participle of buṛ-, 'sink, plunge', the verb that returns in 5b. poiālīle is unclear; I divide it poiā līle, 'girl' and 'in play' (see the flags on this line).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation reads der zhugs gdol pa'i bu mo rol pas sgrol bar byed, 'having entered there, the outcaste girl ferries across in play'. It does not keep the caste name: gdol pa'i bu mo, 'outcaste girl', seems to render mātaṅgi poiā together, and rol pas, 'in play', renders līle. It names no one ferried. It renders the whole phrase pāra karei with the verb sgrol ba, which means 'ferry across' and also 'rescue, set free'; in 5a it renders pāra separately as pha rol, 'the far side'.",
       "cites": []
     },
     {
       "anchor": "cp.14.1b",
       "kind": "doctrine",
-      "text": "Munidatta: staying there, Ḍombī, Nairātmā, whose limbs are intoxicated with the innate vehicle, takes the lord of yogis (yogīndra) across on the ocean of saṃsāra. He calls the ferrywoman Ḍombī where the song says Mātaṅgī. His 'staying there' and 'limbs intoxicated' may be his way of taking buṛilī, 'immersed'; this correspondence is my inference, not his statement.",
+      "text": "Munidatta: staying there, Ḍombī, Nairātmā, whose limbs are intoxicated with the innate vehicle, takes the lord of yogis (yogīndra) across on the ocean of saṃsāra. He calls the ferrywoman Ḍombī where the song says Mātaṅgī. His 'staying there' and 'limbs intoxicated' may be his way of taking buṛilī, 'immersed'; this correspondence is my inference, not his statement. The Tibetan translation of the passage names her with both words, gdol pa'i bu mo g.yung mo bdag med ma, 'the outcaste girl, the Ḍom woman, Nairātmā'; it calls her 'the drinker of the liquor of the innate' (lhan cig skyes pa'i chang gi btung ba), perhaps from a reading -pāna- ('drinking') for -yāna- ('vehicle'); and it has 'on the boat of saṃsāra' ('khor ba'i gru la) for 'on the ocean of saṃsāra'.",
+      "cites": [
+        "cp.14.m2"
+      ]
+    },
+    {
+      "anchor": "cp.14.2a",
+      "kind": "doctrine",
+      "text": "Munidatta takes the refrain as the poet speaking to himself: once the boat-path of the joy of cessation, purified by the innate, has been reached, he addresses himself as 'O Ḍombī' and asks why there is delay, the delay apparently arising from attachment to eating and drinking. The Tibetan translation makes that a question, zas dang skom la khyod chags sam kye'i Dom+bi, 'are you attached to food and drink, O Ḍombī?', followed by 'why do you stay so long?' (ci'i phyir yun ring sdod par byed). Since Munidatta calls the poet himself Ḍombī (cp.14.m1), the vocative can be heard both as the Ḍom woman and as the singer. The translation keeps it as Ḍombī.",
+      "cites": [
+        "cp.14.m3",
+        "cp.14.m1"
+      ]
+    },
+    {
+      "anchor": "cp.14.2a",
+      "kind": "witness",
+      "text": "The Tibetan translation reads bskyod cig Dom+bi kye'i bskyod cig Dom+bi'i lam ni drang po la, roughly 'Set it going, Ḍombī! O, set it going! Ḍombī's road is straight.' It has two imperatives, with the vocative kye'i where the Bengali has lo, and takes uchārā as 'straight' (drang po), one reason for 'the way has cleared'. The Tibetan song lines keep the name in transliteration (Dom+bi), whereas its translation of Munidatta at cp.14.m2 renders Ḍombī as g.yung mo, 'Ḍom woman'.",
       "cites": [
         "cp.14.m2"
       ]
@@ -356,25 +421,16 @@
     {
       "anchor": "cp.14.2b",
       "kind": "witness",
-      "text": "Segment cp.14.m2, on couplet 1, contains the words sadguru ityādi vilakṣaṇaśuddhā, 'True guru and so on: distinctively pure', whose lemma is the opening of line 2b. The words may be displaced, or the lemma corrupt. The feminine vilakṣaṇaśuddhā could qualify the boat (nauḥ) of the sentence before it; cp.14.m5 speaks of a boat of distinctively purified bodhicitta.",
+      "text": "Segment cp.14.m2, on couplet 1, contains the words sadguru ityādi vilakṣaṇaśuddhā, 'True guru and so on: purified by vilakṣaṇa', whose lemma is the opening of line 2b. The Tibetan translation of cp.14.m2 has nothing corresponding to them, which supports treating them as displaced or intrusive in the Nepal manuscript. The feminine vilakṣaṇaśuddhā could qualify the boat (nauḥ) of the sentence before it; cp.14.m5 speaks of a boat of bodhicitta purified by vilakṣaṇa.",
       "cites": [
         "cp.14.m2",
         "cp.14.m5"
       ]
     },
     {
-      "anchor": "cp.14.2a",
-      "kind": "doctrine",
-      "text": "Munidatta takes the refrain as the poet speaking to himself: once the boat-path of the joy of cessation, purified by the innate, has been reached, he addresses himself as 'O Ḍombī' and asks why there is delay, the delay apparently arising from attachment to eating and drinking. Since Munidatta calls the poet himself Ḍombī (cp.14.m1), the vocative can be heard both as the Ḍom woman and as the singer. The translation keeps it as Ḍombī.",
-      "cites": [
-        "cp.14.m3",
-        "cp.14.m1"
-      ]
-    },
-    {
       "anchor": "cp.14.2b",
       "kind": "doctrine",
-      "text": "Munidatta glosses the city of the Jina as the city of great bliss (mahāsukhapura), and says it is very near through continuous practice as the true guru makes it known; he ends: reflecting thus, practise the flow day by day.",
+      "text": "Munidatta glosses the city of the Jina as the city of great bliss (mahāsukhapura), and says it is very near through continuous practice as the true guru makes it known; he ends: reflecting thus, practise the flow day by day. The Tibetan translation renders his gloss bde ba chen po'i grong khyer, 'city of great bliss', while keeping 'palace of the Victor' for the song's word.",
       "cites": [
         "cp.14.m3"
       ]
@@ -388,6 +444,12 @@
       ]
     },
     {
+      "anchor": "cp.14.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation reads bla ma dam pa'i zhabs kyi drin gyis slar yang rgyal ba'i pho brang 'gro, 'through the kindness of the holy guru's feet I go again to the palace of the Victor'. It renders sadguru as bla ma dam pa, 'holy guru', adds drin, 'kindness', to the feet, and makes the Jina's city a palace (pho brang); Sanskrit pura can also mean a residence or palace.",
+      "cites": []
+    },
+    {
       "anchor": "cp.14.3",
       "kind": "imagery",
       "text": "The couplet shows the boat being worked: five oars in the water, a rope made fast, water bailed out so that it does not come in at the seams. The individual boat words (māṅge, piṭata, kācchī, dukhola) are uncertain; see the flags on 3a and 3b.",
@@ -395,8 +457,22 @@
     },
     {
       "anchor": "cp.14.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation reads skya ba 'dzin pa lnga yis gru 'dzug skul byed gdang bu rgyab tu bcings, roughly 'by the five oar-holders the boat is thrust and urged on (?); the gdang bu is tied at the back'. It has five oar-holders, perhaps rowers, where the Bengali has five oars; a boat (gru) where the Bengali has māṅge; rgyab tu, 'at the back', for piṭata; and bcings, 'tied', for bāndhī. The middle of the line is unclear to me.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.3a",
       "kind": "doctrine",
-      "text": "Munidatta says that with this couplet the poet states the benefit of the practice. He reads the five oars as the instruction of the five stages (pañcakrama), taken up by the practitioner; then, in a sentence whose construction is uncertain, he speaks of what has gone to the kacchikā, the root of the jewel (maṇimūla), and says: make that very bodhicitta, opened by innate joy and stainless, flow by way of the wheels (cakra). His kacchikā answers the song's kācchī.",
+      "text": "Munidatta says that with this couplet the poet states the benefit of the practice. He reads the five oars as the instruction of the five stages (pañcakrama), taken up by the practitioner; then, in a sentence whose construction is uncertain, he speaks of what has gone to the kacchikā, the root of the jewel (maṇimūla), and says: make that very bodhicitta, opened by innate joy and stainless, flow by way of the wheels (cakra). His kacchikā answers the song's kācchī. The Tibetan translation uses gdang bu for both kacchikā and kācchī, has 'held' (rnam par bzung) for 'opened' (vivṛta), and has 'by a hundred stainless ones' (dri ma med pa brgya yis) where the Sanskrit has sad vaimalyaṃ.",
+      "cites": [
+        "cp.14.m4"
+      ]
+    },
+    {
+      "anchor": "cp.14.3b",
+      "kind": "witness",
+      "text": "The Tibetan translation reads nam mkha'i ko ba chu yis bran pas mtshams nas chu ni 'byung mi 'gyur, roughly 'as the sky's hide vessel splashes (or pours out) the water, water does not come through at the seams'. ko ba, 'hide, leather', renders dukhola, and the Tibetan of Munidatta repeats nam mkha'i ko ba for gaganadukholaka (cp.14.m4). It has the song's negative.",
       "cites": [
         "cp.14.m4"
       ]
@@ -404,7 +480,7 @@
     {
       "anchor": "cp.14.3b",
       "kind": "doctrine",
-      "text": "Munidatta repeats the compound as gaganadukholaka without explaining it, and says it is being sprinkled (or bailed) by the fourth empowerment; his text then says that water, the surging of sense objects, enters (viśati) the body of the lord of yogis. The song says the water does not get in (na paisai). Either a negative has dropped out of the commentary or Munidatta read the line differently; the translation follows the song.",
+      "text": "Munidatta repeats the compound as gaganadukholaka without explaining it, and says it is being sprinkled (or bailed) by the fourth empowerment; his text as printed then says that water, the surging of sense objects, enters (viśati) the body of the lord of yogis, where the song says the water does not get in (na paisai). The Tibetan translation of the passage has the negative: chu ni yul la g.yo ba mi 'jug pa'o, 'the water, stirring toward objects, does not enter'. A negative has probably dropped out of the Sanskrit, and Munidatta then agrees with the song. The Tibetan also speaks of the yogi as empowered with the fourth empowerment (dbang bzhi pas dbang bskur ba dang ldan pa), rather than of the vessel being sprinkled.",
       "cites": [
         "cp.14.m4"
       ]
@@ -412,19 +488,21 @@
     {
       "anchor": "cp.14.4a",
       "kind": "philology",
-      "text": "pulinda: kept in its source form because its literal sense here is unknown. In Sanskrit Pulinda is the name of a forest-dwelling people. siṭhisaṃhāra is Sanskrit sṛṣṭi-saṃhāra, 'creation and destruction'.",
+      "text": "pulinda: kept in its source form because its literal sense here is unknown. In Sanskrit Pulinda is the name of a forest-dwelling people. The Tibetan translation too transliterates it (bu lin+da). siṭhisaṃhāra is Sanskrit sṛṣṭi-saṃhāra, 'creation and destruction'; the Tibetan renders it bskyed dang sdud pa, 'producing and gathering in', taking saṃhāra in its sense of withdrawal.",
       "cites": []
     },
     {
       "anchor": "cp.14.4a",
       "kind": "imagery",
-      "text": "The moon and the sun are called 'the two wheels' (cakā, from cakra), though the vehicle so far is a boat; the chariot of 5b gives wheels a place later in the song. The oddity is kept, not resolved.",
-      "cites": []
+      "text": "The moon and the sun are called 'the two wheels' (cakā, from cakra), though the vehicle so far is a boat; the chariot of 5b gives wheels a place later in the song. The oddity is kept, not resolved. The Tibetan uses the same word, 'khor lo, for these wheels and for the subtle-body wheels of Munidatta's comment on couplet 3 ('khor lo'i phyogs su for cakroddeśena, cp.14.m4), so it does not keep the two senses apart by wording; the English keeps the plain 'wheels'.",
+      "cites": [
+        "cp.14.m4"
+      ]
     },
     {
       "anchor": "cp.14.4",
       "kind": "doctrine",
-      "text": "Munidatta says this couplet teaches the stopping of the three appearances (ābhāsa) through a special practice. He glosses the moon as the knowledge of wisdom (prajñājñāna); his words on the sun are garbled (sūryam utpādād advayajñānaṃ); and he says that in twilight language the pulinda is 'the neuter' (napuṃsaka). These three, he says, bring about the creation and destruction of saṃsāra.",
+      "text": "Munidatta says this couplet teaches the stopping of the three appearances (ābhāsa) through a special practice. He glosses the moon as the knowledge of wisdom (prajñājñāna); his words on the sun are garbled (sūryam utpādād advayajñānaṃ); and he says that in twilight language the pulinda is 'the neuter' (napuṃsaka). These three, he says, bring about the creation and destruction of saṃsāra. The Tibetan translation of this passage has none of the three glosses: after the introduction it goes straight to 'the makers of the producing and gathering-in of saṃsāra' ('khor ba skyed pa dang sdud pa'i byed pa po'o).",
       "cites": [
         "cp.14.m5"
       ]
@@ -432,29 +510,49 @@
     {
       "anchor": "cp.14.4b",
       "kind": "doctrine",
-      "text": "Munidatta: travelling on the ocean in which no phenomenon is apprehended, they do not see left and right, the front or the back shore; 'O Ḍombī, practise rowing the boat of distinctively purified bodhicitta at your own will (svacchandena).' His svacchandena answers the song's chandā, 'at will'. The manuscript writes ṣodhicitta for bodhicitta.",
+      "text": "Munidatta: travelling on the ocean in which no phenomenon is apprehended, they do not see left and right, the front or the back shore; 'O Ḍombī, practise rowing the boat of bodhicitta purified by vilakṣaṇa at your own will (svacchandena).' His svacchandena answers the song's chandā, 'at will'. The manuscript writes ṣodhicitta; the Tibetan translation confirms bodhicitta (byang chub kyi sems), renders svacchandena rang gi 'dun pas, 'by your own wish', and has 'do not look' (mi lta ba) for 'do not see'.",
       "cites": [
         "cp.14.m5"
       ]
     },
     {
+      "anchor": "cp.14.4b",
+      "kind": "witness",
+      "text": "The Tibetan translation reads g.yon dang g.yas kyi lam mi bsam zhing rgyun mi 'chad par 'bab, 'not thinking of the paths of left and right, it flows on without a break'. It has mi bsam, 'does not think of', for na rebai, and an indicative 'flows on without a break' for the command bāhatu chandā, 'row as you please'.",
+      "cites": []
+    },
+    {
       "anchor": "cp.14.5a",
       "kind": "doctrine",
-      "text": "Munidatta says this couplet states the fruit of the teaching of selflessness. As at an ordinary crossing the ferry-master takes a cowrie as the fare, so the Blessed Lady, Ḍombī Nairātmā, accepts nothing in the manner of grasped and grasper; merely for service, since nothing is to be grasped, she takes across on the ocean of becoming.",
+      "text": "Munidatta says this couplet states the fruit of the teaching of selflessness. As at an ordinary crossing the ferry-master takes a cowrie as the fare, so the Blessed Lady, Ḍombī Nairātmā, accepts nothing in the manner of grasped and grasper; merely for service, since nothing is to be grasped, she takes across on the ocean of becoming. The Tibetan translation has 'held as mere knowing' (shes ba tsam du bzung ba) where the Sanskrit has 'merely for service'.",
+      "cites": [
+        "cp.14.m6"
+      ]
+    },
+    {
+      "anchor": "cp.14.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation reads Dom+bi 'gron bu mi len rang gi 'dod pas pha rol sgrol bar byed, 'Ḍombī takes no cowrie; of her own wish she ferries across to the far side'. It names one fare, not two, and names Ḍombī as the subject, perhaps where the Bengali has boḍī. rang gi 'dod pas supports 'of her own accord' for succhaṛe.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.5b",
+      "kind": "imagery",
+      "text": "A chariot is a land vehicle: at the river its riders cannot row and go under, while the ferrywoman crosses freely. The song leaves the contrast unexplained, and so does the translation. The Tibetan translation has no chariot (see the witness note on this line).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.14.5b",
+      "kind": "witness",
+      "text": "The Tibetan translation reads gang zhig de la zhugs nas bgrod mi shes pa phan tshun dogs su 'bying, 'whoever has boarded it and does not know how to make the crossing sinks here and there at the banks'. It has de la, 'on it', for rathe, 'on the chariot'; bgrod mi shes pa, 'does not know how to travel', which supports a negative in bāhabāṇa jāi; phan tshun, 'here and there', perhaps for the doubled kulem̐ kula; and dogs su, 'into doubt', probably a corruption of ngogs su, 'at the bank', the form in its translation of Munidatta's comment (cp.14.m6).",
       "cites": [
         "cp.14.m6"
       ]
     },
     {
       "anchor": "cp.14.5b",
-      "kind": "imagery",
-      "text": "A chariot is a land vehicle: at the river its riders cannot row and go under, while the ferrywoman crosses freely. The song leaves the contrast unexplained, and so does the translation.",
-      "cites": []
-    },
-    {
-      "anchor": "cp.14.5b",
       "kind": "doctrine",
-      "text": "Munidatta: yogis proud of outer treatises, unacquainted with the teaching of selflessness, also wander on the shore (kula), that is, in the body (śarīra); he adds the opening of a quotation, 'the foolish, covered by ignorance…'. Where the song says they sink (buṛai), he says they wander (bhramanti); he does not comment on the chariot.",
+      "text": "Munidatta: yogis proud of outer treatises, unacquainted with the teaching of selflessness, also wander on the shore (kula), that is, in the body (śarīra); he adds the opening of a quotation, 'the foolish, covered by ignorance…'. Where the song says they sink (buṛai), he says they wander (bhramanti); he does not comment on the chariot. The Tibetan translation has them wander 'on the bank of the body' (lus kyi ngogs su 'khyam par 'gyur) and goes on where the Sanskrit breaks off: 'the ignorant fools sink at the bank' (mi shes pa'i byis pa rnams ngogs su 'bying bar 'gyur ro), with the song's verb 'sink'.",
       "cites": [
         "cp.14.m6"
       ]
@@ -462,154 +560,41 @@
     {
       "anchor": "cp.14.5",
       "kind": "philology",
-      "text": "The input marks couplet 5 as the bhaṇitā, but the poet does not name himself in it. The only occurrence of the poet's name in the song is the vocative Ḍombī of the refrain, which Munidatta takes as the poet addressing himself.",
+      "text": "The input marks couplet 5 as the bhaṇitā, but in the Bengali the poet does not name himself in it. The only occurrence of the poet's name in the Bengali song is the vocative Ḍombī of the refrain, which Munidatta takes as the poet addressing himself. The Tibetan translation, however, has Dom+bi in 5a, as the one who takes no fare; if its manuscript had the name there, the last couplet carried the poet's name, in the person of the ferrywoman.",
       "cites": [
         "cp.14.m3"
       ]
     }
   ],
   "termsOmitted": [],
-  "proposals": [
-    {
-      "id": "gagana",
-      "type": "term",
-      "en": "sky",
-      "policy": "translate",
-      "alt": [
-        "space"
-      ],
-      "forms": [
-        {
-          "lang": "oben",
-          "script": "গঅণ",
-          "translit": "gaaṇa",
-          "att": "AS",
-          "where": "cp.14.3b"
-        },
-        {
-          "lang": "san",
-          "script": "গগন",
-          "translit": "gagana",
-          "att": "AS",
-          "where": "cp.14.m4"
-        }
-      ],
-      "match": [
-        {
-          "lang": "oben",
-          "form": "গঅণ"
-        },
-        {
-          "lang": "san",
-          "form": "গগন"
-        }
-      ],
-      "definition": "Sky; open space. The sky is a common image in siddha poetry and in Buddhist tantric language. In this song it forms the first half of gaaṇadukhola, the vessel used to bail the boat; Munidatta repeats the compound (gaganadukholaka) without explaining it.",
-      "symbolicImage": "the sky, in the compound 'sky-scoop' used to bail the boat",
-      "symbolicReadings": [],
-      "forbiddenInLine": [
-        "emptiness",
-        "void"
-      ],
-      "rationale": "Likely to recur in the songs; a fixed rendering (sky rather than space or ether) keeps the image consistent. The forbidden words are a guard against replacing the image with a common doctrinal reading; no reading is attested in this unit's commentary."
-    },
-    {
-      "id": "wheel",
-      "type": "term",
-      "en": "wheel",
-      "policy": "translate",
-      "alt": [],
-      "forms": [
-        {
-          "lang": "oben",
-          "script": "চকা",
-          "translit": "cakā",
-          "att": "AS",
-          "where": "cp.14.4a"
-        }
-      ],
-      "match": [
-        {
-          "lang": "oben",
-          "form": "চকা"
-        }
-      ],
-      "definition": "A wheel. In this song the moon and the sun are called 'the two wheels', though the vehicle is a boat. The same word (Sanskrit cakra) also names the wheels of the subtle body in the tantras, which have their own entries (wheel of emanation, wheel of great bliss).",
-      "symbolicImage": "the moon and the sun as 'the two wheels'",
-      "symbolicReadings": [],
-      "forbiddenInLine": [
-        "cakra",
-        "energy centre"
-      ],
-      "rationale": "Keeps the plain image apart from the subtle-body cakras. Munidatta reads the moon and the sun (cp.14.m5) but says nothing about the wheels, so no reading is recorded."
-    },
-    {
-      "id": "srsti-samhara",
-      "type": "term",
-      "en": "creation and destruction",
-      "policy": "translate",
-      "alt": [
-        "making and unmaking"
-      ],
-      "forms": [
-        {
-          "lang": "oben",
-          "script": "সিঠিসংহার",
-          "translit": "siṭhisaṃhāra",
-          "att": "AS",
-          "where": "cp.14.4a"
-        },
-        {
-          "lang": "san",
-          "script": "সৃষ্টিসংহার",
-          "translit": "sṛṣṭisaṃhāra",
-          "att": "AS",
-          "where": "cp.14.m5"
-        }
-      ],
-      "match": [
-        {
-          "lang": "oben",
-          "form": "সিঠিসংহার"
-        },
-        {
-          "lang": "san",
-          "form": "সৃষ্টিসংহার"
-        }
-      ],
-      "definition": "The pair creation (sṛṣṭi) and destruction or withdrawal (saṃhāra): the coming into being and dissolution of a world. In this song the phrase stands beside the pulinda after the moon and sun are named as two wheels; Munidatta says the moon, the sun and the pulinda bring about the creation and destruction of saṃsāra.",
-      "symbolicImage": "",
-      "symbolicReadings": [],
-      "forbiddenInLine": [],
-      "rationale": "A fixed pair shared by song and commentary; one rendering for both helps the woven commentary line up with the verse."
-    }
-  ],
+  "proposals": [],
   "questions": [
-    "Line 1b: I read buṛilī as 'immersed', describing the Mātaṅgī, and divide poiālīle as poiā līle, 'the young one' + 'with ease'. Alternatives: buṛilī as the object ('the drowning one'), or poiālī connected with pota 'boat'. Which analysis do you want, and should 'immersed' be 'sunk' to echo buṛai 'sink' in 5b?",
-    "Refrain: Munidatta hears the vocative Ḍombī as the poet addressing himself (cp.14.m3). I marked it with dombi (the Ḍom woman), not p-dombi. Do you agree?",
-    "The input marks couplet 5 as the bhaṇitā, but it has no self-naming; the poet's name occurs only in the refrain. Should the marking stand?",
-    "The song has the vernacular Jaunā; I used the approved 'Yamunā'. Would you allow 'Jaunā' as a variant in verse lines?",
-    "Line 3b: Munidatta's text says the water enters (viśati) where the song says it does not (na paisai). Should the note treat this as a lost negative in the commentary or as a real divergence? And is 'sky-scoop' acceptable for the unexplained gaaṇadukhola?",
-    "Line 3a: māṅge 'at the prow', piṭata 'at the stern' and kācchī 'rope' are my best guesses. Do you have preferred readings?",
-    "Line 4b: I turned the finite na rebai into 'Not looking to', following Munidatta's 'they do not see'. A closer line would be 'Left and right, the two ways, it does not see; row as you please.' Which do you prefer?",
-    "Line 5a: boḍī rendered 'coin'. Keep it, or keep the source word?",
-    "Line 5b: 'cannot row' rests on dividing bāhabāṇa jāi as bāhabā ṇa jāi, and 'shore after shore' is one of several readings of kulem̐ kula ('right at the shore'; 'family and all'). Please confirm or choose.",
-    "Heading: I added 'Ḍombīpāda' from the attribution the input removed from 1a. Is that right for the heading?",
-    "Line 2b: 'By the true guru's feet' keeps the literal idiom; would you prefer 'Through the true guru's grace'?",
-    "Glossary matching: the hit 'carya' in cp.14.m6 is paricaryā, 'service', not conduct, and 'citta' in cp.14.m4 and m5 occurs only inside bodhicitta (m5 spells it ṣodhicitta). These look like false matches.",
+    "Line 1b: following the Tibetan (gdol pa'i bu mo rol pas, 'the outcaste girl, in play'), I now take poiā with the Mātaṅgī ('the Mātaṅgī girl') and līle as 'in play', which leaves the line without an object; the previous draft had 'ferries the young one across with ease'. Which do you want? 'The Mātaṅgī girl' is doubly feminine; 'the young Mātaṅgī' is an alternative. I kept 'immersed' for buṛilī (the Tibetan has zhugs, 'having entered').",
+    "Line 2a: I changed 'it has grown late on the way' to 'the way has cleared', on the Tibetan lam ni drang po, 'the road is straight', and Munidatta's 'once the boat-path has been reached' (cp.14.m3). The earlier rendering rested on his 'why is there delay?'. Which do you prefer?",
+    "Line 1a: the Tibetan reads a river (gtsang po 'bab, 'a river flows') where the Bengali, as Munidatta reads it, has a boat. I kept 'boat' and flagged the line. Do you agree?",
+    "Refrain: Munidatta hears the vocative Ḍombī as the poet addressing himself (cp.14.m3). I marked it with dombi (the Ḍom woman), not p-dombi. The Tibetan does not settle it: it transliterates Dom+bi in the line and in the self-address of cp.14.m3, and translates Ḍombī as g.yung mo only at cp.14.m2. Do you agree with dombi?",
+    "Couplet 5: the input marks it as the bhaṇitā, but the Bengali has no self-naming in it, while the Tibetan has Dom+bi in 5a. Should the marking stand, and may the note suggest that the Tibetan preserves the name there?",
+    "Line 3b: the Tibetan of Munidatta's comment has the negative (mi 'jug pa'o, 'does not enter') where the printed Sanskrit has 'enters' (viśati), so I now treat it as a negative lost from the Sanskrit rather than a real divergence. Is 'sky-scoop' still acceptable for gaaṇadukhola, given the Tibetan ko ba, a hide or leather vessel? 'Sky-bucket' is the alternative.",
+    "Line 3a: māṅge 'at the prow', piṭata 'at the stern' and kācchī 'rope' are my best guesses; the Tibetan confirms 'at the back' and 'tied' but has no prow. The Tibetan also reads 'five oar-holders' (skya ba 'dzin pa lnga). Should the keruala entry mention 'oarsman' as a possible sense? I kept 'oar' as the glossary has it.",
+    "Line 4b: I turned the finite na rebai into 'Not looking to'. The Tibetan has 'not thinking of' and, for the second half, 'flows on without a break' instead of 'row as you please'. A closer line would be 'Left and right, the two ways, it does not see; row as you please.' Which do you prefer?",
+    "Line 4a: the Tibetan renders saṃhāra as sdud pa, 'gathering in'. Should 'creation and withdrawal' be allowed as a variant of srsti-samhara, or is 'creation and destruction' to stand everywhere?",
+    "Line 5a: boḍī is rendered 'coin'. Keep it, or keep the source word? I also changed 'freely' to 'of her own accord', after the Tibetan rang gi 'dod pas, 'by her own wish'.",
+    "Line 5b: the Tibetan has no chariot (de la zhugs nas, 'having boarded it'); I kept the chariot of the Bengali. Please confirm 'cannot row' (bāhabā ṇa jāi, now supported by the Tibetan negative bgrod mi shes pa) and 'shore after shore' (supported by phan tshun, 'here and there').",
+    "Line 2b: 'By the true guru's feet' keeps the literal idiom; the Tibetan has 'through the kindness of the holy guru's feet'. Would you prefer 'Through the true guru's grace'?",
+    "Glossary matching: false hits remain after the change. In the commentary, 'carya' in cp.14.m6 is paricaryā, 'service'; 'bhaga' in cp.14.m6 is inside bhagavatī, 'the Blessed Lady' (which may belong under p-bhagavat); 'citta' in cp.14.m5 is inside ṣodhicitta, the manuscript's spelling of bodhicitta, which the bodhicitta entry therefore misses. In the Tibetan, camana (nyi ma) and dhamana (zla ba) on 4a are simply 'sun' and 'moon' here, and boat (gru) on 3a is a word the Tibetan has where the Bengali has none, unless it renders māṅge.",
     "I used the plural 'oars' as the surface form for keruala (approved 'oar'). Is an inflected surface acceptable?"
   ],
   "provenance": {
     "mode": "session",
     "model": "claude (Claude Code session)",
-    "date": "2026-09-26",
-    "packSha": "b6d81202cb6a20c228b78ec67407c5fdd532d3e0ab408a36c8d432bd18b55b92",
+    "date": "2026-09-27",
+    "packSha": "b0c024fc1a4c431ed4b3d05f666befdcaf6b41bad3e1d8aa1730324fda576916",
     "prompts": {
       "system": 1,
-      "text": 2,
+      "text": 4,
       "task": 1
     },
-    "glossarySha": "60f8da1cf23f009fcc11894fa4864eb27eab4a88507af00c7f6cc90f4d35f430",
+    "glossarySha": "3f93f13dc7db3772ce2abb49ceb369eb435a2c95ea9ec0be517777b48603834a",
     "sourceSha": "ac0766c33fbb2f68a6a32782aedeb12679537205c437bf659bd2607ad7227b17"
   }
 }

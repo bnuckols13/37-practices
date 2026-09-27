@@ -1,7 +1,7 @@
 {
   "unit": "cp.01",
   "title": "The Five-Branched Tree",
-  "summary": "The song opens with the body as a fine tree with five branches, and with Death entering the restless mind; it questions the use of samādhis, tells the listener to ask the guru and to hold close to the side of emptiness, and ends with Lūyī seated on dhamaṇa and camaṇa, having seen in meditation. Munidatta reads the five branches as the five aggregates and Death as Rāhu, who dries up the moon of conventional bodhicitta; he reads dhamaṇa and camaṇa as āli and kāli, the vowel and consonant series, and cites the Dvikalpa calling their union Vajrasattva's seat.",
+  "summary": "The song opens with the body as a fine tree with five branches, and with Death entering the restless mind; it asks what all the samādhis achieve, tells the listener to ask the guru, to let go of the bonds of metre and to take up the noose on the side of emptiness, and ends with Lūyī seated on dhamaṇa and camaṇa, having seen in meditation. Munidatta reads the five branches as the five aggregates and Death as Rāhu, who dries up the moon of conventional bodhicitta; he reads dhamaṇa and camaṇa as āli and kāli, the vowel and consonant series, and cites the Dvikalpa calling their union Vajrasattva's seat. The Tibetan translation writes some of these readings into the song itself, with Rāhu in 1b and the moon and sun in 5b.",
   "lines": [
     {
       "id": "cp.01.1a",
@@ -18,7 +18,12 @@
         {
           "kind": "grammar",
           "level": "low",
-          "note": "vi (printed bi; Apabhraṃśa vi < Skt api) is taken as an emphatic particle and left untranslated. It could mean 'also' ('five branches too'), which adds nothing clear here. Munidatta does not gloss it. The machine transliteration's tarubara is corrected to taruvara (Skt taruvara)."
+          "note": "vi (printed bi; Apabhraṃśa vi < Skt api) is taken as an emphatic particle and left untranslated. It could mean 'also' ('five branches too'), which adds nothing clear here. Munidatta does not gloss it, and the Tibetan translation (lus ljon shing mchog yan lag rnam lnga la) has nothing for it. The machine transliteration's tarubara is corrected to taruvara (Skt taruvara; the Tibetan ljon shing mchog, 'best of trees', agrees)."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line ends in the particle la ('on, in'), so it reads 1a as leading into 1b ('On the body, the best of trees with its five branches, Rāhu enters the restless mind') rather than as a sentence of its own. The Bengali kāā has no case ending, and the English keeps 1a as a sentence."
         }
       ]
     },
@@ -41,14 +46,19 @@
         {
           "kind": "term",
           "level": "medium",
-          "note": "kāla means both 'time' and 'death'. The approved rendering 'Death' is used. Munidatta's reading (Rāhu working through the sequence of lunar days, and the 'fire of time' in the verse of Kṛṣṇācārya he quotes, cp.01.m2) keeps the sense 'time' in view; 'Time' would be the alternative."
+          "note": "kāla means both 'time' and 'death'. The approved rendering 'Death' is used. Munidatta's reading (Rāhu working through the sequence of lunar days, and the 'fire of time' in the verse of Kṛṣṇācārya he quotes, cp.01.m2) keeps the sense 'time' in view. So does the Tibetan commentary, which renders his sa eva kālaḥ ('he is Kāla') as de nyid kyi dus su ('at that very time') and kālāgni as dus kyi me ('fire of time'). 'Time' would be the alternative."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan translation reads sgra gcan, 'Rāhu', where the Bengali has kāla (g.yo ba'i sems la sgra gcan rab tu 'jug, 'Rāhu enters the restless mind'). This writes Munidatta's identification into the line rather than attesting a different Bengali word, so the English keeps the Bengali; the kala entry forbids 'Rāhu' inside the line. The Tibetan verb is present (rab tu 'jug, 'enters'), where paiṭho is a past participle ('has entered'). See the witness note."
         }
       ]
     },
     {
       "id": "cp.01.2a",
       "translit": "diṭa karia mahāsuha parimāṇa",
-      "gloss": "firm · having-made · great-bliss · measure (imper.)",
+      "gloss": "firm · having-made · great-bliss · measure (imper.? or noun)",
       "en": "Make it firm, and take the measure of [great bliss]{mahasukha}.",
       "terms": [
         {
@@ -60,12 +70,12 @@
         {
           "kind": "grammar",
           "level": "medium",
-          "note": "The object of diṭa karia 'having made firm' is not expressed, so the English supplies 'it'. Chosen: parimāṇa as an imperative parallel to jāṇa in 2b (absolutive + imperative in both halves), as Munidatta takes it (dṛḍhaṃ yathā bhavati tathā mahāsukhaṃ ... tvaṃ parimāṇaya, cp.01.m3). Alternatives: 'make great bliss firm and take its measure', or parimāṇa as a noun, 'make firm the measure of great bliss'."
+          "note": "The object of diṭa karia 'having made firm' is not expressed, so the English supplies 'it'. Chosen: parimāṇa as an imperative parallel to jāṇa in 2b (absolutive + imperative in both halves), as Munidatta takes it (dṛḍhaṃ yathā bhavati tathā mahāsukhaṃ ... tvaṃ parimāṇaya, cp.01.m3). The Tibetan translation reads it the other way: brtan par mdzod cig bde chen yongs kyi tshad, 'make firm the full measure of great bliss', with the imperative on 'make firm' and parimāṇa as a noun (yongs kyi tshad, a calque of pari-māṇa); its commentary likewise calls great bliss 'the measure of all' (kun gyi tshad ma). On that reading the English would be 'Make firm the full measure of great bliss.' Another alternative: 'make great bliss firm and take its measure'."
         },
         {
           "kind": "meaning",
           "level": "low",
-          "note": "diṭa is read as 'firm' (Skt dṛḍha) with Munidatta. 'Seen' (dṛṣṭa) is less likely, since 5a writes diṭhā with ṭh for 'seen'. parimāṇa could also be rendered 'gauge' or 'ascertain'."
+          "note": "diṭa is read as 'firm' (Skt dṛḍha) with Munidatta and the Tibetan (brtan par). 'Seen' (dṛṣṭa) is less likely, since 5a writes diṭhā with ṭh for 'seen'. parimāṇa could also be rendered 'gauge' or 'ascertain'."
         }
       ]
     },
@@ -88,15 +98,15 @@
         {
           "kind": "grammar",
           "level": "low",
-          "note": "guru is singular in the English; Munidatta paraphrases with the honorific plural śrīgurūn (cp.01.m3). jāṇa 'know' has no object, and the English leaves it without one."
+          "note": "guru is singular in the English. Munidatta paraphrases with the honorific plural śrīgurūn (cp.01.m3), but the Tibetan line (lU yis smras pa bla ma la zhus mkhyen) and its commentary (dpal ldan bla ma la) have no plural marker. jāṇa 'know' has no object, and the English leaves it without one; the Tibetan mkhyen ('know', honorific) has none either."
         }
       ]
     },
     {
       "id": "cp.01.3a",
       "translit": "saala samāhia kāhi kariai",
-      "gloss": "all · samādhi(s) · for-what/why · is-done",
-      "en": "Why practise all the [samādhis]{samadhi}?",
+      "gloss": "all · samādhi(s) (instr.?) · what · is-done",
+      "en": "What do all the [samādhis]{samadhi} achieve?",
       "terms": [
         {
           "id": "samadhi",
@@ -107,12 +117,12 @@
         {
           "kind": "reading",
           "level": "low",
-          "note": "The syllable mā in sa[mā]hia is Shastri's restoration of damaged text; Munidatta's lemma saala samāhī (cp.01.m4) supports it."
+          "note": "The syllable mā in sa[mā]hia is Shastri's restoration of damaged text. Munidatta's lemma saala samāhī (cp.01.m4) supports it, and the Tibetan translation's ting 'dzin ('samādhi') confirms it."
         },
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "kāhi kariai is literally 'for what is (it) done?'. Chosen: 'Why practise all the samādhis?'. Alternative: 'What do all the samādhis achieve?', closer to Munidatta's paraphrase that nothing is accomplished by them on the way of great passion (kiñcin na kriyate, cp.01.m4)."
+          "note": "kāhi kariai is literally 'what is done?'. Changed from the previous draft's 'Why practise all the samādhis?' to 'What do all the samādhis achieve?'. The Tibetan translation (ma lus ting 'dzin rnams kyis ci zhig bya, 'what is to be done with all the samādhis?', the usual Tibetan way of asking what use something is) agrees with Munidatta (samādhibhiḥ ... kiñcin na kriyate, 'nothing is done by those samādhis', cp.01.m4) in taking the samādhis as the means (instrumental) and kāhi as 'what'. Alternatives: 'What use are all the samādhis?', or 'Why practise all the samādhis?', taking kāhi as 'why' and the samādhis as object."
         }
       ]
     },
@@ -127,59 +137,73 @@
           "kind": "grammar",
           "level": "low",
           "note": "dukhetem̐ may be instrumental ('through pleasure and pain', chosen) or locative ('in pleasure and pain'). mariāi is read as impersonal 'one dies'; it could be third plural 'they die', as in Munidatta's paraphrase (mriyante, cp.01.m4)."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation has a different line: bde ba rtsa nas bton na nges par 'chi, 'if bliss is pulled out by the root, one is sure to die'. It has 'bliss' (bde ba) and 'is sure to die' (nges par 'chi = nicita mariāi), but nothing for 'pain' (dukhetem̐), and it makes the line conditional. That reading fits Munidatta's argument that the samādhis lack bliss better than the printed Bengali does. It may reflect another reading in the translators' manuscript, or wording taken from Munidatta's paraphrase, which speaks of those deprived of great bliss 'through its destruction' (mahāsukhāvaghātena, cp.01.m4), as the Tibetan takes over his glosses at 1b and 5b. The Bengali is clear as printed, so the English follows it."
         }
       ]
     },
     {
       "id": "cp.01.4a",
       "translit": "eṛieu chāndaka bāndha karaṇaka pāṭera āsa",
-      "gloss": "let-go (imper.?) · of-chanda (desire?) · bond · of-karaṇa (practice?) · of-pāṭa (rule? board?) · hope",
-      "en": "Let go of the bond of desire and of hope in the rules of practice.",
+      "gloss": "let-go (imper.) · of-chanda (metre? desire?) · bond · of-karaṇa (practice? doing?) · of-pāṭa (rule? board?) · hope",
+      "en": "Let go of the bonds of metre and of hope in the rules of practice.",
       "terms": [],
       "flags": [
         {
           "kind": "meaning",
           "level": "high",
-          "note": "chāndaka bāndha is 'the bond of chanda'. chanda is taken in its common Sanskrit sense 'desire, will' (chosen). Alternatives: Skt chandas 'metre' (chandobandha is 'versification', which would make the line a rejection of composing verse), or Bengali chā̃d 'tether', giving 'the tie of the tether'. Munidatta simply repeats chanda (cp.01.m5)."
+          "note": "chāndaka bāndha is 'the bond of chanda'. Changed from the previous draft's 'desire' to 'metre', because the Tibetan translation reads sdeb sbyor, 'versification', in the line and 'the six metres' (sdeb sbyor drug) in its commentary (cp.01.m5). Sanskrit chandobandha means composing in metre, so the line would tell the listener to give up the craft of verse. Munidatta simply repeats chanda, in a list of 'bonds' with oḍḍiyāna and karaṇa. Alternatives: 'desire' (Skt chanda; the previous choice, which no witness supports), Bengali chā̃d 'tether' ('the tie of the tether'), or a yogic 'lock' (bandha), if Munidatta's list is meant as yogic techniques."
         },
         {
           "kind": "term",
           "level": "high",
-          "note": "karaṇaka pāṭera āsa: karaṇa is 'doing, instrument', also a sense organ, and in yogic usage a technique or posture; pāṭa is unclear ('board, seat', 'silk', 'reading', or, as guessed here, 'method, order', compare Skt pāṭī, paripāṭī); āsa is taken as 'hope' (āśā), though 'seat' or 'reliance' is possible. 'Hope in the rules of practice' is a guess. Munidatta's gloss lists 'the bonds such as oḍḍiyāna and karaṇa' and does not explain pāṭa or āsa (cp.01.m5)."
+          "note": "karaṇaka pāṭera āsa: karaṇa is 'doing, instrument', also a sense organ, a yogic technique or posture, or a dance movement in Indian dramaturgy; pāṭa is unclear ('board, seat', 'silk', 'reading', or, as guessed here, 'method, order', compare Skt paripāṭī, which Munidatta uses in cp.01.m3); āsa is taken as 'hope' (āśā), though 'seat' or 'reliance' is possible. 'Hope in the rules of practice' is a guess. The Tibetan has byed cing g.yo sgyu'i blo, 'doing, and a mind of guile': it seems to take karaṇa as 'doing' with the preceding words ('composing verse'), and to divide karaṇa kapāṭera, reading kapaṭa 'deceit', with āsa as 'mind' (blo; perhaps āśaya 'intent'). On that reading the line would be 'Give up composing verse and the thought of deceit.' The English keeps Shastri's word division, which the parallel genitives chāndaka ... karaṇaka support."
         },
         {
           "kind": "grammar",
           "level": "medium",
-          "note": "eṛieu is read as an imperative ('let go'), parallel to lāhu in 4b and probably plural like it. Munidatta renders it with an absolutive, vihāya 'having abandoned', leading to an imperative (cp.01.m5). The ending -eu is unusual."
+          "note": "eṛieu is read as an imperative ('let go'), parallel to lāhu in 4b and probably plural like it. Munidatta renders it with an absolutive, vihāya 'having abandoned', leading to an imperative (cp.01.m5); the Tibetan has the imperative spongs shig, 'give up!'. The ending -eu is unusual."
         }
       ]
     },
     {
       "id": "cp.01.4b",
       "translit": "sunupākha bhiti lāhu re pāsa",
-      "gloss": "emptiness-side · pressing-close? · take (imper.) · O (vocative) · near/beside",
-      "en": "Press close to the side of [emptiness]{sunyata} and hold it near, friends!",
+      "gloss": "emptiness-side · pressing-close? · take (imper. pl.) · O (vocative) · noose (or: near)",
+      "en": "Press close to the side of [emptiness]{sunyata} and take up the [noose]{noose}, friends!",
       "terms": [
         {
           "id": "sunyata",
           "src": "সুনুপাখ"
+        },
+        {
+          "id": "noose",
+          "src": "পাস"
         }
       ],
       "flags": [
         {
           "kind": "meaning",
           "level": "high",
-          "note": "bhiti is unexplained. 'Press close' guesses a form like bhiḍi 'pressing against'; Skt bhitti 'wall' or bhīti 'fear' would be other candidates, neither fitting well. Munidatta's paraphrase 'make an embrace of it close by' (samīpaṃ tadīyāliṅganaṃ kuru, cp.01.m5) may cover bhiti lāhu pāsa together."
+          "note": "Changed: pāsa is now read as 'noose' (Skt pāśa), the object of lāhu 'take', where the previous draft had 'near' (Skt pārśva: '... and hold it near, friends!'). The Tibetan translation reads zhags pa, 'noose' (stong nyid phyogs la zhags pas bcing gis kye, 'bind with a noose to the side of emptiness, O!'), and its commentary says 'the dharma of selflessness is the noose' (cp.01.m5). Munidatta's own gloss contains the word pāśam, and the noun reading gives lāhu an object. The previous reading divided his gloss as pāśam iti samīpam, 'pāśa means near'; that stays possible. 'Take up the noose' may suggest hanging to some readers; 'take the snare' is an alternative."
+        },
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "bhiti is unexplained. 'Press close' guesses a form like bhiḍi 'pressing against', and matches Munidatta's 'make a close embrace of it' (samīpaṃ tadīyāliṅganaṃ kuru, cp.01.m5). The Tibetan has nothing that clearly renders it: its la ('to, toward') may take bhiti as a postposition ('toward the side of emptiness'), and its only verb is bcing, 'bind'. Skt bhitti 'wall' and bhīti 'fear' fit poorly."
         },
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "pākha (Skt pakṣa) is 'side' (chosen) or 'wing'; it can also mean 'position, party'. Munidatta renders śūnyatāpakṣa (cp.01.m5). pāsa is taken as 'near, at the side' (Skt pārśva) with Munidatta's samīpam."
+          "note": "pākha (Skt pakṣa) is 'side' (chosen) or 'wing'; it can also mean 'position, party'. Munidatta renders śūnyatāpakṣa (cp.01.m5), and the Tibetan phyogs ('side, direction, party', not 'wing') supports 'side'."
         },
         {
           "kind": "grammar",
           "level": "low",
-          "note": "re is a vocative particle (Munidatta: 're is a form of address', cp.01.m5). Rendered 'friends' because the verbs look plural and Munidatta's address is plural (bho mokṣaśīlāḥ); a bare exclamation or 'you' are alternatives."
+          "note": "re is a vocative particle (Munidatta: 're is a form of address', cp.01.m5; the Tibetan has kye). Rendered 'friends' because the verbs look plural (lāhu, imperative in -hu) and Munidatta's address is plural (bho mokṣaśīlāḥ). The Tibetan commentary's address (kye'i thar pa'i ngang tshul) has no plural marker, which proves little in Tibetan. A bare exclamation or 'you' are alternatives."
         }
       ]
     },
@@ -198,19 +222,24 @@
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "sāṇe is obscure. 'In meditation' follows Munidatta's paraphrase dhyānavaśena 'by force of meditation' (cp.01.m6). A sense 'with, together' (compare later Bengali sane) or 'by a sign' is conceivable but unsupported."
+          "note": "sāṇe is obscure. 'In meditation' follows Munidatta's paraphrase dhyānavaśena 'by force of meditation' (cp.01.m6). The Tibetan also reads 'meditation' (bsam gtan nyid kyis, 'by meditation itself'), but its commentary quotes Munidatta's phrase as the lemma (bsam gtan dbang gis), so it may follow him rather than attest the word independently. A sense 'with, together' (compare later Bengali sane) or 'by a sign' is conceivable but unsupported."
         },
         {
           "kind": "grammar",
           "level": "low",
-          "note": "āmhe is formally plural 'we', used for 'I' (Munidatta: mayā 'by me'). diṭhā 'seen' has no object in the song; Munidatta supplies coupled union (yuganaddharūpaṃ dṛṣṭaṃ, cp.01.m6). The English leaves 'seen' without an object."
+          "note": "āmhe is formally plural 'we', used for 'I' (Munidatta: mayā 'by me'; Tibetan bdag gi 'my'). diṭhā 'seen' has no object in the song or in the Tibetan (mthong); Munidatta supplies coupled union (yuganaddharūpaṃ dṛṣṭaṃ, cp.01.m6). The English leaves 'seen' without an object."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line has no verb for bhaṇai 'says' (lU yi bdag gi bsam gtan nyid kyis mthong, roughly 'I, Lūyī, saw by my own meditation'). The English keeps 'says', which the Bengali has."
         }
       ]
     },
     {
       "id": "cp.01.5b",
       "translit": "dhamaṇa camaṇa beṇi pāṇḍi baiṇa",
-      "gloss": "dhamaṇa · camaṇa · both/two · seat? · sat",
+      "gloss": "dhamaṇa · camaṇa · both/two · seat? (or: having laid down) · sat",
       "en": "I sat with [dhamaṇa]{dhamana} and [camaṇa]{camana}, the two, as my seat.",
       "terms": [
         {
@@ -226,17 +255,17 @@
         {
           "kind": "reading",
           "level": "medium",
-          "note": "Printed baiṇa breaks the rhyme with diṭhā at the end of 5a, while every other couplet rhymes (ḍāla/kāla, parimāṇa/jāṇa, kariai/mariāi, āsa/pāsa). Reading baiṭhā 'seated' would restore the rhyme and matches Munidatta's upaviṣṭaḥ (cp.01.m6). The English 'I sat' serves either reading; the transliteration keeps the printed form."
+          "note": "Printed baiṇa breaks the rhyme with diṭhā at the end of 5a, while every other couplet rhymes (ḍāla/kāla, parimāṇa/jāṇa, kariai/mariāi, āsa/pāsa). Reading baiṭhā 'seated' would restore the rhyme and matches Munidatta's upaviṣṭaḥ (cp.01.m6). The Tibetan ends with a verb of sitting (steng du sdod, 'sit on top'; the verse as given has sdong, probably an error for sdod, the verb its commentary uses), which fits baiṭhā but would fit any verb meaning 'sat'. The English 'I sat' serves either reading; the transliteration keeps the printed form."
         },
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "pāṇḍi is uncertain; 'seat' follows Munidatta's āsanaṃ kṛtvā 'making a seat' (cp.01.m6). āsana can also mean 'posture'. beṇi is taken as 'both, the two'."
+          "note": "pāṇḍi is uncertain; 'seat' follows Munidatta's āsanaṃ kṛtvā 'making a seat' (cp.01.m6). The Tibetan has phab, 'laid down, spread' (as a seat is spread), which takes pāṇḍi as a verb, perhaps related to Bengali pāṛ- 'lay down, spread'; on that reading the line would be 'I laid down dhamaṇa and camaṇa, the two, and sat.' Both witnesses make the two into the seat, so the English is kept. āsana can also mean 'posture'. beṇi is taken as 'both, the two' (Tibetan gnyis)."
         },
         {
           "kind": "term",
           "level": "medium",
-          "note": "dhamaṇa and camaṇa are kept in source form because their literal sense is unknown (perhaps Skt dhamana 'blowing', camana 'sipping'). Munidatta spells them dhavana and cavaṇa and reads them as āli and kāli (cp.01.m6); that reading stays in the notes."
+          "note": "dhamaṇa and camaṇa are kept in source form because their literal sense is unknown (perhaps Skt dhamana 'blowing', camana 'sipping'). Munidatta spells them dhavana and cavaṇa and reads them as āli and kāli (cp.01.m6). The Tibetan translation replaces them with his gloss, zla ba 'moon' and nyi ma 'sun'. Both glossary entries forbid 'moon' and 'sun' inside the line, so the English keeps the Bengali words, and the readings stay in the notes."
         }
       ]
     }
@@ -245,7 +274,7 @@
     {
       "anchor": "cp.01",
       "kind": "witness",
-      "text": "Heading: Rāga Paṭamañjarī · Lūyīpāda. Munidatta's comment on the song opens with the rāga name, rāgapaṭamañjarī (cp.01.m2). Shastri's edition prints dhru, the cue to sing the refrain again, after lines 2b, 3b, 4b and 5b; it is not translated.",
+      "text": "Heading: Rāga Paṭamañjarī · Lūyīpāda. Munidatta's comment on the song opens with the rāga name, rāgapaṭamañjarī (cp.01.m2). The Tibetan translation (Toh 2293) gives it as pa Ta ha'i snye ma, transliterating paṭaha ('drum') and translating mañjarī ('spray of blossoms') as snye ma, as though the name were Paṭahamañjarī. Shastri's edition prints dhru, the cue to sing the refrain again, after lines 2b, 3b, 4b and 5b; it is not translated.",
       "cites": [
         "cp.01.m2"
       ]
@@ -262,6 +291,14 @@
       "anchor": "cp.01",
       "kind": "doctrine",
       "text": "Munidatta introduces the song by saying that the siddha master Lūyī, wishing to rescue helpless beings sunk in an ocean of great delusion about the two truths, and moved by his vow, composed in the vernacular (prākṛta), under the guise of the body-tree, a pedestal of pure reality (cp.01.m2).",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01",
+      "kind": "witness",
+      "text": "Where Munidatta's introduction has Lūyī compose 'in the vernacular' (prākṛ[ta]bhāsayā, with ta restored by Shastri), the Tibetan translation (Toh 2293) does not mention the vernacular. It says he spoke of the body-tree 'in intentional words' (dgongs pa'i tshig gis), applying it to 'the appearance of the nature of the ground' (gzhi'i rang bzhin gyi snang ba). It seems to take the phrase as prakṛti, 'nature', and ābhāsa, 'appearance', rather than prākṛta bhāṣā, 'the vernacular' (cp.01.m2).",
       "cites": [
         "cp.01.m2"
       ]
@@ -290,6 +327,14 @@
     },
     {
       "anchor": "cp.01.1b",
+      "kind": "witness",
+      "text": "Where the Bengali has kāla, the Tibetan translation (Toh 2293) reads sgra gcan, 'Rāhu': g.yo ba'i sems la sgra gcan rab tu 'jug, 'Rāhu enters the restless mind'. It writes Munidatta's identification of Kāla with Rāhu into the song. In its commentary his sentence sa eva kālaḥ, 'he is Kāla', appears as de nyid kyi dus su, 'at that very time'; and where the Sanskrit as printed calls Rāhu acyutirūpa, 'whose form is not falling', the Tibetan speaks of 'the leaking of the ordinary mind' (tha mal pa'i sems 'dzag pa), as if its manuscript read cyuti, 'falling' (cp.01.m2). The English follows the Bengali.",
+      "cites": [
+        "cp.01.m2"
+      ]
+    },
+    {
+      "anchor": "cp.01.1b",
       "kind": "doctrine",
       "text": "Munidatta identifies Kāla with Rāhu, the eclipse demon, who enters on the first day of the dark fortnight and dries up 'the moon of conventional bodhicitta' through the succession of lunar days (nandā, bhadrā, jayā, riktā, pūrṇā). He supports this with a verse of Kṛṣṇācārya in which the pure water dries up when the fire of time enters, a Rativajra verse asking how there can be flawless accomplishment once bodhicitta has fallen, and a Sampuṭodbhava verse in which the Vajra-holder calls the restless, concept-clouded mind saṃsāra. He concludes that those who seek the fruit of innate joy through the Blessed One's five stages realize the vajra-like samādhi, and cites Āryadeva: without the five stages in order, completion-stage awakening cannot be realized (cp.01.m2).",
       "cites": [
@@ -299,7 +344,7 @@
     {
       "anchor": "cp.01.2",
       "kind": "philology",
-      "text": "The refrain is built in two parallel halves: karia and pucchia are absolutives ('having made', 'having asked'); parimāṇa and jāṇa are imperatives, which Munidatta renders parimāṇaya and jānīhi (cp.01.m3). diṭa is Munidatta's dṛḍham, 'firm'. The poet names himself in the refrain as well as in the last couplet.",
+      "text": "The refrain is built in two parallel halves: karia and pucchia are absolutives ('having made', 'having asked'); parimāṇa and jāṇa are taken as imperatives, which Munidatta renders parimāṇaya and jānīhi (cp.01.m3). diṭa is Munidatta's dṛḍham, 'firm'. The Tibetan translation (Toh 2293) reads 2a differently: brtan par mdzod cig bde chen yongs kyi tshad, 'make firm the full measure of great bliss', with the imperative on 'make firm' and parimāṇa as a noun, 'measure' (yongs kyi tshad). Its commentary likewise says that great bliss, the fourth joy, is 'the measure of all' (kun gyi tshad ma). In 2b it has bla ma la zhus mkhyen, 'ask the guru and know'. The poet names himself in the refrain as well as in the last couplet.",
       "cites": [
         "cp.01.m3"
       ]
@@ -319,6 +364,22 @@
       "cites": []
     },
     {
+      "anchor": "cp.01.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads ma lus ting 'dzin rnams kyis ci zhig bya, 'what is to be done with all the samādhis?', the usual Tibetan way of asking what use something is. Its ting 'dzin, 'samādhi', confirms Shastri's restoration sa[mā]hia, and like Munidatta it takes the samādhis as the means by which something might be done (cp.01.m4).",
+      "cites": [
+        "cp.01.m4"
+      ]
+    },
+    {
+      "anchor": "cp.01.3b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads this line differently: bde ba rtsa nas bton na nges par 'chi, 'if bliss is pulled out by the root, one is sure to die'. It has 'bliss' (bde ba) and 'is sure to die' (nges par 'chi), but nothing for 'pain' (dukhetem̐), and it makes the line conditional. Its commentary repeats the phrase before saying that Buddhists and tīrthikas, separated from the reality of great bliss, undergo much suffering, are born and die; at that point Munidatta's Sanskrit speaks of the 'destruction of great bliss' (mahāsukhāvaghātena) (cp.01.m4). Whether the translators' manuscript read another word here or they drew on the commentary cannot be told from the Tibetan alone. The English follows the Bengali.",
+      "cites": [
+        "cp.01.m4"
+      ]
+    },
+    {
       "anchor": "cp.01.3",
       "kind": "doctrine",
       "text": "Munidatta takes the couplet as praise of the samādhi of the way of great passion. The countless absorptions the Blessed One taught for avoiding the ten non-virtues and restraining the senses, and harsh observances such as fasting, achieve nothing on that way, because they lack bliss. He cites the Guhyasamāja (harsh observances dry up and pain the body, pain distracts the mind, and distraction defeats accomplishment), the Hevajra (the world is bound by passion and freed by passion itself), and Saraha (how could the tender sprout of mind become the wish-granting tree if not watered with the pure juices of sense objects?). He applies the dying of 3b to Buddhists and tīrthikas who lack great bliss: they undergo many sufferings, are born and die, and have no share in it (cp.01.m4).",
@@ -329,7 +390,23 @@
     {
       "anchor": "cp.01.4",
       "kind": "philology",
-      "text": "chāndaka and karaṇaka are genitives in -ka, pāṭera a genitive in -era. Munidatta glosses 4a as 'abandoning chanda and the bonds such as oḍḍiyāna and karaṇa' (cp.01.m5). Oḍḍiyāna has no counterpart in the line as printed. Bandha and karaṇa are technical terms for bodily locks and postures in later haṭha yoga, and Oḍḍiyāna is also the name of a tantric site; the segment does not say which he has in mind. The English keeps the plain senses 'bond' and 'practice'. For 4b he renders sunupākha as śūnyatāpakṣa and explains pāsa as 'near' (samīpam).",
+      "text": "chāndaka and karaṇaka are genitives in -ka, pāṭera a genitive in -era. Munidatta glosses 4a as 'abandoning the bonds such as chanda, oḍḍiyāna and karaṇa' (cp.01.m5). Oḍḍiyāna has no counterpart in the line as printed or in the Tibetan translation. Bandha and karaṇa are technical terms for bodily locks and postures in later haṭha yoga, and Oḍḍiyāna is also the name of a tantric site; the segment does not say which he has in mind. The English takes chanda as 'metre', with the Tibetan, and keeps the plain senses 'bond' and 'practice'. For 4b he renders sunupākha as śūnyatāpakṣa, 'the side of emptiness'. His next words, nairātmadharmmapāśamiti samīpaṃ tadīyāliṅganaṃ kuru, can be divided as 'the noose of the nature of selflessness: embrace it closely', or as 'the nature of selflessness; pāśa means near: embrace it'. The Tibetan translation of his comment takes the first division, and the English reads pāsa as 'noose'.",
+      "cites": [
+        "cp.01.m5"
+      ]
+    },
+    {
+      "anchor": "cp.01.4a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads spongs shig sdeb sbyor byed cing g.yo sgyu'i blo, 'give up composing verse and the scheming mind'. It takes chanda as metre (sdeb sbyor, 'versification') and karaṇa as 'doing, making' (byed), and where the Bengali has pāṭera āsa it has g.yo sgyu'i blo, 'a mind of guile', as though it divided the words karaṇa kapāṭera and read kapaṭa, 'deceit'. Its commentary likewise speaks of being free of the bonds 'the six metres (sdeb sbyor drug), practising deceit (g.yo sgyu byed pa) and so on', with nothing for Munidatta's oḍḍiyāna (cp.01.m5).",
+      "cites": [
+        "cp.01.m5"
+      ]
+    },
+    {
+      "anchor": "cp.01.4b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads stong nyid phyogs la zhags pas bcing gis kye, 'bind with a noose to the side of emptiness, O!'. It takes pāsa as zhags pa, 'noose' (Skt pāśa), and pākha as phyogs, 'side'. Its commentary says 'the dharma of selflessness is the noose (bdag med pa'i chos ni zhags pa): embrace it closely here' (nye bar 'khyud par gyis shig), and explains kye as an address, 'O you of the nature of liberation' (thar pa'i ngang tshul) (cp.01.m5).",
       "cites": [
         "cp.01.m5"
       ]
@@ -337,15 +414,31 @@
     {
       "anchor": "cp.01.4",
       "kind": "doctrine",
-      "text": "Munidatta says the third pada is spoken to break the attachment of those fixed on false knowledge. He explains 'the side of emptiness' as the nature of selflessness (nairātmadharma) and tells the listeners, whom he addresses as 'you who are intent on liberation', to embrace it closely. He closes with a verse in which the high peaks standing on the great mountain of the view of a real self are split by the vajra of realizing selflessness (cp.01.m5).",
+      "text": "Munidatta says the third pada is spoken to break the attachment of those fixed on false knowledge. He explains 'the side of emptiness' by the nature of selflessness (nairātmadharma), which on one division of his words, and in the Tibetan translation, is the noose, and tells the listeners, whom he addresses as 'you who are intent on liberation', to embrace it closely. He closes with a verse in which the high peaks standing on the great mountain of the view of a real self are split by the vajra of realizing selflessness (cp.01.m5).",
       "cites": [
         "cp.01.m5"
+      ]
+    },
+    {
+      "anchor": "cp.01.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads lU yi bdag gi bsam gtan nyid kyis mthong, roughly 'I, Lūyī, saw by my own meditation'. It has no verb for bhaṇai, 'says', and it reads sāṇe as 'meditation' (bsam gtan, Skt dhyāna), as Munidatta does with dhyānavaśena, 'by force of meditation', a phrase its commentary quotes as a lemma (bsam gtan dbang gis) (cp.01.m6).",
+      "cites": [
+        "cp.01.m6"
       ]
     },
     {
       "anchor": "cp.01.5b",
       "kind": "philology",
       "text": "dhamaṇa and camaṇa: words of uncertain literal sense, kept in source form; together they serve as the poet's seat. They may be related to Skt dhamana 'blowing' and camana 'sipping'. Munidatta spells them dhavana and cavaṇa (cp.01.m6).",
+      "cites": [
+        "cp.01.m6"
+      ]
+    },
+    {
+      "anchor": "cp.01.5b",
+      "kind": "witness",
+      "text": "Where the Bengali has dhamaṇa and camaṇa, the Tibetan translation (Toh 2293) reads zla ba nyi ma, 'moon and sun': zla ba nyi ma gnyis phab steng du sdong, roughly 'laying down the two, moon and sun, [I] sit on them'. It takes over Munidatta's reading of the pair (āli with the purification of the moon, kāli with that of the sun), and its commentary then glosses zla ba and nyi ma, not dhavana and cavaṇa, as A li and kA li (cp.01.m6). Its phab, 'laid down, spread', reads pāṇḍi as a verb. The last word, sdong, 'trunk', is probably an error for sdod, 'sit', the verb its commentary uses (steng du sdod pa). The English follows the Bengali.",
       "cites": [
         "cp.01.m6"
       ]
@@ -359,83 +452,121 @@
       ]
     }
   ],
-  "termsOmitted": [],
-  "proposals": [
+  "termsOmitted": [
     {
-      "id": "tx-rativajra",
-      "type": "text",
-      "en": "Rativajra",
-      "policy": "keep-source",
-      "alt": [],
-      "forms": [
-        {
-          "lang": "san",
-          "script": "রতিবজ্রে",
-          "translit": "rativajre",
-          "att": "AS",
-          "where": "cp.01.m2"
-        }
-      ],
-      "match": [
-        {
-          "lang": "san",
-          "form": "রতিবজ্র"
-        }
-      ],
-      "definition": "A tantric work that Munidatta cites by the name Rativajra; it is not otherwise identified here. He quotes its verse asking how there can be flawless accomplishment once bodhicitta, the treasury of all accomplishments, has fallen and the consciousness of the aggregates has swooned (cp.01.m2).",
-      "symbolicImage": "",
-      "symbolicReadings": [],
-      "forbiddenInLine": [],
-      "rationale": "Munidatta quotes it by name; other texts he cites (Guhyasamāja, Hevajra, Sampuṭodbhava) already have entries, so the edition can link it the same way."
+      "id": "p-rahu",
+      "line": "cp.01.1b",
+      "reason": "Hit only in the Tibetan parallel (sgra gcan), which puts Rāhu in place of the Bengali kāla. The English translates the Bengali kāla as 'Death', and the kala entry forbids 'Rāhu' inside the line; Rāhu is named in the notes."
     },
     {
-      "id": "patamanjari",
+      "id": "moon",
+      "line": "cp.01.5b",
+      "reason": "Hit only in the Tibetan parallel (zla ba), which puts Munidatta's gloss in place of the Bengali dhamaṇa. The dhamana entry forbids 'moon' inside the line; the reading is in the notes."
+    },
+    {
+      "id": "surya",
+      "line": "cp.01.5b",
+      "reason": "Hit only in the Tibetan parallel (nyi ma), which puts Munidatta's gloss in place of the Bengali camaṇa. The camana entry forbids 'sun' inside the line; the reading is in the notes."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "noose",
       "type": "term",
-      "en": "Paṭamañjarī",
-      "policy": "keep-source",
-      "alt": [],
+      "en": "noose",
+      "policy": "translate",
+      "alt": [
+        "snare"
+      ],
       "forms": [
         {
-          "lang": "san",
-          "script": "রাগপটমঞ্জরী",
-          "translit": "rāgapaṭamañjarī",
+          "lang": "oben",
+          "script": "পাস",
+          "translit": "pāsa",
+          "lemma": "pāsa",
           "att": "AS",
-          "where": "cp.01.m2"
+          "where": "cp.01.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পাশম",
+          "translit": "pāśam",
+          "lemma": "pāśa",
+          "att": "AS",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞགས་པས",
+          "translit": "zhags pas",
+          "lemma": "zhags pa",
+          "att": "AO",
+          "where": "cp.01.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞགས་པ",
+          "translit": "zhags pa",
+          "lemma": "zhags pa",
+          "att": "AO",
+          "where": "cp.01.m5"
         }
       ],
       "match": [
         {
+          "lang": "oben",
+          "form": "পাস"
+        },
+        {
           "lang": "san",
-          "form": "পটমঞ্জরী"
+          "form": "পাশ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཞགས་པ"
         }
       ],
-      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which song 1 is sung, given in its heading and repeated at the start of Munidatta's comment (cp.01.m2).",
-      "symbolicImage": "",
-      "symbolicReadings": [],
-      "forbiddenInLine": [],
-      "rationale": "Each song's heading names a rāga, and rāga names can recur across songs; an entry for each keeps the headings linkable and consistently spelled."
+      "definition": "A noose or snare (Sanskrit pāśa), used to catch and bind, and in tantric art an emblem held by deities. In song 1, on this draft's reading of pāsa, the listener is told to take up the noose; the Tibetan translation reads 'noose' (zhags pa) there, and Munidatta's gloss mentions it (cp.01.m5).",
+      "symbolicImage": "a noose, taken up on the side of emptiness",
+      "symbolicReadings": [
+        {
+          "referent": "the nature of selflessness (nairātmadharma), which the listener is to embrace closely; the Tibetan translation of the comment says 'the dharma of selflessness is the noose' (the division of the Sanskrit is uncertain)",
+          "per": "Munidatta",
+          "where": [
+            "cp.01.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "selflessness",
+        "nature of selflessness",
+        "nairātmya"
+      ],
+      "rationale": "The redraft reads pāsa in 4b as 'noose', following the Tibetan translation and the pāśam in Munidatta's gloss, which makes it an image of the song; an entry keeps its rendering and reading consistent. If the reviewer prefers 'near' for pāsa, drop this proposal. The Old Bengali match form পাস will also catch pāsa 'beside' elsewhere, so hits need checking."
     }
   ],
   "questions": [
-    "Kāla (1b): I used the approved 'Death', but Munidatta's reading (Rāhu acting through the lunar days, the 'fire of time') keeps 'time' in view. Keep 'Death' here, or allow 'Time'?",
-    "4a is the least certain line. Please rule on 'desire' for chāndaka (alternatives: 'metre', as in chandobandha 'versification', or Bengali chā̃d 'tether') and on 'hope in the rules of practice' for karaṇaka pāṭera āsa, where 'rules' guesses pāṭa as 'method, order'.",
-    "4b: may re be rendered 'friends' (the verbs look plural and Munidatta's address is plural), or do you prefer a bare exclamation? And 'side' or 'wing' for pākha? 'Press close' for bhiti is a guess.",
-    "5b: do you accept reading baiṭhā 'seated' for printed baiṇa (it restores the rhyme with diṭhā and matches Munidatta's upaviṣṭaḥ)? If so, should the emendation be shown in the transliteration?",
-    "5a: I followed Munidatta for sāṇe ('in meditation'). Is that acceptable, or should the line signal that the word is obscure?",
+    "Kāla (1b): I used the approved 'Death'. Munidatta's reading (Rāhu acting through the lunar days, the 'fire of time') keeps 'time' in view, and the Tibetan, though its line has Rāhu (sgra gcan), renders his sa eva kālaḥ as 'at that very time' (de nyid kyi dus su). Keep 'Death' here, or allow 'Time'?",
+    "4a: I changed chāndaka from 'desire' to 'metre' because the Tibetan reads sdeb sbyor, 'versification' (and 'the six metres' in its commentary). Do you accept 'metre'? For the second half I kept Shastri's word division and the guess 'hope in the rules of practice'; the Tibetan seems to read kapaṭa 'deceit' ('give up composing verse and the scheming mind'). Which do you prefer?",
+    "4b: I now read pāsa as 'noose' (the Tibetan zhags pa; Munidatta's gloss has pāśam) instead of 'near'. Do you accept it, and is 'take up the noose' acceptable English, or would you prefer 'take the snare'? If you accept it, do you want the proposed 'noose' entry? 'Press close' for bhiti is still a guess, and may re still be rendered 'friends'?",
+    "3b: the Tibetan has a different line, 'if bliss is pulled out by the root, one is sure to die' (bde ba rtsa nas bton na nges par 'chi), with nothing for 'pain'. I kept the Bengali and added a witness note and flag. Is that enough, or do you want the line marked further?",
+    "2a: Munidatta takes parimāṇa as an imperative ('take the measure'), the Tibetan as a noun ('make firm the full measure of great bliss'). I kept the imperative. Which do you prefer?",
+    "5b: do you accept reading baiṭhā 'seated' for printed baiṇa (it restores the rhyme with diṭhā and matches Munidatta's upaviṣṭaḥ; the Tibetan has a verb of sitting)? If so, should the emendation be shown in the transliteration?",
+    "5a: I followed Munidatta for sāṇe ('in meditation'); the Tibetan agrees but probably depends on him. Is that acceptable, or should the line signal that the word is obscure?",
     "The schema has no field for the heading ('Rāga Paṭamañjarī · Lūyīpāda'), so I put it in a unit note. Where should it go?",
     "Is the plural surface '[samādhis]{samadhi}' acceptable for a keep-source-first-gloss term?"
   ],
   "provenance": {
     "mode": "session",
     "model": "claude (Claude Code session)",
-    "date": "2026-09-26",
-    "packSha": "bc68e4646862b74ea235e92fe5c1951dfea0f8bb08decf74aac2395b125d798b",
+    "date": "2026-09-27",
+    "packSha": "6cf57161a969ab0b423e5fe54e810047c0033252510892449b90cecb22bed806",
     "prompts": {
       "system": 1,
-      "text": 2,
+      "text": 4,
       "task": 1
     },
-    "glossarySha": "60f8da1cf23f009fcc11894fa4864eb27eab4a88507af00c7f6cc90f4d35f430",
+    "glossarySha": "3f93f13dc7db3772ce2abb49ceb369eb435a2c95ea9ec0be517777b48603834a",
     "sourceSha": "da764dd0f3bf26a491366294093127c5bfb978c1c259aceafa1e80aef02767d9"
   }
 }

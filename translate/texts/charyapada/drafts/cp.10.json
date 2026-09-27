@@ -14,7 +14,13 @@
           "src": "রাগ"
         }
       ],
-      "flags": []
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan translation (Toh 2293) heading reads de sha kha zhes bya ba'i glu dbyangs nag po spyod pa'i zhabs kyis so, 'the melody called Deśākha, by Kṛṣṇācārya' (nag po spyod pa'i zhabs). It confirms the name of the rāga and adds the poet, whom the Bengali heading does not name. The translation follows the Bengali; see questions."
+        }
+      ]
     },
     {
       "id": "cp.10.1a",
@@ -39,14 +45,14 @@
         {
           "kind": "reading",
           "level": "low",
-          "note": "Printed bārihirem̐, for the expected bāhire(m̐) 'outside' (locative). Transliterated as printed; the sense is not in doubt."
+          "note": "Printed bārihirem̐, for the expected bāhire(m̐) 'outside' (locative). Transliterated as printed. The sense is not in doubt, and the Tibetan translation (Toh 2293) has phyi rol 'outside'."
         }
       ]
     },
     {
       "id": "cp.10.1b",
       "translit": "chaichoi jāi so bāhma nāṛiā || dhru ||",
-      "gloss": "touching-touching · goes · that · brahmin · shaven-headed · (refrain cue)",
+      "gloss": "touching-touching · goes · that · brahmin · shaven-headed (or: lad?) · (refrain cue)",
       "en": "Touching and touching, that shaven-headed [brahmin]{brahmin} goes by.",
       "terms": [
         {
@@ -57,13 +63,18 @@
       "flags": [
         {
           "kind": "meaning",
+          "level": "low",
+          "note": "chaichoi: chosen 'touching again and again'. Munidatta renders it spṛṣṭvā spṛṣṭvā (cp.10.m2) and the Tibetan translation (Toh 2293) has reg gin reg gin, 'touching, touching', so both old readings take it as repeated touching. The alternative 'barely touching, brushing past', which would picture the brahmin avoiding contact, has no support from either. The object (the hut? Ḍombī?) is unstated in the source and left unstated here."
+        },
+        {
+          "kind": "meaning",
           "level": "medium",
-          "note": "chaichoi: chosen 'touching again and again' (matches Munidatta's spṛṣṭvā spṛṣṭvā, cp.10.m2). Alternative: 'barely touching, brushing past', which would picture the brahmin avoiding contact. The object (the hut? Ḍombī?) is unstated in the source and left unstated here."
+          "note": "nāṛiā: taken as 'shaven-headed' (compare Bengali nāṛā, nẽṛā 'shaven, bald'), as in the glossary entry for brahmin. The Tibetan translation (Toh 2293) has bram ze'i bu, 'brahmin's son, brahmin boy', for bāhma nāṛiā. That takes nāṛiā as 'lad', or follows Munidatta's gloss cittavaṭuka, 'mind-lad', which the Tibetan of the commentary renders sems ni bram ze'i bu (cp.10.m2). A young brahmin student wears the tonsure, so the two senses meet. Alternative English: 'that brahmin boy'."
         },
         {
           "kind": "grammar",
           "level": "medium",
-          "note": "Divergence: in the song the verb jāi is third person with 'that brahmin' as subject. Munidatta's paraphrase has 'you go, touching and touching' (gacchasi), followed by 'O Nairātmā', so in his gloss the one who touches and goes appears to be Ḍombī (cp.10.m2). Translated as the song stands, not harmonized."
+          "note": "Divergence: in the song the verb jāi is third person with 'that brahmin' as subject, and the Tibetan translation of the verse agrees ('gro de bram ze'i bu, 'goes that brahmin boy'). Munidatta's paraphrase has 'you go, touching and touching' (gacchasi), followed by 'O Nairātmā', so in his gloss the one who touches and goes appears to be Ḍombī. The Tibetan of the commentary keeps his second person (khyod 'gro) (cp.10.m2). Translated as the song stands, not harmonized."
         },
         {
           "kind": "witness",
@@ -87,7 +98,7 @@
         {
           "kind": "meaning",
           "level": "low",
-          "note": "sāṅga (Sanskrit saṅga): 'company, association, attachment', and also sexual union. 'Keep company with' is chosen because it carries both the social and the erotic sense. Munidatta paraphrases with abhiṣvaṅga, 'close attachment, embrace' (cp.10.m3)."
+          "note": "sāṅga (Sanskrit saṅga): 'company, association, attachment', and also sexual union. 'Keep company with' is chosen because it carries both the social and the erotic sense. The Tibetan translation (Toh 2293) has mnyam 'grogs bya, 'I will keep company with you', which supports it. Munidatta paraphrases with abhiṣvaṅga, 'close attachment, embrace' (cp.10.m3), which the Tibetan of the commentary renders mngon par 'khyud pa, 'embrace'."
         }
       ]
     },
@@ -118,7 +129,7 @@
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "lāga: taken as 'clings, is attached' (Old Bengali lāg- 'stick to'). This fits Munidatta's 'holding [you] constantly, without interval' (cp.10.m3). Alternatives: 'for (your sake)', compare lāgi; or, if the text were lāṅga (which would rhyme with sāṅga), 'naked'. That last one is only my conjecture. 'close' is added so that the English verb can stand without an object."
+          "note": "lāga: taken as 'clings, is attached' (Old Bengali lāg- 'stick to'). This fits Munidatta's 'holding [you] constantly, without interval' (cp.10.m3). The Tibetan translation (Toh 2293) has no word for it: kAh+Na thod pa'i rnal 'byor skyug bro spangs, 'Kāhna, the skull yogi who has given up revulsion', is a verbless description of the speaker. So the Tibetan gives no evidence for lāga, and its source may have lacked the word. Alternatives: 'for (your sake)', compare lāgi; or, if the text were lāṅga (which would rhyme with sāṅga), 'naked'. That last one is only my conjecture. 'close' is added so that the English verb can stand without an object."
         }
       ]
     },
@@ -137,7 +148,7 @@
         {
           "kind": "grammar",
           "level": "low",
-          "note": "The printed ekaso is read as eka so, 'that one', answered by tahim̐ 'on it' in 3b. Munidatta's lemma is 'eka so' (cp.10.m4). 'A single' renders eka so."
+          "note": "The printed ekaso is read as eka so, 'that one', answered by tahim̐ 'on it' in 3b. Munidatta's lemma is 'eka so' (cp.10.m4), and the Tibetan translation (Toh 2293) has gcig nyid, 'the one alone, that very one'. 'A single' renders eka so."
         }
       ]
     },
@@ -156,12 +167,17 @@
         {
           "kind": "meaning",
           "level": "low",
-          "note": "bāpuṛī: 'poor, wretched, lowly'. It could express pity, affection or contempt; 'poor' is chosen as the most open."
+          "note": "bāpuṛī: 'poor, wretched, lowly'. It could express pity, affection or contempt; 'poor' is chosen as the most open. The Tibetan translation (Toh 2293) seems to transliterate the word rather than translate it (gar byed pa pu lI'i, where pa pu lI appears to stand for bāpuṛī), and Munidatta does not gloss it, so neither witness helps with its sense."
         },
         {
           "kind": "meaning",
           "level": "medium",
-          "note": "Divergence: in the song Ḍombī climbs the lotus and dances. Munidatta has Kṛṣṇācārya dancing there together with Nairātmā (cp.10.m4). Not harmonized."
+          "note": "Divergence: in the song Ḍombī climbs the lotus and dances, and the Tibetan translation of the verse agrees (g.yung mo gar byed, 'the low-caste woman dances'). Munidatta has Kṛṣṇācārya dancing there together with Nairātmā (cp.10.m4). Not harmonized."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "caṛi 'climbing (onto)': the Tibetan translation (Toh 2293) has der gnas, 'staying there', which matches Munidatta's paraphrase tatra sthitvā (cp.10.m4) rather than the verb of the song. The Bengali caṛ- 'climb, mount' is clear, and the translation keeps it."
         }
       ]
     },
@@ -180,7 +196,12 @@
         {
           "kind": "witness",
           "level": "medium",
-          "note": "Munidatta's lemma for this couplet is 'hañcū lo' where the song has 'hālo ḍombī' (cp.10.m5), so his text may have read differently here. The translation follows the song."
+          "note": "The opening words are unstable across the witnesses. The song has hālo ḍombī. Munidatta's lemma is 'hañcū lo' (cp.10.m5), which the Tibetan of the commentary renders kye'i khyod, 'O you'. The Tibetan translation of the verse has no vocative at all and begins bdag gis g.yung mo khyod la, 'I … you, low-caste woman'. Munidatta's text, and the Tibetan translators', may have read differently here. The translation follows the song."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "sadabhāve (Sanskrit sadbhāva): 'in good faith, sincerely', the usual sense, is chosen. The word also means 'true being, reality'. The Tibetan translation (Toh 2293) renders it bden dngos, literally 'true thing', and Munidatta explains it as 'with an intention set on the true nature' (svarūpāśayena, cp.10.m5), so both lean toward the second sense; the Tibetan line could mean 'I asked you about the truth'. The Tibetan also has the past dris 'asked' for the present puchami."
         }
       ]
     },
@@ -220,36 +241,41 @@
         {
           "kind": "meaning",
           "level": "high",
-          "note": "avara nā caṅgatā is unclear. I chose avara 'more, other' + nā 'not' + caṅgatā 'basket(s)'. That gives 'and no more baskets', which leaves open both 'no longer' and 'no other'. Alternatives: (1) Munidatta treats the cord and the cāṅgita as two things she 'sells', that is, gives up (cp.10.m6). That suggests 'cord, and baskets too', with nā left unexplained. (2) Read caṅgatā as caṅga-tā 'goodness, excellence': 'Ḍombī sells cord; she has nothing else of worth'. (3) Read avaranā as āvaraṇa 'covering, mat': 'cord, mats and baskets'. The sense 'basket' for caṅgatā is itself a guess (compare later Bengali cāṅāri, a bamboo basket)."
+          "note": "avara nā caṅgatā is unclear. I chose avara 'more, other' + nā 'not' + caṅgatā 'basket(s)'. That gives 'and no more baskets', which leaves open both 'no longer' and 'no other'. Alternatives: (1) Munidatta treats the cord and the cāṅgita as two things she 'sells', that is, gives up (cp.10.m6), and the Tibetan translation does the same (see the witness flag). That suggests 'cord, and baskets too', with nā corrupt or not a negative. (2) Read caṅgatā as caṅga-tā 'goodness, excellence': 'Ḍombī sells cord; she has nothing else of worth'. (3) Read avaranā as āvaraṇa 'covering, mat': 'cord, mats and baskets'. The sense 'basket' for caṅgatā is a guess (compare later Bengali cāṅāri, a flat bamboo basket); the Tibetan's 'flower-stand' gives it some support."
+        },
+        {
+          "kind": "witness",
+          "level": "high",
+          "note": "The Tibetan translation (Toh 2293) reads rgyud 'tshong g.yung mo gzhan yang me tog stegs, 'the low-caste woman sells cord, and also a flower-stand (or flower-tray)'. It has no negative for nā, takes avara as 'and also' (gzhan yang), and renders caṅgatā as me tog stegs, literally 'flower platform', the same words its commentary uses for Munidatta's cāṅgita (cp.10.m6). With Munidatta, then, it has two things sold. The line translates the Bengali as printed, with its negative; the Tibetan puts that reading in doubt."
         },
         {
           "kind": "term",
           "level": "medium",
-          "note": "tānti: 'cord', following Munidatta's tantrī 'string, cord' (cp.10.m6). An instrument string, thread, or a loom (Bengali tā̃t) are also possible."
+          "note": "tānti: 'cord', following Munidatta's tantrī 'string, cord' (cp.10.m6). The Tibetan translation has rgyud for both, a word that means 'string, thread' as well as 'tantra' and 'lineage', so it does not narrow the sense. An instrument string, thread, or a loom (Bengali tā̃t) are also possible."
         },
         {
           "kind": "grammar",
           "level": "low",
-          "note": "vikaṇaa is a third-person form ('Ḍombī sells'). Munidatta renders it in the second person with 'O Ḍombī' (cp.10.m6), and ḍombī could be a vocative here. The third person is kept."
+          "note": "vikaṇaa is a third-person form ('Ḍombī sells'), and the Tibetan translation of the verse keeps the third person (rgyud 'tshong g.yung mo, 'the low-caste woman sells cord'). Munidatta renders it in the second person with 'O Ḍombī' (cp.10.m6), and ḍombī could be a vocative here. The third person is kept."
         }
       ]
     },
     {
       "id": "cp.10.5b",
       "translit": "tohora antare chāṛi-naṛa eṭṭā || dhru ||",
-      "gloss": "your · for-the-sake-of · having-left + performer's(?) · basket/box(?) · (refrain cue)",
+      "gloss": "your · for-the-sake-of · having-left + performer's/reed(?) · basket/box(?) · (refrain cue)",
       "en": "for your sake I have given up the performer's basket.",
       "terms": [],
       "flags": [
         {
           "kind": "reading",
           "level": "high",
-          "note": "chāṛinaṛa eṭṭā is obscure. I read it as chāṛi naṛa (p)eṭṭā, 'left the performer's basket', guided by Munidatta's 'like an actor (naṭavat) I have abandoned the basket (peṭaka) of saṃsāra' (cp.10.m6). Reading naṛa as naṭa follows him; the missing p of peṭṭā is my assumption. Alternatives: naṛa = naḍa 'reed', giving 'the reed basket'; or eṭṭā = 'this'."
+          "note": "chāṛinaṛa eṭṭā is obscure. I read it as chāṛi naṛa (p)eṭṭā, 'left the performer's basket', guided by Munidatta's 'like an actor (naṭavat) I have abandoned the basket (peṭaka) of saṃsāra' (cp.10.m6). Reading naṛa as naṭa (Prakrit naḍa) follows him; the missing p of peṭṭā is my assumption. The Tibetan translation (Toh 2293) reads the line differently: khyod kyi ched du 'dam bu'i stan gzhag go, 'for your sake a seat (or mat) of reeds is laid down'. It takes naṛa as naḍa 'reed' ('dam bu), has 'seat, mat' (stan) where the Bengali has eṭṭā, and 'set down' (gzhag, which can also mean 'leave') for chāṛi. Its commentary, however, follows Munidatta (gar mkhan bzhin du 'like a dancer', 'khor ba'i mdzod 'the chest of saṃsāra', cp.10.m6), so the Tibetan verse and commentary disagree. Other alternatives: 'the reed basket' (naṛa 'reed' with Munidatta's basket), or eṭṭā = 'this'. See questions."
         },
         {
           "kind": "grammar",
           "level": "medium",
-          "note": "No subject is expressed. 'I' is supplied from the parallel line 6b (moe 'by me') and from Munidatta's mayā (cp.10.m6). tohora antare is rendered 'for your sake', like Munidatta's tavāntareṇa; 'because of you' is also possible. The same phrase recurs in 6b."
+          "note": "No subject is expressed, in the Bengali or in the Tibetan. 'I' is supplied from the parallel line 6b (moe 'by me') and from Munidatta's mayā (cp.10.m6). tohora antare is rendered 'for your sake', like Munidatta's tavāntareṇa. The Tibetan translation has khyod kyi ched du, 'for your sake', here and in 6b, which supports this against 'because of you'."
         }
       ]
     },
@@ -257,7 +283,7 @@
       "id": "cp.10.6a",
       "translit": "tu lo ḍombī hāūm̐ kapālī",
       "gloss": "you · (vocative particle to a woman) · Ḍombī · I · kāpālika",
-      "en": "You, girl, are a [Ḍombī]{dombi}; I am a [kāpālika]{kapalika}.",
+      "en": "Hey you, [Ḍombī]{dombi}, I am a [kāpālika]{kapalika}.",
       "terms": [
         {
           "id": "dombi",
@@ -272,7 +298,7 @@
         {
           "kind": "grammar",
           "level": "medium",
-          "note": "Taken as two verbless clauses: 'you (are) a Ḍombī', set against 'I (am) a kāpālika'. lo is a familiar vocative particle used to a woman, rendered 'girl'. Munidatta takes ḍombi as a vocative ('O Ḍombī', cp.10.m7), which would give 'You, Ḍombī, and I, a kāpālika'."
+          "note": "ḍombī is taken as a vocative, with tu lo 'you there' as the call. The Tibetan translation (Toh 2293) has kye khyod g.yung mo bdag ni ka pA li; kye khyod 'O you' is the usual Tibetan form of address, and Munidatta too has 'O Ḍombī' (bho ḍomvi, cp.10.m7). lo, a familiar particle used to a woman, is rendered 'Hey', as the Tibetan renders it kye. The Bengali also allows two verbless clauses, 'you are a Ḍombī; I am a kāpālika', which sets the two outcastes side by side."
         }
       ]
     },
@@ -312,7 +338,7 @@
         {
           "kind": "meaning",
           "level": "low",
-          "note": "bhāñjīa 'having broken' could mean breaking up the water or breaching the bank; the song does not say which. It is rendered plainly as 'Breaking'."
+          "note": "bhāñjīa 'having broken' could mean breaking up the water or breaching the bank. The song does not say which, and the Tibetan translation's bcom nas, 'having smashed, destroyed', does not decide it. It is rendered plainly as 'Breaking'."
         }
       ]
     },
@@ -329,9 +355,14 @@
       ],
       "flags": [
         {
+          "kind": "witness",
+          "level": "high",
+          "note": "The Tibetan translation (Toh 2293) reads g.yung mo blangs nas bdag gi pha rol gsod, 'having taken the low-caste woman, I kill the other (or: my adversary)'. It makes Ḍombī the object of lemi 'I take' rather than of mārami 'I kill', and reads parāṇa as para 'other' (pha rol) rather than prāṇa 'life'. In the Tibetan, then, the poet takes Ḍombī and kills someone else. The Bengali parāṇa is the ordinary vernacular form of prāṇa 'life', and the translation follows it, but the Tibetan puts the sense of the line in doubt. Munidatta explains 'I kill' as 'I make without inherent nature' without naming the object explicitly (cp.10.m8)."
+        },
+        {
           "kind": "grammar",
           "level": "low",
-          "note": "mārami and lemi are first-person present forms, which Old Bengali also uses for the future; 'will' is chosen because the line is a threat. 'her' is supplied in 'her life'."
+          "note": "mārami and lemi are first-person present forms, which Old Bengali also uses for the future; 'will' is chosen because the line is a threat. 'her' is supplied in 'her life'. ḍombī could also be a vocative: 'I will kill you, Ḍombī; I will take your life'."
         }
       ]
     }
@@ -340,7 +371,7 @@
     {
       "anchor": "cp.10",
       "kind": "witness",
-      "text": "In this witness the heading names only the rāga. The ascription to Kāṇha rests on the song itself, where he names himself in couplet 2, and on Munidatta, who introduces the song as spoken by Kṛṣṇapāda, Kāṇha's Sanskrit name (cp.10.m1).",
+      "text": "The Bengali heading names only the rāga. The ascription to Kāṇha rests on the song itself, where he names himself in couplet 2, and on Munidatta, who introduces the song as spoken by Kṛṣṇapāda, Kāṇha's Sanskrit name (cp.10.m1). The Tibetan translation (Toh 2293) names the poet in its heading: de sha kha zhes bya ba'i glu dbyangs nag po spyod pa'i zhabs kyis so, 'the melody called Deśākha, by Kṛṣṇācārya' (nag po spyod pa is the Tibetan form of his name).",
       "cites": [
         "cp.10.m1"
       ]
@@ -359,6 +390,14 @@
     },
     {
       "anchor": "cp.10",
+      "kind": "witness",
+      "text": "Throughout the song the Tibetan translation (Toh 2293) renders ḍombī with the common noun g.yung mo, 'low-caste woman', instead of transliterating it, and its commentary does the same: Munidatta's 'the word Ḍombī' (ḍombīśabda) becomes g.yung mo'i sgra (cp.10.m1). The translators read the word as the name of a caste rather than of a person.",
+      "cites": [
+        "cp.10.m1"
+      ]
+    },
+    {
+      "anchor": "cp.10",
       "kind": "doctrine",
       "text": "Munidatta introduces the song as Kṛṣṇapāda telling 'that same matter', through his realization of the nature of selflessness, 'in the twilight language of the word Ḍombī' (cp.10.m1).",
       "cites": [
@@ -366,9 +405,17 @@
       ]
     },
     {
+      "anchor": "cp.10",
+      "kind": "philology",
+      "text": "The Tibetan translation renders Munidatta's sandhyābhāṣā, 'twilight language', as dgongs pa'i skad, 'language of intention' (cp.10.m1), which bears on the old question whether sandhyā, 'twilight', or sandhā, 'intention', is meant. It also renders his 'that same matter' (tam evārthaṃ) as de kho na nyid kyi don, 'the meaning of suchness'.",
+      "cites": [
+        "cp.10.m1"
+      ]
+    },
+    {
       "anchor": "cp.10.h1",
       "kind": "philology",
-      "text": "Rāga: a melodic mode. The heading names the mode to which the song is sung, Deśākha.",
+      "text": "Rāga: a melodic mode. The heading names the mode to which the song is sung, Deśākha. The Tibetan translation (Toh 2293) renders rāga as glu dbyangs, 'melody', and spells the name de sha kha.",
       "cites": []
     },
     {
@@ -376,6 +423,14 @@
       "kind": "imagery",
       "text": "The Ḍoms were treated as untouchable and made to live at the edge of settlements. A Ḍom woman's hut outside the town is ordinary social geography before it is anything else.",
       "cites": []
+    },
+    {
+      "anchor": "cp.10.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads grong khyer phyi rol g.yung mo khyod kyi khyim, 'outside the town, low-caste woman, your house'. It agrees with the Bengali, but its khyim is 'house, home' rather than a word for a hut. That matches Munidatta's tavāgāra, 'your house', which the Tibetan of the commentary also renders khyod kyi khyim (cp.10.m2). The translation keeps the Bengali kuṛiā, 'hut'.",
+      "cites": [
+        "cp.10.m2"
+      ]
     },
     {
       "anchor": "cp.10.1",
@@ -386,9 +441,25 @@
       ]
     },
     {
+      "anchor": "cp.10.1",
+      "kind": "witness",
+      "text": "Where Munidatta speaks of the bodhicitta 'of yogins who lack the lineage' (asampradāyayogināṃ), the Tibetan translation of his comment has the opposite: man ngag thob pa'i rnal 'byor pas, 'by the yogin who has obtained the instruction'. It has no negative (cp.10.m2).",
+      "cites": [
+        "cp.10.m2"
+      ]
+    },
+    {
       "anchor": "cp.10.1b",
       "kind": "philology",
-      "text": "chaichoi is a reduplicated form of the verb 'touch'. Munidatta renders it spṛṣṭvā spṛṣṭvā, 'touching and touching' (cp.10.m2). nāṛiā means 'shaven', the tonsure of a young brahmin student; Munidatta calls him a vaṭuka, a boy of that kind (cp.10.m2). The transliteration gives jāi for the machine's yāi, since the verb is jā- 'go' (compare jāsi in 4b).",
+      "text": "chaichoi is a reduplicated form of the verb 'touch'. Munidatta renders it spṛṣṭvā spṛṣṭvā, 'touching and touching' (cp.10.m2). nāṛiā is taken as 'shaven', the tonsure of a young brahmin student; Munidatta calls him a vaṭuka, a boy of that kind (cp.10.m2). The transliteration gives jāi for the machine's yāi, since the verb is jā- 'go' (compare jāsi in 4b); the Tibetan has 'gro, 'goes'.",
+      "cites": [
+        "cp.10.m2"
+      ]
+    },
+    {
+      "anchor": "cp.10.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads reg gin reg gin 'gro de bram ze'i bu, 'touching, touching, goes that brahmin boy'. Its bram ze'i bu, 'brahmin's son, brahmin boy', takes nāṛiā as 'lad' rather than 'shaven-headed', in line with Munidatta's cittavaṭuka, 'mind-lad', which the Tibetan of the commentary renders sems ni bram ze'i bu, 'the mind is the brahmin boy' (cp.10.m2). In the verse the Tibetan keeps the song's third person; in the commentary it keeps Munidatta's 'you go' (khyod 'gro).",
       "cites": [
         "cp.10.m2"
       ]
@@ -402,7 +473,7 @@
     {
       "anchor": "cp.10.1b",
       "kind": "doctrine",
-      "text": "Munidatta reads the brahmin as the 'mind-lad' (cittavaṭuka). It is born from the seed syllable HŪṂ, which he calls brahma, and it is a lad because the mind is fickle. His paraphrase then turns to the second person: '[you] go, touching and touching, from the jewel-root, the joy of cessation, the bodhicitta (mind of awakening) of yogins who lack the lineage, which in conventional terms has the form of semen. O Nairātmā.' In his gloss the one who touches and goes therefore seems to be Ḍombī herself (cp.10.m2).",
+      "text": "Munidatta reads the brahmin as the 'mind-lad' (cittavaṭuka). It is born from the seed syllable HŪṂ, which he calls brahma, and it is a lad because the mind is fickle. His paraphrase then turns to the second person: '[you] go, touching and touching, from the jewel-root, the joy of cessation, the bodhicitta (mind of awakening) of yogins who lack the lineage, which in conventional terms has the form of semen. O Nairātmā.' In his gloss the one who touches and goes therefore seems to be Ḍombī herself (cp.10.m2). The Tibetan translation of the comment speaks instead of the yogin who has obtained the instruction; see the witness note on couplet 1.",
       "cites": [
         "cp.10.m2"
       ]
@@ -410,7 +481,7 @@
     {
       "anchor": "cp.10.2a",
       "kind": "philology",
-      "text": "sāṅga (Sanskrit saṅga) means company, association or attachment, and can mean sexual union. Munidatta paraphrases: 'I must make close attachment (abhiṣvaṅga) with you' (cp.10.m3).",
+      "text": "sāṅga (Sanskrit saṅga) means company, association or attachment, and can mean sexual union. Munidatta paraphrases: 'I must make close attachment (abhiṣvaṅga) with you' (cp.10.m3). The Tibetan translation (Toh 2293) of the line reads kye'i g.yung mo khyod dang mnyam 'grogs bya, 'O low-caste woman, I will keep company with you'; its commentary renders abhiṣvaṅga as mngon par 'khyud pa, 'embrace'.",
       "cites": [
         "cp.10.m3"
       ]
@@ -424,9 +495,23 @@
       ]
     },
     {
+      "anchor": "cp.10.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads kAh+Na thod pa'i rnal 'byor skyug bro spangs, 'Kāhna, the skull yogi who has given up revulsion'. It transliterates the vernacular name (Kāhna), where its heading and commentary use the Tibetan name nag po spyod pa. It takes kāpāli as qualifying joi, 'skull yogi', as the English does. It renders nighiṇa analytically, 'having given up revulsion' (skyug bro spangs). And it has no word for lāga.",
+      "cites": []
+    },
+    {
       "anchor": "cp.10.2",
       "kind": "doctrine",
       "text": "Munidatta has Kāṇha say: 'As my nature is, so I am', without disgust. Holding [her] constantly and without interval, he gains the accomplishment of Mahāmudrā (the 'Great Seal', the highest attainment), whose nature is wisdom and means. He cites the Hevajra: 'Hear from me the tantra whose nature is wisdom and means' (cp.10.m3).",
+      "cites": [
+        "cp.10.m3"
+      ]
+    },
+    {
+      "anchor": "cp.10.2",
+      "kind": "witness",
+      "text": "For Munidatta's 'as my nature is, so I am' (yādṛśasvabhāvas tādṛśo), the Tibetan translation of the comment has gang dang 'dra ba'i gnas de dang 'dra ba dag la, 'in places of whatever kind', as if reading 'place' for 'nature': whatever the place, he is free of revulsion and shame (cp.10.m3).",
       "cites": [
         "cp.10.m3"
       ]
@@ -440,9 +525,25 @@
       ]
     },
     {
+      "anchor": "cp.10.3",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads gcig nyid pad 'dab drug cu rtsa bzhi la / der gnas g.yung mo gar byed pa pu lI'i, roughly 'on the one lotus of sixty-four petals, staying there, the low-caste woman dances …'. It renders eka so as gcig nyid, 'the one alone', and compresses lotus and petals into pad 'dab. For caṛi, 'climbing', it has der gnas, 'staying there', which matches Munidatta's tatra sthitvā (cp.10.m4). pa pu lI'i seems to transliterate bāpuṛī rather than translate it. Like the song, and unlike Munidatta, it makes the woman the dancer.",
+      "cites": [
+        "cp.10.m4"
+      ]
+    },
+    {
       "anchor": "cp.10.4",
       "kind": "doctrine",
       "text": "Munidatta says this couplet makes the realization of selflessness firm. He paraphrases: 'O Nairātmā, I ask you in good faith, that is, intent on your own nature: by whose path, the boat of conventional bodhicitta, do you come and go?' He gives the meaning as 'you do not', because everything consists of the innate. He then cites the Hevajra: the whole world is innate, the innate is called one's own nature, and one's own nature is nirvāṇa to a mind of pure form (cp.10.m5).",
+      "cites": [
+        "cp.10.m5"
+      ]
+    },
+    {
+      "anchor": "cp.10.4",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads bdag gis g.yung mo khyod la bden dngos dris / 'ong dang 'gro ba gang gi gru la byed, 'I asked you, low-caste woman, about the truth (or: truly): in whose boat do you come and go?' It has no vocative for hālo, renders sadabhāve as bden dngos, literally 'true thing', and leaves out the name in 4b. Its commentary's lemma is kye'i khyod, 'O you', where Munidatta's printed lemma is hañcū lo, and it renders svarūpāśayena as bden pa'i dngos po'i rang bzhin gyi bsam pas, 'with an intention on the nature of the true thing' (cp.10.m5).",
       "cites": [
         "cp.10.m5"
       ]
@@ -470,9 +571,33 @@
       ]
     },
     {
+      "anchor": "cp.10.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rgyud 'tshong g.yung mo gzhan yang me tog stegs, 'the low-caste woman sells cord, and also a flower-stand'. It has no negative corresponding to nā. It takes avara as 'and also' (gzhan yang). For caṅgatā it has me tog stegs, literally 'flower platform', perhaps a tray or stand for flowers, the same words its commentary uses for Munidatta's cāṅgita (cp.10.m6). Like Munidatta, then, it has two things sold. rgyud, which renders both tānti and Munidatta's tantrī, also means 'tantra' and 'lineage'.",
+      "cites": [
+        "cp.10.m6"
+      ]
+    },
+    {
+      "anchor": "cp.10.5b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads khyod kyi ched du 'dam bu'i stan gzhag go, 'for your sake a seat (or mat) of reeds is laid down'. It takes naṛa as naḍa, 'reed' ('dam bu), has 'seat, mat' (stan) where the Bengali has eṭṭā, and 'set down' (gzhag, which can also mean 'leave') for chāṛi. Its translation of the commentary, however, follows Munidatta's actor and basket: gar mkhan bzhin du, 'like a dancer', and 'khor ba'i mdzod, 'the chest (or store) of saṃsāra' (cp.10.m6).",
+      "cites": [
+        "cp.10.m6"
+      ]
+    },
+    {
+      "anchor": "cp.10.5",
+      "kind": "witness",
+      "text": "In the Tibetan translation of Munidatta's comment the thing to be given up is the selling of oneself, bdag nyid 'tshong ba, where the printed Sanskrit has mama vikrayaṇaṃ, 'the selling … for me' (Shastri marks a variant at this point). And 'you make' becomes a command: khyod kyis yongs su spong bar byos, 'you must give it up' (cp.10.m6).",
+      "cites": [
+        "cp.10.m6"
+      ]
+    },
+    {
       "anchor": "cp.10.6",
       "kind": "doctrine",
-      "text": "Munidatta says this couplet describes the lord of yogis' conduct 'with elaboration'. Kāṇha knows Ḍombī, Nairātmā, in her own nature through the true guru's grace. He is a kāpālika and a bearer of conduct, and Munidatta explains the word as one able to protect (pāl-) 'ka', her bliss, a play on the syllables. For her sake Kṛṣṇācārya took up conduct with the wheel, earrings, necklace and other ornaments, which the gloss links with the six tathāgatas (buddhas who head the tantric families). Not relying on outer mantras and tantras, he sported with the five colours (pañcavarṇa). The qualifier niraṃśu in that compound is unclear to me (cp.10.m7).",
+      "text": "Munidatta says this couplet describes the lord of yogis' conduct 'with elaboration'. Kāṇha knows Ḍombī, Nairātmā, in her own nature through the true guru's grace. He is a kāpālika and a bearer of conduct, and Munidatta explains the word as one able to protect (pāl-) 'ka', her bliss, a play on the syllables. For her sake Kṛṣṇācārya took up conduct with the wheel, earrings, necklace and other ornaments, which the gloss links with the six tathāgatas (buddhas who head the tantric families). Not relying on outer mantras and tantras, he sported with the five colours (pañcavarṇa). The qualifier niraṃśu in that compound is unclear to me; the Tibetan translation has bone ornaments at this point, as the witness note on the couplet explains (cp.10.m7).",
       "cites": [
         "cp.10.m7"
       ]
@@ -486,18 +611,48 @@
       ]
     },
     {
-      "anchor": "cp.10.6b",
-      "kind": "imagery",
-      "text": "A garland of bone beads or carved bone belongs to a kāpālika's regalia; the poet takes it on for Ḍombī's sake. Munidatta's gloss on the couplet speaks of the ornaments of tantric conduct but does not name the garland (cp.10.m7).",
+      "anchor": "cp.10.6",
+      "kind": "witness",
+      "text": "The Tibetan translation of Munidatta's comment differs from the printed Sanskrit in three places. Among the ornaments of conduct it lists bone ornaments ('the wheel of the six tathāgatas, earrings, necklace and bone ornaments', rus rgyan), where the Sanskrit has the unclear niraṃśu. For 'sporting with the five colours' (pañcavarṇaviharaṇa) it has rigs lnga'i spyod lam, 'the conduct of the five families', taking varṇa in its other sense, 'class, caste'. In Kṛṣṇācārya's verse it has ma dag pa, 'not purified', for ṇa majjai. It also spells out the syllable play: kaM ni khyod kyi bde ba, pA ni skyong bar nus pa, 'kaṃ is your bliss; pā is being able to protect it' (cp.10.m7).",
       "cites": [
         "cp.10.m7"
       ]
+    },
+    {
+      "anchor": "cp.10.6a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads kye khyod g.yung mo bdag ni ka pA li, 'O you, low-caste woman, I am a kāpālika'. kye khyod is the usual Tibetan form of address, so the Tibetan, like Munidatta (bho ḍomvi, cp.10.m7), takes ḍombī as a vocative; it renders the particle lo as kye. It transliterates kapālī (ka pA li), where in 2b it translated kāpāli as thod pa'i, 'skull-'.",
+      "cites": [
+        "cp.10.m7"
+      ]
+    },
+    {
+      "anchor": "cp.10.6b",
+      "kind": "imagery",
+      "text": "A garland of bone beads or carved bone belongs to a kāpālika's regalia; the poet takes it on for Ḍombī's sake. Munidatta's gloss on the couplet speaks of the ornaments of tantric conduct but does not name the garland; the Tibetan translation of the gloss includes bone ornaments (rus rgyan) among them (cp.10.m7).",
+      "cites": [
+        "cp.10.m7"
+      ]
+    },
+    {
+      "anchor": "cp.10.6b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) agrees with the Bengali: khyod kyi ched du bdag gi rus phreng bcas, 'for your sake I have put on a bone garland'. Its phreng ba can mean a rosary as well as a garland.",
+      "cites": []
     },
     {
       "anchor": "cp.10.7a",
       "kind": "imagery",
       "text": "Lotus roots grow in the mud of pond beds and are dug up for food. 'Breaking' the lake may mean breaking up its surface or breaching its banks to get at them.",
       "cites": []
+    },
+    {
+      "anchor": "cp.10.7a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) agrees: rdzing bu bcom nas g.yung mo pad rtsa zos, 'having smashed the pond, the low-caste woman ate the lotus root'. rdzing bu is 'pond, pool', the word its commentary uses for sarovara, and in lus kyi rdzing bu, 'the pool of the body', for Munidatta's kāyapuṣkara (cp.10.m8). pad rtsa, 'lotus root', confirms the sense of molāṇa.",
+      "cites": [
+        "cp.10.m8"
+      ]
     },
     {
       "anchor": "cp.10.7",
@@ -510,7 +665,7 @@
     {
       "anchor": "cp.10.7",
       "kind": "witness",
-      "text": "Munidatta closes with a Prakrit verse from what he calls vahiśāstra (perhaps 'an outside treatise'). As printed it is corrupt, but it seems to say that the same water becomes poison in a snake's mouth and pearls in an oyster shell, which would illustrate Ḍombī's two kinds (cp.10.m8).",
+      "text": "Munidatta closes with a Prakrit verse from what he calls vahiśāstra, 'an outside treatise'; the Tibetan translation has phyi rol gyi bstan bcos, 'an outer treatise'. As printed the Prakrit is corrupt, but it seems to say that the same water becomes poison in a snake's mouth and pearls in an oyster shell, which would illustrate Ḍombī's two kinds. The Tibetan version supports this: water blessed by mantra gains honour according to its vessel; swallowed into a snake's mouth …; spat out by an oyster, pearl (cp.10.m8).",
       "cites": [
         "cp.10.m8"
       ]
@@ -518,195 +673,56 @@
     {
       "anchor": "cp.10.7b",
       "kind": "philology",
-      "text": "parāṇa (Sanskrit prāṇa) means 'breath, life'. The song gives no reason for the threat.",
+      "text": "parāṇa (Sanskrit prāṇa) means 'breath, life'; it is the ordinary vernacular form of the word. The song gives no reason for the threat.",
       "cites": []
+    },
+    {
+      "anchor": "cp.10.7b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads g.yung mo blangs nas bdag gi pha rol gsod, 'having taken the low-caste woman, I kill the other (or: my adversary)'. It makes Ḍombī the object of 'take' (lemi, blangs nas) and reads parāṇa as para, 'other' (pha rol), not prāṇa, 'life'. In the Tibetan, then, the poet takes the woman and kills someone else. Its commentary, like Munidatta's, explains the killing as making without inherent nature (rang bzhin med par byed pa, cp.10.m8).",
+      "cites": [
+        "cp.10.m8"
+      ]
     }
   ],
-  "termsOmitted": [],
-  "proposals": [
+  "termsOmitted": [
     {
-      "id": "yogi",
-      "type": "term",
-      "en": "yogi",
-      "policy": "translate",
-      "alt": [
-        "yogin"
-      ],
-      "forms": [
-        {
-          "lang": "oben",
-          "script": "জোই",
-          "translit": "joi",
-          "att": "AS",
-          "where": "cp.10.2b"
-        },
-        {
-          "lang": "san",
-          "script": "যোগিনাং",
-          "translit": "yogināṃ",
-          "att": "AS",
-          "where": "cp.10.m2"
-        }
-      ],
-      "match": [
-        {
-          "lang": "oben",
-          "form": "জোই"
-        },
-        {
-          "lang": "san",
-          "form": "যোগিনাং"
-        }
-      ],
-      "definition": "A practitioner of yoga; in the songs, a tantric adept on the siddhas' path. Kāṇha calls himself a kāpālika yogi, and Munidatta speaks of yogins who lack the guru's lineage. Distinct from 'lord of yogis' (yogīndra), Munidatta's term for the accomplished practitioner.",
-      "symbolicImage": "",
-      "symbolicReadings": [],
-      "forbiddenInLine": [],
-      "rationale": "The word recurs throughout the songs and the commentary. The glossary has 'lord of yogis' but not the plain word."
+      "id": "p-kanha",
+      "line": "cp.10.h1",
+      "reason": "Matched only in the Tibetan heading (nag po spyod pa'i zhabs). The Bengali heading, which is the reading text, does not name the poet; see the witness flag on the line and questions."
     },
     {
-      "id": "visaya",
-      "type": "term",
-      "en": "sense objects",
-      "policy": "translate",
-      "alt": [
-        "objects of the senses",
-        "objects"
-      ],
-      "forms": [
-        {
-          "lang": "san",
-          "script": "রূপাদিবিষয়সমূহং",
-          "translit": "rūpādiviṣayasamūhaṃ",
-          "att": "AS",
-          "where": "cp.10.m2"
-        },
-        {
-          "lang": "san",
-          "script": "ষিষয়াভাসং",
-          "translit": "ṣiṣayābhāsaṃ (misprint for viṣayābhāsaṃ)",
-          "att": "AS",
-          "where": "cp.10.m6"
-        }
-      ],
-      "match": [
-        {
-          "lang": "san",
-          "form": "বিষয়"
-        },
-        {
-          "lang": "san",
-          "form": "ষিষয়"
-        }
-      ],
-      "definition": "The objects of the senses: visible form, sound, smell, taste and touch, with mental objects in some lists. Munidatta reads the town of song 10 as 'the mass of sense objects beginning with form', and speaks of 'the appearance of objects' (viṣayābhāsa).",
-      "symbolicImage": "",
-      "symbolicReadings": [],
-      "forbiddenInLine": [],
-      "rationale": "A recurring commentary term. The glossary already uses 'sense objects' in the town entry's reading and forbidden list, but has no entry for it."
-    },
-    {
-      "id": "avidya",
-      "type": "term",
-      "en": "ignorance",
-      "policy": "translate",
-      "alt": [],
-      "forms": [
-        {
-          "lang": "san",
-          "script": "অবিদ্যারূপং",
-          "translit": "avidyārūpaṃ",
-          "att": "AS",
-          "where": "cp.10.m6"
-        }
-      ],
-      "match": [
-        {
-          "lang": "san",
-          "form": "অবিদ্যা"
-        }
-      ],
-      "definition": "Ignorance: the basic misapprehension of how things are, which Buddhist teaching places at the root of saṃsāra as the first link of dependent arising. In song 10 Munidatta says the lotus-place has the form of ignorance.",
-      "symbolicImage": "",
-      "symbolicReadings": [],
-      "forbiddenInLine": [],
-      "rationale": "A basic doctrinal term likely to recur in the commentary."
-    },
-    {
-      "id": "tanti",
-      "type": "term",
-      "en": "cord",
-      "policy": "translate",
-      "alt": [
-        "string",
-        "thread"
-      ],
-      "forms": [
-        {
-          "lang": "oben",
-          "script": "তান্তি",
-          "translit": "tānti",
-          "att": "AS",
-          "where": "cp.10.5a"
-        },
-        {
-          "lang": "san",
-          "script": "তন্ত্রী",
-          "translit": "tantrī",
-          "att": "AS",
-          "where": "cp.10.m6"
-        }
-      ],
-      "match": [
-        {
-          "lang": "oben",
-          "form": "তান্তি"
-        },
-        {
-          "lang": "san",
-          "form": "তন্ত্রী"
-        }
-      ],
-      "definition": "Cord or string (Sanskrit tantrī), which Ḍombī sells in song 10. Whether cord, an instrument string, thread or even a loom is meant is uncertain.",
-      "symbolicImage": "the cord that Ḍombī sells",
-      "symbolicReadings": [
-        {
-          "referent": "the bhaga (female organ), 'the place of the lotus', which has the form of ignorance",
-          "per": "Munidatta",
-          "where": [
-            "cp.10.m6"
-          ]
-        }
-      ],
-      "forbiddenInLine": [
-        "bhaga",
-        "ignorance",
-        "lotus-place"
-      ],
-      "rationale": "An image of song 10 that Munidatta reads esoterically. The entry records the literal rendering, his reading, and the words to keep out of the verse line."
+      "id": "para",
+      "line": "cp.10.7b",
+      "reason": "Matched only in the Tibetan (pha rol), where it renders parāṇa read as para 'other'. The Bengali has parāṇa 'life', not pāra 'far bank', so the term does not occur in the line."
     }
   ],
+  "proposals": [],
   "questions": [
-    "Heading: the source line names only the rāga. Should the heading add '· Kāṇha' to match the house pattern (the ascription comes from the refrain and from Munidatta), or stay 'Rāga Deśākha'?",
-    "Refrain: the input marks couplet 2, which carries Kāṇha's self-naming, as the refrain. But ধ্রু also follows 1b, and Munidatta calls couplet 3 the 'second pada'. Please confirm which couplet is the refrain.",
-    "5a: I chose the literal 'and no more baskets' (avara nā caṅgatā) over Munidatta's reading, in which both things are sold ('cord, and baskets too'). Which do you prefer, and is 'basket' for caṅgatā acceptable at all?",
-    "5b: 'the performer's basket' rests on reading naṛa eṭṭā as naṭa-(p)eṭṭā, following Munidatta's naṭavat … peṭaka. Accept it, or would you rather mark the phrase as obscure?",
-    "6a: I took it as a verbless statement, 'You, girl, are a Ḍombī; I am a kāpālika', rather than Munidatta's vocative 'You, Ḍombī…'. Is 'girl' acceptable for the particle lo, and 'Hey' for ālo/hālo?",
-    "2b: is 'clings close' acceptable for lāga? And 1b: 'touching and touching' keeps the reduplication and leaves the object open. Would you prefer 'brushing past', which makes the brahmin avoid contact?",
-    "The glossary lists the garland of bones as having no attested reading. Munidatta's gloss on couplet 6 (cp.10.m7) speaks of ornaments of conduct linked with six tathāgatas but does not name the garland. Leave it as 'unattested'?",
-    "Transliteration: I corrected b/v and y/j where the etymon is clear (sadabhāve, nāvem̐, vikaṇaa, avara, saravara, jāi), although the glossary form for 'lake' is sarabara. Please confirm the convention."
+    "Heading: the Bengali names only the rāga, but the Tibetan translation's heading adds the poet (nag po spyod pa'i zhabs kyis so, 'by Kṛṣṇācārya'). With that witness, should the heading become 'Rāga Deśākha · Kāṇha' (or 'Kāṇhapāda') to match the house pattern, or stay 'Rāga Deśākha' as the Bengali has it?",
+    "Refrain: the input marks couplet 2, which carries Kāṇha's self-naming, as the refrain. But ধ্রু also follows 1b, and Munidatta calls couplet 3 the 'second pada'. The Tibetan does not help here. Please confirm which couplet is the refrain.",
+    "5a: the Tibetan translation (gzhan yang me tog stegs, 'and also a flower-stand') now joins Munidatta in having two things sold, and it has no negative. I still translate the Bengali as printed, 'and no more baskets'. Keep that, or follow the two old witnesses, 'and baskets too', treating nā as corrupt or not a negative? And is 'basket' right for caṅgatā, or would 'tray' be closer to the Tibetan's me tog stegs?",
+    "5b: the Tibetan verse has 'a seat (or mat) of reeds is laid down for your sake' ('dam bu'i stan gzhag go), while its commentary follows Munidatta's actor and basket. I kept 'the performer's basket', which follows Munidatta and rests on a conjectured p. Keep it, switch to a reed reading, or mark the phrase as obscure in the line?",
+    "6a: I now read ḍombī as a vocative, 'Hey you, Ḍombī, I am a kāpālika', because the Tibetan (kye khyod g.yung mo) and Munidatta (bho ḍomvi) both address her. Do you prefer this, or the predicative 'you are a Ḍombī; I am a kāpālika', which the Bengali also allows and which my previous draft used ('You, girl, are a Ḍombī…')?",
+    "7b: the Tibetan reads 'having taken the low-caste woman, I kill the other (or: my adversary)', taking parāṇa as para. I kept the Bengali, 'I will kill Ḍombī; I will take her life'. Please confirm.",
+    "1b: the Tibetan has bram ze'i bu, 'brahmin boy', for bāhma nāṛiā. I kept 'shaven-headed brahmin', as in the glossary entry. Would you prefer 'brahmin boy'? And 2b: the Tibetan has no word for lāga. Is 'clings close' still acceptable?",
+    "4a: sadabhāve is rendered 'in good faith'. The Tibetan (bden dngos, 'true thing') and Munidatta (svarūpāśayena) read it as 'true being'. Keep 'in good faith', or use 'truly', which can carry both senses?",
+    "Garland of bones: the glossary lists no attested reading. Munidatta's Sanskrit gloss on couplet 6 does not name the garland; the Tibetan translation of it lists bone ornaments (rus rgyan) among the items of conduct, where the printed Sanskrit has the unclear niraṃśu. That is still not a reading of the garland as something else, so I have left it 'unattested'. Should the entry's definition mention the Tibetan?",
+    "7a: the Tibetan has rdzing bu, 'pond, pool', for sarabara, and Munidatta glosses it as a lotus pool (kāyapuṣkara). Is the approved 'lake' still right, or would 'pond' suit better?",
+    "Transliteration: I corrected b/v and y/j where the etymon is clear (sadabhāve, nāvem̐, vikaṇaa, avara, saravara, jāi; the Tibetan 'gro 'goes' supports jāi), although the glossary form for 'lake' is sarabara. Please confirm the convention.",
+    "Glossary matching: the commentary hit for bhaga in cp.10.m4 comes from bhagavatyā ('the Blessed Lady'), not from bhaga. It should probably be suppressed like the other in-word matches."
   ],
   "provenance": {
     "mode": "session",
     "model": "claude (Claude Code session)",
-    "date": "2026-09-26",
-    "packSha": "f61ef2db0c115f2d9180b068e744e5888d256c570352f96505679e2c8c6420d4",
+    "date": "2026-09-27",
+    "packSha": "fa7ffd6adaa814004ce4016ad9375b9bf24a9b8686e7018234d8c24aeca4e948",
     "prompts": {
       "system": 1,
-      "text": 2,
+      "text": 4,
       "task": 1
     },
-    "glossarySha": "60f8da1cf23f009fcc11894fa4864eb27eab4a88507af00c7f6cc90f4d35f430",
+    "glossarySha": "3f93f13dc7db3772ce2abb49ceb369eb435a2c95ea9ec0be517777b48603834a",
     "sourceSha": "b2b73080b2d2f152afbb1c9f873674b6f3d0c042176937835185fdb3afc957f2"
   }
 }

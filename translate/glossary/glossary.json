@@ -3494,6 +3494,90 @@
       }
     },
     {
+      "id": "noose",
+      "type": "term",
+      "status": "proposed",
+      "en": "noose",
+      "alt": [
+        "snare"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাস",
+          "translit": "pāsa",
+          "lemma": "pāsa",
+          "att": "AS",
+          "where": "cp.01.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পাশম",
+          "translit": "pāśam",
+          "lemma": "pāśa",
+          "att": "AS",
+          "where": "cp.01.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞགས་པས",
+          "translit": "zhags pas",
+          "lemma": "zhags pa",
+          "att": "AO",
+          "where": "cp.01.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞགས་པ",
+          "translit": "zhags pa",
+          "lemma": "zhags pa",
+          "att": "AO",
+          "where": "cp.01.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পাস"
+        ],
+        "san": [
+          "পাশ"
+        ],
+        "bod": [
+          "ཞགས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A noose or snare (Sanskrit pāśa), used to catch and bind, and in tantric art an emblem held by deities. In song 1, on this draft's reading of pāsa, the listener is told to take up the noose; the Tibetan translation reads 'noose' (zhags pa) there, and Munidatta's gloss mentions it (cp.01.m5).",
+      "symbolic": {
+        "image": "a noose, taken up on the side of emptiness",
+        "readings": [
+          {
+            "referent": "the nature of selflessness (nairātmadharma), which the listener is to embrace closely; the Tibetan translation of the comment says 'the dharma of selflessness is the noose' (the division of the Sanskrit is uncertain)",
+            "per": "Munidatta",
+            "where": [
+              "cp.01.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "selflessness",
+        "nature of selflessness",
+        "nairātmya"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "p-aryadeva",
       "type": "person",
       "status": "proposed",

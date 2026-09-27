@@ -465,6 +465,86 @@
       }
     },
     {
+      "id": "alankara",
+      "type": "term",
+      "status": "proposed",
+      "en": "ornament",
+      "alt": [
+        "ornaments"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আভরণে",
+          "translit": "ābharaṇe",
+          "lemma": "ābharaṇa",
+          "att": "AS",
+          "where": "cp.11.3b"
+        },
+        {
+          "lang": "san",
+          "script": "যোগিকালঙ্কারমাহ",
+          "translit": "yogikālaṅkāram āha",
+          "lemma": "alaṃkāra",
+          "att": "AS",
+          "where": "cp.11.m3"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরপ্যলঙ্কারমাহ",
+          "translit": "punar apy alaṅkāram āha",
+          "lemma": "alaṃkāra",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱན",
+          "translit": "rgyan",
+          "lemma": "rgyan",
+          "att": "AO",
+          "where": "cp.11.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་པའི་རྒྱན",
+          "translit": "rnal 'byor pa'i rgyan",
+          "lemma": "rgyan",
+          "att": "AO",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "আভরণ"
+        ],
+        "san": [
+          "লঙ্কার"
+        ],
+        "bod": [
+          "རྒྱན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "An ornament (Old Bengali ābharaṇa, Sanskrit alaṃkāra), here the regalia of a tantric yogi: earrings, anklets, necklaces, ash and the like. Munidatta says the couplets he counts second and third (couplets 3 and 4 of song 11) describe the yogi's ornaments, yogikālaṅkāra (cp.11.m3, cp.11.m4). The Tibetan has rgyan.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "ali",
       "type": "term",
       "status": "proposed",
@@ -522,6 +602,22 @@
           "lemma": "'jigs byed",
           "att": "AO",
           "where": "cp.07.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "আলি",
+          "translit": "āli",
+          "lemma": "āli",
+          "att": "AS",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "san",
+          "script": "আলি",
+          "translit": "āli",
+          "lemma": "āli",
+          "att": "AS",
+          "where": "cp.11.m3"
         }
       ],
       "match": {
@@ -650,6 +746,73 @@
       },
       "matchRe": {},
       "definition": "Spreading of light (ālokābhāsa): in the Guhyasamāja completion stage, the second of three ever subtler luminous experiences, following light (āloka). Munidatta glosses the song's kāli as lokabhāsa (cp.07.m2); the Tibetan has snang ba mched pa, 'increase of appearance', the usual rendering of ālokābhāsa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "anahata",
+      "type": "term",
+      "status": "proposed",
+      "en": "unstruck",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনহা",
+          "translit": "anahā",
+          "lemma": "anahā",
+          "att": "AS",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "san",
+          "script": "অনাহতং",
+          "translit": "anāhataṃ",
+          "lemma": "anāhata",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་མེད",
+          "translit": "gzhom med",
+          "lemma": "gzhom med",
+          "att": "AO",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་དུ་མེད་པ",
+          "translit": "gzhom du med pa",
+          "lemma": "gzhom du med pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অনহা"
+        ],
+        "san": [
+          "অনাহত"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Unstruck (anāhata): in Indian yoga, the inner sound heard without one thing striking another. In song 11 an unstruck ḍamaru plays; Munidatta speaks of the unstruck sound of the ḍamaru (cp.11.m2). The Tibetan has gzhom med, 'indestructible'.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -817,6 +980,90 @@
         "sign",
         "joys",
         "sequence of joys"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "anklet",
+      "type": "term",
+      "status": "proposed",
+      "en": "anklet",
+      "alt": [
+        "anklets"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নেউর",
+          "translit": "neura",
+          "lemma": "neura",
+          "att": "AS",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ঘণ্টানূপুরাদিযোগিকালঙ্কারং",
+          "translit": "ghaṇṭānūpurādiyogikālaṅkāraṃ",
+          "lemma": "nūpura",
+          "att": "AS",
+          "where": "cp.11.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་གདུབ",
+          "translit": "rkang gdub",
+          "lemma": "rkang gdub",
+          "att": "AO",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་གདུབ",
+          "translit": "rkang gdub",
+          "lemma": "rkang gdub",
+          "att": "AO",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নেউর"
+        ],
+        "san": [
+          "নূপুর"
+        ],
+        "bod": [
+          "རྐང་གདུབ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A ring worn round the ankle, often hung with small bells (Old Bengali neura, from Sanskrit nūpura). In song 11 bell and anklet are on the poet's feet, named together with āli and kāli. Munidatta counts them among the yogi's ornaments (cp.11.m3); the Tibetan has rkang gdub, 'ankle ring'.",
+      "symbolic": {
+        "image": "an anklet on the poet's feet, named with āli and kāli",
+        "readings": [
+          {
+            "referent": "one of the yogi's ornaments (bell, anklet and the rest), which the lord of yogis makes with the moon, the sun and the rest, purified by vajra recitation; the gloss does not say how āli and kāli fit",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "vajra recitation"
       ],
       "texts": [
         "charyapada"
@@ -1304,6 +1551,90 @@
       }
     },
     {
+      "id": "ash",
+      "type": "term",
+      "status": "proposed",
+      "en": "ash",
+      "alt": [
+        "ashes"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ছার",
+          "translit": "chāra",
+          "lemma": "chāra",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ভস্মনা",
+          "translit": "bhasmanā",
+          "lemma": "bhasman",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐལ་བས",
+          "translit": "thal bas",
+          "lemma": "thal ba",
+          "att": "AO",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐལ་བ",
+          "translit": "thal ba",
+          "lemma": "thal ba",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ছার"
+        ],
+        "san": [
+          "ভস্ম"
+        ],
+        "bod": [
+          "ཐལ་བ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Ash (Old Bengali chāra, Sanskrit bhasman), which Śaiva and kāpālika ascetics smear on the body, often ash from the cremation ground. In song 11 passion, hatred and delusion are the ash the poet smears on; Munidatta says they are burned by the fire of the passion of great bliss (cp.11.m4). The Tibetan has thal ba.",
+      "symbolic": {
+        "image": "ash smeared on the body, made of passion, hatred and delusion",
+        "readings": [
+          {
+            "referent": "what remains when passion, hatred and the rest are burned by the fire of the passion of great bliss; with that ash the yogi's limbs are smeared",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "great bliss",
+        "fire of great bliss",
+        "fire of passion"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "astagunaisvarya",
       "type": "term",
       "status": "proposed",
@@ -1486,6 +1817,14 @@
           "lemma": "avadhūtī",
           "att": "AS",
           "where": "cp.05.m2"
+        },
+        {
+          "lang": "san",
+          "script": "প্রধানাবধূতিকা",
+          "translit": "pradhānāvadhūtikā",
+          "lemma": "avadhūtikā",
+          "att": "AS",
+          "where": "cp.11.m2"
         }
       ],
       "match": {
@@ -1499,7 +1838,8 @@
           "প্রকৃতিপরিশুদ্ধাবধূতিকা",
           "বধূতিকা",
           "বধূতী",
-          "অবধূত্যা"
+          "অবধূত্যা",
+          "প্রধানাবধূতিকা"
         ],
         "bod": [
           "ཨ་ཝ་དྷཱུ་ཏཱི",
@@ -1892,6 +2232,90 @@
         "channel",
         "obstruction",
         "obstructions"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "bell",
+      "type": "term",
+      "status": "proposed",
+      "en": "bell",
+      "alt": [
+        "bells"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘণ্টা",
+          "translit": "ghaṇṭā",
+          "lemma": "ghaṇṭā",
+          "att": "AS",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ঘণ্টানূপুরাদিযোগিকালঙ্কারং",
+          "translit": "ghaṇṭānūpurādiyogikālaṅkāraṃ",
+          "lemma": "ghaṇṭā",
+          "att": "AS",
+          "where": "cp.11.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲིལ་བུ",
+          "translit": "dril bu",
+          "lemma": "dril bu",
+          "att": "AO",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲིལ་བུ",
+          "translit": "dril bu",
+          "lemma": "dril bu",
+          "att": "AO",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ঘণ্টা"
+        ],
+        "san": [
+          "ঘণ্টা"
+        ],
+        "bod": [
+          "དྲིལ་བུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A bell (ghaṇṭā). In song 11 bell and anklet are on the poet's feet, named together with āli and kāli, among the regalia of a kāpālika yogi. Munidatta counts them among the yogi's ornaments (cp.11.m3). The Tibetan has dril bu, also the word for the ritual hand-bell.",
+      "symbolic": {
+        "image": "a bell on the poet's feet, named with āli and kāli",
+        "readings": [
+          {
+            "referent": "one of the yogi's ornaments (bell, anklet and the rest), which the lord of yogis makes with the moon, the sun and the rest, purified by vajra recitation; the gloss does not say how āli and kāli fit",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "vajra recitation"
       ],
       "texts": [
         "charyapada"
@@ -3029,20 +3453,70 @@
           "lemma": "spyod pa",
           "att": "AO",
           "where": "cp.02.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "অচারে",
+          "translit": "acāre",
+          "lemma": "ācāra",
+          "att": "AS",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "san",
+          "script": "প্রচারেণ",
+          "translit": "pracāreṇa",
+          "lemma": "pracāra",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কপালচর্য্যামাহ",
+          "translit": "kapālacaryām āha",
+          "lemma": "caryā",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྱོད",
+          "translit": "spyod",
+          "lemma": "spyod pa",
+          "att": "AO",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་ཏུ་སྤྱོད་པ",
+          "translit": "rab tu spyod pa",
+          "lemma": "spyod pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐོད་པ་ཅན་གྱི་སྤྱོད་པ",
+          "translit": "thod pa can gyi spyod pa",
+          "lemma": "spyod pa",
+          "att": "AO",
+          "where": "cp.11.m5"
         }
       ],
       "match": {
         "san": [
           "চর্য্যা",
           "চর্য্যাং",
-          "চর্য্যাধর"
+          "চর্য্যাধর",
+          "কপালচর্য্যা"
         ],
         "bod": [
           "སྤྱོད་པ",
           "སྤྱོད་པའི"
         ],
         "oben": [
-          "চর্য্যা"
+          "চর্য্যা",
+          "অচারে"
         ]
       },
       "matchRe": {},
@@ -3748,6 +4222,68 @@
         "Man of Time",
         "Kālapuruṣa"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "damaru",
+      "type": "term",
+      "status": "proposed",
+      "en": "ḍamaru",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ডমরু",
+          "translit": "ḍamaru",
+          "lemma": "ḍamaru",
+          "att": "AS",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "san",
+          "script": "ডমরুশব্দং",
+          "translit": "ḍamaruśabdaṃ",
+          "lemma": "ḍamaru",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཌ་མ་རུ",
+          "translit": "Da ma ru",
+          "lemma": "Da ma ru",
+          "att": "AO",
+          "where": "cp.11.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ডমরু"
+        ],
+        "san": [
+          "ডমরু"
+        ],
+        "bod": [
+          "ཌ་མ་རུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A small two-headed drum shaped like an hourglass, sounded by beads on cords when the hand twists it; Śiva, kāpālika ascetics and tantric deities carry it. In song 11 Kāṇha's ḍamaru is unstruck and yet sounds. The Tibetan keeps the word (Da ma ru).",
+      "symbolic": {
+        "image": "the unstruck ḍamaru that sounds with a hero's sound",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -4838,6 +5374,140 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "dvesa",
+      "type": "term",
+      "status": "proposed",
+      "en": "hatred",
+      "alt": [
+        "aversion"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দেশ",
+          "translit": "deśa",
+          "lemma": "deśa",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "san",
+          "script": "রাগদ্বেষাদিকং",
+          "translit": "rāgadveṣādikaṃ",
+          "lemma": "dveṣa",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞེ་སྡང",
+          "translit": "zhe sdang",
+          "lemma": "zhe sdang",
+          "att": "AO",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞེ་སྡང",
+          "translit": "zhe sdang",
+          "lemma": "zhe sdang",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "দ্বেষ"
+        ],
+        "bod": [
+          "ཞེ་སྡང"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])দেশ(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Hatred or aversion (dveṣa), with passion and delusion one of the three root afflictions. Song 11 writes deśa, which the Tibetan zhe sdang and Munidatta's rāgadveṣādika (cp.11.m4) show stands for dveṣa; the same spelling is the ordinary word for 'country, place'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "ekakara",
+      "type": "term",
+      "status": "proposed",
+      "en": "one form",
+      "alt": [
+        "single form"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "একারেঁ",
+          "translit": "ekārem̐",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.11.2b"
+        },
+        {
+          "lang": "san",
+          "script": "একাকারতয়া",
+          "translit": "ekākāratayā",
+          "lemma": "ekākāra",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རིགས་གཅིག",
+          "translit": "rigs gcig",
+          "lemma": "rigs gcig",
+          "att": "AO",
+          "where": "cp.11.2b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "একারেঁ"
+        ],
+        "san": [
+          "একাকার"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Having one form or aspect (ekākāra). In the refrain of song 11 Kāṇha wanders in the town of the body ekārem̐, which Munidatta renders ekākāratayā, 'in oneness of form' (cp.11.m2). The Tibetan has rigs gcig, 'of one kind'. Whether the Old Bengali simply means 'alone' is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -6806,6 +7476,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.07.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "কালি",
+          "translit": "kāli",
+          "lemma": "kāli",
+          "att": "AS",
+          "where": "cp.11.3a"
         }
       ],
       "match": {
@@ -6820,7 +7498,11 @@
           "কালিএঁ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])কালি(?![\\p{L}\\p{M}])"
+        ]
+      },
       "definition": "The series of Sanskrit consonants. Munidatta glosses the camaṇa of song 1 as kāli, with the purification of the sun, and quotes the union of āli and kāli as Vajrasattva's seat (cp.01.m6). In song 7 he pairs it instead with (ā)lokābhāsa, the spreading of light, as āli with the light (cp.07.m2). Not to be confused with kāla or the goddess Kālī.",
       "symbolic": {
         "image": "",
@@ -7140,24 +7822,72 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.10.m7"
+        },
+        {
+          "lang": "oben",
+          "script": "কাপালী",
+          "translit": "kāpālī",
+          "lemma": "kāpālī",
+          "att": "AS",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "কবালী",
+          "translit": "kabālī",
+          "lemma": "kāpālī",
+          "att": "AS",
+          "where": "cp.11.5b"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রকাপালিকো",
+          "translit": "vajrakāpāliko",
+          "lemma": "kāpālika",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐོད་ཅན",
+          "translit": "thod can",
+          "lemma": "thod pa can",
+          "att": "AO",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་ཐོད་པ་ཅན",
+          "translit": "rdo rje thod pa can",
+          "lemma": "thod pa can",
+          "att": "AO",
+          "where": "cp.11.m5"
         }
       ],
       "match": {
         "oben": [
           "কাপালি",
-          "কপালী"
+          "কপালী",
+          "কাপালী"
         ],
         "san": [
           "কাপালিকঃ",
-          "কাপালিক"
+          "কাপালিক",
+          "বজ্রকাপালিক"
         ],
         "bod": [
           "ཐོད་པའི",
           "ཀ་པཱ་ལི",
-          "ཐོད་པ་ཅན"
+          "ཐོད་པ་ཅན",
+          "ཐོད་ཅན",
+          "རྡོ་རྗེ་ཐོད་པ་ཅན"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])কবালী"
+        ]
+      },
       "definition": "An ascetic who carries a skull-bowl, wears ornaments of bone, keeps to cremation grounds and ignores the rules of caste purity; the observance is found in Śaiva and Buddhist tantric circles alike. Kāṇha calls himself one and puts on a garland of bones for Ḍombī.",
       "symbolic": {
         "image": "",
@@ -7559,6 +8289,89 @@
       }
     },
     {
+      "id": "khatvanga",
+      "type": "term",
+      "status": "proposed",
+      "en": "khaṭvāṅga",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খট্টে",
+          "translit": "khaṭṭe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "san",
+          "script": "খট্টাঙ্গমিতি",
+          "translit": "khaṭṭāṅgam iti",
+          "lemma": "khaṭvāṅga",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁ་ཊྭཱཾ་ག",
+          "translit": "kha T+wAM ga",
+          "lemma": "kha T+wAM ga",
+          "att": "AO",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁ་ཊྭཱཾ་ག",
+          "translit": "kha T+wAM ga",
+          "lemma": "kha T+wAM ga",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "খট্টে"
+        ],
+        "san": [
+          "খট্টাঙ্গ"
+        ],
+        "bod": [
+          "ཁ་ཊྭཱཾ་ག"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A staff topped with a skull, carried by kāpālika ascetics and held by many tantric deities. Munidatta (khaṭṭāṅga) and the Tibetan translation (kha T+wAM ga) read the khaṭṭe of song 11 as this staff; but khaṭṭa can also mean 'bed, cot', so the literal sense of the line is not certain.",
+      "symbolic": {
+        "image": "the khaṭvāṅga, the skull-topped staff",
+        "readings": [
+          {
+            "referent": "emptiness: he explains kha as emptiness and adds 'having touched the innate with the clear light'; the rest of the word is not explained, and Shastri notes a variant śūratā, 'heroism', for śūnyatā",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "emptiness",
+        "clear light",
+        "the innate",
+        "innate"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "khunti",
       "type": "term",
       "status": "proposed",
@@ -7921,6 +8734,57 @@
       "definition": "In yoga, holding the breath after drawing it in, named from kumbha, 'pot', since the body is held full like a jar. Munidatta speaks of the absorption (samādhi) of kumbhaka purified by vilakṣaṇa and reads the song's crocodile (kumbhīra) through it (cp.02.m2); the Tibetan transcribes the word.",
       "symbolic": {
         "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "kundala",
+      "type": "term",
+      "status": "proposed",
+      "en": "earrings",
+      "alt": [
+        "earring",
+        "ear ornaments"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুণ্ডল",
+          "translit": "kuṇḍala",
+          "lemma": "kuṇḍala",
+          "att": "AS",
+          "where": "cp.11.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣ་བའི་རྒྱན",
+          "translit": "rna ba'i rgyan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.3b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কুণ্ডল"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Earrings (kuṇḍala), often large rings, worn by yogis and kāpālika ascetics as part of their regalia. In song 11 the sun and the moon are made into the poet's earrings. The Tibetan has rna ba'i rgyan, 'ear ornament'. A different word from kāneṭa in song 2, which the glossary also renders 'earring'.",
+      "symbolic": {
+        "image": "the sun and the moon made into earrings",
         "readings": []
       },
       "forbiddenInLine": [],
@@ -9452,6 +10316,57 @@
       }
     },
     {
+      "id": "maya",
+      "type": "term",
+      "status": "proposed",
+      "en": "illusion",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মায়ারূপাং",
+          "translit": "māyārūpāṃ",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་མ",
+          "translit": "sgyu ma",
+          "lemma": "sgyu ma",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "মায়ারূপ"
+        ],
+        "bod": [
+          "སྒྱུ་མ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Illusion (māyā): a conjured appearance, like a magician's show, that seems real but is not; Mahāyāna texts use it for the way all things appear. Munidatta calls ignorance something that has the form of illusion (cp.11.m5); the Tibetan has sgyu ma'i tshul, 'in the manner of an illusion'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "moha",
       "type": "term",
       "status": "proposed",
@@ -9493,6 +10408,22 @@
           "lemma": "rmongs pa",
           "att": "AO",
           "where": "cp.05.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "মোহ",
+          "translit": "moha",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏི་མུག",
+          "translit": "gti mug",
+          "lemma": "gti mug",
+          "att": "AO",
+          "where": "cp.11.4a"
         }
       ],
       "match": {
@@ -9502,7 +10433,11 @@
         ],
         "bod": [
           "རྨོངས་པ",
-          "རྨོངས་པ་ཆེན་པོ"
+          "རྨོངས་པ་ཆེན་པོ",
+          "གཏི་མུག"
+        ],
+        "oben": [
+          "মোহ"
         ]
       },
       "matchRe": {},
@@ -9639,6 +10574,38 @@
           "lemma": "thar pa",
           "att": "AO",
           "where": "cp.05.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "মোখ",
+          "translit": "mokha",
+          "lemma": "mokha",
+          "att": "AS",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পরমমোক্ষমুক্তাহারমণ্ডিতো",
+          "translit": "paramamokṣamuktāhāramaṇḍito",
+          "lemma": "mokṣa",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐར",
+          "translit": "thar",
+          "lemma": "thar pa",
+          "att": "AO",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐར་པ",
+          "translit": "thar pa",
+          "lemma": "thar pa",
+          "att": "AO",
+          "where": "cp.11.m4"
         }
       ],
       "match": {
@@ -9650,6 +10617,9 @@
         ],
         "bod": [
           "ཐར་པ"
+        ],
+        "oben": [
+          "মোখ"
         ]
       },
       "matchRe": {},
@@ -9765,6 +10735,14 @@
           "lemma": "bsil zer",
           "att": "AO",
           "where": "cp.03.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "শশী",
+          "translit": "śaśī",
+          "lemma": "śaśin",
+          "att": "AS",
+          "where": "cp.11.3b"
         }
       ],
       "match": {
@@ -9778,7 +10756,8 @@
         ],
         "oben": [
           "চন্দ",
-          "চান্দ"
+          "চান্দ",
+          "শশী"
         ],
         "bod": [
           "རི་དགས་མཚན",
@@ -9829,6 +10808,66 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "mother",
+      "type": "term",
+      "status": "proposed",
+      "en": "mother",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঅ",
+          "translit": "māa",
+          "lemma": "māa",
+          "att": "AS",
+          "where": "cp.11.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "མ",
+          "translit": "ma",
+          "lemma": "ma",
+          "att": "AO",
+          "where": "cp.11.5b"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])মাঅ(?= মারি)"
+        ]
+      },
+      "definition": "The mother (Old Bengali māa, from Sanskrit mātṛ). In the last couplet of song 11 Kāṇha becomes a kāpālika by killing the mother. Munidatta's paraphrase puts ignorance, which has the form of illusion (māyā), in her place (cp.11.m5), perhaps hearing māa as māyā. The Tibetan has ma.",
+      "symbolic": {
+        "image": "the mother whom Kāṇha kills to become a kāpālika",
+        "readings": [
+          {
+            "referent": "ignorance, which has the form of illusion (māyā), made without intrinsic nature by the practice of the nondifference of wisdom and means (his paraphrase puts avidyāṃ māyārūpām where the song has māa; there is no explicit gloss)",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "ignorance",
+        "illusion",
+        "māyā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -10007,16 +11046,70 @@
           "lemma": "rtsa",
           "att": "AO",
           "where": "cp.04.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "নাড়ি",
+          "translit": "nāṛi",
+          "lemma": "nāḍī",
+          "att": "AS",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নাড়ীত্যাদি",
+          "translit": "nāṛītyādi",
+          "lemma": "nāḍī",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নাড়িকা",
+          "translit": "nāṛikā",
+          "lemma": "nāḍikā",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "san",
+          "script": "দ্বাত্রিংশনাড়িকাঃ",
+          "translit": "dvātriṃśanāṛikāḥ",
+          "lemma": "nāḍikā",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནཱ་ཌི",
+          "translit": "nA Di",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ནཱ་ཌཱི",
+          "translit": "nA DI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m2"
         }
       ],
       "match": {
         "san": [
           "নাড্য",
           "নাড়ী",
-          "নাডী"
+          "নাডী",
+          "নাড়ি"
         ],
         "bod": [
-          "རྩ"
+          "རྩ",
+          "ནཱ་ཌི",
+          "ནཱ་ཌཱི"
+        ],
+        "oben": [
+          "নাড়ি"
         ]
       },
       "matchRe": {},
@@ -10352,6 +11445,60 @@
       }
     },
     {
+      "id": "nananda",
+      "type": "term",
+      "status": "proposed",
+      "en": "husband's sister",
+      "alt": [
+        "sister-in-law"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নণন্দ",
+          "translit": "naṇanda",
+          "lemma": "naṇanda",
+          "att": "AS",
+          "where": "cp.11.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨ་ནེ",
+          "translit": "a ne",
+          "lemma": "a ne",
+          "att": "AO",
+          "where": "cp.11.5a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নণন্দ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The husband's sister (Old Bengali naṇanda, Sanskrit nanāndṛ), who in the joint household shares with the mother-in-law authority over a young wife. In song 11 she is among those killed at home. The Tibetan has a ne, 'aunt'. Munidatta does not gloss her by name.",
+      "symbolic": {
+        "image": "the husband's sister, killed at home",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "wind",
+        "winds",
+        "consciousness"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "nihsvabhava",
       "type": "term",
       "status": "proposed",
@@ -10377,11 +11524,20 @@
           "lemma": "rang bzhin med pa",
           "att": "AO",
           "where": "cp.04.m1"
+        },
+        {
+          "lang": "san",
+          "script": "নিস্বভাবীকৃত্য",
+          "translit": "nisvabhāvīkṛtya",
+          "lemma": "niḥsvabhāva",
+          "att": "AS",
+          "where": "cp.11.m5"
         }
       ],
       "match": {
         "san": [
-          "নিঃস্বভাব"
+          "নিঃস্বভাব",
+          "নিস্বভাব"
         ],
         "bod": [
           "རང་བཞིན་མེད་པ"
@@ -11009,16 +12165,34 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.01.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভগবান্",
+          "translit": "bhagavān",
+          "lemma": "bhagavat",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅོམ་ལྡན",
+          "translit": "bcom ldan",
+          "lemma": "bcom ldan 'das",
+          "att": "AO",
+          "where": "cp.11.m5"
         }
       ],
       "match": {
         "san": [
           "ভগবতঃ",
           "ভগবতৈব",
-          "ভগবতা"
+          "ভগবতা",
+          "ভগবান"
         ],
         "bod": [
-          "བཅོམ་ལྡན་འདས"
+          "བཅོམ་ལྡན་འདས",
+          "བཅོམ་ལྡན"
         ]
       },
       "matchRe": {},
@@ -11300,6 +12474,57 @@
       },
       "matchRe": {},
       "definition": "Cāṭilapāda, the siddha to whom the manuscript attributes song 5. He names himself Cāṭila in its refrain, where he builds a bridge, and in its last couplet. The commentary also spells the name Cāṭilla; the Tibetan translation has tsA TI la and tsA TI li pa. Munidatta calls him a siddhācārya (cp.05.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "p-darati",
+      "type": "person",
+      "status": "proposed",
+      "en": "Daṛatīpāda",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দড়তীপাদাঃ",
+          "translit": "daṛatīpādāḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ད་ཨུ་ཌའི་ཞབས",
+          "translit": "da u Da'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "দড়তীপাদ"
+        ],
+        "bod": [
+          "ད་ཨུ་ཌའི་ཞབས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Teacher whom Munidatta quotes at the end of his comment on song 11, for a verse in which the living being is a vajra-holder and the women of the world are like the kāpālika's consort (cp.11.m5). The Tibetan translation names him da u Da'i zhabs, which suggests a different reading of the name. Not otherwise identified here.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -11884,6 +13109,38 @@
           "lemma": "nag po spyod pa",
           "att": "AO",
           "where": "cp.09.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যঃ",
+          "translit": "kṛṣṇācāryaḥ",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པས",
+          "translit": "nag po spyod pas",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.11.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པ་པ",
+          "translit": "nag po spyod pa pa",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོའི་སྤྱོད་པ་པ",
+          "translit": "nag po'i spyod pa pa",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.11.m5"
         }
       ],
       "match": {
@@ -11913,7 +13170,8 @@
           "ནག་པོ་སྤྱོད་པ་པའི་ཞབས",
           "རྡོ་རྗེ་ནག་པོ",
           "ནག་པོ་གླུ་དབྱངས་ཞབས",
-          "སྤྱོད་པའི་ཞབས"
+          "སྤྱོད་པའི་ཞབས",
+          "ནག་པོའི་སྤྱོད་པ་པ"
         ]
       },
       "matchRe": {},
@@ -12356,6 +13614,59 @@
       },
       "matchRe": {},
       "definition": "‘The Illuminator’, one of the five buddhas who head the families of tantric deities, often placed at the centre of the maṇḍala. Munidatta calls the tenth door of song 3 ‘the door of Vairocana’ (vairocanadvāra), where the sign of the bliss of great passion is seen (cp.03.m4); he does not say where in the body it lies.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "p-vajradhara",
+      "type": "person",
+      "status": "proposed",
+      "en": "Vajradhara",
+      "alt": [
+        "vajra-holder"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রধরঃ",
+          "translit": "vajradharaḥ",
+          "lemma": "vajradhara",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་འཛིན",
+          "translit": "rdo rje 'dzin",
+          "lemma": "rdo rje 'dzin pa",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "বজ্রধর"
+        ],
+        "bod": [
+          "རྡོ་རྗེ་འཛིན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'Vajra-holder': a name of the buddha who teaches the tantras, in some systems the primordial buddha. In the verse of Daṛatīpāda that Munidatta quotes, the living being is vajradhara (cp.11.m5), whether as that buddha's name or as an epithet is not certain. The Tibetan has rdo rje 'dzin.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -13151,6 +14462,78 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "pearl-necklace",
+      "type": "term",
+      "status": "proposed",
+      "en": "pearl necklace",
+      "alt": [
+        "necklace of pearls"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মুত্তিহার",
+          "translit": "muttihāra",
+          "lemma": "muttihāra",
+          "att": "AS",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পরমমোক্ষমুক্তাহারমণ্ডিতো",
+          "translit": "paramamokṣamuktāhāramaṇḍito",
+          "lemma": "muktāhāra",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མུ་ཏིག་དོ་ཤལ",
+          "translit": "mu tig do shal",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མུ་ཏིག",
+          "translit": "mu tig",
+          "lemma": "mu tig",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মুত্তিহার"
+        ],
+        "san": [
+          "মুক্তাহার"
+        ],
+        "bod": [
+          "མུ་ཏིག་དོ་ཤལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A necklace of pearls (Old Bengali muttihāra, Sanskrit muktāhāra), one of the yogi's ornaments in song 11, where the poet takes supreme liberation as his pearl necklace; Munidatta repeats the phrase (cp.11.m4). Muktā, 'pearl', sounds like mukta, 'freed', a play the line may intend. The Tibetan has mu tig do shal.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -14289,16 +15672,17 @@
         }
       ],
       "match": {
-        "oben": [
-          "রাগ"
-        ],
         "bod": [
           "གླུ་དབྱངས",
           "གླུའི་གདངས",
           "གླུའི་དབྱངས"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "^রাগ(?=\\s+\\S+\\s*$)"
+        ]
+      },
       "definition": "A melodic mode of Indian music. Each song is headed by the rāga to which it is sung; song 1 is in Paṭamañjarī. In the commentary the same word rāga also means 'passion', a different term (see way of great passion).",
       "symbolic": {
         "image": "",
@@ -14312,6 +15696,82 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "raga-passion",
+      "type": "term",
+      "status": "proposed",
+      "en": "passion",
+      "alt": [
+        "desire"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রাগ",
+          "translit": "rāga",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "san",
+          "script": "রাগদ্বেষাদিকং",
+          "translit": "rāgadveṣādikaṃ",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখরাগবহ্নিনা",
+          "translit": "mahāsukharāgavahninā",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་ཆགས",
+          "translit": "'dod chags",
+          "lemma": "'dod chags",
+          "att": "AO",
+          "where": "cp.11.4a"
+        }
+      ],
+      "match": {
+        "san": [
+          "রাগবহ্নি"
+        ],
+        "bod": [
+          "འདོད་ཆགས"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "রাগ(?= দেশ(?![\\p{L}\\p{M}]))"
+        ],
+        "san": [
+          "রাগ(?=দ্বেষ)"
+        ]
+      },
+      "definition": "Passion or desire (rāga), with hatred and delusion one of the three root afflictions of Buddhist teaching. In song 11 the three are the ash the poet smears on; Munidatta says the fire of the passion of great bliss burns them (cp.11.m4). The same word names a song's melody, which has its own entry (raga).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -14957,6 +16417,138 @@
       }
     },
     {
+      "id": "sakti",
+      "type": "term",
+      "status": "proposed",
+      "en": "śakti",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শক্তি",
+          "translit": "śakti",
+          "lemma": "śakti",
+          "att": "AS",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "san",
+          "script": "শক্তিস্তাসাং",
+          "translit": "śaktis tāsāṃ",
+          "lemma": "śakti",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནུས་ལྡན",
+          "translit": "nus ldan",
+          "lemma": "nus ldan",
+          "att": "AO",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ནུས་ལྡན",
+          "translit": "nus ldan",
+          "lemma": "nus ldan",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "শক্তি"
+        ],
+        "san": [
+          "শক্তি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Power or potency (śakti), which tantric traditions often personify as the female energy of a deity. Song 11 speaks of the nāṛi śakti that the poet holds firm; Munidatta takes the śakti as the chief of the thirty-two channels, the avadhūtikā (cp.11.m2). The Tibetan translation renders it nus ldan, 'the potent one'.",
+      "symbolic": {
+        "image": "the śakti of the channels, which the poet holds firm",
+        "readings": [
+          {
+            "referent": "the chief of the thirty-two channels, the avadhūtikā, whose form is the joy of cessation, held firm at the root of the jewel by the guru's grace; the Tibetan has 'the channel of the potent one is the chief, the avadhūtī'",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "avadhūtī",
+        "avadhūtikā",
+        "central channel",
+        "joy of cessation"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "sali",
+      "type": "term",
+      "status": "proposed",
+      "en": "wife's sister",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শালী",
+          "translit": "śālī",
+          "lemma": "śālī",
+          "att": "AS",
+          "where": "cp.11.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐུད་པོ",
+          "translit": "skud po",
+          "lemma": "skud po",
+          "att": "AO",
+          "where": "cp.11.5a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "শালী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The wife's sister (Old Bengali śālī; compare Sanskrit śyālī), named in song 11 among those killed at home, beside the husband's mother and sister, which makes the household hard to picture. The Tibetan has skud po, a brother-in-law. Munidatta does not gloss her by name.",
+      "symbolic": {
+        "image": "the wife's sister, killed at home",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "wind",
+        "winds",
+        "consciousness"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "samadhi",
       "type": "term",
       "status": "proposed",
@@ -15573,11 +17165,20 @@
           "lemma": "sgyug mo",
           "att": "AO",
           "where": "cp.04.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "শাসু",
+          "translit": "śāsu",
+          "lemma": "śāsu",
+          "att": "AS",
+          "where": "cp.11.5a"
         }
       ],
       "match": {
         "oben": [
-          "সাসু"
+          "সাসু",
+          "শাসু"
         ],
         "san": [
           "সাসু"
@@ -15596,6 +17197,13 @@
             "per": "Munidatta",
             "where": [
               "cp.04.m5"
+            ]
+          },
+          {
+            "referent": "breath (śvāsa): the mind-wind spoken of before, understood as the wind of the consciousnesses of the eye and the other senses, which Kāṇha makes without nature of its own",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m5"
             ]
           }
         ]
@@ -16504,6 +18112,14 @@
           "lemma": "ravi",
           "att": "AS",
           "where": "cp.07.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "রবি",
+          "translit": "rabi",
+          "lemma": "rabi",
+          "att": "AS",
+          "where": "cp.11.3b"
         }
       ],
       "match": {
@@ -16518,7 +18134,11 @@
           "ཉི་མ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])রবি"
+        ]
+      },
       "definition": "The sun. In this song the sun and the moon are called 'the two wheels'. The pair recurs throughout the songs.",
       "symbolic": {
         "image": "the sun, one of 'the two wheels'",
@@ -17737,11 +19357,20 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.10.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "নঅরী",
+          "translit": "naarī",
+          "lemma": "naarī",
+          "att": "AS",
+          "where": "cp.11.2b"
         }
       ],
       "match": {
         "oben": [
-          "নগর"
+          "নগর",
+          "নঅরী"
         ],
         "san": [
           "নগরী",
@@ -19987,6 +21616,59 @@
       }
     },
     {
+      "id": "vijnana",
+      "type": "term",
+      "status": "proposed",
+      "en": "consciousness",
+      "alt": [
+        "consciousnesses"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চক্ষুরিন্দ্রিয়াদিবিজ্ঞানবাতং",
+          "translit": "cakṣurindriyādivijñānavātaṃ",
+          "lemma": "vijñāna",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་ཤེས་པ",
+          "translit": "rnam par shes pa",
+          "lemma": "rnam par shes pa",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "বিজ্ঞান"
+        ],
+        "bod": [
+          "རྣམ་པར་ཤེས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Consciousness (vijñāna): awareness arising through a faculty, as eye-consciousness through the eye; Buddhist analysis usually counts six, and consciousness is the fifth aggregate. Munidatta speaks of 'the wind of the consciousnesses of the eye faculty and the rest', of many kinds (cp.11.m5). The Tibetan has rnam par shes pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "vikala",
       "type": "term",
       "status": "proposed",
@@ -20501,6 +22183,90 @@
       }
     },
     {
+      "id": "viranada",
+      "type": "term",
+      "status": "proposed",
+      "en": "hero's sound",
+      "alt": [
+        "hero's roar"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বীরনাদে",
+          "translit": "bīranāde",
+          "lemma": "bīranāda",
+          "att": "AS",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "san",
+          "script": "বীরনাদেন",
+          "translit": "vīranādena",
+          "lemma": "vīranāda",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔའ་བོའི་གདངས",
+          "translit": "dpa' bo'i gdangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔའ་བོའི་གདངས",
+          "translit": "dpa' bo'i gdangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বীরনাদ"
+        ],
+        "san": [
+          "বীরনাদ"
+        ],
+        "bod": [
+          "དཔའ་བོའི་གདངས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The sound or roar of a hero (vīranāda), with which the unstruck ḍamaru plays in song 11; vīra, 'hero', is also a title of the male tantric adept. Munidatta sets 'the lion's roar of emptiness' beside it (cp.11.m2). The Tibetan has dpa' bo'i gdangs, 'the hero's tone'.",
+      "symbolic": {
+        "image": "the hero's sound with which the unstruck ḍamaru plays",
+        "readings": [
+          {
+            "referent": "the lion's roar of emptiness (śūnyatāsiṃhanāda), named in apposition: with it Kṛṣṇācārya, the kāpālika, sounds the unstruck sound of the ḍamaru",
+            "per": "Munidatta",
+            "where": [
+              "cp.11.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "lion's roar",
+        "lion's roar of emptiness",
+        "emptiness"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "visaya",
       "type": "term",
       "status": "proposed",
@@ -20912,11 +22678,20 @@
           "lemma": "yogin",
           "att": "AS",
           "where": "cp.08.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "যোগী",
+          "translit": "yogī",
+          "lemma": "yogin",
+          "att": "AS",
+          "where": "cp.11.2a"
         }
       ],
       "match": {
         "oben": [
-          "জোই"
+          "জোই",
+          "যোগী"
         ],
         "san": [
           "যোগিনাং",
@@ -21015,6 +22790,22 @@
           "lemma": "rnal 'byor gyi dbang phyug",
           "att": "AO",
           "where": "cp.09.m2"
+        },
+        {
+          "lang": "san",
+          "script": "যোগীশ্বরঃ",
+          "translit": "yogīśvaraḥ",
+          "lemma": "yogīśvara",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་དབང་ཕྱུག",
+          "translit": "rnal 'byor dbang phyug",
+          "lemma": "rnal 'byor gyi dbang phyug",
+          "att": "AO",
+          "where": "cp.11.m5"
         }
       ],
       "match": {

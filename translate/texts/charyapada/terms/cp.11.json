@@ -1,0 +1,1953 @@
+{
+  "unit": "cp.11",
+  "proposals": [
+    {
+      "id": "sakti",
+      "type": "term",
+      "en": "śakti",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শক্তি",
+          "translit": "śakti",
+          "lemma": "śakti",
+          "att": "AS",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "san",
+          "script": "শক্তিস্তাসাং",
+          "translit": "śaktis tāsāṃ",
+          "lemma": "śakti",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནུས་ལྡན",
+          "translit": "nus ldan",
+          "lemma": "nus ldan",
+          "att": "AO",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ནུས་ལྡན",
+          "translit": "nus ldan",
+          "lemma": "nus ldan",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শক্তি"
+        },
+        {
+          "lang": "san",
+          "form": "শক্তি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Power or potency (śakti), which tantric traditions often personify as the female energy of a deity. Song 11 speaks of the nāṛi śakti that the poet holds firm; Munidatta takes the śakti as the chief of the thirty-two channels, the avadhūtikā (cp.11.m2). The Tibetan translation renders it nus ldan, 'the potent one'.",
+      "symbolicImage": "the śakti of the channels, which the poet holds firm",
+      "symbolicReadings": [
+        {
+          "referent": "the chief of the thirty-two channels, the avadhūtikā, whose form is the joy of cessation, held firm at the root of the jewel by the guru's grace; the Tibetan has 'the channel of the potent one is the chief, the avadhūtī'",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "avadhūtī",
+        "avadhūtikā",
+        "central channel",
+        "joy of cessation"
+      ],
+      "rationale": "A key tantric term in the first line that Munidatta reads as the central channel; keeping śakti avoids forcing 'power' or 'energy' on the line and keeps his reading in the notes."
+    },
+    {
+      "id": "khatvanga",
+      "type": "term",
+      "en": "khaṭvāṅga",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খট্টে",
+          "translit": "khaṭṭe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "san",
+          "script": "খট্টাঙ্গমিতি",
+          "translit": "khaṭṭāṅgam iti",
+          "lemma": "khaṭvāṅga",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁ་ཊྭཱཾ་ག",
+          "translit": "kha T+wAM ga",
+          "lemma": "kha T+wAM ga",
+          "att": "AO",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁ་ཊྭཱཾ་ག",
+          "translit": "kha T+wAM ga",
+          "lemma": "kha T+wAM ga",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "খট্টে"
+        },
+        {
+          "lang": "san",
+          "form": "খট্টাঙ্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁ་ཊྭཱཾ་ག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A staff topped with a skull, carried by kāpālika ascetics and held by many tantric deities. Munidatta (khaṭṭāṅga) and the Tibetan translation (kha T+wAM ga) read the khaṭṭe of song 11 as this staff; but khaṭṭa can also mean 'bed, cot', so the literal sense of the line is not certain.",
+      "symbolicImage": "the khaṭvāṅga, the skull-topped staff",
+      "symbolicReadings": [
+        {
+          "referent": "emptiness: he explains kha as emptiness and adds 'having touched the innate with the clear light'; the rest of the word is not explained, and Shastri notes a variant śūratā, 'heroism', for śūnyatā",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "emptiness",
+        "clear light",
+        "the innate",
+        "innate"
+      ],
+      "rationale": "A piece of the kāpālika's regalia named by the commentary and the Tibetan; no English word covers the skull-topped staff, so the source form is kept with a gloss."
+    },
+    {
+      "id": "anahata",
+      "type": "term",
+      "en": "unstruck",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনহা",
+          "translit": "anahā",
+          "lemma": "anahā",
+          "att": "AS",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "san",
+          "script": "অনাহতং",
+          "translit": "anāhataṃ",
+          "lemma": "anāhata",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་མེད",
+          "translit": "gzhom med",
+          "lemma": "gzhom med",
+          "att": "AO",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་དུ་མེད་པ",
+          "translit": "gzhom du med pa",
+          "lemma": "gzhom du med pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অনহা"
+        },
+        {
+          "lang": "san",
+          "form": "অনাহত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Unstruck (anāhata): in Indian yoga, the inner sound heard without one thing striking another. In song 11 an unstruck ḍamaru plays; Munidatta speaks of the unstruck sound of the ḍamaru (cp.11.m2). The Tibetan has gzhom med, 'indestructible'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A yogic technical term behind the paradox of a drum that sounds unstruck; 'unstruck' keeps the paradox, where the Tibetan's 'indestructible' or a word like 'silent' would lose it."
+    },
+    {
+      "id": "damaru",
+      "type": "term",
+      "en": "ḍamaru",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ডমরু",
+          "translit": "ḍamaru",
+          "lemma": "ḍamaru",
+          "att": "AS",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "san",
+          "script": "ডমরুশব্দং",
+          "translit": "ḍamaruśabdaṃ",
+          "lemma": "ḍamaru",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཌ་མ་རུ",
+          "translit": "Da ma ru",
+          "lemma": "Da ma ru",
+          "att": "AO",
+          "where": "cp.11.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ডমরু"
+        },
+        {
+          "lang": "san",
+          "form": "ডমরু"
+        },
+        {
+          "lang": "bod",
+          "form": "ཌ་མ་རུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A small two-headed drum shaped like an hourglass, sounded by beads on cords when the hand twists it; Śiva, kāpālika ascetics and tantric deities carry it. In song 11 Kāṇha's ḍamaru is unstruck and yet sounds. The Tibetan keeps the word (Da ma ru).",
+      "symbolicImage": "the unstruck ḍamaru that sounds with a hero's sound",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A named instrument of the kāpālika's regalia; 'drum' alone would lose what kind of drum it is and whose, so the source form is kept with a gloss."
+    },
+    {
+      "id": "viranada",
+      "type": "term",
+      "en": "hero's sound",
+      "policy": "translate",
+      "alt": [
+        "hero's roar"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বীরনাদে",
+          "translit": "bīranāde",
+          "lemma": "bīranāda",
+          "att": "AS",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "san",
+          "script": "বীরনাদেন",
+          "translit": "vīranādena",
+          "lemma": "vīranāda",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔའ་བོའི་གདངས",
+          "translit": "dpa' bo'i gdangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔའ་བོའི་གདངས",
+          "translit": "dpa' bo'i gdangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বীরনাদ"
+        },
+        {
+          "lang": "san",
+          "form": "বীরনাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "དཔའ་བོའི་གདངས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The sound or roar of a hero (vīranāda), with which the unstruck ḍamaru plays in song 11; vīra, 'hero', is also a title of the male tantric adept. Munidatta sets 'the lion's roar of emptiness' beside it (cp.11.m2). The Tibetan has dpa' bo'i gdangs, 'the hero's tone'.",
+      "symbolicImage": "the hero's sound with which the unstruck ḍamaru plays",
+      "symbolicReadings": [
+        {
+          "referent": "the lion's roar of emptiness (śūnyatāsiṃhanāda), named in apposition: with it Kṛṣṇācārya, the kāpālika, sounds the unstruck sound of the ḍamaru",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "lion's roar",
+        "lion's roar of emptiness",
+        "emptiness"
+      ],
+      "rationale": "Munidatta gives the phrase a reading of its own, so it needs an entry apart from 'hero' (vira); 'hero's sound' stays close to nāda and to the Tibetan gdangs without borrowing his lion's roar."
+    },
+    {
+      "id": "ekakara",
+      "type": "term",
+      "en": "one form",
+      "policy": "translate",
+      "alt": [
+        "single form"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "একারেঁ",
+          "translit": "ekārem̐",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.11.2b"
+        },
+        {
+          "lang": "san",
+          "script": "একাকারতয়া",
+          "translit": "ekākāratayā",
+          "lemma": "ekākāra",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རིགས་གཅིག",
+          "translit": "rigs gcig",
+          "lemma": "rigs gcig",
+          "att": "AO",
+          "where": "cp.11.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "একারেঁ"
+        },
+        {
+          "lang": "san",
+          "form": "একাকার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Having one form or aspect (ekākāra). In the refrain of song 11 Kāṇha wanders in the town of the body ekārem̐, which Munidatta renders ekākāratayā, 'in oneness of form' (cp.11.m2). The Tibetan has rigs gcig, 'of one kind'. Whether the Old Bengali simply means 'alone' is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An unclear word in the refrain that Munidatta takes in a doctrinal sense; an entry fixes one rendering and records the doubt for the reviewer."
+    },
+    {
+      "id": "bell",
+      "type": "term",
+      "en": "bell",
+      "policy": "translate",
+      "alt": [
+        "bells"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘণ্টা",
+          "translit": "ghaṇṭā",
+          "lemma": "ghaṇṭā",
+          "att": "AS",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ঘণ্টানূপুরাদিযোগিকালঙ্কারং",
+          "translit": "ghaṇṭānūpurādiyogikālaṅkāraṃ",
+          "lemma": "ghaṇṭā",
+          "att": "AS",
+          "where": "cp.11.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲིལ་བུ",
+          "translit": "dril bu",
+          "lemma": "dril bu",
+          "att": "AO",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲིལ་བུ",
+          "translit": "dril bu",
+          "lemma": "dril bu",
+          "att": "AO",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঘণ্টা"
+        },
+        {
+          "lang": "san",
+          "form": "ঘণ্টা"
+        },
+        {
+          "lang": "bod",
+          "form": "དྲིལ་བུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A bell (ghaṇṭā). In song 11 bell and anklet are on the poet's feet, named together with āli and kāli, among the regalia of a kāpālika yogi. Munidatta counts them among the yogi's ornaments (cp.11.m3). The Tibetan has dril bu, also the word for the ritual hand-bell.",
+      "symbolicImage": "a bell on the poet's feet, named with āli and kāli",
+      "symbolicReadings": [
+        {
+          "referent": "one of the yogi's ornaments (bell, anklet and the rest), which the lord of yogis makes with the moon, the sun and the rest, purified by vajra recitation; the gloss does not say how āli and kāli fit",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "vajra recitation"
+      ],
+      "rationale": "A recurring item of tantric regalia that Munidatta reads; the plain word 'bell' serves in the line."
+    },
+    {
+      "id": "anklet",
+      "type": "term",
+      "en": "anklet",
+      "policy": "translate",
+      "alt": [
+        "anklets"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নেউর",
+          "translit": "neura",
+          "lemma": "neura",
+          "att": "AS",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ঘণ্টানূপুরাদিযোগিকালঙ্কারং",
+          "translit": "ghaṇṭānūpurādiyogikālaṅkāraṃ",
+          "lemma": "nūpura",
+          "att": "AS",
+          "where": "cp.11.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་གདུབ",
+          "translit": "rkang gdub",
+          "lemma": "rkang gdub",
+          "att": "AO",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་གདུབ",
+          "translit": "rkang gdub",
+          "lemma": "rkang gdub",
+          "att": "AO",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নেউর"
+        },
+        {
+          "lang": "san",
+          "form": "নূপুর"
+        },
+        {
+          "lang": "bod",
+          "form": "རྐང་གདུབ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A ring worn round the ankle, often hung with small bells (Old Bengali neura, from Sanskrit nūpura). In song 11 bell and anklet are on the poet's feet, named together with āli and kāli. Munidatta counts them among the yogi's ornaments (cp.11.m3); the Tibetan has rkang gdub, 'ankle ring'.",
+      "symbolicImage": "an anklet on the poet's feet, named with āli and kāli",
+      "symbolicReadings": [
+        {
+          "referent": "one of the yogi's ornaments (bell, anklet and the rest), which the lord of yogis makes with the moon, the sun and the rest, purified by vajra recitation; the gloss does not say how āli and kāli fit",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "vajra recitation"
+      ],
+      "rationale": "A recurring item of tantric regalia that Munidatta reads; the plain word 'anklet' serves in the line."
+    },
+    {
+      "id": "kundala",
+      "type": "term",
+      "en": "earrings",
+      "policy": "translate",
+      "alt": [
+        "earring",
+        "ear ornaments"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুণ্ডল",
+          "translit": "kuṇḍala",
+          "lemma": "kuṇḍala",
+          "att": "AS",
+          "where": "cp.11.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣ་བའི་རྒྱན",
+          "translit": "rna ba'i rgyan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কুণ্ডল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Earrings (kuṇḍala), often large rings, worn by yogis and kāpālika ascetics as part of their regalia. In song 11 the sun and the moon are made into the poet's earrings. The Tibetan has rna ba'i rgyan, 'ear ornament'. A different word from kāneṭa in song 2, which the glossary also renders 'earring'.",
+      "symbolicImage": "the sun and the moon made into earrings",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard item of the yogi's regalia, distinct from the uncertain kāneṭa of song 2; the plural follows the pair of sun and moon."
+    },
+    {
+      "id": "alankara",
+      "type": "term",
+      "en": "ornament",
+      "policy": "translate",
+      "alt": [
+        "ornaments"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আভরণে",
+          "translit": "ābharaṇe",
+          "lemma": "ābharaṇa",
+          "att": "AS",
+          "where": "cp.11.3b"
+        },
+        {
+          "lang": "san",
+          "script": "যোগিকালঙ্কারমাহ",
+          "translit": "yogikālaṅkāram āha",
+          "lemma": "alaṃkāra",
+          "att": "AS",
+          "where": "cp.11.m3"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরপ্যলঙ্কারমাহ",
+          "translit": "punar apy alaṅkāram āha",
+          "lemma": "alaṃkāra",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱན",
+          "translit": "rgyan",
+          "lemma": "rgyan",
+          "att": "AO",
+          "where": "cp.11.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་པའི་རྒྱན",
+          "translit": "rnal 'byor pa'i rgyan",
+          "lemma": "rgyan",
+          "att": "AO",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "আভরণ"
+        },
+        {
+          "lang": "san",
+          "form": "লঙ্কার"
+        },
+        {
+          "lang": "bod",
+          "form": "རྒྱན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An ornament (Old Bengali ābharaṇa, Sanskrit alaṃkāra), here the regalia of a tantric yogi: earrings, anklets, necklaces, ash and the like. Munidatta says the couplets he counts second and third (couplets 3 and 4 of song 11) describe the yogi's ornaments, yogikālaṅkāra (cp.11.m3, cp.11.m4). The Tibetan has rgyan.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta organises his comment on song 11 around the yogi's ornaments, and the regalia recur in Kāṇha's songs; one entry names the set the single items belong to."
+    },
+    {
+      "id": "ash",
+      "type": "term",
+      "en": "ash",
+      "policy": "translate",
+      "alt": [
+        "ashes"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ছার",
+          "translit": "chāra",
+          "lemma": "chāra",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ভস্মনা",
+          "translit": "bhasmanā",
+          "lemma": "bhasman",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐལ་བས",
+          "translit": "thal bas",
+          "lemma": "thal ba",
+          "att": "AO",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐལ་བ",
+          "translit": "thal ba",
+          "lemma": "thal ba",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ছার"
+        },
+        {
+          "lang": "san",
+          "form": "ভস্ম"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐལ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Ash (Old Bengali chāra, Sanskrit bhasman), which Śaiva and kāpālika ascetics smear on the body, often ash from the cremation ground. In song 11 passion, hatred and delusion are the ash the poet smears on; Munidatta says they are burned by the fire of the passion of great bliss (cp.11.m4). The Tibetan has thal ba.",
+      "symbolicImage": "ash smeared on the body, made of passion, hatred and delusion",
+      "symbolicReadings": [
+        {
+          "referent": "what remains when passion, hatred and the rest are burned by the fire of the passion of great bliss; with that ash the yogi's limbs are smeared",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "fire of great bliss",
+        "fire of passion"
+      ],
+      "rationale": "Part of the ascetic's regalia that Munidatta reads; the plain word keeps the image in the line."
+    },
+    {
+      "id": "pearl-necklace",
+      "type": "term",
+      "en": "pearl necklace",
+      "policy": "translate",
+      "alt": [
+        "necklace of pearls"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মুত্তিহার",
+          "translit": "muttihāra",
+          "lemma": "muttihāra",
+          "att": "AS",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পরমমোক্ষমুক্তাহারমণ্ডিতো",
+          "translit": "paramamokṣamuktāhāramaṇḍito",
+          "lemma": "muktāhāra",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མུ་ཏིག་དོ་ཤལ",
+          "translit": "mu tig do shal",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མུ་ཏིག",
+          "translit": "mu tig",
+          "lemma": "mu tig",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মুত্তিহার"
+        },
+        {
+          "lang": "san",
+          "form": "মুক্তাহার"
+        },
+        {
+          "lang": "bod",
+          "form": "མུ་ཏིག་དོ་ཤལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A necklace of pearls (Old Bengali muttihāra, Sanskrit muktāhāra), one of the yogi's ornaments in song 11, where the poet takes supreme liberation as his pearl necklace; Munidatta repeats the phrase (cp.11.m4). Muktā, 'pearl', sounds like mukta, 'freed', a play the line may intend. The Tibetan has mu tig do shal.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the ornaments the song and the commentary name; the song itself makes liberation the necklace, so no separate esoteric reading is recorded."
+    },
+    {
+      "id": "moksa",
+      "type": "term",
+      "en": "liberation",
+      "policy": "translate",
+      "alt": [
+        "release"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোখ",
+          "translit": "mokha",
+          "lemma": "mokha",
+          "att": "AS",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পরমমোক্ষমুক্তাহারমণ্ডিতো",
+          "translit": "paramamokṣamuktāhāramaṇḍito",
+          "lemma": "mokṣa",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐར",
+          "translit": "thar",
+          "lemma": "thar pa",
+          "att": "AO",
+          "where": "cp.11.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐར་པ",
+          "translit": "thar pa",
+          "lemma": "thar pa",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মোখ"
+        },
+        {
+          "lang": "san",
+          "form": "মোক্ষ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐར་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Liberation (mokṣa): release from saṃsāra, the round of rebirth. In song 11 the poet takes supreme liberation (parama mokha) as his pearl necklace; Munidatta repeats the phrase (cp.11.m4). The Tibetan has thar and thar pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term not yet in the glossary; 'liberation' is the plain English and distinct from nirvāṇa, which has its own entry."
+    },
+    {
+      "id": "raga-passion",
+      "type": "term",
+      "en": "passion",
+      "policy": "translate",
+      "alt": [
+        "desire"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রাগ",
+          "translit": "rāga",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "san",
+          "script": "রাগদ্বেষাদিকং",
+          "translit": "rāgadveṣādikaṃ",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখরাগবহ্নিনা",
+          "translit": "mahāsukharāgavahninā",
+          "lemma": "rāga",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་ཆགས",
+          "translit": "'dod chags",
+          "lemma": "'dod chags",
+          "att": "AO",
+          "where": "cp.11.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "রাগবহ্নি"
+        },
+        {
+          "lang": "bod",
+          "form": "འདོད་ཆགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Passion or desire (rāga), with hatred and delusion one of the three root afflictions of Buddhist teaching. In song 11 the three are the ash the poet smears on; Munidatta says the fire of the passion of great bliss burns them (cp.11.m4). The same word names a song's melody, which has its own entry (raga).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The existing raga entry is the melodic mode; rāga as passion needs its own id so that line 4a is not linked to the melody (the bare রাগ is left out of match for that reason; see questions)."
+    },
+    {
+      "id": "dvesa",
+      "type": "term",
+      "en": "hatred",
+      "policy": "translate",
+      "alt": [
+        "aversion"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দেশ",
+          "translit": "deśa",
+          "lemma": "deśa",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "san",
+          "script": "রাগদ্বেষাদিকং",
+          "translit": "rāgadveṣādikaṃ",
+          "lemma": "dveṣa",
+          "att": "AS",
+          "where": "cp.11.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞེ་སྡང",
+          "translit": "zhe sdang",
+          "lemma": "zhe sdang",
+          "att": "AO",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞེ་སྡང",
+          "translit": "zhe sdang",
+          "lemma": "zhe sdang",
+          "att": "AO",
+          "where": "cp.11.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বেষ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཞེ་སྡང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Hatred or aversion (dveṣa), with passion and delusion one of the three root afflictions. Song 11 writes deśa, which the Tibetan zhe sdang and Munidatta's rāgadveṣādika (cp.11.m4) show stands for dveṣa; the same spelling is the ordinary word for 'country, place'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the three afflictions the song names, in a spelling a reader would take for 'country'; the Old Bengali দেশ is left out of match because it is the common word for 'place' and stands inside upadeśa."
+    },
+    {
+      "id": "nananda",
+      "type": "term",
+      "en": "husband's sister",
+      "policy": "translate",
+      "alt": [
+        "sister-in-law"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নণন্দ",
+          "translit": "naṇanda",
+          "lemma": "naṇanda",
+          "att": "AS",
+          "where": "cp.11.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨ་ནེ",
+          "translit": "a ne",
+          "lemma": "a ne",
+          "att": "AO",
+          "where": "cp.11.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নণন্দ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The husband's sister (Old Bengali naṇanda, Sanskrit nanāndṛ), who in the joint household shares with the mother-in-law authority over a young wife. In song 11 she is among those killed at home. The Tibetan has a ne, 'aunt'. Munidatta does not gloss her by name.",
+      "symbolicImage": "the husband's sister, killed at home",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "wind",
+        "winds",
+        "consciousness"
+      ],
+      "rationale": "A household figure of the last couplet, beside the mother-in-law; 'husband's sister' is exact and keeps her apart from the wife's sister (śālī) in the same line."
+    },
+    {
+      "id": "sali",
+      "type": "term",
+      "en": "wife's sister",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শালী",
+          "translit": "śālī",
+          "lemma": "śālī",
+          "att": "AS",
+          "where": "cp.11.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐུད་པོ",
+          "translit": "skud po",
+          "lemma": "skud po",
+          "att": "AO",
+          "where": "cp.11.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শালী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The wife's sister (Old Bengali śālī; compare Sanskrit śyālī), named in song 11 among those killed at home, beside the husband's mother and sister, which makes the household hard to picture. The Tibetan has skud po, a brother-in-law. Munidatta does not gloss her by name.",
+      "symbolicImage": "the wife's sister, killed at home",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "wind",
+        "winds",
+        "consciousness"
+      ],
+      "rationale": "A household figure of the last couplet whose sense the Tibetan reads differently; an entry records the rendering and the doubt."
+    },
+    {
+      "id": "mother",
+      "type": "term",
+      "en": "mother",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঅ",
+          "translit": "māa",
+          "lemma": "māa",
+          "att": "AS",
+          "where": "cp.11.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "མ",
+          "translit": "ma",
+          "lemma": "ma",
+          "att": "AO",
+          "where": "cp.11.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "The mother (Old Bengali māa, from Sanskrit mātṛ). In the last couplet of song 11 Kāṇha becomes a kāpālika by killing the mother. Munidatta's paraphrase puts ignorance, which has the form of illusion (māyā), in her place (cp.11.m5), perhaps hearing māa as māyā. The Tibetan has ma.",
+      "symbolicImage": "the mother whom Kāṇha kills to become a kāpālika",
+      "symbolicReadings": [
+        {
+          "referent": "ignorance, which has the form of illusion (māyā), made without intrinsic nature by the practice of the nondifference of wisdom and means (his paraphrase puts avidyāṃ māyārūpām where the song has māa; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.11.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "ignorance",
+        "illusion",
+        "māyā"
+      ],
+      "rationale": "A startling image in the bhaṇitā that Munidatta reads; the entry keeps 'mother' in the line and his reading in the notes. No match form: the bare মাঅ could stand inside longer Old Bengali words (see questions)."
+    },
+    {
+      "id": "maya",
+      "type": "term",
+      "en": "illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মায়ারূপাং",
+          "translit": "māyārūpāṃ",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་མ",
+          "translit": "sgyu ma",
+          "lemma": "sgyu ma",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মায়ারূপ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྒྱུ་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Illusion (māyā): a conjured appearance, like a magician's show, that seems real but is not; Mahāyāna texts use it for the way all things appear. Munidatta calls ignorance something that has the form of illusion (cp.11.m5); the Tibetan has sgyu ma'i tshul, 'in the manner of an illusion'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic Mahāyāna term that carries Munidatta's reading of the last couplet; only the longer মায়ারূপ is matched, since the bare মায়া stands inside words such as samāyāta."
+    },
+    {
+      "id": "vijnana",
+      "type": "term",
+      "en": "consciousness",
+      "policy": "translate",
+      "alt": [
+        "consciousnesses"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চক্ষুরিন্দ্রিয়াদিবিজ্ঞানবাতং",
+          "translit": "cakṣurindriyādivijñānavātaṃ",
+          "lemma": "vijñāna",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་ཤེས་པ",
+          "translit": "rnam par shes pa",
+          "lemma": "rnam par shes pa",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিজ্ঞান"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣམ་པར་ཤེས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Consciousness (vijñāna): awareness arising through a faculty, as eye-consciousness through the eye; Buddhist analysis usually counts six, and consciousness is the fifth aggregate. Munidatta speaks of 'the wind of the consciousnesses of the eye faculty and the rest', of many kinds (cp.11.m5). The Tibetan has rnam par shes pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term in Munidatta's gloss on the last couplet, likely to recur; 'consciousness' is the standard English."
+    },
+    {
+      "id": "p-darati",
+      "type": "person",
+      "en": "Daṛatīpāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দড়তীপাদাঃ",
+          "translit": "daṛatīpādāḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ད་ཨུ་ཌའི་ཞབས",
+          "translit": "da u Da'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দড়তীপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ད་ཨུ་ཌའི་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Teacher whom Munidatta quotes at the end of his comment on song 11, for a verse in which the living being is a vajra-holder and the women of the world are like the kāpālika's consort (cp.11.m5). The Tibetan translation names him da u Da'i zhabs, which suggests a different reading of the name. Not otherwise identified here.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A named authority Munidatta quotes; the source form is kept, as for the other teachers he cites."
+    },
+    {
+      "id": "p-vajradhara",
+      "type": "person",
+      "en": "Vajradhara",
+      "policy": "keep-source",
+      "alt": [
+        "vajra-holder"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রধরঃ",
+          "translit": "vajradharaḥ",
+          "lemma": "vajradhara",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་འཛིན",
+          "translit": "rdo rje 'dzin",
+          "lemma": "rdo rje 'dzin pa",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বজ্রধর"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེ་འཛིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Vajra-holder': a name of the buddha who teaches the tantras, in some systems the primordial buddha. In the verse of Daṛatīpāda that Munidatta quotes, the living being is vajradhara (cp.11.m5), whether as that buddha's name or as an epithet is not certain. The Tibetan has rdo rje 'dzin.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A central figure of tantric Buddhism named in the quoted verse (and, as 'the Vajra-holder', in the Sampuṭa verse the saṃsāra entry cites); keep-source follows the other buddha names such as Vajrasattva and Vairocana."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যঃ",
+          "translit": "kṛṣṇācāryaḥ",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པས",
+          "translit": "nag po spyod pas",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.11.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་སྤྱོད་པ་པ",
+          "translit": "nag po spyod pa pa",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོའི་སྤྱོད་པ་པ",
+          "translit": "nag po'i spyod pa pa",
+          "lemma": "nag po spyod pa",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্য"
+        },
+        {
+          "lang": "bod",
+          "form": "ནག་པོའི་སྤྱོད་པ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry: the nominative kṛṣṇācāryaḥ (cp.11.m1, cp.11.m5; the stem as match covers every ending) and three Tibetan spellings of the name in the commentary."
+    },
+    {
+      "id": "kapalika",
+      "type": "term",
+      "en": "kāpālika",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাপালী",
+          "translit": "kāpālī",
+          "lemma": "kāpālī",
+          "att": "AS",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "কবালী",
+          "translit": "kabālī",
+          "lemma": "kāpālī",
+          "att": "AS",
+          "where": "cp.11.5b"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রকাপালিকো",
+          "translit": "vajrakāpāliko",
+          "lemma": "kāpālika",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐོད་ཅན",
+          "translit": "thod can",
+          "lemma": "thod pa can",
+          "att": "AO",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་ཐོད་པ་ཅན",
+          "translit": "rdo rje thod pa can",
+          "lemma": "thod pa can",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাপালী"
+        },
+        {
+          "lang": "san",
+          "form": "বজ্রকাপালিক"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐོད་ཅན"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེ་ཐོད་པ་ཅན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry: kāpālī (refrain) and kabālī (bhaṇitā), Munidatta's vajrakāpālika, and the Tibetan thod can and rdo rje thod pa can; কবালী is not matched because it stands inside aṅkabālī (song 4)."
+    },
+    {
+      "id": "carya",
+      "type": "term",
+      "en": "conduct",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অচারে",
+          "translit": "acāre",
+          "lemma": "ācāra",
+          "att": "AS",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "san",
+          "script": "প্রচারেণ",
+          "translit": "pracāreṇa",
+          "lemma": "pracāra",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কপালচর্য্যামাহ",
+          "translit": "kapālacaryām āha",
+          "lemma": "caryā",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྱོད",
+          "translit": "spyod",
+          "lemma": "spyod pa",
+          "att": "AO",
+          "where": "cp.11.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་ཏུ་སྤྱོད་པ",
+          "translit": "rab tu spyod pa",
+          "lemma": "spyod pa",
+          "att": "AO",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐོད་པ་ཅན་གྱི་སྤྱོད་པ",
+          "translit": "thod pa can gyi spyod pa",
+          "lemma": "spyod pa",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অচারে"
+        },
+        {
+          "lang": "san",
+          "form": "কপালচর্য্যা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry: the refrain's acāre (ācāra), which Munidatta renders pracāreṇa and the Tibetan spyod, and his kapālacaryā, 'the kāpālika's conduct', which heads his comment on the last couplet (see questions on acāre)."
+    },
+    {
+      "id": "town",
+      "type": "term",
+      "en": "town",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নঅরী",
+          "translit": "naarī",
+          "lemma": "naarī",
+          "att": "AS",
+          "where": "cp.11.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নঅরী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: naarī (Sanskrit nagarī) in the refrain's 'town of the body' (deha naarī), which Munidatta renders dehanagarikā."
+    },
+    {
+      "id": "ali",
+      "type": "term",
+      "en": "āli",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আলি",
+          "translit": "āli",
+          "lemma": "āli",
+          "att": "AS",
+          "where": "cp.11.3a"
+        },
+        {
+          "lang": "san",
+          "script": "আলি",
+          "translit": "āli",
+          "lemma": "āli",
+          "att": "AS",
+          "where": "cp.11.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: the bare āli of line 3a and Munidatta's citation of it; no literal match is proposed because আলি stands inside words such as āliṅgana (see questions for a whole-word regex)."
+    },
+    {
+      "id": "kali",
+      "type": "term",
+      "en": "kāli",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কালি",
+          "translit": "kāli",
+          "lemma": "kāli",
+          "att": "AS",
+          "where": "cp.11.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: the bare kāli of line 3a; no literal match is proposed because কালি stands inside other words and is also an Old Bengali word for 'yesterday, tomorrow' (see questions)."
+    },
+    {
+      "id": "nadi",
+      "type": "term",
+      "en": "channel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নাড়ি",
+          "translit": "nāṛi",
+          "lemma": "nāḍī",
+          "att": "AS",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নাড়ীত্যাদি",
+          "translit": "nāṛītyādi",
+          "lemma": "nāḍī",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নাড়িকা",
+          "translit": "nāṛikā",
+          "lemma": "nāḍikā",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "san",
+          "script": "দ্বাত্রিংশনাড়িকাঃ",
+          "translit": "dvātriṃśanāṛikāḥ",
+          "lemma": "nāḍikā",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནཱ་ཌི",
+          "translit": "nA Di",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ནཱ་ཌཱི",
+          "translit": "nA DI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নাড়ি"
+        },
+        {
+          "lang": "san",
+          "form": "নাড়ি"
+        },
+        {
+          "lang": "san",
+          "form": "নাড়ী"
+        },
+        {
+          "lang": "bod",
+          "form": "ནཱ་ཌི"
+        },
+        {
+          "lang": "bod",
+          "form": "ནཱ་ཌཱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry, whose forms are spelled with ড (nāḍyaḥ): the song's nāṛi, Munidatta's nāṛī and nāṛikā ('the thirty-two channels'), and the Tibetan transcriptions nA Di and nA DI."
+    },
+    {
+      "id": "sasu",
+      "type": "term",
+      "en": "mother-in-law",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শাসু",
+          "translit": "śāsu",
+          "lemma": "śāsu",
+          "att": "AS",
+          "where": "cp.11.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শাসু"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: the spelling śāsu (with শ) in line 5a; Munidatta's new reading of it here is raised in questions, since a merge adds only forms."
+    },
+    {
+      "id": "moha",
+      "type": "term",
+      "en": "delusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোহ",
+          "translit": "moha",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.11.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏི་མུག",
+          "translit": "gti mug",
+          "lemma": "gti mug",
+          "att": "AO",
+          "where": "cp.11.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মোহ"
+        },
+        {
+          "lang": "bod",
+          "form": "གཏི་མུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry: the Old Bengali moha of line 4a, third of the three afflictions, and the Tibetan gti mug, the usual rendering of moha as a root affliction."
+    },
+    {
+      "id": "moon",
+      "type": "term",
+      "en": "moon",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শশী",
+          "translit": "śaśī",
+          "lemma": "śaśin",
+          "att": "AS",
+          "where": "cp.11.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শশী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: śaśī in the compound rabiśaśī, 'sun and moon', of line 3b (the existing form has short i)."
+    },
+    {
+      "id": "surya",
+      "type": "term",
+      "en": "sun",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রবি",
+          "translit": "rabi",
+          "lemma": "rabi",
+          "att": "AS",
+          "where": "cp.11.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: rabi in rabiśaśī, 'sun and moon', of line 3b; no literal match is proposed because রবি stands inside Old Bengali verb forms such as karabi (see questions)."
+    },
+    {
+      "id": "yogi",
+      "type": "term",
+      "en": "yogi",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "যোগী",
+          "translit": "yogī",
+          "lemma": "yogin",
+          "att": "AS",
+          "where": "cp.11.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "যোগী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: yogī in the refrain, where Kāṇha calls himself a kāpālī yogī (the existing Old Bengali form is joi)."
+    },
+    {
+      "id": "yogindra",
+      "type": "term",
+      "en": "lord of yogis",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যোগীশ্বরঃ",
+          "translit": "yogīśvaraḥ",
+          "lemma": "yogīśvara",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་དབང་ཕྱུག",
+          "translit": "rnal 'byor dbang phyug",
+          "lemma": "rnal 'byor gyi dbang phyug",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যোগীশ্বর"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣལ་འབྱོར་དབང་ཕྱུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry: yogīśvara, a synonym of yogīndra, in the verse of Daṛatīpāda, with the Tibetan rnal 'byor dbang phyug."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রধানাবধূতিকা",
+          "translit": "pradhānāvadhūtikā",
+          "lemma": "avadhūtikā",
+          "att": "AS",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রধানাবধূতিকা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: pradhānāvadhūtikā, 'the chief, the avadhūtikā', where sandhi hides the initial a of the existing forms."
+    },
+    {
+      "id": "nihsvabhava",
+      "type": "term",
+      "en": "without intrinsic nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিস্বভাবীকৃত্য",
+          "translit": "nisvabhāvīkṛtya",
+          "lemma": "niḥsvabhāva",
+          "att": "AS",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিস্বভাব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only, for the existing entry: the manuscript's spelling nisvabhāvīkṛtya, 'having made without intrinsic nature', without the visarga of the existing form."
+    },
+    {
+      "id": "p-bhagavat",
+      "type": "person",
+      "en": "Blessed One",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভগবান্",
+          "translit": "bhagavān",
+          "lemma": "bhagavat",
+          "att": "AS",
+          "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅོམ་ལྡན",
+          "translit": "bcom ldan",
+          "lemma": "bcom ldan 'das",
+          "att": "AO",
+          "where": "cp.11.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভগবান"
+        },
+        {
+          "lang": "bod",
+          "form": "བཅོམ་ལྡན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, for the existing entry: the nominative bhagavān in the verse of Daṛatīpāda, and the Tibetan's shortened bcom ldan; matching ভগবান also keeps bhaga from being read inside it."
+    }
+  ],
+  "questions": [
+    "rāga in line 4a is 'passion' (with deśa = dveṣa and moha: the three afflictions; the Tibetan has 'dod chags zhe sdang gti mug), not the melody. If the existing raga entry matches the bare রাগ, it will link 4a, Munidatta's lemma রাগ ইত্যাদি and রাগদ্বেষাদিকং (cp.11.m4) to the melodic mode; 4a even opens with রাগ like the heading. I propose raga-passion but gave it no bare রাগ match. Could the melody entry be limited to headings?",
+    "matchRe cannot be proposed in this schema, so short forms that would hit inside other words are left out of match. Suggested whole-word regexes for the reviewer to add: ali (?<![\\p{L}\\p{M}])আলি(?![\\p{L}\\p{M}]) (the bare literal hits āliṅgana); kali, the same pattern with কালি (but kāli is also Old Bengali 'yesterday, tomorrow', which no regex separates); surya রবি (inside karabi); mother মাঅ (Old Bengali writes -āa inside many words); kapalika কবালী (inside aṅkabālī, song 4); dvesa দেশ (the common word for 'place', and inside upadeśa).",
+    "Literals given with some risk: নাড়ি (nadi; could meet a verb nāṛ-, 'shake'), খট্টে (khatvanga; khaṭṭa is also 'bed, cot'), কুণ্ডল (kundala; would hit inside kuṇḍalī, kuṇḍalinī), মোহ (moha; would hit inside mohana), ছার and মোখ (short, but I know no Old Bengali word they stand inside). All Bengali matches are language-scoped (oben for verse, san for commentary).",
+    "Line 1a: Munidatta (khaṭṭāṅga) and the Tibetan (kha T+wAM ga) read khaṭṭe as the khaṭvāṅga staff, but khaṭṭe could be locative 'on the cot/bed'. Munidatta also places the holding 'at the root of the jewel' (maṇimūle vidhṛtya), which the line does not say. The drafter should flag the reading.",
+    "ekārem̐ (2b): I propose 'one form' after Munidatta's ekākāratayā; the Tibetan rigs gcig means 'of one kind', and the Old Bengali could simply mean 'alone'. Please decide whether the entry is worth keeping.",
+    "acāre (2a) is added as a form of carya ('conduct') on the strength of Munidatta's pracāreṇa and the Tibetan spyod. ācāra is a different Sanskrit word from caryā; if the reviewer wants the distinction kept, it should become its own entry.",
+    "kundala ('earrings') and the existing kaneta ('earring', song 2) now share an English word. They are different source words, and kaneta's sense is uncertain; the reviewer may want to separate the renderings.",
+    "Kin in 5a: śāsu and naṇanda are a wife's in-laws (husband's mother and sister), śālī a husband's (wife's sister). The Tibetan has sgyug mo, a ne ('aunt') and skud po ('brother-in-law'). Munidatta glosses only śāsu, as śvāsa; his next words, 'the wind of the consciousnesses of the eye faculty and the rest, of many kinds, is to be understood' (cp.11.m5), may be meant for the other two but name neither.",
+    "sasu: cp.11.m5 gives a new reading that the merge will not carry: śāsu is śvāsa, breath, 'the mind-wind mentioned before' (pūrvoktamanaḥpavana; the Tibetan: 'the wind mentioned before'). Suggest adding it to the entry's symbolic readings by hand.",
+    "In the Daṛatīpāda verse (cp.11.m5), Shastri marks ṇokudahanaṃ with (?). The Tibetan has go ku da ha na, which looks like the Hevajra code syllables for five kinds of meat (go, ku, da, ha, na). I propose no entry until the reading is settled.",
+    "p-darati: the Sanskrit has Daṛatīpāda and the Tibetan da u Da'i zhabs. The Tibetan may reflect another spelling of the name. I kept the manuscript's form.",
+    "kapalika now matches বজ্রকাপালিক (cp.11.m5), which will take that compound from the vajra entry. Drop that match if 'vajra' should be counted there."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "9f25cbc4864937c12f847a962a8e3d1cdc46e1abc896796c6863af194ad40172",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 3
+    },
+    "glossarySha": "99ca9c98d5c14cf1426497ab131dd398fb048420c99ad10957f25be5f819be7d",
+    "sourceSha": "3bd094159bee423eb15bbd13dcd02a1dae6ed0f2a3c802c07ee98bf32221f5b0"
+  }
+}

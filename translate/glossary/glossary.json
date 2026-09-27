@@ -12379,6 +12379,96 @@
       }
     },
     {
+      "id": "ocean",
+      "type": "term",
+      "status": "proposed",
+      "en": "ocean",
+      "alt": [
+        "sea"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "mahāsukhacakragamanasamudroddeśenātmānaṃ",
+          "lemma": "samudra",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "bhavajaladhau",
+          "lemma": "jaladhi",
+          "att": "AS",
+          "where": "cp.08.m4"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "mahāsukhacakrasamudroddeśena",
+          "lemma": "samudra",
+          "att": "AS",
+          "where": "cp.08.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "rgya mtsho",
+          "lemma": "rgya mtsho",
+          "att": "AO",
+          "where": "cp.08.m2, cp.08.m4, cp.08.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "সমুদ্র",
+          "জলধৌ"
+        ],
+        "bod": [
+          "རྒྱ་མཚོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The ocean or sea (Sanskrit samudra, jaladhi; Tibetan rgya mtsho). The songs speak of rivers, but Munidatta often speaks of an ocean: in song 8 the boat goes to ‘the ocean, the wheel of great bliss’ (cp.08.m2, cp.08.m5), and whoever seeks bliss by the true guru's word crosses the ocean of existence (cp.08.m4).",
+      "symbolic": {
+        "image": "an ocean, which the boat goes to or crosses",
+        "readings": [
+          {
+            "referent": "the wheel of great bliss (mahāsukhacakra), named in apposition as the ocean the boat goes to; the song itself rows toward the sky",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m2",
+              "cp.08.m5"
+            ]
+          },
+          {
+            "referent": "existence (bhava): the ocean of existence, crossed by one who seeks the bliss of vajra and lotus by the true guru's word",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "wheel of great bliss",
+        "great bliss",
+        "mahāsukhacakra"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "p-aryadeva",
       "type": "person",
       "status": "proposed",

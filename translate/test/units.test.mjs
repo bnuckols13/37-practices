@@ -36,6 +36,22 @@ test('translit overrides apply per word', () => {
   assert.equal(transliterate('তরুবর পঞ্চ', { lang: 'oben', overrides: { 'তরুবর': 'taruvara' } }), 'taruvara pañca');
 });
 
+test('a vowel sign with no consonant to carry it is left out and reported; a restoration keeps it', () => {
+  const heard = [];
+  const warn = m => heard.push(m);
+  // cp.14.2b: the edition prints এ with a stray ে after it
+  assert.equal(transliterate('সদ্গুরু পাঅপএে জাইব', { lang: 'oben', warn }), 'sadguru pāapae jāiba');
+  assert.deepEqual(heard, ['stray vowel sign ে after এ in পাঅপএে, left out of the transliteration']);
+  assert.equal(transliterate('अे', { lang: 'san', warn }), 'a');
+  assert.equal(heard.length, 2);
+  // cp.01.m3: Shastri restores the ending in brackets, parting ā from its consonant
+  assert.equal(transliterate('ধীর্যস্য[াঃ] প্রসাদাৎ', { lang: 'san', warn }), 'dhīryasy[āḥ] prasādāt');
+  assert.equal(heard.length, 2, 'a restoration is not a stray sign');
+  assert.equal(transliterate('পাঅপএে', { lang: 'oben', overrides: { 'পাঅপএে': 'pāapae' }, warn }), 'pāapae');
+  assert.equal(heard.length, 2, 'an override settles the word');
+  assert.equal(transliterate('পাঅপএে', { lang: 'oben' }), 'pāapae', 'no listener, no leak');
+});
+
 test('markup: parse, strip, problems, render', () => {
   const s = 'Outside the town, [Ḍombī]{dombi}, is your [hut]{kudia}.';
   assert.deepEqual(markup.terms(s).map(t => t.id), ['dombi', 'kudia']);

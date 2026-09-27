@@ -3,6 +3,8 @@
  * virama or vowel sign follows. The output is the *machine* transliteration:
  * Bengali script does not distinguish b/v, so Sanskrit words need the
  * b-list below and per-word overrides; the drafter and reviewer correct the rest.
+ * A vowel sign with no consonant to carry it (পএে) is left out and reported,
+ * so no source script leaks into the Latin.
  */
 
 // Bengali ------------------------------------------------------------------
@@ -67,7 +69,7 @@ export const TABLES = { Beng: BENG, Deva: DEVA };
 const SAN_B_PREFIXES = ['buddh', 'bodh', 'brahm', 'bāhy', 'bīj', 'bindu', 'bandh', 'bahu', 'bāl',
   'bāhu', 'bimb', 'bāṇ', 'bādh', 'bṛh', 'budh', 'bubhukṣ', 'bhik'];
 
-function core(src, T) {
+function core(src, T, stray = []) {
   const s = src.normalize('NFC').replace(/[‌‍]/g, '');
   let out = '';
   for (let i = 0; i < s.length; i++) {
@@ -83,8 +85,11 @@ function core(src, T) {
         if (T.lengthMark && s[i + 1] === T.lengthMark) i++;
         continue;
       }
+      // An editor's restoration can part a vowel sign from its consonant: স্য[াঃ] is sy[āḥ].
+      if (nx === '[' && T.signs[s[i + 2]]) { out += '[' + T.signs[s[i + 2]]; i += 2; continue; }
       out += 'a';
     } else if (T.vowels[ch]) out += T.vowels[ch];
+    else if (T.signs[ch]) stray.push(i ? `${ch} after ${s[i - 1]}` : ch);
     else if (T.other[ch] !== undefined) out += T.other[ch];
     else if (ch === T.nuktaMark || ch === T.virama || ch === T.lengthMark) { /* stray mark */ }
     else out += ch;
@@ -100,9 +105,9 @@ function sanskritB2V(word) {
 
 /**
  * @param {string} src     text in Bengali or Devanagari script
- * @param {object} o       { script: 'Beng'|'Deva', lang, overrides: { word: iast } }
+ * @param {object} o       { script: 'Beng'|'Deva', lang, overrides: { word: iast }, warn: message => void }
  */
-export function brahmicToIAST(src, { script = 'Beng', lang = '', overrides = {} } = {}) {
+export function brahmicToIAST(src, { script = 'Beng', lang = '', overrides = {}, warn = () => {} } = {}) {
   const T = TABLES[script];
   if (!T) return '';
   return src.normalize('NFC').split(/(\s+)/).map(tok => {
@@ -110,8 +115,10 @@ export function brahmicToIAST(src, { script = 'Beng', lang = '', overrides = {} 
     const bare = tok.replace(/[।॥,;:.!?()'"“”‘’]+$/u, '');
     const tail = tok.slice(bare.length);
     if (overrides[bare]) return overrides[bare] + core(tail, T);
-    let t = core(bare, T);
+    const stray = [];
+    let t = core(bare, T, stray);
     if (script === 'Beng' && lang === 'san') t = sanskritB2V(t);
+    for (const x of stray) warn(`stray vowel sign ${x} in ${bare}, left out of the transliteration`);
     return t + core(tail, T);
   }).join('');
 }

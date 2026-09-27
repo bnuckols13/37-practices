@@ -72,6 +72,13 @@ test('directives: errors name the file and line', () => {
   assert.throws(() => run('@song 1\nক খ। গ ঘ॥\n@emend fx.01.1a নেই => আছে'), /not found in fx.01.1a/);
 });
 
+test('a stray vowel sign is left out of the transliteration and noted in the segment report', () => {
+  const units = run('@song 14\nসদ্গুরু পাঅপএে জাইব। পুণু জিণউরা॥\n');
+  assert.equal(units[0].lines[0].src, 'সদ্গুরু পাঅপএে জাইব।', 'the source keeps what the edition prints');
+  assert.equal(units[0].lines[0].translit, 'sadguru pāapae jāiba|');
+  assert.deepEqual(units.warnings, ['fx.14.1a: stray vowel sign ে after এ in পাঅপএে, left out of the transliteration']);
+});
+
 test('sourceSha ignores transliteration but not text', () => {
   const a = run(fixture('marked-directives.txt'))[0];
   const b = segment(text, [{ witness: ed, path: 'x', content: fixture('marked-directives.txt') }], { 'তরুবর': 'taruvara' })[0];

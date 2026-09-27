@@ -109,13 +109,16 @@ export function segment(text, sources, overrides = {}) {
   const warnings = attachParallels(st, parallel);
 
   const scriptOf = wid => text.witnesses.find(w => w.id === wid)?.script || '';
+  const tr = (id, src, lang, wid) => transliterate(src, {
+    lang, script: scriptOf(wid), overrides, warn: m => warnings.push(`${id}: ${m}`),
+  });
   const out = [...st.units.values()].sort((a, b) => a.n - b.n).map(u => {
     const lines = u.lines.map(l => ({
-      ...l, translit: l.role === 'lacuna' ? '' : transliterate(l.src, { lang: l.lang, script: scriptOf(l.witness), overrides }),
+      ...l, translit: l.role === 'lacuna' ? '' : tr(l.id, l.src, l.lang, l.witness),
     }));
     const commentary = u.commentary.map(s => ({
       ...s, src: s.src.trim(),
-      translit: transliterate(s.src.trim(), { lang: s.lang, script: scriptOf(s.witness), overrides }),
+      translit: tr(s.id, s.src.trim(), s.lang, s.witness),
     }));
     const unit = {
       id: u.id, n: u.n, title: u.title, raga: u.raga, poet: u.poet, sourceSha: '',
@@ -123,7 +126,7 @@ export function segment(text, sources, overrides = {}) {
     };
     unit.sourceSha = sourceSha(unit);
     if (u.parallels) {
-      const tl = (src, lang, wid) => ({ src, translit: transliterate(src, { lang, script: scriptOf(wid), overrides }) });
+      const tl = (id, src, lang, wid) => ({ src, translit: tr(`${id} (${wid})`, src, lang, wid) });
       unit.parallels = {};
       for (const [wid, p] of Object.entries(u.parallels).sort(([a], [b]) => a.localeCompare(b))) {
         // In reading order, whatever order the directives came in.
@@ -131,15 +134,16 @@ export function segment(text, sources, overrides = {}) {
         const segOrder = u.commentary.map(s => s.id).filter(id => id in p.commentary);
         unit.parallels[wid] = {
           lang: p.lang,
-          lines: Object.fromEntries(lineOrder.map(id => [id, tl(p.lines[id], p.lang, wid)])),
-          commentary: Object.fromEntries(segOrder.map(id => [id, tl(p.commentary[id], p.lang, wid)])),
+          lines: Object.fromEntries(lineOrder.map(id => [id, tl(id, p.lines[id], p.lang, wid)])),
+          commentary: Object.fromEntries(segOrder.map(id => [id, tl(id, p.commentary[id], p.lang, wid)])),
         };
       }
       unit.parallelSha = parallelSha(unit);
     }
     return unit;
   });
-  // Lines and segments the parallel witnesses leave unmatched, for the segment report.
+  // Lines and segments the parallel witnesses leave unmatched, and what the
+  // transliteration left out, for the segment report.
   Object.defineProperty(out, 'warnings', { value: warnings });
   return out;
 }

@@ -14,10 +14,13 @@ export function detectScript(s) {
   return best[1] ? best[0] : '';
 }
 
-/** Machine transliteration for a source line: IAST for Bengali and Devanagari, Wylie for Tibetan. */
-export function transliterate(src, { lang = '', script = '', overrides = {} } = {}) {
+/**
+ * Machine transliteration for a source line: IAST for Bengali and Devanagari, Wylie for Tibetan.
+ * warn(message) hears what the machine left out (a stray vowel sign), for the segment report.
+ */
+export function transliterate(src, { lang = '', script = '', overrides = {}, warn } = {}) {
   const sc = script || detectScript(src);
-  if (sc === 'Beng' || sc === 'Deva') return brahmicToIAST(src, { script: sc, lang, overrides });
+  if (sc === 'Beng' || sc === 'Deva') return brahmicToIAST(src, { script: sc, lang, overrides, warn });
   if (sc === 'Tibt') return tibetanToWylie(src);
   if (sc === 'Latn') return src;
   return '';

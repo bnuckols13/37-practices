@@ -66,6 +66,8 @@ export const Proposal = z.object({
   })),
   match: z.array(z.object({ lang: z.string(), form: z.string() }))
     .describe('source-script surface forms that should be recognised as this term'),
+  matchRe: z.array(z.object({ lang: z.string(), re: z.string() })).default([])
+    .describe('regular expressions (JavaScript, unicode) for forms a literal would over-match, e.g. a whole word: (?<![\\p{L}\\p{M}])নাবী(?![\\p{L}\\p{M}])'),
   definition: z.string().describe('your own words, 60 words or fewer'),
   symbolicImage: z.string().describe('the literal image, or ""'),
   symbolicReadings: z.array(z.object({ referent: z.string(), per: z.string(), where: z.array(z.string()) }))

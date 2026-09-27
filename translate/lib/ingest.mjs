@@ -19,7 +19,12 @@ import { scoped } from './glossary.mjs';
 export function validateAnswer(task, out, unit, glossary, slug = '') {
   const probs = [];
   const known = new Set(glossary.entries.filter(e => e.status !== 'rejected').map(e => e.id));
-  for (const p of out.proposals || []) known.add(p.id);
+  for (const p of out.proposals || []) {
+    known.add(p.id);
+    for (const m of p.matchRe || []) {
+      try { new RegExp(m.re, "u"); } catch { probs.push(`proposal ${p.id}: matchRe "${m.re}" is not a valid regular expression`); }
+    }
+  }
   const unitIds = new Set([unit.id, ...unit.lines.flatMap(l => [l.id, l.group]), ...unit.commentary.map(s => s.id)]);
   const segIds = new Set(unit.commentary.map(s => s.id));
   const checkMarkup = (where, s) => {

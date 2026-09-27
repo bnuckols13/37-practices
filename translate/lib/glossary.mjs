@@ -102,11 +102,17 @@ export function mergeProposal(g, p, { slug, by }) {
   const existing = g.entries.find(e => e.id === p.id);
   const match = {};
   for (const m of p.match) (match[m.lang] ||= []).includes(m.form) || match[m.lang].push(m.form);
+  const matchRe = {};
+  for (const m of p.matchRe || []) (matchRe[m.lang] ||= []).includes(m.re) || matchRe[m.lang].push(m.re);
   if (existing) {
     // Never overwrite a decided entry; only add new source forms and attestations.
     for (const [lang, forms] of Object.entries(match)) {
       const cur = existing.match[lang] ||= [];
       for (const f of forms) if (!cur.includes(f)) cur.push(f);
+    }
+    for (const [lang, res] of Object.entries(matchRe)) {
+      const cur = (existing.matchRe ||= {})[lang] ||= [];
+      for (const r of res) if (!cur.includes(r)) cur.push(r);
     }
     for (const f of p.forms) {
       if (!existing.forms.some(x => x.lang === f.lang && x.translit === f.translit && x.where === f.where)) existing.forms.push(f);
@@ -116,7 +122,7 @@ export function mergeProposal(g, p, { slug, by }) {
   }
   g.entries.push(Entry.parse({
     id: p.id, type: p.type, status: 'proposed', en: p.en, alt: p.alt, policy: p.policy,
-    forms: p.forms, match, definition: p.definition,
+    forms: p.forms, match, matchRe, definition: p.definition,
     symbolic: { image: p.symbolicImage, readings: p.symbolicReadings },
     forbiddenInLine: p.forbiddenInLine, texts: [slug],
     provenance: { proposed: { by, date: today() } },

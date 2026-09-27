@@ -82,6 +82,30 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.06.m5"
+        },
+        {
+          "lang": "san",
+          "script": "আভাষদোষং",
+          "translit": "ābhāṣadoṣaṃ",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.08.m3"
+        },
+        {
+          "lang": "san",
+          "script": "এতেনাভাষবিশেষেণ",
+          "translit": "etenābhāṣaviśeṣeṇa",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.08.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বামদক্ষিণমাভাসদ্বয়ং",
+          "translit": "vāmadakṣiṇamābhāsadvayaṃ",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.08.m5"
         }
       ],
       "match": {
@@ -90,7 +114,10 @@
           "আভাস",
           "াভাস",
           "াভাষ",
-          "নিরাভাস"
+          "নিরাভাস",
+          "আভাষদোষ",
+          "এতেনাভাষবিশেষ",
+          "ভাসদ্বয়"
         ],
         "bod": [
           "སྣང་བ",
@@ -1931,6 +1958,38 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.10.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "নাবী",
+          "translit": "nābī",
+          "lemma": "nābī",
+          "att": "AS",
+          "where": "cp.08.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নাবীতি",
+          "translit": "nāvīti",
+          "lemma": "nāvī",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নাবমাসাদ্য",
+          "translit": "nāvamāsādya",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ইয়ন্নৌর্দুর্লভা",
+          "translit": "iyannaurdurlabhā",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.08.m2"
         }
       ],
       "match": {
@@ -1941,13 +2000,20 @@
         ],
         "san": [
           "নৌকা",
-          "নৌঃ"
+          "নৌঃ",
+          "নাবীতি",
+          "নাবমাসাদ্য",
+          "নৌর্দুর্লভা"
         ],
         "bod": [
           "གྲུ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])নাবী(?![\\p{L}\\p{M}])"
+        ]
+      },
       "definition": "A river boat, one of the commonest images of the songs, with its ferryman, oars and crossings. In this song Kāṇha asks Ḍombī in whose boat she comes and goes.",
       "symbolic": {
         "image": "the boat in which Ḍombī comes and goes",
@@ -3044,6 +3110,77 @@
       }
     },
     {
+      "id": "companion",
+      "type": "term",
+      "status": "proposed",
+      "en": "companion",
+      "alt": [
+        "company"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "স(সু)ঙ্গা",
+          "translit": "sa(su)ṅgā",
+          "lemma": "saṅga",
+          "att": "AS",
+          "where": "cp.08.5b"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখসঙ্গনৈরাত্মাজ্ঞানাভিসংগং",
+          "translit": "mahāsukhasaṅganairātmājñānābhisaṃgaṃ",
+          "lemma": "saṅga",
+          "att": "AS",
+          "where": "cp.08.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲོགས",
+          "translit": "grogs",
+          "lemma": "grogs",
+          "att": "AO",
+          "where": "cp.08.5b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "স(সু)ঙ্গা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A companion, or company (Old Bengali saṅga; the edition prints sa(su)ṅgā, marking a doubtful vowel). In the last line of song 8 the rower meets great bliss on the road as companion; the Tibetan translation has grogs, 'companion'. Munidatta speaks of obtaining the embrace of Nairātmā-knowledge, the companion of great bliss (cp.08.m5).",
+      "symbolic": {
+        "image": "the companion met on the road with great bliss",
+        "readings": [
+          {
+            "referent": "the knowledge of Nairātmā (nairātmājñāna), the companion of great bliss, whose embrace the poet says he has obtained on that path; the Tibetan has 'the knowledge of selflessness'",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "Nairātmā",
+        "selflessness",
+        "knowledge of selflessness",
+        "consort"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "courtyard",
       "type": "term",
       "status": "proposed",
@@ -3480,6 +3617,57 @@
         "citta",
         "thought"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "devakri",
+      "type": "term",
+      "status": "proposed",
+      "en": "Devakrī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দেবক্রী",
+          "translit": "devakrī",
+          "lemma": "devakrī",
+          "att": "AS",
+          "where": "cp.08.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷ་རྣམས་རོལ་པ",
+          "translit": "lha rnams rol pa",
+          "lemma": "lha rnams rol pa",
+          "att": "AO",
+          "where": "cp.08.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "দেবক্রী"
+        ],
+        "bod": [
+          "ལྷ་རྣམས་རོལ་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Devakrī, the name of the rāga (melodic mode) to which song 8 is sung, given in its heading. The Tibetan translation calls the melody lha rnams rol pa, 'play of the gods', as if the name were Sanskrit devakrīḍā, 'divine play'; whether krī is a shortened form of that word is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -4788,6 +4976,80 @@
       }
     },
     {
+      "id": "gold",
+      "type": "term",
+      "status": "proposed",
+      "en": "gold",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সোনে",
+          "translit": "sone",
+          "lemma": "sonā",
+          "att": "AS",
+          "where": "cp.08.1a"
+        },
+        {
+          "lang": "san",
+          "script": "সোণেত্যাদি",
+          "translit": "soṇetyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གསེར",
+          "translit": "gser",
+          "lemma": "gser",
+          "att": "AO",
+          "where": "cp.08.1a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সোনে ভরিতী"
+        ],
+        "san": [
+          "সোণেত্যাদি"
+        ],
+        "bod": [
+          "གསེར"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Gold (Old Bengali sonā). In the first line of song 8 the boat of compassion is filled with gold, leaving no place for silver; the Tibetan translation has gser. Munidatta's paraphrase has the boat filled with the essence of the true guru's grace, through identity with emptiness endowed with all supreme aspects (cp.08.m2).",
+      "symbolic": {
+        "image": "the gold with which the boat of compassion is filled",
+        "readings": [
+          {
+            "referent": "the essence (rasa) of the true guru's grace, with which the boat, bodhicitta, is filled through its identity with emptiness endowed with all supreme aspects (his paraphrase puts this where the song has 'filled with gold'; he gives no explicit gloss of the gold)",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "grace",
+        "guru's grace",
+        "emptiness"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "grahya-grahaka",
       "type": "term",
       "status": "proposed",
@@ -5692,6 +5954,83 @@
       }
     },
     {
+      "id": "kacchi",
+      "type": "term",
+      "status": "proposed",
+      "en": "rope",
+      "alt": [
+        "mooring rope"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাচ্ছি",
+          "translit": "kācchi",
+          "lemma": "kācchi",
+          "att": "AS",
+          "where": "cp.08.3a"
+        },
+        {
+          "lang": "san",
+          "script": "কচ্ছিকাসু",
+          "translit": "kacchikāsu",
+          "lemma": "kacchikā",
+          "att": "AS",
+          "where": "cp.08.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉག་ཐག",
+          "translit": "nyag thag",
+          "lemma": "nyag thag",
+          "att": "AO",
+          "where": "cp.08.3a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কাচ্ছি"
+        ],
+        "san": [
+          "কচ্ছিকাসু"
+        ],
+        "bod": [
+          "ཉག་ཐག"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A rope, apparently the boat's mooring line (Old Bengali kācchi; Munidatta has kacchikā; the Tibetan translation nyag thag, 'rope'). In song 8 it is let loose once the stake is pulled up. Munidatta's gloss speaks of loosening a thread of knowledge (vidyāsūtra); the Tibetan commentary has the thread of ignorance (cp.08.m3).",
+      "symbolic": {
+        "image": "the rope let loose once the stake is pulled up",
+        "readings": [
+          {
+            "referent": "a thread of knowledge (vidyāsūtra), to be loosened so that the boat runs swiftly; the Sanskrit reads kacchikāsu vidyāsūtrañ ca, and the Tibetan commentary has instead 'the rope is the thread of ignorance' (ma rig pa'i srad bu), as if reading avidyāsūtra",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "thread of knowledge",
+        "thread of ignorance",
+        "knowledge",
+        "ignorance"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "kala",
       "type": "term",
       "status": "proposed",
@@ -6414,14 +6753,32 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.14.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "কেড়ুয়াল",
+          "translit": "keṛuyāla",
+          "lemma": "keṛuāla",
+          "att": "AS",
+          "where": "cp.08.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུ་སྐྱ",
+          "translit": "gru skya",
+          "lemma": "gru skya",
+          "att": "AO",
+          "where": "cp.08.4b"
         }
       ],
       "match": {
         "oben": [
-          "কেড়ুআল"
+          "কেড়ুআল",
+          "কেড়ুয়াল"
         ],
         "bod": [
-          "སྐྱ་བ"
+          "སྐྱ་བ",
+          "གྲུ་སྐྱ"
         ]
       },
       "matchRe": {},
@@ -6515,6 +6872,93 @@
       "forbiddenInLine": [
         "root of the jewel",
         "maṇimūla"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "khunti",
+      "type": "term",
+      "status": "proposed",
+      "en": "stake",
+      "alt": [
+        "mooring stake",
+        "post"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খুণ্টি",
+          "translit": "khuṇṭi",
+          "lemma": "khuṇṭi",
+          "att": "AS",
+          "where": "cp.08.3a"
+        },
+        {
+          "lang": "san",
+          "script": "খংটীত্যাদি",
+          "translit": "khaṃṭītyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.08.m3"
+        },
+        {
+          "lang": "san",
+          "script": "খুণ্টিকা",
+          "translit": "khuṇṭikā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.08.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟོད་ཕུར",
+          "translit": "brtod phur",
+          "lemma": "brtod phur",
+          "att": "AO",
+          "where": "cp.08.3a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "খুণ্টি"
+        ],
+        "san": [
+          "খুণ্টি",
+          "খংটীত্যাদি"
+        ],
+        "bod": [
+          "བརྟོད་ཕུར"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A stake or post (Old Bengali khuṇṭi), apparently the one the boat is moored to: in song 8 it is pulled up before the boat sets off. Munidatta writes khuṇṭikā; the Tibetan translation has brtod phur, 'tethering stake', in the song and the comment. Munidatta reads it as the fault of appearance (cp.08.m3).",
+      "symbolic": {
+        "image": "the stake pulled up before the boat sets off",
+        "readings": [
+          {
+            "referent": "the fault of appearance (ābhāsadoṣa), which the best of yogis is to pull up once he has made the guru's word firm; the Tibetan commentary has the guru's word producing firmness against the fault of appearance, without the pulling up",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "fault of appearance",
+        "appearance",
+        "appearances",
+        "ābhāsa"
       ],
       "texts": [
         "charyapada"
@@ -7668,6 +8112,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.10.m2"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখচক্রগমনসমুদ্রোদ্দেশেনাত্মানং",
+          "translit": "mahāsukhacakragamanasamudroddeśenātmānaṃ",
+          "lemma": "mahāsukhacakra",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখচক্রসমুদ্রোদ্দেশেন",
+          "translit": "mahāsukhacakrasamudroddeśena",
+          "lemma": "mahāsukhacakra",
+          "att": "AS",
+          "where": "cp.08.m5"
         }
       ],
       "match": {
@@ -7742,6 +8202,118 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "manga",
+      "type": "term",
+      "status": "proposed",
+      "en": "māṅga",
+      "alt": [
+        "māgā"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঙ্গত",
+          "translit": "māṅgata",
+          "lemma": "māṅga",
+          "att": "AS",
+          "where": "cp.08.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "মাগা",
+          "translit": "māgā",
+          "lemma": "māgā",
+          "att": "AS",
+          "where": "cp.08.5a"
+        },
+        {
+          "lang": "san",
+          "script": "মাঙ্গতেত্যাদি",
+          "translit": "māṅgatetyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.08.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মার্গং",
+          "translit": "mārgaṃ",
+          "lemma": "mārga",
+          "att": "AS",
+          "where": "cp.08.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মার্গবিরমানন্দগতং",
+          "translit": "mārgaviramānandagataṃ",
+          "lemma": "mārga",
+          "att": "AS",
+          "where": "cp.08.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུ་ཡི་མཇུག",
+          "translit": "gru yi mjug",
+          "lemma": "mjug",
+          "att": "AO",
+          "where": "cp.08.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུ་སྣ",
+          "translit": "gru sna",
+          "lemma": "gru sna",
+          "att": "AO",
+          "where": "cp.08.5a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মাঙ্গত",
+          "মিলি মাগা"
+        ],
+        "san": [
+          "মাঙ্গত"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A word of uncertain sense in song 8: in 4a the rower climbs onto the māṅga and looks in four directions; 5a has māgā. Munidatta renders both as mārga, 'path'; the Tibetan translation takes them as the boat's stern (gru yi mjug) and prow (gru sna). The source form is kept for now.",
+      "symbolic": {
+        "image": "the māṅga the rower climbs onto before looking in four directions",
+        "readings": [
+          {
+            "referent": "the path (mārga) that is the joy of cessation (viramānanda): one who, lacking the guru's lineage, goes on it and looks in the four directions at the grasped and the rest falls into saṃsāra",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m4"
+            ]
+          },
+          {
+            "referent": "for māgā in 5a: the path, the joy of cessation, to which bodhicitta has gone, purified by one's own knowledge, once left and right have entered the middle channel",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "joy of cessation",
+        "viramānanda"
+      ],
       "texts": [
         "charyapada"
       ],
@@ -9187,6 +9759,22 @@
           "lemma": "nivvāṇa",
           "att": "AS",
           "where": "cp.05.m3"
+        },
+        {
+          "lang": "san",
+          "script": "নির্ব্বাণং",
+          "translit": "nirvvāṇaṃ",
+          "lemma": "nirvāṇa",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱ་ངན་འདའ",
+          "translit": "mya ngan 'da'",
+          "lemma": "mya ngan 'da' ba",
+          "att": "AO",
+          "where": "cp.08.m2"
         }
       ],
       "match": {
@@ -9197,7 +9785,8 @@
         ],
         "bod": [
           "མྱང་འདས",
-          "མྱ་ངན་འདས"
+          "མྱ་ངན་འདས",
+          "མྱ་ངན་འདའ"
         ],
         "oben": [
           "নিবাণ"
@@ -10045,6 +10634,104 @@
       },
       "matchRe": {},
       "definition": "'Victor', a title of a buddha as one who has conquered the afflictions (the Jains use it of their teachers). Munidatta calls the unity of self-blessing and clear light the bridge of the Jina, for carrying beings across the ocean of saṃsāra (cp.05.m5); the Tibetan translation has no word for 'Jina' there.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "p-kambala",
+      "type": "person",
+      "status": "proposed",
+      "en": "Kambalāmbarapāda",
+      "alt": [
+        "Kambala",
+        "Kāmali"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কামলি",
+          "translit": "kāmali",
+          "lemma": "kāmali",
+          "att": "AS",
+          "where": "cp.08.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "কামলি",
+          "translit": "kāmali",
+          "lemma": "kāmali",
+          "att": "AS",
+          "where": "cp.08.3b"
+        },
+        {
+          "lang": "san",
+          "script": "পরমকরুণানন্দমুদিতহৃদয়কম্বলাম্বরপাদা[ঃ]",
+          "translit": "paramakaruṇānandamuditahṛdayakambalāmbarapādā[ḥ]",
+          "lemma": "kambalāmbarapāda",
+          "att": "AS",
+          "where": "cp.08.m1"
+        },
+        {
+          "lang": "san",
+          "script": "সিদ্ধাচার্য্যকম্বলাম্বরপাদাবাহয়ন্তি",
+          "translit": "siddhācāryyakambalāmbarapādāvāhayanti",
+          "lemma": "kambalāmbarapāda",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কম্বলাম্বরপাদঃ",
+          "translit": "kambalāmbarapādaḥ",
+          "lemma": "kambalāmbarapāda",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལ་བའི་ན་བཟའ་ཅན་གྱི་ཞབས",
+          "translit": "la ba'i na bza' can gyi zhabs",
+          "lemma": "la ba'i na bza' can",
+          "att": "AO",
+          "where": "cp.08.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ལ་བ་པ",
+          "translit": "la ba pa",
+          "lemma": "la ba pa",
+          "att": "AO",
+          "where": "cp.08.2a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বাহতু কামলি"
+        ],
+        "san": [
+          "কম্বলাম্বর"
+        ],
+        "bod": [
+          "ལ་བའི་ན་བཟའ་ཅན",
+          "ལ་བ་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Kambalāmbarapāda, the siddha to whom the manuscript attributes song 8; the name means 'he whose garment is a blanket'. In the refrain and couplet 3 he calls himself Kāmali, an Old Bengali form of kambala, 'blanket'. Munidatta calls him a siddha master (cp.08.m2). The Tibetan has la ba'i na bza' can, 'wearer of a woollen garment', and la ba pa.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -12858,11 +13545,20 @@
           "lemma": "lam",
           "att": "AO",
           "where": "cp.07.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "বাটত",
+          "translit": "bāṭata",
+          "lemma": "bāṭa",
+          "att": "AS",
+          "where": "cp.08.5b"
         }
       ],
       "match": {
         "oben": [
-          "বাট"
+          "বাট",
+          "বাটত"
         ]
       },
       "matchRe": {},
@@ -13682,6 +14378,58 @@
       }
     },
     {
+      "id": "sarvakaravaropeta",
+      "type": "term",
+      "status": "proposed",
+      "en": "emptiness endowed with all supreme aspects",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বাকারবরোপেতশূন্যতয়া",
+          "translit": "sarvvākāravaropetaśūnyatayā",
+          "lemma": "sarvākāravaropeta",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པ་ཐམས་ཅད་དང་ལྡན་པའི་སྟོང་པ་ཉིད",
+          "translit": "rnam pa thams cad dang ldan pa'i stong pa nyid",
+          "lemma": "rnam pa thams cad dang ldan pa'i stong pa nyid",
+          "att": "AO",
+          "where": "cp.08.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সর্ব্বাকারবরোপেত",
+          "সর্বাকারবরোপেত"
+        ],
+        "bod": [
+          "རྣམ་པ་ཐམས་ཅད་དང་ལྡན་པའི་སྟོང་པ་ཉིད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Emptiness endowed with all supreme aspects (sarvākāravaropetā śūnyatā): emptiness understood not as a bare absence but as bearing every excellent quality, a phrase of Mahāyāna and especially Kālacakra literature. Munidatta says the boat, bodhicitta, is filled, through identity with this emptiness, with the essence of the true guru's grace (cp.08.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "sasu",
       "type": "term",
       "status": "proposed",
@@ -14015,6 +14763,86 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "silver",
+      "type": "term",
+      "status": "proposed",
+      "en": "silver",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রূপা",
+          "translit": "rūpā",
+          "lemma": "rūpā",
+          "att": "AS",
+          "where": "cp.08.1b"
+        },
+        {
+          "lang": "san",
+          "script": "রূপেত্যাদি",
+          "translit": "rūpetyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངུལ",
+          "translit": "dngul",
+          "lemma": "dngul",
+          "att": "AO",
+          "where": "cp.08.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "རཱུ་པ",
+          "translit": "rU pa",
+          "lemma": "rU pa",
+          "att": "AO",
+          "where": "cp.08.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "রূপা থোই"
+        ],
+        "bod": [
+          "དངུལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Silver (Old Bengali rūpā, Sanskrit rūpya). In song 8 the boat is so full of gold that there is no place to put silver; the Tibetan translation has dngul. Munidatta takes rūpā as rūpa, 'form', the first of the aggregates, which have no separate place (cp.08.m2); the Tibetan commentary keeps the sound, rU pa.",
+      "symbolic": {
+        "image": "silver, for which there is no place in the boat full of gold",
+        "readings": [
+          {
+            "referent": "form (rūpa) and the other aggregates, feeling, perception, formations and consciousness, which have no separate place, since everything is made of that (a play on rūpā, 'silver', and rūpa, 'form')",
+            "per": "Munidatta",
+            "where": [
+              "cp.08.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "form",
+        "forms",
+        "aggregates",
+        "skandhas"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -15927,6 +16755,57 @@
       }
     },
     {
+      "id": "tx-apratisthanaprakasa",
+      "type": "text",
+      "status": "proposed",
+      "en": "Apratiṣṭhānaprakāśa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অপ্রতিষ্ঠান[প্র]কাশে",
+          "translit": "apratiṣṭhāna[pra]kāśe",
+          "lemma": "apratiṣṭhānaprakāśa",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་ཏུ་མི་གནས་པ་གསལ་བར་མཛད་པ",
+          "translit": "rab tu mi gnas pa gsal bar mdzad pa",
+          "lemma": "rab tu mi gnas pa gsal bar mdzad pa",
+          "att": "AO",
+          "where": "cp.08.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "অপ্রতিষ্ঠানপ্রকাশ"
+        ],
+        "bod": [
+          "རབ་ཏུ་མི་གནས་པ་གསལ་བར་མཛད་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A work Munidatta cites as the Apratiṣṭhānaprakāśa ('Illumination of the Non-abiding'; Shastri restores the syllable pra); it is not otherwise identified here. He quotes its verse: every concept arising in the mind is to be given up; blissful joy and dispassion alike are mere conception; nirvāṇa is nothing other than the mind free of concepts (cp.08.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "tx-bodhicaryavatara",
       "type": "text",
       "status": "proposed",
@@ -16897,6 +17776,56 @@
       }
     },
     {
+      "id": "utpreksa",
+      "type": "term",
+      "status": "proposed",
+      "en": "poetic fancy",
+      "alt": [
+        "utprekṣā"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপ্রেক্ষালঙ্কারপরং",
+          "translit": "utprekṣālaṅkāraparaṃ",
+          "lemma": "utprekṣā",
+          "att": "AS",
+          "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས་ཀྱི་རྒྱན",
+          "translit": "gzugs kyi rgyan",
+          "lemma": "gzugs kyi rgyan",
+          "att": "AO",
+          "where": "cp.08.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "উৎপ্রেক্ষা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Utprekṣā, 'poetic fancy': in Sanskrit poetics, a figure of speech (alaṅkāra) that imagines one thing as if it were another. Munidatta says calling bodhicitta 'boat' in song 8 is such a figure (cp.08.m2), as he does for the body-tree of song 1. The Tibetan here has gzugs kyi rgyan, perhaps for rūpaka, 'metaphor'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "vajra",
       "type": "term",
       "status": "proposed",
@@ -17269,14 +18198,40 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.05.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "বাম দাহিণ",
+          "translit": "bāma dāhiṇa",
+          "lemma": "bāma dāhiṇa",
+          "att": "AS",
+          "where": "cp.08.5a"
+        },
+        {
+          "lang": "san",
+          "script": "বামদাহিণেত্যাদি",
+          "translit": "vāmadāhiṇetyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.08.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱང་དང་ལྷོ",
+          "translit": "byang dang lho",
+          "lemma": "byang dang lho",
+          "att": "AO",
+          "where": "cp.08.5a"
         }
       ],
       "match": {
         "oben": [
-          "দাহিণ বাম"
+          "দাহিণ বাম",
+          "বাম দাহিণ"
         ],
         "san": [
-          "বামদক্ষিণ"
+          "বামদক্ষিণ",
+          "বামদাহিণ"
         ],
         "bod": [
           "གཡས་གཡོན",
@@ -18578,6 +19533,14 @@
           "lemma": "yogin",
           "att": "AS",
           "where": "cp.06.m6"
+        },
+        {
+          "lang": "san",
+          "script": "যোগিবর",
+          "translit": "yogivara",
+          "lemma": "yogin",
+          "att": "AS",
+          "where": "cp.08.m3"
         }
       ],
       "match": {
@@ -18590,7 +19553,8 @@
           "যোগিন্",
           "যোগিনঃ",
           "যোগিনস্",
-          "যোগিনা"
+          "যোগিনা",
+          "যোগিবর"
         ],
         "bod": [
           "རྣལ་འབྱོར",

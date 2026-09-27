@@ -216,6 +216,19 @@ test('parallel: @pair joins two short witness lines into one line of the reading
   assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@pair\n'), /@pair goes after @verse/);
 });
 
+test('proposals may carry regex match forms; merging keeps and extends them', async () => {
+  const { mergeProposal, matchSource } = await import('../lib/glossary.mjs');
+  const { Proposal } = await import('../schemas/glossary.mjs');
+  const p = re => Proposal.parse({ id: 'boat', type: 'term', en: 'boat', policy: 'translate', alt: [], forms: [], match: [],
+    matchRe: [{ lang: 'oben', re }], definition: '', symbolicImage: '', symbolicReadings: [], forbiddenInLine: [], rationale: '' });
+  const g = { entries: [] };
+  mergeProposal(g, p('(?<![\\p{L}\\p{M}])নাবী(?![\\p{L}\\p{M}])'), { slug: 'fx', by: 't' });
+  assert.deepEqual(matchSource(g.entries, 'করুণা নাবী', 'oben').map(h => h.id), ['boat']);
+  assert.deepEqual(matchSource(g.entries, 'নাবীতি', 'oben'), [], 'not inside a longer word');
+  mergeProposal(g, p('নৌকা'), { slug: 'fx', by: 't' });
+  assert.deepEqual(g.entries[0].matchRe.oben.length, 2, 'an existing entry gains the new pattern');
+});
+
 test('glossary matching reads through folio numbers and restoration brackets', async () => {
   const { matchSource } = await import('../lib/glossary.mjs');
   const { Entry } = await import('../schemas/glossary.mjs');

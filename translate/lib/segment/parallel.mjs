@@ -14,9 +14,13 @@
  *                    pair into couplets and @comm makes a segment, in this witness's language
  *   @parallel        back to matching
  *   @refrain @bhanita @raga @poet @title @lacuna @emend   as in the reading text (for @primary)
+ *   @split TEXT      the next line is divided where TEXT begins: the part before ends the
+ *                    current block, the rest begins the block the next directive opens
+ *                    (a commentary running its introduction into its first lemma)
  *   @skip @--
  * Lines of a comment are joined with a space, which restores the imported text exactly
- * (the importer breaks lines only at a space).
+ * (the importer breaks lines only at a space). A block's extra heading lines (a rāga,
+ * then the poet's name) join the last heading of the reading text.
  */
 
 import { fail } from '../io.mjs';
@@ -34,6 +38,7 @@ export function readParallel(st, evs) {
   const wid = st.witness.id, lang = st.witness.lang[0];
   const recs = [];
   let rec = null, primary = false, mode = 'skip', comm = null, buf = [], flags = {};
+  let split = null, carry = null;   // @split: the text to cut at, then the cut-off rest awaiting its block
 
   const need = at => rec || fail(`${at}: text before any @song`);
   const closeCouplet = () => {
@@ -59,14 +64,18 @@ export function readParallel(st, evs) {
           break;
         }
         case 'raga': case 'poet': case 'title': need(at).meta[name] = arg; break;
-        case 'heading': flush(); need(at); mode = 'heading'; break;
-        case 'verse': flush(); need(at); mode = 'verse'; break;
-        case 'skip': flush(); mode = 'skip'; break;
+        case 'heading': flush(); need(at); mode = 'heading'; resume(); break;
+        case 'verse': flush(); need(at); mode = 'verse'; resume(); break;
+        case 'skip': flush(); mode = 'skip'; carry = null; break;
+        case 'split':
+          if (!arg) fail(`${at}: @split needs the text where the next line divides`);
+          split = { text: arg.normalize('NFC'), at }; break;
         case 'comm': {
           flush(); need(at); mode = 'comm';
           if (arg && !/^\d+$/.test(arg)) fail(`${at}: @comm takes a couplet number or nothing`);
           comm = { arg, at, text: [] };
           (primary ? rec.pComm : rec.comm).push(comm);
+          resume();
           break;
         }
         case 'couplet': {
@@ -90,14 +99,30 @@ export function readParallel(st, evs) {
       continue;
     }
     if (e.type === 'blank' || mode === 'skip') continue;
-    need(e.at);
-    if (mode === 'comm') comm.text.push(e.text);
-    else if (mode === 'heading') (primary ? rec.pHeading : rec.heading).push({ text: e.text, at: e.at });
-    else if (primary) { buf.push(e.text); if (buf.length === 2) closeCouplet(); }
-    else { rec.verse.push({ text: e.text, at: e.at, ...(rec.jump ? { couplet: rec.jump } : {}) }); delete rec.jump; }
+    if (carry) fail(`${carry.at}: the rest of the split line needs a directive right after the line to say where it goes (@comm K, @verse…)`);
+    if (split) {
+      const i = e.text.indexOf(split.text);
+      if (i <= 0) fail(`${split.at}: "${split.text}" is not inside the next line (after its start)`);
+      carry = { text: e.text.slice(i).trim(), at: e.at };
+      take(e.text.slice(0, i).trim(), e.at);
+      split = null;
+      continue;
+    }
+    take(e.text, e.at);
   }
+  if (carry) fail(`${carry.at}: the rest of the split line was never placed`);
   flush();
   return recs;
+
+  function take(text, at) {
+    need(at);
+    if (mode === 'comm') comm.text.push(text);
+    else if (mode === 'heading') (primary ? rec.pHeading : rec.heading).push({ text, at });
+    else if (primary) { buf.push(text); if (buf.length === 2) closeCouplet(); }
+    else { rec.verse.push({ text, at, ...(rec.jump ? { couplet: rec.jump } : {}) }); delete rec.jump; }
+  }
+  // The rest of a split line starts the block just opened.
+  function resume() { if (carry) { const c = carry; carry = null; take(c.text, c.at); } }
 }
 
 /** Records marked @primary become lines and segments of the unit, as if the reading witness had them. */
@@ -148,8 +173,9 @@ export function attachParallels(st, recs) {
 
     const headings = u.lines.filter(l => own(l) && l.role === 'heading');
     r.heading.forEach((x, i) => {
-      const t = headings[i] || fail(`${x.at}: ${u.id} has ${headings.length} heading line(s) in the reading text; this is one more`);
-      par.lines[t.id] = x.text;
+      if (!headings.length) fail(`${x.at}: ${u.id} has no heading in the reading text`);
+      const t = headings[Math.min(i, headings.length - 1)];
+      par.lines[t.id] = par.lines[t.id] && i >= headings.length ? par.lines[t.id] + ' ' + x.text : x.text;
     });
 
     const verse = u.lines.filter(l => own(l) && l.role === 'line');

@@ -189,3 +189,14 @@ test('glossary matching: the longest term wins, compounds still count, positions
   const { kwic } = await import('../lib/concord.mjs');
   assert.equal(kwic('বোধিচিত্তং চিত্তবটুক', 'bodhicittaṃ cittavaṭuka', h.form, h.at).tlHit, 'cittavaṭuka');
 });
+
+test('parallel: @split divides a line between two comments; extra heading lines join the heading', () => {
+  const [u] = both('@parallel\n@song 1\n@heading\n།པ་ཊ།\n།ལཱུ་ཡི་པའི་ཞབས་ཀྱིའོ།\n@comm 1\n@split ལུས་ཞེས\n།གསུངས་ཏེ། ལུས་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་ཕུང་པོའོ།\n@skip\n');
+  assert.equal(u.parallels.tib.lines['fx.01.h1'].src, '།པ་ཊ། །ལཱུ་ཡི་པའི་ཞབས་ཀྱིའོ།', 'the poet line joins the rāga');
+  assert.equal(u.parallels.tib.commentary['fx.01.m1'].src, '།གསུངས་ཏེ།', 'the rest was skipped');
+  const [v] = both('@parallel\n@song 1\n@comm 1\n@split ཀ\n།ངོ། ཀ་ཁ།\n@verse\nག\n');
+  assert.equal(v.parallels.tib.commentary['fx.01.m1'].src, '།ངོ།');
+  assert.deepEqual([v.parallels.tib.lines['fx.01.1a'].src, v.parallels.tib.lines['fx.01.1b'].src], ['ཀ་ཁ།', 'ག'], 'the rest starts the next block');
+  assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@split ཀ\n།ངོ། ཀ་ཁ།\nག\n'), /the rest of the split line needs a directive/);
+  assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@split ཆ\n།ངོ། ཀ་ཁ།\n@comm 1\n'), /is not inside the next line/);
+});

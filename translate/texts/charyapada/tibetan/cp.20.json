@@ -1,0 +1,108 @@
+{
+  "unit": "cp.20",
+  "equivalents": [
+    {
+      "id": "husband",
+      "line": "cp.20.1a",
+      "script": "བདག",
+      "wylie": "bdag",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan renders bhatāra 'husband' with bdag 'lord, master' (the line-final bdag in nam mkha'i yid kyi bdag; the comment has bdag po for Munidatta's svāmin), dropping the marital sense, and bdag is also the line's word for 'I'."
+    },
+    {
+      "id": "bigoa",
+      "line": "cp.20.1b",
+      "script": "ཉམས་མྱོང",
+      "wylie": "nyams myong",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan reads the uncertain bigoā as nyams myong 'experience', in step with Munidatta's paraphrase (anubhava, Tibetan myong ba at cp.20.m2), so it is an interpretation rather than independent evidence for the word's sense."
+    },
+    {
+      "id": "nadi",
+      "line": "cp.20.3b",
+      "script": "རྩ",
+      "wylie": "rtsa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "root",
+      "line": "cp.20.4b",
+      "script": "རྩ་བར",
+      "wylie": "rtsa bar",
+      "lemma": "rtsa ba",
+      "confidence": "likely",
+      "note": "The Tibetan line reads rtsa bar ltung ba nye bar sdud par byed, roughly 'gathers in what has fallen to the root', with no cutting (nakhali) and no father; nye bar sdud pa is the usual rendering of upasaṃhāra, as if saṃghārā had been taken as (upa)saṃhāra, the word Munidatta uses at cp.20.m5."
+    },
+    {
+      "id": "sthira",
+      "line": "cp.20.5a",
+      "script": "བརྟན་པར",
+      "wylie": "brtan par",
+      "lemma": "brtan pa",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "surata",
+      "line": "cp.20.m2",
+      "script": "ཤིན་དུ་བདེ་བ",
+      "wylie": "shin du bde ba",
+      "lemma": "shin tu bde ba",
+      "confidence": "likely",
+      "note": "Where Shastri restores su[ra]tābhiṣvaṅga, the Tibetan has shin du bde ba la mngon par chags pa, 'intense attachment to extreme bliss', which may reflect a different reading of the damaged word (such as sukha) rather than surata 'lovemaking'."
+    },
+    {
+      "id": "hut",
+      "line": "cp.20.m3",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "bodhicitta",
+      "line": "cp.20.m6",
+      "script": "བྱང་ཆུབ་སེམས",
+      "wylie": "byang chub sems",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here the Tibetan uses the contracted byang chub sems (in kun rdzob byang chub sems, conventional bodhicitta) rather than the fuller byang chub kyi sems."
+    },
+    {
+      "id": "niranjana",
+      "line": "cp.20.m6",
+      "script": "དམིགས་པ་མེད་པའི",
+      "wylie": "dmigs pa med pa'i",
+      "lemma": "dmigs pa med pa",
+      "confidence": "likely",
+      "note": "The Tibetan renders nirañjana 'stainless' as dmigs pa med pa 'without apprehension, objectless' (in dmigs pa med pa'i ngo bos for nirañjanarūpeṇa), an interpretive rendering close to its word for anupalambha, unlike the literal mig sman med pa of the Kṛṣṇa verse at cp.02.m6."
+    }
+  ],
+  "questions": [
+    "moha (cp.20.1b): not matched, and probably a false hit. The Bengali mohora in mohora bigoā looks like the first-person genitive 'my' (compare mora in 3a and 4a), not moha 'delusion'; the Tibetan line has bdag gi 'my' in that place and no word for delusion. The reviewer may want to exclude this surface from the moha entry.",
+    "mother (cp.20.2a, cp.20.m3): not matched. Where the Bengali has go māe 'O mother', the Tibetan line has kye'i mi khyod 'O man (or person), you'; mi takes the position but does not mean 'mother', so I gave no equivalent. Munidatta's bho mātar nairātme falls in the part of cp.20.m3 that the Tibetan parallel does not cover (it breaks off at sel ba).",
+    "father (cp.20.4b): not matched. The Tibetan line has no word for bāpa; bāpa saṃghārā seems to be read as nye bar sdud par byed, 'gathers in' (see the note on root). This bāpa should not be confused with bāpūṛā in 3b, which the Tibetan simply transliterates (ba pu DA).",
+    "p-saraha (cp.20.m2): not matched. The Tibetan parallel of cp.20.m2 ends before the quotation introduced by tathā ca sarahapādāḥ, so Saraha's name does not appear in it.",
+    "cp.20.m5: abhyasa, bell, bodhicitta, mandala, manimula, nairatmya, p-kukkuri, pada, root, tx-hevajra, upasamhara, visaya and yauvana not matched there. The Tibetan parallel of cp.20.m5 begins only at tatprabhāvāt (de'i mthu las) and covers just the marks-and-signs sentence, so all of these fall in Sanskrit with no Tibetan beside it. For upasamhara, the Tibetan of line 4b (nye bar sdud pa) may be relevant, but the Bengali line has no upasaṃhāra, so I did not file it there.",
+    "bodhicitta (cp.20.m6): marked likely rather than clear only because the contracted byang chub sems also stands, as whole syllables, inside byang chub sems dpa' (bodhisattva), which occurs in the text (the Bodhicaryāvatāra title, byang chub sems dpa'i spyod pa la 'jug pa); as a match form it would count those. The rendering itself is certain; promote it if the concordance can guard against the longer word."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "d6c3e54f5340c98e1d02eefa56e97ce53bfee026681d839dd2961b0ff5b6fe4e",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "b4c1d08f3aa837ad3458be8ab03b7d4c59b169754daf642f3f2329b9419eb3ff",
+    "sourceSha": "2ba56535c07d883ca5dfa59e35c405b2abbd6c9db8118d0583a3784b5b6ae663",
+    "parallelSha": "7028926b6bbd33f4208e7c24eef72a8ea1a9217f4f99c3a692362b40f367ad8c"
+  }
+}

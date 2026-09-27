@@ -5310,6 +5310,14 @@
           "lemma": "bodhicitta",
           "att": "AS",
           "where": "cp.12.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱང་ཆུབ་སེམས",
+          "translit": "byang chub sems",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.20.m6"
         }
       ],
       "match": {
@@ -11500,6 +11508,14 @@
           "lemma": "bdag po",
           "att": "AO",
           "where": "cp.20.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག",
+          "translit": "bdag",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.20.1a"
         }
       ],
       "match": {
@@ -17685,11 +17701,13 @@
           "རྨོངས་པ་ཆེན་པོ",
           "གཏི་མུག"
         ],
+        "oben": []
+      },
+      "matchRe": {
         "oben": [
-          "মোহ"
+          "মোহ(?!ো)"
         ]
       },
-      "matchRe": {},
       "definition": "Delusion or bewilderment (moha): with desire and hatred, one of the three root afflictions of Buddhist teaching, the confusion that hides how things are. Munidatta speaks of the stain of delusion (mohamala) in describing the yoginī (cp.04.m4); the Tibetan has rmongs pa.",
       "symbolic": {
         "image": "",
@@ -19601,6 +19619,14 @@
           "lang": "bod",
           "script": "དམིགས་པ་མེད་པའི་ངོ་བོ",
           "translit": "dmigs pa med pa'i ngo bo",
+          "lemma": "dmigs pa med pa",
+          "att": "AO",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་པ་མེད་པའི",
+          "translit": "dmigs pa med pa'i",
           "lemma": "dmigs pa med pa",
           "att": "AO",
           "where": "cp.20.m6"
@@ -26282,6 +26308,14 @@
           "lemma": "rtsa ba",
           "att": "AO",
           "where": "cp.20.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩ་བར",
+          "translit": "rtsa bar",
+          "lemma": "rtsa ba",
+          "att": "AO",
+          "where": "cp.20.4b"
         }
       ],
       "match": {},
@@ -29003,6 +29037,14 @@
           "lemma": "shin tu mngon par dga' ba",
           "att": "AO",
           "where": "cp.19.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིན་དུ་བདེ་བ",
+          "translit": "shin du bde ba",
+          "lemma": "shin tu bde ba",
+          "att": "AO",
+          "where": "cp.20.m2"
         }
       ],
       "match": {

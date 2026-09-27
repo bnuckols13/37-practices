@@ -17,6 +17,9 @@
  *   @split TEXT      the next line is divided where TEXT begins: the part before ends the
  *                    current block, the rest begins the block the next directive opens
  *                    (a commentary running its introduction into its first lemma)
+ *   @pair            the following verse lines go two to a line of the reading text, joined
+ *                    with a space (a witness that renders each long line as two short ones);
+ *                    until the next block directive
  *   @skip @--
  * Lines of a comment are joined with a space, which restores the imported text exactly
  * (the importer breaks lines only at a space). A block's extra heading lines (a rāga,
@@ -39,6 +42,7 @@ export function readParallel(st, evs) {
   const recs = [];
   let rec = null, primary = false, mode = 'skip', comm = null, buf = [], flags = {};
   let split = null, carry = null;   // @split: the text to cut at, then the cut-off rest awaiting its block
+  let pair = false, half = null;     // @pair: verse lines two to a line; the first half awaiting its second
 
   const need = at => rec || fail(`${at}: text before any @song`);
   const closeCouplet = () => {
@@ -46,7 +50,10 @@ export function readParallel(st, evs) {
     rec.pVerse.push({ lines: buf, flags });
     buf = []; flags = {};
   };
-  const flush = () => { closeCouplet(); comm = null; };
+  const flush = () => {
+    if (half) fail(`${half.at}: @pair: this verse line has no second half before the next block`);
+    closeCouplet(); comm = null; pair = false;
+  };
 
   for (const e of evs) {
     if (e.type === 'directive') {
@@ -67,6 +74,9 @@ export function readParallel(st, evs) {
         case 'heading': flush(); need(at); mode = 'heading'; resume(); break;
         case 'verse': flush(); need(at); mode = 'verse'; resume(); break;
         case 'skip': flush(); mode = 'skip'; carry = null; break;
+        case 'pair':
+          if (primary || mode !== 'verse') fail(`${at}: @pair goes after @verse, in a unit matched to the reading text`);
+          pair = true; break;
         case 'split':
           if (!arg) fail(`${at}: @split needs the text where the next line divides`);
           split = { text: arg.normalize('NFC'), at }; break;
@@ -119,7 +129,11 @@ export function readParallel(st, evs) {
     if (mode === 'comm') comm.text.push(text);
     else if (mode === 'heading') (primary ? rec.pHeading : rec.heading).push({ text, at });
     else if (primary) { buf.push(text); if (buf.length === 2) closeCouplet(); }
-    else { rec.verse.push({ text, at, ...(rec.jump ? { couplet: rec.jump } : {}) }); delete rec.jump; }
+    else {
+      if (pair && !half) { half = { text, at }; return; }
+      if (half) { text = `${half.text} ${text}`; at = half.at; half = null; }
+      rec.verse.push({ text, at, ...(rec.jump ? { couplet: rec.jump } : {}) }); delete rec.jump;
+    }
   }
   // The rest of a split line starts the block just opened.
   function resume() { if (carry) { const c = carry; carry = null; take(c.text, c.at); } }

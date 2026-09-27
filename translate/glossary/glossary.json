@@ -74,6 +74,14 @@
           "lemma": "ābhāsa",
           "att": "AS",
           "where": "cp.05.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་མེད",
+          "translit": "dmigs med",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.06.m5"
         }
       ],
       "match": {
@@ -85,7 +93,8 @@
           "নিরাভাস"
         ],
         "bod": [
-          "སྣང་བ"
+          "སྣང་བ",
+          "གསལ་སྣང"
         ]
       },
       "matchRe": {},
@@ -267,6 +276,14 @@
           "translit": "ādaa",
           "lemma": "advaya",
           "att": "AS",
+          "where": "cp.05.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས",
+          "translit": "gnyis",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.05.3b"
         }
       ],
@@ -2857,6 +2874,14 @@
           "lemma": "citta",
           "att": "AS",
           "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད",
+          "translit": "yid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.m4"
         }
       ],
       "match": {
@@ -2908,6 +2933,14 @@
           "translit": "abaṇāgabaṇe",
           "lemma": "abaṇāgabaṇa",
           "att": "AS",
+          "where": "cp.07.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་ཉིད་འོངས",
+          "translit": "bdag nyid 'ongs",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.07.4b"
         }
       ],
@@ -3860,6 +3893,22 @@
           "lemma": "ri dwags",
           "att": "AO",
           "where": "cp.06.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "མོ",
+          "translit": "mo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.06.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་དགས",
+          "translit": "ri dgas",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.06.m5"
         }
       ],
       "match": {
@@ -8316,6 +8365,14 @@
           "lemma": "rmongs pa",
           "att": "AO",
           "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨོངས",
+          "translit": "rmongs",
+          "lemma": "rmongs pa",
+          "att": "AO",
+          "where": "cp.06.m6"
         }
       ],
       "match": {
@@ -12318,6 +12375,14 @@
           "lemma": "gdangs",
           "att": "AO",
           "where": "cp.03.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "གླུའི་དབྱངས",
+          "translit": "glu'i dbyangs",
+          "lemma": "glu dbyangs",
+          "att": "AO",
+          "where": "cp.07.h1"
         }
       ],
       "match": {
@@ -12326,7 +12391,8 @@
         ],
         "bod": [
           "གླུ་དབྱངས",
-          "གླུའི་གདངས"
+          "གླུའི་གདངས",
+          "གླུའི་དབྱངས"
         ]
       },
       "matchRe": {},
@@ -12448,6 +12514,14 @@
           "lemma": "chu klung",
           "att": "AO",
           "where": "cp.05.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩ",
+          "translit": "rtsa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.05.m6"
         }
       ],
       "match": {
@@ -13887,6 +13961,14 @@
           "translit": "sukhena",
           "lemma": "sukha",
           "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ",
+          "translit": "bde ba",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.07.m3"
         }
       ],
@@ -16232,6 +16314,9 @@
         ],
         "san": [
           "উদাস"
+        ],
+        "bod": [
+          "བཏང་སྙོམས"
         ]
       },
       "matchRe": {},
@@ -17372,6 +17457,14 @@
           "lemma": "vikalpa",
           "att": "AS",
           "where": "cp.06.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་རྟོག",
+          "translit": "rnam rtog",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.m4"
         }
       ],
       "match": {
@@ -17383,7 +17476,8 @@
         ],
         "bod": [
           "རྣམ་པར་རྟོག་པ",
-          "རྣམ་པར་མི་རྟོག་པས"
+          "རྣམ་པར་མི་རྟོག་པས",
+          "རྣམ་རྟོག"
         ]
       },
       "matchRe": {},
@@ -17512,6 +17606,10 @@
       "match": {
         "oben": [
           "বিমন"
+        ],
+        "bod": [
+          "རྣམ་མི་དགའ",
+          "ཡིད་མི་བདེ"
         ]
       },
       "matchRe": {},

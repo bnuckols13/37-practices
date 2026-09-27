@@ -1,0 +1,85 @@
+{
+  "unit": "cp.06",
+  "equivalents": [
+    {
+      "id": "doe",
+      "line": "cp.06.3b",
+      "script": "མོ",
+      "wylie": "mo",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has ri dgas pho mo, 'male and female deer', with mo standing for the doe inside the pair, so it names the two deer together (as Munidatta's 'the dwelling of the two' does) where the Bengali has the deer and the doe's dwelling (hariṇira, genitive)."
+    },
+    {
+      "id": "hoof",
+      "line": "cp.06.5a",
+      "script": "རྐང",
+      "wylie": "rkang",
+      "lemma": "rkang pa",
+      "confidence": "clear",
+      "note": "rkang stands exactly where khūra stands, but it means 'foot, leg' in general, not 'hoof' (rmig pa), so the Tibetan says the deer's feet are not seen."
+    },
+    {
+      "id": "sabara",
+      "line": "cp.06.m4",
+      "script": "ཤ་བ",
+      "wylie": "sha ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "sha ba is the ordinary Tibetan word for 'deer', so the quoted dohā either sounds out śabara or reads it as a deer: 'on the plain, with deer and antelope' (thang la sha ba ri dgas bcas), where the Apabhraṃśa has the Śabaras making their dwelling on the peak."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.06.m4",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "abhasa",
+      "line": "cp.06.m5",
+      "script": "དམིགས་མེད",
+      "wylie": "dmigs med",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Sahajasaṃvara verse's nirābhāṣi, 'without appearance', comes out as dmigs med, 'without object of focus', the usual rendering of nirālamba or anālambana, so the translators either read a different word or took the appearance as an object of apprehension; snang ba is not used."
+    },
+    {
+      "id": "doe",
+      "line": "cp.06.m5",
+      "script": "རི་དགས",
+      "wylie": "ri dgas",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the Sanskrit lemma is hariṇī, 'doe' (hariṇītyādi, hariṇīti), the Tibetan commentary has plain ri dgas, 'deer', without the ma of the verse (4a), so a Tibetan reader cannot see that Munidatta's wisdom seal, Nairātmā, is the doe and not the deer."
+    },
+    {
+      "id": "mudha",
+      "line": "cp.06.m6",
+      "script": "རྨོངས",
+      "wylie": "rmongs",
+      "lemma": "rmongs pa",
+      "confidence": "clear",
+      "note": "Munidatta's saṃmūḍhā, 'thoroughly deluded', is rendered yang dag par rmongs, where the verse (5b) has blun, 'fool', for mūṛhā."
+    }
+  ],
+  "questions": [
+    "cp.06.m3: citta is marked as already matched (sems kyi ri dgas, 'the mind-deer'), but the first cittahariṇaḥ in this segment comes out as sems can de nyid ri dgas, 'that very sentient being is a deer'. The translators may have read sattva or taken citta as a being. Should this be recorded as a second rendering, or treated as a slip?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "269fd5c89d2b63e3f714154810e8d8484d9158ec09cd498f15633877e53399fe",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "99ca9c98d5c14cf1426497ab131dd398fb048420c99ad10957f25be5f819be7d",
+    "sourceSha": "1900eb1156d2b11ced337a6a09d1703718b5db9426f521e23b211fabea39747c",
+    "parallelSha": "382248e3b55349468a9df063c6497fed712d8c49a502f74c992544901446ff8e"
+  }
+}

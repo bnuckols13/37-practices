@@ -201,6 +201,14 @@ test('parallel: @split divides a line between two comments; extra heading lines 
   assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@split ཆ\n།ངོ། ཀ་ཁ།\n@comm 1\n'), /is not inside the next line/);
 });
 
+test('parallel: @pair joins two short witness lines into one line of the reading text', () => {
+  const [u] = both('@parallel\n@song 1\n@verse\n@pair\n།ཀ།\n།ཁ།\n།ག།\n།ང།\n@comm 1\nཅ\n');
+  assert.equal(u.parallels.tib.lines['fx.01.1a'].src, '།ཀ། །ཁ།');
+  assert.equal(u.parallels.tib.lines['fx.01.1b'].src, '།ག། །ང།');
+  assert.throws(() => both('@parallel\n@song 1\n@verse\n@pair\n།ཀ།\n@comm 1\nཅ\n'), /no second half/);
+  assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@pair\n'), /@pair goes after @verse/);
+});
+
 test('glossary matching reads through folio numbers and restoration brackets', async () => {
   const { matchSource } = await import('../lib/glossary.mjs');
   const { Entry } = await import('../schemas/glossary.mjs');

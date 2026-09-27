@@ -1298,6 +1298,91 @@
       }
     },
     {
+      "id": "anusamsa",
+      "type": "term",
+      "status": "proposed",
+      "en": "praise",
+      "alt": [
+        "benefit"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বকীয়ানুশংসাম",
+          "translit": "svakīyānuśaṃsām",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.07.m5"
+        },
+        {
+          "lang": "san",
+          "script": "চাত্মানুশংসাম",
+          "translit": "cātmānuśaṃsām",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.07.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྗེས་སུ་བསྔགས་པ",
+          "translit": "rjes su bsngags pa",
+          "lemma": "rjes su bsngags pa",
+          "att": "AO",
+          "where": "cp.07.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྗེས་སུ་བསྔགས་པ",
+          "translit": "rjes su bsngags pa",
+          "lemma": "rjes su bsngags pa",
+          "att": "AO",
+          "where": "cp.07.m6"
+        },
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "anuśaṃsām",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "rjes su bsngags pa",
+          "lemma": "rjes su bsngags pa",
+          "att": "AO",
+          "where": "cp.06.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "নুশংসা"
+        ],
+        "bod": [
+          "རྗེས་སུ་བསྔགས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Praise or commendation (Sanskrit anuśaṃsā; in Buddhist Sanskrit also ‘benefit, blessing’). Munidatta uses it to introduce couplets in which the poet speaks of what he has attained: ‘his own praise’ (cp.07.m5), ‘praise of himself’ (cp.07.m6). The Tibetan translation has rjes su bsngags pa, ‘praise’.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "anuttara",
       "type": "term",
       "status": "proposed",
@@ -1519,6 +1604,14 @@
           "lemma": "sbrang chang",
           "att": "AO",
           "where": "cp.09.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆང",
+          "translit": "chang",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.09.m2"
         }
       ],
       "match": {
@@ -2210,6 +2303,14 @@
           "lemma": "'ching ba",
           "att": "AO",
           "where": "cp.09.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགོག་པ",
+          "translit": "'gog pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.09.m2"
         }
       ],
       "match": {
@@ -9412,6 +9513,14 @@
           "lang": "bod",
           "script": "མྱོས་པ",
           "translit": "myos pa",
+          "lemma": "myos pa",
+          "att": "AO",
+          "where": "cp.09.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མྱོས་པས",
+          "translit": "myos pas",
           "lemma": "myos pa",
           "att": "AO",
           "where": "cp.09.m3"
@@ -18259,6 +18368,14 @@
           "lemma": "ngo bo nyid",
           "att": "AO",
           "where": "cp.09.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ངོ་བོ་ཉིད་ཀྱིས",
+          "translit": "ngo bo nyid kyis",
+          "lemma": "ngo bo nyid",
+          "att": "AO",
+          "where": "cp.09.m4"
         }
       ],
       "match": {
@@ -18419,9 +18536,6 @@
       "match": {
         "san": [
           "স্বরূপ"
-        ],
-        "bod": [
-          "ངོ་བོ་ཉིད"
         ]
       },
       "matchRe": {},
@@ -21868,6 +21982,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.07.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་མི་རྟོག་པར",
+          "translit": "rnam par mi rtog par",
+          "lemma": "rnam par mi rtog pa",
+          "att": "AO",
+          "where": "cp.09.m2"
         }
       ],
       "match": {

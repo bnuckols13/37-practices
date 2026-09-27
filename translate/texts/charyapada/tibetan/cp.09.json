@@ -1,0 +1,123 @@
+{
+  "unit": "cp.09",
+  "equivalents": [
+    {
+      "id": "tathata",
+      "line": "cp.09.3b",
+      "script": "དེ་ཉིད",
+      "wylie": "de nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The verse has de nyid, which this unit's Tibetan also uses for tattva and for plain 'that very' (cp.09.m1, cp.09.m2, cp.09.m3), whereas Munidatta's Tibetan renders tathatā as de bzhin nyid (cp.09.m3, cp.09.m5)."
+    },
+    {
+      "id": "svabhava",
+      "line": "cp.09.4a",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "asava",
+      "line": "cp.09.m2",
+      "script": "ཆང",
+      "wylie": "chang",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Plain chang, 'liquor, beer', here rather than the verse's sbrang gi chang, 'mead' (cp.09.2a); the same chang also renders tathatāmada in cp.09.m3."
+    },
+    {
+      "id": "bandhana",
+      "line": "cp.09.m2",
+      "script": "འགོག་པ",
+      "wylie": "'gog pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Where the verse has 'ching ba, 'bond' (cp.09.1b), the Tibetan of the comment renders Munidatta's vandhana as 'gog pa, 'obstruction, blocking', and toṛayitvā as 'phyung nas, 'having drawn out'."
+    },
+    {
+      "id": "svabhava",
+      "line": "cp.09.m2",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "tattva",
+      "line": "cp.09.m2",
+      "script": "དེ་ཉིད",
+      "wylie": "de nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "In the quoted verse de nyid occurs twice, de nyid med la de nyid gcig pa'i blos, apparently taking nirvinna- as a negative ('with a mind one with reality where there is no reality')."
+    },
+    {
+      "id": "vikalpa",
+      "line": "cp.09.m2",
+      "script": "རྣམ་པར་མི་རྟོག་པར",
+      "wylie": "rnam par mi rtog par",
+      "lemma": "rnam par mi rtog pa",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "mada",
+      "line": "cp.09.m3",
+      "script": "མྱོས་པས",
+      "wylie": "myos pas",
+      "lemma": "myos pa",
+      "confidence": "likely",
+      "note": "The Tibetan splits Munidatta's two ichors: īrṣyāmada becomes chags pa'i myos pa, 'the intoxication of attachment', and tathatāmada becomes de bzhin nyid kyi chang, 'the liquor of suchness', so neither keeps the sense 'ichor'."
+    },
+    {
+      "id": "p-bhagavati",
+      "line": "cp.09.m3",
+      "script": "བཅོམ་ལྡན་འདས",
+      "wylie": "bcom ldan 'das",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan uses bcom ldan 'das, its word for the male Blessed One (p-bhagavat), with no feminine marker; only bdag med ma shows that a goddess is meant."
+    },
+    {
+      "id": "svabhava",
+      "line": "cp.09.m4",
+      "script": "ངོ་བོ་ཉིད་ཀྱིས",
+      "wylie": "ngo bo nyid kyis",
+      "lemma": "ngo bo nyid",
+      "confidence": "likely",
+      "note": "Munidatta's Tibetan uses ngo bo nyid, the usual technical equivalent of svabhāva, for svabhāvena ('pure by nature') where the verse (cp.09.4a) has rang bzhin."
+    },
+    {
+      "id": "vaisaradya",
+      "line": "cp.09.m5",
+      "script": "མི་འཇིགས་པ",
+      "wylie": "mi 'jigs pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    }
+  ],
+  "questions": [
+    "cp.09.m4: the input marks svarupa as already matched here, apparently on ngo bo nyid, but ngo bo nyid kyis in this segment renders svabhāvena ('pure by nature'); Munidatta's svarūpopalabdhim is rendered dngos po dang dngos po med pa'i dmigs pa, 'the apprehension of things and non-things', which has no word for svarūpa and may reflect a different reading. The recorded svarupa match for cp.09.m4 should probably be removed.",
+    "cp.09.3b: mada (the song's maa) is not in the input's list for this line, and the Tibetan de lta de ltar de nyid ngos 'gram 'bab has no word for it ('bab 'flows'; ngos 'gram 'side of the cheek' for gala), so mada is matched only in cp.09.m3.",
+    "cp.09.5b: klesa is not listed, but the Tibetan rig pa'i glang dbang nyon mongs nyid kyis btsal has nyon mongs, 'afflictions', where the Bengali has akilesem̐ ('without trouble' or 'without affliction'), so the negative is gone; the same line has rig pa'i, 'of knowledge', for bidyā-, where Munidatta reads avidyā- (Tibetan ma rig pa'i, cp.09.m5). I have not entered klesa because it is unlisted; the reviewer may want it linked here, with a witness note."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "f8e236f4a4976c400c86df477eb4902ff3b952ebafa140bbfef5d360d8bf80f2",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "c6e6f7a0966e51c83b0feab8723ccd1b1803825222c10fecb38dbeaac4854fce",
+    "sourceSha": "2cdea1c27f5f63df0aa5419a3f893295e5e63d752f6624e7dc828c91bbdde67c",
+    "parallelSha": "1306727d07058b2eebb4fda6bb64518401868f797e1e4e8262b148d6ca03e616"
+  }
+}

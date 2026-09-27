@@ -5893,6 +5893,59 @@
       }
     },
     {
+      "id": "moha",
+      "type": "term",
+      "status": "proposed",
+      "en": "delusion",
+      "alt": [
+        "bewilderment"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মোহমলাবলিপ্তা",
+          "translit": "mohamalāvaliptā",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.04.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨོངས་པ",
+          "translit": "rmongs pa",
+          "lemma": "rmongs pa",
+          "att": "AO",
+          "where": "cp.04.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "মোহ"
+        ],
+        "bod": [
+          "རྨོངས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Delusion or bewilderment (moha): with desire and hatred, one of the three root afflictions of Buddhist teaching, the confusion that hides how things are. Munidatta speaks of the stain of delusion (mohamala) in describing the yoginī (cp.04.m4); the Tibetan has rmongs pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "moon",
       "type": "term",
       "status": "proposed",
@@ -7932,6 +7985,82 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "paksa",
+      "type": "term",
+      "status": "proposed",
+      "en": "side",
+      "alt": [
+        "sides",
+        "wing",
+        "wings"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পখা",
+          "translit": "pakhā",
+          "lemma": "pakhā",
+          "att": "AS",
+          "where": "cp.04.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পক্ষগ্রহং",
+          "translit": "pakṣagrahaṃ",
+          "lemma": "pakṣa",
+          "att": "AS",
+          "where": "cp.04.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱོགས",
+          "translit": "phyogs",
+          "lemma": "phyogs",
+          "att": "AO",
+          "where": "cp.04.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পখা"
+        ],
+        "san": [
+          "পক্ষ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Wing, side or flank (Sanskrit pakṣa, Old Bengali pakhā); also half of a lunar month, and a party in a dispute. In song 4 the sides of the braid of moon and sun are to be split; the Tibetan translation renders the word there as sgo glegs, 'door-panel'. Munidatta speaks of the 'taking of sides' (pakṣagraha).",
+      "symbolic": {
+        "image": "the sides of the braid of moon and sun, which are to be split",
+        "readings": [
+          {
+            "referent": "the taking of sides (pakṣagraha) by the moon and the sun, which the lord of yogis breaks through the instruction in vajra recitation, so steadying the vajra of speech",
+            "per": "Munidatta",
+            "where": [
+              "cp.04.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "taking of sides",
+        "partiality",
+        "vajra recitation",
+        "vajra of speech"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -11791,6 +11920,97 @@
       }
     },
     {
+      "id": "trivajra",
+      "type": "term",
+      "status": "proposed",
+      "en": "three vajras",
+      "alt": [
+        "vajra of body",
+        "vajra of speech",
+        "vajra of mind"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়বজ্র",
+          "translit": "kāyavajra",
+          "lemma": "kāyavajra",
+          "att": "AS",
+          "where": "cp.04.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বাগ্বজ্রং",
+          "translit": "vāgvajraṃ",
+          "lemma": "vāgvajra",
+          "att": "AS",
+          "where": "cp.04.m5"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তবজ্র",
+          "translit": "cittavajra",
+          "lemma": "cittavajra",
+          "att": "AS",
+          "where": "cp.04.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐུ་རྡོ་རྗེ",
+          "translit": "sku rdo rje",
+          "lemma": "sku rdo rje",
+          "att": "AO",
+          "where": "cp.04.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གསུང་རྡོ་རྗེ",
+          "translit": "gsung rdo rje",
+          "lemma": "gsung rdo rje",
+          "att": "AO",
+          "where": "cp.04.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐུགས་རྡོ་རྗེ",
+          "translit": "thugs rdo rje",
+          "lemma": "thugs rdo rje",
+          "att": "AO",
+          "where": "cp.04.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "কায়বজ্র",
+          "বাগ্বজ্র",
+          "চিত্তবজ্র"
+        ],
+        "bod": [
+          "སྐུ་རྡོ་རྗེ",
+          "གསུང་རྡོ་རྗེ",
+          "ཐུགས་རྡོ་རྗེ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The vajra of body, of speech and of mind: a buddha's body, speech and mind, which tantric practice aims to make the practitioner's own. Munidatta says the lord of yogis first makes the vajra of body firm through deity yoga, steadies the vajra of speech by vajra recitation, then works to make the vajra of mind firm (cp.04.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "tx-guhyasamaja",
       "type": "text",
       "status": "proposed",
@@ -12806,6 +13026,52 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "veni",
+      "type": "term",
+      "status": "proposed",
+      "en": "braid",
+      "alt": [
+        "plait"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চান্দসুজবেণি",
+          "translit": "cāndasujabeṇi",
+          "lemma": "beṇi",
+          "att": "AS",
+          "where": "cp.04.4b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বেণি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A braid or plait of hair (Sanskrit veṇī); the same word names the meeting of rivers, as at the Triveṇī of Prayāga. In song 4 the moon and the sun form a braid whose sides are to be split. The Tibetan translation has gnyis, 'the two', where the Bengali has beṇi.",
+      "symbolic": {
+        "image": "a braid made of the moon and the sun",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "channels",
+        "left and right channels",
+        "lalanā and rasanā"
+      ],
       "texts": [
         "charyapada"
       ],

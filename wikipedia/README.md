@@ -17,6 +17,7 @@ So this is a real gap, and he clearly qualifies.
 - Your work saves automatically. The page's source is `workbench.html` in this folder.
 
 **The files in this folder:**
+- **[outline.md](outline.md)**: headings with note-form facts and page numbers, one bullet per fact. Turn the notes into your own sentences after checking each page.
 - **README.md** (this file): the plan, the rules, the checklists.
 - **[reading-guide.md](reading-guide.md)**: where every fact is, page by page, with the sources' own words and the known traps.
 - **[sources.md](sources.md)**: verified bibliographic data (ISBNs, DOIs, links), which sources to cite, and which to avoid.

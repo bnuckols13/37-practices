@@ -148,6 +148,8 @@ node translate/cli.mjs studio import charyapada          # approved/, glossary, 
 - A decision made on an older draft is refused as stale; the Studio then offers "Start review of the new draft", which keeps unchanged passages.
 - One review channel per song: a hand-edited sheet blocks a Studio import unless you pass `--force`.
 
+**Nothing is left unexplained.** In notes, flags, questions and definitions, an id reads as a place ("Munidatta on 14.3", "10.2a"); tap it for that passage's source and our English, and a link to go there. The first mention of an editorial word in each (Toh 2293, Tengyur, Wylie, IAST, Shastri, bhaṇitā, dhruvapada, pada, folio, emendation, lemma) is underlined; tap it for a sentence or two on what it is (`lib/jargon.mjs`). The kinds of flag and note (witness, philology, high…) explain themselves the same way. The translation itself is never underlined.
+
 **A term's card** says what the entry is in plain words: its definition; its forms, one row per language, each saying where it is found ("satyadvaya, in Munidatta's comment on 1.1"; "bden pa gnyis, in the Tibetan of Munidatta's comment on 1.1"), with the place a link to the passage; how the image is read, one reading per line with who reads it so and where. Ids never show: `lib/places.mjs` turns `cp.01.m2` into "Munidatta on 1.1" everywhere, and the published glossary uses the same phrases instead of attestation codes.
 
 **Opening a term** (click it in the text or in the panel) adds, below its decision buttons:

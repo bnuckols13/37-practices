@@ -5,7 +5,7 @@
 
 import { sha256, short, fail } from '../io.mjs';
 
-const HDR_RE = /^<!-- translate:(sheet|glossary-sheet) ([^>]*?) -->\r?\n/;
+const HDR_RE = /^<!-- translate:(sheet|glossary-sheet|sung-sheet) ([^>]*?) -->\r?\n/;
 
 export function header(s) {
   const m = HDR_RE.exec(s);

@@ -17,19 +17,29 @@ import { READER_CSS } from './css.mjs';
 import { READER_JS } from './client.mjs';
 import { site } from './shell.mjs';
 
+/** The sung version beside a record: approved if current; the draft only in preview. */
+function sungOf(P, u, preview) {
+  const a = readJSON(P.approvedSung(u.id), null);
+  if (a && a.sourceSha === u.sourceSha) return { ...a, status: 'approved' };
+  if (!preview) return null;
+  const s = readJSON(P.sung(u.id), null);
+  return s && s.provenance.sourceSha === u.sourceSha ? { ...s, status: 'draft' } : null;
+}
+
 function records(slug, units, preview) {
   const P = paths(slug);
   const out = new Map();
   for (const u of units) {
+    const sung = sungOf(P, u, preview);
     const a = readJSON(P.approvedFile(u.id), null);
-    if (a && a.sourceSha === u.sourceSha) { out.set(u.id, { ...a, status: 'approved' }); continue; }
+    if (a && a.sourceSha === u.sourceSha) { out.set(u.id, { ...a, status: 'approved', sung }); continue; }
     if (a && !preview) fail(`${u.id}: the approved text is stale (the source changed after approval); redraft and review before rendering`);
     if (!preview) continue;
     const d = readJSON(P.draft(u.id), null);
     if (!d) continue;
     const w = readJSON(P.weave(u.id), null);
     out.set(u.id, {
-      unit: u.id, n: u.n, title: d.title, summary: d.summary, status: 'draft', provenance: { draft: d.provenance },
+      unit: u.id, n: u.n, title: d.title, summary: d.summary, status: 'draft', provenance: { draft: d.provenance }, sung,
       lines: d.lines.map(l => ({ id: l.id, en: l.en, gloss: l.gloss, translit: l.translit })),
       notes: d.notes,
       commentary: u.commentary.map(s => {

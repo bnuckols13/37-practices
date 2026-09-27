@@ -34,7 +34,7 @@ var fine = window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)')
 
 // ---------- settings ----------
 var LABELS = {
-  display: { english: 'English', bilingual: 'English and source', study: 'Study' },
+  display: { english: 'English', bilingual: 'English and source', study: 'Study', sung: 'As a song' },
   comm: { margin: 'commentary in the margin', inline: 'commentary under each couplet', hidden: 'commentary hidden' },
   theme: { system: 'System', light: 'Light', dark: 'Dark' }
 };
@@ -49,7 +49,7 @@ function apply(name, value) {
 function label() {
   var b = $('#settings-btn'); if (!b) return;
   var hasComm = !!$('.sidenote, .song-comment');
-  var t = LABELS.display[setting('display')] || 'English';
+  var d = setting('display'), t = (d === 'sung' && !$('.sung')) ? 'English' : (LABELS.display[d] || 'English');
   var text = 'Display: ' + t + (hasComm ? ', ' + (LABELS.comm[setting('comm')] || '') : '');
   var lab = b.querySelector('.runhead__label'); if (lab) lab.textContent = text;
   b.setAttribute('aria-label', text + '. Change display settings');
@@ -66,7 +66,9 @@ function openSettings() {
       return el('label', { for: id }, [input, el('span', {}, [o[1], o[2] ? el('span', { class: 'hint', text: o[2] }) : null])]);
     })));
   }
-  if (hasSrc) groups.push(group('display', 'Text', [['english', 'English'], ['bilingual', 'English and source', 'The source text beside the English'], ['study', 'Study', 'The source, a transliteration and a word-by-word gloss beside the English']]));
+  var textOpts = [['english', 'English'], ['bilingual', 'English and source', 'The source text beside the English'], ['study', 'Study', 'The source, a transliteration and a word-by-word gloss beside the English']];
+  if ($('.sung')) textOpts.push(['sung', 'As a song', 'The song sounded in English: its rhymes, its refrain and its voice, with the source as it is heard beneath each couplet']);
+  if (hasSrc) groups.push(group('display', 'Text', textOpts));
   if (hasComm) groups.push(group('comm', 'Commentary', [['margin', 'In the margin', 'Beside the couplet it explains; under it when the source is shown'], ['inline', 'Under each couplet'], ['hidden', 'Hidden']]));
   groups.push(group('theme', 'Appearance', [['system', 'Match my device'], ['light', 'Light'], ['dark', 'Dark']]));
   dialog('Display', [el('form', { class: 'settings' }, groups)]);

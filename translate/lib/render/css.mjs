@@ -67,7 +67,7 @@ a:hover { color: var(--navy); text-decoration-color: currentColor; }
 .rail__more a:hover { text-decoration: underline; }
 
 .text { min-width: 0; padding-top: 46px; }
-.head, .summary, .song-comment, .orn, .end, .colophon, .after, .pager { max-width: 38rem; margin-left: 4rem; }
+.head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .pager { max-width: 38rem; margin-left: 4rem; }
 .head { text-align: center; }
 .head h1 { margin: 0; font-weight: 400; font-size: clamp(30px, 3.4vw, 40px); line-height: 1.15; text-wrap: balance; }
 .head__sub { margin: 10px 0 0; font-size: 17px; color: var(--muted); }
@@ -100,6 +100,24 @@ a:hover { color: var(--navy); text-decoration-color: currentColor; }
 .colophon.draft { color: var(--redo); }
 .nref { font-size: 12px; line-height: 0; vertical-align: super; margin-left: 1px; }
 .nref a { color: var(--rubric); text-decoration: none; }
+
+/* the sung version (Display: As a song): the song sounded in English, its refrain cued, its rhyme heard */
+.sung, .cue, .sungnote, .voice { display: none; }
+html[data-display="sung"] .has-sung .en { display: none; }
+html[data-display="sung"] .has-sung .heading { display: grid; }
+html[data-display="sung"] .has-sung .heading .en { display: block; }
+html[data-display="sung"] .sung { display: block; margin: 0; padding-left: 1.3em; text-indent: -1.3em; font-size: 21px; line-height: 1.6; }
+html[data-display="sung"] .cue { display: block; margin: 1px 0 0; padding-left: 2.6em; font-style: italic; font-size: 17px; color: var(--muted); }
+html[data-display="sung"] .sungnote { display: block; margin: 7px 0 4px 1.3em; font-size: 15.5px; line-height: 1.5; color: var(--muted); }
+html[data-display="sung"] .voice { display: block; margin-top: 14px; margin-bottom: 0; font-size: 16.5px; }
+.heard { margin: 0; font-style: italic; }
+.heard .rh { font-style: normal; color: var(--rubric); }
+.heard .sep { font-style: normal; color: var(--faint); }
+.sungnote details { margin-top: 2px; }
+.sungnote summary { display: inline; list-style: none; cursor: pointer; font-style: italic; color: var(--navy); }
+.sungnote summary::-webkit-details-marker { display: none; }
+.sungnote summary:hover { text-decoration: underline; }
+.sungnote details p { margin: 3px 0 0; }
 
 /* glossary terms: body colour, dotted navy underline */
 a.gl { color: inherit; text-decoration: underline dotted; text-decoration-color: var(--navy); text-decoration-thickness: 1.5px; text-underline-offset: 4px; cursor: pointer; }
@@ -270,7 +288,7 @@ abbr.att { font-variant-caps: all-small-caps; letter-spacing: .05em; color: var(
 @media (max-width: 1180px) {
   .passage { grid-template-columns: 3.2rem minmax(0, 38rem); }
   .sidenote, .sidenote + .sidenote { grid-column: 2; padding: 6px 0 4px 1.3em; font-size: 16px; }
-  .head, .summary, .song-comment, .orn, .end, .colophon, .after, .pager { margin-left: 3.2rem; }
+  .head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .pager { margin-left: 3.2rem; }
   html[data-display="bilingual"] .passage, html[data-display="study"] .passage { grid-template-columns: 3.2rem minmax(0, 1fr); }
 }
 @media (max-width: 900px) {
@@ -292,7 +310,7 @@ abbr.att { font-variant-caps: all-small-caps; letter-spacing: .05em; color: var(
   .runhead__name, .runhead__text { display: none; }
   .runhead__home { margin-right: auto; }
   .passage, html[data-comm="inline"] .passage { grid-template-columns: 2.6rem minmax(0, 1fr); }
-  .head, .summary, .song-comment, .orn, .end, .colophon, .after, .pager { margin-left: 0; }
+  .head, .summary, .voice, .song-comment, .orn, .end, .colophon, .after, .pager { margin-left: 0; }
   .orn { padding-left: 2.6rem; }
   .en { font-size: 19.5px; }
   .howto { grid-template-columns: minmax(0, 1fr); }

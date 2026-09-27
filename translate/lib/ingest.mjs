@@ -8,10 +8,12 @@ import fs from 'node:fs';
 import { paths, readJSON, writeJSON, exists, fail, today, config, rel } from './io.mjs';
 import { loadText, loadUnit } from './text.mjs';
 import { load, save, mergeProposal, mergeTibetan } from './glossary.mjs';
-import { TASKS, commentaryOnly } from './pack.mjs';
+import { TASKS, commentaryOnly, sungKey } from './pack.mjs';
 import * as markup from './markup.mjs';
+import { forbiddenHere } from './review/sung.mjs';
+import { scoped } from './glossary.mjs';
 
-export function validateAnswer(task, out, unit, glossary) {
+export function validateAnswer(task, out, unit, glossary, slug = '') {
   const probs = [];
   const known = new Set(glossary.entries.filter(e => e.status !== 'rejected').map(e => e.id));
   for (const p of out.proposals || []) known.add(p.id);
@@ -47,6 +49,31 @@ export function validateAnswer(task, out, unit, glossary) {
       checkMarkup(`${s.id} note`, s.note);
       if (s.note.split(/\s+/).filter(Boolean).length > 60) probs.push(`${s.id}: note is longer than 60 words`);
       for (const e of s.equations) if (e.term && !known.has(e.term)) probs.push(`${s.id}: equation names unknown term ${e.term}`);
+    }
+  }
+  if (task === 'sing') {
+    const want = unit.lines.filter(l => l.role === 'line').map(l => l.id);
+    const got = out.lines.map(l => l.id);
+    if (want.join() !== got.join()) probs.push(`line ids must be exactly [${want.join(', ')}] in order; got [${got.join(', ')}]`);
+    const inScope = scoped(glossary, slug);
+    for (const l of out.lines) {
+      if (!l.en.trim()) probs.push(`${l.id}: empty line`);
+      checkMarkup(l.id, l.en);
+      for (const f of forbiddenHere(inScope, unit, l)) probs.push(`${l.id}: "${f.word}" inside a sung line (${f.id} says: translate the image, put the reading in a note)`);
+    }
+    const groups = [...new Set(unit.lines.filter(l => l.role === 'line').map(l => l.group))];
+    const gotGroups = out.couplets.map(c => c.group);
+    if (groups.join() !== gotGroups.join()) probs.push(`couplets must be exactly [${groups.join(', ')}] in order; got [${gotGroups.join(', ')}]`);
+    for (const c of out.couplets) {
+      if (!c.kept.trim()) probs.push(`${c.group}: say what the couplet keeps`);
+      for (const [k, v] of [['kept', c.kept], ['letGo', c.letGo]]) if (v.split(/\s+/).filter(Boolean).length > 40) probs.push(`${c.group}: ${k} is longer than 40 words`);
+    }
+    const hasRefrain = unit.lines.some(l => l.refrain);
+    if (hasRefrain && !out.refrainCue.trim()) probs.push('the unit has a refrain: give its refrainCue');
+    if (!hasRefrain && out.refrainCue.trim()) probs.push('the unit has no refrain, so refrainCue must be ""');
+    const first = out.lines.find(l => unit.lines.find(u => u.id === l.id)?.refrain);
+    if (first && out.refrainCue.trim() && !markup.strip(first.en).startsWith(out.refrainCue.trim().replace(/[…\s.]+$/, ''))) {
+      probs.push(`refrainCue "${out.refrainCue}" must be the opening words of the refrain's first line ("${markup.strip(first.en)}")`);
     }
   }
   if (task === 'terms-bo') {
@@ -90,7 +117,7 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
     const pack = readJSON(P.pack(t, id) + '.json', null);
     if (!pack) fail(`${id}: no ${t} pack on file; run pack first`);
     if (pack.sourceSha !== unit.sourceSha) fail(`${id}: the source changed after this pack was built; rebuild the pack and redraft`);
-    const probs = validateAnswer(t, out, unit, g);
+    const probs = validateAnswer(t, out, unit, g, slug);
     if (probs.length) fail(`${id}: ${probs.length} problem(s) in the answer:\n  ` + probs.join('\n  '));
 
     const merged = (out.proposals || []).map(p => mergeProposal(g, p, { slug, by }));
@@ -103,6 +130,11 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
     if (t === 'draft' || t === 'redraft') { wrote = P.draft(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'weave') { wrote = P.weave(id); writeJSON(wrote, { ...out, provenance }); }
     if (t === 'terms') wrote = 'glossary';
+    if (t === 'sing') {
+      wrote = P.sung(id);
+      writeJSON(wrote, { ...out, provenance: { ...provenance, draftSha: pack.draftSha } });
+      delete feedback[sungKey(id)];
+    }
     if (t === 'terms-bo') {
       // The answer is kept: its notes and questions are for the reviewer, and it records who matched what.
       wrote = P.tibetanTerms(id);

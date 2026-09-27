@@ -28,8 +28,9 @@ translate/
   texts/<text>/source/<witness>.txt             working copy = raw text + @directive lines
   texts/<text>/units/                           segmented units with stable ids (generated, committed)
   texts/<text>/drafts/ commentary/              ingested drafts (with provenance)
-  texts/<text>/review/                          review sheets you edit
-  texts/<text>/approved/                        what you approved; the only thing render publishes
+  texts/<text>/sung/                            sung versions: the song sounded in English (with provenance)
+  texts/<text>/review/                          review sheets you edit (<unit>.md; <unit>.sung.md for the sung version)
+  texts/<text>/approved/                        what you approved; the only thing render publishes (<unit>.sung.json beside <unit>.json)
   texts/<text>/packs/ inbox/                    drafting packs and answers (gitignored)
   .private/  .cache/                            copyrighted references, 84000 data (gitignored, never in prompts)
 ../translations/                                generated pages (deployed); ../sitemap-translations.xml
@@ -83,6 +84,33 @@ node translate/cli.mjs render charyapada --preview      # drafts too, into trans
 **Redrafts:**
 - When you mark a section `redraft` and leave a "Note to next draft", `accept` saves those notes to `feedback.json`.
 - The next `draft` of that unit automatically becomes a redraft, carrying your notes and the previous draft.
+
+## The sung version (the song sounded in English)
+
+The accurate translation carries the meaning. The songs are songs, though: a rāga heading, couplets that rhyme, a refrain sung again after every couplet, a singer who names himself. The **sung version** is a second English beside the accurate one that carries those things. It has its own pack, review and approval, so it never changes or holds up the translation. The design and its sources are in [`SONG-PLAN.md`](SONG-PLAN.md).
+
+```sh
+node translate/cli.mjs sound charyapada 10              # how the source sounds: rhymes, refrain, self-naming, rāga
+node translate/cli.mjs sing charyapada 10               # the sing pack (needs the draft); a fresh subagent answers it
+node translate/cli.mjs ingest charyapada 10 --task sing
+node translate/cli.mjs review charyapada 10 --sung      # edit texts/charyapada/review/cp.10.sung.md
+node translate/cli.mjs accept charyapada 10 --sung      # -> approved/cp.10.sung.json, or notes for the next sing
+node translate/cli.mjs render charyapada --preview      # Display › As a song
+```
+
+- **What `ingest` enforces:**
+  - one sung line per half-line, in order, and every couplet's `kept` note;
+  - a refrain cue that is the opening of the sung refrain;
+  - no word a glossary entry forbids in a line;
+  - known glossary ids.
+- **What `check` adds:** the same rules on every sung line, a warning when the translation has been redrafted since the song was sung, and the 8-word overlap guard against `.private/`, which matters most for a version that sings.
+- **What the Reading Room shows under Display › As a song:**
+  - the sung lines in place of the accurate English;
+  - a cue to sing the refrain again after every couplet that follows it (the ধ্রু of the manuscript);
+  - under each couplet, the source as it is heard, with the sound it rhymes on marked, and a note on what the couplet keeps and lets go;
+  - one sentence in the colophon on who approved the sung version.
+- **Publishing:** a sung version is published only when approved, and only beside an approved song. Songs without one render exactly as before.
+- **Not yet:** the Studio has no sung view; review sung versions with the sheet.
 
 ## The Studio (review in claude.ai)
 

@@ -10,6 +10,12 @@
 
 So this is a real gap, and he clearly qualifies.
 
+**Where you write: the [Tokme Zangpo Workbench](https://claude.ai/artifact/KsZDnTByohax4zAbDC5avu)** (private to you).
+- One panel per section, with that section's source quotes and page numbers beside your writing box.
+- Cite buttons that insert properly formatted citations, and live checks.
+- An export that assembles your text into complete wikitext for `Draft:`.
+- Your work saves automatically. The page's source is `workbench.html` in this folder.
+
 **The files in this folder:**
 - **README.md** (this file): the plan, the rules, the checklists.
 - **[reading-guide.md](reading-guide.md)**: where every fact is, page by page, with the sources' own words and the known traps.

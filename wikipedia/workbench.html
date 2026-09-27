@@ -1,0 +1,996 @@
+<title>Tokme Zangpo Workbench</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+Tibetan:wght@400;600&family=Spectral:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#EDEFF3; --surface:#FFFFFF; --surface-2:#F5F6F9; --ink:#15203A; --muted:#586179; --line:#D6DAE3;
+  --accent:#1F4AA8; --accent-ink:#FFFFFF; --accent-soft:#E3EAF8; --gold:#8C6100;
+  --good:#1D7A4C; --good-soft:#E1F2E8; --warn:#9A5800; --warn-soft:#FBEEDB; --bad:#B42318; --bad-soft:#FBE4E1;
+  --shadow:0 1px 2px rgba(21,32,58,.06),0 4px 16px rgba(21,32,58,.06);
+  --display:"Spectral",Georgia,"Times New Roman",serif; --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace; --tib:"Noto Serif Tibetan","Microsoft Himalaya","Kailasa",serif;
+  --radius:8px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --bg:#0D1330; --surface:#141B3C; --surface-2:#1A2249; --ink:#EEE7D2; --muted:#A9B0CC; --line:#2A3466;
+  --accent:#E3BC52; --accent-ink:#1A1405; --accent-soft:#2C2A3A; --gold:#E3BC52;
+  --good:#63CC93; --good-soft:#15352B; --warn:#F0AA4E; --warn-soft:#3A2B17; --bad:#FF8176; --bad-soft:#3E1D22;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0D1330; --surface:#141B3C; --surface-2:#1A2249; --ink:#EEE7D2; --muted:#A9B0CC; --line:#2A3466;
+  --accent:#E3BC52; --accent-ink:#1A1405; --accent-soft:#2C2A3A; --gold:#E3BC52;
+  --good:#63CC93; --good-soft:#15352B; --warn:#F0AA4E; --warn-soft:#3A2B17; --bad:#FF8176; --bad-soft:#3E1D22;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;padding-inline:16px;padding-block:0 48px}
+a{color:var(--accent)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1320px;margin:0 auto}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:14px 10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;justify-content:space-between}
+.brand{display:flex;flex-direction:column;gap:0}
+.brand h1{font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2;margin:0;text-wrap:balance}
+.brand .tib{font-family:var(--tib);font-size:17px;color:var(--gold);line-height:1.6}
+.meters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:13px;color:var(--muted)}
+.meter{display:flex;flex-direction:column;gap:3px;min-width:130px}
+.meter b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);width:0}
+.bar.done i{background:var(--good)}
+.save{font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);background:var(--surface);white-space:nowrap}
+.save.ok{color:var(--good);border-color:var(--good)} .save.busy{color:var(--muted)} .save.local{color:var(--warn);border-color:var(--warn)} .save.err{color:var(--bad);border-color:var(--bad)}
+.rule{margin:12px 0 0;font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.rule strong{color:var(--ink)}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:24px;margin-top:18px}
+nav.rail{position:sticky;top:120px;align-self:start;display:flex;flex-direction:column;gap:14px}
+.navgroup h2{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:600}
+.navgroup ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px}
+.navbtn{width:100%;text-align:left;background:none;border:0;border-radius:6px;padding:6px 8px;display:flex;align-items:center;gap:8px;cursor:pointer;font-size:14px;color:var(--ink)}
+.navbtn:hover{background:var(--surface-2)}
+.navbtn[aria-current="true"]{background:var(--surface);box-shadow:var(--shadow);font-weight:600}
+.navbtn.sub{padding-left:22px;font-size:13.5px}
+.dot{width:9px;height:9px;border-radius:50%;flex:none;border:1.5px solid var(--muted);background:transparent}
+.dot.drafting{border-color:var(--warn);background:var(--warn-soft)}
+.dot.ready{border-color:var(--good);background:var(--good)}
+.dot.skip{border-style:dashed}
+.mobile-nav{display:none}
+main{min-width:0}
+.panelhead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-end;justify-content:space-between;margin-bottom:14px}
+.panelhead h2{font-family:var(--display);font-weight:600;font-size:26px;margin:0;line-height:1.2;text-wrap:balance}
+.panelhead .kicker{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13px}
+.controls label{display:flex;gap:6px;align-items:center}
+select,input[type=text],input[type=search]{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:5px 8px;font-size:13.5px;max-width:100%}
+.grid2{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;align-items:start}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.notes{display:flex;flex-direction:column;gap:14px;max-height:calc(100vh - 170px);overflow:auto;position:sticky;top:130px}
+.notes h3,.card h3{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+.cover{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:14px}
+.quote{border-left:3px solid var(--line);padding:2px 0 2px 10px;display:flex;flex-direction:column;gap:3px}
+.quote .src{font-size:12px;color:var(--muted);display:flex;gap:6px;flex-wrap:wrap;align-items:baseline}
+.quote .src b{color:var(--ink);font-weight:600}
+.quote .src .pdf{font-family:var(--mono);font-size:11px}
+.quote q{font-size:14px;quotes:"“" "”"}
+.quote .gist{font-size:14px}
+.quotes{display:flex;flex-direction:column;gap:10px}
+.traps{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction:column;gap:4px}
+.traps li::marker{color:var(--warn)}
+.editor{display:flex;flex-direction:column;gap:12px}
+.toolbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px;border:1px solid var(--line);border-bottom:0;border-radius:var(--radius) var(--radius) 0 0;background:var(--surface-2)}
+.toolbar .sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 10px;font-size:13px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+.btn:disabled{opacity:.55;cursor:not-allowed}
+.btn.small{padding:3px 8px;font-size:12px}
+textarea.wt{width:100%;min-height:380px;resize:vertical;font-family:var(--mono);font-size:13.5px;line-height:1.6;padding:12px;border:1px solid var(--line);border-radius:0 0 var(--radius) var(--radius);background:var(--surface);color:var(--ink)}
+textarea.wt::placeholder{color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:12px;padding:2px 9px;border-radius:999px;background:var(--surface-2);border:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill.good{background:var(--good-soft);color:var(--good);border-color:transparent}
+.pill.warn{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.pill.bad{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.flags{display:flex;flex-direction:column;gap:6px;font-size:13.5px}
+.flag{display:flex;gap:8px;align-items:baseline}
+.flag .k{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border-radius:4px;flex:none}
+.flag .k.warn{background:var(--warn-soft);color:var(--warn)} .flag .k.bad{background:var(--bad-soft);color:var(--bad)}
+.checks{display:flex;flex-direction:column;gap:10px}
+.checks .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.small{font-size:12.5px;color:var(--muted)}
+.results{display:flex;flex-direction:column;gap:6px;font-size:13.5px}
+.result{display:flex;gap:8px;align-items:baseline;padding:6px 8px;border-radius:6px;background:var(--surface-2)}
+.result code{font-family:var(--mono);font-size:12.5px}
+.muted{color:var(--muted)}
+details.fold summary{cursor:pointer;font-weight:600}
+.list{display:flex;flex-direction:column;gap:8px}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+.check input{margin-top:4px}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-size:13px;font-weight:600}
+.field input{width:100%}
+.field .hint{font-size:12px;color:var(--muted)}
+.srcrow{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}
+.srcrow:first-child{border-top:0}
+.srcrow .meta{font-size:12.5px;color:var(--muted)}
+.srcrow code{font-family:var(--mono);font-size:12px;background:var(--surface-2);padding:1px 5px;border-radius:4px}
+pre.out{font-family:var(--mono);font-size:12.5px;line-height:1.55;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:12px;white-space:pre-wrap;word-break:break-word;max-height:520px;overflow:auto;margin:0}
+.stack{display:flex;flex-direction:column;gap:16px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.notice{font-size:13.5px;padding:10px 12px;border-radius:6px;background:var(--accent-soft)}
+.warnbox{background:var(--warn-soft);color:var(--ink)}
+kbd{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 4px}
+@media (max-width:980px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  nav.rail{display:none}
+  .mobile-nav{display:block;margin-bottom:12px}
+  .mobile-nav select{width:100%;font-size:15px;padding:8px}
+  .grid2{grid-template-columns:minmax(0,1fr)}
+  .notes{position:static;max-height:none}
+  .fields,.two{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Tokme Zangpo Workbench</h1>
+      <span class="tib" lang="bo">རྒྱལ་སྲས་ཐོགས་མེད་བཟང་པོ</span>
+    </div>
+    <div class="meters" aria-label="Progress">
+      <div class="meter"><span>Prose for Did You Know: <b id="m-chars">0</b> / 1,500 chars</span><div class="bar" id="m-chars-bar"><i></i></div></div>
+      <div class="meter"><span>Words written: <b id="m-words">0</b> (aim 1,500–3,000)</span><div class="bar" id="m-words-bar"><i></i></div></div>
+      <div class="meter"><span>Sections ready: <b id="m-ready">0</b></span><div class="bar" id="m-ready-bar"><i></i></div></div>
+      <span class="save busy" id="save">Connecting…</span>
+    </div>
+  </header>
+  <p class="rule"><strong>You write every sentence.</strong> <span>This workbench supplies the source notes, citation formatting and checks. Wikipedia's <a href="https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models" target="_blank" rel="noopener">WP:NEWLLM</a> bans AI-written article text, so none of the text here is written for you.</span></p>
+
+  <div class="layout">
+    <nav class="rail" id="rail" aria-label="Sections"></nav>
+    <main>
+      <div class="mobile-nav"><label class="small" for="mnav">Go to</label><select id="mnav"></select></div>
+      <div id="view"></div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+/* ---------- Sources (verified 26 Sep 2026) ---------- */
+const SRC = {
+  chien:{label:"Chien 2015", sfn:"Chien|2015", pdfOffset:5, url:"https://libraetd.lib.virginia.edu/public_view/xk81jk64w",
+    full:"{{cite thesis |last=Chien |first=Gloria I-Ling |date=2015 |title=The Life and Collected Works of Tibetan Lojong Master Tokmé Zangpo (1295–1369) |degree=PhD |publisher=University of Virginia |doi=10.18130/V37G56 |doi-access=free |url=https://libraetd.lib.virginia.edu/public_view/xk81jk64w}}",
+    note:"PhD dissertation, University of Virginia. Free PDF. Page numbers are the printed ones (PDF page = printed + 5)."},
+  roerich:{label:"Blue Annals (Roerich)", sfn:"Roerich|1976", url:"https://archive.org/details/in.ernet.dli.2015.283021",
+    full:"{{cite book |author=Gö Lotsāwa Zhönnu Pal |author-link=Gö Lotsawa Zhönnu-pel |date=1976 |orig-date=1949–1953 |title=The Blue Annals |translator-last=Roerich |translator-first=George N. |translator-link=George de Roerich |location=Delhi |publisher=Motilal Banarsidass |url=https://archive.org/details/in.ernet.dli.2015.283021 |ref={{sfnref|Roerich|1976}}}}",
+    note:"Check the reprint year on the scan's title-page verso (usually cited as 1976)."},
+  dkr:{label:"Heart of Compassion", sfn:"Dilgo Khyentse|2007",
+    full:"{{cite book |author=Dilgo Khyentse |author-link=Dilgo Khyentse |date=2007 |title=The Heart of Compassion: The Thirty-seven Verses on the Practice of a Bodhisattva |translator=Padmakara Translation Group |location=Boston |publisher=Shambhala |isbn=978-1-59030-457-0}}",
+    note:"Confirm page numbers in a physical copy or the Google Books preview. The biography excerpt is on pp. 9–26 (per Chien)."},
+  garfield:{label:"Garfield 1996", sfn:"Garfield|1996", url:"http://blogs.dickinson.edu/buddhistethics/files/2010/04/garf1.pdf",
+    full:"{{cite journal |last=Garfield |first=Jay L. |author-link=Jay L. Garfield |date=1996 |title=Review of ''Commentary on the Thirty Seven Practices of a Bodhisattva'' by the Dalai Lama |journal=Journal of Buddhist Ethics |volume=3 |pages=165–167 |issn=1076-9005 |url=http://blogs.dickinson.edu/buddhistethics/files/2010/04/garf1.pdf}}",
+    note:"Peer-reviewed review; everything useful is on p. 166."},
+  bdrc:{label:"BDRC P1830", sfn:"BDRC|n.d.", url:"https://library.bdrc.io/show/bdr:P1830",
+    full:"{{cite web |author=Buddhist Digital Resource Center |title=rgyal sras thogs med bzang po dpal |id=P1830 |url=https://library.bdrc.io/show/bdr:P1830 |access-date={ACCESS} |ref={{sfnref|BDRC|n.d.}}}}",
+    note:"Database record: seat at Tara, students, name forms."},
+  pearcey:{label:"Pearcey translation", sfn:"Pearcey|2006", url:"https://www.lotsawahouse.org/tibetan-masters/gyalse-thogme-zangpo/37-practices-all-bodhisattvas",
+    full:"{{cite web |author=Tokme Zangpo |translator-last=Pearcey |translator-first=Adam |date=2006 |title=The Thirty-Seven Practices of All the Bodhisattvas |website=Lotsawa House |url=https://www.lotsawahouse.org/tibetan-masters/gyalse-thogme-zangpo/37-practices-all-bodhisattvas |access-date={ACCESS} |ref={{sfnref|Pearcey|2006}}}}",
+    note:"Primary source: use only for plain description (structure, colophon). CC BY-NC, so quote no more than a line."},
+  chokyi:{label:"Chökyi Dragpa 2004", sfn:"Chökyi Dragpa|2004",
+    full:"{{cite book |author=Chökyi Dragpa |date=2004 |title=Uniting Wisdom and Compassion: Illuminating the Thirty-Seven Practices of a Bodhisattva |translator=Heidi I. Köppl |location=Boston |publisher=Wisdom Publications |isbn=0-86171-377-X}}",
+    note:"Minyak Kunzang Sönam's 19th-century commentary in English."},
+  lotc:{label:"Bodhisattva Ideal 2026", sfn:"Jinpa|Stenzel|2026",
+    full:"{{cite book |translator1=Thupten Jinpa |translator2=Julia Stenzel |date=2026 |title=The Bodhisattva Ideal: Selected Key Texts |series=The Library of Tibetan Classics |volume=11 |publisher=Wisdom Publications |isbn=978-0-86171-450-6 |ref={{sfnref|Jinpa|Stenzel|2026}}}}",
+    note:"Contains his Bodhicaryāvatāra commentary in English. Check the translator credit and pages in the book itself."},
+  rubin:{label:"Rubin Museum", sfn:"Rubin Museum|n.d.", url:"https://rubinmuseum.org/collection/c2002-4-1/",
+    full:"{{cite web |author=Rubin Museum of Himalayan Art |title=Gyelse Tokme Zangpo (1295–1369) and scenes from his life |id=C2002.4.1 |url=https://rubinmuseum.org/collection/c2002-4-1/ |access-date={ACCESS} |ref={{sfnref|Rubin Museum|n.d.}}}}",
+    note:"Use only for facts about the painting (the page carries no biography)."},
+  chien2016:{label:"Chien 2016", sfn:"Chien|2016",
+    full:"{{cite journal |last=Chien |first=Gloria I-Ling |date=2016 |title=Examining the Blo sbyong Component in Thogs med bzang po's Collected Works |journal=Revue d'Etudes Tibétaines |issue=37 |pages=48–68}}",
+    note:"Peer-reviewed article from the dissertation (PDF on Academia.edu)."},
+  chien2020:{label:"Chien 2020", sfn:"Chien|2020",
+    full:"{{cite journal |last=Chien |first=Gloria I-Ling |date=2020 |title=Building the Sanctity of a Tibetan Buddhist Lojong Master through His Hagiography |journal=International Journal of Buddhist Thought and Culture |volume=30 |issue=1 |pages=167–204 |doi=10.16893/IJBTC.2020.06.30.1.167}}",
+    note:"Peer-reviewed article on the earliest biography."},
+  mcleod:{label:"McLeod 2014", sfn:"McLeod|2014",
+    full:"{{cite book |last=McLeod |first=Ken |author-link=Ken McLeod |date=2014 |title=Reflections on Silver River: Tokme Zongpo's Thirty-Seven Practices of a Bodhisattva |publisher=Unfettered Mind Media |isbn=978-0-9895153-1-3}}",
+    note:"Self-published: cite only for its own title or spelling, never for facts."}
+};
+const FURTHER = {
+  dalai:{label:"Dalai Lama 1995", full:"{{cite book |author=Tenzin Gyatso |author-link=14th Dalai Lama |date=1995 |title=Commentary on the Thirty Seven Practices of a Bodhisattva |translator=Acharya Nyima Tsering |location=Dharamsala |publisher=Library of Tibetan Works and Archives |isbn=81-85102-97-X}}"},
+  sonam:{label:"Sonam Rinchen 1997", full:"{{cite book |author=Sonam Rinchen |author-link=Sonam Rinchen |date=1997 |title=The Thirty-Seven Practices of Bodhisattvas: An Oral Teaching |translator=Ruth Sonam |location=Ithaca, NY |publisher=Snow Lion Publications |isbn=1-55939-068-9}}"},
+  tegchok:{label:"Jampa Tegchok 2005", full:"{{cite book |author=Jampa Tegchok |editor=Thubten Chodron |editor-link=Thubten Chodron |date=2005 |title=Transforming Adversity into Joy and Courage: An Explanation of the Thirty-Seven Practices of Bodhisattvas |location=Ithaca, NY |publisher=Snow Lion Publications |isbn=1-55939-232-0}}"},
+  karmapa:{label:"17th Karmapa 2009", full:"{{cite book |author=Ogyen Trinley Dorje |author-link=Ogyen Trinley Dorje |date=2009 |title=Traveling the Path of Compassion: A Commentary on the Thirty-Seven Practices of a Bodhisattva |publisher=KTD Publications |isbn=978-1-934608-06-7}}"},
+  norbu:{label:"Ngawang Tenzin Norbu 2020", full:"{{cite book |author=Ngawang Tenzin Norbu |date=2020 |title=A Guide to the Thirty-Seven Practices of a Bodhisattva |translator=Christopher Stagg |location=Boulder |publisher=Snow Lion |isbn=978-1-55939-491-8}}"},
+  palmo:{label:"Tenzin Palmo 2022", full:"{{cite book |author=Tenzin Palmo |date=2022 |title=The Heroic Heart |publisher=Shambhala |isbn=978-1-64547-055-7}}"},
+  wangchuk:{label:"Tsering Wangchuk 2017", full:"{{cite book |last=Wangchuk |first=Tsering |date=2017 |title=The Uttaratantra in the Land of Snows: Tibetan Thinkers Debate the Centrality of the Buddha-Nature Treatise |location=Albany |publisher=State University of New York Press |isbn=978-1-4384-6465-7}}"},
+  chien2016:{label:"Chien 2016", full:SRC.chien2016.full},
+  chien2020:{label:"Chien 2020", full:SRC.chien2020.full}
+};
+const LINKS = {
+  lotsawa:{label:"Lotsawa House translations", line:"* [https://www.lotsawahouse.org/tibetan-masters/gyalse-thogme-zangpo/ Translations of works by Gyalse Thogme Zangpo] at Lotsawa House"},
+  tol:{label:"The Treasury of Lives", line:"* [https://treasuryoflives.org/biographies/view/Gyelse-Tokme-Zangpo/3153 Gyelse Tokme Zangpo] at [[The Treasury of Lives]]"},
+  bdrc:{label:"BDRC person record", line:"* [https://library.bdrc.io/show/bdr:P1830 Tokmé Zangpo] at the Buddhist Digital Resource Center"}
+};
+const CATS = ["1295 births","1369 deaths","14th-century Tibetan people","14th-century lamas","14th-century Buddhist monks","Sakya lamas","Tibetan Buddhism writers","Tibetan Buddhist spiritual teachers","Tibetan Buddhist monks","Tibetan Buddhists from Tibet","People from Shigatse","Kadampa lamas"];
+const CAT_DEFAULT_OFF = {"Kadampa lamas":true};
+const WIKILINKS = [
+  ["Sakya Monastery"],["Sakya"],["Ü-Tsang"],["Shigatse"],["Xaitongmoin County"],["Kadam (Tibetan Buddhism)","Kadam"],["Lojong","lojong"],
+  ["Bodhisattva","bodhisattva"],["Bodhicitta","bodhicitta"],["Bodhisattvacaryāvatāra","Bodhicaryāvatāra"],["Shantideva","Śāntideva"],
+  ["Mahayana-sutra-alamkara-karika","Mahāyānasūtrālaṃkāra"],["Ratnagotravibhāga"],["Abhidharma-samuccaya","Abhidharmasamuccaya"],
+  ["Abhidharmakośa-bhāsya","Abhidharmakośa"],["Asanga","Asaṅga"],["Vasubandhu"],["Maitreya"],["Atiśa"],["Chekawa Yeshe Dorje","Chekawa"],
+  ["Langri Tangpa"],["Mahamudra","Mahāmudrā"],["Six Dharmas of Naropa","Six Yogas of Nāropa"],["Kagyu"],["Gelug"],["Lamrim"],
+  ["Buton Rinchen Drub","Butön Rinchen Drub"],["Tai Situ Changchub Gyaltsen"],["Lama Dampa Sonam Gyaltsen","Lama Dampa Sönam Gyaltsen"],
+  ["Jamyang Donyo Gyaltsen","Jamyang Dönyö Gyaltsen"],["Drogön Chögyal Phagpa","Chögyal Phagpa"],["Phagmodrupa dynasty","Phagmodru"],
+  ["Shalu Monastery","Shalu"],["Samye"],["Jokhang"],["Lhasa"],["Blue Annals"],["Avalokiteśvara"],["Namtar (biography)","namtar"],
+  ["Tulku","tulku"],["5th Dalai Lama","Fifth Dalai Lama"],["14th Dalai Lama"],["Ogyen Trinley Dorje","17th Karmapa"],["Dilgo Khyentse"],
+  ["Patrul Rinpoche"],["Matthieu Ricard"],["Jay L. Garfield"],["Derge Parkhang","Degé printing house"],["Labrang Monastery","Labrang"],
+  ["Drepung Monastery","Drepung"],["Thimphu"],["Lanzhou"],["Bodh Gaya"],["Pāramitā","six perfections"],["Prajnaparamita","Prajñāpāramitā"],
+  ["Pramana","epistemology"],["Rubin Museum of Himalayan Art","Rubin Museum"],["Buddhist Digital Resource Center"],["Tibetan Buddhism"]
+];
+
+/* ---------- Sections: what to cover, verified source notes, traps ---------- */
+function Q(src,p,q,gist){return {src:src,p:p,q:q||"",gist:gist||""};}
+const SECTIONS = [
+ {id:"lead", nav:"Lead", heading:"", level:0, group:"Write",
+  cover:["Write this last, once the body is done.","2–3 short paragraphs that summarise the body: who he was, his dates and region, what he is known for (the Thirty-Seven Practices), and one or two key facts about his life and works.","First sentence (MOS:FIRSTBIO): bold name, the Tibetan name template, (1295–1369), then “was a …”. The toolbar has a button for the Tibetan name template.","Nothing in the lead that isn't in the body. Citations are optional where the body already cites the fact (MOS:LEADCITE)."],
+  notes:[Q("chien","1","This dissertation is about the biographies and Collected Works of this fourteenth-century Tibetan scholar Tokmé Zangpo (Thogs med bzang po, 1295-1369)"),
+    Q("chien","1","“Thirty-Seven Practices of Bodhisattvas” (Rgyal sras lag len so bdun ma) is preached to the public in Asia and America and has been translated into various languages."),
+    Q("chien","2","Famous masters such as Dilgo Khyentse Rinpoche … Geshe Jampa Tegchok … the Fourteenth Dalai Lama … and the Seventeenth Kamapa … preached this text to the public."),
+    Q("dkr","1","it is considered to be a distillation of another seminal Mahayana work, Shantideva's great masterpiece The Way of the Bodhisattva (Bodhicharyavatara), and has been the subject of many teachings and commentaries by the great masters of all traditions of Tibetan Buddhism.","Translators' introduction (first page; confirm the page number)")],
+  traps:["No “very important”, “renowned” or “great master”. Show importance through facts and named sources.","Write “the 14th Dalai Lama”, not “His Holiness”."]},
+ {id:"names", nav:"Names", heading:"Names", level:2, group:"Write",
+  cover:["His birth name and his novice name","How he got the name “Tokme” (the Tibetan name of Asaṅga): two versions","Why he is called “Gyalse”","Why “Ngulchu”","How he signs his colophons","Put variant spellings in a footnote with the Note button, not in the first sentence"],
+  notes:[Q("chien","55","Tokmé Zangpo was named by his parents as Könchok Zangpo (Dkon mchog bzang po)."),
+    Q("chien","60","","Novice vows in 1308; his new name was Zangpo Pel (bzang po dpal), replacing Könchok Zangpo."),
+    Q("chien","65–66","Even though [Master Tokmé] said that “I am not a new Tokmé,” he was renowned and called as Tokmé from then on.","He got the name at Bodong É at about age 20, after answering an Abhidharmakośa question in debate."),
+    Q("dkr","9–26","His teachers declared him to be a second Asanga … He was only nineteen.","Palden Yeshe's version"),
+    Q("chien","72–73","This explains why Tokmé Zangpo is alternatively called Gyelsé Tokmé.","After the lice episode he was “renowned everywhere with the honorific term ‘Great Bodhisattva’” (rgyal sras chen po)."),
+    Q("chien","70 n. 136","In most of his writings, Tokmé Zangpo specified that he wrote at Ngülchü Chödzong. Thus people alternatively call him Ngülchu Tokmé even nowadays."),
+    Q("pearcey","","This was composed in Jewel Cave (Rinchen Puk) in Ngulchu by the monk Tokme, a teacher of scripture and reasoning, for his own and others' benefit.","Colophon"),
+    Q("chien","195","","Palden Yeshe says the teaching passed “to Gyelsé Tokmé, who became well-known as the second Avalokiteśvara.”"),
+    Q("","","","Spellings printed in your sources: “Gyalse Ngulchu Thogme” (Heart of Compassion), “Ngulchu Gyalsas Togmed Zangpo” (Garfield p. 166), “Tokme Zongpo” (McLeod's title), “rGyal-sras Thogs-med-pa” (Roerich), “Tokmé Zangpo” (Chien).")],
+  traps:["“Ngulchu = Silver River” has no reliable source. Call it a place name.","Don't link a bare “Thogme”: thogs med is also Asaṅga's name."]},
+ {id:"sources", nav:"Sources for his life", heading:"Sources for his life", level:3, parent:"Life", group:"Write",
+  cover:["The three earliest biographies, all by people who knew him","Chien's argument about which is earliest (possibly 1374)","The later accounts (15th and 18th century)","Genre: namtar mixes biography and hagiography. This paragraph lets you attribute the stories later on."],
+  notes:[Q("chien","12","","The three: Guide to Your Devotion (Zhönnu Gyeltsen Pelzangpo), The Ray of Altruism (Pelgyi Rinchen), Drops of Ambrosia (Penden Yéshé). Guide “could be the earliest extant version”."),
+    Q("chien","18","the Year of the Tiger mentioned in the colophon could be as early as the Year of the Wood Tiger, 1374."),
+    Q("chien","49","","Later lives by Künga Gyeltsen (1432–1506), in a Kadam history, and Yéshé Gyeltsen (1713–1793), in the Lamrim lineage biographies (nn. 91–92)."),
+    Q("chien","3","This literary genre contains both the biography and hagiography of a subject."),
+    Q("chien","55","Unpainful pregnancy and marvelous signs at birth are common motifs in a Tibetan saint's biography."),
+    Q("chien","57","I, by myself, cannot remember those kinds of well-known things at that time."),
+    Q("dkr","1","Substantial excerpts of an inspiring biography of Ngulchu Thogme, by his disciple Palden Yeshe, have also been included","The translator is Matthieu Ricard")],
+  traps:["Write “According to …” or “His biographer relates …”, never plain fact, for miracles."]},
+ {id:"early", nav:"Early life and education", heading:"Early life and education", level:3, parent:"Life", group:"Write",
+  cover:["Birth: year and place (two place names in the sources)","Parents and family background","Orphaned, raised by his grandmother, then his uncle","Novice vows at 14 (1308)","Where and what he studied, and the teachers named","Recognised at Sakya at 27; studies complete by 32","Full ordination around 1325 (the sources give different ages; use a footnote)"],
+  notes:[Q("chien","55","When Tokmé Zangpo was born in the Year of the Wood Female Sheep …"),
+    Q("chien","54","","Birthplace “Drakya (brag skya) near the Sakya monastery”. Father Könchok Pel, mother Bumdrön. Ancestors “well-off local officials”; his grandfather's uncle was “a close attendant of Chögyel Pakpa”."),
+    Q("dkr","9–26","born in Phuljung, a few miles to the southwest of Sakya Monastery, in Tsang"),
+    Q("chien","58","","Mother died when he was 3, father when he was 5; his grandmother cared for him until 9, then his uncle Rinchen Trashi until he became a novice at 14."),
+    Q("chien","60","","Novice vows 1308 from Rinchen Pembarba (rin chen dpal 'bar ba) of Samling monastery."),
+    Q("chien","65","","He studied the Compendium of Abhidharma “with five masters and finished his studies within five years”, plus Prajñāpāramitā and “Kadam” teachings, with summer debating trips to Shalu."),
+    Q("chien","67","","“around thirty names of masters”: Abhidharma, epistemology, Vasubandhu and Asaṅga, rituals for the awakening mind, tantric empowerments. Mahāmudrā and the Six Yogas at Ngulchu, “even though he was not much affiliated with the Kagyü school”. Guru yoga from Jamyang Dönyö Gyaltsen (Sakya throne holder 1342–44); Seven-Point Mind Training from Sönam Drakpa (1273–1345)."),
+    Q("chien","68","Tokmé Zangpo completed all his studies by age thirty-two.","Also: the Eight Verses from Lozangpa; the Bodhicaryāvatāra “on two separate occasions”; recognised as a spiritual guide at Sakya at 27."),
+    Q("chien","86","","received full ordination at Bodong É Monastery … in 1325"),
+    Q("dkr","9–26","At the age of twenty-nine, he took the full monastic vows at the Monastery of É.")],
+  traps:["Chien's p. 68 says 30, Palden Yeshe says 29. Put the difference in a footnote (Tibetan age counting)."]},
+ {id:"tara", nav:"Tara and Bodong É", heading:"Tara monastery and Bodong É", level:3, parent:"Life", group:"Write",
+  cover:["Instructor at Bodong É and head of the Tara monastery, both at age 32 (around 1326)","Seven years per BDRC, or until age 41 per Palden Yeshe","The monastery's location is unknown","1333: offered the abbacy of Bodong É, declined, and put forward Pang Lotsāwa","Bodong É monks still told the story in 2013","The conflicting “abbot of Bodong É” claim goes in a footnote"],
+  notes:[Q("chien","68–69","The same year, he became the manager (den sa pa) at the Tara (Rta ra) monastery by the requests of monks there.","He accepted only after they promised little administrative work."),
+    Q("bdrc","","1326-1333. seven year stint as abbot of rta ra."),
+    Q("dkr","9–26","When Gyalse Thogme was thirty-two, he accepted the position of abbot at the Monastery of Tara, and remained there until he was forty-one."),
+    Q("chien","69 n. 132","For the location of the Tara monastery, I did not find it during my trip in Tibet."),
+    Q("chien","69","At age thirty-nine in 1333, when Tokmé Zangpo was teaching in Ngülchu in the fall, Jampéyang Dönyö Gyeltsen asked him to be the abbot of Bodong É Monastery. Instead of accepting this invitation, Tokmé Zangpo requested that his teacher Pang Lotsāwa Lodrö Tenpa … take this position."),
+    Q("dkr","9–26","","He “declined … He recommended the famous Khenpo Wanglo”."),
+    Q("chien","69–70","","In 2013 monk Lodrö Gyatso told Chien that Tokmé could have been abbot but let Pang Lotsāwa have the position.")],
+  traps:["Don't equate “Khenpo Wanglo” with Pang Lotsāwa unless a source does.","The Treasury of Lives reportedly says “abbot of Bodong É, 1326–1335”. Read it in your browser, then give it neutrally in a footnote.","Don't call other sources “wrong” in Wikipedia's voice."]},
+ {id:"ngulchu", nav:"Retreat and later life", heading:"Retreat at Ngulchu and later life", level:3, parent:"Life", group:"Write",
+  cover:["Where Ngulchu Chödzong is","Retreat from 1337, about 20 years","A visit to Pang Lotsāwa before Pang died in 1342","1361 journey to Samye and the Jokhang; back in 1363","Figures who invited him to teach","Phagmodru students (Blue Annals)"],
+  notes:[Q("chien","67 n. 124","Ngülchü Chödzong is marked on Map 2, 40 miles northeast of Bodong É Monastery."),
+    Q("chien","70","Tokmé Zangpo started his retreat in Ngülchü Chödzong after 1337 and rarely met with other people. … This retreat seemed to last around twenty years."),
+    Q("chien","70","","Travelled to Samye, the Jokhang and other places in Ü-Tsang “at age sixty-seven in 1361”; returned to Ngülchü Chödzong in 1363, the year of the rabbit."),
+    Q("chien","71","","Figures who invited him: Butön (abbot of Shalu); Tai Situ Changchub Gyaltsen (“ruled Central Tibet after 1354”); Lama Dampa Sönam Gyaltsen (“fourteenth throne holder of the Sakya school”); Tai Situ Gelek Zangpo (secular throne holder of the Tselpa Kagyü). These aren't tied to his retreat years."),
+    Q("roerich","585","He heard many doctrines from rGyal-sras Thogs-med-pa","A Phagmodru hierarch; p. 584 names another")],
+  traps:["Butön as his teacher or student: the sources disagree. Say only that Butön invited him."]},
+ {id:"death", nav:"Death", heading:"Death", level:3, parent:"Life", group:"Write",
+  cover:["Year and place","The traditional account of his death (attributed)","No line of reincarnations"],
+  notes:[Q("roerich","310","In the next Earth-Female-Hen year (sa-mo-bya — 1369 A.D.) rGyal-sras Thogs-med-pa died.","The archive.org OCR garbles the year; the index confirms p. 310"),
+    Q("chien","202","Even though Tokmé Zangpo passed away in 1369 at remote Ngülchü Chödzong …"),
+    Q("dkr","9–26","From that morning until the next evening he remained seated in the lotus posture … he departed into bliss.","Cremation nine days later; his disciples placed his relics “in precious reliquaries and statues”."),
+    Q("chien","203","While Tokmé Zangpo does not have a reincarnation …")],
+  traps:["Signs at his death (rainbows, earth tremors) only as the biography's account, if at all."]},
+ {id:"compassion", nav:"Reputation for compassion", heading:"Reputation for compassion", level:2, group:"Write",
+  cover:["Attribute every story to its biography","Examples of his generosity","The lice story, with his words","Chien's comparison with Asaṅga's story","The robbers (Palden Yeshe)"],
+  notes:[Q("chien","58","","Guide “narrates Tokmé Zangpo's generosity to beggars, a crippled woman, dogs, bandits, etc.”"),
+    Q("chien","71–72","From beginningless time, many bodies again and again [in the cyclic existence] were meaningless. Now even though [I] die, it is meaningful.","He took a beggar home, gave him food and “a new fur cloak”, took on the lice-ridden clothes and fell ill; the lice died after “around seventeen days”."),
+    Q("chien","72–73","","The story mirrors Butön's account of Asaṅga cutting his own flesh for the worms on a dog."),
+    Q("dkr","9–26","","Attacked by robbers on his way back from teachings with “the Dharma Lord Sönam Gyaltsen” at Sakya, he dedicated prayers to them.")],
+  traps:["No miracles in Wikipedia's own voice.","Don't make it a list of anecdotes: two or three well-chosen, attributed examples."]},
+ {id:"collected", nav:"Collected works", heading:"Collected works", level:3, parent:"Works", group:"Write",
+  cover:["The four surviving editions","113 texts, plus a 114th in two editions","The editors' role (Palden Yeshe, the Fifth Dalai Lama)"],
+  notes:[Q("chien","80–81","","Four editions: 1975 Bhutan (Thimphu) xylograph; a Drepung manuscript (“as early as the seventeenth century”); the 18th-century Degé xylograph; the 2011 Labrang typeset edition (Lanzhou)."),
+    Q("chien","81","","All have the “113 Texts”; Degé and Labrang add a 114th, Great Hearing Transmission of Mind Training (blo sbyong snyan brgyud chen mo)."),
+    Q("chien","194","","In text 114, section one was written by Penden Yéshé and section two by Tokmé Zangpo."),
+    Q("chien","203","Through editing or arranging Tokmé Zangpo's writings, Penden Yéshé and the Fifth Dalai Lama associated themselves with Tokmé Zangpo's Lojong transmission.")],
+  traps:["Don't list all 113 titles. Summarise."]},
+ {id:"commentaries", nav:"Commentaries", heading:"Commentaries", level:3, parent:"Works", group:"Write",
+  cover:["On the Bodhicaryāvatāra (and the 2026 English translation)","On the Mahāyānasūtrālaṃkāra","On the Ratnagotravibhāga","A lost Abhidharmasamuccaya commentary"],
+  notes:[Q("chien","189 n. 372","","Byang chub sems dpa'i spyod pa la 'jug pa'i 'grel pa legs par bshad pa'i rgya mtsho: the Bodhicaryāvatāra commentary."),
+    Q("chien","189 n. 371","","Theg pa chen po mdo sde'i rgyan gyi 'grel pa rin po che'i phreng ba: the Mahāyānasūtrālaṃkāra commentary."),
+    Q("chien","192 n. 379","","Rgyud bla ma'i 'grel pa nges don gsal bar byed pa'i 'od zer: the Ratnagotravibhāga (Uttaratantra) commentary."),
+    Q("chien","192 n. 377","While all three biographies mention that Tokmé Zangpo wrote a commentary on Compendium of Abhidharma … so far I have not found it."),
+    Q("lotc","","","Contains his Bodhicaryāvatāra commentary in English. Check the book for the translator and pages before citing.")],
+  traps:["Give Tibetan titles in {{lang|bo-Latn|…}} and your own English gloss only where a source gives one."]},
+ {id:"lojong", nav:"Mind-training writings", heading:"Mind-training writings", level:3, parent:"Works", group:"Write",
+  cover:["Two commentaries on the Seven-Point Mind Training","His lineage text and who it lists","Chien's argument, attributed to her","No Sakya master in the list"],
+  notes:[Q("chien","191","","He wrote two commentaries on Chekawa's Seven-Point Mind Training."),
+    Q("chien","186–187","","Text 9, “Lineage of Mahāyāna Lojong Masters”, runs from the Buddha, Maitreya, Asaṅga and Vasubandhu through Atiśa and the Kadampas to Sönam Drakpa."),
+    Q("chien","ii","the unique element of Tokmé Zangpo's Lojong lineage is the inclusion of the five masters who are associated with Asaṅga.","Abstract; also “shaped by his involvement with Kadam masters and texts”"),
+    Q("chien","186","While Tokmé Zangpo was affiliated with the Sakya school, as stated in his biographies, his text on Lojong transmission does not include any Sakya master.")],
+  traps:["Chien says “twenty-three masters” on p. 186 but numbers 24 on p. 187. Avoid giving a count."]},
+ {id:"thirtyseven", nav:"The Thirty-Seven Practices", heading:"''The Thirty-Seven Practices of Bodhisattvas''", level:3, parent:"Works", group:"Write",
+  cover:["Title: “Thirty-Seven” was added later","The composition story (attributed)","Where it was written (colophon)","Structure, described plainly","What scholars say (Garfield), attributed","Commentary history and modern teachers"],
+  notes:[Q("chien","154 n. 301","The word “Thirty-Seven” is not given in the title by Tokmé Zangpo. In Guide to Your Devotion, the name of the text is “rgyal sras lag len.”","Text 29 in the Degé edition"),
+    Q("chien","154","If I would engage in practice, I would prefer to do something like this.","Said when people suggested he give tantric empowerments to earn a living. The wind blew the pages away in a ravine, and he rewrote the text."),
+    Q("pearcey","","This was composed in Jewel Cave (Rinchen Puk) in Ngulchu …"),
+    Q("pearcey","","","Structure (count it yourself): homage and statement of purpose; 37 four-line verses, each containing “The practice of all the bodhisattvas”; four closing verses, the last a dedication; a colophon."),
+    Q("garfield","166","The root text covers the basic Bodhisattva practices, with a special emphasis on the practices associated with morality and altruism.","Also “remarkable in its emphasis on practices … that are appropriate to lay practictioners [sic] as well”, and “the unusual degree to which it explains and justifies each of the practices”."),
+    Q("dkr","1","it is considered to be a distillation of … The Way of the Bodhisattva (Bodhicharyavatara)"),
+    Q("chien","154","","Text 29 “has attracted the most discussion from scholars and lay people alike even nowadays.”"),
+    Q("chien","155 n. 305","no recorded commentary was composed between the fifteenth and the eighteenth century","TBRC lists eight commentaries from the 19th to the early 21st centuries, including Ngawang Tendzin Norbu (1867–1940)."),
+    Q("garfield","166","","The Dalai Lama gave three days of oral teachings on it at Bodh Gaya in 1974."),
+    Q("dkr","1","the commentary written by Minyak Kunzang Sönam (also known as Chökyi Trakpa), a learned disciple of Patrul Rinpoche","In English as Uniting Wisdom and Compassion (Chökyi Dragpa 2004)")],
+  traps:["Don't paste verses: Pearcey's CC BY-NC licence is incompatible with Wikipedia. One quoted line at most.","Describe the verses plainly and leave interpretation to published sources (WP:NOR)."]},
+ {id:"legacy", nav:"Legacy", heading:"Legacy", level:2, group:"Write",
+  cover:["How Sakya, Kadam and Gelug each claim him","How he is remembered (Chien)","His students","The Amoghapāśa lineage (Blue Annals)","The hermitage today; the Rubin painting"],
+  notes:[Q("chien","186","","His biographies affiliate him with the Sakya school."),
+    Q("chien","49","","Künga Gyaltsen's Kadam history and Yeshe Gyaltsen's Lamrim lineage biographies include him (nn. 91–92)."),
+    Q("chien","203","He is remembered because he is included in the Lojong transmission by later scholars, such as the Fifth Dalai Lama."),
+    Q("bdrc","","","Students listed: Rendawa Zhönnu Lodrö (1349–1412), Palden Yeshe, Buddhaśrī (1339–1420), Nyungne Lama Sönam Zangpo (1341–1433), Nugo Gyalwa Rinchen (1328–1386). Ignore BDRC's link to a student born in 1888."),
+    Q("roerich","1024","","He appears in an Amoghapāśa lineage (Book XIV, the cycle of Mahākaruṇika / Avalokiteśvara)."),
+    Q("chien","1","On the hills at Ngülchü Chödzong, located in the Xietongmen County of Shigatse … a shrine of Tokmé Zangpo sits across from various meditation caves.","Local people “prostrated in front of Tokmé Zangpo's statue” (August 2013)."),
+    Q("rubin","","","Gyelse Tokme Zangpo (1295–1369) and scenes from his life: Tibet, 18th century, pigments on cloth, object C2002.4.1.")],
+  traps:["“A Nyingma master” has no scholarly support. Nyingma teachers teach his text; that's different.","“Emanation of Avalokiteśvara” only as Palden Yeshe's epithet, attributed."]}
+];
+const INFOBOX = [
+  ["name","Name","The title you chose"],["native_name","Native name","Tibetan script; use the button to insert it"],
+  ["other_names","Other names","e.g. the Ngulchu form (Chien p. 70 n. 136)"],["birth_name","Birth name","Chien p. 55"],
+  ["birth_date","Birth date","Year only (Chien p. 55)"],["birth_place","Birth place","Chien p. 54 / Heart of Compassion"],
+  ["death_date","Death date","Tip: {{death year and age|1369|1295}}"],["death_place","Death place","Chien p. 202"],
+  ["religion","Religion","e.g. [[Tibetan Buddhism]]"],["school","School","What the biographies say (Chien p. 186)"],
+  ["teacher","Teachers","Use <br /> between names"],["students","Students","BDRC P1830"],
+  ["notable_works","Notable works","Italicise titles with ''…''"],["image","Image","A Commons file name, only if you upload one"],["caption","Caption","Only with an image"]
+];
+const SETUP = [
+  ["acct","Created a personal Wikipedia account (not an organisation-style name)"],
+  ["userpage","Wrote a COI disclosure on my user page in my own words, plus {{User COI|Draft:…}}"],
+  ["auto","Made 10+ genuine edits over 4+ days (autoconfirmed)"],
+  ["bodhi","Practice edit: fixed “12th century” for the Thirty-Seven Practices in the Bodhicitta article, citing Chien p. 1"],
+  ["adventure","Did the Wikipedia Adventure tutorial (optional)"],
+  ["readchien","Read Chien 2015: pp. 1–3, 12–18, 53–78, 80–81, 154–155, 186–203"],
+  ["readdkr","Got The Heart of Compassion and read pp. 1–26"],
+  ["readother","Read Blue Annals pp. 310, 584–585, 1024 and Garfield p. 166"],
+  ["tol","Opened the Treasury of Lives entry in my browser and noted author, date and the Bodong É wording"]
+];
+const PRECHECK = [
+  ["mine","Every sentence was written by me, from sources I read myself"],
+  ["cites","Every paragraph ends with a citation, and every book citation has a page number I opened and checked"],
+  ["ids","Every ISBN/DOI resolves (WorldCat for ISBNs)"],
+  ["dates","Dates are 1295–1369 everywhere; none of the known web errors crept in"],
+  ["bodong","The Bodong É claim is handled neutrally (early biographies in the text, the other claim in a cited footnote)"],
+  ["attrib","Hagiographic material is attributed; no miracles in Wikipedia's voice"],
+  ["tone","No peacock words, no “His Holiness”, no promotional tone"],
+  ["coi","No link to or mention of 37practices.space or the study groups"],
+  ["copy","No whole verses from copyrighted translations"],
+  ["lead","The lead only summarises the body; the first sentence follows MOS:FIRSTBIO"],
+  ["infobox","The infobox has no empty or placeholder fields"],
+  ["preview","Show preview on Wikipedia shows no red errors"],
+  ["talk","{{Connected contributor}} is on the draft's talk page"],
+  ["cats","Categories are wrapped in {{Draft categories}} (the export does this)"]
+];
+const TIB_TEMPLATE = "{{bo|t=རྒྱལ་སྲས་ཐོགས་མེད་བཟང་པོ|w=rgyal sras thogs med bzang po}}";
+const TIB_SCRIPT = "རྒྱལ་སྲས་ཐོགས་མེད་བཟང་པོ";
+
+/* ---------- Words to watch ---------- */
+const WATCH = [
+  {re:/\b(renowned|famous|legendary|revered|illustrious|towering|iconic|prestigious|acclaimed|celebrated|remarkable|extraordinary|brilliant|genius|greatest|great master|masterpiece|seminal|very important|profound|unparalleled)\b/gi, k:"warn", why:"Puffery (MOS:PEACOCK). Show importance with sourced facts instead."},
+  {re:/\b(testament|pivotal|crucial|vital role|enduring legacy|indelible|underscores?|stands as|serves as a|tapestry|delve|rich history|deeply rooted)\b/gi, k:"warn", why:"Inflated wording that reviewers flag. Say plainly what the source says."},
+  {re:/(His Holiness|His Eminence|\bH\.H\.|\bH\.E\.|\bVenerable\b|\bVen\.)/g, k:"warn", why:"Honorific (MOS:HONORIFIC). Use “the 14th Dalai Lama”, plain names."},
+  {re:/\b(miracle\w*|miraculous\w*|emanation|rainbows?|visions?|reincarnation of)\b/gi, k:"warn", why:"Traditional material: make sure the sentence attributes it (“According to his biographer …”)."},
+  {re:/\b(1297|1371|1285)\b/g, k:"bad", why:"A date found in unreliable sources. His dates are 1295–1369."},
+  {re:/(silver river|nyingma master|12th[- ]century)/gi, k:"bad", why:"A known web error (see the reading guide)."},
+  {re:/37practices/gi, k:"bad", why:"Conflict of interest: never cite or mention your own site."},
+  {re:/(\bTODO\b|\bTBD\b|\bXXX\b|\[(?:citation|birth|date|name)[^\]]*\]|lorem ipsum)/gi, k:"bad", why:"Placeholder text. Unfilled placeholders get pages speedily deleted (WP:G15)."}
+];
+
+/* ---------- Helpers ---------- */
+const $ = function(s,r){return (r||document).querySelector(s);};
+function h(tag, attrs){
+  const el = document.createElement(tag);
+  if (attrs) for (const k in attrs){
+    const v = attrs[k];
+    if (v==null || v===false) continue;
+    if (k==="class") el.className = v;
+    else if (k==="text") el.textContent = v;
+    else if (k.slice(0,2)==="on") el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v===true?"":v);
+  }
+  for (let i=2;i<arguments.length;i++){
+    const c = arguments[i];
+    if (c==null || c===false) continue;
+    if (Array.isArray(c)) c.forEach(function(x){ if (x!=null && x!==false) el.append(x.nodeType?x:document.createTextNode(String(x))); });
+    else el.append(c.nodeType?c:document.createTextNode(String(c)));
+  }
+  return el;
+}
+function fmt(n){return n.toLocaleString("en-US");}
+function today(){const d=new Date();return d.getDate()+" "+d.toLocaleString("en-GB",{month:"long"})+" "+d.getFullYear();}
+function monthYear(){const d=new Date();return d.toLocaleString("en-GB",{month:"long"})+" "+d.getFullYear();}
+function stripTemplates(t){let prev;do{prev=t;t=t.replace(/\{\{[^{}]*\}\}/g,"");}while(t!==prev);return t;}
+function proseOf(t){
+  t = t.replace(/<!--[\s\S]*?-->/g,"").replace(/<ref[^>]*\/>/gi,"").replace(/<ref[\s\S]*?<\/ref>/gi,"");
+  t = stripTemplates(t);
+  t = t.split("\n").filter(function(l){return !/^\s*(=|\*|#|\{\||\|)/.test(l);}).join("\n");
+  t = t.replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g,"$1").replace(/\[https?:\/\/\S+\s([^\]]*)\]/g,"$1").replace(/'''?/g,"").replace(/<[^>]+>/g,"");
+  return t.replace(/\s+/g," ").trim();
+}
+function countWords(p){return p ? p.split(" ").filter(Boolean).length : 0;}
+function sfnKeys(t){
+  const out = []; const re = /\{\{\s*sfnp?\s*\|([^{}]*)\}\}/gi; let m;
+  while ((m = re.exec(t))){
+    const parts = m[1].split("|").map(function(s){return s.trim();}).filter(function(s){return s && s.indexOf("=")<0;});
+    out.push(parts.join("|"));
+  }
+  return out;
+}
+function paragraphsWithoutCite(t){
+  const paras = t.replace(/<!--[\s\S]*?-->/g,"").split(/\n\s*\n/).map(function(s){return s.trim();}).filter(Boolean);
+  let n = 0;
+  paras.forEach(function(p){
+    if (/^(=|\*|#|\{\{|\{\|)/.test(p)) return;
+    if (proseOf(p).length < 40) return;
+    const tail = p.replace(/[\s.,;:)"'”’]+$/,"");
+    const endsCite = /(\{\{\s*sfnp?\s*\|[^{}]*\}\}|<\/ref>|<ref[^>]*\/>)$/i.test(tail) || (/\}\}$/.test(tail) && /\{\{\s*sfnp?\s*\|/i.test(tail.slice(-300)));
+    if (!endsCite) n++;
+  });
+  return n;
+}
+function watchHits(t){
+  const clean = t.replace(/<!--[\s\S]*?-->/g,"");
+  const hits = [];
+  WATCH.forEach(function(w){
+    const found = {}; let m; w.re.lastIndex = 0;
+    while ((m = w.re.exec(clean))){ found[m[0].toLowerCase()] = true; }
+    const words = Object.keys(found);
+    if (words.length) hits.push({k:w.k, words:words, why:w.why});
+  });
+  return hits;
+}
+function sfnFor(src, page){
+  const s = SRC[src]; if (!s) return "";
+  const p = String(page||"").trim();
+  if (!p) return "{{sfn|"+s.sfn+"}}";
+  return "{{sfn|"+s.sfn+"|"+(/[–-]|,/.test(p) ? "pp=" : "p=")+p.replace(/-/g,"–")+"}}";
+}
+
+/* ---------- State ---------- */
+const LS_KEY = "tokme-workbench-v1";
+const state = {
+  sections:{}, infobox:{fields:{}}, setup:{items:{}, username:"", draftTitle:"Gyalse Tokme Zangpo", sd:"", note:""},
+  sources:{verified:{}, further:{}, links:{lotsawa:true, tol:true}, cats:{}}, checklist:{items:{}}
+};
+SECTIONS.forEach(function(s){ state.sections[s.id] = {text:"", status:"todo", read:false, heading:s.heading, updatedAt:0}; });
+CATS.forEach(function(c){ state.sources.cats[c] = !CAT_DEFAULT_OFF[c]; });
+
+function loadLocal(){
+  try{
+    const raw = localStorage.getItem(LS_KEY); if (!raw) return;
+    const d = JSON.parse(raw);
+    if (d.sections) for (const id in d.sections) if (state.sections[id]) Object.assign(state.sections[id], d.sections[id]);
+    ["infobox","setup","sources","checklist"].forEach(function(k){ if (d[k]) state[k] = Object.assign(state[k], d[k]); });
+  }catch(e){}
+}
+function saveLocal(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(state)); }catch(e){} }
+
+/* ---------- db sync ---------- */
+let db = null, readOnly = false;
+const dirty = {}, inflight = {}, timers = {};
+function setSave(cls, text){ const el = $("#save"); el.className = "save "+cls; el.textContent = text; }
+function docBody(key){
+  if (key.indexOf("sections/")===0) return Object.assign({}, state.sections[key.slice(9)]);
+  return JSON.parse(JSON.stringify(state[key.slice(5)]));
+}
+function schedule(key, delay){
+  dirty[key] = true; saveLocal();
+  if (!db){ setSave(readOnly?"err":"local", readOnly?"Read-only":"Saved in this browser only"); return; }
+  setSave("busy","Saving…");
+  clearTimeout(timers[key]);
+  timers[key] = setTimeout(function(){ flush(key); }, delay==null?1100:delay);
+}
+async function flush(key){
+  if (!db || readOnly) return;
+  if (inflight[key]){ inflight[key].again = true; return; }
+  if (!dirty[key]) return;
+  dirty[key] = false;
+  inflight[key] = {again:false};
+  try{
+    await db.doc(key).set(docBody(key));
+  }catch(e){
+    if (e && e.code==="invalid_argument"){ readOnly = true; setSave("err","Read-only: you can't save changes here"); render(); }
+    else if (e && e.code==="quota_exceeded"){ setSave("err","Storage full: download a backup"); }
+    else { dirty[key] = true; setSave("err","Not saved yet: will retry"); setTimeout(function(){ flush(key); }, 2500+Math.random()*1500); }
+  }
+  const again = inflight[key].again; delete inflight[key];
+  if (again || dirty[key]) return flush(key);
+  if (!Object.keys(dirty).some(function(k){return dirty[k];}) && !Object.keys(inflight).length) setSave("ok","All changes saved");
+}
+function same(a, b){ try{ return JSON.stringify(a)===JSON.stringify(Object.assign({}, a, b)); }catch(e){ return false; } }
+function applyRemote(key, data){
+  if (!data || dirty[key] || inflight[key]) return false;
+  if (key.indexOf("sections/")===0){
+    const id = key.slice(9); if (!state.sections[id]) return false;
+    const local = state.sections[id];
+    if ((data.updatedAt||0) < (local.updatedAt||0)) { schedule(key, 300); return false; }
+    const ta = document.getElementById("ta-"+id);
+    if (ta && document.activeElement === ta) return false;
+    if (same(local, data)) return false;
+    Object.assign(local, data);
+    return true;
+  }
+  const k = key.slice(5); if (!state[k]) return false;
+  if (same(state[k], Object.assign({}, state[k], data))) return false;
+  state[k] = Object.assign(state[k], data);
+  return true;
+}
+async function connect(){
+  let got = null;
+  try{ got = await window.claude.use("db"); }catch(e){ got = null; }
+  if (!got){ setSave("local","Saved in this browser only"); return; }
+  db = got;
+  Object.keys(dirty).forEach(function(k){ if (dirty[k]) schedule(k, 300); });
+  let firstS = true, firstM = true;
+  const onErr = function(){ setSave("err","Sync stopped: reload the page"); };
+  db.collection("sections").onSnapshot(function(snap){
+    let changed = false;
+    const seen = {};
+    snap.docs.forEach(function(d){ seen[d.id]=true; if (applyRemote("sections/"+d.id, d.data())) changed = true; });
+    if (firstS){
+      firstS = false;
+      SECTIONS.forEach(function(s){ if (!seen[s.id] && (state.sections[s.id].text || state.sections[s.id].status!=="todo")) schedule("sections/"+s.id, 200); });
+    }
+    if (changed){ saveLocal(); render(); }
+    if (!Object.keys(dirty).some(function(k){return dirty[k];})) setSave("ok","All changes saved");
+  }, onErr);
+  db.collection("meta").onSnapshot(function(snap){
+    let changed = false; const seen = {};
+    snap.docs.forEach(function(d){ seen[d.id]=true; if (applyRemote("meta/"+d.id, d.data())) changed = true; });
+    firstM = false;
+    if (changed){ saveLocal(); render(); }
+  }, onErr);
+}
+
+/* ---------- Sample (optional checks) ---------- */
+let sample = null, sampleOff = false;
+(async function(){ try{ sample = await window.claude.use("sample"); }catch(e){ sample = null; } render(); })();
+function sampleErrText(e){
+  const c = e && e.code;
+  if (c==="not_granted"||c==="sampling_disabled"||c==="not_declared"||c==="capability_disabled"||c==="capability_removed"){ sampleOff = true; return "Checks aren't available here."; }
+  if (c==="rate_limited") return "Too many checks just now. Try again in a minute.";
+  if (c==="invalid_json") return "The check came back garbled. Try again.";
+  if (c==="prompt_too_large") return "This section is too long to check at once. Check it in parts.";
+  if (c==="cancelled") return "Stopped.";
+  return "The check didn't finish. Try again.";
+}
+const checkState = {};
+async function runCheck(id, kind){
+  const text = state.sections[id].text.trim();
+  const cs = checkState[id] = {kind:kind, busy:true, results:null, error:"", ctl:new AbortController()};
+  render();
+  const sec = SECTIONS.find(function(s){return s.id===id;});
+  let prompt;
+  if (kind==="grammar"){
+    prompt = "You are proofreading a paragraph that a human editor wrote for a Wikipedia draft. Wikipedia's rules allow you ONLY to point out mistakes in spelling, punctuation, capitalisation and grammar. Do not rewrite sentences, do not suggest new wording beyond the minimal fix, and do not comment on style, tone or content. Ignore wikitext markup such as {{sfn|...}}, {{efn|...}}, [[links]] and ''italics''. Tibetan and Sanskrit names are spelled deliberately; don't flag them.\n\nReply with only a JSON array. Each item: {\"excerpt\": \"up to 8 words copied exactly from the text around the mistake\", \"problem\": \"a short description of the mistake and its minimal fix, e.g. its → it's\"}. Reply [] if there are no mistakes.\n\nTEXT:\n" + text.slice(0, 20000);
+  } else {
+    const notes = sec.notes.filter(function(n){return n.src;}).map(function(n){
+      return "- " + SRC[n.src].label + (n.p ? " p. "+n.p : "") + ": " + [n.q ? "\""+n.q+"\"" : "", n.gist].filter(Boolean).join(" — ");
+    }).join("\n");
+    prompt = "A human editor wrote a section of a Wikipedia draft about the Tibetan monk Tokme Zangpo (1295–1369). Below are excerpts from the sources, with page numbers, followed by the editor's text. Citations in the text look like {{sfn|Chien|2015|p=69}}.\n\nFor each sentence that states a fact, judge whether the EXCERPTS support it. Do not rewrite anything and do not propose replacement wording. The excerpts are partial, so \"not in excerpts\" means the editor must check the full source page, not that the sentence is wrong.\n\nReply with only a JSON array. Each item: {\"excerpt\": \"the first 6-10 words of the sentence, copied exactly\", \"verdict\": \"supported\" | \"not in excerpts\" | \"contradicted\" | \"wrong page\", \"note\": \"one short sentence naming the excerpt and page, or what is missing\"}.\n\nSOURCE EXCERPTS:\n" + notes + "\n\nEDITOR'S TEXT:\n" + text.slice(0, 20000);
+  }
+  try{
+    const res = await sample.json(prompt, {signal: cs.ctl.signal, modelTier: kind==="grammar" ? "quick" : "default"});
+    cs.results = Array.isArray(res) ? res : [];
+  }catch(e){ cs.error = sampleErrText(e); }
+  cs.busy = false;
+  render();
+}
+
+/* ---------- Export ---------- */
+function citedKeys(){
+  const set = {};
+  SECTIONS.forEach(function(s){ sfnKeys(state.sections[s.id].text).forEach(function(k){ set[k]=true; }); });
+  return Object.keys(set);
+}
+function buildArticle(){
+  const S = state; const L = [];
+  if (S.setup.sd.trim()) L.push("{{Short description|"+S.setup.sd.trim()+"}}");
+  L.push("{{Use dmy dates|date="+monthYear()+"}}");
+  const f = S.infobox.fields; const rows = INFOBOX.filter(function(r){return (f[r[0]]||"").trim();});
+  if (rows.length){
+    L.push("{{Infobox religious biography");
+    rows.forEach(function(r){ L.push("| "+r[0]+" = "+f[r[0]].trim()); if (r[0]==="native_name") L.push("| native_name_lang = bo"); });
+    L.push("}}");
+  }
+  const lead = S.sections.lead.text.trim(); if (lead) L.push(lead);
+  let parentOpen = "";
+  SECTIONS.forEach(function(s){
+    if (s.id==="lead") return;
+    const st = S.sections[s.id]; const txt = st.text.trim();
+    if (!txt || st.status==="skip") return;
+    if (s.parent && parentOpen !== s.parent){ L.push(""); L.push("== "+s.parent+" =="); parentOpen = s.parent; }
+    if (!s.parent) parentOpen = "";
+    const head = (st.heading||s.heading).trim();
+    const eq = s.level===3 ? "===" : "==";
+    L.push(""); L.push(eq+" "+head+" "+eq); L.push(txt);
+  });
+  const all = SECTIONS.map(function(s){return S.sections[s.id].text;}).join("\n");
+  if (/\{\{\s*efn/i.test(all)){ L.push(""); L.push("== Notes =="); L.push("{{notelist}}"); }
+  const keys = citedKeys();
+  const known = Object.keys(SRC).filter(function(k){ return keys.indexOf(SRC[k].sfn)>=0; });
+  L.push(""); L.push("== References ==");
+  if (known.length){
+    L.push("=== Citations ==="); L.push("{{reflist}}"); L.push(""); L.push("=== Sources ==="); L.push("{{refbegin}}");
+    known.map(function(k){return SRC[k];}).sort(function(a,b){return a.sfn.localeCompare(b.sfn);}).forEach(function(s){ L.push("* "+s.full.replace(/\{ACCESS\}/g, today())); });
+    L.push("{{refend}}");
+  } else L.push("{{reflist}}");
+  const fr = Object.keys(FURTHER).filter(function(k){ return S.sources.further[k] && !(SRC[k] && keys.indexOf(SRC[k].sfn)>=0); });
+  if (fr.length){ L.push(""); L.push("== Further reading =="); L.push("{{refbegin}}"); fr.forEach(function(k){ L.push("* "+FURTHER[k].full); }); L.push("{{refend}}"); }
+  const el = Object.keys(LINKS).filter(function(k){ return S.sources.links[k]; });
+  if (el.length){ L.push(""); L.push("== External links =="); el.forEach(function(k){ L.push(LINKS[k].line); }); }
+  L.push(""); L.push("{{Authority control}}"); L.push("");
+  L.push("{{DEFAULTSORT:Tokme Zangpo, Gyalse}}");
+  const cats = CATS.filter(function(c){ return S.sources.cats[c]; });
+  if (cats.length){ L.push("{{Draft categories|"); cats.forEach(function(c){ L.push("[[Category:"+c+"]]"); }); L.push("}}"); }
+  return L.join("\n").replace(/\n{3,}/g,"\n\n") + "\n";
+}
+function buildTalk(){
+  const u = state.setup.username.trim() || "YourUsername";
+  const note = state.setup.note.trim();
+  return "{{Connected contributor|User1="+u+"|U1-declared=yes"+(note?"|U1-otherlinks="+note:"")+"}}\n{{WikiProject banner shell|1=\n{{WikiProject Tibet}}\n{{WikiProject Buddhism}}\n{{WikiProject Biography}}\n}}\n";
+}
+function unknownSfn(){
+  const knownSfn = Object.keys(SRC).map(function(k){return SRC[k].sfn;});
+  return citedKeys().filter(function(k){ return knownSfn.indexOf(k)<0; });
+}
+async function copyText(text, btn){
+  try{ await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
+  catch(e){ btn.textContent = "Select the text and copy"; }
+  setTimeout(function(){ btn.textContent = btn.dataset.label; }, 1800);
+}
+let downloads = null;
+(async function(){ try{ downloads = await window.claude.use("downloads"); }catch(e){ downloads = null; } })();
+async function offerFile(filename, data, btn){
+  if (!downloads){ btn.textContent = "Downloads aren't available here"; return; }
+  try{ await downloads.save({filename:filename, data:data}); btn.textContent = "Saved"; }
+  catch(e){ btn.textContent = e && e.code==="declined" ? "Cancelled" : "Couldn't save"; }
+  setTimeout(function(){ btn.textContent = btn.dataset.label; }, 2200);
+}
+
+/* ---------- Totals ---------- */
+function totals(){
+  let chars = 0, words = 0, ready = 0, used = 0;
+  SECTIONS.forEach(function(s){
+    const st = state.sections[s.id]; if (st.status==="skip") return;
+    used++;
+    const p = proseOf(st.text); chars += p.length; words += countWords(p);
+    if (st.status==="ready") ready++;
+  });
+  return {chars:chars, words:words, ready:ready, total:used};
+}
+function renderMeters(){
+  const t = totals();
+  $("#m-chars").textContent = fmt(t.chars);
+  $("#m-chars-bar i").style.width = Math.min(100, t.chars/15)+"%"; $("#m-chars-bar").classList.toggle("done", t.chars>1500);
+  $("#m-words").textContent = fmt(t.words);
+  $("#m-words-bar i").style.width = Math.min(100, t.words/30)+"%"; $("#m-words-bar").classList.toggle("done", t.words>=1500);
+  $("#m-ready").textContent = t.ready+" of "+t.total;
+  $("#m-ready-bar i").style.width = (t.total? t.ready/t.total*100:0)+"%"; $("#m-ready-bar").classList.toggle("done", t.total && t.ready===t.total);
+}
+
+/* ---------- Navigation ---------- */
+const PANELS = [
+  {id:"setup", nav:"Before you write", group:"Prepare"},
+  {id:"infobox", nav:"Infobox", group:"Write"}
+].concat(SECTIONS.map(function(s){return {id:s.id, nav:s.nav, group:s.group, parent:s.parent, section:true};}))
+ .concat([{id:"sourcelist", nav:"Sources and links", group:"Finish"},{id:"check", nav:"Pre-submission check", group:"Finish"},{id:"export", nav:"Export to Wikipedia", group:"Finish"}]);
+let current = "setup";
+(function(){ const hsh = (location.hash||"").slice(1); if (PANELS.some(function(p){return p.id===hsh;})) current = hsh; })();
+function go(id){ current = id; try{ sessionStorage.setItem("tz-panel", id); }catch(e){} render(); window.scrollTo({top:0}); }
+try{ const sp = sessionStorage.getItem("tz-panel"); if (sp && !location.hash && PANELS.some(function(p){return p.id===sp;})) current = sp; }catch(e){}
+function dotClass(p){
+  if (!p.section) return "";
+  const st = state.sections[p.id].status;
+  return st==="ready"?"ready":st==="drafting"?"drafting":st==="skip"?"skip":"";
+}
+function renderNav(){
+  const rail = $("#rail"); rail.textContent = "";
+  ["Prepare","Write","Finish"].forEach(function(g){
+    const ul = h("ul");
+    let lastParent = "";
+    PANELS.filter(function(p){return p.group===g;}).forEach(function(p){
+      if (p.parent && p.parent!==lastParent){ ul.append(h("li",{class:"small",style:"padding:6px 8px 0;font-weight:600"}, p.parent)); lastParent = p.parent; }
+      if (!p.parent) lastParent = "";
+      ul.append(h("li",null,h("button",{class:"navbtn"+(p.parent?" sub":""),"aria-current":String(p.id===current),onclick:function(){go(p.id);}},
+        p.section ? h("span",{class:"dot "+dotClass(p)}) : null, p.nav)));
+    });
+    rail.append(h("div",{class:"navgroup"},h("h2",null,g),ul));
+  });
+  const sel = $("#mnav"); sel.textContent = "";
+  PANELS.forEach(function(p){ sel.append(h("option",{value:p.id,selected:p.id===current}, (p.parent?"— ":"")+p.nav)); });
+  sel.onchange = function(){ go(sel.value); };
+}
+
+/* ---------- Panels ---------- */
+function checkboxRow(obj, key, label, docKey){
+  const id = "cb-"+docKey.replace(/\W/g,"")+"-"+key;
+  return h("label",{class:"check",for:id},
+    h("input",{type:"checkbox",id:id,checked:!!obj[key],disabled:readOnly,onchange:function(e){ obj[key]=e.target.checked; schedule(docKey,300); renderMeters(); renderNav(); }}),
+    h("span",null,label));
+}
+function panelSetup(){
+  const s = state.setup;
+  return h("div",{class:"stack"},
+    h("div",{class:"panelhead"},h("div",null,h("div",{class:"kicker"},"Phase 0 and 1"),h("h2",null,"Before you write"))),
+    h("div",{class:"two"},
+      h("div",{class:"card"},h("h3",null,"Account and practice"),
+        h("div",{class:"list"}, SETUP.slice(0,5).map(function(r){return checkboxRow(s.items, r[0], r[1], "meta/setup");}))),
+      h("div",{class:"card"},h("h3",null,"Reading"),
+        h("div",{class:"list"}, SETUP.slice(5).map(function(r){return checkboxRow(s.items, r[0], r[1], "meta/setup");})),
+        h("p",{class:"small"},"Links: ",
+          h("a",{href:SRC.chien.url,target:"_blank",rel:"noopener"},"Chien 2015"),", ",
+          h("a",{href:SRC.roerich.url,target:"_blank",rel:"noopener"},"Blue Annals scan"),", ",
+          h("a",{href:SRC.garfield.url,target:"_blank",rel:"noopener"},"Garfield 1996"),", ",
+          h("a",{href:"https://treasuryoflives.org/biographies/view/Gyelse-Tokme-Zangpo/3153",target:"_blank",rel:"noopener"},"Treasury of Lives"),"."))),
+    h("div",{class:"card"},h("h3",null,"How this workbench works"),
+      h("ol",{class:"cover"},
+        h("li",null,"Each section has the source notes on the left: what to cover, the source's own words with page numbers, and traps. Open the real page before you write."),
+        h("li",null,"Write in the box on the right in wikitext. ",h("b",null,"Cite")," inserts a short footnote like ",h("code",null,"{{sfn|Chien|2015|p=69}}"),"; the export builds the full source list from the ones you use."),
+        h("li",null,"The checks under the box count prose, find paragraphs without a closing citation and flag words to watch. Two optional checks ask Claude to ",h("i",null,"list")," grammar slips or unsupported sentences. They never rewrite, which is what Wikipedia allows (WP:LLMCE)."),
+        h("li",null,"Everything saves automatically. When you're done, ",h("b",null,"Export")," assembles your text into the complete draft for ",h("code",null,"Draft:"+(s.draftTitle||"…")),"."))),
+    h("p",{class:"small"},"Stuck? Ask real people at the ",h("a",{href:"https://en.wikipedia.org/wiki/Wikipedia:Teahouse",target:"_blank",rel:"noopener"},"Teahouse"),", in your own words."));
+}
+function panelInfobox(){
+  const f = state.infobox.fields;
+  const fields = INFOBOX.map(function(r){
+    const id = "ib-"+r[0];
+    const input = h("input",{type:"text",id:id,value:f[r[0]]||"",placeholder:r[2],disabled:readOnly,
+      oninput:function(e){ f[r[0]]=e.target.value; schedule("meta/infobox"); }});
+    return h("div",{class:"field"}, h("label",{for:id},r[1]+" ",h("code",{class:"muted",style:"font-weight:400;font-size:11px"},r[0])), input,
+      r[0]==="native_name" ? h("button",{class:"btn small",type:"button",disabled:readOnly,onclick:function(){ f.native_name = TIB_SCRIPT; schedule("meta/infobox",200); render(); }},"Insert Tibetan script") : null);
+  });
+  return h("div",{class:"stack"},
+    h("div",{class:"panelhead"},h("div",null,h("div",{class:"kicker"},"Template"),h("h2",null,"Infobox"))),
+    h("div",{class:"notice"},"Fill in only what a source cited in the body supports, and leave a field empty rather than guessing: empty fields are left out of the export. Keep traditional claims (for example “emanation of …”) out of the infobox, because it can't attribute them."),
+    h("div",{class:"card"},h("div",{class:"fields"},fields)));
+}
+function panelSection(sec){
+  const st = state.sections[sec.id];
+  const noteCards = sec.notes.map(function(n){
+    const s = n.src ? SRC[n.src] : null;
+    return h("div",{class:"quote"},
+      h("div",{class:"src"}, s ? h("b",null,s.label) : h("b",null,"Note"), n.p ? h("span",null,"p. "+n.p) : null,
+        (n.src==="chien" && /^\d+/.test(n.p)) ? h("span",{class:"pdf"},"PDF p. "+(parseInt(n.p,10)+SRC.chien.pdfOffset)) : null,
+        s && s.url ? h("a",{href:s.url,target:"_blank",rel:"noopener"},"open") : null),
+      n.q ? h("q",null,n.q) : null,
+      n.gist ? h("span",{class:"gist muted"},n.gist) : null);
+  });
+  const notes = h("aside",{class:"notes"},
+    h("div",{class:"card"},h("h3",null,"What to cover"),h("ul",{class:"cover"},sec.cover.map(function(c){return h("li",null,c);}))),
+    h("div",{class:"card"},h("h3",null,"Sources, with their words"),h("div",{class:"quotes"},noteCards)),
+    h("div",{class:"card"},h("h3",null,"Watch out"),h("ul",{class:"traps"},sec.traps.map(function(c){return h("li",null,c);}))));
+
+  const ta = h("textarea",{class:"wt",id:"ta-"+sec.id,spellcheck:"true",disabled:readOnly,
+    placeholder: sec.id==="lead" ? "Write the lead last. Start with the bold name, e.g. '''Your chosen name''', then the Tibetan name template…" : "Write this section in your own words. Use Cite after each claim.",
+    oninput:function(e){ st.text = e.target.value; st.updatedAt = Date.now(); if (st.status==="todo" && st.text.trim()) { st.status="drafting"; renderNav(); const ss=document.getElementById("st-"+sec.id); if (ss) ss.value="drafting"; } schedule("sections/"+sec.id); refreshChecks(sec.id); renderMeters(); }});
+  ta.value = st.text;
+  function insert(before, after, placeholder){
+    const a = ta.selectionStart, b = ta.selectionEnd, sel = ta.value.slice(a,b) || placeholder || "";
+    const next = ta.value.slice(0,a) + before + sel + (after||"") + ta.value.slice(b);
+    ta.value = next; ta.focus();
+    const pos = a + before.length + sel.length + (after||"").length;
+    ta.setSelectionRange(pos,pos);
+    ta.dispatchEvent(new Event("input"));
+  }
+  const srcSel = h("select",{id:"cs-"+sec.id,"aria-label":"Source"}, Object.keys(SRC).map(function(k){return h("option",{value:k},SRC[k].label);}));
+  const firstSrc = sec.notes.find(function(n){return n.src;}); if (firstSrc) srcSel.value = firstSrc.src;
+  const pageIn = h("input",{type:"text",id:"cp-"+sec.id,placeholder:"page",size:"6","aria-label":"Page"});
+  const linkSel = h("select",{id:"ls-"+sec.id,"aria-label":"Wikilink"}, h("option",{value:""},"Link to…"), WIKILINKS.map(function(w,i){return h("option",{value:String(i)}, w[1]? w[1]+" → "+w[0] : w[0]);}));
+  linkSel.onchange = function(){ if (linkSel.value==="") return; const w = WIKILINKS[+linkSel.value]; linkSel.value=""; insert("[["+w[0]+(w[1]?"|"+w[1]:"")+"]]",""); };
+  const toolbar = h("div",{class:"toolbar"},
+    srcSel, pageIn,
+    h("button",{class:"btn primary",type:"button",disabled:readOnly,onclick:function(){ insert(sfnFor(srcSel.value, pageIn.value),""); }},"Cite"),
+    h("span",{class:"sep"}),
+    h("button",{class:"btn",type:"button",disabled:readOnly,title:"Wrap the selection in an explanatory footnote",onclick:function(){ insert("{{efn|","}}","note text"); }},"Note"),
+    h("button",{class:"btn",type:"button",disabled:readOnly,onclick:function(){ insert("''","''","title"); }},h("i",null,"Italic")),
+    h("button",{class:"btn",type:"button",disabled:readOnly,title:"Tibetan and Wylie inline",onclick:function(){ insert("{{lang|bo-Latn|","}}","wylie"); }},"Wylie"),
+    sec.id==="lead" ? h("button",{class:"btn",type:"button",disabled:readOnly,onclick:function(){ insert(TIB_TEMPLATE,""); }},"Tibetan name template") : null,
+    linkSel);
+
+  const statusSel = h("select",{id:"st-"+sec.id,disabled:readOnly,onchange:function(e){ st.status = e.target.value; st.updatedAt = Date.now(); schedule("sections/"+sec.id,300); renderNav(); renderMeters(); }},
+    [["todo","Not started"],["drafting","Drafting"],["ready","Ready"],["skip","Leave out"]].map(function(o){return h("option",{value:o[0],selected:st.status===o[0]},o[1]);}));
+  const headIn = sec.level ? h("input",{type:"text",id:"hd-"+sec.id,value:st.heading,disabled:readOnly,"aria-label":"Heading",style:"width:22em",
+      oninput:function(e){ st.heading = e.target.value; st.updatedAt = Date.now(); schedule("sections/"+sec.id); }}) : null;
+  const readCb = h("label",{for:"rd-"+sec.id},h("input",{type:"checkbox",id:"rd-"+sec.id,checked:st.read,disabled:readOnly,onchange:function(e){ st.read=e.target.checked; st.updatedAt = Date.now(); schedule("sections/"+sec.id,300); }})," I read the cited pages myself");
+
+  const cs = checkState[sec.id];
+  const checkBox = h("div",{class:"card checks"},
+    h("h3",null,"Checks"),
+    h("div",{class:"stats",id:"stats-"+sec.id}),
+    h("div",{class:"flags",id:"flags-"+sec.id}),
+    (sample && !sampleOff) ? h("div",{class:"row"},
+      h("button",{class:"btn",type:"button",disabled:!!(cs&&cs.busy)||!st.text.trim(),onclick:function(){runCheck(sec.id,"grammar");}},"List grammar slips"),
+      h("button",{class:"btn",type:"button",disabled:!!(cs&&cs.busy)||!st.text.trim(),onclick:function(){runCheck(sec.id,"source");}},"Check against the source notes"),
+      cs && cs.busy ? h("button",{class:"btn small",type:"button",onclick:function(){cs.ctl.abort();}},"Stop") : null,
+      h("span",{class:"small"},"Uses your Claude account. Lists problems only; it won't rewrite.")) : null,
+    cs ? renderResults(cs) : null);
+
+  return h("div",{class:"stack"},
+    h("div",{class:"panelhead"},
+      h("div",null,h("div",{class:"kicker"}, sec.parent ? sec.parent : (sec.level ? "Section" : "Opening")), h("h2",null, sec.nav)),
+      h("div",{class:"controls"}, headIn ? h("label",null,"Heading ",headIn) : null, h("label",null,"Status ",statusSel), readCb)),
+    h("div",{class:"grid2"}, notes,
+      h("div",{class:"editor"}, h("div",null,toolbar,ta), checkBox)));
+}
+function renderResults(cs){
+  if (cs.busy) return h("p",{class:"small"},"Thinking…");
+  if (cs.error) return h("p",{class:"small"},cs.error);
+  if (!cs.results) return null;
+  if (!cs.results.length) return h("p",{class:"small"}, cs.kind==="grammar" ? "No spelling or grammar slips found." : "Nothing to report.");
+  const note = cs.kind==="grammar"
+    ? h("p",{class:"small"},"Fix these yourself. On Wikipedia, save your own version first, then the fixes as a second edit with a summary like “copyedit suggestions from Claude, reviewed by me”.")
+    : h("p",{class:"small"},"The excerpts are partial: for anything not marked supported, open the full page and check.");
+  return h("div",{class:"results"}, note, cs.results.slice(0,40).map(function(r){
+    const v = String(r.verdict||"");
+    const cls = cs.kind==="grammar" ? "warn" : (v==="supported" ? "good" : v==="contradicted"||v==="wrong page" ? "bad" : "warn");
+    return h("div",{class:"result"},
+      h("span",{class:"pill "+cls}, cs.kind==="grammar" ? "slip" : (v||"?")),
+      h("span",null, h("code",null,"“"+String(r.excerpt||"").slice(0,120)+"”")," ", String(r.problem||r.note||"")));
+  }));
+}
+function refreshChecks(id){
+  const st = state.sections[id];
+  const statsEl = document.getElementById("stats-"+id), flagsEl = document.getElementById("flags-"+id);
+  if (!statsEl) return;
+  const p = proseOf(st.text), words = countWords(p), cites = sfnKeys(st.text).length + (st.text.match(/<ref[\s>]/gi)||[]).length;
+  const noCite = paragraphsWithoutCite(st.text);
+  statsEl.textContent = "";
+  statsEl.append(h("span",{class:"pill"},fmt(words)+" words"), h("span",{class:"pill"},fmt(p.length)+" prose chars"),
+    h("span",{class:"pill "+(cites? "good":"")},cites+" citations"));
+  if (st.text.trim()) statsEl.append(h("span",{class:"pill "+(noCite? "warn":"good")}, noCite ? noCite+" paragraph"+(noCite>1?"s":"")+" without a closing citation" : "Every paragraph cited"));
+  flagsEl.textContent = "";
+  const unk = sfnKeys(st.text).filter(function(k){ return !Object.keys(SRC).some(function(s){return SRC[s].sfn===k;}); });
+  if (unk.length) flagsEl.append(h("div",{class:"flag"},h("span",{class:"k warn"},"source"),h("span",null,"No full citation for "+unk.map(function(k){return "“"+k+"”";}).join(", ")+". Add it on Wikipedia or use the Cite button.")));
+  watchHits(st.text).forEach(function(w){
+    flagsEl.append(h("div",{class:"flag"},h("span",{class:"k "+w.k}, w.k==="bad"?"fix":"check"),h("span",null,h("b",null,w.words.join(", ")),": "+w.why)));
+  });
+}
+function panelSources(){
+  const S = state.sources; const keys = citedKeys();
+  const rows = Object.keys(SRC).map(function(k){
+    const s = SRC[k]; const used = keys.indexOf(s.sfn)>=0;
+    return h("div",{class:"srcrow"},
+      h("input",{type:"checkbox",id:"vf-"+k,checked:!!S.verified[k],disabled:readOnly,"aria-label":"I checked "+s.label,onchange:function(e){S.verified[k]=e.target.checked; schedule("meta/sources",300); render();}}),
+      h("div",null, h("label",{for:"vf-"+k},h("b",null,s.label)), " ", h("code",null,"{{sfn|"+s.sfn+"|p=…}}"), " ",
+        h("span",{class:"pill "+(used ? (S.verified[k]?"good":"warn") : "")}, used ? (S.verified[k] ? "cited · checked" : "cited · not checked yet") : "not cited"),
+        h("div",{class:"meta"}, s.note, s.url ? [" ", h("a",{href:s.url,target:"_blank",rel:"noopener"},"Open")] : null)));
+  });
+  return h("div",{class:"stack"},
+    h("div",{class:"panelhead"},h("div",null,h("div",{class:"kicker"},"Finish"),h("h2",null,"Sources and links"))),
+    h("div",{class:"notice"},"Tick a source once you have checked its details yourself: title, author, year, ISBN or DOI on WorldCat, or the document itself. The export lists only sources you actually cite."),
+    h("div",{class:"card"},h("h3",null,"Citable sources"),rows),
+    h("div",{class:"two"},
+      h("div",{class:"card"},h("h3",null,"Further reading (pick 4–6)"),h("div",{class:"list"},Object.keys(FURTHER).map(function(k){return checkboxRow(S.further,k,FURTHER[k].label,"meta/sources");}))),
+      h("div",{class:"stack"},
+        h("div",{class:"card"},h("h3",null,"External links"),h("div",{class:"list"},Object.keys(LINKS).map(function(k){return checkboxRow(S.links,k,LINKS[k].label,"meta/sources");})),
+          h("p",{class:"small"},"Never add 37practices.space (conflict of interest).")),
+        h("div",{class:"card"},h("h3",null,"Categories (wrapped in {{Draft categories}})"),h("div",{class:"list"},CATS.map(function(c){return checkboxRow(S.cats,c,c+(c==="Kadampa lamas"?" (only if your text sources it)":""),"meta/sources");}))))));
+}
+function panelCheck(){
+  const t = totals(); const keys = citedKeys();
+  const unverified = Object.keys(SRC).filter(function(k){ return keys.indexOf(SRC[k].sfn)>=0 && !state.sources.verified[k]; });
+  const allHits = []; let noCite = 0;
+  SECTIONS.forEach(function(s){ const txt = state.sections[s.id].text; if (state.sections[s.id].status==="skip") return; noCite += paragraphsWithoutCite(txt); watchHits(txt).forEach(function(w){ allHits.push({sec:s.nav, w:w}); }); });
+  const unread = SECTIONS.filter(function(s){ const st=state.sections[s.id]; return st.text.trim() && st.status!=="skip" && !st.read; });
+  const auto = [
+    [t.chars>1500, fmt(t.chars)+" prose characters"+(t.chars>1500?" (enough for Did You Know)":" (Did You Know needs more than 1,500)")],
+    [noCite===0, noCite ? noCite+" paragraph(s) without a closing citation" : "Every paragraph ends with a citation"],
+    [unverified.length===0, unverified.length ? "Cited but not yet checked: "+unverified.map(function(k){return SRC[k].label;}).join(", ") : "Every cited source is ticked as checked"],
+    [allHits.filter(function(x){return x.w.k==="bad";}).length===0, allHits.length ? allHits.length+" word-to-watch flag(s) across sections" : "No word-to-watch flags"],
+    [unread.length===0, unread.length ? "Not yet marked “I read the cited pages”: "+unread.map(function(s){return s.nav;}).join(", ") : "Every written section is marked as read"],
+    [unknownSfn().length===0, unknownSfn().length ? "Citations with no full source: "+unknownSfn().join(", ") : "Every citation has a full source"]
+  ];
+  return h("div",{class:"stack"},
+    h("div",{class:"panelhead"},h("div",null,h("div",{class:"kicker"},"Finish"),h("h2",null,"Pre-submission check"))),
+    h("div",{class:"card"},h("h3",null,"Measured from your text"),
+      h("div",{class:"list"}, auto.map(function(a){ return h("div",{class:"flag"},h("span",{class:"k "+(a[0]?"":"warn"),style:a[0]?"background:var(--good-soft);color:var(--good)":""}, a[0]?"ok":"todo"), h("span",null,a[1])); }))),
+    h("div",{class:"card"},h("h3",null,"Your own checks"),h("div",{class:"list"},PRECHECK.map(function(r){return checkboxRow(state.checklist.items,r[0],r[1],"meta/checklist");}))));
+}
+function panelExport(){
+  const s = state.setup;
+  const article = buildArticle(), talk = buildTalk();
+  const title = (s.draftTitle||"Gyalse Tokme Zangpo").trim();
+  const draftUrl = "https://en.wikipedia.org/w/index.php?title="+encodeURIComponent("Draft:"+title).replace(/%20/g,"_")+"&action=edit";
+  const talkUrl = "https://en.wikipedia.org/w/index.php?title="+encodeURIComponent("Draft talk:"+title).replace(/%20/g,"_")+"&action=edit";
+  function field(key, label, ph){
+    const id = "ex-"+key;
+    return h("div",{class:"field"},h("label",{for:id},label),h("input",{type:"text",id:id,value:s[key]||"",placeholder:ph,disabled:readOnly,
+      oninput:function(e){ s[key]=e.target.value; schedule("meta/setup"); clearTimeout(panelExport.t); panelExport.t = setTimeout(function(){ $("#out-article").textContent = buildArticle(); $("#out-talk").textContent = buildTalk(); }, 250); }}));
+  }
+  const b1 = h("button",{class:"btn primary",type:"button","data-label":"Copy article wikitext",onclick:function(){copyText(buildArticle(), b1);}},"Copy article wikitext");
+  const b2 = h("button",{class:"btn",type:"button","data-label":"Download as .txt",onclick:function(){offerFile("Draft-"+title.replace(/\s+/g,"-")+".txt", buildArticle(), b2);}},"Download as .txt");
+  const b3 = h("button",{class:"btn",type:"button","data-label":"Copy talk page",onclick:function(){copyText(buildTalk(), b3);}},"Copy talk page");
+  const b4 = h("button",{class:"btn",type:"button","data-label":"Download backup (.json)",onclick:function(){offerFile("tokme-workbench-backup-"+new Date().toISOString().slice(0,10)+".json", JSON.stringify(state,null,2), b4);}},"Download backup (.json)");
+  const fileIn = h("input",{type:"file",id:"restore",accept:".json,application/json"});
+  const restoreMsg = h("span",{class:"small"});
+  let pending = null;
+  const confirmBtn = h("button",{class:"btn",type:"button",hidden:true,onclick:function(){
+    if (!pending) return;
+    SECTIONS.forEach(function(sec){ if (pending.sections && pending.sections[sec.id]){ Object.assign(state.sections[sec.id], pending.sections[sec.id], {updatedAt:Date.now()}); schedule("sections/"+sec.id, 200); } });
+    ["infobox","setup","sources","checklist"].forEach(function(k){ if (pending[k]){ state[k] = Object.assign(state[k], pending[k]); schedule("meta/"+k, 300); } });
+    pending = null; restoreMsg.textContent = "Restored."; confirmBtn.hidden = true; render();
+  }},"Replace my current work with this backup");
+  fileIn.onchange = function(){
+    const f = fileIn.files && fileIn.files[0]; if (!f) return;
+    const r = new FileReader();
+    r.onload = function(){ try{ pending = JSON.parse(r.result); if (!pending || !pending.sections) throw 0; restoreMsg.textContent = "Backup loaded. This replaces what's here."; confirmBtn.hidden = false; }catch(e){ pending=null; restoreMsg.textContent = "That file isn't a workbench backup."; } };
+    r.readAsText(f);
+  };
+  return h("div",{class:"stack"},
+    h("div",{class:"panelhead"},h("div",null,h("div",{class:"kicker"},"Finish"),h("h2",null,"Export to Wikipedia"))),
+    h("div",{class:"card"},h("div",{class:"fields"},
+      field("draftTitle","Draft title","Gyalse Tokme Zangpo"),
+      field("sd","Short description (under ~40 characters)","Tibetan Buddhist monk (…–…)"),
+      field("username","Your Wikipedia username","for the talk-page disclosure"),
+      field("note","Disclosure note, in your own words","e.g. what you run and your connection to the text"))),
+    h("div",{class:"notice warnbox"},"Paste into ",h("a",{href:draftUrl,target:"_blank",rel:"noopener"},"Draft:"+title)," using the source editor, press ",h("b",null,"Show preview")," and fix any red errors. Then save and click ",h("b",null,"Submit the draft for review"),". Saving alone doesn't submit it."),
+    h("div",{class:"card"},h("div",{class:"row",style:"display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px"},b1,b2),h("pre",{class:"out",id:"out-article"},article)),
+    h("div",{class:"card"},h("h3",null,"Draft talk page"),
+      h("p",{class:"small"},"Paste into ",h("a",{href:talkUrl,target:"_blank",rel:"noopener"},"Draft talk:"+title),". Write any talk-page messages yourself (WP:AITALK)."),
+      h("div",{class:"row",style:"display:flex;gap:8px;margin-bottom:10px"},b3),h("pre",{class:"out",id:"out-talk"},talk)),
+    h("div",{class:"card"},h("h3",null,"Backup"),
+      h("p",{class:"small"},"Your work saves automatically. A backup file is a second copy you control."),
+      h("div",{style:"display:flex;flex-wrap:wrap;gap:8px;align-items:center"},b4, h("label",{for:"restore",class:"small"},"Restore:"), fileIn, confirmBtn, restoreMsg)));
+}
+
+/* ---------- Render ---------- */
+function render(){
+  renderNav(); renderMeters();
+  const view = $("#view");
+  const focusId = document.activeElement && document.activeElement.id;
+  const sel = focusId && document.activeElement.selectionStart!=null ? [document.activeElement.selectionStart, document.activeElement.selectionEnd] : null;
+  view.textContent = "";
+  let node;
+  if (current==="setup") node = panelSetup();
+  else if (current==="infobox") node = panelInfobox();
+  else if (current==="sourcelist") node = panelSources();
+  else if (current==="check") node = panelCheck();
+  else if (current==="export") node = panelExport();
+  else { const sec = SECTIONS.find(function(s){return s.id===current;}); node = sec ? panelSection(sec) : panelSetup(); }
+  view.append(node);
+  if (SECTIONS.some(function(s){return s.id===current;})) refreshChecks(current);
+  if (focusId){ const el = document.getElementById(focusId); if (el){ el.focus(); if (sel && el.setSelectionRange) try{ el.setSelectionRange(sel[0], sel[1]); }catch(e){} } }
+}
+
+loadLocal();
+render();
+connect();
+})();
+</script>

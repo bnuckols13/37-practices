@@ -1,0 +1,1464 @@
+{
+  "unit": "cp.20",
+  "proposals": [
+    {
+      "id": "khamana",
+      "type": "term",
+      "en": "khamaṇa",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "sky-mind"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খমণভতারে",
+          "translit": "khamaṇabhatāre",
+          "lemma": "khamaṇa",
+          "att": "AS",
+          "where": "cp.20.1a"
+        },
+        {
+          "lang": "san",
+          "script": "খমণেতি",
+          "translit": "khamaṇeti",
+          "lemma": "khamaṇa",
+          "att": "AS",
+          "where": "cp.20.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའི་ཡིད",
+          "translit": "nam mkha'i yid",
+          "lemma": "nam mkha'i yid",
+          "att": "AO",
+          "where": "cp.20.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའི་ཡིད་ཅན",
+          "translit": "nam mkha'i yid can",
+          "lemma": "nam mkha'i yid can",
+          "att": "AO",
+          "where": "cp.20.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "খমণ"
+        },
+        {
+          "lang": "san",
+          "form": "খমণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའི་ཡིད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense naming the speaker's husband in the first line of song 20 (khamaṇabhatāre). It can be divided as kha, 'sky', and maṇa, 'mind', as the Tibetan does (nam mkha'i yid, 'sky-mind'); Prakrit khamaṇa can also mean a Jain ascetic (Sanskrit kṣapaṇa). Munidatta explains it as the wholly empty mind (cp.20.m2).",
+      "symbolicImage": "khamaṇa, the speaker's husband",
+      "symbolicReadings": [
+        {
+          "referent": "the mind, wholly empty (sarvaśūnyaṃ manaḥ), as the lord (svāmin) of the speaker, whom he takes to be the Blessed Lady Nairātmā; the Tibetan comment has 'having a sky-mind' (nam mkha'i yid can) and 'the lord of the mind, in the all-empty'",
+          "per": "Munidatta",
+          "where": [
+            "cp.20.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "empty mind",
+        "wholly empty mind",
+        "emptiness",
+        "void"
+      ],
+      "rationale": "The key image of the song's first line, of uncertain derivation, with an explicit gloss by Munidatta and a different literal reading in the Tibetan; keeping the source form lets the first-occurrence note carry the options (sky-mind, Jain ascetic) until the reviewer decides."
+    },
+    {
+      "id": "husband",
+      "type": "term",
+      "en": "husband",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খমণভতারে",
+          "translit": "khamaṇabhatāre",
+          "lemma": "bhatāra",
+          "att": "AS",
+          "where": "cp.20.1a"
+        },
+        {
+          "lang": "san",
+          "script": "মনঃস্বামী",
+          "translit": "manaḥsvāmī",
+          "lemma": "svāmin",
+          "att": "AS",
+          "where": "cp.20.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་པོ",
+          "translit": "bdag po",
+          "lemma": "bdag po",
+          "att": "AO",
+          "where": "cp.20.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভতার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The husband (Old Bengali bhatāra, from Sanskrit bhartṛ, 'supporter, lord'). In the first line of song 20 the woman who speaks calls hers khamaṇa. Munidatta renders the word svāmin, 'lord, master' (cp.20.m2); the Tibetan has bdag, 'lord', in the line and bdag po in the comment. Compare the other kin of the songs' household, such as the mother-in-law and father-in-law.",
+      "symbolicImage": "the speaker's husband, khamaṇa",
+      "symbolicReadings": [
+        {
+          "referent": "the wholly empty mind (sarvaśūnyaṃ manaḥ) as lord (svāmin): through its attachment to love-play (surata; the syllable ra is Shastri's restoration, and the Tibetan has 'great bliss', shin du bde ba), the speaker's experience of imperishable bliss cannot be told",
+          "per": "Munidatta",
+          "where": [
+            "cp.20.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "empty mind",
+        "wholly empty mind",
+        "lord of the mind"
+      ],
+      "rationale": "A kinship image of the songs' household, beside the existing entries for mother, mother-in-law, father-in-law and husband's sister, here glossed by Munidatta; the Sanskrit svāmin is given as a form only and not matched, since elsewhere it means simply 'lord'."
+    },
+    {
+      "id": "bigoa",
+      "type": "term",
+      "en": "bigoā",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "experience",
+        "plight"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিগোআ",
+          "translit": "bigoā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.20.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉམས་མྱོང",
+          "translit": "nyams myong",
+          "lemma": "nyams myong",
+          "att": "AO",
+          "where": "cp.20.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিগোআ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense and derivation in the first couplet of song 20: the speaker says her bigoā cannot be told. The Tibetan line has nyams myong, 'experience', and Munidatta's paraphrase puts 'my experience of the imperishable bliss of distinguished union' in its place (cp.20.m2). Whether the Old Bengali meant this, or something like 'plight', is uncertain.",
+      "symbolicImage": "the speaker's bigoā, which cannot be told",
+      "symbolicReadings": [
+        {
+          "referent": "the speaker's experience of the imperishable bliss of distinguished union (viśiṣṭasaṃyogākṣarasukhānubhava), which cannot be known through speech in any way (his paraphrase puts it where the song has mohora bigoā; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.20.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "imperishable bliss",
+        "bliss",
+        "union"
+      ],
+      "rationale": "An obscure word in the refrain-bearing first couplet, read the same way by the Tibetan and Munidatta but not certainly so in Old Bengali; keeping the source form with a gloss flags the doubt, as the glossary does for bhābhariālī and biātī (the Tibetan nyams myong is too common to match)."
+    },
+    {
+      "id": "vasana",
+      "type": "term",
+      "en": "habitual tendencies",
+      "policy": "translate",
+      "alt": [
+        "latent impressions",
+        "imprints"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাসনপূড়",
+          "translit": "bāsanapūṛa",
+          "lemma": "bāsana",
+          "att": "AS",
+          "where": "cp.20.3a"
+        },
+        {
+          "lang": "san",
+          "script": "সংবৃত্তিবাসনাপুটং",
+          "translit": "saṃvṛttivāsanāpuṭaṃ",
+          "lemma": "vāsanā",
+          "att": "AS",
+          "where": "cp.20.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বাসনা",
+          "translit": "vāsanā",
+          "lemma": "vāsanā",
+          "att": "AS",
+          "where": "cp.20.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བག་ཆགས",
+          "translit": "bag chags",
+          "lemma": "bag chags",
+          "att": "AO",
+          "where": "cp.20.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাসনপূড়"
+        },
+        {
+          "lang": "san",
+          "form": "বাসনা"
+        },
+        {
+          "lang": "bod",
+          "form": "བག་ཆགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Habitual tendencies (vāsanā; Tibetan bag chags): latent impressions left by past actions and perceptions, which shape later experience and keep the round of birth turning; a key Yogācāra term. Song 20 (3a) has bāsanapūṛa, which Munidatta renders vāsanāpuṭa, 'casket of tendencies', and the Tibetan 'wrapped in tendencies'; he says examination finds no vāsanā at all (cp.20.m4).",
+      "symbolicImage": "bāsanapūṛa, the packet (?) of tendencies that the speaker says was her first biāṇa",
+      "symbolicReadings": [
+        {
+          "referent": "this body, born at first as a casket (puṭa) of conventional tendencies (saṃvṛtivāsanāpuṭa); when its channels, the thirty-two goddesses, are examined, that wretched vāsanā is not found; the Tibetan line has instead 'my consciousness wrapped in tendencies' (rnam shes bag chags gtums)",
+          "per": "Munidatta",
+          "where": [
+            "cp.20.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "body"
+      ],
+      "rationale": "A basic doctrinal term, in the song and twice in the comment, which the Tibetan confirms; 'habitual tendencies' is plain and fits both the Sanskrit and bag chags (a bare বাসন would over-match, so the song's compound is matched whole)."
+    },
+    {
+      "id": "pindikrama",
+      "type": "term",
+      "en": "piṇḍīkrama",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "condensed sequence"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পিণ্ডীক্রমানুপূর্ব্ব্যা",
+          "translit": "piṇḍīkramānupūrvvyā",
+          "lemma": "piṇḍīkrama",
+          "att": "AS",
+          "where": "cp.20.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পিণ্ডীক্রম"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Condensed sequence' (piṇḍī, 'lump, compact whole'; krama, 'sequence, stage'), a term of the Guhyasamāja tradition, in which a sādhana ascribed to Nāgārjuna is known as the Piṇḍīkrama. Munidatta says that when the body, whose channels are the thirty-two goddesses, is examined in the order of the piṇḍīkrama on the authority of the true guru's words, vāsanā is not found (cp.20.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of tantric practice that a reader cannot parse unaided; Munidatta does not explain it and the Tibetan comment is lost here, so the source form is kept with a gloss."
+    },
+    {
+      "id": "yauvana",
+      "type": "term",
+      "en": "youth",
+      "policy": "translate",
+      "alt": [
+        "prime of youth"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জৌবণ",
+          "translit": "jaubaṇa",
+          "lemma": "jaubaṇa",
+          "att": "AS",
+          "where": "cp.20.4a"
+        },
+        {
+          "lang": "san",
+          "script": "নবযৌবনেত্যাদি",
+          "translit": "navayauvanetyādi",
+          "lemma": "yauvana",
+          "att": "AS",
+          "where": "cp.20.m5"
+        },
+        {
+          "lang": "san",
+          "script": "নবযৌবনমিতি",
+          "translit": "navayauvanamiti",
+          "lemma": "yauvana",
+          "att": "AS",
+          "where": "cp.20.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོན་ནུ་དར་མ",
+          "translit": "gzhon nu dar ma",
+          "lemma": "gzhon nu",
+          "att": "AO",
+          "where": "cp.20.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জৌবণ"
+        },
+        {
+          "lang": "san",
+          "form": "যৌবন"
+        },
+        {
+          "lang": "bod",
+          "form": "གཞོན་ནུ་དར་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Youth, the prime of life (Old Bengali jaubaṇa, Sanskrit yauvana). In song 20 (4a) the speaker's youth has become full; the Tibetan line has 'my youthful prime became complete'. Munidatta cites the line as navayauvana, 'fresh youth', where Shastri's text has jāṇa jaubaṇa, and says it is made by withdrawing the sphere of sense objects (cp.20.m5).",
+      "symbolicImage": "the speaker's youth, grown full",
+      "symbolicReadings": [
+        {
+          "referent": "fresh youth (navayauvana), made by the withdrawal of the maṇḍala of sense objects (viṣayamaṇḍalopasaṃhāra); by its power, addressing himself as 'body-vajra', the practitioner has become beautiful with the body of the great Vajradhara, with its thirty-two marks and eighty signs",
+          "per": "Munidatta",
+          "where": [
+            "cp.20.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "withdrawal of sense objects",
+        "sense objects",
+        "body-vajra",
+        "Vajradhara"
+      ],
+      "rationale": "An image of the song with an explicit reading in the comment, and a reading difference (navayauvana against jāṇa jaubaṇa) the reviewer should see; 'youth' is the plain sense (the bare Tibetan gzhon nu is not matched, since it also means 'young' in other phrases)."
+    },
+    {
+      "id": "root",
+      "type": "term",
+      "en": "root",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মূল",
+          "translit": "mūla",
+          "lemma": "mūla",
+          "att": "AS",
+          "where": "cp.20.4b"
+        },
+        {
+          "lang": "san",
+          "script": "মূলং",
+          "translit": "mūlaṃ",
+          "lemma": "mūla",
+          "att": "AS",
+          "where": "cp.20.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩ་བ",
+          "translit": "rtsa ba",
+          "lemma": "rtsa ba",
+          "att": "AO",
+          "where": "cp.20.4b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মূল(?:ং|ম্|ে|স্য)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মূল(?:ং|ম্|ে|স্য)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A root (Sanskrit and Old Bengali mūla). In song 20 (4b) the speaker does something to the root (nakhali, of uncertain sense; Munidatta has nikṛtti, 'cutting') before the father is destroyed; the Tibetan line seems to say 'gathers what fell at the root'. Munidatta glosses the root as conventional bodhicitta (cp.20.m5). Not the root of the jewel.",
+      "symbolicImage": "the root that the speaker cuts",
+      "symbolicReadings": [
+        {
+          "referent": "conventional bodhicitta (saṃvṛtibodhicitta), whose cutting (nikṛtti) was done by Kukkurīpāda, meditating on selflessness, at the root of the jewel, inside the jewel",
+          "per": "Munidatta",
+          "where": [
+            "cp.20.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "conventional bodhicitta",
+        "semen"
+      ],
+      "rationale": "An image with an explicit gloss (mūlaṃ saṃvṛtibodhicittam); matched only as a whole word so that it does not claim maṇimūla or tanmūla, and not matched in Tibetan, where rtsa ba is too common."
+    },
+    {
+      "id": "father",
+      "type": "term",
+      "en": "father",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাপ",
+          "translit": "bāpa",
+          "lemma": "bāpa",
+          "att": "AS",
+          "where": "cp.20.4b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বাপ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The father (Old Bengali bāpa, modern Bengali bāp). In song 20 (4b), after the root is cut, the father is destroyed (saṃghārā), a violent paradox like the killing of the mother in song 11. Munidatta's comment does not mention him, and the Tibetan line has no father. Not to be confused with bāpūṛā, 'poor wretch', in 3b.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A kinship image of the songs' household (compare mother, father-in-law), so that it is rendered and noted consistently; no reading is attested, so none is given. Matched as a whole word only, since বাপ also stands inside bāpuṛā and Virūpa's name."
+    },
+    {
+      "id": "amrta",
+      "type": "term",
+      "en": "nectar",
+      "policy": "translate",
+      "alt": [
+        "ambrosia",
+        "elixir of immortality"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞাপারমিতার্থামৃতপানপরিতুষ্টা",
+          "translit": "prajñāpāramitārthāmṛtapānaparituṣṭā",
+          "lemma": "amṛta",
+          "att": "AS",
+          "where": "cp.20.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "བདུད་རྩི",
+          "translit": "bdud rtsi",
+          "lemma": "bdud rtsi",
+          "att": "AO",
+          "where": "cp.20.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བདུད་རྩི"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:অ|(?<=া))মৃত(?!্য)"
+        }
+      ],
+      "definition": "Amṛta, 'deathless': the drink of immortality of Indian myth, and in Buddhist writing a figure for the teaching and for liberation; the tantras also give the name to purified substances. Munidatta opens his comment on song 20 by calling Kukkurīpāda fully satisfied by drinking the nectar of the meaning of the perfection of wisdom (cp.20.m1). Tibetan bdud rtsi.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A recurring word of Munidatta's praise of the poets (also in bodhicittāmṛta elsewhere) and a frequent Tibetan word (bdud rtsi); the regex finds it after a joined ā without claiming mṛtyu, 'death'. 'Nectar' already renders rasa in 'lotus nectar', so the reviewer may prefer another word."
+    },
+    {
+      "id": "adhimukti",
+      "type": "term",
+      "en": "resolve",
+      "policy": "translate",
+      "alt": [
+        "conviction",
+        "devoted resolve"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নৈরাত্মাযোগিনীমধিমুচ্য",
+          "translit": "nairātmāyoginīm adhimucya",
+          "lemma": "adhimuc",
+          "att": "AS",
+          "where": "cp.20.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷག་པར་མོས",
+          "translit": "lhag par mos",
+          "lemma": "lhag par mos pa",
+          "att": "AO",
+          "where": "cp.20.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধিমুচ্য"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷག་པར་མོས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Resolve or firm conviction (Sanskrit adhimukti, verb adhi-muc): settled, devoted confidence; in the tantras also the conviction that one is the deity. Munidatta says Kukkurīpāda speaks having resolved on himself as that very meaning, the Blessed Lady Nairātmā yoginī (cp.20.m1), so that in his reading the 'I' of the song is Nairātmā (cp.20.m2). The Tibetan has lhag par mos.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A formula of Munidatta's introductions (the same verb, adhimucya, is in his comment on song 2, which the biātī entry renders 'having resolved on'); it explains why the song speaks in a woman's voice, so a fixed rendering helps."
+    },
+    {
+      "id": "abhyasa",
+      "type": "term",
+      "en": "practice",
+      "policy": "translate",
+      "alt": [
+        "repeated practice"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অভ্যাসফলমাহ",
+          "translit": "abhyāsaphalamāha",
+          "lemma": "abhyāsa",
+          "att": "AS",
+          "where": "cp.20.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অভ্যাস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Practice (abhyāsa): repeated application to a meditation or instruction until it becomes second nature. Munidatta introduces couplet 4 of song 20, his 'third verse', as stating 'the fruit of practice' (abhyāsaphala) (cp.20.m5), after a verse on examination (vicāra) and before one on direct realization.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the words by which Munidatta labels what each verse teaches (compare examination and direct realization), worth rendering the same way each time; the Tibetan of this passage is lost."
+    },
+    {
+      "id": "saksatkara",
+      "type": "term",
+      "en": "direct realization",
+      "policy": "translate",
+      "alt": [
+        "direct experience"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সাক্ষাৎকারিত্বমাহ",
+          "translit": "sākṣātkāritvamāha",
+          "lemma": "sākṣātkāra",
+          "att": "AS",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མངོན་སུམ་དུ་བྱས",
+          "translit": "mngon sum du byas",
+          "lemma": "mngon sum du byed pa",
+          "att": "AO",
+          "where": "cp.20.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সাক্ষাৎকার"
+        },
+        {
+          "lang": "bod",
+          "form": "མངོན་སུམ་དུ་བྱས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Direct realization (sākṣātkāra, 'making before the eyes'): knowing something by immediate experience rather than by inference or report. Munidatta introduces the last couplet of song 20, his 'fourth verse', as stating direct realization (cp.20.m6), and says Guḍḍarī has directly realized the vajra-like samādhi (cp.04.m6). The Tibetan has mngon sum du byas pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A recurring term of Munidatta's for the goal of practice, here labelling a whole verse; it needs one rendering, and the Tibetan equivalent is distinctive enough to match."
+    },
+    {
+      "id": "laksana-vyanjana",
+      "type": "term",
+      "en": "marks and signs",
+      "policy": "translate",
+      "alt": [
+        "major and minor marks"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দ্বাত্রিংশল্লক্ষণব্যঞ্জনাশীতিমহাবজ্রধরশরীরসুন্দরো",
+          "translit": "dvātriṃśallakṣaṇavyañjanāśītimahāvajradharaśarīrasundaro",
+          "lemma": "lakṣaṇa",
+          "att": "AS",
+          "where": "cp.20.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་སུམ་ཅུ་རྩ་གཉིས",
+          "translit": "mtshan sum cu rtsa gnyis",
+          "lemma": "mtshan",
+          "att": "AO",
+          "where": "cp.20.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔེ་བྱད་བཟང་པོ་བརྒྱད་ཅུ",
+          "translit": "dpe byad bzang po brgyad cu",
+          "lemma": "dpe byad",
+          "att": "AO",
+          "where": "cp.20.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "লক্ষণব্যঞ্জন"
+        },
+        {
+          "lang": "bod",
+          "form": "མཚན་སུམ་ཅུ་རྩ་གཉིས"
+        },
+        {
+          "lang": "bod",
+          "form": "དཔེ་བྱད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The thirty-two major marks (lakṣaṇa) and eighty minor signs (vyañjana) on the body of a buddha or universal monarch, such as the uṣṇīṣa and the wheels on palms and soles. Munidatta says that by the power of fresh youth the practitioner has become beautiful with the great Vajradhara's body, which bears them (cp.20.m5). Tibetan mtshan, dpe byad bzang po.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard doctrinal set that a reader needs identified; one entry covers the pair as Munidatta names it in one compound, and both Tibetan phrases are distinctive."
+    },
+    {
+      "id": "p-kukkuri",
+      "type": "person",
+      "en": "Kukkurīpāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুক্কুরীপাএ",
+          "translit": "kukkurīpāe",
+          "lemma": "Kukkurīpāda",
+          "att": "AS",
+          "where": "cp.20.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কুক্কুরিপাদাঃ",
+          "translit": "kukkuripādāḥ",
+          "lemma": "Kukkurīpāda",
+          "att": "AS",
+          "where": "cp.20.m1"
+        },
+        {
+          "lang": "san",
+          "script": "কুক্কুরিপাদেন",
+          "translit": "kukkuripādena",
+          "lemma": "Kukkurīpāda",
+          "att": "AS",
+          "where": "cp.20.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུཀྐུ་རཱིའི་ཞབས",
+          "translit": "kuk+ku rI'i zhabs",
+          "lemma": "kuk+ku rI",
+          "att": "AO",
+          "where": "cp.20.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུཀྐུ་རཱི་པའི",
+          "translit": "kuk+ku rI pa'i",
+          "lemma": "kuk+ku rI pa",
+          "att": "AO",
+          "where": "cp.20.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུཀྐུ་རཱི་པའི་ཞབས",
+          "translit": "kuk+ku rI pa'i zhabs",
+          "lemma": "kuk+ku rI pa",
+          "att": "AO",
+          "where": "cp.20.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কুক্কুরীপা"
+        },
+        {
+          "lang": "san",
+          "form": "কুক্কুরীপা"
+        },
+        {
+          "lang": "san",
+          "form": "কুক্কুরিপা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀུཀྐུ་རཱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet to whom songs 2 and 20 are attributed; he names himself in the last couplet of each. The name joins kukkurī, 'female dog', with the honorific -pāda. Munidatta introduces him in song 20 as fully satisfied by drinking the nectar of the meaning of the perfection of wisdom (cp.20.m1).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the bhaṇitā spelling without candrabindu, the comment's short-i kukkuripāda, and the Tibetan kuk+ku rI with a long vowel, none of which is among the listed forms; stem matches catch every case ending."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "པ་ཊ་མཉྫ་རཱི",
+          "translit": "pa Ta many+dza rI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.20.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "པ་ཊ་མཉྫ་རཱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which several songs, among them songs 1 and 20, are sung, given in their headings. In the heading of song 20 the Tibetan translation transcribes it pa Ta many+dza rI, without the ha of its other spellings.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan form only, read off the heading of song 20."
+    },
+    {
+      "id": "p-bhagavati",
+      "type": "person",
+      "en": "Blessed Lady",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བཅོམ་ལྡན་འདས་མ",
+          "translit": "bcom ldan 'das ma",
+          "lemma": "bcom ldan 'das ma",
+          "att": "AO",
+          "where": "cp.20.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བཅོམ་ལྡན་འདས་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'The Blessed Lady' (bhagavatī), feminine of bhagavat, an epithet of goddesses in the tantras, which Munidatta gives to Nairātmā. In song 20 he says the poet speaks as the Blessed Lady Nairātmā yoginī (cp.20.m1, cp.20.m2); there the Tibetan has the feminine bcom ldan 'das ma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan form only: the feminine bcom ldan 'das ma, which, as the longer form, keeps the Blessed Lady apart from the Blessed One (bcom ldan 'das) in the Tibetan."
+    },
+    {
+      "id": "prajnaparamita",
+      "type": "term",
+      "en": "perfection of wisdom",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞাপারমিতার্থামৃতপানপরিতুষ্টা",
+          "translit": "prajñāpāramitārthāmṛtapānaparituṣṭā",
+          "lemma": "prajñāpāramitā",
+          "att": "AS",
+          "where": "cp.20.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ",
+          "translit": "shes rab kyi pha rol tu phyin pa",
+          "lemma": "shes rab kyi pha rol tu phyin pa",
+          "att": "AO",
+          "where": "cp.20.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রজ্ঞাপারমিতা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The perfection of wisdom (prajñāpāramitā): the wisdom that realizes the emptiness of all things, chief of the bodhisattva's perfections, also personified as a goddess. Munidatta says Kukkurīpāda is fully satisfied by drinking the nectar of its meaning (cp.20.m1); the Tibetan has shes rab kyi pha rol tu phyin pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the Sanskrit compound of song 20 and the Tibetan in its usual (not feminine) form; a stem match for each."
+    },
+    {
+      "id": "vicara",
+      "type": "term",
+      "en": "examination",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিআরন্তে",
+          "translit": "biārante",
+          "lemma": "biāra",
+          "att": "AS",
+          "where": "cp.20.3b"
+        },
+        {
+          "lang": "san",
+          "script": "বিচারস্বরূপমাহ",
+          "translit": "vicārasvarūpamāha",
+          "lemma": "vicāra",
+          "att": "AS",
+          "where": "cp.20.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বিচার্য্যমাণে",
+          "translit": "vicāryyamāṇe",
+          "lemma": "vicar",
+          "att": "AS",
+          "where": "cp.20.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་དཔྱོད",
+          "translit": "rnam dpyod",
+          "lemma": "rnam dpyod",
+          "att": "AO",
+          "where": "cp.20.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিআরন্তে"
+        },
+        {
+          "lang": "san",
+          "form": "বিচার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Examination or analysis (vicāra): probing something by discursive thought. In song 20 (3b) the channels are examined (biārante); Munidatta says that verse states the nature of examination, and that when the body is examined in this way vāsanā is not found (cp.20.m4). The Tibetan line has rnam dpyod.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the Old Bengali biārante of song 20, Munidatta's vicāra and vicāryamāṇa, and the Tibetan of the line, which confirms the reading."
+    },
+    {
+      "id": "vira",
+      "type": "term",
+      "en": "hero",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বীরা",
+          "translit": "bīrā",
+          "lemma": "bīra",
+          "att": "AS",
+          "where": "cp.20.5b"
+        },
+        {
+          "lang": "san",
+          "script": "বীরাঃ",
+          "translit": "vīrāḥ",
+          "lemma": "vīra",
+          "att": "AS",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔའ་བོ",
+          "translit": "dpa' bo",
+          "lemma": "dpa' bo",
+          "att": "AO",
+          "where": "cp.20.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বীরা"
+        },
+        {
+          "lang": "san",
+          "form": "বীরা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Hero; in the yoginī tantras also a title of the male adept. The last line of song 20 says that whoever understands here is a hero here; Munidatta says the lords of yogis are heroes because they crush the enemy, the sense objects, in this maṇḍala of existence (cp.20.m6). Here, unlike in song 4, the Tibetan line has dpa' bo.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: bīrā in the last line of song 20, vīrāḥ in the comment, and the Tibetan dpa' bo of the line, which the entry's song-4 line lacked."
+    },
+    {
+      "id": "sthira",
+      "type": "term",
+      "en": "steady",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "থিরা",
+          "translit": "thirā",
+          "lemma": "thira",
+          "att": "AS",
+          "where": "cp.20.5a"
+        },
+        {
+          "lang": "san",
+          "script": "স্থিরমিতি",
+          "translit": "sthiramiti",
+          "lemma": "sthira",
+          "att": "AS",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟན་པར",
+          "translit": "brtan par",
+          "lemma": "brtan pa",
+          "att": "AO",
+          "where": "cp.20.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "থির"
+        },
+        {
+          "lang": "san",
+          "form": "স্থির"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Steady, still (Old Bengali thira, Sanskrit sthira). In song 20 Kukkurīpāda says that existence is steady (5a); Munidatta explains 'steady' as 'having made it steady' (cp.20.m6). The Tibetan line has brtan par.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: thirā and sthira in song 20 and its comment, with the Tibetan of the line."
+    },
+    {
+      "id": "bhava",
+      "type": "term",
+      "en": "existence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভব",
+          "translit": "bhaba",
+          "lemma": "bhaba",
+          "att": "AS",
+          "where": "cp.20.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ভবঃ",
+          "translit": "bhavaḥ",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "san",
+          "script": "ভবমণ্ডলে",
+          "translit": "bhavamaṇḍale",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པ",
+          "translit": "srid pa",
+          "lemma": "srid pa",
+          "att": "AO",
+          "where": "cp.20.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভব(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভবঃ?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভব(?=মণ্ডল)"
+        }
+      ],
+      "definition": "Existence or becoming (bhava): the round of repeated birth. In song 20 Kukkurīpāda says existence is steady (5a); Munidatta says 'this conventional bodhicitta is existence' and speaks of the maṇḍala of existence (cp.20.m6). The Tibetan has srid pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only, matched as whole words (a bare ভব stands inside bhavati, sambhava and the like); bhava is matched before maṇḍala by lookahead so that the maṇḍala entry keeps its own hit."
+    },
+    {
+      "id": "mother",
+      "type": "term",
+      "en": "mother",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাএ",
+          "translit": "māe",
+          "lemma": "māa",
+          "att": "AS",
+          "where": "cp.20.2a"
+        },
+        {
+          "lang": "san",
+          "script": "মাতর্নৈরাত্মে",
+          "translit": "mātar nairātme",
+          "lemma": "mātṛ",
+          "att": "AS",
+          "where": "cp.20.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মাতর"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মাএ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The mother (Old Bengali māa, from Sanskrit mātṛ). In the refrain of song 20 the speaker cries go māe, 'O mother'; Munidatta takes it as her address to herself, 'O mother, Nairātmā' (cp.20.m3). The Tibetan line has kye'i mi khyod, 'O you', with no mother.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the vocative māe of song 20 (matched as a whole word) and Munidatta's mātar."
+    },
+    {
+      "id": "hut",
+      "type": "term",
+      "en": "hut",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখচক্রস্বকুটীং",
+          "translit": "mahāsukhacakrasvakuṭīṃ",
+          "lemma": "kuṭī",
+          "att": "AS",
+          "where": "cp.20.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ",
+          "translit": "khyim",
+          "lemma": "khyim",
+          "att": "AO",
+          "where": "cp.20.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<!ঘট)কুটী"
+        }
+      ],
+      "definition": "A small dwelling of thatch, bamboo or mud. In his comment on the refrain of song 20 Munidatta speaks of 'her own hut, the wheel of great bliss' (mahāsukhacakrasvakuṭī), which Nairātmā sees (cp.20.m3); the Tibetan has khyim, 'house'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit form only (kuṭī); the regex leaves ghaṭakuṭī, the toll-house of song 15, to its own entry."
+    },
+    {
+      "id": "manimula",
+      "type": "term",
+      "en": "root of the jewel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মণিমূলে",
+          "translit": "maṇimūle",
+          "lemma": "maṇimūla",
+          "att": "AS",
+          "where": "cp.20.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মণিমূল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Root of the jewel': a point in the lower body named in the code language of the yoginī tantras. In song 20 Munidatta says the root, conventional bodhicitta, was cut by Kukkurīpāda at the root of the jewel, inside the jewel (cp.20.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit form only, with a stem match."
+    },
+    {
+      "id": "niranjana",
+      "type": "term",
+      "en": "the stainless",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিরঞ্জনরূপেণ",
+          "translit": "nirañjanarūpeṇa",
+          "lemma": "nirañjana",
+          "att": "AS",
+          "where": "cp.20.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་པ་མེད་པའི་ངོ་བོ",
+          "translit": "dmigs pa med pa'i ngo bo",
+          "lemma": "dmigs pa med pa",
+          "att": "AO",
+          "where": "cp.20.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিরঞ্জন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Without añjana' (eye-black, hence stain): the unstained state of mind. In song 20 Munidatta says the lords of yogis have understood it in its stainless form (nirañjanarūpeṇa) (cp.20.m6); there the Tibetan has 'the nature of non-apprehension' (dmigs pa med pa'i ngo bo) rather than the literal 'without eye-salve'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: the Sanskrit of song 20's comment, and its Tibetan rendering, given as a form but not matched, since dmigs pa med pa belongs to the entry for non-apprehension."
+    },
+    {
+      "id": "lotus",
+      "type": "term",
+      "en": "lotus",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞারবিন্দৈর্",
+          "translit": "prajñāravindair",
+          "lemma": "aravinda",
+          "att": "AS",
+          "where": "cp.20.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "রবিন্দ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The water flower that rises unstained from the mud, a pervasive image in Indian religious poetry. In song 20 Munidatta speaks of 'lotuses of wisdom' (prajñāravinda) beside the lords of yogis, in syntax that is loose; the Tibetan has 'the lotus of wisdom' (shes rab kyi chu skyes) (cp.20.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit form only; the match রবিন্দ finds aravinda after a joined vowel (prajñāravinda, kuliśāravinda), which the existing form অরবিন্দ cannot."
+    },
+    {
+      "id": "dhruvapada",
+      "type": "term",
+      "en": "refrain",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ধ্রুপদেন",
+          "translit": "dhrupadena",
+          "lemma": "dhruvapada",
+          "att": "AS",
+          "where": "cp.20.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধ্রুপদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The refrain of a song, usually its second couplet, sung again after each later couplet. Munidatta names it when commenting on it; in song 20 he spells it dhrupada (cp.20.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit spelling only (dhrupada, without va), with a stem match; ধ্রু alone, the refrain cue, is not matched."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সরহপাদাঃ",
+          "translit": "sarahapādāḥ",
+          "lemma": "Saraha",
+          "att": "AS",
+          "where": "cp.20.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সরহপাদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet famous for his dohās, rhymed couplet songs. In song 20 Munidatta quotes a verse of his after explaining that the speaker's experience cannot be told (cp.20.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the stem সরহপাদ as a match, so that every case form of Sarahapāda in the comments is found (সরহপাদাঃ is listed among this unit's unmatched words)."
+    },
+    {
+      "id": "aksara-sukha",
+      "type": "term",
+      "en": "imperishable bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিশিষ্টসংযোগাক্ষরসুখানুভবঃ",
+          "translit": "viśiṣṭasaṃyogākṣarasukhānubhavaḥ",
+          "lemma": "akṣara",
+          "att": "AS",
+          "where": "cp.20.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་འགྱུར་བའི་བདེ་བ",
+          "translit": "mi 'gyur ba'i bde ba",
+          "lemma": "mi 'gyur ba'i bde ba",
+          "att": "AO",
+          "where": "cp.20.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ক্ষরসুখ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Imperishable or unchanging bliss (akṣarasukha). In song 20 Munidatta speaks of the speaker's experience of the imperishable bliss of distinguished union, which cannot be told (cp.20.m2); the Tibetan has mi 'gyur ba'i bde ba.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit form only; the match ক্ষরসুখ catches akṣarasukha after a joined vowel (saṃyogākṣarasukha), which recurs in the comments."
+    },
+    {
+      "id": "upasamhara",
+      "type": "term",
+      "en": "summing up",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিষয়মণ্ডলোপসংহারকৃতং",
+          "translit": "viṣayamaṇḍalopasaṃhārakṛtaṃ",
+          "lemma": "upasaṃhāra",
+          "att": "AS",
+          "where": "cp.20.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পসংহার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Gathering up, withdrawal, summing up (upasaṃhāra). In song 20 Munidatta says fresh youth is made by the withdrawal of the maṇḍala of sense objects (cp.20.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit form only; the match পসংহার catches upasaṃhāra after a joined vowel (-opasaṃhāra), as in all three places it occurs so far."
+    },
+    {
+      "id": "body",
+      "type": "term",
+      "en": "body",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়োঽয়ং",
+          "translit": "kāyo'yaṃ",
+          "lemma": "kāya",
+          "att": "AS",
+          "where": "cp.20.m4"
+        },
+        {
+          "lang": "san",
+          "script": "কায়স্য",
+          "translit": "kāyasya",
+          "lemma": "kāya",
+          "att": "AS",
+          "where": "cp.20.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কায়(?:ো|ঃ|ং|ে|েন|স্য|াৎ)?(?=ঽ|[^\\p{L}\\p{M}]|$)"
+        }
+      ],
+      "definition": "The physical body (Sanskrit deha, kāya; Old Bengali deha, kāa; Tibetan lus). Munidatta's usual word is kāya: in song 20 he calls this body a casket of conventional tendencies and its channels the thirty-two goddesses (cp.20.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds kāya, which the entry's definition names but its forms lack; matched as a whole word with its case endings, since a bare কায় stands inside ṭīkāya and the feminine -ikāyā."
+    },
+    {
+      "id": "nadi",
+      "type": "term",
+      "en": "channel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নাড়ী",
+          "translit": "nāṛī",
+          "lemma": "nāḍī",
+          "att": "AS",
+          "where": "cp.20.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নাড়ী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A channel of the subtle body. In song 20 Munidatta says the channels of this body are the thirty-two goddesses (cp.20.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Sanskrit form only (nāḍī with long ī), with a stem match."
+    }
+  ],
+  "questions": [
+    "Bhava (5a): Munidatta glosses it outright, 'this conventional bodhicitta is existence' (eṣa saṃvṛtibodhicitto hi bhavaḥ, cp.20.m6; the Tibetan comment agrees). The bhava entry has no reading and forbids nothing. A proposal can only add forms to an existing entry, so the reading, and 'bodhicitta' as a word forbidden in the line, would have to be added by hand.",
+    "Mother (2a): Munidatta takes 'go māe' as the speaker addressing herself, 'O mother, Nairātmā' (cp.20.m3). The mother entry's only reading is ignorance (song 11). Should this reading be added? The Tibetan line has kye'i mi khyod, 'O you', and no mother.",
+    "Hero (5b): Munidatta says the lords of yogis are heroes because they crush the enemy, the sense objects, in the maṇḍala of existence (cp.20.m6). The vira entry has no reading. Is it worth one?",
+    "3a witness: while I was testing match forms against source/shastri1916.txt I saw Shastri's footnote to 3a. It says the song reads বাসনবুড় (bāsanabuṛa) and that he corrected it to বাসনপূড় (bāsanapūṛa) from the commentary's vāsanāpuṭa. The unit records no emendation for 3a. The 'vasana' entry matches Shastri's printed form.",
+    "Vāsanā (3a): both witnesses read the doctrinal word (Munidatta vāsanā, the Tibetan bag chags), so I proposed a translated term, 'habitual tendencies'. But Bengali bāsan also means 'vessel, utensil'. If you read bāsanapūṛa as a literal image, the line should keep the image and vāsanā should move into the note.",
+    "Nāṛi (3b): the glossary renders it 'channel', and Munidatta reads the body's channels as the thirty-two goddesses (cp.20.m4). But the couplet speaks of a first birth (biāṇa; Munidatta's prasūta, 'born'), and in Bengali nāṛi is also the navel cord. The draft may want a note on this.",
+    "Biāṇa (3a): Munidatta reads it as birth (prasūta), which fits Bengali biyāna, 'to give birth'. The Tibetan has rnam shes, 'consciousness', as if from vijñāna. I have not added it as a form of janma or vijnana, since either choice takes a side. Should it be added to one of them?",
+    "Khamaṇa and bigoā: I proposed keeping both in source form with a gloss. The alternatives are 'sky-mind' (the Tibetan's nam mkha'i yid) or a Jain ascetic (Prakrit khamaṇa, Sanskrit kṣapaṇa) for khamaṇa, and 'experience' (Tibetan nyams myong, Munidatta's anubhava) or something like 'plight' for bigoā. Please choose.",
+    "Amṛta: 'nectar' is also the English for rasa in the entry 'lotus nectar'. If you want the two kept apart, 'ambrosia' is one option.",
+    "4a witness: Munidatta cites the line as navayauvana, 'fresh youth', but Shastri's text has jāṇa jaubaṇa. His manuscript may have read naba. The draft should note it."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "1443265389b0c25dc94dc7cca001bde54abfbd98327ae447543a38ddab06b282",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "d340be036ac9781c5b31664aee4e23e1e89e7cef90a0cf81b7b05984622a374c",
+    "sourceSha": "2ba56535c07d883ca5dfa59e35c405b2abbd6c9db8118d0583a3784b5b6ae663"
+  }
+}

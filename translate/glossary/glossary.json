@@ -20280,6 +20280,14 @@
           "lemma": "ro",
           "att": "AS",
           "where": "cp.23.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "মঅলেঁ",
+          "translit": "maalem̐",
+          "lemma": "maala",
+          "att": "AS",
+          "where": "cp.22.3b"
         }
       ],
       "match": {
@@ -20289,7 +20297,8 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])মএল(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])মএল(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}])মঅলেঁ(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "Dead (Old Bengali maela, apparently a past form of mar-, 'die'). The refrain of song 23 (2a) sets the dead against the living; the Tibetan has shi ba'i ro, 'the corpse of the dead', which is not to be taken up. Munidatta, in the Tibetan, reads the dead as the outgoing breath (cp.23.m3).",
@@ -34651,6 +34660,54 @@
       }
     },
     {
+      "id": "tx-ekaslokabhagavati",
+      "type": "text",
+      "status": "proposed",
+      "en": "Ekaślokā Bhagavatī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "একশ্লোকা ভ(ভব)গবতী",
+          "translit": "ekaślokā bha(bhava)gavatī",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚིགས་སུ་བཅད་པ་གཅིག་གིས་བཅོམ་ལྡན་འདས་མ",
+          "translit": "tshigs su bcad pa gcig gis bcom ldan 'das ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "একশ্লোকা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A source Munidatta cites as ekaślokā bhagavatī, apparently a praise of the Blessed Lady (perhaps the Perfection of Wisdom as goddess) in a single verse. He quotes its opening, 'free of the faults of arising, abiding and perishing' (cp.22.m3). The Tibetan reads 'with one verse, to the Blessed Lady'. Not otherwise identified here.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "tx-guhyasamaja",
       "type": "text",
       "status": "proposed",
@@ -37415,6 +37472,56 @@
         "left and right channels",
         "lalanā and rasanā"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vessel",
+      "type": "term",
+      "status": "proposed",
+      "en": "vessel",
+      "alt": [
+        "container"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྣོད",
+          "translit": "snod",
+          "lemma": "snod",
+          "att": "AS",
+          "where": "cp.23.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣོད",
+          "translit": "snod",
+          "lemma": "snod",
+          "att": "AS",
+          "where": "cp.23.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "སྣོད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A vessel or container (Tibetan snod). In couplet 4 of song 23, which survives only in the Tibetan, the body is 'my vessel', in a line naming earth, water, fire and food. Munidatta, in the Tibetan, speaks of the body become the vessel and basis of oneself, from which the substances become the five great elements are eaten (cp.23.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],

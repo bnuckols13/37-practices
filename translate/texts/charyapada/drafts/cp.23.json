@@ -1,0 +1,614 @@
+{
+  "unit": "cp.23",
+  "title": "Bhusuku's Hunt",
+  "summary": "Bhusuku goes hunting: he will kill the five people and, entering the lotus grove, become one-minded; the obscure refrain seems to forbid killing the living and entering without flesh, and he spreads a net of illusion to bind the doe of illusion. In the part that survives only in Tibetan the body is called a vessel in what looks like a cooking scene, and the deer, held by no net, stone or rope, runs off and sinks into the depths of the sky as Bhusuku's night turns to dawn. Munidatta, whose comment also survives only in Tibetan, reads the quarry as the body's wind and the hunt as a search for the means of making things without intrinsic nature, ending with the deer dissolving into clear light.",
+  "lines": [
+    {
+      "id": "cp.23.h1",
+      "translit": "rāga baṛārī",
+      "gloss": "melodic mode · Baṛārī (Varāḍī, name of the rāga)",
+      "en": "[Rāga]{raga} [Varāḍī]{varadi} · [Bhusukupāda]{p-bhusuku}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "varadi",
+          "src": "বড়ারী"
+        },
+        {
+          "id": "p-bhusuku",
+          "src": "ভুসুকুপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The heading line gives only the rāga. The poet's name comes from the attribution bhusukupādānām ('of Bhusukupāda') written before the song, which the edition's text had at the head of 1a and which is removed from the verse there. The Tibetan heading also names him, as 'du shes gsum pa'i zhabs. Drop the name if headings should carry only what the heading line itself has."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.1a",
+      "translit": "jai tuhme bhusuku ahei jāibem̐ mārihasi pañcajaṇā",
+      "gloss": "if · you · Bhusuku · hunting (ākheṭa, the hunt) · will go (or: by going) · you will kill · five people",
+      "en": "If you, [Bhusuku]{p-bhusuku}, go [hunting]{hunt}, you will kill the [five people]{pancajana};",
+      "terms": [
+        {
+          "id": "p-bhusuku",
+          "src": "ভুসুকু"
+        },
+        {
+          "id": "hunt",
+          "src": "অহেই"
+        },
+        {
+          "id": "pancajana",
+          "src": "পঞ্চজণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "For mārihasi, 'you will kill', the Tibetan translation (Toh 2293) has skye bo lnga po song, 'the five people go' or 'are gone' (song is both the past and the imperative of 'go'). Munidatta's Tibetan comment speaks of killing (gsod pa), which agrees with the Bengali. I keep 'kill'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "jāibem̐ may be a future ('will go') or the instrumental of a verbal noun ('by going'). The sense is the same either way. The Tibetan has gang tshe, 'when', for jai, 'if', but Munidatta's comment has gal te, 'if'."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.1b",
+      "translit": "nalaṇībana paisante hohisi ekumaṇā || dhru ||",
+      "gloss": "lotus grove · on entering (locative of the present participle) · you will become · one-minded · (refrain cue, not translated)",
+      "en": "entering the [lotus grove]{nalinivana}, you will become [one-minded]{ekamanas}.",
+      "terms": [
+        {
+          "id": "nalinivana",
+          "src": "নলণীবন"
+        },
+        {
+          "id": "ekamanas",
+          "src": "একুমণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line has an imperative, yid ni gcig tu gyis, 'make the mind one', where the Bengali hohisi is a future, 'you will become'. I follow the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.2a",
+      "translit": "jībante bhelā bihaṇi maela ṇaaṇi |",
+      "gloss": "living (locative: 'while living'?) · became (?) · kill + not? (haṇ-; or bihāṇa, 'daybreak'?) · dead · not bring? (ṇa āṇi?)",
+      "en": "Do not kill the [living]{jivanta}, do not bring the [dead]{mrta}.",
+      "terms": [
+        {
+          "id": "jivanta",
+          "src": "জীবন্তে"
+        },
+        {
+          "id": "mrta",
+          "src": "মএল"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "An obscure line. Only jībante, 'living', and maela, 'dead', are clear. I follow the way the Tibetan translation construes the line: gson po gsod par ma byed shi ba'i ro ni ma blang cig, 'do not kill the living, do not take the corpse of the dead'. That treats bihaṇi as containing haṇ-, 'kill', and ṇaaṇi as ṇa āṇi, 'do not bring'. bhelā, normally 'became', is not accounted for in this reading. Alternative: jībante as 'while living' (compare paisante in 1b) and bihaṇi as bihāṇa, 'daybreak': 'while living, it became day'. That would look ahead to the dawn of the last line, but it leaves maela ṇaaṇi without a clear sense."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "bihaṇi, ṇaaṇi and paisahiṇi (2b) all end in -ṇi. This may be a negative particle, which would fit the Tibetan's prohibitions in both lines of the refrain. It is a guess."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.2b",
+      "translit": "haṇabiṇu mām̐se bhūsuku padmabaṇa paisahiṇi || dhru ||",
+      "gloss": "kill + without (haṇa biṇu) · flesh (instrumental or locative) · Bhusuku · lotus grove · enter + not (paisahi ṇi) · (refrain cue, not translated)",
+      "en": "Without the [flesh]{mamsa} of a kill, [Bhusuku]{p-bhusuku}, do not enter the [lotus grove]{nalinivana}.",
+      "terms": [
+        {
+          "id": "mamsa",
+          "src": "মাঁসে"
+        },
+        {
+          "id": "p-bhusuku",
+          "src": "ভূসুকু"
+        },
+        {
+          "id": "nalinivana",
+          "src": "পদ্মবণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "haṇabiṇu is printed as one word. Read as haṇa biṇu, 'without killing', it clashes with mām̐se, 'with (or in) flesh'. Taking biṇu with mām̐se gives 'without flesh', which is what the Tibetan (sha ni med par) has. haṇa is then either 'of a kill' or an imperative, 'kill!'. I chose 'without the flesh of a kill'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line has khyim du, 'into the house', where the Bengali has padmabaṇa, 'lotus grove'. Munidatta's comment speaks of 'the house of great bliss'. I keep the Bengali."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "I read paisahiṇi as paisahi, 'enter', plus the negative ṇi, so 'do not enter'. It could also be a statement, 'you do not (will not) enter'. The Tibetan line has a prohibition ('jug ma byed); Munidatta's comment has a statement ('jug par mi byed pa)."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.3a",
+      "translit": "māājāla pasari ūre bādheli māāhariṇī |",
+      "gloss": "net of illusion · having spread · ? (exclamatory particle? 'on the breast'? 'wide'?) · bound (you bound, or: was bound) · doe of illusion",
+      "en": "Spreading the [net of illusion]{mayajala}, you bound the [doe of illusion]{maya-harini}.",
+      "terms": [
+        {
+          "id": "mayajala",
+          "src": "মাআজাল"
+        },
+        {
+          "id": "maya-harini",
+          "src": "মাআহরিণী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Bengali has bādheli, 'bound'. The Tibetan line has gsad par gyis, 'kill (the illusory deer)'. Munidatta's Tibetan comment agrees with the Bengali: by the net the deer of the body is bound ('ching bar byed pa). I keep 'bound'."
+        },
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "ūre is unexplained and not rendered. It might be an exclamatory particle (compare re in bujhire, 3b), or 'on the breast' (Sanskrit uras), or 'wide' (Sanskrit uru). The Tibetan has nothing for it."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "bādheli may be a second-person past, 'you bound', or a participle agreeing with the feminine hariṇī, 'the doe was bound'. I chose 'you bound' because the song addresses Bhusuku; 'the doe of illusion was bound' is equally possible."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.3b",
+      "translit": "sadguru bohem̐ bujhire kāsu kadini || dhru ||",
+      "gloss": "true guru · by the teaching (boha, from bodha; instrumental) · understand (bujhi + emphatic particle re) · to whom / whose · telling? (kathanī?) · (refrain cue, not translated)",
+      "en": "Understand through the true [guru]{guru}'s teaching: to whom could it be told?",
+      "terms": [
+        {
+          "id": "guru",
+          "src": "সদ্গুরু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "kadini is uncertain. I take it as kathanī, 'telling, talk'. The Tibetan has gtam, 'talk', in go byed gang du gang gis gtam ('understanding: where, by whom, the talk?'). Munidatta's comment says the experience of bliss cannot be expressed anywhere."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "kāsu can be 'whose' or 'to whom'. 'To whom could it be told?' fits the comment; 'whose telling is it?' is the other possibility."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "boha (bodha) can mean 'understanding, awakening' or 'instruction'. The Tibetan has gsung, 'speech, word' (bla ma dam pa'i gsung gis). 'Teaching' is meant to cover both. The glossary's bodhi ('awakening') is not applied."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.4a",
+      "translit": "/lus ni bdag gi snod yin e ma sa chu me dang zas/",
+      "gloss": "body · (topic particle) · my (of the self) · vessel · is · ah (exclamation of wonder) · earth · water · fire · and · food",
+      "en": "The [body]{body} is my [vessel]{vessel}; ah, earth, water, fire and food!",
+      "terms": [
+        {
+          "id": "body",
+          "src": "ལུས"
+        },
+        {
+          "id": "vessel",
+          "src": "སྣོད"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Bengali breaks off after couplet 3 because the manuscript lacks four leaves. From here to the end of the song the reading text is the Tibetan translation (Toh 2293), and this is a translation of that translation. See the witness note."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "bdag gi can be 'my' or 'of the self'. Munidatta's gloss (bdag gi snod gzhir) allows either. I chose 'my'."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.4b",
+      "translit": "/dus dang dus min gnyis gzar rlung lam sbyar tshod skya bas dkrug",
+      "gloss": "time · and · non-time · the two · ? (gzar: steep, slanting) · wind · path · join (apply, mix) · stew? (cooked dish; or 'measure') · with a paddle · stir",
+      "en": "Join the two, [time and non-time]{time-non-time}, to the path of the [wind]{vayu}; stir the stew with a paddle.",
+      "terms": [
+        {
+          "id": "time-non-time",
+          "src": "དུས་དང་དུས་མིན"
+        },
+        {
+          "id": "vayu",
+          "src": "རླུང"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "gzar is not rendered. Its usual senses, 'steep, slanting', make no clear sense here, and it may be corrupt. Rendering it would mean guessing. Placement is also uncertain: 'join' takes the two, time and non-time, as its object, but the syntax of the line is loose."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "I take tshod as a cooked dish (as in tshod ma), though its commonest sense is 'measure'. skya ba is a paddle or oar. sbyar, 'join, apply', is also used of mixing food. Munidatta's comment on this verse speaks of eating and drinking, which supports a food image."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.5a",
+      "translit": "/rgya dang rdo lcags thag pa med par ri dgas rgyag cing bros/",
+      "gloss": "net · and · stone · iron · rope · without · deer · strike? (throw at) · and · fled",
+      "en": "With no [net]{net}, no [stone]{stone} or iron, no [rope]{rope}, the [deer]{deer} was struck and fled.",
+      "terms": [
+        {
+          "id": "net",
+          "src": "རྒྱ"
+        },
+        {
+          "id": "stone",
+          "src": "རྡོ"
+        },
+        {
+          "id": "rope",
+          "src": "ཐག་པ"
+        },
+        {
+          "id": "deer",
+          "src": "རི་དགས"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "rgyag usually means 'throw, strike'. I take the deer as its object: 'the deer was struck'. It could instead describe the deer's own bounding, or be an error for rgyug, 'run' (compare brgyug pas in 5b): 'the deer ran and fled'."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "rdo lcags may be 'stone and iron' or a single stone-and-iron device. Munidatta's lemma reads rgya dang rdos, 'by net and stone', with no lcags."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "ri dgas does not show sex, and the Bengali of 3a has the doe (hariṇī). I use 'deer' as the glossary does; 'doe' would carry the image through from 3a."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.5b",
+      "translit": "/mchong zhing mchong zhing brgyug pas nam mkha'i mthil du nub par gyur/",
+      "gloss": "leap · and · leap · and · by running · of the sky · floor, bottom, depth · into · sinking · became (= sank)",
+      "en": "Leaping and leaping as it ran, it sank into the depths of the [sky]{gagana}.",
+      "terms": [
+        {
+          "id": "gagana",
+          "src": "ནམ་མཁའི"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "mthil is the floor, bottom or sole, and 'depths' is my choice. 'Floor of the sky' would keep the paradox more sharply. nub is 'sink', but also 'set' (of the sun) and 'vanish'."
+        }
+      ]
+    },
+    {
+      "id": "cp.23.6a",
+      "translit": "/bhu su ku pa mtshan mo nam ni rab tu langs par gyur/",
+      "gloss": "Bhusuku · night · daybreak (nam, as in nam langs) · (topic particle) · fully · rising · became (= has dawned)",
+      "en": "For [Bhusuku]{p-bhusuku}, the [night]{night} has broken fully into dawn.",
+      "terms": [
+        {
+          "id": "p-bhusuku",
+          "src": "བྷུ་སུ་ཀུ་པ"
+        },
+        {
+          "id": "night",
+          "src": "མཚན་མོ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The line names the poet but has no verb of saying, and bhu su ku pa is not case-marked. 'For Bhusuku' is my construal. Munidatta's comment puts him in the agentive (bhu su ku'i zhabs kyis), which would suit 'Bhusuku says:'. I do not add a verb that the line lacks."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan gives only this one line for the last couplet. Whether the song had a second half-line here cannot be known."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.23",
+      "kind": "witness",
+      "text": "Song 23 survives only in part in the Nepal manuscript. Its Bengali breaks off after couplet 3, where the manuscript lacks four leaves; songs 24 and 25 are also missing from it. The rest of the song (couplets 4 and 5 and the closing line) survives only as quoted in the Tibetan translation of the commentary (Toh 2293). So does Munidatta's entire commentary on this song, and his readings are therefore given here from the Tibetan throughout.",
+      "cites": [
+        "cp.23.m1",
+        "cp.23.m2",
+        "cp.23.m3",
+        "cp.23.m4",
+        "cp.23.m5",
+        "cp.23.m6"
+      ]
+    },
+    {
+      "anchor": "cp.23",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, introduces the song as the work of the master Bhusukupāda, a siddha whose mind is urged on by innate joy, meditating on 'the intent of the deer' (ri dgas kyi dgongs pa). dgongs pa is also the word in the Tibetan term for twilight language (dgongs pa'i skad).",
+      "cites": [
+        "cp.23.m1"
+      ]
+    },
+    {
+      "anchor": "cp.23.h1",
+      "kind": "philology",
+      "text": "Rāga: the melodic mode to which the song is sung. The Bengali names it baṛārī, the glossary's Varāḍī. The Tibetan heading transcribes the name as ba rA li and names the poet 'du shes gsum pa'i zhabs, its name for Bhusukupāda. The name in the English heading comes from the attribution bhusukupādānām ('of Bhusukupāda') written before the song.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.1a",
+      "kind": "witness",
+      "text": "Where the Bengali has mārihasi, 'you will kill', the Tibetan translation (Toh 2293) has skye bo lnga po song, 'the five people go' or 'are gone'. Munidatta's comment in the Tibetan speaks of killing (gsod pa) the five objects that he reads in the five people, which agrees with the Bengali. The Tibetan line also has gang tshe, 'when', for jai, 'if'; the comment has gal te, 'if', again with the Bengali.",
+      "cites": [
+        "cp.23.m2"
+      ]
+    },
+    {
+      "anchor": "cp.23.1a",
+      "kind": "philology",
+      "text": "ahei: 'hunting, the hunt', probably from Sanskrit ākheṭa. The Tibetan has rngon 'gro, 'go hunting'. jāibem̐ may be a future ('will go') or the instrumental of a verbal noun ('by going').",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.1",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, addresses Bhusuku and calls the quarry 'the deer of body-wind, the nature of the body's wind'. He takes the hunt as setting out in search of the means of making things without intrinsic nature. The five people are the five objects, become the aggregate of form, mirror-like wisdom, the earth element, the eye faculty and so on. They are 'killed' by withdrawing the maṇḍalas in sequence, which begins making them without intrinsic nature. After vajra recitation stops the two appearances and vajra and lotus are joined, one enters the lotus grove, the wheel of great bliss, by the guru's grace. Being one-minded is becoming free of conceptual thought, oneself rightly calling to oneself.",
+      "cites": [
+        "cp.23.m2"
+      ]
+    },
+    {
+      "anchor": "cp.23.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads pad+ma'i tshal du rab tu 'jug na yid ni gcig tu gyis, 'when you enter the lotus grove, make the mind one'. It has an imperative where the Bengali has the future hohisi, 'you will become'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.2a",
+      "kind": "philology",
+      "text": "Only jībante, 'living', and maela, 'dead', are clear in this line. jībante is a locative form like paisante, 'on entering', in 1b, so it may mean 'while living'. bhelā is normally 'became'. bihaṇi and ṇaaṇi are uncertain. The Tibetan translation (Toh 2293) has gson po gsod par ma byed shi ba'i ro ni ma blang cig, 'do not kill the living, do not take the corpse of the dead'. That reads as if bihaṇi contained haṇ-, 'kill' (as haṇa does in 2b), and ṇaaṇi were ṇa āṇi, 'do not bring'. The -ṇi ending of bihaṇi, ṇaaṇi and paisahiṇi (2b) may be a negative particle, which would fit the prohibitions. The translation follows this construal and leaves bhelā unaccounted for. Another possibility is bihaṇi as bihāṇa, 'daybreak' ('while living, it became day'), which would look ahead to the dawn of the last line but leaves maela ṇaaṇi unexplained.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.2",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, says the refrain makes clear the focus on what is steady. He reads the living as the entering breath, with the syllable oṃ and the knowledge of day, having the nature of the forty natures. The corpse of the dead is the outgoing breath, with hūṃ and the knowledge of night, having the nature of the thirty-three natures. He adds the abiding breath, with āḥ and the knowledge of the neuter, having seven natures, and quotes Vajrapāṇi on the three syllables. The flesh he calls twilight language for the joy of cessation, whose nature is self-blessing. Once the consciousness of the life-breath and the rest has entered the central channel, unless that joy is purified by the fourth joy, Bhusukupāda does not enter the house of great bliss. He supports this with the Five Stages ('not night, not twilight, not day') and with Saraha.",
+      "cites": [
+        "cp.23.m3"
+      ]
+    },
+    {
+      "anchor": "cp.23.2b",
+      "kind": "witness",
+      "text": "Where the Bengali has padmabaṇa, 'lotus grove', the Tibetan translation (Toh 2293) has khyim du, 'into the house', and Munidatta's comment in the Tibetan speaks of 'the house of great bliss'. The Tibetan line has sha ni med par, 'without flesh', with nothing for haṇa. Its verb is a prohibition, 'jug ma byed, 'do not enter'; the comment has a statement, 'jug par mi byed pa, 'does not enter'. The Bengali spells the poet's name bhūsuku here, with long ū.",
+      "cites": [
+        "cp.23.m3"
+      ]
+    },
+    {
+      "anchor": "cp.23.2b",
+      "kind": "philology",
+      "text": "haṇabiṇu is printed as one word. Read as haṇa biṇu, 'without killing', it sits oddly beside mām̐se, 'with (or in) flesh'. Taking biṇu with mām̐se gives 'without flesh', as the Tibetan has, with haṇa either 'of a kill' or an imperative, 'kill!'. The translation takes the second division. paisahiṇi is read as paisahi, 'enter', with the negative ṇi.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.3a",
+      "kind": "witness",
+      "text": "The Bengali has bādheli, 'bound'; the Tibetan line has sgyu ma'i ri dgas gsad par gyis, 'kill the illusory deer'. Munidatta's comment in the Tibetan agrees with the Bengali: the net is laid on the body, and by it the deer of the body is bound ('ching bar byed pa). The translation keeps the Bengali.",
+      "cites": [
+        "cp.23.m4"
+      ]
+    },
+    {
+      "anchor": "cp.23.3a",
+      "kind": "philology",
+      "text": "ūre is unexplained and left unrendered. It might be an exclamatory particle, like re in bujhire (3b); or 'on the breast' (Sanskrit uras); or 'wide' (Sanskrit uru). The Tibetan line has nothing for it. Munidatta's comment speaks of the net laid on the body (lus la dra ba gzhag pa), which might answer to 'on the breast', though he does not quote the word. bādheli may be a second-person past ('you bound') or a participle agreeing with the feminine hariṇī ('was bound').",
+      "cites": [
+        "cp.23.m4"
+      ]
+    },
+    {
+      "anchor": "cp.23.3",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, says this verse, his second, gives the means of the path. Illusion is to be understood as the action limb (las kyi yan lag), apparently the action seal. In the bliss obtained in the moments beginning with 'variety', the net is laid on the body, and by it the deer of the body is bound; its nature is understood through the grace of the guru's feet. Once the experience of that bliss is gained, it cannot be expressed anywhere. He quotes Saraha.",
+      "cites": [
+        "cp.23.m4"
+      ]
+    },
+    {
+      "anchor": "cp.23.3b",
+      "kind": "philology",
+      "text": "kāsu is 'whose' or 'to whom'. kadini is uncertain, perhaps kathanī, 'telling, talk'. boha is taken as bodha, 'understanding, instruction'. The Tibetan translation (Toh 2293) has bla ma dam pa'i gsung gis go byed gang du gang gis gtam, 'by the true guru's speech, understanding: where, by whom, the talk?'. It reads a word of speech (gtam) at kadini. Munidatta's comment says that once the experience of bliss is gained, it cannot be expressed anywhere, which fits 'to whom could it be told?'.",
+      "cites": [
+        "cp.23.m4"
+      ]
+    },
+    {
+      "anchor": "cp.23.4a",
+      "kind": "witness",
+      "text": "The Bengali breaks off here: the Nepal manuscript lacks four leaves at this point, and the Old Bengali of the rest of the song is lost. From this line to the end of the song the translation is made from the Tibetan translation (Toh 2293), which quotes the song before commenting on it: it is a translation of a translation. Munidatta's comment on this couplet likewise survives only in the Tibetan.",
+      "cites": [
+        "cp.23.m5"
+      ]
+    },
+    {
+      "anchor": "cp.23.4",
+      "kind": "imagery",
+      "text": "The couplet seems to picture cooking: the body as the vessel; earth, water and fire with food; and a stew stirred with a paddle. skya ba is the Tibetan word also used for a boat's oar (see the glossary entry oar). The images are translated as they stand.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.4b",
+      "kind": "philology",
+      "text": "gzar is left unrendered. Its usual senses, 'steep, slanting', give no clear sense here, and it may be corrupt. tshod is taken as a cooked dish (as in tshod ma), though its commonest sense is 'measure'. sbyar, 'join, apply', is also used of mixing and preparing food.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.4",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, says this verse, his third, speaks of the special character of practice. The body itself, become the vessel and basis of oneself, is that from which the substances become the five great elements are to be eaten. Time and non-time are the moon and the sun, with the wind of the avadhūtī as a third. Because the fourth joy destroys them all, eating and drinking is making them without intrinsic nature. He quotes the Kālacakra on holding the white drop and its falling, day and night.",
+      "cites": [
+        "cp.23.m5"
+      ]
+    },
+    {
+      "anchor": "cp.23.5a",
+      "kind": "philology",
+      "text": "rdo lcags may be 'stone and iron' or a single stone-and-iron device. Munidatta's lemma reads rgya dang rdos, 'by net and stone', with no lcags. rgyag usually means 'throw, strike' and is taken with the deer as object. It may instead describe the deer's own bounding, or be an error for rgyug, 'run' (compare brgyug pas in 5b). ri dgas does not mark sex; the Bengali of 3a has the doe (hariṇī).",
+      "cites": [
+        "cp.23.m6"
+      ]
+    },
+    {
+      "anchor": "cp.23.5",
+      "kind": "imagery",
+      "text": "The hunt ends with the quarry escaping. Nothing holds it, neither net, stone nor rope; the deer runs off, leaping, and sinks into the depths of the sky (mthil: floor, bottom). In the closing line the night breaks into dawn.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.23.5",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, says this verse, his fourth, speaks of the complete fruit. In twilight language the net is conceptual thought about the joy of body, the stone conceptual thought about the joy of speech, and the rope conceptual thought about the joy of mind; all of these, form and the rest, are sky. The one that runs is the deer of the body, whose nature is wind, which brings down clear light. Its flight is its becoming without intrinsic nature: for the yogin who practises constantly, it dissolves into clear light in the sky.",
+      "cites": [
+        "cp.23.m6"
+      ]
+    },
+    {
+      "anchor": "cp.23.6a",
+      "kind": "doctrine",
+      "text": "Munidatta, in the Tibetan, connects Bhusukupāda's 'night' with the darkness of ignorance, whose clearing he gives as the meaning of 'fled'. The sentence is compressed. He then quotes a scripture ('oneself likewise becomes the drop; the Blessed One is lord of life').",
+      "cites": [
+        "cp.23.m6"
+      ]
+    },
+    {
+      "anchor": "cp.23.6a",
+      "kind": "witness",
+      "text": "The Tibetan quotes a single line for the last couplet, with the poet's self-naming but no verb of saying. Munidatta's comment has the poet's name in the agentive case (bhu su ku'i zhabs kyis), which would suit 'Bhusuku says…' as in other closing couplets. The translation does not add the verb. nam langs is the ordinary phrase for daybreak.",
+      "cites": [
+        "cp.23.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "house",
+      "line": "cp.23.2b",
+      "reason": "The hit (khyim, 'house') is in the Tibetan parallel only. The Bengali reading text has padmabaṇa, rendered 'lotus grove' (nalinivana); the difference is recorded in a witness note."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "vessel",
+      "type": "term",
+      "en": "vessel",
+      "policy": "translate",
+      "alt": [
+        "container"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྣོད",
+          "translit": "snod",
+          "lemma": "snod",
+          "att": "AS",
+          "where": "cp.23.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣོད",
+          "translit": "snod",
+          "lemma": "snod",
+          "att": "AS",
+          "where": "cp.23.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྣོད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A vessel or container (Tibetan snod). In couplet 4 of song 23, which survives only in the Tibetan, the body is 'my vessel', in a line naming earth, water, fire and food. Munidatta, in the Tibetan, speaks of the body become the vessel and basis of oneself, from which the substances become the five great elements are eaten (cp.23.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The body-as-vessel image anchors couplet 4, and the glossary's pot entry is tied to the liquor pots of song 3. The Tibetan also uses snod for a vessel elsewhere in the commentary, so a separate entry lets the Tibetan-only songs link it."
+    }
+  ],
+  "questions": [
+    "2a: I followed the Tibetan's prohibitions ('Do not kill the living, do not bring the dead'), which leaves bhelā unaccounted for. Is that acceptable, or would you prefer a more literal but opaque line built on jībante as 'while living' (for example with bihaṇi as bihāṇa, 'daybreak')?",
+    "2b: 'Without the flesh of a kill' divides haṇabiṇu as haṇa + biṇu mām̐se. Do you prefer 'without killing' (haṇa biṇu), or haṇa as an imperative ('Kill! Without flesh, Bhusuku, do not enter the lotus grove')? And is the prohibition 'do not enter' right, or should it be the statement 'you will not enter', as in Munidatta's comment?",
+    "3a: I render bādheli as 'you bound', a second-person past, and leave ūre unrendered. Would 'the doe of illusion was bound' be safer, and do you know a reading of ūre that should be rendered?",
+    "3b: 'to whom could it be told?' or 'whose telling is it?' for kāsu kadini?",
+    "4b: gzar is left unrendered. Is 'stew' (tshod) and 'paddle' (skya ba) acceptable for the cooking image? Should skya ba link to the glossary entry oar (keruala), which lists skya ba among its Tibetan forms, even though no boat is involved here?",
+    "5a: 'was struck' for rgyag, 'stone or iron' for rdo lcags, and 'deer' rather than 'doe' for ri dgas (the Bengali of 3a has the doe). Please confirm or correct.",
+    "6a: the Tibetan has no verb of saying, so the bhaṇitā reads 'For Bhusuku, the night has broken fully into dawn'. Should the edition supply 'Bhusuku says', which Munidatta's agentive (bhu su ku'i zhabs kyis) might support?",
+    "Heading: I added 'Bhusukupāda' from the attribution written before the song, which is outside the heading line itself. Keep it or drop it? In the verse lines I use the self-naming form 'Bhusuku' for p-bhusuku, whose approved English is 'Bhusukupāda'. Please confirm that the short form is acceptable as the source form."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "0462c647042a1a918508f5a59d11b656d10657a55f4faa887d390737b31dea09",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "d3794d37c22e1ad1ce921c272b58804036d5cb34877241367a24c7d4523801b6",
+    "sourceSha": "84f5047ce7878b908fbea514455f99478fbf4cc8ec3af69ac2ac6e20bb4f30e2"
+  }
+}

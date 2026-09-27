@@ -1,0 +1,586 @@
+{
+  "unit": "cp.22",
+  "title": "The Living and the Dead",
+  "summary": "People fashion existence and nirvāṇa by themselves and so bind themselves; the singer and his kind, 'inconceivable yogis', do not know what birth and death are, find no difference between the living and the dead, and wave away those who, afraid of death, chase elixirs and alchemy or roam the world and the heaven of the gods, for none of them escapes age and death. Munidatta reads the song as Saraha's statement of his own realization: existence and nirvāṇa are concepts imputed through ignorance, and for one who understands selflessness nothing arises, so nothing perishes.",
+  "lines": [
+    {
+      "id": "cp.22.h1",
+      "translit": "rāga guñjarī",
+      "gloss": "melody (rāga) · Guñjarī",
+      "en": "[Rāga]{raga} [Guñjarī]{gunjari} · [Saraha]{p-saraha}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "gunjari",
+          "src": "গুঞ্জরী"
+        },
+        {
+          "id": "p-saraha",
+          "src": "সরহপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "The heading line holds only রাগ গুঞ্জরী. I added '· Saraha' from the attribution সরহপাদানাম্, 'of Sarahapāda', which the edition prints at the head of 1a and the input takes out of the verse, to match the brief's heading form. The Tibetan heading also names him (sa ra ha'i zhabs kyis so). Drop it if the heading should render only its own words."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.1a",
+      "translit": "apaṇe raci raci bhavanirvāṇā",
+      "gloss": "by oneself · having fashioned · having fashioned · existence-and-nirvāṇa",
+      "en": "Fashioning, fashioning [existence and nirvāṇa]{bhava-nirvana} by themselves,",
+      "terms": [
+        {
+          "id": "bhava-nirvana",
+          "src": "ভবনির্বাণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "রচি রচি is the absolutive of rac-, 'make, compose, fashion', doubled; the doubling may mean 'again and again' or only stress the act. I keep it as 'fashioning, fashioning'. অপণে, 'by oneself', could also be read with the pair ('their own existence and nirvāṇa'); Munidatta's svayam eva (cp.22.m2) and the Tibetan rang gi support 'by themselves'."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.1b",
+      "translit": "michem̐ loa bandhābae apanā || dhru ||",
+      "gloss": "falsely · people (loka) · causes to be bound · oneself · (refrain cue)",
+      "en": "people falsely bind themselves.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "মিছেঁ (Sanskrit mithyā) can mean 'falsely, in error' or 'in vain, for nothing'. Both witnesses take the sense of error: Munidatta has bhrāntyā, 'through confusion' (cp.22.m2), and the Tibetan log ltas, 'through wrong view'. I chose 'falsely'; 'for nothing' is the alternative."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "বন্ধাবএ is causative, 'has bound, causes to be bound'; with অপনা, 'oneself', I render it 'bind themselves'. লোঅ (loka) is 'people' or 'the world'; the Tibetan has 'jig rten, 'the world'."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.2a",
+      "translit": "ambhe na jāṇam̐hū acinta joi",
+      "gloss": "we · not · know (1pl.) · inconceivable · yogi",
+      "en": "We [inconceivable]{acintya} [yogis]{yogi} do not know",
+      "terms": [
+        {
+          "id": "acintya",
+          "src": "অচিন্ত"
+        },
+        {
+          "id": "yogi",
+          "src": "জোই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri notes that the commentary reads অহ্মে where the song has অম্ভে; the lemma in cp.22.m3 appears as অহ্ম ইত্যাদি, that is অহ্মে before a vowel by Sanskrit sandhi. Both spell the Apabhraṃśa pronoun amhe, 'we', so the sense is unchanged. Translated as the song stands."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "অম্ভে is plural, 'we', but may stand for 'I'. The Tibetan has bdag, 'I', in the line and in the comment; Munidatta keeps the plural (vayam) with honorific verbs (cp.22.m3). I keep 'we'. অচিন্ত জোই is taken in apposition, 'we, inconceivable yogis'; Munidatta makes it the predicate, 'we are inconceivable yogins'. The Tibetan bsam med can also mean 'without thought'."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.2b",
+      "translit": "jāma maraṇa bhava kaisaṇa hoi || dhru ||",
+      "gloss": "birth · death · existence · of what kind, how · is, becomes · (refrain cue)",
+      "en": "what [birth]{janma}, [death]{marana} and [existence]{bhava} are like.",
+      "terms": [
+        {
+          "id": "janma",
+          "src": "জাম"
+        },
+        {
+          "id": "marana",
+          "src": "মরণ"
+        },
+        {
+          "id": "bhava",
+          "src": "ভব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "I take জাম মরণ ভব as three nouns, 'birth, death and existence'. The Tibetan, skye dang 'chi ba'i srid pa, makes it 'the existence (the round) of birth and death'. কইসণ হোই can be 'what ... is like' or 'how ... comes about'; I chose 'what ... are like', which answers to the 'as ... so' of 3a. Munidatta's paraphrase has 'what arising and the rest, and perishing, are like' and no word for ভব (cp.22.m3)."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.3a",
+      "translit": "jaiso jāma maraṇa vi taiso",
+      "gloss": "as, like which · birth · death · also · so, like that",
+      "en": "As [birth]{janma} is, so too is [death]{marana}:",
+      "terms": [
+        {
+          "id": "janma",
+          "src": "জাম"
+        },
+        {
+          "id": "marana",
+          "src": "মরণ"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.22.3b",
+      "translit": "jīvante maalem̐ ṇāhi viśeso || dhru ||",
+      "gloss": "among the living (loc.) · among the dead (loc.) · there is not · difference · (refrain cue)",
+      "en": "between the [living]{jivanta} and the [dead]{mrta} there is no difference.",
+      "terms": [
+        {
+          "id": "jivanta",
+          "src": "জীবন্তে"
+        },
+        {
+          "id": "mrta",
+          "src": "মঅলেঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "জীবন্তে and মঅলেঁ are locative or instrumental forms: 'among the living and the dead', or 'in living and in having died'. The Tibetan (gson dang shi ba dag la, 'between the living and the dead') and Munidatta's paraphrase (a living person and a dead one, cp.22.m4) take them as persons, as I do."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "মঅলেঁ is marked as the glossary's 'dead' (mrta), though the matcher did not catch this spelling. Both mrta and jivanta carry only song 23's readings (the outgoing and entering breath); Munidatta gives no such reading here (cp.22.m4)."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.4a",
+      "translit": "jāethu jāma maraṇe visaṅkā",
+      "gloss": "in whom · birth · in death (loc., for the pair) · fear, apprehension",
+      "en": "Whoever fears [birth]{janma} and [death]{marana},",
+      "terms": [
+        {
+          "id": "janma",
+          "src": "জাম"
+        },
+        {
+          "id": "marana",
+          "src": "মরণে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line reads gang 'dir skye 'chi dag la the tshom med, 'whoever here has no doubt about birth and death': a negative the Bengali lacks, as if বিসঙ্কা were vi- 'without' plus śaṅkā 'doubt'. Munidatta reads fear: 'in whom there is fear of death and the rest' (maraṇādibhaya, cp.22.m5), and the Tibetan comment agrees ('jigs pa). His 'without doubt' (niḥśaṅka) describes 'us', in his next sentence. Translated as the Bengali stands."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "বিসঙ্কা (Sanskrit viśaṅkā) is fear, apprehension or doubt. I chose 'fear', which the next line (the turn to elixirs) and Munidatta's bhaya (cp.22.m5) support; 'misgiving' or 'doubt' are possible."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "জাএথু is the relative, 'in whom' (Munidatta's yasmin, cp.22.m5); the Tibetan gang 'dir, 'who here', seems to divide it ja- 'who' plus ethu 'here'. I render 'whoever'."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.4b",
+      "translit": "so karau rasa rasānere kakhā || dhru ||",
+      "gloss": "he, that one · let him do (3sg. imperative?) · rasa (mercury, elixir) · of rasāyana (alchemy) · longing? (uncertain) · (refrain cue)",
+      "en": "let him chase after elixirs and [alchemy]{rasayana}.",
+      "terms": [
+        {
+          "id": "rasayana",
+          "src": "রসানেরে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "কখা is unclear. It may be kāṅkṣā, 'longing' (Prakrit kaṃkhā), my first choice; or kakṣā (as pakṣa gives pakhā), whose senses 'girth', 'enclosure', 'side' fit less well; or a slip for kathā, 'talk' ('let him talk of elixirs and alchemy'). Munidatta's paraphrase ('carries out various procedures of rasāyana', cp.22.m5) and the Tibetan (sgrub par byed, 'accomplishes') give no word for it. 'Chase after' is meant to hold both longing and pursuit."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "করউ looks like a third-person imperative, 'let him do', which gives the line its dismissive tone. Munidatta (karoti, cp.22.m5) and the Tibetan (byed) read a statement, 'he pursues'; with that reading the line would be 'goes after elixirs and alchemy'."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "রস (rasa) is the alchemists' mercury and the elixirs made with it; I render 'elixirs', and 'mercury' is possible. The Tibetan has gser 'gyur bcud len, 'gold-making and essence-extraction'. The genitive -ere of রসানেরে may govern both words."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.5a",
+      "translit": "je sacarācara tiasa bhamanti",
+      "gloss": "who (pl.) · with the moving and the unmoving · the Thirty (tridaśa)? · wander",
+      "en": "Those who roam [the moving and the unmoving]{sacaracara} and [the Thirty]{tridasa}",
+      "terms": [
+        {
+          "id": "sacaracara",
+          "src": "সচরাচর"
+        },
+        {
+          "id": "tridasa",
+          "src": "তিঅস"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "তিঅস: I follow Munidatta, who takes it as tridaśa, 'the Thirty', the gods' heaven, reached by mantras and herbs (cp.22.m6), as the glossary does. It could instead be 'thirst' (Sanskrit tṛṣā, modern Bengali tiyās): 'those who wander, thirsting, through the moving and the unmoving'. The Tibetan line (gang gi g.yo dang mi g.yor bcas par 'khyam) has no word for it."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri notes that the commentary reads যে যে, 'whoever', where the song has জে, 'those who' (cp.22.m6). The sense barely differs. Translated as the song stands."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.5b",
+      "translit": "te ajarāmara kimpi na honti || dhru ||",
+      "gloss": "they · ageless and deathless · at all (kim api) · not · become · (refrain cue)",
+      "en": "do not become [ageless and deathless]{ajaramara} at all.",
+      "terms": [
+        {
+          "id": "ajaramara",
+          "src": "অজরামর"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan reads de rnams rga dang 'chi bar cis mi 'gyur, 'how could they not become old and die?': a rhetorical question, without the privative a- of অজরামর, taking কিম্‌পি as 'why'. The sense, that they age and die, agrees with the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.6a",
+      "translit": "jāme kāma ki kāme jāma",
+      "gloss": "from birth · action (kāma < karman) · or · from action · birth",
+      "en": "Does [action]{karma} come from [birth]{janma}, or [birth]{janma} from [action]{karma}?",
+      "terms": [
+        {
+          "id": "karma",
+          "src": "কাম"
+        },
+        {
+          "id": "janma",
+          "src": "জামে"
+        },
+        {
+          "id": "karma",
+          "src": "কামে"
+        },
+        {
+          "id": "janma",
+          "src": "জাম"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "কাম can be kāma, 'desire', or karman, 'action' (Old Bengali kām, as in 'work'). Munidatta (karma, karmaṇā, cp.22.m7) and the Tibetan (las) read 'action', which I follow; 'Does desire come from birth, or birth from desire?' is the alternative. কি is taken as 'or', joining the two halves of the question."
+        }
+      ]
+    },
+    {
+      "id": "cp.22.6b",
+      "translit": "saraha bhaṇati acinta so dhāma || dhru ||",
+      "gloss": "Saraha · says · inconceivable · that · dharma (dhāma) · (refrain cue)",
+      "en": "[Saraha]{p-saraha} says: that [dharma]{dharma} is [inconceivable]{acintya}.",
+      "terms": [
+        {
+          "id": "p-saraha",
+          "src": "সরহ"
+        },
+        {
+          "id": "dharma",
+          "src": "ধাম"
+        },
+        {
+          "id": "acintya",
+          "src": "অচিন্ত"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ধাম: I follow the glossary, the Tibetan line (de chos, 'that dharma') and the Tibetan comment (chos nyid, 'the nature of things') in reading dharma; kāma for karman in 6a shows the same sound change. Sanskrit dhāman, 'abode, state', would give 'that state is inconceivable'. Munidatta names no noun: 'for yogins who know the ultimate, it is indeed inconceivable' (cp.22.m7); his masculine acintyo suits dharma better than neuter dhāman."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.22.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music; each song's heading names the one it is sung to. The Tibetan heading transcribes the name as guny+dza ri and calls the piece a glu dbyangs, 'melody', 'by Sarahapāda' (sa ra ha'i zhabs kyis so).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.22",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song as Sarahapāda setting out 'that same meaning' through his realization of all dharmas (sarvadharmādhigama) (cp.22.m1); the Tibetan has 'Sarahapāda, who has realized all dharmas'.",
+      "cites": [
+        "cp.22.m1"
+      ]
+    },
+    {
+      "anchor": "cp.22.1",
+      "kind": "doctrine",
+      "text": "Munidatta reads couplet 1 as the world binding itself: through the fault of the habitual tendencies of beginningless ignorance, having imputed the concepts of existence and nirvāṇa, this world, through confusion (bhrānti), becomes bound by itself in the bondage of existence (cp.22.m2).",
+      "cites": [
+        "cp.22.m2"
+      ]
+    },
+    {
+      "anchor": "cp.22.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has rang gi rtogs byas 'khor ba mya ngan 'das, 'saṃsāra and nirvāṇa made by one's own rtogs'. rtogs ('realize') is probably for rtog, 'conceive': the translators read রচি, 'fashion', as conceptual construction, as Munidatta does with his 'imputation of concepts' (kalpāropaṇa, cp.22.m2). This is a reading, not the line's wording.",
+      "cites": [
+        "cp.22.m2"
+      ]
+    },
+    {
+      "anchor": "cp.22.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation has log ltas 'jig rten rang nyid 'ching bar byed, 'through wrong view the world binds itself', taking মিছেঁ as 'by false view'. Its version of Munidatta's comment renders bhrāntyā, 'through confusion', as 'wandering' ('khyam), the other sense of bhrānti, and adds that the world both binds and frees (grol ba) itself in existence, where the Sanskrit has only 'bound' (cp.22.m2).",
+      "cites": [
+        "cp.22.m2"
+      ]
+    },
+    {
+      "anchor": "cp.22.2",
+      "kind": "doctrine",
+      "text": "Munidatta says Saraha makes his own knowledge firm with the refrain: by the grace of the dust of the guru's feet, through fully knowing the true nature of things, 'we are inconceivable yogins', and so 'we do not know what arising and the rest, and perishing, are like' (cp.22.m3). He takes the song's birth and death as arising and perishing (utpāda, bhaṅga), and quotes the opening of a verse he calls ekaślokā bhagavatī: 'free of the faults of arising, abiding and perishing'.",
+      "cites": [
+        "cp.22.m3"
+      ]
+    },
+    {
+      "anchor": "cp.22.2a",
+      "kind": "witness",
+      "text": "Shastri notes the commentary's অহ্মে against the song's অম্ভে; cp.22.m3 prints the lemma as অহ্ম ইত্যাদি, অহ্মে before a vowel by Sanskrit sandhi. Both spell Apabhraṃśa amhe, 'we'. The Tibetan translation has bdag, 'I', in the line (bdag gis mi shes bsam med rnal 'byor pa) and in its version of the comment ('I myself am an inconceivable yogin').",
+      "cites": [
+        "cp.22.m3"
+      ]
+    },
+    {
+      "anchor": "cp.22.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation has skye dang 'chi ba'i srid pa ji ltar yin, 'how is the existence of birth and death?', making ভব, 'existence', the head noun rather than a third term.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.22.3",
+      "kind": "doctrine",
+      "text": "Munidatta calls couplet 3 his 'second verse', on the nature of arising: for one who understands selflessness in all things, whose arising is there? What has no arising has no perishing to be seen either. He quotes the Advayasiddhi (what has no arising by its own nature, and no destruction to be seen, is the knowledge called nondual, free of all conceptions) and concludes that no difference is found between a living person and a dead one; he adds a verse of the Sūtaka on sleeping and waking (cp.22.m4).",
+      "cites": [
+        "cp.22.m4"
+      ]
+    },
+    {
+      "anchor": "cp.22.3",
+      "kind": "witness",
+      "text": "In Munidatta's conclusion the word set against 'a living person' is obscure (sambhavāhavena); the Tibetan comment has skyes bu gson pa dang shi ba, 'a living and a dead person' (cp.22.m4). The Tibetan comment on this couplet opens with the lemma gang 'dir, the first words of its own 4a, where the Sanskrit lemma is জইসো.",
+      "cites": [
+        "cp.22.m4"
+      ]
+    },
+    {
+      "anchor": "cp.22.4",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 4 as the poet's praise of himself: a yogi in whom there is fear of death and the like applies various procedures of rasāyana, 'but we are without doubt and without concepts about the fear of death' (niḥśaṅkanirvikalpa) (cp.22.m5). The Tibetan comment agrees.",
+      "cites": [
+        "cp.22.m5"
+      ]
+    },
+    {
+      "anchor": "cp.22.4a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has gang 'dir skye 'chi dag la the tshom med, 'whoever here has no doubt about birth and death'. The negative is not in the Bengali: the translators seem to have read বিসঙ্কা as vi- 'without' and śaṅkā 'doubt' (compare Sanskrit viśaṅka, 'free of misgiving'). Munidatta paraphrases 'in whom there is fear of death and the rest', and the Tibetan version of his comment itself has fear ('jigs pa yod pa) (cp.22.m5). The 'no doubt' may echo Munidatta's niḥśaṅka, which he says of 'us'.",
+      "cites": [
+        "cp.22.m5"
+      ]
+    },
+    {
+      "anchor": "cp.22.4b",
+      "kind": "imagery",
+      "text": "Rasāyana is the Indian art of alchemy and rejuvenation; rasa is its chief substance, mercury, and the elixirs prepared from it. Alchemists sought a body that neither ages nor dies, the ajarāmara of 5b. The Tibetan line has gser 'gyur bcud len, 'gold-making and essence-extraction'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.22.4b",
+      "kind": "philology",
+      "text": "কখা is of uncertain sense: perhaps kāṅkṣā, 'longing', or kakṣā; 'chase after' renders the drift of the line. করউ appears to be an imperative, 'let him do'; Munidatta's paraphrase (karoti, cp.22.m5) and the Tibetan (byed) read 'he does'.",
+      "cites": [
+        "cp.22.m5"
+      ]
+    },
+    {
+      "anchor": "cp.22.5",
+      "kind": "doctrine",
+      "text": "Munidatta: those who wander are novice yogins (bālayogin), roaming the great places of Jambudvīpa among the moving and the unmoving, or going by the power of mantras, herbs and the like to the Thirty, the abode of the gods; they too, lacking the guru's path, do not attain deathlessness, whereas 'we' are of a form that cannot be cut or broken (cp.22.m6).",
+      "cites": [
+        "cp.22.m6"
+      ]
+    },
+    {
+      "anchor": "cp.22.5",
+      "kind": "witness",
+      "text": "Where the Sanskrit says the novice yogins do not attain deathlessness 'because they have not gained the guru's path' (gurumārgālabdhatvāt), the Tibetan comment has bla ma'i lam thob nas, 'having gained the guru's path': the compound can be divided -mārga-alabdha, 'not gained', or -mārga-ālabdha, taken as 'gained' (cp.22.m6). The Tibetan comment calls the Thirty 'the Thirty-three' (sum cu rtsa gsum).",
+      "cites": [
+        "cp.22.m6"
+      ]
+    },
+    {
+      "anchor": "cp.22.5a",
+      "kind": "philology",
+      "text": "তিঅস is taken, with Munidatta, as tridaśa, 'the Thirty', a round number for the thirty-three gods and their heaven (cp.22.m6). It could also be 'thirst' (Sanskrit tṛṣā; Bengali tiyās).",
+      "cites": [
+        "cp.22.m6"
+      ]
+    },
+    {
+      "anchor": "cp.22.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation has gang gi g.yo dang mi g.yor bcas par 'khyam, 'who wander with the moving and the unmoving', with no word for তিঅস.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.22.5b",
+      "kind": "witness",
+      "text": "The Tibetan translation has de rnams rga dang 'chi bar cis mi 'gyur, 'how could they not become old and die?', without the privative a- of অজরামর and with কিম্‌পি taken as 'why'. The sense agrees.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.22.6",
+      "kind": "doctrine",
+      "text": "Munidatta calls couplet 6 his 'fifth verse', on the greatness of the path: for the lord of yogis, free of agent and action, what action comes from birth, or what arising from action? So Saraha states his own intention: for yogins who know the ultimate, it is indeed inconceivable (cp.22.m7). The Tibetan comment ends: 'it is the nature of things (chos nyid), since it is inconceivable for the yogin who knows the ultimate'.",
+      "cites": [
+        "cp.22.m7"
+      ]
+    },
+    {
+      "anchor": "cp.22.6a",
+      "kind": "philology",
+      "text": "কাম is the Old Bengali form of karman, 'action' (compare Bengali kām, 'work'), as Munidatta (cp.22.m7) and the Tibetan (las) read it; the same spelling means 'desire' (Sanskrit kāma).",
+      "cites": [
+        "cp.22.m7"
+      ]
+    },
+    {
+      "anchor": "cp.22.6b",
+      "kind": "witness",
+      "text": "The Tibetan line has sa ra has smras bsam med pa de chos, 'Saraha says: that inconceivable one is dharma', reading ধাম as dharma; its version of the comment has chos nyid, 'the nature of things' (cp.22.m7). Old Bengali dhāma for dharma matches kāma for karman in 6a; Sanskrit dhāman, 'abode, state', is the other possibility.",
+      "cites": [
+        "cp.22.m7"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "bandhana",
+      "line": "cp.22.1b",
+      "reason": "Hit only in the Tibetan ('ching ba). The Bengali has the verb বন্ধাবএ, 'binds', translated as a verb; the entry's 'bond' is a noun and does not fit the line."
+    },
+    {
+      "id": "gold",
+      "line": "cp.22.4b",
+      "reason": "Hit only in the Tibetan (gser 'gyur, 'turning to gold', its rendering of rasa). The Bengali has no word for gold."
+    },
+    {
+      "id": "marana",
+      "line": "cp.22.5b",
+      "reason": "Hit only in the Tibetan ('chi ba, in rga dang 'chi ba). The Bengali word is অজরামর, marked as ajaramara."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "tx-ekaslokabhagavati",
+      "type": "text",
+      "en": "Ekaślokā Bhagavatī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "একশ্লোকা ভ(ভব)গবতী",
+          "translit": "ekaślokā bha(bhava)gavatī",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.22.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚིགས་སུ་བཅད་པ་གཅིག་གིས་བཅོམ་ལྡན་འདས་མ",
+          "translit": "tshigs su bcad pa gcig gis bcom ldan 'das ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.22.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "একশ্লোকা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A source Munidatta cites as ekaślokā bhagavatī, apparently a praise of the Blessed Lady (perhaps the Perfection of Wisdom as goddess) in a single verse. He quotes its opening, 'free of the faults of arising, abiding and perishing' (cp.22.m3). The Tibetan reads 'with one verse, to the Blessed Lady'. Not otherwise identified here.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta cites it by name in song 22; the glossary has entries for the other works he names there (Advayasiddhi, Sūtaka) but not this one. The identification is uncertain, and Shastri's text reads bhavagavatī, corrected to bhagavatī."
+    }
+  ],
+  "questions": [
+    "4b কখা: I rendered 'let him chase after', meant to hold kāṅkṣā, 'longing' (my first choice), and 'pursuit'; kakṣā, or a slip for kathā, 'talk', are also possible. করউ looks like an imperative ('let him'), where Munidatta (karoti, cp.22.m5) and the Tibetan (byed) read 'he does'. Which reading do you want?",
+    "5a তিঅস: I follow Munidatta's tridaśa, 'the Thirty' (cp.22.m6), as the glossary does. 'Thirst' (tṛṣā, Bengali tiyās) would give 'those who wander, thirsting, through the moving and the unmoving', and the Tibetan line has no word for it. Keep 'the Thirty'?",
+    "6b ধাম: the glossary files it under dharma, and the Tibetan line (chos) and comment (chos nyid) agree; Sanskrit dhāman, 'abode, state', would give 'that state is inconceivable'. Keep 'dharma', lowercase and untranslated, or render it 'the nature of things' as the Tibetan comment understands it?",
+    "4a: the Tibetan line has 'no doubt' (the tshom med) where the Bengali has বিসঙ্কা and Munidatta has fear (cp.22.m5). I translated 'fears' and flagged the Tibetan. Is 'fear' the word you want, or 'misgiving', closer to the doubt the Tibetan hears?",
+    "2a অম্ভে: I kept 'we'. The Tibetan has 'I' (bdag) in the line and in the comment, and Munidatta keeps the plural with honorific verbs (cp.22.m3). Keep the plural?",
+    "Heading: I added '· Saraha' from the attribution সরহপাদানাম্ that the input takes out of 1a, to match the brief's heading form. Keep it?",
+    "3b: the jivanta and mrta entries carry only song 23's readings (the entering and outgoing breath), and Munidatta gives no such reading here: he speaks of a living person and a dead one (cp.22.m4). Should their definitions say the readings belong to song 23, and should মঅলেঁ be added to mrta's forms (the matcher missed it)?",
+    "4b রস: 'elixirs' or 'mercury'? 1b মিছেঁ: 'falsely' (both witnesses read error) or 'for nothing'?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "81f1ec90b99d15937bc56619faa1480f3a424d910b5697b5966fa267db389c66",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "d3794d37c22e1ad1ce921c272b58804036d5cb34877241367a24c7d4523801b6",
+    "sourceSha": "1cf3c20ca09f539ca563cc6d35c5d2e59b6e09a6691a34ae710e03d0e6b1c031"
+  }
+}

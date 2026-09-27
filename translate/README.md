@@ -159,6 +159,8 @@ node translate/cli.mjs studio export charyapada          # only what changed sin
 node translate/cli.mjs studio seeded charyapada
 ```
 
+Each write is pinned to the version the Studio holds, and `seeded` is what records the new versions. So a new export refuses to run while the last one is unrecorded. If its batches went in, run `studio seeded`. If none did, export again with `--discard`. If a batch is refused as stale, list that collection to read the live versions and correct `translate/.studio/<target>/seeded.json` before retrying.
+
 **When you say "Pull my Studio decisions":**
 
 ```sh

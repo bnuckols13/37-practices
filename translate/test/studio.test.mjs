@@ -79,8 +79,12 @@ test('export: every doc fits the budget, the index is written last, batches hold
   assert.equal(w.collection, 'meta');
   assert.equal(w.if_version, 1);
   markSeeded('staging');
-  const third = writeOutbox('staging', changed.map(d => d.collection === 'meta' ? { ...d, data: { ...d.data, style: '- changed twice' } } : d));
+  const twice = changed.map(d => d.collection === 'meta' ? { ...d, data: { ...d.data, style: '- changed twice' } } : d);
+  const third = writeOutbox('staging', twice);
   assert.equal(JSON.parse(read(third.batches[0])).writes[0].if_version, 2, 'each successful set is the next version');
+  // Exporting over an unrecorded export would lose its versions: refused unless discarded.
+  assert.throws(() => writeOutbox('staging', twice), /never recorded/);
+  assert.equal(JSON.parse(read(writeOutbox('staging', twice, { discard: true }).batches[0])).writes[0].if_version, 2);
   const meta = docs.at(-1).data;
   assert.equal(meta.songs[0].stage, 'in review');
   assert.ok(meta.checklist.find(c => c.id === 'draft').done);
@@ -116,7 +120,8 @@ test('round trip: a Studio review gives the same approved record as the sheet re
   assert.equal(receipt.result, 'approved');
   assert.equal(receipt.decisionUpdatedAt, decision.updatedAt);
 
-  // Importing the same decisions again changes nothing.
+  // Importing the same decisions again (once the receipts are in) changes nothing.
+  markSeeded('staging');
   const again = importStudio('fixture', { target: 'staging' });
   assert.equal(again.units[0].result, 'already imported');
   assert.equal(glossary.load().entries.find(e => e.id === 'taruvara').provenance.approved.date, '2026-09-27');

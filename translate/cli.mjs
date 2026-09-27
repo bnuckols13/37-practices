@@ -46,7 +46,7 @@ const HELP = `Illuminated translation engine
   workshop build <text> [units]                   build the Workshop page into translate/.workshop/workshop.html
 
   studio build [--target staging|prod]            build the Studio page into translate/.studio/studio.html
-  studio export <text> [units] [--all]            write Studio docs + ArtifactData batches (only what changed)
+  studio export <text> [units] [--all] [--discard] write Studio docs + ArtifactData batches (only what changed)
   studio seeded <text>                            record that every batch was written
   studio import <text> [units] [--dry] [--force]  apply decisions pulled into translate/.studio/<target>/inbox
 `;
@@ -58,7 +58,7 @@ const { values: o, positionals } = parseArgs({
     label: { type: 'string' }, witness: { type: 'string' }, fetch: { type: 'string' }, task: { type: 'string' },
     model: { type: 'string' }, api: { type: 'boolean' }, batch: { type: 'boolean' }, force: { type: 'boolean' },
     dry: { type: 'boolean' }, preview: { type: 'boolean' }, strict: { type: 'boolean' }, glossary: { type: 'boolean' },
-    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, en: { type: 'string' }, by: { type: 'string' }, undo: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
+    retire: { type: 'boolean' }, all: { type: 'boolean' }, discard: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, en: { type: 'string' }, by: { type: 'string' }, undo: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
   },
 });
 
@@ -325,7 +325,7 @@ const commands = {
         const ids = new Set(await unitsFor(text, unitSel));
         docs = docs.filter(d => d.collection !== 'units' || ids.has(d.id));
       }
-      const r = outbox.writeOutbox(target, docs, { all: o.all });
+      const r = outbox.writeOutbox(target, docs, { all: o.all, discard: o.discard });
       log(`  ${target}: ${r.count} doc(s) to write, ${r.unchanged} unchanged`);
       for (const b of r.batches) log(`    ${b}`);
       if (r.count) log(`  write each batch with ArtifactData (action "batch", writes = the file's "writes"), then: node translate/cli.mjs studio seeded ${text}`);

@@ -33,9 +33,12 @@ export function targetFor(slug, explicit) {
   return hit[0];
 }
 
-export function writeOutbox(target, docs, { all = false } = {}) {
+export function writeOutbox(target, docs, { all = false, discard = false } = {}) {
   const dir = studioDir(target);
   const out = path.join(dir, 'out');
+  // A new export replaces the last one's pending versions; if its batches were written, the ledger would fall behind the database.
+  const unrecorded = Object.keys(readJSON(path.join(dir, 'pending.json'), {})).length;
+  if (unrecorded && !discard) fail(`the last export's ${unrecorded} write(s) were never recorded: if its batches went in, run "studio seeded" first; if none did, export again with --discard`);
   fs.rmSync(out, { recursive: true, force: true });
   const ledger = readLedger(dir);
   const pending = {};
@@ -58,7 +61,8 @@ export function writeOutbox(target, docs, { all = false } = {}) {
     writeJSON(p, { writes: writes.slice(i, i + BATCH_SIZE) });
     batches.push(p);
   }
-  writeJSON(path.join(dir, 'pending.json'), pending);
+  if (writes.length) writeJSON(path.join(dir, 'pending.json'), pending);
+  else fs.rmSync(path.join(dir, 'pending.json'), { force: true });
   return { batches, count: writes.length, unchanged: docs.length - writes.length };
 }
 

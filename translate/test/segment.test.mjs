@@ -200,3 +200,14 @@ test('parallel: @split divides a line between two comments; extra heading lines 
   assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@split ཀ\n།ངོ། ཀ་ཁ།\nག\n'), /the rest of the split line needs a directive/);
   assert.throws(() => both('@parallel\n@song 1\n@comm 1\n@split ཆ\n།ངོ། ཀ་ཁ།\n@comm 1\n'), /is not inside the next line/);
 });
+
+test('glossary matching reads through folio numbers and restoration brackets', async () => {
+  const { matchSource } = await import('../lib/glossary.mjs');
+  const { Entry } = await import('../schemas/glossary.mjs');
+  const es = [Entry.parse({ id: 'pada', type: 'term', status: 'proposed', en: 'verse', match: { san: ['দ্বিতীয়পদেন'] } }),
+    Entry.parse({ id: 'samadhi', type: 'term', status: 'proposed', en: 'samādhi', match: { oben: ['সমাহিঅ'] } })];
+  const [h] = matchSource(es, 'অ দ্বিতী[৫ক]য়পদেন', 'san');
+  assert.equal(h?.id, 'pada', 'a folio number inside the word');
+  assert.equal(h.at, 2, 'the position is in the source as given');
+  assert.equal(matchSource(es, 'সআল স[মা]হিঅ', 'oben')[0]?.id, 'samadhi', 'a restoration inside the word');
+});

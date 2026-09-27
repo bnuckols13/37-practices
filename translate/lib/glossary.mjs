@@ -45,8 +45,23 @@ function spansOf(s, form, lang) {
  * kept: citta inside a compound no entry covers is still citta. Each hit gives
  * the form found and where (`at`, the first place it counts).
  */
-export function matchSource(entries, src, lang) {
+// Shastri's folio numbers ([৫ক]) and the brackets of his restorations (স[মা]হিঅ) sit inside
+// words; matching reads through them. `pos` maps an index in the cleaned text back to the source.
+function readable(src) {
   const s = String(src).normalize('NFC');
+  let text = '', pos = [];
+  for (let i = 0; i < s.length;) {
+    const folio = /^\[[০-৯0-9]+[কখ]?\]/u.exec(s.slice(i));
+    if (folio) { i += folio[0].length; continue; }
+    if (s[i] === '[' || s[i] === ']') { i++; continue; }
+    text += s[i]; pos.push(i); i++;
+  }
+  pos.push(s.length);
+  return { text, pos };
+}
+
+export function matchSource(entries, src, lang) {
+  const { text: s, pos } = lang === 'bod' ? { text: String(src).normalize('NFC'), pos: null } : readable(src);
   const occ = [];
   for (const e of entries) {
     for (const f of e.match[lang] || []) if (f) for (const [a, b] of spansOf(s, f, lang)) occ.push({ id: e.id, form: f, a, b });
@@ -63,8 +78,8 @@ export function matchSource(entries, src, lang) {
     const cur = first.get(o.id);
     if (!cur || o.a < cur.a) first.set(o.id, o);
   }
-  // In glossary order, as before.
-  return entries.filter(e => first.has(e.id)).map(e => { const o = first.get(e.id); return { id: e.id, form: o.form, at: o.a }; });
+  // In glossary order, as before; `at` is where the form starts in the source as given.
+  return entries.filter(e => first.has(e.id)).map(e => { const o = first.get(e.id); return { id: e.id, form: o.form, at: pos ? pos[o.a] : o.a }; });
 }
 
 /** One compact line per entry, for packs and `glossary show`. */

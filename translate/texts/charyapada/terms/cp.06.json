@@ -1,0 +1,1522 @@
+{
+  "unit": "cp.06",
+  "proposals": [
+    {
+      "id": "p-bhusuku",
+      "type": "person",
+      "en": "Bhusukupāda",
+      "policy": "keep-source",
+      "alt": [
+        "Bhusuku"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদানাম্",
+          "translit": "bhusukupādānām",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.06.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "ভুসুকু",
+          "translit": "bhusuku",
+          "lemma": "bhusuku",
+          "att": "AS",
+          "where": "cp.06.5b"
+        },
+        {
+          "lang": "oben",
+          "script": "ভুকুঅ",
+          "translit": "bhukua",
+          "lemma": "bhukua",
+          "att": "AS",
+          "where": "cp.06.2b"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদো",
+          "translit": "bhusukupādo",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.06.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুক্কুপাদাঽখেটিকঃ",
+          "translit": "bhusukkupādā'kheṭikaḥ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.06.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদসিদ্ধাচার্য্যো",
+          "translit": "bhusukupādasiddhācāryyo",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷུ་སུ་ཀུའི་ཞབས",
+          "translit": "b+hu su ku'i zhabs",
+          "lemma": "b+hu su ku",
+          "att": "AO",
+          "where": "cp.06.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷུ་སུ་ཀུ",
+          "translit": "b+hu su ku",
+          "lemma": "b+hu su ku",
+          "att": "AO",
+          "where": "cp.06.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷུ་སུ་ཀུས",
+          "translit": "b+hu su kus",
+          "lemma": "b+hu su ku",
+          "att": "AO",
+          "where": "cp.06.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷུ་སུ་ཀུ་པའི་ཞབས",
+          "translit": "b+hu su ku pa'i zhabs",
+          "lemma": "b+hu su ku pa",
+          "att": "AO",
+          "where": "cp.06.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভুসুকু"
+        },
+        {
+          "lang": "oben",
+          "form": "ভুকুঅ"
+        },
+        {
+          "lang": "san",
+          "form": "ভুসুকু"
+        },
+        {
+          "lang": "san",
+          "form": "ভুসুক্কু"
+        },
+        {
+          "lang": "bod",
+          "form": "བྷུ་སུ་ཀུ"
+        }
+      ],
+      "definition": "Bhusukupāda, the siddha to whom the manuscript and the Tibetan translation attribute song 6. He names himself Bhusuku in its last couplet, and Munidatta and the Tibetan also read his name in the refrain, where Shastri's text has bhukua. Munidatta calls him a siddha master (cp.06.m6). Shastri's edition identifies him with Śāntideva, whose Bodhicaryāvatāra Munidatta quotes here (cp.06.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Poet of the song, named in the attribution, the Tibetan heading, the refrain, the last couplet and the commentary; the unit already refers to him as p-bhusuku, and the -pāda form follows the heading style (Lūyīpāda), with Bhusuku as the variant for the bhaṇitā."
+    },
+    {
+      "id": "deer",
+      "type": "term",
+      "en": "deer",
+      "policy": "translate",
+      "alt": [
+        "antelope"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হরিণা",
+          "translit": "hariṇā",
+          "lemma": "hariṇa",
+          "att": "AS",
+          "where": "cp.06.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "হরিণার",
+          "translit": "hariṇāra",
+          "lemma": "hariṇa",
+          "att": "AS",
+          "where": "cp.06.5a"
+        },
+        {
+          "lang": "san",
+          "script": "হরিণাশব্দসন্ধ্যাভাষয়া",
+          "translit": "hariṇāśabdasandhyābhāṣayā",
+          "lemma": "hariṇa",
+          "att": "AS",
+          "where": "cp.06.m1"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তহরিণেন",
+          "translit": "cittahariṇena",
+          "lemma": "hariṇa",
+          "att": "AS",
+          "where": "cp.06.m2"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তহরিণং",
+          "translit": "cittahariṇaṃ",
+          "lemma": "hariṇa",
+          "att": "AS",
+          "where": "cp.06.m3"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তহরিণস্য",
+          "translit": "cittahariṇasya",
+          "lemma": "hariṇa",
+          "att": "AS",
+          "where": "cp.06.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বাহ্যৈর্মৃগৈঃ",
+          "translit": "bāhyairmṛgaiḥ",
+          "lemma": "mṛga",
+          "att": "AS",
+          "where": "cp.06.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་དགས",
+          "translit": "ri dgas",
+          "lemma": "ri dwags",
+          "att": "AO",
+          "where": "cp.06.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་དྭགས",
+          "translit": "ri dwags",
+          "lemma": "ri dwags",
+          "att": "AO",
+          "where": "cp.06.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "হরিণা"
+        },
+        {
+          "lang": "oben",
+          "form": "হরিণার"
+        },
+        {
+          "lang": "san",
+          "form": "হরিণ"
+        },
+        {
+          "lang": "san",
+          "form": "মৃগৈঃ"
+        },
+        {
+          "lang": "bod",
+          "form": "རི་དགས"
+        },
+        {
+          "lang": "bod",
+          "form": "རི་དྭགས"
+        }
+      ],
+      "definition": "A deer or antelope (Old Bengali hariṇā, Sanskrit hariṇa, mṛga), the central figure of this song: its own flesh makes it an enemy, it touches neither grass nor water, and its hooves are not seen as it bounds away. Munidatta says the poet speaks in the twilight language of the word 'deer' (cp.06.m1), and calls it 'the mind-deer' throughout.",
+      "symbolicImage": "a deer, an enemy through its own flesh, that touches neither grass nor water and whose hooves are not seen as it bounds away",
+      "symbolicReadings": [
+        {
+          "referent": "the mind, which Munidatta calls 'the mind-deer' (cittahariṇa) throughout his comment",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m2",
+            "cp.06.m3",
+            "cp.06.m4",
+            "cp.06.m5",
+            "cp.06.m6"
+          ]
+        },
+        {
+          "referent": "with the doe, the pair 'mind and wind' (cittapavana), whose dwelling is not understood through the door of the senses (the gloss does not say which animal is which)",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind",
+        "mind-deer",
+        "citta",
+        "thought"
+      ],
+      "rationale": "The central image of the song, which Munidatta explicitly calls twilight language and reads as the mind; the entry keeps 'deer' in the lines and the reading in the notes."
+    },
+    {
+      "id": "doe",
+      "type": "term",
+      "en": "doe",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হরিণী",
+          "translit": "hariṇī",
+          "lemma": "hariṇī",
+          "att": "AS",
+          "where": "cp.06.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "হরিণির",
+          "translit": "hariṇira",
+          "lemma": "hariṇī",
+          "att": "AS",
+          "where": "cp.06.3b"
+        },
+        {
+          "lang": "san",
+          "script": "হরিণীত্যাদি",
+          "translit": "hariṇītyādi",
+          "lemma": "hariṇī",
+          "att": "AS",
+          "where": "cp.06.m5"
+        },
+        {
+          "lang": "san",
+          "script": "হরিণীতি",
+          "translit": "hariṇīti",
+          "lemma": "hariṇī",
+          "att": "AS",
+          "where": "cp.06.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་དགས་མ",
+          "translit": "ri dgas ma",
+          "lemma": "ri dwags",
+          "att": "AO",
+          "where": "cp.06.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "হরিণী"
+        },
+        {
+          "lang": "oben",
+          "form": "হরিণি"
+        },
+        {
+          "lang": "san",
+          "form": "হরিণী"
+        },
+        {
+          "lang": "bod",
+          "form": "རི་དགས་མ"
+        }
+      ],
+      "definition": "A doe, the female deer (Old Bengali hariṇī). In this song her dwelling (or that of the pair) is not known, and she tells the deer to leave this forest. Munidatta calls hariṇī twilight language for the wisdom seal (jñānamudrā), Nairātmā, and derives the word from harati, 'takes away' (cp.06.m5). The Tibetan translation has ri dgas ma.",
+      "symbolicImage": "the doe, who tells the deer to leave this forest",
+      "symbolicReadings": [
+        {
+          "referent": "the wisdom seal (jñānamudrā), Nairātmā: hariṇī is twilight language for her, 'she who takes away' (harati) the graspings of existence; as the meditator's practice matures she comforts the mind-deer and tells it to leave the body-forest for the lotus grove of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m5"
+          ]
+        },
+        {
+          "referent": "with the deer, the pair 'mind and wind' (cittapavana), whose dwelling is not understood through the door of the senses; the gloss implies that the doe is the wind but does not say so",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wisdom seal",
+        "jñānamudrā",
+        "Nairātmā",
+        "selflessness",
+        "wind",
+        "consort"
+      ],
+      "rationale": "Munidatta explicitly calls hariṇī twilight language and gives her a reading distinct from the deer's, so she needs her own entry."
+    },
+    {
+      "id": "forest",
+      "type": "term",
+      "en": "forest",
+      "policy": "translate",
+      "alt": [
+        "wood"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বণ",
+          "translit": "baṇa",
+          "lemma": "baṇa",
+          "att": "AS",
+          "where": "cp.06.4b"
+        },
+        {
+          "lang": "san",
+          "script": "কায়বনস্য",
+          "translit": "kāyavanasya",
+          "lemma": "vana",
+          "att": "AS",
+          "where": "cp.06.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ནགས",
+          "translit": "nags",
+          "lemma": "nags",
+          "att": "AO",
+          "where": "cp.06.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས་ཀྱི་ནགས",
+          "translit": "lus kyi nags",
+          "lemma": "nags",
+          "att": "AO",
+          "where": "cp.06.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বণ"
+        },
+        {
+          "lang": "san",
+          "form": "কায়বন"
+        },
+        {
+          "lang": "bod",
+          "form": "ནགས"
+        }
+      ],
+      "definition": "A forest or wood (Old Bengali baṇa, Sanskrit vana). In this song the doe tells the deer to leave this forest. Munidatta reads it as the body, 'this body-forest' (kāyavana) (cp.06.m5). The Tibetan translation has nags, 'forest', in the line and lus kyi nags, 'forest of the body', in the commentary.",
+      "symbolicImage": "this forest, which the doe tells the deer to leave",
+      "symbolicReadings": [
+        {
+          "referent": "the body, 'this body-forest' (kāyavana): the mind-deer is to give up its grasping at the body (kāyagraha) and go to the lotus grove of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "body",
+        "body-forest"
+      ],
+      "rationale": "A twilight image with an explicit reading in cp.06.m5; the entry keeps 'forest' in the line. The Sanskrit match is limited to kāyavana because a bare vana would also catch pavana, 'wind'."
+    },
+    {
+      "id": "hoof",
+      "type": "term",
+      "en": "hoof",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খূর",
+          "translit": "khūra",
+          "lemma": "khura",
+          "att": "AS",
+          "where": "cp.06.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང",
+          "translit": "rkang",
+          "lemma": "rkang pa",
+          "att": "AO",
+          "where": "cp.06.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "খূর"
+        }
+      ],
+      "definition": "A hoof (Old Bengali khūra, Sanskrit khura). In the last couplet the deer's hooves are not seen as it bounds away; the Tibetan translation has rkang, 'foot, leg'. Munidatta's paraphrase puts 'the parts and so on' of the mind-deer in their place: yogis who have realized innate knowledge form no concepts of them (cp.06.m6).",
+      "symbolicImage": "the deer's hooves, not seen as it bounds away",
+      "symbolicReadings": [
+        {
+          "referent": "the parts (avayava) and so on of one's own mind-deer, of which yogis who have realized innate knowledge form no concepts (his paraphrase puts them where the song has the hooves; he gives no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "parts",
+        "limbs",
+        "concepts"
+      ],
+      "rationale": "An image of the last couplet that Munidatta's paraphrase interprets; the reading is hedged because he does not name the hoof. No Tibetan match is given, since rkang also stands in rkang pa, 'verse', and rkang mar, 'marrow'."
+    },
+    {
+      "id": "mudha",
+      "type": "term",
+      "en": "fool",
+      "policy": "translate",
+      "alt": [
+        "the deluded"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মূঢ়া",
+          "translit": "mūṛhā",
+          "lemma": "mūṛha",
+          "att": "AS",
+          "where": "cp.06.5b"
+        },
+        {
+          "lang": "san",
+          "script": "সংমূঢ়া",
+          "translit": "saṃmūḍhā",
+          "lemma": "saṃmūḍha",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བླུན",
+          "translit": "blun",
+          "lemma": "blun po",
+          "att": "AO",
+          "where": "cp.06.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡང་དག་པར་རྨོངས",
+          "translit": "yang dag par rmongs",
+          "lemma": "rmongs pa",
+          "att": "AO",
+          "where": "cp.06.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মূঢ়"
+        },
+        {
+          "lang": "san",
+          "form": "মূঢ়"
+        },
+        {
+          "lang": "bod",
+          "form": "བླུན"
+        }
+      ],
+      "definition": "A fool, someone deluded (Old Bengali mūṛha, Sanskrit mūḍha). In the last line Bhusuku says it does not enter the hearts of fools. Munidatta identifies them with scholars proud of outer treatises and scriptures, who are thoroughly deluded about this teaching and far from it (cp.06.m6). The Tibetan translation has blun, 'fool'.",
+      "symbolicImage": "fools, into whose hearts it does not enter",
+      "symbolicReadings": [
+        {
+          "referent": "scholars (paṇḍita) proud of outer treatises and scriptures, thoroughly deluded about this teaching and far from it, in whose hearts not even a glimmer of reality opens",
+          "per": "Munidatta",
+          "where": [
+            "cp.06.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "scholars",
+        "paṇḍitas",
+        "pundits"
+      ],
+      "rationale": "The bhaṇitā's word for those the teaching does not reach; Munidatta gives them a specific identity, which belongs in a note. It is kept apart from moha ('delusion'), the abstract noun, because the song's word names people."
+    },
+    {
+      "id": "elephant",
+      "type": "term",
+      "en": "elephant",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "করিবর",
+          "translit": "karivara",
+          "lemma": "karivara",
+          "att": "AS",
+          "where": "cp.06.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང་ཆེན་མཆོག",
+          "translit": "glang chen mchog",
+          "lemma": "glang chen",
+          "att": "AO",
+          "where": "cp.06.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "করিবর"
+        },
+        {
+          "lang": "bod",
+          "form": "གླང་ཆེན"
+        }
+      ],
+      "definition": "An elephant, one of the recurring images of siddha poetry. In the verse of Kṛṣṇācārya's Dohākoṣa that Munidatta quotes, the great elephant (karivara) dwells far away (cp.06.m4); Munidatta does not explain the images of the verse. The Tibetan translation has glang chen mchog, 'best of elephants'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The text brief lists the elephant among the recurring twilight images; this is its first appearance, in a quoted dohā with no gloss, so the entry fixes an id and rendering and leaves the reading empty until a commentary states one."
+    },
+    {
+      "id": "sabara",
+      "type": "term",
+      "en": "Śabara",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "শবরেহিং",
+          "translit": "śabarehiṃ",
+          "lemma": "śabara",
+          "att": "AS",
+          "where": "cp.06.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ་བ",
+          "translit": "sha ba",
+          "lemma": "sha ba",
+          "att": "AO",
+          "where": "cp.06.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শবর"
+        }
+      ],
+      "definition": "A Śabara, one of a forest and hill people of eastern and central India whom caste society treated as outsiders; a Śabara woman, the Śabarī, is a figure of the songs. In the verse of Kṛṣṇācārya's Dohākoṣa that Munidatta quotes, the Śabaras dwell on a high mountain peak (cp.06.m4). The Tibetan renders the word sha ba, 'deer'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A people named in a quoted dohā and, as the Śabarī, a recurring figure of the songs; kept in source form with a first gloss, like Mātaṅgī. The Tibetan sha ba ('deer') is listed as the counterpart but not matched, since it is a misreading."
+    },
+    {
+      "id": "jnanamudra",
+      "type": "term",
+      "en": "jñānamudrā",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "wisdom seal"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানমুদ্রা",
+          "translit": "jñānamudrā",
+          "lemma": "jñānamudrā",
+          "att": "AS",
+          "where": "cp.06.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་ཀྱི་ཕྱག་རྒྱ",
+          "translit": "ye shes kyi phyag rgya",
+          "lemma": "ye shes kyi phyag rgya",
+          "att": "AO",
+          "where": "cp.06.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জ্ঞানমুদ্রা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡེ་ཤེས་ཀྱི་ཕྱག་རྒྱ"
+        }
+      ],
+      "definition": "'Wisdom seal': in the yoginī tantras, a partner visualized in meditation, as distinct from a physical partner (karmamudrā) and from Mahāmudrā. Munidatta says hariṇī, 'doe', is twilight language for the jñānamudrā, Nairātmā, who comforts the mind-deer as the meditator's practice matures (cp.06.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the yoginī tantras and the counterpart of the karmamudrā entry; kept in source form with a first gloss, like karmamudrā and Mahāmudrā."
+    },
+    {
+      "id": "mrtyumara",
+      "type": "term",
+      "en": "Māra of death",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মৃত্যুমারবিষাবেষ্টিতঃ",
+          "translit": "mṛtyumāraviṣāveṣṭitaḥ",
+          "lemma": "mṛtyumāra",
+          "att": "AS",
+          "where": "cp.06.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆི་བདག་གི་བདུད",
+          "translit": "'chi bdag gi bdud",
+          "lemma": "'chi bdag gi bdud",
+          "att": "AO",
+          "where": "cp.06.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মৃত্যুমার"
+        },
+        {
+          "lang": "bod",
+          "form": "འཆི་བདག་གི་བདུད"
+        }
+      ],
+      "definition": "Death as Māra, the 'killer' and tempter of Buddhist myth; one of the four Māras, with those of the aggregates, the afflictions and the divine son. Munidatta says that from beginningless time, through lack of vigilance, 'my mind-deer', wrapped in the poison of the Māra of death, heard the cry 'kill! kill!' (māra māra) (cp.06.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term (mṛtyumāra) in Munidatta's gloss on the first couplet, set beside the cry māra māra, 'kill! kill!'; the Tibetan has the standard equivalent 'chi bdag gi bdud."
+    },
+    {
+      "id": "samprajanya",
+      "type": "term",
+      "en": "vigilance",
+      "policy": "translate",
+      "alt": [
+        "watchfulness",
+        "clear comprehension"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনাদিকালমাদায়াসংপ্রজন্যদোষেণ",
+          "translit": "anādikālamādāyāsaṃprajanyadoṣeṇa",
+          "lemma": "saṃprajanya",
+          "att": "AS",
+          "where": "cp.06.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤེས་བཞིན་མ་ཡིན་པ",
+          "translit": "shes bzhin ma yin pa",
+          "lemma": "shes bzhin",
+          "att": "AO",
+          "where": "cp.06.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সংপ্রজন্য"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤེས་བཞིན"
+        }
+      ],
+      "definition": "Vigilance (saṃprajanya): watchful awareness of what one's body, speech and mind are doing, a key virtue of the Bodhicaryāvatāra, which Munidatta quotes in this song. He blames its lack (asaṃprajanya) for the plight of 'my mind-deer', wrapped from beginningless time in the poison of the Māra of death (cp.06.m2). The Tibetan has shes bzhin ma yin pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term; the unit has only the negative, which a translation can render 'lack of [vigilance]{samprajanya}', and the entry then serves the positive term wherever it occurs."
+    },
+    {
+      "id": "matsarya",
+      "type": "term",
+      "en": "avarice",
+      "policy": "translate",
+      "alt": [
+        "envy",
+        "selfishness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃতাবিদ্যামাৎসর্য্যদোষেণ",
+          "translit": "kṛtāvidyāmātsaryyadoṣeṇa",
+          "lemma": "mātsarya",
+          "att": "AS",
+          "where": "cp.06.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སེར་སྣ",
+          "translit": "ser sna",
+          "lemma": "ser sna",
+          "att": "AO",
+          "where": "cp.06.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মাৎসর্য্য"
+        },
+        {
+          "lang": "bod",
+          "form": "སེར་སྣ"
+        }
+      ],
+      "definition": "Mātsarya: selfish possessiveness, envy or avarice; Buddhist lists of secondary afflictions count it as avarice, the Tibetan ser sna. Munidatta says the mind-deer, restless through the faults of ignorance and avarice that it has itself made, is the sworn enemy of all (cp.06.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An affliction named in Munidatta's gloss on the refrain; 'avarice' follows the Buddhist sense that the Tibetan ser sna confirms, with 'envy' as a variant for the common Sanskrit sense."
+    },
+    {
+      "id": "anupalambha",
+      "type": "term",
+      "en": "non-apprehension",
+      "policy": "translate",
+      "alt": [
+        "non-perception"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মানুলম্ভতয়া",
+          "translit": "sarvvadharmmānulambhatayā",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.06.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་སུ་མེད་པ",
+          "translit": "dmigs su med pa",
+          "lemma": "dmigs su med pa",
+          "att": "AO",
+          "where": "cp.06.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধর্ম্মানুলম্ভ"
+        },
+        {
+          "lang": "bod",
+          "form": "དམིགས་སུ་མེད་པ"
+        }
+      ],
+      "definition": "Non-apprehension (anupalambha): finding nothing to take as an object, since nothing exists by its own nature; a Madhyamaka term. Munidatta speaks of the non-apprehension of all things, with grasped and grasper absent (cp.06.m2). The manuscript's anulambha is apparently a slip: the Tibetan dmigs su med pa supports anupalambha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A Madhyamaka term in Munidatta's gloss on the first couplet whose spelling in the manuscript is corrupt; the entry records the Tibetan evidence for the standard form."
+    },
+    {
+      "id": "tattva",
+      "type": "term",
+      "en": "reality",
+      "policy": "translate",
+      "alt": [
+        "truth",
+        "thatness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তত্ত্বং",
+          "translit": "tattvaṃ",
+          "lemma": "tattva",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "san",
+          "script": "তত্বোন্মীলি(ল)তমাত্রং",
+          "translit": "tatvonmīli(la)tamātraṃ",
+          "lemma": "tattva",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་ཁོ་ན་ཉིད",
+          "translit": "de kho na nyid",
+          "lemma": "de kho na nyid",
+          "att": "AO",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་ཉིད",
+          "translit": "de nyid",
+          "lemma": "de nyid",
+          "att": "AO",
+          "where": "cp.06.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "তত্ত্ব"
+        },
+        {
+          "lang": "san",
+          "form": "তত্ব"
+        },
+        {
+          "lang": "bod",
+          "form": "དེ་ཁོ་ན་ཉིད"
+        }
+      ],
+      "definition": "Reality, 'thatness' (tattva): things as they truly are, which the path aims to know directly. Munidatta says that in the hearts of scholars proud of outer treatises not even a glimmer of reality opens, and quotes a tantra: for those who do not know reality, the Sage's eighty-four thousand heaps of Dharma bear no fruit (cp.06.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term in Munidatta's gloss on the bhaṇitā and in the tantra verse he quotes. The Tibetan de nyid is listed but not matched, since it is also the ordinary 'that very'."
+    },
+    {
+      "id": "dharmaskandha",
+      "type": "term",
+      "en": "heaps of Dharma",
+      "policy": "translate",
+      "alt": [
+        "sections of the teaching"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ধর্ম্মস্কন্ধে",
+          "translit": "dharmmaskandhe",
+          "lemma": "dharmaskandha",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས་ཀྱི་ཕུང་པོ",
+          "translit": "chos kyi phung po",
+          "lemma": "chos kyi phung po",
+          "att": "AO",
+          "where": "cp.06.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধর্ম্মস্কন্ধ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆོས་ཀྱི་ཕུང་པོ"
+        }
+      ],
+      "definition": "The heaps or sections (skandha) of the Buddha's teaching, traditionally counted as eighty-four thousand; skandha here does not mean the five aggregates. In the tantra verse Munidatta quotes, the Sage's eighty-four thousand heaps of Dharma bear no fruit for those who do not know reality (cp.06.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A fixed Buddhist expression that needs its own rendering; the entry also stops the aggregates entry (skandha) from matching here in both the Sanskrit and the Tibetan."
+    },
+    {
+      "id": "prajna",
+      "type": "term",
+      "en": "wisdom",
+      "policy": "translate",
+      "alt": [
+        "insight"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞাশস্ত্রেণ",
+          "translit": "prajñāśastreṇa",
+          "lemma": "prajñā",
+          "att": "AS",
+          "where": "cp.06.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤེས་རབ",
+          "translit": "shes rab",
+          "lemma": "shes rab",
+          "att": "AO",
+          "where": "cp.06.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রজ্ঞা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤེས་རབ"
+        }
+      ],
+      "definition": "Wisdom (prajñā): discernment of how things really are, above all insight into emptiness; in the tantras it is paired with means (upāya) and pictured as female. In the Bodhicaryāvatāra verse Munidatta quotes, the flesh is to be freed from the cage of bones with the knife of wisdom (cp.06.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary has wisdom-knowledge and wisdom and means but no entry for prajñā itself; the longer entries still win where their compounds occur."
+    },
+    {
+      "id": "indriya",
+      "type": "term",
+      "en": "senses",
+      "policy": "translate",
+      "alt": [
+        "sense faculties"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ইন্দ্রিয়দ্বারেণ",
+          "translit": "indriyadvāreṇa",
+          "lemma": "indriya",
+          "att": "AS",
+          "where": "cp.06.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་པོའི",
+          "translit": "dbang po'i",
+          "lemma": "dbang po",
+          "att": "AO",
+          "where": "cp.06.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ইন্দ্রিয়"
+        },
+        {
+          "lang": "bod",
+          "form": "དབང་པོ"
+        }
+      ],
+      "definition": "The senses or sense faculties (indriya): eye, ear, nose, tongue and body, with the mind in some lists, each a 'door' through which objects are known. Munidatta says the dwelling of the mind and the wind is not understood through the door of the senses (cp.06.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term that recurs in Munidatta's comments (the samādhi entry already speaks of restraining the senses); plain 'senses' reads naturally."
+    },
+    {
+      "id": "tx-bodhicaryavatara",
+      "type": "text",
+      "en": "Bodhicaryāvatāra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বোধিচর্য্যাবতারে",
+          "translit": "bodhicaryyāvatāre",
+          "lemma": "bodhicaryāvatāra",
+          "att": "AS",
+          "where": "cp.06.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ",
+          "translit": "byang chub sems dpa'i spyod pa la 'jug pa",
+          "lemma": "byang chub sems dpa'i spyod pa la 'jug pa",
+          "att": "AO",
+          "where": "cp.06.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বোধিচর্য্যাবতার"
+        },
+        {
+          "lang": "bod",
+          "form": "བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ"
+        }
+      ],
+      "definition": "The Bodhicaryāvatāra ('Entering the Conduct of Awakening'), Śāntideva's verse treatise on the bodhisattva path. Munidatta quotes its verses on separating skin, flesh and bones with the knife of wisdom and asking what core there is in the body (cp.06.m3). The Tibetan translation names it byang chub sems dpa'i spyod pa la 'jug pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A work Munidatta quotes by name (twice in the text so far); the entry also stops the conduct entry (caryā) from matching inside the title."
+    },
+    {
+      "id": "tx-dohakosa",
+      "type": "text",
+      "en": "Dohākoṣa",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দোহাকোষে",
+          "translit": "dohākoṣe",
+          "lemma": "dohākoṣa",
+          "att": "AS",
+          "where": "cp.06.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དོ་ཧ་མཛོད",
+          "translit": "do ha mdzod",
+          "lemma": "do ha mdzod",
+          "att": "AO",
+          "where": "cp.06.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দোহাকোষ"
+        },
+        {
+          "lang": "bod",
+          "form": "དོ་ཧ་མཛོད"
+        }
+      ],
+      "definition": "'Treasury of Dohās': a collection of dohās, the rhymed Apabhraṃśa couplets of the siddhas. Several siddhas' collections bear the name; here Munidatta cites the one by Kṛṣṇācārya (Kāṇha), quoting its verse on the Śabaras' dwelling on a high mountain peak (cp.06.m4). The Tibetan translation has do ha mdzod.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A work Munidatta names as his source (twice in the text so far); one entry serves the title, with the author named wherever it is cited."
+    },
+    {
+      "id": "tx-sahajasamvara",
+      "type": "text",
+      "en": "Sahajasaṃvara",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সহজসম্বরে",
+          "translit": "sahajasaṃvare",
+          "lemma": "sahajasaṃvara",
+          "att": "AS",
+          "where": "cp.06.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་པའི་སྡོམ་པ",
+          "translit": "lhan cig skyes pa'i sdom pa",
+          "lemma": "lhan cig skyes pa'i sdom pa",
+          "att": "AO",
+          "where": "cp.06.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সহজসম্বর"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷན་ཅིག་སྐྱེས་པའི་སྡོམ་པ"
+        }
+      ],
+      "definition": "A work Munidatta cites as the Sahajasaṃvara (Tibetan lhan cig skyes pa'i sdom pa); it is not otherwise identified here. He quotes its verse in which emptiness, like a woman in desire, at once embraces the mind that is all-pervading, free of appearance and of one taste with compassion (cp.06.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A work quoted by name; the entry also stops the innate entry (sahaja) from matching inside the title."
+    },
+    {
+      "id": "tx-caturdevipariprccha",
+      "type": "text",
+      "en": "Caturdevīparipṛcchā",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্দেবীপরিপৃচ্ছামহাযোগতন্ত্রে",
+          "translit": "caturdevīparipṛcchāmahāyogatantre",
+          "lemma": "caturdevīparipṛcchā",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷ་མོ་བཞིས་ཞུས་པ་རྣལ་འབྱོར་ཆེན་པོའི་རྒྱུད",
+          "translit": "lha mo bzhis zhus pa rnal 'byor chen po'i rgyud",
+          "lemma": "lha mo bzhis zhus pa",
+          "att": "AO",
+          "where": "cp.06.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চতুর্দেবীপরিপৃচ্ছা"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷ་མོ་བཞིས་ཞུས་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷ་མོ་བཞིས་ཞུས་པ་རྣལ་འབྱོར་ཆེན་པོའི་རྒྱུད"
+        }
+      ],
+      "definition": "The Caturdevīparipṛcchā ('Questions of the Four Goddesses'), a mahāyoga tantra usually counted among the explanatory tantras of the Guhyasamāja. Munidatta quotes its verse: for those who do not know reality, the Sage's eighty-four thousand heaps of Dharma bear no fruit (cp.06.m6). The Tibetan has lha mo bzhis zhus pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A tantra quoted by name; the longer Tibetan match also keeps the cord entry (tanti, Tibetan rgyud) from matching the word 'tantra' in its title."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পটমঞ্জরী",
+          "translit": "paṭamañjarī",
+          "lemma": "paṭamañjarī",
+          "att": "AS",
+          "where": "cp.06.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "པ་ཏ་ཧ་མཉྫ་རི",
+          "translit": "pa ta ha many+dza ri",
+          "lemma": "pa ta ha many+dza ri",
+          "att": "AO",
+          "where": "cp.06.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পটমঞ্জরী"
+        },
+        {
+          "lang": "bod",
+          "form": "པ་ཏ་ཧ་མཉྫ་རི"
+        }
+      ],
+      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which song 1 is sung, given in its heading and repeated at the start of Munidatta's comment (cp.01.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the heading of song 6 writes the rāga name as a separate Old Bengali word, which the existing Sanskrit match does not reach, and the Tibetan heading transcribes it pa ta ha many+dza ri."
+    },
+    {
+      "id": "vikalpa",
+      "type": "term",
+      "en": "conceptual thought",
+      "policy": "translate",
+      "alt": [
+        "concepts",
+        "conceptualization"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিকল্পং",
+          "translit": "vikalpaṃ",
+          "lemma": "vikalpa",
+          "att": "AS",
+          "where": "cp.06.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বিভ্রান্তিবিকল্পৈশ্চচার",
+          "translit": "vibhrāntivikalpaiścacāra",
+          "lemma": "vikalpa",
+          "att": "AS",
+          "where": "cp.06.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিকল্প"
+        }
+      ],
+      "definition": "Conceptual thought (vikalpa, kalpanā): the mind's construction of things through concepts, which Buddhist tantric teaching treats as what binds. Munidatta speaks of shaking off the concepts of beginningless existence, of going to the wheel of great bliss free of concepts (nirvikalpa), and of the innate wind freed from the net of concepts (cp.02.m4, cp.02.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the existing Sanskrit matches are whole compounds, so vikalpa in cp.06.m5 and cp.06.m6 went unrecognised; the bare stem covers them and the old compounds."
+    },
+    {
+      "id": "karuna",
+      "type": "term",
+      "en": "compassion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "করুণৈকরসং",
+          "translit": "karuṇaikarasaṃ",
+          "lemma": "karuṇā",
+          "att": "AS",
+          "where": "cp.06.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "করুণ"
+        }
+      ],
+      "definition": "Compassion: the wish that beings be free of suffering, paired in Mahāyāna and tantric thought with wisdom. Munidatta says Virūpa speaks with a mind moved again and again by supreme compassion (cp.03.m1); the Sekoddeśa verse he quotes speaks of the lord's strength of wisdom and compassion (cp.03.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: in the Sahajasaṃvara verse (cp.06.m5) karuṇā stands in sandhi (karuṇaikarasaṃ), which the existing matches করুণা and করুণয়া miss."
+    },
+    {
+      "id": "ekarasa",
+      "type": "term",
+      "en": "one taste",
+      "policy": "translate",
+      "alt": [
+        "single taste",
+        "ekarasa"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "করুণৈকরসং",
+          "translit": "karuṇaikarasaṃ",
+          "lemma": "ekarasa",
+          "att": "AS",
+          "where": "cp.06.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རོ་གཅིག",
+          "translit": "ro gcig",
+          "lemma": "ro gcig",
+          "att": "AO",
+          "where": "cp.06.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ৈকরস"
+        }
+      ],
+      "definition": "‘One taste’: the realization that all things share a single nature, so that apparent opposites are not experienced as separate; a key term of siddha and Mahāmudrā teaching. Munidatta says Kṛṣṇācārya dances on the lotus with Nairātmā ‘in one taste’.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: in cp.06.m5 ekarasa follows karuṇa in sandhi (karuṇaikarasaṃ, 'of one taste with compassion'), which the existing match একরস misses; the aligned Tibetan has ro gcig."
+    },
+    {
+      "id": "guru",
+      "type": "term",
+      "en": "guru",
+      "policy": "keep-source",
+      "alt": [
+        "teacher",
+        "true guru",
+        "true teacher"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুচরণরেণুপ্রভাবাৎ",
+          "translit": "gurucaraṇareṇuprabhāvāt",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.06.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গুরুচরণ"
+        }
+      ],
+      "definition": "A spiritual teacher. The refrain of song 1 tells the listener to ask the guru. Munidatta stresses that empowerment and the key instruction come from the true guru, and quotes the Guhyasamāja: without the vajra guru one cannot reach nirvāṇa (cp.01.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: 'by the power of the dust of the guru's feet' (cp.06.m2), a compound the existing Sanskrit matches miss."
+    },
+    {
+      "id": "vayu",
+      "type": "term",
+      "en": "wind",
+      "policy": "translate",
+      "alt": [
+        "vital wind",
+        "breath"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তপবনয়োঃ",
+          "translit": "cittapavanayoḥ",
+          "lemma": "pavana",
+          "att": "AS",
+          "where": "cp.06.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চিত্তপবন"
+        }
+      ],
+      "definition": "Wind or breath (Sanskrit vāyu, vāta, pavana, prāṇa; Old Bengali pavaṇa; Tibetan rlung): in tantric yoga, the vital winds that move through the channels of the subtle body and carry the mind; stilling them is a central aim. Munidatta speaks of the winds beginning with entering, and of the wind of emergence.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the pair 'mind and wind' in cp.06.m4, which the existing matches miss. The match is kept to the compound because a bare পবন would also catch upavana, 'grove', and the doubtful kāyapavana of cp.06.m5 (see questions)."
+    },
+    {
+      "id": "avidya",
+      "type": "term",
+      "en": "ignorance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃতাবিদ্যামাৎসর্য্যদোষেণ",
+          "translit": "kṛtāvidyāmātsaryyadoṣeṇa",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.06.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རིག་པ",
+          "translit": "ma rig pa",
+          "lemma": "ma rig pa",
+          "att": "AO",
+          "where": "cp.06.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কৃতাবিদ্যা"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་རིག་པ"
+        }
+      ],
+      "definition": "Ignorance: the basic misapprehension of how things are, which Buddhist teaching places at the root of saṃsāra as the first link of dependent arising. In song 10 Munidatta says the lotus-place has the form of ignorance.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: avidyā in sandhi after kṛta (cp.06.m3), and the bare Tibetan ma rig pa (the existing Tibetan match has only ma rig pa'i). The Sanskrit match is kept to kṛtāvidyā because a bare -āvidyā would also catch mahāvidyā."
+    },
+    {
+      "id": "grahya-grahaka",
+      "type": "term",
+      "en": "the grasped and the grasper",
+      "policy": "translate",
+      "alt": [
+        "object and subject"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গ্রাহ্যগ্রাহকাভাবত্বাৎ",
+          "translit": "grāhyagrāhakābhāvatvāt",
+          "lemma": "grāhyagrāhaka",
+          "att": "AS",
+          "where": "cp.06.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গ্রাহ্যগ্রাহক"
+        }
+      ],
+      "definition": "The pair 'what is grasped' and 'what grasps', object and subject. Buddhist thought, especially Yogācāra and the tantras, treats their apparent separation as the root of delusion. Munidatta applies the pair to the Gaṅgā and the Yamunā, and says Nairātmā accepts nothing in the manner of grasped and grasper.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: 'because grasped and grasper are absent' (cp.06.m2); the bare compound stem covers it and the existing forms."
+    },
+    {
+      "id": "yogi",
+      "type": "term",
+      "en": "yogi",
+      "policy": "translate",
+      "alt": [
+        "yogin"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যোগিনস্তস্য",
+          "translit": "yoginastasya",
+          "lemma": "yogin",
+          "att": "AS",
+          "where": "cp.06.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যোগিনস্"
+        }
+      ],
+      "definition": "A practitioner of yoga; in the songs, a tantric adept on the siddhas' path. Kāṇha calls himself a kāpālika yogi, and Munidatta speaks of yogins who lack the guru's lineage. Distinct from 'lord of yogis' (yogīndra), Munidatta's term for the accomplished practitioner.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the plural yoginaḥ in sandhi (cp.06.m6), which the existing matches miss; the match is narrow so as not to catch yoginī forms."
+    }
+  ],
+  "questions": [
+    "bhukua (2b): Shastri's text has ভুকুঅ. Munidatta's gloss names Bhusukupāda at this point (bhusukkupādā'kheṭikaḥ, cp.06.m3) and the aligned Tibetan line has b+hu su ku, so I listed ভুকুঅ as a form (and match) of p-bhusuku, perhaps a slip for ভুসুকু. Please confirm, or drop the form if bhukua should be read as a common noun.",
+    "heri (2b): Munidatta's ākheṭika, 'hunter', may render heri (compare later Hindi aherī, 'hunter', from ākheṭika), while the Tibetan has sor rtog, 'examining', both in the line and in its comment, where it has no 'hunter' at all. The refrain could therefore end '...Bhusuku, the hunter' or '...Bhusuku, watching'. I proposed no 'hunter' entry; heri occurs twice elsewhere in the text, and those instances would need checking first.",
+    "Deer and doe in cp.06.m4: Munidatta glosses the dwelling of 'those two, mind and wind' (tayoḥ cittapavanayoḥ) at the line about the deer and the doe. I recorded this, hedged, as a reading of the pair under both entries, since he does not say which animal is which. His explicit reading of the doe is in cp.06.m5 (the jñānamudrā, Nairātmā).",
+    "hariā (4a): I did not list হরিআ as a form of deer. It may be a vocative, 'O deer' (compare Munidatta's bho cittahariṇa, cp.06.m5), but the Tibetan line has rtswa med, 'without grass', as if from harita, 'green'. The Tibetan wording of 4a (ri dgas smra nyon rtswa med ri dgas ma) may also make the deer, not the doe, the speaker.",
+    "kāyapavana (cp.06.m5): Shastri's text opens the segment with kāyapavanaviṣayapallava ('the leaves, the sense objects, of the body-wind'), but the Tibetan has lus kyi nags, 'forest of the body' (kāyavana), which fits the leaves and the forest of the couplet. So I added কায়পবন neither to wind nor to forest. In the same segment the Tibetan renders kāyagraha, 'grasping at the body', as lus kyi khyim, 'house of the body' (reading gṛha), so the house and hut entries now match there wrongly.",
+    "Wrong matches from existing entries in this unit: ali's Sanskrit match আলি hits আলিঙ্গতি ('embraces', cp.06.m5); tanti's Tibetan match རྒྱུད hits rgyud, 'tantra', wherever a tantra is named (cp.06.m6 is now covered by the longer title match); svarupa's স্বরূপ hits vicārasvarūpeṇa, 'by way of investigation' (cp.06.m4), where 'true nature' does not fit. The new dharmaskandha and tx-bodhicaryavatara entries displace the wrong hits of skandha (ধর্ম্মস্কন্ধে) and carya (বোধিচর্য্যাবতারে).",
+    "mṛtyumāra: I proposed a term entry, 'Māra of death'. If you would rather have a person entry for Māra (p-mara) with mṛtyumāra as one of its forms, please decide before later songs use the id.",
+    "Bodhicaryāvatāra verse (cp.06.m3): Shastri's text reads paśyajñānamanantataḥ, but the Tibetan rkang mar, 'marrow', supports paśya majjānam antataḥ, 'see the marrow at last'. So I proposed no jñāna term from this verse. In the Caturdevīparipṛcchā verse (cp.06.m6) the Tibetan 'bral med is probably a slip for 'bras med, 'fruitless' (Sanskrit niṣphala).",
+    "Elephant and Śabara come only from a quoted dohā that Munidatta does not explain, so both entries have no reading. The Tibetan renders śabara as sha ba, 'deer'; I listed it as a counterpart form but did not match it."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "5f851fb29d9b413fdac64a398ca1594431bad15d564b5db945f3176d0629d905",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 3
+    },
+    "glossarySha": "008a8fc6cc6fd03f41f8b5c9af921f51b21040dceba5d41fe9dd46a318f9bcd5",
+    "sourceSha": "1900eb1156d2b11ced337a6a09d1703718b5db9426f521e23b211fabea39747c"
+  }
+}

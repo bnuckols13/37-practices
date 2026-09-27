@@ -1,0 +1,1262 @@
+{
+  "unit": "cp.07",
+  "proposals": [
+    {
+      "id": "vimana",
+      "type": "term",
+      "en": "downcast",
+      "policy": "translate",
+      "alt": [
+        "dejected",
+        "out of his mind"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিমন",
+          "translit": "bimana",
+          "lemma": "bimana",
+          "att": "AS",
+          "where": "cp.07.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "বিমন",
+          "translit": "bimana",
+          "lemma": "bimana",
+          "att": "AS",
+          "where": "cp.07.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་མི་དགའ",
+          "translit": "rnam mi dga'",
+          "lemma": "mi dga' ba",
+          "att": "AO",
+          "where": "cp.07.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་མི་བདེ",
+          "translit": "yid mi bde",
+          "lemma": "yid mi bde ba",
+          "att": "AO",
+          "where": "cp.07.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিমন"
+        }
+      ],
+      "definition": "Downcast, dejected (Old Bengali bimana, Sanskrit vimanas, literally 'without mind' or 'of altered mind'). Twice in song 7 Kāṇha becomes bimana. The Tibetan translation of the song takes it as unhappiness (rnam mi dga', yid mi bde); Munidatta's paraphrase, in the Sanskrit and the Tibetan alike, has 'of distinguished mind' (viśiṣṭamanas) in its place.",
+      "symbolicImage": "Kāṇha becoming bimana: downcast, or literally 'without mind'",
+      "symbolicReadings": [
+        {
+          "referent": "becoming of distinguished mind (viśiṣṭamanas): having unified by means of āli and kāli and firmly blocked the path of the avadhūtī, Kṛṣṇācārya, by the true guru's grace, becomes of distinguished mind in the form of the naturally purified avadhūtikā (the paraphrase puts viśiṣṭamanaso bhūtāḥ where the song has bimana bhailā; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m2"
+          ]
+        },
+        {
+          "referent": "becoming of distinguished mind and purified, through knowing, by the guru's grace, the nature of conventional truth in the arising and perishing of things (again a paraphrase, not an explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "distinguished mind",
+        "distinguished",
+        "exalted",
+        "purified",
+        "avadhūtī"
+      ],
+      "rationale": "The word comes twice in the song and its double sense divides the witnesses (dejection in the Tibetan song translation, an elevated mind in Munidatta); 'downcast' gives the ordinary sense and leaves his reading for the notes."
+    },
+    {
+      "id": "manogocara",
+      "type": "term",
+      "en": "range of the mind",
+      "policy": "translate",
+      "alt": [
+        "mind's domain",
+        "what the mind can reach"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মনগোঅর",
+          "translit": "managoara",
+          "lemma": "managoara",
+          "att": "AS",
+          "where": "cp.07.2b"
+        },
+        {
+          "lang": "san",
+          "script": "মনোগোচরা",
+          "translit": "manogocarā",
+          "lemma": "manogocara",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་ཀྱི་སྤྱོད་ཡུལ",
+          "translit": "yid kyi spyod yul",
+          "lemma": "yid kyi spyod yul",
+          "att": "AO",
+          "where": "cp.07.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মনগোঅর"
+        },
+        {
+          "lang": "san",
+          "form": "মনোগোচর"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡིད་ཀྱི་སྤྱོད་ཡུལ"
+        }
+      ],
+      "definition": "The range or field of the mind (Sanskrit manogocara; Tibetan yid kyi spyod yul): whatever thought can reach. In the refrain of song 7 whatever lies within it is uāsa, 'indifferent'. Munidatta applies the word to yogins in whom understanding through the mind-sense predominates, and quotes Saraha on a place where mind and wind do not move (cp.07.m3).",
+      "symbolicImage": "whatever lies within the mind's range",
+      "symbolicReadings": [
+        {
+          "referent": "yogins who stay within the mind's range, in whom understanding through the mind-sense predominates; they too stand indifferent to this teaching, far removed from it",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "yogins",
+        "yogis",
+        "mind-sense"
+      ],
+      "rationale": "A doctrinal compound in the refrain, glossed by Munidatta and rendered word for word by the Tibetan; 'range of the mind' keeps the spatial sense of gocara, 'pasture, field'."
+    },
+    {
+      "id": "udasa",
+      "type": "term",
+      "en": "indifferent",
+      "policy": "translate",
+      "alt": [
+        "aloof",
+        "detached"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উআস",
+          "translit": "uāsa",
+          "lemma": "uāsa",
+          "att": "AS",
+          "where": "cp.07.2b"
+        },
+        {
+          "lang": "san",
+          "script": "উদাসাঃ",
+          "translit": "udāsāḥ",
+          "lemma": "udāsa",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བཏང་སྙོམས",
+          "translit": "btang snyoms",
+          "lemma": "btang snyoms",
+          "att": "AO",
+          "where": "cp.07.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উআস"
+        },
+        {
+          "lang": "san",
+          "form": "উদাস"
+        }
+      ],
+      "definition": "Indifferent, standing apart (Sanskrit udāsa, udāsīna; the Old Bengali uāsa drops the d, as Prakrit regularly does between vowels). In the refrain of song 7 whatever lies in the mind's range is uāsa. Munidatta adds sudūratara, 'very far removed' (cp.07.m3); the Tibetan has btang snyoms, 'equanimity, indifference', in the song and the commentary.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The key word of the refrain, obscure in its Old Bengali form; Munidatta and the Tibetan agree on udāsa, so 'indifferent' follows them while the entry records the form."
+    },
+    {
+      "id": "bhava",
+      "type": "term",
+      "en": "existence",
+      "policy": "translate",
+      "alt": [
+        "becoming"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভব",
+          "translit": "bhaba",
+          "lemma": "bhaba",
+          "att": "AS",
+          "where": "cp.07.3b"
+        },
+        {
+          "lang": "san",
+          "script": "ভববিকল্পচ্ছেদকা",
+          "translit": "bhavavikalpacchedakā",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.07.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ভবস্যৈব",
+          "translit": "bhavasyaiva",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.07.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པ",
+          "translit": "srid pa",
+          "lemma": "srid pa",
+          "att": "AO",
+          "where": "cp.07.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভবস্যৈব"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲིད་པ"
+        }
+      ],
+      "definition": "Existence or becoming (Sanskrit bhava): the round of birth and death, close in sense to saṃsāra. In song 7 Kāṇha says existence is cut off. Munidatta has him call himself a cutter of the concepts of existence (cp.07.m4) and quotes scripture: full knowledge of existence itself is called nirvāṇa (cp.07.m5). Distinct from bhāva, 'thing'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term in Kāṇha's bhaṇitā and in two of Munidatta's comments; 'existence' is the usual plain rendering and keeps it apart from saṃsāra, which has its own entry. The bare Old Bengali ভব is too short to match safely, so only longer forms go in match."
+    },
+    {
+      "id": "road",
+      "type": "term",
+      "en": "road",
+      "policy": "translate",
+      "alt": [
+        "way"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাট",
+          "translit": "bāṭa",
+          "lemma": "bāṭa",
+          "att": "AS",
+          "where": "cp.07.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ལམ",
+          "translit": "lam",
+          "lemma": "lam",
+          "att": "AO",
+          "where": "cp.07.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাট"
+        }
+      ],
+      "definition": "A road or way (Old Bengali bāṭa). In the first line of song 7 āli and kāli block the road, and seeing it Kāṇha is downcast. The Tibetan translation has lam, 'road, path'.",
+      "symbolicImage": "the road that āli and kāli block",
+      "symbolicReadings": [
+        {
+          "referent": "the path of the avadhūtī (avadhūtīmārga), which Kṛṣṇācārya, having received the instruction in vajra recitation, firmly blocks, unifying by means of āli and kāli; the Tibetan has āli and kāli made one and then held firm and stopped in the avadhūtī's path",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "avadhūtī",
+        "central channel",
+        "channel",
+        "path of the avadhūtī"
+      ],
+      "rationale": "A concrete image of the opening line that Munidatta reads as the path of the avadhūtī; 'road' keeps the image, and 'path' is avoided because of its doctrinal load."
+    },
+    {
+      "id": "coming-and-going",
+      "type": "term",
+      "en": "coming and going",
+      "policy": "translate",
+      "alt": [
+        "comings and goings"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অবণাগবণে",
+          "translit": "abaṇāgabaṇe",
+          "lemma": "abaṇāgabaṇa",
+          "att": "AS",
+          "where": "cp.07.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অবণাগবণ"
+        }
+      ],
+      "definition": "Coming and going (Old Bengali abaṇāgabaṇa, apparently a pair of verbal nouns; compare Sanskrit āgamana, gamana). In song 7 Kāṇha is downcast 'in coming and going', after the couplet on whatever came and went. The Tibetan translation seems to parse the word differently, as bdag nyid 'ongs nas, 'having come himself'.",
+      "symbolicImage": "coming and going",
+      "symbolicReadings": [
+        {
+          "referent": "the arising and perishing (utpāda, bhaṅga) of things, in which, knowing the nature of conventional truth by the guru's grace, Kṛṣṇācārya becomes of distinguished mind (the paraphrase puts utpādabhaṅgeṣu where the song has abaṇāgabaṇe; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "arising and perishing",
+        "arising and ceasing",
+        "birth and death",
+        "saṃsāra"
+      ],
+      "rationale": "An obscure compound in the fourth couplet that Munidatta's paraphrase turns into arising and perishing; 'coming and going' keeps the song's plain image, which echoes the couplet's 'came' and 'went'."
+    },
+    {
+      "id": "mandala",
+      "type": "term",
+      "en": "maṇḍala",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "circle"
+      ],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "মণ্ডল",
+          "translit": "maṇḍala",
+          "lemma": "maṇḍala",
+          "att": "AS",
+          "where": "cp.07.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དཀྱིལ་འཁོར",
+          "translit": "dkyil 'khor",
+          "lemma": "dkyil 'khor",
+          "att": "AO",
+          "where": "cp.07.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মণ্ডল"
+        },
+        {
+          "lang": "oben",
+          "form": "মণ্ডল"
+        },
+        {
+          "lang": "bod",
+          "form": "དཀྱིལ་འཁོར"
+        }
+      ],
+      "definition": "A circle or disc; in the tantras, the circular arrangement of a deity with its retinue and palace, and by extension a bounded sphere of practice or of the body. In a caryā verse Munidatta quotes, there is no difference among the three maṇḍalas (cp.07.m4); the three are not named.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic tantric term, first met here in a quoted verse; the Sanskrit word is established in English, so it is kept, with a gloss at first use."
+    },
+    {
+      "id": "dharma",
+      "type": "term",
+      "en": "dharma",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "teaching",
+        "phenomena"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ধর্ম্মে",
+          "translit": "dharme",
+          "lemma": "dharma",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সকলধর্ম্মাধিগমনেন",
+          "translit": "sakaladharmādhigamanena",
+          "lemma": "dharma",
+          "att": "AS",
+          "where": "cp.07.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས",
+          "translit": "chos",
+          "lemma": "chos",
+          "att": "AO",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধর্ম"
+        },
+        {
+          "lang": "oben",
+          "form": "ধর্ম"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆོས"
+        }
+      ],
+      "definition": "A word of several Buddhist senses: the Buddha's teaching, or the truth it teaches; a phenomenon, any constituent of experience (usually plural); a quality or nature. Munidatta says mind-bound yogins stand indifferent to 'this dharma', the teaching (cp.07.m3), and that Kṛṣṇācārya speaks through realizing all dharmas (cp.07.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core term that Munidatta uses in more than one sense; keeping 'dharma' with a first-use gloss, and listing 'teaching' and 'phenomena' as alternatives, lets each context choose while the link stays the same. The reviewer may prefer two entries."
+    },
+    {
+      "id": "aloka",
+      "type": "term",
+      "en": "light",
+      "policy": "translate",
+      "alt": [
+        "luminosity"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "লোকজ্ঞানেন",
+          "translit": "lokajñānena",
+          "lemma": "āloka",
+          "att": "AS",
+          "where": "cp.07.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་ཀྱི་སྣང་བ",
+          "translit": "ye shes kyi snang ba",
+          "lemma": "snang ba",
+          "att": "AO",
+          "where": "cp.07.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "লোকজ্ঞান"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡེ་ཤེས་ཀྱི་སྣང་བ"
+        }
+      ],
+      "definition": "Light (āloka): in the Guhyasamāja completion stage, the first of three ever subtler luminous experiences (light, spreading of light, culmination of light) in which the winds and concepts dissolve. Munidatta glosses the song's āli as lokajñāna (cp.07.m2); the Tibetan, ye shes kyi snang ba, suggests reading ālokajñāna, 'the knowledge that is light'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the completion stage that Munidatta uses to gloss āli; the entry depends on reading his lokajñāna as ālokajñāna, which the Tibetan supports, and 'light' is the usual English for āloka."
+    },
+    {
+      "id": "alokabhasa",
+      "type": "term",
+      "en": "spreading of light",
+      "policy": "translate",
+      "alt": [
+        "radiance of light"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "লোকভাসেন",
+          "translit": "lokabhāsena",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.07.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣང་བ་མཆེད་པ",
+          "translit": "snang ba mched pa",
+          "lemma": "snang ba mched pa",
+          "att": "AO",
+          "where": "cp.07.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "লোকভাস"
+        },
+        {
+          "lang": "san",
+          "form": "লোকাভাস"
+        },
+        {
+          "lang": "bod",
+          "form": "སྣང་བ་མཆེད་པ"
+        }
+      ],
+      "definition": "Spreading of light (ālokābhāsa): in the Guhyasamāja completion stage, the second of three ever subtler luminous experiences, following light (āloka). Munidatta glosses the song's kāli as lokabhāsa (cp.07.m2); the Tibetan has snang ba mched pa, 'increase of appearance', the usual rendering of ālokābhāsa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The companion of āloka in Munidatta's gloss on kāli; the printed lokabhāsa is best read ālokābhāsa, as the Tibetan shows, and 'spreading of light' follows both the Sanskrit and the Tibetan mched pa."
+    },
+    {
+      "id": "utpattikrama",
+      "type": "term",
+      "en": "generation stage",
+      "policy": "translate",
+      "alt": [
+        "creation stage"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপত্তিক্রমসংস্থানাং",
+          "translit": "utpattikramasaṃsthānāṃ",
+          "lemma": "utpattikrama",
+          "att": "AS",
+          "where": "cp.07.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བསྐྱེད་པའི་རིམ",
+          "translit": "bskyed pa'i rim",
+          "lemma": "bskyed pa'i rim pa",
+          "att": "AO",
+          "where": "cp.07.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উৎপত্তিক্রম"
+        },
+        {
+          "lang": "bod",
+          "form": "བསྐྱེད་པའི་རིམ"
+        }
+      ],
+      "definition": "The generation stage: the first phase of tantric practice, in which practitioners visualize themselves as the deity with its maṇḍala, in preparation for the completion stage. In the verse Munidatta attributes to Nāgārjuna, a means built like a stairway serves those established in the generation stage who long for the completion stage (cp.07.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core term of tantric practice, paired here with the completion stage, which already has an entry; 'generation stage' is the usual English."
+    },
+    {
+      "id": "sukha",
+      "type": "term",
+      "en": "bliss",
+      "policy": "translate",
+      "alt": [
+        "happiness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সুখেন",
+          "translit": "sukhena",
+          "lemma": "sukha",
+          "att": "AS",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সুখ"
+        }
+      ],
+      "definition": "Bliss, happiness (sukha). In the tantras the songs draw on, the bliss that arises in yogic union is itself the path, and great bliss (mahāsukha) its goal. Munidatta says the world is pervaded by bliss, as pervader and pervaded (cp.07.m3); the Tibetan has 'great bliss' there.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's commentary turns constantly on bliss; a plain entry lets 'bliss' link consistently beside the existing entries for great bliss and imperishable bliss."
+    },
+    {
+      "id": "tx-heruka-tantra",
+      "type": "text",
+      "en": "Heruka Tantra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শ্রীমদ্ধেরুকতন্ত্ররাজ",
+          "translit": "śrīmaddherukatantrarāja",
+          "lemma": "heruka",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔལ་ལྡན་ཧེ་རུ་ཀའི་རྒྱུད་ཀྱི་རྒྱལ་པོ",
+          "translit": "dpal ldan he ru ka'i rgyud kyi rgyal po",
+          "lemma": "he ru ka'i rgyud",
+          "att": "AO",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধেরুকতন্ত্র"
+        },
+        {
+          "lang": "san",
+          "form": "হেরুকতন্ত্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ཧེ་རུ་ཀའི་རྒྱུད"
+        }
+      ],
+      "definition": "A tantra Munidatta cites as 'the glorious Heruka, king of tantras' (śrīmad-herukatantrarāja): making present the meaning it teaches, Kāṇha asks where he should make his dwelling (cp.07.m3). Which work is meant is uncertain; the Hevajra and the Cakrasaṃvara (Herukābhidhāna) are both Heruka tantras.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A cited work that a reader will want identified; the title stays in its Sanskrit form because Munidatta names it no more precisely, and the identification is left to the reviewer."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাহ্নি",
+          "translit": "kāhni",
+          "lemma": "kāhnu",
+          "att": "AS",
+          "where": "cp.07.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কাহ্নুপাদানাম্",
+          "translit": "kāhnupādānām",
+          "lemma": "kāhnupāda",
+          "att": "AS",
+          "where": "cp.07.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যপাদা",
+          "translit": "kṛṣṇācāryapādā",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.07.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণবজ্রপাদাঃ",
+          "translit": "kṛṣṇavajrapādāḥ",
+          "lemma": "kṛṣṇavajra",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যচরণা",
+          "translit": "kṛṣṇācāryacaraṇā",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.07.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་ནག་པོ་ཞབས",
+          "translit": "rdo rje nag po zhabs",
+          "lemma": "rdo rje nag po",
+          "att": "AO",
+          "where": "cp.07.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাহ্নি"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণবজ্র"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེ་ནག་པོ"
+        }
+      ],
+      "definition": "Siddha poet, called Kṛṣṇācārya in Sanskrit, to whom song 7 and other songs of the collection are attributed. In song 7 he names himself Kāhnu and once, addressing himself, Kāhni; Munidatta also calls him Kṛṣṇavajrapāda (cp.07.m3, cp.07.m6) and Kṛṣṇācāryacaraṇa (cp.07.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: Kāhni in the bhaṇitā, the attribution kāhnupādānām written before the song (emended out of line 1a), Munidatta's Kṛṣṇavajrapāda and Kṛṣṇācāryacaraṇa, and the Tibetan rdo rje nag po zhabs; the stems in match catch the Sanskrit forms in sandhi."
+    },
+    {
+      "id": "ali",
+      "type": "term",
+      "en": "āli",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অলিএঁ",
+          "translit": "aliem̐",
+          "lemma": "ali",
+          "att": "AS",
+          "where": "cp.07.1a"
+        },
+        {
+          "lang": "san",
+          "script": "আলীত্যাদি",
+          "translit": "ālī ityādi",
+          "lemma": "āli",
+          "att": "AS",
+          "where": "cp.07.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིགས་བྱེད",
+          "translit": "'jigs byed",
+          "lemma": "'jigs byed",
+          "att": "AO",
+          "where": "cp.07.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অলিএঁ"
+        },
+        {
+          "lang": "san",
+          "form": "আলীত্যাদি"
+        }
+      ],
+      "definition": "The series of Sanskrit vowels. In song 7 āli and kāli (instrumental aliem̐, kāliem̐) block the road; Munidatta there glosses āli as lokajñāna, probably ālokajñāna, 'the knowledge that is light' (cp.07.m2). The Tibetan translation renders the song's word 'jigs byed, 'terrifier'.",
+      "symbolicImage": "āli, which with kāli blocks the road",
+      "symbolicReadings": [
+        {
+          "referent": "lokajñāna, probably to be read ālokajñāna, 'the knowledge that is light' (Tibetan ye shes kyi snang ba), by means of which, with kāli, Kṛṣṇācārya unifies and firmly blocks the path of the avadhūtī",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "light",
+        "knowledge of light",
+        "vowels"
+      ],
+      "rationale": "New source forms only: the song's instrumental aliem̐, Munidatta's pratīka ālī, and the Tibetan 'jigs byed (left out of match, since it is a reading, not an equivalent); the cp.07.m2 reading shown here must be added to the entry by hand."
+    },
+    {
+      "id": "kali",
+      "type": "term",
+      "en": "kāli",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কালিএঁ",
+          "translit": "kāliem̐",
+          "lemma": "kāli",
+          "att": "AS",
+          "where": "cp.07.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "དུས་མཚན་མ",
+          "translit": "dus mtshan ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.07.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কালিএঁ"
+        }
+      ],
+      "definition": "The series of Sanskrit consonants. In song 7 āli and kāli block the road; Munidatta there glosses kāli as lokabhāsa, probably ālokābhāsa, 'the spreading of light' (cp.07.m2). The Tibetan translation renders the song's word dus mtshan ma, whose exact sense is unclear (dus, 'time'; mtshan, 'night' or 'sign').",
+      "symbolicImage": "kāli, which with āli blocks the road",
+      "symbolicReadings": [
+        {
+          "referent": "lokabhāsa, probably to be read ālokābhāsa, 'the spreading of light' (Tibetan snang ba mched pa), by means of which, with āli, Kṛṣṇācārya unifies and firmly blocks the path of the avadhūtī",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "spreading of light",
+        "light",
+        "consonants"
+      ],
+      "rationale": "New source forms only: the song's instrumental kāliem̐ and the Tibetan dus mtshan ma (left out of match, since it is a reading, not an equivalent); the cp.07.m2 reading shown here must be added to the entry by hand."
+    },
+    {
+      "id": "jinapura",
+      "type": "term",
+      "en": "city of the Jina",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জিনউর",
+          "translit": "jinaura",
+          "lemma": "jinaura",
+          "att": "AS",
+          "where": "cp.07.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་པོའི་ཕོ་བྲང",
+          "translit": "rgyal po'i pho brang",
+          "lemma": "rgyal po'i pho brang",
+          "att": "AO",
+          "where": "cp.07.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জিনউর"
+        }
+      ],
+      "definition": "'The city of the Jina' (the Victor, a title of the Buddha), which the singer says is near. Song 7 spells it jinaura; Munidatta has jinapura, the city of great bliss (cp.07.m6). The Tibetan translation of this song has rgyal po'i pho brang, 'the king's palace', rather than 'the Jina's palace'.",
+      "symbolicImage": "the city of the Jina, near at hand",
+      "symbolicReadings": [
+        {
+          "referent": "the city of great bliss (mahāsukhapura), very near to Kṛṣṇācārya through the successive five stages",
+          "per": "Munidatta",
+          "where": [
+            "cp.07.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "city of great bliss",
+        "mahāsukha",
+        "nirvāṇa"
+      ],
+      "rationale": "New source forms only: the song's spelling jinaura, with dental n and no final ā, and the Tibetan rgyal po'i pho brang, which differs from rgyal ba'i pho brang elsewhere; the cp.07.m6 reading repeats the existing one."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পটমঞ্জরী",
+          "translit": "paṭamañjarī",
+          "lemma": "paṭamañjarī",
+          "att": "AS",
+          "where": "cp.07.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔའི་ཚོགས་པ",
+          "translit": "rnga'i tshogs pa",
+          "lemma": "rnga'i tshogs pa",
+          "att": "AO",
+          "where": "cp.07.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পটমঞ্জরী"
+        },
+        {
+          "lang": "bod",
+          "form": "རྔའི་ཚོགས་པ"
+        }
+      ],
+      "definition": "Paṭamañjarī, the rāga (melodic mode) to which songs 1 and 7 are sung, named in their headings. For song 7 the Tibetan translation renders the name rnga'i tshogs pa, 'cluster of drums', taking paṭa as paṭaha, 'drum'; for song 1 it has pa Ta ha'i snye ma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the Old Bengali heading form, which the entry's forms lack, and the Tibetan rendering of the name in this song's heading, which differs from the one recorded for song 1."
+    },
+    {
+      "id": "devatayoga",
+      "type": "term",
+      "en": "deity yoga",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বদেবতাযোগপূর্ব্বক",
+          "translit": "svadevatāyogapūrvaka",
+          "lemma": "devatāyoga",
+          "att": "AS",
+          "where": "cp.07.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷའི་རྣལ་འབྱོར",
+          "translit": "lha'i rnal 'byor",
+          "lemma": "lha'i rnal 'byor",
+          "att": "AO",
+          "where": "cp.07.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দেবতাযোগ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷའི་རྣལ་འབྱོར"
+        }
+      ],
+      "definition": "Meditation in which practitioners visualize themselves as the deity of a tantra. Munidatta says Kṛṣṇācārya received the instruction in vajra recitation preceded by the yoga of his own deity (svadevatāyoga) (cp.07.m2); the Tibetan has rang gi lha'i rnal 'byor.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: svadevatāyoga, 'yoga of one's own deity', inside a long compound that the entry's single form does not catch, and the Tibetan lha'i rnal 'byor."
+    },
+    {
+      "id": "vajrajapa",
+      "type": "term",
+      "en": "vajra recitation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রজাপোপদেশং",
+          "translit": "vajrajāpopadeśaṃ",
+          "lemma": "vajrajāpa",
+          "att": "AS",
+          "where": "cp.07.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বজ্রজাপ"
+        }
+      ],
+      "definition": "A breathing practice of the completion stage that joins syllables to the breath as it enters, abides and leaves. Munidatta says Kṛṣṇācārya first received the instruction in vajra recitation, preceded by deity yoga (cp.07.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the accusative inside a compound in cp.07.m2; the stem in match catches it as well as the instrumental already listed."
+    },
+    {
+      "id": "samvrti",
+      "type": "term",
+      "en": "conventional",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সংবৃতিসত্য",
+          "translit": "saṃvṛtisatya",
+          "lemma": "saṃvṛti",
+          "att": "AS",
+          "where": "cp.07.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সংবৃতি"
+        }
+      ],
+      "definition": "The conventional or relative level of truth, things as they appear and are spoken of, as opposed to the ultimate. Munidatta says Kṛṣṇācārya, by the guru's grace, fully knows the nature of conventional truth (saṃvṛtisatya) in the arising and perishing of things (cp.07.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: this segment spells saṃvṛti with a single t (সংবৃতি), which the entry's forms, spelled with ত্ত, do not match."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "চীঅ",
+          "translit": "cīa",
+          "lemma": "citta",
+          "att": "AS",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চীঅ"
+        },
+        {
+          "lang": "oben",
+          "form": "চীঅ"
+        }
+      ],
+      "definition": "Mind: the stream of thought and awareness. In the Saraha verse Munidatta quotes, the listener is told to rest the mind (cīa) where mind and wind do not move and sun and moon do not enter (cp.07.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the Apabhraṃśa cīa in Saraha's verse, beside the Old Bengali cīe already listed."
+    },
+    {
+      "id": "surya",
+      "type": "term",
+      "en": "sun",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "রবি",
+          "translit": "ravi",
+          "lemma": "ravi",
+          "att": "AS",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [],
+      "definition": "The sun. In the Saraha verse Munidatta quotes, sun (ravi) and moon (śaśi) have no entry where mind and wind do not move (cp.07.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: ravi, another word for the sun, in Saraha's verse; it is left out of match because রবি also stands inside common words such as praviśati."
+    },
+    {
+      "id": "upadesa",
+      "type": "term",
+      "en": "instruction",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "উববেস",
+          "translit": "uvavesa",
+          "lemma": "upadeśa",
+          "att": "AS",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উববেস"
+        }
+      ],
+      "definition": "Instruction: the practical, often oral, teaching a guru gives a disciple for yogic practice. The Saraha verse Munidatta quotes ends 'Saraha has told the instruction' (uvavesa) (cp.07.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the Apabhraṃśa uvavesa for upadeśa in Saraha's verse."
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "en": "verse",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দ্বিতীয়পদেন",
+          "translit": "dvitīyapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.07.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বিতীয়পদেন"
+        }
+      ],
+      "definition": "Munidatta's word for a couplet of a song, used when he turns to comment on it. In song 7 he calls couplets 3, 4 and 5 the second, third and fourth verses (cp.07.m4, cp.07.m5, cp.07.m6), leaving the refrain out of the count.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: dvitīyapadena, 'with the second verse', which the entry's forms lack."
+    },
+    {
+      "id": "nispannakrama",
+      "type": "term",
+      "en": "completion stage",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপন্নক্রমকাঙ্ক্ষিণাং",
+          "translit": "utpannakramakāṅkṣiṇāṃ",
+          "lemma": "utpannakrama",
+          "att": "AS",
+          "where": "cp.07.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উৎপন্নক্রম"
+        }
+      ],
+      "definition": "The completion stage: the phase of tantric yoga that follows the generation stage and works with the subtle body toward realization. In the verse Munidatta attributes to Nāgārjuna it is called utpannakrama, and those who long for it are served by a means built like a stairway (cp.07.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: utpannakrama, another name for the completion stage (the Tibetan has rdzogs pa'i rim pa), paired here with utpattikrama, the generation stage."
+    },
+    {
+      "id": "p-nagarjuna",
+      "type": "person",
+      "en": "Nāgārjuna",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নাগার্জ্জুনপাদাঃ",
+          "translit": "nāgārjunapādāḥ",
+          "lemma": "nāgārjuna",
+          "att": "AS",
+          "where": "cp.07.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নাগার্জ্জুনপাদ"
+        }
+      ],
+      "definition": "Teacher to whom Munidatta attributes verses on tantric practice; here, a verse saying that for those established in the generation stage who long for the completion stage, the means is built like a stairway (cp.07.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the nominative nāgārjunapādāḥ, beside the instrumental already listed."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সরহপাদাঃ",
+          "translit": "sarahapādāḥ",
+          "lemma": "saraha",
+          "att": "AS",
+          "where": "cp.07.m3"
+        },
+        {
+          "lang": "pra",
+          "script": "সরহেঁ",
+          "translit": "sarahem̐",
+          "lemma": "saraha",
+          "att": "AS",
+          "where": "cp.07.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সরহপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "সরহেঁ"
+        }
+      ],
+      "definition": "Siddha poet famous for his dohās, rhymed couplet songs. Munidatta quotes a verse in which Saraha names himself as the one who gives the instruction to rest the mind where mind and wind do not move (cp.07.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the nominative sarahapādāḥ and the Apabhraṃśa self-naming sarahem̐ in the quoted verse."
+    }
+  ],
+  "questions": [
+    "ali, kali: ingest merges only forms and match into existing entries, so the cp.07.m2 readings and never-in-line words in my ali and kali proposals must be copied in by hand. Their definitions (vowel and consonant series) cover only song 1. Here Munidatta glosses āli as lokajñāna and kāli as lokabhāsa. The Tibetan renders the song's pair as 'jigs byed and dus mtshan ma, apparently two fearsome figures; I added both as AO forms but left them out of match.",
+    "aloka and alokabhasa rest on reading Shastri's 'ālinā lokajñānena kālinā lokabhāsena' as 'ālinā ālokajñānena kālinā ālokābhāsena'. The Tibetan supports this (ye shes kyi snang ba; snang ba mched pa, the standard rendering of ālokābhāsa), and the Guhyasamāja triad of lights fits Munidatta's mention of vajra recitation. But the printed text could also be read 'world-knowledge' and 'world-appearance'; reject both entries if you prefer that. The 'three appearances' in the abhasa entry (cp.14.m5) may be the same triad.",
+    "vimana: 'downcast' follows the ordinary sense and the Tibetan translation of the song (rnam mi dga', yid mi bde). In cp.07.m2 and cp.07.m5 Munidatta paraphrases the same words as 'became of distinguished mind'. If you want the English to keep the literal 'without mind', the alt 'out of his mind' does that, but it risks suggesting madness.",
+    "jinapura: cp.07.m6 repeats the existing reading, the city of great bliss (mahāsukhapura). Please add cp.07.m6 to that reading's segment list. The Tibetan of this song reads rgyal po'i pho brang, 'king's palace', not rgyal ba'i.",
+    "bhava: the bare Old Bengali ভব (cp.07.3b) cannot go in match, because it also stands inside bhavanti and bhavet in this unit's commentary. A whole-word oben regex such as (?<=^|\\s)ভব(?=\\s|$) would catch it.",
+    "5b mohiahi: the Tibetan (bdag gi snying mi 'jug, 'does not enter my heart') divides it as mo hiahi, 'in my heart'. Divided as moha plus the locative, it would be the word of the moha entry. I have not added it there.",
+    "tx-heruka-tantra: I could not tell which tantra Munidatta means by śrīmad-herukatantrarāja. If it is the Hevajra, fold these forms into tx-hevajra instead.",
+    "3a: the Tibetan adds khams gsum, 'three realms', to 'te tini'. I did not add it to trailokya, since the Bengali has only 'those three'. Munidatta's triads (heaven, earth and underworld; body, speech and mind; day, night and twilight) seemed plain enough to need no entries.",
+    "cp.07.m4: 'caryāpādenoktam' most likely means 'it is said in a caryā verse', but the Tibetan (spyod pa pa glu dbyangs zhabs kyis gsungs) seems to take it as a person. If it is a name, it needs a person entry.",
+    "manas (Tibetan yid) and citta (sems) both come out as 'mind', and the Tibetan keeps them apart in this unit (yid kyi spyod yul, Saraha's yid rlung, beside sems). Should manas have its own entry?",
+    "Munidatta's recurring formulas tathā cāgamaḥ ('and so scripture says', Tibetan lung) and anuśaṃsā ('praise' in the Tibetan rjes su bsngags pa, 'benefit' in Buddhist Sanskrit) have no entries. I did not propose them, but they could be fixed in the glossary for consistency."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "da7f028c802c84270819ce09aef9d3216a7d4b2380e9d5d93b09cc1bc1a3b9ff",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 3
+    },
+    "glossarySha": "008a8fc6cc6fd03f41f8b5c9af921f51b21040dceba5d41fe9dd46a318f9bcd5",
+    "sourceSha": "a10ecd905f7e8278eeb643c001bec34af71b407ba257b4b59380b20029d9dc39"
+  }
+}

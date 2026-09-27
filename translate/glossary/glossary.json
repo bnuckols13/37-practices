@@ -328,6 +328,75 @@
       }
     },
     {
+      "id": "abhisvanga",
+      "type": "term",
+      "status": "proposed",
+      "en": "attachment",
+      "alt": [
+        "clinging"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সুরতাভিষ্বঙ্গো",
+          "translit": "suratābhiṣvaṅgo",
+          "lemma": "abhiṣvaṅga",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সুরতাভিষ্বঙ্গে",
+          "translit": "suratābhiṣvaṅge",
+          "lemma": "abhiṣvaṅga",
+          "att": "AS",
+          "where": "cp.19.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མངོན་པར་འགྲོགས་པ",
+          "translit": "mngon par 'grogs pa",
+          "lemma": "mngon par 'grogs pa",
+          "att": "AO",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མངོན་པར་ཆགས་པ",
+          "translit": "mngon par chags pa",
+          "lemma": "mngon par chags pa",
+          "att": "AO",
+          "where": "cp.19.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "ভিষ্বঙ্গ"
+        ],
+        "bod": [
+          "མངོན་པར་ཆགས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Attachment, clinging (abhiṣvaṅga). Usually a fault, as when Munidatta calls attachment to māyā delusion; in his comments on yogic union it is positive: the lord of yogis is attached day and night to lovemaking with the jñānamudrā (cp.19.m4), whom the yogins never give up (cp.19.m5). Tibetan: mngon par 'grogs pa, mngon par chags pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "abhyasa",
       "type": "term",
       "status": "proposed",
@@ -4050,11 +4119,14 @@
           "ভৈরবী"
         ],
         "bod": [
-          "རྔ་བོ་ཆེ",
           "བྷཻ་ར་བཱི"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<=^|[\\u0F04-\\u0F14\\s])རྔ་བོ་ཆེ(?=་ཞེས་བྱ་བའི་གླུ)"
+        ]
+      },
       "definition": "Bhairavī, the name of the rāga (melodic mode) to which song 12 is sung, given in its heading; the word is also a name of a goddess. The Tibetan translation calls the melody rnga bo che, 'great drum', perhaps reading the name as bherī, 'kettledrum'; the reason is uncertain.",
       "symbolic": {
         "image": "",

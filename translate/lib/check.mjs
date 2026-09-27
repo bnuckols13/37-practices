@@ -17,6 +17,7 @@ import { Weave } from '../schemas/weave.mjs';
 import { Approved, RunProvenance } from '../schemas/approved.mjs';
 import { SungFiled, ApprovedSung } from '../schemas/sung.mjs';
 import { forbiddenHere } from './review/sung.mjs';
+import { songAdvice } from './sound.mjs';
 
 const words = s => markup.strip(s).toLowerCase().replace(/[^\p{L}\p{M}\s']/gu, ' ').split(/\s+/).filter(Boolean);
 const fold = s => String(s).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/\bdhru\b|[0-9]/g, '').replace(/[|।॥.,;:'"\s-]/g, '')
@@ -210,6 +211,10 @@ export function check(slug, { strict = false } = {}) {
       overlap(where, l.en);
     }
     for (const c of sungText?.couplets || []) { overlap(`${c.group} kept (sung)`, c.kept); overlap(`${c.group} let go (sung)`, c.letGo); }
+    // Advice only while the sung version is a draft: once approved, the reviewer has weighed it.
+    if (sung && !approvedSung && (approved || draft)) {
+      for (const a of songAdvice(sung.lines, (approved || draft).lines, markup.strip)) W.push(`${u.id} sung: ${a}`);
+    }
 
     // 12. determinism: the same inputs must give the same pack
     for (const task of Object.keys(TASKS)) {

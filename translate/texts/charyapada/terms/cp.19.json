@@ -1,0 +1,1312 @@
+{
+  "unit": "cp.19",
+  "proposals": [
+    {
+      "id": "bhava-nirvana",
+      "type": "term",
+      "en": "existence and nirvāṇa",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভবনির্ব্বাণে",
+          "translit": "bhabanirbbāṇe",
+          "lemma": "bhabanirbāṇa",
+          "att": "AS",
+          "where": "cp.19.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ভবনির্ব্বাণং",
+          "translit": "bhavanirvvāṇaṃ",
+          "lemma": "bhavanirvāṇa",
+          "att": "AS",
+          "where": "cp.19.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་དང་མྱ་ངན་འདས",
+          "translit": "srid dang mya ngan 'das",
+          "lemma": "srid dang mya ngan 'das",
+          "att": "AO",
+          "where": "cp.19.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་བ་དང་མྱ་ངན་ལས་འདས",
+          "translit": "'khor ba dang mya ngan las 'das",
+          "lemma": "'khor ba dang mya ngan las 'das",
+          "att": "AO",
+          "where": "cp.19.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভবনির্ব্বাণ"
+        },
+        {
+          "lang": "san",
+          "form": "ভবনির্ব্বাণ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲིད་དང་མྱ་ངན་འདས"
+        },
+        {
+          "lang": "bod",
+          "form": "འཁོར་བ་དང་མྱ་ངན་ལས་འདས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existence (bhava), the round of rebirth, paired with nirvāṇa, its cessation; siddha poetry often calls the two one. In song 19 they are the drums of Kāṇha's wedding. Munidatta explains the pair as the conceptual thought of mind, wind and the rest, to be purified in sequence (cp.19.m2); the Tibetan comment has 'saṃsāra and nirvāṇa'.",
+      "symbolicImage": "existence and nirvāṇa, which the song makes the paṭaha and mādala drums of Kāṇha's wedding",
+      "symbolicReadings": [
+        {
+          "referent": "the conceptual thought (vikalpa) of mind, wind and the rest, spoken of before, which is to be purified in sequence and is imagined (utprekṣya) as the instruments beginning with the paṭaha; the Tibetan has 'nonconceptual' (rnam par mi rtog pa) where the Sanskrit has vikalpa",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts",
+        "conceptualization",
+        "mind and wind"
+      ],
+      "rationale": "The pair stands as one unit in the first line and in Munidatta's gloss, so a compound entry, like 'sin and merit', keeps it from being split between existence and nirvāṇa and carries his reading."
+    },
+    {
+      "id": "pataha",
+      "type": "term",
+      "en": "paṭaha",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "drum"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পড়হ",
+          "translit": "paṛaha",
+          "lemma": "paṛaha",
+          "att": "AS",
+          "where": "cp.19.1a"
+        },
+        {
+          "lang": "san",
+          "script": "পটহাদিভাণ্ডং",
+          "translit": "paṭahādibhāṇḍaṃ",
+          "lemma": "paṭaha",
+          "att": "AS",
+          "where": "cp.19.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "པ་ཊ་ཧ",
+          "translit": "pa Ta ha",
+          "lemma": "pa Ta ha",
+          "att": "AO",
+          "where": "cp.19.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་པ་ཊ་ཧ",
+          "translit": "rnga pa Ta ha",
+          "lemma": "pa Ta ha",
+          "att": "AO",
+          "where": "cp.19.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পটহ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])পড়হ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "པ་ཊ་ཧ(?!འི་སྙེ|་མཉྫ)"
+        }
+      ],
+      "definition": "A drum (Sanskrit paṭaha, Old Bengali paṛaha) beaten in processions, festivals and public proclamations. In the first line of song 19, existence and nirvāṇa are the paṭaha and the mādala of Kāṇha's wedding music. Munidatta speaks of 'the instruments beginning with the paṭaha' (cp.19.m2); the Tibetan keeps the word (pa Ta ha).",
+      "symbolicImage": "the paṭaha, which the song says existence and nirvāṇa are",
+      "symbolicReadings": [
+        {
+          "referent": "with the other instruments, existence and nirvāṇa as the conceptual thought of mind, wind and the rest, imagined (utprekṣya) as 'the instruments beginning with the paṭaha' (paṭahādibhāṇḍa); the Tibetan takes bhāṇḍa as 'vessel' (snod)",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts"
+      ],
+      "rationale": "An instrument of the wedding band with no exact English equivalent, which the Tibetan also keeps in source form; kept like ḍamaru so that it stays distinct from the mādala beside it."
+    },
+    {
+      "id": "madala",
+      "type": "term",
+      "en": "mādala",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "drum"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাদলা",
+          "translit": "mādalā",
+          "lemma": "mādala",
+          "att": "AS",
+          "where": "cp.19.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་བོ་ཆེ",
+          "translit": "rnga bo che",
+          "lemma": "rnga bo che",
+          "att": "AO",
+          "where": "cp.19.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মাদল"
+        }
+      ],
+      "definition": "A drum (Old Bengali mādala, from Sanskrit mardala), barrel-shaped with two heads and played with the hands; the name survives in the madal of eastern India. In song 19 it is named with the paṭaha as the drums that existence and nirvāṇa are at Kāṇha's wedding. The Tibetan line has rnga bo che, 'great drum'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A second drum named beside the paṭaha, kept in source form so that the two stay distinct in English; no Tibetan match form, since rnga bo che also renders dundubhi and the rāga name Bhairavī."
+    },
+    {
+      "id": "dundubhi",
+      "type": "term",
+      "en": "kettledrum",
+      "policy": "translate",
+      "alt": [
+        "drum"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুন্দুহি",
+          "translit": "dunduhi",
+          "lemma": "dunduhi",
+          "att": "AS",
+          "where": "cp.19.2a"
+        },
+        {
+          "lang": "san",
+          "script": "দুন্দুভি",
+          "translit": "dundubhi",
+          "lemma": "dundubhi",
+          "att": "AS",
+          "where": "cp.19.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་ཆེན",
+          "translit": "rnga chen",
+          "lemma": "rnga chen",
+          "att": "AO",
+          "where": "cp.19.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་བོ་ཆེ",
+          "translit": "rnga bo che",
+          "lemma": "rnga bo che",
+          "att": "AO",
+          "where": "cp.19.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দুন্দুহি"
+        },
+        {
+          "lang": "san",
+          "form": "দুন্দুভি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A large kettledrum (Sanskrit dundubhi, Old Bengali dunduhi), beaten in war and at festivals; in Buddhist stories gods sound it in the sky at great events. In the refrain of song 19 its sound rises with cries of victory as Kāṇha sets out to marry Ḍombī. The Tibetan line has rnga chen, 'great drum', and places it in the sky.",
+      "symbolicImage": "the sound of the kettledrum rising, with cries of victory, as Kāṇha sets out to marry Ḍombī",
+      "symbolicReadings": [
+        {
+          "referent": "one of the omens (nimitta) that appeared in abundance in the sky, with cries of 'victory, victory' and a rain of flowers, when Kṛṣṇācāryapāda set out to break the flow of Ḍombī, the unpurified avadhūtikā",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "omen",
+        "omens",
+        "rain of flowers",
+        "in the sky"
+      ],
+      "rationale": "A festive and celestial instrument with a settled English rendering, which Munidatta turns into an omen in the sky; the Tibetan's generic words for 'great drum' are left out of the match forms."
+    },
+    {
+      "id": "karanda",
+      "type": "term",
+      "en": "karaṇḍa",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "করণ্ড",
+          "translit": "karaṇḍa",
+          "lemma": "karaṇḍa",
+          "att": "AS",
+          "where": "cp.19.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "করণ্ড"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in song 19 (1b), where mind and wind are 'karaṇḍa and kaśālā', apparently instruments of the wedding band, like the drums of line 1a. In Sanskrit karaṇḍa is a basket or box; which instrument is meant is unclear. The Tibetan names one instrument, khar rnga, 'bronze drum', for the pair; Munidatta does not gloss it.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The line needs the word explained, and its sense is too uncertain to translate, so the source form is kept for now."
+    },
+    {
+      "id": "kasala",
+      "type": "term",
+      "en": "cymbals",
+      "policy": "translate",
+      "alt": [
+        "gong"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কশালা",
+          "translit": "kaśālā",
+          "lemma": "kaśālā",
+          "att": "AS",
+          "where": "cp.19.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁར་རྔ",
+          "translit": "khar rnga",
+          "lemma": "khar rnga",
+          "att": "AO",
+          "where": "cp.19.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কশাল"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁར་རྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Apparently a bell-metal percussion instrument, cymbals or a gong (compare Sanskrit kāṃsyatāla, 'bell-metal cymbal', and Bengali kā̃sar, 'gong'). In song 19 mind and wind are the karaṇḍa and kaśālā of Kāṇha's wedding music. The Tibetan line has khar rnga, 'bronze drum', probably a gong. Munidatta does not gloss the word.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An instrument of the wedding band whose likely derivation gives an English rendering; 'cymbals' is a reasoned guess, with 'gong' as the alternative the Tibetan suggests."
+    },
+    {
+      "id": "vivaha",
+      "type": "term",
+      "en": "marriage",
+      "policy": "translate",
+      "alt": [
+        "wedding",
+        "marry",
+        "married"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিবাহে",
+          "translit": "bibāhe",
+          "lemma": "bibāha",
+          "att": "AS",
+          "where": "cp.19.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "বিবাহিআ",
+          "translit": "bibāhiā",
+          "lemma": "bibāha",
+          "att": "AS",
+          "where": "cp.19.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ডোম্বীবিবাহফলমাহ",
+          "translit": "ḍomvīvivāhaphalam āha",
+          "lemma": "vivāha",
+          "att": "AS",
+          "where": "cp.19.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বিবাহমিতি",
+          "translit": "vivāham iti",
+          "lemma": "vivāha",
+          "att": "AS",
+          "where": "cp.19.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བག་མར་བླངས",
+          "translit": "bag mar blangs",
+          "lemma": "bag ma len",
+          "att": "AO",
+          "where": "cp.19.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བག་མ་ལེན་པ",
+          "translit": "bag ma len pa",
+          "lemma": "bag ma len",
+          "att": "AO",
+          "where": "cp.19.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিবাহ"
+        },
+        {
+          "lang": "san",
+          "form": "বিবাহ"
+        },
+        {
+          "lang": "bod",
+          "form": "བག་མར་བླངས"
+        },
+        {
+          "lang": "bod",
+          "form": "བག་མ་ལེན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Marriage, a wedding (Sanskrit vivāha, Old Bengali bibāha). In song 19 Kāṇha sets out to marry Ḍombī to the sound of drums and cries of victory, and the marriage brings a dowry. Munidatta introduces couplet 3 as stating the fruit of the marriage with Ḍombī (cp.19.m3). The Tibetan has bag ma len pa, 'taking a bride'.",
+      "symbolicImage": "Kāṇha's marriage to Ḍombī",
+      "symbolicReadings": [
+        {
+          "referent": "breaking the flow of Ḍombī, the channel of semen and the unpurified avadhūtikā: his paraphrase has Kṛṣṇācāryapāda set out 'to break her flow' (vāhavabhaṅgārtham; vāhava is odd, perhaps for vāha) where the song has him set out for the wedding (bibāhe), apparently a play on vi-vāha; the Tibetan has 'to destroy her leaking' ('dzag pa gzhom pa'i phyir)",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m2"
+          ]
+        },
+        {
+          "referent": "the vivāha of the 'door of going' of Ḍombī, who has the form of wind; the Tibetan explains that through that door her going is to be destroyed ('gro ba gzhom par bya)",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "flow",
+        "breaking the flow",
+        "leaking",
+        "wind",
+        "door of going",
+        "channel",
+        "avadhūtī",
+        "semen"
+      ],
+      "rationale": "The marriage is the governing image of song 19 and carries two readings in Munidatta that must stay out of the line, so it needs an entry and a plain rendering."
+    },
+    {
+      "id": "yautuka",
+      "type": "term",
+      "en": "dowry",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জউতুকে",
+          "translit": "jautuke",
+          "lemma": "jautuka",
+          "att": "AS",
+          "where": "cp.19.3b"
+        },
+        {
+          "lang": "san",
+          "script": "জৌতকেন",
+          "translit": "jautakena",
+          "lemma": "yautaka",
+          "att": "AS",
+          "where": "cp.19.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞལ་མཐོང་སྟོན་མོ",
+          "translit": "zhal mthong ston mo",
+          "lemma": "zhal mthong ston mo",
+          "att": "AO",
+          "where": "cp.19.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জউতুক"
+        },
+        {
+          "lang": "san",
+          "form": "জৌতক"
+        },
+        {
+          "lang": "bod",
+          "form": "ཞལ་མཐོང་སྟོན་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Property given with a bride at marriage (Sanskrit yautuka, yautaka; Old Bengali jautuka). In song 19 the dowry of Kāṇha's marriage is the unsurpassed dharma. Munidatta writes jautaka: by the dowry, without affliction, the unsurpassed Dharma was directly realized (cp.19.m3). The Tibetan has zhal mthong ston mo, apparently 'the feast of seeing the face', a wedding feast.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The dowry carries the paradox of the third couplet, and the Tibetan renders it by a different wedding custom, so the word needs an entry."
+    },
+    {
+      "id": "surata",
+      "type": "term",
+      "en": "lovemaking",
+      "policy": "translate",
+      "alt": [
+        "love-play",
+        "sexual pleasure"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুরঅপসঙ্গে",
+          "translit": "suraapasaṅge",
+          "lemma": "suraapasaṅga",
+          "att": "AS",
+          "where": "cp.19.4a"
+        },
+        {
+          "lang": "san",
+          "script": "সুরতাভিষ্বঙ্গো",
+          "translit": "suratābhiṣvaṅgo",
+          "lemma": "surata",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সুরতাভিষ্বঙ্গে",
+          "translit": "suratābhiṣvaṅge",
+          "lemma": "surata",
+          "att": "AS",
+          "where": "cp.19.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིན་ཏུ་དགའ་བ",
+          "translit": "shin tu dga' ba",
+          "lemma": "shin tu dga' ba",
+          "att": "AO",
+          "where": "cp.19.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সুরঅপসঙ্গ"
+        },
+        {
+          "lang": "san",
+          "form": "সুরতাভিষ্বঙ্গ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])সুরত(?!রু)"
+        }
+      ],
+      "definition": "Sexual pleasure, lovemaking (Sanskrit surata, Old Bengali suraa). In song 19 day and night pass in lovemaking (suraapasaṅga). Munidatta speaks of attachment to lovemaking (suratābhiṣvaṅga) with the jñānamudrā (cp.19.m4) and with Ḍombī, whom he calls the jñānamudrā (cp.19.m5); the Tibetan line has shin tu dga' ba, 'great delight'.",
+      "symbolicImage": "lovemaking, in which day and night pass",
+      "symbolicReadings": [
+        {
+          "referent": "lovemaking 'with this jñānamudrā' (the wisdom seal), to which the lord of yogis is attached day and night",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m4"
+          ]
+        },
+        {
+          "referent": "attachment to lovemaking with Ḍombī as the naturally radiant, purified avadhūtikā, the jñānamudrā, whom the yogins who delight in it never abandon for a moment, since she is the support of the joy of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wisdom seal",
+        "jñānamudrā",
+        "avadhūtī",
+        "great bliss"
+      ],
+      "rationale": "A key word of the yoginī tantras that recurs in Munidatta's comment, needing a plain rendering and a record of his reading; the Tibetan's generic 'great delight' is left out of the match forms."
+    },
+    {
+      "id": "yoginijala",
+      "type": "term",
+      "en": "net of yoginīs",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জোইণিজালে",
+          "translit": "joiṇijāle",
+          "lemma": "joiṇijāla",
+          "att": "AS",
+          "where": "cp.19.4b"
+        },
+        {
+          "lang": "san",
+          "script": "যোগিনীজালেনেতি",
+          "translit": "yoginījāleneti",
+          "lemma": "yoginījāla",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་མ་ཡི་དྲ་བ",
+          "translit": "rnal 'byor ma yi dra ba",
+          "lemma": "rnal 'byor ma'i dra ba",
+          "att": "AO",
+          "where": "cp.19.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་མའི་དྲ་བ",
+          "translit": "rnal 'byor ma'i dra ba",
+          "lemma": "rnal 'byor ma'i dra ba",
+          "att": "AO",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জোইণিজাল"
+        },
+        {
+          "lang": "san",
+          "form": "যোগিনীজাল"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣལ་འབྱོར་མ་ཡི་དྲ་བ"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣལ་འབྱོར་མའི་དྲ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The net or circle of yoginīs (yoginījāla): in the yoginī tantras, the host of female deities of a maṇḍala, pictured as a net. In song 19 the night passes in the net of yoginīs. Munidatta explains it as the rays of knowledge of the lord of yogis (cp.19.m4); the Tibetan has rnal 'byor ma yi dra ba, 'the yoginī's net'.",
+      "symbolicImage": "the net of yoginīs in which the night passes",
+      "symbolicReadings": [
+        {
+          "referent": "the rays of knowledge (jñānaraśmi) of the lord of yogis who is attached day and night to lovemaking with the jñānamudrā; the Tibetan agrees (ye shes kyi 'od zer)",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "rays of knowledge",
+        "rays",
+        "knowledge",
+        "wisdom"
+      ],
+      "rationale": "A tantric compound with an explicit gloss in Munidatta, given its own entry, like 'net of illusion', so that the net stays in the line and the rays go in a note."
+    },
+    {
+      "id": "rajani",
+      "type": "term",
+      "en": "night",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রএণি",
+          "translit": "raeṇi",
+          "lemma": "raeṇi",
+          "att": "AS",
+          "where": "cp.19.4b"
+        },
+        {
+          "lang": "san",
+          "script": "রএণীত্যাদি",
+          "translit": "raeṇītyādi",
+          "lemma": "raeṇi",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ",
+          "translit": "nam",
+          "lemma": "nam",
+          "att": "AO",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "রএণ"
+        },
+        {
+          "lang": "san",
+          "form": "রএণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Night (Old Bengali raeṇi, from Sanskrit rajanī). In song 19 the night passes, or dawns (pohāa), in the net of yoginīs; the Tibetan line has 'dawn broke' (nams langs). Munidatta takes its passing as the flight of the darkness of the afflictions (cp.19.m4). Compare the entries for midnight and evening.",
+      "symbolicImage": "the night that passes, or turns to dawn, in the net of yoginīs",
+      "symbolicReadings": [
+        {
+          "referent": "the darkness of the afflictions (kleśāndhakāra), which flees; the Tibetan: 'the darkness of the afflictions is cleared' (nyon mongs pa'i mun pa sangs pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.19.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "darkness",
+        "afflictions",
+        "defilements",
+        "ignorance"
+      ],
+      "rationale": "Night and its passing recur as images in the songs, and Munidatta gives this one an explicit reading that must stay out of the line; the Tibetan nam is too short to serve as a match form."
+    },
+    {
+      "id": "mana-pavana",
+      "type": "term",
+      "en": "mind and wind",
+      "policy": "translate",
+      "alt": [
+        "mind and breath"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মণ পবণ",
+          "translit": "maṇa pabaṇa",
+          "lemma": "maṇa pabaṇa",
+          "att": "AS",
+          "where": "cp.19.1b"
+        },
+        {
+          "lang": "san",
+          "script": "মনপবনাদিবিকল্পং",
+          "translit": "manapavanādivikalpaṃ",
+          "lemma": "manas, pavana",
+          "att": "AS",
+          "where": "cp.19.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་དང་རླུང",
+          "translit": "yid dang rlung",
+          "lemma": "yid dang rlung",
+          "att": "AO",
+          "where": "cp.19.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་དང་རླུང",
+          "translit": "yid dang rlung",
+          "lemma": "yid dang rlung",
+          "att": "AO",
+          "where": "cp.19.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মণ পবণ"
+        },
+        {
+          "lang": "san",
+          "form": "মনপবন"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡིད་དང་རླུང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mind and wind (Old Bengali maṇa pabaṇa; Sanskrit manas, pavana): in tantric yoga, the mind and the vital wind, or breath, that carries it, so that stilling the wind stills the mind. In song 19 the two are the karaṇḍa and kaśālā of Kāṇha's wedding music. Munidatta speaks of the conceptual thought of mind, wind and the rest (cp.19.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standing pair of tantric yoga that recurs in the songs and in Munidatta; a compound entry, like 'sin and merit', keeps it whole instead of splitting it between mind and wind."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃষ্ণপাদানাম্",
+          "translit": "kṛṣṇapādānām",
+          "lemma": "kṛṣṇapāda",
+          "att": "AS",
+          "where": "cp.19.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যচরণৈশ্",
+          "translit": "kṛṣṇācāryyacaraṇaiś",
+          "lemma": "kṛṣṇācāryacaraṇa",
+          "att": "AS",
+          "where": "cp.19.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কৃষ্ণপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্যচরণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Kāṇha, the siddha poet called Kṛṣṇācārya or Kṛṣṇapāda in Sanskrit, to whom song 19 is attributed; he names himself in its refrain. Munidatta introduces the song as another caryā spoken by the venerable Kṛṣṇācārya (cp.19.m1).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds two source forms only: the attribution kṛṣṇapādānām written before the song (removed from line 1a as not part of the verse) and the honorific kṛṣṇācāryacaraṇaiḥ of cp.19.m1, with match forms that cover their inflections."
+    },
+    {
+      "id": "bhairavi",
+      "type": "term",
+      "en": "Bhairavī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བྷཻ་ར་བཱི",
+          "translit": "b+hai ra bI",
+          "lemma": "b+hai ra bI",
+          "att": "AO",
+          "where": "cp.19.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བྷཻ་ར་བཱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bhairavī, the rāga (melodic mode) of songs 12 and 19, named in their headings. In the heading of song 19 the Tibetan translation transcribes the name (b+hai ra bI), where for song 12 it has rnga bo che, 'great drum'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan transcription of the rāga name from the heading of song 19 only; the Old Bengali form is already in the entry."
+    },
+    {
+      "id": "anuttara",
+      "type": "term",
+      "en": "unsurpassed",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আণুতু",
+          "translit": "āṇutu",
+          "lemma": "āṇutu",
+          "att": "AS",
+          "where": "cp.19.3b"
+        },
+        {
+          "lang": "san",
+          "script": "নুত্তরধর্ম্ম",
+          "translit": "(a)nuttaradharmma",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.19.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "আণুতু"
+        },
+        {
+          "lang": "san",
+          "form": "নুত্তর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Unsurpassed (anuttara). In song 19 the dowry is the unsurpassed dharma (Old Bengali āṇutu dhāma); Munidatta has anuttaradharma (cp.19.m3), and the Tibetan bla med and bla na med pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds forms only: the Old Bengali āṇutu of line 3b, and a match form (-nuttara) that finds the word after vowel sandhi, as in Munidatta's jautakenākleśenānuttaradharma, without swallowing the following dharma."
+    },
+    {
+      "id": "dharma",
+      "type": "term",
+      "en": "dharma",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ধাম",
+          "translit": "dhāma",
+          "lemma": "dhāma",
+          "att": "AS",
+          "where": "cp.19.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས་ཉིད",
+          "translit": "chos nyid",
+          "lemma": "chos nyid",
+          "att": "AO",
+          "where": "cp.19.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ধাম(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Dharma: the Buddha's teaching, and things as they really are. In song 19 the dowry is the unsurpassed dharma (Old Bengali dhāma, as in the dhāmārthe of song 5); Munidatta has anuttaradharma (cp.19.m3), and the Tibetan line chos nyid, 'reality' (dharmatā).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds forms only: the Old Bengali dhāma of line 3b, as a whole-word regex because the three letters sit inside other words, and the Tibetan line's chos nyid (not made a match form, since chos nyid usually renders dharmatā)."
+    },
+    {
+      "id": "utpada-bhanga",
+      "type": "term",
+      "en": "arising and perishing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপাদভঙ্গাদিদোষা",
+          "translit": "utpādabhaṅgādidoṣā",
+          "lemma": "utpādabhaṅga",
+          "att": "AS",
+          "where": "cp.19.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ৎপাদভঙ্গ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Arising and perishing (utpāda, bhaṅga): the coming into being and destruction of conditioned things. Munidatta says the faults beginning with arising and perishing are destroyed, glossing couplet 3 of song 19 (cp.19.m3); the Tibetan has skye ba dang 'jig pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds a form only, with a match form (-tpādabhaṅga) that finds the compound both word-initially and after sandhi (eṣām utpāda-)."
+    },
+    {
+      "id": "sukranadika",
+      "type": "term",
+      "en": "channel of semen",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শুক্রনাড়িকা",
+          "translit": "śukranāḍikā",
+          "lemma": "śukranāḍikā",
+          "att": "AS",
+          "where": "cp.19.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শুক্রনাড়িক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A channel of the subtle body through which semen, the bodily form of bodhicitta, is said to move. In song 19 Munidatta identifies Ḍombī with it, as the unpurified avadhūtikā (cp.19.m2); the Tibetan has khu ba'i rtsa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the nominative form of cp.19.m2 only, with a stem match form that covers every case ending."
+    },
+    {
+      "id": "jnanamudra",
+      "type": "term",
+      "en": "jñānamudrā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানমুদ্রয়া",
+          "translit": "jñānamudrayā",
+          "lemma": "jñānamudrā",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "san",
+          "script": "জ্ঞানমুদ্রাং",
+          "translit": "jñānamudrāṃ",
+          "lemma": "jñānamudrā",
+          "att": "AS",
+          "where": "cp.19.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་ཀྱི་རྒྱ་མཚོ",
+          "translit": "ye shes kyi rgya mtsho",
+          "lemma": "ye shes kyi rgya mtsho",
+          "att": "AO",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জ্ঞানমুদ্র"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Wisdom seal': a partner visualized in meditation. In song 19 Munidatta calls Ḍombī the jñānamudrā (cp.19.m5) and speaks of lovemaking with her (cp.19.m4), where the Tibetan has ye shes kyi rgya mtsho, 'ocean of knowledge', as if reading samudra for mudrā.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds forms only: two inflections from cp.19.m4 and cp.19.m5 with a stem match form, and the Tibetan's divergent 'ocean of knowledge' in cp.19.m4 (not made a match form)."
+    },
+    {
+      "id": "matta",
+      "type": "term",
+      "en": "drunk",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উন্মত্তো",
+          "translit": "unmatto",
+          "lemma": "unmatta",
+          "att": "AS",
+          "where": "cp.19.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উন্মত্ত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Drunk, intoxicated (Sanskrit matta; unmatta, 'maddened', is the stronger form). In the last line of song 19 the yogi is drunk with the innate (sahaja unmatto); the Tibetan has myos, its word for matta elsewhere.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds unmatta, 'maddened, drunk', of line 5b, which the Tibetan renders with the same myos as matta."
+    },
+    {
+      "id": "agama",
+      "type": "term",
+      "en": "scripture",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চাগমঃ",
+          "translit": "cāgamaḥ",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চাগমঃ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Scripture, authoritative tradition (āgama). Munidatta introduces an unnamed verse with 'and so the scripture' (tathā cāgamaḥ), here written as two words (cp.19.m4); the Tibetan has lung.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the spaced spelling 'tathā cāgamaḥ' of cp.19.m4, which the existing unspaced form does not find; the match keeps the ca- so that it does not hit āgamana, 'coming'."
+    },
+    {
+      "id": "vayu",
+      "type": "term",
+      "en": "wind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বায়ুরূপা",
+          "translit": "vāyurūpā",
+          "lemma": "vāyu",
+          "att": "AS",
+          "where": "cp.19.m3"
+        },
+        {
+          "lang": "san",
+          "script": "জীবানিলে",
+          "translit": "jīvānile",
+          "lemma": "anila",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲོག་གི་མེ",
+          "translit": "srog gi me",
+          "lemma": "srog gi me",
+          "att": "AO",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বায়ু"
+        },
+        {
+          "lang": "san",
+          "form": "জীবানিল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wind or breath, the vital wind of tantric yoga. In song 19 Munidatta says Ḍombī has the form of wind (cp.19.m3), and the verse he quotes speaks of the life-wind (jīvānila) calmed and restrained, where the Tibetan has srog gi me, 'life-fire', as if reading anala for anila (cp.19.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds forms only: vāyu (spelled with য়) and the life-wind jīvānila, with the Tibetan's divergent 'life-fire' recorded but not made a match form."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ত্রৈলোক্যম",
+          "translit": "trailokyam",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.19.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན་གསུམ",
+          "translit": "'jig rten gsum",
+          "lemma": "'jig rten gsum",
+          "att": "AO",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্রৈলোক্য"
+        },
+        {
+          "lang": "bod",
+          "form": "འཇིག་རྟེན་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The three worlds: the realms of desire, form and formlessness, or the whole world. In the verse Munidatta quotes on song 19, the light that goes out from the body of the lords of yogis pervades the three worlds (cp.19.m4); the Tibetan has 'jig rten gsum.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds forms only: the accusative in sandhi (trailokyam ākrāmati) and the Tibetan 'jig rten gsum without the po of the existing form."
+    },
+    {
+      "id": "prabhasvara",
+      "type": "term",
+      "en": "clear light",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রকৃতিপ্রভাস্বর",
+          "translit": "prakṛtiprabhāsvara",
+          "lemma": "prabhāsvara",
+          "att": "AS",
+          "where": "cp.19.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রকৃতিপ্রভাস্বর"
+        },
+        {
+          "lang": "san",
+          "form": "প্রভাস্বর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Clear light, the luminous nature of mind. In song 19 Munidatta calls Ḍombī the purified avadhūtikā, clear light by nature (prakṛtiprabhāsvara), the jñānamudrā (cp.19.m5); here prakṛti means 'by nature', not the 'natures' of the prakṛti entry. The Tibetan has only 'naturally pure'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds 'clear light by nature' as one match form, so that prakṛti, 'by nature', inside it is not read as the prakṛti entry's 'natures'."
+    },
+    {
+      "id": "yogini",
+      "type": "term",
+      "en": "yoginī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যোগিনীপ্রভাবমাহ",
+          "translit": "yoginīprabhāvam āha",
+          "lemma": "yoginī",
+          "att": "AS",
+          "where": "cp.19.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যোগিনী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A woman practitioner of yoga, or a female deity of the yoginī tantras. Munidatta introduces couplet 4 of song 19 as stating the yoginī's power (cp.19.m4) and couplet 5 as the conduct of the lord of yogis by the yoginī's grace (cp.19.m5); the Tibetan has rnal 'byor ma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the plain stem yoginī, which finds the singular in compounds such as yoginīprabhāva and yoginīprasāda; longer entries (the net of yoginīs, Nairātmā-yoginī) still win where they overlap."
+    },
+    {
+      "id": "companion",
+      "type": "term",
+      "en": "companion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখসঙ্গং",
+          "translit": "mahāsukhasaṅgaṃ",
+          "lemma": "saṅga",
+          "att": "AS",
+          "where": "cp.19.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོའི་གྲོགས",
+          "translit": "bde ba chen po'i grogs",
+          "lemma": "grogs",
+          "att": "AO",
+          "where": "cp.19.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সুখসঙ্গং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A companion, or company (saṅga). In Munidatta's paraphrase of song 19, Kāṇha sets out for his wedding 'having taken great bliss as companion' (mahāsukhasaṅga) (cp.19.m2); the Tibetan has bde ba chen po'i grogs, as in the last line of song 8.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's 'companion of great bliss' of cp.19.m2; the match form starts at sukha- so that the great bliss entry is still found in the same word."
+    }
+  ],
+  "questions": [
+    "Ḍombī: Munidatta gives three readings of her in this song that the dombi entry lacks: the channel of semen, the unpurified avadhūtikā (cp.19.m2); 'in the form of wind' (cp.19.m3); and the naturally radiant, purified avadhūtikā, the jñānamudrā (cp.19.m5). A proposal for an existing id only adds forms, so these would have to be added to dombi (and the jñānamudrā equation to jnanamudra) by hand.",
+    "3a ahāriu jāma: the existing janma form জাম will match here as 'birth'. The Tibetan comment supports that (skye ba, and Munidatta's 'the faults beginning with arising and perishing are destroyed'), but the Tibetan line reads 'prepared the food (kha zas) of bride-taking', as if ahāriu were āhāra, 'food', and Munidatta's gloss 'bhaṅgaṃ kṛtvā jayam iti' may cite jāma in a corrupt form (jayam). I proposed no entry; the line drafter should flag it.",
+    "bhairavi: the definition speaks only of song 12 and explains the Tibetan rnga bo che as a reading bherī, 'kettledrum'. In the heading of song 19 the Tibetan simply transcribes the name (b+hai ra bI), and in line 1a of this song rnga bo che renders mādalā, a drum. You may want to revise the definition.",
+    "Instruments: I kept paṭaha, mādala and karaṇḍa in source form and translated dundubhi ('kettledrum') and kaśālā ('cymbals'). You may prefer one policy for all five. 'Cymbals' rests on a derivation from kāṃsyatāla; the Tibetan khar rnga ('bronze drum', a gong) may render karaṇḍa and kaśālā together.",
+    "utprekṣya (cp.19.m2, 'imagining it as the instruments beginning with the paṭaha') is the verb of the figure the utpreksa entry names, but I did not add it there, since the approved rendering 'poetic fancy' would sit awkwardly in that sentence. Your call.",
+    "In the verse quoted in cp.19.m4, 'bhagavati prāṇādhipe svāmini' may be matched as p-bhagavat ('Blessed One'), but here bhagavat is an epithet of the lord of breath, not the Buddha. The weave drafter should treat it as an epithet.",
+    "dharma: the whole-word regex for Old Bengali ধাম assumes dhāma stands for dharma, as in song 5 and here (the Tibetan has chos nyid, Munidatta anuttaradharma). Elsewhere dhāma might mean 'abode' (Sanskrit dhāman); check its hits in later songs.",
+    "The Tibetan of cp.19.m4 renders jñānamudrā as ye shes kyi rgya mtsho ('ocean of knowledge') and jīvānila as srog gi me ('life-fire'), apparently misreadings (samudra, anala). I recorded them as AO forms of jnanamudra and vayu, without match forms, as the glossary does for other divergent Tibetan readings. Drop them if you prefer the entries to list only equivalents."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "0e6bd8aa9d85c00aab4a025865ea6dc3f56b73f268e8d21d723a20a6cb4faff1",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "d340be036ac9781c5b31664aee4e23e1e89e7cef90a0cf81b7b05984622a374c",
+    "sourceSha": "8d3b4dff8befb6192434b93321f94d0c80ddddbd4a433859b6ab2aef1df4bec8"
+  }
+}

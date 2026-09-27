@@ -1,0 +1,664 @@
+{
+  "unit": "cp.17",
+  "title": "Heruka's Vīṇā",
+  "summary": "A vīṇā is built from the sun as its gourd, the moon as its string and the unstruck as its stick; Heruka's vīṇā rings out, the sound of its thirty-two strings fills everything, and the song ends with dancing, playing and a goddess singing as the Buddha drama becomes extraordinary. Munidatta reads the gourd and string as the sun- and moon-appearances made one with the avadhūtī, takes the friend as Nairātmā and the vīṇā's sound as the unstruck 'sound of emptiness' (cp.17.m2), and makes the last couplet Vīṇāpāda's vajra dance while the yoginīs sing (cp.17.m5).",
+  "lines": [
+    {
+      "id": "cp.17.h1",
+      "translit": "rāga paṭamañjarī",
+      "gloss": "rāga (melodic mode) · Paṭamañjarī (name of the rāga)",
+      "en": "[Rāga]{raga} [Paṭamañjarī]{patamanjari} · [Vīṇāpāda]{p-vina}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "patamanjari",
+          "src": "পটমঞ্জরী"
+        },
+        {
+          "id": "p-vina",
+          "src": "বীণাপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The edition's heading names only the rāga. The poet's name is added, as in the other headings, from the attribution vīṇāpādānām written before 1a (emended out of the verse) and from the Tibetan heading (pi wang zhabs kyi'o)."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.1a",
+      "translit": "suja lāu sasi lāgeli tāntī",
+      "gloss": "sun · gourd · moon · attached (was fixed) · string",
+      "en": "The [sun]{surya} is the [gourd]{gourd}, the [moon]{moon} attached as the [string]{tanti};",
+      "terms": [
+        {
+          "id": "surya",
+          "src": "সুজ"
+        },
+        {
+          "id": "gourd",
+          "src": "লাউ"
+        },
+        {
+          "id": "moon",
+          "src": "সসি"
+        },
+        {
+          "id": "tanti",
+          "src": "তান্তী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "Two verbless clauses: suja lāu, 'sun (is the) gourd', and sasi lāgeli tāntī, 'moon attached (as the) string'; lāgeli is a past form of lāg-, 'stick, be fixed'. The Tibetan (nyi ma'i ku ba zla ba rgyud la sbyar) agrees."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.1b",
+      "translit": "aṇahā dāṇḍī bāki kiata abadhūtī || dhru ||",
+      "gloss": "unstruck · stick · bāki (uncertain) · made · avadhūtī (lit. 'she who has shaken off') · dhru (cue to sing the refrain again; not translated)",
+      "en": "the [unstruck]{anahata} is the [stick]{danda}, the [bāki]{baki} is made the [avadhūtī]{avadhuti}.",
+      "terms": [
+        {
+          "id": "anahata",
+          "src": "অণহা"
+        },
+        {
+          "id": "danda",
+          "src": "দাণ্ডী"
+        },
+        {
+          "id": "baki",
+          "src": "বাকি"
+        },
+        {
+          "id": "avadhuti",
+          "src": "অবধূতী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "bāki is unexplained and is kept in source form (proposed entry baki) rather than guessed. Candidates: Sanskrit vakra, 'bent' (compare Bengali bā̃kā, 'crooked'); a part of the vīṇā; the Tibetan has drang, 'straight' or 'drawn', in its place; Munidatta's viṣayacakrī, 'the one with the wheel', might reflect a reading cāki, 'wheel' (c and v are easily confused)."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "Read on the pattern of 1a: 'the unstruck (is) the stick', then bāki as subject of kiata, 'made', with avadhūtī as complement. Munidatta (anāhatadaṇḍikā) and the Tibetan (gzhom med dbyig) take 'the unstruck stick' as one phrase, and the Tibetan makes the stick into the avadhūtī (a wa d+hU tIr byas). 'The avadhūtī is made the bāki' is also possible."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.2a",
+      "translit": "bājai alo sahi heruabīṇā",
+      "gloss": "sounds (is played) · oh (interjection) · friend (f.) · Heruka-vīṇā",
+      "en": "Oh [friend]{sakhi}, [Heruka]{p-heruka}'s [vīṇā]{vina} rings out;",
+      "terms": [
+        {
+          "id": "sakhi",
+          "src": "সহি"
+        },
+        {
+          "id": "p-heruka",
+          "src": "হেরুঅ"
+        },
+        {
+          "id": "vina",
+          "src": "বীণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "heruabīṇā is taken as 'Heruka's vīṇā', as the Tibetan (he ru ka yi pi wang) takes it; it could also be 'the Heruka-vīṇā', the vīṇā that is Heruka. bājai, 'sounds, is played', is rendered 'rings out'."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.2b",
+      "translit": "suna tānti dhani bilasai ruṇā || dhru ||",
+      "gloss": "empty, emptiness · string · sound · plays (sports, gleams) · ruṇā (uncertain) · dhru (cue to sing the refrain again; not translated)",
+      "en": "the [sound]{dhvani} of the [string]{tanti} of [emptiness]{sunyata} plays [ruṇā]{runa}.",
+      "terms": [
+        {
+          "id": "dhvani",
+          "src": "ধনি"
+        },
+        {
+          "id": "tanti",
+          "src": "তান্তি"
+        },
+        {
+          "id": "sunyata",
+          "src": "সুন"
+        },
+        {
+          "id": "runa",
+          "src": "রুণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "suna is rendered with the glossary's 'emptiness', following Munidatta's 'sound of emptiness' (śūnyatādhvani). It may instead be the adjective 'empty' ('the sound of the empty string'), or the imperative 'listen!' (suṇa), which would suit a refrain addressed to a friend. The Tibetan has no clear word for it."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "ruṇā is kept in source form, as the glossary directs. The Tibetan has snying rje, 'compassion', as if reading karuṇā; Munidatta passes over the word. bilasai (Sanskrit vilasati) is 'plays, sports, gleams'."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.3a",
+      "translit": "āli kāli beṇi sāri suṇeā",
+      "gloss": "āli (the vowel series) · kāli (the consonant series) · both · frets (? or row) · hearing, heard",
+      "en": "Hearing [āli]{ali} and [kāli]{kali}, [both]{beni} [frets]{sari},",
+      "terms": [
+        {
+          "id": "ali",
+          "src": "আলি"
+        },
+        {
+          "id": "kali",
+          "src": "কালি"
+        },
+        {
+          "id": "beni",
+          "src": "বেণি"
+        },
+        {
+          "id": "sari",
+          "src": "সারি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "sāri is taken as 'frets' (Sanskrit sārikā, the frets of a vīṇā), supported by the Tibetan gnya' non, literally 'neck-presser'. It could be Bengali sāri, 'row' ('both rows', the two series of letters); Munidatta plays on it as sāra, 'essential', of the letter a. Proposed entry sari."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "suṇeā may be an absolutive, 'having heard', or a participle, 'heard'; the Tibetan has shes, 'know', and Munidatta pratītya, 'having realized'."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.3b",
+      "translit": "gaabara samarasa sāndhi guṇiā || dhru ||",
+      "gloss": "great elephant (? gaja-vara; the commentary has graha-vara) · same taste · joint(s), juncture · counting, counted · dhru (cue to sing the refrain again; not translated)",
+      "en": "counting the great [elephant]{elephant}'s joints in [same taste]{samarasa}.",
+      "terms": [
+        {
+          "id": "elephant",
+          "src": "গঅবর"
+        },
+        {
+          "id": "samarasa",
+          "src": "সমরস"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "gaabara (not tagged by the glossary scan) is rendered 'great elephant' (gajavara): the written hiatus ga-a- points to a lost consonant such as j, and the same form is an elephant elsewhere in the songs. Munidatta reads (ā)grahavara, 'best of grahas' (planets, or seizers such as Rāhu), and calls it 'the king of mind'; the Tibetan has bza' mchog, probably for gza' mchog, 'best of planets'. On the commentary's reading the line would have 'the chief planet'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan reads bza' ('food, eat'), not gza' ('planet'), in both the line and the comment; I take it as a slip for gza'."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "samarasa may qualify the joints ('the same-taste joints') or the elephant, or stand as a predicate. guṇiā, 'counting', follows Munidatta's guṇitva and the Tibetan brtsis, 'counted'; it might instead be 'tying with cord' (guṇa, 'cord')."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.4a",
+      "translit": "jabe karahā karahaka lepi ciu",
+      "gloss": "when · karahā (uncertain) · karahaka (uncertain) · pressing (lit. smearing) · ? (unclear: 'pressed'? 'mind'?)",
+      "en": "When [karahā]{karaha} and [karahaka]{karaha} are pressed,",
+      "terms": [
+        {
+          "id": "karaha",
+          "src": "করহা"
+        },
+        {
+          "id": "karaha",
+          "src": "করহক"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "lepi ciu is rendered 'are pressed', with Munidatta's cāpita, ākrāmita ('pressed, overcome') and the Tibetan mnan ('pressed'). Literally lep- is 'smear, plaster', and ciu is unclear: perhaps a corruption of cāpiu, 'pressed', which would rhyme with biāpiu in 4b and explain Munidatta's vernacular-looking cāpita; or citta, 'mind' (Apabhraṃśa cittu), giving 'when the mind presses karahā and karahaka'."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "karahā and karahaka are kept in source form, as the glossary directs. The Tibetan line has 'wood and little wood'. Munidatta's lemma karahakala suggests his text divided the words differently (karahakale pi?)."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.4b",
+      "translit": "batiśa tānti dhani saela biāpiu || dhru ||",
+      "gloss": "thirty-two · strings · sound · all · pervaded · dhru (cue to sing the refrain again; not translated)",
+      "en": "the [sound]{dhvani} of the thirty-two [strings]{tanti} pervades everything.",
+      "terms": [
+        {
+          "id": "dhvani",
+          "src": "ধনি"
+        },
+        {
+          "id": "tanti",
+          "src": "তান্তি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line (de tshe rgyud kyi sgra yis kun du khyab) lacks 'thirty-two'; the Tibetan comment keeps the number. biāpiu is a past form ('has pervaded'); the English uses the present after 'when'."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.5a",
+      "translit": "nācanti bājila gānti debī",
+      "gloss": "dance (they dance; or dancing) · sounded, played · sing (they sing; or singing) · goddess",
+      "en": "They [dance]{nrtya}, it rings out, the [goddess]{devi} sings;",
+      "terms": [
+        {
+          "id": "nrtya",
+          "src": "নাচন্তি"
+        },
+        {
+          "id": "devi",
+          "src": "দেবী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The subjects are unexpressed. The draft takes nācanti and gānti as plurals (possibly honorific) and bājila, a past form of the verb of 2a, as the vīṇā ringing out ('it'). Alternatives: the goddess as subject of all three ('the goddess dances, plays, sings', with nācanti and gānti as feminine participles); or, with Munidatta, Vīṇāpāda dancing while the goddesses sing. His 'vajra-step dance' may play on bājila as if from vajra."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan has rgyal po gang byed, 'the king does what(ever)': perhaps rāj- read for bāj-, and gang for gar, 'dance' (the Tibetan comment quotes the line as beginning gar)."
+        }
+      ]
+    },
+    {
+      "id": "cp.17.5b",
+      "translit": "buddha nāṭaka bisamā hoi || dhru ||",
+      "gloss": "Buddha · drama · uneven, difficult, extraordinary · becomes · dhru (cue to sing the refrain again; not translated)",
+      "en": "the [Buddha]{buddha} [drama]{nataka} becomes extraordinary.",
+      "terms": [
+        {
+          "id": "buddha",
+          "src": "বুদ্ধ"
+        },
+        {
+          "id": "nataka",
+          "src": "নাটক"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bisamā (Sanskrit viṣama) ranges over 'uneven', 'difficult, dangerous' and 'extraordinary, tremendous'. 'Extraordinary' follows Munidatta's viśiṣṭādhimātra and the Tibetan khyad par, 'especially'; the Tibetan line's dka', 'difficult', supports the second sense."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.17",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song: through understanding the meaning of [Heruka]{p-heruka}, [Vīṇāpāda]{p-vina} sets out 'that same meaning' by way of the word (or sound: śabda means both) 'vīṇā'. The manuscript's tavemārthaṃ is probably a slip for tam evārthaṃ, 'that same meaning', a phrase he uses twice in his comment on couplet 3; the Tibetan has de kho na nyid kyi don, 'the meaning of reality', as if reading tattvārtha.",
+      "cites": [
+        "cp.17.m1",
+        "cp.17.m3"
+      ]
+    },
+    {
+      "anchor": "cp.17.h1",
+      "kind": "philology",
+      "text": "[Rāga]{raga}: a melodic mode of Indian music; each song's heading names the rāga it is sung to. [Paṭamañjarī]{patamanjari} is also the rāga of song 1.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.h1",
+      "kind": "witness",
+      "text": "The heading in the edition gives only the rāga. The poet's name comes from the attribution vīṇāpādānām, 'of Vīṇāpāda', written before the first line (removed from 1a as not part of the verse), and from the heading of the Tibetan translation (Toh 2293), pa Ta ha many+dza rI'i glu dbyangs pi wang zhabs kyi'o, 'the song in Paṭahamañjarī, of Vīṇāpāda'. The Tibetan spelling makes the rāga's name begin with paṭaha, 'drum'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.1a",
+      "kind": "imagery",
+      "text": "The vīṇā of this song is a stick zither: a dried, hollowed gourd serves as resonator, fixed to a long stick along which the string runs. The first couplet builds the instrument out of the sun (the gourd), the moon (the string) and, on this draft's reading, the [unstruck]{anahata} (the stick), the inner sound that sounds without being struck.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.1",
+      "kind": "doctrine",
+      "text": "Munidatta has [Vīṇāpāda]{p-vina} imagine the sun-[appearance]{abhasa} (sūryābhāsa) in the form of a gourd and make the string with the moon-appearance (candrābhāsa); then, having made viṣayacakrī, 'the one with the wheel of objects' (the sense is unclear), one with the avadhūtikā, he attaches it to 'the unstruck stick' (anāhatadaṇḍikā). The Tibetan comment agrees on the gourd and string, and has 'attaching the unstruck sound to the staff' (gzhom du med pa'i sgra dbyig pa la sbyar te).",
+      "cites": [
+        "cp.17.m2"
+      ]
+    },
+    {
+      "anchor": "cp.17.1b",
+      "kind": "philology",
+      "text": "[avadhūtī]{avadhuti}: literally 'she who has shaken off'; in tantric yoga, the central channel of the subtle body, running between a left and a right channel. The song itself names it, so the word stays in the line.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.1b",
+      "kind": "philology",
+      "text": "[bāki]{baki} is of uncertain sense and is kept in source form. It may come from Sanskrit vakra, 'bent' (compare Bengali bā̃kā, 'crooked'), or name a part of the instrument. The Tibetan line has drang, 'straight' or 'drawn', in its place. Munidatta does not gloss it, but his viṣayacakrī, 'the one with the wheel (cakra)', stands where a gloss might be expected; it might reflect a reading cāki, 'wheel', since c and v are easily confused in manuscripts. That is only a guess. kiata is taken as 'made' (Sanskrit kṛta).",
+      "cites": [
+        "cp.17.m2"
+      ]
+    },
+    {
+      "anchor": "cp.17.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads gzhom med dbyig drang a wa d+hU tIr byas, 'the unstruck, straight (or drawn) staff was made into the avadhūtī': it makes the stick into the avadhūtī, and has drang where the Bengali has bāki.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.2a",
+      "kind": "philology",
+      "text": "[vīṇā]{vina}: an Indian stringed instrument; here a stick zither with a gourd resonator. heruabīṇā is 'Heruka's vīṇā', heruā being Heruka with the k lost between vowels, as usual in Old Bengali; the Tibetan has he ru ka yi pi wang. [Heruka]{p-heruka} is a wrathful tantric deity. alo is an interjection used in calling to a woman friend.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.2",
+      "kind": "doctrine",
+      "text": "Munidatta addresses the friend as Nairātmā ('O friend, [Nairātmā]{nairatma}', bho sakhi nairātme) and says that through the vīṇā Vīṇāpāda proclaims the unstruck, the meaning of the four syllables śrī he ru ka; 'hence the sound of [emptiness]{sunyata}' (śūnyatādhvani), apparently his reading of suna … dhani. In [twilight language]{sandhya-bhasa}, he says, the [clear light]{prabhasvara}, whose form is the unstruck, plays in existence (bhave vilasati, echoing bilasai) and does not become a bond of existence; he supports this from the [Hevajra]{tx-hevajra} and from another caryā song.",
+      "cites": [
+        "cp.17.m2"
+      ]
+    },
+    {
+      "anchor": "cp.17.2b",
+      "kind": "philology",
+      "text": "[ruṇā]{runa}: a word of uncertain sense, kept in source form. The Tibetan line has snying rje, 'compassion', as if reading karuṇā; it might instead echo the ringing of the string. Munidatta's comment on the refrain does not take it up.",
+      "cites": [
+        "cp.17.m2"
+      ]
+    },
+    {
+      "anchor": "cp.17.2b",
+      "kind": "philology",
+      "text": "suna is taken, with Munidatta's śūnyatādhvani, 'the sound of emptiness', as 'emptiness'. It could equally be the adjective 'empty' (the empty string), and it could be the imperative 'listen!' (compare suṇeā, 'heard', in 3a), which would suit a refrain addressed to a friend.",
+      "cites": [
+        "cp.17.m2"
+      ]
+    },
+    {
+      "anchor": "cp.17.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rgyud kyi sgra nyid snying rje sgrogs pa can, 'the very sound of the string proclaims compassion': it has no word for suna ('empty') unless nyid, 'itself', stands for it, and it renders ruṇā as compassion.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.3a",
+      "kind": "philology",
+      "text": "[āli]{ali} and [kāli]{kali}: the series of Sanskrit vowels and the series of consonants, that is, all the letters of the alphabet.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.3a",
+      "kind": "philology",
+      "text": "sāri is rendered [frets]{sari}, taking it from Sanskrit sārikā, the word Indian musical treatises use for the frets of a vīṇā. The Tibetan translation (Toh 2293) reads A li kA li gnyis kyi gnya' non shes, 'know the gnya' non of the two, āli and kāli'; gnya' non, literally 'neck-presser', also points to a part of the instrument. Bengali sāri, 'row', would suit the two series of letters ('both rows'). Munidatta plays on the word as sāra, 'essential' (see the note on couplet 3). suṇeā is taken as 'hearing'.",
+      "cites": [
+        "cp.17.m3"
+      ]
+    },
+    {
+      "anchor": "cp.17.3",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet the second verse, which confirms the same meaning. Among the letters of āli and kāli the essential letter is a ([letter a]{akara}), and he quotes the [Nāmasaṃgīti]{tx-namasamgiti}: 'a is the foremost of all letters'. His next sentence, which lacks a main verb, speaks of realizing the nature of that akṣara ('letter', also 'imperishable', as the Tibetan mi 'gyur ba takes it) and of the juncture (sandhi) of the grahavara, 'the king of mind' (cittarāja), 'through counting the holes of faults'. He ends with two scriptural verses: the coarse is made of sound, the subtle of thought; the imperishable state of yogis is free of thought and non-thought.",
+      "cites": [
+        "cp.17.m3"
+      ]
+    },
+    {
+      "anchor": "cp.17.3b",
+      "kind": "philology",
+      "text": "gaabara is rendered 'the great [elephant]{elephant}', taking it as Sanskrit gajavara: the written hiatus (ga-a-) points to a lost consonant such as j, and the same form is an elephant elsewhere in the songs (the glossary records gaabarem̐, which Munidatta cites as gaavara). Here Munidatta reads (ā)grahavara, 'best of grahas' (planets, or seizers such as Rāhu), and calls it 'the king of mind' (cittarāja), close to his usual 'mind, lord of elephants'; graha would normally give gaha, not gaa. The Tibetan has bza' mchog in line and comment; bza', 'food, eat', is probably a slip for gza', 'planet', the usual rendering of graha.",
+      "cites": [
+        "cp.17.m3"
+      ]
+    },
+    {
+      "anchor": "cp.17.3b",
+      "kind": "philology",
+      "text": "sāndhi is 'joint' or 'juncture' (Sanskrit sandhi). guṇiā is taken as 'counting' (Old Bengali guṇ-, 'count, reckon'), as Munidatta's guṇitva and the Tibetan brtsis, 'counted', take it; it might instead mean 'tying with cord' (guṇa, 'cord, string'), which would suit fixing the joints of an instrument.",
+      "cites": [
+        "cp.17.m3"
+      ]
+    },
+    {
+      "anchor": "cp.17.3b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads bza' mchog ro mnyam mtshan rnams brtsi byas nas, roughly 'having reckoned in same taste the marks (mtshan) of the supreme (g)za'': brtsi, 'calculate', is the verb of astrological reckoning, and mtshan, 'marks', stands where the Tibetan comment has mtshams, 'juncture' (for sāndhi). Read with gza', 'planet', the line speaks of reckoning a planet's junctures.",
+      "cites": [
+        "cp.17.m3"
+      ]
+    },
+    {
+      "anchor": "cp.17.4a",
+      "kind": "philology",
+      "text": "[karahā]{karaha} and karahaka are of uncertain sense and kept in source form; they seem to be things pressed as the strings sound, perhaps parts of the vīṇā. The Tibetan line has shing dang shing bu, 'wood and little wood'. Prakrit karaha can continue Sanskrit karabha, 'young camel' or 'outer edge of the hand'; the Tibetan comment's 'camel of the mind' (sems kyi rnga mong) fits the first, and Munidatta's 'heat of the mind' (cittauṣṇya) might then be a slip for cittoṣṭra, 'camel of the mind'. This is conjecture.",
+      "cites": [
+        "cp.17.m4"
+      ]
+    },
+    {
+      "anchor": "cp.17.4a",
+      "kind": "philology",
+      "text": "lepi ciu is rendered 'are pressed', following Munidatta's cāpita, ākrāmita ('pressed, overcome') and the Tibetan mnan, 'pressed'. Literally lep- is 'smear, plaster', and ciu is unclear. Munidatta's vernacular-looking cāpita suggests his text had a form of cāp-, 'press'; a reading cāpiu would rhyme exactly with biāpiu in 4b. Alternatively ciu is citta, 'mind' (Apabhraṃśa cittu), which both comments bring in; the line would then say 'when the mind presses karahā and karahaka'.",
+      "cites": [
+        "cp.17.m4"
+      ]
+    },
+    {
+      "anchor": "cp.17.4",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet the third verse, stating the nature of being (bhāvasvarūpa). He explains karaha as the heat of the mind and karahakala as [clear light]{prabhasvara}, 'the fruit carried by compassion' (the phrase looks corrupt; the Tibetan has 'the unstruck portion of compassion'). At the moment of [vilakṣaṇa]{vilaksana} the heat of the mind is pressed down by 'the clear-light [Rāhu]{p-rahu}'; he then speaks of the body of the deities of the thirty-two [channels]{nadi}, and explains 'by the sound' as by the unstruck knowledge of [Nairātmā]{nairatma}, which has the nature of [wisdom and means]{prajnopaya} and pervades [being and nonbeing]{bhava-abhava}. He closes with a verse of [Saraha]{p-saraha}.",
+      "cites": [
+        "cp.17.m4"
+      ]
+    },
+    {
+      "anchor": "cp.17.4b",
+      "kind": "witness",
+      "text": "The vīṇā of the first couplet has one string, the moon; here thirty-two strings sound, and the song leaves the change unexplained. The Tibetan translation (Toh 2293) reads de tshe rgyud kyi sgra yis kun du khyab, 'then the sound of the string(s) pervades all', with no 'thirty-two', though its comment keeps the number (rtsa sum cu so gnyis, 'thirty-two channels').",
+      "cites": [
+        "cp.17.m4"
+      ]
+    },
+    {
+      "anchor": "cp.17.5",
+      "kind": "imagery",
+      "text": "The last couplet names dance (nāc-), instrumental playing (bāj-) and song (gā-), the three arts that Indian theory joins as saṅgīta and that together make a staged drama (nāṭaka).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.17.5",
+      "kind": "doctrine",
+      "text": "Munidatta calls this the fourth verse: having attained the fruit, [Vīṇāpāda]{p-vina} in joy dances the vajra-step dance, 'with the step (or in the state) of [Vajradhara]{p-vajradhara}'; 'their goddess', the [yoginīs]{yogini}, Nairātmā and the rest, perform the auspicious rite of singing together; therefore the Buddha drama, distinguished and surpassing, becomes [nirvāṇa]{nirvana} alike for beings. He quotes the Dvikalpa ([Hevajra]{tx-hevajra}): if joy has arisen, one dances for the sake of liberation.",
+      "cites": [
+        "cp.17.m5"
+      ]
+    },
+    {
+      "anchor": "cp.17.5",
+      "kind": "philology",
+      "text": "The couplet marked as the bhaṇitā has no self-naming: the poet does not say 'Vīṇā says'. Munidatta supplies Vīṇāpāda as the dancer. The plural nācanti could be honorific for the poet, as Munidatta's plural vīṇāpādāḥ is, or refer to the performers of the drama; the draft keeps 'they'.",
+      "cites": [
+        "cp.17.m5"
+      ]
+    },
+    {
+      "anchor": "cp.17.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rgyal po gang byed lha mo glu len byed, 'the king does what(ever); the goddess sings'. Its comment quotes the line as beginning gar, 'dance', so gang byed may be a slip for gar byed, 'dances'. rgyal po, 'king', stands where the Bengali has bājila; perhaps the translators read rāj- for bāj- (in Bengali script র and ব differ only by a dot).",
+      "cites": [
+        "cp.17.m5"
+      ]
+    },
+    {
+      "anchor": "cp.17.5b",
+      "kind": "philology",
+      "text": "bisamā (Sanskrit viṣama) ranges from 'uneven, unequal' through 'difficult, dangerous' to 'extraordinary, tremendous'. The draft takes 'extraordinary', in line with Munidatta's 'distinguished and surpassing' (viśiṣṭādhimātra) and the Tibetan comment's khyad par, 'especially'; the Tibetan line's dka', 'difficult', points to the second sense. Munidatta's samaṃ, 'alike', may play on the sama in viṣama.",
+      "cites": [
+        "cp.17.m5"
+      ]
+    },
+    {
+      "anchor": "cp.17.5b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads sangs rgyas gar ni khyad par nyid du dka', 'the Buddha's dance is especially difficult': gar, 'dance', for nāṭaka, and 'especially difficult' for bisamā.",
+      "cites": []
+    }
+  ],
+  "termsOmitted": [],
+  "proposals": [
+    {
+      "id": "baki",
+      "type": "term",
+      "en": "bāki",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাকি",
+          "translit": "bāki",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.17.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲང",
+          "translit": "drang",
+          "lemma": "drang",
+          "att": "AO",
+          "where": "cp.17.1b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বাকি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A word of uncertain sense in song 17 (1b), between the unstruck stick and the avadhūtī. It may come from Sanskrit vakra, 'bent', or name a part of the vīṇā. The Tibetan line has drang, 'straight' or 'drawn', in its place; Munidatta does not gloss it. The source form is kept for now.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The witnesses disagree and no rendering is secure, so the draft keeps the source form, as the glossary already does for ruṇā and karahā in this song; an entry lets the reviewer settle the word once. The Tibetan form is where drang stands in the line, not a certain equivalent."
+    },
+    {
+      "id": "sari",
+      "type": "term",
+      "en": "fret",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সারি",
+          "translit": "sāri",
+          "lemma": "sāri",
+          "att": "AS",
+          "where": "cp.17.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉའ་ནོན",
+          "translit": "gnya' non",
+          "lemma": "gnya' non",
+          "att": "AO",
+          "where": "cp.17.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সারি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A fret of a vīṇā, if Old Bengali sāri goes back to Sanskrit sārikā, the word musical treatises use for frets. In song 17 āli and kāli are both sāri. The Tibetan has gnya' non, literally 'neck-presser'. Bengali sāri also means 'row', which would suit the two series of letters.",
+      "symbolicImage": "frets of the vīṇā, which the song says are āli and kāli",
+      "symbolicReadings": [
+        {
+          "referent": "the essential syllable (sārākṣara), the letter a, among the letters of āli and kāli; his paraphrase puts sāra where the song has sāri, without an explicit gloss",
+          "per": "Munidatta",
+          "where": [
+            "cp.17.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "letter a",
+        "essential syllable",
+        "essence"
+      ],
+      "rationale": "A concrete part of the instrument the song builds; the rendering 'frets' is a choice between 'frets' and 'rows' that the reviewer should confirm, and an entry keeps it consistent."
+    }
+  ],
+  "questions": [
+    "3b gaabara: I rendered 'the great elephant' (gajavara), because the written hiatus ga-a- suits gaja rather than graha and the same form is the elephant elsewhere. Munidatta reads (ā)grahavara and the Tibetan (g)za' mchog, 'best of planets'. Do you want the Bengali's elephant or the commentary's planet in the line? Note that the pack's Tibetan has bza', not gza', in both line and comment; should the parallel text be corrected?",
+    "1b bāki: I kept the word in source form and proposed an entry (baki). Would you rather render it (for example 'bent') or follow the Tibetan's 'straight'? And do you accept the parse 'the unstruck is the stick', parallel to 1a, against Munidatta's and the Tibetan's single phrase 'the unstruck stick'?",
+    "2b suna: the glossary's 'emptiness' forces 'the string of emptiness'; the adjective 'empty' ('the sound of the empty string') reads better and is as likely. May sunyata take the variant 'empty'? Is the imperative 'listen!' worth keeping in the note?",
+    "3a sāri: I rendered 'frets' (from sārikā) and proposed an entry; 'rows' (the two series of letters) is the other serious candidate. Which do you prefer?",
+    "4a lepi ciu: I followed the commentary's 'pressed'. Do you accept that, or prefer ciu as 'mind' ('when the mind presses karahā and karahaka')? Should the karaha entry record the possible link with Sanskrit karabha ('young camel'), which the Tibetan comment's 'camel of the mind' supports?",
+    "5a: 'They dance, it rings out, the goddess sings' leaves the subjects open. Would you rather make the goddess the subject of all three verbs, or follow Munidatta with Vīṇāpāda dancing?",
+    "5b bisamā: 'extraordinary' (Munidatta, Tibetan comment) or 'difficult' / 'uneven'?",
+    "The last couplet, marked as the bhaṇitā, has no self-naming. Is that right for this song, or has the name dropped out of the witness?",
+    "The tanti entry's English is 'cord' (variant 'string'), and its definition and reading concern Ḍombī's cord in song 10. I used 'string' throughout. Should the entry add the vīṇā string and Munidatta's moon-appearance as the string (cp.17.m2)?",
+    "Heading: I added '· Vīṇāpāda' from the attribution written before 1a and the Tibetan heading, as the other headings do. Is that right?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "8cb857fd7be78a4df90958c8d71b3c09fece6a3af97ab331078058d45d0c6cbe",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "d340be036ac9781c5b31664aee4e23e1e89e7cef90a0cf81b7b05984622a374c",
+    "sourceSha": "ff4f1392ee18d7d1e7fa720a3f4a108892f9fa59578f300e4c142900d22ae43a"
+  }
+}

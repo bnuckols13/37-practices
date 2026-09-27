@@ -799,6 +799,91 @@
       }
     },
     {
+      "id": "aksara",
+      "type": "term",
+      "status": "proposed",
+      "en": "letter",
+      "alt": [
+        "syllable"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ক্ষরচতুষ্টয়",
+          "translit": "akṣaracatuṣṭaya",
+          "lemma": "akṣara",
+          "att": "AS",
+          "where": "cp.17.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বর্ণাক্ষর",
+          "translit": "varṇākṣara",
+          "lemma": "akṣara",
+          "att": "AS",
+          "where": "cp.17.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সারাক্ষর",
+          "translit": "sārākṣara",
+          "lemma": "akṣara",
+          "att": "AS",
+          "where": "cp.17.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ক্ষরস্বরূপ",
+          "translit": "akṣarasvarūpa",
+          "lemma": "akṣara",
+          "att": "AS",
+          "where": "cp.17.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡི་གེ",
+          "translit": "yi ge",
+          "lemma": "yi ge",
+          "att": "AO",
+          "where": "cp.17.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་འགྱུར་བ",
+          "translit": "mi 'gyur ba",
+          "lemma": "mi 'gyur ba",
+          "att": "AO",
+          "where": "cp.17.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "ক্ষরচতুষ্টয়",
+          "বর্ণাক্ষর",
+          "সারাক্ষর",
+          "ক্ষরস্বরূপ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A letter or syllable (akṣara); the word also means 'imperishable'. Munidatta speaks of the four syllables of 'Śrī Heruka' (cp.17.m2) and calls a the essential letter among the letters of āli and kāli (cp.17.m3). Where he speaks of the true nature of that letter, the Tibetan has 'unchanging nature' (mi 'gyur ba'i ngo bo nyid).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "aksara-sukha",
       "type": "term",
       "status": "proposed",

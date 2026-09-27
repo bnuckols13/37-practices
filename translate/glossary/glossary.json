@@ -3122,6 +3122,65 @@
       }
     },
     {
+      "id": "body",
+      "type": "term",
+      "status": "proposed",
+      "en": "body",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দেহ",
+          "translit": "deha",
+          "lemma": "deha",
+          "att": "AS",
+          "where": "cp.11.2b"
+        },
+        {
+          "lang": "san",
+          "script": "দেহনগরিকাং",
+          "translit": "dehanagarikāṃ",
+          "lemma": "deha",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས",
+          "translit": "lus",
+          "lemma": "lus",
+          "att": "AO",
+          "where": "cp.11.2b"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])দেহ"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])দেহ"
+        ]
+      },
+      "definition": "The physical body (Old Bengali and Sanskrit deha, also kāya; Tibetan lus). The songs often picture it as a place or thing: a town, a tree, a forest, a pool. In song 11 Kāṇha wanders in the town of the body, which Munidatta repeats as dehanagarikā (cp.11.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "bone-garland",
       "type": "term",
       "status": "proposed",
@@ -17762,6 +17821,57 @@
         "aggregates",
         "skandhas"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "simhanada",
+      "type": "term",
+      "status": "proposed",
+      "en": "lion's roar",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শূন্যতাসিংহনাদেন",
+          "translit": "śūnyatāsiṃhanādena",
+          "lemma": "siṃhanāda",
+          "att": "AS",
+          "where": "cp.11.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སེང་གེའི་སྒྲ",
+          "translit": "seng ge'i sgra",
+          "lemma": "seng ge'i sgra",
+          "att": "AO",
+          "where": "cp.11.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সিংহনাদ"
+        ],
+        "bod": [
+          "སེང་གེའི་སྒྲ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The lion's roar (siṃhanāda): in Buddhist texts, the Buddha's fearless proclamation of the teaching, which silences opponents as a lion's roar silences other animals. Munidatta sets 'the lion's roar of emptiness' beside the hero's sound of Kāṇha's unstruck ḍamaru (cp.11.m2); the Tibetan has stong pa nyid seng ge'i sgra.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],

@@ -867,6 +867,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.03.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒ་དང་འཆི",
+          "translit": "rga dang 'chi",
+          "lemma": "rga ba dang 'chi ba",
+          "att": "AO",
+          "where": "cp.22.5b"
         }
       ],
       "match": {
@@ -5315,6 +5323,14 @@
           "lemma": "'khrul pa",
           "att": "AO",
           "where": "cp.15.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁྱམ",
+          "translit": "'khyam",
+          "lemma": "'khyam pa",
+          "att": "AO",
+          "where": "cp.22.m2"
         }
       ],
       "match": {
@@ -6569,7 +6585,7 @@
       },
       "matchRe": {
         "san": [
-          "বুদ্ধ(?![িী্])"
+          "(?<!প্র)বুদ্ধ(?![িী্])"
         ]
       },
       "definition": "'Awakened one': one who has reached full awakening (bodhi); with a capital, the historical Buddha, Śākyamuni. In the Rativajra verse Munidatta quotes, Śākyasiṃha and the other buddhas broke Māra's army (cp.16.m2); the Tibetan there has mkhas rnams, 'the wise', perhaps reading budha, 'wise', for buddha.",
@@ -13062,6 +13078,14 @@
           "lemma": "gson po",
           "att": "AS",
           "where": "cp.23.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གསོན",
+          "translit": "gson",
+          "lemma": "gson po",
+          "att": "AO",
+          "where": "cp.22.3b"
         }
       ],
       "match": {
@@ -13069,7 +13093,8 @@
           "জীবন্ত"
         ],
         "bod": [
-          "གསོན་པོ"
+          "གསོན་པོ",
+          "གསོན"
         ]
       },
       "matchRe": {},

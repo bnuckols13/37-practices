@@ -1,0 +1,266 @@
+{
+  "id": "cp.05",
+  "n": 5,
+  "title": "",
+  "raga": "guñjarī",
+  "poet": "p-catila",
+  "sourceSha": "10a8b3a09b0721949f76d3634b65cfb25f73cafc37b1bbc701b0afb2e5647fb9",
+  "witnesses": [
+    "shastri1916"
+  ],
+  "lines": [
+    {
+      "id": "cp.05.h1",
+      "group": "cp.05.h",
+      "role": "heading",
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "রাগ গুঞ্জরী",
+      "translit": "rāga guñjarī"
+    },
+    {
+      "id": "cp.05.1a",
+      "group": "cp.05.1",
+      "role": "line",
+      "couplet": 1,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "ভবণই গহণ গম্ভীর বেগেঁ বাহী।",
+      "emended": [
+        {
+          "from": "চাটিল্লপাদানাম্।",
+          "to": "",
+          "reason": "\"cāṭillapādānām\" (\"of Cāṭillapāda\"), the attribution written before the song, is not part of the verse"
+        },
+        {
+          "from": "গহ[৯ক]ণ",
+          "to": "গহণ",
+          "reason": "\"[৯ক]\" is Shastri's note of the manuscript folio (9v), inside the word gahaṇa"
+        }
+      ],
+      "translit": "bhabaṇai gahaṇa gambhīra begem̐ bāhī|"
+    },
+    {
+      "id": "cp.05.1b",
+      "group": "cp.05.1",
+      "role": "line",
+      "couplet": 1,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "দুআন্তে চিখিল মাঝেঁ ন থাহী॥ ধ্রু॥",
+      "translit": "duānte cikhila mājhem̐ na thāhī|| dhru||"
+    },
+    {
+      "id": "cp.05.2a",
+      "group": "cp.05.2",
+      "role": "line",
+      "couplet": 2,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "ধামার্থে চাটিল সাঙ্কম গটই।",
+      "refrain": true,
+      "translit": "dhāmārthe cāṭila sāṅkama gaṭai|"
+    },
+    {
+      "id": "cp.05.2b",
+      "group": "cp.05.2",
+      "role": "line",
+      "couplet": 2,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "পারগামি লোঅ নিভর তরই॥ ধ্রু॥",
+      "refrain": true,
+      "translit": "pāragāmi loa nibhara tarai|| dhru||"
+    },
+    {
+      "id": "cp.05.3a",
+      "group": "cp.05.3",
+      "role": "line",
+      "couplet": 3,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "ফাড্ডিঅ মোহতরু পটি জোড়িঅ।",
+      "translit": "phāḍḍia mohataru paṭi joṛia|"
+    },
+    {
+      "id": "cp.05.3b",
+      "group": "cp.05.3",
+      "role": "line",
+      "couplet": 3,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "আদঅদিটি টাঙ্গী নিবাণে কোহিঅ॥ ধ্রু॥",
+      "translit": "ādaadiṭi ṭāṅgī nibāṇe kohia|| dhru||"
+    },
+    {
+      "id": "cp.05.4a",
+      "group": "cp.05.4",
+      "role": "line",
+      "couplet": 4,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "সাঙ্কমত চড়িলে দাহিণ বাম মা হোহী।",
+      "translit": "sāṅkamata caṛile dāhiṇa bāma mā hohī|"
+    },
+    {
+      "id": "cp.05.4b",
+      "group": "cp.05.4",
+      "role": "line",
+      "couplet": 4,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "নিয়ড্ডী বোহি দূর ম জাহী॥ ধ্রু॥",
+      "translit": "niyaḍḍī bohi dūra ma jāhī|| dhru||"
+    },
+    {
+      "id": "cp.05.5a",
+      "group": "cp.05.5",
+      "role": "line",
+      "couplet": 5,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "জই তুম্হে লোঅ হে হোইব পারগামী।",
+      "bhanita": true,
+      "translit": "jai tumhe loa he hoiba pāragāmī|"
+    },
+    {
+      "id": "cp.05.5b",
+      "group": "cp.05.5",
+      "role": "line",
+      "couplet": 5,
+      "lang": "oben",
+      "witness": "shastri1916",
+      "src": "পুচ্ছতু চাটিল অনুত্তরসামী॥",
+      "bhanita": true,
+      "translit": "pucchatu cāṭila anuttarasāmī||"
+    }
+  ],
+  "commentary": [
+    {
+      "id": "cp.05.m1",
+      "anchor": "cp.05",
+      "lang": "san",
+      "witness": "shastri1916",
+      "src": "তমেব যথাভূতার্থঞ্চাটিল্লপাদাঃ শব্দান্তরেণ প্রকটয়ন্তি—",
+      "translit": "tameva yathābhūtārthañcāṭillapādāḥ śavdāntareṇa prakaṭayanti—"
+    },
+    {
+      "id": "cp.05.m2",
+      "anchor": "cp.05.1",
+      "lang": "san",
+      "witness": "shastri1916",
+      "src": "ভ[ব]ণই ইত্যাদি। পূর্ব্বোক্তললনারসনাদ্যাভাষত্রয়ং পারাব[া]রগম্ভীরত্বেন নদীসন্ধ্যয়া বোদ্ধব্যং। দিবারাত্রৌ চ সন্ধ্যায়াং বিষয়োল্লোলমুৎপদ্যতে বিনশ্যতি চ। অতএব গহন[ং] ভয়ানকং। প্রকৃতিদোষাদ্ গভীরং। ষট্পথদ্বারেণ মূত্রপুরীষাদিকং চ প্রবহতীতি। অতএব অন্তদ্বয়ং পারাবারং বামদক্ষিণং চিখিলমিতি প্রকৃতিদোষপঙ্কানুলিপ্তং। মধ্যে তস্যা[ঃ] থাহং। অবধূত্যাঃ প্রমা[১০]ণস্বরূপং কর্ত্তু[ং] ন পার্য্যতে বালযোগিনা। ধ্রুবপদেন চতুর্থানন্দমুদ্দীপয়ন্না[হ]।",
+      "translit": "bha[va]ṇai ityādi| pūrvvoktalalanārasanādyābhāṣatrayaṃ pārāva[া]ragambhīratvena nadīsandhyayā voddhavyaṃ| divārātrau ca sandhyāyāṃ viṣayollolamutpadyate vinaśyati ca| ataeva gahana[ṃ] bhayānakaṃ| prakṛtidoṣād gabhīraṃ| ṣaṭpathadvāreṇa mūtrapurīṣādikaṃ ca pravahatīti| ataeva antadvayaṃ pārāvāraṃ vāmadakṣiṇaṃ cikhilamiti prakṛtidoṣapaṅkānuliptaṃ| madhye tasyā[ḥ] thāhaṃ| avadhūtyāḥ pramā[10]ṇasvarūpaṃ karttu[ṃ] na pāryyate bālayoginā| dhruvapadena caturthānandamuddīpayannā[ha]|"
+    },
+    {
+      "id": "cp.05.m3",
+      "anchor": "cp.05.2",
+      "lang": "san",
+      "witness": "shastri1916",
+      "src": "ধর্ম্মার্থং স্বলক্ষণধারণাৎ ধর্ম্মঃ ঘটপটস্তম্ভকুম্ভাদিভূতবিকারঃ। তস্য স্বরূপেণ নাস্তি রূপমিতি॥ শ্রীহেরুকতন্ত্রতত্ত্বপটলোক্তবিচারানুপলম্ভতয়া। চাটিলসিদ্ধাচার্য্যঃ। শত্রুমমিতি সংবৃত্তিপরমার্থয়োরৈক্যংগুরুসম্প্রদায়াৎ(য়)। ঘটয়তি তথা চ সরহপাদাঃ॥\nসুণ্ণ করুণ জো পুণু জোহুণ বেন বিকসই\nণো ভবণো নিব্বাণে থক্কই।\nঅহবা কেবল করুণা ভাবই\nজন্মসহস্রেঁ মোক্খ ন পাবই॥\nঅনেন সিদ্ধাচার্য্যোপায়েন মোক্ষোৎসুকা যে যোগিনঃ। তেঽপি নিয়তং সংসারসমুদ্রস্য পারঙ্গচ্ছন্তীতি।",
+      "translit": "dharmmārthaṃ svalakṣaṇadhāraṇāt dharmmaḥ ghaṭapaṭastambhakumbhādibhūtavikāraḥ| tasya svarūpeṇa nāsti rūpamiti|| śrīherukatantratattvapaṭaloktavicārānupalambhatayā| cāṭilasiddhācāryyaḥ| śatrumamiti saṃvṛttiparamārthayoraikyaṃgurusampradāyāt(ya)| ghaṭayati tathā ca sarahapādāḥ||\nsuṇṇa karuṇa jo puṇu johuṇa vena vikasai\nṇo bhavaṇo nivvāṇe thakkai|\nahavā kevala karuṇā bhāvai\njanmasahasrem̐ mokkha na pāvai||\nanena siddhācāryyopāyena mokṣotsukā ye yoginaḥ| te'pi niyataṃ saṃsārasamudrasya pāraṅgacchantīti|"
+    },
+    {
+      "id": "cp.05.m4",
+      "anchor": "cp.05.3",
+      "lang": "san",
+      "witness": "shastri1916",
+      "src": "পদান্তরেণোক্তার্থব্যক্তিকরণমাহ—\nফাড়িঅ ইত্যাদি। মোহতরুং বিষয়ং ব্যাবৃতিব(বি)শাৎ তমেব সংবৃতিবোধিচিত্তবৃক্ষং পাটয়িত্বা তস্য বিষয়গ্রহং খণ্ডয়িত্বা সততালোকং পাটকেন সহ একীকরণং ঘটয়তি। পুনরস্য ফ[১০ক]লপ্রতিপাদনায় যুগনদ্ধপরশুনা দৃঢ়ং করোতীতি।",
+      "translit": "padāntareṇoktārthavyaktikaraṇamāha—\nphāṛia ityādi| mohataruṃ viṣayaṃ vyāvṛtiva(vi)śāt tameva saṃvṛtivodhicittavṛkṣaṃ pāṭayitvā tasya viṣayagrahaṃ khaṇḍayitvā satatālokaṃ pāṭakena saha ekīkaraṇaṃ ghaṭayati| punarasya pha[10ka]lapratipādanāya yuganaddhaparaśunā dṛṛhaṃ karotīti|"
+    },
+    {
+      "id": "cp.05.m5",
+      "anchor": "cp.05.4",
+      "lang": "san",
+      "witness": "shastri1916",
+      "src": "তৃতীয়পদেন মার্গস্য অনুশংসামাহুঃ—\nসাঙ্কম ইত্যাদি। স্থাধিষ্ঠানপ্রভাস্বরয়োরৈক্যং সংক্রমং জিনস্য সত্ত্বানাং সংসারসমুদ্রপারকরণায়। ভো যোগিনঃ। তত্রারূঢ়ে সতি বামদক্ষিণচন্দ্রসূর্য্যাভাসৌ পূর্ব্বং বজ্রজাপং নিরোধাৎ পুনরপি পশ্চাদ্ভাব[ং] মা চিন্তয়িষ্যথ। এতেনাভ্যাসবশেন বোধিমহামুদ্রাসিদ্ধির্ন দূ[র]তরা। অতীব সন্নিহিতেব। ততো বিমার্গং মা যতথা দূরং মা গচ্ছথ ইত্যর্থঃ।",
+      "translit": "tṛtīyapadena mārgasya anuśaṃsāmāhuḥ—\nsāṅkama ityādi| sthādhiṣṭhānaprabhāsvarayoraikyaṃ saṃkramaṃ jinasya sattvānāṃ saṃsārasamudrapārakaraṇāya| bho yoginaḥ| tatrārūṛhe sati vāmadakṣiṇacandrasūryyābhāsau pūrvvaṃ vajrajāpaṃ nirodhāt punarapi paścādbhāva[ṃ] mā cintayiṣyatha| etenābhyāsavaśena bodhimahāmudrāsiddhirna dū[ra]tarā| atīva sannihiteva| tato vimārgaṃ mā yatathā dūraṃ mā gacchatha ityarthaḥ|"
+    },
+    {
+      "id": "cp.05.m6",
+      "anchor": "cp.05.5",
+      "lang": "san",
+      "witness": "shastri1916",
+      "src": "যোগাস্পদেন চতুর্থপদমাহ—জই তুম্‌হেত্যাদি। আভাসত্রয়মহামোহনদ্যাঃ পারগমনং যদীষ্যতে ভো যোগিনস্তদা সিদ্ধাচার্য্যোপদেশপারম্পর্য্যেণানুত্তরধর্ম্মস্বামিনমাহ—পৃচ্ছথেতি। অতএব সহজানন্দোপদেশং জানাম্যহং নিশ্চিতমিতি। অন্যযোগিনস্তথাবিধন্ন জানন্তি। পুস্তকদৃষ্টগর্ব্বত্বাৎ।\nতথাচ কৃষ্ণাচার্য্যপাদৈরভিহিতং দোহাকোষে—\nসহ এক্কু পব অচ্ছিতহিং [১১] ফুড় কাহ্নু পরিজানই।\nবহু সব্বাগম পটই গুণই বট কিম্পি ণ জানই॥ ৫॥",
+      "translit": "yogāspadena caturthapadamāha—jai tumhetyādi| ābhāsatrayamahāmohanadyāḥ pāragamanaṃ yadīṣyate bho yoginastadā siddhācāryyopadeśapāramparyyeṇānuttaradharmmasvāminamāha—pṛcchatheti| ataeva sahajānandopadeśaṃ jānāmyahaṃ niścitamiti| anyayoginastathāvidhanna jānanti| pustakadṛṣṭagarvvatvāt|\ntathāca kṛṣṇācāryyapādairabhihitaṃ dohākoṣe—\nsaha ekku pava acchitahiṃ [11] phuṛa kāhnu parijānai|\nbahu savvāgama paṭai guṇai vaṭa kimpi ṇa jānai|| 5||"
+    }
+  ],
+  "parallels": {
+    "toh2293": {
+      "lang": "bod",
+      "lines": {
+        "cp.05.h1": {
+          "src": "།གུ་ཛྫ་རཱི་ཞེས་བྱ་བའི་གླུའི་གདངས་ཙཱ་ཊཱི་ལའི་ཞབས་ཀྱིའོ།",
+          "translit": "/gu dz+dza rI zhes bya ba'i glu'i gdangs tsA TI la'i zhabs kyi'o/"
+        },
+        "cp.05.1a": {
+          "src": "།སྲིད་པའི་ཆུ་ཀླུང་ཀློང་བཅས་ཟབ་མོ་རྒྱུག་ཅིང་འབབ།",
+          "translit": "/srid pa'i chu klung klong bcas zab mo rgyug cing 'bab/"
+        },
+        "cp.05.1b": {
+          "src": "།མཐའ་མ་གཉིས་ནི་རབ་འདྲེད་དབུས་ན་འདུག་གནས་མེད།",
+          "translit": "/mtha' ma gnyis ni rab 'dred dbus na 'dug gnas med/"
+        },
+        "cp.05.2a": {
+          "src": "།ཆོས་དབྱིངས་དོན་དུ་ཙཱ་ཊཱི་ལ་ཡིས་ཟམ་པ་བྱས།",
+          "translit": "/chos dbyings don du tsA TI la yis zam pa byas/"
+        },
+        "cp.05.2b": {
+          "src": "།ཕ་རོལ་འགྲོ་བའི་འཇིག་རྟེན་ངེས་པར་སྒྲོལ་བར་བྱེད།",
+          "translit": "/pha rol 'gro ba'i 'jig rten nges par sgrol bar byed/"
+        },
+        "cp.05.3a": {
+          "src": "།མ་རིག་ལྗོན་ཤིང་གཤགས་ནས་སྤང་ལེབ་ཡང་དག་བསྒྲིགས།",
+          "translit": "/ma rig ljon shing gshags nas spang leb yang dag bsgrigs/"
+        },
+        "cp.05.3b": {
+          "src": "།གཟོང་གཉིས་ཀྱིས་ནི་བརྟན་པར་མྱ་ངན་འདས་པ་ཕུག",
+          "translit": "/gzong gnyis kyis ni brtan par mya ngan 'das pa phug"
+        },
+        "cp.05.4a": {
+          "src": "།ཟམ་པ་དེ་ལ་འགྲོ་ན་གཡས་གཡོན་མ་འགྲོ་ཅིག",
+          "translit": "/zam pa de la 'gro na g.yas g.yon ma 'gro cig"
+        },
+        "cp.05.4b": {
+          "src": "།ཉེ་བར་བདོག་པས་རིང་དུ་འགྲོ་བར་མ་བྱེད་ཅིག",
+          "translit": "/nye bar bdog pas ring du 'gro bar ma byed cig"
+        },
+        "cp.05.5a": {
+          "src": "།གལ་ཏེ་ཁྱེད་རྣམས་འཇིག་རྟེན་ཕ་རོལ་འགྲོ་ན་ཡང་།",
+          "translit": "/gal te khyed rnams 'jig rten pha rol 'gro na yang /"
+        },
+        "cp.05.5b": {
+          "src": "།བླ་མེད་བྱང་ཆུབ་ཙཱ་ཊཱི་ལ་ལ་དྲི་བར་གྱིས།",
+          "translit": "/bla med byang chub tsA TI la la dri bar gyis/"
+        }
+      },
+      "commentary": {
+        "cp.05.m1": {
+          "src": "།དེ་ཁོ་ན་ཉིད་ཀྱི་དོན་ཇི་ལྟ་བ་བཞིན་དུ་གྱུར་པའི་ཙཱ་ཊཱི་ལའི་ཞབས་ཀྱིས་སྒྲ་གཞན་གྱིས་རབ་ཏུ་གསལ་བར་གསུངས་ཏེ།",
+          "translit": "/de kho na nyid kyi don ji lta ba bzhin du gyur pa'i tsA TI la'i zhabs kyis sgra gzhan gyis rab tu gsal bar gsungs te/"
+        },
+        "cp.05.m2": {
+          "src": "སྲིད་པའི་ཆུ་ཀླུང་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་སྔོན་དུ་བཤད་པའི་བརྐྱང་མ་དང་རོ་མའི་རྩའི་སྣང་བ་རྣམས་གསུམ་ཚུ་རོལ་ཕ་རོལ་ཟབ་པ་ཉིད་ཀྱིས་ཆུ་ཀླུང་དགོངས་པའི་སྐད་ཀྱིས་ཁོང་དུ་ཆུད་པར་བྱའོ། །ཉིན་མོ་དང་མཚན་མོ་དང་ཐུན་མཚམས་སུ་ཡུལ་ལ་རྣམ་གཡེང་སྐྱེད་པ་ཉམས་པར་བྱེད་པ་ཡང་ངོ་། །དེའི་ཕྱིར་ཀློང་དང་བཅས་པའི་འཇིགས་སུ་རུང་བ་རང་བཞིན་གྱི་སྐྱོན་ནི་ཟབ་མོ་སྟེ། ལམ་དྲུག་གི་སྒོ་ནས་ཆུ་དང་དྲི་མ་ལ་སོགས་པ་རབ་ཏུ་འབབ་པའི་ཕྱིར་རོ། །དེའི་ཕྱིར་ན་དེ་བཞིན་དུ་མཐའ་གཉིས་ནི་ཚུ་རོལ་དང་ཕ་རོལ་ཏེ་གཡོན་དང་གཡས་སུ་ཤིན་ཏུ་འདྲེད་པ་ཞེས་བྱའོ། །རང་བཞིན་གྱི་སྐྱོན་གྱི་འདམ་གྱིས་མ་གོས་པ་དབུ་མའི་དོན་ལ་བདག་ཉིད་དེ། ཨ་ཝ་དྷཱུ་ཏཱིའི་ཚད་མའི་རང་བཞིན་གྱིས་བྱིས་པའི་རྣལ་འབྱོར་པ་རྣམས་ཀྱིས་བྱེད་པར་མི་ནུས་སོ།",
+          "translit": "srid pa'i chu klung zhes bya ba la sogs pa ni sngon du bshad pa'i brkyang ma dang ro ma'i rtsa'i snang ba rnams gsum tshu rol pha rol zab pa nyid kyis chu klung dgongs pa'i skad kyis khong du chud par bya'o/ /nyin mo dang mtshan mo dang thun mtshams su yul la rnam g.yeng skyed pa nyams par byed pa yang ngo / /de'i phyir klong dang bcas pa'i 'jigs su rung ba rang bzhin gyi skyon ni zab mo ste/ lam drug gi sgo nas chu dang dri ma la sogs pa rab tu 'bab pa'i phyir ro/ /de'i phyir na de bzhin du mtha' gnyis ni tshu rol dang pha rol te g.yon dang g.yas su shin tu 'dred pa zhes bya'o/ /rang bzhin gyi skyon gyi 'dam gyis ma gos pa dbu ma'i don la bdag nyid de/ a wa d+hU tI'i tshad ma'i rang bzhin gyis byis pa'i rnal 'byor pa rnams kyis byed par mi nus so/"
+        },
+        "cp.05.m3": {
+          "src": "།དྷྲཱུའི་རྐང་པས་བཞི་པའི་དགའ་བ་ཉེ་བར་གསལ་བར་གསུངས་ཏེ། ཆོས་ཀྱི་དོན་ནི་རང་གི་མཚན་ཉིད་འཛིན་པའི་ཕྱིར་ཆོས་ཏེ། བུམ་པ་དང་སྣམ་བུ་དང་ཀ་བ་དང་རྫས་ལ་སོགས་པར་གྱུར་པ་སྟེ་རང་བཞིན་གྱིས་མེད་པའི་གཟུགས་ཞེས་སོ། །དཔལ་ཧེ་རུ་ཀའི་རྒྱུད་ཀྱི་དེ་ཁོ་ན་ཉིད་ཀྱི་ལེའུ་གསུངས་པ་རྣམ་པར་དཔྱོད་པ་དམིགས་པ་མེད་པ་དེ་ཡིས་གྲུབ་པའི་སློབ་དཔོན་ཙཱ་ཊཱི་ལི་པས་ཟམ་པ་ཞེས་གསུངས་པ་ནི་ཀུན་རྫོབ་དང་དོན་དམ་པ་གཅིག་ཏུ་བྱེད་པ་བླ་མའི་དྲིན་གྱིས་ཉེ་བར་འབྱེད་པར་བྱེད་དོ། །དེ་བཞིན་དུ་ས་ར་ཧའི་ཞབས་ཀྱིས་ཀྱང་། སྟོང་ཉིད་སྙིང་རྗེ་དག་ནི་སྦྱོར་བ་མེད་གྱུར་ན། །སྲིད་དང་མྱང་འདས་མི་གནས་ཐོབ་པར་མི་ནུས་སོ། །གལ་ཏེ་སྙིང་རྗེ་འབའ་ཞིག་སྒོམ་པར་བྱེད་གྱུར་ཀྱང་། །སྐྱེ་བ་སྟོང་གིས་ཐར་པ་ཐོབ་པར་མི་འགྱུར་རོ། །གྲུབ་པའི་སློབ་དཔོན་གྱི་ཐབས་འདིས་ཐར་པ་རང་གི་ལུས་ཀྱིས་ནི་རྣལ་འབྱོར་པས་སོ། །དེ་རྣམས་ཀྱང་ངེས་པར་རྒྱ་མཚོའི་ཕ་རོལ་ཏུ་འགྲོ་བར་བྱེད་དོ་ཞེས་སོ།",
+          "translit": "/d+h+rU'i rkang pas bzhi pa'i dga' ba nye bar gsal bar gsungs te/ chos kyi don ni rang gi mtshan nyid 'dzin pa'i phyir chos te/ bum pa dang snam bu dang ka ba dang rdzas la sogs par gyur pa ste rang bzhin gyis med pa'i gzugs zhes so/ /dpal he ru ka'i rgyud kyi de kho na nyid kyi le'u gsungs pa rnam par dpyod pa dmigs pa med pa de yis grub pa'i slob dpon tsA TI li pas zam pa zhes gsungs pa ni kun rdzob dang don dam pa gcig tu byed pa bla ma'i drin gyis nye bar 'byed par byed do/ /de bzhin du sa ra ha'i zhabs kyis kyang / stong nyid snying rje dag ni sbyor ba med gyur na/ /srid dang myang 'das mi gnas thob par mi nus so/ /gal te snying rje 'ba' zhig sgom par byed gyur kyang / /skye ba stong gis thar pa thob par mi 'gyur ro/ /grub pa'i slob dpon gyi thabs 'dis thar pa rang gi lus kyis ni rnal 'byor pas so/ /de rnams kyang nges par rgya mtsho'i pha rol tu 'gro bar byed do zhes so/"
+        },
+        "cp.05.m4": {
+          "src": "།རྐང་པ་གཞན་གྱིས་བཤད་པའི་དོན་གསལ་བར་བྱེད་པ་གསུངས་ཏེ། གཤགས་ནས་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་མ་རིག་པའི་ལྗོན་ཤིང་ནི་ཡུལ་ལ་འཇུག་པའི་དབང་ལས་དེ་ལ་དེ་བཞིན་དུ་ཀུན་རྫོབ་བྱང་ཆུབ་ཀྱི་སེམས་ཀྱི་ལྗོན་ཤིང་བཀས་ནས་དེའི་ཡུལ་དུ་འཛིན་པའི་འགོག་པའི་ཕྱིར། རྟག་ཏུ་འོད་གསལ་ནི་ཡང་སྤང་ལེབ་སྟེ་ལྷན་ཅིག་ཏུ་བྱེད་པ་ནི་ཡང་དག་བསྒྲིགས་པའོ། །སླར་ཡང་འདིའི་འབྲས་བུ་རྟོགས་པར་བྱ་བའི་ཕྱིར་ཟུང་འཇུག་གི་སྟ་རེས་བརྟན་པར་བྱེད་པའི་ཕྱིར་རོ།",
+          "translit": "/rkang pa gzhan gyis bshad pa'i don gsal bar byed pa gsungs te/ gshags nas zhes bya ba la sogs pa ni ma rig pa'i ljon shing ni yul la 'jug pa'i dbang las de la de bzhin du kun rdzob byang chub kyi sems kyi ljon shing bkas nas de'i yul du 'dzin pa'i 'gog pa'i phyir/ rtag tu 'od gsal ni yang spang leb ste lhan cig tu byed pa ni yang dag bsgrigs pa'o/ /slar yang 'di'i 'bras bu rtogs par bya ba'i phyir zung 'jug gi sta res brtan par byed pa'i phyir ro/"
+        },
+        "cp.05.m5": {
+          "src": "།རྐང་པ་གསུམ་པས་ལམ་གྱི་རྗེས་སུ་བསྔགས་པ་གསུངས་ཏེ། ཟམ་པ་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་རང་བྱིན་གྱིས་བརླབ་པ་དང་འོད་གསལ་བ་དག་གཅིག་ཏུ་བྱེད་པ་ནི་ཟམ་པ་སྟེ་སྐྱེ་བོ་སེམས་པ་རྣམས་འཁོར་བའི་རྒྱ་མཚོ་ལས་ཕ་རོལ་ཏུ་བྱེད་པའི་ཕྱིར་རོ། །ཀྱེ་རྣལ་འབྱོར་པ་དེ་ལ་འགྲོ་ན་གཡོན་དང་གཡས་སུ་ཟླ་བ་དང་ཉི་མར་སྣང་བ་དག་སྔོན་དུ་རྡོ་རྗེའི་བཟླས་པས་འགོག་པ་ལས་སླར་ཡང་ཕྱི་ནས་སྒོམ་པས་བསམ་པར་མི་བྱའོ། །འདིས་གོམས་པའི་དབང་གིས་བྱང་ཆུབ་པ་ཕྱག་རྒྱ་ཆེན་པོའི་དངོས་གྲུབ་མི་རིང་བ་སྟེ་ཤིན་དུ་ཉེ་བ་ཉིད་དོ། །དེའི་ཕྱིར་ལམ་ངན་པ་ལ་འགྲོ་བ་ལ་དེ་བཞིན་དུ་རིང་དུ་མ་འགྲོ་ཅིག་ཅེས་པའི་དོན་ནོ།",
+          "translit": "/rkang pa gsum pas lam gyi rjes su bsngags pa gsungs te/ zam pa zhes bya ba la sogs pa ni rang byin gyis brlab pa dang 'od gsal ba dag gcig tu byed pa ni zam pa ste skye bo sems pa rnams 'khor ba'i rgya mtsho las pha rol tu byed pa'i phyir ro/ /kye rnal 'byor pa de la 'gro na g.yon dang g.yas su zla ba dang nyi mar snang ba dag sngon du rdo rje'i bzlas pas 'gog pa las slar yang phyi nas sgom pas bsam par mi bya'o/ /'dis goms pa'i dbang gis byang chub pa phyag rgya chen po'i dngos grub mi ring ba ste shin du nye ba nyid do/ /de'i phyir lam ngan pa la 'gro ba la de bzhin du ring du ma 'gro cig ces pa'i don no/"
+        },
+        "cp.05.m6": {
+          "src": "།རྣལ་འབྱོར་གྱི་གནས་རྐང་པ་བཞི་པས་གསུངས་ཏེ། གལ་ཏེ་ཁྱེད་རྣམས་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་གསལ་སྣང་གསུམ་གྱིས་རྨོངས་པ་ཆེན་པོའི་རྩ་ལས་ཕ་རོལ་ཏུ་འགྲོ་བར་འདོད་པ་རྣམས་ལ་ཀྱེ་རྣལ་འབྱོར་པ་དེའི་ཚེ་གྲུབ་པའི་སློབ་དཔོན་གྱི་མན་ངག་བདག་གིས་ངེས་པར་ཤེས་སོ་ཞེས་གསུངས་པའོ། །གཞན་རྣལ་འབྱོར་པས་དེ་བཞིན་ཉིད་སྒྲུབ་པ་མི་ཤེས་ཏེ་པོ་སྟི་བལྟས་པའི་ང་རྒྱལ་ལས་སོ། །དེ་བཞིན་དུ་ནག་པོ་སྤྱོད་པའི་ཞབས་ཀྱིས་ཀྱང་། དོ་ཧ་མཛོད་ལས་མངོན་པར་གསུངས་ཏེ། ལྷན་སྐྱེས་གཅིག་པའི་ལམ་མཆོག་དེ་ཉིད་ནི། །ཀཱཧྞ་པ་ཡིས་གསལ་བར་ཡོངས་སུ་ཤེས། །ལུང་དང་བསྟན་བཅོས་མང་པོ་བཀླགས་པ་དང་། །སྦྱངས་ཀྱང་དབྱིངས་པས་ཅུང་ཟད་ཤེས་མི་འགྱུར།",
+          "translit": "/rnal 'byor gyi gnas rkang pa bzhi pas gsungs te/ gal te khyed rnams zhes bya ba la sogs pa ni gsal snang gsum gyis rmongs pa chen po'i rtsa las pha rol tu 'gro bar 'dod pa rnams la kye rnal 'byor pa de'i tshe grub pa'i slob dpon gyi man ngag bdag gis nges par shes so zhes gsungs pa'o/ /gzhan rnal 'byor pas de bzhin nyid sgrub pa mi shes te po sti bltas pa'i nga rgyal las so/ /de bzhin du nag po spyod pa'i zhabs kyis kyang / do ha mdzod las mngon par gsungs te/ lhan skyes gcig pa'i lam mchog de nyid ni/ /kAh+Na pa yis gsal bar yongs su shes/ /lung dang bstan bcos mang po bklags pa dang / /sbyangs kyang dbyings pas cung zad shes mi 'gyur/"
+        }
+      }
+    }
+  },
+  "parallelSha": "eb84d3c6cde3d520bd1732882e67087293fbc0b7fa21b72d2d294b0de74204fe"
+}

@@ -244,7 +244,7 @@ export function report(r) {
   else {
     out.push(`  ${r.unit}: not approved yet${r.dry ? ' (dry run)' : ''}`);
     if (r.pending.length) out.push(`    pending: ${r.pending.join(', ')}`);
-    if (r.redraft.length) out.push(`    redraft: ${r.redraft.join(', ')}  (notes saved; the next \`draft\` will be a redraft)`);
+    if (r.redraft.length) out.push(`    redraft: ${r.redraft.join(', ')}  (notes saved; the next \`${r.sung ? 'sing' : 'draft'}\` will carry them)`);
     if (r.unapproved.length) out.push(`    terms still to approve: ${r.unapproved.join(', ')}`);
   }
   if (!r.glossaryOnly && gl.length) out.push(`    glossary: ${gl.join('; ')}`);

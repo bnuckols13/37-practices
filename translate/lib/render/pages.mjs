@@ -9,6 +9,7 @@ import { passageNo, unitId } from '../ids.mjs';
 import * as markup from '../markup.mjs';
 import { esc, attr, page, breadcrumbLd, site } from './shell.mjs';
 import { ATT_TITLES, fileOf, groupAnchor } from './ctx.mjs';
+import { soundProfile, cleanLine, lineEnd } from '../sound.mjs';
 
 export { fileOf };
 
@@ -80,7 +81,8 @@ function colophon(ctx, r, u) {
   if (text.catalog.lost.includes(u.n)) src += `; the ${esc(ctx.langName(text.lang.root))} original is lost`;
   else if (text.catalog.partial.includes(u.n)) src += `; its end survives only in Tibetan`;
   if (r.commentary.length && text.commentary) src += `, with ${esc(text.commentary.author)}’s commentary`;
-  if (r.status !== 'approved') return `<p class="colophon draft">${src}. Unreviewed draft, for local preview only.</p>`;
+  const sung = sungColophon(r, u);
+  if (r.status !== 'approved') return `<p class="colophon draft">${src}. Unreviewed draft, for local preview only.${sung}</p>`;
   const rv = r.provenance.review;
   const passages = new Set(u.lines.filter(l => l.role === 'line').map(l => l.group));
   const keys = Object.keys(rv.decisions);
@@ -96,7 +98,38 @@ function colophon(ctx, r, u) {
   const review = revised.length
     ? `reviewed line by line by ${esc(rv.by)}, who approved it on ${when} after revising ${andList(revised)}`
     : `reviewed line by line by ${esc(rv.by)}, who approved it as drafted on ${when}`;
-  return `<p class="colophon">${src}. Drafted with Claude and ${review}.</p>`;
+  return `<p class="colophon">${src}. Drafted with Claude and ${review}.${sung}</p>`;
+}
+
+/** One sentence on the sung version, when there is one. */
+function sungColophon(r, u) {
+  if (!r.sung) return '';
+  if (r.sung.status !== 'approved') return ' The sung version is an unreviewed draft.';
+  const rv = r.sung.provenance.review;
+  const couplets = new Set(u.lines.filter(l => l.role === 'line').map(l => l.group));
+  const ep = Object.keys(rv.decisions).filter(k => couplets.has(k) && rv.decisions[k] === 'edited').length;
+  return ` The sung version was drafted with Claude and approved by ${esc(rv.by)} on ${longDate(rv.date)}`
+    + (ep ? ` after revising ${ep === couplets.size ? (ep === 1 ? 'its one couplet' : `all ${inWords(ep)} couplets`) : `${inWords(ep)} of its ${inWords(couplets.size)} couplets`}` : ', as drafted') + '.';
+}
+
+/** The source line with the sound it rhymes on marked, for the sung view. */
+function heardLine(translit, marked) {
+  const line = cleanLine(translit);
+  const { sound } = lineEnd(translit);
+  if (!marked || !sound || !line.endsWith(sound)) return esc(line);
+  return esc(line.slice(0, -sound.length)) + `<span class="rh">${esc(sound)}</span>`;
+}
+
+/** Under a sung couplet: the source as heard, with its rhyme marked, and how it was sung. */
+function sungNote(ctx, r, g, profile) {
+  const c = profile.couplets.find(x => x.group === g.id);
+  const note = r.sung.couplets.find(x => x.group === g.id);
+  const hl = ctx.htmlLang(g.lines[0].lang);
+  const rhymed = c && c.rhyme !== 'none';
+  const heard = g.lines.map(l => heardLine(l.translit, rhymed)).join(' <span class="sep">/</span> ');
+  const how = note ? `<details><summary>How this couplet was sung</summary><p><i>Kept.</i> ${ctx.md(note.kept)}</p>`
+    + (note.letGo ? `<p><i>Let go.</i> ${ctx.md(note.letGo)}</p>` : '') + '</details>' : '';
+  return `<div class="sungnote"><p class="heard" lang="${attr(hl)}-Latn">${heard}</p>${how}</div>`;
 }
 
 function sidenote(ctx, c, label) {
@@ -120,8 +153,9 @@ function parallelHtml(ctx, u, id) {
 }
 
 /** One passage (couplet or heading) as the song page renders it. */
-function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '' } = {}) {
+function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '', cue = false, profile = null } = {}) {
   const lines = new Map(r.lines.map(l => [l.id, l]));
+  const sungLines = new Map((r.sung?.lines || []).map(l => [l.id, l]));
   const first = g.lines[0];
   if (first.role === 'lacuna') return `<section class="passage"><p class="lacuna">[A gap in the manuscript${first.note ? ': ' + esc(first.note) : ''}.]</p></section>`;
   const ln = g.lines.map((l, i) => {
@@ -129,7 +163,8 @@ function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '' } = {}) {
     if (!t) return '';
     const hl = ctx.htmlLang(l.lang);
     const refs = i === g.lines.length - 1 ? refsFor(g) : '';
-    return `<div class="ln"><p class="en">${ctx.md(t.en)}${refs}</p><p class="src" lang="${attr(hl)}">${esc(l.src)}</p>`
+    const s = sungLines.get(l.id);
+    return `<div class="ln"><p class="en">${ctx.md(t.en)}${refs}</p>${s ? `<p class="sung">${ctx.md(s.en)}</p>` : ''}<p class="src" lang="${attr(hl)}">${esc(l.src)}</p>`
       + (t.translit ? `<p class="tl" lang="${attr(hl)}-Latn">${esc(t.translit)}</p>` : '')
       + (t.gloss && first.role !== 'heading' ? `<p class="lit">${esc(t.gloss)}</p>` : '') + parallelHtml(ctx, u, l.id) + '</div>';
   }).join('');
@@ -138,7 +173,10 @@ function passageHtml(ctx, u, r, g, { href = null, refsFor = () => '' } = {}) {
   const anchor = groupAnchor(g.id);
   return `<section class="passage" id="${anchor}" data-unit="${attr(g.id)}">`
     + `<div class="passage__no"><a class="pno" href="${href || '#' + anchor}" title="Passage ${passageNo(g.id)}: link or cite">${passageNo(g.id)}</a>${first.refrain ? '<span class="refrain">refrain</span>' : ''}</div>`
-    + `<div class="passage__verse">${ln}</div>${notes}</section>`;
+    + `<div class="passage__verse">${ln}`
+    + (cue && r.sung?.refrainCue ? `<p class="cue">${ctx.md(r.sung.refrainCue.replace(/[…\s.]+$/, ''))}…</p>` : '')
+    + (r.sung && profile ? sungNote(ctx, r, g, profile) : '')
+    + `</div>${notes}</section>`;
 }
 
 const tibetanWitness = text => text.witnesses.find(w => w.lang.includes('bod') && w.usage === 'prompt+publish');
@@ -178,9 +216,12 @@ export function songPage(ctx, r, prev, next, v) {
   // Passages, with the ॥ mark between couplets as the manuscript separates them.
   const groups = groupsOf(u);
   const parts = [];
+  // The sung view prints a cue to sing the refrain again after every couplet that follows it.
+  const profile = r.sung ? soundProfile(u) : null;
+  const refrainAt = profile?.refrain ? groups.findIndex(g => g.id === profile.refrain) : -1;
   groups.forEach((g, i) => {
     if (i && g.lines[0].role === 'line' && groups[i - 1].lines[0].role === 'line') parts.push(ORN);
-    parts.push(passageHtml(ctx, u, r, g, { refsFor }));
+    parts.push(passageHtml(ctx, u, r, g, { refsFor, profile, cue: refrainAt >= 0 && i > refrainAt && g.lines[0].role === 'line' }));
   });
 
   const heading = u.lines.find(l => l.role === 'heading');
@@ -200,13 +241,14 @@ export function songPage(ctx, r, prev, next, v) {
     + '</nav>';
   const body = `<div class="room">
 ${railNav(ctx, u.id)}
-<main class="text" id="main">
+<main class="text${r.sung ? ' has-sung' : ''}" id="main">
   <header class="head">
     <h1>${esc(r.title)}</h1>
     <p class="head__sub">${sub}</p>
     <p class="head__prov">${r.status === 'approved' ? `Drafted with Claude and reviewed by ${esc(r.provenance.review.by)}` : 'Unreviewed draft, for local preview only'}</p>
   </header>
   <p class="summary">${ctx.md(r.summary)}</p>
+  ${r.sung ? `<p class="voice"><span class="who">Sung${r.sung.status === 'approved' ? '' : ' (draft)'}.</span> ${ctx.md(r.sung.voice)}</p>` : ''}
   ${songComments.map(c => `<div class="song-comment"><p><span class="who">${esc(who)}, introducing the ${esc(text.unitLabel.toLowerCase())}.</span> ${ctx.md(c.note)}</p><details><summary>Full comment</summary><div class="full"><p>${ctx.md(c.translation)}</p></div></details></div>`).join('')}
   <div class="passages">
 ${parts.join('\n')}

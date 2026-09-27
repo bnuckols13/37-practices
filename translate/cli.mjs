@@ -22,15 +22,19 @@ const HELP = `Illuminated translation engine
 
   terms <text> [units]                            glossary proposals pack (then ingest --task terms)
   terms-bo <text> [units]                         Tibetan equivalents pack (then ingest --task terms-bo)
-  pack <text> [units] --task draft|redraft|weave|terms|terms-bo
+  pack <text> [units] --task draft|redraft|weave|terms|terms-bo|sing
   draft <text> [units]                            write draft packs; say what to do next
   weave <text> [units]                            write commentary packs
-  ingest <text> [units] --task draft|redraft|weave|terms|terms-bo [--model "…"]
+  sing <text> [units]                             write packs for the sung version (the song sounded in English)
+  sound <text> [units]                            how the source sounds: rhymes, refrain, self-naming, rāga
+  ingest <text> [units] --task draft|redraft|weave|terms|terms-bo|sing [--model "…"]
   check <text> [--strict]                         every validator; exit 1 on errors
 
   review <text> [units] [--force]                 write review/<unit>.md sheets
   review <text> --glossary [--force]              write glossary/review/<text>.md for proposed terms
+  review <text> [units] --sung [--force]          write review/<unit>.sung.md for the sung version
   accept <text> [units] [--dry]                   read sheets -> approved/, glossary, feedback
+  accept <text> [units] --sung [--dry]            read sung sheets -> approved/<unit>.sung.json
   accept <text> --glossary [--dry]
   render <text> [--preview]                       translations/<text>/… and sitemap-translations.xml
   glossary <text> [show|lint]                     inspect the glossary in scope
@@ -48,7 +52,7 @@ const { values: o, positionals } = parseArgs({
     label: { type: 'string' }, witness: { type: 'string' }, fetch: { type: 'string' }, task: { type: 'string' },
     model: { type: 'string' }, api: { type: 'boolean' }, batch: { type: 'boolean' }, force: { type: 'boolean' },
     dry: { type: 'boolean' }, preview: { type: 'boolean' }, strict: { type: 'boolean' }, glossary: { type: 'boolean' },
-    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, help: { type: 'boolean', short: 'h' },
+    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
   },
 });
 
@@ -135,6 +139,13 @@ const commands = {
   async 'terms-bo'() { return commands.stage('terms-bo'); },
   async draft() { return commands.stage('draft'); },
   async weave() { return commands.stage('weave'); },
+  async sing() { return commands.stage('sing'); },
+
+  async sound() {
+    const { soundProfile, profileText } = await import('./lib/sound.mjs');
+    const { loadUnit } = await import('./lib/text.mjs');
+    for (const id of await unitsFor(slug, sel)) log(`  ${id}\n` + profileText(soundProfile(loadUnit(slug, id))).split('\n').map(l => '    ' + l).join('\n'));
+  },
 
   async stage(task) {
     noApiYet();
@@ -165,6 +176,16 @@ const commands = {
   async review() {
     const review = await import('./lib/review/write.mjs');
     if (o.glossary) return log(`  wrote ${rel(review.writeGlossarySheet(slug, { force: o.force }))}`);
+    if (o.sung) {
+      const { writeSungSheet } = await import('./lib/review/sung.mjs');
+      const { exists, paths } = await import('./lib/io.mjs');
+      for (const id of await unitsFor(slug, sel)) {
+        if (!exists(paths(slug).sung(id))) { if (sel) log(`  ${id}: no sung version yet`); continue; }
+        const r = writeSungSheet(slug, id, { force: o.force });
+        log(`  ${id}: ${r.skipped ? 'skipped (' + r.skipped + ')' : 'wrote ' + rel(r.path)}`);
+      }
+      return;
+    }
     for (const id of await unitsFor(slug, sel)) {
       const r = review.writeSheet(slug, id, { force: o.force });
       log(`  ${id}: ${r.skipped ? 'skipped (' + r.skipped + ')' : 'wrote ' + rel(r.path)}`);
@@ -177,6 +198,14 @@ const commands = {
     const ids = await unitsFor(slug, sel);
     const { existsSync } = fs;
     const { paths } = await import('./lib/io.mjs');
+    if (o.sung) {
+      const { acceptSungSheet } = await import('./lib/review/sung.mjs');
+      for (const id of ids) {
+        if (!existsSync(paths(slug).sungSheet(id))) { if (sel) log(`  ${id}: no sung review sheet`); continue; }
+        log(accept.report(acceptSungSheet(slug, id, { dry: o.dry })));
+      }
+      return;
+    }
     for (const id of ids) {
       if (!existsSync(paths(slug).sheet(id))) { if (sel) log(`  ${id}: no review sheet`); continue; }
       log(accept.report(accept.acceptSheet(slug, id, { dry: o.dry })));

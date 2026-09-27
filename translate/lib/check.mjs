@@ -5,7 +5,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { paths, readJSON, readText, exists, home, siteRoot, listFiles, nfc } from './io.mjs';
+import { paths, readJSON, readText, exists, home, siteRoot, listFiles, nfc, fileSha, short } from './io.mjs';
 import { loadText, unitsIndex, loadUnit, witnessOf } from './text.mjs';
 import { load, byId, scoped, matchSource } from './glossary.mjs';
 import { integrity } from './source.mjs';
@@ -15,6 +15,8 @@ import * as markup from './markup.mjs';
 import { Draft } from '../schemas/draft.mjs';
 import { Weave } from '../schemas/weave.mjs';
 import { Approved, RunProvenance } from '../schemas/approved.mjs';
+import { SungFiled, ApprovedSung } from '../schemas/sung.mjs';
+import { forbiddenHere } from './review/sung.mjs';
 
 const words = s => markup.strip(s).toLowerCase().replace(/[^\p{L}\p{M}\s']/gu, ' ').split(/\s+/).filter(Boolean);
 const fold = s => String(s).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/\bdhru\b|[0-9]/g, '').replace(/[|।॥.,;:'"\s-]/g, '')
@@ -175,6 +177,39 @@ export function check(slug, { strict = false } = {}) {
       if (!t.line && !t.full) for (const q of quotesOver(t.s)) E.push(`${t.where}: quotation over 25 words ("${q.slice(0, 40)}…")`);
       overlap(t.where, t.s);
     }
+
+    // 13. the sung version: its own file, its own approval, the same rules for every line it sings
+    const sung = readJSON(P.sung(u.id), null);
+    const approvedSung = readJSON(P.approvedSung(u.id), null);
+    const sungIds = unit.lines.filter(l => l.role === 'line').map(l => l.id).join();
+    if (sung) {
+      const r = SungFiled.safeParse(sung);
+      if (!r.success) E.push(`${u.id} sung: ${r.error.issues[0].path.join('.')} ${r.error.issues[0].message}`);
+      else {
+        if (sung.lines.map(l => l.id).join() !== sungIds) E.push(`${u.id} sung: line ids no longer match the unit`);
+        if (sung.provenance.sourceSha !== unit.sourceSha) W.push(`${u.id} sung version is stale: the source changed after it was sung`);
+        else if (draft && sung.provenance.draftSha !== short(fileSha(P.draft(u.id)))) W.push(`${u.id} sung version was made from an earlier draft; check it still says what the translation says, or sing it again`);
+      }
+    }
+    if (approvedSung) {
+      const r = ApprovedSung.safeParse(approvedSung);
+      if (!r.success) E.push(`${u.id} approved sung: ${r.error.issues[0].path.join('.')} ${r.error.issues[0].message}`);
+      if (approvedSung.sourceSha !== unit.sourceSha) E.push(`${u.id} approved sung version is stale: the source changed after approval`);
+    }
+    const sungText = approvedSung || sung;
+    for (const l of sungText?.lines || []) {
+      const where = `${l.id} (sung)`;
+      for (const p of markup.problems(l.en)) E.push(`${where}: ${p}`);
+      for (const term of markup.terms(l.en)) {
+        const e = entries.get(term.id);
+        if (!e) E.push(`${where}: unknown term {${term.id}}`);
+        else if (e.status === 'rejected') E.push(`${where}: uses rejected term {${term.id}}`);
+        else if (approvedSung && e.status !== 'approved') E.push(`${where}: approved sung text uses unapproved term {${term.id}}`);
+      }
+      for (const f of forbiddenHere(inScope, unit, l)) E.push(`${where}: "${f.word}" inside a sung line (${f.id} says: translate the image, put the reading in a note)`);
+      overlap(where, l.en);
+    }
+    for (const c of sungText?.couplets || []) { overlap(`${c.group} kept (sung)`, c.kept); overlap(`${c.group} let go (sung)`, c.letGo); }
 
     // 12. determinism: the same inputs must give the same pack
     for (const task of Object.keys(TASKS)) {

@@ -7,7 +7,7 @@
  */
 
 import { z } from 'zod';
-import { paths, readJSON, readText, writeText, writeJSON, hashOf, exists, fail } from './io.mjs';
+import { paths, readJSON, readText, writeText, writeJSON, hashOf, exists, fail, fileSha, short } from './io.mjs';
 import { loadText, loadUnit, witnessOf, unitIds } from './text.mjs';
 import { load, scoped, scopeSha, compact, matchSource } from './glossary.mjs';
 import { loadPrompt, textPrompt } from './prompts.mjs';
@@ -17,6 +17,11 @@ import { partOf } from './ids.mjs';
 export const commentaryOnly = fb => !!fb?.redraft?.length && fb.redraft.every(k => /^m\d+$/.test(partOf(k)));
 import { Draft, TermsResult, TibetanTerms } from '../schemas/draft.mjs';
 import { Weave } from '../schemas/weave.mjs';
+import { Sung } from '../schemas/sung.mjs';
+import { soundProfile, profileText } from './sound.mjs';
+
+/** Feedback on a sung version is kept apart from feedback on the translation. */
+export const sungKey = id => id + '#sung';
 
 export const TASKS = {
   draft: { prompt: 'tasks/draft.md', schema: Draft, out: 'drafts' },
@@ -24,7 +29,19 @@ export const TASKS = {
   weave: { prompt: 'tasks/weave.md', schema: Weave, out: 'commentary' },
   terms: { prompt: 'tasks/terms.md', schema: TermsResult, out: 'glossary' },
   'terms-bo': { prompt: 'tasks/terms-bo.md', schema: TibetanTerms, out: 'glossary' },
+  sing: { prompt: 'tasks/sing.md', schema: Sung, out: 'sung' },
 };
+
+/** The accurate English a sung version is made from: the approved text if current, else the draft. */
+export function accurateEnglish(slug, unit) {
+  const P = paths(slug);
+  const a = readJSON(P.approvedFile(unit.id), null);
+  const d = readJSON(P.draft(unit.id), null);
+  if (!d && !a) fail(`${unit.id}: translate the unit before singing it (draft, then ingest)`);
+  const flags = new Map((d?.lines || []).map(l => [l.id, l.flags]));
+  const lines = a && a.sourceSha === unit.sourceSha ? a.lines : d.lines;
+  return { from: a && a.sourceSha === unit.sourceSha ? 'approved' : 'draft', lines: lines.map(l => ({ ...l, flags: flags.get(l.id) || [] })) };
+}
 
 export const jsonSchema = task => z.toJSONSchema(TASKS[task].schema);
 
@@ -150,6 +167,25 @@ function inputBlock(slug, text, unit, task, entries) {
       parts.push('## Reviewer notes (address every one)', fence('json', JSON.stringify(fb, null, 2)));
     }
   }
+  if (task === 'sing') {
+    const acc = accurateEnglish(slug, unit);
+    parts.push(`## The accurate English (the ${acc.from} translation; do not change it)`,
+      acc.lines.map(l => `- ${l.id}: ${l.en}\n    gloss: ${l.gloss}`
+        + l.flags.map(f => `\n    flag · ${f.kind}: ${f.note}`).join('')).join('\n'));
+    parts.push('## How the source sounds', profileText(soundProfile(unit)));
+    const w = readJSON(P.weave(unit.id), null);
+    if (w?.segments?.length) {
+      parts.push('## How the commentary reads it (for the song\'s sense and mood only; readings never go into a line)',
+        w.segments.map(s => `- ${s.id}: ${s.note}`).join('\n'));
+    }
+    const fb = readJSON(P.feedback, {})[sungKey(unit.id)];
+    const prev = readJSON(P.sung(unit.id), null);
+    if (fb && prev) {
+      const { provenance, ...body } = prev;
+      parts.push('## Your previous sung version', fence('json', JSON.stringify(body, null, 2)));
+      parts.push('## Reviewer notes (address every one)', fence('json', JSON.stringify(fb, null, 2)));
+    }
+  }
   if (task === 'terms') parts.push('## Candidate words not yet in the glossary', candidates(slug, unit, entries));
   if (task === 'terms-bo') parts.push('## Glossary terms in lines and segments that have Tibetan', tibetanHits(unit, entries));
   if ((task === 'draft' || task === 'redraft') && Object.keys(unit.parallels || {}).length) {
@@ -189,6 +225,7 @@ export function buildPack(slug, id, task) {
     glossarySha: scopeSha(g, slug),
     sourceSha: unit.sourceSha,
     ...(unit.parallelSha ? { parallelSha: unit.parallelSha } : {}),
+    ...(task === 'sing' ? { draftSha: short(fileSha(paths(slug).draft(id))) } : {}),
     blocks: [
       { role: 'system', cache: true, text: system.body },
       { role: 'user', cache: true, text: brief },

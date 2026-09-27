@@ -1,0 +1,1289 @@
+{
+  "unit": "cp.23",
+  "proposals": [
+    {
+      "id": "hunt",
+      "type": "term",
+      "en": "hunting",
+      "policy": "translate",
+      "alt": [
+        "hunt",
+        "the hunt"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অহেই",
+          "translit": "ahei",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.23.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔོན",
+          "translit": "rngon",
+          "lemma": "rngon",
+          "att": "AO",
+          "where": "cp.23.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔོན་པ",
+          "translit": "rngon pa",
+          "lemma": "rngon pa",
+          "att": "AS",
+          "where": "cp.23.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རྔོན"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অহেই(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Hunting, the chase. Song 23 opens with Bhusuku going hunting: Old Bengali ahei, perhaps from Sanskrit ākheṭa, 'hunt'; the Tibetan has rngon 'gro, 'go hunting'. Munidatta's comment, surviving only in the Tibetan, cites rngon pa and reads it as setting out in search of the means of making the quarry without intrinsic nature (cp.23.m2).",
+      "symbolicImage": "Bhusuku going hunting",
+      "symbolicReadings": [
+        {
+          "referent": "going in search of the means of making (the quarry) without intrinsic nature; the quarry, in the same comment, is the deer of the body's wind (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "without intrinsic nature",
+        "intrinsic nature",
+        "body-wind"
+      ],
+      "rationale": "The hunt frames song 23 and Munidatta glosses it; kept apart from 'hunter' (Sanskrit ākheṭika, song 6) because the line speaks of going hunting, so that 'hunting' can be marked up with its own English."
+    },
+    {
+      "id": "jivanta",
+      "type": "term",
+      "en": "living",
+      "policy": "translate",
+      "alt": [
+        "the living",
+        "alive"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জীবন্তে",
+          "translit": "jībante",
+          "lemma": "jībanta",
+          "att": "AS",
+          "where": "cp.23.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "གསོན་པོ",
+          "translit": "gson po",
+          "lemma": "gson po",
+          "att": "AO",
+          "where": "cp.23.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "གསོན་པོ",
+          "translit": "gson po",
+          "lemma": "gson po",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জীবন্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "གསོན་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Living, alive (Old Bengali jībanta, from Sanskrit jīvant). The refrain of song 23 (2a) sets the living against the dead in an obscure line; the Tibetan has 'do not kill the living, do not take the corpse of the dead'. Munidatta, in the Tibetan, reads the living as the entering breath (cp.23.m3).",
+      "symbolicImage": "the living, set against the dead in the refrain",
+      "symbolicReadings": [
+        {
+          "referent": "the entering breath (rab tu zhugs pa'i dbugs), joined with the syllable oṃ and the knowledge of day, and having the nature of the forty natures (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "breath",
+        "entering breath",
+        "inhalation",
+        "oṃ"
+      ],
+      "rationale": "An image of the refrain that Munidatta explains; the entry keeps the living in the line and his breath reading in the notes."
+    },
+    {
+      "id": "mrta",
+      "type": "term",
+      "en": "dead",
+      "policy": "translate",
+      "alt": [
+        "the dead",
+        "corpse"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মএল",
+          "translit": "maela",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.23.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤི་བའི་རོ",
+          "translit": "shi ba'i ro",
+          "lemma": "ro",
+          "att": "AO",
+          "where": "cp.23.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤི་བའི་རོ",
+          "translit": "shi ba'i ro",
+          "lemma": "ro",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཤི་བའི་རོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মএল(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Dead (Old Bengali maela, apparently a past form of mar-, 'die'). The refrain of song 23 (2a) sets the dead against the living; the Tibetan has shi ba'i ro, 'the corpse of the dead', which is not to be taken up. Munidatta, in the Tibetan, reads the dead as the outgoing breath (cp.23.m3).",
+      "symbolicImage": "the dead, or the corpse of the dead, set against the living in the refrain",
+      "symbolicReadings": [
+        {
+          "referent": "the outgoing breath (dbyung ba'i dbugs), joined with the syllable hūṃ and the knowledge of night, and having the nature of the thirty-three natures; he then adds the abiding breath, with āḥ, the knowledge of the neuter and seven natures (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "breath",
+        "outgoing breath",
+        "exhalation",
+        "hūṃ"
+      ],
+      "rationale": "The other half of the refrain's pair, with its own reading in Munidatta; a whole-word regex because মএল is short."
+    },
+    {
+      "id": "mamsa",
+      "type": "term",
+      "en": "flesh",
+      "policy": "translate",
+      "alt": [
+        "meat"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঁসে",
+          "translit": "mām̐se",
+          "lemma": "māṃsa",
+          "att": "AS",
+          "where": "cp.23.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ",
+          "translit": "sha",
+          "lemma": "sha",
+          "att": "AO",
+          "where": "cp.23.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ",
+          "translit": "sha",
+          "lemma": "sha",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মাঁস"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])ཤ(?=$|[\\u0F04-\\u0F14\\s])(?!་བ(?:$|[\\u0F04-\\u0F14\\s]|འི|ས|ར))"
+        }
+      ],
+      "definition": "Flesh or meat (Old Bengali mām̐sa, Sanskrit māṃsa; Tibetan sha). The refrain of song 23 (2b) seems to say Bhusuku will not enter the lotus grove without flesh (Shastri prints haṇabiṇu: perhaps haṇa, 'kill', and biṇu, 'without'); the Tibetan has 'without flesh, do not enter the house'. Munidatta calls the flesh twilight language for the joy of cessation (cp.23.m3).",
+      "symbolicImage": "flesh, without which Bhusuku does not enter",
+      "symbolicReadings": [
+        {
+          "referent": "in twilight language, the joy of cessation (khyad par gyi dga' ba), whose nature is self-blessing: unless it is purified by the fourth joy, Bhusuku does not enter the house of great bliss (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "joy of cessation",
+        "joy",
+        "fourth joy",
+        "self-blessing",
+        "great bliss"
+      ],
+      "rationale": "Flesh is a recurring image of the deer songs (the deer of song 6 is an enemy through its own flesh) and Munidatta gives it an explicit twilight reading here; the Tibetan match is a regex because the lone syllable ཤ also begins sha ba, 'deer'."
+    },
+    {
+      "id": "maya-harini",
+      "type": "term",
+      "en": "doe of illusion",
+      "policy": "translate",
+      "alt": [
+        "illusory doe",
+        "illusion-doe"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাআহরিণী",
+          "translit": "māāhariṇī",
+          "lemma": "māāhariṇī",
+          "att": "AS",
+          "where": "cp.23.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་མའི་རི་དགས",
+          "translit": "sgyu ma'i ri dgas",
+          "lemma": "sgyu ma'i ri dgas",
+          "att": "AO",
+          "where": "cp.23.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মাআহরিণী"
+        },
+        {
+          "lang": "bod",
+          "form": "སྒྱུ་མའི་རི་དགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A doe made of illusion (Old Bengali māā, Sanskrit māyā, 'illusion', with hariṇī, 'doe'), which in song 23 (3a) is bound once the net of illusion is spread. The Tibetan line has sgyu ma'i ri dgas, 'illusory deer', to be killed rather than bound. Munidatta's comment speaks of the net binding the deer of the body (cp.23.m4).",
+      "symbolicImage": "a doe of illusion, bound in the net of illusion",
+      "symbolicReadings": [
+        {
+          "referent": "the deer of the body (lus kyi ri dgas), which the net binds; a paraphrase in the place of the song's words, not an explicit gloss (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m4"
+          ]
+        },
+        {
+          "referent": "the wind of the body: he calls the quarry 'the deer of body-wind, the nature of the body's wind' and 'the deer of the body, whose nature is wind', without quoting this line (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m2",
+            "cp.23.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wind",
+        "body-wind",
+        "vital wind",
+        "breath"
+      ],
+      "rationale": "A compound image parallel to the net of illusion (mayajala) in the same line, with a reading of its own in this song; the literal also keeps the doe entry's হরিণী from claiming it."
+    },
+    {
+      "id": "ekamanas",
+      "type": "term",
+      "en": "one-minded",
+      "policy": "translate",
+      "alt": [
+        "of one mind"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "একুমণা",
+          "translit": "ekumaṇā",
+          "lemma": "ekumaṇa",
+          "att": "AS",
+          "where": "cp.23.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་ནི་གཅིག་ཏུ",
+          "translit": "yid ni gcig tu",
+          "lemma": "yid gcig",
+          "att": "AO",
+          "where": "cp.23.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་གཅིག་ཏུ",
+          "translit": "yid gcig tu",
+          "lemma": "yid gcig",
+          "att": "AS",
+          "where": "cp.23.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "একুমণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡིད་གཅིག་ཏུ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡིད་ནི་གཅིག་ཏུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Having one mind, the mind made single (Old Bengali ekumaṇā; compare Sanskrit ekamanas). In song 23 (1b) Bhusuku will become one-minded on entering the lotus grove; the Tibetan line has 'make the mind one'. Munidatta, in the Tibetan, explains making the mind one as becoming free of conceptual thought (cp.23.m2).",
+      "symbolicImage": "becoming one-minded on entering the lotus grove",
+      "symbolicReadings": [
+        {
+          "referent": "becoming free of conceptual thought (rnam par rtog pa med pa), oneself rightly calling to oneself (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "nonconceptual",
+        "free of concepts",
+        "free of conceptual thought"
+      ],
+      "rationale": "The state the song promises at the lotus grove, glossed by Munidatta; it is on the candidate list and a reader will want the gloss."
+    },
+    {
+      "id": "time-non-time",
+      "type": "term",
+      "en": "time and non-time",
+      "policy": "translate",
+      "alt": [
+        "the timely and the untimely"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དུས་དང་དུས་མིན",
+          "translit": "dus dang dus min",
+          "lemma": "dus; dus min",
+          "att": "AS",
+          "where": "cp.23.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "དུས་དང་དུས་མིན",
+          "translit": "dus dang dus min",
+          "lemma": "dus; dus min",
+          "att": "AS",
+          "where": "cp.23.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དུས་དང་དུས་མིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Time and non-time (Tibetan dus dang dus min; the Old Bengali is lost): a pair named in couplet 4 of song 23, which survives only in the Tibetan, in an obscure line about the path of the wind. Munidatta explains the pair as the moon and the sun, with the wind of the avadhūtī as a third (cp.23.m5).",
+      "symbolicImage": "time and non-time, the two named with the path of the wind",
+      "symbolicReadings": [
+        {
+          "referent": "the moon and the sun; he adds a third, the wind of the avadhūtī, and says the fourth joy destroys them all (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "moon and sun",
+        "sun and moon",
+        "avadhūtī",
+        "left and right"
+      ],
+      "rationale": "A twilight pair with an explicit reading; the longer literal keeps kala (dus) and evening (dus min) from claiming it."
+    },
+    {
+      "id": "mahabhuta",
+      "type": "term",
+      "en": "great elements",
+      "policy": "translate",
+      "alt": [
+        "the five great elements"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "འབྱུང་བ་ཆེན་པོ་ལྔ",
+          "translit": "'byung ba chen po lnga",
+          "lemma": "'byung ba chen po",
+          "att": "AS",
+          "where": "cp.23.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འབྱུང་བ་ཆེན་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The great elements (Sanskrit mahābhūta, Tibetan 'byung ba chen po): earth, water, fire and wind, with space as a fifth in tantric lists, of which bodies and the world are made. Couplet 4 of song 23 names earth, water and fire; Munidatta speaks of the substances become the five great elements, to be eaten from the body-vessel (cp.23.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard doctrinal term in Munidatta's comment; kept apart from the elements (dhātu) entry, which renders khams."
+    },
+    {
+      "id": "net",
+      "type": "term",
+      "en": "net",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྒྱ",
+          "translit": "rgya",
+          "lemma": "rgya",
+          "att": "AS",
+          "where": "cp.23.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱ",
+          "translit": "rgya",
+          "lemma": "rgya",
+          "att": "AS",
+          "where": "cp.23.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])རྒྱ(?=་(?:དང་རྡོ|ཞེས))"
+        }
+      ],
+      "definition": "A hunter's net or trap (Tibetan rgya; the Old Bengali is lost). In couplet 5 of song 23, which survives only in the Tibetan, the deer escapes though there is no net, stone or rope. Munidatta takes the three as twilight language for conceptual thought about the joys of body, speech and mind (cp.23.m6). Not the net of illusion (mayajala).",
+      "symbolicImage": "the net, absent as the deer escapes",
+      "symbolicReadings": [
+        {
+          "referent": "in twilight language, conceptual thought about the joy of body (sku'i dga' ba); the gloss opens with 'the joy of great bliss', loosely attached (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts",
+        "joy of body",
+        "joy"
+      ],
+      "rationale": "One of three hunting implements Munidatta explains one by one; the Tibetan regex is narrow because the syllable རྒྱ also means 'seal', 'vast' and more (phyag rgya, rgya cher, rgya mtsho)."
+    },
+    {
+      "id": "stone",
+      "type": "term",
+      "en": "stone",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྡོ",
+          "translit": "rdo",
+          "lemma": "rdo",
+          "att": "AS",
+          "where": "cp.23.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ",
+          "translit": "rdo",
+          "lemma": "rdo",
+          "att": "AS",
+          "where": "cp.23.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])རྡོ(?=་ལྕགས|ས་ཞེས)"
+        }
+      ],
+      "definition": "A stone (Tibetan rdo), the second of the three things the deer escapes without in couplet 5 of song 23, which survives only in the Tibetan. The line reads rdo lcags, perhaps 'stone and iron' or one device; Munidatta cites only rdo, as twilight language for conceptual thought about the joy of speech (cp.23.m6).",
+      "symbolicImage": "a stone, absent as the deer escapes",
+      "symbolicReadings": [
+        {
+          "referent": "in twilight language, conceptual thought about the joy of speech (gsung gi dga' ba) (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts",
+        "joy of speech",
+        "joy"
+      ],
+      "rationale": "Munidatta glosses it by name; the regex is narrow because the syllable རྡོ begins rdo rje, 'vajra'."
+    },
+    {
+      "id": "rope",
+      "type": "term",
+      "en": "rope",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཐག་པ",
+          "translit": "thag pa",
+          "lemma": "thag pa",
+          "att": "AS",
+          "where": "cp.23.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐག་པ",
+          "translit": "thag pa",
+          "lemma": "thag pa",
+          "att": "AS",
+          "where": "cp.23.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཐག་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A rope (Tibetan thag pa), the third of the things the deer escapes without in couplet 5 of song 23, which survives only in the Tibetan. Munidatta takes it as twilight language for conceptual thought about the joy of mind (cp.23.m6). Not the boat's mooring rope (kācchi), which the glossary also renders 'rope'.",
+      "symbolicImage": "a rope, absent as the deer escapes",
+      "symbolicReadings": [
+        {
+          "referent": "in twilight language, conceptual thought about the joy of mind (thugs kyi dga' ba) (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.23.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts",
+        "joy of mind",
+        "joy"
+      ],
+      "rationale": "The third implement of the triad, glossed by Munidatta; the English repeats kacchi's, so the definition tells them apart."
+    },
+    {
+      "id": "breath",
+      "type": "term",
+      "en": "breath",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དབུགས",
+          "translit": "dbugs",
+          "lemma": "dbugs",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དབུགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Breath (Tibetan dbugs). Munidatta's comment on the refrain of song 23, surviving only in the Tibetan, distinguishes the entering, the outgoing and the abiding breath, joined with the syllables oṃ, hūṃ and āḥ as in vajra recitation, and reads the refrain's living and dead as the first two (cp.23.m3). Compare wind (vāyu).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The key word of Munidatta's comment on the refrain; 'breath' reads better there than the glossary's 'wind', though the reviewer may prefer to make it a form and variant of vayu."
+    },
+    {
+      "id": "adarsajnana",
+      "type": "term",
+      "en": "mirror-like wisdom",
+      "policy": "translate",
+      "alt": [
+        "mirror-like"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མེ་ལོང་ལྟ་བུ",
+          "translit": "me long lta bu",
+          "lemma": "me long lta bu'i ye shes",
+          "att": "AS",
+          "where": "cp.23.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མེ་ལོང་ལྟ་བུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mirror-like wisdom (Sanskrit ādarśajñāna, Tibetan me long lta bu'i ye shes), one of the five wisdoms of a buddha, which tantric schemes pair with the aggregate of form. Munidatta, in the Tibetan, lists 'the mirror-like' with the aggregate of form, the earth element and the eye faculty among the five objects he reads in the five people (cp.23.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the tantric correspondences that a reader of the comment will need explained; the text has only me long lta bu, without ye shes."
+    },
+    {
+      "id": "p-vajrapani",
+      "type": "person",
+      "en": "Vajrapāṇi",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཕྱག་ན་རྡོ་རྗེ",
+          "translit": "phyag na rdo rje",
+          "lemma": "phyag na rdo rje",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཕྱག་ན་རྡོ་རྗེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Vajrapāṇi ('vajra in hand'), the bodhisattva who in many tantras questions the teacher and gathers the teaching; Indian authors also bore the name. Munidatta, in the Tibetan, quotes Vajrapāṇi for verses tying the syllables oṃ, hūṃ and āḥ to beings entering, going out and abiding (cp.23.m3). Which Vajrapāṇi is meant is not said.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new authority cited in the comment; the source is not identified further."
+    },
+    {
+      "id": "tx-kalacakra",
+      "type": "text",
+      "en": "Kālacakra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དཔལ་དུས་ཀྱི་འཁོར་ལོ",
+          "translit": "dpal dus kyi 'khor lo",
+          "lemma": "dus kyi 'khor lo",
+          "att": "AS",
+          "where": "cp.23.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དུས་ཀྱི་འཁོར་ལོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The Kālacakra ('Wheel of Time'), a late Indian Buddhist tantra and the tradition built on it, to which the Sekoddeśa also belongs. Munidatta, in the Tibetan, cites 'the glorious Kālacakra' for a line about the falling of the white drop, day and night (cp.23.m5). Whether he means the tantra itself or another work of its cycle is not said.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A work cited by name for the first time; the longer literal keeps kala (dus) and wheel ('khor lo) from claiming it."
+    },
+    {
+      "id": "varadi",
+      "type": "term",
+      "en": "Varāḍī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বড়ারী",
+          "translit": "baṛārī",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.23.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བ་རཱ་ལི",
+          "translit": "ba rA li",
+          "lemma": "ba rA li",
+          "att": "AO",
+          "where": "cp.23.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বড়ারী"
+        },
+        {
+          "lang": "bod",
+          "form": "བ་རཱ་ལི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Varāḍī, the rāga of songs 21 and 23. The heading of song 23 spells it baṛārī, against barāṛī in song 21, and the Tibetan transcribes it ba rA li, against ba rA DI there.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New spellings of the rāga name in the heading of song 23 and its Tibetan parallel."
+    },
+    {
+      "id": "p-bhusuku",
+      "type": "person",
+      "en": "Bhusukupāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভূসুকু",
+          "translit": "bhūsuku",
+          "lemma": "bhusuku",
+          "att": "AS",
+          "where": "cp.23.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷུ་སུ་ཀུ་པ",
+          "translit": "b+hu su ku pa",
+          "lemma": "b+hu su ku",
+          "att": "AS",
+          "where": "cp.23.6a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভূসুকু"
+        },
+        {
+          "lang": "bod",
+          "form": "བྷུ་སུ་ཀུ"
+        },
+        {
+          "lang": "bod",
+          "form": "འདུ་ཤེས་གསུམ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bhusukupāda, to whom song 23 is attributed; the Tibetan heading names him 'du shes gsum pa. He names himself in lines 1a and 2b and, in the Tibetan, in the closing line 6a. Line 2b spells the name bhūsuku.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Only the forms not yet listed: the long-ū spelling of 2b and the Tibetan b+hu su ku pa of the closing line; the Tibetan matches ensure the name links in the Tibetan reading text and heading."
+    },
+    {
+      "id": "pancajana",
+      "type": "term",
+      "en": "five people",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পঞ্চজণা",
+          "translit": "pañcajaṇā",
+          "lemma": "pañcajaṇa",
+          "att": "AS",
+          "where": "cp.23.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བོ་ལྔ་པོ",
+          "translit": "skye bo lnga po",
+          "lemma": "skye bo lnga",
+          "att": "AO",
+          "where": "cp.23.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পঞ্চজণ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐྱེ་བོ་ལྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Five people. In song 23 (1a) Bhusuku, if he goes hunting, will kill the five people (pañcajaṇā); the Tibetan has skye bo lnga po. Munidatta, in the Tibetan, reads them as the five objects (cp.23.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The spelling pañcajaṇā (with ñc and ṇ) differs from song 12's pāñcajanā, so the existing match misses it."
+    },
+    {
+      "id": "nalinivana",
+      "type": "term",
+      "en": "lotus grove",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নলণীবন",
+          "translit": "nalaṇībana",
+          "lemma": "nalinīvana",
+          "att": "AS",
+          "where": "cp.23.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "পদ্মবণ",
+          "translit": "padmabaṇa",
+          "lemma": "padmavana",
+          "att": "AS",
+          "where": "cp.23.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "པདྨའི་ཚལ",
+          "translit": "pad+ma'i tshal",
+          "lemma": "pad+ma'i tshal",
+          "att": "AO",
+          "where": "cp.23.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নলণীবন"
+        },
+        {
+          "lang": "oben",
+          "form": "পদ্মবণ"
+        },
+        {
+          "lang": "bod",
+          "form": "པདྨའི་ཚལ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་སྐྱེས་ཚལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A grove or bed of lotuses. Song 23 names it twice: nalaṇībana (1b) and padmabaṇa (2b), both entered by Bhusuku; the Tibetan has pad+ma'i tshal in 1b but khyim, 'house', in 2b. Munidatta's Tibetan comment has chu skyes tshal (cp.23.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Two new spellings of the lotus grove and a new Tibetan rendering; chu skyes tshal, already listed, is added as a match so the comment links."
+    },
+    {
+      "id": "mayajala",
+      "type": "term",
+      "en": "net of illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་འཕྲུལ་དྲ་བ",
+          "translit": "sgyu 'phrul dra ba",
+          "lemma": "sgyu 'phrul dra ba",
+          "att": "AO",
+          "where": "cp.23.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་འཕྲུལ་དྲ་བ",
+          "translit": "sgyu 'phrul dra ba",
+          "lemma": "sgyu 'phrul dra ba",
+          "att": "AS",
+          "where": "cp.23.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྒྱུ་འཕྲུལ་དྲ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A net of illusion. In song 23 (3a) it is spread to bind the doe of illusion; the Bengali form māājāla is already listed. The Tibetan line and Munidatta's Tibetan comment (cp.23.m4) have sgyu 'phrul dra ba.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Bengali already matches; the full Tibetan phrase is new (song 13 had sgyu 'phrul and sgyu ma'i dra ba)."
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "en": "joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བཞི་པའི་དགའ་བ",
+          "translit": "bzhi pa'i dga' ba",
+          "lemma": "dga' ba",
+          "att": "AS",
+          "where": "cp.23.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གསུང་གི་དགའ་བ",
+          "translit": "gsung gi dga' ba",
+          "lemma": "dga' ba",
+          "att": "AS",
+          "where": "cp.23.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐུགས་ཀྱི་དགའ་བ",
+          "translit": "thugs kyi dga' ba",
+          "lemma": "dga' ba",
+          "att": "AS",
+          "where": "cp.23.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བཞི་པའི་དགའ"
+        },
+        {
+          "lang": "bod",
+          "form": "གསུང་གི་དགའ་བ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐུགས་ཀྱི་དགའ་བ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐུའི་དགའ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Joy. Munidatta's Tibetan comment on song 23 speaks of the fourth joy (bzhi pa'i dga' ba, cp.23.m3, cp.23.m5) and of the joys of body, speech and mind (sku'i, gsung gi, thugs kyi dga' ba, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan forms of the fourth joy and of the joys of speech and mind; the match བཞི་པའི་དགའ also catches cp.23.m3's bzhi pa'i dga' pas."
+    },
+    {
+      "id": "sahajananda",
+      "type": "term",
+      "en": "innate joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་དགའ",
+          "translit": "lhan cig skyes dga'",
+          "lemma": "lhan cig skyes pa'i dga' ba",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ལྷན་ཅིག་སྐྱེས་དགའ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷན་ཅིག་སྐྱེས་པའི་དགའ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Innate joy. In the Saraha verse Munidatta quotes on song 23 (in the Tibetan), the guru is asked about innate joy, written lhan cig skyes dga' (cp.23.m3); his opening says Bhusuku was urged by innate joy (cp.23.m1).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new abbreviated Tibetan form in a verse quotation; the full form, already listed, is added as a match for cp.23.m1."
+    },
+    {
+      "id": "abhyasa",
+      "type": "term",
+      "en": "practice",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གོམས་པ",
+          "translit": "goms pa",
+          "lemma": "goms pa",
+          "att": "AS",
+          "where": "cp.23.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གོམས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Practice (abhyāsa; Tibetan goms pa). Munidatta, in the Tibetan, introduces couplet 4 of song 23, his 'third pada', as teaching the distinction of practice (cp.23.m5), and speaks of the yogin who constantly practises (cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "goms pa is the standard Tibetan for abhyāsa and plays the same structural role here as abhyāsaphala in song 20."
+    },
+    {
+      "id": "deer",
+      "type": "term",
+      "en": "deer",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རི་དགས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A deer (Tibetan ri dgas). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.5a, cp.23.m1, cp.23.m2, cp.23.m4, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "vayu",
+      "type": "term",
+      "en": "wind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རླུང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wind (Tibetan rlung). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.4b, cp.23.m2, cp.23.m5, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "body",
+      "type": "term",
+      "en": "body",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ལུས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The body (Tibetan lus). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.4a, cp.23.m2, cp.23.m4, cp.23.m5, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའ"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའི"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའོ"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sky (Tibetan nam mkha'; with particles nam mkha'i, nam mkha'o, nam mkhar, which need their own match forms because the syllable ends in 'a). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.5b, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "night",
+      "type": "term",
+      "en": "night",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མཚན་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Night (Tibetan mtshan mo). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.6a, cp.23.m3, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "prabhasvara",
+      "type": "term",
+      "en": "clear light",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འོད་གསལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Clear light (Tibetan 'od gsal). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "nihsvabhava",
+      "type": "term",
+      "en": "without intrinsic nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རང་བཞིན་མེད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Without intrinsic nature (Tibetan rang bzhin med pa). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.m2, cp.23.m5, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    },
+    {
+      "id": "mahasukha",
+      "type": "term",
+      "en": "great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བདེ་བ་ཆེན་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Great bliss (Tibetan bde ba chen po). The Tibetan form is already listed; song 23 has it in the Tibetan reading text (cp.23.m2, cp.23.m3, cp.23.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Match form only, so that the Tibetan reading text of song 23 links; drop it if the glossary already matches this form."
+    }
+  ],
+  "questions": [
+    "Symbolic readings on existing entries are not merged by ingest (only forms and match forms are), so these readings from song 23, all in Munidatta's Tibetan, would need adding by hand if wanted. deer: the quarry is 'the deer of body-wind, the nature of the body's wind' (cp.23.m2), 'the deer of the body' bound by the net (cp.23.m4) and 'the deer of the body, whose nature is wind' (cp.23.m6). So here the deer is the wind, where in song 6 it was the mind.",
+    "More readings for existing entries (Tibetan comment, not merged by ingest). pancajana: the five people are the five objects (yul lnga), become the aggregate of form, the mirror-like, the earth element, the eye faculty and so on, killed by withdrawing the maṇḍalas (cp.23.m2). nalinivana: the lotus grove is entered in the wheel of great bliss once vajra and lotus are joined, by the guru's grace (cp.23.m2). maya and mayajala: 'illusion' (sgyu ma) is to be understood as las kyi yan lag, the Tibetan's rendering of karmāṅganā (the action seal), and the net is laid on the body in the bliss of the moments beginning with vicitra (cp.23.m4).",
+    "Still more (Tibetan comment, not merged by ingest). night: Bhusuku's 'night', its darkness of ignorance cleared, gives the sense of 'fled' (cp.23.m6); compare rajani, the darkness of the afflictions (cp.19.m4). gagana: form and the rest are all sky, and the fleeing deer dissolves into clear light in the sky (cp.23.m6). house: in 2b the Tibetan has khyim, 'house', where the Bengali has padmabaṇa, 'lotus grove', and the comment speaks of 'the house of great bliss' (cp.23.m3).",
+    "Line 3a: the Bengali has bādheli, 'bound', but the Tibetan line has gsad par gyis, 'kill'. Munidatta's Tibetan comment has the net bind ('ching ba) the deer of the body (cp.23.m4), which agrees with the Bengali against the Tibetan line. Worth a witness note in the draft.",
+    "Couplet 5 (Tibetan only) has ri dgas, which I matched to deer. It may be the same animal as the doe of illusion (māāhariṇī) in 3a; the doe entry also lists ri dgas. Deer or doe in 5a?",
+    "'hunt' is a new entry, not a form of 'hunter', because 1a says 'go hunting' (ahei, Tibetan rngon 'gro) and the English must match the entry. If you would rather merge it into hunter, give hunter the variant 'hunting' and move the three forms across. Likewise 'breath' (dbugs) could be a form of vayu, with 'breath' as a variant.",
+    "Couplet 5: rdo lcags is uncertain. It might be 'stone and iron', one device, or something else; Munidatta cites only rdo(s). I made 'stone' an entry because he glosses it alongside net and rope. The regexes for rgya and rdo are deliberately narrow (see the rationales).",
+    "Words that look like glossary terms but are not. ভেলা in 2a is the verb 'became', not bhelā 'raft' (bhela), so bhela should not be matched there. বোহেঁ in 3b is probably bodha, 'instruction' (the Tibetan has gsung, 'speech'), not bodhi. If keruala matches སྐྱ་བ (skya ba, 'oar'), it will hit 4b tshod skya bas dkrug, where skya ba seems to be a stirring paddle or ladle.",
+    "Cross-references not proposed. In cp.23.m3 the forty, thirty-three and seven natures (rang bzhin) add up to the eighty natures of the prakrti entry; I added no form there, because svabhava also has rang bzhin. cp.23.m3 cites rim pa lnga as a work (the Pañcakrama); the pancakrama entry mentions the work, but a tx- entry may be wanted. cp.23.m3's bzhi pa'i dga' pas looks like a slip for dga' bas.",
+    "রাগ heads the candidate list although raga already lists it as a form. It is apparently not a match form, perhaps because raga-passion shares it. I left it alone: a regex anchored to headings would fix it, but I cannot see the other headings to test one."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "744b9f2566aa68ab67f14d1ed1cf0646c818cdc0c262ce49576242e9bb24f139",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "f08c01d66dfbbae085e3fe161d69f7f5e5ff8a801ef1dde1ba28b86ee251c0f9",
+    "sourceSha": "84f5047ce7878b908fbea514455f99478fbf4cc8ec3af69ac2ac6e20bb4f30e2"
+  }
+}

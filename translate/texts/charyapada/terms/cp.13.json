@@ -1,0 +1,1498 @@
+{
+  "unit": "cp.13",
+  "proposals": [
+    {
+      "id": "kamoda",
+      "type": "term",
+      "en": "Kāmoda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কামোদ",
+          "translit": "kāmoda",
+          "lemma": "kāmoda",
+          "att": "AS",
+          "where": "cp.13.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་པ་སྦྱིན་པ",
+          "translit": "'dod pa sbyin pa",
+          "lemma": "'dod pa sbyin pa",
+          "att": "AO",
+          "where": "cp.13.h1"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কামোদ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Kāmoda, the name of the rāga (melodic mode) to which song 13 is sung, given in its heading. The Tibetan translation calls the melody 'dod pa sbyin pa, 'giving what is desired', as if the name were Sanskrit kāmada, 'granting wishes'; how the two forms relate is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Each rāga named in a heading has a keep-source entry (Paṭamañjarī, Gavaṛā, Aru, Devakrī) and the glossary has none for Kāmoda; whole-word regex so it cannot fire inside a word such as kāmodaya, and no Tibetan match, since 'dod pa sbyin pa can also be an ordinary phrase."
+    },
+    {
+      "id": "trisarana",
+      "type": "term",
+      "en": "three refuges",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিশরণ",
+          "translit": "tiśaraṇa",
+          "lemma": "triśaraṇa",
+          "att": "AS",
+          "where": "cp.13.1a"
+        },
+        {
+          "lang": "san",
+          "script": "তিশরণেত্যাদি",
+          "translit": "tiśaraṇetyādi",
+          "lemma": "triśaraṇa",
+          "att": "AS",
+          "where": "cp.13.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱབས་གསུམ",
+          "translit": "skyabs gsum",
+          "lemma": "skyabs gsum",
+          "att": "AO",
+          "where": "cp.13.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱབས་གསུམ",
+          "translit": "skyabs gsum",
+          "lemma": "skyabs gsum",
+          "att": "AO",
+          "where": "cp.13.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তিশরণ"
+        },
+        {
+          "lang": "san",
+          "form": "তিশরণ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐྱབས་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The three refuges: the Buddha, the Dharma and the Saṅgha, in which Buddhists take refuge. Song 13 opens by making the three refuges a boat. Munidatta takes 'the three' as body, speech and mind, and speaks of a fourth refuge in which they dissolve, the body of great bliss (cp.13.m2). The Tibetan has skyabs gsum.",
+      "symbolicImage": "the three refuges, made into a boat",
+      "symbolicReadings": [
+        {
+          "referent": "body, speech and mind (kāyavākcitta), 'the three'; the fourth refuge, in which they have dissolved, is the body of great bliss, which in twilight language is to be understood as the boat",
+          "per": "Munidatta",
+          "where": [
+            "cp.13.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "body, speech and mind",
+        "body of great bliss",
+        "fourth refuge"
+      ],
+      "rationale": "A doctrinal term that opens the song and that Munidatta reinterprets; 'three refuges' is the standard English (Old Bengali ti- for tri-)."
+    },
+    {
+      "id": "eight-maidens",
+      "type": "term",
+      "en": "eight maidens",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অঠক মারী",
+          "translit": "aṭhaka mārī",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.13.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অঠকুমারীতি",
+          "translit": "aṭhakumārīti",
+          "lemma": "kumārī",
+          "att": "AS",
+          "where": "cp.13.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོན་ནུ་མ་རྣམས་བརྒྱད",
+          "translit": "gzhon nu ma rnams brgyad",
+          "lemma": "gzhon nu ma",
+          "att": "AO",
+          "where": "cp.13.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོན་ནུ་མ་རྣམ་བརྒྱད",
+          "translit": "gzhon nu ma rnam brgyad",
+          "lemma": "gzhon nu ma",
+          "att": "AO",
+          "where": "cp.13.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অঠক মারী"
+        },
+        {
+          "lang": "san",
+          "form": "অঠকুমারী"
+        },
+        {
+          "lang": "bod",
+          "form": "གཞོན་ནུ་མ་རྣམས་བརྒྱད"
+        },
+        {
+          "lang": "bod",
+          "form": "གཞོན་ནུ་མ་རྣམ་བརྒྱད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Eight young women (kumārī): so Munidatta, who cites the words as aṭhakumārī, and the Tibetan translation (gzhon nu ma rnams brgyad) read the end of the first line of song 13. Shastri divides it aṭhaka mārī, which might instead mean 'having struck (or killed) the eight'. The song does not say who the eight are.",
+      "symbolicImage": "eight maidens, named with the boat of the three refuges",
+      "symbolicReadings": [
+        {
+          "referent": "the bliss of the Buddha's lordship (buddhaiśvarya) and the rest, which is experienced; the Tibetan comment agrees (sangs rgyas kyi dbang phyug)",
+          "per": "Munidatta",
+          "where": [
+            "cp.13.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "lordship",
+        "Buddha's lordship",
+        "bliss",
+        "eightfold mastery"
+      ],
+      "rationale": "An obscure image with an explicit reading in the commentary; 'eight maidens' follows Munidatta's lemma and the Tibetan, and Shastri's word division is flagged in questions."
+    },
+    {
+      "id": "ocean",
+      "type": "term",
+      "en": "ocean",
+      "policy": "translate",
+      "alt": [
+        "sea"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভবজলধি",
+          "translit": "bhabajaladhi",
+          "lemma": "jaladhi",
+          "att": "AS",
+          "where": "cp.13.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ভবসমুদ্রং",
+          "translit": "bhavasamudraṃ",
+          "lemma": "samudra",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "san",
+          "script": "স্কন্ধধাত্বাদিবিষয়সমুদ্রস্য",
+          "translit": "skandhadhātvādiviṣayasamudrasya",
+          "lemma": "samudra",
+          "att": "AS",
+          "where": "cp.13.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་མཚོ",
+          "translit": "srid mtsho",
+          "lemma": "mtsho",
+          "att": "AO",
+          "where": "cp.13.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་རྒྱ་མཚོ",
+          "translit": "srid pa'i rgya mtsho",
+          "lemma": "rgya mtsho",
+          "att": "AO",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡུལ་གྱི་རྒྱ་མཚོ",
+          "translit": "yul gyi rgya mtsho",
+          "lemma": "rgya mtsho",
+          "att": "AO",
+          "where": "cp.13.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জলধি"
+        },
+        {
+          "lang": "san",
+          "form": "জলধি"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲིད་མཚོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The ocean or sea (Sanskrit samudra, jaladhi; Tibetan rgya mtsho). The refrain of song 13 itself crosses the ocean of existence (bhavajaladhi; Tibetan srid mtsho); Munidatta repeats it as bhavasamudra (cp.13.m3) and speaks of an ocean of objects, the aggregates, elements and the rest, to be stopped (cp.13.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms for the existing ocean entry (proposed from song 8 while this answer was being drafted): the song's own bhavajaladhi, where the entry's literal জলধৌ does not reach the stem জলধি, the Sanskrit bhavasamudra and viṣayasamudra (already reached by সমুদ্র), and the Tibetan srid mtsho, which རྒྱ་མཚོ does not reach."
+    },
+    {
+      "id": "svapna",
+      "type": "term",
+      "en": "dream",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুইনা",
+          "translit": "suinā",
+          "lemma": "suinā",
+          "att": "AS",
+          "where": "cp.13.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "সুইনা",
+          "translit": "suinā",
+          "lemma": "suinā",
+          "att": "AS",
+          "where": "cp.13.4b"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নোপমং",
+          "translit": "svapnopamaṃ",
+          "lemma": "svapnopama",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নবৎ",
+          "translit": "svapnavat",
+          "lemma": "svapna",
+          "att": "AS",
+          "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨི་ལམ",
+          "translit": "rmi lam",
+          "lemma": "rmi lam",
+          "att": "AO",
+          "where": "cp.13.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨི་ལམ",
+          "translit": "rmi lam",
+          "lemma": "rmi lam",
+          "att": "AO",
+          "where": "cp.13.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সুইনা"
+        },
+        {
+          "lang": "san",
+          "form": "স্বপ্ন"
+        },
+        {
+          "lang": "bod",
+          "form": "རྨི་ལམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A dream (Sanskrit svapna, Old Bengali suinā; Tibetan rmi lam). With illusion, a standard Mahāyāna comparison for how things appear without being real. The refrain of song 13 makes the ocean of existence like illusion and dream, and its fourth couplet speaks of a dream without sleep; Munidatta says things then appear like a dream in the waking state (cp.13.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A key image of this song (refrain and fourth couplet) and a stock simile of Mahāyāna and siddha teaching; neither the pack's glossary nor the live glossary had a dream entry."
+    },
+    {
+      "id": "mayajala",
+      "type": "term",
+      "en": "net of illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাআজাল",
+          "translit": "māājāla",
+          "lemma": "māyājāla",
+          "att": "AS",
+          "where": "cp.13.3b"
+        },
+        {
+          "lang": "san",
+          "script": "মায়াজালবৎ",
+          "translit": "māyājālavat",
+          "lemma": "māyājāla",
+          "att": "AS",
+          "where": "cp.13.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་འཕྲུལ",
+          "translit": "sgyu 'phrul",
+          "lemma": "sgyu 'phrul",
+          "att": "AO",
+          "where": "cp.13.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྱུ་མའི་དྲ་བ",
+          "translit": "sgyu ma'i dra ba",
+          "lemma": "dra ba",
+          "att": "AO",
+          "where": "cp.13.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মাআজাল"
+        },
+        {
+          "lang": "san",
+          "form": "মায়াজাল"
+        },
+        {
+          "lang": "bod",
+          "form": "སྒྱུ་མའི་དྲ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A net of illusion (māyājāla): the world pictured as a web of conjured appearances, like a magician's show; also the name of a group of tantras. In 13.3b it stands beside Kāṇha and the body, in unclear syntax. Munidatta has 'like a net of illusion' (cp.13.m4); the Tibetan has sgyu 'phrul, and sgyu ma'i dra ba in the comment.",
+      "symbolicImage": "the net of illusion, named with Kāṇha and the body",
+      "symbolicReadings": [
+        {
+          "referent": "a simile for the ocean of objects, the aggregates, elements and the rest, which Kṛṣṇācārya, addressing himself, is told to stop (his paraphrase makes 'like a net of illusion' qualify that ocean; there is no explicit gloss)",
+          "per": "Munidatta",
+          "where": [
+            "cp.13.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "aggregates",
+        "elements",
+        "sense objects",
+        "ocean of objects"
+      ],
+      "rationale": "A Mahāyāna and tantric image distinct from plain illusion (māyā), which has its own entry; 'net of illusion' keeps both halves of the compound. No Tibetan match for sgyu 'phrul, which can also mean illusion alone."
+    },
+    {
+      "id": "helmsman",
+      "type": "term",
+      "en": "helmsman",
+      "policy": "translate",
+      "alt": [
+        "steersman"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কণ্ণহার",
+          "translit": "kaṇṇahāra",
+          "lemma": "kaṇṇahāra",
+          "att": "AS",
+          "where": "cp.13.5a"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তকর্ণধারং",
+          "translit": "cittakarṇadhāraṃ",
+          "lemma": "karṇadhāra",
+          "att": "AS",
+          "where": "cp.13.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉེན་པས",
+          "translit": "mnyen pas",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.13.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কণ্ণহার"
+        },
+        {
+          "lang": "san",
+          "form": "কর্ণধার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The one who steers a boat (Sanskrit karṇadhāra, 'holder of the helm'; Old Bengali kaṇṇahāra). In the last couplet of song 13 the mind is the helmsman; Munidatta repeats 'the mind as helmsman', set on the boat-path of emptiness (cp.13.m6). The Tibetan has mnyen pa, perhaps 'boatman' or 'rowing'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A boat image the siddhas use; the song itself names the mind as the helmsman, so there is no esoteric reading to record, but the word needs an entry for a consistent rendering. The Tibetan form has no match: mnyen pa also stands for the oars in 13.3a."
+    },
+    {
+      "id": "mahasukha-kaya",
+      "type": "term",
+      "en": "body of great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখকায়ং",
+          "translit": "mahāsukhakāyaṃ",
+          "lemma": "mahāsukhakāya",
+          "att": "AS",
+          "where": "cp.13.m2"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখকায়েন",
+          "translit": "mahāsukhakāyena",
+          "lemma": "mahāsukhakāya",
+          "att": "AS",
+          "where": "cp.13.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོའི་ལུས",
+          "translit": "bde ba chen po'i lus",
+          "lemma": "lus",
+          "att": "AO",
+          "where": "cp.13.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহাসুখকায়"
+        },
+        {
+          "lang": "bod",
+          "form": "བདེ་བ་ཆེན་པོའི་ལུས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The body of great bliss (mahāsukhakāya): in some tantric systems a fourth buddha body, beside the emanation, enjoyment and dharma bodies, associated with the wheel of great bliss. Munidatta calls it the fourth refuge, in which body, speech and mind dissolve, and says the song's boat is to be understood as it in twilight language (cp.13.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's technical term, which he gives as what the boat stands for; it needs its own entry beside great bliss and the wheel of great bliss, and the longer literal wins over great bliss inside the compound."
+    },
+    {
+      "id": "kaya-vak-citta",
+      "type": "term",
+      "en": "body, speech and mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়বাক্‌চিত্তং",
+          "translit": "kāyavākcittaṃ",
+          "lemma": "kāyavākcitta",
+          "att": "AS",
+          "where": "cp.13.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས་དང་ངག་དང་ཡིད",
+          "translit": "lus dang ngag dang yid",
+          "lemma": "lus ngag yid",
+          "att": "AO",
+          "where": "cp.13.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ལུས་དང་ངག་དང་ཡིད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "কায়বাক্\\u200C?চিত্ত"
+        }
+      ],
+      "definition": "Body, speech and mind (kāya, vāc, citta): the three doors of action, and in the tantras the three aspects of a buddha that practice makes one's own (compare the three vajras). Munidatta reads the song's three refuges as body, speech and mind, which dissolve in a fourth, the body of great bliss (cp.13.m2); Tibetan lus dang ngag dang yid.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard triad that recurs in the commentary; an entry fixes the English and keeps it apart from 'three vajras'. The regex allows the zero-width non-joiner the edition sometimes writes after the virama (বাক্‌চিত্ত and বাক্চিত্ত)."
+    },
+    {
+      "id": "upaya",
+      "type": "term",
+      "en": "means",
+      "policy": "translate",
+      "alt": [
+        "method"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থোপায়স্য",
+          "translit": "caturthopāyasya",
+          "lemma": "upāya",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "san",
+          "script": "চতুর্থানন্দোপায়নৌকয়া",
+          "translit": "caturthānandopāyanaukayā",
+          "lemma": "upāya",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐབས",
+          "translit": "thabs",
+          "lemma": "thabs",
+          "att": "AO",
+          "where": "cp.13.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উপায়"
+        },
+        {
+          "lang": "san",
+          "form": "থোপায়"
+        },
+        {
+          "lang": "san",
+          "form": "ন্দোপায়"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Means or method (upāya): in Mahāyāna thought the skilful, compassionate method by which awakening is reached, paired with wisdom (prajñā); in the tantras it is pictured as male. Munidatta calls the refrain of song 13 praise of 'the fourth means', and the boat 'the boat of the means of the fourth joy' (cp.13.m3). The Tibetan has thabs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core doctrinal term; the glossary has 'wisdom and means' but no entry for means alone. The sandhi literals (-thopāya, -ndopāya) catch caturtha-upāya and ānanda-upāya, where the word loses its initial u."
+    },
+    {
+      "id": "paramananda",
+      "type": "term",
+      "en": "supreme joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরমানন্দে",
+          "translit": "paramānande",
+          "lemma": "paramānanda",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མཆོག་ཏུ་དགའ་བ",
+          "translit": "mchog tu dga' ba",
+          "lemma": "mchog tu dga' ba",
+          "att": "AO",
+          "where": "cp.13.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পরমানন্দ"
+        },
+        {
+          "lang": "bod",
+          "form": "མཆོག་ཏུ་དགའ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Supreme joy (paramānanda): in the yoginī tantras, the second of the four joys that arise in yogic union, after joy and before the joy of cessation and innate joy, whose order varies between systems. Munidatta places the surging wave of the self-blessed mind in supreme joy, in the middle braid (cp.13.m3). The Tibetan has mchog tu dga' ba.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the four joys; the glossary has joy, the joy of cessation and innate joy but not this one, and the literal আনন্দ of 'joy' does not reach it."
+    },
+    {
+      "id": "wave",
+      "type": "term",
+      "en": "wave",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তরঙ্গম",
+          "translit": "taraṅgama",
+          "lemma": "taraṅga",
+          "att": "AS",
+          "where": "cp.13.2b"
+        },
+        {
+          "lang": "san",
+          "script": "তরঙ্গং",
+          "translit": "taraṅgaṃ",
+          "lemma": "taraṅga",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་རླབས",
+          "translit": "chu rlabs",
+          "lemma": "chu rlabs",
+          "att": "AO",
+          "where": "cp.13.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་རླབས",
+          "translit": "chu rlabs",
+          "lemma": "chu rlabs",
+          "att": "AO",
+          "where": "cp.13.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཆུ་རླབས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])তরঙ্গ(?!ন্ত)"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])তরঙ্গ(?!ন্ত)"
+        }
+      ],
+      "definition": "A wave (Sanskrit taraṅga; Tibetan chu rlabs). The refrain of song 13 has waves in the middle, by the braid, in a line whose syntax is unclear. Munidatta speaks of the wave, the surging bliss, of the self-blessed mind in supreme joy, of which no self-awareness is looked for (cp.13.m3).",
+      "symbolicImage": "waves in the middle of the crossing, by the braid",
+      "symbolicReadings": [
+        {
+          "referent": "the wave, the surging (ullola) bliss, of the self-blessed mind, in supreme joy, in the middle braid; no self-awareness such as 'I have enjoyed it' is looked for there (the Tibetan: 'here even one's own feeling is not apprehended')",
+          "per": "Munidatta",
+          "where": [
+            "cp.13.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bliss",
+        "self-blessed mind",
+        "self-blessing",
+        "supreme joy"
+      ],
+      "rationale": "A water image of the crossing with an explicit reading in the commentary; the regex keeps out antaraṅga ('inner') and taraṅgante, the verb 'bounding' used of the deer in song 6."
+    },
+    {
+      "id": "dhatu",
+      "type": "term",
+      "en": "elements",
+      "policy": "translate",
+      "alt": [
+        "element"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্কন্ধধাত্বাদিবিষয়সমুদ্রস্য",
+          "translit": "skandhadhātvādiviṣayasamudrasya",
+          "lemma": "dhātu",
+          "att": "AS",
+          "where": "cp.13.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ধাতুশ্চ",
+          "translit": "dhātuś ca",
+          "lemma": "dhātu",
+          "att": "AS",
+          "where": "cp.13.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁམས",
+          "translit": "khams",
+          "lemma": "khams",
+          "att": "AO",
+          "where": "cp.13.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধাত্বাদি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ধাতু"
+        }
+      ],
+      "definition": "Elements (dhātu): in the tantras usually five, earth, water, fire, wind and space, which with the aggregates and the senses make up the person; Abhidharma also counts eighteen elements of perception. In the Sūtaka verse Munidatta quotes, aggregates, elements and senses are each fivefold and each blessed by a tathāgata (cp.13.m4). The Tibetan has khams.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A term of the aggregate-element-sense analysis the commentary uses; the regex keeps out traidhātuka ('of the three realms'), and there is no Tibetan match because khams also means 'realm' (khams gsum)."
+    },
+    {
+      "id": "styana",
+      "type": "term",
+      "en": "torpor",
+      "policy": "translate",
+      "alt": [
+        "dullness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রতিনিদ্রাস্ত্যানরহিততয়া",
+          "translit": "pratinidrāstyānarahitatayā",
+          "lemma": "styāna",
+          "att": "AS",
+          "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨུགས་པ",
+          "translit": "rmugs pa",
+          "lemma": "rmugs pa",
+          "att": "AO",
+          "where": "cp.13.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্ত্যান"
+        },
+        {
+          "lang": "bod",
+          "form": "རྨུགས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Torpor or dullness (styāna): heaviness of body and mind, a secondary affliction and, with drowsiness, one of the five hindrances to meditation. Munidatta says that one who understands the true nature of all things, and so is free of sleep and torpor, sees things in the waking state as in a dream (cp.13.m5). The Tibetan has rmugs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A term of Buddhist psychology in Munidatta's comment on the dream without sleep; 'torpor' is the usual English."
+    },
+    {
+      "id": "bhavana",
+      "type": "term",
+      "en": "meditation",
+      "policy": "translate",
+      "alt": [
+        "cultivation"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবনাবিশুদ্ধিমাহুঃ",
+          "translit": "bhāvanāviśuddhim āhuḥ",
+          "lemma": "bhāvanā",
+          "att": "AS",
+          "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒོམ་པ",
+          "translit": "sgom pa",
+          "lemma": "sgom pa",
+          "att": "AO",
+          "where": "cp.13.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিপরীতভাবনা"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভাবনা"
+        }
+      ],
+      "definition": "Meditation or cultivation (bhāvanā, literally 'bringing into being'): the repeated practice by which an understanding becomes one's own. Munidatta introduces couplet 4 of song 13, his 'third verse', as teaching the purification of meditation, so as to establish the point beyond doubt (cp.13.m5). The Tibetan has sgom pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A core practice term in Munidatta's framing of the couplets; the regex keeps it out of sambhāvanā ('possibility'), the literal adds the 'reversed meditation' (viparītabhāvanā) of the Hevajra verse in song 1, and the Tibetan sgom pa is not matched because it also forms sgom pa po, 'meditator'."
+    },
+    {
+      "id": "tx-sutaka",
+      "type": "text",
+      "en": "Sūtaka",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সূতকে",
+          "translit": "sūtake",
+          "lemma": "sūtaka",
+          "att": "AS",
+          "where": "cp.13.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সূতকে",
+          "translit": "sūtake",
+          "lemma": "sūtaka",
+          "att": "AS",
+          "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སཱུ་ཏ་ཀེ",
+          "translit": "sU ta ke",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.13.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མདོ",
+          "translit": "mdo",
+          "lemma": "mdo",
+          "att": "AO",
+          "where": "cp.13.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সূতকে"
+        },
+        {
+          "lang": "bod",
+          "form": "སཱུ་ཏ་ཀེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A work Munidatta cites twice in his comment on song 13 as the Sūtaka, not otherwise identified here. He quotes from it verses on aggregates, elements and senses, each fivefold and blessed by a tathāgata (cp.13.m4), and on sleeping and waking as no different (cp.13.m5). The Tibetan transcribes the title once (sU ta ke) and once renders it mdo, 'sūtra'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A cited work needs a text entry; the title is kept as Munidatta gives it because the work is unidentified. No match for mdo, which means any sūtra."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাহ্নিল",
+          "translit": "kāhnila",
+          "lemma": "kāhna",
+          "att": "AS",
+          "where": "cp.13.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནག་པོ་ཞབས",
+          "translit": "nag po zhabs",
+          "lemma": "nag po zhabs",
+          "att": "AO",
+          "where": "cp.13.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ནག་པོ་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet, called Kṛṣṇācārya in Sanskrit, to whom song 13 is attributed; he names himself in its third and last couplets.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms only: kāhnila in 13.3b (the name with an ending of uncertain sense; the existing literal কাহ্ন already reaches it) and nag po zhabs, the Tibetan heading's name for the poet, which no existing Tibetan literal reaches."
+    },
+    {
+      "id": "boat",
+      "type": "term",
+      "en": "boat",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণাবী",
+          "translit": "ṇābī",
+          "lemma": "nābī",
+          "att": "AS",
+          "where": "cp.13.1a"
+        },
+        {
+          "lang": "san",
+          "script": "চতুর্থানন্দোপায়নৌকয়া",
+          "translit": "caturthānandopāyanaukayā",
+          "lemma": "naukā",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বাকারবরোপেতশূন্যতানৌমার্গে",
+          "translit": "sarvvākāravaropetaśūnyatānaumārge",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.13.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུར",
+          "translit": "grur",
+          "lemma": "gru",
+          "att": "AO",
+          "where": "cp.13.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নৌকয়া"
+        },
+        {
+          "lang": "san",
+          "form": "নৌমার্গ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ণাবী(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A river boat, one of the commonest images of the songs. In song 13 the three refuges are made the boat (spelled ṇābī), and the refrain crosses the ocean of existence.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: ṇābī with retroflex ṇ (whole-word regex, like the entry's নাবী), and Munidatta's naukayā and naumārga, which the existing literals do not reach; the Tibetan grur is already reached by གྲུ. Munidatta's readings of the boat in this song are listed in questions, since a proposal cannot add readings to an existing entry."
+    },
+    {
+      "id": "keruala",
+      "type": "term",
+      "en": "oar",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কেলিপাতং",
+          "translit": "kelipātaṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.13.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কেলিপাত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An oar, or perhaps a steering paddle. In song 13 the five tathāgatas are made the oars; Munidatta has the poet imagine his own body, made of the five purified tathāgatas, as the kelipāta (cp.13.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's kelipāta stands where the song has keṛuāla and looks like a Sanskritized form of it; the identification is mine and is flagged in questions."
+    },
+    {
+      "id": "maya",
+      "type": "term",
+      "en": "illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঅ",
+          "translit": "māa",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.13.2a"
+        },
+        {
+          "lang": "san",
+          "script": "মায়াময়ং",
+          "translit": "māyāmayaṃ",
+          "lemma": "māyāmaya",
+          "att": "AS",
+          "where": "cp.13.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মায়াময়"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মাঅ(?=\\s+সুইনা)"
+        }
+      ],
+      "definition": "Illusion (māyā): a conjured appearance that seems real but is not. The refrain of song 13 makes the ocean of existence like illusion and dream (māa suinā); Munidatta has 'illusory and dreamlike' (cp.13.m3), and the Tibetan sgyu ma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The song's māa is māyā here (Munidatta's māyāmaya, the Tibetan sgyu ma), though the same spelling is 'mother' in song 11; the regex takes it only before suinā, 'dream', and the mother entry's regex only before mārī, so the two do not collide."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চিঅ",
+          "translit": "cia",
+          "lemma": "cia",
+          "att": "AS",
+          "where": "cp.13.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Mind. In the last couplet of song 13 the mind (cia) is the helmsman; Munidatta repeats it as 'the mind as helmsman' (cittakarṇadhāra, cp.13.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New spelling cia (short i) in 13.5a and in Munidatta's citation of the line (cp.13.m6); whole-word regexes, since a three-letter literal could sit inside other words."
+    },
+    {
+      "id": "karuna",
+      "type": "term",
+      "en": "compassion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "করুণা",
+          "translit": "karuṇā",
+          "lemma": "karuṇā",
+          "att": "AS",
+          "where": "cp.13.1b"
+        },
+        {
+          "lang": "san",
+          "script": "শূন্যতাকরুণয়োরৈক্যং",
+          "translit": "śūnyatākaruṇayoraikyaṃ",
+          "lemma": "karuṇā",
+          "att": "AS",
+          "where": "cp.13.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "করুণা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Compassion, paired with emptiness in song 13, where one's own body is compassion and emptiness (13.1b); Munidatta speaks of the unity of emptiness and compassion in one's own body, in the form of coupled union (cp.13.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry had no Old Bengali match, so karuṇā in the song line (13.1b) went unrecognized; the commentary form is already reached by the Sanskrit literal করুণ."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শূনমে",
+          "translit": "śūname",
+          "lemma": "śūna",
+          "att": "AS",
+          "where": "cp.13.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "সুণত",
+          "translit": "suṇata",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.13.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])শূন(?!্)"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুণত(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Emptiness. Song 13 spells it śūna (13.1b, where the word division is uncertain) and suṇata (13.5a); Munidatta has śūnyatā at both places (cp.13.m2, cp.13.m6), and the Tibetan stong pa and stong nyid.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Two new Old Bengali spellings; word-initial regexes rather than literals, since śūna could begin other words and suṇa- is also the verb 'listen'."
+    },
+    {
+      "id": "companion",
+      "type": "term",
+      "en": "companion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সাঙ্গে",
+          "translit": "sāṅge",
+          "lemma": "saṅga",
+          "att": "AS",
+          "where": "cp.13.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সাঙ্গে(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A companion, or company (Old Bengali saṅga). In the last line of song 13 Kāṇha goes with great bliss (mahāsuha sāṅge); the Tibetan has bde ba chen po'i grogs, 'companion of great bliss', as in song 8.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The same collocation as song 8's mahāsuha sa(su)ṅgā, which the Tibetan renders grogs both times; sāṅge may be only the postposition 'with' (see questions). No Tibetan match: grogs also serves as the vocative 'friend' (kye'i grogs) in song 17."
+    },
+    {
+      "id": "veni",
+      "type": "term",
+      "en": "braid",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বেণী",
+          "translit": "beṇī",
+          "lemma": "veṇī",
+          "att": "AS",
+          "where": "cp.13.2b"
+        },
+        {
+          "lang": "san",
+          "script": "মধ্যবেণিকায়াং",
+          "translit": "madhyaveṇikāyāṃ",
+          "lemma": "veṇikā",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྫིང",
+          "translit": "rdzing",
+          "lemma": "rdzing",
+          "att": "AO",
+          "where": "cp.13.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বেণী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A braid (veṇī); the word also names a meeting of rivers. The refrain of song 13 has the braid 'in the middle'; Munidatta speaks of the middle braid (madhyaveṇikā), in supreme joy (cp.13.m3). The Tibetan has rdzing, 'pool', in the line and the comment.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New spelling beṇī with long ī, which the entry's literal বেণি does not reach, and Munidatta's veṇikā (already reached); no match for rdzing, which is the lake's rdzing bu elsewhere. His reading is listed in questions."
+    },
+    {
+      "id": "manga",
+      "type": "term",
+      "en": "māṅga",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঙ্গে",
+          "translit": "māṅge",
+          "lemma": "māṅga",
+          "att": "AS",
+          "where": "cp.13.5a"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বাকারবরোপেতশূন্যতানৌমার্গে",
+          "translit": "sarvvākāravaropetaśūnyatānaumārge",
+          "lemma": "mārga",
+          "att": "AS",
+          "where": "cp.13.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུར",
+          "translit": "grur",
+          "lemma": "gru",
+          "att": "AO",
+          "where": "cp.13.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মাঙ্গে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in the boat songs. In 13.5a the mind, the helmsman, is on the māṅga of emptiness; Munidatta has 'the boat-path (naumārga) of emptiness' (cp.13.m6), and the Tibetan 'enters the boat (grur) of emptiness'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The same word as song 8's māṅgata: Munidatta again reads it as mārga, 'path', now joined to nau, 'boat', and the Tibetan again as the boat (here gru, not its stern or prow). No match for grur, which belongs to the boat entry."
+    },
+    {
+      "id": "tx-apratisthanaprakasa",
+      "type": "text",
+      "en": "Apratiṣṭhānaprakāśa",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অপ্রতিষ্ঠানপ্রকাশে",
+          "translit": "apratiṣṭhānaprakāśe",
+          "lemma": "apratiṣṭhānaprakāśa",
+          "att": "AS",
+          "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་ཏུ་མི་གནས་པ་གསལ་བ",
+          "translit": "rab tu mi gnas pa gsal ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.13.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རབ་ཏུ་མི་གནས་པ་གསལ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A work Munidatta cites as the Apratiṣṭhānaprakāśa and here attributes to Nāgārjuna; he quotes the same verse as in song 8: every concept arising in the mind is to be given up, and nirvāṇa is nothing but the mind free of concepts (cp.13.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The title is written here in full, without Shastri's restored syllable, and the Tibetan names it rab tu mi gnas pa gsal ba, which the existing Tibetan literal (…gsal bar mdzad pa) does not reach; the shorter literal reaches both."
+    },
+    {
+      "id": "p-nagarjuna",
+      "type": "person",
+      "en": "Nāgārjuna",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀླུ་སྒྲུབ་ཞབས",
+          "translit": "klu sgrub zhabs",
+          "lemma": "klu sgrub",
+          "att": "AO",
+          "where": "cp.13.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Teacher to whom Munidatta attributes the Apratiṣṭhānaprakāśa, quoting its verse on giving up every concept (cp.13.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan form with the honorific zhabs (for -pāda); the existing literal ཀླུ་སྒྲུབ already reaches it, so no new match."
+    },
+    {
+      "id": "body",
+      "type": "term",
+      "en": "body",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাঅ",
+          "translit": "kāa",
+          "lemma": "kāa",
+          "att": "AS",
+          "where": "cp.13.3b"
+        },
+        {
+          "lang": "san",
+          "script": "নিজদেহে",
+          "translit": "nijadehe",
+          "lemma": "deha",
+          "att": "AS",
+          "where": "cp.13.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিজদেহ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কাঅ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The physical body. Song 13 names one's own body (nia deha, 13.1b) and the body (kāa, 13.3b); Munidatta speaks of one's own body (nijadeha, svadeha) and of the body of great bliss (cp.13.m2, cp.13.m4). The Tibetan has lus.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "kāa (from kāya) is a new Old Bengali form, rendered lus by the Tibetan in 13.3b (whole-word regex, as the entry does for deha); nijadeha is not reached by the entry's word-initial regex."
+    },
+    {
+      "id": "indriya",
+      "type": "term",
+      "en": "senses",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তথেন্দ্রিয়াণি",
+          "translit": "tathendriyāṇi",
+          "lemma": "indriya",
+          "att": "AS",
+          "where": "cp.13.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "েন্দ্রিয়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The senses or sense faculties. In the Sūtaka verse Munidatta quotes, aggregates, elements and senses are each fivefold and each blessed by a tathāgata (cp.13.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "After tathā the word stands in sandhi (tathendriyāṇi), which the literal ইন্দ্রিয় does not reach; the fragment -endriya catches such sandhi forms, as the ekarasa entry's ৈকরস does."
+    }
+  ],
+  "questions": [
+    "Dream: the brief said the glossary already has a dream entry, but neither the pack's glossary nor the live glossary (checked 2026-09-27) has one, so I proposed svapna, 'dream'. If a parallel proposal adds one under another id, please merge them.",
+    "Boat (existing entry): a proposal can only add forms, so Munidatta's readings of the boat in this song need adding by hand: the body of great bliss, which in twilight language is the boat (cp.13.m2); 'the boat of the means of the fourth joy' (cp.13.m3); 'the boat of great bliss', taken up once one's body is imagined as the oar (cp.13.m4); 'the boat-path of emptiness endowed with all supreme aspects', with the mind set on it as helmsman (cp.13.m6). The entry's definition also still says 'In this song' of song 10.",
+    "Braid (veni, existing): Munidatta sets 'in the middle braid' (madhyaveṇikā) beside 'in supreme joy' (paramānanda) as the place of the waves (cp.13.m3), a reading to add by hand if wanted; the Tibetan reads beṇī as rdzing, 'pool', in 13.2b and in the comment ('the pool in the middle is supreme joy in the body'). The veni definition is written for song 4 only.",
+    "Oar (keruala): I take Munidatta's kelipāta (cp.13.m4: he has the poet imagine his own body, made of the five purified tathāgatas, as the kelipāta) to be his Sanskrit for keṛuāla, and added it as a form and match; please confirm. The Tibetan of 13.3a has mnyen pa byas, apparently 'did the rowing', not a word for oar, and its comment has mnyam par ('evenly') where the Sanskrit has kelipātaṃ; I added neither.",
+    "Helmsman: the Tibetan mnyen pas in 13.5a stands where the Bengali has kaṇṇahāra, but mnyen pa also stands for keṛuāla in 13.3a and for a verb of rowing in cp.08.4b, so I gave it as a form without a match and with no lemma (is it mnyan pa, 'ferryman'?).",
+    "Word division, 13.1a: Shastri prints aṭhaka mārī; Munidatta's lemma aṭhakumārī and the Tibetan gzhon nu ma rnams brgyad both give 'eight maidens'. Taken as divided, mārī could be 'having struck (or killed)', leaving 'the eight' with no noun. The eight-maidens entry follows the commentary and the Tibetan. His gloss 'the bliss of the Buddha's lordship and the rest' may point to the eight powers of the eightfold-mastery entry, but he does not say so.",
+    "Word division, 13.1b: śūname herī might instead be śūna meherī; the Tibetan stong pa'i chung ma can, 'having emptiness as wife', seems to read a word for 'wife' there. If that reading is accepted, a wife or consort entry may be wanted; I proposed nothing for herī.",
+    "kāhnila (13.3b): the name with an ending whose sense is unclear (the past ending -ila, or something addressed to Kāṇha, as Munidatta's 'O Kṛṣṇācāryapāda' might suggest). I added it only as a form of p-kanha, which the existing literal কাহ্ন already reaches.",
+    "Companion: sāṅge in 13.5b may be no more than the postposition 'with' ('Kāṇha went with great bliss'); I added it to companion because the Tibetan again has grogs, 'companion', as in song 8. The drafter may prefer 'with' in the line.",
+    "Ocean (existing, added from song 8 while I was drafting): its definition says the songs speak of rivers and only Munidatta of an ocean, but the refrain of song 13 itself has bhavajaladhi, 'the ocean of existence'; I added forms and matches only.",
+    "Tathāgata (existing): song 13 names five tathāgatas; Munidatta speaks of one's body as made of the five purified tathāgatas and quotes a verse in which the fivefold aggregates, elements and senses are each blessed by a tathāgata (cp.13.m4). The entry's definition speaks of six tathāgatas and may want a line on the five.",
+    "māṅga: the new literal মাঙ্গে also reaches 14.3a (pāñca keṛuāla paṛantem̐ māṅge), apparently the same boat word; the manga definition may need widening beyond song 8.",
+    "Emptiness: the regex for suṇata is whole-word, but since suṇa- is also the verb 'listen', a later hit could be the verb; worth checking when it fires outside song 13.",
+    "13.4a: Shastri prints gandha parasara; Munidatta has smell, taste and touch (gandha, rasa, sparśa) and the Tibetan dri reg ro, three objects, as if parasara stood for parasa rasa. No entry proposed (visaya covers the sense objects); the drafter should flag the line.",
+    "Not proposed, as marginal: Munidatta's 'island of the wheel of great bliss' (mahāsukhacakradvīpa, cp.13.m6), sleep (nidrā) in 13.4b and cp.13.m5, and dispassion (vairāgya) in Nāgārjuna's verse (cp.13.m3)."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "4251fd770c684318600c834031f4ea22548e82f4c2fac317b7b63d0d176c160f",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "7c31172ca6ee3209742c218297b107383123e063a38b6926e98cbc463be283ef",
+    "sourceSha": "410a451000bbc698b572bbd199ecadbe7841bc700b28a179f301ecbc409b150e"
+  }
+}

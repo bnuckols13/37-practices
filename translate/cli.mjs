@@ -27,6 +27,7 @@ const HELP = `Illuminated translation engine
   weave <text> [units]                            write commentary packs
   sing <text> [units]                             write packs for the sung version (the song sounded in English)
   sound <text> [units]                            how the source sounds: rhymes, refrain, self-naming, rāga
+  read <text> [units] [--en accurate,sung]        how the song works: Morton's five steps and the hot/cool mixing board
   ingest <text> [units] --task draft|redraft|weave|terms|terms-bo|sing [--model "…"]
   check <text> [--strict]                         every validator; exit 1 on errors
 
@@ -52,7 +53,7 @@ const { values: o, positionals } = parseArgs({
     label: { type: 'string' }, witness: { type: 'string' }, fetch: { type: 'string' }, task: { type: 'string' },
     model: { type: 'string' }, api: { type: 'boolean' }, batch: { type: 'boolean' }, force: { type: 'boolean' },
     dry: { type: 'boolean' }, preview: { type: 'boolean' }, strict: { type: 'boolean' }, glossary: { type: 'boolean' },
-    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
+    retire: { type: 'boolean' }, all: { type: 'boolean' }, target: { type: 'string' }, sung: { type: 'boolean' }, en: { type: 'string' }, help: { type: 'boolean', short: 'h' },
   },
 });
 
@@ -145,6 +146,28 @@ const commands = {
     const { soundProfile, profileText } = await import('./lib/sound.mjs');
     const { loadUnit } = await import('./lib/text.mjs');
     for (const id of await unitsFor(slug, sel)) log(`  ${id}\n` + profileText(soundProfile(loadUnit(slug, id))).split('\n').map(l => '    ' + l).join('\n'));
+  },
+
+  async read() {
+    await import('./lib/ear.mjs');
+    const { sourceBoard, englishBoard, readingText, markedWords } = await import('./lib/reading.mjs');
+    const { loadUnit } = await import('./lib/text.mjs');
+    const { paths, readJSON } = await import('./lib/io.mjs');
+    const { load, byId } = await import('./lib/glossary.mjs');
+    const P = paths(slug);
+    const names = byId(load());
+    const want = (o.en || 'accurate,sung').split(',').map(s => s.trim()).filter(Boolean);
+    for (const id of await unitsFor(slug, sel)) {
+      const unit = loadUnit(slug, id);
+      const approved = readJSON(P.approvedFile(id), null);
+      const draft = readJSON(P.draft(id), null);
+      const accurate = approved && approved.sourceSha === unit.sourceSha ? approved : draft;
+      const englishes = [];
+      if (want.includes('accurate') && accurate) englishes.push({ label: 'accurate', board: englishBoard(unit, accurate.lines) });
+      const sung = readJSON(P.approvedSung(id), null) || readJSON(P.sung(id), null);
+      if (want.includes('sung') && sung) englishes.push({ label: 'sung', board: englishBoard(unit, sung.lines) });
+      log(readingText(unit, sourceBoard(unit, draft), englishes, { images: markedWords(accurate?.lines), poet: names.get(unit.poet)?.en || '' }) + '\n');
+    }
   },
 
   async stage(task) {

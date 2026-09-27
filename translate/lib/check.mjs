@@ -18,6 +18,8 @@ import { Approved, RunProvenance } from '../schemas/approved.mjs';
 import { SungFiled, ApprovedSung } from '../schemas/sung.mjs';
 import { forbiddenHere } from './review/sung.mjs';
 import { songAdvice } from './sound.mjs';
+import './ear.mjs';
+import { temperatureAdvice } from './reading.mjs';
 
 const words = s => markup.strip(s).toLowerCase().replace(/[^\p{L}\p{M}\s']/gu, ' ').split(/\s+/).filter(Boolean);
 const fold = s => String(s).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/\bdhru\b|[0-9]/g, '').replace(/[|।॥.,;:'"\s-]/g, '')
@@ -214,6 +216,7 @@ export function check(slug, { strict = false } = {}) {
     // Advice only while the sung version is a draft: once approved, the reviewer has weighed it.
     if (sung && !approvedSung && (approved || draft)) {
       for (const a of songAdvice(sung.lines, (approved || draft).lines, markup.strip)) W.push(`${u.id} sung: ${a}`);
+      if (draft) for (const a of temperatureAdvice(unit, draft, sung.lines, 'the sung version')) W.push(`${u.id} sung: ${a}`);
     }
 
     // 12. determinism: the same inputs must give the same pack

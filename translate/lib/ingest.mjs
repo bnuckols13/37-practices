@@ -10,6 +10,8 @@ import { loadText, loadUnit } from './text.mjs';
 import { load, save, mergeProposal, mergeTibetan } from './glossary.mjs';
 import { TASKS, commentaryOnly, sungKey, accurateEnglish } from './pack.mjs';
 import { songAdvice } from './sound.mjs';
+import './ear.mjs';
+import { temperatureAdvice } from './reading.mjs';
 import * as markup from './markup.mjs';
 import { forbiddenHere } from './review/sung.mjs';
 import { scoped } from './glossary.mjs';
@@ -135,7 +137,8 @@ export function ingest(slug, ids, { task = 'draft', model, mode = 'session', ans
       wrote = P.sung(id);
       writeJSON(wrote, { ...out, provenance: { ...provenance, draftSha: pack.draftSha } });
       delete feedback[sungKey(id)];
-      advice = songAdvice(out.lines, accurateEnglish(slug, unit).lines, markup.strip);
+      advice = [...songAdvice(out.lines, accurateEnglish(slug, unit).lines, markup.strip),
+        ...temperatureAdvice(unit, readJSON(P.draft(id), null), out.lines, 'the sung version')];
     }
     if (t === 'terms-bo') {
       // The answer is kept: its notes and questions are for the reviewer, and it records who matched what.

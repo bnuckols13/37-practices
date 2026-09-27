@@ -19,6 +19,7 @@ import { Draft, TermsResult, TibetanTerms } from '../schemas/draft.mjs';
 import { Weave } from '../schemas/weave.mjs';
 import { Sung } from '../schemas/sung.mjs';
 import { soundProfile, profileText } from './sound.mjs';
+import { sourceBoard, readingText, markedWords } from './reading.mjs';
 
 /** Feedback on a sung version is kept apart from feedback on the translation. */
 export const sungKey = id => id + '#sung';
@@ -173,6 +174,8 @@ function inputBlock(slug, text, unit, task, entries) {
       acc.lines.map(l => `- ${l.id}: ${l.en}\n    gloss: ${l.gloss}`
         + l.flags.map(f => `\n    flag · ${f.kind}: ${f.note}`).join('')).join('\n'));
     parts.push('## How the source sounds', profileText(soundProfile(unit)));
+    parts.push('## How the song works (the mixing board: hot is repetition and pattern, cool is variation)',
+      readingText(unit, sourceBoard(unit, readJSON(P.draft(unit.id), null)), [], { images: markedWords(acc.lines) }));
     const w = readJSON(P.weave(unit.id), null);
     if (w?.segments?.length) {
       parts.push('## How the commentary reads it (for the song\'s sense and mood only; readings never go into a line)',

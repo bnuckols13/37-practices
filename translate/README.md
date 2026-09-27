@@ -148,11 +148,13 @@ node translate/cli.mjs studio import charyapada          # approved/, glossary, 
 - A decision made on an older draft is refused as stale; the Studio then offers "Start review of the new draft", which keeps unchanged passages.
 - One review channel per song: a hand-edited sheet blocks a Studio import unless you pass `--force`.
 
-**Opening a term** (click it in the text or in the panel) shows, below its decision buttons:
-- **Rendered as:** how the term has been translated so far, with counts, across the songs, notes and commentary.
-- **In the text:** every place its source forms occur (`lib/concord.mjs`), each in context in the source script and transliteration, with the English of that line. Select a reference to go to that passage, in any song.
-- **Look it up:** one row per language linking to the reference works (`lib/lookup.mjs`): Monier-Williams and Edgerton's *Buddhist Hybrid Sanskrit Dictionary* (Cologne), Turner's *Comparative Dictionary of the Indo-Aryan Languages* (DSAL, which cites Old Bengali forms), and for Tibetan the 84000 glossary and BDRC's texts. Links use each form's `lemma` (its dictionary headword) when the glossary gives one. Nothing is copied from these works.
-- **In the Tibetan:** which Tibetan word the Tibetan translators used for the term, counted over the places that have Tibetan (for example "g.yung mo 14×, Dom+bi 4× of 21"), grouped by dictionary form.
+**A term's card** says what the entry is in plain words: its definition; its forms, one row per language, each saying where it is found ("satyadvaya, in Munidatta's comment on 1.1"; "bden pa gnyis, in the Tibetan of Munidatta's comment on 1.1"), with the place a link to the passage; how the image is read, one reading per line with who reads it so and where. Ids never show: `lib/places.mjs` turns `cp.01.m2` into "Munidatta on 1.1" everywhere, and the published glossary uses the same phrases instead of attestation codes.
+
+**Opening a term** (click it in the text or in the panel) adds, below its decision buttons:
+- **Translated as:** how the term has been translated so far, with counts, across the songs, notes and commentary.
+- **The Tibetan translators wrote:** which Tibetan word renders the term, counted over the places that have Tibetan (for example "g.yung mo 14 times, Dom+bi 4 times, of 21 places that have Tibetan"), grouped by dictionary form. A word a drafter read at one place counts there even when it is only a reading (sgra gcan, "Rāhu", for kāla in 1.1b); only clear equivalents are matched everywhere.
+- **Where it occurs:** every place its source forms occur (`lib/concord.mjs`), our English first with the term marked (for Munidatta's comments, the sentence of the woven translation that renders it), then the source and transliteration, with long compounds cut down around the word. A form inside a longer glossary term does not count there (citta inside bodhicitta). Select a reference to go to that passage, in any song.
+- **Look it up in:** one row per language linking to the reference works (`lib/lookup.mjs`): Monier-Williams and Edgerton's *Buddhist Hybrid Sanskrit Dictionary* (Cologne), Turner's *Comparative Dictionary of the Indo-Aryan Languages* (DSAL, which cites Old Bengali forms), and for Tibetan the 84000 glossary and BDRC's texts. Links use each form's `lemma` (its dictionary headword) when the glossary gives one. Nothing is copied from these works.
 - **Edit entry** opens the fields.
 
 **Show Tibetan** (toolbar, or `T`) sets the Tibetan translation under each Bengali line, script above Wylie, and adds it to each comment and to the usage list. It is off by default and remembered on the device.

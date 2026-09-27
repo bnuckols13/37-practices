@@ -12,6 +12,9 @@
  *   @lacuna [note]              a gap in the witness
  *   @emend ID FROM => TO | why  correct a line; recorded on the unit, raw text untouched
  *   @-- anything                comment
+ *
+ * A file that starts with @parallel is a translation of the same text; its lines
+ * attach to the reading text's ids (see parallel.mjs).
  */
 
 import { hashOf, fail, rel } from '../io.mjs';
@@ -20,6 +23,7 @@ import { transliterate } from '../translit/index.mjs';
 import { isDirective } from '../source.mjs';
 import { caryagiti } from './caryagiti.mjs';
 import { lines as linesRule } from './lines.mjs';
+import { isParallel, readParallel, addPrimary, attachParallels } from './parallel.mjs';
 
 const RULES = { caryagiti, lines: linesRule };
 
@@ -83,12 +87,16 @@ export function segment(text, sources, overrides = {}) {
   const rule = RULES[text.segmentation.rule];
   if (!rule) fail(`unknown segmentation rule ${text.segmentation.rule}`);
   const st = makeState(text);
+  const parallel = [];
   for (const src of sources) {
     st.witness = src.witness;
     st.lang = src.witness.lang[0];
     st.unit = null;
-    rule.file(st, events(src.content, rel(src.path)));
+    const evs = events(src.content, rel(src.path));
+    if (isParallel(src.content)) parallel.push(...readParallel(st, evs));
+    else rule.file(st, evs);
   }
+  addPrimary(st, parallel);
   rule.finish(st);
 
   for (const e of st.emends) {
@@ -98,6 +106,7 @@ export function segment(text, sources, overrides = {}) {
     line.src = line.src.replace(e.from, e.to).trim();
     (line.emended ||= []).push({ from: e.from, to: e.to, reason: e.reason });
   }
+  const warnings = attachParallels(st, parallel);
 
   const scriptOf = wid => text.witnesses.find(w => w.id === wid)?.script || '';
   const out = [...st.units.values()].sort((a, b) => a.n - b.n).map(u => {
@@ -113,9 +122,36 @@ export function segment(text, sources, overrides = {}) {
       witnesses: [...u.witnesses].sort(), lines, commentary,
     };
     unit.sourceSha = sourceSha(unit);
+    if (u.parallels) {
+      const tl = (src, lang, wid) => ({ src, translit: transliterate(src, { lang, script: scriptOf(wid), overrides }) });
+      unit.parallels = {};
+      for (const [wid, p] of Object.entries(u.parallels).sort(([a], [b]) => a.localeCompare(b))) {
+        // In reading order, whatever order the directives came in.
+        const lineOrder = u.lines.map(l => l.id).filter(id => id in p.lines);
+        const segOrder = u.commentary.map(s => s.id).filter(id => id in p.commentary);
+        unit.parallels[wid] = {
+          lang: p.lang,
+          lines: Object.fromEntries(lineOrder.map(id => [id, tl(p.lines[id], p.lang, wid)])),
+          commentary: Object.fromEntries(segOrder.map(id => [id, tl(p.commentary[id], p.lang, wid)])),
+        };
+      }
+      unit.parallelSha = parallelSha(unit);
+    }
     return unit;
   });
+  // Lines and segments the parallel witnesses leave unmatched, for the segment report.
+  Object.defineProperty(out, 'warnings', { value: warnings });
   return out;
+}
+
+// Parallels are hashed apart from the source: correcting the Tibetan never makes
+// an approved song stale, though the next drafting pack carries the change.
+export function parallelSha(unit) {
+  return hashOf(Object.fromEntries(Object.entries(unit.parallels || {}).map(([wid, p]) => [wid, {
+    lang: p.lang,
+    lines: Object.entries(p.lines).map(([id, x]) => [id, x.src]),
+    commentary: Object.entries(p.commentary).map(([id, x]) => [id, x.src]),
+  }])));
 }
 
 // What a draft depends on. Transliteration is excluded: fixing the machine

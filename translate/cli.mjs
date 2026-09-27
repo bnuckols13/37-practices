@@ -16,7 +16,7 @@ const HELP = `Illuminated translation engine
 
   new <text> --lang oben --rule caryagiti|lines [--title "…"] [--prefix cp]
   import <text> --witness <id> <file|->           keep a paste/file byte-for-byte, append to the working copy
-  import <text> --witness <id> --fetch <n>        fetch unit n from the witness's "fetch" page (e.g. Wikisource)
+  import <text> --witness <id> --fetch <n|all>    fetch unit n from the witness's "fetch" page (Wikisource), or a whole Tengyur text
   segment <text> [--retire]                       working copy -> units/*.json with stable ids
   status <text>                                   where every unit stands
 
@@ -83,10 +83,16 @@ const commands = {
     let content, label = o.label || '';
     if (o.fetch) {
       const { loadText } = await import('./lib/text.mjs');
-      const { fetchWikisource } = await import('./lib/import/wikisource.mjs');
       const w = loadText(slug).witnesses.find(x => x.id === o.witness);
       if (!w) throw new UserError(`unknown witness ${o.witness}`);
-      ({ text: content, label } = await fetchWikisource(w.fetch, Number(o.fetch)));
+      if (/#D\d+$/.test(w.fetch)) {
+        // A whole Tengyur text in one import (--fetch all).
+        const { fetchTengyur } = await import('./lib/import/tengyur.mjs');
+        ({ text: content, label } = await fetchTengyur(w.fetch));
+      } else {
+        const { fetchWikisource } = await import('./lib/import/wikisource.mjs');
+        ({ text: content, label } = await fetchWikisource(w.fetch, Number(o.fetch)));
+      }
     } else {
       const file = rest[0];
       if (!file) throw new UserError('give a file to import, or - to read the paste from stdin');
@@ -102,6 +108,8 @@ const commands = {
     const r = segment(slug, { retire: o.retire });
     log(`  ${r.units.length} unit(s): ${r.units.map(u => `${u.id} (${u.lines.filter(l => l.role !== 'lacuna').length} lines, ${u.commentary.length} comm)`).join(', ')}`);
     if (r.changed.length) log(`  changed: ${r.changed.join(', ')}`);
+    if (r.parallelChanged.length) log(`  parallel text changed (drafts stay current): ${r.parallelChanged.join(', ')}`);
+    for (const w of r.warnings) log(`  note: ${w}`);
     if (r.vanished.length) log(`  retired: ${r.vanished.join(', ')}`);
   },
 

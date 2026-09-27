@@ -3,12 +3,15 @@
   "private": true,
   "type": "module",
   "description": "Claude drafts, a human reviews: illuminated translations with glossary-linked terms and woven commentary.",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node --test test/*.test.mjs",
     "cli": "node cli.mjs"
   },
   "dependencies": {
+    "jsewts": "1.0.4",
     "zod": "4.6.5"
   }
 }

@@ -25,6 +25,14 @@ export const Segment = z.object({
   translit: z.string(),
 });
 
+// A translation of the same text (the Tibetan), attached to the reading text's ids.
+const Parallel = z.object({ src: z.string(), translit: z.string() });
+export const Parallels = z.record(z.string(), z.object({
+  lang: z.string(),
+  lines: z.record(z.string(), Parallel),        // line id -> the witness's line
+  commentary: z.record(z.string(), Parallel),   // segment id -> the witness's segment
+}));
+
 export const Unit = z.object({
   id: z.string(),
   n: z.number().int(),
@@ -35,6 +43,8 @@ export const Unit = z.object({
   witnesses: z.array(z.string()),
   lines: z.array(Line),
   commentary: z.array(Segment),
+  parallels: Parallels.default({}),
+  parallelSha: z.string().default(''),
 });
 
 export const UnitsIndex = z.object({
@@ -43,6 +53,7 @@ export const UnitsIndex = z.object({
     id: z.string(), n: z.number().int(), raga: z.string(), poet: z.string(),
     witnesses: z.array(z.string()), lines: z.number().int(), segments: z.number().int(),
     sourceSha: z.string(),
+    parallels: z.array(z.string()).default([]),   // witnesses with a parallel (the Tibetan)
   })),
   ids: z.array(z.string()),                // every live line/segment id, for vanish detection
   tombstones: z.array(z.string()),

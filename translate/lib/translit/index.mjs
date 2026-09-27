@@ -1,4 +1,5 @@
 import { brahmicToIAST } from './brahmic.mjs';
+import { tibetanToWylie } from './tibetan.mjs';
 
 export function detectScript(s) {
   const counts = { Beng: 0, Deva: 0, Tibt: 0, Latn: 0 };
@@ -13,13 +14,11 @@ export function detectScript(s) {
   return best[1] ? best[0] : '';
 }
 
-/**
- * Machine transliteration for a source line. Tibetan (Wylie) arrives in M2;
- * until then Tibetan lines carry no machine transliteration and the drafter supplies it.
- */
+/** Machine transliteration for a source line: IAST for Bengali and Devanagari, Wylie for Tibetan. */
 export function transliterate(src, { lang = '', script = '', overrides = {} } = {}) {
   const sc = script || detectScript(src);
   if (sc === 'Beng' || sc === 'Deva') return brahmicToIAST(src, { script: sc, lang, overrides });
+  if (sc === 'Tibt') return tibetanToWylie(src);
   if (sc === 'Latn') return src;
   return '';
 }

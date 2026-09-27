@@ -89,3 +89,78 @@ test('lines rule: stanzas, headings and commentary for any text', () => {
   ]);
   assert.equal(u.commentary[0].anchor, 'fx.01.s2');
 });
+
+// A Tibetan translation marked as a parallel witness.
+const tt = Text.parse({ ...JSON.parse(read(path.join(FIX, 'fixture', 'text.json'))),
+  witnesses: [...text.witnesses, { id: 'tib', lang: ['bod'], script: 'Tibt', citation: 'Test Tibetan', license: 'public-domain', usage: 'prompt+publish' }] });
+const tib = tt.witnesses.find(w => w.id === 'tib');
+const both = (bo, t = tt) => segment(t, [
+  { witness: ed, path: 'ed.txt', content: fixture('marked-directives.txt') },
+  { witness: tib, path: 'tib.txt', content: bo },
+]);
+
+test('parallel: Tibetan lines attach to the reading text ids, in Wylie', () => {
+  const units = both('@-- a note\n@parallel\n@song 1\n@heading\nཔ་ཊ་མཉྫ་རི\n@verse\n།ལུས་ལྗོན་ཤིང་།\n།ག་ཡོ་བའི་སེམས།\n།བརྟན་པར་མཛོད་ཅིག\n@comm 1\n།ལུས་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི།\nཕུང་པོ་ལྔའོ།\n@song 2\n@couplet 1\n@verse\n།གྲོང་ཁྱེར།\n');
+  const [u, v] = units;
+  assert.deepEqual(Object.keys(u.parallels.tib.lines), ['fx.01.h1', 'fx.01.1a', 'fx.01.1b', 'fx.01.2a']);
+  assert.equal(u.parallels.tib.lang, 'bod');
+  assert.deepEqual(u.parallels.tib.lines['fx.01.1a'], { src: '།ལུས་ལྗོན་ཤིང་།', translit: "/lus ljon shing /" });
+  assert.equal(u.parallels.tib.commentary['fx.01.m1'].src, '།ལུས་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི། ཕུང་པོ་ལྔའོ།', 'comment lines rejoin with a space');
+  assert.deepEqual(u.witnesses, ['ed'], 'a parallel is not a reading witness');
+  assert.ok(u.lines.every(l => l.witness === 'ed'));
+  assert.deepEqual(Object.keys(v.parallels.tib.lines), ['fx.02.1a']);
+  assert.match(units.warnings.join('\n'), /fx\.01: no tib parallel for fx\.01\.2b/);
+});
+
+test('parallel: the Tibetan never makes a draft stale, but has its own sha', () => {
+  const plain = run(fixture('marked-directives.txt'))[0];
+  const a = both('@parallel\n@song 1\n@verse\n།ལུས།\n')[0];
+  const b = both('@parallel\n@song 1\n@verse\n།ལུས་ཤིང་།\n')[0];
+  assert.equal(a.sourceSha, plain.sourceSha);
+  assert.equal(a.sourceSha, b.sourceSha);
+  assert.ok(a.parallelSha && a.parallelSha !== b.parallelSha);
+  assert.equal(plain.parallels, undefined);
+});
+
+test('parallel: @primary makes the Tibetan the reading text for a lost song and a lost ending', () => {
+  const units = both([
+    '@parallel',
+    '@song 1', '@verse', '།ཀ།', '།ཁ།', '།ག།', '།ང།', '@primary', '@bhanita', '།ཅ།', '།ཆ།',
+    '@parallel', '@comm 1', '།ཀ་ཞེས།', '@primary', '@comm 3', '།ཅ་ཞེས།',
+    '@song 3', '@primary', '@raga dhanasī', '@poet p-dombi', '@heading', '།རཱ་ག།', '@verse', '།ཏ།', '།ཐ།', '@refrain', '།ད།', '།ན།', '།པ།', '།ཕ།',
+    '@comm', '།ངོ་སྤྲོད།', '@comm 1', '།ཏ་ཞེས།',
+  ].join('\n'));
+  const u = units[0], lost = units.find(x => x.id === 'fx.03');
+  assert.deepEqual(u.lines.filter(l => l.witness === 'tib').map(l => [l.id, l.src, l.lang]), [['fx.01.3a', '།ཅ།', 'bod'], ['fx.01.3b', '།ཆ།', 'bod']]);
+  assert.ok(u.lines.find(l => l.id === 'fx.01.3a').bhanita && !u.lines.find(l => l.id === 'fx.01.2b').bhanita);
+  assert.deepEqual(u.witnesses, ['ed', 'tib']);
+  assert.equal(u.commentary.at(-1).anchor, 'fx.01.3');
+  assert.equal(u.commentary.at(-1).translit, '/ca zhes/');
+  assert.deepEqual(Object.keys(u.parallels.tib.lines), ['fx.01.1a', 'fx.01.1b', 'fx.01.2a', 'fx.01.2b']);
+  assert.deepEqual(Object.keys(u.parallels.tib.commentary), ['fx.01.m1']);
+  assert.deepEqual(lost.witnesses, ['tib']);
+  assert.equal(lost.raga, 'dhanasī');
+  assert.deepEqual(lost.lines.map(l => l.id), ['fx.03.h1', 'fx.03.1a', 'fx.03.1b', 'fx.03.2a', 'fx.03.2b', 'fx.03.3a', 'fx.03.3b']);
+  assert.ok(lost.lines.find(l => l.id === 'fx.03.2a').refrain);
+  assert.ok(lost.lines.find(l => l.id === 'fx.03.3b').bhanita, 'the last couplet is the bhaṇitā, as for any song');
+  assert.equal(lost.lines[1].translit, '/ta/');
+  assert.deepEqual(lost.commentary.map(s => [s.id, s.anchor, s.lang]), [['fx.03.m1', 'fx.03', 'bod'], ['fx.03.m2', 'fx.03.1', 'bod']]);
+  assert.equal(lost.parallels, undefined);
+  assert.deepEqual(units.warnings, ['fx.01: no tib parallel for fx.01.h1'], 'primary lines need no parallel; only the heading is unmatched');
+});
+
+test('parallel: mismatches are errors that say what to do', () => {
+  assert.throws(() => both('@parallel\n@song 1\n@verse\nཀ\nཁ\nག\nང\nཅ\n'), /tib.txt:8: fx\.01 has 4 verse line\(s\).*put @primary before them/);
+  assert.throws(() => both('@parallel\n@song 9\n@verse\nཀ\n'), /tib.txt:2: the reading text has no unit 9.*@primary/);
+  assert.throws(() => both('@parallel\n@song 1\n@comm 2\nཀ\n'), /tib.txt:3: fx\.01 has no commentary segment on couplet 2/);
+  assert.throws(() => both('@parallel\n@song 1\n@refrain\n'), /@refrain marks the reading text/);
+  assert.throws(() => both('@parallel\n@song 1\n@couplet 7\n@verse\nཀ\n'), /no couplet 7/);
+});
+
+test('tengyur import: folio lines joined, a line per pāda, sentence and lemma, notes resolved to the Degé reading', async () => {
+  const { normalizeTengyur, extractText } = await import('../lib/import/tengyur.mjs');
+  const vol = '\uFEFF[158a.7]…{D2292}ཨ།\n[158b]{D2293}༄༅། །ཀ་ཁ། །ག་ང་བ། །ཅ་ཆ་\n[158b.2]ཇ་ཉག །ཏ་ཐ། དེ་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་ན་(པ,ཕ)། {ཡིན,ཡིན}། [ཞ]#{D2294}ཟ།';
+  assert.equal(normalizeTengyur(extractText(vol, '2293')), [
+    '༄༅།', '།ཀ་ཁ།', '།ག་ང་བ།', '།ཅ་ཆ་ཇ་ཉག', '།ཏ་ཐ།', 'དེ་ཞེས་བྱ་བ་ལ་སོགས་པ་ནི་ན་པ། ཡིན། ཞ', '',
+  ].join('\n'));
+});

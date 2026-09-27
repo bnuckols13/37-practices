@@ -56,16 +56,13 @@
         "bod"
       ],
       "script": "Tibt",
-      "citation": "Spyod pa'i glu'i mdzod kyi 'grel pa (Caryāgītikoṣavṛtti), Degé Tengyur, Toh 2293; translated by Kīrticandra and Yarlung Lotsāwa Drakpa Gyaltsen. Preserves songs 24, 25 and 48 and the end of 23, which the Nepal manuscript lacks.",
+      "citation": "Spyod pa'i glu'i mdzod kyi 'grel pa (Caryāgītikoṣavṛtti), Degé Tengyur, rgyud, vol. zhi, ff. 158b–206a (Toh 2293); translated by the paṇḍita Kīrticandra and the Tibetan translator Drakpa Gyaltsen in Yambu (Kathmandu). Quotes each song before commenting on it, and preserves songs 24, 25 and 48 and the end of 23, which the Nepal manuscript lacks.",
       "label": "Tibetan translation, Toh 2293",
-      "license": "public-domain (canonical text; the e-text source is still to be chosen and its licence checked)",
+      "license": "public-domain",
       "usage": "prompt+publish",
-      "units": [
-        "cp.23",
-        "cp.24",
-        "cp.25",
-        "cp.48"
-      ]
+      "url": "https://github.com/Esukhia/derge-tengyur",
+      "fetch": "https://raw.githubusercontent.com/Esukhia/derge-tengyur/174653137d62af481f53c6ae3dc842bf8629323e/text/052_རྒྱུད་འགྲེལ།_ཞི.txt#D2293",
+      "note": "From Esukhia's digital Degé Tengyur (public domain), pinned to a commit and normalized on import. Parallel to the Bengali for the songs the Nepal manuscript keeps; the reading text for 24, 25, 48 and the end of 23."
     },
     {
       "id": "kvaerne1977",

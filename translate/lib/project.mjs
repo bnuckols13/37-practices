@@ -54,12 +54,13 @@ export function segment(slug, { retire = false } = {}) {
   }
   const tombstones = [...new Set([...prev.tombstones, ...vanished])].filter(id => !live.has(id)).sort();
 
-  const changed = [];
+  const changed = [], parallelChanged = [];
   for (const u of units) {
     const p = P.unit(u.id);
-    const before = exists(p) ? readJSON(p).sourceSha : null;
+    const before = exists(p) ? readJSON(p) : {};
     writeJSON(p, u);
-    if (before !== u.sourceSha) changed.push(u.id);
+    if (before.sourceSha !== u.sourceSha) changed.push(u.id);
+    else if ((before.parallelSha || '') !== (u.parallelSha || '')) parallelChanged.push(u.id);
   }
   for (const f of fs.existsSync(P.units) ? fs.readdirSync(P.units) : []) {
     const id = f.replace(/\.json$/, '');
@@ -70,10 +71,11 @@ export function segment(slug, { retire = false } = {}) {
     units: units.map(u => ({
       id: u.id, n: u.n, raga: u.raga, poet: u.poet, witnesses: u.witnesses,
       lines: u.lines.filter(l => l.role !== 'lacuna').length, segments: u.commentary.length, sourceSha: u.sourceSha,
+      ...(u.parallels ? { parallels: Object.keys(u.parallels) } : {}),
     })),
     ids, tombstones,
   });
-  return { units, changed, vanished };
+  return { units, changed, parallelChanged, vanished, warnings: units.warnings || [] };
 }
 
 /** Pipeline stage per unit, derived purely from the files. */

@@ -1,0 +1,622 @@
+{
+  "unit": "cp.02",
+  "title": "The Thief at Midnight",
+  "summary": "Paradoxes open the song: a tortoise is milked and the stool cannot hold it, and a crocodile eats the tamarind of a tree; the refrain tells of a thief who takes the earring at midnight, while the father-in-law sleeps and the bride stays awake, afraid of a crow by day yet going to Kāmaru at night. Kukkurīpāda closes by saying that such conduct has entered one heart in ten million. Munidatta reads the images as twilight language for the yoga of the subtle body: the tortoise as the lotus of great bliss, the bride as the purified avadhūtī, the thief as innate joy or the clear light, and Kāmaru as the wheel of great bliss (cp.02.m2 to cp.02.m5).",
+  "lines": [
+    {
+      "id": "cp.02.h1",
+      "translit": "rāga gavaṛā",
+      "gloss": "rāga (melodic mode) · Gavaṛā (name of the rāga)",
+      "en": "[Rāga]{raga} [Gavaṛā]{gavara}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "gavara",
+          "src": "গবড়া"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan translation (Toh 2293) names the melody chen po, 'great' (chen po zhes bya ba'i glu'i gdangs so, 'it is the melody called Great'), not Gavaṛā; the English follows the Bengali. The machine transliteration gabaṛā is given as gavaṛā, the glossary's spelling (the script does not distinguish b and v). The heading names no poet: the attribution kukkurīpādānām, 'of Kukkurīpāda', was removed from line 1a and has not been added here (see questions)."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.1a",
+      "translit": "duli duhi piṭā dharaṇa na jāi",
+      "gloss": "tortoise · having milked · stool · holding · not · goes",
+      "en": "The [tortoise]{tortoise} milked, the [stool]{pitha} cannot hold it",
+      "terms": [
+        {
+          "id": "tortoise",
+          "src": "দুলি"
+        },
+        {
+          "id": "pitha",
+          "src": "পিটা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "high",
+          "note": "The syntax is loose: 'tortoise · having milked · stool · holding · not · goes'. I take the unexpressed milk as what cannot be held and the stool as what fails to hold it, which is how Munidatta's gloss runs: the milking, falling into the pīṭhaka, 'does not go to holding' (dharaṇaṃ na yāti, cp.02.m2). The Tibetan translation reads stegs bu gzung du med, 'the stand cannot be held', which would give 'The tortoise milked, the stool cannot be held'. 'it' is the one word the English adds, to supply the object."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "piṭā is rendered 'stool' (glossary pitha). Munidatta's pīṭhaka, 'little seat', and the Tibetan stegs bu, 'stand, platform', both point to a seat or stand. If piṭā were a vessel, the line would read 'the pail cannot hold it'."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.1b",
+      "translit": "rukhera tentali kumbhīre khāa ||",
+      "gloss": "of the tree · tamarind · by the crocodile · eats",
+      "en": "The [crocodile]{crocodile} eats the [tamarind]{tamarind} of the [tree]{tree}",
+      "terms": [
+        {
+          "id": "crocodile",
+          "src": "কুম্ভীরে"
+        },
+        {
+          "id": "tamarind",
+          "src": "তেন্তলি"
+        },
+        {
+          "id": "tree",
+          "src": "রুখের"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "kumbhīre is the agent case in -e, 'by the crocodile'; khāa may be active, 'eats', or passive, 'the tree's tamarind is eaten by the crocodile'. The sense is the same; the English uses the active."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.2a",
+      "translit": "āṅgana gharapaṇa suna bho biātī",
+      "gloss": "courtyard · house (second element -paṇa unclear) · listen · O · biātī",
+      "en": "The [courtyard]{courtyard} is in the [house]{house}: listen, [biātī]{biati}",
+      "terms": [
+        {
+          "id": "courtyard",
+          "src": "আঙ্গন"
+        },
+        {
+          "id": "house",
+          "src": "ঘরপণ"
+        },
+        {
+          "id": "biati",
+          "src": "বিআতী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "āṅgana gharapaṇa has no verb, and gharapaṇa is not clearly segmented. I follow the Tibetan translation, sgo bdun khang bzhugs ('seven doors', sgo bdun, is probably a slip for sgo mdun, 'before the door', the word its commentary uses): 'the courtyard stays in the house', a paradox like those of couplet 1. Alternatives: (a) -paṇa as the Apabhraṃśa abstract suffix (-ppaṇa, from Sanskrit -tvana), 'The courtyard has become the house'; (b) a bare pair, 'Courtyard and house'. Munidatta glosses the courtyard and then speaks of leading 'both' into the house (cp.02.m3), which does not settle the syntax."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "biātī is kept in source form (glossary biati, keep-source-first-gloss). The Tibetan renders it rigs ngan, 'low-born woman', which suggests Sanskrit vijātī; Munidatta spells it viātī. The vocative particle bho is carried by the comma of address rather than by 'O'."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.2b",
+      "translit": "kāneṭa cauri nila adharātī || dhru ||",
+      "gloss": "earring · thief · took · at midnight · (refrain cue, not translated)",
+      "en": "The [thief]{thief} took the [earring]{kaneta} at midnight",
+      "terms": [
+        {
+          "id": "thief",
+          "src": "চৌরি"
+        },
+        {
+          "id": "kaneta",
+          "src": "কানেট"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "kāneṭa is rendered 'earring' (glossary kaneta; kāna, 'ear'), but the literal sense is not certain and Munidatta does not give it. The Tibetan translation has mdo phugs khang logs, apparently 'the inner recess, the side of the house': a part of the house, not an ornament (here and in 3b)."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "cauri may be the agent case of cora, 'by the thief', or a feminine, 'the thief-woman'; the Tibetan rkun ma does not decide it (3b has core, plainly the agent). The English uses a neutral 'the thief'."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.3a",
+      "translit": "susurā nida gela bahuṛī jāgaa",
+      "gloss": "father-in-law · sleep · went · bride · wakes",
+      "en": "The [father-in-law]{father-in-law} has gone to sleep, the [bride]{bride} stays awake",
+      "terms": [
+        {
+          "id": "father-in-law",
+          "src": "সুসুরা"
+        },
+        {
+          "id": "bride",
+          "src": "বহুড়ী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation has sgyug mo, 'mother-in-law', here (sgyug mo gnyid song mna' ma gnyid med gyur, 'the mother-in-law went to sleep, the bride became sleepless') and in its commentary. The Bengali susurā and Munidatta's sasurā mean 'father-in-law'; the English follows the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.3b",
+      "translit": "kāneṭa core nila kā gai māgaa || dhru ||",
+      "gloss": "earring · by the thief · took · where · having gone · asks · (refrain cue, not translated)",
+      "en": "The [thief]{thief} took the [earring]{kaneta}: where can she go to ask?",
+      "terms": [
+        {
+          "id": "thief",
+          "src": "চোরে"
+        },
+        {
+          "id": "kaneta",
+          "src": "কানেট"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The subject of māgaa is unexpressed; I supply 'she', the bride of 3a. kā is taken as 'where' (Munidatta's paraphrase has kvāpi, 'anywhere', and the Tibetan gang du, 'where'); 'whom' is also possible ('whom can she go and ask?'). māgaa is 'asks for, begs'; the Tibetan has tshol, 'seek' ('where to look for it?'). In Munidatta (cp.02.m4) the one who asks for nothing is the lord of yogis, not the bride."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.4a",
+      "translit": "divasai bahuṛī kāṛai ḍare bhāa",
+      "gloss": "by day · bride · crow (?) · in fear · is afraid",
+      "en": "By day the [bride]{bride} is afraid of a [crow]{crow}",
+      "terms": [
+        {
+          "id": "bride",
+          "src": "বহুড়ী"
+        },
+        {
+          "id": "crow",
+          "src": "কাড়ই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "'crow' for kāṛai rests on the Tibetan translation (bya rog, in the line and in the commentary); the Old Bengali word is otherwise uncertain and might be parsed differently, and Munidatta quotes it without a Sanskrit equivalent. The relation 'afraid of' is inferred from the context and from Munidatta's gloss."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan reads nyin mo mna' ma bya rog mthong bas 'jig, 'by day the bride is frightened by seeing a crow', adding 'seeing'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "ḍare bhāa, 'in fear · is afraid', doubles the fear (Munidatta: vibheti santrastā bhavati, 'is afraid, becomes terrified'); the English says it once. The machine transliteration dibasai is corrected to divasai (Sanskrit divasa, 'day'), the form Munidatta quotes."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.4b",
+      "translit": "rāti bhaile kāmaru jāa || dhru ||",
+      "gloss": "night · having become · Kāmaru · goes · (refrain cue, not translated)",
+      "en": "When night comes she goes to [Kāmaru]{pl-kamaru}",
+      "terms": [
+        {
+          "id": "pl-kamaru",
+          "src": "কামরু"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.02.5a",
+      "translit": "aisana caryā kukkurīpāem̐ gāiṛa",
+      "gloss": "such · conduct (caryā) · by Kukkurīpā · sung",
+      "en": "Such is the [conduct]{carya} [Kukkurīpāda]{p-kukkuri} has sung",
+      "terms": [
+        {
+          "id": "carya",
+          "src": "চর্য্যা"
+        },
+        {
+          "id": "p-kukkuri",
+          "src": "কুক্কুরীপাএঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "caryā is rendered 'conduct' (glossary carya), as Munidatta takes it ('such conduct, utterly free of elaboration', cp.02.m6). The Tibetan translation of the line has glu, 'song' ('this song of this kind Kukkuripa sang'), taking caryā as the song form. The poet's own form of his name is Kukkurīpā (instrumental kukkurīpāem̐); the English uses the glossary's Kukkurīpāda."
+        }
+      ]
+    },
+    {
+      "id": "cp.02.5b",
+      "translit": "koṛi majhem̐ ekuṛi ahim̐ sanāiṛa || dhru ||",
+      "gloss": "ten million · among · one · in the heart (?) · entered (?) · (refrain cue, not translated)",
+      "en": "Among ten million, it has entered one heart",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "ahim̐ and sanāiṛa are doubtful. 'heart' follows Munidatta (ekayogihṛdaye, 'in the heart of one yogi') and the Tibetan (snying); ahim̐ may stand for hiahim̐, 'in the heart'. sanāiṛa is read as samāiṛa, 'entered, was contained' (Munidatta antarbhavati, Tibetan 'jug), taking ন as a slip for ম. The transliteration keeps Shastri's reading."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "The Bengali reads as a statement. The Tibetan makes it a question (bye ba'i nang na gcig snying 'jug srid dam, 'among ten million, could it enter one heart?'), and Munidatta a conditional ('if, among ten million yogis, it enters the heart of one', cp.02.m6). ekuṛi is taken as 'one', like eku in the verse of Kṛṣṇācārya that Munidatta quotes (koṛia majhem̐ eku); Bengali kuṛi, 'a score', would allow 'one score', which nothing supports. 'it' is the conduct of 5a."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.02.h1",
+      "kind": "philology",
+      "text": "rāga: a melodic mode of Indian music. Each song is headed by the rāga to which it is sung; this one is sung to Gavaṛā.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.h1",
+      "kind": "witness",
+      "text": "Shastri's edition prints the attribution kukkurīpādānām, 'of Kukkurīpāda', before the song, run into its first line; it has been removed from line 1a as not part of the verse. The heading itself names only the rāga. The Tibetan translation (Toh 2293) calls the melody chen po, 'great', instead of Gavaṛā; why is unclear.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song as Kukkurīpāda's setting out, in [twilight language]{sandhya-bhasa}, of 'that same king, [great bliss]{mahasukha}', his mind delighted by drinking the liquor of his own bliss.",
+      "cites": [
+        "cp.02.m1"
+      ]
+    },
+    {
+      "anchor": "cp.02.1",
+      "kind": "imagery",
+      "text": "The couplet opens with two impossibilities: a tortoise is milked, and a crocodile, a river animal, eats the fruit of a tree. The stool belongs to the milking scene, a low seat or stand, which is how Munidatta (pīṭhaka) and the Tibetan translation (stegs bu) understand piṭā. Tamarind pods are long, curved and sour.",
+      "cites": [
+        "cp.02.m2"
+      ]
+    },
+    {
+      "anchor": "cp.02.1a",
+      "kind": "philology",
+      "text": "duli is rendered 'tortoise' on the strength of the Tibetan translation, which has rus sbal in the line (rus sbal 'jo zhing, 'milking the tortoise') and in its commentary; Munidatta treats the word as twilight language and gives no Sanskrit equivalent. duhi is the absolutive, 'having milked'; dharaṇa na jāi, literally 'holding does not go', means 'cannot be held'.",
+      "cites": [
+        "cp.02.m2"
+      ]
+    },
+    {
+      "anchor": "cp.02.1",
+      "kind": "doctrine",
+      "text": "Munidatta takes duli, 'in the convention of twilight language', as the lotus of great bliss 'in which the dual aspect has dissolved', hearing in the word du- (dvaya, 'two') and -li (līna, 'dissolved'). The Tibetan commentary spells out the division, though its du ni gnyid kyi rnam pa, 'du is the aspect of sleep', looks like a slip of gnyid for gnyis, 'two'. The milking is conventional [bodhicitta]{bodhicitta}, drawn out through the sequence of joys in union with a [karmamudrā]{karmamudra}; having travelled the path of the [avadhūtī]{avadhuti}, it falls into the stool, which he calls the [vajra jewel]{vajramani}, and cannot be held: novice yogis are unable to hold it. He supports this with a verse of Kṛṣṇācārya on something hard to hold and hard to fathom.",
+      "cites": [
+        "cp.02.m2"
+      ]
+    },
+    {
+      "anchor": "cp.02.1b",
+      "kind": "doctrine",
+      "text": "Munidatta says that lords of yogis formed in the succession of the guru lineage know the fruit of the body-tree (kāyavṛkṣa) to be that same bodhicitta, crooked like a tamarind pod (the Sanskrit sentence lacks its verb; the Tibetan supplies shes, 'know'). The crocodile (kumbhīra) is the samādhi of [kumbhaka]{kumbhaka}, breath retention, purified by [vilakṣaṇa]{vilaksana}: with it, and by the stages of their own experience, they 'eat' bodhicitta, which he explains as making it [without intrinsic nature]{nihsvabhava}. The link between kumbhīra and kumbhaka is one of sound.",
+      "cites": [
+        "cp.02.m2"
+      ]
+    },
+    {
+      "anchor": "cp.02.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation reads bse yab ljon pa'i 'bras bu chu srin za, 'the chu srin (a water monster) eats the fruit of the bse yab tree': it makes the fruit's name the tree's and adds 'fruit'. What fruit bse yab names is uncertain.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.2a",
+      "kind": "philology",
+      "text": "biātī: a word of uncertain sense, addressed to a woman in the refrain. The Tibetan translation renders it rigs ngan, 'low-born woman', which suggests Sanskrit vijātī, 'of other (low) birth'; Munidatta spells it viātī. The source form is kept.",
+      "cites": [
+        "cp.02.m3"
+      ]
+    },
+    {
+      "anchor": "cp.02.2a",
+      "kind": "philology",
+      "text": "āṅgana is the open courtyard of a house (Sanskrit aṅgana). gharapaṇa contains ghara, 'house'; its second element is unclear. The English follows the Tibetan translation's khang bzhugs, 'stays in the house'. Its sgo bdun, 'seven doors', is probably a slip for sgo mdun, 'before the door', the word its commentary uses for the courtyard.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.2",
+      "kind": "imagery",
+      "text": "The refrain sets a household scene: the courtyard, the house, and a thief who takes an ear ornament at midnight while the household sleeps. It is sung again after each later couplet, and couplet 3 repeats its first half, so the theft returns throughout the song.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.2",
+      "kind": "doctrine",
+      "text": "Munidatta says the refrain makes the teaching firm. He reads the courtyard as the wind of [emergence]{vyutthana} and, figuratively, entering (the wording is obscure; the Tibetan has 'entering, with reference to the wind of arising'). biātī is the purified avadhūtī: the [lord of yogis]{yogindra}, having resolved on its form in himself, says, 'O purified avadhūtī, listen: first, by the instruction in [vajra recitation]{vajrajapa}, lead both into the house of the avadhūtī of the [joy of cessation]{viramananda}' (the Tibetan has sna tshogs pa'i dga' ba, 'joy of variety', here). In that house, at midnight, the fourth juncture (caturthī sandhyā), the earring, which he calls the 'wealth' (vibhava) of the faults of the winds beginning with entering, is stolen by the thief, [innate joy]{sahajananda}.",
+      "cites": [
+        "cp.02.m3"
+      ]
+    },
+    {
+      "anchor": "cp.02.2b",
+      "kind": "philology",
+      "text": "kāneṭa is taken as an ear ornament (kāna, 'ear'); the literal sense is not certain, and Munidatta repeats the word without explaining it. The Tibetan translation renders it mdo phugs khang logs, apparently 'the inner recess, the side of the house', a part of the house rather than an ornament, both here and in 3b. adharātī is Sanskrit ardharātri, 'midnight'.",
+      "cites": [
+        "cp.02.m3",
+        "cp.02.m4"
+      ]
+    },
+    {
+      "anchor": "cp.02.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation has the mother-in-law (sgyug mo), not the father-in-law, fall asleep, in the song and in its commentary; the Bengali susurā and Munidatta's sasurā are 'father-in-law'. Its second half reads mna' ma gnyid med gyur, 'the bride became sleepless'.",
+      "cites": [
+        "cp.02.m4"
+      ]
+    },
+    {
+      "anchor": "cp.02.3",
+      "kind": "imagery",
+      "text": "A young wife lives in her husband's family home under its elders. Here the father-in-law sleeps while she keeps awake, and the refrain's theft of the earring is told again.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.3",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet the second pada, restating the same sense. The father-in-law is the breath, beginning with the 'swift' (tvarita), led into [yogic sleep]{yoganidra}, the fourth joy (the Tibetan: 'the yogic sleep of the joy of peace'). The wakeful bride is the yoginīs, who, in the form of the naturally purified avadhūtī, keep awake day and night, having shaken off (dhutvā) the conceptual thought of beginningless existence; he draws 'shaken off' from the word avadhūtī itself, 'by the twilight sense of the word'. The thief is now the [clear light]{prabhasvara}: when it has carried off the fault of the winds beginning with entering, the grasped and the rest are absent, and the lord of yogis asks for nothing anywhere in the ten directions. In the comment on the refrain the thief was innate joy; the two identifications are left as they stand.",
+      "cites": [
+        "cp.02.m3",
+        "cp.02.m4"
+      ]
+    },
+    {
+      "anchor": "cp.02.3b",
+      "kind": "philology",
+      "text": "kā is taken as 'where' and māgaa as 'asks (for)' (compare Sanskrit mārgayati); the Tibetan translation reads gang du tshol, 'where to seek?'. Munidatta's paraphrase, that the lord of yogis 'asks for nothing anywhere in the ten directions' (kvāpi kiñcin na prārthayati), also takes the verb as asking.",
+      "cites": [
+        "cp.02.m4"
+      ]
+    },
+    {
+      "anchor": "cp.02.4a",
+      "kind": "philology",
+      "text": "'crow' for kāṛai rests on the Tibetan translation, which has bya rog in the line and in its commentary; Munidatta quotes kāṛai without a Sanskrit equivalent. ḍare bhāa, 'in fear · is afraid', doubles the fear; Munidatta has vibheti santrastā bhavati, 'is afraid, becomes terrified'. divasai is 'by day' (Sanskrit divasa).",
+      "cites": [
+        "cp.02.m5"
+      ]
+    },
+    {
+      "anchor": "cp.02.4a",
+      "kind": "witness",
+      "text": "The Tibetan translation reads nyin mo mna' ma bya rog mthong bas 'jig, 'by day the bride is frightened by seeing a crow', adding 'seeing'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.4",
+      "kind": "imagery",
+      "text": "The couplet sets the bride's timidity by day, when even a crow frightens her, against her going at night to Kāmaru: Kāmarūpa, in the Brahmaputra valley of present-day Assam, a distant land known in tantric tradition as a seat of the goddess and of adepts. The Tibetan transcribes the name (kA ma rU).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.02.4",
+      "kind": "doctrine",
+      "text": "Munidatta reads the couplet as praising the two truths through a distinction within the purified avadhūtī. By day: according to differences of disposition, beginning with the weak, the avadhūtī, conventionally in the form of semen, creates the [three worlds]{trailokya} and then of itself produces the knowledge of day and the rest; so, 'kāṛai', it is afraid of the kāyakālapuruṣa, perhaps 'the Man of Time in the body' (the Tibetan: 'is terrified by the Man of Time'). A scriptural verse follows: as a painter who draws a terrifying [yakṣa]{yaksa} is frightened by it himself, so is the fool in [saṃsāra]{samsara}. By night: the naturally purified avadhūtī, through [wisdom-knowledge]{prajnajnana}, empowers the five [aggregates]{skandha} and the rest and, 'Kāmaru', goes of itself, free of concepts, to its own place in the [wheel of great bliss]{mahasukha-cakra}; a verse on the innate wind freed from the net of concepts follows.",
+      "cites": [
+        "cp.02.m5"
+      ]
+    },
+    {
+      "anchor": "cp.02.4",
+      "kind": "witness",
+      "text": "Shastri's text opens this comment with dvitīya-, 'second', where the Tibetan translation has rkang pa gsum pa, 'the third pada', which is what Munidatta's count requires after he has called couplet 3 the second pada; the Sanskrit may be corrupt here.",
+      "cites": [
+        "cp.02.m4",
+        "cp.02.m5"
+      ]
+    },
+    {
+      "anchor": "cp.02.5a",
+      "kind": "philology",
+      "text": "The bhaṇitā: the poet names himself Kukkurīpā, in the instrumental kukkurīpāem̐, 'by Kukkurīpā'; the English uses the glossary's Kukkurīpāda. gāiṛa is the past participle, 'sung'. The Tibetan translation renders caryā as glu, 'song' ('this song of this kind Kukkuripa sang'), while Munidatta takes it as conduct.",
+      "cites": [
+        "cp.02.m6"
+      ]
+    },
+    {
+      "anchor": "cp.02.5",
+      "kind": "doctrine",
+      "text": "Munidatta says the last couplet shows how extremely rare this is. 'Such conduct' is conduct utterly free of [elaboration]{prapanca}, the lord of yogis' way of abiding, roaming and the rest, told by Kukkurīpāda himself; the second line means 'if, among ten million yogis, it enters the heart of one'. He quotes Kṛṣṇācārya: people swell with pride, thinking themselves skilled in the ultimate, but among ten million, perhaps one becomes absorbed in [the stainless]{niranjana} (the verse phrases this as a condition, 'if one').",
+      "cites": [
+        "cp.02.m6"
+      ]
+    },
+    {
+      "anchor": "cp.02.5b",
+      "kind": "philology",
+      "text": "ahim̐ is rendered 'heart' after Munidatta (hṛdaye) and the Tibetan translation (snying); it may stand for hiahim̐, 'in the heart'. sanāiṛa is read as samāiṛa, 'entered, was contained' (Munidatta antarbhavati, Tibetan 'jug). ekuṛi is taken as 'one', like eku in the verse of Kṛṣṇācārya that Munidatta quotes (koṛia majhem̐ eku). koṛi is a koṭi, ten million.",
+      "cites": [
+        "cp.02.m6"
+      ]
+    },
+    {
+      "anchor": "cp.02.5b",
+      "kind": "witness",
+      "text": "The Tibetan translation turns the line into a question: bye ba'i nang na gcig snying 'jug srid dam, 'among ten million, could it enter one heart?'. The Bengali reads as a statement, and the English keeps it so.",
+      "cites": []
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "pasara",
+      "line": "cp.02.1a",
+      "reason": "Detected only in the Tibetan (stegs bu), where it renders piṭā, marked as pitha ('stool'); pasārā, 'wares', does not occur in the Bengali line."
+    },
+    {
+      "id": "sasu",
+      "line": "cp.02.3a",
+      "reason": "Detected only in the Tibetan (sgyug mo, 'mother-in-law'); the Bengali has susurā, marked as father-in-law. The divergence is flagged and noted."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "ardharatri",
+      "type": "term",
+      "en": "midnight",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অধরাতী",
+          "translit": "adharātī",
+          "lemma": "adharāti",
+          "att": "AS",
+          "where": "cp.02.2b"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরর্দ্ধরাত্রৌ",
+          "translit": "punararddharātrau",
+          "lemma": "ardharātri",
+          "att": "AS",
+          "where": "cp.02.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་ཕྱེད",
+          "translit": "nam phyed",
+          "lemma": "nam phyed",
+          "att": "AO",
+          "where": "cp.02.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অধরাতী"
+        },
+        {
+          "lang": "san",
+          "form": "পুনরর্দ্ধরাত্রৌ"
+        },
+        {
+          "lang": "san",
+          "form": "অর্দ্ধরাত্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་ཕྱེད"
+        }
+      ],
+      "definition": "Midnight (Old Bengali adharātī, Sanskrit ardharātri, 'half of the night'). In the refrain of song 2 the thief takes the earring at midnight. Munidatta sets it beside 'the fourth juncture' (caturthī sandhyā); the empowerment entry records a midnight empowerment in his comment on song 1.",
+      "symbolicImage": "midnight, when the thief takes the earring",
+      "symbolicReadings": [
+        {
+          "referent": "the fourth juncture (caturthī sandhyā), named in apposition to midnight: the time, in the house of the avadhūtī of the joy of cessation, when the thief, innate joy, steals the 'wealth' of the faults of the winds",
+          "per": "Munidatta",
+          "where": [
+            "cp.02.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "fourth juncture",
+        "juncture",
+        "sandhyā"
+      ],
+      "rationale": "The refrain's time word, which Munidatta reads technically; midnight also figures in his comment on song 1 (see the empowerment entry), so one entry can serve both."
+    },
+    {
+      "id": "vyutthana",
+      "type": "term",
+      "en": "emergence",
+      "policy": "translate",
+      "alt": [
+        "arising"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ব্যুত্থানবাতমুৎপ্রেক্ষাপ্রবেশঞ্চ",
+          "translit": "vyutthānavātam utprekṣāpraveśañ ca",
+          "lemma": "vyutthāna",
+          "att": "AS",
+          "where": "cp.02.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འབྱུང་བའི་རླུང",
+          "translit": "'byung ba'i rlung",
+          "lemma": "'byung ba",
+          "att": "AO",
+          "where": "cp.02.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ব্যুত্থান"
+        },
+        {
+          "lang": "bod",
+          "form": "འབྱུང་བའི་རླུང"
+        }
+      ],
+      "definition": "Emergence or rising (vyutthāna): in yoga, coming out of absorption; in breath practice apparently the outgoing phase of the breath, paired with entering (praveśa). Munidatta reads the courtyard of song 2's refrain as the wind of emergence, together with entering (cp.02.m3); the Tibetan has 'byung ba'i rlung, 'wind of arising'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of breath yoga in Munidatta's glosses, paired with 'the winds beginning with entering' (cp.02.m3, cp.02.m4); an entry keeps its rendering consistent in the woven commentary."
+    }
+  ],
+  "questions": [
+    "Heading: Shastri's heading names only the rāga, and the attribution kukkurīpādānām was removed from 1a. The brief's example ('Rāga Paṭamañjarī · Lūyīpāda') includes the poet. Should the heading read 'Rāga Gavaṛā · Kukkurīpāda'? I left the name out because the heading's source line does not contain it.",
+    "2a: I rendered āṅgana gharapaṇa as 'The courtyard is in the house', following the Tibetan khang bzhugs. Would you prefer 'The courtyard has become the house' (-paṇa as the abstract suffix) or the bare pair 'Courtyard and house'?",
+    "1a: is 'The tortoise milked, the stool cannot hold it' acceptable, with 'it' added for the unexpressed milk (Munidatta's construal)? The Tibetan would give 'the stool cannot be held'.",
+    "kāneṭa: keep the glossary's 'earring' though the Tibetan (mdo phugs khang logs) seems to name a part of the house? If the reading is too uncertain, a vaguer word ('ornament') is possible.",
+    "5b: may the line rest on reading sanāiṛa as samāiṛa ('entered') and ahim̐ as 'in the heart', on the evidence of Munidatta and the Tibetan?",
+    "p-kukkuri: the bhaṇitā has Kukkurīpā (kukkurīpāem̐), not Kukkurīpāda. Should 'Kukkurīpā' be added as a variant so the self-naming can stand in the poet's own form?",
+    "5a: 'conduct' (glossary carya) makes the bhaṇitā read 'Such is the conduct Kukkurīpāda has sung'. Keep it, or would you accept a rendering that treats caryā as the song form, as the Tibetan glu does?",
+    "2a: the vocative bho is not rendered ('listen, biātī'). Do you want 'O' kept?",
+    "Title: 'The Thief at Midnight' comes from the refrain, which is sung after every couplet; 'Milking the Tortoise' is the alternative if you prefer the opening image."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-09-27",
+    "packSha": "55e6309251da938447e8d324184d2d6e92723869a61138d672f1f20f9a1bc1fa",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "f1502f0bb5e1f26a52d3364cfd643246210835a30e1278d7ddfb1ad7e342b438",
+    "sourceSha": "aa71ff0a8de6a913f79273169fda510a46a19880f282dfc732bf8bd663f7bd21"
+  }
+}

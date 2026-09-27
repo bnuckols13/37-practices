@@ -633,6 +633,81 @@
       }
     },
     {
+      "id": "ardharatri",
+      "type": "term",
+      "status": "proposed",
+      "en": "midnight",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অধরাতী",
+          "translit": "adharātī",
+          "lemma": "adharāti",
+          "att": "AS",
+          "where": "cp.02.2b"
+        },
+        {
+          "lang": "san",
+          "script": "পুনরর্দ্ধরাত্রৌ",
+          "translit": "punararddharātrau",
+          "lemma": "ardharātri",
+          "att": "AS",
+          "where": "cp.02.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་ཕྱེད",
+          "translit": "nam phyed",
+          "lemma": "nam phyed",
+          "att": "AO",
+          "where": "cp.02.2b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অধরাতী"
+        ],
+        "san": [
+          "পুনরর্দ্ধরাত্রৌ",
+          "অর্দ্ধরাত্র"
+        ],
+        "bod": [
+          "ནམ་ཕྱེད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Midnight (Old Bengali adharātī, Sanskrit ardharātri, 'half of the night'). In the refrain of song 2 the thief takes the earring at midnight. Munidatta sets it beside 'the fourth juncture' (caturthī sandhyā); the empowerment entry records a midnight empowerment in his comment on song 1.",
+      "symbolic": {
+        "image": "midnight, when the thief takes the earring",
+        "readings": [
+          {
+            "referent": "the fourth juncture (caturthī sandhyā), named in apposition to midnight: the time, in the house of the avadhūtī of the joy of cessation, when the thief, innate joy, steals the 'wealth' of the faults of the winds",
+            "per": "Munidatta",
+            "where": [
+              "cp.02.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "fourth juncture",
+        "juncture",
+        "sandhyā"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "aru",
       "type": "term",
       "status": "proposed",
@@ -1758,6 +1833,86 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "cihna",
+      "type": "term",
+      "status": "proposed",
+      "en": "sign",
+      "alt": [
+        "mark"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চিহ্ন",
+          "translit": "cihna",
+          "lemma": "cihna",
+          "att": "AS",
+          "where": "cp.03.3a"
+        },
+        {
+          "lang": "san",
+          "script": "মহারাগসুখপ্রমোদচিহ্নং",
+          "translit": "mahārāgasukhapramodacihnaṃ",
+          "lemma": "cihna",
+          "att": "AS",
+          "where": "cp.03.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟགས",
+          "translit": "rtags",
+          "lemma": "rtags",
+          "att": "AO",
+          "where": "cp.03.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟགས",
+          "translit": "rtags",
+          "lemma": "rtags",
+          "att": "AO",
+          "where": "cp.03.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চিহ্ন"
+        ],
+        "san": [
+          "চিহ্ন"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A sign or mark (Sanskrit cihna). In song 3 a sign is seen at the tenth door and a customer comes, perhaps like the sign that advertised a liquor shop. Munidatta speaks of the sign of the delight of the bliss of great passion seen at the door of Vairocana (cp.03.m4). The Tibetan translation has rtags.",
+      "symbolic": {
+        "image": "a sign seen at the tenth door",
+        "readings": [
+          {
+            "referent": "the sign of the delight of the bliss of great passion (mahārāgasukhapramodacihna), which the gandharva being sees at the door of Vairocana before it enters",
+            "per": "Munidatta",
+            "where": [
+              "cp.03.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "great passion",
+        "bliss of great passion"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },
@@ -10258,6 +10413,94 @@
       }
     },
     {
+      "id": "sthira",
+      "type": "term",
+      "status": "proposed",
+      "en": "steady",
+      "alt": [
+        "stable"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "থির",
+          "translit": "thira",
+          "lemma": "thira",
+          "att": "AS",
+          "where": "cp.03.2a, cp.03.5b"
+        },
+        {
+          "lang": "san",
+          "script": "স্থিরীকৃত্য",
+          "translit": "sthirīkṛtya",
+          "lemma": "sthira",
+          "att": "AS",
+          "where": "cp.03.m3"
+        },
+        {
+          "lang": "san",
+          "script": "স্থৈর্য্যং",
+          "translit": "sthairyyaṃ",
+          "lemma": "sthairya",
+          "att": "AS",
+          "where": "cp.03.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟན",
+          "translit": "brtan",
+          "lemma": "brtan pa",
+          "att": "AO",
+          "where": "cp.03.2a, cp.03.5b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "থির"
+        ],
+        "san": [
+          "স্থির"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Steady, still (Old Bengali thira, Sanskrit sthira): in the siddhas' songs, often the steadiness a yogi gives to mind, breath or vital essence so that it neither wavers nor falls. In song 3 the refrain and the last couplet both speak of making something steady; Munidatta names innate joy (cp.03.m3) and the unfallen bodhicitta (cp.03.m5).",
+      "symbolic": {
+        "image": "making something steady (the object is unstated in the song)",
+        "readings": [
+          {
+            "referent": "innate joy, made steady through the joy of cessation by the grace of the vajra guru",
+            "per": "Munidatta",
+            "where": [
+              "cp.03.m3"
+            ]
+          },
+          {
+            "referent": "the unfallen bodhicitta, made steady through the channel of semen and moved without waves",
+            "per": "Munidatta",
+            "where": [
+              "cp.03.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "innate joy",
+        "semen"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
+        }
+      }
+    },
+    {
       "id": "sukranadika",
       "type": "term",
       "status": "proposed",
@@ -13082,6 +13325,59 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "vyutthana",
+      "type": "term",
+      "status": "proposed",
+      "en": "emergence",
+      "alt": [
+        "arising"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ব্যুত্থানবাতমুৎপ্রেক্ষাপ্রবেশঞ্চ",
+          "translit": "vyutthānavātam utprekṣāpraveśañ ca",
+          "lemma": "vyutthāna",
+          "att": "AS",
+          "where": "cp.02.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འབྱུང་བའི་རླུང",
+          "translit": "'byung ba'i rlung",
+          "lemma": "'byung ba",
+          "att": "AO",
+          "where": "cp.02.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "ব্যুত্থান"
+        ],
+        "bod": [
+          "འབྱུང་བའི་རླུང"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Emergence or rising (vyutthāna): in yoga, coming out of absorption; in breath practice apparently the outgoing phase of the breath, paired with entering (praveśa). Munidatta reads the courtyard of song 2's refrain as the wind of emergence, together with entering (cp.02.m3); the Tibetan has 'byung ba'i rlung, 'wind of arising'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-09-27"
         }
       }
     },

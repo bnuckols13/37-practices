@@ -1,0 +1,1690 @@
+{
+  "unit": "cp.50",
+  "proposals": [
+    {
+      "id": "taila",
+      "type": "term",
+      "en": "hill",
+      "policy": "translate",
+      "alt": [
+        "upland",
+        "high ground"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তইলা",
+          "translit": "tailā",
+          "lemma": "tailā",
+          "att": "AS",
+          "where": "cp.50.1a"
+        },
+        {
+          "lang": "san",
+          "script": "তইলা",
+          "translit": "tailā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তইলা"
+        },
+        {
+          "lang": "san",
+          "form": "তইলা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An Old Bengali word of uncertain sense, joined each time to bāṛī, 'field', in song 50, where cotton blooms and millet ripens. 'Hill' or 'upland' is a guess from the setting among the hill-dwelling Śabaras. The Tibetan gives tailā bāṛī simply as ldum ra, 'garden'; Munidatta seems to hear tṛtīya, 'third'.",
+      "symbolicImage": "the Śabara's tailā field",
+      "symbolicReadings": [
+        {
+          "referent": "the third, greatly empty (mahāśūnya): after the doubled sky, read as the empty and the very empty, 'the field attached to it' (tallagnavaṭikā, apparently his rendering of tailā bāḍhī), by twilight language (sandhyayā), is the third, great emptiness; the Tibetan comment has gsum pa stong pa chen po",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m2"
+          ]
+        },
+        {
+          "referent": "the third emptiness (tṛtīyaśūnya): 'beside the tailā field' (4a) is glossed 'beside the third emptiness' (tṛtīyaśūnyapārśve); the Tibetan comment has stong pa gsum pa",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "third",
+        "third emptiness",
+        "great emptiness",
+        "greatly empty",
+        "emptiness"
+      ],
+      "rationale": "The tailā field is the setting of the whole song and Munidatta reads it as the third emptiness, so the word needs an entry; 'hill' is only a plain guess at an uncertain word, and the reviewer may prefer to keep tailā in source form."
+    },
+    {
+      "id": "bari",
+      "type": "term",
+      "en": "field",
+      "policy": "translate",
+      "alt": [
+        "garden",
+        "plot"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাড়ী",
+          "translit": "bāṛī",
+          "lemma": "bāṛī",
+          "att": "AS",
+          "where": "cp.50.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "বাড়ির",
+          "translit": "bāṛira",
+          "lemma": "bāṛī",
+          "att": "AS",
+          "where": "cp.50.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "বাড্‌হী",
+          "translit": "bāḍhī",
+          "lemma": "bāṛī",
+          "att": "AS",
+          "where": "cp.50.1a"
+        },
+        {
+          "lang": "san",
+          "script": "বাড়ীতি",
+          "translit": "bāṛīti",
+          "lemma": "bāṛī",
+          "att": "AS",
+          "where": "cp.50.m5"
+        },
+        {
+          "lang": "san",
+          "script": "জোহ্নবাটিকেতি",
+          "translit": "johnavāṭiketi",
+          "lemma": "vāṭikā",
+          "att": "AS",
+          "where": "cp.50.m5"
+        },
+        {
+          "lang": "san",
+          "script": "তল্লগ্নবটিকাসন্ধ্যয়া",
+          "translit": "tallagnavaṭikāsandhyayā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྡུམ་ར",
+          "translit": "ldum ra",
+          "lemma": "ldum ra",
+          "att": "AO",
+          "where": "cp.50.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྡུམ་རའི",
+          "translit": "ldum ra'i",
+          "lemma": "ldum ra",
+          "att": "AO",
+          "where": "cp.50.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাড়ী"
+        },
+        {
+          "lang": "oben",
+          "form": "বাড়ির"
+        },
+        {
+          "lang": "oben",
+          "form": "বাড্‌হী"
+        },
+        {
+          "lang": "san",
+          "form": "বাড়ী"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྡུམ་ར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A field or garden plot (Old Bengali bāṛī; modern Bengali bāṛi means 'homestead'): the Śabara's patch, where cotton blooms and kaṅgu millet ripens. Munidatta renders it vāṭikā, 'garden, enclosure' (cp.50.m5); the Tibetan has ldum ra, 'garden'. In 1a the spelling bāḍhī may instead mean 'grown', since the Tibetan line has son pa there.",
+      "symbolicImage": "the Śabara's field",
+      "symbolicReadings": [
+        {
+          "referent": "the avadhūtī, the central channel: 'my tailā field' (3a) is glossed 'my third avadhūtikā' (mama tṛtīyā avadhūtikā, printed tṛtīyāvidhūtakā); the Tibetan comment agrees (bdag gi ldum ra ... bdag gi gsum pa a wa d+hU tI pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m4"
+          ]
+        },
+        {
+          "referent": "the rising of the disc of the moon of knowledge (jñānendumaṇḍala): 'the moonlight field' (johnavāṭikā, 4a), beside the third emptiness, is glossed as the moment that moon rises, when the darkness of the afflictions flees; the Tibetan comment has 'the moon rising' (zla ba shar ba)",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "avadhūtī",
+        "central channel",
+        "channel",
+        "moon of knowledge",
+        "emptiness"
+      ],
+      "rationale": "The field is the song's central image and Munidatta reads it twice, so it needs an entry; 'field' suits a plot where cotton and millet grow, with 'garden', the sense of the Tibetan and of Munidatta's vāṭikā, as a variant."
+    },
+    {
+      "id": "karpasa",
+      "type": "term",
+      "en": "cotton",
+      "policy": "translate",
+      "alt": [
+        "cotton plant"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কপাসু",
+          "translit": "kapāsu",
+          "lemma": "kapāsa",
+          "att": "AS",
+          "where": "cp.50.3b"
+        },
+        {
+          "lang": "san",
+          "script": "কপাসমিতি",
+          "translit": "kapāsam iti",
+          "lemma": "karpāsa",
+          "att": "AS",
+          "where": "cp.50.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རས་བལ",
+          "translit": "ras bal",
+          "lemma": "ras bal",
+          "att": "AO",
+          "where": "cp.50.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་པཱ་ས",
+          "translit": "ka pA sa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কপাস"
+        },
+        {
+          "lang": "san",
+          "form": "কপাস"
+        },
+        {
+          "lang": "bod",
+          "form": "རས་བལ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀ་པཱ་ས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The cotton plant or its bolls (Old Bengali kapāsu, Sanskrit karpāsa; Tibetan ras bal), grown in the Śabara's field; in song 50 (3b) the cotton has burst into bloom. Munidatta splits the word as ka-pāsa, 'beside ka', that is, the letter kha (cp.50.m4). Compare tūla, raw cotton being carded (tula).",
+      "symbolicImage": "the cotton bursting into bloom in the field",
+      "symbolicReadings": [
+        {
+          "referent": "the fourth emptiness, now made manifest (sphuṭībhūta) to him: kapāsa is taken as 'beside ka' (pāsa as pārśva), that is, the letter kha, which stands next to ka; the Tibetan comment agrees (ka yig gi rtsa bar 'jug pa ni kha yig ste stong pa bzhi pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "letter kha",
+        "kha",
+        "fourth emptiness",
+        "emptiness",
+        "clear light"
+      ],
+      "rationale": "Cotton is a new image with an explicit letter-play reading in cp.50.m4; it gets its own entry rather than a form under tula because the word and the reading differ, and its literal keeps kapāsu, which is not a noose, with cotton."
+    },
+    {
+      "id": "kangu",
+      "type": "term",
+      "en": "millet",
+      "policy": "translate",
+      "alt": [
+        "foxtail millet"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কঙ্গুরি",
+          "translit": "kaṅguri",
+          "lemma": "kaṅgu",
+          "att": "AS",
+          "where": "cp.50.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཾ་གུ་ཙ",
+          "translit": "kaM gu tsa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཾ་གུ་ཙ་ན",
+          "translit": "kaM gu tsa na",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কঙ্গু"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀཾ་གུ་ཙ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Kaṅgu, foxtail millet (Sanskrit kaṅgu), a hardy grain of dry upland fields, the crop of the Śabara's field in song 50 (5a). The Tibetan transcribes kaM gu tsa, and in the comment kaM gu tsa na, perhaps kaṅgu-cīnā, two millets; if so, the Bengali nā may belong to the word rather than negate 'ripened'.",
+      "symbolicImage": "the millet ripening in the field",
+      "symbolicReadings": [
+        {
+          "referent": "'the fourth' (emptiness or joy; the comment says only 'the fourth'): the form of unarisen, natural clear light, which by the guru's grace the excellent yogin conceives as the two become one; the Tibetan comment cites the word (kaM gu tsa na zhes pa ni bzhi pa skye ba med pa ...), while the Sanskrit begins 'of the fourth' (caturthasya) without quoting it",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "fourth emptiness",
+        "the fourth",
+        "clear light",
+        "unarisen",
+        "non-arising"
+      ],
+      "rationale": "The millet is a new image that the commentary reads; 'millet' is the plain English for kaṅgu, and the entry records the Tibetan kaM gu tsa na, which bears on whether 5a has a negative."
+    },
+    {
+      "id": "dundoli",
+      "type": "term",
+      "en": "dundolī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুন্দোলী",
+          "translit": "dundolī",
+          "lemma": "dundolī",
+          "att": "AS",
+          "where": "cp.50.2a"
+        },
+        {
+          "lang": "san",
+          "script": "বিষমদুন্দোলিকায়াং",
+          "translit": "viṣamadundolikāyāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུང་ཡན་ལག་ཅན",
+          "translit": "ma rung yan lag can",
+          "lemma": "yan lag can",
+          "att": "AO",
+          "where": "cp.50.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུངས་ཡན་ལག་ཅན",
+          "translit": "ma rungs yan lag can",
+          "lemma": "yan lag can",
+          "att": "AO",
+          "where": "cp.50.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দুন্দোল"
+        },
+        {
+          "lang": "san",
+          "form": "দুন্দোল"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་རུང་ཡན་ལག་ཅན"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་རུངས་ཡན་ལག་ཅན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An Old Bengali word of uncertain sense in the refrain of song 50 (2a): with illusion and delusion, what the hearer is told to let go of, called biṣama, 'perilous'. It may be a swing (compare dolā) or a turmoil. The Tibetan line has ma rung yan lag can, 'the wicked one with limbs', a calque of aṅganā, 'woman'.",
+      "symbolicImage": "the perilous dundolī, to be let go of with illusion and delusion",
+      "symbolicReadings": [
+        {
+          "referent": "the action-woman (karmāṅganā): 'in the perilous dundolikā, the action-woman', the yogin is told to give up attachment and, abandoning delusion, to accomplish the siddhi of the great seal; the Tibetan comment: 'the wicked one with limbs is the one with limbs of action' (ma rungs yan lag can ni las kyi yan lag can no)",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "action-woman",
+        "action seal",
+        "karmamudrā",
+        "consort"
+      ],
+      "rationale": "An obscure refrain word with an explicit reading in cp.50.m3; kept in source form, as the glossary does for words of uncertain sense, so that the action-woman stays in the note."
+    },
+    {
+      "id": "cancali",
+      "type": "term",
+      "en": "pyre",
+      "policy": "translate",
+      "alt": [
+        "bamboo pyre",
+        "bamboo frame"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চঞ্চালী",
+          "translit": "cañcālī",
+          "lemma": "cañcālī",
+          "att": "AS",
+          "where": "cp.50.6a"
+        },
+        {
+          "lang": "san",
+          "script": "চঞ্চালীতি",
+          "translit": "cañcālīti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "སྨྱུག་མའི་རིབ་མ",
+          "translit": "smyug ma'i rib ma",
+          "lemma": "rib ma",
+          "att": "AO",
+          "where": "cp.50.6a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চঞ্চালী"
+        },
+        {
+          "lang": "san",
+          "form": "চঞ্চালী"
+        },
+        {
+          "lang": "bod",
+          "form": "སྨྱུག་མའི་རིབ་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Old Bengali cañcālī, apparently a frame of split bamboo, set up on four sides in song 50 (6a) and used, it seems, as a pyre: the Śabara lifts something onto it, and the bird and the jackal weep (6b). The Tibetan line has smyug ma'i rib ma, 'bamboo wattle'; the Tibetan comment cites the word as gtum mo, caṇḍālī (cp.50.m7).",
+      "symbolicImage": "the bamboo pyre set up on four sides",
+      "symbolicReadings": [
+        {
+          "referent": "the burning of the sense objects and senses (viṣayendriya): 'above it, cañcālī: having burned the objects and the senses'; the passage is broken, and the Tibetan comment cites the word as gtum mo, the caṇḍālī fire ('above it, gtum mo: for the objects and the senses')",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m7"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "caṇḍālī",
+        "inner fire",
+        "caṇḍālī fire",
+        "sense objects",
+        "senses"
+      ],
+      "rationale": "The pyre is a new image with a broken reading in cp.50.m7; 'pyre' gives the sense of the scene, with the bamboo frame the Tibetan names as a variant, and the reviewer should confirm the rendering."
+    },
+    {
+      "id": "heli",
+      "type": "term",
+      "en": "helī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হেলী",
+          "translit": "helī",
+          "lemma": "helī",
+          "att": "AS",
+          "where": "cp.50.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "མི་མོ",
+          "translit": "mi mo",
+          "lemma": "mi mo",
+          "att": "AO",
+          "where": "cp.50.2b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])হেলী(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "An Old Bengali word of uncertain sense closing the refrain of song 50 (2b): the Śabara sports in great bliss, taking helī in emptiness. It may be a female companion (compare Hindi sahelī) or 'sport, ease' (Sanskrit helā). The Tibetan line has stong pa'i mi mo, 'the woman of emptiness'.",
+      "symbolicImage": "what the Śabara takes in emptiness as he sports in great bliss",
+      "symbolicReadings": [
+        {
+          "referent": "the wisdom seal (jñānamudrā) that is Nairātmā: his paraphrase of the refrain has the Śabara sport 'having taken the knowledge-seal Nairātmā' (nairātmajñānamudrāṃ gṛhītvā) where the song has 'taking helī'; no explicit gloss; the Tibetan comment agrees (bdag med pa'i ye shes kyi phyag rgya 'dzin pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Nairātmā",
+        "jñānamudrā",
+        "wisdom seal",
+        "selflessness"
+      ],
+      "rationale": "The word that ends the refrain is obscure and carries a commentary reading, so it needs an entry; it stays in source form until its sense is settled, since 'companion' and 'with ease' give different lines (the Tibetan mi mo is recorded as a form only)."
+    },
+    {
+      "id": "atisunya",
+      "type": "term",
+      "en": "very empty",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শূন্যাতিশূন্যং",
+          "translit": "śūnyātiśūnyaṃ",
+          "lemma": "atiśūnya",
+          "att": "AS",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིན་ཏུ་སྟོང་པ",
+          "translit": "shin tu stong pa",
+          "lemma": "shin tu stong pa",
+          "att": "AO",
+          "where": "cp.50.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "াতিশূন্য"
+        },
+        {
+          "lang": "san",
+          "form": "অতিশূন্য"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤིན་ཏུ་སྟོང་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The very empty (atiśūnya): in the Guhyasamāja completion stage, the second of four emptinesses, after the empty and before the greatly empty and the all-empty, paired with the spreading of light. Munidatta reads the song's doubled 'sky' as the empty and the very empty (cp.50.m2); the Tibetan has shin tu stong pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's four emptinesses run through his comment on this song, and the glossary has the three emptinesses and the all-empty but not their members; the English follows the wording of the sunyatraya entry."
+    },
+    {
+      "id": "mahasunya",
+      "type": "term",
+      "en": "greatly empty",
+      "policy": "translate",
+      "alt": [
+        "great emptiness",
+        "third emptiness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাশূন্যং",
+          "translit": "mahāśūnyaṃ",
+          "lemma": "mahāśūnya",
+          "att": "AS",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তৃতীয়শূন্যপার্শ্বে",
+          "translit": "tṛtīyaśūnyapārśve",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་ཆེན་པོ",
+          "translit": "stong pa chen po",
+          "lemma": "stong pa chen po",
+          "att": "AO",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་གསུམ་པ",
+          "translit": "stong pa gsum pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহাশূন্য"
+        },
+        {
+          "lang": "san",
+          "form": "তৃতীয়শূন্য"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོང་པ་ཆེན་པོ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོང་པ་གསུམ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The greatly empty, or great emptiness (mahāśūnya): in the Guhyasamāja completion stage, the third of four emptinesses, paired with the culmination of light and followed by the all-empty, clear light. Munidatta also calls it 'the third emptiness' and reads the song's tailā field as it (cp.50.m2, cp.50.m5). Tibetan: stong pa chen po.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta names the third emptiness twice in this song and the glossary lacks it; 'greatly empty' matches the sunyatraya entry, with 'third emptiness' as a variant for his tṛtīyaśūnya."
+    },
+    {
+      "id": "caturtha-sunya",
+      "type": "term",
+      "en": "fourth emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থশূন্যং",
+          "translit": "caturthaśūnyaṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m4"
+        },
+        {
+          "lang": "san",
+          "script": "প্রভাস্বরচতুর্থে[ন] শূন্যেন",
+          "translit": "prabhāsvaracaturthe[na] śūnyena",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་བཞི་པ",
+          "translit": "stong pa bzhi pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བཞི་པ་སྟོང་པ",
+          "translit": "bzhi pa stong pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চতুর্থশূন্য"
+        },
+        {
+          "lang": "san",
+          "form": "চতুর্থেন শূন্যেন"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོང་པ་བཞི་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "བཞི་པ་སྟོང་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The fourth emptiness: Munidatta's name for the last of the four emptinesses of the completion stage, the all-empty (sarvaśūnya), which he equates with clear light ('the fourth emptiness, clear light', cp.50.m2). In song 50 he reads the cotton as the fourth emptiness (cp.50.m4), and the millet as 'the fourth' (cp.50.m6). Tibetan: stong pa bzhi pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'fourth emptiness' is the referent of two images in this song; it gets its own entry because the all-empty entry's English would misrender his ordinal phrase, and the definition ties the two together."
+    },
+    {
+      "id": "bali",
+      "type": "term",
+      "en": "bali",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "bali offering"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གཏོར་མ",
+          "translit": "gtor ma",
+          "lemma": "gtor ma",
+          "att": "AO",
+          "where": "cp.50.7a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏོར་མའི",
+          "translit": "gtor ma'i",
+          "lemma": "gtor ma",
+          "att": "AS",
+          "where": "cp.50.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏོར་མ་ཆེན་པོ",
+          "translit": "gtor ma chen po",
+          "lemma": "gtor ma",
+          "att": "AS",
+          "where": "cp.50.m8"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གཏོར་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bali (Tibetan gtor ma): an offering of food set out or scattered for deities and spirits, often to the quarters. The Tibetan of 7a has the Śabara give white bali to the ten directions, where the Bengali reads didha libalī. In the Tibetan comment a scripture says 'the great bali is joy' (cp.50.m8).",
+      "symbolicImage": "white bali given to the ten directions",
+      "symbolicReadings": [
+        {
+          "referent": "worship of the buddhas of the ten directions with one's own suchness (bdag gi de kho na nyid kyis mchod pa), once the king of mind has been made to vanish by the sword of the true guru's speech; a scripture is cited: 'the great bali is joy' (gtor ma chen po dga' ba yin); his paraphrase puts this worship where the line has the bali given to the ten directions, with no explicit gloss (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.50.m8"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "suchness",
+        "joy",
+        "worship of the buddhas"
+      ],
+      "rationale": "The bali offering stands in the Tibetan of 7a and twice in the Tibetan comment, the reading text for couplet 7, and a reader needs it glossed; whether the Bengali libalī contains bali is left to the reviewer, so no Bengali form is given."
+    },
+    {
+      "id": "p-munidatta",
+      "type": "person",
+      "en": "Munidatta",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཐུབ་པས་བྱིན",
+          "translit": "thub pas byin",
+          "lemma": "thub pas byin",
+          "att": "AS",
+          "where": "cp.50.m9"
+        },
+        {
+          "lang": "san",
+          "script": "মুনিদত্ত",
+          "translit": "munidatta",
+          "lemma": "munidatta",
+          "att": "SU",
+          "where": ""
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཐུབ་པས་བྱིན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Author of the Sanskrit commentary on the songs, the Caryāgītikoṣavṛtti, which glosses each song phrase by phrase and supports its readings with tantras and dohās. The closing verses and colophon of the Tibetan translation name him thub pas byin, a translation of the name ('given by the sage'), and call him master (slob dpon) (cp.50.m9).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The commentator is named in the closing verses and colophon of the Tibetan translation (cp.50.m9), and the glossary has no entry for him; the Sanskrit form comes from the text brief, not from the input, hence SU."
+    },
+    {
+      "id": "tx-caryagitikosa",
+      "type": "text",
+      "en": "Caryāgītikoṣa",
+      "policy": "keep-source",
+      "alt": [
+        "Treasury of Caryā Songs"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྤྱོད་པའི་གླུའི་མཛོད",
+          "translit": "spyod pa'i glu'i mdzod",
+          "lemma": "spyod pa'i glu'i mdzod",
+          "att": "AS",
+          "where": "cp.50.m9"
+        },
+        {
+          "lang": "san",
+          "script": "চর্যাগীতিকোষ",
+          "translit": "caryāgītikoṣa",
+          "lemma": "caryāgītikoṣa",
+          "att": "SU",
+          "where": ""
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྤྱོད་པའི་གླུའི་མཛོད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The Treasury of Caryā Songs: the collection of the siddhas' songs on which Munidatta comments, his commentary being the Caryāgītikoṣavṛtti. The Tibetan colophon names it spyod pa'i glu'i mdzod and calls the songs 'the vajra songs of the siddhas' (grub pa rnams kyi rdo rje'i glu); its closing verses speak of a hundred songs (cp.50.m9).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The collection itself is named in the Tibetan colophon (cp.50.m9) and has no entry; keep-source follows the glossary's practice for titles, and the Sanskrit form (SU) is the title the brief gives."
+    },
+    {
+      "id": "p-sabara",
+      "type": "person",
+      "en": "Śabarapāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শবরপাদঃ",
+          "translit": "śabarapādaḥ",
+          "lemma": "śabarapāda",
+          "att": "AS",
+          "where": "cp.50.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ཝ་རིའི་ཞབས",
+          "translit": "sa wa ri'i zhabs",
+          "lemma": "sa wa ri'i zhabs",
+          "att": "AO",
+          "where": "cp.50.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་ཁྲོད་ཞབས",
+          "translit": "ri khrod zhabs",
+          "lemma": "ri khrod pa",
+          "att": "AO",
+          "where": "cp.50.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ས་ཝ་རིའི་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "རི་ཁྲོད་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet to whom the Nepal manuscript attributes song 28; in its last couplet he calls himself the mad Śabara. Munidatta calls him a siddha master who, pierced by the flavour of great compassion, teaches for the good of the world (cp.28.m1). The Tibetan commentary calls him sa wa ri pa, though its heading names Saraha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the nominative śabarapādaḥ of cp.50.m1 and two Tibetan names: sa wa ri'i zhabs of the comment (m1, again twice in m7) and ri khrod zhabs, 'the mountain-dweller', of the song's Tibetan heading (h1)."
+    },
+    {
+      "id": "ramakri",
+      "type": "term",
+      "en": "Rāmakrī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དགའ་བས་རྩེ་བ",
+          "translit": "dga' bas rtse ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དགའ་བས་རྩེ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Rāmakrī, the name of the rāga (melodic mode) to which song 15 is sung, given in its heading. The Tibetan translation calls the melody dga' bar byed pa, 'making joyful', as if the name were built from Sanskrit rāma, 'delighting', and kṛ, 'make'; how the name is formed is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan heading's name for the melody, dga' bas rtse ba, 'playing with joy', which differs from song 15's dga' bar byed pa; the match keeps the heading from being read as joy and play."
+    },
+    {
+      "id": "nairatma",
+      "type": "term",
+      "en": "Nairātmā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নৈরামণি",
+          "translit": "nairāmaṇi",
+          "lemma": "nairāmaṇi",
+          "att": "AS",
+          "where": "cp.50.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་གཞོན་ནུ་མ",
+          "translit": "bdag med gzhon nu ma",
+          "lemma": "bdag med ma",
+          "att": "AO",
+          "where": "cp.50.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নৈরামণি"
+        },
+        {
+          "lang": "bod",
+          "form": "བདག་མེད་གཞོན་ནུ་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Selflessness, the absence of an inherent self in persons and phenomena, personified in the Hevajra tradition as a goddess, Nairātmā, ‘She who is without self’. Munidatta uses the word both for the goddess, whom he addresses in place of Ḍombī, and for selflessness as a doctrine.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the spelling nairāmaṇi of 1b, beside the listed ṇairāmaṇi and nirāmaṇi, and the Tibetan line's bdag med gzhon nu ma, 'the selfless maiden', which bare bdag med would otherwise give to selflessness as well."
+    },
+    {
+      "id": "maya",
+      "type": "term",
+      "en": "illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মাআ",
+          "translit": "māā",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.50.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মাআ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Illusion (māyā): a conjured appearance, like a magician's show, that seems real but is not; Mahāyāna texts use it for the way all things appear. Munidatta calls ignorance something that has the form of illusion (cp.11.m5); the Tibetan has sgyu ma'i tshul, 'in the manner of an illusion'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds māā as Munidatta cites the refrain's word inside the Sanskrit comment (cp.50.m3), which the Old Bengali match does not reach; it will also catch māāmoha cited in cp.15.m4."
+    },
+    {
+      "id": "moha",
+      "type": "term",
+      "en": "delusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোহা",
+          "translit": "mohā",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.50.2a"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Delusion or bewilderment (moha): with desire and hatred, one of the three root afflictions of Buddhist teaching, the confusion that hides how things are. Munidatta speaks of the stain of delusion (mohamala) in describing the yoginī (cp.04.m4); the Tibetan has rmongs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the refrain's mohā (2a) as a form only; the existing match already finds it."
+    },
+    {
+      "id": "mahasukha",
+      "type": "term",
+      "en": "great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহাসুহে",
+          "translit": "mahāsuhe",
+          "lemma": "mahāsuha",
+          "att": "AS",
+          "where": "cp.50.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "মহাসুহেঁ",
+          "translit": "mahāsuhem̐",
+          "lemma": "mahāsuha",
+          "att": "AS",
+          "where": "cp.50.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Great bliss: the highest bliss, which the tantric path of the songs takes as its goal. Munidatta equates it with the fourth joy and speaks of the great bliss of innate joy, to be known day and night after questioning the guru (cp.01.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the locative and instrumental mahāsuhe (2b) and mahāsuhem̐ (5b) as forms only; the existing match already finds them."
+    },
+    {
+      "id": "sabara",
+      "type": "term",
+      "en": "Śabara",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শবরাশবরি",
+          "translit": "śabarāśabari",
+          "lemma": "śabara",
+          "att": "AS",
+          "where": "cp.50.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔོན་པ",
+          "translit": "rngon pa",
+          "lemma": "rngon pa",
+          "att": "AO",
+          "where": "cp.50.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শবরা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A Śabara, one of a forest and hill people of eastern and central India whom caste society treated as outsiders; a Śabara woman, the Śabarī, is a figure of the songs. In the verse of Kṛṣṇācārya's Dohākoṣa that Munidatta quotes, the Śabaras dwell on a high mountain peak (cp.06.m4). The Tibetan renders the word sha ba, 'deer'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the pair śabarāśabari, 'the Śabara and the Śabarī' (5a), matching its first member here and its second under sabari, and records rngon pa, 'hunter', the Tibetan for the Śabara in 5a and cp.50.m6, as a form only, since the hunt entry already matches it."
+    },
+    {
+      "id": "sabari",
+      "type": "term",
+      "en": "Śabarī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শবরাশবরি",
+          "translit": "śabarāśabari",
+          "lemma": "śabarī",
+          "att": "AS",
+          "where": "cp.50.5a"
+        },
+        {
+          "lang": "san",
+          "script": "শবরীতি",
+          "translit": "śabarīti",
+          "lemma": "śabarī",
+          "att": "AS",
+          "where": "cp.50.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔོན་པ་མོ",
+          "translit": "rngon pa mo",
+          "lemma": "rngon pa mo",
+          "att": "AO",
+          "where": "cp.50.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শবরি"
+        },
+        {
+          "lang": "san",
+          "form": "শবরী"
+        },
+        {
+          "lang": "bod",
+          "form": "རྔོན་པ་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A woman or girl of the Śabaras, a forest and hill people (Old Bengali sabarī). In song 28 the young Śabarī lives on a high mountain, dressed in peacock feathers with a guñjā garland at her neck, and roams the forest alone wearing earrings and a vajra. The Tibetan transcribes the word sa wa ri, as for the man.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the second member of śabarāśabari (5a), Munidatta's citation śabarīti (cp.50.m6), which the rāga entry's Old Bengali śabarī does not reach, and the Tibetan comment's rngon pa mo, 'huntress'."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুণমে",
+          "translit": "suṇame",
+          "lemma": "suṇa",
+          "att": "AS",
+          "where": "cp.50.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সুণমে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Emptiness: the absence of intrinsic existence in all things, a central idea of Mahāyāna thought. In song 1 it appears in the Old Bengali compound sunupākha, which Munidatta renders śūnyatāpakṣa, 'the side (or wing) of emptiness' (cp.01.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds suṇame of the refrain (2b), which Munidatta renders śūnye and the Tibetan stong pa'i; the existing match does not find it."
+    },
+    {
+      "id": "khasama",
+      "type": "term",
+      "en": "sky-like",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খসমে",
+          "translit": "khasame",
+          "lemma": "khasama",
+          "att": "AS",
+          "where": "cp.50.3a"
+        },
+        {
+          "lang": "san",
+          "script": "খসমেতি",
+          "translit": "khasameti",
+          "lemma": "khasama",
+          "att": "AS",
+          "where": "cp.50.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Sky-like, equal to the sky (Sanskrit khasama: kha, 'sky, space', and sama, 'equal'): in siddha and dohā writing, said of what is, like open space, without bounds, marks or support. Line 1b speaks of the sky-like nature; Munidatta has 'the nature of bliss like the sky' (cp.43.m2). The Tibetan has nam mkha' dang mtshungs, 'equal to the sky'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds khasame (3a) and Munidatta's citation khasameti (cp.50.m4) as forms only; the existing match already finds both."
+    },
+    {
+      "id": "akasapuspa",
+      "type": "term",
+      "en": "sky-flower",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অকাশ ফুলিআ",
+          "translit": "akāśa phuliā",
+          "lemma": "akāśa phula",
+          "att": "AS",
+          "where": "cp.50.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অকাশ ফুলি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A flower in the sky (Sanskrit khapuṣpa, ākāśapuṣpa), a stock Indian example of what does not exist. Song 41 (4b) ends its list with ākāśaphulilā, apparently 'the sky flowered'; the Tibetan has nam mkha'i me tog rgyas pa, 'the sky-flower blooming'. Munidatta's comment names oil from sand and the hare's horn but not the sky-flower (cp.41.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds akāśa phuliā (4b), written as two words with short a, which the listed ākāśaphulilā does not match."
+    },
+    {
+      "id": "andhakara",
+      "type": "term",
+      "en": "darkness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অন্ধারি",
+          "translit": "andhāri",
+          "lemma": "andhāra",
+          "att": "AS",
+          "where": "cp.50.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অন্ধারি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Darkness (Sanskrit andhakāra, Old Bengali andhakārā; Tibetan mun pa). The last line of song 30 says Bhusuku the yogin dispels it. Munidatta reads it as the darkness of the afflictions, dispelled by the rising of the fourth joy (cp.30.m6), and in the previous comment has the moon of innate joy destroy the darkness of delusion (cp.30.m5). Compare night (rajanī).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds andhāri (4b), the darkness that bursts; the literal keeps the short i, so the adjective andhārī of song 21's dark night is not claimed."
+    },
+    {
+      "id": "moonlight",
+      "type": "term",
+      "en": "moonlight",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জোহ্না",
+          "translit": "johnā",
+          "lemma": "johnā",
+          "att": "AS",
+          "where": "cp.50.4a"
+        },
+        {
+          "lang": "san",
+          "script": "জোহ্নবাটিকেতি",
+          "translit": "johnavāṭiketi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.50.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জোহ্না"
+        },
+        {
+          "lang": "san",
+          "form": "জোহ্ন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Moonlight (Old Bengali cāndakānti, Sanskrit candrakānti, 'the moon's lustre'; Munidatta's candrikā; Tibetan zla ba'i 'od zer, 'the moon's rays'). In song 31 (3a) moonlight shows in the moon, an image for the mind's transformations entering 'there' (3b). Munidatta speaks of moonlight going back into the moon once it has set (cp.31.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds johnā (4a; compare Sanskrit jyotsnā), the moonlight beside the field, and Munidatta's citation johnavāṭikā (cp.50.m5)."
+    },
+    {
+      "id": "moon-disc",
+      "type": "term",
+      "en": "moon disc",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানেন্দুমণ্ডলস্য",
+          "translit": "jñānendumaṇḍalasya",
+          "lemma": "indumaṇḍala",
+          "att": "AS",
+          "where": "cp.50.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟླ་བའི་དཀྱིལ་འཁོར",
+          "translit": "zla ba'i dkyil 'khor",
+          "lemma": "zla ba'i dkyil 'khor",
+          "att": "AO",
+          "where": "cp.50.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "েন্দুমণ্ডল"
+        },
+        {
+          "lang": "san",
+          "form": "ইন্দুমণ্ডল"
+        },
+        {
+          "lang": "bod",
+          "form": "ཟླ་བའི་དཀྱིལ་འཁོར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The disc of the moon (Sanskrit śaśimaṇḍala). In tantric meditation a moon disc, often with a sun disc, is visualized as the seat on which a seed syllable or deity arises. Song 32 (1a) names it last among the things that are not there; the Tibetan line has 'the disc of sun and moon' (nyi zla'i dkyil 'khor).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the disc of the moon of knowledge (jñānendumaṇḍala) of cp.50.m5 and its Tibetan zla ba'i dkyil 'khor, which otherwise splits into moon and maṇḍala (it also catches the moon disc of cp.24.m2)."
+    },
+    {
+      "id": "parsva",
+      "type": "term",
+      "en": "side",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাসেঁর",
+          "translit": "pāsem̐ra",
+          "lemma": "pāsa",
+          "att": "AS",
+          "where": "cp.50.4a"
+        },
+        {
+          "lang": "san",
+          "script": "পার্শ্ববর্ত্তী",
+          "translit": "pārśvavarttī",
+          "lemma": "pārśvavartin",
+          "att": "AS",
+          "where": "cp.50.m4"
+        },
+        {
+          "lang": "san",
+          "script": "তৃতীয়শূন্যপার্শ্বে",
+          "translit": "tṛtīyaśūnyapārśve",
+          "lemma": "pārśva",
+          "att": "AS",
+          "where": "cp.50.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাসেঁর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Side, flank (Sanskrit pārśva). Munidatta writes pāśa, a Prakrit-like form of pārśva, in \"the nearness of my side\", his rendering of the poet's side in song 36, 5b (cp.36.m6); elsewhere he has pārśvastha, \"standing at the side\" (cp.33.m2). The Tibetan has rtsa bar, \"near\". Not pāśa, \"noose\", nor pakṣa, \"side\".",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds pāsem̐ra, 'beside' (4a), which Munidatta renders with pārśve (cp.50.m5), and his pārśvavartī of the letter play (cp.50.m4); the literal keeps this word, which is not 'noose', with side."
+    },
+    {
+      "id": "jackal",
+      "type": "term",
+      "en": "jackal",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শিআলী",
+          "translit": "śiālī",
+          "lemma": "śiāla",
+          "att": "AS",
+          "where": "cp.50.6b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শিআল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A jackal (Old Bengali siālā, written ṣiālā; Sanskrit śṛgāla; Tibetan ce spyang), in Indian fable a timid, cunning scavenger. In the last couplet of song 33 the jackal fights the lion every day (5a). Munidatta likens the mind of saṃsāra, which fears death everywhere, to a jackal (cp.33.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds śiālī (6b), spelled with ś and a feminine or collective -ī, which the listed ṣiālā does not match; the Tibetan line has ce spyang."
+    },
+    {
+      "id": "dasadis",
+      "type": "term",
+      "en": "ten directions",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দহ দিহে",
+          "translit": "daha dihe",
+          "lemma": "dahadiha",
+          "att": "AS",
+          "where": "cp.50.7a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দহ দিহ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The ten directions: the four cardinal and four intermediate points, with the zenith and the nadir; that is, everywhere. In song 9 the jewel of the ten powers is in the ten directions, and Munidatta says it pervades them (cp.09.m5). The Tibetan has phyogs bcu.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds daha dihe (7a), written as two words, which the listed dahadiha does not match; the Tibetan line has phyogs bcur."
+    },
+    {
+      "id": "nirvana",
+      "type": "term",
+      "en": "nirvāṇa",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিরেবণ",
+          "translit": "nirebaṇa",
+          "lemma": "nirebaṇa",
+          "att": "AS",
+          "where": "cp.50.7b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নিরেবণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The cessation of suffering and its causes; freedom from saṃsāra. Munidatta quotes the Guhyasamāja: without the vajra guru one cannot reach nirvāṇa, the peaceful, irreversible state that removes all afflictions (cp.01.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds nirebaṇa of the signature line (7b; the Tibetan has mya ngan 'das), which is not yet matched and whose last syllables the forest entry's baṇa now claims."
+    },
+    {
+      "id": "axe",
+      "type": "term",
+      "en": "axe",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুরাড়ী",
+          "translit": "kurāṛī",
+          "lemma": "kurāṛī",
+          "att": "AS",
+          "where": "cp.50.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কুঠারিকাং",
+          "translit": "kuṭhārikāṃ",
+          "lemma": "kuṭhārikā",
+          "att": "AS",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟ་རིར",
+          "translit": "sta rir",
+          "lemma": "sta re",
+          "att": "AO",
+          "where": "cp.50.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কুরাড়ী"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟ་རི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An axe (Old Bengali ṭāṅgī; compare Sanskrit ṭaṅka, 'axe, chisel'), used in song 5 in building the bridge. Munidatta's gloss has paraśu, 'axe'. The Tibetan translation of the line has gzong gnyis, 'two chisels'; its comment has sta re, 'axe'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds kurāṛī (1a; Bengali kuṛul), Munidatta's kuṭhārikā, 'small axe' (cp.50.m2), and the comment's spelling sta ri; the Tibetan line's sta res is already matched."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গঅণত",
+          "translit": "gaaṇata",
+          "lemma": "gaaṇa",
+          "att": "AS",
+          "where": "cp.50.1a"
+        },
+        {
+          "lang": "san",
+          "script": "গগণেত্যুক্তিদ্বয়েন",
+          "translit": "gagaṇetyuktidvayena",
+          "lemma": "gagana",
+          "att": "AS",
+          "where": "cp.50.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গগণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sky; open space. The sky is a common image in siddha poetry and in Buddhist tantric language. In this song it forms the first half of gaaṇadukhola, the vessel used to bail the boat; Munidatta repeats the compound (gaganadukholaka) without explaining it.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds gaaṇata, the doubled word that opens the song (1a), and Munidatta's spelling gagaṇa with ṇ (cp.50.m2, also cp.34.m2), which the listed gagana does not match."
+    },
+    {
+      "id": "cetana",
+      "type": "term",
+      "en": "awareness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চেবই",
+          "translit": "cebai",
+          "lemma": "cebai",
+          "att": "AS",
+          "where": "cp.50.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চেবই"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Awareness, being conscious (Sanskrit cetanā; Old Bengali ceaṇa); in Abhidharma the word also names volition, a mental factor. Song 36 pairs it with feeling: neither ceaṇa nor beana (3a). Munidatta denies any conceptual thought of mind and awareness (cittacetanāvikalpa, cp.36.m4), and renders the refrain's ṇa cebai as na cetayati, 'is not aware' (cp.36.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the verb cebai, 'is aware' (5b: the Śabara is aware of nothing; Munidatta has niścetanayate, the Tibetan bsam med), which the definition already links to cetana; the literal also finds it in cp.34.4b and cp.36.2a."
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "en": "verse",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྐང་པ་ལྔ་པས",
+          "translit": "rkang pa lnga pas",
+          "lemma": "rkang pa",
+          "att": "AO",
+          "where": "cp.50.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་པ་དྲུག་པས",
+          "translit": "rkang pa drug pas",
+          "lemma": "rkang pa",
+          "att": "AS",
+          "where": "cp.50.m8"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Munidatta's word for a couplet of a song, used when he turns to comment on it ('with the next verse', 'the third verse'). In song 1 he calls couplets 4 and 5 the third and fourth, so he counts the opening couplet as the first and leaves the refrain out of the count.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan 'fifth verse' (cp.50.m7, for couplet 6) and 'sixth verse' (cp.50.m8, for couplet 7) as forms only; rkang pa is already matched."
+    },
+    {
+      "id": "hrdaya",
+      "type": "term",
+      "en": "heart",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "হৃদয়েনেতি",
+          "translit": "hṛdayeneti",
+          "lemma": "hṛdaya",
+          "att": "AS",
+          "where": "cp.50.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྙིང་པོ",
+          "translit": "snying po",
+          "lemma": "snying po",
+          "att": "AO",
+          "where": "cp.50.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "The heart (Old Bengali hia, Sanskrit hṛdaya). In song 28 the heart is the betel chewed with camphor. Munidatta quotes the word as hiem̐ and renders it hṛdaya (cp.28.m6); the Tibetan line has sems, 'mind', where its commentary has snying, 'heart'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's citation hṛdayena (cp.50.m2) and the Tibetan comment's snying po beside it, as forms only; see questions on heñce (1a), the song word it seems to render."
+    }
+  ],
+  "questions": [
+    "New reading for sabara (segments cp.50.m6, cp.50.m8): the Śabara is the mind-vajra. The Sanskrit of m6 has 'ataeva saraś cittavajraḥ', where saraḥ looks corrupt for śabaraḥ; the Tibetan of m6 has 'de'i phyir rngon pa ni thugs rdo rje'o', 'so the hunter (Śabara) is the mind-vajra', and m8 (Tibetan only) 'de'i phyir sa wa ri ni sems kyi rdo rje'o'. Compare the unmatta entry's reading from cp.28.m8.",
+    "New reading for sabari (segment cp.50.m6, on 5a): the Śabarī is the jñānamudrā drunk with the drink of knowledge ('śavarīti. jñānapānapramattāṃ jñānamudrāṃ gṛhītvā ...'); the Tibetan agrees: 'rngon pa mo zhes pa ni ye shes kyi chang gis myos pa ye shes kyi phyag rgya'.",
+    "New reading for gagana (segment cp.50.m2, on 1a): the doubled sky (gaaṇata gaaṇata) is read as the empty and the very empty ('gagaṇetyuktidvayena śūnyātiśūnyaṃ boddhavyam'); the Tibetan comment: 'nam mkha' zhes lan gnyis gsungs pas stong pa nyid dang shin tu stong pa'. I proposed atisunya, mahasunya and caturtha-sunya for the other members of the scheme.",
+    "New reading for akasapuspa (segment cp.50.m5, on 4b): 'ākāśeti. kaṃ sukhaṃ samvṛtibodhicittaṃ tena yasya aṅgacinam iti': kaṃ is bliss, conventional bodhicitta, of which something has become a limb; the Tibetan: 'nam mkha' zhes pa ni kaM bde ba kun rdzob byang chub kyi sems des gang gi yan lag tu gyur pa'o'. The end of the Sanskrit (aṅgacinam) is corrupt, so the reading is only partly clear.",
+    "New segment for existing readings: andhakara (cp.50.m5, on 4b: 'sakalakleśāndhakāraṃ spheṭitam iti palāyitam', the darkness of all the afflictions burst and fled when the moon of knowledge rose; Tibetan nyon mongs pa'i mun pa), which matches its reading from cp.30.m6; and kantha (cp.50.m2, on 1b: 'kaṇṭheti. sambhogacakre ...'; Tibetan 'mgul du zhes pa ni longs spyod kyi 'khor lor'), which matches its reading from cp.18.m5.",
+    "New reading for khasama (segment cp.50.m4, on 3a): the field 'equal to the sky' has become equal to clear light by the grace of the guru's word ('khasameti guruvacanaprasādāt prabhāsvaratulyabhūtā'; Tibetan 'bla ma'i zhabs kyi drin gyis 'od mtshungs par gyur pa').",
+    "New reading for axe (segment cp.50.m2, on 1a): the axe is the fourth emptiness, clear light, with which the fault of the three emptinesses beginning with light is cut ('prabhāsvaracaturthe[na] śūnyena kuṭhārikāṃ kṛtvā ... ālokādiśūnyatrayasya doṣaṃ chittvā'); the Tibetan comment agrees ('od gsal bzhi pa stong pas sta rir byas nas ... stong pa gsum po'i skyon gcod pa).",
+    "Reading for moonlight (segment cp.50.m5, on 4a): I put Munidatta's reading of johnā bāṛī, the rising of the disc of the moon of knowledge, on the new bari entry; you may want it on moonlight too.",
+    "Matching: mayamoha-samudra's Tibetan form sgyu ma la rmongs matches inside the Tibetan of 2a (sgyu ma la rmongs ma rung yan lag can), where there is no ocean, and hides maya and moha there; consider keeping only its forms with rgya mtsho as match forms. Likewise nadi's rtsa matches srid rtsa, 'root of existence' (7b), and rtsa bar, 'beside' (cp.50.m4), and hunt's rngon matches rngon pa where it renders the Śabara (5a, cp.50.m6); I added rngon pa to sabara as a form only.",
+    "Witness, 5a: the Bengali kaṅguri nā pākelā seems to say the millet has not ripened, but the Tibetan line has kaM gu tsa ni smin gyur, 'ripened', with no negative, and its comment cites the word as kaM gu tsa na. That points to a compound like kaṅgucinā (foxtail and proso millet), with nā part of the word; the drafter should flag it.",
+    "Uncertain words not given forms: heñce (1a), which Munidatta seems to render hṛdaya ('hṛdayeneti', cp.50.m2; Tibetan comment snying po), so it might be added to hrdaya if you accept his reading; libalī (7a), which may contain bali (the Tibetan has gtor ma); ṣabarālī (7b), which the Tibetan renders srid rtsa thams cad, 'all the roots of existence', and so may not be the Śabara at all (the broken 'sarvvara iti' at the end of cp.50.m7 may cite it); and saguṇa (6b), the bird (Sanskrit śakuna; Tibetan bya), which should not be read as Sanskrit saguṇa, 'with qualities'. bhabamattāre (7a), 'the one drunk on existence', is matched by neither bhava nor matta.",
+    "Renderings to confirm: taila is offered as 'hill', a guess at an uncertain word (keep-source-first-gloss 'tailā' is the cautious alternative); cancali as 'pyre', where the Tibetan line has only 'bamboo wattle'; karpasa shares the English 'cotton' with tula (raw cotton being carded), and could instead be merged into tula as a form, though their readings differ.",
+    "Definitions now out of date (not changed, since proposals for existing ids add forms only): p-sabara says the Nepal manuscript attributes song 28 to him, and ramakri names only song 15; song 50 is also Śabara's and sung to Rāmakrī (the attribution śabarapādānām was emended out of 1a; the Tibetan heading names ri khrod zhabs and the melody dga' bas rtse ba)."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "0b7bcd802186697f74d24597c2c3823fc64ead83453e69a36daa6c2d91f41b7a",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "10fc0141caf4e7017b4587c1f036aa58d20dcefb4192a94d741078514780148d",
+    "sourceSha": "fc00783fcffb4170e9f962522179b9f23f02afe4fad32fb91d66c55f4ede4251"
+  }
+}

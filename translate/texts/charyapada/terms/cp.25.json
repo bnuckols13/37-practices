@@ -1,0 +1,1560 @@
+{
+  "unit": "cp.25",
+  "proposals": [
+    {
+      "id": "p-tantri",
+      "type": "person",
+      "en": "Tantrīpāda",
+      "policy": "keep-source",
+      "alt": [
+        "Tantrī"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཐག་པའི་ཞབས",
+          "translit": "thag pa'i zhabs",
+          "lemma": "thag pa'i zhabs",
+          "att": "AS",
+          "where": "cp.25.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐ་ག་པའི་ཞབས",
+          "translit": "tha ga pa'i zhabs",
+          "lemma": "tha ga pa'i zhabs",
+          "att": "AS",
+          "where": "cp.25.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐ་གའི་ཞབས",
+          "translit": "tha ga'i zhabs",
+          "lemma": "tha ga pa'i zhabs",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཐག་པའི་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐ་ག་པའི་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐ་གའི་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet of song 25, known in Sanskrit as Tantrīpāda. The song survives only in the Tibetan translation, whose heading calls him thag pa'i zhabs; Munidatta's comment calls him the siddhācārya Tha ga pa'i zhabs, tha ga pa being 'weaver' (cp.25.m1). In the refrain and the last couplet the poet calls himself a weaver (tha ga).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The unit names its poet p-tantri, which has no entry yet, and his name must be recognised in both Tibetan spellings (heading and comment)."
+    },
+    {
+      "id": "weaver",
+      "type": "term",
+      "en": "weaver",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཐ་གའི",
+          "translit": "tha ga'i",
+          "lemma": "tha ga pa",
+          "att": "AS",
+          "where": "cp.25.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐ་ག",
+          "translit": "tha ga",
+          "lemma": "tha ga pa",
+          "att": "AS",
+          "where": "cp.25.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཐ་གའི"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཐ་ག(?:་པ)?(?:འི|འོ|ས|ར)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A weaver (Tibetan tha ga pa). In the refrain of song 25, which survives only in Tibetan, the poet calls himself a weaver by nature (2a), and in the last couplet names himself simply 'the weaver' (5b). Munidatta reads the refrain's 'I' as Tha ga pa'i zhabs himself, the self of means by nature (cp.25.m3).",
+      "symbolicImage": "the weaver, the 'I' of the refrain",
+      "symbolicReadings": [
+        {
+          "referent": "the poet Tha ga pa'i zhabs himself, 'the self of the means by nature' (ngo bo nyid kyi thabs kyi bdag); the comment survives only in the Tibetan translation",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "upāya",
+        "self of means"
+      ],
+      "rationale": "The weaver is the song's central figure and the poet's self-naming; a common noun entry, separate from the poet's name, keeps 'weaver' consistent across the lines."
+    },
+    {
+      "id": "weaving",
+      "type": "term",
+      "en": "weaving",
+      "policy": "translate",
+      "alt": [
+        "weave"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "འཐག",
+          "translit": "'thag",
+          "lemma": "'thag pa",
+          "att": "AS",
+          "where": "cp.25.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐག",
+          "translit": "thag",
+          "lemma": "thags",
+          "att": "AS",
+          "where": "cp.25.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཐག་པའི",
+          "translit": "'thag pa'i",
+          "lemma": "'thag pa",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འཐག"
+        },
+        {
+          "lang": "bod",
+          "form": "འཐག་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐག་འཐག"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐག་གི་རོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Weaving (Tibetan 'thag pa, 'to weave'; thags, 'woven work', spelled thag in the lines), the governing image of song 25: weaving five times, the poet makes a stainless cloth (1b), weaves at home (3a) and weaves the weave that fills the sky (3b). Munidatta has the poet say he has obtained 'the way of weaving' (cp.25.m6).",
+      "symbolicImage": "the weave (thag) whose taste the weaver finds",
+      "symbolicReadings": [
+        {
+          "referent": "the comment cites thag and glosses: having parted from things that are born, [he] became a vajra-holder (rdo rje 'dzin pa); whether it cites thag, 'weave', or tha ga, 'weaver', is unclear",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Vajradhara",
+        "vajra-holder"
+      ],
+      "rationale": "Weaving is the song's governing image and recurs in five lines and the comment; the longer literals also stop the rope entry's thag pa from claiming 'thag pas, 'by weaving'."
+    },
+    {
+      "id": "fine-weave",
+      "type": "term",
+      "en": "fine weave",
+      "policy": "translate",
+      "alt": [
+        "fine cloth"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཐག་བཟངས",
+          "translit": "thag bzangs",
+          "lemma": "thags bzang",
+          "att": "AS",
+          "where": "cp.25.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐགས་བཟངས",
+          "translit": "thags bzangs",
+          "lemma": "thags bzang",
+          "att": "AS",
+          "where": "cp.25.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཐག་བཟངས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐགས་བཟངས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A fine weave, finely woven cloth (Tibetan thags bzangs; the line spells thag bzangs). In couplet 4 of song 25 the unstruck fine weave is not apart from the guru's word. Munidatta says the phrase is twilight language and explains it through prāṇa and āyāma, the unstruck sound and the two winds (cp.25.m5).",
+      "symbolicImage": "the unstruck fine weave, not apart from the guru's word",
+      "symbolicReadings": [
+        {
+          "referent": "in twilight language: through prāṇa and āyāma, which have the nature of means and wisdom, fully imagining the unstruck sound and the image (gzugs brnyan) in the two winds; the comment survives only in the Tibetan translation",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "prāṇa",
+        "āyāma",
+        "prāṇāyāma",
+        "breath",
+        "winds",
+        "two winds",
+        "means and wisdom"
+      ],
+      "rationale": "Munidatta glosses this phrase explicitly as twilight language, so the image needs its own entry to keep the reading out of the line."
+    },
+    {
+      "id": "cloth",
+      "type": "term",
+      "en": "cloth",
+      "policy": "translate",
+      "alt": [
+        "garment"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གོས",
+          "translit": "gos",
+          "lemma": "gos",
+          "att": "AS",
+          "where": "cp.25.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་མེད་གོས",
+          "translit": "dri med gos",
+          "lemma": "gos",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དྲི་མེད་གོས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])གོས(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Cloth or a garment (Tibetan gos). In song 25 the poet, weaving five times, makes a stainless cloth (1b). Munidatta's gloss on the stainless cloth speaks of making wholly pure by natural clear light, and he quotes the Hevajra: the conventional is like jasmine, the ultimate has the form of bliss (cp.25.m2).",
+      "symbolicImage": "the stainless cloth, woven five times",
+      "symbolicReadings": [
+        {
+          "referent": "what is made wholly pure by natural clear light (rang bzhin gyis 'od gsal); the Hevajra verse he adds likens the conventional to jasmine and gives the ultimate the form of bliss; the comment survives only in the Tibetan translation",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light",
+        "natural clear light",
+        "bodhicitta"
+      ],
+      "rationale": "The stainless cloth is the product of the weaving and carries an attested reading; gos as a whole syllable needs a regex because a literal would hit dgos, 'need'."
+    },
+    {
+      "id": "warp",
+      "type": "term",
+      "en": "warp",
+      "policy": "translate",
+      "alt": [
+        "warp threads"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྒྱུ",
+          "translit": "rgyu",
+          "lemma": "rgyu",
+          "att": "AS",
+          "where": "cp.25.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱུ",
+          "translit": "rgyu",
+          "lemma": "rgyu",
+          "att": "AS",
+          "where": "cp.25.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])རྒྱུ(?=་(?:རྣམས་དང|དང་སྤུན))"
+        }
+      ],
+      "definition": "The warp: the lengthwise threads stretched on a loom, across which the weft is woven (Tibetan rgyu, which also means 'cause'). In the refrain of song 25 the poet, a weaver by nature, does not know how to mark warp and weft as his own (2a–2b). Munidatta's comment on the pair speaks of the distinction of conventional and ultimate (cp.25.m3).",
+      "symbolicImage": "warp and weft, which the weaver does not know how to mark as his own",
+      "symbolicReadings": [
+        {
+          "referent": "the distinction of conventional and ultimate: the comment says that those who mark (mtshon pa) by apprehending that distinction do not know; the syntax is loose and warp and weft are not explicitly equated with anything (Tibetan comment only)",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conventional",
+        "ultimate",
+        "two truths"
+      ],
+      "rationale": "A loom term in the refrain that a reader needs explained; matched only before rnams dang or dang spun, since rgyu ('cause') is very common."
+    },
+    {
+      "id": "weft",
+      "type": "term",
+      "en": "weft",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྤུན",
+          "translit": "spun",
+          "lemma": "spun",
+          "att": "AS",
+          "where": "cp.25.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤུན",
+          "translit": "spun",
+          "lemma": "spun",
+          "att": "AS",
+          "where": "cp.25.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])སྤུན(?=་(?:དོག|དག))"
+        }
+      ],
+      "definition": "The weft: the crosswise thread woven through the warp. Song 25's refrain pairs warp (rgyu) with spun dog, Munidatta's comment with spun dag (cp.25.m3). Spun ordinarily means 'siblings'; the weaving sense suits the pair and the song but is a draft reading to be checked, and the line's dog is unexplained.",
+      "symbolicImage": "warp and weft, which the weaver does not know how to mark as his own",
+      "symbolicReadings": [
+        {
+          "referent": "the distinction of conventional and ultimate: the comment says that those who mark (mtshon pa) by apprehending that distinction do not know; the syntax is loose and warp and weft are not explicitly equated with anything (Tibetan comment only)",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conventional",
+        "ultimate",
+        "two truths"
+      ],
+      "rationale": "The partner of the warp in the refrain; matched only before dog or dag, since spun ('siblings') occurs elsewhere."
+    },
+    {
+      "id": "thread",
+      "type": "term",
+      "en": "thread",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྲད་བུས",
+          "translit": "srad bus",
+          "lemma": "srad bu",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྲད་བུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Thread or yarn (Tibetan srad bu, which regularly renders Sanskrit sūtra). In the Tibetan comment on the last couplet of song 25, Munidatta says that by 'his grace' the binding by the thread of delusion's clinging embrace is torn apart (cp.25.m6), where the line has the weaver freed from the net of delusion. Compare cord (tanti) and rope.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Thread belongs to the weaving image and appears in Munidatta's paraphrase of the last line; no existing entry covers it (tanti is Ḍombī's cord)."
+    },
+    {
+      "id": "mohajala",
+      "type": "term",
+      "en": "net of delusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གཏི་མུག་དྲ་བ",
+          "translit": "gti mug dra ba",
+          "lemma": "gti mug dra ba",
+          "att": "AS",
+          "where": "cp.25.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གཏི་མུག་དྲ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The net of delusion (Tibetan gti mug dra ba). In the last line of song 25 the weaver, having found the taste of the weave, is freed from it. Munidatta's comment speaks instead of the binding by the thread of delusion's clinging embrace, torn apart (cp.25.m6). Not the net of illusion (mayajala), nor the hunter's net of song 23.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A distinct compound that the existing net (rgya, a hunter's net) and net of illusion (māyājāla) entries do not cover."
+    },
+    {
+      "id": "dharmodaya",
+      "type": "term",
+      "en": "dharmodaya",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "source of dharmas"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཆོས་འབྱུང",
+          "translit": "chos 'byung",
+          "lemma": "chos 'byung",
+          "att": "AS",
+          "where": "cp.25.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས་ཀྱི་འབྱུང་གནས",
+          "translit": "chos kyi 'byung gnas",
+          "lemma": "chos kyi 'byung gnas",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཆོས་འབྱུང"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆོས་ཀྱི་འབྱུང་གནས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "'Source of dharmas' (Tibetan chos 'byung, regularly for Sanskrit dharmodaya): in the yoginī tantras a triangular figure, the matrix from which phenomena arise, often identified with the female organ. Song 25 opens with it. Munidatta explains it in twilight language as the dharmodaya of wisdom, or else as the source of dharmas as they truly are (cp.25.m2).",
+      "symbolicImage": "the dharmodaya named in the first line",
+      "symbolicReadings": [
+        {
+          "referent": "in twilight language, the dharmodaya of wisdom (shes rab kyi chos 'byung)",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m2"
+          ]
+        },
+        {
+          "referent": "or else the source of the dharmas that, through ultimate awareness, have become just as they really are",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wisdom",
+        "prajñā",
+        "bhaga",
+        "female organ"
+      ],
+      "rationale": "A technical term of the yoginī tantras that opens the song and is glossed in the comment; kept in source form, as translators of these texts usually do."
+    },
+    {
+      "id": "footrest",
+      "type": "term",
+      "en": "footrest",
+      "policy": "translate",
+      "alt": [
+        "foot support"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྐང་རྟེན",
+          "translit": "rkang rten",
+          "lemma": "rkang rten",
+          "att": "AS",
+          "where": "cp.25.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རྐང་རྟེན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A footrest or foot support (Tibetan rkang rten). In the first line of song 25 it stands between the dharmodaya and the vajra's place; in a weaving song it may name part of the loom, but that is a guess, and the Old Bengali word is lost. Munidatta says the four feet become the support of the four joys (cp.25.m2).",
+      "symbolicImage": "the footrest of the first line",
+      "symbolicReadings": [
+        {
+          "referent": "the four feet (rkang pa bzhi) that have become the support of the four joys; he adds a verse of the Hevajra (Tibetan comment only)",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "four joys",
+        "joys"
+      ],
+      "rationale": "An obscure object in the opening line with an attested reading; 'footrest' renders the Tibetan literally and leaves the loom sense to a note."
+    },
+    {
+      "id": "three-and-a-half-cubits",
+      "type": "term",
+      "en": "three and a half cubits",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཕྱེད་བཅས་ཁྲུ་གསུམ",
+          "translit": "phyed bcas khru gsum",
+          "lemma": "khru",
+          "att": "AS",
+          "where": "cp.25.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཕྱེད་བཅས་ཁྲུ་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A measure: three cubits and a half (Tibetan khru, 'cubit', the forearm's length, regularly renders Sanskrit hasta). It opens couplet 3 of song 25, perhaps as the length of the cloth or the loom. Munidatta explains the phrase as one's own body, in which one is released into the house of meditation and the third joy arises (cp.25.m4).",
+      "symbolicImage": "three and a half cubits",
+      "symbolicReadings": [
+        {
+          "referent": "one's own body (rang gi lus), in which one is released into the house of meditation (bsam gtan gyi khang pa) and the third joy is produced; the gloss covers the phrase and what follows it (Tibetan comment only)",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "body",
+        "own body",
+        "house of meditation",
+        "third joy"
+      ],
+      "rationale": "A measure phrase whose reading as the body is attested; an entry keeps the body out of the line."
+    },
+    {
+      "id": "two-places",
+      "type": "term",
+      "en": "two places",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གནས་གཉིས",
+          "translit": "gnas gnyis",
+          "lemma": "gnas",
+          "att": "AS",
+          "where": "cp.25.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གནས་གཉིས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Two places or two states (Tibetan gnas gnyis). In couplet 4 of song 25 the two places are cut before the strands are tightened and stretched firm, apparently work on the loom. Munidatta, citing the phrase as gnas gnyis chad gyur, explains it as cutting off the grasping at things and non-things (cp.25.m5).",
+      "symbolicImage": "the two places that are cut",
+      "symbolicReadings": [
+        {
+          "referent": "the grasping at things and non-things (dngos po dngos po med par 'dzin pa), which is cut off before the right union of vajra and lotus is taught (Tibetan comment only)",
+          "per": "Munidatta",
+          "where": [
+            "cp.25.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "things and non-things",
+        "being and nonbeing",
+        "grasping"
+      ],
+      "rationale": "An image with an explicit gloss in the comment; the entry keeps 'being and nonbeing' out of the line."
+    },
+    {
+      "id": "mani",
+      "type": "term",
+      "en": "jewel",
+      "policy": "translate",
+      "alt": [
+        "gem"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ནོར་བུས",
+          "translit": "nor bus",
+          "lemma": "nor bu",
+          "att": "AS",
+          "where": "cp.25.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ནོར་བུར",
+          "translit": "nor bur",
+          "lemma": "nor bu",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ནོར་བུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A jewel or gem (Tibetan nor bu, regularly for Sanskrit maṇi); distinct from ratna. Line 5a of song 25 opens nor bus son pa, of unclear sense ('sown with the jewel'?). Munidatta also cites 'abiding in the jewel' (nor bur gnas), which the line lacks, and glosses it: I, Tha ga'i zhabs, have obtained the way of weaving (cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Maṇi has entries only inside compounds (root of the jewel, vajra jewel); the bare word needs its own id, apart from ratna, whose definition already distinguishes the two."
+    },
+    {
+      "id": "kunda",
+      "type": "term",
+      "en": "jasmine",
+      "policy": "translate",
+      "alt": [
+        "kunda"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀུནྡ",
+          "translit": "kun+da",
+          "lemma": "kun+da",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཀུནྡ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Jasmine (Sanskrit kunda, transliterated in the Tibetan as kun+da), a white flower. In the Hevajra verse Munidatta quotes on the stainless cloth, the conventional is like jasmine and the ultimate has the form of bliss (cp.25.m2). In the tantras its whiteness makes it a stock simile for conventional bodhicitta, the white vital essence.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A transliterated Sanskrit word in a quoted verse that a reader of the commentary needs explained."
+    },
+    {
+      "id": "pancajnana",
+      "type": "term",
+      "en": "five wisdoms",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་ལྔ",
+          "translit": "ye shes lnga",
+          "lemma": "ye shes lnga",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཡེ་ཤེས་ལྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The five wisdoms (Tibetan ye shes lnga, Sanskrit pañcajñāna) of a buddha: mirror-like, of equality, discriminating, all-accomplishing, and of the dharmadhātu. Munidatta says conventional bodhicitta, in the lotus of wisdom, has the nature of the five wisdoms beginning with the mirror-like (cp.25.m2). He does not tie them explicitly to the line's 'five times'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal set named in the comment; the glossary has mirror-like wisdom but no entry for the set."
+    },
+    {
+      "id": "pranayama",
+      "type": "term",
+      "en": "prāṇa and āyāma",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "prāṇāyāma"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྲོག་དང་རྩོལ་བ",
+          "translit": "srog dang rtsol ba",
+          "lemma": "srog rtsol",
+          "att": "AS",
+          "where": "cp.25.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྲོག་དང་རྩོལ་བ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྲོག་རྩོལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Prāṇāyāma, yogic control of the breath and vital wind, a limb of yoga in Indian and tantric systems; the Tibetan renders it srog rtsol, 'life' and 'exertion', and the comment on song 25 treats the two as a pair. Munidatta says prāṇa and āyāma have the nature of means and wisdom, and explains the fine weave through them (cp.25.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A yogic technical term at the centre of the fine-weave gloss; kept in source form because the Tibetan splits it into two members."
+    },
+    {
+      "id": "vajra",
+      "type": "term",
+      "en": "vajra",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེའི",
+          "translit": "rdo rje'i",
+          "lemma": "rdo rje",
+          "att": "AS",
+          "where": "cp.25.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ",
+          "translit": "rdo rje",
+          "lemma": "rdo rje",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The thunderbolt-diamond, emblem of the indestructible in tantric Buddhism (Tibetan rdo rje). Song 25 opens with 'the vajra's place' (1a); Munidatta's comment on the word is obscure (cp.25.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "house",
+      "type": "term",
+      "en": "house",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ",
+          "translit": "khyim",
+          "lemma": "khyim",
+          "att": "AS",
+          "where": "cp.25.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁང་པར",
+          "translit": "khang par",
+          "lemma": "khang pa",
+          "att": "AS",
+          "where": "cp.25.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཁྱིམ(?![\\p{L}\\p{M}])(?!་(?:ཐབ|པ|མཚེས|བདག|ཚང))"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཁང་པ(?:འི|ར|ས|འོ)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A house or home (Tibetan khyim, khang pa). In song 25 the weaver weaves at home (3a); Munidatta speaks of a house of meditation in one's own body (cp.25.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages. Regexes, because khyim also begins compounds such as khyim thab, wife, and khyim pa, householder."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ",
+          "translit": "nam mkha'",
+          "lemma": "nam mkha'",
+          "att": "AS",
+          "where": "cp.25.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ",
+          "translit": "nam mkha'",
+          "lemma": "nam mkha'",
+          "att": "AS",
+          "where": "cp.25.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sky, open space (Tibetan nam mkha'). In song 25 the weave fills the sky (3b); Munidatta glosses this as being wholly joined with purified clear light (cp.25.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "anahata",
+      "type": "term",
+      "en": "unstruck",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གཞོམ་མེད",
+          "translit": "gzhom med",
+          "lemma": "gzhom med",
+          "att": "AS",
+          "where": "cp.25.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞོམ་དུ་མེད་པའི",
+          "translit": "gzhom du med pa'i",
+          "lemma": "gzhom du med pa",
+          "att": "AS",
+          "where": "cp.25.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གཞོམ་མེད"
+        },
+        {
+          "lang": "bod",
+          "form": "གཞོམ་དུ་མེད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Unstruck, indestructible (Tibetan gzhom med). In song 25 the fine weave is unstruck (4a); Munidatta speaks of the unstruck sound in the two winds (cp.25.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "guru",
+      "type": "term",
+      "en": "guru",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བླ་མའི",
+          "translit": "bla ma'i",
+          "lemma": "bla ma",
+          "att": "AS",
+          "where": "cp.25.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེ་བླ་མའི",
+          "translit": "rdo rje bla ma'i",
+          "lemma": "rdo rje bla ma",
+          "att": "AS",
+          "where": "cp.25.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ་དམ་པའི",
+          "translit": "bla ma dam pa'i",
+          "lemma": "bla ma dam pa",
+          "att": "AS",
+          "where": "cp.25.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེ་བླ་མ"
+        },
+        {
+          "lang": "bod",
+          "form": "བླ་མ་དམ་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])བླ་མ(?:འི|ས|ར|འོ)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A spiritual teacher (Tibetan bla ma). In song 25 the fine weave is not apart from the guru's word (4a); Munidatta names the vajra guru (cp.25.m2) and the true guru (cp.25.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages. A regex for bare bla ma, because a literal would also hit bla med, unsurpassed."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྟོང་ཉིད",
+          "translit": "stong nyid",
+          "lemma": "stong pa nyid",
+          "att": "AS",
+          "where": "cp.25.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་ཉིད",
+          "translit": "stong pa nyid",
+          "lemma": "stong pa nyid",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྟོང་ཉིད"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོང་པ་ཉིད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Emptiness, the absence of intrinsic existence (Tibetan stong nyid, stong pa nyid). Line 5a of song 25 names it twice; Munidatta pairs emptiness with compassion (cp.25.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "moha",
+      "type": "term",
+      "en": "delusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གཏི་མུག",
+          "translit": "gti mug",
+          "lemma": "gti mug",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གཏི་མུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Delusion (Tibetan gti mug), one of the three root afflictions. In song 25 the weaver is freed from the net of delusion (5b), which Munidatta paraphrases as the thread of delusion's embrace (cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ས་ར་ཧའི་ཞབས",
+          "translit": "sa ra ha'i zhabs",
+          "lemma": "sa ra ha'i zhabs",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ས་ར་ཧ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet famous for his dohās. In the Tibetan comment on song 25 Munidatta quotes him twice, as sa ra ha'i zhabs (cp.25.m2, cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "tx-hevajra",
+      "type": "text",
+      "en": "Hevajra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བརྟག་པ་གཉིས་པ",
+          "translit": "brtag pa gnyis pa",
+          "lemma": "brtag pa gnyis pa",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བརྟག་པ་གཉིས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The Hevajra Tantra, called in the Tibetan comment brtag pa gnyis pa, 'the two examinations', after its two parts (the Dvikalpa); Munidatta quotes it three times on song 25 (cp.25.m2, cp.25.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "sandhya-bhasa",
+      "type": "term",
+      "en": "twilight language",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དགོངས་པའི་སྐད",
+          "translit": "dgongs pa'i skad",
+          "lemma": "dgongs pa'i skad",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དགོངས་པའི་སྐད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Twilight or intentional language (Tibetan dgongs pa'i skad). In the Tibetan comment on song 25 Munidatta says the dharmodaya and the fine weave are spoken in it (cp.25.m2, cp.25.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "dhruvapada",
+      "type": "term",
+      "en": "refrain",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དྷྲཱུའི་རྐང་པས",
+          "translit": "d+h+rU'i rkang pas",
+          "lemma": "rkang pa",
+          "att": "AS",
+          "where": "cp.25.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དྷྲཱུའི་རྐང་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The refrain (Tibetan d+h+rU'i rkang pa, 'the dhru verse'). Munidatta says the refrain of song 25 makes right realization firm (cp.25.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "en": "verse",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྐང་པ་གཉིས་པས",
+          "translit": "rkang pa gnyis pas",
+          "lemma": "rkang pa",
+          "att": "AS",
+          "where": "cp.25.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་པ་གསུམ་པས",
+          "translit": "rkang pa gsum pas",
+          "lemma": "rkang pa",
+          "att": "AS",
+          "where": "cp.25.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྐང་པ་བཞི་པས",
+          "translit": "rkang pa bzhi pas",
+          "lemma": "rkang pa",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])རྐང་པ་(?:དང་པོ|གཉིས་པ|གསུམ་པ|བཞི་པ|ལྔ་པ)(?:ས|འི|ར)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Munidatta's word for a couplet (Tibetan rkang pa). On song 25 he introduces couplets 3, 4 and 5 as the second, third and fourth verse (cp.25.m4, cp.25.m5, cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages. Matched only with an ordinal, because rkang pa alone is also foot or leg (as in cp.25.m2)."
+    },
+    {
+      "id": "prabhasvara",
+      "type": "term",
+      "en": "clear light",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན་གྱིས་འོད་གསལ",
+          "translit": "rang bzhin gyis 'od gsal",
+          "lemma": "'od gsal",
+          "att": "AS",
+          "where": "cp.25.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འོད་གསལ",
+          "translit": "'od gsal",
+          "lemma": "'od gsal",
+          "att": "AS",
+          "where": "cp.25.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འོད་གསལ"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་བཞིན་གྱིས་འོད་གསལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Clear light (Tibetan 'od gsal), the luminous nature of mind. Munidatta's comment on song 25 speaks of natural clear light and of purified clear light (cp.25.m2, cp.25.m4, cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "en": "joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དགའ་བ་བཞི",
+          "translit": "dga' ba bzhi",
+          "lemma": "dga' ba",
+          "att": "AS",
+          "where": "cp.25.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བ་གསུམ་པ",
+          "translit": "dga' ba gsum pa",
+          "lemma": "dga' ba",
+          "att": "AS",
+          "where": "cp.25.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དགའ་བ་བཞི"
+        },
+        {
+          "lang": "bod",
+          "form": "དགའ་བ་གསུམ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Joy (Tibetan dga' ba). In the Tibetan comment on song 25 Munidatta speaks of the four joys (cp.25.m2) and of producing the third joy (cp.25.m4); which joy is third depends on the order of the system.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "bodhicitta",
+      "type": "term",
+      "en": "bodhicitta",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀུན་རྫོབ་བྱང་ཆུབ་ཀྱི་སེམས",
+          "translit": "kun rdzob byang chub kyi sems",
+          "lemma": "byang chub kyi sems",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བྱང་ཆུབ་ཀྱི་སེམས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀུན་རྫོབ་བྱང་ཆུབ་ཀྱི་སེམས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mind of awakening; in the tantras also a subtle bodily essence. Munidatta's comment on song 25 twice names conventional bodhicitta (kun rdzob byang chub kyi sems) (cp.25.m2, cp.25.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཨ་ཝ་དྷཱུ་ཏཱི",
+          "translit": "a wa d+hU tI",
+          "lemma": "a wa d+hU tI",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཨ་ཝ་དྷཱུ་ཏཱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The central channel of the subtle body. In the Tibetan comment on song 25 Munidatta names the avadhūtī, the yoginī Nairātmā, in transliteration (cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "nairatma",
+      "type": "term",
+      "en": "Nairātmā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བདག་མེད་མའོ",
+          "translit": "bdag med ma'o",
+          "lemma": "bdag med ma",
+          "att": "AS",
+          "where": "cp.25.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བདག་མེད་མའོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Selflessness personified as the goddess Nairātmā (Tibetan bdag med ma). Munidatta's comment on song 25 ends a gloss with 'the avadhūtī, the yoginī Nairātmā' (cp.25.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "lotus",
+      "type": "term",
+      "en": "lotus",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཆུ་སྐྱེས",
+          "translit": "chu skyes",
+          "lemma": "chu skyes",
+          "att": "AS",
+          "where": "cp.25.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་སྐྱེས",
+          "translit": "chu skyes",
+          "lemma": "chu skyes",
+          "att": "AS",
+          "where": "cp.25.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "པདྨ",
+          "translit": "pad+ma",
+          "lemma": "pad+ma",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཆུ་སྐྱེས"
+        },
+        {
+          "lang": "bod",
+          "form": "པདྨ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The lotus (Tibetan chu skyes, 'water-born', and pad+ma). Munidatta's comment on song 25 speaks of the lotus of wisdom (cp.25.m2) and the union of vajra and lotus (cp.25.m5); Saraha's verse there names the padma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "samvrti",
+      "type": "term",
+      "en": "conventional",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀུན་རྫོབ",
+          "translit": "kun rdzob",
+          "lemma": "kun rdzob",
+          "att": "AS",
+          "where": "cp.25.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཀུན་རྫོབ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The conventional level of truth (Tibetan kun rdzob). Munidatta's comment on the refrain of song 25 speaks of the distinction of conventional and ultimate (cp.25.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    },
+    {
+      "id": "paramartha",
+      "type": "term",
+      "en": "ultimate",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དོན་དམ",
+          "translit": "don dam",
+          "lemma": "don dam",
+          "att": "AS",
+          "where": "cp.25.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དོན་དམ་པའི",
+          "translit": "don dam pa'i",
+          "lemma": "don dam pa",
+          "att": "AS",
+          "where": "cp.25.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])དོན་དམ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The ultimate (Tibetan don dam). Munidatta's comment on song 25 speaks of ultimate awareness (cp.25.m2) and of the distinction of conventional and ultimate (cp.25.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages. A regex, because a literal would also hit don dmigs."
+    },
+    {
+      "id": "prajna",
+      "type": "term",
+      "en": "wisdom",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཤེས་རབ",
+          "translit": "shes rab",
+          "lemma": "shes rab",
+          "att": "AS",
+          "where": "cp.25.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཤེས་རབ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wisdom (Tibetan shes rab), in the tantras paired with means and pictured as female. Munidatta's comment on song 25 speaks of the dharmodaya of wisdom and the lotus of wisdom (cp.25.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan form(s) attested in song 25, where the Tibetan translation is the reading text (AS), so the term is linked in this unit and later Tibetan-only passages."
+    }
+  ],
+  "questions": [
+    "p-tantri: the heading's thag pa'i zhabs ordinarily reads 'Rope-' or 'Cord-pāda' (thag pa, 'rope', as in the rope entry), which would suit Sanskrit tantrī, 'string'; the comment's tha ga pa means 'weaver'. I kept en 'Tantrīpāda' as the unit names him, and give both spellings as forms.",
+    "Bhaṇitā (5b): the last couplet names the poet only as tha ga, 'the weaver'. I suggest translating 'the weaver' and linking it to weaver, with a note that this is the poet's self-naming; should it link to p-tantri instead?",
+    "warp/weft: reading rgyu and spun (2a–2b, cp.25.m3) as warp and weft is my draft reading: the comment pairs them, and the song is about weaving, but spun ordinarily means 'siblings', and the line's spun dog is unexplained. Please check against a dictionary.",
+    "weaving: I take thag in 3b, 5b and cp.25.m6 as thags, 'woven work', not thag pa, 'rope'. The comment's 'thag ces pa' (cp.25.m6), glossed as parting from things that are born and becoming a vajra-holder, may cite tha ga, 'weaver', rather than thag.",
+    "Not proposed, sense unclear: sun sgron gsum (3a); sbra (4a, 'tent'? or corrupt); rgyun rnams bsgrims ... sgyongs (4b, perhaps 'tighten the strands and stretch them', loom work); nor bus son pa (5a); dar ma'i skye bo (cp.25.m6). Some may be loom terms worth entries once read.",
+    "Lemma divergences the drafter will need: the comment cites gnas gnyis chad gyur where 4b has gnas gnyis bcad nas (cp.25.m5), and nor bur gnas, which 5a lacks (cp.25.m6).",
+    "Readings in song 25 for existing entries that merging new forms will not carry (add by hand if wanted): house, Munidatta's 'house of meditation' in one's own body (cp.25.m4, not clearly glossing khyim); sky, 'filling the sky' as being wholly joined with purified clear light, so that one abides with discernment (cp.25.m4); guru, the innate echo and conventional bodhicitta to be accomplished by the true guru's word (cp.25.m5); vajra, an obscure gloss: from the act and agent of the lord of yogis, 'the speech of its place is yoga' (cp.25.m2).",
+    "Overlaps to check against existing match lists, which the pack does not show: rope (thag pa) would hit 'thag pas in 1b, 'thag pa'i in cp.25.m6 and the heading's thag pa'i zhabs; stain (dri ma) would hit dri med in 1b; net (rgya) would hit rgyu and rgyun. The longer literals proposed here (འཐག་པ, ཐག་པའི་ཞབས, དྲི་མེད་གོས, the warp regex) should win those overlaps under longest-match, but only if the older entries match as literals.",
+    "ananda: 'the third joy' (cp.25.m4) is the joy of cessation or supreme joy depending on the order adopted; the comment does not say which."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "65ccaf4743291873778a46ae38b121e068229fb5260c47a40860f64b9e8f2922",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "88215281494155cadf5caa5eba0672ebe8d896eaf3f6bf5f807512ffabaf384d",
+    "sourceSha": "0d096f034a6b01e2beec47a7d96d349baa1fa474ae4f7485d3fb19af14e614c5"
+  }
+}

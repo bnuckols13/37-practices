@@ -1,0 +1,1216 @@
+{
+  "unit": "cp.26",
+  "proposals": [
+    {
+      "id": "sivari",
+      "type": "term",
+      "en": "Śīvarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শীবরী",
+          "translit": "śībarī",
+          "lemma": "śīvarī",
+          "att": "AS",
+          "where": "cp.26.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ་བ་རི",
+          "translit": "sha ba ri",
+          "lemma": "sha ba ri",
+          "att": "AO",
+          "where": "cp.26.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শীবরী"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])ཤ་བ་རི(?=་ཞེས)"
+        }
+      ],
+      "definition": "Śīvarī, the name of the rāga (melodic mode) to which song 26 is sung, given in its heading. The Tibetan translation transcribes the name sha ba ri, which points rather to a form like Śabarī or Śavarī (compare the Śabara people); which spelling is original, and how the two relate, is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Every song's rāga has a keep-source entry and the glossary has none for this name; the Tibetan match needs the following zhes so that it cannot catch sha ba ri pa, the Tibetan name of the siddha Śabaripa."
+    },
+    {
+      "id": "p-santi",
+      "type": "person",
+      "en": "Śāntipāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সান্তি",
+          "translit": "sānti",
+          "lemma": "sānti",
+          "att": "AS",
+          "where": "cp.26.2b"
+        },
+        {
+          "lang": "san",
+          "script": "শান্তিপাদো",
+          "translit": "śāntipādo",
+          "lemma": "śāntipāda",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤཱནྟི་པ",
+          "translit": "shAn+ti pa",
+          "lemma": "shAn+ti pa",
+          "att": "AO",
+          "where": "cp.26.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤཱནྟིའི་ཞབས",
+          "translit": "shAn+ti'i zhabs",
+          "lemma": "shAn+ti'i zhabs",
+          "att": "AO",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞི་བའི་ཞབས",
+          "translit": "zhi ba'i zhabs",
+          "lemma": "zhi ba'i zhabs",
+          "att": "AO",
+          "where": "cp.26.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শান্তিপাদো"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤཱནྟི་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤཱནྟིའི་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཞི་བའི་ཞབས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সান্তি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Śāntipāda, the siddha to whom the manuscript and the Tibetan translation attribute songs 15 and 26. In song 26 he names himself Śānti in 4b and, spelled Sānti, in the refrain (2b) and the last line (5b). The Tibetan heading of song 26 translates the name as zhi ba'i zhabs; its comment transcribes it, shAn+ti'i zhabs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the spelling Sānti, the -pāda form of Munidatta's comment and three Tibetan forms of the name read off the aligned Tibetan, among them the translated zhi ba'i zhabs; the whole-word regex keeps সান্তি from matching inside longer words."
+    },
+    {
+      "id": "p-heruka",
+      "type": "person",
+      "en": "Heruka",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হেরুঅ",
+          "translit": "herua",
+          "lemma": "herua",
+          "att": "AS",
+          "where": "cp.26.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "হেরুঅ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A wrathful tantric deity, and a title of Hevajra and related deities of the yoginī tantras. In the refrain of song 26 (2a) Heruka is not found; the Tibetan line has gzugs, 'form', in his place, and Munidatta's paraphrase has 'another cause' (hetvantara) there and does not name Heruka (cp.26.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the bare Old Bengali form herua, which the existing compound heruabīṇā does not cover; neither the Tibetan nor Munidatta reads Heruka in this line, which the reviewer should weigh."
+    },
+    {
+      "id": "tula",
+      "type": "term",
+      "en": "cotton",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তুলা",
+          "translit": "tulā",
+          "lemma": "tulā",
+          "att": "AS",
+          "where": "cp.26.1a"
+        },
+        {
+          "lang": "san",
+          "script": "তুলেত্যাদি",
+          "translit": "tuletyādi",
+          "lemma": "tulā",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তুলধুণীত্যাদি",
+          "translit": "tuladhuṇītyādi",
+          "lemma": "tulā",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏུ་ལ",
+          "translit": "tu la",
+          "lemma": "tu la",
+          "att": "AO",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚད་མ",
+          "translit": "tshad ma",
+          "lemma": "tshad ma",
+          "att": "AO",
+          "where": "cp.26.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "তুলেত্যাদি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])তুলা(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])তুল(?=ধুণ)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])ཏུ་ལ(?=་ཞེས)"
+        }
+      ],
+      "definition": "Cotton (Old Bengali tulā; Sanskrit tūla), here raw cotton being carded: song 26 cards it again and again until nothing is left (1a, 3a). Munidatta, citing the word, plays on tulā, 'balance', calling body, speech and mind 'fit for weighing' (cp.26.m2). The Tibetan line has tshad ma, 'valid cognition' or 'measure', in its place; its comment transcribes tu la.",
+      "symbolicImage": "cotton, carded again and again",
+      "symbolicReadings": [
+        {
+          "referent": "the three worlds, that is, body, speech and mind, which because of the faults of nature (prakṛtidoṣa) are 'fit for weighing' (tulanayogya): a play on tulā, 'balance, weighing', set beside the cited word without an explicit equation; the Tibetan comment has 'what is to be measured by valid cognition' (tshad mas gzhal bar rig pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.26.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "three worlds",
+        "body, speech and mind",
+        "balance",
+        "weighing",
+        "valid cognition"
+      ],
+      "rationale": "Cotton is the governing image of song 26 (1a, 3a), and the entry keeps it cotton in the line while Munidatta's pun on tulā, 'balance', and the Tibetan's 'valid cognition' go to notes; the regexes keep তুলা whole and catch তুল only before ধুণ, since both sit inside other words."
+    },
+    {
+      "id": "dhuni",
+      "type": "term",
+      "en": "carding",
+      "policy": "translate",
+      "alt": [
+        "card",
+        "carded"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ধুণি",
+          "translit": "dhuṇi",
+          "lemma": "dhuṇ-",
+          "att": "AS",
+          "where": "cp.26.1a"
+        },
+        {
+          "lang": "san",
+          "script": "তুলধুণীত্যাদি",
+          "translit": "tuladhuṇītyādi",
+          "lemma": "dhuṇ-",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ধূত্বা",
+          "translit": "dhūtvā",
+          "lemma": "dhū",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟགས",
+          "translit": "brtags",
+          "lemma": "brtag pa",
+          "att": "AO",
+          "where": "cp.26.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱེ",
+          "translit": "phye",
+          "lemma": "'byed pa",
+          "att": "AO",
+          "where": "cp.26.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ধুণি"
+        },
+        {
+          "lang": "san",
+          "form": "ধুণী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Carding: beating or combing raw cotton to loosen and separate its fibres (Old Bengali dhuṇi, 'having carded'; compare Bengali dhunā, 'to card', and Sanskrit dhū, 'shake'). Song 26 cards cotton, then fibre, again and again (1a, 1b, 3a). Munidatta renders it dhūtvā, 'having shaken' (cp.26.m2); the Tibetan line has brtags, 'examined'.",
+      "symbolicImage": "carding the cotton again and again",
+      "symbolicReadings": [
+        {
+          "referent": "examination by valid cognition: after citing tuladhuṇi he speaks of 'the valid cognition of that examination' (vicārapramāṇa) drawing out the parts and the rest (dattvā; the Tibetan has 'byin pa, 'extracting'); the Tibetan line itself has brtags, 'examined'",
+          "per": "Munidatta",
+          "where": [
+            "cp.26.m3"
+          ]
+        },
+        {
+          "referent": "shaking (dhūtvā dhūtvā) the atoms that make up the parts until the whole is shown to be partless (niravayava): a paraphrase, not an explicit gloss; the Tibetan comment has phye zhing phye ba, 'dividing again and again'",
+          "per": "Munidatta",
+          "where": [
+            "cp.26.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "examine",
+        "examined",
+        "examining",
+        "examination",
+        "analyse",
+        "analysis",
+        "valid cognition"
+      ],
+      "rationale": "Carding is the repeated action of the song's image (six times), and the entry keeps it a carding in the line while the readings as examination go to notes; ধুণি may elsewhere spell Prakrit dhuṇi, 'sound' (Sanskrit dhvani), so the reviewer may want to watch later hits."
+    },
+    {
+      "id": "amsu",
+      "type": "term",
+      "en": "fibre",
+      "policy": "translate",
+      "alt": [
+        "fibres"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আঁসু",
+          "translit": "ām̐su",
+          "lemma": "ām̐su",
+          "att": "AS",
+          "where": "cp.26.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "আঁসুরে",
+          "translit": "ām̐sure",
+          "lemma": "ām̐su",
+          "att": "AS",
+          "where": "cp.26.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆ་ཤས",
+          "translit": "cha shas",
+          "lemma": "cha shas",
+          "att": "AO",
+          "where": "cp.26.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "আঁসু"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Fibre, the filaments of cotton (Old Bengali ām̐su; compare Sanskrit aṃśu, 'filament', and Bengali ā̃ś, 'fibre'). In song 26 cotton is carded down to fibre, and fibre to fibre, until nothing is left (1a, 1b). The Tibetan line has cha shas, 'part', as if reading Sanskrit aṃśa; Munidatta's comment speaks of parts (avayava) instead (cp.26.m2).",
+      "symbolicImage": "fibre carded out of fibre",
+      "symbolicReadings": [
+        {
+          "referent": "the parts (avayava) of the whole, down to the atoms of the heap that makes up the parts, until the whole is shown to be partless: his paraphrase speaks of parts where the song has ām̐su, with no explicit gloss; the Tibetan line itself has cha shas, 'part'",
+          "per": "Munidatta",
+          "where": [
+            "cp.26.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "part",
+        "parts",
+        "portion",
+        "atom",
+        "atoms"
+      ],
+      "rationale": "The fibre is the second element of the carding image (twice in 1a and once in 1b), and the Tibetan's 'part' and Munidatta's parts and atoms are readings that must not replace it in the line."
+    },
+    {
+      "id": "niravayava",
+      "type": "term",
+      "en": "partless",
+      "policy": "translate",
+      "alt": [
+        "without parts"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণিরবর",
+          "translit": "ṇirabara",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.26.1b"
+        },
+        {
+          "lang": "san",
+          "script": "নিরবরমিতি",
+          "translit": "niravaram iti",
+          "lemma": "niravara",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নিরবয়বং",
+          "translit": "niravayavaṃ",
+          "lemma": "niravayava",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆ་ཤས་མེད་པ",
+          "translit": "cha shas med pa",
+          "lemma": "cha shas med pa",
+          "att": "AO",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷག་མ་མེད",
+          "translit": "lhag ma med",
+          "lemma": "lhag ma med pa",
+          "att": "AO",
+          "where": "cp.26.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ণিরবর"
+        },
+        {
+          "lang": "san",
+          "form": "নিরবরম"
+        },
+        {
+          "lang": "san",
+          "form": "নিরবয়ব"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆ་ཤས་མེད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Partless (Sanskrit niravayava): having no parts, as the atom was claimed to be. Munidatta glosses the ṇirabara of song 26 (1b) as niravayava: carded down, the whole is shown to be partless (cp.26.m2). The Old Bengali word is of uncertain derivation, and the Tibetan line has lhag ma med, 'without remainder', for ṇirabara sesu.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's explicit gloss turns line 1b on this term of the argument against atoms; since the Tibetan reads 'without remainder' instead, the reviewer may prefer to drop the Old Bengali form from the match."
+    },
+    {
+      "id": "paramanu",
+      "type": "term",
+      "en": "atom",
+      "policy": "translate",
+      "alt": [
+        "atoms"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরমাণুপুঞ্জস্য",
+          "translit": "paramāṇupuñjasya",
+          "lemma": "paramāṇu",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "পরমাণো[ঃ]",
+          "translit": "paramāṇo[ḥ]",
+          "lemma": "paramāṇu",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡུལ་ཕྲ་རབ",
+          "translit": "rdul phra rab",
+          "lemma": "rdul phra rab",
+          "att": "AO",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡུལ་ཕྲན",
+          "translit": "rdul phran",
+          "lemma": "rdul phran",
+          "att": "AO",
+          "where": "cp.26.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পরমাণু"
+        },
+        {
+          "lang": "san",
+          "form": "পরমাণো"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡུལ་ཕྲ་རབ"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡུལ་ཕྲན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Atom (paramāṇu): the smallest particle of matter, which some Indian schools held to be partless and real. Buddhist critics, notably Vasubandhu, argued that an atom joined to others on six sides must have six parts, and so cannot be partless. Munidatta runs this argument on the heap of atoms that make up the parts, speaking of six parts (ṣaḍaṃśa) (cp.26.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the argument against atoms that Munidatta brings to the carding image; readers of the woven commentary need it explained."
+    },
+    {
+      "id": "avayava",
+      "type": "term",
+      "en": "part",
+      "policy": "translate",
+      "alt": [
+        "parts"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ময়াবয়বস্য",
+          "translit": "mayāvayavasya",
+          "lemma": "avayava",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "এবাবয়বপরমাণুপুঞ্জস্য",
+          "translit": "evāvayavaparamāṇupuñjasya",
+          "lemma": "avayava",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তদ্‌বিচারপ্রমাণতোঽপ্যবয়বাদিকং",
+          "translit": "tadvicārapramāṇato 'py avayavādikaṃ",
+          "lemma": "avayava",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆ་ཤས",
+          "translit": "cha shas",
+          "lemma": "cha shas",
+          "att": "AO",
+          "where": "cp.26.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཆ་ཤས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:অ|(?<=[\\u09BE\\u09AF\\u09BD]))বয়ব"
+        }
+      ],
+      "definition": "A part (avayava), as against the whole (avayavin) that parts make up; Buddhist and Brahmanical schools disputed how the two relate. In his comment on song 26 Munidatta speaks of proving that the part has six parts, of the heap of atoms that make up the parts, and of drawing out the parts by examination (cp.26.m2, cp.26.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A recurring technical term of Munidatta's analysis (three times in two segments); the regex takes the stem after ā, y or the avagraha, since sandhi absorbs the initial a- (mayāvayavasya, evāvayava-, apyavayavādikaṃ), and avayavin and niravayava win by length."
+    },
+    {
+      "id": "avayavin",
+      "type": "term",
+      "en": "whole",
+      "policy": "translate",
+      "alt": [
+        "the whole"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কম্পাকম্পাদিভেদেনাবয়বিনমেকপ্রমাণোপপন্নং",
+          "translit": "kampākampādibhedenāvayavinam ekapramāṇopapannaṃ",
+          "lemma": "avayavin",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆ་ཤས་ཅན",
+          "translit": "cha shas can",
+          "lemma": "cha shas can",
+          "att": "AO",
+          "where": "cp.26.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বয়বিন"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆ་ཤས་ཅན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The whole (avayavin, 'that which has parts'), which Nyāya-Vaiśeṣika realists held to be a single entity over and above its parts. Buddhist critics answered that one part moves while another does not, so the supposed whole is many. Munidatta alludes to both, speaking of moving and unmoving and of a whole established by a single valid cognition (cp.26.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The target of the argument Munidatta reads into the carding, a loaded technical term that 'whole' alone does not explain; the literal skips the initial a-, which sandhi absorbs (bhedenāvayavinam)."
+    },
+    {
+      "id": "pramana",
+      "type": "term",
+      "en": "valid cognition",
+      "policy": "translate",
+      "alt": [
+        "means of valid cognition",
+        "means of knowledge"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রমাণোপপন্নং",
+          "translit": "pramāṇopapannaṃ",
+          "lemma": "pramāṇa",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বিচারপ্রমাণতো",
+          "translit": "vicārapramāṇato",
+          "lemma": "pramāṇa",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "san",
+          "script": "প্রমাণোপপন্না",
+          "translit": "pramāṇopapannā",
+          "lemma": "pramāṇa",
+          "att": "AS",
+          "where": "cp.26.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚད་མ",
+          "translit": "tshad ma",
+          "lemma": "tshad ma",
+          "att": "AO",
+          "where": "cp.26.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রমাণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཚད་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Valid cognition, or a means of valid knowledge (pramāṇa; Tibetan tshad ma): in Indian epistemology a reliable source of knowledge, such as perception or inference. Munidatta speaks of examination by valid cognition (cp.26.m3) and of reasoning established by it (cp.26.m5); the Tibetan line of song 26 has tshad ma where the Bengali has tulā, 'cotton'. The word also means 'measure'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A term of Buddhist epistemology on which both Munidatta's comment and the Tibetan translation of song 26 turn; since pramāṇa and tshad ma also mean 'measure' (as at cp.05.m2), the reviewer may want to narrow the match."
+    },
+    {
+      "id": "bhavya-bhavaka",
+      "type": "term",
+      "en": "object of meditation and meditator",
+      "policy": "translate",
+      "alt": [
+        "the meditated and the meditator"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আত্মগ্রহভাব্যভাবকরূপং",
+          "translit": "ātmagrahabhāvyabhāvakarūpaṃ",
+          "lemma": "bhāvyabhāvaka",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবকো",
+          "translit": "bhāvako",
+          "lemma": "bhāvaka",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ভাব্যোঽস্তীত্যাদি",
+          "translit": "bhāvyo 'stītyādi",
+          "lemma": "bhāvya",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བསྒོམ་པར་བྱ་བ",
+          "translit": "bsgom par bya ba",
+          "lemma": "bsgom par bya ba",
+          "att": "AO",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒོམ་པ་པོ",
+          "translit": "sgom pa po",
+          "lemma": "sgom pa po",
+          "att": "AO",
+          "where": "cp.26.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভাব্যভাবক"
+        },
+        {
+          "lang": "bod",
+          "form": "སྒོམ་པ་པོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভাবকো(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভাব্যো(?=ঽ|[^\\p{L}\\p{M}]|$)"
+        }
+      ],
+      "definition": "The pair 'what is meditated on' (bhāvya) and 'the one who meditates' (bhāvaka). Munidatta says the form of grasping at a self as object of meditation and meditator is refuted (cp.26.m3), and quotes the Dvikalpa (Hevajra): there is no meditator, nor anything to be meditated on. The Tibetan has bsgom par bya ba and sgom pa po.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal pair on which Munidatta's reading of 3b and his Hevajra quotation turn, needing one rendering like the grasped and the grasper; the single words get whole-word regexes because ভাবক and ভাব্য sit inside words such as prabhāvaka."
+    },
+    {
+      "id": "atmagraha",
+      "type": "term",
+      "en": "grasping at a self",
+      "policy": "translate",
+      "alt": [
+        "self-grasping"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আত্মগ্রহভাব্যভাবকরূপং",
+          "translit": "ātmagrahabhāvyabhāvakarūpaṃ",
+          "lemma": "ātmagraha",
+          "att": "AS",
+          "where": "cp.26.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་ཏུ་འཛིན་པ",
+          "translit": "bdag tu 'dzin pa",
+          "lemma": "bdag tu 'dzin pa",
+          "att": "AO",
+          "where": "cp.26.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আত্মগ্রহ"
+        },
+        {
+          "lang": "bod",
+          "form": "བདག་ཏུ་འཛིན་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Grasping at a self (ātmagraha; Tibetan bdag tu 'dzin pa): taking a person or thing to have a real, independent self, which Buddhist teaching places at the root of saṃsāra. Munidatta says the form of self-grasping, as object of meditation and meditator, is refuted (cp.26.m3). Compare I-making and mine-making (ahaṃkāra, mamakāra).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term, here in Munidatta's gloss on 3b, which no entry covers (I-making and mine-making is a different pair)."
+    },
+    {
+      "id": "dvayakara",
+      "type": "term",
+      "en": "dual aspect",
+      "policy": "translate",
+      "alt": [
+        "twofold aspect"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দ্বয়াকারং",
+          "translit": "dvayākāraṃ",
+          "lemma": "dvayākāra",
+          "att": "AS",
+          "where": "cp.26.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པ་གཉིས",
+          "translit": "rnam pa gnyis",
+          "lemma": "rnam pa gnyis",
+          "att": "AO",
+          "where": "cp.26.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པ་གཉིས",
+          "translit": "rnam pa gnyis",
+          "lemma": "rnam pa gnyis",
+          "att": "AO",
+          "where": "cp.26.4a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<!অ)দ্বয়াকার"
+        }
+      ],
+      "definition": "A dual aspect (dvayākāra): appearance as two, above all as grasped object and grasping subject. Munidatta says that on this excellent path, being nondual, the dual aspect does not exist (cp.26.m4); his paraphrase puts it where song 26 has dui māra (4a), and the Tibetan line has rnam pa gnyis, 'two aspects'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's key term for couplet 4, which the Tibetan line also uses; the regex keeps it from matching inside advayākāra, and the Tibetan rnam pa gnyis is left out of the match as too common."
+    },
+    {
+      "id": "karya-karana",
+      "type": "term",
+      "en": "effect and cause",
+      "policy": "translate",
+      "alt": [
+        "cause and effect",
+        "work and cause"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাজ ন কারণ",
+          "translit": "kāja na kāraṇa",
+          "lemma": "kāja, kāraṇa",
+          "att": "AS",
+          "where": "cp.26.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কাজেত্যাদি",
+          "translit": "kājetyādi",
+          "lemma": "kāja",
+          "att": "AS",
+          "where": "cp.26.m5"
+        },
+        {
+          "lang": "san",
+          "script": "কার্য্যকারণরহিতত্বাৎ",
+          "translit": "kāryyakāraṇarahitatvāt",
+          "lemma": "kāryakāraṇa",
+          "att": "AS",
+          "where": "cp.26.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱ་བ་བྱེད་པ",
+          "translit": "bya ba byed pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.26.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱ་བ་དང་བྱེད་པ",
+          "translit": "bya ba dang byed pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.26.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাজ ন কারণ"
+        },
+        {
+          "lang": "san",
+          "form": "কাজেত্যাদি"
+        },
+        {
+          "lang": "san",
+          "form": "কার্য্যকারণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Effect and cause: Old Bengali kāja (Sanskrit kārya, 'what is to be done, work, effect') and kāraṇa, 'cause'. Song 26 (5a) says there is neither. Munidatta says Śānti, being free of effect and cause, speaks the unsurpassed state (cp.26.m5). The Tibetan has bya ba and byed pa, 'act and agent'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The pair is the subject of the last couplet and of Munidatta's comment on it; matching the phrase rather than the single words keeps the everyday kāja, 'work', and every kāraṇa, 'reason', of the commentary out."
+    },
+    {
+      "id": "upalambha",
+      "type": "term",
+      "en": "apprehension",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবোপলম্ভাভাবে[৪০]ন",
+          "translit": "bhāvopalambhābhāvena",
+          "lemma": "upalambha",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্বরূপোপলম্ভমাহ",
+          "translit": "svarūpopalambham āha",
+          "lemma": "upalambha",
+          "att": "AS",
+          "where": "cp.26.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་པ",
+          "translit": "dmigs pa",
+          "lemma": "dmigs pa",
+          "att": "AO",
+          "where": "cp.26.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:উপলম্ভ|(?<=\\u09CB)পলম্ভ)"
+        }
+      ],
+      "definition": "Apprehension (upalambha): taking something as an object, as really there; the opposite of non-apprehension (anupalambha). Munidatta has Śānti ask what is to be meditated on when there is no apprehension of things (cp.26.m2), and introduces the last couplet of song 26 as stating the apprehension of the true nature (cp.26.m5). The Tibetan has dmigs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta frames his comments on the refrain and the last couplet with this positive counterpart of non-apprehension; the regex takes the stem after o, where sandhi absorbs the u- (bhāvopalambha), and so skips anupalambha."
+    },
+    {
+      "id": "balagra",
+      "type": "term",
+      "en": "hair's tip",
+      "policy": "translate",
+      "alt": [
+        "tip of a hair"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বালাগ",
+          "translit": "bālāga",
+          "lemma": "bālāga",
+          "att": "AS",
+          "where": "cp.26.4b"
+        },
+        {
+          "lang": "san",
+          "script": "বালবৎ",
+          "translit": "bālavat",
+          "lemma": "vāla",
+          "att": "AS",
+          "where": "cp.26.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྲ་རྩེ",
+          "translit": "skra rtse",
+          "lemma": "skra rtse",
+          "att": "AO",
+          "where": "cp.26.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বালাগ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The tip of a hair (Old Bengali bālāga; Sanskrit vālāgra), a stock measure of the smallest amount. Song 26 (4b) says not even a hair's tip enters; the Tibetan line has skra rtse'i cha, 'a hair-tip's portion'. Munidatta first reads bāla as 'fool', then as 'like a hair': not even the joint of a line is there (cp.26.m4).",
+      "symbolicImage": "not even a hair's tip enters",
+      "symbolicReadings": [
+        {
+          "referent": "the fool, the ignorant one (bāla, ajña), who does not enter this dharma and stays far from it: a play on bāla, 'hair' and 'child, fool'; he then offers 'like a hair' as an alternative, and the Tibetan comment keeps the hair in both readings (skra'i rtse mo)",
+          "per": "Munidatta",
+          "where": [
+            "cp.26.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "fool",
+        "fools",
+        "ignorant",
+        "novice"
+      ],
+      "rationale": "The hair's tip is the image of 4b, and Munidatta's first reading turns it by a pun into 'the fool', which must stay out of the line."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুনে",
+          "translit": "sune",
+          "lemma": "suna",
+          "att": "AS",
+          "where": "cp.26.3a"
+        },
+        {
+          "lang": "san",
+          "script": "শূন্যেতি",
+          "translit": "śūnyeti",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.26.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শূন্যেতি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুনে(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Emptiness: the absence of intrinsic existence in all things, a central idea of Mahāyāna thought. Song 26 (3a) has the locative sune, 'in the empty'; Munidatta cites it as śūnya and explains it as the mind made to enter clear light (cp.26.m3). The Tibetan line has stong pa nyid.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali locative sune of song 26 and Munidatta's citation form; a whole-word regex, since সুনে could stand inside longer words."
+    },
+    {
+      "id": "svasamvedana",
+      "type": "term",
+      "en": "self-awareness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সঁএঁ সঁবেঅণ",
+          "translit": "sam̐em̐ sam̐beaṇa",
+          "lemma": "svasaṃvedana",
+          "att": "AS",
+          "where": "cp.26.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གིས་རིག་པ",
+          "translit": "rang gis rig pa",
+          "lemma": "rang rig",
+          "att": "AO",
+          "where": "cp.26.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সঁএঁ সঁবেঅণ"
+        },
+        {
+          "lang": "oben",
+          "form": "সঁবেঅণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Self-awareness (svasaṃvedana): the mind's awareness of itself in the very act of knowing. Song 26 ends with Śānti speaking sam̐em̐ sam̐beaṇa (5b), the same phrase as song 15's saa sambeaṇa; the Tibetan line has rang gis rig pa, 'knowing by oneself'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds song 26's spelling of the phrase and the Tibetan read off the aligned line, so the term is recognised in the last couplet."
+    },
+    {
+      "id": "anuttara",
+      "type": "term",
+      "en": "unsurpassed",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনুত্তরপদং",
+          "translit": "anuttarapadaṃ",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.26.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་ན་མེད་པའི་གོ་འཕང",
+          "translit": "bla na med pa'i go 'phang",
+          "lemma": "bla na med pa'i go 'phang",
+          "att": "AO",
+          "where": "cp.26.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অনুত্তরপদ"
+        },
+        {
+          "lang": "bod",
+          "form": "བླ་ན་མེད་པའི་གོ་འཕང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Unsurpassed, having none above (anuttara). Munidatta says that Śānti speaks the unsurpassed state (anuttarapada), which is known by oneself through the true guru's grace (cp.26.m5); the Tibetan has bla na med pa'i go 'phang.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the phrase anuttarapada, 'the unsurpassed state', twice in Munidatta's comment on song 26, with its Tibetan."
+    },
+    {
+      "id": "road",
+      "type": "term",
+      "en": "road",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বট",
+          "translit": "baṭa",
+          "lemma": "bāṭa",
+          "att": "AS",
+          "where": "cp.26.4a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বট(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A road or way (Old Bengali bāṭa, in song 26 spelled baṭa). In 4a the road is bahala, 'broad' or 'flowing'; Munidatta renders the phrase 'this excellent path' (cp.26.m4), and the Tibetan line has 'bab lam. The short spelling is also the word for the banyan (vaṭa).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the short spelling of 4a, which both Munidatta and the Tibetan read as a road; the whole-word regex keeps it out of words like vaṭuka, though it would still catch a baṭa meaning 'banyan'."
+    }
+  ],
+  "questions": [
+    "p-heruka (2a): I added হেরুঅ as Heruka, as the edition's text suggests, but the Tibetan line has gzugs, 'form', and Munidatta's paraphrase has hetvantara, 'another cause', with no Heruka (cp.26.m2). Please confirm the identification.",
+    "niravayava (1b): ণিরবর is in the match because Munidatta glosses it explicitly as niravayava, 'partless' (cp.26.m2). The Tibetan line reads ṇirabara sesu as 'without remainder' (lhag ma med). If the line should not be tied to Munidatta's gloss, drop ণিরবর from the match.",
+    "mara (4a): the glossary has Old Bengali মার as Māra. In 4a (dui māra) Munidatta's paraphrase has dvayākāra and the Tibetan rnam pa gnyis, not Māra. If mara's match is the bare literal, it will tag 4a, and also words like kumārī. A whole-word regex and a decision on 4a may be needed.",
+    "p-santi: if the entry's oben match is the bare literal শান্তি, it will also hit inside Sanskrit words such as praśānti and upaśānti. A whole-word regex like the one proposed for সান্তি would avoid that.",
+    "sunyata (3a): Munidatta glosses śūnya as the mind made to enter clear light (prabhāsvara) (cp.26.m3). The merge adds only forms to an existing entry, so that reading would have to be added to sunyata's symbolic readings by hand if wanted.",
+    "cp.26.m2 quotes 'the chapter on wisdom' (prajñāpariccheda; Tibetan shes rab le'u) without naming the work. It may be the ninth chapter of the Bodhicaryāvatāra, which Munidatta quotes in song 6, but I have not verified this, so I propose no tx- entry."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "095fbbdcfa5b57704fc58d75639af42b39e96c3961e9d27c3e72ebd578b323f6",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "88215281494155cadf5caa5eba0672ebe8d896eaf3f6bf5f807512ffabaf384d",
+    "sourceSha": "465019950b39885a62e8ed11b7adf4af21348798a3143be5e3b95cfefff20d28"
+  }
+}

@@ -7320,6 +7320,14 @@
           "lemma": "biā-",
           "att": "AS",
           "where": "cp.33.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེས",
+          "translit": "skyes",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.33.3a"
         }
       ],
       "match": {
@@ -15354,6 +15362,14 @@
           "translit": "gṛhaṇī",
           "lemma": "gṛhiṇī",
           "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ་དུ",
+          "translit": "khyim du",
+          "lemma": "khyim",
+          "att": "AO",
           "where": "cp.33.m4"
         }
       ],
@@ -25033,6 +25049,9 @@
       "match": {
         "oben": [
           "দুধু"
+        ],
+        "bod": [
+          "འོ་མ"
         ]
       },
       "matchRe": {
@@ -32522,11 +32541,13 @@
         "oben": [
           "পখা"
         ],
+        "san": []
+      },
+      "matchRe": {
         "san": [
-          "পক্ষ"
+          "পক্ষ(?!ি)"
         ]
       },
-      "matchRe": {},
       "definition": "Wing, side or flank (Sanskrit pakṣa, Old Bengali pakhā); also half of a lunar month, and a party in a dispute. In song 4 the sides of the braid of moon and sun are to be split; the Tibetan translation renders the word there as sgo glegs, 'door-panel'. Munidatta speaks of the 'taking of sides' (pakṣagraha).",
       "symbolic": {
         "image": "the sides of the braid of moon and sun, which are to be split",
@@ -34904,7 +34925,8 @@
         "bod": [
           "བུམ་པ",
           "གྷ་ཊཱ",
-          "གྷ་ཊཱི"
+          "གྷ་ཊཱི",
+          "ཕྲུ་བ"
         ]
       },
       "matchRe": {},
@@ -42595,11 +42617,12 @@
         ],
         "san": [
           "বেণ্টম"
-        ]
+        ],
+        "bod": []
       },
       "matchRe": {
         "bod": [
-          "(?<![\\p{L}\\p{M}]|གཞོན་)ནུ་མ(?![\\p{L}\\p{M}])"
+          "(?<!གཞོན་)(?<![\\u0F40-\\u0FBC])ནུ་མ(?![\\u0F40-\\u0FBC])"
         ]
       },
       "definition": "A teat (Old Bengali beṇṭa; compare Sanskrit vṛnta, 'stalk', and stanavṛnta, 'nipple'). The refrain of song 33 asks whether milked milk goes back into it (2b); the Tibetan has nu ma, 'breast, teat'. Munidatta cites the word as veṇṭa and explains it as the root (cp.33.m3).",
@@ -42939,7 +42962,8 @@
         "bod": [
           "རྐུན་མས",
           "རྐུན",
-          "རྐུན་པོས"
+          "རྐུན་པོས",
+          "ཆོམ་པོ"
         ]
       },
       "matchRe": {
@@ -48660,6 +48684,14 @@
           "lemma": "vicāra",
           "att": "AS",
           "where": "cp.31.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་སྤྱོད་པ",
+          "translit": "rnam par spyod pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.33.m5"
         }
       ],
       "match": {

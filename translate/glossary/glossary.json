@@ -24332,7 +24332,6 @@
       "match": {
         "oben": [
           "লীড়েঁ",
-          "লোলেঁ",
           "বিলস",
           "বিলসই"
         ],
@@ -24349,7 +24348,11 @@
           "རྣམ་པར་རོལ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<!উ)লোলেঁ"
+        ]
+      },
       "definition": "Play or sport (Sanskrit līlā, Old Bengali līṛa): effortless, spontaneous activity, a favourite word of the siddhas for how the realized act. In song 18 Kāṇha falls asleep in the play of great bliss; Munidatta renders the word krīḍā, 'play', and says he went into yogic sleep in play (cp.18.m2). The Tibetan has rol, 'revel, play'.",
       "symbolic": {
         "image": "",
@@ -31446,6 +31449,72 @@
       }
     },
     {
+      "id": "nimitta",
+      "type": "term",
+      "status": "proposed",
+      "en": "sign",
+      "alt": [
+        "omen"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিমিত্তমাহ",
+          "translit": "nimittam āha",
+          "lemma": "nimitta",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বিগুণনিমিত্তং",
+          "translit": "viguṇanimittaṃ",
+          "lemma": "nimitta",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་མ",
+          "translit": "mtshan ma",
+          "lemma": "mtshan ma",
+          "att": "AO",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟགས",
+          "translit": "rtags",
+          "lemma": "rtags",
+          "att": "AO",
+          "where": "cp.37.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "নিমিত্তমাহ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A sign or mark by which something is known (Sanskrit nimitta, which also means 'cause' and 'omen'). Munidatta introduces couplet 4 of song 37, his 'third verse', as stating the sign of the lord of yogis, which people make out from his conduct as fire from smoke (cp.37.m5). The Tibetan has mtshan ma and rtags. Compare sign (cihna).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "niralamba",
       "type": "term",
       "status": "proposed",
@@ -35721,7 +35790,9 @@
       "alt": [
         "Tāḍaka"
       ],
-      "variants": [],
+      "variants": [
+        "Tāḍaka"
+      ],
       "policy": "keep-source",
       "forms": [
         {

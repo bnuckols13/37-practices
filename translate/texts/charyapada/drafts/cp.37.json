@@ -1,0 +1,555 @@
+{
+  "unit": "cp.37",
+  "title": "A Noose Round the Neck",
+  "summary": "There is no self and so nothing to fear, and the patched cloak of Mahāmudrā is torn and gone; the refrain tells the yogi not to be misled about experience and the innate, which, freed from the four alternatives, is just as it is. The ferryman knows the bāṇḍakuru, but what lies beyond the path of speech cannot be explained, and Tāḍaka ends: there is no room here, and whoever understands has a noose round his neck. Munidatta's paraphrase puts the longing for Mahāmudrā's accomplishment, fled far away, where the song has the torn cloak; he uses a ferry-master's simile for the sign by which a lord of yogis is known, and makes the noose saṃsāra's, tied by anyone who claims to have realized the dharma (cp.37.m2, cp.37.m5, cp.37.m6).",
+  "lines": [
+    {
+      "id": "cp.37.h1",
+      "translit": "rāga kāmoda",
+      "gloss": "rāga · Kāmoda",
+      "en": "[Rāga]{raga} [Kāmoda]{kamoda} · [Tāḍakapāda]{p-tadaka}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "kamoda",
+          "src": "কামোদ"
+        },
+        {
+          "id": "p-tadaka",
+          "src": "তাড়কপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Bengali heading names only the rāga. The poet's name is supplied from the attribution written before the song (tāḍakapādānām, 'of Tāḍakapāda', which the edition's emendation removes from 1a) and from the Tibetan heading (tA Ta ka'i zhabs). The Tibetan translates the rāga's name, dga' ba ster ba, 'giving joy', where for the same Kāmoda in song 13 it has 'dod pa sbyin pa, 'giving what is desired'; the source form Kāmoda is kept, as the glossary says."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.1a",
+      "translit": "apaṇe nāhim̐ so kāheri śaṅkā |",
+      "gloss": "self · is-not · so/that · of-what (or: whose) · fear (or: doubt)",
+      "en": "There is no [self]{atman}, so what is there to fear?",
+      "terms": [
+        {
+          "id": "atman",
+          "src": "অপণে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "Śaṅkā can be fear, apprehension or doubt. Chosen: fear, following Munidatta, who pairs it with bhaya, 'fear' (cp.37.m2). The Tibetan has the tshom, 'doubt': 'since there is no self, what doubt of mine?'. Kāheri may be 'of what' (so the Tibetan gang, and Munidatta, who lists what is not feared) or 'of whom': 'there is no self, so whose is the fear?'."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.1b",
+      "translit": "tā mahāmuderī ṭuṭi geli kaṃthā || dhru ||",
+      "gloss": "then/that · of-Mahāmudrā · having-broken · went · patched-cloak · dhru (refrain cue, not translated)",
+      "en": "Then the [patched cloak]{kantha-cloak} of [Mahāmudrā]{mahamudra} is torn and gone.",
+      "terms": [
+        {
+          "id": "kantha-cloak",
+          "src": "কংথা"
+        },
+        {
+          "id": "mahamudra",
+          "src": "মহামুদেরী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "Kaṃthā, 'patched cloak', is kept as printed and as the glossary files it (kantha-cloak). Munidatta's paraphrase (the longing, vāñchā, for the accomplishment of Mahāmudrā has fled far away, cp.37.m2) and the Tibetan line ('dod pa, 'desire') both read as if the word were কংখা kaṃkhā (Sanskrit kāṅkṣā, 'longing'), and খ and থ are easily confused. Alternative: 'Then the longing for Mahāmudrā has snapped and gone.' I kept the printed word because the Bengali is the reading text and the image holds (ṭuṭi, 'broken, torn', suits a cloak), but two witnesses agree against it."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line, 'dam dang dong rtse'i 'dod pa bral bar 'gyur, 'becomes free of the desire for 'dam and dong rtse', apparently 'mud (or, if 'dam stands for dam, seal) and coin', has no phyag rgya chen po: it seems to take mudrā in its everyday senses of seal and coin. Its comment has phyag rgya chen po'i dngos grub 'dod pa."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "Tā is taken as 'then', as Munidatta's tad idānīm, 'so now' (cp.37.m2); it could also be 'that' or 'his' ('his patched cloak of Mahāmudrā')."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.2a",
+      "translit": "anubhaba sahaja mā bholare joī",
+      "gloss": "experience · innate · do-not · be-misled (or: forget) + re (calling particle) · yogi (vocative)",
+      "en": "[Experience]{anubhava}, the [innate]{sahaja}: do not be misled, [yogi]{yogi}.",
+      "terms": [
+        {
+          "id": "anubhava",
+          "src": "অনুভব"
+        },
+        {
+          "id": "sahaja",
+          "src": "সহজ"
+        },
+        {
+          "id": "yogi",
+          "src": "জোঈ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "Bhola- may be 'be misled, err' (Tibetan ma 'khrul, 'do not err') or 'forget' (compare Bengali bhulā): 'do not forget the innate experience, yogi'. Chosen: 'do not be misled', which follows the Tibetan and leaves open what one is misled about. Munidatta reads the line as a warning against holding that experience is the innate (cp.37.m3), which suits 'misled' better than 'forget'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "Anubhaba sahaja is taken as two nouns in apposition, 'experience, the innate', as in Munidatta's anubhavaṃ sahajam iti (cp.37.m3); 'innate experience' is also possible."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.2b",
+      "translit": "caukoṭṭi bimukā jaiso taiso hoi || dhru ||",
+      "gloss": "four-alternatives · freed · as · so · is/becomes · dhru (refrain cue, not translated)",
+      "en": "Freed from the [four alternatives]{catuskoti}, it is just as it is.",
+      "terms": [
+        {
+          "id": "catuskoti",
+          "src": "চৌকোট্টি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "No subject is expressed; the draft supplies 'it'. Munidatta takes the poet as subject: 'being freed from the four alternatives, I abide again in that way' (cp.37.m3). Jaiso taiso hoi, 'as … so … is', is rendered 'just as it is', with the Tibetan ji bzhin yin."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.3a",
+      "translit": "jaisane achile sa taichana accha |",
+      "gloss": "in-whatever-way · you-were · that/so · in-that-way · remain (or: you-are)",
+      "en": "As you were, so remain.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "Accha is read as an imperative, 'remain', in keeping with the refrain's address to the yogi and the Tibetan imperative (yod par gyis); it may be indicative: 'As you were, so you are.' Achile is taken as 2nd person past, 'you were'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan has ji ltar 'dod pa de ltar yod par gyis, 'as you wish, so let it be', with 'dod pa, 'wish', where the Bengali has achile, 'you were', as if reading a form of icch-, 'wish'. Munidatta's comment, on arising as the great Vajradhara and being made firm in that again, supports 'were' (cp.37.m4)."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.3b",
+      "translit": "sahaja pithaka joi bhānti māho bāsa || dhru ||",
+      "gloss": "innate · separate · yogi (vocative) · confusion · do-not-be (mā ho) · dwelling · dhru (refrain cue, not translated)",
+      "en": "[Yogi]{yogi}, do not dwell in the [confusion]{bhranti} that the [innate]{sahaja} is separate.",
+      "terms": [
+        {
+          "id": "yogi",
+          "src": "জোই"
+        },
+        {
+          "id": "bhranti",
+          "src": "ভান্তি"
+        },
+        {
+          "id": "sahaja",
+          "src": "সহজ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The construction is uncertain. Taken as: yogi (joi), do not be (mā ho) in the dwelling (bāsa) of the confusion (bhānti) 'the innate is separate' (sahaja pithaka). Another parse: 'The innate apart? Yogi, let confusion have no dwelling.' Munidatta has 'do not make the innate separate (pṛthak); roam fearlessly in the form of a lion' (cp.37.m4)."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan, lhan skyes lam ni rnal 'byor 'khrul ma byed, 'yogi, do not go astray on the innate path', has lam, 'path', where the Bengali has pithaka (pṛthak, 'separate'), as if from patha, and nothing for bāsa."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.4a",
+      "translit": "bāṇḍakuru santāre jāṇī |",
+      "gloss": "bāṇḍakuru · by-the-ferryman (or: in-the-crossing) · knows (or: known)",
+      "en": "The [ferryman]{ferryman} knows the [bāṇḍakuru]{bandakuru}.",
+      "terms": [
+        {
+          "id": "ferryman",
+          "src": "সন্তারে"
+        },
+        {
+          "id": "bandakuru",
+          "src": "বাণ্ডকুরু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "Bāṇḍakuru is kept in source form, as the glossary has it (bandakuru): its sense is unknown. The Tibetan snod spyad, 'vessels and implements', reads the first part as bhāṇḍa, 'pots, wares'; Munidatta cites vaṇḍakuruṇḍa among the 'particular hindrances' of passengers that a ferry-master sees (cp.37.m5). A rendering such as 'bundles' or 'baggage' would fit both, but neither explains -kuru, so I did not venture it."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "Santāre is taken as the agent, 'the ferryman' (glossary), as the Tibetan sgrol ba po ni nyid kyis shes, 'the ferryman knows by himself', and Munidatta's ferry-master (tarapati, cp.37.m5) suggest. The ending can also be locative of santāra, 'crossing': 'in the crossing, the bāṇḍakuru is known'. Jāṇī may be 'knows' or 'known'."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.4b",
+      "translit": "bākpathātīta kām̐hi bakhāṇī || dhru ||",
+      "gloss": "beyond-the-path-of-speech · where/how · explains (or: is-explained) · dhru (refrain cue, not translated)",
+      "en": "What is [beyond the path of speech]{vakpathatita}, how could it be explained?",
+      "terms": [
+        {
+          "id": "vakpathatita",
+          "src": "বাক্‌পথাতীত"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "Kām̐hi is literally 'where'; taken as 'how', with the Tibetan ji ltar bshad, 'how explain'. Bakhāṇī, 'explain, expound', has no stated subject; 'how could I explain it' is also possible."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.5a",
+      "translit": "bhaṇai tāṛaka ethu nāhim̐ abakāśa |",
+      "gloss": "says · Tāḍaka · here (in-this) · is-not · room (occasion)",
+      "en": "[Tāḍaka]{p-tadaka} says: there is no room here.",
+      "terms": [
+        {
+          "id": "p-tadaka",
+          "src": "তাড়ক"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The poet names himself Tāḍaka; the glossary's English for p-tadaka is Tāḍakapāda, with no variant Tāḍaka. The self-naming is kept, as the style notes require, and marked to p-tadaka; see questions."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan reads tA Da ka yis 'di smra'i go skabs med, 'Tāḍaka: there is no occasion to speak of this', and its comment cites the line as beginning smra ba'i, so it seems to take bhaṇai, 'says', into the clause as 'speaking'. Munidatta reads ethu and abakāśa as 'in this dharma there is not even room (for novice yogins)' (cp.37.m6)."
+        }
+      ]
+    },
+    {
+      "id": "cp.37.5b",
+      "translit": "jo bujhai tā galem̐ galapāsa || dhru ||",
+      "gloss": "who · understands · his (that-one's) · on-the-neck · neck-noose · dhru (refrain cue, not translated)",
+      "en": "Whoever understands has a [noose]{noose} round his [neck]{kantha}.",
+      "terms": [
+        {
+          "id": "noose",
+          "src": "গলপাস"
+        },
+        {
+          "id": "kantha",
+          "src": "গলেঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "Galapāsa, literally 'neck-noose', is rendered 'noose' (glossary noose) and galem̐, 'on the neck', 'neck' (glossary kantha); the doubled gala (galem̐ galapāsa) is not kept in English."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "The line states the paradox flatly: whoever understands is noosed. Munidatta limits it to those who know the ultimate yet say 'we have realized the dharma' (cp.37.m6); the draft does not bring that limit into the line."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.37",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song: the siddha master Tāḍaka, delighted by the drink of knowledge, sets out that same meaning (cp.37.m1); the Tibetan has 'satisfied by the drink of knowledge'.",
+      "cites": [
+        "cp.37.m1"
+      ]
+    },
+    {
+      "anchor": "cp.37.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music; each song's heading names the one it is sung to, here Kāmoda, the rāga also of song 13.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.37.h1",
+      "kind": "witness",
+      "text": "The Bengali heading names only the rāga. The poet's name comes from the attribution the manuscript writes before the song, tāḍakapādānām, 'of Tāḍakapāda' (removed from line 1a by the edition's emendation), and from the Tibetan heading, tA Ta ka'i zhabs; the line and the comment spell the name tA Da ka. The Tibetan translation (Toh 2293) translates the rāga's name instead of transliterating it: dga' ba ster ba zhes pa'i glu dbyangs, 'the melody called Giving Joy'. For the same rāga in song 13 it has 'dod pa sbyin pa, 'giving what is desired', as if from kāmada; here it perhaps takes the name through moda or āmoda, 'delight', with a word for 'giving'. How the translators analysed the name is uncertain.",
+      "cites": [
+        "cp.37.m1",
+        "cp.37.m3",
+        "cp.37.m6"
+      ]
+    },
+    {
+      "anchor": "cp.37.1a",
+      "kind": "doctrine",
+      "text": "Munidatta has the poet say that by the grace of the dust of the guru's feet, through the means of the Tathāgata's word, examining his own body, not even a trace of connection with what is his own (ātmīya; the Tibetan has 'self and mine', bdag dang bdag gi) remains in him; therefore he has no apprehension (śaṅkā) or fear (bhaya) of the adventitious aggregates, afflictions, the Māra of death and the rest. He then cites a scripture by its opening words only (ātmaviśati…) (cp.37.m2).",
+      "cites": [
+        "cp.37.m2"
+      ]
+    },
+    {
+      "anchor": "cp.37.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has rang nyid med pas bdag gi the tshom gang, 'since there is no self, what doubt of mine?', taking śaṅkā as 'doubt' (the tshom); its comment likewise has som nyi za ba, 'hesitating, doubting', and lacks Munidatta's 'fear' (bhaya) (cp.37.m2). The Bengali śaṅkā covers apprehension, fear and doubt; the draft follows Munidatta's pairing with fear.",
+      "cites": [
+        "cp.37.m2"
+      ]
+    },
+    {
+      "anchor": "cp.37.1b",
+      "kind": "imagery",
+      "text": "The kaṃthā (Sanskrit kanthā; Bengali kā̃thā) is a patched cloak or quilt of sewn rags, the garment of wandering ascetics and yogis. As printed, the line has the patched cloak 'of Mahāmudrā' torn and gone. Mahāmudrā, 'the Great Seal': in the yoginī tantras, the highest accomplishment.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.37.1b",
+      "kind": "witness",
+      "text": "Reading. Where the line has kaṃthā, Munidatta's paraphrase has the longing (vāñchā) for the accomplishment of Mahāmudrā, which 'has fled far away' (dūraṃ palāyitā, apparently for ṭuṭi geli) (cp.37.m2); the Tibetan line has 'dod pa, 'desire', and its comment phyag rgya chen po'i dngos grub 'dod pa. Both point to a reading কংখা kaṃkhā (Sanskrit kāṅkṣā, 'longing'); in Bengali script খ (kha) and থ (tha) are easily confused. The draft translates the line as printed and flags it. The Tibetan line also has 'dam dang dong rtse, apparently 'mud and coin', where the Bengali has mahāmuderī: perhaps mudrā taken in its everyday senses of seal and coin, if 'dam stands for dam, 'seal'.",
+      "cites": [
+        "cp.37.m2"
+      ]
+    },
+    {
+      "anchor": "cp.37.1b",
+      "kind": "doctrine",
+      "text": "Munidatta: now that he no longer conceptualizes that aim, the longing for the accomplishment of Mahāmudrā has fled far away; and he quotes a scriptural verse: no one was ever bound before, nor is there release now; this conception of bondage and release… The Sanskrit's last words (kiñcij jñānam alakṣaṇam) are obscure; the Tibetan has 'is not the mark of knowledge' (cp.37.m2).",
+      "cites": [
+        "cp.37.m2"
+      ]
+    },
+    {
+      "anchor": "cp.37.1b",
+      "kind": "witness",
+      "text": "Shastri prints ধ্রু after this couplet as well, though the refrain is couplet 2: Munidatta introduces his comment on couplet 2 with 'by the refrain' (dhruvapadena) and counts couplet 3 as his second verse (cp.37.m3, cp.37.m4). The cue is not translated.",
+      "cites": [
+        "cp.37.m3",
+        "cp.37.m4"
+      ]
+    },
+    {
+      "anchor": "cp.37.2",
+      "kind": "doctrine",
+      "text": "Munidatta says the refrain restates the point. The poet addresses himself: 'O Tāḍaka, how can the meaning of experience be put into words? How then can you hold that experience is the innate? It is spoken of only in deference to the conventions of meditation, not as it is in itself.' He quotes a verse: by the yoga of teaching the Buddha is imagined as nondual; by the supreme inconceivable yoga there is neither Buddha nor nondual. So, being in a state freed from the four alternatives, 'I abide again in that way'; and he quotes 'neither existent nor nonexistent nor both…' (cp.37.m3).",
+      "cites": [
+        "cp.37.m3"
+      ]
+    },
+    {
+      "anchor": "cp.37.2a",
+      "kind": "philology",
+      "text": "Bholare is bhola, 'be misled' or 'forget' (compare Bengali bhulā), with the calling particle re. The Tibetan translation (Toh 2293) has ma 'khrul, 'do not err', which the draft follows; 'do not forget the innate experience' is also possible, though it sits uneasily with Munidatta's reading of the line as a warning against holding that experience is the innate (cp.37.m3).",
+      "cites": [
+        "cp.37.m3"
+      ]
+    },
+    {
+      "anchor": "cp.37.2b",
+      "kind": "philology",
+      "text": "Caukoṭṭi is catuṣkoṭi, the four alternatives (a thing is, is not, both, neither); the Tibetan has mtha' bzhi dang bral, 'free of the four extremes'. Jaiso taiso hoi, 'as … so … is', has no stated subject: the draft supplies 'it', with the Tibetan ji bzhin yin, 'is just as it is'; Munidatta makes the poet the subject, 'I abide again in that way' (cp.37.m3).",
+      "cites": [
+        "cp.37.m3"
+      ]
+    },
+    {
+      "anchor": "cp.37.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has ji ltar 'dod pa de ltar yod par gyis, 'as you wish, so let it be' (or 'so remain'), with 'dod pa, 'wish', where the Bengali has achile, 'you were', as if reading a form of icch-, 'wish'. Munidatta's comment supports 'were': at the time of arising he arose as the great Vajradhara, made of great bliss, and the vajra guru has made him firm in that again (cp.37.m4).",
+      "cites": [
+        "cp.37.m4"
+      ]
+    },
+    {
+      "anchor": "cp.37.3",
+      "kind": "doctrine",
+      "text": "Munidatta says the second verse points again to the same meaning. At the time of arising, through attachment (abhisvaṅga) to the vajra-holder's Nairātmā (pavidharanairātmya; the compound is not clear, and the Tibetan has 'accomplished selflessness'), 'I arose as the great Vajradhara, made of great bliss'; the vajra guru has made him firm in that very meaning again. 'Therefore, O siddha master, do not make the innate separate; roam fearlessly in the form of a lion' (cp.37.m4). The Tibetan comment speaks of the pride (nga rgyal) of having grown into the nature of great bliss.",
+      "cites": [
+        "cp.37.m4"
+      ]
+    },
+    {
+      "anchor": "cp.37.3b",
+      "kind": "philology",
+      "text": "The construction is uncertain: sahaja pithaka, 'the innate separate', is taken as the content of the confusion (bhānti) in which the yogi is not to dwell (mā ho bāsa). Munidatta has 'do not make the innate separate (pṛthak)' and then 'roam (bhrama) fearlessly in the form of a lion'; his bhrama shares its root with bhānti (bhrānti) (cp.37.m4). The Tibetan translation (Toh 2293) has lhan skyes lam ni rnal 'byor 'khrul ma byed, 'yogi, do not go astray on the innate path', with lam, 'path', where the Bengali has pithaka, and nothing for bāsa.",
+      "cites": [
+        "cp.37.m4"
+      ]
+    },
+    {
+      "anchor": "cp.37.4a",
+      "kind": "philology",
+      "text": "Bāṇḍakuru: a word of uncertain sense, kept in its source form; it is what the ferryman knows. Munidatta cites it as vaṇḍakuruṇḍa, one of the 'particular hindrances' (bādhaka) of passengers that a ferry-master sees (cp.37.m5); the Tibetan translation (Toh 2293) has snod spyad, 'vessels and implements', in the line and the comment, as if the first part were bhāṇḍa, 'pots, wares'. Together they suggest the passengers' bundles or goods, but neither accounts for -kuru.",
+      "cites": [
+        "cp.37.m5"
+      ]
+    },
+    {
+      "anchor": "cp.37.4a",
+      "kind": "philology",
+      "text": "Santāre: the glossary takes santāra as the one who takes people across (compare Sanskrit santāra, 'crossing over'), with -e marking the agent: 'the ferryman knows'. The Tibetan line agrees, sgrol ba po ni nyid kyis shes, 'the ferryman knows by himself', and Munidatta's simile has a ferry-master (tarapati) (cp.37.m5). The same ending can be locative, 'in the crossing', which would leave the knower unnamed.",
+      "cites": [
+        "cp.37.m5"
+      ]
+    },
+    {
+      "anchor": "cp.37.4",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the couplet as stating the sign (nimitta) of the lord of yogis, and gives a simile: as a ferry-master at the crossing, to collect his fare from those who want to reach the far shore, searches them even for cowries, apparently as they loosen their clothes (vāsavimokṣaṇe), and sees their vaṇḍakuruṇḍa and other particular hindrances. He goes on: how could a dharma beyond outer things (so the Tibetan; the Sanskrit reads bāhyabhīta), marked by self-awareness, be taught in the world through words? People make out the lord of yogis' sign from what he does, as scripture says, 'fire is known by smoke' (cp.37.m5). He does not say how the parts of the simile map onto the yogi. The Tibetan comment takes vāsavimokṣaṇa as 'liberation in the far-shore abode' and has no cowries.",
+      "cites": [
+        "cp.37.m5"
+      ]
+    },
+    {
+      "anchor": "cp.37.5a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has tA Da ka yis 'di smra'i go skabs med, 'Tāḍaka: there is no occasion to speak of this'; its comment cites the line as beginning smra ba'i, 'of speaking', so it seems to take bhaṇai, 'says', into the clause. Munidatta reads the line as 'in this dharma there is not even room for novice yogins' (cp.37.m6).",
+      "cites": [
+        "cp.37.m6"
+      ]
+    },
+    {
+      "anchor": "cp.37.5",
+      "kind": "doctrine",
+      "text": "Munidatta says the fourth verse teaches utter freedom from conceptual thought. Tāḍaka says that in this dharma there is not even room for novice yogins; and even those who know the ultimate, if they say 'we have realized the dharma', have bound their own necks (svagrīvā) with the noose of saṃsāra (saṃsārapāśa). He ends with a quotation whose Sanskrit is corrupt (tilatu sana tu viṣarṇṇa…); the Tibetan has 'even by a poison leaf the size of a sesame seed or a husk…' (cp.37.m6).",
+      "cites": [
+        "cp.37.m6"
+      ]
+    },
+    {
+      "anchor": "cp.37.5b",
+      "kind": "imagery",
+      "text": "Galapāsa is literally a 'neck-noose' (gala, 'neck', and pāśa, 'noose'), a snare or halter set on the neck; the line names the neck twice, galem̐ galapāsa, 'on the neck, the neck-noose'. The Tibetan has gang shes de yi mgul du zhags pas bcings, 'whoever knows, his neck is bound with a noose'. The line does not say who sets the noose; Munidatta makes it the noose of saṃsāra, tied by those who claim to have realized the dharma (cp.37.m6).",
+      "cites": [
+        "cp.37.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "vyakhyana",
+      "line": "cp.37.4b",
+      "reason": "Bakhāṇī is the verb 'explain, expound'; the entry's English, the noun 'exposition', does not fit the line, so it is translated 'explained' and left unmarked."
+    },
+    {
+      "id": "ananda",
+      "line": "cp.37.h1",
+      "reason": "Detected only in the Tibetan heading, where dga' ba is part of its translation of the rāga's name (dga' ba ster ba); the Bengali heading has no word for joy."
+    },
+    {
+      "id": "vessel",
+      "line": "cp.37.4a",
+      "reason": "Detected only in the Tibetan, whose snod spyad renders bāṇḍakuru; the Bengali word is kept in source form under bandakuru."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "nimitta",
+      "type": "term",
+      "en": "sign",
+      "policy": "translate",
+      "alt": [
+        "omen"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিমিত্তমাহ",
+          "translit": "nimittam āha",
+          "lemma": "nimitta",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বিগুণনিমিত্তং",
+          "translit": "viguṇanimittaṃ",
+          "lemma": "nimitta",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་མ",
+          "translit": "mtshan ma",
+          "lemma": "mtshan ma",
+          "att": "AO",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟགས",
+          "translit": "rtags",
+          "lemma": "rtags",
+          "att": "AO",
+          "where": "cp.37.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিমিত্তমাহ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A sign or mark by which something is known (Sanskrit nimitta, which also means 'cause' and 'omen'). Munidatta introduces couplet 4 of song 37, his 'third verse', as stating the sign of the lord of yogis, which people make out from his conduct as fire from smoke (cp.37.m5). The Tibetan has mtshan ma and rtags. Compare sign (cihna).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of Munidatta's framing words for a couplet, like praise (anuśaṃsā), power (prabhāva) and greatness (māhātmya), which have entries; the weave of cp.37.m5 will need it. The match is limited to the framing phrase nimittam āha, since nimitta elsewhere often means 'cause' or 'for the sake of'."
+    }
+  ],
+  "questions": [
+    "1b: Keep kaṃthā, 'patched cloak', as printed (my choice), or emend to kaṃkhā, 'longing', with Munidatta (vāñchā) and the Tibetan ('dod pa)? Emended, the line would read 'Then the longing for Mahāmudrā has snapped and gone'; kantha-cloak would lose its only attestation, and a term for 'longing' would be needed.",
+    "4a: Keep bāṇḍakuru in source form (my choice), or risk 'bundles' or 'baggage' on the strength of the Tibetan snod spyad ('vessels and implements') and Munidatta's vaṇḍakuruṇḍa among the passengers' hindrances?",
+    "4a: Confirm santāre as the agent, 'the ferryman' (glossary, Tibetan sgrol ba po, Munidatta's tarapati), rather than the locative 'in the crossing'.",
+    "2a: 'Do not be misled' (Tibetan ma 'khrul; my choice) or 'do not forget' (Bengali bhulā) for mā bholare? The choice changes what the refrain asks of the yogi.",
+    "3a: Imperative 'so remain' (my choice, with the Tibetan gyis) or indicative 'so you are'? And is the Tibetan's 'as you wish' ('dod pa where the Bengali has achile) worth recording as a variant reading?",
+    "5a: May 'Tāḍaka' be added as a variant of p-tadaka, as Bhusuku is for Bhusukupāda and Bhāde for Bhadrapāda? Meanwhile the self-naming is written Tāḍaka and marked to p-tadaka.",
+    "5b: Is plain 'noose' right for galapāsa, literally 'neck-noose', or would 'halter' or 'neck-noose' keep the doubled gala (galem̐ galapāsa) better?",
+    "Heading: I added the poet's name from the attribution before the song and the Tibetan heading, on the model 'Rāga Paṭamañjarī · Lūyīpāda'; confirm. Should the kamoda entry also record this heading's Tibetan rendering, dga' ba ster ba, 'giving joy', beside song 13's 'dod pa sbyin pa?",
+    "1b: Is the Tibetan line's 'dam dang dong rtse ('mud and coin'?) a rendering of mudrā as seal and coin, with 'dam for dam, 'seal'? A Tibetanist's view would firm up the witness note.",
+    "Proposal nimitta: its English, 'sign', is also cihna's; keep it, or prefer 'token' to keep the two apart?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "029a96fea0f995184c6505a7ae279732e090538836e379d11fb8560f95b75971",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "661082e77a7c39e730fa9e02d197343cd4fdb3b765b30275affb96bb2c5d838e",
+    "sourceSha": "d1dad0126a364dc59e1b59d5df5beacd2a48105574fa0495bf3175c114526168"
+  }
+}

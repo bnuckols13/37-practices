@@ -1,0 +1,636 @@
+{
+  "unit": "cp.39",
+  "title": "Better an Empty Cowshed",
+  "summary": "Saraha scolds his own mind: through its own fault it is in dream and ignorance, and it swallows poison while nectar is at hand; he says he will kill and eat the bad family, and ends with a proverb: better an empty cowshed than a bad ox, which alone destroyed the world, while he roams at will. Munidatta takes the mind addressed as the 'king of mind', born from the seed syllable hūṃ and now entered into clear light (cp.39.m3); he reads the bad ox as that same king of mind, 'what gives strength to bad objects', and the cow (go) of the cowshed as the senses (cp.39.m6).",
+  "lines": [
+    {
+      "id": "cp.39.h1",
+      "translit": "rāga mālaśī",
+      "gloss": "rāga (melodic mode) · Mālaśī (name of the rāga)",
+      "en": "[Rāga]{raga} [Mālaśī]{malasi} · [Saraha]{p-saraha}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "malasi",
+          "src": "মালশী"
+        },
+        {
+          "id": "p-saraha",
+          "src": "সরহপাদানাং"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The poet's name comes from the attribution sarahapādānāṃ, 'of Sarahapāda', which the edition prints before 1a and which was removed from the verse. The Tibetan heading also names Saraha (sa ra ha'i zhabs kyi'o) and spells the rāga mA la lA si."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.1a",
+      "translit": "suiṇā ha abidāraa re niamana tohorem̐ dose",
+      "gloss": "dream · (particle of unclear sense: 'and'? 'is'?) · ignorance (Munidatta: avidyā) · O · own mind · your · by fault",
+      "en": "[Dream]{svapna} and [ignorance]{avidya}, O my own [mind]{citta}, are your fault.",
+      "terms": [
+        {
+          "id": "svapna",
+          "src": "সুইণা"
+        },
+        {
+          "id": "avidya",
+          "src": "অবিদারঅ"
+        },
+        {
+          "id": "citta",
+          "src": "নিঅমন"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "The half-line is hard to parse. I take suiṇā as 'dream' and abidāraa as 'ignorance', as Munidatta's paraphrase does (tava avidyādoṣāt ... svapne 'pi, 'through your fault of ignorance ... even in dream', cp.39.m2), and ha as a linking particle, which gives 'Dream and ignorance ... are your fault'. Alternatives: suiṇāha as an Apabhraṃśa genitive, 'The ignorance of dream, O my own mind, is your fault'; or ha as a form of 'be', 'It is dream and ignorance ...'. The drift is the same either way."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) reads /stong nyid lag pas hrol cig kye/, 'Loosen emptiness with the hand, O!', as if it had suṇṇa, 'empty', for suiṇā, a word for 'hand' for ha, and an imperative such as vidāraya, 'tear open', for abidāraa. I follow the Bengali, which Munidatta's lemma (suiṇem) and paraphrase (svapne 'pi) support."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.1b",
+      "translit": "gurubaaṇa bihārem̐ re thākiba tai ghuṇḍa kaise",
+      "gloss": "guru's word · in the roaming, spreading (vihāra) · O · will stay · you · ghuṇḍa (sense unknown) · how",
+      "en": "As the [guru]{guru}'s word roams, how will you stay, [ghuṇḍa]{ghunda}?",
+      "terms": [
+        {
+          "id": "guru",
+          "src": "গুরু"
+        },
+        {
+          "id": "ghunda",
+          "src": "ঘুণ্ড"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "ghuṇḍa is kept in source form, as the glossary directs, because its sense is unknown. It seems to address the mind; a word of abuse ('ruffian'?, compare Bengali guṇḍā) is possible but a guess. Munidatta has only 'O king of mind' here (cp.39.m2), and the Tibetan line (khyod nyid slar sdong ji lta bu) does not clearly render it."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bihārem̐ (vihāra): I take it as 'roaming, spreading', because Munidatta says the moonbeams of the guru's word have spread (sphāritāḥ) through the three worlds (cp.39.m2). Vihāra can also mean 'dwelling, abode' (and 'monastery'), which would give 'In the dwelling of the guru's word, how will you stay?'. The Tibetan has spyod lam, 'conduct, way of life'."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "The song asks 'how' (kaise; the Tibetan ji lta bu); Munidatta's paraphrase asks in what place (kutra sthāne) the king of mind will stay (cp.39.m2). I translate the song."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.2a",
+      "translit": "akaṭa hūm̐ bhabai aṇā",
+      "gloss": "wonder · hūṃ · comes to be, arises · aṇā (read gaaṇā, 'in the sky', with Munidatta's lemma and the Tibetan)",
+      "en": "A [wonder]{adbhuta}: [hūṃ]{hum} comes to be in the [sky]{gagana}.",
+      "terms": [
+        {
+          "id": "adbhuta",
+          "src": "অকট"
+        },
+        {
+          "id": "hum",
+          "src": "হূঁ"
+        },
+        {
+          "id": "gagana",
+          "src": "গঅণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "Emended. The edition's line ends aṇā, which gives no clear sense (Prakrit āṇā, 'command', or āna, 'other', are possible but strained) and leaves this the shortest half-line of the song. Munidatta's comment on the refrain cites gaaṇa, 'sky' (gaaṇeti, cp.39.m3), and the Tibetan translation (Toh 2293) has nam mkha' la, 'in the sky'. I read gaaṇā and translate 'in the sky'. If the edition is kept, the line ends in a word I cannot translate."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.2b",
+      "translit": "baṅge jāyā nilesi pare bhāgela tohāra biṇāṇā",
+      "gloss": "in Baṅga · wife · (you) took · then, afterwards · broke (or: fled) · your · consciousness (vijñāna?)",
+      "en": "You took a wife in [Baṅga]{pl-banga}; then your [consciousness]{vijnana} broke.",
+      "terms": [
+        {
+          "id": "pl-banga",
+          "src": "বঙ্গে"
+        },
+        {
+          "id": "vijnana",
+          "src": "বিণাণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "biṇāṇā is tagged 'consciousness' (vijñāna, Prakrit viṇṇāṇa), and I keep that. But Prakrit viṇṇāṇa can also mean 'skill, cleverness' ('then your wits broke'), and the Tibetan translation (Toh 2293) has g.yo sgyu sna tshogs pa, 'various guiles'. At this point Munidatta's paraphrase has kaukṛtya, 'remorse', in an obscure compound (avidyādoṣavināśakaukṛtyaṃ bhagnaṃ tava, cp.39.m3). That looks like his gloss rather than a rendering of the word, though his vināśa, 'destruction', may echo biṇāṇā."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bhāgela: 'broke', following Munidatta's bhagnaṃ and the Tibetan 'joms pa, 'destroy'; or 'fled' (Bengali bhāg-, 'run away'). pare: 'then, afterwards'; the Tibetan has pha rol, 'other, beyond', as if it read para."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) reads the refrain quite differently and has no wife and no Baṅga: kyog por 'gro ba bslang gyis la, 'raise up the one who goes crookedly' (as if from vaṅka, 'crooked', and a verb 'go' for jāyā), then pha rol 'gro ba 'joms pa yis, 'by destroying the going beyond (or: the other)', for pare bhāgela. I follow the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.3a",
+      "translit": "adaabhua bhaba mohāro disai para apyaṇā",
+      "gloss": "wonder, wondrous · existence · delusion · is seen, appears · other · self",
+      "en": "A [wonder]{adbhuta}, the [delusion]{moha} of [existence]{bhava}: [self and other]{sva-para} appear.",
+      "terms": [
+        {
+          "id": "adbhuta",
+          "src": "অদঅভুঅ"
+        },
+        {
+          "id": "bhava",
+          "src": "ভব"
+        },
+        {
+          "id": "moha",
+          "src": "মোহারো"
+        },
+        {
+          "id": "sva-para",
+          "src": "পর অপ্যণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "disai can be passive, 'is seen, appears' (Apabhraṃśa dīsai), which I follow. Munidatta takes it as active, 'he sees' (sa paśyati, cp.39.m4), which would give 'it sees self and other'. The Tibetan mthong allows either. The source order is 'other, self'; the glossary's 'self and other' is used."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "mohāro is read as moha, 'delusion', with Munidatta (moho 'yam, cp.39.m4) and the Tibetan (gti mug). Its ending is unusual; a first-person form ('my', compare mohora in song 20) is a remote possibility."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.3b",
+      "translit": "e jaga jalabimbakāre sahajem̐ suṇa apaṇā",
+      "gloss": "this · world · in the form of a water bubble · by the innate · empty · itself, self",
+      "en": "This world is like a [water bubble]{jalabimba}: by the [innate]{sahaja} it is [empty]{sunyata} in itself.",
+      "terms": [
+        {
+          "id": "jalabimba",
+          "src": "জলবিম্ব"
+        },
+        {
+          "id": "sahaja",
+          "src": "সহজেঁ"
+        },
+        {
+          "id": "sunyata",
+          "src": "সুণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "suṇa is an adjective here, 'empty'. I mark it with the emptiness entry but use the surface 'empty', which is not a listed variant; the alternative that keeps the glossary form, 'its self is emptiness', turns the adjective into a noun."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "apaṇā: 'in itself' (Bengali āpanā, 'oneself, by oneself'). The Tibetan has stong pa bdag, 'the empty self', which would give 'by the innate, the self is empty'."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.4a",
+      "translit": "amiyā ācchantem̐ bisa gilesi re cia pasara basa apā",
+      "gloss": "nectar · being present · poison · (you) swallowed · O · mind · what is spread out (prasara?) · power, sway (vaśa) · yourself (or: self)",
+      "en": "Though there is [nectar]{amrta}, you swallowed [poison]{visa}, O [mind]{citta}, yourself in the power of what is spread out.",
+      "terms": [
+        {
+          "id": "amrta",
+          "src": "অমিয়া"
+        },
+        {
+          "id": "visa",
+          "src": "বিস"
+        },
+        {
+          "id": "citta",
+          "src": "চিঅ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "pasara basa apā is unclear. I take basa as 'power, sway' (vaśa), as Munidatta (vaśyacitta, 'O mind under control', cp.39.m5) and the Tibetan (dbang) both do; apā as 'yourself'; and pasara as 'what is spread out' (Sanskrit prasara; compare pasārā, the wares spread out for sale in song 3). Alternatives: with the Tibetan gzhan dbang, read para-basa, 'in another's power' ('you put yourself in another's power'); or, if pasara is the later Bengali verb pāsar-, 'forget', 'you forgot your own mastery'."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "apā is tagged 'self' (ātman), but here it seems to be the reflexive 'yourself', since the line addresses the mind. I render 'yourself' and leave it untagged (see termsOmitted). The Tibetan bdag can mean either."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) has a negative the Bengali lacks: bdud rtsi yod bzhin dug med kyi, 'while there is nectar, without poison', where the Bengali says 'you swallowed poison'. Its second half, gzhan dbang sems kyi bdag khyim na, 'in the house of the self of the mind under another's power', brings in a house (khyim) that the Bengali has only in 4b. I follow the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.4b",
+      "translit": "ghārem̐ pārem̐ kā bujhjhile mare khāiba mai duṭha kuṇḍabām̐",
+      "gloss": "in the house · on the far shore · what · (you) understood · having killed (or: me) · will eat · I · bad · family",
+      "en": "In the [house]{house} and on the [far shore]{para}, what did you understand? I will kill and eat the bad [family]{kutumba}.",
+      "terms": [
+        {
+          "id": "house",
+          "src": "ঘারেঁ"
+        },
+        {
+          "id": "para",
+          "src": "পারেঁ"
+        },
+        {
+          "id": "kutumba",
+          "src": "কুণ্ডবাঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "mare: I take it as 'having killed' (compare Bengali mere khābo, 'I will kill and eat'), which gives 'I will kill and eat'. It may instead be a first-person form, 'me', which gives 'what did you make of me?'; the Tibetan first half has bdag gis go'o, 'I understood', which may reflect such a form. kā can be 'what' or 'who'."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "Where the Bengali has pārem̐, 'on the far shore', the Tibetan translation (Toh 2293) has btung ba, 'drink' (/btung ba bdag gis go'o kye/, 'I have understood the drink, O!'). Munidatta's comment cites a word pīnakam (cp.39.m5), perhaps for pānaka, 'drink', which the Tibetan comment renders btung ba can. Two witnesses may therefore have read 'drink'. I follow the Bengali."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ghārem̐ pārem̐, 'in the house and on the far shore', may be a jingling pair meaning 'at home and abroad, anywhere'. I keep both words literal."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.5a",
+      "translit": "saraha bhaṇanti bara suṇa gohālī kimo duṭhya balandem̐",
+      "gloss": "Saraha · says · better · empty · cowshed · what · bad · with an ox",
+      "en": "[Saraha]{p-saraha} says: better an empty [cowshed]{gohali}. What use is a [bad ox]{dusta-balada}?",
+      "terms": [
+        {
+          "id": "p-saraha",
+          "src": "সরহ"
+        },
+        {
+          "id": "gohali",
+          "src": "গোহালী"
+        },
+        {
+          "id": "dusta-balada",
+          "src": "দুঠ্য বলন্দেঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "suṇa, 'empty', is left without the emptiness tag. In this proverb it is the plain 'empty, vacant' of a shed with no cattle, unlike 3b. Munidatta does bring emptiness in: he makes the body, the support of the senses, into the form of empty clear light (cp.39.m6). That is his reading, not the line's."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan translation (Toh 2293) has no cowshed and no 'empty': /sa ra has smras mchog yin gyur/ /bdag ci ma rungs glang la ni/, 'Saraha said: it has become the best. What do I want with a bad ox?'. I follow the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.39.5b",
+      "translit": "ekele jaga nāśia re birahūm̐ī cchandrem̐",
+      "gloss": "by one alone · world · destroyed · (exclamation) · I roam · at will",
+      "en": "Alone it destroyed the world. I roam [at will]{svacchanda}.",
+      "terms": [
+        {
+          "id": "svacchanda",
+          "src": "চ্ছন্দ্রেঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "ekele, 'by one alone', is taken as the agent of nāśia, 'destroyed': the bad ox alone destroyed the world. Munidatta (ekena tena duṣṭena trailokyaṃ nāśitaṃ, cp.39.m6) and the Tibetan (gcig pus 'gro ba 'joms par byed) both read it this way. Grammatically it could also be 'Alone, having destroyed the world, I roam at will'."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "birahūm̐ī looks like viraha, 'separation', but Munidatta's paraphrase (viharaṇaṃ karomi, 'I roam', cp.39.m6) and the Tibetan (spyod, 'act, go about') point to biharum̐i, 'I roam', with h and r transposed. I translate 'I roam'."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.39.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music. Each song is headed by the mode to which it is sung, here Mālaśī. The Tibetan translation (Toh 2293) transcribes the name as mA la lA si, with an extra syllable.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.39",
+      "kind": "witness",
+      "text": "Shastri's edition prints the attribution sarahapādānāṃ ('of Sarahapāda') before the first line; it is used in the heading, not in the verse. The edition prints ধ্রু after couplet 1 as well as after the refrain and the later couplets; it is a singing cue and is not translated. The Tibetan translation (Toh 2293) reads differently in 1a, 2a, 2b, 4a, 4b and 5a; each difference is noted on its line.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.39.1",
+      "kind": "doctrine",
+      "text": "Munidatta takes the 'own mind' (niamana) whom the song addresses as the king of mind (cittarāja). His paraphrase: through your fault of ignorance, taking things as real and desiring things even in dream, ...; the moonbeams of the guru's word have spread through the three worlds; so in what place will you stay, O king of mind? The Sanskrit is choppy here; the Tibetan comment adds that the moonbeams spread by the power of the Buddha's merit.",
+      "cites": [
+        "cp.39.m2"
+      ]
+    },
+    {
+      "anchor": "cp.39.1a",
+      "kind": "philology",
+      "text": "abidāraa is taken as 'ignorance' (avidyā), following Munidatta's paraphrase, tava avidyādoṣāt, 'through your fault of ignorance', which also accounts for tohorem̐ dose, 'by your fault'. The form itself, perhaps abidā with a genitive -ra, is not clear, nor is the particle ha.",
+      "cites": [
+        "cp.39.m2"
+      ]
+    },
+    {
+      "anchor": "cp.39.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has stong nyid, 'emptiness', where the Bengali has suiṇā, 'dream': /stong nyid lag pas hrol cig kye/ /khyod kyi rang gi yid kyi skyon/, 'Loosen emptiness with the hand, O! It is the fault of your own mind.' The Tibetan comment cites the same lemma (stong nyid ces bya ba) but its paraphrase still speaks of dream (rmi lam gyi rjes la yang, 'even after the dream'), matching Munidatta's svapne 'pi, 'even in dream'. The translation follows the Bengali.",
+      "cites": [
+        "cp.39.m2"
+      ]
+    },
+    {
+      "anchor": "cp.39.1b",
+      "kind": "philology",
+      "text": "ghuṇḍa: kept in source form. A word of unknown sense, apparently addressed to the mind ('how will you stay, ghuṇḍa?'). A word of abuse such as 'ruffian' (compare Bengali guṇḍā) is possible but unproven. Munidatta's paraphrase has only 'O king of mind' at this point, and the Tibetan line, /khyod nyid slar sdong ji lta bu/, 'how will you yourself again ...?', does not clearly render it.",
+      "cites": [
+        "cp.39.m2"
+      ]
+    },
+    {
+      "anchor": "cp.39.1b",
+      "kind": "philology",
+      "text": "bihārem̐ is from vihāra, which can mean 'roaming, spreading' or 'dwelling, abode'. Munidatta's paraphrase speaks of the moonbeams of the guru's word spreading (sphāritāḥ) through the three worlds, which suits 'roaming'; the Tibetan line has spyod lam, 'conduct, way of life'.",
+      "cites": [
+        "cp.39.m2"
+      ]
+    },
+    {
+      "anchor": "cp.39.2",
+      "kind": "doctrine",
+      "text": "Munidatta says the refrain makes the same point firm. He glosses akaṭa as 'wonder' (āścarya) and paraphrases: by the grace of the guru's lotus feet you have been understood by me, in play, O king of mind, born from the seed, the syllable hūṃ; 'gaaṇa' means you have entered clear light; now your remorse ... is broken. In the song a hūṃ comes to be; in his reading the mind is born from it. The Tibetan comment agrees (hUM yig sa bon las byung ba; nam mkha' la ... 'od gsal la rab tu zhugs pa).",
+      "cites": [
+        "cp.39.m3"
+      ]
+    },
+    {
+      "anchor": "cp.39.2a",
+      "kind": "witness",
+      "text": "The edition's line reads aṇā where Munidatta cites gaaṇa, 'sky', which he glosses as clear light (gaaṇeti prabhāsvare praviṣṭo 'si), and where the Tibetan translation (Toh 2293) has /rmad byung hUM skyes nam mkha' la/, 'a wonder: hūṃ is born in the sky'. The translation reads gaaṇā with these two witnesses; aṇā is probably a copying slip that lost the syllable ga.",
+      "cites": [
+        "cp.39.m3"
+      ]
+    },
+    {
+      "anchor": "cp.39.2a",
+      "kind": "imagery",
+      "text": "hūṃ is a seed syllable (bīja) of the tantras, from which deities are visualized arising; in the triad oṃ āḥ hūṃ it stands for mind. The line gives the syllable itself, coming to be as a wonder.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.39.2b",
+      "kind": "philology",
+      "text": "biṇāṇā is taken as vijñāna, 'consciousness' (Prakrit viṇṇāṇa, which can also mean 'skill, cleverness'). Munidatta's paraphrase puts kaukṛtya, 'remorse', at this point: 'now your remorse ... is broken' (avidyādoṣavināśakaukṛtyaṃ bhagnaṃ tava). The compound is obscure, and its vināśa, 'destruction', may echo biṇāṇā. The Tibetan comment has 'your various faults of ignorance and remorse, destroyed' (ma rig pa'i skyon sna tshogs pa 'gyod pa bcom pa), and the Tibetan line 'your various guiles' (khyod kyi g.yo sgyu sna tshogs pa).",
+      "cites": [
+        "cp.39.m3"
+      ]
+    },
+    {
+      "anchor": "cp.39.2b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has nothing about a wife or Baṅga: /kyog por 'gro ba bslang gyis la/ /pha rol 'gro ba 'joms pa yis/ /khyod kyi g.yo sgyu sna tshogs pa/, 'raise up the one who goes crookedly; by destroying the going beyond (or: the other), your various guiles ...'. It seems to read vaṅka, 'crooked', for baṅge, a verb 'go' for jāyā, and para, 'other, beyond', for pare. Munidatta's comment on the refrain passes over the wife and Baṅga.",
+      "cites": [
+        "cp.39.m3"
+      ]
+    },
+    {
+      "anchor": "cp.39.3",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 3, his 'second verse', as praise of the being of highest capacity (adhimātrasattva). He paraphrases: this delusion of the being in existence is a wonder, since he sees the division into self and other; so in a mind with I-making, ultimate mind does not arise. He quotes a scriptural verse saying that the I-sense does not leave the heart while the view of a self remains, and that there is no teacher in the world but the Victor who teaches selflessness. He ends, in a partly corrupt passage, that for those who know reality, accomplishment established by the proof that all is empty comes through the twelve examples beginning with the moon in water.",
+      "cites": [
+        "cp.39.m4"
+      ]
+    },
+    {
+      "anchor": "cp.39.3b",
+      "kind": "imagery",
+      "text": "A water bubble (jalabimba; bimba can also mean a disc or a reflected image) is a stock image of what appears without substance. The Tibetan translation (Toh 2293) has chu yi chu bur, 'water bubble', and for the second half lhan cig skyes pa'i stong pa bdag, 'the innate empty self'. Munidatta's comment on the couplet names twelve examples of this kind, beginning with the moon in water.",
+      "cites": [
+        "cp.39.m4"
+      ]
+    },
+    {
+      "anchor": "cp.39.4",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 4, his 'third verse', as stating the fourth joy (the Tibetan: the great nature of the four joys). He paraphrases: when innate joy is present, you seize, as if by force, the sense objects beginning with form, O mind under control, as if of karma; the sense objects stand where the song has poison, without an explicit gloss. 'House' means one's own body. The host of passion, hatred, delusion and the rest is to be eaten by me, that is, made without intrinsic nature, having embraced your own housewife, the jñānamudrā Nairātmā. He quotes Saraha: 'the housewife eats another's poison'. Where the Sanskrit has 'eating' (bhakṣaṇa), the Tibetan comment has 'drink' (btung ba).",
+      "cites": [
+        "cp.39.m5"
+      ]
+    },
+    {
+      "anchor": "cp.39.4a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads /bdud rtsi yod bzhin dug med kyi/ /gzhan dbang sems kyi bdag khyim na/, 'while there is nectar, without poison, in the house of the self of the mind under another's power'. It has a negative the Bengali lacks (dug med, 'without poison', against bisa gilesi, 'you swallowed poison'), reads 'another's power' (gzhan dbang) for pasara basa, and has a house (khyim) that the Bengali has only in 4b. The Tibetan comment fits its line: if you abide in innate joy, how can you enjoy the poison of objects? The translation follows the Bengali.",
+      "cites": [
+        "cp.39.m5"
+      ]
+    },
+    {
+      "anchor": "cp.39.4a",
+      "kind": "philology",
+      "text": "pasara basa apā: basa is taken as vaśa, 'power, sway', with Munidatta's vaśyacitta, 'O mind under control', and the Tibetan dbang. pasara is taken as Sanskrit prasara, 'what is spread out' (compare pasārā, the wares a liquor-seller spreads out for sale in song 3). The Tibetan gzhan dbang, 'in another's power', suggests a text reading para-basa. apā is taken as the reflexive 'yourself'.",
+      "cites": [
+        "cp.39.m5"
+      ]
+    },
+    {
+      "anchor": "cp.39.4b",
+      "kind": "witness",
+      "text": "For pārem̐, 'on the far shore', the Tibetan translation (Toh 2293) has btung ba, 'drink': /btung ba bdag gis go'o kye/ /bdag ni ma rungs gnyen 'dun za/, 'I have understood the drink, O! I eat the bad kin'. Munidatta's comment, after glossing 'house' as one's own body, cites a word pīnakam without explaining it; it may stand for pānaka, 'drink', and the Tibetan comment renders it btung ba can, 'having drink'. The translation follows the Bengali.",
+      "cites": [
+        "cp.39.m5"
+      ]
+    },
+    {
+      "anchor": "cp.39.4b",
+      "kind": "imagery",
+      "text": "Eating one's own family (kuṇḍabā, from kuṭumba, the household kin) is a violent paradox, like the killing of kin in song 11. The speaker turns from scolding the mind to say what he himself will do.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.39.5",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the last couplet as conduct at will (svacchandacaryā). He explains duṣṭabalada, 'bad ox', as 'what gives strength (balaṃ dadāti) to bad objects', to be understood as the king of mind: by that one bad thing the three worlds were destroyed, so what am I to do with it? 'Go' (the first part of gohālī) means the senses; their support, one's own body, he makes into the form of empty clear light by the grace of the guru's word, and so roams at will in the three worlds. He quotes Śāntidevapāda: 'the abode of conduct at will ...'. The Tibetan comment instead explains go as 'ox' (glang po).",
+      "cites": [
+        "cp.39.m6"
+      ]
+    },
+    {
+      "anchor": "cp.39.5a",
+      "kind": "imagery",
+      "text": "'Better an empty cowshed than a bad ox' looks like a proverb: no cattle at all is better than a vicious beast. The cowshed (gohālī, from Sanskrit gośālā) and the bad ox (duṭha balanda, Sanskrit duṣṭa balada) are kept as the farmyard images they are.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.39.5b",
+      "kind": "philology",
+      "text": "birahūm̐ī is read as biharum̐i, 'I roam', with h and r transposed; Munidatta's paraphrase has svacchandena trijagati viharaṇaṃ karomi, 'I roam at will in the three worlds', and the Tibetan line has kye ma bdag ni rang 'dod spyod, 'O, I act as I please'. Munidatta also says 'the three worlds' where the song has 'the world' (jaga).",
+      "cites": [
+        "cp.39.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "atman",
+      "line": "cp.39.4a",
+      "reason": "অপা is rendered 'yourself': in a line addressed to the mind it reads as the reflexive pronoun, not the doctrinal self, and the tag would bring the ātman question into the line. Flagged for the reviewer."
+    },
+    {
+      "id": "sunyata",
+      "line": "cp.39.1a",
+      "reason": "Tibetan-only hit (stong nyid). The Bengali has সুইণা, 'dream', which is translated and tagged as dream; the Tibetan reading is reported in a witness note."
+    },
+    {
+      "id": "vakra",
+      "line": "cp.39.2a",
+      "reason": "Tibetan-only hit (kyog po, 'crooked'), the Tibetan's rendering of what the Bengali has as 'you took a wife in Baṅga' (2b); reported in the witness note on 2b."
+    },
+    {
+      "id": "para",
+      "line": "cp.39.2b",
+      "reason": "Tibetan-only hit (pha rol). The Bengali পরে is taken as 'then, afterwards', not as the far shore."
+    },
+    {
+      "id": "house",
+      "line": "cp.39.4a",
+      "reason": "Tibetan-only hit (khyim). The Bengali 4a has no house; the Tibetan's house is reported in the witness note."
+    },
+    {
+      "id": "sunyata",
+      "line": "cp.39.5a",
+      "reason": "Not a detected hit; listed for clarity. সুণ in 'empty cowshed' is the plain adjective 'empty, vacant' in a proverb and is deliberately left untagged; see the flag on the line."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "jagat",
+      "type": "term",
+      "en": "world",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জগ",
+          "translit": "jaga",
+          "lemma": "jaga",
+          "att": "AS",
+          "where": "cp.39.3b"
+        },
+        {
+          "lang": "oben",
+          "script": "জগ",
+          "translit": "jaga",
+          "lemma": "jaga",
+          "att": "AS",
+          "where": "cp.39.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ",
+          "translit": "'gro",
+          "lemma": "'gro ba",
+          "att": "AO",
+          "where": "cp.39.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་བ",
+          "translit": "'gro ba",
+          "lemma": "'gro ba",
+          "att": "AO",
+          "where": "cp.39.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])জগ(?:তে|ত|ে)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The world (Old Bengali jaga, from Sanskrit jagat, 'what moves'): the realm of beings and things. In song 39 this world is like a water bubble, empty in itself (3b), and a bad ox alone destroys it (5b). The Tibetan lines have 'gro ba, 'beings, the world'; Munidatta's paraphrase of 5b has 'the three worlds' (cp.39.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Occurs twice in this song and is a common word of the songs. An entry keeps 'world' consistent and separate from 'three worlds' (trailokya), which Munidatta puts in its place in his paraphrase of 5b."
+    }
+  ],
+  "questions": [
+    "2a: I emended the edition's aṇā to gaaṇā, 'in the sky', on the evidence of Munidatta's lemma (gaaṇeti, cp.39.m3) and the Tibetan (nam mkha' la). Do you accept the emendation, or should the line follow the edition with aṇā left as a crux?",
+    "2b: Keep biṇāṇā as 'consciousness' (vijñāna), or read 'cleverness, wits' (Prakrit viṇṇāṇa; the Tibetan has 'various guiles')? I treat Munidatta's 'remorse' (kaukṛtya) as his gloss and report it in a note only. Is that right?",
+    "4a: I render অপা as 'yourself' and leave it untagged instead of marking it 'self' (ātman). Do you agree? And which reading of pasara basa apā do you prefer: 'yourself in the power of what is spread out' (drafted), 'you put yourself in another's power' (with the Tibetan gzhan dbang), or 'you forgot your own mastery' (pasara as 'forget')?",
+    "1b: ghuṇḍa stays in source form with a first-occurrence note. Do you know a sense for it, or should it stay a crux? And is 'As the guru's word roams' acceptable for gurubaaṇa bihārem̐, or do you prefer 'In the dwelling of the guru's word'?",
+    "3b and 5a: I tag suṇa in 3b as emptiness, with the surface 'empty', but leave the 'empty cowshed' of 5a untagged as a plain adjective in a proverb. Do you agree with the split, and may 'empty' be added as a variant of the emptiness entry for adjectival uses?",
+    "4b: Is 'I will kill and eat' right for mare khāiba, or should mare be a first-person form ('what did you make of me?')? The Tibetan has 'drink' for pārem̐, and Munidatta cites pīnakam, perhaps 'drink'. Should that stay a note, as now, or lead to an emendation?",
+    "1a: Is 'Dream and ignorance, O my own mind, are your fault' acceptable for the obscure suiṇā ha abidāraa re, or would you prefer 'The ignorance of dream, O my own mind, is your fault'?",
+    "5b: Munidatta and the Tibetan make the bad ox the one that destroyed the world, and I follow them. The Bengali could also mean 'Alone, having destroyed the world, I roam at will'. Keep the drafted reading?",
+    "Heading: I added '· Saraha' from the attribution the edition prints before 1a. Keep it? And is a separate glossary entry for 'world' (jaga, proposed as jagat) wanted?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "b67e5b3120e891a0078849c303992b2de700818ef7f037dc285461f0ff566a8c",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "a9d34f8e4e134a407bf42108c82e060efb76b54135783eb6752df69c5bb0696d",
+    "sourceSha": "e0d8bf55bf81097d6a06bf9c63e5199227957b94ca084bfc09044c60991909de"
+  }
+}

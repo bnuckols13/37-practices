@@ -19645,6 +19645,70 @@
       }
     },
     {
+      "id": "jagat",
+      "type": "term",
+      "status": "proposed",
+      "en": "world",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জগ",
+          "translit": "jaga",
+          "lemma": "jaga",
+          "att": "AS",
+          "where": "cp.39.3b"
+        },
+        {
+          "lang": "oben",
+          "script": "জগ",
+          "translit": "jaga",
+          "lemma": "jaga",
+          "att": "AS",
+          "where": "cp.39.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ",
+          "translit": "'gro",
+          "lemma": "'gro ba",
+          "att": "AO",
+          "where": "cp.39.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་བ",
+          "translit": "'gro ba",
+          "lemma": "'gro ba",
+          "att": "AO",
+          "where": "cp.39.5b"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])জগ(?:তে|ত|ে)?(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "The world (Old Bengali jaga, from Sanskrit jagat, 'what moves'): the realm of beings and things. In song 39 this world is like a water bubble, empty in itself (3b), and a bad ox alone destroys it (5b). The Tibetan lines have 'gro ba, 'beings, the world'; Munidatta's paraphrase of 5b has 'the three worlds' (cp.39.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "jalabimba",
       "type": "term",
       "status": "proposed",

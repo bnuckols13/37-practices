@@ -27673,6 +27673,56 @@
       }
     },
     {
+      "id": "krtakrtyata",
+      "type": "term",
+      "status": "proposed",
+      "en": "having done what was to be done",
+      "alt": [
+        "task accomplished"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃতকৃত্য[তা]",
+          "translit": "kṛtakṛtya[tā]",
+          "lemma": "kṛtakṛtyatā",
+          "att": "AS",
+          "where": "cp.50.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱ་བ་བྱེད་པ",
+          "translit": "bya ba byed pa",
+          "lemma": "bya ba byed pa",
+          "att": "AO",
+          "where": "cp.50.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "কৃতকৃত্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The state of one who has done what was to be done (kṛtakṛtyatā), a stock Buddhist description of finished practice, said of arhats and buddhas. Munidatta uses it to introduce couplet 3 of song 50, his 'second verse', where the poet's field has become sky-like and the cotton has bloomed (cp.50.m4). The Tibetan has bya ba byed pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "ksepa",
       "type": "term",
       "status": "proposed",
@@ -47682,6 +47732,54 @@
       },
       "matchRe": {},
       "definition": "A reflection or reflected image (Old Bengali patibimbu, Sanskrit pratibimba), as in a mirror or in water: a stock Buddhist simile for what appears without being there (compare twelve examples). Song 41 (3a) ends its list of illusions with it. The Tibetan line has chu zla gzugs brnyan, 'moon in water, reflection', perhaps reading the dā- before it as water.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "pravesopaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "means of entering",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রবেশোপায়",
+          "translit": "praveśopāya",
+          "lemma": "praveśopāya",
+          "att": "AS",
+          "where": "cp.50.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་ཏུ་འཇུག་པའི་ཐབས",
+          "translit": "rab tu 'jug pa'i thabs",
+          "lemma": "rab tu 'jug pa'i thabs",
+          "att": "AO",
+          "where": "cp.50.m7"
+        }
+      ],
+      "match": {
+        "san": [
+          "প্রবেশোপায"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The means of entering (praveśopāya), a framing phrase with which Munidatta introduces couplet 6 of song 50, his 'fifth verse': he takes its 'four' as the four joys arising from the action seal (cp.50.m7). What is entered is not said. The Tibetan has rab tu 'jug pa'i thabs.",
       "symbolic": {
         "image": "",
         "readings": []

@@ -161,6 +161,12 @@ test('parallel: @primary makes the Tibetan the reading text for a lost song and 
   assert.deepEqual(units.warnings, ['fx.01: no tib parallel for fx.01.h1'], 'primary lines need no parallel; only the heading is unmatched');
 });
 
+test('parallel: a heading that only the parallel witness has comes before the verse', () => {
+  const [u] = both(['@parallel', '@song 1', '@primary', '@heading', '།རཱ་ག།', '@parallel', '@verse', '།ཀ།', '།ཁ།', '།ག།', '།ང།'].join('\n'));
+  assert.deepEqual(u.lines.slice(0, 3).map(l => [l.id, l.lang]), [['fx.01.h1', 'oben'], ['fx.01.h2', 'bod'], ['fx.01.1a', 'oben']]);
+  assert.deepEqual(Object.keys(u.parallels.tib.lines), ['fx.01.1a', 'fx.01.1b', 'fx.01.2a', 'fx.01.2b']);
+});
+
 test('parallel: mismatches are errors that say what to do', () => {
   assert.throws(() => both('@parallel\n@song 1\n@verse\nཀ\nཁ\nག\nང\nཅ\n'), /tib.txt:8: fx\.01 has 4 verse line\(s\).*put @primary before them/);
   assert.throws(() => both('@parallel\n@song 9\n@verse\nཀ\n'), /tib.txt:2: the reading text has no unit 9.*@primary/);

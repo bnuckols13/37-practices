@@ -113,6 +113,8 @@ export function segment(text, sources, overrides = {}) {
 
   const scriptOf = wid => text.witnesses.find(w => w.id === wid)?.script || '';
   const out = [...st.units.values()].sort((a, b) => a.n - b.n).map(u => {
+    // Headings first: a heading only the parallel witness has (@primary) is read after the verse.
+    u.lines = [...u.lines.filter(l => l.role === 'heading'), ...u.lines.filter(l => l.role !== 'heading')];
     const lines = u.lines.map(l => ({
       ...l, translit: l.role === 'lacuna' ? '' : transliterate(l.src, { lang: l.lang, script: scriptOf(l.witness), overrides }),
     }));

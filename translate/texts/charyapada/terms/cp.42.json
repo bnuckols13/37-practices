@@ -1,0 +1,871 @@
+{
+  "unit": "cp.42",
+  "proposals": [
+    {
+      "id": "butter",
+      "type": "term",
+      "en": "butter",
+      "policy": "translate",
+      "alt": [
+        "ghee"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লড়",
+          "translit": "laṛa",
+          "lemma": "laṛa",
+          "att": "AS",
+          "where": "cp.42.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མར",
+          "translit": "mar",
+          "lemma": "mar",
+          "att": "AO",
+          "where": "cp.42.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མར",
+          "translit": "mar",
+          "lemma": "mar",
+          "att": "AO",
+          "where": "cp.42.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])লড়(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Butter, or ghee, held unseen in milk: in 4b fools do not see it in the milk though it is there. The Old Bengali laṛa is of uncertain derivation; the rendering follows the Tibetan line and comment, which have mar, 'butter'. The Tibetan comment uses the image as a simile for seeing the three worlds without seeing (cp.42.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "essence",
+        "true nature",
+        "reality"
+      ],
+      "rationale": "A concrete image of couplet 4 with no entry yet; 'butter' follows the Tibetan mar, since the Old Bengali word is obscure and Munidatta's Sanskrit on this couplet is lost. No Tibetan match is proposed, because a bare syllable mar would also catch the particle in forms like bdag med mar."
+    },
+    {
+      "id": "loka",
+      "type": "term",
+      "en": "people",
+      "policy": "translate",
+      "alt": [
+        "the world"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লোঅ",
+          "translit": "loa",
+          "lemma": "loa",
+          "att": "AS",
+          "where": "cp.42.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན",
+          "translit": "'jig rten",
+          "lemma": "'jig rten",
+          "att": "AO",
+          "where": "cp.42.4a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])লোঅ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "People, the world at large (Old Bengali loa, from Sanskrit loka, 'world, people'): ordinary people as against the yogin. In 4a the foolish loa do not see what is present; the Tibetan line has 'jig rten, 'world'. Compare world (jagat), a different word, worldly custom (lokācāra) and ordinary person (pṛthagjana).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A word that recurs in the songs (six times so far) with no entry of its own; jagat is a different word, so loa gets its own entry, rendered 'people', with 'the world' as the alternative the Tibetan suggests. Whole-word match only, so that the short form does not fire inside longer words."
+    },
+    {
+      "id": "visanna",
+      "type": "term",
+      "en": "dejected",
+      "policy": "translate",
+      "alt": [
+        "despondent"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিসন্না",
+          "translit": "bisannā",
+          "lemma": "bisanna",
+          "att": "AS",
+          "where": "cp.42.1b"
+        },
+        {
+          "lang": "san",
+          "script": "বিষাদ[ং]",
+          "translit": "viṣāda[ṃ]",
+          "lemma": "viṣāda",
+          "att": "AS",
+          "where": "cp.42.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྡུག་བསྔལ",
+          "translit": "sdug bsngal",
+          "lemma": "sdug bsngal",
+          "att": "AO",
+          "where": "cp.42.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিসন্ন"
+        },
+        {
+          "lang": "san",
+          "form": "বিষাদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Dejected, despondent (Old Bengali bisannā, from Sanskrit viṣaṇṇa). In 1b the poet tells his hearers not to be dejected at the parting of the aggregates. Munidatta has 'do not grieve' (viṣādaṃ mā kuru), the Tibetan comment sdug bsngal, 'suffering' (cp.42.m2); the Tibetan line reads 'there is no suffering' instead. Compare downcast (vimana), a different word.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary's nearest entry, 'downcast' (vimana), is a different word (vimanas) with its own reading, so bisannā needs an entry of its own; no Tibetan match, since sdug bsngal is the ordinary word for suffering."
+    },
+    {
+      "id": "sixteen-emptinesses",
+      "type": "term",
+      "en": "sixteen emptinesses",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ষোড়শীশূন্যতায়া[ং]",
+          "translit": "ṣoṛaśīśūnyatāyā[ṃ]",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.42.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་ཉིད་བཅུ་དྲུག",
+          "translit": "stong pa nyid bcu drug",
+          "lemma": "stong pa nyid bcu drug",
+          "att": "AO",
+          "where": "cp.42.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ষোড়শীশূন্যতা"
+        },
+        {
+          "lang": "bod",
+          "form": "སྟོང་པ་ཉིད་བཅུ་དྲུག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A Mahāyāna list of sixteen kinds of emptiness, among them the emptiness of the inner, of the outer, of emptiness itself and the great emptiness; longer lists count eighteen or twenty. Munidatta says the king of his mind is by nature always complete in them (cp.42.m2). His ṣoḍaśī could also mean 'sixteenth'; the Tibetan has bcu drug, 'sixteen'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal list named in the commentary and not yet in the glossary; the English follows the Tibetan count, and the literal match is long enough to win over emptiness inside the compound."
+    },
+    {
+      "id": "parinispanna",
+      "type": "term",
+      "en": "perfected state",
+      "policy": "translate",
+      "alt": [
+        "perfection",
+        "perfected nature"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরিনিষ্পন্নতামাহ",
+          "translit": "pariniṣpannatāmāha",
+          "lemma": "pariniṣpanna",
+          "att": "AS",
+          "where": "cp.42.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོངས་སུ་གྲུབ་པ",
+          "translit": "yongs su grub pa",
+          "lemma": "yongs su grub pa",
+          "att": "AO",
+          "where": "cp.42.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পরিনিষ্পন্ন"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡོངས་སུ་གྲུབ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The state of being perfected or fully accomplished (Sanskrit pariniṣpannatā; Tibetan yongs su grub pa). In Yogācāra thought pariniṣpanna names the perfected nature, the last of the three natures. Munidatta introduces couplet 5 of song 42 as stating it (cp.42.m5): knowing the nature of existence, Kṛṣṇācārya plays even in existence. Which sense he intends is not said.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of Munidatta's framing words for a couplet, like praise (anuśaṃsā) and power (prabhāva), but with a doctrinal sense the reader may need; 'perfected' keeps the link with the Yogācāra term without asserting it."
+    },
+    {
+      "id": "sphurana",
+      "type": "term",
+      "en": "radiate",
+      "policy": "translate",
+      "alt": [
+        "shine forth",
+        "spread forth"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ফরই",
+          "translit": "pharai",
+          "lemma": "phar-",
+          "att": "AS",
+          "where": "cp.42.2b"
+        },
+        {
+          "lang": "san",
+          "script": "স্ফুরতি",
+          "translit": "sphurati",
+          "lemma": "sphur",
+          "att": "AS",
+          "where": "cp.42.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འཕྲོ",
+          "translit": "'phro",
+          "lemma": "'phro ba",
+          "att": "AO",
+          "where": "cp.42.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཕྲོ་བར",
+          "translit": "'phro bar",
+          "lemma": "'phro ba",
+          "att": "AO",
+          "where": "cp.42.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্ফুরতি"
+        },
+        {
+          "lang": "bod",
+          "form": "འཕྲོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ফরই(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "To radiate or shine forth (Old Bengali pharai, Sanskrit sphurati; Tibetan 'phro ba): to send out light or emanations. In the refrain of song 42 (2b) Kāṇha radiates day after day through the three worlds; Munidatta glosses this as playing in the ocean of the ultimate (cp.42.m3). Compare play (līlā).",
+      "symbolicImage": "radiating day after day through the three worlds",
+      "symbolicReadings": [
+        {
+          "referent": "playing (krīḍati) in the ocean of the ultimate (paramārthajaladhi): his paraphrase of the refrain, 'he radiates day after day, that is, he plays in the ocean of the ultimate'; the song itself has no ocean, and the Tibetan comment agrees (rtag tu 'phro bar byed de don dam pa'i chu gter la rol par byed do)",
+          "per": "Munidatta",
+          "where": [
+            "cp.42.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "ocean of the ultimate",
+        "the ultimate",
+        "ultimate"
+      ],
+      "rationale": "The refrain's verb has clear equivalents in the commentary and the Tibetan (sphurati, 'phro) and an explicit gloss from Munidatta, and the same verb recurs in his comments (prasphurita in song 30); whole-word match for the short Old Bengali form."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাহ্নিল",
+          "translit": "kāhnila",
+          "lemma": "kāhna",
+          "att": "AS",
+          "where": "cp.42.5b"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যপাদো",
+          "translit": "kṛṣṇācāryyapādo",
+          "lemma": "Kṛṣṇācāryapāda",
+          "att": "AS",
+          "where": "cp.42.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাহ্নিল"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্যপাদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Kāhnila, the poet's self-naming in the last line (5b), and Munidatta's kṛṣṇācāryyapādo (also in kṛṣṇācāryyapādas, cp.42.m1) are not exact match forms yet; kāhnila is already among the entry's forms, so this adds its 5b attestation and a literal match."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শূণ",
+          "translit": "śūṇa",
+          "lemma": "śūṇa",
+          "att": "AS",
+          "where": "cp.42.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])শূণ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The spelling śūṇa (1a), with ś and ṇ, is not among the entry's Old Bengali forms (sunu, suna, suṇa and others); whole-word match, since the form is short."
+    },
+    {
+      "id": "skandha",
+      "type": "term",
+      "en": "aggregates",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কান্ধবিয়োএ",
+          "translit": "kāndhabiyoe",
+          "lemma": "kāndha",
+          "att": "AS",
+          "where": "cp.42.1b"
+        },
+        {
+          "lang": "san",
+          "script": "স্কন্ধবিয়োগেনেতি",
+          "translit": "skandhaviyogeneti",
+          "lemma": "skandha",
+          "att": "AS",
+          "where": "cp.42.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্কন্ধাভাবাৎ",
+          "translit": "skandhābhāvāt",
+          "lemma": "skandha",
+          "att": "AS",
+          "where": "cp.42.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কান্ধবিয়োএ"
+        },
+        {
+          "lang": "san",
+          "form": "স্কন্ধবিয়োগ"
+        },
+        {
+          "lang": "san",
+          "form": "স্কন্ধাভাব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Old Bengali kāndha (1b) is the vernacular reflex of skandha, as Munidatta's skandhaviyoga and the Tibetan phung po show; since kāndha alone can also mean 'shoulder', the match is the whole compound."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ত্রৈলোক্যস্বরূপং",
+          "translit": "trailokyasvarūpaṃ",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.42.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্রৈলোক্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's trailokyasvarūpaṃ (cp.42.m3) is missed by the inflected literals on file (trailokyaṃ, trailokyam); the bare stem catches the compound."
+    },
+    {
+      "id": "ocean",
+      "type": "term",
+      "en": "ocean",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সাঅর",
+          "translit": "sāara",
+          "lemma": "sāara",
+          "att": "AS",
+          "where": "cp.42.3b"
+        },
+        {
+          "lang": "san",
+          "script": "সাগরং",
+          "translit": "sāgaraṃ",
+          "lemma": "sāgara",
+          "att": "AS",
+          "where": "cp.42.m4"
+        },
+        {
+          "lang": "san",
+          "script": "পরমার্থজলধৌ",
+          "translit": "paramārthajaladhau",
+          "lemma": "jaladhi",
+          "att": "AS",
+          "where": "cp.42.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সাগর"
+        },
+        {
+          "lang": "san",
+          "form": "জলধৌ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সাঅর"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The song's sāara (3b, Sanskrit sāgara) and Munidatta's sāgara and paramārthajaladhi are new forms; the Old Bengali match is anchored at the start of a word so that it does not fire inside other words. The new reading in cp.42.m3 is raised in questions."
+    },
+    {
+      "id": "milk",
+      "type": "term",
+      "en": "milk",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুধ",
+          "translit": "dudha",
+          "lemma": "dudha",
+          "att": "AS",
+          "where": "cp.42.4b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])দুধ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The song's dudha (4b) is a new spelling beside dudhu (song 33); whole-word match, since the form is short."
+    },
+    {
+      "id": "mudha",
+      "type": "term",
+      "en": "fool",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মূর্খাঃ",
+          "translit": "mūrkhāḥ",
+          "lemma": "mūrkha",
+          "att": "AS",
+          "where": "cp.42.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བླུན་པོས",
+          "translit": "blun pos",
+          "lemma": "blun po",
+          "att": "AO",
+          "where": "cp.42.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মূর্খ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta renders the song's mūṛhā by mūrkhāḥ (cp.42.m4), and the Tibetan comment on couplet 4 has blun po (cp.42.m6); the song's own mūṛhā is already on file."
+    },
+    {
+      "id": "lila",
+      "type": "term",
+      "en": "play",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ক্রীড়তীতি",
+          "translit": "krīṛatīti",
+          "lemma": "krīḍ",
+          "att": "AS",
+          "where": "cp.42.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩེ་བར",
+          "translit": "rtse bar",
+          "lemma": "rtse ba",
+          "att": "AO",
+          "where": "cp.42.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ক্রীড়ত"
+        },
+        {
+          "lang": "bod",
+          "form": "རྩེ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan comment renders krīḍati by rtse bar byed (cp.42.m5), a Tibetan equivalent not yet on file beside rol; the Sanskrit match catches krīḍati and its sandhi form krīḍatīti. The bod match is two syllables, so it does not catch rtse mo, 'peak'."
+    },
+    {
+      "id": "wave",
+      "type": "term",
+      "en": "wave",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাগতরঙ্গ",
+          "translit": "bhāgataraṅga",
+          "lemma": "taraṅga",
+          "att": "AS",
+          "where": "cp.42.3b"
+        },
+        {
+          "lang": "san",
+          "script": "কিমম্ভোধের্ভগ্নতরঙ্গং",
+          "translit": "kimambhodherbhagnataraṅgaṃ",
+          "lemma": "taraṅga",
+          "att": "AS",
+          "where": "cp.42.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རླབས",
+          "translit": "rlabs",
+          "lemma": "rlabs",
+          "att": "AO",
+          "where": "cp.42.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তরঙ্গ"
+        },
+        {
+          "lang": "san",
+          "form": "তরঙ্গ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<!བྱིན་)(?<![\\p{L}\\p{M}])རླབས(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The broken wave of 3b (bhāgataraṅga; Munidatta's bhagnataraṅga) and the Tibetan rlabs are new forms; the Tibetan regex takes rlabs as a whole syllable and skips byin rlabs, 'blessing'. The reading by example in cp.42.m4 is raised in questions."
+    },
+    {
+      "id": "king-of-mind",
+      "type": "term",
+      "en": "king of mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তরাজঃ",
+          "translit": "cittarājaḥ",
+          "lemma": "cittarāja",
+          "att": "AS",
+          "where": "cp.42.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চিত্তরাজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'this king of my mind' (cp.42.m2), his paraphrase of the song's cia, is missed by the inflected literals on file."
+    },
+    {
+      "id": "tx-hevajra",
+      "type": "text",
+      "en": "Hevajra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "হেবজ্রে",
+          "translit": "hevajre",
+          "lemma": "hevajra",
+          "att": "AS",
+          "where": "cp.42.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "হেবজ্র"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta cites the Hevajra here without śrī (tathā ca hevajre, cp.42.m2), which the literal śrīhevajre does not catch."
+    },
+    {
+      "id": "amrta",
+      "type": "term",
+      "en": "nectar",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানামৃতপরিতুষ্টো",
+          "translit": "jñānāmṛtaparituṣṭo",
+          "lemma": "amṛta",
+          "att": "AS",
+          "where": "cp.42.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জ্ঞানামৃত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta opens his comment calling Kṛṣṇācārya satisfied by the nectar of knowledge (cp.42.m1; Tibetan ye shes kyi bdud rtsi); in sandhi the initial a of amṛta disappears, so the compound needs its own literal."
+    },
+    {
+      "id": "mayajala",
+      "type": "term",
+      "en": "net of illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মায়াজালমুদীর্য্যতে",
+          "translit": "māyājālamudīryyate",
+          "lemma": "māyājāla",
+          "att": "AS",
+          "where": "cp.42.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মায়াজাল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The scriptural verse Munidatta quotes on the refrain has the net of illusion sent forth from the all-empty (cp.42.m3; Tibetan sgyu 'phrul dra ba)."
+    },
+    {
+      "id": "lotus",
+      "type": "term",
+      "en": "lotus",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সদ্গুরুপঙ্কজ(জা)রজঃ",
+          "translit": "sadgurupaṅkaja(jā)rajaḥ",
+          "lemma": "paṅkaja",
+          "att": "AS",
+          "where": "cp.42.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পঙ্কজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Paṅkaja, 'mud-born', is a common word for the lotus (here the true guru's lotus feet, cp.42.m5; Tibetan chu skyes); its literal also stops the mud entry's paṅka (cikhila) from firing inside it."
+    },
+    {
+      "id": "coming-and-going",
+      "type": "term",
+      "en": "coming and going",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "འགྲོ་འོང",
+          "translit": "'gro 'ong",
+          "lemma": "'gro 'ong",
+          "att": "AO",
+          "where": "cp.42.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "འགྲོ་འོང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan of 5a reads 'existence without coming and going' ('gro 'ong med pa'i srid pa) where the Bengali has finite verbs (jāi ṇa ābai, 'goes, does not come'), so only the Tibetan form is proposed, with no Bengali match."
+    }
+  ],
+  "questions": [
+    "wave (cp.42.m4): possible reading by example. Munidatta presents couplet 3 as an example (dṛṣṭānta): seeing the destruction (bhaṅga) of a thing (bhāva) with a configuration of colours such as blue and yellow, fools grow faint-hearted for nothing, as if a broken wave could dry up the ocean. It is a simile, not a gloss, and the ocean is left unexplained; the Tibetan comment agrees (rgya mtsho'i rlabs zhig pas). Add it to the wave entry's readings?",
+    "ocean (cp.42.m3): possible new reading, the ultimate (paramārtha). Paraphrasing the refrain, where the song has no ocean, Munidatta says Kṛṣṇācārya plays 'in the ocean of the ultimate' (paramārthajaladhau; Tibetan don dam pa'i chu gter). Add 'ocean of the ultimate' to the ocean entry's readings and 'the ultimate' to its never-in-line list? I have recorded the gloss under the proposed sphurana (radiate).",
+    "milk (cp.42.m6): in song 42 the milk is a plain example. The Tibetan comment that stands in for the lost Sanskrit on couplet 4 says only that, as the fool does not see the butter in the milk though it is there, so, seeing the three worlds, he does not see. The milk entry's bodhicitta reading (cp.33.m3) does not apply here, and its definition speaks only of song 33.",
+    "bhava-being: its form ভাব (bhāba) will hit ভাবে in 5b (āisa bhābe, 'in such a way' or 'in such a state'), where 'being' does not fit: the Tibetan line has ngo bo nyid bzhin, 'according to its own nature', and Munidatta speaks of knowing the own nature of existence (bhavasvabhāva, cp.42.m5). The drafter should be warned, or the entry given a narrower match.",
+    "kāara (3a; Munidatta's kātarāḥ, 'faint-hearted', cp.42.m4; the Tibetan comment has 'jig par byed in its place) has no entry, and I have not proposed one, taking it as ordinary vocabulary. If the song's two words of dismay should both be linked, it could get an entry beside the proposed 'dejected' (visanna).",
+    "Couplet count (cp.42.m5): Munidatta opens his comment on couplet 5 with 'the third verse' (tṛtīyapadena), where his usual count, and the Tibetan (rkang pa bzhi pas), make it the fourth; the Tibetan comment on couplet 4 (cp.42.m6) is the 'third verse' (rkang pa gsum pas). With his Sanskrit on couplet 4 missing, the Nepal manuscript may have lacked that couplet's comment, or its count shifted. Worth a witness note in the weave.",
+    "cp.42.m2: where the Sanskrit has prakṛtisvarūpeṇa sarvadaiva, 'by its very nature, always', the Tibetan has rang bzhin gyi ngo bo nyid kyi lha thams cad, 'all the deities of natural own-being', apparently reading sarvadeva, 'all the gods'. Worth a witness note in the weave."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "1a7cdb6f27453b79a559a8416bf5bbb845028aab02f47c95872a1ffccff3a660",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "e3ef011ec3afe3f111c0691177dcad2659a7cbe2fcf538f07106b862ec6d4ee2",
+    "sourceSha": "6aab45c571b936467e546a3a12a066879b4c7d90e13dbe12f8aa1292d9ad63bf"
+  }
+}

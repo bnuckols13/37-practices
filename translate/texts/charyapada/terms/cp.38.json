@@ -1,0 +1,1327 @@
+{
+  "unit": "cp.38",
+  "proposals": [
+    {
+      "id": "patabala",
+      "type": "term",
+      "en": "patabāla",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পতবাল",
+          "translit": "patabāla",
+          "lemma": "patabāla",
+          "att": "AS",
+          "where": "cp.38.1b"
+        },
+        {
+          "lang": "san",
+          "script": "পতবাল[ং]",
+          "translit": "patavāla[ṃ]",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱ་བ",
+          "translit": "skya ba",
+          "lemma": "skya ba",
+          "att": "AO",
+          "where": "cp.38.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉེན་པ",
+          "translit": "mnyen pa",
+          "lemma": "mnyen pa",
+          "att": "AO",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পতবাল"
+        },
+        {
+          "lang": "san",
+          "form": "পতবাল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A part of the boat that song 38 (1b) tells the listener to hold by the true guru's word. Its sense is uncertain: perhaps the helm or rudder, since it is held, perhaps the sail (paṭa, 'cloth'). Munidatta repeats it as patavāla without explaining it (cp.38.m2). The Tibetan line has skya ba, 'oar'; the Tibetan comment has mnyen pa.",
+      "symbolicImage": "the patabāla, held by the true guru's word",
+      "symbolicReadings": [
+        {
+          "referent": "the true guru's word (sadguruvacana), taken as the patavāla: the two stand in apposition in his paraphrase ('having taken the true guru's word, the patavāla'), not in an explicit gloss; the song has the patabāla held by, or in, the true guru's word, and the Tibetan comment has 'having seized it with the mnyen pa of the true guru's speech'",
+          "per": "Munidatta",
+          "where": [
+            "cp.38.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [],
+      "rationale": "A boat part named in the verse and repeated by Munidatta whose sense (helm or sail) is unsettled, so the source form is kept with a note until a rendering is chosen."
+    },
+    {
+      "id": "guna-towrope",
+      "type": "term",
+      "en": "towrope",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গুণে",
+          "translit": "guṇe",
+          "lemma": "guṇa",
+          "att": "AS",
+          "where": "cp.38.3a"
+        },
+        {
+          "lang": "san",
+          "script": "গুণেনাকর্ষয়তি",
+          "translit": "guṇenākarṣayati",
+          "lemma": "guṇa",
+          "att": "AS",
+          "where": "cp.38.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོན་ཏན",
+          "translit": "yon tan",
+          "lemma": "yon tan",
+          "att": "AO",
+          "where": "cp.38.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=টাগুঅ\\s{1,3})গুণে(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])গুণেন(?=াকর্ষ)"
+        }
+      ],
+      "definition": "A towrope: the line by which a boat is hauled from the bank, above all against the current (Old Bengali and Sanskrit guṇa, whose commoner sense is 'quality'). In song 38 the boatman tows the boat with it (3a), and Munidatta's simile repeats it (cp.38.m3). The Tibetan reads the word as yon tan, 'quality', in the line and the comment.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A boat-song image with no entry; it must stay apart from guṇa 'quality', common in Munidatta, so its patterns fire only in the towing context."
+    },
+    {
+      "id": "boatman",
+      "type": "term",
+      "en": "boatman",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নৌবাহী",
+          "translit": "naubāhī",
+          "lemma": "naubāhī",
+          "att": "AS",
+          "where": "cp.38.3a"
+        },
+        {
+          "lang": "san",
+          "script": "নোবাঅ",
+          "translit": "novāa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.38.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུ་པ",
+          "translit": "gru pa",
+          "lemma": "gru pa",
+          "att": "AO",
+          "where": "cp.38.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নৌবাহী"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])নোবাঅ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])གྲུ་པ(?:འི|ས|ར)?(?![\\u0F40-\\u0FBC])"
+        }
+      ],
+      "definition": "One who drives or hauls a boat (Old Bengali naubāhī, from nau, 'boat', and vāh-, 'carry, drive'). In song 38 (3a) the boatman tows the boat with the rope; Munidatta, citing the line as novāa, has the helmsman (karṇadhāra) in his simile (cp.38.m3). The Tibetan of 3a reads 'the boat flows down' instead; its refrain (2a) addresses boatmen (gru pa).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The song's own word for the man working the boat, kept apart from 'helmsman' (kaṇṇahāra, karṇadhāra) because he tows rather than steers; the reviewer may prefer to merge the two."
+    },
+    {
+      "id": "current",
+      "type": "term",
+      "en": "current",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সোন্তে",
+          "translit": "sonte",
+          "lemma": "sonta",
+          "att": "AS",
+          "where": "cp.38.5a"
+        },
+        {
+          "lang": "san",
+          "script": "খরসোন্তেমেতি",
+          "translit": "kharasontem eti",
+          "lemma": "sonta",
+          "att": "AS",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখরাগস্রোতাবর্ত্তেন",
+          "translit": "mahāsukharāgasrotāvarttena",
+          "lemma": "srotas",
+          "att": "AS",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་རྒྱུན",
+          "translit": "chu rgyun",
+          "lemma": "chu rgyun",
+          "att": "AO",
+          "where": "cp.38.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱུན",
+          "translit": "rgyun",
+          "lemma": "rgyun",
+          "att": "AO",
+          "where": "cp.38.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সোন্ত"
+        },
+        {
+          "lang": "san",
+          "form": "সোন্ত"
+        },
+        {
+          "lang": "san",
+          "form": "স্রোতাবর্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་རྒྱུན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The current of a river (Old Bengali sonta, from Sanskrit srotas, 'stream'). In the last couplet of song 38 something goes upstream (ujāa) in the strong current, khare sonte; the Tibetan line has chu rgyun drag po, 'strong current'. Munidatta explains it as the whirl of the stream of the passion of great bliss (cp.38.m5).",
+      "symbolicImage": "the strong current, in which something goes upstream",
+      "symbolicReadings": [
+        {
+          "referent": "the whirl of the stream of the passion of great bliss (mahāsukharāgasrotāvarta), by which the bodhicitta-vajra of those who know the ultimate goes upward; the Tibetan comment agrees (bde ba chen po'i 'dod chags kyi rgyun)",
+          "per": "Munidatta",
+          "where": [
+            "cp.38.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "passion of great bliss",
+        "passion",
+        "bodhicitta"
+      ],
+      "rationale": "The current the boat goes up against is one of this song's boat images and has no entry; Munidatta gives it an explicit reading."
+    },
+    {
+      "id": "island",
+      "type": "term",
+      "en": "island",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখদ্বীপং",
+          "translit": "mahāsukhadvīpaṃ",
+          "lemma": "dvīpa",
+          "att": "AS",
+          "where": "cp.38.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বৈমল্যচক্রদ্বীপে",
+          "translit": "vaimalyacakradvīpe",
+          "lemma": "dvīpa",
+          "att": "AS",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གླིང",
+          "translit": "gling",
+          "lemma": "gling",
+          "att": "AO",
+          "where": "cp.38.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বীপ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])གླིང(?![\\u0F40-\\u0FBC])"
+        }
+      ],
+      "definition": "An island (Sanskrit dvīpa; Tibetan gling), where a crossing ends. Commenting on song 38, Munidatta tells the yogin to go at once to 'the island of great bliss' (cp.38.m3), and explains the song's 'in the sky' as 'in the island of the stainless wheel' (vaimalyacakra), a wheel not otherwise named here (cp.38.m5). The song itself has no island.",
+      "symbolicImage": "an island, the end of the crossing",
+      "symbolicReadings": [
+        {
+          "referent": "great bliss, named in apposition: 'the island of great bliss' (mahāsukhadvīpa), to which the yogin, having taken the means of innate joy in the vajra guru, is to go at once; the Tibetan has bde ba chen po'i gling",
+          "per": "Munidatta",
+          "where": [
+            "cp.38.m3"
+          ]
+        },
+        {
+          "referent": "the stainless wheel (vaimalyacakra), named in apposition: 'the island of the stainless wheel', in which, glossing the song's 'in the sky', he says it is absorbed; the Tibetan has dri ma med pa'i 'khor lo'i gling",
+          "per": "Munidatta",
+          "where": [
+            "cp.38.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "stainless wheel"
+      ],
+      "rationale": "Munidatta's own image for the end of the crossing, used twice in this song's commentary; the woven commentary needs it, as it needs the city of great bliss."
+    },
+    {
+      "id": "maitri",
+      "type": "term",
+      "en": "loving-kindness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মৈত্রীময়ঃ",
+          "translit": "maitrīmayaḥ",
+          "lemma": "maitrī",
+          "att": "AS",
+          "where": "cp.38.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱམས་པ",
+          "translit": "byams pa",
+          "lemma": "byams pa",
+          "att": "AO",
+          "where": "cp.38.m1"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "মৈত্রী(?!প)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])བྱམས(?![\\u0F40-\\u0FBC])"
+        }
+      ],
+      "definition": "Loving-kindness (Sanskrit maitrī; Tibetan byams pa): the wish that beings be happy, one of the four immeasurable attitudes and the usual companion of compassion. Munidatta opens his comment on song 38 by calling Sarahapāda 'full of loving-kindness' (maitrīmaya) (cp.38.m1); the Tibetan has byams pa'i rang bzhin can, 'whose nature is loving-kindness'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term in Munidatta's introduction, the counterpart of compassion (karuṇā), which already has an entry."
+    },
+    {
+      "id": "adhara-adheya",
+      "type": "term",
+      "en": "support and supported",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আধারাধেয়সম্বন্ধেন",
+          "translit": "ādhārādheyasambandhena",
+          "lemma": "ādhāra",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟེན་དང་བརྟེན་པ",
+          "translit": "rten dang brten pa",
+          "lemma": "rten dang brten pa",
+          "att": "AO",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আধারাধেয়"
+        },
+        {
+          "lang": "bod",
+          "form": "རྟེན་དང་བརྟེན་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The relation of support (ādhāra) and supported (ādheya), as of a vessel and what it holds, a pair used in Indian grammar and philosophy. Munidatta says the body is imagined as the boat through this relation (cp.38.m2); the Tibetan has rten dang brten pa'i 'brel ba. Compare pervaded and pervader.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical relation Munidatta uses to justify the song's image; like pervaded and pervader, it needs a short gloss."
+    },
+    {
+      "id": "p-iuri",
+      "type": "person",
+      "en": "Iuṛīpāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ইউড়ীপাদানাং",
+          "translit": "iuṛīpādānāṃ",
+          "lemma": "iuṛīpāda",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨུ་ཌའི་ཞབས",
+          "translit": "u Da'i zhabs",
+          "lemma": "u Da'i zhabs",
+          "att": "AO",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ইউড়ীপাদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Teacher whom Munidatta quotes at the end of his comment on the first couplets of song 38, for a verse in which 'these five' go to the far shore of the river of delusion (cp.38.m2). The Tibetan names him u Da'i zhabs, as it names Daṛatīpāda in song 11; whether the two are one teacher is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A person quoted in the commentary with no entry; kept apart from Daṛatīpāda until the reviewer decides whether the shared Tibetan name makes them one."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সরহপাদস্তমেবার্থং",
+          "translit": "sarahapādas tam evārthaṃ",
+          "lemma": "saraha",
+          "att": "AS",
+          "where": "cp.38.m1"
+        },
+        {
+          "lang": "san",
+          "script": "সরহপাদ",
+          "translit": "sarahapāda",
+          "lemma": "saraha",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ར་ཧ་ཡི",
+          "translit": "sa ra ha yi",
+          "lemma": "sa ra ha",
+          "att": "AO",
+          "where": "cp.38.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সরহপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ས་ར་ཧ་ཡི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms from song 38: Munidatta's sarahapādas tam evārthaṃ (listed among this unit's unmatched words) and his vocative sarahapāda, and the Tibetan sa ra ha yi of the signature line."
+    },
+    {
+      "id": "bhairavi",
+      "type": "term",
+      "en": "Bhairavī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བྷཻ་ར་བི",
+          "translit": "b+hai ra bi",
+          "lemma": "b+hai ra bi",
+          "att": "AO",
+          "where": "cp.38.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བྷཻ་ར་བི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan heading of song 38 transcribes the rāga as b+hai ra bi (short i), where for song 12 it has rnga bo che."
+    },
+    {
+      "id": "boat",
+      "type": "term",
+      "en": "boat",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণাবড়ি",
+          "translit": "ṇābaṛi",
+          "lemma": "nābaṛī",
+          "att": "AS",
+          "where": "cp.38.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নাবড়ী",
+          "translit": "nāvaṛī",
+          "lemma": "nābaṛī",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "নৌকা",
+          "translit": "naukā",
+          "lemma": "naukā",
+          "att": "AS",
+          "where": "cp.38.3a"
+        },
+        {
+          "lang": "san",
+          "script": "নৌকাং",
+          "translit": "naukāṃ",
+          "lemma": "naukā",
+          "att": "AS",
+          "where": "cp.38.m3"
+        },
+        {
+          "lang": "san",
+          "script": "কায়নৌকাব্যাজেন",
+          "translit": "kāyanaukāvyājena",
+          "lemma": "naukā",
+          "att": "AS",
+          "where": "cp.38.m1"
+        },
+        {
+          "lang": "san",
+          "script": "কায়নৌরক্ষাং",
+          "translit": "kāyanaurakṣāṃ",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নৌর্ন",
+          "translit": "naur na",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.38.m3"
+        },
+        {
+          "lang": "san",
+          "script": "নৌপরিত্যাগং",
+          "translit": "nauparityāgaṃ",
+          "lemma": "nau",
+          "att": "AS",
+          "where": "cp.38.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ণাবড়"
+        },
+        {
+          "lang": "san",
+          "form": "নাবড়"
+        },
+        {
+          "lang": "oben",
+          "form": "নৌকা"
+        },
+        {
+          "lang": "san",
+          "form": "নৌকা"
+        },
+        {
+          "lang": "san",
+          "form": "নৌকয়"
+        },
+        {
+          "lang": "san",
+          "form": "নৌরক্ষা"
+        },
+        {
+          "lang": "san",
+          "form": "নৌপরিত্যাগ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])নৌ(?:র্|ঃ)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 38's diminutive ṇābaṛi (Munidatta's nāvaṛī) and naukā in the verse, with Munidatta's nau- compounds; নৌ alone is not matched, since it also ends words such as agnau."
+    },
+    {
+      "id": "keruala",
+      "type": "term",
+      "en": "oar",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কেলিপাতঞ্চ",
+          "translit": "kelipātañ ca",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কেলিপাত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's kelipāta for the song's keṛuāla (1a), here kelipātañ ca."
+    },
+    {
+      "id": "helmsman",
+      "type": "term",
+      "en": "helmsman",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কর্ণধার[ঃ]",
+          "translit": "karṇadhāra[ḥ]",
+          "lemma": "karṇadhāra",
+          "att": "AS",
+          "where": "cp.38.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱ་བ་འཛིན་པ",
+          "translit": "skya ba 'dzin pa",
+          "lemma": "skya ba 'dzin pa",
+          "att": "AO",
+          "where": "cp.38.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কর্ণধার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's karṇadhāra in his outer simile on song 38 (cp.38.m3); the Tibetan there has skya ba 'dzin pa, 'oar-holder', listed without a match because the same words mean 'holding the oar' in 1b."
+    },
+    {
+      "id": "para",
+      "type": "term",
+      "en": "across",
+      "policy": "translate",
+      "alt": [
+        "far shore"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মোহতটিনীপারমিত্যাদি",
+          "translit": "mohataṭinīpāram ityādi",
+          "lemma": "pāra",
+          "att": "AS",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=তটিনী)পার"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The far shore of the river of delusion in the verse of Iuṛīpāda that Munidatta quotes; the pattern takes pāra only after taṭinī, leaving taṭinī to 'river'."
+    },
+    {
+      "id": "river",
+      "type": "term",
+      "en": "river",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মোহতটিনীপারমিত্যাদি",
+          "translit": "mohataṭinīpāram ityādi",
+          "lemma": "taṭinī",
+          "att": "AS",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "তটিনী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Taṭinī, 'river', in the river of delusion of the verse Munidatta quotes on song 38."
+    },
+    {
+      "id": "wave",
+      "type": "term",
+      "en": "wave",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উলোলেঁ",
+          "translit": "ulolem̐",
+          "lemma": "ulola",
+          "att": "AS",
+          "where": "cp.38.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "དབའ་རླབས",
+          "translit": "dba' rlabs",
+          "lemma": "dba' rlabs",
+          "att": "AO",
+          "where": "cp.38.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དབའ་རླབས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])উলোল"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 38's ulola (Sanskrit ullola, 'billow'), the surging of existence (4b), which the Tibetan renders srid pa'i dba' rlabs, 'the waves of existence'; རླབས alone is not matched, since it sits inside brlabs, 'blessing'."
+    },
+    {
+      "id": "ocean",
+      "type": "term",
+      "en": "ocean",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভবজলধিমধ্যে",
+          "translit": "bhavajaladhimadhye",
+          "lemma": "jaladhi",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་གཏེར",
+          "translit": "chu gter",
+          "lemma": "chu gter",
+          "att": "AO",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সমুদ্র"
+        },
+        {
+          "lang": "san",
+          "form": "জলধি"
+        },
+        {
+          "lang": "san",
+          "form": "জলধৌ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་གཏེར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The ocean of existence in Munidatta's comments on song 38 (bhavajaladhi, bhavasamudra, the latter already a form but listed among this unit's unmatched words); জলধ alone is avoided because of jaladhara, 'cloud'."
+    },
+    {
+      "id": "body",
+      "type": "term",
+      "en": "body",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়[ং]",
+          "translit": "kāya[ṃ]",
+          "lemma": "kāya",
+          "att": "AS",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কাঅ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কাঅ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কায়(?:\\[?[ংঃ]\\]?|স্য|েন|ে|াৎ)(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 38 opens 'the body is the boat' with kāa, already a form but listed among this unit's unmatched words, so it gets a whole-word pattern; Munidatta repeats it as kāya[ṃ]."
+    },
+    {
+      "id": "sthira",
+      "type": "term",
+      "en": "steady",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བརྟན་པ",
+          "translit": "brtan pa",
+          "lemma": "brtan pa",
+          "att": "AO",
+          "where": "cp.38.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্থিরীকৃ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Sthirīkṛtya is already a form but is listed among this unit's unmatched words; স্থির alone is avoided because of asthira, 'unsteady'. The Tibetan of the refrain has brtan pa."
+    },
+    {
+      "id": "sahaja",
+      "type": "term",
+      "en": "innate",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সহজেঁ",
+          "translit": "sahajem̐",
+          "lemma": "sahaja",
+          "att": "AS",
+          "where": "cp.38.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সহজেঁ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The instrumental sahajem̐ of song 38 (3b), unmatched; the Tibetan has lhan cig skyes pas."
+    },
+    {
+      "id": "upaya",
+      "type": "term",
+      "en": "means",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উপায়ে",
+          "translit": "upāye",
+          "lemma": "upāya",
+          "att": "AS",
+          "where": "cp.38.2b"
+        },
+        {
+          "lang": "san",
+          "script": "নান্যোপায়ো",
+          "translit": "nānyopāyo",
+          "lemma": "upāya",
+          "att": "AS",
+          "where": "cp.38.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সহজানন্দোপায়ং",
+          "translit": "sahajānandopāyaṃ",
+          "lemma": "upāya",
+          "att": "AS",
+          "where": "cp.38.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উপায়"
+        },
+        {
+          "lang": "san",
+          "form": "উপায়"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=[\\u0995-\\u09B9])(?<![গরল])োপায়"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "'By no other means can one cross' (2b) and Munidatta's 'there is no other means' and 'the means of innate joy'; the sandhi pattern skips gopāya-, 'protect', and similar words."
+    },
+    {
+      "id": "bhaya",
+      "type": "term",
+      "en": "fear",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভঅ",
+          "translit": "bhaa",
+          "lemma": "bhaa",
+          "att": "AS",
+          "where": "cp.38.4a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভঅ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Bhaa, 'fear', on the road in 4a, read with the Tibetan 'jigs pa; whole-word only, and the spelling can also stand for bhava."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গণেঁ",
+          "translit": "gaṇem̐",
+          "lemma": "gaaṇa",
+          "att": "AS",
+          "where": "cp.38.5b"
+        },
+        {
+          "lang": "san",
+          "script": "গগনেতি",
+          "translit": "gaganeti",
+          "lemma": "gagana",
+          "att": "AS",
+          "where": "cp.38.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])গণেঁ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])গগন(?:েতি|ে|ং|ম্)(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "'In the sky' (gaṇem̐) in the signature line, confirmed by Munidatta's gagane and the Tibetan nam mkha'; whole-word only, since gaṇa is also 'host, group'."
+    },
+    {
+      "id": "kula-shore",
+      "type": "term",
+      "en": "shore",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কুলমিতি",
+          "translit": "kulam iti",
+          "lemma": "kūla",
+          "att": "AS",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "san",
+          "script": "কুলল",
+          "translit": "kulala",
+          "lemma": "kūla",
+          "att": "AS",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕ་རོལ་ཚུ་རོལ",
+          "translit": "pha rol tshu rol",
+          "lemma": "pha rol tshu rol",
+          "att": "AO",
+          "where": "cp.38.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কুল(?:মিতি|ল)(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's citations of the shore of 5a (kulala, the run-together kula la-, and kulam iti); whole-word only because of kula, 'family'. The Tibetan line's pha rol tshu rol is listed without a match, as it would collide with para and near-shore."
+    },
+    {
+      "id": "vijnana",
+      "type": "term",
+      "en": "consciousness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মনোবিজ্ঞান[ং]",
+          "translit": "manovijñāna[ṃ]",
+          "lemma": "manovijñāna",
+          "att": "AS",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিজ্ঞান"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'mental consciousness' (manovijñāna), the sixth consciousness, as the oar of song 38; the Tibetan has yid ni rnam par shes pa."
+    },
+    {
+      "id": "pancajnana",
+      "type": "term",
+      "en": "five wisdoms",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পঞ্চজ্ঞানাত্মকং",
+          "translit": "pañcajñānātmakaṃ",
+          "lemma": "pañcajñāna",
+          "att": "AS",
+          "where": "cp.38.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "পঞ্চজ্ঞান(?!েন্দ্রিয়)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The first Sanskrit form for this entry: conventional bodhicitta 'having the nature of the five wisdoms' (the Tibetan ye shes lnga'i bdag nyid); the pattern skips pañcajñānendriya, 'the five sense faculties'."
+    },
+    {
+      "id": "mara",
+      "type": "term",
+      "en": "Māra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মারকর্ম্মাধিষ্ঠানমাহ",
+          "translit": "mārakarmmādhiṣṭhānam āha",
+          "lemma": "māra",
+          "att": "AS",
+          "where": "cp.38.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བདུད་ཀྱི་ལས",
+          "translit": "bdud kyi las",
+          "lemma": "bdud kyi las",
+          "att": "AO",
+          "where": "cp.38.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মারকর্ম"
+        },
+        {
+          "lang": "bod",
+          "form": "བདུད་ཀྱི་ལས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta introduces couplet 4 of song 38 as 'the basis of Māra's work' (mārakarman); the Tibetan has bdud kyi las."
+    },
+    {
+      "id": "paramartha",
+      "type": "term",
+      "en": "ultimate",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরমার্থবিদাং",
+          "translit": "paramārthavidāṃ",
+          "lemma": "paramārtha",
+          "att": "AS",
+          "where": "cp.38.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পরমার্থ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "'Of those who know the ultimate', a phrase listed among this unit's unmatched words (four times in the text so far)."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবধূতীং",
+          "translit": "avadhūtīṃ",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.38.m4"
+        },
+        {
+          "lang": "san",
+          "script": "অবধূতীমার্গস্যানুশংসামাহ",
+          "translit": "avadhūtīmārgasyānuśaṃsām āha",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "san",
+          "script": "যস্মিন্নবধূত্যাং",
+          "translit": "yasminn avadhūtyāṃ",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.38.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বধূতী"
+        },
+        {
+          "lang": "san",
+          "form": "বধূতি"
+        },
+        {
+          "lang": "san",
+          "form": "বধূত্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Three forms in Munidatta's comments on couplets 4 and 5, which turn on the avadhūtī; the stems leave out the initial a so that sandhi forms such as -nn avadhūtyāṃ are caught."
+    }
+  ],
+  "questions": [
+    "boat (cp.38.m1, cp.38.m2): possible new reading: the body (kāya), 'imagined as the boat through the relation of support and supported' (cp.38.m2); m1 says Saraha teaches 'under the guise of the body-boat'. The song itself already says the body is the boat (1a), so this may not need recording. Two Tibetan divergences for the drafter: in cp.38.m1 the Tibetan has lus la glu ('song on the body'), perhaps glu for gru 'boat'; in cp.38.m3 the Sanskrit says 'this boat is not like that' and tells the yogin to abandon the boat (nauparityāgaṃ kuru), where the Tibetan says the boat is to be experienced and 'do not abandon the boat' (gru ni yongs su ma spong cig).",
+    "keruala (cp.38.m2): new reading: the oar → mental consciousness (manovijñāna): 'and mental consciousness as the oar' (manovijñānaṃ kelipātañ ca). The song itself makes mind (maṇa) the oar, so his addition is the technical term; the Tibetan agrees (yid ni rnam par shes pa gru'i skya ba). I filed manovijñāna as a form of vijnana, not citta: please confirm.",
+    "sthira (cp.38.m2): new reading: what the refrain makes steady (the mind, 2a) → conventional bodhicitta having the nature of the five wisdoms, purified by vilakṣaṇa, made steady in the midst of the ocean of existence that arises from the union of vajra and lotus; the Tibetan comment agrees (kun rdzob byang chub kyi sems brtan par byed pa).",
+    "kula-shore (cp.38.m5): new reading: the shore of 5a → the naturally purified avadhūtikā, 'in which the bad path, the moon and the rest, go to dissolution (laya)', an etymology from ku + la(ya); the Tibetan comment cites the word as kun la and agrees.",
+    "wave (cp.38.m4): new reading: the surging of existence (bhaba ulolem̐, 4b) → the tossing of sense objects in the ocean of existence (bhavasamudraviṣayollālana; the Tibetan comment: yul gyi dba' rlabs, 'the waves of sense objects'). I took ulola as 'wave' on the strength of the Tibetan line (srid pa'i dba' rlabs); 'surge' or 'billows' may read better in the line.",
+    "gagana (cp.38.m5): new reading: 'in the sky' (gaṇem̐, 5b) → absorbed in the island of the stainless wheel (vaimalyacakradvīpa); the Tibetan comment agrees (dri ma med pa'i 'khor lo'i gling). Separately, the Tibetan line has nam mkha'i ting nge 'dzin, 'the samādhi of the sky', apparently for pamāem̐.",
+    "bhaya: ভঅ (4a) is added on the strength of the Tibetan 'jigs pa, 'fear'. In this spelling bhaa can also stand for bhava, 'existence' (4b writes bhaba for that), so the whole-word pattern may catch bhava in other songs; drop it if that seems likely.",
+    "boatman / helmsman: Munidatta's outer simile has the helmsman (karṇadhāra) drive the boat and haul it with the towrope (cp.38.m3), so you may prefer to fold naubāhī into 'helmsman'. The refrain's nāhī (2a) may also be 'boatmen': the Tibetan addresses gru pa rnams. It could equally be the negative nāhi, so I did not add it as a form.",
+    "patabala: helm or sail is undecided (it is 'held', dhara; paṭa is 'cloth'). The Tibetan line has skya ba, its word for the oar of 1a, and the Tibetan comment has mnyen pa. I listed both as forms without match patterns, since they already belong to keruala and helmsman. If you settle on a rendering, the policy can become translate.",
+    "guna-towrope: both patterns are tied to the towing context (টাগুঅ গুণে in the verse, গুণেন before -ākarṣ- in Munidatta), so guṇa 'quality' is never caught; a later towrope in another wording will need its own pattern. The Tibetan reads yon tan, 'quality', in line and comment; listed as a form, not matched.",
+    "p-iuri: the Tibetan name u Da'i zhabs is already a form of p-darati (Daṛatīpāda, song 11), so an existing p-darati pattern may claim the Tibetan of cp.38.m2. If they are one teacher, merge p-iuri into p-darati.",
+    "mela (not proposed): in 3b meli mela the Tibetan reads 'gathering' (tshogs zhing tshogs pas), as in the mela entry, but the Bengali is more likely the verb mel-, 'let go, release'. For the same reason the Tibetan of 5a has the current 'flow down' (rab tu 'bab) where ujāa and Munidatta's ūrdhvaṃ gacchati go upstream, upward."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "eb08279bf36f06b7fc410f1b88793e76916c81ca92a790e31ec2d9e6ed4e5603",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "f5556f71798e984845b42a890cf4267afa6225a8c02ac9d30e36b01f6541f55b",
+    "sourceSha": "1e85925f004344f7af8f178ca92d4ecc2a652aa88922ab4eb74b6a5574a81ffe"
+  }
+}

@@ -1,0 +1,1812 @@
+{
+  "unit": "cp.28",
+  "proposals": [
+    {
+      "id": "p-sabara",
+      "type": "person",
+      "en": "Śabarapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Śabara"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শবরপাদো",
+          "translit": "śabarapādo",
+          "lemma": "śabarapāda",
+          "att": "AS",
+          "where": "cp.28.m1"
+        },
+        {
+          "lang": "san",
+          "script": "সবরপাদেন",
+          "translit": "sabarapādena",
+          "lemma": "śabarapāda",
+          "att": "AS",
+          "where": "cp.28.m7"
+        },
+        {
+          "lang": "san",
+          "script": "শবরপাদানাম্",
+          "translit": "śabarapādānām",
+          "lemma": "śabarapāda",
+          "att": "AS",
+          "where": "cp.28.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ཝ་རི་པའི་ཞབས",
+          "translit": "sa wa ri pa'i zhabs",
+          "lemma": "sa wa ri pa",
+          "att": "AO",
+          "where": "cp.28.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ་ཝ་རི་པ",
+          "translit": "sha wa ri pa",
+          "lemma": "sha wa ri pa",
+          "att": "AO",
+          "where": "cp.28.7a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "শবরপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "সবরপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ས་ཝ་རི་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤ་ཝ་རི་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet to whom the Nepal manuscript attributes song 28; in its last couplet he calls himself the mad Śabara. Munidatta calls him a siddha master who, pierced by the flavour of great compassion, teaches for the good of the world (cp.28.m1). The Tibetan commentary calls him sa wa ri pa, though its heading names Saraha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The unit names its poet p-sabara and the glossary has no entry for him; a person entry, separate from the ethnonym 'sabara', serves the heading and the bhaṇitā, rendered Śabarapāda as Munidatta names him."
+    },
+    {
+      "id": "sabari",
+      "type": "term",
+      "en": "Śabarī",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "Śabara girl",
+        "Śabara woman"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সবরী",
+          "translit": "sabarī",
+          "lemma": "sabarī",
+          "att": "AS",
+          "where": "cp.28.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ཝ་རི་ཡི་བུ་མོ",
+          "translit": "sa wa ri yi bu mo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ཝ་རི",
+          "translit": "sa wa ri",
+          "lemma": "sa wa ri",
+          "att": "AO",
+          "where": "cp.28.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সবরী"
+        },
+        {
+          "lang": "bod",
+          "form": "ས་ཝ་རི་ཡི་བུ་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A woman or girl of the Śabaras, a forest and hill people (Old Bengali sabarī). In song 28 the young Śabarī lives on a high mountain, dressed in peacock feathers with a guñjā garland at her neck, and roams the forest alone wearing earrings and a vajra. The Tibetan transcribes the word sa wa ri, as for the man.",
+      "symbolicImage": "the Śabara girl who lives on the high mountain and roams the forest alone",
+      "symbolicReadings": [
+        {
+          "referent": "Nairātmā, the wisdom seal (jñānamudrā) born of the letter aṃ: the vajra-holder's wife, who dwells at the summit of Sumeru in the wheel of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m2"
+          ]
+        },
+        {
+          "referent": "Nairātmā alone: 'the Śabarī alone' is glossed 'that Nairātmā is alone' (sā nairātmā ekakā)",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Nairātmā",
+        "selflessness",
+        "jñānamudrā",
+        "wisdom seal"
+      ],
+      "rationale": "The Śabarī is the central figure of the song and Munidatta reads her as Nairātmā; the existing 'sabara' entry (EN 'Śabara') cannot carry the feminine, so she needs her own entry, kept in source form like Ḍombī."
+    },
+    {
+      "id": "mountain",
+      "type": "term",
+      "en": "mountain",
+      "policy": "translate",
+      "alt": [
+        "hill"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাবত",
+          "translit": "pābata",
+          "lemma": "pābata",
+          "att": "AS",
+          "where": "cp.28.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "গিরিবর",
+          "translit": "giribara",
+          "lemma": "girivara",
+          "att": "AS",
+          "where": "cp.28.7b"
+        },
+        {
+          "lang": "san",
+          "script": "কায়পর্ব্বতবনে",
+          "translit": "kāyaparvvatavane",
+          "lemma": "parvata",
+          "att": "AS",
+          "where": "cp.28.m4"
+        },
+        {
+          "lang": "san",
+          "script": "গিরিবরেতি",
+          "translit": "girivareti",
+          "lemma": "girivara",
+          "att": "AS",
+          "where": "cp.28.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་བོ",
+          "translit": "ri bo",
+          "lemma": "ri bo",
+          "att": "AO",
+          "where": "cp.28.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་བོ་མཆོག",
+          "translit": "ri bo mchog",
+          "lemma": "ri bo",
+          "att": "AO",
+          "where": "cp.28.7a"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་མཆོག",
+          "translit": "ri mchog",
+          "lemma": "ri",
+          "att": "AO",
+          "where": "cp.28.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས་ཀྱི་རི་བོ",
+          "translit": "lus kyi ri bo",
+          "lemma": "ri bo",
+          "att": "AO",
+          "where": "cp.28.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাবত"
+        },
+        {
+          "lang": "oben",
+          "form": "গিরিবর"
+        },
+        {
+          "lang": "san",
+          "form": "গিরিবর"
+        },
+        {
+          "lang": "san",
+          "form": "পর্ব্বত"
+        },
+        {
+          "lang": "bod",
+          "form": "རི་མཆོག"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])རི་བོ(?:ར|འི|ས)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A mountain (Old Bengali pābata, from Sanskrit parvata; also giribara, 'finest of mountains'). The Śabarī of song 28 lives on a high mountain, and in the last couplet the Śabara enters the cleft of the great mountain's peak. The Tibetan has ri bo. Munidatta reads the mountain as the yogi's body and as Sumeru.",
+      "symbolicImage": "the high mountain where the Śabarī lives; the peak of the great mountain",
+      "symbolicReadings": [
+        {
+          "referent": "the raised staff of the skeleton of the lord of yogis' own body (the Tibetan says the spine, sgal tshigs), at the tip of Sumeru's peak, in the wheel of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m2"
+          ]
+        },
+        {
+          "referent": "the body, as 'this body-Sumeru' (kāyasumeru) and 'the forest of the body-mountain' (kāyaparvatavana) where the Śabarī roams",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "body",
+        "spine",
+        "backbone",
+        "Sumeru",
+        "wheel of great bliss"
+      ],
+      "rationale": "The high mountain is the song's opening image and recurs in the bhaṇitā, with a reading in Munidatta; the glossary has only Sumeru, which Munidatta brings in but the poem does not name."
+    },
+    {
+      "id": "peacock-feather",
+      "type": "term",
+      "en": "peacock feathers",
+      "policy": "translate",
+      "alt": [
+        "peacock plumes"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোরঙ্গি পীচ্ছ",
+          "translit": "moraṅgi pīccha",
+          "lemma": "piccha",
+          "att": "AS",
+          "where": "cp.28.1b"
+        },
+        {
+          "lang": "san",
+          "script": "ময়ূরাঙ্গমিতি",
+          "translit": "mayūrāṅgam iti",
+          "lemma": "mayūrāṅga",
+          "att": "AS",
+          "where": "cp.28.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨ་བྱའི་མདོངས",
+          "translit": "rma bya'i mdongs",
+          "lemma": "rma bya",
+          "att": "AO",
+          "where": "cp.28.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মোরঙ্গি পীচ্ছ"
+        },
+        {
+          "lang": "oben",
+          "form": "মোরঙ্গি"
+        },
+        {
+          "lang": "san",
+          "form": "ময়ূরাঙ্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "རྨ་བྱའི་མདོངས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Peacock feathers (Old Bengali moraṅgi pīccha), which the Śabarī of song 28 wears as her dress. Munidatta renders the word mayūrāṅga, 'peacock's limb', and his gloss perhaps plays on pakṣa, both 'wing' and 'side'. The Tibetan has rma bya'i mdongs, 'peacock plumes'.",
+      "symbolicImage": "the peacock feathers the Śabarī wears as her dress",
+      "symbolicReadings": [
+        {
+          "referent": "the many and varied forms of conceptual thought about sides (pakṣavikalpa), made into her garment and ornament as they rest in their own nature",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "conceptual thoughts",
+        "concepts"
+      ],
+      "rationale": "One of the Śabarī's emblems, named in the brief's list of images and read by Munidatta; no entry exists."
+    },
+    {
+      "id": "gunja-garland",
+      "type": "term",
+      "en": "guñjā garland",
+      "policy": "translate",
+      "alt": [
+        "garland of guñjā berries"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গুঞ্জরী মালী",
+          "translit": "guñjarī mālī",
+          "lemma": "guñjā",
+          "att": "AS",
+          "where": "cp.28.1b"
+        },
+        {
+          "lang": "san",
+          "script": "গুঞ্জে(ঞ্জ)তি",
+          "translit": "guñje(ñja)ti",
+          "lemma": "guñjā",
+          "att": "AS",
+          "where": "cp.28.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུའི་ཕྲེང་བ",
+          "translit": "ma ru'i phreng ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུ",
+          "translit": "ma ru",
+          "lemma": "ma ru",
+          "att": "AO",
+          "where": "cp.28.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གུཉྫ",
+          "translit": "guny+dza",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গুঞ্জরী মালী"
+        },
+        {
+          "lang": "san",
+          "form": "গুঞ্জে(ঞ্জ)তি"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་རུའི་ཕྲེང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A garland of guñjā berries, the glossy red, black-tipped seeds of the rosary-pea vine (Abrus precatorius), worn by the Śabarī at her neck in song 28. Spelled like the rāga Guñjarī of song 5 (গুঞ্জরী) but a different word. The Tibetan has ma ru'i phreng ba, and its commentary glosses ma ru as guñjā (guny+dza).",
+      "symbolicImage": "the guñjā garland at the Śabarī's neck",
+      "symbolicReadings": [
+        {
+          "referent": "the secret mantra (guhyamantra), held at the neck, the wheel of enjoyment (sambhogacakra); the Sanskrit is partly corrupt here, and the Tibetan has 'the secret mantra of guhya'",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mantra",
+        "secret mantra",
+        "wheel of enjoyment",
+        "sambhogacakra"
+      ],
+      "rationale": "One of the Śabarī's emblems, with a reading in Munidatta; it needs its own entry, matched on the longer গুঞ্জরী মালী so that the rāga entry 'gunjari' does not claim the word in this line."
+    },
+    {
+      "id": "bow",
+      "type": "term",
+      "en": "bow",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পুঞ্চআ",
+          "translit": "puñcaā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.28.6a"
+        },
+        {
+          "lang": "san",
+          "script": "ধনুঃ",
+          "translit": "dhanuḥ",
+          "lemma": "dhanus",
+          "att": "AS",
+          "where": "cp.28.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞུ",
+          "translit": "gzhu",
+          "lemma": "gzhu",
+          "att": "AO",
+          "where": "cp.28.6a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পুঞ্চআ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ধনু"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])གཞུ(?:ར|འི|ས)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A bow. In song 28 the guru's word is the puñcaā and one's own mind the arrow with which supreme nirvāṇa is pierced. Munidatta renders the word dhanus, 'bow', and the Tibetan line has gzhu, 'bow'; the derivation of the Old Bengali puñcaā is unclear.",
+      "symbolicImage": "the bow of the guru's word",
+      "symbolicReadings": [
+        {
+          "referent": "the true guru's word (sadguruvākya), which is made the bow",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m7"
+          ]
+        }
+      ],
+      "forbiddenInLine": [],
+      "rationale": "The bow is one of the song's named images and its Old Bengali word is obscure, so the reader needs the commentary's and the Tibetan's identification."
+    },
+    {
+      "id": "arrow",
+      "type": "term",
+      "en": "arrow",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাণেঁ",
+          "translit": "bāṇem̐",
+          "lemma": "bāṇa",
+          "att": "AS",
+          "where": "cp.28.6a"
+        },
+        {
+          "lang": "oben",
+          "script": "শরসন্ধানেঁ",
+          "translit": "śarasandhānem̐",
+          "lemma": "śarasaṃdhāna",
+          "att": "AS",
+          "where": "cp.28.6b"
+        },
+        {
+          "lang": "san",
+          "script": "বাণমিতি",
+          "translit": "bāṇam iti",
+          "lemma": "bāṇa",
+          "att": "AS",
+          "where": "cp.28.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "མདའ",
+          "translit": "mda'",
+          "lemma": "mda'",
+          "att": "AO",
+          "where": "cp.28.6a"
+        },
+        {
+          "lang": "bod",
+          "script": "མདའ་གཅིག",
+          "translit": "mda' gcig",
+          "lemma": "mda'",
+          "att": "AO",
+          "where": "cp.28.6b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শরসন্ধান"
+        },
+        {
+          "lang": "bod",
+          "form": "མདའ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বাণ(?![ীি])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বাণ(?![ীি])"
+        }
+      ],
+      "definition": "An arrow (Old Bengali bāṇa; śara in śarasandhāna, 'fitting the arrow'). In song 28 one's own mind is the arrow, shot with a single aim from the bow of the guru's word to pierce supreme nirvāṇa. The Tibetan has mda'.",
+      "symbolicImage": "the arrow of one's own mind, fitted once to the bow",
+      "symbolicReadings": [
+        {
+          "referent": "one's own mind as bodhicitta (nijamanobodhicitta)",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m7"
+          ]
+        },
+        {
+          "referent": "the single arrow: 'the arrow of one taste' (ekarasa), the two made one",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m7"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "awakening mind",
+        "one taste"
+      ],
+      "rationale": "The arrow is one of the song's named images with a reading in Munidatta; its short word বাণ needs a regex so it does not hit inside ণিবাণেঁ or নির্ব্বাণ (nirvāṇa)."
+    },
+    {
+      "id": "unmatta",
+      "type": "term",
+      "en": "mad",
+      "policy": "translate",
+      "alt": [
+        "crazy",
+        "madman"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উমত",
+          "translit": "umata",
+          "lemma": "umata",
+          "att": "AS",
+          "where": "cp.28.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "পাগল",
+          "translit": "pāgala",
+          "lemma": "pāgala",
+          "att": "AS",
+          "where": "cp.28.2a"
+        },
+        {
+          "lang": "san",
+          "script": "উন্মত্ত",
+          "translit": "unmatta",
+          "lemma": "unmatta",
+          "att": "AS",
+          "where": "cp.28.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྨྱོན་པ",
+          "translit": "smyon pa",
+          "lemma": "smyon pa",
+          "att": "AO",
+          "where": "cp.28.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উমত"
+        },
+        {
+          "lang": "san",
+          "form": "উমত"
+        },
+        {
+          "lang": "oben",
+          "form": "পাগল"
+        },
+        {
+          "lang": "san",
+          "form": "উন্মত্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "སྨྱོན་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mad, out of one's mind (Old Bengali umata, from Sanskrit unmatta; also pāgala, 'crazy'): the Śabara's epithet in the refrain of song 28 and again in its last couplet. The Tibetan has smyon pa, 'madman'. Compare the entry for drunk (matta), which lists the related form unmatto.",
+      "symbolicImage": "the mad Śabara",
+      "symbolicReadings": [
+        {
+          "referent": "one whose mind is overwhelmed by sense objects (viṣayavihvalacitta), whom the Blessed Lady Nairātmā addresses and comforts",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m3"
+          ]
+        },
+        {
+          "referent": "intoxicated with drinking the innate (sahajapānapramatta): the Śabara is the poet's own mind-vajra",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m8"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "sense objects",
+        "innate",
+        "mind-vajra"
+      ],
+      "rationale": "The epithet frames the refrain and the bhaṇitā and carries two readings in Munidatta; rendered 'mad' rather than 'drunk' because it is paired with pāgala and the Tibetan has smyon pa."
+    },
+    {
+      "id": "guli",
+      "type": "term",
+      "en": "gulī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গুলী",
+          "translit": "gulī",
+          "lemma": "gulī",
+          "att": "AS",
+          "where": "cp.28.2a"
+        },
+        {
+          "lang": "san",
+          "script": "গুলীতি",
+          "translit": "gulīti",
+          "lemma": "gulī",
+          "att": "AS",
+          "where": "cp.28.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གུ་ལི",
+          "translit": "gu li",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.2a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])গুলী(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])গুলী(?:তি)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])གུ་ལི(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "An Old Bengali word of uncertain meaning in the refrain of song 28: 'do not make gulī guhāḍā'. Munidatta explains 'do not make gulī' as 'do not form conceptual thoughts such as joy' (cp.28.m3), without a Sanskrit equivalent. The Tibetan keeps the word as gu li, untranslated, and has nothing for guhāḍā.",
+      "symbolicImage": "making gulī, which the Śabara is told not to do",
+      "symbolicReadings": [
+        {
+          "referent": "conceptual thoughts such as joy (ānandādivikalpa), which the Śabara is told not to form",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "conceptual thoughts"
+      ],
+      "rationale": "An obscure refrain word that even the Tibetan translators left untranslated; the reader needs an entry, and the short form needs a whole-word regex so it does not hit inside words such as আঙ্গুলী."
+    },
+    {
+      "id": "grhini",
+      "type": "term",
+      "en": "wife",
+      "policy": "translate",
+      "alt": [
+        "housewife",
+        "mistress of the house"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘরিণী",
+          "translit": "ghariṇī",
+          "lemma": "ghariṇī",
+          "att": "AS",
+          "where": "cp.28.2b"
+        },
+        {
+          "lang": "san",
+          "script": "গৃহিণী",
+          "translit": "gṛhiṇī",
+          "lemma": "gṛhiṇī",
+          "att": "AS",
+          "where": "cp.28.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ་མི་མོ",
+          "translit": "khyim mi mo",
+          "lemma": "khyim mi mo",
+          "att": "AO",
+          "where": "cp.28.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঘরিণী"
+        },
+        {
+          "lang": "san",
+          "form": "গৃহিণী"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁྱིམ་མི་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wife, mistress of the house (Old Bengali ghariṇī, Sanskrit gṛhiṇī, from gṛha, 'house'). In the refrain of song 28 the Śabara is told that his own wife is named Sahaja Sundarī. The Tibetan has khyim mi mo, 'woman of the house'.",
+      "symbolicImage": "the Śabara's own wife",
+      "symbolicReadings": [
+        {
+          "referent": "the wisdom seal (jñānamudrā) Nairātmā, wife of the vajra-holder, who dwells on the summit",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m2"
+          ]
+        },
+        {
+          "referent": "Nairātmā speaking: 'I am your wife, the jñānamudrā, Sahajasundarī'",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "jñānamudrā",
+        "wisdom seal",
+        "Nairātmā"
+      ],
+      "rationale": "A household term the commentary reads as the jñānamudrā; it joins the glossary's other kin terms (husband, bride, mother-in-law)."
+    },
+    {
+      "id": "sahaja-sundari",
+      "type": "term",
+      "en": "Innate Beauty",
+      "policy": "translate",
+      "alt": [
+        "Sahajasundarī"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সহজ সুন্দারী",
+          "translit": "sahaja sundārī",
+          "lemma": "sahajasundarī",
+          "att": "AS",
+          "where": "cp.28.2b"
+        },
+        {
+          "lang": "san",
+          "script": "সহজসুন্দরীতি",
+          "translit": "sahajasundarīti",
+          "lemma": "sahajasundarī",
+          "att": "AS",
+          "where": "cp.28.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་སྐྱེས་མཛེས་ལྡན་མ",
+          "translit": "lhan skyes mdzes ldan ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সহজ সুন্দারী"
+        },
+        {
+          "lang": "san",
+          "form": "সহজসুন্দরী"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷན་སྐྱེས་མཛེས་ལྡན་མ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sahaja Sundarī, 'the innate beauty', the name the refrain of song 28 gives the Śabara's own wife. The Tibetan translates it lhan skyes mdzes ldan ma, 'the beautiful one, innate'. Munidatta puts the refrain in the mouth of the Blessed Lady Nairātmā.",
+      "symbolicImage": "the Śabara's wife, named Sahaja Sundarī",
+      "symbolicReadings": [
+        {
+          "referent": "the jñānamudrā, the name the Blessed Lady Nairātmā gives herself when she comforts the Śabara",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "jñānamudrā",
+        "wisdom seal",
+        "Nairātmā"
+      ],
+      "rationale": "A personal name built on sahaja that the reader should understand; translated, as the Tibetan does, so the sense stays visible, and matched on the two-word form so the 'sahaja' entry does not take it alone."
+    },
+    {
+      "id": "branch",
+      "type": "term",
+      "en": "branch",
+      "policy": "translate",
+      "alt": [
+        "bough"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ডালী",
+          "translit": "ḍālī",
+          "lemma": "ḍāla",
+          "att": "AS",
+          "where": "cp.28.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ডালঞ্চ",
+          "translit": "ḍālañ ca",
+          "lemma": "ḍāla",
+          "att": "AS",
+          "where": "cp.28.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡལ་ག",
+          "translit": "yal ga",
+          "lemma": "yal ga",
+          "att": "AO",
+          "where": "cp.28.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ডাল(?:ী|ি)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ডাল(?:ঞ্চ|ং)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཡལ་ག(?:འི|ར|ས)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A branch or bough (Old Bengali ḍāla, ḍālī). In song 28 the branches of the various fine trees touch the sky; Munidatta repeats the word (ḍāla) in his Sanskrit. The Tibetan has yal ga.",
+      "symbolicImage": "the branches of the fine trees, touching the sky",
+      "symbolicReadings": [
+        {
+          "referent": "the five aggregates (pañcaskandha), touching the sky, the clear light",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "aggregates",
+        "five aggregates",
+        "skandhas",
+        "clear light"
+      ],
+      "rationale": "The branch carries Munidatta's reading as the aggregates, as in the body-tree of song 1; the short word needs whole-word regexes."
+    },
+    {
+      "id": "bhujanga",
+      "type": "term",
+      "en": "lover",
+      "policy": "translate",
+      "alt": [
+        "paramour",
+        "gallant"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভুজঙ্গ",
+          "translit": "bhujaṅga",
+          "lemma": "bhujaṅga",
+          "att": "AS",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "san",
+          "script": "ভুজ(চ)ঙ্গেন",
+          "translit": "bhuja(ca)ṅgena",
+          "lemma": "bhujaṅga",
+          "att": "AS",
+          "where": "cp.28.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦྲུལ",
+          "translit": "sbrul",
+          "lemma": "sbrul",
+          "att": "AO",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྟོས་འགྲོ",
+          "translit": "ltos 'gro",
+          "lemma": "lto 'gro",
+          "att": "AO",
+          "where": "cp.28.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভুজঙ্গ"
+        },
+        {
+          "lang": "san",
+          "form": "ভুজ(চ)ঙ্গ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Bhujaṅga, literally 'snake', also a lover, paramour or gallant, the sense its pairing with dārī, 'courtesan', suggests in song 28, where the Śabara is the bhujaṅga and Nairāmaṇi the dārī. The Tibetan takes it as 'snake', sbrul in the line and ltos 'gro, 'belly-crawler', in the commentary.",
+      "symbolicImage": "the Śabara as bhujaṅga",
+      "symbolicReadings": [
+        {
+          "referent": "the Śabara's mind-vajra (cittavajra), with whom the bed of great bliss is made",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind-vajra",
+        "vajra of mind"
+      ],
+      "rationale": "A word with two senses, lover and snake, where the Tibetan chose the other one, so the choice needs an entry and a flag."
+    },
+    {
+      "id": "dari",
+      "type": "term",
+      "en": "courtesan",
+      "policy": "translate",
+      "alt": [
+        "harlot"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দারী",
+          "translit": "dārī",
+          "lemma": "dārī",
+          "att": "AS",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "san",
+          "script": "দারিকা",
+          "translit": "dārikā",
+          "lemma": "dārikā",
+          "att": "AS",
+          "where": "cp.28.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས་འཚོང",
+          "translit": "gzugs 'tshong",
+          "lemma": "gzugs 'tshong ma",
+          "att": "AO",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས་འཚོང་མ",
+          "translit": "gzugs 'tshong ma",
+          "lemma": "gzugs 'tshong ma",
+          "att": "AO",
+          "where": "cp.28.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དཱ་རི་ཀ",
+          "translit": "dA ri ka",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གཟུགས་འཚོང"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])দারী(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])দারিক[াে]"
+        }
+      ],
+      "definition": "Old Bengali dārī, apparently a courtesan or harlot, paired with bhujaṅga, 'paramour'; the Tibetan has gzugs 'tshong ma, 'courtesan'. Munidatta glosses it dārikā and derives it from dārayati, 'tears apart', since she tears apart the afflictions (cp.28.m5). Sanskrit dārikā usually means 'girl' and dāra 'wife', so the sense is not certain.",
+      "symbolicImage": "Nairāmaṇi as the dārī",
+      "symbolicReadings": [
+        {
+          "referent": "Nairātmā, called dārikā because she tears apart (dārayati) the afflictions",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "afflictions",
+        "destroyer of afflictions"
+      ],
+      "rationale": "A word of uncertain sense with an etymological reading in Munidatta; দারী sits inside সুন্দারী in this very song, so it is matched only as a whole word."
+    },
+    {
+      "id": "betel",
+      "type": "term",
+      "en": "betel",
+      "policy": "translate",
+      "alt": [
+        "betel quid"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তাঁবোলা",
+          "translit": "tām̐bolā",
+          "lemma": "tām̐bola",
+          "att": "AS",
+          "where": "cp.28.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তাম্বূলেন",
+          "translit": "tāmbūlena",
+          "lemma": "tāmbūla",
+          "att": "AS",
+          "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སོ་རྩི",
+          "translit": "so rtsi",
+          "lemma": "so rtsi",
+          "att": "AO",
+          "where": "cp.28.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "གོ་ལ",
+          "translit": "go la",
+          "lemma": "go la",
+          "att": "AO",
+          "where": "cp.28.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তাঁবোল"
+        },
+        {
+          "lang": "san",
+          "form": "তাম্বূল"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])སོ་རྩི(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Betel: areca nut with lime and spices wrapped in a betel leaf (Sanskrit tāmbūla), chewed as a stimulant and shared between lovers and guests; camphor was one of its flavourings. In song 28 the heart is the betel and camphor is eaten in great bliss. The Tibetan line has so rtsi, literally 'tooth medicine'; the commentary has go la.",
+      "symbolicImage": "the heart as betel, chewed with camphor",
+      "symbolicReadings": [
+        {
+          "referent": "the heart, the clear light (prabhāsvara), resolved upon (adhimucya) as the betel; the Tibetan has 'the clear light of the heart'",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light"
+      ],
+      "rationale": "An everyday image a modern reader may not know, with a reading in Munidatta; no entry exists."
+    },
+    {
+      "id": "hrdaya",
+      "type": "term",
+      "en": "heart",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হিঅ",
+          "translit": "hia",
+          "lemma": "hia",
+          "att": "AS",
+          "where": "cp.28.5a"
+        },
+        {
+          "lang": "san",
+          "script": "হিএঁ",
+          "translit": "hiem̐",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.28.m6"
+        },
+        {
+          "lang": "san",
+          "script": "হৃদয়ং",
+          "translit": "hṛdayaṃ",
+          "lemma": "hṛdaya",
+          "att": "AS",
+          "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྙིང",
+          "translit": "snying",
+          "lemma": "snying",
+          "att": "AO",
+          "where": "cp.28.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "হৃদয়"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])হি(?:অ|এঁ)(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])হি(?:অ|এঁ)(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The heart (Old Bengali hia, Sanskrit hṛdaya). In song 28 the heart is the betel chewed with camphor. Munidatta quotes the word as hiem̐ and renders it hṛdaya (cp.28.m6); the Tibetan line has sems, 'mind', where its commentary has snying, 'heart'.",
+      "symbolicImage": "the heart as betel",
+      "symbolicReadings": [
+        {
+          "referent": "clear light (prabhāsvara): 'the heart, clear light', which is resolved upon as the betel",
+          "per": "Munidatta",
+          "where": [
+            "cp.28.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light"
+      ],
+      "rationale": "A body term the commentary reads as clear light and the Tibetan line renders as 'mind'; the two-letter form needs a whole-word regex."
+    },
+    {
+      "id": "pancamudra",
+      "type": "term",
+      "en": "five seals",
+      "policy": "translate",
+      "alt": [
+        "five mudrās"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কুণ্ডলাদিপঞ্চমুদ্রা",
+          "translit": "kuṇḍalādipañcamudrā",
+          "lemma": "pañcamudrā",
+          "att": "AS",
+          "where": "cp.28.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱག་རྒྱ་ལྔ",
+          "translit": "phyag rgya lnga",
+          "lemma": "phyag rgya",
+          "att": "AO",
+          "where": "cp.28.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পঞ্চমুদ্রা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཕྱག་རྒྱ་ལྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The five seals (mudrā): bone ornaments worn as emblems by tantric yogis and yoginīs. Munidatta says the Śabarī puts on the five seals, beginning with earrings, as her ornament (cp.28.m4); the Tibetan calls them bone ornaments (rus pa'i rgyan) and begins the list with the wheel ('khor lo).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the yoginī tantras that Munidatta uses for the Śabarī's regalia; no entry exists."
+    },
+    {
+      "id": "varadi",
+      "type": "term",
+      "en": "Varāḍī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বলাড্ডি",
+          "translit": "balāḍḍi",
+          "lemma": "varāṭī",
+          "att": "AS",
+          "where": "cp.28.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བར་ཌི",
+          "translit": "bar Di",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বলাড্ডি"
+        },
+        {
+          "lang": "bod",
+          "form": "བར་ཌི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New spellings of the rāga name in the heading of song 28 (Bengali balāḍḍi, Tibetan bar Di)."
+    },
+    {
+      "id": "sabara",
+      "type": "term",
+      "en": "Śabara",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সবরো",
+          "translit": "sabaro",
+          "lemma": "sabara",
+          "att": "AS",
+          "where": "cp.28.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "শবরো",
+          "translit": "śabaro",
+          "lemma": "śabara",
+          "att": "AS",
+          "where": "cp.28.2a"
+        },
+        {
+          "lang": "san",
+          "script": "শবর",
+          "translit": "śabara",
+          "lemma": "śabara",
+          "att": "AS",
+          "where": "cp.28.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সবরঃ",
+          "translit": "sabaraḥ",
+          "lemma": "śabara",
+          "att": "AS",
+          "where": "cp.28.m8"
+        },
+        {
+          "lang": "bod",
+          "script": "ས་ཝ་རི",
+          "translit": "sa wa ri",
+          "lemma": "sa wa ri",
+          "att": "AO",
+          "where": "cp.28.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ་ཝ་རི",
+          "translit": "sha wa ri",
+          "lemma": "sha wa ri",
+          "att": "AO",
+          "where": "cp.28.7b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])[সশ]বর(?:ো|ঃ|ে)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])[সশ]বর(?:ো|ঃ|ে)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Śabara man of song 28 (the madman of the refrain and the bhaṇitā), spelled with স and শ; whole-word regexes keep these from hitting সবরী, সবরপাদ or words like সবর্ণ."
+    },
+    {
+      "id": "kantha",
+      "type": "term",
+      "en": "neck",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গিবত",
+          "translit": "gibata",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.28.1b"
+        },
+        {
+          "lang": "san",
+          "script": "গ্রীবায়াং",
+          "translit": "grīvāyāṃ",
+          "lemma": "grīvā",
+          "att": "AS",
+          "where": "cp.28.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ক[ে]ণ্ঠতি",
+          "translit": "kaṇṭheti",
+          "lemma": "kaṇṭha",
+          "att": "AS",
+          "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མགྲིན་པ",
+          "translit": "mgrin pa",
+          "lemma": "mgrin pa",
+          "att": "AO",
+          "where": "cp.28.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গিবত"
+        },
+        {
+          "lang": "san",
+          "form": "গ্রীবা"
+        },
+        {
+          "lang": "san",
+          "form": "ক[ে]ণ্ঠ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Śabarī wears the guñjā garland gibata, 'on the neck', which Munidatta renders grīvāyāṃ; his lemma for kaṇṭhe in 5b is printed with a restored vowel (ক[ে]ণ্ঠতি) that the plain form cannot match."
+    },
+    {
+      "id": "nairatma",
+      "type": "term",
+      "en": "Nairātmā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণইরামণি",
+          "translit": "ṇairāmaṇi",
+          "lemma": "nairāmaṇi",
+          "att": "AS",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "নিরামণি",
+          "translit": "nirāmaṇi",
+          "lemma": "nirāmaṇi",
+          "att": "AS",
+          "where": "cp.28.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ণইরামণি"
+        },
+        {
+          "lang": "oben",
+          "form": "নিরামণি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Old Bengali forms of the name in the song itself (Munidatta and the Tibetan, bdag med ma, confirm the identification); the Sanskrit forms already in the entry do not match them."
+    },
+    {
+      "id": "camphor",
+      "type": "term",
+      "en": "camphor",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কর্পূরং",
+          "translit": "karpūraṃ",
+          "lemma": "karpūra",
+          "att": "AS",
+          "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ག་བུར",
+          "translit": "ga bur",
+          "lemma": "ga pur",
+          "att": "AO",
+          "where": "cp.28.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কর্পূর"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কাপুর(?!ু)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ག་[བཔ]ུར"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's karpūra and the Tibetan spelling ga bur; regexes keep কাপুর out of কাপুরুষ and ga pur/ga bur out of gcig pur ('alone'), which stands in the Tibetan of 3b."
+    },
+    {
+      "id": "taruvara",
+      "type": "term",
+      "en": "fine tree",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཤིང་མཆོག",
+          "translit": "shing mchog",
+          "lemma": "shing mchog",
+          "att": "AO",
+          "where": "cp.28.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཤིང་མཆོག"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan of song 28 renders tarubara shing mchog, not ljon shing mchog as in song 1."
+    },
+    {
+      "id": "kundala",
+      "type": "term",
+      "en": "earrings",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কর্ণকুণ্ডল",
+          "translit": "karṇakuṇḍala",
+          "lemma": "karṇakuṇḍala",
+          "att": "AS",
+          "where": "cp.28.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣ་རྒྱན",
+          "translit": "rna rgyan",
+          "lemma": "rna rgyan",
+          "att": "AO",
+          "where": "cp.28.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁོར་ལོ",
+          "translit": "'khor lo",
+          "lemma": "'khor lo",
+          "att": "AO",
+          "where": "cp.28.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কর্ণকুণ্ডল"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣ་རྒྱན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Śabarī is karṇakuṇḍala-, 'wearing ear-rings'; the Tibetan line has rna rgyan 'khor lo, and in the commentary renders kuṇḍala in kuṇḍalādi by 'khor lo, 'wheel, ring' (form only, not matched, since it is the ordinary word for wheel)."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিঅ ধাউ",
+          "translit": "tia dhāu",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.28.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রৈধাতুকং",
+          "translit": "traidhātukaṃ",
+          "lemma": "traidhātuka",
+          "att": "AS",
+          "where": "cp.28.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁམས་གསུམ་པོ",
+          "translit": "khams gsum po",
+          "lemma": "khams gsum",
+          "att": "AO",
+          "where": "cp.28.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্রৈধাতুক"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])তিঅ ধাউ?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])তিঅ ধাউ?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Old Bengali tia dhāu, 'the three realms' (Munidatta traidhātuka, the Tibetan khams gsum), which Munidatta again reads as body, speech and mind (cp.28.m5)."
+    },
+    {
+      "id": "rajani",
+      "type": "term",
+      "en": "night",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রাতি",
+          "translit": "rāti",
+          "lemma": "rāti",
+          "att": "AS",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "san",
+          "script": "রজনী",
+          "translit": "rajanī",
+          "lemma": "rajanī",
+          "att": "AS",
+          "where": "cp.28.m5"
+        },
+        {
+          "lang": "san",
+          "script": "রজনীতি",
+          "translit": "rajanīti",
+          "lemma": "rajanī",
+          "att": "AS",
+          "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་ལངས",
+          "translit": "nam langs",
+          "lemma": "nam langs",
+          "att": "AO",
+          "where": "cp.28.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་མོ",
+          "translit": "mtshan mo",
+          "lemma": "mtshan mo",
+          "att": "AO",
+          "where": "cp.28.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "রজনী"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])রাতি"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta renders the song's rāti as rajanī and reads it as darkness destroyed, as he does raeṇi in song 19, and the verb is again pohā-, so rāti belongs with this entry rather than 'night' (nisi)."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুন",
+          "translit": "suna",
+          "lemma": "suna",
+          "att": "AS",
+          "where": "cp.28.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুন(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry lists suna, but সুন is not yet matched as a word (it is a candidate in this pack); a whole-word regex adds it without hitting সুন্দারী in 2b or সুন্দরী in the commentary."
+    }
+  ],
+  "questions": [
+    "Poet: the Nepal manuscript (śabarapādānām, before 1a), Munidatta (śabarapādo, cp.28.m1; mayā sabarapādena, cp.28.m7) and the Tibetan comment on m1 (sa wa ri pa'i zhabs) and line 7a (sha wa ri pa) all point to Śabara, but the Tibetan heading names Saraha (sa ra ha'i zhabs kyi'o), and at cp.28.m7 the Tibetan has sa ra ha'i zhabs bdag gis where the Sanskrit has 'by me, Śabarapāda'. Those Tibetan forms will hit p-saraha. I have not added them to p-sabara; please decide how to annotate them.",
+    "Śabara, Śabarī, Śabarapāda: I matched the song's সবরো/শবরো (2a, 4a, 4b, 7a, 7b) to the existing 'sabara', including the bhaṇitā at 7a and 7b, where the drafter may prefer {p-sabara}. The Śabarī has a new entry 'sabari', because 'sabara' (EN 'Śabara') cannot render সবরী. If you would rather fold her into 'sabara' with a 'Śabarī' variant, drop 'sabari' and move its forms and readings.",
+    "গুঞ্জরী in 1b is the guñjā berry, but the rāga entry 'gunjari' lists গুঞ্জরী and will hit it. The new 'gunja-garland' matches the longer গুঞ্জরী মালী, so it should win. You may still want to limit 'gunjari' to headings, or to a regex after রাগ.",
+    "umata: the existing 'matta' (EN 'drunk') already lists oben উন্মত্তো unmatto. I proposed a separate 'unmatta' (EN 'mad'), because the song pairs umata with pāgala and the Tibetan has smyon pa, 'madman'. Munidatta's m8 reading (intoxicated with the drink of the innate) does lean towards 'matta'. Merge them, or move unmatto, as you prefer.",
+    "Possible over-hits from forms already in the glossary (I cannot see their match lists): the camphor form ག་པུར ga pur sits inside གཅིག་པུར gcig pur ('alone') in the Tibetan of 3b, and p-vajradhara's རྡོ་རྗེ་འཛིན at 3b means 'holding a vajra' (the Śabarī's vajradhārī), not the buddha Vajradhara. If either is a literal match form, a regex or a narrower form would help. I added a regex for both camphor spellings.",
+    "Uncertain senses. bhujaṅga (4b) is 'lover, paramour', given its pairing with dārī, but the Tibetan has sbrul, 'snake' (and ltos 'gro in m5). dārī is 'courtesan', as in the Tibetan gzugs 'tshong, but 'wife' (dāra) or 'girl' (Sanskrit dārikā) is possible, and Munidatta only gives an etymology. puñcaā (6a) is unexplained; I followed Munidatta's dhanus and the Tibetan gzhu ('bow'), but a link to puṅkha, the feathered end of an arrow, may be worth checking.",
+    "Readings that I could not attach, because existing entries can only gain forms: taruvara, the fine tree, is ignorance (avidyārūpa, cp.28.m4). Camphor is coupled union, in the relation of fruit and cause (cp.28.m6). rajani, the night, is the darkness of the conceptual thought of wisdom and means (cp.28.m5) and the darkness of the afflictions of one's own body (cp.28.m6). The sky the branches touch is clear light (cp.28.m4). The vajra the Śabarī holds is the knowledge of means (upāyajñāna, cp.28.m4). The Tibetan of m2 makes Śabara 'the one who holds the letter ha after sa' (Sanskrit pavidhara, vajra-holder).",
+    "Witness points for the drafter: the Tibetan of m6 quotes rma bya'i mdongs ('peacock feathers', from 1b) as its lemma for couplet 5, where the Sanskrit quotes hiem̐; Munidatta's hiem̐ also differs from the song's হিঅ. The Tibetan of 7a already carries ri bo mchog rtse yi, which renders 7b's giribara sihara, so I cited 7a for ri bo mchog. In m4 the Sanskrit niraṃśukālaṅkāra stands where the Tibetan has rus pa'i rgyan ('bone ornaments').",
+    "Rendering choices to confirm: 'Innate Beauty' for sahaja sundārī (translated, as the Tibetan does, and alt Sahajasundarī). 'wife' for ghariṇī/gṛhiṇī. rāti filed under 'rajani' rather than 'night', since Munidatta renders it rajanī. গিবত/গ্রীবা ('neck') added to 'kantha'."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "bee95c61d1ddb95d5b1b18a289a4c73c05669f3c966065de0d95f78578f92a20",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "abbb09922b438da6a136c4095c7e9dc5bccefba1968fd76259da0c39819aaddd",
+    "sourceSha": "e52e49cde02efc3b21492146bce6242e5df39663e7de012e38edb47065a6d813"
+  }
+}

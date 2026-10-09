@@ -1,0 +1,1376 @@
+{
+  "unit": "cp.29",
+  "proposals": [
+    {
+      "id": "udakacandra",
+      "type": "term",
+      "en": "moon in water",
+      "policy": "translate",
+      "alt": [
+        "moon reflected in water"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উদক চান্দ",
+          "translit": "udaka cānda",
+          "lemma": "udaka cānda",
+          "att": "AS",
+          "where": "cp.29.4b"
+        },
+        {
+          "lang": "san",
+          "script": "যথোদকচন্দ্র[ঃ]",
+          "translit": "yathodakacandra[ḥ]",
+          "lemma": "udakacandra",
+          "att": "AS",
+          "where": "cp.29.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ཡི་ཟླ་བ",
+          "translit": "chu yi zla ba",
+          "lemma": "chu zla",
+          "att": "AO",
+          "where": "cp.29.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ཟླ",
+          "translit": "chu zla",
+          "lemma": "chu zla",
+          "att": "AO",
+          "where": "cp.29.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উদক চান্দ"
+        },
+        {
+          "lang": "san",
+          "form": "দকচন্দ্র"
+        },
+        {
+          "lang": "san",
+          "form": "দকচন্দ্রঃ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་ཡི་ཟླ་བ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་ཟླ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The moon reflected in water: a stock Mahāyāna image for what appears vividly but has no substance of its own. Song 29 says what it speaks of is like it, neither true nor false (4b); Munidatta applies the image to how the host of things appears to the lord of yogis (cp.29.m5). The Tibetan has chu yi zla ba.",
+      "symbolicImage": "the moon in water, neither true nor false",
+      "symbolicReadings": [
+        {
+          "referent": "the appearance (pratibhāsa) of the host of things (bhāvagrāma) to the lord of yogis, which, like the moon in water, is neither true nor false, so that it is not fit to be put into words; the Tibetan comment has 'the reflection of the town of meditation of the lord of yogis' (rnal 'byor gyi dbang phyug sgom pa'i grong khyer gyi gzugs brnyan), as if reading bhāvanā for bhāva",
+          "per": "Munidatta",
+          "where": [
+            "cp.29.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "appearance of things",
+        "host of things"
+      ],
+      "rationale": "A stock Mahāyāna simile that song 29 uses in its fourth couplet and Munidatta explains; no entry covers it, and 'moon in water' keeps the image plain."
+    },
+    {
+      "id": "durlaksa",
+      "type": "term",
+      "en": "hard to discern",
+      "policy": "translate",
+      "alt": [
+        "hard to make out"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুলক্খ",
+          "translit": "dulakkha",
+          "lemma": "dulakkha",
+          "att": "AS",
+          "where": "cp.29.2a"
+        },
+        {
+          "lang": "san",
+          "script": "দুর্লক্ষং",
+          "translit": "durlakṣaṃ",
+          "lemma": "durlakṣa",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚོན་པར་དཀའ་བ",
+          "translit": "mtshon par dka' ba",
+          "lemma": "mtshon par dka' ba",
+          "att": "AO",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚོན་དུ་མེད",
+          "translit": "mtshon du med",
+          "lemma": "mtshon du med",
+          "att": "AO",
+          "where": "cp.29.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দুলক্খ"
+        },
+        {
+          "lang": "san",
+          "form": "দুর্লক্ষ"
+        },
+        {
+          "lang": "bod",
+          "form": "མཚོན་པར་དཀའ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Hard to discern or to mark out (Sanskrit durlakṣa, Old Bengali dulakkha): not picked out by any sign. The refrain of song 29 says biṇāṇā, apparently consciousness, is hard to discern (2a); Munidatta says reality, being hard to discern, cannot be discerned by a novice yogin (cp.29.m3). The Tibetan line has mtshon du med, 'cannot be indicated'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The key word of song 29's refrain, from the vocabulary of marks (lakṣaṇa) the glossary already tracks; the 'mark of the unmarkable' entry covers a different compound, so its Tibetan mtshon du med is listed here but not matched."
+    },
+    {
+      "id": "varna",
+      "type": "term",
+      "en": "colour",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বান",
+          "translit": "bāna",
+          "lemma": "bāna",
+          "att": "AS",
+          "where": "cp.29.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বর্ণচিহ্নরূপং",
+          "translit": "varṇacihnarūpaṃ",
+          "lemma": "varṇa",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বর্ণস্তেনোপলভ্যত",
+          "translit": "varṇastenopalabhyata",
+          "lemma": "varṇa",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁ་དོག",
+          "translit": "kha dog",
+          "lemma": "kha dog",
+          "att": "AO",
+          "where": "cp.29.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཁ་དོག"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "বান(?=চিহ্ন)"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বর্ণ(?=চিহ্ন|স্তেন|োপলম্ভ)"
+        }
+      ],
+      "definition": "Colour (Sanskrit varṇa, Old Bengali bāna; Tibetan kha dog), one of the features by which a thing is singled out; varṇa also means 'letter' and 'caste'. Song 29 says the colour, mark and form of what it speaks of are not known (3a); Munidatta quotes Nāgārjuna: no colour, red, yellow or madder, is perceived (cp.29.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "With mark and form, colour makes up the triad song 29 denies of what it speaks of, and Munidatta's verse of Nāgārjuna turns on it; the regexes keep to colour and avoid varṇa as letter or caste."
+    },
+    {
+      "id": "rupa",
+      "type": "term",
+      "en": "form",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রূব",
+          "translit": "rūba",
+          "lemma": "rūba",
+          "att": "AS",
+          "where": "cp.29.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বর্ণচিহ্নরূপং",
+          "translit": "varṇacihnarūpaṃ",
+          "lemma": "rūpa",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས",
+          "translit": "gzugs",
+          "lemma": "gzugs",
+          "att": "AO",
+          "where": "cp.29.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])রূব(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Form (Sanskrit rūpa, Old Bengali rūba; Tibetan gzugs): visible shape and appearance, and in Buddhist analysis the first of the five aggregates. Song 29 says the colour, mark and form of what it speaks of are not known (3a), and Munidatta repeats the three (cp.29.m4). Not silver (rūpā), on which Munidatta puns elsewhere.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term named in song 29's triad of colour, mark and form; the glossary has no entry for it, and Sanskrit -rūpa ('having the form of') and Tibetan gzugs are too common to match as literals."
+    },
+    {
+      "id": "tx-veda",
+      "type": "text",
+      "en": "Veda",
+      "policy": "keep-source",
+      "alt": [
+        "Vedas"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বেএঁ",
+          "translit": "beem̐",
+          "lemma": "bea",
+          "att": "AS",
+          "where": "cp.29.3b"
+        },
+        {
+          "lang": "san",
+          "script": "বেদে",
+          "translit": "vede",
+          "lemma": "veda",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རིག་བྱེད",
+          "translit": "rig byed",
+          "lemma": "rig byed",
+          "att": "AO",
+          "where": "cp.29.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বেএঁ"
+        },
+        {
+          "lang": "bod",
+          "form": "རིག་བྱེད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বেদ(?:ে|াঃ|ঃ|ং|স্য|েষু)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বেদ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The Veda: the oldest scriptures of Brahmanical religion, hymns and ritual texts held to be revealed and taught by brahmins. Song 29 asks how what has no colour, mark or form is explained by scripture and Veda (3b); Munidatta names the Veda after poetry, Vinaya, scripture and treatises (cp.29.m4). The Tibetan has rig byed.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A named body of scripture, set beside āgama in song 29; the reader needs to know it is the Brahmanical canon, and the whole-word regex keeps clear of vedanā and saṃvedana."
+    },
+    {
+      "id": "tx-vinaya",
+      "type": "text",
+      "en": "Vinaya",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিনয়",
+          "translit": "vinaya",
+          "lemma": "vinaya",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འདུལ་བ",
+          "translit": "'dul ba",
+          "lemma": "'dul ba",
+          "att": "AO",
+          "where": "cp.29.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বিনয়(?:ে|ঃ|ং)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The Vinaya ('discipline'): the part of the Buddhist canon that lays down the rules of monastic life with the stories behind them. Munidatta asks how what has no colour, mark or form could be explained in poetry, the Vinaya, scripture, treatises or the Veda (cp.29.m4); the Tibetan has 'dul ba.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A named division of the Buddhist canon in Munidatta's comment; the Tibetan 'dul ba also means 'tame', so it is not matched."
+    },
+    {
+      "id": "prthagjana",
+      "type": "term",
+      "en": "ordinary person",
+      "policy": "translate",
+      "alt": [
+        "ordinary being"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পৃথক্‌জনায়",
+          "translit": "pṛthakjanāya",
+          "lemma": "pṛthagjana",
+          "att": "AS",
+          "where": "cp.29.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སོ་སོའི་སྐྱེ་བོ",
+          "translit": "so so'i skye bo",
+          "lemma": "so so'i skye bo",
+          "att": "AO",
+          "where": "cp.29.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পৃথক্‌জন"
+        },
+        {
+          "lang": "bod",
+          "form": "སོ་སོའི་སྐྱེ་བོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "পৃথ[কগ]্\\u200c?জন"
+        }
+      ],
+      "definition": "An ordinary person (Sanskrit pṛthagjana; Tibetan so so'i skye bo): in Buddhist usage, anyone who has not yet directly seen the truth, as distinct from the noble ones (ārya). Munidatta asks to whom, and saying what, he could give a settled doctrine for an ordinary person, since what appears is like the moon in water (cp.29.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard technical term of Buddhist teaching in Munidatta's comment on song 29; 'ordinary person' is the usual plain rendering."
+    },
+    {
+      "id": "siddhanta",
+      "type": "term",
+      "en": "settled doctrine",
+      "policy": "translate",
+      "alt": [
+        "tenet",
+        "conclusion"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সিদ্ধান্তঃ",
+          "translit": "siddhāntaḥ",
+          "lemma": "siddhānta",
+          "att": "AS",
+          "where": "cp.29.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲུབ་མཐའ",
+          "translit": "grub mtha'",
+          "lemma": "grub mtha'",
+          "att": "AO",
+          "where": "cp.29.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সিদ্ধান্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "གྲུབ་མཐའ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A settled doctrine or conclusion (Sanskrit siddhānta, 'established end'; Tibetan grub mtha', 'tenet'): what a school holds as proven. Munidatta's paraphrase of song 29 (4a) puts it where the song has piricchā: to whom, saying what, should he give a settled doctrine to an ordinary person (cp.29.m5)? The Tibetan line has dri ba, 'ask'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A scholastic term in Munidatta's comment that a reader needs explained; 'settled doctrine' avoids the narrower 'tenet system'."
+    },
+    {
+      "id": "santana",
+      "type": "term",
+      "en": "continuum",
+      "policy": "translate",
+      "alt": [
+        "stream"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সন্তানদীর্ঘহ্রস্বপরিমণ্ডলাদিকং",
+          "translit": "santānadīrghahrasvaparimaṇḍalādikaṃ",
+          "lemma": "santāna",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱུད",
+          "translit": "rgyud",
+          "lemma": "rgyud",
+          "att": "AO",
+          "where": "cp.29.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সন্তান"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A continuum or stream (Sanskrit santāna; Tibetan rgyud): in Buddhist thought, the unbroken succession of moments that makes up a person or a mind, in place of a lasting self. On song 29's refrain Munidatta says he cannot make out its continuum, long, short, round or otherwise, nor where it stays (cp.29.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of Buddhist thought about the mind in Munidatta's comment; the Tibetan rgyud (also 'tantra', 'string') is too common to match."
+    },
+    {
+      "id": "avacana",
+      "type": "term",
+      "en": "inexpressible",
+      "policy": "translate",
+      "alt": [
+        "beyond words"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবচনত্বাৎ",
+          "translit": "avacanatvāt",
+          "lemma": "avacana",
+          "att": "AS",
+          "where": "cp.29.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྨྲར་མེད",
+          "translit": "smrar med",
+          "lemma": "smra ba",
+          "att": "AO",
+          "where": "cp.29.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অবচন"
+        },
+        {
+          "lang": "bod",
+          "form": "སྨྲར་མེད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Inexpressible, not an object of speech (Sanskrit avacana, avacanatva; Tibetan smrar med): beyond the reach of words. Song 29 asks to whom, and saying what, it could be imparted (4a); Munidatta ends his comment on that couplet with 'because it is inexpressible' (cp.29.m5). Compare 'inconceivable' (acintya).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The point on which song 29's fourth couplet turns, named by Munidatta; it pairs with the existing entry for 'inconceivable'."
+    },
+    {
+      "id": "p-luyi",
+      "type": "person",
+      "en": "Lūyī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "লূই",
+          "translit": "lūi",
+          "lemma": "lūi",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "san",
+          "script": "লূইপাদস্তমেবার্থং",
+          "translit": "lūipādastamevārthaṃ",
+          "lemma": "lūipāda",
+          "att": "AS",
+          "where": "cp.29.m1"
+        },
+        {
+          "lang": "san",
+          "script": "লূয়ীপাদঃ",
+          "translit": "lūyīpādaḥ",
+          "lemma": "lūyīpāda",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ལཱུ་ཡི་པའི་ཞབས",
+          "translit": "lU yi pa'i zhabs",
+          "lemma": "lU yi pa'i zhabs",
+          "att": "AO",
+          "where": "cp.29.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "লূই"
+        },
+        {
+          "lang": "san",
+          "form": "লূয়ীপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལཱུ་ཡི་པའི་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Lūyī (Lūipāda), the siddha to whom song 29 is attributed; he names himself in its refrain (2a) and last couplet (5a). Munidatta calls him Lūipāda, beautiful with the joy of knowledge, and the siddha master Lūyīpāda (cp.29.m1, cp.29.m3); the Tibetan heading and comment have lU yi pa'i zhabs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New spellings of the poet's name in Munidatta's comment on song 29 (long ū, lūi and lūyīpāda) and the fuller Tibetan form, added to the existing entry."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "པ་ཊ་ཧ་མཉྫ་རི",
+          "translit": "pa Ta ha many+dza ri",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.29.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "པ་ཊ་ཧ་མཉྫ་རི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Paṭamañjarī, the rāga (melodic mode) named in the heading of song 29, as of song 1. The Tibetan heading of song 29 spells it pa Ta ha many+dza ri, with a short final i, a spelling the entry lacks.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan heading of song 29 transcribes the rāga with ཊ and a short final ri, which none of the entry's Tibetan forms has."
+    },
+    {
+      "id": "bhava-abhava",
+      "type": "term",
+      "en": "being and nonbeing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাব",
+          "translit": "bhāba",
+          "lemma": "bhāba",
+          "att": "AS",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "অভাব",
+          "translit": "abhāba",
+          "lemma": "abhāba",
+          "att": "AS",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্তাবৎ",
+          "translit": "bhāvastāvat",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কিমভাবশ্রুতির্ভবতি",
+          "translit": "kimabhāvaśrutirbhavati",
+          "lemma": "abhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "অভাবোঽপি",
+          "translit": "abhāvo'pi",
+          "lemma": "abhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ",
+          "translit": "dngos po",
+          "lemma": "dngos po",
+          "att": "AO",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ་མེད་པ",
+          "translit": "dngos po med pa",
+          "lemma": "dngos po med pa",
+          "att": "AO",
+          "where": "cp.29.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভাবস্তাবৎ"
+        },
+        {
+          "lang": "san",
+          "form": "অভাবোঽপি"
+        },
+        {
+          "lang": "san",
+          "form": "অভাবশ্রুতি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Being and nonbeing (Sanskrit bhāva, abhāva; Old Bengali bhāba, abhāba). Song 29 opens by denying each on its own (1a). Munidatta says being is not reality, since examination finds no being to apprehend, and nonbeing is not either, having no real form (cp.29.m2). The Tibetan has dngos po and dngos po med pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 29 names bhāva and abhāva as separate words, which the entry's compound form does not catch; added under the same id, though 'being' and 'nonbeing' may need to become variants (see questions)."
+    },
+    {
+      "id": "bodhi",
+      "type": "term",
+      "en": "awakening",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সংবোহেঁ",
+          "translit": "saṃbohem̐",
+          "lemma": "saṃbohi",
+          "att": "AS",
+          "where": "cp.29.1b"
+        },
+        {
+          "lang": "san",
+          "script": "সম্বোধনে",
+          "translit": "sambodhane",
+          "lemma": "saṃbodhana",
+          "att": "AS",
+          "where": "cp.29.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সংবোহ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Awakening, here full awakening (Sanskrit saṃbodhi; Old Bengali saṃbohi): song 29 asks who would trust in such awakening (1b). Munidatta has saṃbodhana in the same place (cp.29.m2); the Tibetan line has 'such a buddha' (sangs rgyas), its comment 'such a perfect buddha' (rdzogs pa'i sangs rgyas).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Saṃbohem̐ appears to be saṃbodhi, full awakening, which the existing entry covers; the identification is uncertain, and Munidatta's sambodhane is not matched because the same word means 'in the vocative' (see questions)."
+    },
+    {
+      "id": "vijnana",
+      "type": "term",
+      "en": "consciousness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিণাণা",
+          "translit": "biṇāṇā",
+          "lemma": "biṇāṇa",
+          "att": "AS",
+          "where": "cp.29.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিণাণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Consciousness (Sanskrit vijñāna), here as Old Bengali biṇāṇā: the refrain of song 29 calls it hard to discern (2a). Munidatta's paraphrase puts reality (tattva) in its place (cp.29.m3), and the Tibetan line has no clear equivalent.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Biṇāṇa is the regular Apabhraṃśa and Old Bengali form of vijñāna, which the existing entry covers; neither Munidatta nor the Tibetan confirms the sense (see questions)."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিঅ ধাএ",
+          "translit": "tia dhāe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.29.2b"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রৈধাতুকং",
+          "translit": "traidhātukaṃ",
+          "lemma": "traidhātuka",
+          "att": "AS",
+          "where": "cp.29.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তিঅ ধাএ"
+        },
+        {
+          "lang": "san",
+          "form": "ত্রৈধাতুক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The three worlds or realms (here Old Bengali tia dhāe and Sanskrit traidhātuka, from tridhātu, 'the three spheres'): the realms of desire, form and formlessness. In the refrain of song 29 something plays in them (2b); Munidatta sets them beside body, speech and mind (cp.29.m3), as he equates the two in song 18. The Tibetan has khams gsum.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 29 names the three worlds as tia dhāe and Munidatta as traidhātuka, neither of which the entry's forms catch."
+    },
+    {
+      "id": "lila",
+      "type": "term",
+      "en": "play",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিলসই",
+          "translit": "bilasai",
+          "lemma": "bilas",
+          "att": "AS",
+          "where": "cp.29.2b"
+        },
+        {
+          "lang": "san",
+          "script": "বিলসতি",
+          "translit": "vilasati",
+          "lemma": "vilas",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ক্রীড়তি",
+          "translit": "krīṛati",
+          "lemma": "krīḍ",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རོལ་པ",
+          "translit": "rol pa",
+          "lemma": "rol pa",
+          "att": "AO",
+          "where": "cp.29.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিলস"
+        },
+        {
+          "lang": "san",
+          "form": "বিলস"
+        },
+        {
+          "lang": "san",
+          "form": "ক্রীড়ত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Play or sport, here the verbs vilas- and krīḍ- (Tibetan rol pa). In the refrain of song 29 something plays (bilasai) in the three worlds (2b); Munidatta renders it 'plays, sports' (vilasati krīḍati) (cp.29.m3), and the Tibetan line has rol pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 29's bilasai and Munidatta's vilasati and krīḍati name the same effortless play as the existing entry, with the same Tibetan rol."
+    },
+    {
+      "id": "kaya-vak-citta",
+      "type": "term",
+      "en": "body, speech and mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়বাক্‌চিত্তে",
+          "translit": "kāyavākcitte",
+          "lemma": "kāyavākcitta",
+          "att": "AS",
+          "where": "cp.29.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས་ངག་ཡིད",
+          "translit": "lus ngag yid",
+          "lemma": "lus ngag yid",
+          "att": "AO",
+          "where": "cp.29.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কায়বাক্‌চিত্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "ལུས་ངག་ཡིད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Body, speech and mind (kāya, vāc, citta). On the refrain of song 29 Munidatta joins body, speech and mind to the three worlds in which it plays (cp.29.m3); the Tibetan makes the three worlds the play of lus ngag yid gsum, 'the three, body, speech and mind'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A locative form and a shorter Tibetan phrasing that the entry's forms do not yet include."
+    },
+    {
+      "id": "cihna",
+      "type": "term",
+      "en": "sign",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বর্ণচিহ্নরূপং",
+          "translit": "varṇacihnarūpaṃ",
+          "lemma": "cihna",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་མ",
+          "translit": "mtshan ma",
+          "lemma": "mtshan ma",
+          "att": "AO",
+          "where": "cp.29.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চিহ্ন"
+        },
+        {
+          "lang": "san",
+          "form": "চিহ্ন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A sign or mark (Sanskrit cihna). Song 29 names it between colour and form as what is not known of the thing it speaks of (3a: bānacihna rūba), and Munidatta repeats the three (cp.29.m4); the Tibetan line has mtshan ma.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan mtshan ma and Munidatta's compound are new attestations for the existing entry; mtshan ma also renders nimitta and lakṣaṇa, so it is not matched."
+    },
+    {
+      "id": "agama",
+      "type": "term",
+      "en": "scripture",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আগম",
+          "translit": "āgama",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.29.3b"
+        },
+        {
+          "lang": "san",
+          "script": "আগমশাস্ত্রে",
+          "translit": "āgamaśāstre",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.29.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আগমশাস্ত্র"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])আগম(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Scripture, authoritative tradition (āgama). Song 29 asks how what has no colour, mark or form could be explained by scripture and Veda (3b); Munidatta pairs scripture with treatises (āgamaśāstra) in his list (cp.29.m4). The Tibetan has lung.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 29 uses āgama in the verse itself and Munidatta in a compound, neither caught by the entry's forms; the regex is whole-word so as to miss āgamana, 'coming'."
+    },
+    {
+      "id": "upalambha",
+      "type": "term",
+      "en": "apprehension",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবস্যোপলম্ভো",
+          "translit": "bhāvasyopalambho",
+          "lemma": "upalambha",
+          "att": "AS",
+          "where": "cp.29.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "োপলম্ভ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Apprehension (upalambha): taking something as an object, as really there. Munidatta says that on examination no apprehension of a thing (bhāva) is found, so being is not reality (cp.29.m2); the Tibetan has dngos por dmigs pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new sandhi form in Munidatta's comment on song 29; the match keeps to the o-sandhi form, which cannot fall inside anupalambha."
+    },
+    {
+      "id": "vicara",
+      "type": "term",
+      "en": "examination",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিচারেণ",
+          "translit": "vicāreṇa",
+          "lemma": "vicāra",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "গুরুবচনবিচারে",
+          "translit": "guruvacanavicāre",
+          "lemma": "vicāra",
+          "att": "AS",
+          "where": "cp.29.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་དཔྱད",
+          "translit": "rnam par dpyad",
+          "lemma": "dpyod pa",
+          "att": "AO",
+          "where": "cp.29.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিচার"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣམ་པར་དཔྱད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Examination or analysis (vicāra). In his comment on song 29 Munidatta uses it as a means: examination finds no thing to apprehend (cp.29.m2), and examining by the guru's word he does not make out even the fourth form he abides in (cp.29.m6). The Tibetan has rnam par dpyod pa and rnam par dpyad.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms in Munidatta's comment on song 29, where examination is a means of insight rather than the conceptual thought of song 15."
+    },
+    {
+      "id": "pindagraha-anubheda",
+      "type": "term",
+      "en": "piṇḍagrāha and anubheda",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পিণ্ডগ্রহাণুভেদে",
+          "translit": "piṇḍagrahāṇubhede",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རིལ་པོར་འཛིན་པ",
+          "translit": "ril por 'dzin pa",
+          "lemma": "ril por 'dzin pa",
+          "att": "AO",
+          "where": "cp.29.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পিণ্ডগ্রহাণুভেদ"
+        },
+        {
+          "lang": "bod",
+          "form": "རིལ་པོར་འཛིན་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Apparently the two Guhyasamāja meditations of holding as a whole (piṇḍagrāha) and successive dissolution (anubheda). On song 29 Munidatta says that examined in them no thing is found to apprehend (cp.29.m2). Here the manuscript spells piṇḍagrahāṇubhede, which could be read 'division into atoms'; the Tibetan has ril por 'dzin pa'i dbye ba med pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A second spelling of the compound, and the Tibetan ril por 'dzin pa, the usual term for piṇḍagrāha, for the existing entry (see questions)."
+    },
+    {
+      "id": "tattva",
+      "type": "term",
+      "en": "reality",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তত্ত্বন্ন",
+          "translit": "tattvanna",
+          "lemma": "tattva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তত্ত্বস্য",
+          "translit": "tattvasya",
+          "lemma": "tattva",
+          "att": "AS",
+          "where": "cp.29.m4"
+        },
+        {
+          "lang": "san",
+          "script": "তত্ত্বস্বরূপমাহ",
+          "translit": "tattvasvarūpamāha",
+          "lemma": "tattva",
+          "att": "AS",
+          "where": "cp.29.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "তত্ত্ব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Reality (tattva). Munidatta's comment on song 29 turns on it: being is not reality (cp.29.m2), reality is hard to discern (cp.29.m3), its colour, mark and form are not known (cp.29.m4), and the third verse states its true nature (cp.29.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Inflected and compound forms in Munidatta's comment that the entry's listed forms do not catch; the stem তত্ত্ব occurs only in this word."
+    },
+    {
+      "id": "bhavya-bhavaka",
+      "type": "term",
+      "en": "object of meditation and meditator",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাব্যভাবকভাবনা",
+          "translit": "bhāvyabhāvakabhāvanā",
+          "lemma": "bhāvya",
+          "att": "AS",
+          "where": "cp.29.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভাব্যভাবক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Object of meditation and meditator (bhāvya, bhāvaka). On the last couplet of song 29 Munidatta says that, object, meditator and meditation being absent, there is nothing for him to meditate on (cp.29.m6); the Tibetan has bsgom par bya ba, sgom pa po and sgom pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The triad compound in Munidatta's comment on song 29 is a new form for the existing entry."
+    },
+    {
+      "id": "bhavana",
+      "type": "term",
+      "en": "meditation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাইব",
+          "translit": "bhāiba",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.29.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাব্যভাবকভাবনা",
+          "translit": "bhāvyabhāvakabhāvanā",
+          "lemma": "bhāvanā",
+          "att": "AS",
+          "where": "cp.29.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བསྒོམ་པ",
+          "translit": "bsgom pa",
+          "lemma": "sgom pa",
+          "att": "AO",
+          "where": "cp.29.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভাইব"
+        },
+        {
+          "lang": "san",
+          "form": "ভাবনা"
+        },
+        {
+          "lang": "bod",
+          "form": "བསྒོམ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Meditation or cultivation (bhāvanā). The last couplet of song 29 asks what there is to meditate on (5a: bhāiba, apparently a gerundive, 'to be meditated'); the Tibetan line has 'what is my meditation (bsgom pa) like?'. Munidatta answers that object, meditator and meditation are absent (cp.29.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 29's bhāiba and Munidatta's triad add forms to the existing entry, though the Old Bengali word is a verbal form rather than a noun."
+    },
+    {
+      "id": "abhyasa",
+      "type": "term",
+      "en": "practice",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অভ্যাসং",
+          "translit": "abhyāsaṃ",
+          "lemma": "abhyāsa",
+          "att": "AS",
+          "where": "cp.29.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གོམས",
+          "translit": "goms",
+          "lemma": "goms pa",
+          "att": "AO",
+          "where": "cp.29.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অভ্যাস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Practice (abhyāsa): repeated application until it becomes second nature. In the verse Munidatta quotes at the end of song 29, when one practises after ascertaining the mind by understanding, one no longer sees the mind, where it has gone or where it stays (cp.29.m6); the Tibetan has goms byed pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new inflected form in a verse Munidatta quotes on song 29."
+    },
+    {
+      "id": "balayogin",
+      "type": "term",
+      "en": "novice yogin",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বালযোগিনা",
+          "translit": "bālayoginā",
+          "lemma": "bālayogin",
+          "att": "AS",
+          "where": "cp.29.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বালযোগিনা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A novice yogin (bālayogin). On the refrain of song 29 Munidatta says reality, hard to discern, cannot be discerned by a novice yogin (cp.29.m3); the Tibetan has byis pa'i rnal 'byor pa. His paraphrase puts the novice where the song has baṭa, which the Tibetan line renders rmongs pa, 'fool'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The instrumental form, listed under 'yogi' but not here, is added as a literal so that the specific entry, not yogi's যোগিনা, is what the matcher finds inside বালযোগিনা (in cp.05, cp.29 and cp.37)."
+    },
+    {
+      "id": "abhasa",
+      "type": "term",
+      "en": "appearance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবগ্রামপ্রতিভাসঃ",
+          "translit": "bhāvagrāmapratibhāsaḥ",
+          "lemma": "pratibhāsa",
+          "att": "AS",
+          "where": "cp.29.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রতিভাস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Appearance, here pratibhāsa, a near synonym of ābhāsa. Munidatta says the appearance of the host of things to the lord of yogis is like the moon in water, neither true nor false (cp.29.m5); the Tibetan has gzugs brnyan, 'reflection'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Pratibhāsa, 'appearance', is close enough to ābhāsa to share its entry and English; the reviewer may prefer a separate entry."
+    }
+  ],
+  "questions": [
+    "bhava-abhava: song 29 has bhāba and abhāba as separate words (1a), and Munidatta treats each on its own (cp.29.m2). Rather than re-propose an existing entry, I added them as forms of it, but its English is the pair: the drafter will want to tag 'being' and 'nonbeing' singly, so please add those as variants or split the entry. I gave no Tibetan match, since dngos po means 'thing' throughout the commentary; and the whole-word regexes for ভাব and অভাব could hit an Old Bengali bhāba meaning 'think' or 'feeling' elsewhere. Munidatta's abhāvena in cp.29.m6 ('since they are absent') and bhāva meaning 'a thing' (bhāvasya, bhāvagrāma) are left out on purpose.",
+    "bodhi: I read saṃbohem̐ (1b) as saṃbodhi, 'full awakening', following the Tibetan, which has 'such a buddha' (line) and 'such a perfect buddha' (comment). It could instead be saṃbodhana, 'explanation, making known' ('who would trust such an explanation?'), which is what Munidatta writes; if so, drop both forms. I did not give Munidatta's sambodhane as a match, since commentators write 'X iti sambodhane' for 'X is a vocative'.",
+    "2a, baṭa and biṇāṇā: Munidatta puts the novice yogin (bālayoginā) where the song has baṭa, and the Tibetan line has rmongs pa, 'fool', so baṭa may be vaṭu, 'lad, fool', not 'road'. The road entry's form বট baṭa makes the matcher tag this word as 'road'; please check whether that form should stay. For biṇāṇā I added a form to vijnana (vijñāna > biṇāṇa); Munidatta has reality (tattva) in its place, and the Tibetan (rmongs pa ya mtshan mtshon du med) has no clear equivalent, perhaps ya mtshan, 'wonder'.",
+    "uha (2b, 5b): no entry proposed. It may be the Old Bengali pronoun 'that' or ūha, 'reasoning, conjecture'. Munidatta writes na ūhe, 'I do not make out', in both places (cp.29.m3, cp.29.m6), and the Tibetan line of 2b has dbyibs, 'shape', matching Munidatta's 'long, short, round'. If you take it as ūha, it may deserve an entry.",
+    "pindagraha-anubheda: in cp.29.m2 the manuscript spells পিণ্ডগ্রহাণুভেদে (graha with short a, aṇu with retroflex ṇ), which reads naturally as 'division of the grasped lump into atoms', in keeping with the atom argument of song 26. The Tibetan has ril por 'dzin pa'i dbye ba med pa, 'without the division of holding as a whole', as if reading piṇḍagrāha-abheda. I added the form to the existing entry; please check whether it is the same compound as in song 21.",
+    "siddhanta: Munidatta's siddhānta stands where 4a has piricchā, which the Tibetan line renders dri ba, 'ask' (Sanskrit pṛcchā, 'question'). I proposed siddhānta as an entry but not piricchā, which seems an ordinary word ('question' or 'inquiry').",
+    "5b: Munidatta's paraphrase (yaś caturtharūpaṃ gṛhītvā tiṣṭhāmi tasya…, 'what I abide in, having taken up the fourth form, of that…') and the Tibetan line (gang zhig blangs 'dug de ni, 'what has been taken up and remains, that') suggest dividing জালই অচ্ছমতা as jā lai acchama tā, 'what I took and stay in, that'. So the candidate words জালই and অচ্ছমতা are not terms, and I proposed nothing for them.",
+    "abhasa: I put Munidatta's pratibhāsa (cp.29.m5) under the existing 'appearance' entry, whose definition is about the moon- and sun-appearances of song 14. If you would rather keep that entry technical, pratibhāsa could have its own entry with the same English."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "4b0fba6afd465188b06d54e870ec96aef38787cc4ce129b1d033bb4a1e137513",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "abbb09922b438da6a136c4095c7e9dc5bccefba1968fd76259da0c39819aaddd",
+    "sourceSha": "d8446bfaf2a4061662035177eb4197c839648ff41af94f6a92242df26a4f8d22"
+  }
+}

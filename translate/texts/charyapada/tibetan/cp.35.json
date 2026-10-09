@@ -1,0 +1,94 @@
+{
+  "unit": "cp.35",
+  "equivalents": [
+    {
+      "id": "moha",
+      "line": "cp.35.1a",
+      "script": "རྨོངས",
+      "wylie": "rmongs",
+      "lemma": "rmongs pa",
+      "confidence": "likely",
+      "note": "The Tibetan has bdag ni shin tu rmongs, 'I was utterly deluded', where shin tu, 'utterly', stands in place of the sva- ('own') of svamohe, as if the translators read su-."
+    },
+    {
+      "id": "vajrakula",
+      "line": "cp.35.4a",
+      "script": "རཱ་ཧུ་ལ",
+      "wylie": "rA hu la",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan line reads bājule as a name, Rāhula (rA hu la yis, 'Rāhula gave me the mark'), while Munidatta's Sanskrit and its Tibetan gloss take the word as vajrakula, rdo rje'i rigs (cp.35.m5)."
+    },
+    {
+      "id": "abhaga",
+      "line": "cp.35.5a",
+      "script": "ཆ་ཤས་མེད་པ",
+      "wylie": "cha shas med pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line reads abhāge as cha shas med pa, 'partless, without share', which the Tibetan comment explains as the share of non-arising (ma skyes pa'i cha, cp.35.m6)."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.35.m2",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "prabhava",
+      "line": "cp.35.m5",
+      "script": "མཐུ",
+      "wylie": "mthu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "For vajraprabhāva, 'the power of the vajra', the Tibetan has rdo rje bla ma'i mthu, 'the power of the vajra guru'."
+    },
+    {
+      "id": "upaya",
+      "line": "cp.35.m5",
+      "script": "ཐབས",
+      "wylie": "thabs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "p-bhadra",
+      "line": "cp.35.m6",
+      "script": "བཟང་པོའི་ཞབས",
+      "wylie": "bzang po'i zhabs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here the Tibetan translates the name, bzang po'i zhabs, 'Excellent Foot', where the heading, m1 and the signature line transliterate it (b+ha dra)."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.35.m6",
+      "script": "ངོ་བོ་ཉིད",
+      "wylie": "ngo bo nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here ātmasvarūpa is rang gi ngo bo nyid, 'its own essence', not rang bzhin as in m2 and m4."
+    }
+  ],
+  "questions": [
+    "citta at cp.35.m4: for ataeva cittasyānudayena, 'hence through the non-arising of mind', the Tibetan has de'i phyir bzhi pa shar bas, 'hence through the dawning of the fourth', with no word for mind; it seems to read something like caturthasyodayena. No equivalent is given."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "12b870656b30ac3bc7409c0cf632de255fca9ca407bf30a83790906f1b542489",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "22f40bbccf40e393ba53752a1ba9d207dc51fcd320a15edb88189bc38cf4b68a",
+    "sourceSha": "0e4511937d49f653e2204792240dfa73a97a7b7be92158553c2299e521f19f82",
+    "parallelSha": "f870aa2d05db681e4a14eb5c9bdf7ddc3b2a37ee9503f02065560c6f9b78a8ce"
+  }
+}

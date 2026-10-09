@@ -1,0 +1,104 @@
+{
+  "unit": "cp.36",
+  "equivalents": [
+    {
+      "id": "tathata",
+      "line": "cp.36.1a",
+      "script": "དེ་ཉིད",
+      "wylie": "de nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line has de nyid, 'thatness', where Munidatta's Tibetan comment has the standard de bzhin nyid (cp.36.m2)."
+    },
+    {
+      "id": "cetana",
+      "line": "cp.36.3a",
+      "script": "སེམས",
+      "wylie": "sems",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line renders ceaṇa ṇa, 'no awareness', as sems med, 'without mind'."
+    },
+    {
+      "id": "sukha",
+      "line": "cp.36.3b",
+      "script": "བདེ་བར",
+      "wylie": "bde bar",
+      "lemma": "bde ba",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "saksin",
+      "line": "cp.36.5a",
+      "script": "མངོན་སུམ",
+      "wylie": "mngon sum",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "For śākhi kariba, 'I will make a witness', the Tibetan has mngon sum nyid du byas, 'made directly evident', as if reading sākṣāt rather than sākṣin; its comment does the same (chos nyid mngon sum du mdzad pa, cp.36.m6)."
+    },
+    {
+      "id": "yoganidra",
+      "line": "cp.36.m3",
+      "script": "རྣལ་འབྱོར་པས་གཉིད",
+      "wylie": "rnal 'byor pas gnyid",
+      "lemma": "rnal 'byor pa gnyid",
+      "confidence": "likely",
+      "note": "The Tibetan breaks up sahajānandayoganidrā: lhan cig skyes pa'i dga' ba'i rnal 'byor pas gnyid du song, 'the yogin of innate joy went to sleep', making yoga the yogin rather than a kind of sleep."
+    },
+    {
+      "id": "vikalpa",
+      "line": "cp.36.m4",
+      "script": "རྣམ་པར་མི་རྟོག",
+      "wylie": "rnam par mi rtog",
+      "lemma": "rnam par mi rtog pa",
+      "confidence": "likely",
+      "note": "The negated na ... vikalpaḥ comes out as rnam par mi rtog pa, 'non-conceptualization', and the Tibetan applies it in turn to mind (sems) and to feeling (tshor ba), the verse's pair, rather than to mind and awareness (cetanā)."
+    },
+    {
+      "id": "abhasa",
+      "line": "cp.36.m5",
+      "script": "དགོངས་པའི",
+      "wylie": "dgongs pa'i",
+      "lemma": "dgongs pa",
+      "confidence": "likely",
+      "note": "For svapratibhāsajñāna, 'knowledge of what appears to oneself', the Tibetan has rang gi dgongs pa'i ye shes, 'the wisdom of his own intent', as if reading something other than pratibhāsa."
+    },
+    {
+      "id": "agama",
+      "line": "cp.36.m5",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "mahatmya",
+      "line": "cp.36.m6",
+      "script": "བདག་ཉིད་ཆེ་བ",
+      "wylie": "bdag nyid che ba",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    }
+  ],
+  "questions": [
+    "noose at cp.36.m6: পাশ in mama pāśasānnidhānāntaram is not 'noose' here but pāśa from pārśva, 'side' ('even into the nearness of my side'); the Tibetan has bdag gi rtsa bar yang nye bar ma mthong, 'do not see even near me', as its verse 5b has rtsar yang. There is no word for a noose to match, and the glossary hit looks like a false match.",
+    "cetana at cp.36.m4: the Tibetan comment has no separate word for cetanā; it glosses sems med as sems kyi rnam par mi rtog pa and then tshor ba (feeling, the verse's beana) as rnam par mi rtog pa. The equivalent is given at 3a (sems)."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "519d4f0b74ae4fba0c8d3cb8db3ff13c4e2360c0ec57b2ecc4224a8463e5e646",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "22f40bbccf40e393ba53752a1ba9d207dc51fcd320a15edb88189bc38cf4b68a",
+    "sourceSha": "40eda529b33b7f821bccea300b1efdad518d76b2617c6288b2bf204df1a0561f",
+    "parallelSha": "6b93167721bc38d773d267b70826b0c65f0b2552438c9927309f1763ac0d2b77"
+  }
+}

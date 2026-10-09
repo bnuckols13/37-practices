@@ -1,0 +1,1208 @@
+{
+  "unit": "cp.45",
+  "proposals": [
+    {
+      "id": "asa",
+      "type": "term",
+      "en": "hope",
+      "policy": "translate",
+      "alt": [
+        "desire",
+        "longing"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আসা",
+          "translit": "āsā",
+          "lemma": "āsā",
+          "att": "AS",
+          "where": "cp.45.1b"
+        },
+        {
+          "lang": "san",
+          "script": "আসা",
+          "translit": "āsā",
+          "lemma": "āśā",
+          "att": "AS",
+          "where": "cp.45.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་པ",
+          "translit": "'dod pa",
+          "lemma": "'dod pa",
+          "att": "AO",
+          "where": "cp.45.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་པ",
+          "translit": "'dod pa",
+          "lemma": "'dod pa",
+          "att": "AO",
+          "where": "cp.45.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])আসা(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])আসা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Hope or desire (Old Bengali āsā, from Sanskrit āśā, 'hope, wish, expectation'). Song 45 (1b) joins hope to the mind-tree's abundant leaves and fruit; Munidatta repeats the line without explaining the word (cp.45.m2). The Tibetan line and comment have 'dod pa, 'desire'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The hope of the first couplet, tied to the mind-tree's leaves and fruit, has no entry; 'hope' renders āśā literally, with 'desire' as a variant because the Tibetan reads 'dod pa. The patterns take আসা only as a whole word, so āsādya and the like are not caught; 'dod pa is listed but not matched, since it also renders kāma and stands in the Kāmoda heading ('dod pa sbyin pa)."
+    },
+    {
+      "id": "leaf",
+      "type": "term",
+      "en": "leaf",
+      "policy": "translate",
+      "alt": [
+        "leaves",
+        "foliage"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাত",
+          "translit": "pāta",
+          "lemma": "pāta",
+          "att": "AS",
+          "where": "cp.45.1b"
+        },
+        {
+          "lang": "san",
+          "script": "পত্র",
+          "translit": "patra",
+          "lemma": "patra",
+          "att": "AS",
+          "where": "cp.45.m2"
+        },
+        {
+          "lang": "san",
+          "script": "পল্লব",
+          "translit": "pallava",
+          "lemma": "pallava",
+          "att": "AS",
+          "where": "cp.45.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོ",
+          "translit": "lo",
+          "lemma": "lo ma",
+          "att": "AO",
+          "where": "cp.45.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོ་མ",
+          "translit": "lo ma",
+          "lemma": "lo ma",
+          "att": "AO",
+          "where": "cp.45.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ལོ་མ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])পাত(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])পত্র"
+        }
+      ],
+      "definition": "A leaf, or leaves (Old Bengali pāta, Sanskrit patra). Song 45 (1b) speaks of the mind-tree's abundant leaves and fruit, together with hope; Munidatta repeats this with patra and calls the mind a tree because it supports shoots (pallava) of habitual tendencies (cp.45.m2). The Tibetan has lo and lo ma, but yal ga, 'branch', for pallava.",
+      "symbolicImage": "the shoots (pallava) that the mind-tree bears",
+      "symbolicReadings": [
+        {
+          "referent": "the habitual tendencies of beginningless existence (anādibhavavāsanā): because the mind is the support of these 'tendency-shoots', Kṛṣṇācārya pictures it as a tree. This justifies the image and does not gloss the song's pāta; the Tibetan comment has 'branches of tendencies' (bag chags kyi yal ga)",
+          "per": "Munidatta",
+          "where": [
+            "cp.45.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "habitual tendencies",
+        "tendencies",
+        "vāsanā",
+        "latent impressions"
+      ],
+      "rationale": "The leaves are part of the tree image of song 45 and have no entry; 'leaf' renders pāta and patra plainly. পাত is matched only as a whole word, since the same letters stand inside pāta 'fall' (durgatipāta), kelipāta and other words, and পত্র only at the start of a word (not ātapatra). Tibetan lo alone, also 'year', is listed but not matched; so is pallava, which elsewhere in the commentary (cp.10.m6) seems to mean twigs or strips rather than leaves."
+    },
+    {
+      "id": "subhasubha",
+      "type": "term",
+      "en": "good and bad",
+      "policy": "translate",
+      "alt": [
+        "good and evil",
+        "virtue and non-virtue"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুভাসুভ",
+          "translit": "subhāsubha",
+          "lemma": "subhāsubha",
+          "att": "AS",
+          "where": "cp.45.3a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বশুভাশুভং",
+          "translit": "svaśubhāśubhaṃ",
+          "lemma": "śubhāśubha",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དགེ་དང་མི་དགེ",
+          "translit": "dge dang mi dge",
+          "lemma": "dge ba dang mi dge ba",
+          "att": "AO",
+          "where": "cp.45.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དགེ་བ་དང་མི་དགེ་བ",
+          "translit": "dge ba dang mi dge ba",
+          "lemma": "dge ba dang mi dge ba",
+          "att": "AO",
+          "where": "cp.45.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সুভাসুভ"
+        },
+        {
+          "lang": "san",
+          "form": "শুভাশুভ"
+        },
+        {
+          "lang": "bod",
+          "form": "དགེ་དང་མི་དགེ"
+        },
+        {
+          "lang": "bod",
+          "form": "དགེ་བ་དང་མི་དགེ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Good and bad (Sanskrit śubhāśubha, Old Bengali subhāsubha): good and bad deeds, or the auspicious and the inauspicious. In song 45 (3a) the tree grows on the water of good and bad; Munidatta: the mind-tree takes the water of its own good and bad and grows in the ground of beginningless saṃsāra (cp.45.m4). Tibetan dge dang mi dge.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal pair in the image of the watered tree with no entry; 'good and bad' keeps the plain sense of śubhāśubha, distinct from the existing sin and merit (pāpa, puṇya) and virtue (kuśala). The compound literals are long enough to be safe."
+    },
+    {
+      "id": "guru-parimana",
+      "type": "term",
+      "en": "guru's measure",
+      "policy": "translate",
+      "alt": [
+        "the guru's measure",
+        "measure"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গুরুপরিমাণী",
+          "translit": "guruparimāṇī",
+          "lemma": "guruparimāṇa",
+          "att": "AS",
+          "where": "cp.45.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མའི་ཚད",
+          "translit": "bla ma'i tshad",
+          "lemma": "bla ma'i tshad",
+          "att": "AO",
+          "where": "cp.45.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=গুরু)পরিমাণ"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=བླ་མའི་)ཚད(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
+        }
+      ],
+      "definition": "'By the guru's measure' (Old Bengali guruparimāṇī, from Sanskrit guru and parimāṇa, 'measure, standard'): in song 45 (3b) the wise cut the tree by the guru's measure. The Tibetan line has bla ma'i tshad kyis. Munidatta paraphrases: having asked the glorious guru and made his word one's own experience (cp.45.m4). Compare valid cognition (pramāṇa), also 'measure'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An unusual compound that a reader needs explained, with no entry; 'guru's measure' follows parimāṇa and the Tibetan tshad. The patterns take only the 'measure' part after guru (lookbehind), so guru keeps its own link in 3b instead of being outranked by the compound."
+    },
+    {
+      "id": "cutting",
+      "type": "term",
+      "en": "cut",
+      "policy": "translate",
+      "alt": [
+        "cuts",
+        "cutting",
+        "is cut",
+        "fell",
+        "felling"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ছিজঅ",
+          "translit": "chijaa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.45.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "ছেবই",
+          "translit": "chebai",
+          "lemma": "cheba",
+          "att": "AS",
+          "where": "cp.45.3b"
+        },
+        {
+          "lang": "oben",
+          "script": "ছেব",
+          "translit": "cheba",
+          "lemma": "cheba",
+          "att": "AS",
+          "where": "cp.45.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "ছেবহ",
+          "translit": "chebaha",
+          "lemma": "cheba",
+          "att": "AS",
+          "where": "cp.45.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ছিদ্যমানা",
+          "translit": "chidyamānā",
+          "lemma": "chid",
+          "att": "AS",
+          "where": "cp.45.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ছেদং",
+          "translit": "chedaṃ",
+          "lemma": "cheda",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ছেদমিতি",
+          "translit": "chedam iti",
+          "lemma": "cheda",
+          "att": "AS",
+          "where": "cp.45.m5"
+        },
+        {
+          "lang": "san",
+          "script": "ছেদং",
+          "translit": "chedaṃ",
+          "lemma": "cheda",
+          "att": "AS",
+          "where": "cp.45.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བཅད",
+          "translit": "bcad",
+          "lemma": "gcod pa",
+          "att": "AO",
+          "where": "cp.45.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཅོད",
+          "translit": "gcod",
+          "lemma": "gcod pa",
+          "att": "AO",
+          "where": "cp.45.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཅོད་པ",
+          "translit": "gcod pa",
+          "lemma": "gcod pa",
+          "att": "AO",
+          "where": "cp.45.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ছেব(?:ই|হ)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ছিজঅ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ছেদ(?:ং|ঃ|ম্|মিতি)?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ছিদ্যমান"
+        }
+      ],
+      "definition": "To cut or fell (Old Bengali chebai, chijaa; Sanskrit cheda, chid). Song 45 turns on cutting the mind-tree with the axe of the guru's word so that it does not grow again. The Tibetan has gcod and bcad, but in 3b dpyod pa, 'examine', where the Bengali has chebai. Munidatta glosses the cutting (cp.45.m5).",
+      "symbolicImage": "cutting the mind-tree",
+      "symbolicReadings": [
+        {
+          "referent": "making it without intrinsic nature (niḥsvabhāvīkaraṇa): 'cutting the mind-tree' is glossed so (chedam iti); the Tibetan comment agrees (gcod pa zhes te/ rang bzhin med par byed)",
+          "per": "Munidatta",
+          "where": [
+            "cp.45.m5"
+          ]
+        },
+        {
+          "referent": "cutting its habitual tendencies (vāsanā), with the axe of the excellent guru's word or by way of the guru's lineage",
+          "per": "Munidatta",
+          "where": [
+            "cp.45.m3",
+            "cp.45.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "making without intrinsic nature",
+        "emptying",
+        "habitual tendencies",
+        "tendencies"
+      ],
+      "rationale": "The cutting of the tree is the action of the song, and Munidatta glosses it explicitly; 'cut' is the plain rendering. The patterns take whole words only, so বিচ্ছেদ, পরিচ্ছেদ and উচ্ছেদ (annihilation) are not caught; the Tibetan gcod and bcad are listed but not matched, since they would claim every cutting in other songs."
+    },
+    {
+      "id": "guru-vacana",
+      "type": "term",
+      "en": "guru's word",
+      "policy": "translate",
+      "alt": [
+        "the guru's word",
+        "word"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বরগুরুবঅণে",
+          "translit": "baragurubaaṇe",
+          "lemma": "gurubaaṇa",
+          "att": "AS",
+          "where": "cp.45.2a"
+        },
+        {
+          "lang": "san",
+          "script": "বরগুরুবচনকুঠারেণ",
+          "translit": "varaguruvacanakuṭhāreṇa",
+          "lemma": "guruvacana",
+          "att": "AS",
+          "where": "cp.45.m3"
+        },
+        {
+          "lang": "san",
+          "script": "গুরুবচনপ্রবাহমাহ",
+          "translit": "guruvacanapravāham āha",
+          "lemma": "guruvacana",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མའི་གསུང",
+          "translit": "bla ma'i gsung",
+          "lemma": "bla ma'i gsung",
+          "att": "AO",
+          "where": "cp.45.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ་དམ་པའི་གསུང",
+          "translit": "bla ma dam pa'i gsung",
+          "lemma": "bla ma dam pa'i gsung",
+          "att": "AO",
+          "where": "cp.45.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=গুরু)বঅণ"
+        },
+        {
+          "lang": "san",
+          "re": "(?<=গুরু)বচন"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=བླ་མའི་|བླ་མ་དམ་པའི་)གསུང(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))"
+        }
+      ],
+      "definition": "The guru's word or spoken instruction (Sanskrit guruvacana, Old Bengali gurubaaṇa; Tibetan bla ma'i gsung). In song 45 (2a) the tree is cut with the axe of the excellent guru's word; Munidatta introduces couplet 3 as stating 'the flow of the guru's word' (cp.45.m4). Compare instruction (upadeśa) and guru's lineage (guru-sampradāya).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A recurring formula of the songs and the commentary (sadguruvacana, gurubaaṇa; about forty passages so far) with no entry; 'guru's word' is literal. The patterns take only the 'word' part after guru (lookbehind), so the many existing guru links survive instead of being outranked by the compound, as they are inside guru-sampradāya."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যপাদেন",
+          "translit": "kṛṣṇācāryyapādena",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.45.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new Sanskrit form (instrumental, 'by Kṛṣṇācāryapāda') in Munidatta's comment; the existing literal কৃষ্ণাচার্য্যপাদ already matches it, so no pattern is added."
+    },
+    {
+      "id": "mallari",
+      "type": "term",
+      "en": "Mallārī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མལླཱ་རི",
+          "translit": "mal+lA ri",
+          "lemma": "mal+lA ri",
+          "att": "AO",
+          "where": "cp.45.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མལླཱ་རི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan heading of song 45 spells the rāga with a stacked lla and long ā, which the entry's mal la re and mal la ri do not match."
+    },
+    {
+      "id": "tree",
+      "type": "term",
+      "en": "tree",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তরু",
+          "translit": "taru",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "সু[ন]তরু",
+          "translit": "su[na]taru",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তরু(র)ত্বেন",
+          "translit": "taru(ra)tvena",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.m2"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্ততরোঃ",
+          "translit": "cittataroḥ",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.m2"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্ততরুরেব",
+          "translit": "cittatarur eva",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.m3"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্ততরুঃ",
+          "translit": "cittataruḥ",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তবৃক্ষস্য",
+          "translit": "cittavṛkṣasya",
+          "lemma": "vṛkṣa",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "san",
+          "script": "তস্মাদবিদ্যাশূন্যতরো",
+          "translit": "tasmād avidyāśūnyataro",
+          "lemma": "taru",
+          "att": "AS",
+          "where": "cp.45.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་ལྗོན",
+          "translit": "yid ljon",
+          "lemma": "ljon pa",
+          "att": "AO",
+          "where": "cp.45.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང་ལྗོན",
+          "translit": "shing ljon",
+          "lemma": "ljon shing",
+          "att": "AO",
+          "where": "cp.45.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང",
+          "translit": "shing",
+          "lemma": "shing",
+          "att": "AO",
+          "where": "cp.45.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྗོན་པ",
+          "translit": "ljon pa",
+          "lemma": "ljon pa",
+          "att": "AO",
+          "where": "cp.45.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཡིད་ལྗོན"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤིང་ལྗོན"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྗོན་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "তরু(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<=চিত্ত)তর(?:ু|ো)"
+        },
+        {
+          "lang": "san",
+          "re": "(?<=শূন্য)তরো(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])তরু(?:\\(র\\))?ত্বেন"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=།\\s?)ཤིང(?=\\u0F0B(?:དེ|གང)(?:\\u0F0B|འི))"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 45's word for tree, taru, and Munidatta's cittataru 'mind-tree' are not yet matched. The Old Bengali pattern takes তরু only at the end of a word (alone or closing a compound such as সুনতরু), so taruṇa 'young' and taruvara are not caught; in the Sanskrit only the compounds with citta and śūnya and tarutvena are taken, since a bare তরু there could be taruṇa; the lookbehinds leave citta and śūnya their own links. Tibetan bare shing is matched only at the head of a line before de or gang, where it cannot be the particle shing."
+    },
+    {
+      "id": "taruvara",
+      "type": "term",
+      "en": "fine tree",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তরুবর",
+          "translit": "taruvara",
+          "lemma": "taruvara",
+          "att": "AS",
+          "where": "cp.45.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "তরুবর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's lemma for 5a reads suna taruvara, and the entry matches তরুবর only in Old Bengali, so his citation goes unlinked (see questions on the reading of 5a)."
+    },
+    {
+      "id": "axe",
+      "type": "term",
+      "en": "axe",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুঠারেঁ",
+          "translit": "kuṭhārem̐",
+          "lemma": "kuṭhāra",
+          "att": "AS",
+          "where": "cp.45.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "গঅণকুঠার",
+          "translit": "gaaṇakuṭhāra",
+          "lemma": "kuṭhāra",
+          "att": "AS",
+          "where": "cp.45.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কুঠারেণ",
+          "translit": "kuṭhāreṇa",
+          "lemma": "kuṭhāra",
+          "att": "AS",
+          "where": "cp.45.m3"
+        },
+        {
+          "lang": "san",
+          "script": "কুঠারেণ",
+          "translit": "kuṭhāreṇa",
+          "lemma": "kuṭhāra",
+          "att": "AS",
+          "where": "cp.45.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কুঠার"
+        },
+        {
+          "lang": "san",
+          "form": "কুঠার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 45 names the axe kuṭhāra in the line and in Munidatta's Sanskrit, which the entry (ṭāṅgī, paraśu) lacks; the literal কুঠার is long enough not to stand inside unrelated words, and in গঅণকুঠার it sits beside the sky's গঅণ without overlapping it."
+    },
+    {
+      "id": "indriya",
+      "type": "term",
+      "en": "senses",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ইন্দি",
+          "translit": "indi",
+          "lemma": "indi",
+          "att": "AS",
+          "where": "cp.45.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་ལྔ",
+          "translit": "dbang lnga",
+          "lemma": "dbang po",
+          "att": "AO",
+          "where": "cp.45.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ইন্দি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 45 has the short form indi (pāñca indi, 'five senses'), which the entry's ইন্দিঅ does not match; a whole-word pattern keeps it out of longer words. The Tibetan dbang lnga is listed but not matched, since dbang lnga can also be the five empowerments."
+    },
+    {
+      "id": "branch",
+      "type": "term",
+      "en": "branch",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সাহা",
+          "translit": "sāhā",
+          "lemma": "sāhā",
+          "att": "AS",
+          "where": "cp.45.1a"
+        },
+        {
+          "lang": "san",
+          "script": "শাখামধিমুচ্য",
+          "translit": "śākhām adhimucya",
+          "lemma": "śākhā",
+          "att": "AS",
+          "where": "cp.45.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ডালমিতি",
+          "translit": "ḍālam iti",
+          "lemma": "ḍāla",
+          "att": "AS",
+          "where": "cp.45.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ডালমিতি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সাহা(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])(?:প্র)?শাখা"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In 1a the senses are the tree's sāhā (from śākhā, 'branch'; the Tibetan line has yal ga), and Munidatta has śākhā and cites ḍālam iti; none is matched now (the entry's Sanskrit pattern stops at a whole-word ḍāla). সাহা is taken only as a whole word and শাখা only at the start of a word, so Viśākhā and the like stay out."
+    },
+    {
+      "id": "vidujana",
+      "type": "term",
+      "en": "the wise",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিদুজন",
+          "translit": "bidujana",
+          "lemma": "bidujaṇa",
+          "att": "AS",
+          "where": "cp.45.3b"
+        },
+        {
+          "lang": "san",
+          "script": "বিদুজনেতি",
+          "translit": "vidujaneti",
+          "lemma": "bidujaṇa",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མཁས་པ",
+          "translit": "mkhas pa",
+          "lemma": "mkhas pa",
+          "att": "AO",
+          "where": "cp.45.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རིག་པ་དང་ལྡན་པའི་སྐྱེ་བོ",
+          "translit": "rig pa dang ldan pa'i skye bo",
+          "lemma": "rig pa dang ldan pa'i skye bo",
+          "att": "AO",
+          "where": "cp.45.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিদুজন"
+        },
+        {
+          "lang": "san",
+          "form": "বিদুজন"
+        },
+        {
+          "lang": "bod",
+          "form": "རིག་པ་དང་ལྡན་པའི་སྐྱེ་བོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 45 spells the word with dental n (bidujana), which the entry's বিদুজণ does not catch, and Munidatta cites it the same way. The Tibetan line's mkhas pa is listed but not matched, as it would claim every 'learned one' (and paṇḍita); the comment's rig pa dang ldan pa'i skye bo is a calque of vidujana and safe to match."
+    },
+    {
+      "id": "phala",
+      "type": "term",
+      "en": "fruit",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ফলাহা",
+          "translit": "phalāhā",
+          "lemma": "phala",
+          "att": "AS",
+          "where": "cp.45.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "འབྲས",
+          "translit": "'bras",
+          "lemma": "'bras bu",
+          "att": "AO",
+          "where": "cp.45.1b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ফলাহা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry matches ফল only in Sanskrit, so the fruit of the mind-tree in 1b goes unlinked; the whole-word pattern takes only the attested phalāhā. The Tibetan 'bras alone (also 'rice') is listed but not matched."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সু[ন]",
+          "translit": "su[na]",
+          "lemma": "suna",
+          "att": "AS",
+          "where": "cp.45.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুন(?=তরু)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Shastri prints 5a as সু[ন]তরু, one word, so the entry's whole-word সুন does not reach it; Munidatta (suna taruvara, glossed avidyāśūnya-) and the Tibetan line (stong pa'i shing mchog) both read 'empty'. The pattern takes সুন only before তরু."
+    },
+    {
+      "id": "bhava",
+      "type": "term",
+      "en": "existence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভবগ্রহং",
+          "translit": "bhavagrahaṃ",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.45.m5"
+        },
+        {
+          "lang": "san",
+          "script": "অনাদিভববাসনাপল্লবাশ্রয়ত্বাৎ",
+          "translit": "anādibhavavāsanāpallavāśrayatvāt",
+          "lemma": "bhava",
+          "att": "AS",
+          "where": "cp.45.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:(?<![\\p{L}\\p{M}])|(?<=অনাদি))ভব(?=গ্রহ|বাসনা)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's bhavagraha, 'grasping at existence', and anādibhava(vāsanā), 'beginningless existence', are missed by the entry's Sanskrit patterns; the new one takes ভব only before graha or vāsanā, so bhavati and sambhava stay out."
+    },
+    {
+      "id": "avidya",
+      "type": "term",
+      "en": "ignorance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তস্মাদবিদ্যাশূন্যতরো",
+          "translit": "tasmād avidyāśūnyataro",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.45.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=স্মা)দবিদ্যা"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In tasmād avidyā- the initial a of avidyā is written into the preceding d, so the entry's অবিদ্যা does not match; the pattern takes দবিদ্যা only after -smā (tasmād, asmād, yasmād), which excludes vedavidyā and the like."
+    },
+    {
+      "id": "anutpada",
+      "type": "term",
+      "en": "non-arising",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তস্যানুৎপাদং",
+          "translit": "tasyānutpādaṃ",
+          "lemma": "anutpāda",
+          "att": "AS",
+          "where": "cp.45.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=া)নুৎপাদ"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta says the refrain indicates the tree's non-arising, but in tasyānutpādaṃ the a of anutpāda has merged into the preceding ā, so the entry's অনুৎপাদ does not match; নুৎপাদ after ā arises only that way."
+    },
+    {
+      "id": "utpreksa",
+      "type": "term",
+      "en": "poetic fancy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "উৎপ্রেক্ষিতং",
+          "translit": "utprekṣitaṃ",
+          "lemma": "utprekṣita",
+          "att": "AS",
+          "where": "cp.45.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "উৎপ্রেক্ষিত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta says Kṛṣṇācārya has 'fancied' (utprekṣita) his own mind as a tree, the participle of the figure the entry describes; the entry matches only the noun utprekṣā."
+    },
+    {
+      "id": "anubhava",
+      "type": "term",
+      "en": "experience",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বচনানুভবং",
+          "translit": "vacanānubhavaṃ",
+          "lemma": "anubhava",
+          "att": "AS",
+          "where": "cp.45.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉམས་སུ་མྱོང",
+          "translit": "nyams su myong",
+          "lemma": "nyams su myong ba",
+          "att": "AO",
+          "where": "cp.45.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཉམས་སུ་མྱོང"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=া)নুভব"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In vacanānubhavaṃ ('experience of his word') the a of anubhava has merged into the preceding ā, so the entry's অনুভব does not match, and the Tibetan nyams su myong is not matched either; নুভব after ā arises only from anubhava."
+    },
+    {
+      "id": "ocean",
+      "type": "term",
+      "en": "ocean",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সংসারদুঃখবারিধোঁ",
+          "translit": "saṃsāraduḥkhavāridhom̐",
+          "lemma": "vāridhi",
+          "att": "AS",
+          "where": "cp.45.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "বারিধ(?:ি|ৌ|োঁ)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'ocean of the suffering of saṃsāra' uses vāridhi (printed -vāridhom̐ for -vāridhau), which the entry lacks; the pattern requires an ending after ধ, so vāridhārā 'stream of water' is not caught."
+    }
+  ],
+  "questions": [
+    "tree, new reading (cp.45.m2, cp.45.m3, cp.45.m4, cp.45.m5): Munidatta reads the tree of song 45 as one's own mind: Kṛṣṇācārya pictures his own mind (svacitta) as a tree because it supports the shoots of the habitual tendencies of beginningless existence (m2), and he calls it cittataru / cittavṛkṣa throughout. The entry's only reading is the body (cp.02.m2). Since 1a itself says maṇa taru, 'mind' belongs in that line; please do not add 'mind' to tree's forbiddenInLine.",
+    "axe, new readings: (a) cp.45.m3 has the axe of the excellent guru's word (varaguruvacanakuṭhāra) cutting the tree's tendencies, which is the song's own figure in 2a; (b) cp.45.m6 puts 'the axe of natural clear light' (prakṛtiprabhāsvarakuṭhāra) where 5a has the sky-axe (gaaṇakuṭhāra). Consider adding (b) as a reading and 'clear light' to axe's forbiddenInLine.",
+    "gagana, new reading (cp.45.m6): the Tibetan comment says 'sky' means natural clear light (nam mkha' zhes te rang bzhin gyis 'od gsal ba'o), and Munidatta's Sanskrit replaces gaaṇa- in gaaṇakuṭhāra with prakṛtiprabhāsvara-. This could be added to the clear-light readings the entry already has.",
+    "branch, new reading (cp.45.m2, cp.45.m6): in 1a the song itself makes the five senses the tree's branches (pāñca indi tasu sāhā). Munidatta has pañcendriyeṇa śākhām adhimucya (m2), where the sense of adhimucya is unclear to me; the Tibetan comment has 'freed from the branches of the five senses' (dbang po lnga'i yal ga las grol ba), as if reading vimucya, so the existing adhimukti hit on ধিমুচ্য in m2 may be wrong. On ḍāla in 5b he adds 'so that it no longer comes under the power of the senses' (m6). Because the senses are named in the line, 'senses' should not go into forbiddenInLine.",
+    "vidujana, reading (cp.45.m4): here Munidatta glosses the word outright, vidujaneti yogīndrāḥ ('the wise' means lords of yogis), and the Tibetan comment agrees (rig pa dang ldan pa'i skye bos zhes te/ rnal 'byor gyi dbang phyug). The entry's reading from cp.18.m5 is marked 'no explicit gloss'; cp.45.m4 could be added to its where.",
+    "mudha, reading (cp.45.m5, cp.45.m6): where 4a–4b have 'whoever does not know how to cut the tree … O fool', Munidatta speaks of novice yogins (bālayogin) and yogins without the lineage (asampradāyayogin) (m5), and m6 addresses 'bho bālayogin'. This is a paraphrase, not an explicit gloss; cp.45.m5 could be added to the existing 'novice yogin, addressed as fool' reading.",
+    "taruvara / tree in 5a: Shastri's 5a reads সু[ন]তরু, but Munidatta's lemma is suna taruvara (cp.45.m6) and the Tibetan line has stong pa'i shing mchog (= taruvara). As printed, 5a links to tree, not taruvara; the drafter of the lines should flag this. Munidatta's gloss avidyāśūnyataro is ambiguous ('O tree empty of ignorance', or the empty tree as ignorance), and so is the Tibetan comment (ma rig pa stong pa'i shing); taruvara already has 'ignorance (avidyārūpa)' from cp.28.m4. I did not propose a reading.",
+    "road, over-match: road's literal বাট also catches বাটই 'grows' in 3a (Munidatta vardhate, Tibetan 'phel) and its citation in cp.45.m4, so road wrongly hits song 45. A proposal can only add patterns; consider replacing the literals বাট and বাটত with a whole-word pattern such as (?<![\\p{L}\\p{M}])বাট(?:ত|া)?(?![\\p{L}\\p{M}]).",
+    "phala: the definition speaks of the fruit or result of the path, but in 1b the fruit is the literal fruit of the mind-tree, which the line joins to hope; the definition might mention the tree's fruit (songs 2 and 45). Also, Shastri prints ফলাহা (হ বাহা), and the Tibetan line has 'bab pa twice ('dod pa 'bab pa'i lo 'bras 'bab par byed), which may reflect a verb bāhā, 'bears'. That is a witness question for the draft.",
+    "mallari: the definition names only song 30; song 45 is also sung to Mallārī (heading cp.45.h1).",
+    "guru-vacana and guru-parimana match only the 'word' / 'measure' part after guru (lookbehind patterns), so guru stays linked beside them; this differs from guru-sampradaya, whose compound literal outranks guru. If you prefer the compound to take the whole span, replace the lookbehinds with the literals গুরুবঅণ, গুরুবচন, গুরুপরিমাণ, བླ་མའི་གསུང and བླ་མའི་ཚད (guru-vacana would then displace guru in about forty passages).",
+    "water: pāṇī (3a; five times in the text so far) has no entry. I did not propose one, since in this song Munidatta only restates it as jala, 'water' (of good and bad). Add an entry if you want the image tracked."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "92ccaf8da42169a8e938ba95ee2b0b80cb233e028ed09d2fa1ed575c369c7a8b",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "bc624b574d2e4e8d79d8bdfd7cd86beb747c5e6bf923e638e9e77925834d1305",
+    "sourceSha": "3937c0e70f41999feb0f7e09020e34fc381c5950319020f33eab50be89040e19"
+  }
+}

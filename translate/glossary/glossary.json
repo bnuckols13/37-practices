@@ -688,6 +688,14 @@
           "lemma": "gnyis med",
           "att": "AO",
           "where": "cp.22.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས་སུ་མེད་པའི",
+          "translit": "gnyis su med pa'i",
+          "lemma": "gnyis su med pa",
+          "att": "AO",
+          "where": "cp.26.m4"
         }
       ],
       "match": {
@@ -699,7 +707,8 @@
           "জ্ঞানমদ্বয়"
         ],
         "bod": [
-          "གཉིས་མེད"
+          "གཉིས་མེད",
+          "གཉིས་སུ་མེད་པའི"
         ]
       },
       "matchRe": {},
@@ -4322,11 +4331,22 @@
           "lemma": "skra rtse",
           "att": "AO",
           "where": "cp.26.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྲ་རྩེའི",
+          "translit": "skra rtse'i",
+          "lemma": "skra rtse",
+          "att": "AO",
+          "where": "cp.26.4b"
         }
       ],
       "match": {
         "oben": [
           "বালাগ"
+        ],
+        "bod": [
+          "སྐྲ་རྩེའི"
         ]
       },
       "matchRe": {},
@@ -16271,11 +16291,20 @@
           "lemma": "lus ngag yid",
           "att": "AO",
           "where": "cp.13.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལུས་ངག་ཡིད",
+          "translit": "lus ngag yid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.26.m2"
         }
       ],
       "match": {
         "bod": [
-          "ལུས་དང་ངག་དང་ཡིད"
+          "ལུས་དང་ངག་དང་ཡིད",
+          "ལུས་ངག་ཡིད"
         ]
       },
       "matchRe": {
@@ -29858,6 +29887,14 @@
           "lemma": "rang bzhin gyi skyon",
           "att": "AO",
           "where": "cp.05.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན་གྱིས་ཉེས་པ",
+          "translit": "rang bzhin gyis nyes pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.26.m2"
         }
       ],
       "match": {
@@ -34982,6 +35019,14 @@
           "lemma": "rang rig",
           "att": "AO",
           "where": "cp.26.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གིས་རིག་པས",
+          "translit": "rang gis rig pas",
+          "lemma": "rang gis rig pa",
+          "att": "AO",
+          "where": "cp.26.5b"
         }
       ],
       "match": {
@@ -37083,6 +37128,14 @@
           "lang": "bod",
           "script": "ཚད་མ",
           "translit": "tshad ma",
+          "lemma": "tshad ma",
+          "att": "AO",
+          "where": "cp.26.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚད་མས",
+          "translit": "tshad mas",
           "lemma": "tshad ma",
           "att": "AO",
           "where": "cp.26.1a"
@@ -40684,6 +40737,14 @@
           "lemma": "rnam dpyod",
           "att": "AO",
           "where": "cp.20.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་དཔྱད",
+          "translit": "rnam par dpyad",
+          "lemma": "rnam par dpyod pa",
+          "att": "AO",
+          "where": "cp.26.m2"
         }
       ],
       "match": {
@@ -40692,7 +40753,8 @@
         ],
         "bod": [
           "རྣམ་དཔྱོད",
-          "རྣམ་པར་དཔྱོད"
+          "རྣམ་པར་དཔྱོད",
+          "རྣམ་པར་དཔྱད"
         ],
         "oben": [
           "বিআরন্তে"

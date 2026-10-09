@@ -22497,6 +22497,87 @@
       }
     },
     {
+      "id": "laksya",
+      "type": "term",
+      "status": "proposed",
+      "en": "mark",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কখু",
+          "translit": "kakhu",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.35.4a"
+        },
+        {
+          "lang": "san",
+          "script": "লক্ষ্যমিতি",
+          "translit": "lakṣyamiti",
+          "lemma": "lakṣya",
+          "att": "AS",
+          "where": "cp.35.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚན་མ",
+          "translit": "mtshan ma",
+          "lemma": "mtshan ma",
+          "att": "AO",
+          "where": "cp.35.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "མཚོན་ནས",
+          "translit": "mtshon nas",
+          "lemma": "mtshon pa",
+          "att": "AO",
+          "where": "cp.35.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কখু"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "(?<![\\p{L}\\p{M}])লক্ষ্যম"
+        ]
+      },
+      "definition": "A mark: what is pointed out or aimed at (Sanskrit lakṣya). In song 35 (4a) the poet is told the mark and given it; the written kakhu apparently stands for lakkhu. Munidatta explains the mark as what is to be meditated on (cp.35.m5). The Tibetan line has mtshan ma.",
+      "symbolic": {
+        "image": "the mark the poet is told and given (4a)",
+        "readings": [
+          {
+            "referent": "what is to be meditated on (bhāvya), the means of the fourth joy (caturthānandopāya), which the vajra guru gave the poet; the Tibetan comment has the vajra guru 'indicate' (mtshon nas) it",
+            "per": "Munidatta",
+            "where": [
+              "cp.35.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "fourth joy",
+        "means of the fourth joy",
+        "what is to be meditated on",
+        "object of meditation"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "lalana",
       "type": "term",
       "status": "proposed",

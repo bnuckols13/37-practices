@@ -8465,6 +8465,57 @@
       }
     },
     {
+      "id": "bhavagrama",
+      "type": "term",
+      "status": "proposed",
+      "en": "host of things",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবগ্রামো",
+          "translit": "bhāvagrāmo",
+          "lemma": "bhāvagrāma",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོའི་གྲོང་ཁྱེར",
+          "translit": "dngos po'i grong khyer",
+          "lemma": "dngos po'i grong khyer",
+          "att": "AO",
+          "where": "cp.41.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "ভাবগ্রাম"
+        ],
+        "bod": [
+          "དངོས་པོའི་གྲོང་ཁྱེར"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The host or mass of things (Sanskrit bhāvagrāma; grāma is 'village', also 'collection'): everything that exists, taken together. Munidatta tells the lord of yogis to understand it as water turned to stone by a whirlwind (cp.41.m4); elsewhere he speaks of its force (cp.12.m5) and its appearance (cp.29.m5). The Tibetan has dngos po'i grong khyer, 'city of things'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "bhavana",
       "type": "term",
       "status": "proposed",

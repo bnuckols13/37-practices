@@ -1,0 +1,498 @@
+{
+  "unit": "cp.33",
+  "title": "Milk Back in the Teat",
+  "summary": "A run of paradoxes from house and farmyard: a house on the ṭāla with no neighbour, no rice in the pot and visitors every day, a frog chasing a snake, milk going back into the teat, an ox that has calved beside a barren cow, a stool milked at the three junctures, a thief who is the guard, and a jackal fighting the lion; Ḍheṇḍhaṇapāda says few understand his song. Munidatta reads it as twilight language: the neighbours are the moon and sun dissolved by vajra recitation, the rice conventional bodhicitta, the frog clear light and the snake wind, the milk bodhicitta going up to the wheel of great bliss, the ox bodhicitta and the barren cow Nairātmā, the thief the king of mind, and the jackal the mind of saṃsāra, which comes to vie with the lion of coupled union.",
+  "lines": [
+    {
+      "id": "cp.33.h1",
+      "translit": "rāga paṭamañjarī",
+      "gloss": "melody · Paṭamañjarī (name of the melody)",
+      "en": "[Rāga]{raga} [Paṭamañjarī]{patamanjari} · [Ḍheṇḍhaṇapāda]{p-dhendhana}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "patamanjari",
+          "src": "পটমঞ্জরী"
+        },
+        {
+          "id": "p-dhendhana",
+          "src": "ঢেণ্ঢণপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri's heading line names only the rāga. The poet's name comes from the attribution ḍheṇḍhaṇapādānām, 'of Ḍheṇḍhaṇapāda', written before the song and taken out of 1a as not part of the verse; the Tibetan heading also names him (Te Na Te Na pa'i zhabs). Drop '· Ḍheṇḍhaṇapāda' if headings should carry the rāga alone."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.1a",
+      "translit": "ṭālata mora ghara nāhi paṛabeṣī",
+      "gloss": "on (or at) the ṭāla · my · house · is not · neighbour",
+      "en": "My [house]{house} is on the [ṭāla]{tala}; I have no [neighbour]{neighbour}.",
+      "terms": [
+        {
+          "id": "house",
+          "src": "ঘর"
+        },
+        {
+          "id": "tala",
+          "src": "টালত"
+        },
+        {
+          "id": "neighbour",
+          "src": "পড়বেষী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ṭāla is of uncertain sense and stays in source form, as the glossary asks; it may be a mound or raised ground (compare Bengali ṭāl, 'heap'), hence 'on' for the locative -ta ('at' is possible). The Tibetan line has grong khyer dbus na, 'in the middle of the town', which makes the line a paradox (a house in mid-town, yet no neighbour). Munidatta explains the syllable ṭā as ṭamāla, 'the unreal form' (cp.33.m2), which does not settle the plain sense."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.1b",
+      "translit": "hāṛīta bhāta nām̐hi niti ābeśī || dhru ||",
+      "gloss": "in the pot · boiled rice · is not · daily · visitor (one who enters) · cue to repeat the refrain (not translated)",
+      "en": "There is no [rice]{rice} in the [pot]{pot}, and visitors every day.",
+      "terms": [
+        {
+          "id": "rice",
+          "src": "ভাত"
+        },
+        {
+          "id": "pot",
+          "src": "হাড়ীত"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "ābeśī taken as a noun, 'visitor', one who enters (compare Sanskrit āveśa, 'entering'): an empty pot, and visitors every day. It could be a verb, 'enters': Munidatta paraphrases nityaṃ … āviśati, 'the lord of yogis constantly enters it' (cp.33.m2), and the Tibetan line has rtag tu 'drim par byed, 'always goes visiting' or 'always goes round'. Alternative: 'There is no rice in the pot; someone always comes in.'"
+        }
+      ]
+    },
+    {
+      "id": "cp.33.2a",
+      "translit": "beṅga(ga) saṃsāra baḍhila jāa",
+      "gloss": "frog (Shastri prints a bracketed ga after it) · saṃsāra, 'household, worldly life' (as printed; the Tibetan and Munidatta have a snake here) · advanced? grown? driven? (root uncertain) · goes (with the participle: 'is …-ed' or 'goes on …-ing')",
+      "en": "The [frog]{frog} chases the [snake]{snake}.",
+      "terms": [
+        {
+          "id": "frog",
+          "src": "বেঙ্গ"
+        },
+        {
+          "id": "snake",
+          "src": "སྦྲུལ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "The English emends the printed text. Shastri has বেঙ্গ(গ)সংসার, 'frog … saṃsāra'. The Tibetan line has a snake: sbal pa yis ni sbrul nyid 'dod pa nyid du byed, 'the frog desires the snake'. Munidatta explains two animals, beṅga (as vyaṅga, 'limbless') and sayaḥ, 'the one that goes', apparently for sarpaḥ, 'snake'; the Tibetan of his comment ends that explanation 'therefore it is a snake' (sbrul lo) (cp.33.m3). Both witnesses had a snake where the print has saṃsāra; the Old Bengali word itself is lost. Read as printed, the line would say something like 'The frog's household keeps growing' (saṃsāra, 'household'; baḍhila from Bengali bāṛh-, 'grow'), with no paradox. Because the Bengali has no snake word, the snake's terms src is the Tibetan sbrul, not সংসার."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "baḍhila jāa: an -ila participle with jā-, 'go', which in Old Bengali can make a passive ('is …-ed') or a continuing action ('goes on …-ing'). The root is unclear: Bengali bāṛh-, 'grow, advance', or a verb of driving or striking. Munidatta has the snake (wind) 'impelled' (coditaḥ) by the frog (cp.33.m3); the Tibetan line has 'desires' ('dod pa). 'Chases' is the everyday sense of one animal driving another, and keeps the frog as the agent and the prey hunting its predator. Alternatives: 'The snake is driven by the frog', 'The frog goes after the snake', 'The frog desires the snake'."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.2b",
+      "translit": "duhila dudhu ki beṇṭe ṣāmāya",
+      "gloss": "milked · milk · question particle (or 'what!') · into the teat · enters",
+      "en": "Does [milk]{milk} once [milked]{milking} go back into the [teat]{teat}?",
+      "terms": [
+        {
+          "id": "milk",
+          "src": "দুধু"
+        },
+        {
+          "id": "milking",
+          "src": "দুহিল"
+        },
+        {
+          "id": "teat",
+          "src": "বেণ্টে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ki read as the question particle, as the glossary's milk entry does. Munidatta glosses the line with kim adbhutam, 'what a wonder!' (cp.33.m3), and the Tibetan line asks nothing: 'o ma bzhos pas nu ma la ni zhugs par 'gyur, 'the milked milk enters the teat'. Both take it as a marvel that happens; read so: 'Milk once milked goes back into the teat!' 'Back' is implied by 'milked'; ṣāmāya is simply 'enters'."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.3a",
+      "translit": "balada biāela gabiā bām̐jhe",
+      "gloss": "ox · has given birth (of animals: has calved) · cow · barren",
+      "en": "The [ox]{ox} [has calved]{biana}; the [cow]{cow} is [barren]{barren}.",
+      "terms": [
+        {
+          "id": "ox",
+          "src": "বলদ"
+        },
+        {
+          "id": "biana",
+          "src": "বিআএল"
+        },
+        {
+          "id": "cow",
+          "src": "গবিআ"
+        },
+        {
+          "id": "barren",
+          "src": "বাঁঝে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "biāela is a past form of the verb behind biāṇa (glossary 'birth'), a verb Bengali uses of animals giving birth. 'Has calved' keeps the farmyard plainness and the sharpness of a male beast giving birth; 'has given birth' keeps the glossary's word. Confirm, and say whether 'calve' should be listed as a variant of biana."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line, glang ni skyes gyur pa ni mo gsham la, has the ox give birth and a 'barren female' (mo gsham) but no cow; the pa ni before mo gsham may be a slip for ba ni, 'the cow', which the Tibetan comment cites (ba zhes pa, cp.33.m4)."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.3b",
+      "translit": "piṭā duhie e tinā sām̐jhe",
+      "gloss": "stool · is milked · these? (unclear) · three · at the junctures (sām̐jha, 'juncture of the day, twilight')",
+      "en": "The [stool]{pitha} is [milked]{milking} at the [three junctures]{three-junctures}.",
+      "terms": [
+        {
+          "id": "pitha",
+          "src": "পিটা"
+        },
+        {
+          "id": "milking",
+          "src": "দুহিএ"
+        },
+        {
+          "id": "three-junctures",
+          "src": "তিনা সাঁঝে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line has 'bri, a female yak, an animal that is milked: 'bri ni 'jo bar byed de thun mtshams gsum; its comment keeps 'bri. For piṭā in song 2 the Tibetan had stegs bu, 'stand, platform', and Munidatta here again has pīṭhaka, 'little seat, stool' (cp.33.m4). The draft keeps the glossary's 'stool': milking a stool belongs with the song's impossibilities, while the Tibetan's yak makes the line ordinary (or sets a milked yak against the barren cow)."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "tinā sām̐jhe kept as the glossary's 'three junctures' (dawn, noon and dusk), matching Munidatta's sandhyātraya and the 'fourth juncture' of other songs. 'Three times of day' is plainer and closer to the farmyard ('milked three times a day'). Confirm."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "duhie taken as a passive, 'is milked'; it could be impersonal, 'one milks'. The small word e is unclear: perhaps 'these' with tinā sām̐jhe ('at these three junctures'), or an emphatic particle. It is not rendered."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.4a",
+      "translit": "joso budhī so dhani budhī",
+      "gloss": "whoever (jo so, written as one word) · one who has understanding · he · dhani (unclear; the Tibetan has 'without') · one who has understanding",
+      "en": "Whoever has [understanding]{buddhi} is without [understanding]{buddhi}.",
+      "terms": [
+        {
+          "id": "buddhi",
+          "src": "বুধী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "dhani has no clear sense here, and the English follows the Tibetan: gang de blo ldan de ni blo med pa, 'whoever is intelligent, he is unintelligent'. Munidatta's gloss points the same way: the understanding of novice yogins, conceptual knowledge, has for those who know the ultimate the form of non-apprehension (cp.33.m5). Read as printed, dhani might be dhanī, 'rich', or dhanya, 'blessed', giving no paradox ('whoever is wise is rich in understanding' or 'is truly wise'); the glossary no longer links it to dhvani, 'sound'. The print may hide a negative (compare Sanskrit nirbuddhi, 'witless'), but nothing in front of me shows it."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "budhī is literally 'one who has understanding, a wise person'. The draft keeps the glossary's noun 'understanding' ('whoever has understanding'); 'Whoever is wise is unwise' is the adjectival alternative."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.4b",
+      "translit": "jo ṣo caura soi sādhī",
+      "gloss": "who · that (so; Shastri writes ষ) · thief · that very one · guard (or honest man)",
+      "en": "Whoever is the [thief]{thief} is himself the [guard]{sadhi}.",
+      "terms": [
+        {
+          "id": "thief",
+          "src": "চৌর"
+        },
+        {
+          "id": "sadhi",
+          "src": "সাধী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "sādhī kept as the glossary's 'guard', with the Tibetan mkhar srungs, 'guard of the fort' (gang de chom po de ni mkhar srungs so). It may instead reflect Sanskrit sādhu, 'honest man', the ordinary opposite of a thief in Bengali speech: 'Whoever is the thief is himself the honest man.' Munidatta's word at this point (śati) looks corrupt, perhaps for the cited sādhī; he makes the thief, the king of mind, its own opposite, the ultimate, once things are examined (cp.33.m5), which fits either. 'Himself' renders the emphatic soi."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.5a",
+      "translit": "nite nite ṣiālā ṣihe ṣama jujhaa",
+      "gloss": "daily · daily · jackal · lion (with -e) · with (or 'as an equal') · fights",
+      "en": "Day after day the [jackal]{jackal} fights with the [lion]{lion}.",
+      "terms": [
+        {
+          "id": "jackal",
+          "src": "ষিআলা"
+        },
+        {
+          "id": "lion",
+          "src": "ষিহে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "ṣama taken as 'with' (Sanskrit samam), as Old Bengali uses sama after a noun; it may mean 'as an equal'. The Tibetan has mnyam du 'dzin, 'grapples together' or 'holds itself equal', and Munidatta has the purified mind 'vie with' (spardhā) the lion (cp.33.m6). Shastri writes ষ for স in ṣiālā, ṣihe and ṣama; the transliteration keeps his spelling."
+        }
+      ]
+    },
+    {
+      "id": "cp.33.5b",
+      "translit": "ḍheṇḍhaṇa pāera gīta birale bujhaa",
+      "gloss": "Ḍheṇḍhaṇa · of the -pāda (honorific 'feet'; genitive) · song · rarely, by a rare few · is understood",
+      "en": "[Ḍheṇḍhaṇapāda]{p-dhendhana}'s song is understood by few.",
+      "terms": [
+        {
+          "id": "p-dhendhana",
+          "src": "ঢেণ্ঢণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "birale, 'rarely, by a rare few' (Sanskrit virala): 'by few', as the Tibetan has it (sus kyang go ba nyung, 'few understand'). bujhaa could also be active: 'Few understand Ḍheṇḍhaṇapāda's song.'"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.33",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song as the work of the [siddha]{siddha} master Ḍheṇḍhaṇa, 'delighted by the fullness of [supreme joy]{paramananda}', who sets out 'that same meaning' in [twilight language]{sandhya-bhasa} (cp.33.m1). He leaves the refrain out of his count: couplet 3 is his second verse (cp.33.m4), couplet 4 his third (cp.33.m5) and couplet 5 his fourth (cp.33.m6).",
+      "cites": [
+        "cp.33.m1",
+        "cp.33.m4",
+        "cp.33.m5",
+        "cp.33.m6"
+      ]
+    },
+    {
+      "anchor": "cp.33.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music. Each song's heading names the one it is sung to; this song shares Paṭamañjarī with song 1.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.h1",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) heads the song pa Da ha many+dza ri zhes bya ba'i glu dbyangs Te Na Te Na pa'i zhabs kyi'o, 'the melody called Paḍahamañjari, of Te Na Te Na pa'. Its spelling of the poet's name, kept in the last line (Te Na Te Na zhabs), suggests a form like Ṭeṇṭaṇa.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.1a",
+      "kind": "philology",
+      "text": "ṭāla is kept in source form: a word of uncertain sense, perhaps a mound or raised ground (compare Bengali ṭāl, 'heap'), on which the house stands; the ending -ta marks the place.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.1a",
+      "kind": "witness",
+      "text": "Where the Bengali has ṭālata, 'on the ṭāla', the Tibetan translation (Toh 2293) has grong khyer dbus na, 'in the middle of the town': grong khyer dbus na bdag gi khyim ste khyim tshes med, 'my house is in the middle of the town; there is no neighbour'. That makes the first line a paradox like the rest of the song; the printed Bengali does not. The Tibetan of Munidatta's comment cites the same words but then explains DA, the Bengali ṭā, as DA ma la, 'the unreal form' (cp.33.m2).",
+      "cites": [
+        "cp.33.m2"
+      ]
+    },
+    {
+      "anchor": "cp.33.1a",
+      "kind": "doctrine",
+      "text": "Munidatta explains ṭā as ṭamāla (a word of unclear sense here), 'the unreal form': the fault of the hundred and sixty [natures]{prakrti} of [body, speech and mind]{kaya-vak-citta}. The moment it has dissolved in the [wheel of great bliss]{mahasukha-cakra}, 'that is my house'. The neighbours are the [moon]{moon} and the [sun]{surya} 'standing at the side' (pārśvastha), which by the process of [vajra recitation]{vajrajapa} are dissolved within, right there (cp.33.m2).",
+      "cites": [
+        "cp.33.m2"
+      ]
+    },
+    {
+      "anchor": "cp.33.1",
+      "kind": "imagery",
+      "text": "The first couplet pictures a household: the house, the absent neighbour, and the cooking pot (hāṛī, an earthen pot) with no boiled rice (bhāta, the everyday meal) in it, while visitors keep coming.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.1b",
+      "kind": "doctrine",
+      "text": "Munidatta reads the [pot]{pot} as 'the support of one's own body' and its [rice]{rice} as conventional [bodhicitta]{bodhicitta} in the form of consciousness. Through the [guru's lineage]{guru-sampradaya} there is no apprehension of it, so it has the form of selflessness, and 'with it the [lord of yogis]{yogindra} constantly enters it' (nityaṃ … āviśati), his paraphrase of niti ābeśī (cp.33.m2). The Sanskrit prints me (ma) where the negative belongs; the Tibetan comment has 'there is no apprehension' (dmigs pa yod pa ma yin pa). The last words of the Sanskrit are corrupt; the Tibetan has the lord of yogis, entering without interruption, examine the mind again and again.",
+      "cites": [
+        "cp.33.m2"
+      ]
+    },
+    {
+      "anchor": "cp.33.1b",
+      "kind": "witness",
+      "text": "Shastri prints the refrain cue ধ্রু (dhru) after this couplet, and not after couplet 2 or the later couplets. Munidatta names couplet 2 as the refrain (dhruvapadena, cp.33.m3) and calls couplet 3 his second verse (cp.33.m4), so the refrain is couplet 2, as the input marks it; the cue's place looks like a slip of the print or the manuscript. It is not translated.",
+      "cites": [
+        "cp.33.m3",
+        "cp.33.m4"
+      ]
+    },
+    {
+      "anchor": "cp.33.2a",
+      "kind": "witness",
+      "text": "Shastri prints বেঙ্গ(গ)সংসার, 'frog … saṃsāra'. The Tibetan translation (Toh 2293) has sbal pa yis ni sbrul nyid 'dod pa nyid du byed, 'the frog desires the snake'. Munidatta's comment, whose Tibetan cites the line as sbal pa bem ga (bem ga transcribing beṅga), explains two words: beṅga, and sayaḥ, 'that which goes' (sayati gacchati), which looks like a stand-in for sarpaḥ, 'snake', literally 'the creeper'; the Tibetan comment closes that explanation with 'therefore it is a snake' (sbrul lo) (cp.33.m3). The draft follows these two witnesses against the print. The Tibetan line's verb, 'desire' ('dod pa), may reflect another reading or understanding of baḍhila.",
+      "cites": [
+        "cp.33.m3"
+      ]
+    },
+    {
+      "anchor": "cp.33.2a",
+      "kind": "imagery",
+      "text": "Snakes prey on frogs; the refrain turns this round, as its second line has milk go back into the teat it was drawn from.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.2a",
+      "kind": "doctrine",
+      "text": "Munidatta says the [refrain]{dhruvapada} makes the same meaning firm. The [frog]{frog} is vyaṅga, 'one whose limbs are gone', and, being empty of limbs, is to be understood as [clear light]{prabhasvara}. The [snake]{snake} is named from its going (sayati), into the six destinies according to the Tibetan (the Sanskrit ṣaṛaṅgatau is unclear), and has the form of [wind]{vayu}; by the limbless one, clear light, it is 'impelled' (coditaḥ), bent on consciousness (the Tibetan: the wind of consciousness is urged on) (cp.33.m3).",
+      "cites": [
+        "cp.33.m3"
+      ]
+    },
+    {
+      "anchor": "cp.33.2b",
+      "kind": "doctrine",
+      "text": "Munidatta reads the milked [milk]{milk} as the [bodhicitta]{bodhicitta} that has come from 'the house of the vajra' through engagement with the [karmamudrā]{karmamudra}, and the [teat]{teat} as the root of the [lord of yogis]{yogindra}: from there it goes to the [wheel of great bliss]{mahasukha-cakra}, 'what a wonder!' (kim adbhutam) (cp.33.m3). The Tibetan comment has it reach the tip of the vajra by embracing the karmamudrā, and go from the root of the vajra to the wheel of great bliss.",
+      "cites": [
+        "cp.33.m3"
+      ]
+    },
+    {
+      "anchor": "cp.33.3a",
+      "kind": "imagery",
+      "text": "The paradox is double: the male beast gives birth, and the female, which should, is barren. biāela is the past of a verb of giving birth used of animals (compare Bengali biyāno), the verb behind biāṇa, 'birth', in song 20.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.3",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 3, his second verse, as stating a special practice (abhyāsaviśeṣa). He derives balada, '[ox]{ox}', from bala, 'strength', and da, 'giving': it gives a bodily form from the mind, and is [bodhicitta]{bodhicitta}, brought forth (prastuta, perhaps for prasūta, 'born') with the three [appearances]{abhasa}; the Tibetan explains bala as 'flesh' (sha), given to the body. The [cow]{cow} is the wife of the lord of yogis, the [barren]{barren} [Nairātmā]{nairatma}, of whom the line speaks (cp.33.m4).",
+      "cites": [
+        "cp.33.m4"
+      ]
+    },
+    {
+      "anchor": "cp.33.3b",
+      "kind": "doctrine",
+      "text": "On the [stool]{pitha} Munidatta says: at the tip of one's own [vajra]{vajra}, through the guru's lineage, its fault of appearance (is milked); '[milking]{milking}' means making [without intrinsic nature]{nihsvabhava}. The [three junctures]{three-junctures} are 'day and night': the lord of yogis milks at all times. He ends with an Apabhraṃśa verse of [Saraha]{p-saraha}: in the union of vajra and lotus, O yoginī, mind and wind become great bliss (cp.33.m4). The Tibetan comment, reading 'bri as its line does, speaks of 'the two faults of appearance'.",
+      "cites": [
+        "cp.33.m4"
+      ]
+    },
+    {
+      "anchor": "cp.33.3b",
+      "kind": "philology",
+      "text": "sām̐jha (from Sanskrit sandhyā; modern Bengali sā̃jh, 'evening') is a juncture of the day; three are usually counted, dawn, noon and dusk, the times of the daily rites.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.4a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) gives the second half of the line a negative: gang de blo ldan de ni blo med pa, 'whoever is intelligent, he is unintelligent'. Shastri's dhani has no clear sense in this place, and the draft follows the Tibetan (see the line's flag).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.4",
+      "kind": "doctrine",
+      "text": "Munidatta calls couplet 4, his third verse, 'acquaintance with the true nature' (svarūpaparicaya). The [understanding]{buddhi} of [novice yogins]{balayogin} is conceptual knowledge; for those who know the [ultimate]{paramartha} it has, through the guru, the form of non-apprehension, and he quotes [Saraha]{p-saraha} on bliss with signs. The [thief]{thief} is the [king of mind]{king-of-mind}, which takes what is not given; that same mind, when things are examined, is its opposite, of the form of the ultimate (the word between, śati, looks corrupt). So the ultimate truth, hard for novice yogins to accomplish, is accomplished by them with difficulty (cp.33.m5).",
+      "cites": [
+        "cp.33.m5"
+      ]
+    },
+    {
+      "anchor": "cp.33.5a",
+      "kind": "imagery",
+      "text": "In Indian fable the jackal is a timid scavenger and the lion the king of beasts; a jackal that fights the lion every day is one more inversion.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.33.5a",
+      "kind": "doctrine",
+      "text": "Munidatta's fourth verse states 'the true nature itself' (svarūpabhāva). Because it fears death and the like everywhere, the mind of saṃsāra is like a [jackal]{jackal}; purified in [clear light]{prabhasvara} through the blessing of the [spiritual friend]{kalyanamitra}, it then vies with 'the [lion]{lion} of [coupled union]{yuganaddha}' (cp.33.m6). The Tibetan comment has it become like that lion.",
+      "cites": [
+        "cp.33.m6"
+      ]
+    },
+    {
+      "anchor": "cp.33.5b",
+      "kind": "doctrine",
+      "text": "Munidatta ends: rarely (virale) will some [great being]{mahasattva} understand the meaning of such a song of [Ḍheṇḍhaṇapāda]{p-dhendhana}. The words between, pakṣivikṣubdhacittasatatādeśe, are obscure and perhaps corrupt; the Tibetan comment has 'some great being who always looks' (cp.33.m6).",
+      "cites": [
+        "cp.33.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "town",
+      "line": "cp.33.1a",
+      "reason": "A hit in the Tibetan line only (grong khyer dbus, 'the middle of the town'), where the Bengali has ṭālata; the English follows the Bengali, and the Tibetan reading is given in a witness note."
+    }
+  ],
+  "proposals": [],
+  "questions": [
+    "2a: the draft follows the Tibetan (sbrul) and Munidatta (sayaḥ, apparently for sarpaḥ; the Tibetan comment says 'it is a snake') and puts a snake where Shastri prints saṃsāra. Accept the emendation, or translate the print ('The frog's household keeps growing')? And the verb baḍhila jāa: 'chases' (chosen), 'drives' (Munidatta's coditaḥ, 'impelled'), 'desires' (the Tibetan line) or 'grows' (if the print stands)?",
+    "2a: the snake has no Bengali word, so its terms src is the Tibetan སྦྲུལ rather than সংসার, to avoid relinking সংসার. Is that how you want such a term recorded?",
+    "4a: the draft follows the Tibetan blo med pa and Munidatta's gloss: 'Whoever has understanding is without understanding.' Do you accept reading dhani as a negative here, or prefer a rendering of the print (dhanī, 'rich'; dhanya, 'blessed')?",
+    "4a: budhī as the glossary's noun 'understanding' ('whoever has understanding'), or as an adjective ('Whoever is wise is unwise')?",
+    "4b: sādhī as 'guard' (glossary, Tibetan mkhar srungs) or 'honest man' (Sanskrit sādhu, the Bengali opposite of a thief)?",
+    "3a: 'The ox has calved' (draft) or 'The ox has given birth' (keeps the glossary's 'birth')? If 'calved', should 'calve' become a listed variant of biana?",
+    "3b: 'at the three junctures' (glossary, kept) or 'three times of day'? And keep 'stool' for piṭā, though the Tibetan has 'bri, a female yak?",
+    "2b: a question ('Does milk once milked go back into the teat?') or, with Munidatta's kim adbhutam and the Tibetan, which states it, an exclamation ('Milk once milked goes back into the teat!')?",
+    "1b: ābeśī as a noun, 'visitors every day', or as a verb, 'someone always comes in' (closer to Munidatta's nityaṃ āviśati)?",
+    "h1: the heading adds '· Ḍheṇḍhaṇapāda' from the attribution written before the song, following the brief's model heading. Keep it, or give the rāga alone?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "6a7b01e2a5c6378b8f1794b9592f7483f2a0391812ab585f07bb4870da2c29de",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "61d5e80005c67eea97566c38c04b53c44616ebeac4f684d415598d9c503d82d3",
+    "sourceSha": "c9ca19b25651b0d3edd493ae45a041baf007e8f63ae8408465e5125fdf4f8c55"
+  }
+}

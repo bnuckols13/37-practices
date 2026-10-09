@@ -1678,11 +1678,22 @@
           "lemma": "a yi ge",
           "att": "AO",
           "where": "cp.41.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨའི་ཡི་གེའི",
+          "translit": "a'i yi ge'i",
+          "lemma": "a'i yi ge",
+          "att": "AO",
+          "where": "cp.41.m2"
         }
       ],
       "match": {
         "san": [
           "অকারো"
+        ],
+        "bod": [
+          "ཨའི་ཡི་གེའི"
         ]
       },
       "matchRe": {
@@ -6042,9 +6053,22 @@
           "lemma": "'on pa",
           "att": "AO",
           "where": "cp.40.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཁྲུལ་བར",
+          "translit": "'khrul bar",
+          "lemma": "'khrul ba",
+          "att": "AO",
+          "where": "cp.40.4b"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "འོན་པར",
+          "འོན་པ"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])কালেঁ(?=\\s*বোব)",
@@ -9810,6 +9834,14 @@
           "translit": "pothī",
           "lemma": "pothī",
           "att": "AS",
+          "where": "cp.40.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "པོ་སྟེ",
+          "translit": "po ste",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.40.1b"
         }
       ],
@@ -34459,7 +34491,6 @@
       ],
       "match": {
         "san": [
-          "ভগবতী",
           "ভ(ভব)গবতী",
           "ভাগবতী"
         ],
@@ -34467,7 +34498,11 @@
           "བཅོམ་ལྡན་འདས་མ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "ভগবতী(?!\\(তি)"
+        ]
+      },
       "definition": "'The Blessed Lady' (bhagavatī), feminine of bhagavat, 'Blessed One', an epithet of goddesses in the tantras. Munidatta gives it to Nairātmā, through union with whom the mind-elephant rains the ichor of suchness (cp.09.m3). The Tibetan uses bcom ldan 'das, its word for the Blessed One.",
       "symbolic": {
         "image": "",
@@ -39271,6 +39306,14 @@
           "lemma": "paramārtha",
           "att": "AS",
           "where": "cp.38.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞན་དོན",
+          "translit": "gzhan don",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.41.m2"
         }
       ],
       "match": {
@@ -47493,6 +47536,14 @@
           "lemma": "rdo",
           "att": "AO",
           "where": "cp.41.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "བརྟན་པར",
+          "translit": "brtan par",
+          "lemma": "brtan pa",
+          "att": "AO",
+          "where": "cp.41.m4"
         }
       ],
       "match": {
@@ -48628,6 +48679,14 @@
           "translit": "īdṛśasvabhāvena",
           "lemma": "svabhāva",
           "att": "AS",
+          "where": "cp.41.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོས",
+          "translit": "dngos pos",
+          "lemma": "dngos po",
+          "att": "AO",
           "where": "cp.41.m3"
         }
       ],
@@ -51369,6 +51428,14 @@
           "translit": "trailokyasvarūpaṃ",
           "lemma": "trailokya",
           "att": "AS",
+          "where": "cp.42.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན",
+          "translit": "'jig rten",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.42.m3"
         }
       ],
@@ -56330,6 +56397,14 @@
           "lemma": "rlung 'khor",
           "att": "AO",
           "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རླུང་ནི་འཁོར་བས",
+          "translit": "rlung ni 'khor bas",
+          "lemma": "rlung 'khor ba",
+          "att": "AO",
+          "where": "cp.41.3b"
         }
       ],
       "match": {
@@ -57525,6 +57600,14 @@
           "lemma": "vikalpa",
           "att": "AS",
           "where": "cp.40.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྟོག",
+          "translit": "rtog",
+          "lemma": "rtog pa",
+          "att": "AO",
+          "where": "cp.41.m2"
         }
       ],
       "match": {

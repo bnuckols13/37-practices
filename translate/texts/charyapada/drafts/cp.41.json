@@ -1,0 +1,537 @@
+{
+  "unit": "cp.41",
+  "title": "The Rope-Snake",
+  "summary": "A string of stock images of illusion: a rope seen as a snake that cannot bite, a desert mirage, a city of the gandharvas, a reflection, water turned to stone in a whirlwind, a barren woman's son at play, oil from sand, a hare's horn and the sky-flower; the refrain tells the yogi that whoever understands the world to be of such a nature is rid of habitual tendencies, and the last couplet sends the confused to the true guru. Munidatta reads the song as teaching that the world is unarisen and appears only through confusion, that the best of yogis sees things as mere appearance, and that the barren woman's son is ultimate truth, unarisen yet at play in the world as great bliss and the five wisdoms.",
+  "lines": [
+    {
+      "id": "cp.41.h1",
+      "translit": "rāga kahnuguṃjarī",
+      "gloss": "melody (rāga) · Kahnu-guñjarī (name of the melody)",
+      "en": "[Rāga]{raga} [Kahnu-guñjarī]{kahnu-gunjari} · [Bhusukupāda]{p-bhusuku}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "kahnu-gunjari",
+          "src": "কহ্নুগুংজরী"
+        },
+        {
+          "id": "p-bhusuku",
+          "src": "ভুসুকুপাদানাং"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri's heading names only the rāga. The poet's name comes from the attribution bhusukupādānāṃ, 'of Bhusukupāda', which the manuscript writes before the song and which the edition's emendation removes from 1a. The Tibetan heading names the melody only guny+dza rI, Guñjarī, without kahnu, and the poet b+hU su kU pa'i zhabs."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.1a",
+      "translit": "āie aṇuanāe jagare bhāṃti em̐so paṛihāi",
+      "gloss": "from the start · in non-arising (unarisen) · world (-re: subject? to/in the world? 'O'?) · confusion (in, by) · like this · appears",
+      "en": "The [world]{jagat}, [non-arising]{anutpada} from the start, appears like this in [confusion]{bhranti}.",
+      "terms": [
+        {
+          "id": "jagat",
+          "src": "জগরে"
+        },
+        {
+          "id": "anutpada",
+          "src": "অণুঅনাএ"
+        },
+        {
+          "id": "bhranti",
+          "src": "ভাংতি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "jagare is taken as the subject, 'the world', and bhāṃti as 'in (through) confusion', as Munidatta's instrumental bhrāntyā has it. Alternatives: 'to (or in) the world confusion appears like this', with bhāṃti as subject; or jaga re, 'O world'. The Tibetan makes beings ('gro rnams) the subject, who 'know in error' ('khrul par shes). Chosen: Munidatta's construction."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.1b",
+      "translit": "rājasāpa dekhi jo camakii ṣāre kiṃ taṃ(kaṃ) boṛo khāi || dhru ||",
+      "gloss": "rope-snake (rāja-sāpa; or 'king snake') · having seen · who · is startled · truly (?) · (question particle) · him (var. kaṃ, whom) · snake · eats (bites)",
+      "en": "One who sees a [rope-snake]{rajjusarpa} and is startled — does the [snake]{snake} truly bite him?",
+      "terms": [
+        {
+          "id": "rajjusarpa",
+          "src": "রাজসাপ"
+        },
+        {
+          "id": "snake",
+          "src": "বোড়ো"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "rājasāpa is rendered 'rope-snake' with the glossary, after Munidatta's rajju(rājja)sarpa and the Tibetan thag pa sbrul in the line and the comment. Taken on its own, rāja- could be 'king' ('a king snake'), which would make the fear real and drop the illusion that the rest of the song lists."
+        },
+        {
+          "kind": "reading",
+          "level": "low",
+          "note": "Shastri prints taṃ(kaṃ). taṃ, 'him', is chosen; kaṃ, 'whom', would give 'whom does the snake bite?'. The Tibetan line's gang gi, 'whose', may reflect kaṃ."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ṣāre is taken as 'truly', after Munidatta's satyena; its derivation is unclear. khāi, literally 'eats', is rendered 'bite', the Bengali idiom for a snakebite; Munidatta has khāditaḥ, 'eaten', and the Tibetan comment rmug, 'bitten'."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.2a",
+      "translit": "akaṭa joiāre mā kara hathā lohṇā",
+      "gloss": "wonder · O yogi · do not · make · hand · (sense uncertain: touching? rubbing?)",
+      "en": "A [wonder]{adbhuta}, [yogi]{yogi}! Do not grope with your hands.",
+      "terms": [
+        {
+          "id": "adbhuta",
+          "src": "অকট"
+        },
+        {
+          "id": "yogi",
+          "src": "জোইআরে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "lohṇā is uncertain. 'Grope' follows Munidatta's hastāmarṣa, 'touching with the hand', and the Tibetan line's sgre ba, 'rub, turn over'. If the word is a gesture of dismay, 'do not wring your hands' is possible."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line has ngo mtshar gang zhig rnam par dpyod, 'whoever examines the wonder', and no 'O yogi'. Munidatta and the Tibetan comment both address the novice yogin here."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.2b",
+      "translit": "āisa sabhābem̐ jai jaga bujhaṣi tuṭa bāṣaṇā torā || dhru ||",
+      "gloss": "such · by (as) nature · if · world · you understand · break(s), broken · habitual tendencies · your",
+      "en": "If you understand the [world]{jagat} to be of such a [nature]{svabhava}, your [habitual tendencies]{vasana} are broken.",
+      "terms": [
+        {
+          "id": "jagat",
+          "src": "জগ"
+        },
+        {
+          "id": "svabhava",
+          "src": "সভাবেঁ"
+        },
+        {
+          "id": "vasana",
+          "src": "বাষণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "tuṭa, 'break', is taken as stative, 'are broken'; 'will break' is also possible. The Tibetan has za, 'eat' (perhaps for zad, 'are exhausted'), and Munidatta 'flee' (palāyate)."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.3a",
+      "translit": "marumarīci-gandhanairī-dā-patibimbu jaisā |",
+      "gloss": "desert mirage + city of the gandharvas + dā (?) + reflection · like",
+      "en": "It is like a desert [mirage]{marici}, a [city of the gandharvas]{gandharvanagara}, a [reflection]{pratibimba};",
+      "terms": [
+        {
+          "id": "marici",
+          "src": "মরুমরীচি"
+        },
+        {
+          "id": "gandharvanagara",
+          "src": "গন্ধনইরী"
+        },
+        {
+          "id": "pratibimba",
+          "src": "পতিবিম্বু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "The dā- before patibimbu is unexplained and left out of the English. It may be a remnant of dāpaṇa, 'mirror' (a reflection in a mirror), or answer to the Tibetan line's chu zla, 'moon in water', or be a corruption. The Tibetan line lists five images to the Bengali's three."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.3b",
+      "translit": "bātābattem̐ so diṭa bhaiā apem̐ pāthara jaisā || dhru ||",
+      "gloss": "in (by) a whirlwind · it · firm · became · water (or: by itself) · stone · like",
+      "en": "in a [whirlwind]{vatavarta} it has grown firm, like water become [stone]{stone}.",
+      "terms": [
+        {
+          "id": "vatavarta",
+          "src": "বাতাবত্তেঁ"
+        },
+        {
+          "id": "stone",
+          "src": "পাথর"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "apem̐ is taken as 'water' (Sanskrit ap-), with Munidatta's nīram and the Tibetan chu. It could instead be 'by itself' (compare apā, 'self'), giving 'it has grown firm of itself, like stone'."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.4a",
+      "translit": "bām̐ddhisuā jima keli karai khelai bahubiha kheṛā",
+      "gloss": "barren woman's son · as · play · makes · plays · many kinds of · games",
+      "en": "As a [barren woman's son]{vandhyaputra} is at [play]{lila}, playing games of many kinds,",
+      "terms": [
+        {
+          "id": "vandhyaputra",
+          "src": "বাঁদ্ধিসুআ"
+        },
+        {
+          "id": "lila",
+          "src": "কেলি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "jima, 'as', opens a comparison that 4b does not close with a 'so'. The Tibetan makes the whole couplet a list of likenesses (ji ltar … ji bzhin no)."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.4b",
+      "translit": "bāluātelem̐ sasarasiṃge ākāśaphulilā || dhru ||",
+      "gloss": "with oil from sand · with (on) a hare's horn · the sky flowered (sky-flower bloomed)",
+      "en": "with [oil from sand]{valukataila} and a [hare's horn]{sasasrnga}, the [sky-flower]{akasapuspa} has bloomed.",
+      "terms": [
+        {
+          "id": "valukataila",
+          "src": "বালুআতেলেঁ"
+        },
+        {
+          "id": "sasasrnga",
+          "src": "সসরসিংগে"
+        },
+        {
+          "id": "akasapuspa",
+          "src": "আকাশফুলিলা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "ākāśaphulilā is literally 'the sky flowered' (ākāśa with the past of phul-, 'to flower'). It is rendered 'the sky-flower has bloomed' after the glossary and the Tibetan line (nam mkha'i me tog rgyas pa, 'the sky-flower blooming'). Literal alternative: 'the sky has come into flower'."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.5a",
+      "translit": "rāutu bhaṇai kaṭa bhusuku bhaṇai kaṭa saalā aisa sahāba |",
+      "gloss": "Rāutu · says · told · Bhusuku · says · told · all · such · nature",
+      "en": "[Rāutu]{p-rautu} says it has been told, [Bhusuku]{p-bhusuku} says it has been told: everything is of such a [nature]{svabhava}.",
+      "terms": [
+        {
+          "id": "p-rautu",
+          "src": "রাউতু"
+        },
+        {
+          "id": "p-bhusuku",
+          "src": "ভুসুকু"
+        },
+        {
+          "id": "svabhava",
+          "src": "সহাব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "Rāutu is kept as a name (keep-source). It may be a second speaker beside Bhusuku, or Bhusuku's own title (rāuta, from rājaputra, 'prince, knight'), so that one speaker is named twice. Munidatta passes over it; the Tibetan transcribes it as a name (rA u ta)."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "kaṭa is taken as a past participle, 'told' (Munidatta's mayā kathitaḥ), not the akaṭa, 'wonder', of 2a. The Tibetan renders it gtam, 'talk', which would allow 'Rāutu says it is talk, Bhusuku says it is talk': the nature of all is mere words."
+        }
+      ]
+    },
+    {
+      "id": "cp.41.5b",
+      "translit": "jai to mūṛhā acchasi bhāntī pucchatu sadguru pāba || dhru ||",
+      "gloss": "if · you · fool · you are · confusion (confused) · ask · true guru · feet (or: will obtain)",
+      "en": "If you, [fool]{mudha}, are in [confusion]{bhranti}, ask at the feet of the true [guru]{guru}.",
+      "terms": [
+        {
+          "id": "mudha",
+          "src": "মূঢ়া"
+        },
+        {
+          "id": "bhranti",
+          "src": "ভান্তী"
+        },
+        {
+          "id": "guru",
+          "src": "সদ্গুরু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "pāba is taken as 'feet' (Sanskrit pāda), with Munidatta's sadgurucaraṇa and the Tibetan zhabs; a future, 'you will obtain' (from pā-, 'get'), is possible: 'ask the true guru, you will obtain it'. mūṛhā is taken as a vocative; it could be predicative, 'if you are foolish and in confusion'."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.41.h1",
+      "kind": "philology",
+      "text": "[Rāga]{raga}: a melodic mode of Indian music. The heading names the melody to which the song is sung, Kahnu-guñjarī, which looks like Guñjarī, the rāga of song 5, with the qualifier kahnu.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.41.h1",
+      "kind": "witness",
+      "text": "Shastri's heading has only the rāga. The manuscript writes bhusukupādānāṃ, 'of Bhusukupāda', before the song; the edition's text runs it into 1a, from which it is removed as no part of the verse. The English heading adds the name, following the pattern 'Rāga … · poet' of the song-form brief. The Tibetan heading reads guny+dza rI zhes bya ba'i glu dbyangs b+hU su kU pa'i zhabs kyi'o, 'the melody called Guñjarī, of Bhūsukūpāda', without kahnu.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.41",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song: Bhusukupāda, delighted with [innate joy]{sahajananda}, sets out that same meaning (tam evārtham) (cp.41.m1).",
+      "cites": [
+        "cp.41.m1"
+      ]
+    },
+    {
+      "anchor": "cp.41",
+      "kind": "imagery",
+      "text": "The song strings together stock Indian similes, in two kinds. The rope taken for a snake (1b), the desert mirage, the city of the gandharvas (a city seen in cloud or haze that vanishes as one comes near) and the reflection (3a) are things that appear without being there. The barren woman's son, oil pressed from sand, the hare's horn and the flower in the sky (couplet 4) are things that cannot exist at all. Munidatta marks the same difference: couplet 3 gives examples from conventional truth (cp.41.m4), couplet 4 points to absolute nonexistence (cp.41.m5).",
+      "cites": [
+        "cp.41.m4",
+        "cp.41.m5"
+      ]
+    },
+    {
+      "anchor": "cp.41.1a",
+      "kind": "philology",
+      "text": "āie, 'at first, from the start' (Sanskrit ādi; Munidatta's paraphrase has ādau), and aṇuanāe, 'in non-arising, as unarisen' (Munidatta: anutpannabhāvatvena, 'by being of unarisen nature'). paṛihāi is taken as 'appears' (Sanskrit pratibhāti), as Munidatta's bhāsate, 'appears', suggests (cp.41.m2). jagare is read as 'the world' with the ending -re; it could also be 'to (or in) the world', or jaga with the vocative particle re, 'O world'.",
+      "cites": [
+        "cp.41.m2"
+      ]
+    },
+    {
+      "anchor": "cp.41.1a",
+      "kind": "doctrine",
+      "text": "Munidatta: those who know the ultimate understand this world, of themselves, as unarisen from the first, so for them it does not become anything else; he quotes scripture, 'a is the door of all dharmas, since they are unarisen from the first'. But through confusion and eyes dimmed by ignorance, he tells the [novice yogin]{balayogin}, a thing appears to you as blue, yellow and the like (cp.41.m2). The printed vidyātimira-, 'dimness of knowledge', is probably to be read avidyā- after bhrāntyā; the Tibetan comment has ma rig pa, 'ignorance'.",
+      "cites": [
+        "cp.41.m2"
+      ]
+    },
+    {
+      "anchor": "cp.41.1a",
+      "kind": "witness",
+      "text": "The Tibetan line reads dang po ma skyes pa nyid kyis / 'gro rnams de yis 'khrul par shes, 'through being unborn from the first, beings by that know in error'. It takes jaga as 'beings' ('gro rnams), the subject, and paṛihāi as a verb of knowing. The Tibetan comment cites the opening word as dbang po, perhaps a slip for the line's dang po, 'first' (cp.41.m2).",
+      "cites": [
+        "cp.41.m2"
+      ]
+    },
+    {
+      "anchor": "cp.41.1b",
+      "kind": "philology",
+      "text": "rājasāpa is filed under the rope-snake: Munidatta retells the line with the rope-snake (rajjusarpa) (cp.41.m2), and the Tibetan has thag pa sbrul, 'rope-snake', in the line and the comment. Taken by itself, rāja- could be 'king', a 'king snake', which would make the fear real and lose the illusion. Shastri's text of the comment prints rajju(rājja)sarpa, and the alternative rājja- stands close to the song's rāja-. ṣāre is taken as 'truly', after Munidatta's satyena. khāi is literally 'eats', the Bengali idiom for a snakebite; Munidatta has khāditaḥ, 'eaten', the Tibetan comment rmug, 'bitten'.",
+      "cites": [
+        "cp.41.m2"
+      ]
+    },
+    {
+      "anchor": "cp.41.1b",
+      "kind": "doctrine",
+      "text": "Munidatta quotes the ācārya [Nidattaka]{p-nidattaka}: as people with [dim sight]{dim-sight} see a [tangle of hairs]{kesonduka} in the sky, so fools, through the fault of light and the rest, imagine things. He then asks of one who takes a rope for a snake and is terrified whether he is truly eaten by that rope-snake (cp.41.m2).",
+      "cites": [
+        "cp.41.m2"
+      ]
+    },
+    {
+      "anchor": "cp.41.1b",
+      "kind": "witness",
+      "text": "The Tibetan line, thag pa sbrul mthong skrag pa yis / ji ltar gang gi khams kyi zas, 'by one frightened at seeing a rope-snake: how is it the food of whose khams?', is obscure in its second half. It renders khāi as zas, 'food', has nothing clear for ṣāre, and its gang gi, 'whose', may reflect Shastri's alternative kaṃ, 'whom', for taṃ, 'him'. Shastri also prints the refrain cue ধ্রু after this couplet, though the refrain is couplet 2, as Munidatta's dhruvapada confirms (cp.41.m3); the cue is not translated.",
+      "cites": [
+        "cp.41.m3"
+      ]
+    },
+    {
+      "anchor": "cp.41.2",
+      "kind": "doctrine",
+      "text": "Munidatta calls the refrain praise of the path (mārgasyānuśaṃsā). He glosses akaṭa as āścarya, 'a wonder', and tells the [novice yogin]{balayogin} not to touch with the hand here (hastāmarṣa). His paraphrase of 2b: if through such a nature you understand the true nature of the world, the accumulated faults of the conceptual tendencies of beginningless existence flee from you (cp.41.m3). His īdṛśasvabhāvena, 'by such a nature', renders āisa sabhābem̐.",
+      "cites": [
+        "cp.41.m3"
+      ]
+    },
+    {
+      "anchor": "cp.41.2a",
+      "kind": "philology",
+      "text": "lohṇā is uncertain. Munidatta's hastāmarṣa (cp.41.m3) suggests touching or feeling with the hand, and the Tibetan line has lag pas sgre bar ma byed cig, 'do not rub (or turn over) with the hand'. 'Grope' keeps the act of reaching out with the hands toward what is not there. If lohṇā is instead a gesture of dismay, 'do not wring your hands' would be possible.",
+      "cites": [
+        "cp.41.m3"
+      ]
+    },
+    {
+      "anchor": "cp.41.2a",
+      "kind": "witness",
+      "text": "The Tibetan line reads ngo mtshar gang zhig rnam par dpyod, 'whoever examines the wonder' or 'what wonder is examined', with no vocative: it seems to take joiāre as a verb of looking or examining rather than 'O yogi'. Its own comment, like Munidatta, addresses the novice yogin (kye'i byis pa'i rnal 'byor pa) (cp.41.m3).",
+      "cites": [
+        "cp.41.m3"
+      ]
+    },
+    {
+      "anchor": "cp.41.2b",
+      "kind": "witness",
+      "text": "The Tibetan line, de ltar rang bzhin gal te 'gro / shes na khyod kyi bag chags za, has 'gro, 'beings', for jaga and ends with bag chags za, 'eats the tendencies', perhaps for zad, 'the tendencies are exhausted', where the Bengali has tuṭa, 'break'. Munidatta has the tendencies flee (palāyate) (cp.41.m3).",
+      "cites": [
+        "cp.41.m3"
+      ]
+    },
+    {
+      "anchor": "cp.41.3a",
+      "kind": "philology",
+      "text": "The compound runs marumarīci (desert mirage), gandhanairī (city of the gandharvas), dā-, patibimbu (reflection). The dā- is unexplained and left out of the English. It may be a remnant of dāpaṇa, 'mirror' (song 32), with dāpa-patibimbu shortened to dāpatibimbu, 'reflection in a mirror'; or a word for water or moon may be lost or garbled here, as the Tibetan chu zla, 'moon in water', would suggest; or it may be a corruption.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.41.3a",
+      "kind": "witness",
+      "text": "The Tibetan line has five images: mya ngan (probably for mya ngam, 'desert') smig rgyu, 'desert mirage'; dri za'i grong, 'city of the gandharvas'; chu zla, 'moon in water' (compare [moon in water]{udakacandra}); and gzugs brnyan, 'reflection'. The moon in water stands where the Bengali has dā-.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.41.3",
+      "kind": "doctrine",
+      "text": "Munidatta says the second verse makes the same point plain with examples from conventional truth: the best of yogis sees of things only their mere appearance, as in seeing a mirage (mṛgatṛṣṇā), a city of the gandharvas and the like; he quotes scripture, 'as an illusion, as a dream, so too the intermediate existence'. Fools imagine all this falsely through the fault of the tendencies of ignorance (printed sarvavidyā-, probably sarva-avidyā-, as the Tibetan ma rig pa suggests). As water becomes stone in a whirlwind, so the lord of yogis is to understand the host of things; and he quotes a verse: emptiness itself, perfumed by tendencies, becomes a thing, as water in a whirlwind becomes hailstones (cp.41.m4). He does not mention the reflection; where his Sanskrit has 'mere appearance' (pratibhāsamātra), the Tibetan comment has 'mere reflection' (gzugs brnyan tsam).",
+      "cites": [
+        "cp.41.m4"
+      ]
+    },
+    {
+      "anchor": "cp.41.3b",
+      "kind": "philology",
+      "text": "apem̐ is taken as 'water' (Sanskrit ap-), with Munidatta's nīram (cp.41.m4) and the Tibetan line's chu ni rdo ba ji bzhin, 'like water as stone'. The same form could be read 'by itself' (compare apā, 'self', in song 31), giving 'it has grown firm of itself, like stone'. The image is water hardened into stone in a storm; the verse Munidatta quotes speaks of hailstones (ghanopala, literally 'cloud-stones') (cp.41.m4).",
+      "cites": [
+        "cp.41.m4"
+      ]
+    },
+    {
+      "anchor": "cp.41.4",
+      "kind": "doctrine",
+      "text": "Munidatta says the third verse points to [absolute nonexistence]{atyantabhava}. He takes the barren woman as the Blessed Lady Nairātmā and her son as ultimate truth, like oil from sand and like a hare's horn, which shows its unarisen nature. That same ultimate truth, arisen, he goes on, made of great bliss and the five wisdoms, enjoys the flavour of play in the world in many ways; he quotes the Sūtaka: 'this whole world is made of the five buddhas' (cp.41.m5). Where the Sanskrit has 'arisen' (utpanna), the Tibetan comment has 'since they are unborn' (skye ba med pa'i phyir). He does not mention the sky-flower.",
+      "cites": [
+        "cp.41.m5"
+      ]
+    },
+    {
+      "anchor": "cp.41.4b",
+      "kind": "philology",
+      "text": "ākāśaphulilā is literally 'the sky flowered' (ākāśa, 'sky', with the past of phul-, 'to flower'). The English follows the glossary and the Tibetan line, nam mkha'i me tog rgyas pa, 'the sky-flower blooming', which name the stock image of the flower in the sky. The endings of bāluātelem̐ and sasarasiṃge (instrumental or locative) are rendered 'with'; the Tibetan line instead makes all three a list governed by ji bzhin no, 'just like'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.41.5a",
+      "kind": "philology",
+      "text": "Rāutu: Old Bengali rāuta, from Sanskrit rājaputra, is a title, 'prince, knight'. Rāutu may be a second person speaking beside Bhusuku, or a title of Bhusuku himself, so that the line names one speaker twice. The English keeps the source form as a name. The Tibetan transcribes it as a name (rA u ta); Munidatta passes over it and has only 'Bhusukupāda says' (cp.41.m6).",
+      "cites": [
+        "cp.41.m6"
+      ]
+    },
+    {
+      "anchor": "cp.41.5a",
+      "kind": "philology",
+      "text": "kaṭa is taken as a past participle, 'told' (Sanskrit kathita), as in Munidatta's 'this form of things has been told by me' (mayā kathitaḥ) (cp.41.m6); it is not the akaṭa, 'wonder', of 2a. The Tibetan renders it gtam, 'talk, word': rA u ta yi dam gtam b+hu su ku / dngos tshogs rang bzhin mtha' dag gtam nyid do, apparently 'Rāuta's solemn word, Bhusuku: the nature of the whole host of things is only talk'. On that reading the line would say that all of this is mere words.",
+      "cites": [
+        "cp.41.m6"
+      ]
+    },
+    {
+      "anchor": "cp.41.5",
+      "kind": "doctrine",
+      "text": "Munidatta says the fourth verse states the purity of things (bhāvapariśuddhi): Bhusukupāda says he has told this form of things, and, to the [novice yogin]{balayogin}, if you have confusion here, worship the feet of the true guru (cp.41.m6). He addresses the novice yogin where the song says 'fool'. The Tibetan comment calls the poet 'du shes gsum pa, its name for Bhusuku, and has 'the complete purity of nature' (ngo bo nyid yongs su dag pa).",
+      "cites": [
+        "cp.41.m6"
+      ]
+    },
+    {
+      "anchor": "cp.41.5b",
+      "kind": "philology",
+      "text": "pāba is taken as 'feet' (Sanskrit pāda), with Munidatta's sadgurucaraṇa, 'the true guru's feet' (cp.41.m6), and the Tibetan line's bla ma dam pa'i zhabs la dri bar gyis, 'ask at the feet of the true guru'. It could be a future, 'you will obtain' (from pā-, 'get'). The Tibetan line reads mūṛhā as rmongs pa, 'delusion', beside 'khrul pa, 'confusion': gang du rmongs pa 'khrul pa yod gyur na, 'if there is delusion and confusion anywhere'.",
+      "cites": [
+        "cp.41.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "udakacandra",
+      "line": "cp.41.3a",
+      "reason": "Only in the Tibetan line (chu zla, 'moon in water'); no Bengali word renders it, unless the unexplained dā- does. Discussed in the notes."
+    },
+    {
+      "id": "vicara",
+      "line": "cp.41.2a",
+      "reason": "Only in the Tibetan line (rnam par dpyod, 'examine'), where the Bengali has the vocative 'O yogi'. Discussed in a witness note."
+    },
+    {
+      "id": "moha",
+      "line": "cp.41.5b",
+      "reason": "Only in the Tibetan line (rmongs pa), rendering mūṛhā, which the English gives as 'fool' (mudha)."
+    }
+  ],
+  "proposals": [],
+  "questions": [
+    "1b: rājasāpa is rendered 'rope-snake' with the glossary, after Munidatta (rajju(rājja)sarpa) and the Tibetan (thag pa sbrul). Do you accept this over a literal 'king snake' (rāja-, 'king'), which would make the fear real and drop the illusion?",
+    "1b: khāi is rendered 'bite' (the Bengali idiom; the Tibetan comment's rmug) rather than the literal 'eat' (Munidatta's khāditaḥ). Keep 'bite'?",
+    "2a: lohṇā is uncertain. 'Do not grope with your hands' follows Munidatta's hastāmarṣa and the Tibetan sgre ba. Would you prefer 'do not wring your hands'?",
+    "3a: the dā- before patibimbu is left untranslated. Should it be rendered (for example 'a reflection in a mirror', if it is dāpaṇa, or a word for water after the Tibetan chu zla), or stay out of the English with the note?",
+    "4b: ākāśaphulilā is literally 'the sky flowered'; the draft uses the glossary's sky-flower ('the sky-flower has bloomed'), as the Tibetan does. Is that acceptable, or should the line read 'the sky has come into flower', with akasapuspa moved to termsOmitted?",
+    "5a: Rāutu is kept as a name beside Bhusuku. Should it stand as a second speaker, or be treated as Bhusuku's own title ('the prince', 'the knight'), with the glossary entry changed to say so?",
+    "5a: kaṭa is rendered 'it has been told' (Munidatta's kathita). The Tibetan gtam, 'talk', supports 'Rāutu says it is talk, Bhusuku says it is talk', that is, the nature of all is mere words. Which reading do you want, and is 'says it has been told' acceptable English for the bhaṇitā?",
+    "5b: pāba is read as 'feet' with Munidatta and the Tibetan; the future 'you will obtain' is possible. Agree?",
+    "Heading: Shastri's heading names only the rāga; the draft adds Bhusukupāda from the manuscript's attribution before the song (bhusukupādānāṃ), which the Tibetan heading also names. Is that the convention you want?",
+    "1a: jagare is taken as the subject, 'the world', with bhāṃti as 'in confusion' (Munidatta's bhrāntyā). Would you rather read 'to the world, confusion appears like this'?",
+    "3b: apem̐ is read as 'water' (Munidatta's nīram, the Tibetan chu) rather than 'by itself'. Agree?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "1ea1b8c50d873847aaf8ba1d0afb626287a34cd7b7db25c8d291bb656f4eafb1",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "bc624b574d2e4e8d79d8bdfd7cd86beb747c5e6bf923e638e9e77925834d1305",
+    "sourceSha": "ef7e9b93b54704e28bafbae9de2d60c37c0d250acbb2af9763b9450a08b584c8"
+  }
+}

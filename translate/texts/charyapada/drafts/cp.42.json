@@ -1,0 +1,526 @@
+{
+  "unit": "cp.42",
+  "title": "The Broken Wave",
+  "summary": "Kāṇha tells his hearers not to lose heart at separation from the aggregates: the mind is filled with emptiness, a broken wave does not dry up the ocean, and fools miss what is plainly there, as they see no butter in the milk. In the refrain he asks how Kāṇha could not exist, since he radiates day after day and spans the three worlds. Munidatta takes the lost aggregates as the poet's own and the mind as his king of mind, complete in the sixteen emptinesses, reads the radiating as play in the ocean of the ultimate, and ends with Kṛṣṇācārya playing even in existence through knowing its nature; his comment on the butter in the milk is lost, and the Tibetan translation's comment, which stands in for it, makes it an image of seeing the three worlds without seeing them.",
+  "lines": [
+    {
+      "id": "cp.42.h1",
+      "translit": "rāga kāmoda",
+      "gloss": "rāga (melody) · Kāmoda (name of the rāga)",
+      "en": "[Rāga]{raga} [Kāmoda]{kamoda} · [Kāṇha]{p-kanha}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "kamoda",
+          "src": "কামোদ"
+        },
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নুপাদানাং"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Bengali heading names only the rāga. I have added the poet from the attribution kāhnupādānāṃ, 'of Kāhnupāda', which stands before the song and which the edition's emendation removes from 1a as not part of the verse; the Tibetan heading also names him (nag po spyod pa'i zhabs). Drop '· Kāṇha' if headings should carry only what the heading line says."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.1a",
+      "translit": "cia sahaje śūṇa saṃpunnā",
+      "gloss": "mind · in (or by) the innate · empty, emptiness · filled, complete",
+      "en": "The [mind]{citta}, in the [innate]{sahaja}, is filled with [emptiness]{sunyata}.",
+      "terms": [
+        {
+          "id": "citta",
+          "src": "চিঅ"
+        },
+        {
+          "id": "sahaja",
+          "src": "সহজে"
+        },
+        {
+          "id": "sunyata",
+          "src": "শূণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "sahaje: the -e ending can be locative ('in the innate') or instrumental ('by the innate'). I chose the locative. Munidatta cites the word as sahajena and explains it as 'by its natural form', that is, 'by nature'; the Tibetan line takes it with the mind as a genitive phrase, sems kyi lhan skyes, 'the innate of the mind'. 'By nature' or 'innately' would read better in English but would not keep the glossary's 'innate'."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "śūṇa saṃpunnā could also be two predicates, 'empty, full', a paradox in the manner of the songs. Munidatta ('complete in the sixteen emptinesses') and the Tibetan (stong nyid rdzogs) both make emptiness what the mind is full of, as I have."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.1b",
+      "translit": "kāndhabiyoe mā hohi bisannā",
+      "gloss": "at separation from the aggregates (kāndha 'aggregate' + biyoe 'in separation') · do not (prohibitive) · be (imperative) · dejected",
+      "en": "At separation from the [aggregates]{skandha}, do not be [dejected]{visanna}.",
+      "terms": [
+        {
+          "id": "skandha",
+          "src": "কান্ধবিয়োএ"
+        },
+        {
+          "id": "visanna",
+          "src": "বিসন্না"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line, phung po dang bral sdug bsngal med, 'parted from the aggregates, there is no suffering', has no prohibitive: it states that there is no suffering where the Bengali tells the hearer not to be dejected (mā hohi bisannā). I follow the Bengali."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "kāndhabiyoe: 'at separation from the aggregates' (so the Tibetan phung po dang bral), as against 'at the parting, or breaking up, of the aggregates'. Whose aggregates is not said; Munidatta makes them the poet's own (mama) and the hearers plural (bho janāḥ), while hohi is a singular imperative."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.2a",
+      "translit": "bhaṇa kaise kāhnu nāhi",
+      "gloss": "say (imperative) · how · Kāṇha · is not, does not exist",
+      "en": "Say, how could [Kāṇha]{p-kanha} not exist?",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "I take the line as a rhetorical question, 'how could Kāṇha not exist?', expecting the answer that he does, as Munidatta (kathaṃ … na vidyate, with the next line's radiating as the proof) and the Tibetan comment ('how would Kṛṣṇācārya become nonexistent?') do. It could also be an indirect question, 'say how Kāṇha is not', that is, explain his not being, which would tie it to the lost aggregates of 1b. nāhi is 'is not, does not exist'; 'could' is added English for the rhetorical tone."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.2b",
+      "translit": "pharai anudinaṃ tailoe pamāi",
+      "gloss": "radiates · day after day · in the three worlds · spans (?)",
+      "en": "He [radiates]{sphurana} day after day and spans the [three worlds]{trailokya}.",
+      "terms": [
+        {
+          "id": "sphurana",
+          "src": "ফরই"
+        },
+        {
+          "id": "trailokya",
+          "src": "তৈলোএ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "high",
+          "note": "pamāi is uncertain. I take it as a present verb from Sanskrit pra-√mā, 'measure out', hence 'spans' (alternatives in the same sense: 'pervades', 'fills'). Other possibilities: an absolutive, 'having measured'; the verb mā-, 'to be contained, fit' ('is contained in the three worlds'); or pramā, 'right knowledge' ('having come to know the three worlds'), which would fit Munidatta's 'having contemplated him as having the nature of the three worlds' (vibhāvya). The Tibetan line has no word for it."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line, bdag ni khams gsum gtan du 'phro, 'I radiate always through the three realms', is in the first person (bdag, 'I'); the Bengali pharai is third person, with the Kāṇha of 2a as subject. I follow the Bengali."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.3a",
+      "translit": "mūṛhā diṭha nāṭha dekhi kāara",
+      "gloss": "fools · seen · destroyed · having seen · dismayed, faint-hearted",
+      "en": "[Fools]{mudha}, seeing what is seen destroyed, are dismayed.",
+      "terms": [
+        {
+          "id": "mudha",
+          "src": "মূঢ়া"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "diṭha: I read dṛṣṭa, 'seen', which suits dekhi, 'seeing', and Munidatta's 'a thing with colour and shape'. The Tibetan brtan, 'firm', points to Prakrit diḍha (Sanskrit dṛḍha): 'fools, seeing the firm destroyed'. The Bengali spelling allows either."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "For kāara (kātara, 'faint-hearted, dismayed') the Tibetan line has 'jig bcas, 'with destruction', and the Tibetan comment renders Munidatta's kātarā bhavanti as 'jig par byed, 'destroy'; both may stand for 'jigs, 'fear'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "mūṛhā may be plural (so Munidatta, mūrkhāḥ) or a vocative, 'Fools!'. The line has no finite verb: dekhi is 'having seen' and kāara a predicate adjective; I supply 'are'."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.3b",
+      "translit": "bhāgataraṅga ki soṣaī sāara",
+      "gloss": "broken wave · (question particle) · dries up · ocean",
+      "en": "Does a broken [wave]{wave} dry up the [ocean]{ocean}?",
+      "terms": [
+        {
+          "id": "wave",
+          "src": "ভাগতরঙ্গ"
+        },
+        {
+          "id": "ocean",
+          "src": "সাঅর"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "I follow Munidatta: 'does the broken wave dry up the ocean?', with soṣaī as a causative (śoṣayati) and bhāgataraṅga as its subject. The Tibetan line and comment make the ocean the subject and the verb intransitive: 'how could the ocean, parted from its waves, dry up?' (rlabs bral, reading bhāga as 'parted'). The sense is the same either way."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.4a",
+      "translit": "mūṛhā acchante loa na pekhai",
+      "gloss": "foolish · (while it is) present · people · not · sees",
+      "en": "[Foolish]{mudha} [people]{loka} do not see what is there.",
+      "terms": [
+        {
+          "id": "mudha",
+          "src": "মূঢ়া"
+        },
+        {
+          "id": "loka",
+          "src": "লোঅ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "I take loa as subject, 'people', with mūṛhā as its adjective (so the Tibetan line, 'jig rten rmongs, 'the deluded world'). The Tibetan comment, 'though seeing the three worlds he does not see them', makes the world what is seen: 'the fool does not see the world, though it is there'. mūṛhā could also be a vocative: 'Fools! People do not see what is there.'"
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The glossary gives mudha as 'fool'; here the word is an adjective, so the surface is 'Foolish'. If only the noun is wanted, the line could read 'Fools! People do not see what is there.'"
+        }
+      ]
+    },
+    {
+      "id": "cp.42.4b",
+      "translit": "dudha mājhem̐ laṛa ṇacchaṃtem̐ dekhai",
+      "gloss": "milk · in the middle of, within · butter (?) · not being (ṇa + acchaṃtem̐) · sees",
+      "en": "In the [milk]{milk} they see the [butter]{butter} as not there.",
+      "terms": [
+        {
+          "id": "milk",
+          "src": "দুধ"
+        },
+        {
+          "id": "butter",
+          "src": "লড়"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "laṛa = 'butter' rests on the Tibetan, which has mar, 'butter', in the line and in the comment; Munidatta's Sanskrit comment on this couplet is lost, and the derivation of laṛa is unclear."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "I divide ṇacchaṃtem̐ as ṇa acchaṃtem̐, 'not being', the negative of 4a's acchante: in 4a people do not see what is there, in 4b they see the butter as not there. The Tibetan puts the negative on the verb instead: 'though there is butter in the milk, they do not see it'. A division from nacc-, 'dance' ('they see the butter dancing in the milk'), seems unlikely, since the spelling with cch matches acchante and the Tibetan has yod bzhin, 'though it is there'."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.5a",
+      "translit": "bhaba jāi ṇa ābai esu koi",
+      "gloss": "existence · goes · not · comes · this, here · anyone",
+      "en": "In this [existence]{bhava} no one goes or comes.",
+      "terms": [
+        {
+          "id": "bhava",
+          "src": "ভব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "I join esu, 'this', to bhaba, 'this existence', as the Tibetan line (srid pa 'di) and Munidatta's paraphrase (etadbhava) do, and take koi with ṇa as 'no one'. Other construals: 'no one here goes into existence or comes back' (the Tibetan comment cites the line as srid par 'gro ba med, 'there is no going into existence'), or bhaba as subject, 'existence neither goes nor comes'. I take ṇa to negate both verbs, as the Tibetan 'gro 'ong med does."
+        }
+      ]
+    },
+    {
+      "id": "cp.42.5b",
+      "translit": "āisa bhābe bilasai kāhnila joi",
+      "gloss": "such · in the state, by nature · plays · Kāṇha (Kāhnila) · yogi",
+      "en": "In such a state [Kāṇha]{p-kanha} the [yogi]{yogi} [plays]{lila}.",
+      "terms": [
+        {
+          "id": "lila",
+          "src": "বিলসই"
+        },
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নিল"
+        },
+        {
+          "id": "yogi",
+          "src": "জোই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "āisa bhābe: 'in such a state', with bhāba in its sense 'state, condition, nature'; 'by such a nature' is also possible (Munidatta's svabhāva; the Tibetan ngo bo nyid bzhin, 'according to its own nature'). It is not bhāva 'being', so the glossary's bhava-being is not applied."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.42.h1",
+      "kind": "philology",
+      "text": "[Rāga]{raga}: a melodic mode of Indian music. The heading names the one this song is sung to, [Kāmoda]{kamoda}.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.h1",
+      "kind": "witness",
+      "text": "The Bengali heading gives only the rāga. The poet's name comes from the attribution kāhnupādānāṃ, 'of Kāhnupāda', written before the song, which the edition runs into the first line and which is removed there as not part of the verse. The Tibetan translation (Toh 2293) heads the song 'dod pa sbyin pa zhes bya ba'i glu dbyangs nag po spyod pa'i zhabs kyi'o, 'the melody called Giving What Is Desired, of Kṛṣṇācāryapāda', as if reading the rāga name as Sanskrit kāmada, 'granting wishes'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42",
+      "kind": "doctrine",
+      "text": "Munidatta opens: Kṛṣṇācāryapāda, satisfied with the [nectar]{amrta} of knowledge, sets out that same meaning (tam evārtham) (cp.42.m1). He does not say here which meaning; the Tibetan agrees (ye shes kyi bdud rtsis yongs su tshim pa).",
+      "cites": [
+        "cp.42.m1"
+      ]
+    },
+    {
+      "anchor": "cp.42.1a",
+      "kind": "doctrine",
+      "text": "Munidatta cites sahaje as sahajena, 'by the innate', and explains it as 'by its natural form' (prakṛtisvarūpeṇa): always, he says, 'this [king of mind]{king-of-mind} of mine' is complete in the [sixteen emptinesses]{sixteen-emptinesses} (cp.42.m2). He thus makes the mind the poet's own and calls it the king of mind, words the song does not use. Where his Sanskrit has sarvadaiva, 'always', the Tibetan comment has lha thams cad, 'all the gods', as if reading sarva-daiva.",
+      "cites": [
+        "cp.42.m2"
+      ]
+    },
+    {
+      "anchor": "cp.42.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads the line sems kyi lhan skyes stong nyid rdzogs, 'the innate of the mind is complete emptiness', taking cia as a genitive with sahaja; the Bengali reads most naturally with the mind as subject.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.1b",
+      "kind": "philology",
+      "text": "In Buddhist analysis a person is made up of five [aggregates]{skandha}, and their breaking up is a standard way of speaking of death. The song does not say whose aggregates are meant, nor who is addressed: hohi is a singular imperative, 'be'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.1b",
+      "kind": "doctrine",
+      "text": "Munidatta makes the separation the poet's own: 'O people, do not grieve over the absence of my aggregates' (mama skandhābhāvāt), and quotes the [Hevajra]{tx-hevajra}: 'the absence of the aggregates is supreme' (skandhābhāvaparamam). The Tibetan comment has 'separation from my aggregates' (bdag gi phung po dang bral ba) and quotes the verse as phung po dngos med bde ba'i mchog, 'the nonexistence of the aggregates is the supreme of bliss' (cp.42.m2).",
+      "cites": [
+        "cp.42.m2"
+      ]
+    },
+    {
+      "anchor": "cp.42.1b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads phung po dang bral sdug bsngal med, 'parted from the aggregates, there is no suffering': a statement where the Bengali has a prohibition (mā hohi, 'do not be'), and sdug bsngal, 'suffering', for bisannā, 'dejected'. Shastri prints the refrain cue ধ্রু after this couplet too, though it comes before the refrain; it is not translated.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.2",
+      "kind": "doctrine",
+      "text": "Munidatta says that with the [refrain]{dhruvapada} Kāṇha states the [true nature]{svarupa}, and turns its first line on a [novice yogin]{balayogin}: 'O novice yogin, say, how indeed does Kṛṣṇācārya not exist?', having contemplated him as having the nature of the [three worlds]{trailokya}. 'Day after day he radiates' means, he says, that he plays in the ocean of the [ultimate]{paramartha}, an ocean the song does not mention (cp.42.m3).",
+      "cites": [
+        "cp.42.m3"
+      ]
+    },
+    {
+      "anchor": "cp.42.2",
+      "kind": "witness",
+      "text": "Munidatta supports his reading of the refrain with a verse of [scripture]{agama}: as a fish leaps swiftly from clear river water, so the [net of illusion]{mayajala} is sent forth from the clear all-empty (cp.42.m3). The edition marks the word for the fish (mīna) as doubtful, and the Tibetan quotation has no fish: 'as from the clear water of a river one's own form is swiftly produced' (bdag gi ngo bo myur du bskyed), and the net is 'shown' (ston par byed).",
+      "cites": [
+        "cp.42.m3"
+      ]
+    },
+    {
+      "anchor": "cp.42.2a",
+      "kind": "witness",
+      "text": "The Tibetan line, smras pa ji ltar kAh+Na me, 'say, how is Kāṇha not?', agrees with the Bengali (me for med, 'is not'). The Tibetan comment makes the question plainly rhetorical: 'how would Kṛṣṇācārya become nonexistent?' (ji ltar nag po spyod pa med par 'gyur) (cp.42.m3).",
+      "cites": [
+        "cp.42.m3"
+      ]
+    },
+    {
+      "anchor": "cp.42.2b",
+      "kind": "philology",
+      "text": "pamāi is a word of uncertain sense. It may come from Sanskrit pra-√mā, 'measure out', hence 'span, pervade', the sense taken here; it might instead belong with mā-, 'to be contained, fit', or with pramā, 'right knowledge'. pharai, 'radiates', is Sanskrit sphurati.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.2b",
+      "kind": "witness",
+      "text": "The Tibetan line, bdag ni khams gsum gtan du 'phro, 'I radiate always through the three realms', puts the refrain's second line in the first person (bdag, 'I') where the Bengali verb is third person, and has no word for pamāi. Munidatta's 'having contemplated him as having the nature of the three worlds' (trailokyasvarūpaṃ taṃ vibhāvya) may be how he took tailoe pamāi (cp.42.m3).",
+      "cites": [
+        "cp.42.m3"
+      ]
+    },
+    {
+      "anchor": "cp.42.3",
+      "kind": "imagery",
+      "text": "A wave breaks and sinks back, and the sea is no less for it: the question of 3b expects the answer no, and it answers the fools of 3a, who lose heart when what they have seen is destroyed.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.3",
+      "kind": "doctrine",
+      "text": "Munidatta calls this couplet his second [verse]{pada}, which makes the same point plain by an example. He takes what is seen as any thing (bhāva) with colour and shape, blue, yellow and the rest, and asks why fools are distressed at seeing it destroyed: does a broken wave of the sea dry up the ocean? (cp.42.m4).",
+      "cites": [
+        "cp.42.m4"
+      ]
+    },
+    {
+      "anchor": "cp.42.3a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rmongs pa brtan nyams 'jig bcas mthong. Its brtan, 'firm', suggests that the translators read diṭha as Prakrit diḍha (Sanskrit dṛḍha, 'firm') rather than dṛṣṭa, 'seen': 'the deluded see the firm decay'. Its 'jig bcas, 'with destruction', stands where the Bengali has kāara, 'dismayed', and the Tibetan comment likewise renders Munidatta's kātarā bhavanti, 'become distressed', as 'jig par byed, 'destroy' (cp.42.m4); both may be slips for 'jigs, 'fear'.",
+      "cites": [
+        "cp.42.m4"
+      ]
+    },
+    {
+      "anchor": "cp.42.3b",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads rlabs bral rgya mtsho ji ltar skam, 'how could the ocean, parted from its waves, dry up?'. It takes bhāga as 'parted' (bral), where Munidatta has bhagna, 'broken', and makes the ocean the subject; the Tibetan comment too has the ocean become dry because its waves are destroyed (cp.42.m4). In the Tibetan, 'parted from the waves' echoes 'parted from the aggregates' in 1b (phung po dang bral).",
+      "cites": [
+        "cp.42.m4"
+      ]
+    },
+    {
+      "anchor": "cp.42.4",
+      "kind": "witness",
+      "text": "Munidatta's Sanskrit has no comment on this couplet, and it calls couplet 5 his 'third verse' (tṛtīyapada) (cp.42.m5). The Tibetan translation does comment on couplet 4, calling it 'the third verse' (rkang pa gsum pa) (cp.42.m6), and calls couplet 5 'the fourth' (rkang pa bzhi pa). The Sanskrit comment on couplet 4 seems lost, and the Sanskrit numbering fits the loss; the Tibetan translation's comment stands in for it here.",
+      "cites": [
+        "cp.42.m5",
+        "cp.42.m6"
+      ]
+    },
+    {
+      "anchor": "cp.42.4",
+      "kind": "doctrine",
+      "text": "The Tibetan translation's comment (Munidatta's Sanskrit is lost here) says this verse makes the point firm: likewise, though it is there, the fool does not see the butter in the milk; likewise, though seeing the three worlds, he does not see them (cp.42.m6).",
+      "cites": [
+        "cp.42.m6"
+      ]
+    },
+    {
+      "anchor": "cp.42.4a",
+      "kind": "witness",
+      "text": "The Tibetan line, yod bzhin 'jig rten rmongs mi mthong, 'though it is there, the deluded world does not see it', agrees with the Bengali, with 'jig rten, 'world', for loa. The Tibetan comment's 'though seeing the three worlds ('jig rten gsum), he does not see them' makes the world what is seen rather than who sees (cp.42.m6).",
+      "cites": [
+        "cp.42.m6"
+      ]
+    },
+    {
+      "anchor": "cp.42.4b",
+      "kind": "imagery",
+      "text": "Butter, or ghee, is in milk though no one sees it until the milk is churned: a common Indian image for what is present but hidden.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.42.4b",
+      "kind": "witness",
+      "text": "The Tibetan line, 'o ma mar yod bzhin mi mthong, 'though there is butter in the milk, they do not see it', puts the negative on the seeing, as in 4a; the Bengali puts it on the being (ṇacchaṃtem̐, 'not being') and says they see (dekhai): they see the butter as not there. The rendering 'butter' for laṛa rests on the Tibetan mar, here and in the Tibetan translation's comment (cp.42.m6).",
+      "cites": [
+        "cp.42.m6"
+      ]
+    },
+    {
+      "anchor": "cp.42.5",
+      "kind": "doctrine",
+      "text": "Munidatta says this verse states the [perfected state]{parinispanna} (pariniṣpannatā). His next sentence seems damaged: it names the dust of the true [guru]{guru}'s [lotus]{lotus}, that is, his feet, and says 'does not do'. The Tibetan comment cites the line as 'there is no going into existence' and gives as the reason 'because it is done by the dust of the true guru's lotus', apparently that by the guru's grace there is no more going into existence. He ends: through full knowledge of the [nature]{svabhava} of this existence, Kṛṣṇācāryapāda plays, sports, even here in existence (cp.42.m5).",
+      "cites": [
+        "cp.42.m5"
+      ]
+    },
+    {
+      "anchor": "cp.42.5a",
+      "kind": "witness",
+      "text": "The Tibetan line, 'gro 'ong med pa'i srid pa 'di yang gang, 'this existence without going and coming, whatever it is', takes esu with bhaba as 'this existence', as Munidatta's paraphrase has etadbhava, 'this existence' (cp.42.m5); gang may render koi, or mean 'full'. Its 'gro 'ong med, 'without [coming and going]{coming-and-going}', negates both verbs.",
+      "cites": [
+        "cp.42.m5"
+      ]
+    },
+    {
+      "anchor": "cp.42.5b",
+      "kind": "philology",
+      "text": "āisa bhābe: 'in such a state' (āisa from Sanskrit īdṛśa, 'such'; bhāba from bhāva in its sense 'state, condition, nature'), not bhāva, 'being'. It chimes with bhaba, 'existence', in 5a. Munidatta has 'the nature (svabhāva) of this existence' (cp.42.m5), and the Tibetan line has ngo bo nyid bzhin, 'according to its own nature', where the Bengali has āisa bhābe.",
+      "cites": [
+        "cp.42.m5"
+      ]
+    },
+    {
+      "anchor": "cp.42.5b",
+      "kind": "philology",
+      "text": "The poet names himself kāhnila joi, 'Kāhnila the yogi', a form of the name [Kāṇha]{p-kanha}, without a verb of saying; the Tibetan has kAh+Na rnal 'byor.",
+      "cites": []
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "moha",
+      "line": "cp.42.3a",
+      "reason": "Hit in the Tibetan line only: its rmongs pa renders mūṛhā, which is marked as mudha ('fool'); the Bengali has no separate word for delusion."
+    },
+    {
+      "id": "coming-and-going",
+      "line": "cp.42.5a",
+      "reason": "Hit in the Tibetan line only ('gro 'ong). The Bengali has two finite verbs, jāi ṇa ābai, 'goes, does not come', translated as verbs ('goes or comes') rather than as the glossary's paired noun; the Tibetan wording is noted."
+    }
+  ],
+  "proposals": [],
+  "questions": [
+    "Heading: should the poet's name be added from the attribution kāhnupādānāṃ (which the edition moves out of 1a), giving 'Rāga Kāmoda · Kāṇha', or should the heading give only what its line says, 'Rāga Kāmoda'?",
+    "2b pamāi: is 'spans' acceptable, or would you prefer 'pervades' or 'fills', or keeping the word in source form with a note until its sense is settled? The Tibetan line has nothing for it.",
+    "4a: the glossary's mudha is the noun 'fool'. May 'Foolish' serve as its surface for the adjective here, or should the line be recast with a vocative, 'Fools! People do not see what is there'?",
+    "4b: I read ṇacchaṃtem̐ as ṇa acchaṃtem̐, so that 'they see the butter as not there', against the Tibetan 'though it is there, they do not see it'. Do you accept the closer rendering of the Bengali?",
+    "3a diṭha: 'seen' (dṛṣṭa, my reading) or 'firm' (dṛḍha, as the Tibetan brtan suggests)?",
+    "5a: is 'In this existence no one goes or comes' an acceptable construal, given that the Tibetan comment cites the line as 'there is no going into existence'?",
+    "1a sahaje: keep 'in the innate', or allow 'by nature' (Munidatta's prakṛtisvarūpeṇa) or 'innately' as a surface for sahaja?",
+    "1b: I used 'separation from the aggregates', as instructed; the glossary definition of visanna speaks of 'the parting of the aggregates'. Should the definition be brought into line?",
+    "5b: ভাবে here means 'state, condition', not the glossary's bhava-being ('being'). Would you like an entry for bhāva in this sense, so that later occurrences are not tagged as 'being'?",
+    "Couplet 4: in the woven commentary, should cp.42.m6 be labelled as the Tibetan translation's comment standing in for Munidatta's lost Sanskrit, as these notes do?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "0f0885631f154fd31fc526212b3c48246040d1c1fa0c851c94b2824e96ba8e68",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "bc624b574d2e4e8d79d8bdfd7cd86beb747c5e6bf923e638e9e77925834d1305",
+    "sourceSha": "6aab45c571b936467e546a3a12a066879b4c7d90e13dbe12f8aa1292d9ad63bf"
+  }
+}

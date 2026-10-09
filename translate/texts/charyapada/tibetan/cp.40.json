@@ -1,0 +1,139 @@
+{
+  "unit": "cp.40",
+  "equivalents": [
+    {
+      "id": "ala-jala",
+      "line": "cp.40.1a",
+      "script": "མིག་འཕྲུལ་འདྲ",
+      "wylie": "mig 'phrul 'dra",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan reads the jingle as 'like a magic show' (mig 'phrul 'dra), mig 'phrul being its word for indrajāla, as if jālā were heard as jāla."
+    },
+    {
+      "id": "agama",
+      "line": "cp.40.1b",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "book",
+      "line": "cp.40.1b",
+      "script": "པོ་སྟེ",
+      "wylie": "po ste",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line reads lung dang po ste, where po ste may be a slip for po ti, 'volume', the usual word for pothī, though dang po ste could also be taken as 'first'."
+    },
+    {
+      "id": "rosary",
+      "line": "cp.40.1b",
+      "script": "ཕྲེང་བ",
+      "wylie": "phreng ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has brdzun gyi phreng ba, 'garland of falsehood', rendering mālā but nothing clearly for iṣṭā-, unless brdzun, 'false', stands for it."
+    },
+    {
+      "id": "badhira",
+      "line": "cp.40.4b",
+      "script": "འཁྲུལ་བར",
+      "wylie": "'khrul bar",
+      "lemma": "'khrul ba",
+      "confidence": "likely",
+      "note": "Here the Tibetan has the disciple made confused ('khrul bar byas), not deaf: a different reading of kāla, not a rendering of 'deaf'."
+    },
+    {
+      "id": "p-jina",
+      "line": "cp.40.5a",
+      "script": "རྒྱལ་བའི",
+      "wylie": "rgyal ba'i",
+      "lemma": "rgyal ba",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "badhira",
+      "line": "cp.40.5b",
+      "script": "འོན་པར",
+      "wylie": "'on par",
+      "lemma": "'on pa",
+      "confidence": "clear",
+      "note": "The Tibetan line reverses the roles, the mute speaking to the deaf (lkugs pas 'on par smra ba), where the Bengali has the deaf instruct the mute."
+    },
+    {
+      "id": "tx-purana",
+      "line": "cp.40.m2",
+      "script": "རྙིང་མ",
+      "wylie": "rnying ma",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has rig byed rnying ma, which can mean 'the ancient Veda' as well as 'Veda and Purāṇa', so the Purāṇas may not be named separately."
+    },
+    {
+      "id": "citta",
+      "line": "cp.40.m3",
+      "script": "ཡིད",
+      "wylie": "yid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Rendered yid as the third member of lus dang ngag dang yid, the comment's rendering of kāyavākcitta."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.40.m4",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "badhira",
+      "line": "cp.40.m6",
+      "script": "འོན་པ",
+      "wylie": "'on pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The simile keeps the line's reversal, conveying the mute's understanding to the deaf by signs ('on pa la brda la sogs pas lkugs pa'i rtogs pa smra bar byed), where the Sanskrit has the deaf man make the mute understand."
+    },
+    {
+      "id": "prabhava",
+      "line": "cp.40.m6",
+      "script": "མཐུས",
+      "wylie": "mthus",
+      "lemma": "mthu",
+      "confidence": "likely",
+      "note": "The Tibetan has dga' ba'i mthus, 'by the power of joy', with nothing for sva-, 'own'."
+    },
+    {
+      "id": "sukha",
+      "line": "cp.40.m6",
+      "script": "བདེ་བ",
+      "wylie": "bde ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has bde ba rgya chen po, 'vast bliss', taking tanoti, 'spreads', as describing the bliss in Munidatta's etymology of ratna."
+    }
+  ],
+  "questions": [
+    "p-bhagavati (cp.40.m5): not matched. The Tibetan has no word for the Blessed Lady here (de las byung ba'i tshig tsam du gyur pa gang las smra bar byed de); its byung ba and gyur pa point to a form of bhavati, 'becomes', so the Sanskrit bhagavatī(ti) may be corrupt and the glossary hit false."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "68a6079b48357b10d217c1d4c306e3dfb2a6b8726c68f1cb4136cf54db855a18",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "bc624b574d2e4e8d79d8bdfd7cd86beb747c5e6bf923e638e9e77925834d1305",
+    "sourceSha": "60b5816a588cf036314633b217bdcab23a606b667bcead882fb26b42d1893040",
+    "parallelSha": "3886bcf13e1552b4a7c502f4d2fc848abb5df85c7f969dc0495cf1afda12b1fb"
+  }
+}

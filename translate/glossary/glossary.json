@@ -266,6 +266,14 @@
           "lemma": "ābhāsa",
           "att": "AS",
           "where": "cp.48.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེས་བུ",
+          "translit": "skyes bu",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.m2"
         }
       ],
       "match": {
@@ -11121,14 +11129,17 @@
           "সাঙ্কম"
         ],
         "san": [
-          "সাঙ্কম",
-          "সংক্রম"
+          "সাঙ্কম"
         ],
         "bod": [
           "ཟམ་པ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "(?<!বিজ্ঞান)সংক্রম"
+        ]
+      },
       "definition": "A bridge or crossing (Old Bengali sāṅkama, Sanskrit saṃkrama). In the refrain of song 5 Cāṭila builds a bridge over the river of existence, from the planks of a split tree, so that people bound for the far shore can cross; whoever climbs onto it is not to go right or left.",
       "symbolic": {
         "image": "the bridge Cāṭila builds over the river of existence",
@@ -11370,9 +11381,22 @@
           "lemma": "tshig pa",
           "att": "AO",
           "where": "cp.46.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲེག་པ",
+          "translit": "sreg pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.47.m5"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "ཚིག་པ",
+          "སྲེག་པ"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}\\u200C\\u200D])দাটই(?![\\p{L}\\p{M}\\u200C\\u200D])"
@@ -13846,6 +13870,14 @@
           "script": "ཆོད་པ",
           "translit": "chod pa",
           "lemma": "gcod pa",
+          "att": "AO",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོད་པར",
+          "translit": "chod par",
+          "lemma": "chod pa",
           "att": "AO",
           "where": "cp.46.m4"
         }
@@ -18155,6 +18187,14 @@
           "lemma": "me",
           "att": "AO",
           "where": "cp.47.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མེ་ཡིས",
+          "translit": "me yis",
+          "lemma": "me",
+          "att": "AO",
+          "where": "cp.47.2a"
         }
       ],
       "match": {
@@ -20770,7 +20810,11 @@
           "where": "cp.45.m3"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "བླ་མ་དམ་པའི་གསུང"
+        ]
+      },
       "matchRe": {
         "san": [
           "(?<=গুরু)বচন"
@@ -32185,6 +32229,14 @@
           "lemma": "ādarśa",
           "att": "AS",
           "where": "cp.46.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས་བརྙན",
+          "translit": "gzugs brnyan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.1a"
         }
       ],
       "match": {
@@ -32398,7 +32450,8 @@
         "bod": [
           "རྨོངས་པ",
           "རྨོངས་པ་ཆེན་པོ",
-          "གཏི་མུག"
+          "གཏི་མུག",
+          "རྨོངས"
         ],
         "oben": []
       },
@@ -41673,6 +41726,14 @@
           "lemma": "pakṣa",
           "att": "AS",
           "where": "cp.46.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱོགས་དང་ཕྱོགས་མ་ཡིན་པ",
+          "translit": "phyogs dang phyogs ma yin pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.m5"
         }
       ],
       "match": {
@@ -45666,6 +45727,9 @@
         ],
         "san": [
           "প্রতিবিম্ব"
+        ],
+        "bod": [
+          "གཟུགས་བརྙན"
         ]
       },
       "matchRe": {},
@@ -54225,7 +54289,8 @@
           "তথতা"
         ],
         "bod": [
-          "དེ་བཞིན་ཉིད་ཀྱི"
+          "དེ་བཞིན་ཉིད་ཀྱི",
+          "དེ་བཞིན་ཉིད"
         ]
       },
       "matchRe": {
@@ -64113,6 +64178,9 @@
       "match": {
         "san": [
           "প্লাবনীয়"
+        ],
+        "bod": [
+          "གཤེར"
         ]
       },
       "matchRe": {

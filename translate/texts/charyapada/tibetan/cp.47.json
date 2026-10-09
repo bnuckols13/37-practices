@@ -1,0 +1,109 @@
+{
+  "unit": "cp.47",
+  "equivalents": [
+    {
+      "id": "fire",
+      "line": "cp.47.2a",
+      "script": "མེ་ཡིས",
+      "wylie": "me yis",
+      "lemma": "me",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "water",
+      "line": "cp.47.2b",
+      "script": "ཆུ",
+      "wylie": "chu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan line has ri bong 'dzin pa'i chu, 'the water of the hare-holder', that is, the moon's water, where the Bengali has the poet take the moon and sprinkle water."
+    },
+    {
+      "id": "smoke",
+      "line": "cp.47.3a",
+      "script": "དུ་བ",
+      "wylie": "du ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The rendering is plain, but the string དུ་བ also occurs across word boundaries (du followed by bshad, bya and so on), so it cannot be searched as clear."
+    },
+    {
+      "id": "sasana",
+      "line": "cp.47.4b",
+      "script": "ཡུལ་གྱི་གྲོང་ཁྱེར",
+      "wylie": "yul gyi grong khyer",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan line has 'the towns of the land' for śāsana; its comment (m5) quotes this as yul gyi and glosses yul as the sense objects, in line with Munidatta's reading."
+    },
+    {
+      "id": "water",
+      "line": "cp.47.5b",
+      "script": "ཆུ",
+      "wylie": "chu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.47.m4",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here svarūpa is rang bzhin, the word the Tibetan also uses for svabhāva; in song 46 (m6) it is ngo bo."
+    },
+    {
+      "id": "burning",
+      "line": "cp.47.m5",
+      "script": "སྲེག་པ",
+      "wylie": "sreg pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Munidatta's lemma reads dāṭai, 'burns', where the verse (4a) has phāṭai, 'splits'; the Tibetan verse line also ends in tshig, 'burnt', so both read burning there."
+    },
+    {
+      "id": "nadi",
+      "line": "cp.47.m5",
+      "script": "རྩ",
+      "wylie": "rtsa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Munidatta's viṭanāḍikā, mūtranāḍī and śukranāḍikā come out as dri chen gyi rtsa, dri chu'i rtsa and khu ba'i rtsa."
+    },
+    {
+      "id": "marga",
+      "line": "cp.47.m6",
+      "script": "ལམ",
+      "wylie": "lam",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "As in song 46, the vocative bho anadhigatamārga, 'you who have not reached the path', becomes kye'i lam ma rtogs pas, 'O, since you have not understood the path'."
+    }
+  ],
+  "questions": [
+    "cp.47.h1 and cp.47.m7 are themselves Tibetan reading text, with no Bengali or Sanskrit behind them, so no equivalents are given for them.",
+    "vayu (পবন, cp.47.m5): not matched. The Tibetan has nothing for Munidatta's navaguṇam iti navapavanañ ca, 'the nine qualities are the nine winds'; it goes straight from lalanā and rasanā to yon tan dgu dang yul gyi, so there is no rlung to match.",
+    "upaya (োপায়, cp.47.m6): not matched. The Tibetan dpal gyi bla ma'i zhabs kyis, 'by the glorious guru's feet', renders śrīgurucaraṇa but has no thabs for -upāyena.",
+    "fire and smoke in the comments (m3, m4, m5) are given from the verse lines only; the comments use the same words (me, mes, du ba).",
+    "Witness flag, not a term (cp.47.m4): the Tibetan ye shes kyi me ni mi mthong, 'the fire of knowledge is not seen', supports Shastri's queried restoration [na?].",
+    "Witness flag, not a term (cp.47.3a): the Tibetan line opens rtswa ni 'bar ba ma yin, 'the grass does not burn', apparently taking khara as straw. The comment's lemma (m4) has rtsa, perhaps a scribal slip for rtswa.",
+    "Pada numbering, not a term: m5's tṛtīyapadena is rkang pa gnyis pas, 'by the second pada', in the Tibetan, which repeats m4's number."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "5a775cab36e5f4f9d327625f7c5dcb9b08d0682dd1b3ae14383bf4934c2efe98",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "10fc0141caf4e7017b4587c1f036aa58d20dcefb4192a94d741078514780148d",
+    "sourceSha": "b04508bc0c13403686c81eecf17aa8c676b14d2a7e65b59a82e883813f221e98",
+    "parallelSha": "f260f339e72b1bd1205ae859a38118c10037e6b5070737829fd55a8303240aca"
+  }
+}

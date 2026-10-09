@@ -730,6 +730,14 @@
           "lemma": "lhag par mos pa",
           "att": "AO",
           "where": "cp.20.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "མོས་པ",
+          "translit": "mos pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m6"
         }
       ],
       "match": {
@@ -5388,6 +5396,14 @@
           "lemma": "go la",
           "att": "AO",
           "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གོ་ལར",
+          "translit": "go lar",
+          "lemma": "go la",
+          "att": "AO",
+          "where": "cp.28.m6"
         }
       ],
       "match": {
@@ -5396,6 +5412,9 @@
         ],
         "san": [
           "তাম্বূল"
+        ],
+        "bod": [
+          "སོ་རྩི"
         ]
       },
       "matchRe": {
@@ -7725,7 +7744,11 @@
           "where": "cp.28.3a"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "ཡལ་ག"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])ডাল(?:ী|ি)?(?![\\p{L}\\p{M}])"
@@ -8253,7 +8276,8 @@
           "কর্পূর"
         ],
         "bod": [
-          "ག་པུར"
+          "ག་པུར",
+          "ག་བུར"
         ]
       },
       "matchRe": {
@@ -11000,6 +11024,14 @@
           "lemma": "rkang pa",
           "att": "AO",
           "where": "cp.27.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དྷཱུའི་རྐང་པར",
+          "translit": "d+hU'i rkang par",
+          "lemma": "d+hU'i rkang pa",
+          "att": "AO",
+          "where": "cp.28.m2"
         }
       ],
       "match": {
@@ -11014,7 +11046,8 @@
           "དྷཱུའི་རྐང་པས",
           "དྷཱའི་རྐང་པ",
           "དྷྲཱུའི་རྐང་པ",
-          "བྷྲཱུའི་རྐང་པ"
+          "བྷྲཱུའི་རྐང་པ",
+          "དྷཱུའི་རྐང་པར"
         ]
       },
       "matchRe": {},
@@ -14001,6 +14034,14 @@
           "lemma": "khyim mi mo",
           "att": "AO",
           "where": "cp.28.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ",
+          "translit": "khyim",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m2"
         }
       ],
       "match": {
@@ -14084,7 +14125,11 @@
           "where": "cp.28.2a"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "གུ་ལི"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])গুলী(?![\\p{L}\\p{M}])"
@@ -15190,6 +15235,14 @@
           "lemma": "snying",
           "att": "AO",
           "where": "cp.28.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས",
+          "translit": "sems",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.5a"
         }
       ],
       "match": {
@@ -17098,7 +17151,8 @@
       ],
       "match": {
         "bod": [
-          "མགུལ"
+          "མགུལ",
+          "མགྲིན་པ"
         ],
         "oben": [
           "গিবত"
@@ -19814,6 +19868,14 @@
           "lemma": "rol pa",
           "att": "AO",
           "where": "cp.29.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "རོལ་པར",
+          "translit": "rol par",
+          "lemma": "rol pa",
+          "att": "AO",
+          "where": "cp.28.m4"
         }
       ],
       "match": {
@@ -20750,6 +20812,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.04.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེ",
+          "translit": "bde ba che",
+          "lemma": "bde ba chen po",
+          "att": "AO",
+          "where": "cp.28.5a"
         }
       ],
       "match": {
@@ -20764,7 +20834,8 @@
         "bod": [
           "བདེ་ཆེན",
           "བདེ་བ་ཆེན་པོའི",
-          "བདེ་བ་ཆེན་པོ"
+          "བདེ་བ་ཆེན་པོ",
+          "བདེ་བ་ཆེ"
         ]
       },
       "matchRe": {},
@@ -22988,6 +23059,14 @@
           "lemma": "sbyor ba",
           "att": "AO",
           "where": "cp.27.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "གཅིག་པའོ",
+          "translit": "gcig pa'o",
+          "lemma": "gcig pa",
+          "att": "AO",
+          "where": "cp.28.m3"
         }
       ],
       "match": {
@@ -23861,7 +23940,9 @@
           "পর্ব্বত"
         ],
         "bod": [
-          "རི་མཆོག"
+          "རི་མཆོག",
+          "རི་བོ",
+          "རི་བོ་མཆོག"
         ]
       },
       "matchRe": {
@@ -24847,6 +24928,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.23.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "པདྨ",
+          "translit": "pad+ma",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m8"
         }
       ],
       "match": {
@@ -34127,6 +34216,14 @@
           "lemma": "sha wa ri",
           "att": "AO",
           "where": "cp.28.7b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤ་ཝ་རི་པ",
+          "translit": "sha wa ri pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.7a"
         }
       ],
       "match": {
@@ -34554,6 +34651,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.28.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷན་ཅིག་སྐྱེས་པ་ནི་མཛེས་པ་ཅན",
+          "translit": "lhan cig skyes pa ni mdzes pa can",
+          "lemma": "lhan cig skyes pa mdzes pa can",
+          "att": "AO",
+          "where": "cp.28.m3"
         }
       ],
       "match": {
@@ -35217,6 +35322,14 @@
           "lemma": "longs spyod rdzogs pa'i 'khor lo",
           "att": "AO",
           "where": "cp.18.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོངས་སྤྱོད་ཀྱི་འཁོར་ལོ",
+          "translit": "longs spyod kyi 'khor lo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m2"
         }
       ],
       "match": {
@@ -35224,7 +35337,8 @@
           "সম্ভোগচক্র"
         ],
         "bod": [
-          "ལོངས་སྤྱོད་རྫོགས་པའི་འཁོར་ལོ"
+          "ལོངས་སྤྱོད་རྫོགས་པའི་འཁོར་ལོ",
+          "ལོངས་སྤྱོད་ཀྱི་འཁོར་ལོ"
         ]
       },
       "matchRe": {},
@@ -35797,6 +35911,14 @@
           "lemma": "rnam pa thams cad dang ldan pa'i stong pa nyid",
           "att": "AO",
           "where": "cp.08.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པ་ཐམས་ཅད་ཀྱི་མཆོག་དང་ལྡན་པའི་སྟོང་པ་ཉིད",
+          "translit": "rnam pa thams cad kyi mchog dang ldan pa'i stong pa nyid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m6"
         }
       ],
       "match": {
@@ -35805,7 +35927,8 @@
           "সর্বাকারবরোপেত"
         ],
         "bod": [
-          "རྣམ་པ་ཐམས་ཅད་དང་ལྡན་པའི་སྟོང་པ་ཉིད"
+          "རྣམ་པ་ཐམས་ཅད་དང་ལྡན་པའི་སྟོང་པ་ཉིད",
+          "རྣམ་པ་ཐམས་ཅད་ཀྱི་མཆོག་དང་ལྡན་པའི་སྟོང་པ་ཉིད"
         ]
       },
       "matchRe": {},
@@ -37386,6 +37509,14 @@
           "lemma": "suna",
           "att": "AS",
           "where": "cp.28.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ",
+          "translit": "stong pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.5a"
         }
       ],
       "match": {
@@ -40267,6 +40398,22 @@
           "lemma": "thugs rdo rje",
           "att": "AO",
           "where": "cp.04.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་ཀྱི་རྡོ་རྗེ",
+          "translit": "sems kyi rdo rje",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་རྡོ་རྗེ",
+          "translit": "sems rdo rje",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.28.m8"
         }
       ],
       "match": {
@@ -40281,7 +40428,11 @@
           "ཐུགས་རྡོ་རྗེ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<!བྱང་ཆུབ་ཀྱི་)སེམས་(?:ཀྱི་)?རྡོ་རྗེ(?!་བླ་མ)"
+        ]
+      },
       "definition": "The vajra of body, of speech and of mind: a buddha's body, speech and mind, which tantric practice aims to make the practitioner's own. Munidatta says the lord of yogis first makes the vajra of body firm through deity yoga, steadies the vajra of speech by vajra recitation, then works to make the vajra of mind firm (cp.04.m5).",
       "symbolic": {
         "image": "",
@@ -42163,6 +42314,64 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "ullasa",
+      "type": "term",
+      "status": "proposed",
+      "en": "delight",
+      "alt": [
+        "elation"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উলাস",
+          "translit": "ulāsa",
+          "lemma": "ulāsa",
+          "att": "AS",
+          "where": "cp.30.3b"
+        },
+        {
+          "lang": "san",
+          "script": "সহজোল্লাসং",
+          "translit": "sahajollāsaṃ",
+          "lemma": "ullāsa",
+          "att": "AS",
+          "where": "cp.30.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "উলাস"
+        ],
+        "san": [
+          "উল্লাস",
+          "সহজোল্লাস"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Delight or elation (Sanskrit ullāsa, 'brightening, rising up'; Old Bengali ulāsa): a surge of joy. In song 30 (3b) one's own mind 'does not give' ulāsa; Munidatta's paraphrase has the mind give the delight of the innate (sahajollāsa) (cp.30.m4), and the Tibetan line has joy (dga' ba) given to one's own mind.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [
+        "innate delight",
+        "innate joy",
+        "bodhicitta"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

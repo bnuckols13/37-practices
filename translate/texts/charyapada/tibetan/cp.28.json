@@ -1,0 +1,391 @@
+{
+  "unit": "cp.28",
+  "equivalents": [
+    {
+      "id": "mountain",
+      "line": "cp.28.1a",
+      "script": "རི་བོ",
+      "wylie": "ri bo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "sabara",
+      "line": "cp.28.2a",
+      "script": "ས་ཝ་རི",
+      "wylie": "sa wa ri",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan transcribes the Śabara as sa wa ri, the same word it uses for the Śabarī (1a, 3b), so it does not tell the man and the woman apart."
+    },
+    {
+      "id": "guli",
+      "line": "cp.28.2a",
+      "script": "གུ་ལི",
+      "wylie": "gu li",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan transcribes the word as gu li without translating it, and has nothing for guhāḍā."
+    },
+    {
+      "id": "branch",
+      "line": "cp.28.3a",
+      "script": "ཡལ་ག",
+      "wylie": "yal ga",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "sabari",
+      "line": "cp.28.3b",
+      "script": "ས་ཝ་རི",
+      "wylie": "sa wa ri",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here the Śabarī is plain sa wa ri, the same transcription as for the Śabara man, where 1a has sa wa ri yi bu mo, 'the Śabara girl'."
+    },
+    {
+      "id": "bhujanga",
+      "line": "cp.28.4b",
+      "script": "སྦྲུལ",
+      "wylie": "sbrul",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan takes bhujaṅga in its literal sense, 'snake' (sbrul), not as 'lover'."
+    },
+    {
+      "id": "rajani",
+      "line": "cp.28.4b",
+      "script": "ནམ་ལངས",
+      "wylie": "nam langs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan folds rāti pohāilī, 'passed the night', into nam langs gyur, 'dawn broke', with no separate word for night; m6 then quotes nam as its lemma for rajanī."
+    },
+    {
+      "id": "betel",
+      "line": "cp.28.5a",
+      "script": "སོ་རྩི",
+      "wylie": "so rtsi",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "so rtsi is literally 'tooth medicine'; the commentary (m6) uses a different word, go la."
+    },
+    {
+      "id": "camphor",
+      "line": "cp.28.5a",
+      "script": "ག་བུར",
+      "wylie": "ga bur",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "hrdaya",
+      "line": "cp.28.5a",
+      "script": "སེམས",
+      "wylie": "sems",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan line has sems, 'mind', where the Bengali has hia, 'heart'; the commentary (m6) has snying, 'heart'."
+    },
+    {
+      "id": "mahasukha",
+      "line": "cp.28.5a",
+      "script": "བདེ་བ་ཆེ",
+      "wylie": "bde ba che",
+      "lemma": "bde ba chen po",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "sunyata",
+      "line": "cp.28.5a",
+      "script": "སྟོང་པ",
+      "wylie": "stong pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan moves suna, 'empty', from the start of 5b to the end of 5a as stong pa yi, 'of emptiness', qualifying Nairātmā in the next line."
+    },
+    {
+      "id": "rajani",
+      "line": "cp.28.5b",
+      "script": "མཚན་མོ",
+      "wylie": "mtshan mo",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "mtshan mo plainly means 'night' here, but it is marked likely because it also renders other words for night (see the entry night, nisi)."
+    },
+    {
+      "id": "bow",
+      "line": "cp.28.6a",
+      "script": "གཞུ",
+      "wylie": "gzhu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "sabara",
+      "line": "cp.28.7a",
+      "script": "ཤ་ཝ་རི་པ",
+      "wylie": "sha wa ri pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "In the bhaṇitā the Tibetan spells the word with sh and adds -pa, so that 'the mad Śabara' reads as the siddha's name, as in sa wa ri pa'i zhabs (m1)."
+    },
+    {
+      "id": "mountain",
+      "line": "cp.28.7a",
+      "script": "རི་བོ་མཆོག",
+      "wylie": "ri bo mchog",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The Tibetan moves giribara sihara, 'the peak of the finest mountain', from 7b into 7a as ri bo mchog rtse, rendering giri-vara word for word."
+    },
+    {
+      "id": "sabara",
+      "line": "cp.28.7b",
+      "script": "ཤ་ཝ་རི",
+      "wylie": "sha wa ri",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "In the last couplet the Tibetan spells the word sha wa ri, against sa wa ri in couplets 2 and 4."
+    },
+    {
+      "id": "dhruvapada",
+      "line": "cp.28.m2",
+      "script": "དྷཱུའི་རྐང་པར",
+      "wylie": "d+hU'i rkang par",
+      "lemma": "d+hU'i rkang pa",
+      "confidence": "clear",
+      "note": "The Tibetan transcribes dhruva as d+hU, 'the dhū verse', instead of translating it (brtan pa'i rkang pa)."
+    },
+    {
+      "id": "grhini",
+      "line": "cp.28.m2",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here the Tibetan has only khyim, 'house' (de'i khyim, 'his house'), for gṛhiṇī, against khyim mi mo, 'woman of the house', in 2b and m3."
+    },
+    {
+      "id": "gunja-garland",
+      "line": "cp.28.m2",
+      "script": "གུཉྫ",
+      "wylie": "guny+dza",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The commentary glosses the line's ma ru with guny+dza, a transcription of guñjā; marked likely because the same letters begin the rāga name Guñjarī (guny+dza ri)."
+    },
+    {
+      "id": "kantha",
+      "line": "cp.28.m2",
+      "script": "མགྲིན་པ",
+      "wylie": "mgrin pa",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "The commentary has mgrin pa, 'throat', for grīvā, where the line (1b) has mgul, 'neck'."
+    },
+    {
+      "id": "paksa",
+      "line": "cp.28.m2",
+      "script": "ཕྱོགས",
+      "wylie": "phyogs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "phyogs takes pakṣa as 'side, direction', so any play on 'wing' with the peacock feathers is lost in the Tibetan."
+    },
+    {
+      "id": "sambhoga-cakra",
+      "line": "cp.28.m2",
+      "script": "ལོངས་སྤྱོད་ཀྱི་འཁོར་ལོ",
+      "wylie": "longs spyod kyi 'khor lo",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Here longs spyod kyi 'khor lo, without the rdzogs pa of the form recorded for song 18; m6 has the same wording."
+    },
+    {
+      "id": "mela",
+      "line": "cp.28.m3",
+      "script": "གཅིག་པའོ",
+      "wylie": "gcig pa'o",
+      "lemma": "gcig pa",
+      "confidence": "likely",
+      "note": "The Tibetan renders melaka, 'meeting, union', as gcig pa, 'being one': the Śabara is wisdom and means made one."
+    },
+    {
+      "id": "p-bhagavati",
+      "line": "cp.28.m3",
+      "script": "བཅོམ་ལྡན་འདས",
+      "wylie": "bcom ldan 'das",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan uses bcom ldan 'das without the feminine -ma, so it does not distinguish the Blessed Lady from the Blessed One."
+    },
+    {
+      "id": "sahaja-sundari",
+      "line": "cp.28.m3",
+      "script": "ལྷན་ཅིག་སྐྱེས་པ་ནི་མཛེས་པ་ཅན",
+      "wylie": "lhan cig skyes pa ni mdzes pa can",
+      "lemma": "lhan cig skyes pa mdzes pa can",
+      "confidence": "likely",
+      "note": "The commentary turns the name into a statement, 'the innate one is beautiful' (lhan cig skyes pa ni mdzes pa can), against the name lhan skyes mdzes ldan ma in the refrain (2b)."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.28.m3",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here svarūpa is rang bzhin; m8 renders the same word ngo bo."
+    },
+    {
+      "id": "lila",
+      "line": "cp.28.m4",
+      "script": "རོལ་པར",
+      "wylie": "rol par",
+      "lemma": "rol pa",
+      "confidence": "likely",
+      "note": "The Tibetan keeps both the song's verb and the gloss, 'going is playing' ('gro ba ni rol par byed pa), for hiṇḍati krīḍati."
+    },
+    {
+      "id": "bhujanga",
+      "line": "cp.28.m5",
+      "script": "ལྟོས་འགྲོ",
+      "wylie": "ltos 'gro",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The commentary also reads 'snake', with the kenning ltos 'gro, 'belly-crawler', for Munidatta's bhujaṅga."
+    },
+    {
+      "id": "sukha",
+      "line": "cp.28.m5",
+      "script": "བདེ་བའི",
+      "wylie": "bde ba'i",
+      "lemma": "bde ba",
+      "confidence": "likely",
+      "note": "This is the sukha of krīḍāsukhapravāha (rol pa'i bde ba'i stobs); at sukhaprabhāsvare the Tibetan has nam mkha' la 'od gsal ba, 'clear light in the sky', as if reading kha, 'sky', for sukha."
+    },
+    {
+      "id": "trivajra",
+      "line": "cp.28.m5",
+      "script": "སེམས་ཀྱི་རྡོ་རྗེ",
+      "wylie": "sems kyi rdo rje",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "adhimukti",
+      "line": "cp.28.m6",
+      "script": "མོས་པ",
+      "wylie": "mos pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Plain mos pa, without the lhag par of the form recorded for song 20."
+    },
+    {
+      "id": "betel",
+      "line": "cp.28.m6",
+      "script": "གོ་ལར",
+      "wylie": "go lar",
+      "lemma": "go la",
+      "confidence": "likely",
+      "note": "The commentary has go la for tāmbūla, not the line's so rtsi."
+    },
+    {
+      "id": "hetu",
+      "line": "cp.28.m6",
+      "script": "རྒྱུ",
+      "wylie": "rgyu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "hrdaya",
+      "line": "cp.28.m6",
+      "script": "སྙིང",
+      "wylie": "snying",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan comment has snying, 'heart', but introduces it with the wrong lemma, rma bya'i mdongs ('peacock plumes', from couplet 1), where the Sanskrit has hiem̐."
+    },
+    {
+      "id": "sarvakaravaropeta",
+      "line": "cp.28.m6",
+      "script": "རྣམ་པ་ཐམས་ཅད་ཀྱི་མཆོག་དང་ལྡན་པའི་སྟོང་པ་ཉིད",
+      "wylie": "rnam pa thams cad kyi mchog dang ldan pa'i stong pa nyid",
+      "lemma": "",
+      "confidence": "clear",
+      "note": "Here vara is rendered (mchog, 'supreme'), which the form recorded for song 8 lacks."
+    },
+    {
+      "id": "agama",
+      "line": "cp.28.m8",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "nalinivana",
+      "line": "cp.28.m8",
+      "script": "པདྨ",
+      "wylie": "pad+ma",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has pad+ma bzhin du, 'like a lotus', with no word for grove, where the Sanskrit has 'towards the lotus grove of the wheel of great bliss'."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.28.m8",
+      "script": "ངོ་བོ",
+      "wylie": "ngo bo",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Here svarūpa is ngo bo; m3 has rang bzhin."
+    },
+    {
+      "id": "trivajra",
+      "line": "cp.28.m8",
+      "script": "སེམས་རྡོ་རྗེ",
+      "wylie": "sems rdo rje",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    }
+  ],
+  "questions": [
+    "sabari at 1b: the Tibetan line does not name the Śabarī (rma bya'i mdongs ni lus la gyon, 'wears peacock plumes on the body'), so there is nothing to match; she is matched at 1a and 3b.",
+    "sabara at 4a: the Tibetan line names no Śabara (khams gsum po yi khri nyid bshams); the word is given at 2a, 7a and 7b instead.",
+    "forest at 3b and m4: the Tibetan has no word for forest. Line 3b has only 'the Śabarī goes alone' (gcig pur sa wa ri nyid 'gro), and m4 renders kāyaparvatavane as lus kyi ri bo, 'the body-mountain', dropping vana.",
+    "vicitra at m2: here the word is the ordinary adjective in nānāvicitra, 'many and varied', not the first of the four moments; the Tibetan rnam pa sna tshogs pa renders nānāvicitra as a whole. Left out so the plain adjective is not recorded as the technical term.",
+    "svarupa at m2: no separate word; in rnam par rtog pa'i gzugs kyis lhag par gnas pa the Tibetan seems to fold vikalparūpaṃ and svarūpeṇa into one gzugs kyis. Equivalents are given from m3 (rang bzhin) and m8 (ngo bo).",
+    "prabhava at m6: the Tibetan has only rgyu dang 'bras bu'i ngo bo, 'the nature of cause and fruit', for phalahetubhāvaṃ prabhāvaṃ; nothing renders prabhāva (no mthu).",
+    "ekarasa at m7: where the Sanskrit has ekarasaṃ bāṇam, 'the arrow of one taste', the Tibetan quotes the verse line again (mda' gcig nyid ni bsdogs byas nas) and has no ro gcig.",
+    "p-sabara at m7: where the Sanskrit has mayā savarapādena, 'by me, Śabarapāda', the Tibetan has sa ra ha'i zhabs bdag gis, 'by me, Saraha'. Per instructions no equivalent is given. The heading also names Saraha, while m1 has sa wa ri pa'i zhabs.",
+    "tattva at m8: in the quoted verse the Tibetan has sems nyid log par gyur pa la, 'when the mind itself turns back', for citte tattve pravṛtte; nyid may stand for tattva, but that is too weak to record. log pa also suggests a reading nivṛtte for pravṛtte.",
+    "Some equivalents are marked likely only because a clear match is searched as a plain substring: gzhu (bow) sits inside gzhung, 'treatise'; snying (heart) inside snying rje and snying po; rgyu (cause) inside rgyud; rol (play) inside pha rol; guny+dza inside the rāga name guny+dza ri. The reviewer may wish to upgrade them if the search is syllable-aware."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "4bf830a8650f5bb13ec0feb412151716fae6986d80f2f3654fc4d93f2cfc7435",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "5109c1875231a472ac3416bcb24eb75ecefe1d9ca82373b7b2877df1ba618ddb",
+    "sourceSha": "e52e49cde02efc3b21492146bce6242e5df39663e7de012e38edb47065a6d813",
+    "parallelSha": "351e78b905d46d6159da290f86c72bce42c2eaf380060c23e0eb9a82920fc603"
+  }
+}

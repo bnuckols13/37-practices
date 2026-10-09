@@ -1,0 +1,118 @@
+{
+  "unit": "cp.43",
+  "equivalents": [
+    {
+      "id": "bangala",
+      "line": "cp.43.h1",
+      "script": "བཾ་ག་ལ",
+      "wylie": "baM ga la",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan transcribes the rāga name; marked likely only because Baṅgāla is also the name of Bengal, which the same transcription could mean elsewhere."
+    },
+    {
+      "id": "sphurana",
+      "line": "cp.43.1a",
+      "script": "འཕྲོ",
+      "wylie": "'phro",
+      "lemma": "'phro ba",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "svabhava",
+      "line": "cp.43.1b",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "janma",
+      "line": "cp.43.3b",
+      "script": "སྐྱེ",
+      "wylie": "skye",
+      "lemma": "skye ba",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "jagat",
+      "line": "cp.43.m2",
+      "script": "འགྲོ་བ",
+      "wylie": "'gro ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "sukha",
+      "line": "cp.43.m2",
+      "script": "བདེ་བ",
+      "wylie": "bde ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "In the comment's first sentence the Tibetan has bde ba chen po, 'great bliss', for the sukha of khasamopamasukhasvabhāva; the Dvikalpa verse has plain bde ba."
+    },
+    {
+      "id": "agama",
+      "line": "cp.43.m3",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "samarasa",
+      "line": "cp.43.m3",
+      "script": "རོ་གཅིག་ཏུ་གྱུར་པ",
+      "wylie": "ro gcig tu gyur pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The comment renders samarasībhūta as ro gcig tu gyur pa, with ro gcig, the usual word for ekarasa 'one taste', where the song line (2b) has ro mnyam."
+    },
+    {
+      "id": "upalambha",
+      "line": "cp.43.m3",
+      "script": "དམིགས་པ",
+      "wylie": "dmigs pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.43.m5",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Munidatta's svarūpa here (sakalabhāvānām eṣaḥ svarūpaḥ) paraphrases the song's sahāba in 4a, for which the Tibetan line has no word; the comment renders it rang bzhin."
+    }
+  ],
+  "questions": [
+    "marana (cp.43.2b): no equivalent. Where the Bengali has tima maraṇa aaṇā, the Tibetan line has de bzhin yid kyi rin chen, 'so the mind-jewel', as if reading maṇa raaṇa ('mind', 'jewel') rather than maraṇa ('death'). Munidatta's paraphrase of the refrain also has mind and jewel at this point (manobodhicittaratna, cp.43.m3; Tibetan yid nyid byang chub kyi sems rin po che), so the line deserves a witness flag. In 3b 'chi ba renders maraṇa as usual.",
+    "p-rautu (cp.43.4a): no equivalent. The Tibetan line reads b+hu su kus smras ngo mtshar rjes smras ngo mtshar kun, 'Bhusuku said: wonder; then (rjes) said: wonder, all', taking rāutu bhaṇai as a second 'says' rather than a name or title; there is no transcription like the rA u ta the glossary records from song 41.",
+    "svabhava (cp.43.4a): no equivalent in the line. The Tibetan ends ngo mtshar kun, 'all [is] wonder', with nothing for eha sahāba, 'this [is] the nature'. Munidatta paraphrases sahāba with svarūpa, which the Tibetan comment renders rang bzhin (given under svarupa at cp.43.m5).",
+    "sva-para (cp.43.3a): no equivalent. The Tibetan line has no compound 'self and other': it reads 'for whom there is no self (bdag nyid med pa), for him others (gzhan dag)…', with gzhan dag for para alone and the self in the first clause, just as Munidatta's paraphrase separates ātmātmīyasambandha from parasambandha (cp.43.m4). The match on স্বপর in Shastri's svaparelā may be spurious.",
+    "anutpada (cp.43.3b): no equivalent. For āi anuaṇāre the Tibetan line has thog ma mtha' med, 'without beginning or end', perhaps reading the word with anta 'end' rather than anutpanna 'unarisen'; it has no word for non-arising. The comment (cp.43.m4) does render anutpanna, as dang por ma skyes pa.",
+    "coming-and-going (cp.43.m5): no single equivalent. For yātāyāta the Tibetan comment splits the pair: khyim du 'jug pa … 'ong ba, 'entering the house … coming'. The song's 4b has 'gro 'ong, 'going and coming', for jāi ṇa ābayi, but the term list does not tag that line.",
+    "sphurana (cp.43.m2): the comment has no word for sphurita: the innate mind 'makes [it] pervade the three worlds' ('jig rten gsum khyab par byed pa … sems su byed pa). The line's 'phro (1a) is given instead."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "18730077d4b777ebb68f447be6872af27b1aa344612d9b859eeda1c71484e698",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "64a9b7aa73823d73f6e9a1a34430bba61ae23f86f0ca696a3fc39c828419b060",
+    "sourceSha": "a5aaecd7bd6223a7b0a9c47a5eb8349b92d4ed0164fe34a0537f15cb7a89f229",
+    "parallelSha": "23d2ef43d92f3e983274b2c4a359d6cba70cf6dc536b4c214db67621969d1077"
+  }
+}

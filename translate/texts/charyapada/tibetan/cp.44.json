@@ -1,0 +1,104 @@
+{
+  "unit": "cp.44",
+  "equivalents": [
+    {
+      "id": "nirodha",
+      "line": "cp.44.2b",
+      "script": "འགོག་པས",
+      "wylie": "'gog pas",
+      "lemma": "'gog pa",
+      "confidence": "likely",
+      "note": "The Tibetan reads the refrain causally, dbus su 'gog pas bla med byang chub, 'through cessation in the middle, unsurpassed awakening', where the Bengali sets the words side by side."
+    },
+    {
+      "id": "kalakala",
+      "line": "cp.44.5a",
+      "script": "ཀ་ལ་ཡ",
+      "wylie": "ka la ya",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line transcribes kalaela as ka la ya and has drin, 'kindness, grace' ('by the grace of ka la ya'), where the Bengali has sādem̐, 'with the sound'; the comment (cp.44.m6) translates kalakala as ca co, 'noise'."
+    },
+    {
+      "id": "tathata",
+      "line": "cp.44.5b",
+      "script": "དེ་ཉིད",
+      "wylie": "de nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line adds gzhom med, 'unstruck', to the sound (de nyid gzhom med dbyangs), and the comment (cp.44.m6) has 'the unstruck sound of sameness' (mnyam pa nyid gzhom du med pa'i sgra) with no word for tathatā."
+    },
+    {
+      "id": "asava",
+      "line": "cp.44.m1",
+      "script": "བདུད་རྩིའི",
+      "wylie": "bdud rtsi'i",
+      "lemma": "bdud rtsi",
+      "confidence": "likely",
+      "note": "The Tibetan has bdud rtsi, 'nectar' (its usual word for amṛta), for āsava, 'liquor': Kaṅkaṇa is sated by 'drinking the nectar of supreme compassion'."
+    },
+    {
+      "id": "adhisthana",
+      "line": "cp.44.m2",
+      "script": "བྱིན་གྱིས་བརླབས་པ",
+      "wylie": "byin gyis brlabs pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "vicitra",
+      "line": "cp.44.m3",
+      "script": "སྣ་ཚོགས་པ",
+      "wylie": "sna tshogs pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "sukha",
+      "line": "cp.44.m5",
+      "script": "བདེ་བ",
+      "wylie": "bde ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "agama",
+      "line": "cp.44.m6",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "prabhava",
+      "line": "cp.44.m6",
+      "script": "མཐུ",
+      "wylie": "mthu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Shastri restores svakīyaprabhā[vaṃ]; the Tibetan rang nyid kyi mthu, 'his own power', supports the restoration."
+    }
+  ],
+  "questions": [
+    "svadhisthana (cp.44.m2): no equivalent. For tṛtīyasvādhiṣṭhānaśūnye the Tibetan has only byin gyis brlabs pa stong pa, with neither 'third' nor rang 'self', so it renders adhiṣṭhāna rather than svādhiṣṭhāna (byin gyis brlabs pa is given under adhisthana, from vajraguroś cādhiṣṭhānāt). Conversely, in cp.44.m3 the Tibetan has rang byin gyis brlabs pas, 'through self-blessing', where the Sanskrit has tiṣṭhāmi; tenāhaṃ.",
+    "tathata (cp.44.m6): no equivalent. For samatathatānādena the comment has mnyam pa nyid gzhom du med pa'i sgra yis, 'by the unstruck sound of sameness', with gzhom du med pa where tathatā stands (see the note on 5b)."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "f892ebacc8d13e1867281f39374d286df0ff6789306c8c8f470e92882f94fa80",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "64a9b7aa73823d73f6e9a1a34430bba61ae23f86f0ca696a3fc39c828419b060",
+    "sourceSha": "00e67bf9b95ad10a90f4f5dd389eb988cbf7c577a6bed44a0805002ea8868a8e",
+    "parallelSha": "e9517e4917576d177a2467c65b18a97e75c569d8a72879ff0ac702ed39a85285"
+  }
+}

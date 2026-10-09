@@ -3765,6 +3765,14 @@
           "lemma": "nyams su myong ba",
           "att": "AO",
           "where": "cp.45.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉམས་སུ་མྱོང་བར",
+          "translit": "nyams su myong bar",
+          "lemma": "nyams su myong ba",
+          "att": "AO",
+          "where": "cp.45.m4"
         }
       ],
       "match": {
@@ -4903,6 +4911,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.09.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདུད་རྩིའི",
+          "translit": "bdud rtsi'i",
+          "lemma": "bdud rtsi",
+          "att": "AO",
+          "where": "cp.44.m1"
         }
       ],
       "match": {
@@ -12325,6 +12341,90 @@
       }
     },
     {
+      "id": "citta-ratna",
+      "type": "term",
+      "status": "proposed",
+      "en": "mind-jewel",
+      "alt": [
+        "jewel of mind"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মরণ অঅণা",
+          "translit": "maraṇa aaṇā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.2b"
+        },
+        {
+          "lang": "san",
+          "script": "মনোবোধিচিত্তরত্ন",
+          "translit": "manobodhicittaratna",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་ཀྱི་རིན་ཆེན",
+          "translit": "yid kyi rin chen",
+          "lemma": "yid kyi rin chen",
+          "att": "AO",
+          "where": "cp.43.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་ཉིད་བྱང་ཆུབ་ཀྱི་སེམས་རིན་པོ་ཆེ",
+          "translit": "yid nyid byang chub kyi sems rin po che",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মরণ অঅণা"
+        ],
+        "san": [
+          "মনোবোধিচিত্তরত্ন"
+        ],
+        "bod": [
+          "ཡིད་ཀྱི་རིན་ཆེན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The mind pictured as a jewel. In the refrain of song 43 (2b), where Shastri prints maraṇa aaṇā, Munidatta's paraphrase (manobodhicittaratna) and the Tibetan line (yid kyi rin chen) point to maṇa raaṇa, 'mind-jewel', which enters the sky in the same taste. Compare king of mind, which Munidatta also calls the jewel of mind.",
+      "symbolic": {
+        "image": "a jewel that is the mind",
+        "readings": [
+          {
+            "referent": "the mind, the jewel of bodhicitta (manobodhicittaratna), which with the lord of yogis becomes of same taste and enters clear light, where there is no apprehension of knowledge; his paraphrase of the refrain, not an explicit gloss; the Tibetan comment agrees (yid nyid byang chub kyi sems rin po che)",
+            "per": "Munidatta",
+            "where": [
+              "cp.43.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bodhicitta",
+        "clear light",
+        "lord of yogis"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "cittapavana",
       "type": "term",
       "status": "proposed",
@@ -19656,7 +19756,11 @@
           "where": "cp.45.3b"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "བླ་མའི་ཚད"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<=গুরু)পরিমাণ"
@@ -19765,6 +19869,14 @@
           "lemma": "sampradāya",
           "att": "AS",
           "where": "cp.33.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མའི་གསུང་གི་དྲིན",
+          "translit": "bla ma'i gsung gi drin",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.45.m6"
         }
       ],
       "match": {
@@ -21097,6 +21209,14 @@
           "script": "དབང་ལྔ",
           "translit": "dbang lnga",
           "lemma": "dbang po",
+          "att": "AO",
+          "where": "cp.45.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་ལྔའི",
+          "translit": "dbang lnga'i",
+          "lemma": "dbang lnga",
           "att": "AO",
           "where": "cp.45.1a"
         }
@@ -24143,6 +24263,66 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "kata",
+      "type": "term",
+      "status": "proposed",
+      "en": "told",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কট",
+          "translit": "kaṭa",
+          "lemma": "kaṭa",
+          "att": "AS",
+          "where": "cp.43.4a"
+        },
+        {
+          "lang": "san",
+          "script": "কটমিতি",
+          "translit": "kaṭam iti",
+          "lemma": "kaṭa",
+          "att": "AS",
+          "where": "cp.43.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ངོ་མཚར",
+          "translit": "ngo mtshar",
+          "lemma": "ngo mtshar",
+          "att": "AO",
+          "where": "cp.43.4a"
+        }
+      ],
+      "match": {
+        "san": [
+          "কটমিতি"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])কট(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Old Bengali kaṭa, which follows 'says' twice in Bhusuku's signature line (song 43, 4a). Munidatta explains it as 'the meaning stated before', hence 'told'. The Tibetan line has ngo mtshar, 'wonder', as for akaṭa elsewhere (see wonder), and its comment speaks of what was said directly; a link with prakaṭa, 'manifest', is possible.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -28349,6 +28529,66 @@
         "readings": []
       },
       "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "majha",
+      "type": "term",
+      "status": "proposed",
+      "en": "middle",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাঝ",
+          "translit": "mājha",
+          "lemma": "mājha",
+          "att": "AS",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "དབུས",
+          "translit": "dbus",
+          "lemma": "dbus",
+          "att": "AO",
+          "where": "cp.44.2b"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])মাঝ(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "The middle, the space between (Old Bengali mājha, from Sanskrit madhya). The refrain of song 44 sets cessation in the middle (2b) without saying middle of what. Munidatta's paraphrase has 'cessation in the madhyamā', the central channel, in its place (cp.44.m3); the Tibetan line has dbus, 'centre'.",
+      "symbolic": {
+        "image": "the middle, where cessation is (2b)",
+        "readings": [
+          {
+            "referent": "the madhyamā, the central channel: his paraphrase of the refrain has 'cessation in the madhyamā' (madhyamānirodha) where the song has mājha niroha, with no explicit gloss; the Tibetan comment agrees (dbu mar 'gog pa)",
+            "per": "Munidatta",
+            "where": [
+              "cp.44.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "central channel",
+        "madhyamā",
+        "avadhūtī"
+      ],
       "texts": [
         "charyapada"
       ],
@@ -34742,6 +34982,14 @@
           "lemma": "'gog pa",
           "att": "AO",
           "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འགོག་པས",
+          "translit": "'gog pas",
+          "lemma": "'gog pa",
+          "att": "AO",
+          "where": "cp.44.2b"
         }
       ],
       "match": {
@@ -37783,7 +38031,9 @@
       "alt": [
         "Kaṅkaṇa"
       ],
-      "variants": [],
+      "variants": [
+        "Kaṅkaṇa"
+      ],
       "policy": "keep-source",
       "forms": [
         {
@@ -40657,6 +40907,14 @@
           "lemma": "mchog dga'",
           "att": "AO",
           "where": "cp.30.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མཆོག་གི་དགའ་བས",
+          "translit": "mchog gi dga' bas",
+          "lemma": "mchog gi dga' ba",
+          "att": "AO",
+          "where": "cp.45.m1"
         }
       ],
       "match": {
@@ -40665,7 +40923,8 @@
         ],
         "bod": [
           "མཆོག་ཏུ་དགའ་བ",
-          "མཆོག་དགའ"
+          "མཆོག་དགའ",
+          "མཆོག་གི་དགའ་བས"
         ]
       },
       "matchRe": {},
@@ -46347,6 +46606,56 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "sakara-nirakara",
+      "type": "term",
+      "status": "proposed",
+      "en": "with form and formless",
+      "alt": [
+        "with form, formless"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সাকারনিরাকারাদি",
+          "translit": "sākāranirākārādi",
+          "lemma": "sākāra, nirākāra",
+          "att": "AS",
+          "where": "cp.44.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པ་དང་བཅས་པ་དང་རྣམ་པ་མེད་པ",
+          "translit": "rnam pa dang bcas pa dang rnam pa med pa",
+          "lemma": "rnam pa dang bcas pa, rnam pa med pa",
+          "att": "AO",
+          "where": "cp.44.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "সাকারনিরাকার"
+        ]
+      },
+      "matchRe": {},
+      "definition": "'With form' (sākāra) and 'formless' (nirākāra): opposed Buddhist positions on whether awareness really bears the images of its objects, argued among later Yogācāra thinkers. Munidatta names them, 'and the like', as the clamour of novice yogins that the sound of sameness and suchness breaks (cp.44.m6). The Tibetan has rnam pa dang bcas pa and rnam pa med pa.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -56803,6 +57112,14 @@
           "lemma": "utprekṣita",
           "att": "AS",
           "where": "cp.45.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉེ་བར་བལྟའོ",
+          "translit": "nye bar blta'o",
+          "lemma": "nye bar lta ba",
+          "att": "AO",
+          "where": "cp.45.m2"
         }
       ],
       "match": {
@@ -59216,6 +59533,14 @@
           "lemma": "rig pa dang ldan pa'i skye bo",
           "att": "AO",
           "where": "cp.45.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མཁས་པས",
+          "translit": "mkhas pas",
+          "lemma": "mkhas pa",
+          "att": "AO",
+          "where": "cp.45.3b"
         }
       ],
       "match": {

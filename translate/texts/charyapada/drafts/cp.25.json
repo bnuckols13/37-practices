@@ -1,0 +1,498 @@
+{
+  "unit": "cp.25",
+  "title": "The Weaver",
+  "summary": "A weaver sings of his work: weaving five times over he makes a stainless cloth, he weaves in a house three and a half cubits long and the weave fills the sky, and in the refrain, a weaver by nature, he says he does not know how to mark warp and weft as his own. At the end the weaver, finding the taste of weaving, is freed from the net of delusion. The song survives only in the Tibetan translation, as does Munidatta's comment, which reads the house of three and a half cubits as one's own body (cp.25.m4), the stainless cloth as what natural clear light makes wholly pure (cp.25.m2), and the fine weave, in twilight language, through prāṇa and āyāma and the unstruck sound (cp.25.m5).",
+  "lines": [
+    {
+      "id": "cp.25.h1",
+      "translit": "/'di ni thag pa'i zhabs kyi glu dbyangs so/",
+      "gloss": "this · (topic) · of the rope, cord (the name) · feet (honorific, for -pāda) · of · song, melody · (final)",
+      "en": "This is the song of [Tantrīpāda]{p-tantri}.",
+      "terms": [
+        {
+          "id": "p-tantri",
+          "src": "ཐག་པའི་ཞབས"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan heading names no rāga, as most song headings do: it says only ‘this is the song of Thag pa'i zhabs’. Whether a melody name dropped out in transmission cannot be told. I render glu dbyangs, which the glossary lists under raga, as ‘song’, since here it names the song itself (see termsOmitted)."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.1a",
+      "translit": "/chos 'byung rkang rten rdo rje'i gnas kyi skad/",
+      "gloss": "dharmodaya, source of dharmas · footrest, foot support · of the vajra · place · of · speech, voice, language, sound",
+      "en": "The [dharmodaya]{dharmodaya}, the [footrest]{footrest}, the voice of the [vajra]{vajra}'s place;",
+      "terms": [
+        {
+          "id": "dharmodaya",
+          "src": "ཆོས་འབྱུང"
+        },
+        {
+          "id": "footrest",
+          "src": "རྐང་རྟེན"
+        },
+        {
+          "id": "vajra",
+          "src": "རྡོ་རྗེ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "skad is ‘speech, language’, also ‘voice, cry, sound’; I chose ‘voice’ to keep both senses open. Munidatta's comment repeats ‘the skad of its place’ and calls it yoga (cp.25.m2), and uses skad for ‘language’ in dgongs pa'i skad, ‘twilight language’ (cp.25.m2). A slip for skud, ‘thread’, would suit a weaving song but has no support in the comment, which has skad too; not adopted."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The three phrases stand side by side with no verb or case marking, so the line may be a list (as rendered) or an equation (‘the dharmodaya is the footrest …’). How it runs on into 1b is not marked either."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "rkang rten is literally ‘foot support’; the glossary's ‘footrest’ is kept. If the line names parts of a loom it might be a treadle, but that is a guess."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.1b",
+      "translit": "/lan lnga 'thag cing 'thag pas dri med gos/",
+      "gloss": "five times · weaving and · by weaving · stainless · cloth",
+      "en": "five times over, by [weaving]{weaving} and weaving, a stainless [cloth]{cloth}.",
+      "terms": [
+        {
+          "id": "weaving",
+          "src": "འཐག"
+        },
+        {
+          "id": "cloth",
+          "src": "དྲི་མེད་གོས"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "'thag cing 'thag pas is a doubled verb, ‘by weaving and weaving’, that is, by repeated weaving. No subject is stated, and the stainless cloth has no verb of its own; I keep the bare noun phrase rather than supply ‘I make’."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.2a",
+      "translit": "/bdag ni tha ga'i rang bzhin rgyu rnams dang /",
+      "gloss": "I · (topic) · of a weaver · nature · warp (also ‘cause’) · (plural) · and",
+      "en": "I am by nature a [weaver]{weaver}; the [warp]{warp} and",
+      "terms": [
+        {
+          "id": "weaver",
+          "src": "ཐ་གའི"
+        },
+        {
+          "id": "warp",
+          "src": "རྒྱུ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "2a and 2b are one sentence: bdag ni, ‘I’, is its topic, and 2b ends with mi shes so, ‘do not know’. tha ga'i rang bzhin is literally ‘of a weaver's nature’. rgyu ordinarily also means ‘cause’; the pairing with spun in 2b supports ‘warp’ here."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.2b",
+      "translit": "/spun dog bdag gir mtshon pa mi shes so/",
+      "gloss": "weft (ordinarily ‘siblings’) · ? (‘narrow, tight’; or for dag, plural) · as my own · to mark, indicate · not · know · (final)",
+      "en": "the [weft]{weft} I do not know how to mark as my own.",
+      "terms": [
+        {
+          "id": "weft",
+          "src": "སྤུན"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "spun dog: spun ordinarily means ‘siblings’; ‘weft’ follows the glossary and the pairing with rgyu, ‘warp’, and is a draft reading to be checked. dog is unexplained: Munidatta's comment cites spun dag, with the plural dag (cp.25.m3), and dog may be a slip for it; dog pa, ‘narrow, tight’ (‘the tight weft’), is also possible. I leave dog unrendered."
+        },
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "bdag gir mtshon pa mi shes so can be (a) ‘[I] do not know how to mark [them] as my own’, taking bdag ni of 2a as subject (chosen), or (b) ‘one who marks [them] as his own does not know’, with mtshon pa as an agent noun. Munidatta's wording, mtshon pa dag gis mi shes so, ‘those who mark … do not know’ (cp.25.m3), points to (b). mtshon pa is ‘indicate, mark, designate’; what marking warp and weft as one's own means at the loom (claiming them? counting them?) is unclear."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.3a",
+      "translit": "/phyed bcas khru gsum khyim 'thag sun sgron gsum/",
+      "gloss": "with a half · cubit · three · house · weave · ? · lamp (or ‘light, kindle’) · three",
+      "en": "In a [house]{house} of [three and a half cubits]{three-and-a-half-cubits}, [weaving]{weaving}, three lamps;",
+      "terms": [
+        {
+          "id": "three-and-a-half-cubits",
+          "src": "ཕྱེད་བཅས་ཁྲུ་གསུམ"
+        },
+        {
+          "id": "house",
+          "src": "ཁྱིམ"
+        },
+        {
+          "id": "weaving",
+          "src": "འཐག"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "sun sgron gsum is unclear. sgron is usually ‘lamp’ (sgron me) or ‘to light, kindle’; I render sgron gsum ‘three lamps’ and leave sun unrendered (sun pa, ‘weary’, makes no evident sense). Conjectures, none adopted: sun for spun, ‘weft’ (a dropped subscript p), giving something like ‘three wefts laid’; or sgron for sgrol, ‘release’, which Munidatta's ‘released into the house of meditation’ and ‘the third joy is produced’ might echo (cp.25.m4)."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "khyim 'thag may be ‘weave in a house’ (as rendered), ‘weave at home’ or ‘weave a house’. In my reading the three and a half cubits measure the house; they could instead measure the cloth or the loom, as the glossary allows. ‘In’ is supplied; the Tibetan has no case marker."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.3b",
+      "translit": "/nam mkha' khengs gyur de ni thag 'thag go/",
+      "gloss": "sky · filled · became · that · (topic) · weave (for thags, ‘woven work’) · weave (verb) · (final)",
+      "en": "the [sky]{gagana} is filled: that is [weaving]{weaving} the weave.",
+      "terms": [
+        {
+          "id": "gagana",
+          "src": "ནམ་མཁའ"
+        },
+        {
+          "id": "weaving",
+          "src": "ཐག་འཐག"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "nam mkha' khengs gyur is ‘the sky became filled’ or, as a participle, ‘[what] has come to fill the sky’. de ni thag 'thag go is ‘that is weaving the weave’, thag standing for thags, ‘woven work’, as the cognate object of 'thag."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.4a",
+      "translit": "/gzhom med thag bzangs sbra ni bla ma'i gsung bral min/",
+      "gloss": "unstruck, indestructible · fine weave (for thags bzangs) · tent of woven yak hair (or for sgra, ‘sound’) · (topic) · of the guru · word, speech (honorific) · apart · is not",
+      "en": "The tent of [unstruck]{anahata} [fine weave]{fine-weave} is not apart from the [guru]{guru}'s word;",
+      "terms": [
+        {
+          "id": "anahata",
+          "src": "གཞོམ་མེད"
+        },
+        {
+          "id": "fine-weave",
+          "src": "ཐག་བཟངས"
+        },
+        {
+          "id": "guru",
+          "src": "བླ་མ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "sbra is ordinarily a tent, in Tibetan use one woven of yak hair; I translate it as it stands. Munidatta's comment speaks here of the unstruck sound (gzhom du med pa'i sgra) and the innate echo (sgra brnyan) (cp.25.m5), which suggests sgra, ‘sound’, read for or confused with sbra; gzhom med sgra is the regular Tibetan for the unstruck sound (anāhata śabda). With sgra the line would run ‘The unstruck sound of the fine weave is not apart from the guru's word’. Not adopted, since the song is translated as it stands and not harmonized with the comment."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "gzhom med is rendered ‘unstruck’ as the glossary directs (anahata). With a woven tent its literal sense, ‘indestructible’, might read better; ‘unstruck’ fits best if the line is about sound (see the reading flag)."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "The line spells thag bzangs; Munidatta's comment has thags bzangs, ‘fine weave’ (cp.25.m5), the expected spelling. thag bzangs sbra is a compound, ‘fine-weave tent’, rendered ‘the tent of fine weave’."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.4b",
+      "translit": "/gnas gnyis bcad nas rgyun rnams bsgrims shing brtan por sgyongs/",
+      "gloss": "place · two · cut · having · stream, flow, strand · (plural) · drawn tight · and · firmly · stretched (for rgyongs?)",
+      "en": "the [two places]{two-places} cut, the strands are drawn tight and stretched firm.",
+      "terms": [
+        {
+          "id": "two-places",
+          "src": "གནས་གཉིས"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "rgyun rnams is ‘the streams, flows, continuities’; I render ‘the strands’, a continuous run of thread. It may be a slip for rgyu rnams, ‘the warp threads’, as in 2a, with a stray n."
+        },
+        {
+          "kind": "reading",
+          "level": "medium",
+          "note": "sgyongs is not a standard form. I take it as rgyongs, ‘stretch taut’ (rgyong ba), which suits bsgrims, ‘drawn tight’; skyongs, ‘keep, maintain’ (‘keep them firm’), is the other likely reading."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "No subject is stated, and the verbs may be imperative (‘cut … draw tight … stretch’) or past (‘I cut … drew tight …’). I use a passive to avoid choosing. Munidatta's comment on the couplet ends ‘I shall make it indivisible’ (bdag gis bya'o) (cp.25.m5), and cites the first words as gnas gnyis chad gyur, ‘the two places became cut’."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.5a",
+      "translit": "/nor bus son pa stong nyid kyis mtshon stong nyid snying /",
+      "gloss": "by the jewel · sown (?) · emptiness · by · marked, indicated · emptiness · heart, essence",
+      "en": "Sown with the [jewel]{mani}, marked by [emptiness]{sunyata}, the heart of [emptiness]{sunyata}:",
+      "terms": [
+        {
+          "id": "mani",
+          "src": "ནོར་བུ"
+        },
+        {
+          "id": "sunyata",
+          "src": "སྟོང་ཉིད"
+        },
+        {
+          "id": "sunyata",
+          "src": "སྟོང་ཉིད"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "nor bus son pa is unclear: ‘by the jewel’ plus son pa, which I take as ‘sown’ (son, ‘seed, sown seed’); ‘sprouted from the jewel’ or ‘set with jewels’ are other guesses, and the words may be corrupt. Munidatta cites nor bus son pa, and then also nor bur gnas, ‘abiding in the jewel’, which the line lacks (cp.25.m6)."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "The three phrases are not linked: what is sown with the jewel and marked by emptiness is not said (the weave? the cloth?), nor whether ‘the heart of emptiness’ stands in apposition to it. Kept as a list."
+        },
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "mtshon is ‘marked, indicated’, as in 2b. Heard as tshon, ‘dye, colour’, it would give ‘coloured by emptiness’, which suits a cloth; not adopted. snying is ‘heart, essence’; stong nyid snying rje, ‘emptiness and compassion’, would need a syllable the line does not have."
+        }
+      ]
+    },
+    {
+      "id": "cp.25.5b",
+      "translit": "/thag gi ro rnyed tha ga gti mug dra ba grol/",
+      "gloss": "weave (for thags) · of · taste · found · weaver · delusion · net · freed, come loose",
+      "en": "finding the taste of [weaving]{weaving}, the [weaver]{weaver} is freed from the [net of delusion]{mohajala}.",
+      "terms": [
+        {
+          "id": "weaving",
+          "src": "ཐག"
+        },
+        {
+          "id": "weaver",
+          "src": "ཐ་ག"
+        },
+        {
+          "id": "mohajala",
+          "src": "གཏི་མུག་དྲ་བ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "The poet names himself only as tha ga, ‘the weaver’ (the bhaṇitā). I link it to the glossary's weaver, not to p-tantri: the line has the common noun, without the name or the honorific zhabs, and p-tantri's approved English is the name Tantrīpāda, which the line does not contain. See the note on this line."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "grol is intransitive, ‘be freed, come loose’. I read ‘the weaver is freed from the net of delusion’; the words also allow ‘the net of delusion comes undone’ (or ‘the weaver's net of delusion comes undone’), which is closer to Munidatta's ‘the binding … became torn apart’ (cp.25.m6)."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "thag gi ro is ‘the taste of the weave’ (thag for thags); with the glossary's ‘weaving’ it becomes ‘the taste of weaving’."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.25.h1",
+      "kind": "witness",
+      "text": "Song 25 is lost from the Nepal palm-leaf manuscript, which lacks songs 24, 25 and 48. It survives only inside the Tibetan translation of Munidatta's commentary (Toh 2293), which quotes each song before commenting on it; his comment on this song is likewise known only in Tibetan (cp.25.m1). The original is lost: this is a translation of the Tibetan translation, and no Old Bengali original is reconstructed. The Wylie in translit is checked against the Tibetan script; the machine Wylie needed no correction.",
+      "cites": [
+        "cp.25.m1"
+      ]
+    },
+    {
+      "anchor": "cp.25.h1",
+      "kind": "philology",
+      "text": "thag pa'i zhabs: thag pa is ‘rope, cord’ and zhabs, ‘feet’, is the Tibetan for the honorific -pāda; together they render the Sanskrit name Tantrīpāda (tantrī, ‘string, cord’). Munidatta's comment calls the poet the siddhācārya tha ga pa'i zhabs, ‘the venerable weaver’, who spoke for the sake of beings the meaning of understanding all dharmas (cp.25.m1). The same spelling thag also stands for the weave (thags) in 3b, 4a and 5b; whether that echo of the name is the poet's or the translators' cannot be told.",
+      "cites": [
+        "cp.25.m1"
+      ]
+    },
+    {
+      "anchor": "cp.25.1a",
+      "kind": "philology",
+      "text": "dharmodaya, ‘source of dharmas’ (Tibetan chos 'byung): in the yoginī tantras a triangular figure, the matrix from which phenomena arise, often identified with the female organ. Kept in source form, as the glossary directs.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.25.1a",
+      "kind": "philology",
+      "text": "vajra (Tibetan rdo rje): the thunderbolt-diamond, emblem of the indestructible in tantric Buddhism; in the code language of the yoginī tantras it can also stand for the male organ. The line does not say what ‘the vajra's place’ is. Kept in source form, as the glossary directs.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.25.1a",
+      "kind": "imagery",
+      "text": "The line sets three things side by side without a verb. In a song about weaving they may be parts of the loom or of the weaver's place, the footrest perhaps a treadle worked by the feet; nothing in the line confirms this, and the Old Bengali words behind the Tibetan are lost.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.25.1",
+      "kind": "doctrine",
+      "text": "Munidatta takes the dharmodaya, in twilight language, as the dharmodaya of wisdom, or else as the source of the dharmas that through ultimate awareness have become just as they really are; the footrest as the four feet that have become the support of the four joys, with a verse of the Hevajra; and the vajra through the act and agent of the lord of yogis, calling ‘the voice of its place’ yoga, with a verse of Saraha. He then speaks of conventional bodhicitta, in the lotus of wisdom, as having the nature of the five wisdoms beginning with the mirror-like, and of emptiness and compassion, by the kindness of the vajra guru; he does not tie the five wisdoms to the line's ‘five times’. The stainless cloth he explains as what is made wholly pure by natural clear light, adding the Hevajra verse: the conventional is like jasmine, the ultimate has the form of bliss (cp.25.m2).",
+      "cites": [
+        "cp.25.m2"
+      ]
+    },
+    {
+      "anchor": "cp.25.2",
+      "kind": "doctrine",
+      "text": "Munidatta says the refrain makes right realization firm. He reads the ‘I’ of 2a as Tha ga pa'i zhabs himself, ‘the self of means by nature’, and on warp and weft says that those who mark (mtshon pa) by apprehending the distinction of conventional and ultimate do not know; he does not explicitly equate warp and weft with anything. He adds a verse: since grasped and grasper are not things, mind is nowhere born; where mind itself is unborn, that is the supreme state (cp.25.m3).",
+      "cites": [
+        "cp.25.m3"
+      ]
+    },
+    {
+      "anchor": "cp.25.2b",
+      "kind": "witness",
+      "text": "Where the line has spun dog, Munidatta's comment cites rgyu dang spun dag, ‘warp and wefts’, with the plural dag; the line's dog may be a slip for it. His comment also has mtshon pa dag gis mi shes so, ‘those who mark do not know’, with a plural and an agent marker the line lacks, which makes the marker, not the weaver, the one who does not know (cp.25.m3).",
+      "cites": [
+        "cp.25.m3"
+      ]
+    },
+    {
+      "anchor": "cp.25.3a",
+      "kind": "philology",
+      "text": "khru is the cubit, the length of the forearm (Sanskrit hasta). Indian medical texts reckon a person's height at eighty-four finger-breadths, that is, three and a half cubits of twenty-four, and as far as I know later Bengali devotional song calls the body ‘a house of three and a half cubits’ (please check). If that idiom is as old as the song, the house of 3a may already be the body, as Munidatta takes it (cp.25.m4); the line itself names only a house.",
+      "cites": [
+        "cp.25.m4"
+      ]
+    },
+    {
+      "anchor": "cp.25.3",
+      "kind": "imagery",
+      "text": "A small room and a boundless cloth stand side by side: the weaver works in a house three and a half cubits long, by three lamps if sgron is ‘lamp’, and what is woven fills the sky. The paradox is kept as it stands.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.25.3",
+      "kind": "doctrine",
+      "text": "Munidatta says his second verse (he leaves the refrain out of the count) speaks of the support and of steadiness. He reads ‘three and a half cubits’ and the words that follow as being released, in one's own body, into the house of meditation, where the third joy is produced; and ‘the sky is filled’ as being wholly joined with purified clear light, so that, endowed with discerning vision, ‘I abide’. He adds a verse of the Hevajra on mind and body (cp.25.m4).",
+      "cites": [
+        "cp.25.m4"
+      ]
+    },
+    {
+      "anchor": "cp.25.4a",
+      "kind": "witness",
+      "text": "The line's sbra, ‘tent’, has no counterpart in Munidatta's gloss, which instead speaks of fully imagining the unstruck sound (gzhom du med pa'i sgra) and the image in the two winds, and of the innate echo (sgra brnyan) (cp.25.m5). Since gzhom med sgra is the regular Tibetan for the unstruck sound, the translators' text or Munidatta's may have read sgra where the printed line has sbra. The line also spells thag bzangs where the comment has thags bzangs.",
+      "cites": [
+        "cp.25.m5"
+      ]
+    },
+    {
+      "anchor": "cp.25.4a",
+      "kind": "imagery",
+      "text": "In Tibetan use sbra is the nomad's tent, woven of yak hair in long strips and sewn together, so a ‘tent of fine weave’ stays within the weaving image; but an Indian weaver's song is an unexpected place for it, which is one reason to suspect the reading.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.25.4",
+      "kind": "doctrine",
+      "text": "Munidatta says the fine weave is twilight language: through prāṇa and āyāma, which have the nature of means and wisdom, one fully imagines the unstruck sound and the image in the two winds; the innate echo, and conventional bodhicitta itself, are to be accomplished by the true guru's word. The two places that are cut he explains as the grasping at things and non-things, cut off before the right union of vajra and lotus is taught, and he ends: ‘I shall make it indivisible’ (cp.25.m5).",
+      "cites": [
+        "cp.25.m5"
+      ]
+    },
+    {
+      "anchor": "cp.25.4b",
+      "kind": "witness",
+      "text": "Munidatta cites the opening of 4b as gnas gnyis chad gyur, ‘the two places became cut’, where the line has gnas gnyis bcad nas, ‘having cut the two places’ (cp.25.m5); the sense is close, but the comment's text was not identical with the printed line.",
+      "cites": [
+        "cp.25.m5"
+      ]
+    },
+    {
+      "anchor": "cp.25.5",
+      "kind": "doctrine",
+      "text": "Munidatta calls the last couplet praise of the yogin. On nor bus son pa he speaks of understanding all dharmas as luminous by nature and of embracing the person in the prime of youth (dar ma'i skye bo), which, transformed by its own nature, is the avadhūtī, the yoginī Nairātmā; the link to the jewel is not explained. ‘Abiding in the jewel’ he glosses: I, Tha ga'i zhabs, have obtained the way of weaving; by that kindness the binding by the thread (srad bu) of delusion's clinging embrace became torn apart. The line has a net (dra ba) of delusion, not a thread. On thag he says: having parted from the dharmas that are born, he became a vajra-holder; he closes with a verse of Saraha (cp.25.m6).",
+      "cites": [
+        "cp.25.m6"
+      ]
+    },
+    {
+      "anchor": "cp.25.5a",
+      "kind": "witness",
+      "text": "Munidatta cites two phrases from this couplet: nor bus son pa, as in the line, and nor bur gnas, ‘abiding in the jewel’, which the line does not have (cp.25.m6). His text of the couplet may have differed, or the second citation may paraphrase son pa; neither settles what son pa means.",
+      "cites": [
+        "cp.25.m6"
+      ]
+    },
+    {
+      "anchor": "cp.25.5b",
+      "kind": "philology",
+      "text": "The bhaṇitā names the poet only as tha ga, ‘the weaver’, as the refrain does in 2a, with no name and no honorific zhabs. I have linked the word to the glossary's weaver, not to p-tantri: the line has the common noun, and p-tantri's approved English is the name Tantrīpāda, which the line does not contain. That the weaver is the poet speaking of himself is shown by the heading (thag pa'i zhabs) and by Munidatta's gloss on this couplet, ‘I, Tha ga'i zhabs, have obtained the way of weaving’ (cp.25.m6).",
+      "cites": [
+        "cp.25.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "raga",
+      "line": "cp.25.h1",
+      "reason": "glu dbyangs here names the song itself (‘this is the song of …’) and no melody is named, so ‘rāga’ would misstate the heading; rendered ‘song’. See the flag on the heading and the questions."
+    }
+  ],
+  "proposals": [],
+  "questions": [
+    "Heading (h1): the Tibetan reads ‘This is the song of Thag pa'i zhabs’ and names no rāga. I translated the sentence as it stands and rendered glu dbyangs ‘song’, leaving the raga term out. Do you want it normalized to the house style (just ‘Tantrīpāda’), and should glu dbyangs be marked as rāga anyway?",
+    "Bhaṇitā (5b): the poet calls himself only ‘the weaver’ (tha ga). I linked it to the term weaver rather than to p-tantri, because the line has the common noun and not the name. Do you agree, or should self-naming always link to the person entry, even when the surface is not the approved name?",
+    "3a, sun sgron gsum: I rendered ‘three lamps’ (sgron gsum) and left sun unrendered. Keep that, put the phrase in Wylie, or adopt a conjecture (sun for spun, ‘weft’, giving ‘three wefts laid’)?",
+    "4a, sbra: I translated ‘tent’ (sbra, a woven yak-hair tent) as the line stands. Munidatta's gloss speaks of the unstruck sound (sgra), and gzhom med sgra is the standard phrase. Emend to ‘The unstruck sound of the fine weave is not apart from the guru's word’, or keep ‘tent’ with the note?",
+    "4a, gzhom med: with a woven tent the glossary's ‘unstruck’ reads oddly, and ‘indestructible’ is the literal sense. Should the glossary allow ‘indestructible’ as a variant where no sound is in view, or does ‘unstruck’ stand here (especially if sbra is read sgra)?",
+    "4b, rgyun … sgyongs: I read ‘the strands are drawn tight and stretched firm’, taking rgyun as a run of thread and sgyongs as rgyongs, ‘stretch taut’. Would you rather emend rgyun to rgyu, ‘warp’ (as in 2a), or read skyongs, ‘keep (them) firm’? Should the line be an imperative instead of my passive?",
+    "5a, nor bus son pa: I rendered ‘sown with the jewel’. Is ‘set with jewels’ or ‘sprouted from the jewel’ better, or should the phrase be marked as corrupt? Munidatta also cites nor bur gnas, ‘abiding in the jewel’, which the line lacks.",
+    "2b, spun dog: I took spun as ‘weft’ (the glossary's draft sense) and left dog unrendered as a probable slip for the plural dag, which Munidatta's citation has. Can you confirm the weaving sense of rgyu and spun, and the treatment of dog?",
+    "Refrain (2a–2b): I read ‘I … do not know how to mark [warp and weft] as my own’. Munidatta's wording (mtshon pa dag gis mi shes so) suggests ‘those who mark them as their own do not know’. Which reading should the line carry?",
+    "1a, skad: I chose ‘voice’ (the word covers speech, language, voice and sound). Would you prefer ‘speech’ or ‘language’, which is how Munidatta uses skad in ‘twilight language’?",
+    "3a note: I mention that Indian medical texts give a person's height as three and a half cubits, and that later Bengali song calls the body a house of three and a half cubits. Please check the Bengali idiom before it goes in, or tell me to drop it."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "81f211574ecf3df011645bf4229cbdd92c279a752e2e77636fb277699f8ba30d",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "abbb09922b438da6a136c4095c7e9dc5bccefba1968fd76259da0c39819aaddd",
+    "sourceSha": "0d096f034a6b01e2beec47a7d96d349baa1fa474ae4f7485d3fb19af14e614c5"
+  }
+}

@@ -4117,6 +4117,14 @@
           "lemma": "bdag",
           "att": "AO",
           "where": "cp.31.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་ཉིད",
+          "translit": "bdag nyid",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.32.3b"
         }
       ],
       "match": {
@@ -10255,6 +10263,14 @@
           "lemma": "grogs",
           "att": "AO",
           "where": "cp.19.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོགས",
+          "translit": "'grogs",
+          "lemma": "'grogs pa",
+          "att": "AO",
+          "where": "cp.32.4b"
         }
       ],
       "match": {
@@ -13888,6 +13904,14 @@
           "lemma": "akṣi",
           "att": "AS",
           "where": "cp.32.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མིག་གིས",
+          "translit": "mig gis",
+          "lemma": "mig",
+          "att": "AO",
+          "where": "cp.32.m6"
         }
       ],
       "match": {
@@ -13956,6 +13980,14 @@
           "translit": "bapā",
           "lemma": "bāpa",
           "att": "AS",
+          "where": "cp.32.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀྱེ",
+          "translit": "kye",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.32.5b"
         }
       ],
@@ -25905,6 +25937,14 @@
           "lemma": "śaśimaṇḍala",
           "att": "AS",
           "where": "cp.32.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟླའི་དཀྱིལ་འཁོར",
+          "translit": "zla'i dkyil 'khor",
+          "lemma": "zla ba'i dkyil 'khor",
+          "att": "AO",
+          "where": "cp.32.1a"
         }
       ],
       "match": {
@@ -26713,7 +26753,11 @@
           "where": "cp.32.1a"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "ནཱ་ད"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])নাদ(?![\\p{L}\\p{M}])"
@@ -35079,6 +35123,14 @@
           "lemma": "mthu",
           "att": "AO",
           "where": "cp.30.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མཐུས",
+          "translit": "mthus",
+          "lemma": "mthu",
+          "att": "AO",
+          "where": "cp.32.m2"
         }
       ],
       "match": {
@@ -41133,6 +41185,14 @@
           "lemma": "nyin mor byed pa",
           "att": "AS",
           "where": "cp.24.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉི",
+          "translit": "nyi",
+          "lemma": "nyi ma",
+          "att": "AO",
+          "where": "cp.32.1a"
         }
       ],
       "match": {
@@ -41243,6 +41303,14 @@
           "lemma": "ngo bo nyid",
           "att": "AO",
           "where": "cp.09.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན་གྱིས",
+          "translit": "rang bzhin gyis",
+          "lemma": "rang bzhin",
+          "att": "AO",
+          "where": "cp.32.m2"
         }
       ],
       "match": {
@@ -45881,6 +45949,59 @@
       }
     },
     {
+      "id": "uha",
+      "type": "term",
+      "status": "proposed",
+      "en": "reasoning",
+      "alt": [
+        "making out"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উহ",
+          "translit": "uha",
+          "lemma": "uha",
+          "att": "AS",
+          "where": "cp.29.2b, cp.29.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ঊহে",
+          "translit": "ūhe",
+          "lemma": "ūh",
+          "att": "AS",
+          "where": "cp.29.m3, cp.29.m6"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<!পান্তর\\s)(?<![\\p{L}\\p{M}])উহ(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])ঊহে(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Old Bengali uha (song 29, 2b and 5b), taken in the draft as Sanskrit ūha, ‘reasoning, conjecture’. Munidatta writes na ūhe, ‘I do not make out’, glossed ‘I do not know’ (cp.29.m3) and set beside ‘I do not see’ (cp.29.m6): he too derives it from ūh-, but as a first-person verb. The Tibetan line of 2b has dbyibs, ‘shape’.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "ujubata",
       "type": "term",
       "status": "proposed",
@@ -47476,6 +47597,14 @@
           "lemma": "kyog po",
           "att": "AO",
           "where": "cp.32.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གཞན",
+          "translit": "gzhan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.32.2a"
         }
       ],
       "match": {

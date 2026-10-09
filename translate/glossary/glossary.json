@@ -13589,6 +13589,63 @@
       }
     },
     {
+      "id": "hetu",
+      "type": "term",
+      "status": "proposed",
+      "en": "cause",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "হেত্বন্তরং",
+          "translit": "hetvantaraṃ",
+          "lemma": "hetvantara",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "san",
+          "script": "চাহেতুকত্বাৎ",
+          "translit": "cāhetukatvāt",
+          "lemma": "ahetukatva",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱུ",
+          "translit": "rgyu",
+          "lemma": "rgyu",
+          "att": "AO",
+          "where": "cp.26.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "হেতু",
+          "হেত্ব"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A cause (hetu), above all the direct cause from which an effect arises, as against its supporting conditions. Munidatta says that what has been shown to be partless has no cause, so no other cause (hetvantara) of that mind is found (cp.26.m2), words that stand where song 26 (2a) has herua. The Tibetan has rgyu.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "hole",
       "type": "term",
       "status": "proposed",
@@ -38878,6 +38935,59 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "tx-prajnapariccheda",
+      "type": "text",
+      "status": "proposed",
+      "en": "Chapter on Wisdom",
+      "alt": [
+        "Prajñāpariccheda"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞাপরিচ্ছেদে",
+          "translit": "prajñāparicchede",
+          "lemma": "prajñāpariccheda",
+          "att": "AS",
+          "where": "cp.26.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤེས་རབ་ལེའུ",
+          "translit": "shes rab le'u",
+          "lemma": "shes rab le'u",
+          "att": "AO",
+          "where": "cp.26.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "প্রজ্ঞাপরিচ্ছেদ"
+        ],
+        "bod": [
+          "ཤེས་རབ་ལེའུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A 'chapter on wisdom' (prajñā, 'wisdom'; pariccheda, 'section, chapter') that Munidatta cites at the end of his comment on the first couplet of song 26, for a passage beginning vicārite, 'when examined' (cp.26.m2); the Tibetan has shes rab le'u. He does not name the work, and the phrase may describe a chapter rather than give a title.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

@@ -35545,6 +35545,63 @@
       }
     },
     {
+      "id": "parsva",
+      "type": "term",
+      "status": "proposed",
+      "en": "side",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পাশসান্নিধানান্তরম",
+          "translit": "pāśasānnidhānāntaram",
+          "lemma": "pārśva",
+          "att": "AS",
+          "where": "cp.36.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩ་བར",
+          "translit": "rtsa bar",
+          "lemma": "rtsa ba",
+          "att": "AO",
+          "where": "cp.36.m6"
+        },
+        {
+          "lang": "san",
+          "script": "পার্শ্বস্থচন্দ্রসূর্য্যৌ",
+          "translit": "pārśvasthacandrasūryyau",
+          "lemma": "pārśva",
+          "att": "AS",
+          "where": "cp.33.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "পাশসান্নিধান",
+          "পার্শ্ব"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Side, flank (Sanskrit pārśva). Munidatta writes pāśa, a Prakrit-like form of pārśva, in \"the nearness of my side\", his rendering of the poet's side in song 36, 5b (cp.36.m6); elsewhere he has pārśvastha, \"standing at the side\" (cp.33.m2). The Tibetan has rtsa bar, \"near\". Not pāśa, \"noose\", nor pakṣa, \"side\".",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "pasara",
       "type": "term",
       "status": "proposed",

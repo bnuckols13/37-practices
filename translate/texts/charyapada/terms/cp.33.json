@@ -1,0 +1,1780 @@
+{
+  "unit": "cp.33",
+  "proposals": [
+    {
+      "id": "p-dhendhana",
+      "type": "person",
+      "en": "Ḍheṇḍhaṇapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Ḍheṇḍhaṇa"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ঢেণ্ঢণপাদানাম্",
+          "translit": "ḍheṇḍhaṇapādānām",
+          "lemma": "ḍheṇḍhaṇapāda",
+          "att": "AS",
+          "where": "cp.33.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "ঢেণ্ঢণ",
+          "translit": "ḍheṇḍhaṇa",
+          "lemma": "ḍheṇḍhaṇa",
+          "att": "AS",
+          "where": "cp.33.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ঢেণ্ঢণো",
+          "translit": "ḍheṇḍhaṇo",
+          "lemma": "ḍheṇḍhaṇa",
+          "att": "AS",
+          "where": "cp.33.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ঢেণ্ঢণপাদস্য",
+          "translit": "ḍheṇḍhaṇapādasya",
+          "lemma": "ḍheṇḍhaṇapāda",
+          "att": "AS",
+          "where": "cp.33.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཊེ་ཎ་ཊེ་ཎ་པའི་ཞབས",
+          "translit": "Te Na Te Na pa'i zhabs",
+          "lemma": "Te Na Te Na pa",
+          "att": "AO",
+          "where": "cp.33.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཊེ་ཎ་ཊེ་ཎ་ཞབས",
+          "translit": "Te Na Te Na zhabs",
+          "lemma": "Te Na Te Na pa",
+          "att": "AO",
+          "where": "cp.33.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཊེ་ཎ་ཊེ་ནས",
+          "translit": "Te Na Te nas",
+          "lemma": "Te Na Te Na pa",
+          "att": "AO",
+          "where": "cp.33.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཊེ་ཎ་ཊེ་ཎའི་ཞབས",
+          "translit": "Te Na Te Na'i zhabs",
+          "lemma": "Te Na Te Na pa",
+          "att": "AO",
+          "where": "cp.33.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঢেণ্ঢণ"
+        },
+        {
+          "lang": "san",
+          "form": "ঢেণ্ঢণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཊེ་ཎ་ཊེ་ཎ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཊེ་ཎ་ཊེ་ནས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Ḍheṇḍhaṇapāda, the siddha to whom the manuscript attributes song 33 (ḍheṇḍhaṇapādānām, written before the song). He names himself Ḍheṇḍhaṇa in its last line (5b). Munidatta calls him a siddha master delighted by the fullness of supreme joy (cp.33.m1). The Tibetan translation names him Te Na Te Na pa, which suggests a form like Ṭeṇṭaṇa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 33 has no entry yet; the id is the one the unit already uses, and the rendering follows the -pāda form given to the other poets, with his self-naming as a variant."
+    },
+    {
+      "id": "tala",
+      "type": "term",
+      "en": "ṭāla",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "টালত",
+          "translit": "ṭālata",
+          "lemma": "ṭāla",
+          "att": "AS",
+          "where": "cp.33.1a"
+        },
+        {
+          "lang": "san",
+          "script": "টালত",
+          "translit": "ṭālata",
+          "lemma": "ṭāla",
+          "att": "AS",
+          "where": "cp.33.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲོང་ཁྱེར་དབུས",
+          "translit": "grong khyer dbus",
+          "lemma": "grong khyer",
+          "att": "AO",
+          "where": "cp.33.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "টালত"
+        },
+        {
+          "lang": "san",
+          "form": "টালত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in the first line of song 33: the speaker's house stands on, or at, the ṭāla. It may mean a mound or raised ground (compare Bengali ṭāl, 'heap'). The Tibetan line has 'in the middle of the town' instead. Munidatta explains the syllable ṭā as ṭamāla, a word of unclear sense, 'the unreal form' (cp.33.m2).",
+      "symbolicImage": "the ṭāla on which the speaker's house stands",
+      "symbolicReadings": [
+        {
+          "referent": "the unreal form (asadrūpa): he explains ṭā as ṭamāla (sense unclear), set in apposition with the fault of the hundred and sixty natures of body, speech and mind, whose dissolution in the wheel of great bliss he calls 'my house'; the Tibetan has DA ma la mi bden pa'i gzugs, 'ḍamala, the unreal form'",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "unreal form",
+        "faults of nature",
+        "hundred and sixty natures",
+        "natures",
+        "wheel of great bliss"
+      ],
+      "rationale": "An obscure word of the opening line that Munidatta glosses and the Tibetan reads differently; the source form is kept until its sense is settled."
+    },
+    {
+      "id": "neighbour",
+      "type": "term",
+      "en": "neighbour",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পড়বেষী",
+          "translit": "paṛabeṣī",
+          "lemma": "paṛabeṣī",
+          "att": "AS",
+          "where": "cp.33.1a"
+        },
+        {
+          "lang": "san",
+          "script": "পার্শ্বস্থচন্দ্রসূর্য্যৌ",
+          "translit": "pārśvasthacandrasūryyau",
+          "lemma": "pārśvastha",
+          "att": "AS",
+          "where": "cp.33.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ་ཚེས",
+          "translit": "khyim tshes",
+          "lemma": "khyim mtshes",
+          "att": "AO",
+          "where": "cp.33.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱིམ་ཚེས",
+          "translit": "khyim tshes",
+          "lemma": "khyim mtshes",
+          "att": "AO",
+          "where": "cp.33.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পড়বেষী"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁྱིམ་ཚེས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A neighbour (Old Bengali paṛabeṣī, from Sanskrit prativeśin, 'one who lives near'). In song 33 the speaker has none (1a). Munidatta glosses the word as 'standing at the side' (pārśvastha) and makes the neighbours the moon and the sun (cp.33.m2). The Tibetan has khyim tshes, a spelling of khyim mtshes, 'neighbour'.",
+      "symbolicImage": "the neighbour the speaker does not have",
+      "symbolicReadings": [
+        {
+          "referent": "the moon and the sun, 'standing at the side' (pārśvastha), which by the process of vajra recitation are dissolved within, in the wheel of great bliss; the Tibetan: the moon and sun abiding as my neighbours (khyim tshes su gnas pa zla ba nyi ma)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "moon",
+        "sun",
+        "moon and sun",
+        "sun and moon",
+        "left and right"
+      ],
+      "rationale": "A household image of the opening line that Munidatta reads as the moon and the sun; plain 'neighbour' keeps the image."
+    },
+    {
+      "id": "rice",
+      "type": "term",
+      "en": "rice",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাত",
+          "translit": "bhāta",
+          "lemma": "bhāta",
+          "att": "AS",
+          "where": "cp.33.1b"
+        },
+        {
+          "lang": "san",
+          "script": "ভক্তং",
+          "translit": "bhaktaṃ",
+          "lemma": "bhakta",
+          "att": "AS",
+          "where": "cp.33.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟན",
+          "translit": "zan",
+          "lemma": "zan",
+          "att": "AO",
+          "where": "cp.33.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟན",
+          "translit": "zan",
+          "lemma": "zan",
+          "att": "AO",
+          "where": "cp.33.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভাত(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভক্তং(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཟན(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Boiled rice, the everyday meal (Old Bengali bhāta; Sanskrit bhakta, 'food, boiled rice'). In song 33 there is no rice in the speaker's pot (1b). Munidatta renders it bhakta and reads it as conventional bodhicitta, having the nature of consciousness (cp.33.m2). The Tibetan has zan, 'food', in the line and the comment.",
+      "symbolicImage": "the rice that is not in the pot",
+      "symbolicReadings": [
+        {
+          "referent": "conventional bodhicitta (saṃvṛtibodhicitta), in the form of consciousness (vijñāna), the rice of the body's pot, of which, through the guru's lineage, there is no apprehension; the Tibetan agrees (zan ni de'i kun rdzob byang chub kyi sems rnam par shes pa'i ngo bo)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "conventional bodhicitta",
+        "consciousness",
+        "semen"
+      ],
+      "rationale": "A household image of 1b that Munidatta reads as conventional bodhicitta; 'rice' is the plain sense of bhāta."
+    },
+    {
+      "id": "frog",
+      "type": "term",
+      "en": "frog",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বেঙ্গ",
+          "translit": "beṅga",
+          "lemma": "beṅga",
+          "att": "AS",
+          "where": "cp.33.2a"
+        },
+        {
+          "lang": "san",
+          "script": "বেঙ্গেত্যাদি",
+          "translit": "veṅgetyādi",
+          "lemma": "beṅga",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ব্যঙ্গঃ",
+          "translit": "vyaṅgaḥ",
+          "lemma": "vyaṅga",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ব্যঙ্গেন",
+          "translit": "vyaṅgena",
+          "lemma": "vyaṅga",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦལ་པ",
+          "translit": "sbal pa",
+          "lemma": "sbal pa",
+          "att": "AO",
+          "where": "cp.33.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦལ་པ",
+          "translit": "sbal pa",
+          "lemma": "sbal pa",
+          "att": "AO",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བེམ་ག",
+          "translit": "bem ga",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.33.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বেঙ্গ"
+        },
+        {
+          "lang": "san",
+          "form": "বেঙ্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྦལ་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "བེམ་ག"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ব্যঙ্গ(?:ঃ|েন)(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A frog (Old Bengali beṅga; compare Bengali byāṅ). The refrain of song 33 pairs the frog with the snake in a paradox (2a); the Tibetan line has sbal pa, 'frog', desiring the snake. Munidatta explains the word through Sanskrit vyaṅga, 'limbless', a name for the frog, and reads it as clear light (cp.33.m3).",
+      "symbolicImage": "the frog paired with the snake in the refrain",
+      "symbolicReadings": [
+        {
+          "referent": "clear light (prabhāsvara): the frog is vyaṅga, 'one whose limbs are gone', and being empty of limbs it is to be understood as clear light; the Tibetan agrees (yan lag med pa stong pa nyid de la 'od gsal du rig par bya)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light",
+        "luminosity",
+        "emptiness"
+      ],
+      "rationale": "One of the paradox animals of the refrain, read by Munidatta as clear light; the glossary has no frog."
+    },
+    {
+      "id": "snake",
+      "type": "term",
+      "en": "snake",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সয়ঃ",
+          "translit": "sayaḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সর্প",
+          "translit": "sarpa",
+          "lemma": "sarpa",
+          "att": "RS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦྲུལ",
+          "translit": "sbrul",
+          "lemma": "sbrul",
+          "att": "AO",
+          "where": "cp.33.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦྲུལ",
+          "translit": "sbrul",
+          "lemma": "sbrul",
+          "att": "AO",
+          "where": "cp.33.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সর্প"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])সয়ঃ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A snake. The refrain of song 33 pairs it with the frog (2a), but Shastri's Bengali prints saṃsāra where the snake is expected; the Tibetan line has sbrul, 'snake'. Munidatta's word, sayaḥ, 'that which goes', apparently stands for sarpaḥ, 'snake' ('that which creeps'); he reads it as the wind (cp.33.m3). Compare bhujaṅga, rendered 'lover'.",
+      "symbolicImage": "the snake paired with the frog in the refrain",
+      "symbolicReadings": [
+        {
+          "referent": "the wind: it is named from its going (sayati gacchati, apparently for sarpati, 'creeps'), since it goes into the six destinies (so the Tibetan, 'gro ba drug; the Sanskrit ṣaṛaṅgatau is unclear), and 'that is in the form of wind' (vāyurūpa); the gloss then has the wind of consciousness (so the Tibetan, rnam par shes pa'i rlung) impelled by the limbless frog, clear light",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wind",
+        "vital wind",
+        "breath",
+        "wind of consciousness"
+      ],
+      "rationale": "The second animal of the refrain's paradox, read as the wind; the Bengali witness is doubtful at this point, so the entry rests on Munidatta and the Tibetan, and the reconstructed sarpa is marked RS."
+    },
+    {
+      "id": "milk",
+      "type": "term",
+      "en": "milk",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুধু",
+          "translit": "dudhu",
+          "lemma": "dudha",
+          "att": "AS",
+          "where": "cp.33.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འོ་མ",
+          "translit": "'o ma",
+          "lemma": "'o ma",
+          "att": "AO",
+          "where": "cp.33.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འོ་མ",
+          "translit": "'o ma",
+          "lemma": "'o ma",
+          "att": "AO",
+          "where": "cp.33.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দুধু"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])འོ་མ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Milk (Old Bengali dudhu; compare Bengali dudh; Tibetan 'o ma). The refrain of song 33 asks whether milk once milked goes back into the teat (2b). Munidatta glosses the milked milk as bodhicitta come from the house of the vajra through engagement with a karmamudrā (cp.33.m3). Compare the milking of the tortoise in song 2.",
+      "symbolicImage": "milk once milked, which the refrain asks whether it goes back into the teat",
+      "symbolicReadings": [
+        {
+          "referent": "bodhicitta that has come from the vajra's house (vajrāgāra) through engagement with the karmamudrā; the Tibetan has it reach the tip of the vajra through embracing the karmamudrā (las kyi phyag rgya dang yang dag par 'khyud pas rdo rje'i rtse mor)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "semen",
+        "vital essence"
+      ],
+      "rationale": "The milk of the refrain's paradox, read as bodhicitta; milking images recur (songs 2 and 33) and the glossary has no milk."
+    },
+    {
+      "id": "milking",
+      "type": "term",
+      "en": "milking",
+      "policy": "translate",
+      "alt": [
+        "milk",
+        "milked"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুহিল",
+          "translit": "duhila",
+          "lemma": "duh-",
+          "att": "AS",
+          "where": "cp.33.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "দুহিএ",
+          "translit": "duhie",
+          "lemma": "duh-",
+          "att": "AS",
+          "where": "cp.33.3b"
+        },
+        {
+          "lang": "san",
+          "script": "দুহিল",
+          "translit": "duhila",
+          "lemma": "duh-",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "san",
+          "script": "দোহনমিতি",
+          "translit": "dohanamiti",
+          "lemma": "dohana",
+          "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བཞོས་པ",
+          "translit": "bzhos pa",
+          "lemma": "'jo ba",
+          "att": "AO",
+          "where": "cp.33.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇོ་བ",
+          "translit": "'jo ba",
+          "lemma": "'jo ba",
+          "att": "AO",
+          "where": "cp.33.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇོ་བ",
+          "translit": "'jo ba",
+          "lemma": "'jo ba",
+          "att": "AO",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দুহিল"
+        },
+        {
+          "lang": "oben",
+          "form": "দুহিএ"
+        },
+        {
+          "lang": "san",
+          "form": "দুহিল"
+        },
+        {
+          "lang": "san",
+          "form": "দোহন"
+        },
+        {
+          "lang": "bod",
+          "form": "བཞོས"
+        },
+        {
+          "lang": "bod",
+          "form": "འཇོ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Milking (Old Bengali duh-; Sanskrit dohana; Tibetan 'jo ba, past bzhos). Song 33 milks twice: milked milk in the refrain (2b), and the piṭā milked at the three junctures (3b). Munidatta says milking means making without intrinsic nature (cp.33.m4). Song 2 opens with a tortoise being milked.",
+      "symbolicImage": "milking the piṭā at the three junctures",
+      "symbolicReadings": [
+        {
+          "referent": "making without intrinsic nature (niḥsvabhāvīkaraṇa): what is milked, at the tip of one's own vajra and through the guru's lineage, is the fault of appearance; the Tibetan agrees ('jo ba zhes pa ni rang bzhin med pa'i bya bar byed pa'o)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "without intrinsic nature",
+        "intrinsic nature",
+        "emptiness",
+        "fault of appearance"
+      ],
+      "rationale": "Milking is a recurring image of the paradox songs, and Munidatta glosses it explicitly here; the variants cover the verb forms of the lines."
+    },
+    {
+      "id": "teat",
+      "type": "term",
+      "en": "teat",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বেণ্টে",
+          "translit": "beṇṭe",
+          "lemma": "beṇṭa",
+          "att": "AS",
+          "where": "cp.33.2b"
+        },
+        {
+          "lang": "san",
+          "script": "বেণ্টমিতি",
+          "translit": "veṇṭamiti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ནུ་མ",
+          "translit": "nu ma",
+          "lemma": "nu ma",
+          "att": "AO",
+          "where": "cp.33.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནུ་མ",
+          "translit": "nu ma",
+          "lemma": "nu ma",
+          "att": "AO",
+          "where": "cp.33.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বেণ্টে"
+        },
+        {
+          "lang": "san",
+          "form": "বেণ্টম"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}]|གཞོན་)ནུ་མ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A teat (Old Bengali beṇṭa; compare Sanskrit vṛnta, 'stalk', and stanavṛnta, 'nipple'). The refrain of song 33 asks whether milked milk goes back into it (2b); the Tibetan has nu ma, 'breast, teat'. Munidatta cites the word as veṇṭa and explains it as the root (cp.33.m3).",
+      "symbolicImage": "the teat that milked milk is asked to go back into",
+      "symbolicReadings": [
+        {
+          "referent": "the root (mūla) of the lord of yogis; the gloss goes on that it goes to the wheel of great bliss, 'what a wonder'; the Tibetan has it go from the root of the vajra (rdo rje'i rtsa ba) to the wheel of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "root",
+        "root of the vajra",
+        "vajra",
+        "wheel of great bliss"
+      ],
+      "rationale": "Part of the refrain's paradox, read by Munidatta as the root; 'teat' follows the milking image and the Tibetan nu ma."
+    },
+    {
+      "id": "ox",
+      "type": "term",
+      "en": "ox",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বলদ",
+          "translit": "balada",
+          "lemma": "balada",
+          "att": "AS",
+          "where": "cp.33.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বলদা",
+          "translit": "valadā",
+          "lemma": "balada",
+          "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང",
+          "translit": "glang",
+          "lemma": "glang",
+          "att": "AO",
+          "where": "cp.33.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གླང",
+          "translit": "glang",
+          "lemma": "glang",
+          "att": "AO",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বলদ"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বলদ"
+        }
+      ],
+      "definition": "An ox or bullock (Old Bengali balada; Sanskrit balada, literally 'strength-giving'; Tibetan glang). In song 33 the ox calves while the cow is barren (3a). Munidatta derives balada from bala, 'strength', given as bodily form, and reads the ox as bodhicitta (cp.33.m4); the Tibetan comment explains bala as 'flesh'.",
+      "symbolicImage": "the ox that calves",
+      "symbolicReadings": [
+        {
+          "referent": "bodhicitta, with which the three appearances are brought forth (ābhāsatrayaprastuta; prastuta is perhaps for prasūta, 'born'): balada, 'giver of strength' (bala), because it gives a bodily form from the mind; the Tibetan explains bala as flesh (sha), given to the body (de ha), and has the three appearances arise in bodhicitta (snang ba gsum rab tu skyes)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "three appearances",
+        "appearances"
+      ],
+      "rationale": "The calving ox is one of the song's paradoxes, read as bodhicitta; the glossary has no ox."
+    },
+    {
+      "id": "cow",
+      "type": "term",
+      "en": "cow",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গবিআ",
+          "translit": "gabiā",
+          "lemma": "gabiā",
+          "att": "AS",
+          "where": "cp.33.3a"
+        },
+        {
+          "lang": "san",
+          "script": "গাবীতি",
+          "translit": "gāvīti",
+          "lemma": "gāvī",
+          "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བ",
+          "translit": "ba",
+          "lemma": "ba",
+          "att": "AO",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গবিআ"
+        },
+        {
+          "lang": "san",
+          "form": "গাবী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A cow (Old Bengali gabiā; Sanskrit gāvī). In song 33 the cow is barren while the ox calves (3a). Munidatta calls her the barren Nairātmā, wife of the lord of yogis (cp.33.m4). The Tibetan comment cites ba, 'cow'; its line has only mo gsham, 'barren female', and the pa ni before it may be a slip for ba ni.",
+      "symbolicImage": "the barren cow",
+      "symbolicReadings": [
+        {
+          "referent": "Nairātmā, the barren wife (gṛhiṇī) of the lord of yogis, with reference to whom the line speaks; the Tibetan: the barren woman Nairātmā in the house of the lord of yogis (rnal 'byor gyi dbang phyug gi khyim du mo gsham bdag med ma)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Nairātmā",
+        "selflessness",
+        "goddess",
+        "wife of the lord of yogis"
+      ],
+      "rationale": "The barren cow is one of the song's paradoxes, read as Nairātmā; the glossary has no cow."
+    },
+    {
+      "id": "barren",
+      "type": "term",
+      "en": "barren",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাঁঝে",
+          "translit": "bām̐jhe",
+          "lemma": "bām̐jha",
+          "att": "AS",
+          "where": "cp.33.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বংধ্যা",
+          "translit": "vaṃdhyā",
+          "lemma": "vandhya",
+          "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མོ་གཤམ",
+          "translit": "mo gsham",
+          "lemma": "mo gsham",
+          "att": "AO",
+          "where": "cp.33.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "མོ་གཤམ",
+          "translit": "mo gsham",
+          "lemma": "mo gsham",
+          "att": "AO",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাঁঝে"
+        },
+        {
+          "lang": "san",
+          "form": "বংধ্যা"
+        },
+        {
+          "lang": "bod",
+          "form": "མོ་གཤམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Barren, unable to bear young (Old Bengali bām̐jha; Sanskrit vandhyā; Tibetan mo gsham, 'barren woman'). In song 33 the cow is barren while the ox calves (3a). Munidatta applies the word to Nairātmā (cp.33.m4). In Buddhist argument the barren woman's son is a stock example of what does not exist.",
+      "symbolicImage": "the cow's barrenness",
+      "symbolicReadings": [
+        {
+          "referent": "Nairātmā, whom he calls the barren one (vandhyā nairātmā), wife of the lord of yogis; the Tibetan has mo gsham bdag med ma",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "Nairātmā",
+        "selflessness"
+      ],
+      "rationale": "Barrenness is the hinge of the paradox in 3a and Munidatta's word for Nairātmā; the Sanskrit form occurs twice in the text so far."
+    },
+    {
+      "id": "three-junctures",
+      "type": "term",
+      "en": "three junctures",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিনা সাঁঝে",
+          "translit": "tinā sām̐jhe",
+          "lemma": "sām̐jha",
+          "att": "AS",
+          "where": "cp.33.3b"
+        },
+        {
+          "lang": "san",
+          "script": "সন্ধ্যাত্রয়মিতি",
+          "translit": "sandhyātrayamiti",
+          "lemma": "sandhyā",
+          "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐུན་མཚམས་གསུམ",
+          "translit": "thun mtshams gsum",
+          "lemma": "thun mtshams",
+          "att": "AO",
+          "where": "cp.33.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐུན་མཚམས་གསུམ",
+          "translit": "thun mtshams gsum",
+          "lemma": "thun mtshams",
+          "att": "AO",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তিনা সাঁঝে"
+        },
+        {
+          "lang": "san",
+          "form": "সন্ধ্যাত্রয়"
+        },
+        {
+          "lang": "bod",
+          "form": "ཐུན་མཚམས་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The three junctures of the day (Old Bengali tinā sām̐jha; Sanskrit sandhyātraya; Tibetan thun mtshams gsum): dawn, noon and dusk, the times of the daily rites. In song 33 the piṭā is milked at all three (3b). Munidatta glosses them as day and night: the lord of yogis milks continually (cp.33.m4). Compare the fourth juncture.",
+      "symbolicImage": "milking at the three junctures",
+      "symbolicReadings": [
+        {
+          "referent": "day and night (aharniśam): the lord of yogis does the milking at all times; the Tibetan agrees (nyin dang mtshan du rnal 'byor pas)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "day and night",
+        "continually"
+      ],
+      "rationale": "A time phrase that Munidatta reads as day and night; 'juncture' follows the glossary's rendering of sandhyā in 'fourth juncture'."
+    },
+    {
+      "id": "buddhi",
+      "type": "term",
+      "en": "understanding",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বুধী",
+          "translit": "budhī",
+          "lemma": "budhi",
+          "att": "AS",
+          "where": "cp.33.4a"
+        },
+        {
+          "lang": "san",
+          "script": "বুদ্ধীত্যাদি",
+          "translit": "buddhītyādi",
+          "lemma": "buddhi",
+          "att": "AS",
+          "where": "cp.33.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বুদ্ধিঃ",
+          "translit": "buddhiḥ",
+          "lemma": "buddhi",
+          "att": "AS",
+          "where": "cp.33.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བློ་ལྡན",
+          "translit": "blo ldan",
+          "lemma": "blo ldan",
+          "att": "AO",
+          "where": "cp.33.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "བློ",
+          "translit": "blo",
+          "lemma": "blo",
+          "att": "AO",
+          "where": "cp.33.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বুধী"
+        },
+        {
+          "lang": "san",
+          "form": "বুদ্ধি"
+        },
+        {
+          "lang": "san",
+          "form": "বুদ্ধী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Understanding, intellect (Sanskrit buddhi; Old Bengali budhī). Song 33 says the one with understanding is without it (4a); the Tibetan line has blo ldan, 'intelligent', and blo med pa, 'unintelligent'. Munidatta calls the understanding of novice yogins conceptual knowledge, which for those who know the ultimate has the form of non-apprehension (cp.33.m5). Compare intelligence (mati).",
+      "symbolicImage": "the one with understanding who is without it",
+      "symbolicReadings": [
+        {
+          "referent": "the understanding of novice yogins, conceptual knowledge (savikalpakajñāna), which for those who know the ultimate has, through the guru, the form of non-apprehension (nirupalambharūpā); the Tibetan agrees (rnam par rtog pa'i shes pa ... dmigs pa med pa'i ngo bo nyid)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual knowledge",
+        "conceptual thought",
+        "non-apprehension",
+        "novice yogins"
+      ],
+      "rationale": "The paradox of 4a turns on this word, which Munidatta glosses doctrinally; a rendering distinct from mati's 'intelligence' keeps the two Sanskrit words apart."
+    },
+    {
+      "id": "sadhi",
+      "type": "term",
+      "en": "guard",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সাধী",
+          "translit": "sādhī",
+          "lemma": "sādhī",
+          "att": "AS",
+          "where": "cp.33.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཁར་སྲུངས",
+          "translit": "mkhar srungs",
+          "lemma": "mkhar srung",
+          "att": "AO",
+          "where": "cp.33.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མཁར་སྲུངས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সাধী(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Old Bengali sādhī, what the thief is said to be in song 33 (4b). The rendering follows the Tibetan line, mkhar srungs, 'guard of the fort'; the word might instead reflect Sanskrit sādhu, 'honest man'. Munidatta's gloss, partly corrupt, makes the same mind, once things are examined, the ultimate, the thief's opposite (cp.33.m5).",
+      "symbolicImage": "the guard who is the thief",
+      "symbolicReadings": [
+        {
+          "referent": "the same king of mind, when things are examined, in the form of the ultimate, the thief's opposite (vipakṣa); the word in the gloss (śati) looks corrupt, and the Tibetan names no guard (de'i mi mthun phyogs don dam pa'i ngo bo nyid)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "ultimate",
+        "the ultimate",
+        "king of mind",
+        "mind"
+      ],
+      "rationale": "The thief's counterpart in the paradox of 4b; its sense is uncertain, so the entry records the Tibetan basis of 'guard' for review."
+    },
+    {
+      "id": "jackal",
+      "type": "term",
+      "en": "jackal",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ষিআলা",
+          "translit": "ṣiālā",
+          "lemma": "siāla",
+          "att": "AS",
+          "where": "cp.33.5a"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তশৃগালতুল্যঃ",
+          "translit": "cittaśṛgālatulyaḥ",
+          "lemma": "śṛgāla",
+          "att": "AS",
+          "where": "cp.33.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཅེ་སྤྱང",
+          "translit": "ce spyang",
+          "lemma": "ce spyang",
+          "att": "AO",
+          "where": "cp.33.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཅེ་སྤྱང",
+          "translit": "ce spyang",
+          "lemma": "ce spyang",
+          "att": "AO",
+          "where": "cp.33.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ষিআলা"
+        },
+        {
+          "lang": "san",
+          "form": "শৃগাল"
+        },
+        {
+          "lang": "bod",
+          "form": "ཅེ་སྤྱང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A jackal (Old Bengali siālā, written ṣiālā; Sanskrit śṛgāla; Tibetan ce spyang), in Indian fable a timid, cunning scavenger. In the last couplet of song 33 the jackal fights the lion every day (5a). Munidatta likens the mind of saṃsāra, which fears death everywhere, to a jackal (cp.33.m6).",
+      "symbolicImage": "the jackal that fights the lion every day",
+      "symbolicReadings": [
+        {
+          "referent": "the mind of saṃsāra, which, fearing death and the like everywhere, is like a jackal (cittaśṛgālatulya); the Tibetan: the mind that constantly fears death and the like is like a jackal (ce spyang dang mtshungs pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind",
+        "mind of saṃsāra",
+        "citta"
+      ],
+      "rationale": "One of the paradox animals, read as the fearful mind; the glossary has no jackal."
+    },
+    {
+      "id": "lion",
+      "type": "term",
+      "en": "lion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ষিহে",
+          "translit": "ṣihe",
+          "lemma": "siha",
+          "att": "AS",
+          "where": "cp.33.5a"
+        },
+        {
+          "lang": "san",
+          "script": "যুগনদ্ধসিংহেনেহ",
+          "translit": "yuganaddhasiṃheneha",
+          "lemma": "siṃha",
+          "att": "AS",
+          "where": "cp.33.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སེང་གེ",
+          "translit": "seng ge",
+          "lemma": "seng ge",
+          "att": "AO",
+          "where": "cp.33.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "སེང་གེ",
+          "translit": "seng ge",
+          "lemma": "seng ge",
+          "att": "AO",
+          "where": "cp.33.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ষিহে"
+        },
+        {
+          "lang": "san",
+          "form": "সিংহ"
+        },
+        {
+          "lang": "bod",
+          "form": "སེང་གེ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A lion (Old Bengali siha, written ṣihe; Sanskrit siṃha; Tibetan seng ge), king of beasts. In song 33 the jackal fights the lion every day (5a). Munidatta speaks of 'the lion of coupled union', with which the mind, purified in clear light by a spiritual friend's blessing, vies (cp.33.m6). Compare lion's roar.",
+      "symbolicImage": "the lion the jackal fights",
+      "symbolicReadings": [
+        {
+          "referent": "coupled union (yuganaddha), 'the lion of coupled union', with which the mind, once purified in clear light through the blessing of the spiritual friend, vies; the Tibetan: then it becomes like the lion of coupled union (zung 'jug seng ge dang 'dra bar byed)",
+          "per": "Munidatta",
+          "where": [
+            "cp.33.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "coupled union",
+        "yuganaddha",
+        "union"
+      ],
+      "rationale": "The jackal's opponent in the closing paradox, read as coupled union; only the lion's roar has an entry so far."
+    },
+    {
+      "id": "kalyanamitra",
+      "type": "term",
+      "en": "spiritual friend",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কল্যাণমিত্রাধিষ্ঠানাৎ",
+          "translit": "kalyāṇamitrādhiṣṭhānāt",
+          "lemma": "kalyāṇamitra",
+          "att": "AS",
+          "where": "cp.33.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དགེ་བའི་བཤེས་གཉེན",
+          "translit": "dge ba'i bshes gnyen",
+          "lemma": "dge ba'i bshes gnyen",
+          "att": "AO",
+          "where": "cp.33.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কল্যাণমিত্র"
+        },
+        {
+          "lang": "bod",
+          "form": "དགེ་བའི་བཤེས་གཉེན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A spiritual friend (Sanskrit kalyāṇamitra, 'good friend'; Tibetan dge ba'i bshes gnyen): in Buddhist usage a teacher or companion who guides one on the path. Munidatta says the mind becomes purified in clear light through the blessing of the spiritual friend (cp.33.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard Buddhist term for the teacher, first met in this comment; 'spiritual friend' is the usual English."
+    },
+    {
+      "id": "mahasattva",
+      "type": "term",
+      "en": "great being",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসত্ত্বঃ",
+          "translit": "mahāsattvaḥ",
+          "lemma": "mahāsattva",
+          "att": "AS",
+          "where": "cp.33.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་ཅན་ཆེན་པོ",
+          "translit": "sems can chen po",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.33.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহাসত্ত্ব"
+        },
+        {
+          "lang": "bod",
+          "form": "སེམས་ཅན་ཆེན་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Great being (Sanskrit mahāsattva), an epithet of bodhisattvas. Munidatta ends his comment on song 33 by saying that only rarely will some great being understand the meaning of Ḍheṇḍhaṇapāda's song (cp.33.m6). The Tibetan has sems can chen po, 'great being', rather than the usual sems dpa' chen po.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A Mahāyāna epithet a reader may not know; 'great being' is the usual English."
+    },
+    {
+      "id": "house",
+      "type": "term",
+      "en": "house",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘর",
+          "translit": "ghara",
+          "lemma": "ghara",
+          "att": "AS",
+          "where": "cp.33.1a"
+        },
+        {
+          "lang": "san",
+          "script": "গৃহং",
+          "translit": "gṛhaṃ",
+          "lemma": "gṛha",
+          "att": "AS",
+          "where": "cp.33.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গৃহং"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ঘর(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The bare ghara of 1a and Munidatta's gṛhaṃ are new forms; a whole-word pattern keeps ghara from firing inside other words."
+    },
+    {
+      "id": "pot",
+      "type": "term",
+      "en": "pot",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হাড়ীত",
+          "translit": "hāṛīta",
+          "lemma": "hāṛī",
+          "att": "AS",
+          "where": "cp.33.1b"
+        },
+        {
+          "lang": "san",
+          "script": "হণ্ডীতি",
+          "translit": "haṇḍīti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.33.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྲུ་བ",
+          "translit": "khru ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.33.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྲུ་བ",
+          "translit": "phru ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.33.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "হাড়ী"
+        },
+        {
+          "lang": "san",
+          "form": "হণ্ডী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The cooking pot of 1b (hāṛī, cited by Munidatta as haṇḍī) is a new word for the pot; the Tibetan words are recorded without match patterns, since they are unusual and short."
+    },
+    {
+      "id": "pitha",
+      "type": "term",
+      "en": "stool",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পীঠকং",
+          "translit": "pīṭhakaṃ",
+          "lemma": "pīṭhaka",
+          "att": "AS",
+          "where": "cp.33.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འབྲི",
+          "translit": "'bri",
+          "lemma": "'bri",
+          "att": "AO",
+          "where": "cp.33.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "འབྲི",
+          "translit": "'bri",
+          "lemma": "'bri",
+          "att": "AO",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পীঠকং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The piṭā returns in 3b (already a form); Munidatta's pīṭhakaṃ is new, and the Tibetan here reads 'bri, 'dri (female yak)', recorded without a match because 'bri also means 'write'."
+    },
+    {
+      "id": "thief",
+      "type": "term",
+      "en": "thief",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চৌর",
+          "translit": "caura",
+          "lemma": "caura",
+          "att": "AS",
+          "where": "cp.33.4b"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তরাজচোরঃ",
+          "translit": "cittarājacoraḥ",
+          "lemma": "cora",
+          "att": "AS",
+          "where": "cp.33.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོམ་པོ",
+          "translit": "chom po",
+          "lemma": "chom po",
+          "att": "AO",
+          "where": "cp.33.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོམ་པོ",
+          "translit": "chom po",
+          "lemma": "chom po",
+          "att": "AO",
+          "where": "cp.33.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চোরঃ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])চৌর(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཆོམ་པོ"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The thief of 4b (caura), Munidatta's cittarājacoraḥ and the Tibetan chom po, 'robber', are new forms; the patterns keep caura and chom po from firing inside other words."
+    },
+    {
+      "id": "king-of-mind",
+      "type": "term",
+      "en": "king of mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তরাজচোরঃ",
+          "translit": "cittarājacoraḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.33.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་ཀྱི་རྒྱལ་པོ",
+          "translit": "sems kyi rgyal po",
+          "lemma": "sems kyi rgyal po",
+          "att": "AO",
+          "where": "cp.33.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চিত্তরাজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry so far has only the Tibetan of song 24; Munidatta's Sanskrit cittarāja here, rendered sems kyi rgyal po in the Tibetan comment, attests the Sanskrit term."
+    },
+    {
+      "id": "biana",
+      "type": "term",
+      "en": "birth",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিআএল",
+          "translit": "biāela",
+          "lemma": "biā-",
+          "att": "AS",
+          "where": "cp.33.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিআএল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "biāela, 'has given birth' (of the ox in 3a), is a verb form of the same word as biāṇa."
+    },
+    {
+      "id": "grhini",
+      "type": "term",
+      "en": "wife",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গৃহণী",
+          "translit": "gṛhaṇī",
+          "lemma": "gṛhiṇī",
+          "att": "AS",
+          "where": "cp.33.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গৃহণী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's gṛhaṇī (for gṛhiṇī) in his gloss on the cow is a spelling the existing forms do not cover."
+    },
+    {
+      "id": "guru-sampradaya",
+      "type": "term",
+      "en": "guru's lineage",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুসংপ্রদায়াৎ",
+          "translit": "gurusaṃpradāyāt",
+          "lemma": "sampradāya",
+          "att": "AS",
+          "where": "cp.33.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সংপ্রদায়"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "This comment spells the word with anusvāra (saṃpradāya, twice: cp.33.m2, cp.33.m4), which the existing forms in -sampradāya- do not match."
+    },
+    {
+      "id": "adbhuta",
+      "type": "term",
+      "en": "wonder",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কিমদ্ভুতমিতি",
+          "translit": "kimadbhutamiti",
+          "lemma": "adbhuta",
+          "att": "AS",
+          "where": "cp.33.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ངོ་མཚར",
+          "translit": "ngo mtshar",
+          "lemma": "ngo mtshar",
+          "att": "AO",
+          "where": "cp.33.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অদ্ভুত"
+        },
+        {
+          "lang": "san",
+          "form": "কিমদ্ভুত"
+        },
+        {
+          "lang": "bod",
+          "form": "ངོ་མཚར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'what a wonder' (kim adbhutam) on the refrain, with the Tibetan ngo mtshar, a Tibetan equivalent the entry lacks."
+    }
+  ],
+  "questions": [
+    "house (cp.33.m2): Munidatta reads the speaker's house in 1a as the state in which the fault of the hundred and sixty natures of body, speech and mind has dissolved in the wheel of great bliss ('that is my house'); the Tibetan agrees. Add as a symbolic reading of house?",
+    "pot (cp.33.m2): Munidatta reads the hāṛī of 1b, which he cites as haṇḍī, as 'the support of one's own body' (svakāyādhāra; Tibetan lus kyi gzhi). Add as a reading? The pot definition speaks only of the liquor pots of song 3 and may need a line on this cooking pot.",
+    "pitha (cp.33.m4): Munidatta reads the piṭā of 3b (pīṭhaka) as at the tip of one's own vajra (svakuliśāgra), where, through the guru's lineage, its fault of appearance is 'milked', made without intrinsic nature. The Tibetan line and comment here have 'bri, 'dri, female yak', so they take the piṭā as an animal that is milked, unlike stegs bu in song 2; the definition's 'both point to a seat or stand' may need revising.",
+    "thief (cp.33.m5): Munidatta makes the thief of 4b the king of mind (cittarāja), which 'takes what is not given'; the Tibetan agrees (sems kyi rgyal po ni chom po). Add as a reading of thief? I have proposed cittarāja as a Sanskrit form of king-of-mind, whose definition says the Bengali original is lost.",
+    "biana (cp.33.3a, cp.33.m4): I added the verb biāela, 'has given birth' (of the ox), as a form; the rendering 'birth' will need a verbal variant such as 'give birth' or 'calve'. Munidatta's ābhāsatrayaprastuta under the ox may stand for prasūta, 'born' (the Tibetan has snang ba gsum rab tu skyes), which would make the three appearances the calf; I have kept that inside the ox reading.",
+    "2a (witness): Shastri prints বেঙ্গ(গ)সংসার, but the Tibetan line (sbrul, 'snake') and Munidatta's gloss (sayaḥ, apparently for sarpaḥ, explained as 'what goes') point to a snake, not saṃsāra. If the samsara entry's match covers সংসার, it will link this word; the drafter should probably flag it instead.",
+    "4a: dhvani lists ধনি dhani, 'sound', as a source form. In 'dhani budhī' the Tibetan blo med pa, 'unintelligent', points to a negative ('without understanding'), so if dhvani's match covers ধনি it will mislink here.",
+    "Tibetan match patterns withheld: sbrul (snake) is already a form of bhujanga ('lover'); blo and blo ldan (understanding) overlap mati's blo; glang (ox) begins the elephant's and she-elephant's compounds; ba (cow), 'bri (stool) and khru ba, phru ba (pot) are too short or ambiguous. These are recorded as forms only; the reviewer may want some moved or matched.",
+    "understanding (buddhi): I chose 'understanding' to keep buddhi apart from mati ('intelligence'). The glossary elsewhere gives two Sanskrit words one English word (jñāna and vidyā are both 'knowledge'), so 'intelligence' for both would also be possible.",
+    "sādhī (4b): 'guard' rests on the Tibetan mkhar srungs; 'honest man' (from sādhu) is the other likely sense and makes an equally sharp contrast with the thief. Which should the edition use?",
+    "three junctures (3b): chosen to match 'fourth juncture' (caturthi-sandhya); 'three times of day' would read more easily in the verse line, at the cost of that consistency."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "4f07a2a91717e10aeef0b5b295e88a8ec3b3c810ddb4ae99899ea4fc22df54fe",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "5109c1875231a472ac3416bcb24eb75ecefe1d9ca82373b7b2877df1ba618ddb",
+    "sourceSha": "c9ca19b25651b0d3edd493ae45a041baf007e8f63ae8408465e5125fdf4f8c55"
+  }
+}

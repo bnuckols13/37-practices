@@ -1423,6 +1423,22 @@
           "lemma": "āgama",
           "att": "AS",
           "where": "cp.29.m4"
+        },
+        {
+          "lang": "pra",
+          "script": "আগম",
+          "translit": "āgama",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.40.m2"
+        },
+        {
+          "lang": "san",
+          "script": "আগমমন্ত্রশাস্ত্রাদিজ্ঞানং",
+          "translit": "āgamamantraśāstrādijñānaṃ",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.40.m2"
         }
       ],
       "match": {
@@ -1435,9 +1451,13 @@
         "san": [
           "(?<![\\p{L}\\p{M}])আগম[ঃেং]?(?![\\p{L}\\p{M}])",
           "(?<=চ|ত্য)াগম[ঃেং]?(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])চাগম"
+          "(?<![\\p{L}\\p{M}])চাগম",
+          "(?<![\\p{L}\\p{M}])আগম(?![নণ])"
         ],
         "oben": [
+          "(?<![\\p{L}\\p{M}])আগম(?![\\p{L}\\p{M}])"
+        ],
+        "pra": [
           "(?<![\\p{L}\\p{M}])আগম(?![\\p{L}\\p{M}])"
         ]
       },
@@ -1822,6 +1842,66 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "ala-jala",
+      "type": "term",
+      "status": "proposed",
+      "en": "ālā jālā",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আলা জালা",
+          "translit": "ālā jālā",
+          "lemma": "ālā jālā",
+          "att": "AS",
+          "where": "cp.40.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "མིག་འཕྲུལ་འདྲ",
+          "translit": "mig 'phrul 'dra",
+          "lemma": "mig 'phrul",
+          "att": "AO",
+          "where": "cp.40.1a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "আলা জালা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A jingling phrase of uncertain sense: in song 40 (1a) whatever lies in the mind's range is ālā jālā. It may mean a tangle or a sham (compare Hindi āl-jāl, 'rubbish, muddle'; jālā suggests jāla, 'net'). Munidatta puts the net of all concepts in its place (cp.40.m2); the Tibetan line has mig 'phrul 'dra, 'like a magic show'.",
+      "symbolic": {
+        "image": "whatever lies in the mind's range being ālā jālā (1a)",
+        "readings": [
+          {
+            "referent": "the net of all concepts (sakalavikalpajāla): whatever is the range of the horse of the mind-sense; he adds the knowledge of scripture, mantra, treatises and the like. His paraphrase puts it where the song has ālā jālā, with no explicit gloss; the Tibetan comment agrees (rtog pa dang rnam par rtog pa'i dra ba)",
+            "per": "Munidatta",
+            "where": [
+              "cp.40.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts",
+        "net of concepts"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -5703,6 +5783,103 @@
       }
     },
     {
+      "id": "badhira",
+      "type": "term",
+      "status": "proposed",
+      "en": "deaf",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাল",
+          "translit": "kāla",
+          "lemma": "kāla",
+          "att": "AS",
+          "where": "cp.40.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "কালেঁ",
+          "translit": "kālem̐",
+          "lemma": "kāla",
+          "att": "AS",
+          "where": "cp.40.5b"
+        },
+        {
+          "lang": "san",
+          "script": "বধিরস্তস্মিন্",
+          "translit": "badhiras tasmin",
+          "lemma": "badhira",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বধিরঃ",
+          "translit": "badhiraḥ",
+          "lemma": "badhira",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འོན་པ",
+          "translit": "'on pa",
+          "lemma": "'on pa",
+          "att": "AO",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འོན་པར",
+          "translit": "'on par",
+          "lemma": "'on pa",
+          "att": "AO",
+          "where": "cp.40.5b"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])কালেঁ(?=\\s*বোব)",
+          "(?<=সীসা\\s)কাল(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])বধির"
+        ],
+        "bod": [
+          "(?<![\\p{L}\\p{M}])འོན་པ(?!\\p{M})"
+        ]
+      },
+      "definition": "Deaf (Sanskrit badhira; Old Bengali kāla, compare Bengali kālā), not kāla, 'time, death'. Song 40 makes the disciple deaf (4b) and has the deaf instruct the mute (5b). Munidatta says the disciple heard nothing (cp.40.m5) and likens the true guru's gift of great bliss to a deaf man signing to a mute (cp.40.m6). The Tibetan of 4b has 'khrul, 'confused'.",
+      "symbolic": {
+        "image": "the deaf one who instructs the mute (5b)",
+        "readings": [
+          {
+            "referent": "the true guru (sadguru), who spreads great bliss in the disciple by the power of his own delight, as a deaf man communicates with a mute by signs and the like: a correspondence drawn by the simile (yathā … tadvat), not an explicit gloss; the comment opens 'so he too is deaf' (so 'pi ca badhiraḥ), and the Tibetan comment has the mute's understanding conveyed to the deaf by signs ('on pa la brda la sogs pas lkugs pa'i rtogs pa smra bar byed)",
+            "per": "Munidatta",
+            "where": [
+              "cp.40.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "true guru"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "bakala",
       "type": "term",
       "status": "proposed",
@@ -9356,6 +9533,46 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "book",
+      "type": "term",
+      "status": "proposed",
+      "en": "book",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পোথী",
+          "translit": "pothī",
+          "lemma": "pothī",
+          "att": "AS",
+          "where": "cp.40.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পোথী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A book or manuscript (Old Bengali pothī, from Sanskrit pustaka; compare Bengali puthi), in eastern India usually palm-leaf folios. Song 40 names it between scripture and the rosary as things that lie in the mind's range (1b). Munidatta speaks of knowledge of scripture, mantra, treatises and the like (cp.40.m2). The Tibetan line has po ste, perhaps for po ti, 'volume'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -18151,6 +18368,54 @@
           "lemma": "guru",
           "att": "AS",
           "where": "cp.27.m5"
+        },
+        {
+          "lang": "san",
+          "script": "গুরুঃ",
+          "translit": "guruḥ",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m4"
+        },
+        {
+          "lang": "san",
+          "script": "গুরুণা",
+          "translit": "guruṇā",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রগুরুঃ",
+          "translit": "vajraguruḥ",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m5"
+        },
+        {
+          "lang": "san",
+          "script": "সদ্গুরুঃ",
+          "translit": "sadguruḥ",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མས",
+          "translit": "bla mas",
+          "lemma": "bla ma",
+          "att": "AO",
+          "where": "cp.40.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ་དམ་པས",
+          "translit": "bla ma dam pas",
+          "lemma": "bla ma dam pa",
+          "att": "AO",
+          "where": "cp.40.m6"
         }
       ],
       "match": {
@@ -18179,7 +18444,11 @@
       },
       "matchRe": {
         "bod": [
-          "(?<![\\p{L}\\p{M}])བླ་མ(?:འི|ས|ར|འོ)?(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])བླ་མ(?:འི|ས|ར|འོ)?(?![\\p{L}\\p{M}])",
+          "བླ་མ(?!\\p{M})"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])(?:বজ্র|সদ্|শ্রী)?গুরু"
         ]
       },
       "definition": "A spiritual teacher. The refrain of song 1 tells the listener to ask the guru. Munidatta stresses that empowerment and the key instruction come from the true guru, and quotes the Guhyasamāja: without the vajra guru one cannot reach nirvāṇa (cp.01.m3).",
@@ -26294,6 +26563,57 @@
       }
     },
     {
+      "id": "malasi-gavura",
+      "type": "term",
+      "status": "proposed",
+      "en": "Mālasī-gavuṛā",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মালসী গবুড়া",
+          "translit": "mālasī gavuṛā",
+          "lemma": "mālasī gavuṛā",
+          "att": "AS",
+          "where": "cp.40.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མཱ་ལ་སའི་གོ་ཌ་ལ",
+          "translit": "mA la sa'i go Da la",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.40.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মালসী গবুড়া"
+        ],
+        "bod": [
+          "མཱ་ལ་སའི་གོ་ཌ་ལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Mālasī-gavuṛā, the rāga (melodic mode) to which song 40 is sung, named in its heading. It joins mālasī (compare Mālaśī, song 39) and gavuṛā (compare Gavaṛā, song 2, and Gauḍā, song 18). The Tibetan transcribes it as one name, mA la sa'i go Da la, 'the go Da la of mA la sa'. Its relation to those rāgas is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "mallari",
       "type": "term",
       "status": "proposed",
@@ -27016,17 +27336,47 @@
           "lemma": "yid kyi spyod yul",
           "att": "AO",
           "where": "cp.07.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "মণ গোএর",
+          "translit": "maṇa goera",
+          "lemma": "maṇa goara",
+          "att": "AS",
+          "where": "cp.40.1a"
+        },
+        {
+          "lang": "pra",
+          "script": "মণ গোঅর",
+          "translit": "maṇa goara",
+          "lemma": "manogocara",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་དང་དབང་པོའི་སྤྱོད་ཡུལ",
+          "translit": "yid dang dbang po'i spyod yul",
+          "lemma": "spyod yul",
+          "att": "AO",
+          "where": "cp.40.m2"
         }
       ],
       "match": {
         "oben": [
-          "মনগোঅর"
+          "মনগোঅর",
+          "মণ গোএর",
+          "মণ গোঅর"
         ],
         "san": [
-          "মনোগোচর"
+          "মনোগোচর",
+          "মণ গোঅর"
         ],
         "bod": [
           "ཡིད་ཀྱི་སྤྱོད་ཡུལ"
+        ],
+        "pra": [
+          "মণ গোঅর"
         ]
       },
       "matchRe": {},
@@ -30225,6 +30575,87 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "muka",
+      "type": "term",
+      "status": "proposed",
+      "en": "mute",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বোব",
+          "translit": "boba",
+          "lemma": "boba",
+          "att": "AS",
+          "where": "cp.40.5b"
+        },
+        {
+          "lang": "san",
+          "script": "মূকস্য",
+          "translit": "mūkasya",
+          "lemma": "mūka",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྐུགས་པས",
+          "translit": "lkugs pas",
+          "lemma": "lkugs pa",
+          "att": "AO",
+          "where": "cp.40.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྐུགས་པའི",
+          "translit": "lkugs pa'i",
+          "lemma": "lkugs pa",
+          "att": "AO",
+          "where": "cp.40.m6"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ལྐུགས་པ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বোবা?(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])মূক"
+        ]
+      },
+      "definition": "Mute, unable to speak (Sanskrit mūka; Old Bengali boba, compare Bengali bobā). In the last line of song 40 the mute is instructed by the deaf (5b); Munidatta's simile has a deaf man communicate with a mute by signs (cp.40.m6). The Tibetan line reverses the roles: the mute speaks to the deaf (lkugs pas 'on par smra).",
+      "symbolic": {
+        "image": "the mute whom the deaf instructs (5b)",
+        "readings": [
+          {
+            "referent": "the disciple (śiṣya), in whom the true guru spreads great bliss, as a deaf man communicates with a mute by signs and the like: a correspondence drawn by the simile (yathā … tadvat), not an explicit gloss",
+            "per": "Munidatta",
+            "where": [
+              "cp.40.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "disciple"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -34398,11 +34829,31 @@
           "lemma": "u Da'i zhabs",
           "att": "AO",
           "where": "cp.38.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ইউডীপাদাঃ",
+          "translit": "iuḍīpādāḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཌ་ཨུ་ཌའི་ཞབས",
+          "translit": "Da u Da'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.40.m6"
         }
       ],
       "match": {
         "san": [
-          "ইউড়ীপাদ"
+          "ইউড়ীপাদ",
+          "ইউডীপাদ"
+        ],
+        "bod": [
+          "ཌ་ཨུ་ཌའི་ཞབས"
         ]
       },
       "matchRe": {},
@@ -34529,6 +34980,30 @@
           "lemma": "rgyal ba",
           "att": "AO",
           "where": "cp.34.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "জিণ",
+          "translit": "jiṇa",
+          "lemma": "jiṇa",
+          "att": "AS",
+          "where": "cp.40.5a"
+        },
+        {
+          "lang": "san",
+          "script": "জিনরত্নং",
+          "translit": "jinaratnaṃ",
+          "lemma": "jina",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་བའི",
+          "translit": "rgyal ba'i",
+          "lemma": "rgyal ba",
+          "att": "AO",
+          "where": "cp.40.5a"
         }
       ],
       "match": {
@@ -34537,7 +35012,14 @@
           "জিনসম"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])জিণ(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])জিন(?=রত্ন)"
+        ]
+      },
       "definition": "'Victor', a title of a buddha as one who has conquered the afflictions (the Jains use it of their teachers). Munidatta calls the unity of self-blessing and clear light the bridge of the Jina, for carrying beings across the ocean of saṃsāra (cp.05.m5); the Tibetan translation has no word for 'Jina' there.",
       "symbolic": {
         "image": "",
@@ -35055,6 +35537,14 @@
           "lemma": "Kṛṣṇācāryapāda",
           "att": "AS",
           "where": "cp.42.m5"
+        },
+        {
+          "lang": "san",
+          "script": "কাহ্নুপাদানাং",
+          "translit": "kāhnupādānāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.1a"
         }
       ],
       "match": {
@@ -35075,7 +35565,8 @@
           "কাহ্নে",
           "কৃষ্ণবজ্রপাদ",
           "কৃষ্ণাচার্য্যচরণ",
-          "কৃষ্ণাচার্য্যপাদ"
+          "কৃষ্ণাচার্য্যপাদ",
+          "কাহ্নুপাদানাং"
         ],
         "oben": [
           "কাহ্ন",
@@ -36326,6 +36817,70 @@
       },
       "matchRe": {},
       "definition": "Siddha poet of song 25, known in Sanskrit as Tantrīpāda. The song survives only in the Tibetan translation, whose heading calls him thag pa'i zhabs; Munidatta's comment calls him the siddhācārya Tha ga pa'i zhabs, tha ga pa being 'weaver' (cp.25.m1). In the refrain and the last couplet the poet calls himself a weaver (tha ga).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "p-tilopa",
+      "type": "person",
+      "status": "proposed",
+      "en": "Tilopāda",
+      "alt": [
+        "Tilopa"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তিলোপাদঃ",
+          "translit": "tilopādaḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "pra",
+          "script": "তিলোপাএ",
+          "translit": "tilopāe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏི་ལོ་པའི་ཞབས",
+          "translit": "ti lo pa'i zhabs",
+          "lemma": "ti lo pa",
+          "att": "AO",
+          "where": "cp.40.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "তিলোপা"
+        ],
+        "pra": [
+          "তিলোপাএ"
+        ],
+        "bod": [
+          "ཏི་ལོ་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Tilopāda (Tilopa), a siddha. On song 40's refrain Munidatta quotes his Apabhraṃśa dohā: Tilopa calls self-awareness the fruit of the tantra, and what lies hidden in the mind's range is not the ultimate (cp.40.m3). The Tibetan names him ti lo pa. Tibetan tradition makes a Tilopa the teacher of Nāropa; whether he is this poet is not said here.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -40839,6 +41394,14 @@
           "lemma": "so so'i skye bo",
           "att": "AO",
           "where": "cp.29.m5"
+        },
+        {
+          "lang": "san",
+          "script": "পৃথক্‌জনানাং",
+          "translit": "pṛthakjanānāṃ",
+          "lemma": "pṛthagjana",
+          "att": "AS",
+          "where": "cp.40.m3"
         }
       ],
       "match": {
@@ -41672,6 +42235,22 @@
           "lemma": "ratna",
           "att": "AS",
           "where": "cp.27.m3"
+        },
+        {
+          "lang": "san",
+          "script": "জিনরত্নং",
+          "translit": "jinaratnaṃ",
+          "lemma": "ratna",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "san",
+          "script": "রত্নং",
+          "translit": "ratnaṃ",
+          "lemma": "ratna",
+          "att": "AS",
+          "where": "cp.40.m6"
         }
       ],
       "match": {
@@ -41687,7 +42266,11 @@
           "རིན་པོ་ཆེ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "(?<!অ)রত্ন(?!ি)"
+        ]
+      },
       "definition": "A jewel or gem (Sanskrit ratna, Old Bengali raaṇa), a common image of worth in Buddhist writing. Song 9 speaks of the jewel of the ten powers in the ten directions; Munidatta calls it the jewel of suchness (cp.09.m5). Distinct from maṇi, 'jewel', in the code phrases 'root of the jewel' and 'vajra jewel'.",
       "symbolic": {
         "image": "the jewel of the ten powers, in the ten directions",
@@ -42250,6 +42833,54 @@
         "lotus grove",
         "wheel of great bliss"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "rosary",
+      "type": "term",
+      "status": "proposed",
+      "en": "rosary",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ইষ্টামালা",
+          "translit": "iṣṭāmālā",
+          "lemma": "iṣṭāmālā",
+          "att": "AS",
+          "where": "cp.40.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྲེང་བ",
+          "translit": "phreng ba",
+          "lemma": "phreng ba",
+          "att": "AO",
+          "where": "cp.40.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ইষ্টামালা"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A string of beads for counting recitations (Old Bengali iṣṭāmālā, apparently iṣṭa, 'chosen deity' or 'desired', and mālā, 'garland'). Song 40 names it with scripture and book as things in the mind's range (1b). The Tibetan line has brdzun gyi phreng ba, 'garland of falsehood'. Munidatta speaks of knowledge of scripture, mantra, treatises and the like (cp.40.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -45027,6 +45658,101 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "sisya",
+      "type": "term",
+      "status": "proposed",
+      "en": "disciple",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সীস",
+          "translit": "sīsa",
+          "lemma": "sīsa",
+          "att": "AS",
+          "where": "cp.40.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "সীসা",
+          "translit": "sīsā",
+          "lemma": "sīsa",
+          "att": "AS",
+          "where": "cp.40.4b"
+        },
+        {
+          "lang": "san",
+          "script": "শিষ্যায়োপদেশং",
+          "translit": "śiṣyāyopadeśaṃ",
+          "lemma": "śiṣya",
+          "att": "AS",
+          "where": "cp.40.m4"
+        },
+        {
+          "lang": "san",
+          "script": "শিষ্যেণাপ্যবচস্ত্বেন",
+          "translit": "śiṣyeṇāpy avacastvena",
+          "lemma": "śiṣya",
+          "att": "AS",
+          "where": "cp.40.m5"
+        },
+        {
+          "lang": "san",
+          "script": "শিষ্যে",
+          "translit": "śiṣye",
+          "lemma": "śiṣya",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སློབ་མ",
+          "translit": "slob ma",
+          "lemma": "slob ma",
+          "att": "AO",
+          "where": "cp.40.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སློབ་མས",
+          "translit": "slob mas",
+          "lemma": "slob ma",
+          "att": "AO",
+          "where": "cp.40.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "སློབ་མ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])সীসা?(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])শিষ্য"
+        ]
+      },
+      "definition": "A disciple or pupil (Sanskrit śiṣya; Old Bengali sīsa; Tibetan slob ma), the one a guru instructs. Song 40 twice sets the two together: the guru instructs the disciple, falsely or in vain (3a), and the disciple is deaf (4b). Munidatta says the guru's instruction is fruitless (cp.40.m4) and that the disciple heard nothing (cp.40.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -51021,6 +51747,59 @@
       }
     },
     {
+      "id": "tx-purana",
+      "type": "text",
+      "status": "proposed",
+      "en": "Purāṇa",
+      "alt": [
+        "Purāṇas"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "পুরাণে",
+          "translit": "purāṇe",
+          "lemma": "purāṇa",
+          "att": "AS",
+          "where": "cp.40.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྙིང་མ",
+          "translit": "rnying ma",
+          "lemma": "rnying ma",
+          "att": "AO",
+          "where": "cp.40.m2"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "san": [
+          "(?<=বেঅ)পুরাণ"
+        ],
+        "pra": [
+          "(?<=বেঅ)পুরাণ"
+        ]
+      },
+      "definition": "The Purāṇas ('ancient' lore): a large class of Brahmanical scriptures of myth, genealogy, cosmology and rite. In the verse Munidatta quotes on song 40, scripture, Veda and Purāṇa stand together (āgama vea purāṇe), and the quotation breaks off there (cp.40.m2). The Tibetan has rig byed rnying ma, which may mean 'Veda and Purāṇa' or 'the ancient Veda'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "tx-rativajra",
       "type": "text",
       "status": "proposed",
@@ -51406,6 +52185,30 @@
           "lemma": "rig byed",
           "att": "AO",
           "where": "cp.29.3b"
+        },
+        {
+          "lang": "pra",
+          "script": "বেঅ",
+          "translit": "vea",
+          "lemma": "veda",
+          "att": "AS",
+          "where": "cp.40.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বেদঃ",
+          "translit": "vedaḥ",
+          "lemma": "veda",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རིག་བྱེད",
+          "translit": "rig byed",
+          "lemma": "rig byed",
+          "att": "AO",
+          "where": "cp.40.m3"
         }
       ],
       "match": {
@@ -51418,10 +52221,15 @@
       },
       "matchRe": {
         "san": [
-          "(?<![\\p{L}\\p{M}])বেদ(?:ে|াঃ|ঃ|ং|স্য|েষু)?(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])বেদ(?:ে|াঃ|ঃ|ং|স্য|েষু)?(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}])বেঅ(?=পুরাণ|[^\\p{L}\\p{M}]|$)",
+          "(?<![\\p{L}\\p{M}])বেদঃ"
         ],
         "oben": [
           "(?<![\\p{L}\\p{M}])বেদ(?![\\p{L}\\p{M}])"
+        ],
+        "pra": [
+          "(?<![\\p{L}\\p{M}])বেঅ(?=পুরাণ|[^\\p{L}\\p{M}]|$)"
         ]
       },
       "definition": "The Veda: the oldest scriptures of Brahmanical religion, hymns and ritual texts held to be revealed and taught by brahmins. Song 29 asks how what has no colour, mark or form is explained by scripture and Veda (3b); Munidatta names the Veda after poetry, Vinaya, scripture and treatises (cp.29.m4). The Tibetan has rig byed.",
@@ -53541,6 +54349,14 @@
           "lemma": "ngag gi lam las 'das pa",
           "att": "AO",
           "where": "cp.37.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ངག་གི་ལམ་ནས་འདས་པ",
+          "translit": "ngag gi lam nas 'das pa",
+          "lemma": "ngag gi lam las 'das pa",
+          "att": "AO",
+          "where": "cp.40.3b"
         }
       ],
       "match": {
@@ -53553,7 +54369,8 @@
           "বাক্পথাতীত"
         ],
         "bod": [
-          "ངག་གི་ལམ་ལས་འདས"
+          "ངག་གི་ལམ་ལས་འདས",
+          "ངག་གི་ལམ་ནས་འདས་པ"
         ]
       },
       "matchRe": {},
@@ -55306,6 +56123,14 @@
           "lemma": "rnam par mi rtog pa",
           "att": "AO",
           "where": "cp.36.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সকলবিকল্পজালঃ",
+          "translit": "sakalavikalpajālaḥ",
+          "lemma": "vikalpa",
+          "att": "AS",
+          "where": "cp.40.m2"
         }
       ],
       "match": {

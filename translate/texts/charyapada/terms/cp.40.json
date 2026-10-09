@@ -1,0 +1,1004 @@
+{
+  "unit": "cp.40",
+  "proposals": [
+    {
+      "id": "p-tilopa",
+      "type": "person",
+      "en": "Tilopāda",
+      "policy": "keep-source",
+      "alt": [
+        "Tilopa"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তিলোপাদঃ",
+          "translit": "tilopādaḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "pra",
+          "script": "তিলোপাএ",
+          "translit": "tilopāe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏི་ལོ་པའི་ཞབས",
+          "translit": "ti lo pa'i zhabs",
+          "lemma": "ti lo pa",
+          "att": "AO",
+          "where": "cp.40.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "তিলোপা"
+        },
+        {
+          "lang": "pra",
+          "form": "তিলোপাএ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཏི་ལོ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Tilopāda (Tilopa), a siddha. On song 40's refrain Munidatta quotes his Apabhraṃśa dohā: Tilopa calls self-awareness the fruit of the tantra, and what lies hidden in the mind's range is not the ultimate (cp.40.m3). The Tibetan names him ti lo pa. Tibetan tradition makes a Tilopa the teacher of Nāropa; whether he is this poet is not said here.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta quotes Tilopa by name and the glossary has no entry for him; keep-source in the -pāda form the commentary uses, as for the other teachers he quotes."
+    },
+    {
+      "id": "badhira",
+      "type": "term",
+      "en": "deaf",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাল",
+          "translit": "kāla",
+          "lemma": "kāla",
+          "att": "AS",
+          "where": "cp.40.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "কালেঁ",
+          "translit": "kālem̐",
+          "lemma": "kāla",
+          "att": "AS",
+          "where": "cp.40.5b"
+        },
+        {
+          "lang": "san",
+          "script": "বধিরস্তস্মিন্",
+          "translit": "badhiras tasmin",
+          "lemma": "badhira",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বধিরঃ",
+          "translit": "badhiraḥ",
+          "lemma": "badhira",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འོན་པ",
+          "translit": "'on pa",
+          "lemma": "'on pa",
+          "att": "AO",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འོན་པར",
+          "translit": "'on par",
+          "lemma": "'on pa",
+          "att": "AO",
+          "where": "cp.40.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কালেঁ(?=\\s*বোব)"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<=সীসা\\s)কাল(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বধির"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])འོན་པ(?!\\p{M})"
+        }
+      ],
+      "definition": "Deaf (Sanskrit badhira; Old Bengali kāla, compare Bengali kālā), not kāla, 'time, death'. Song 40 makes the disciple deaf (4b) and has the deaf instruct the mute (5b). Munidatta says the disciple heard nothing (cp.40.m5) and likens the true guru's gift of great bliss to a deaf man signing to a mute (cp.40.m6). The Tibetan of 4b has 'khrul, 'confused'.",
+      "symbolicImage": "the deaf one who instructs the mute (5b)",
+      "symbolicReadings": [
+        {
+          "referent": "the true guru (sadguru), who spreads great bliss in the disciple by the power of his own delight, as a deaf man communicates with a mute by signs and the like: a correspondence drawn by the simile (yathā … tadvat), not an explicit gloss; the comment opens 'so he too is deaf' (so 'pi ca badhiraḥ), and the Tibetan comment has the mute's understanding conveyed to the deaf by signs ('on pa la brda la sogs pas lkugs pa'i rtogs pa smra bar byed)",
+          "per": "Munidatta",
+          "where": [
+            "cp.40.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "true guru"
+      ],
+      "rationale": "Deafness is one of song 40's closing images for a teaching that can be neither spoken nor heard, and Munidatta builds a simile on it; a separate entry keeps kāla 'deaf' apart from kāla 'time, death' (the kala entry)."
+    },
+    {
+      "id": "muka",
+      "type": "term",
+      "en": "mute",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বোব",
+          "translit": "boba",
+          "lemma": "boba",
+          "att": "AS",
+          "where": "cp.40.5b"
+        },
+        {
+          "lang": "san",
+          "script": "মূকস্য",
+          "translit": "mūkasya",
+          "lemma": "mūka",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྐུགས་པས",
+          "translit": "lkugs pas",
+          "lemma": "lkugs pa",
+          "att": "AO",
+          "where": "cp.40.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྐུགས་པའི",
+          "translit": "lkugs pa'i",
+          "lemma": "lkugs pa",
+          "att": "AO",
+          "where": "cp.40.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ལྐུགས་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বোবা?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মূক"
+        }
+      ],
+      "definition": "Mute, unable to speak (Sanskrit mūka; Old Bengali boba, compare Bengali bobā). In the last line of song 40 the mute is instructed by the deaf (5b); Munidatta's simile has a deaf man communicate with a mute by signs (cp.40.m6). The Tibetan line reverses the roles: the mute speaks to the deaf (lkugs pas 'on par smra).",
+      "symbolicImage": "the mute whom the deaf instructs (5b)",
+      "symbolicReadings": [
+        {
+          "referent": "the disciple (śiṣya), in whom the true guru spreads great bliss, as a deaf man communicates with a mute by signs and the like: a correspondence drawn by the simile (yathā … tadvat), not an explicit gloss",
+          "per": "Munidatta",
+          "where": [
+            "cp.40.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "disciple"
+      ],
+      "rationale": "The mute is the other half of song 40's closing simile and of Munidatta's gloss on it; 'mute' is plain and avoids 'dumb', which now usually means 'stupid'."
+    },
+    {
+      "id": "sisya",
+      "type": "term",
+      "en": "disciple",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সীস",
+          "translit": "sīsa",
+          "lemma": "sīsa",
+          "att": "AS",
+          "where": "cp.40.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "সীসা",
+          "translit": "sīsā",
+          "lemma": "sīsa",
+          "att": "AS",
+          "where": "cp.40.4b"
+        },
+        {
+          "lang": "san",
+          "script": "শিষ্যায়োপদেশং",
+          "translit": "śiṣyāyopadeśaṃ",
+          "lemma": "śiṣya",
+          "att": "AS",
+          "where": "cp.40.m4"
+        },
+        {
+          "lang": "san",
+          "script": "শিষ্যেণাপ্যবচস্ত্বেন",
+          "translit": "śiṣyeṇāpy avacastvena",
+          "lemma": "śiṣya",
+          "att": "AS",
+          "where": "cp.40.m5"
+        },
+        {
+          "lang": "san",
+          "script": "শিষ্যে",
+          "translit": "śiṣye",
+          "lemma": "śiṣya",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སློབ་མ",
+          "translit": "slob ma",
+          "lemma": "slob ma",
+          "att": "AO",
+          "where": "cp.40.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "སློབ་མས",
+          "translit": "slob mas",
+          "lemma": "slob ma",
+          "att": "AO",
+          "where": "cp.40.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སློབ་མ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সীসা?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])শিষ্য"
+        }
+      ],
+      "definition": "A disciple or pupil (Sanskrit śiṣya; Old Bengali sīsa; Tibetan slob ma), the one a guru instructs. Song 40 twice sets the two together: the guru instructs the disciple, falsely or in vain (3a), and the disciple is deaf (4b). Munidatta says the guru's instruction is fruitless (cp.40.m4) and that the disciple heard nothing (cp.40.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The disciple is the guru's counterpart throughout song 40 and its commentary, and the glossary, which has guru, has no entry for the disciple; 'disciple' is the usual English for śiṣya in a teaching relationship."
+    },
+    {
+      "id": "book",
+      "type": "term",
+      "en": "book",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পোথী",
+          "translit": "pothī",
+          "lemma": "pothī",
+          "att": "AS",
+          "where": "cp.40.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পোথী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A book or manuscript (Old Bengali pothī, from Sanskrit pustaka; compare Bengali puthi), in eastern India usually palm-leaf folios. Song 40 names it between scripture and the rosary as things that lie in the mind's range (1b). Munidatta speaks of knowledge of scripture, mantra, treatises and the like (cp.40.m2). The Tibetan line has po ste, perhaps for po ti, 'volume'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the three things song 40 sets in the mind's range, and books are a recurring foil in siddha writing; plain 'book' keeps the image."
+    },
+    {
+      "id": "rosary",
+      "type": "term",
+      "en": "rosary",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ইষ্টামালা",
+          "translit": "iṣṭāmālā",
+          "lemma": "iṣṭāmālā",
+          "att": "AS",
+          "where": "cp.40.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྲེང་བ",
+          "translit": "phreng ba",
+          "lemma": "phreng ba",
+          "att": "AO",
+          "where": "cp.40.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ইষ্টামালা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A string of beads for counting recitations (Old Bengali iṣṭāmālā, apparently iṣṭa, 'chosen deity' or 'desired', and mālā, 'garland'). Song 40 names it with scripture and book as things in the mind's range (1b). The Tibetan line has brdzun gyi phreng ba, 'garland of falsehood'. Munidatta speaks of knowledge of scripture, mantra, treatises and the like (cp.40.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the three things song 40 sets in the mind's range; 'rosary' is the usual English for a string of counting beads, though the first part of the Old Bengali word is not certain."
+    },
+    {
+      "id": "tx-purana",
+      "type": "text",
+      "en": "Purāṇa",
+      "policy": "keep-source",
+      "alt": [
+        "Purāṇas"
+      ],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "পুরাণে",
+          "translit": "purāṇe",
+          "lemma": "purāṇa",
+          "att": "AS",
+          "where": "cp.40.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རྙིང་མ",
+          "translit": "rnying ma",
+          "lemma": "rnying ma",
+          "att": "AO",
+          "where": "cp.40.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=বেঅ)পুরাণ"
+        },
+        {
+          "lang": "pra",
+          "re": "(?<=বেঅ)পুরাণ"
+        }
+      ],
+      "definition": "The Purāṇas ('ancient' lore): a large class of Brahmanical scriptures of myth, genealogy, cosmology and rite. In the verse Munidatta quotes on song 40, scripture, Veda and Purāṇa stand together (āgama vea purāṇe), and the quotation breaks off there (cp.40.m2). The Tibetan has rig byed rnying ma, which may mean 'Veda and Purāṇa' or 'the ancient Veda'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Named beside scripture and the Veda in the verse Munidatta quotes; a class of works like the Veda, which has its own keep-source entry."
+    },
+    {
+      "id": "malasi-gavura",
+      "type": "term",
+      "en": "Mālasī-gavuṛā",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মালসী গবুড়া",
+          "translit": "mālasī gavuṛā",
+          "lemma": "mālasī gavuṛā",
+          "att": "AS",
+          "where": "cp.40.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མཱ་ལ་སའི་གོ་ཌ་ལ",
+          "translit": "mA la sa'i go Da la",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.40.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মালসী গবুড়া"
+        },
+        {
+          "lang": "bod",
+          "form": "མཱ་ལ་སའི་གོ་ཌ་ལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mālasī-gavuṛā, the rāga (melodic mode) to which song 40 is sung, named in its heading. It joins mālasī (compare Mālaśī, song 39) and gavuṛā (compare Gavaṛā, song 2, and Gauḍā, song 18). The Tibetan transcribes it as one name, mA la sa'i go Da la, 'the go Da la of mA la sa'. Its relation to those rāgas is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Treated as a rāga of its own, not as Mālaśī with a qualifier: later Indian music uses such compounds (Mālavagauḍa, Kedāragauḍa) for distinct melodies, gavuṛā is itself a rāga name, the Tibetan gives one name spelled unlike song 39's mA la lA si, and the Bengali has মালসী, not মালশী."
+    },
+    {
+      "id": "ala-jala",
+      "type": "term",
+      "en": "ālā jālā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আলা জালা",
+          "translit": "ālā jālā",
+          "lemma": "ālā jālā",
+          "att": "AS",
+          "where": "cp.40.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "མིག་འཕྲུལ་འདྲ",
+          "translit": "mig 'phrul 'dra",
+          "lemma": "mig 'phrul",
+          "att": "AO",
+          "where": "cp.40.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "আলা জালা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A jingling phrase of uncertain sense: in song 40 (1a) whatever lies in the mind's range is ālā jālā. It may mean a tangle or a sham (compare Hindi āl-jāl, 'rubbish, muddle'; jālā suggests jāla, 'net'). Munidatta puts the net of all concepts in its place (cp.40.m2); the Tibetan line has mig 'phrul 'dra, 'like a magic show'.",
+      "symbolicImage": "whatever lies in the mind's range being ālā jālā (1a)",
+      "symbolicReadings": [
+        {
+          "referent": "the net of all concepts (sakalavikalpajāla): whatever is the range of the horse of the mind-sense; he adds the knowledge of scripture, mantra, treatises and the like. His paraphrase puts it where the song has ālā jālā, with no explicit gloss; the Tibetan comment agrees (rtog pa dang rnam par rtog pa'i dra ba)",
+          "per": "Munidatta",
+          "where": [
+            "cp.40.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "concepts",
+        "net of concepts"
+      ],
+      "rationale": "The phrase is the predicate of the song's first couplet, its sense is uncertain and Munidatta reads it, so like the glossary's other uncertain words it keeps its source form with a first gloss."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কাহ্নুপাদানাং",
+          "translit": "kāhnupādānāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কাহ্নুপাদানাং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet, Kṛṣṇācārya in Sanskrit, to whom song 40 is attributed (kāhnupādānāṃ, written before the song). He names himself Kāhnu in its last couplet (5a); Munidatta calls him Kṛṣṇācārya (cp.40.m1, cp.40.m6), and the Tibetan nag po spyod pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the attribution spelled with anusvāra (kāhnupādānāṃ), emended out of 1a; every other form in the unit is already listed."
+    },
+    {
+      "id": "agama",
+      "type": "term",
+      "en": "scripture",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "আগম",
+          "translit": "āgama",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.40.m2"
+        },
+        {
+          "lang": "san",
+          "script": "আগমমন্ত্রশাস্ত্রাদিজ্ঞানং",
+          "translit": "āgamamantraśāstrādijñānaṃ",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.40.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])আগম(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "pra",
+          "re": "(?<![\\p{L}\\p{M}])আগম(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])আগম(?![নণ])"
+        }
+      ],
+      "definition": "Scripture, authoritative tradition (āgama; Tibetan lung). Song 40 names it first of the things in the mind's range (1b); Munidatta speaks of knowledge of scripture, mantra and treatises, and quotes a verse beginning āgama vea purāṇe, 'scripture, Veda, Purāṇa' (cp.40.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only (the Apabhraṃśa āgama of the quoted verse and Munidatta's compound), with word-start patterns that keep āgama clear of āgamana, 'coming'."
+    },
+    {
+      "id": "tx-veda",
+      "type": "text",
+      "en": "Veda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "বেঅ",
+          "translit": "vea",
+          "lemma": "veda",
+          "att": "AS",
+          "where": "cp.40.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বেদঃ",
+          "translit": "vedaḥ",
+          "lemma": "veda",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རིག་བྱེད",
+          "translit": "rig byed",
+          "lemma": "rig byed",
+          "att": "AO",
+          "where": "cp.40.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বেঅ(?=পুরাণ|[^\\p{L}\\p{M}]|$)"
+        },
+        {
+          "lang": "pra",
+          "re": "(?<![\\p{L}\\p{M}])বেঅ(?=পুরাণ|[^\\p{L}\\p{M}]|$)"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বেদঃ"
+        }
+      ],
+      "definition": "The Veda, the oldest Brahmanical scriptures. In song 40's commentary it appears in the quoted verse 'scripture, Veda, Purāṇa' (vea, cp.40.m2), and Munidatta asks how the Veda (vedaḥ) could speak the innate, unsurpassed knowledge (cp.40.m3); the Tibetan has rig byed du, 'in the Veda'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: Apabhraṃśa vea, matched only as a word or before purāṇa so that it stays out of veaṇa (vedana) in the next verse, and Munidatta's vedaḥ."
+    },
+    {
+      "id": "guru",
+      "type": "term",
+      "en": "guru",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গুরুঃ",
+          "translit": "guruḥ",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m4"
+        },
+        {
+          "lang": "san",
+          "script": "গুরুণা",
+          "translit": "guruṇā",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রগুরুঃ",
+          "translit": "vajraguruḥ",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m5"
+        },
+        {
+          "lang": "san",
+          "script": "সদ্গুরুঃ",
+          "translit": "sadguruḥ",
+          "lemma": "guru",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མས",
+          "translit": "bla mas",
+          "lemma": "bla ma",
+          "att": "AO",
+          "where": "cp.40.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "བླ་མ་དམ་པས",
+          "translit": "bla ma dam pas",
+          "lemma": "bla ma dam pa",
+          "att": "AO",
+          "where": "cp.40.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])(?:বজ্র|সদ্|শ্রী)?গুরু"
+        },
+        {
+          "lang": "bod",
+          "re": "བླ་མ(?!\\p{M})"
+        }
+      ],
+      "definition": "A spiritual teacher (Tibetan bla ma). In song 40 the guru instructs the disciple, falsely or in vain (3a); Munidatta calls that instruction fruitless (cp.40.m4), says the vajra guru himself is poor in speech in this dharma (cp.40.m5), and has the true guru spread great bliss in the disciple (cp.40.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only, with a word-start pattern for the Sanskrit (so not aguru, 'aloe wood') and a Tibetan pattern that takes bla ma but not bla med."
+    },
+    {
+      "id": "ratna",
+      "type": "term",
+      "en": "jewel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জিনরত্নং",
+          "translit": "jinaratnaṃ",
+          "lemma": "ratna",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "san",
+          "script": "রত্নং",
+          "translit": "ratnaṃ",
+          "lemma": "ratna",
+          "att": "AS",
+          "where": "cp.40.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<!অ)রত্ন(?!ি)"
+        }
+      ],
+      "definition": "A jewel (Sanskrit ratna, Old Bengali raaṇa; Tibetan rin chen, rin po che). Song 40's last couplet names the Jina's jewel (jiṇa raaṇa, 5a), which Munidatta cites as jinaratna and explains (cp.40.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only (Munidatta's jinaratnaṃ and ratnaṃ); the pattern avoids aratni, 'cubit'. His new reading of the jewel is in questions."
+    },
+    {
+      "id": "p-jina",
+      "type": "person",
+      "en": "Jina",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জিণ",
+          "translit": "jiṇa",
+          "lemma": "jiṇa",
+          "att": "AS",
+          "where": "cp.40.5a"
+        },
+        {
+          "lang": "san",
+          "script": "জিনরত্নং",
+          "translit": "jinaratnaṃ",
+          "lemma": "jina",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་བའི",
+          "translit": "rgyal ba'i",
+          "lemma": "rgyal ba",
+          "att": "AO",
+          "where": "cp.40.5a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])জিণ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])জিন(?=রত্ন)"
+        }
+      ],
+      "definition": "'Victor', a title of a buddha. Song 40's last couplet speaks of the Jina's jewel (jiṇa raaṇa, 5a), which Munidatta cites as jinaratna (cp.40.m6); the Tibetan has rgyal ba'i rin chen.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only; the Old Bengali jiṇa is matched as a whole word so that it does not claim verb forms of jiṇ-, 'conquer'."
+    },
+    {
+      "id": "vakpathatita",
+      "type": "term",
+      "en": "beyond the path of speech",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ངག་གི་ལམ་ནས་འདས་པ",
+          "translit": "ngag gi lam nas 'das pa",
+          "lemma": "ngag gi lam las 'das pa",
+          "att": "AO",
+          "where": "cp.40.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ངག་གི་ལམ་ནས་འདས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Beyond the path of speech (vākpathātīta): out of the reach of words. Song 40 asks how the guru could tell the disciple what is beyond the path of speech (3b); the Tibetan line has ngag gi lam nas 'das pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the Tibetan of 3b has nas where the listed form has las; the Bengali বাক্‌পথাতীত is already listed."
+    },
+    {
+      "id": "manogocara",
+      "type": "term",
+      "en": "range of the mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মণ গোএর",
+          "translit": "maṇa goera",
+          "lemma": "maṇa goara",
+          "att": "AS",
+          "where": "cp.40.1a"
+        },
+        {
+          "lang": "pra",
+          "script": "মণ গোঅর",
+          "translit": "maṇa goara",
+          "lemma": "manogocara",
+          "att": "AS",
+          "where": "cp.40.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡིད་དང་དབང་པོའི་སྤྱོད་ཡུལ",
+          "translit": "yid dang dbang po'i spyod yul",
+          "lemma": "spyod yul",
+          "att": "AO",
+          "where": "cp.40.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মণ গোএর"
+        },
+        {
+          "lang": "oben",
+          "form": "মণ গোঅর"
+        },
+        {
+          "lang": "san",
+          "form": "মণ গোঅর"
+        },
+        {
+          "lang": "pra",
+          "form": "মণ গোঅর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The range of the mind (manogocara; Tibetan yid kyi spyod yul). Song 40 opens with whatever lies in it (1a); Munidatta calls that the net of all concepts, the range of the horse of the mind-sense (cp.40.m2), and quotes Tilopa: what is hidden in the mind's range is not the ultimate (cp.40.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the Old Bengali maṇa goera of 1a, the Apabhraṃśa maṇa goara of the Tilopa verse (both written as two words, unlike the listed managoara) and a Tibetan variant."
+    },
+    {
+      "id": "vikalpa",
+      "type": "term",
+      "en": "conceptual thought",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সকলবিকল্পজালঃ",
+          "translit": "sakalavikalpajālaḥ",
+          "lemma": "vikalpa",
+          "att": "AS",
+          "where": "cp.40.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিকল্প"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Conceptual thought (vikalpa). Munidatta calls whatever lies in the range of the mind 'the net of all concepts' (sakalavikalpajāla), in place of song 40's ālā jālā (cp.40.m2); the Tibetan has rtog pa dang rnam par rtog pa'i dra ba.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: Munidatta's sakalavikalpajālaḥ."
+    },
+    {
+      "id": "prthagjana",
+      "type": "term",
+      "en": "ordinary person",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পৃথক্‌জনানাং",
+          "translit": "pṛthakjanānāṃ",
+          "lemma": "pṛthagjana",
+          "att": "AS",
+          "where": "cp.40.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পৃথক্‌জন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An ordinary person (pṛthagjana; Tibetan so so'i skye bo). Munidatta says the innate is that in which the body, speech and mind of ordinary people do not enter (cp.40.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source form only: the genitive plural pṛthakjanānāṃ."
+    },
+    {
+      "id": "p-iuri",
+      "type": "person",
+      "en": "Iuṛīpāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ইউডীপাদাঃ",
+          "translit": "iuḍīpādāḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.40.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཌ་ཨུ་ཌའི་ཞབས",
+          "translit": "Da u Da'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.40.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ইউডীপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཌ་ཨུ་ཌའི་ཞབས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Teacher whom Munidatta quotes at the end of his comment on song 40, for a verse beginning adūre dūre vā, 'near or far' (cp.40.m6). The Sanskrit spells the name with ḍ (iuḍī) here; the Tibetan has Da u Da'i zhabs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New source forms only: the spelling iuḍīpādāḥ and the Tibetan Da u Da'i zhabs."
+    }
+  ],
+  "questions": [
+    "kala (EN 'Death'): the pack shows its forms but not its match patterns. It lists the bare form oben কাল (song 1); if that is a match literal, kala already claims কাল in 4b and, inside the longer word, কালেঁ in 5b, where the word means 'deaf' (Old Bengali kāla, Bengali kālā; Munidatta: the disciple 'heard nothing', cp.40.m5, and badhira, cp.40.m6). My badhira entry claims কালেঁ only before বোব (longer, so it wins) and 4b's কাল only after সীসা, which ties in length with a bare কাল literal; please narrow kala's literal (for example to song 1's context) so it cannot claim 4b.",
+    "ratna, new reading (cp.40.m6): Munidatta explains the Jina's jewel of 5a as 'a jewel because it spreads (tanoti) delight (rati), endless unsurpassed bliss; it is to be understood as the fourth joy' (ratnaṃ caturthānandaṃ boddhavyaṃ). The Tibetan comment agrees (rin po che bzhi po'i dga' bar rtogs par bya). If accepted, 'fourth joy' would join ratna's forbidden words.",
+    "tala, new reading or a different word (cp.40.4a, cp.40.m5): 4a ends te tabi ṭāla, which Munidatta glosses ṭālanam asadrūpaṃ, 'ṭālana, of unreal form', the same 'unreal form' he gives for song 33's ṭāla; the Tibetan line has brdzun, 'false'. tala's literal টালত does not reach 4a's টাল. I did not propose a form: in 4a ṭāla looks like a word for 'false, empty' rather than the mound the tala entry suggests for song 33, so you may prefer a separate entry or none.",
+    "malasi-gavura: proposed as distinct from malasi (Mālaśī, song 39). Compound names like this one (Mālavagauḍa and the like in later music) usually name a melody of their own; gavuṛā is itself a rāga name (compare gavara, gauda); the Tibetan heading gives one name (mA la sa'i go Da la, 'the go Da la of mA la sa') spelled unlike song 39's mA la lA si; and the Bengali writes মালসী, not মালশী. If you prefer to treat it as Mālaśī plus Gavaṛā, the two forms can move to malasi and gavara.",
+    "badhira and muka: the roles shift. In 4b Munidatta makes the guru the one poor in speech and the disciple the one who hears nothing (cp.40.m5); in his simile on 5b the deaf man corresponds to the true guru and the mute to the disciple (cp.40.m6); and the Tibetan of 5b, line and comment, has the mute speak to the deaf. Please check the simile correspondences I recorded as readings.",
+    "4b গুরুবোধসে (gurubodhase): Munidatta's 'the vajra guru is poor in speech' (cp.40.m5) suggests a reading guru boba se, 'the guru is mute'; the Tibetan line has bla ma'i thabs kyis, 'by the guru's means'. I did not add বোধ as a form of muka; it is a question for the line drafter.",
+    "bodhi lists oben সংবোহেঁ and san সম্বোধনে. If its match uses a shorter stem, it would claim 5b সংবোহিঅ and m6 সংবোধনং, which here mean 'instructed' and 'communicating' (saṃbodhana), not awakening.",
+    "tx-veda: in cp.40.m3 vedaḥ … vaktuṃ śakyate is awkward (vede or vedena would be expected); the Tibetan has rig byed du, 'in the Veda'. In cp.40.m4 the Sanskrit kathā vedyo na bhavati ('cannot be known through talk') appears in the Tibetan as rig byed ma yin pas, 'since it is not the Veda'; I added no form for vedya.",
+    "sisya: Prakrit and Old Bengali sīsa also means 'head' (śīrṣa) and 'lead' (metal), so later whole-word hits of সীস need checking.",
+    "p-iuri: here the Sanskrit spells iuḍī (song 38: iuṛī) and the Tibetan has Da u Da'i zhabs, close to p-darati's da u Da'i zhabs; this bears on whether the two teachers are one."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "07509ce0c183e49ca98123f3d9f2597f507a37772ad2f90dd70dc35ce2a92344",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "e3ef011ec3afe3f111c0691177dcad2659a7cbe2fcf538f07106b862ec6d4ee2",
+    "sourceSha": "60b5816a588cf036314633b217bdcab23a606b667bcead882fb26b42d1893040"
+  }
+}

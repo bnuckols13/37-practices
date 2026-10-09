@@ -258,6 +258,14 @@
           "lemma": "pratibhāsa",
           "att": "AS",
           "where": "cp.41.m4"
+        },
+        {
+          "lang": "san",
+          "script": "কায়বাক্‌চিত্তস্যাভাসদোষো",
+          "translit": "kāyavākcittasyābhāsadoṣo",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.48.m1"
         }
       ],
       "match": {
@@ -271,7 +279,8 @@
           "এতেনাভাষবিশেষ",
           "ভাসদ্বয়",
           "আভাসদ্বয়",
-          "প্রতিভাস"
+          "প্রতিভাস",
+          "ভাসদোষ"
         ],
         "bod": [
           "སྣང་བ",
@@ -3378,6 +3387,59 @@
       }
     },
     {
+      "id": "anguli",
+      "type": "term",
+      "status": "proposed",
+      "en": "finger",
+      "alt": [
+        "raised finger"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སོར་མོ",
+          "translit": "sor mo",
+          "lemma": "sor mo",
+          "att": "AS",
+          "where": "cp.48.5a"
+        },
+        {
+          "lang": "san",
+          "script": "অঙ্গুলিমূর্দ্ধীকৃত্যোক্ত[ঃ]",
+          "translit": "aṅgulimūrddhīkṛtyokta[ḥ]",
+          "lemma": "aṅguli",
+          "att": "AS",
+          "where": "cp.48.m1"
+        }
+      ],
+      "match": {
+        "bod": [
+          "སོར་མོ"
+        ],
+        "san": [
+          "অঙ্গুলি"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A finger (Tibetan sor mo; Sanskrit aṅguli). In the last couplet of song 48 Kukkurīpa speaks with his finger raised upward (5a), apparently a gesture of emphasis or triumph. Munidatta's surviving Sanskrit repeats it, aṅgulimūrdhīkṛtya, 'having raised the finger' (cp.48.m1); the Tibetan of the comment has sor mo'i steng du, 'on top of the finger'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "ankapali",
       "type": "term",
       "status": "proposed",
@@ -4523,6 +4585,71 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "army",
+      "type": "term",
+      "status": "proposed",
+      "en": "army",
+      "alt": [
+        "armies",
+        "host",
+        "troops"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དམག་དཔུང",
+          "translit": "dmag dpung",
+          "lemma": "dmag dpung",
+          "att": "AS",
+          "where": "cp.48.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔུང",
+          "translit": "dpung",
+          "lemma": "dpung",
+          "att": "AS",
+          "where": "cp.48.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔུང",
+          "translit": "dpung",
+          "lemma": "dpung",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "དམག་དཔུང"
+        ]
+      },
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])དཔུང(?=་རྣམས)",
+          "(?<=གཡུལ་གྱི་)དཔུང(?![\\u0F40-\\u0FBC])"
+        ]
+      },
+      "definition": "An army or host of troops (Tibetan dmag dpung, dpung). In song 48 the army of the union of sameness gathers (1b), and the armies of delusion and existence are driven far off (3b). Munidatta, in the Tibetan, tells the yogin to make the army of the battle of existence without intrinsic nature (cp.48.m5). Compare forces of existence (bhavabala).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -7253,6 +7380,80 @@
       }
     },
     {
+      "id": "battle",
+      "type": "term",
+      "status": "proposed",
+      "en": "battle",
+      "alt": [
+        "battlefront",
+        "battle line"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གཡུལ་ངོར",
+          "translit": "g.yul ngor",
+          "lemma": "g.yul ngo",
+          "att": "AS",
+          "where": "cp.48.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡུལ་ངོ",
+          "translit": "g.yul ngo",
+          "lemma": "g.yul ngo",
+          "att": "AS",
+          "where": "cp.48.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡུལ",
+          "translit": "g.yul",
+          "lemma": "g.yul",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "གཡུལ་ངོ"
+        ]
+      },
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])གཡུལ(?![\\u0F40-\\u0FBC])"
+        ]
+      },
+      "definition": "Battle (Tibetan g.yul; g.yul ngo, 'battlefront'), the governing image of song 48: the vajra and the lotus enter the battlefront (1a), drums and conches sound, and the armies of delusion and existence are driven far off. Munidatta, in the Tibetan, speaks of the battlefront 'of the sound of objects' (cp.48.m3) and of the battle of existence (cp.48.m5).",
+      "symbolic": {
+        "image": "the battlefront that the vajra and the lotus enter",
+        "readings": [
+          {
+            "referent": "objects (yul): the battlefront is 'the battlefront of the sound of objects' (yul gyi sgra'i g.yul ngo), which Kukkurīpāda leads the vajra and the lotus, likewise means and wisdom, to stop ('gog pa'i phyir); the phrase is obscure, sgra may mean 'word', and the comment survives only in the Tibetan translation",
+            "per": "Munidatta",
+            "where": [
+              "cp.48.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "sense objects",
+        "objects of the senses"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "bed",
       "type": "term",
       "status": "proposed",
@@ -7958,6 +8159,14 @@
           "lemma": "bhaba",
           "att": "AS",
           "where": "cp.43.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་དཀྱིལ་འཁོར",
+          "translit": "srid pa'i dkyil 'khor",
+          "lemma": "srid pa",
+          "att": "AS",
+          "where": "cp.48.m4"
         }
       ],
       "match": {
@@ -8428,6 +8637,14 @@
           "lemma": "srid pa",
           "att": "AO",
           "where": "cp.12.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་དཔུང",
+          "translit": "srid pa'i dpung",
+          "lemma": "srid pa'i dpung",
+          "att": "AS",
+          "where": "cp.48.3b"
         }
       ],
       "match": {
@@ -12784,6 +13001,56 @@
       }
     },
     {
+      "id": "conch",
+      "type": "term",
+      "status": "proposed",
+      "en": "conch",
+      "alt": [
+        "conches"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དུང་སྐད",
+          "translit": "dung skad",
+          "lemma": "dung",
+          "att": "AS",
+          "where": "cp.48.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དུང་སྒྲ",
+          "translit": "dung sgra",
+          "lemma": "dung",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])དུང(?=་(?:སྐད|སྒྲ|དཀར))"
+        ]
+      },
+      "definition": "A conch shell blown as a trumpet (Tibetan dung; Sanskrit śaṅkha), sounded in battle and in ritual. In song 48 the voice of conches, with the sound of drums, proclaims the unstruck melodies (3a); Munidatta, in the Tibetan, has both sound at the battlefront (cp.48.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "courtyard",
       "type": "term",
       "status": "proposed",
@@ -15625,6 +15892,56 @@
       }
     },
     {
+      "id": "drum",
+      "type": "term",
+      "status": "proposed",
+      "en": "drum",
+      "alt": [
+        "drums"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྔ་སྒྲ",
+          "translit": "rnga sgra",
+          "lemma": "rnga",
+          "att": "AS",
+          "where": "cp.48.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་སྒྲ",
+          "translit": "rnga sgra",
+          "lemma": "rnga",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])རྔ(?=་སྒྲ)"
+        ]
+      },
+      "definition": "A drum (Tibetan rnga), beaten in war to marshal and rouse troops. In song 48 the sound of drums, with the voice of conches, proclaims the unstruck melodies (3a); Munidatta, in the Tibetan, has both sound at the battlefront (cp.48.m5). The glossary also has particular drums: kettledrum (dundubhi), paṭaha, mādala and ḍamaru.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "duhkha-sukha",
       "type": "term",
       "status": "proposed",
@@ -17449,6 +17766,74 @@
       }
     },
     {
+      "id": "fire",
+      "type": "term",
+      "status": "proposed",
+      "en": "fire",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མེ",
+          "translit": "me",
+          "lemma": "me",
+          "att": "AS",
+          "where": "cp.48.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "མེས",
+          "translit": "mes",
+          "lemma": "me",
+          "att": "AS",
+          "where": "cp.48.m6"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])མེ(?=་ཡིས)",
+          "(?<=(?:ཆེན་པོའི|སེམས་ཀྱི)་)མེས(?![\\u0F40-\\u0FBC])"
+        ]
+      },
+      "definition": "Fire (Tibetan me). In song 48 the faults of the three maṇḍalas are burnt by fire (4a). Munidatta, in the Tibetan, has them burnt by the fire of great bliss, and the yogin gather with the fire of the unfalling bodhicitta (cp.48.m6). Compare the fire of the passion of great bliss that burns passion and hatred to ash (cp.11.m4).",
+      "symbolic": {
+        "image": "the fire that burns the faults of the three maṇḍalas",
+        "readings": [
+          {
+            "referent": "great bliss: the fire of great bliss (bde ba chen po'i me), with which the faults of the three maṇḍalas, body and the rest, are burnt; a paraphrase where the line has only 'fire' (the comment survives only in the Tibetan translation)",
+            "per": "Munidatta",
+            "where": [
+              "cp.48.m6"
+            ]
+          },
+          {
+            "referent": "the unfalling bodhicitta of great bliss (mi ltung ba'i bde ba chen po'i byang chub kyi sems), with whose fire the yogin, dwelling at the summit of the wheel of great bliss, gathers; said of the gathering of 4b rather than of the burning (Tibetan comment only)",
+            "per": "Munidatta",
+            "where": [
+              "cp.48.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "great bliss",
+        "fire of great bliss",
+        "bodhicitta"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "footrest",
       "type": "term",
       "status": "proposed",
@@ -17543,6 +17928,14 @@
           "lemma": "nags",
           "att": "AO",
           "where": "cp.06.m5"
+        },
+        {
+          "lang": "pra",
+          "script": "বণেত্যাদি",
+          "translit": "vaṇetyādi",
+          "lemma": "vana",
+          "att": "AS",
+          "where": "cp.48.m1"
         }
       ],
       "match": {
@@ -21219,6 +21612,22 @@
           "lemma": "dbang lnga",
           "att": "AO",
           "where": "cp.45.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་པོའི",
+          "translit": "dbang po'i",
+          "lemma": "dbang po",
+          "att": "AS",
+          "where": "cp.48.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་པོ",
+          "translit": "dbang po",
+          "lemma": "dbang po",
+          "att": "AS",
+          "where": "cp.48.m4"
         }
       ],
       "match": {
@@ -21239,7 +21648,8 @@
       "matchRe": {
         "bod": [
           "(?<=ཡུལ་དང་)དབང་པོ(?=$|[\\u0F04-\\u0F14\\s]|(?:འི|འོ|ས|ར)(?:$|[\\u0F04-\\u0F14\\s]))",
-          "(?<=^|[\\u0F04-\\u0F14\\s])དབང་པོ(?=\\u0F0Bལྔ)"
+          "(?<=^|[\\u0F04-\\u0F14\\s])དབང་པོ(?=\\u0F0Bལྔ)",
+          "(?<=(?<![\\u0F40-\\u0FBC])ཡུལ་དང་)དབང་པོ"
         ],
         "san": [
           "[ইেি]ন্দ্রিয়"
@@ -24443,6 +24853,14 @@
           "lemma": "kāyavākcitta",
           "att": "AS",
           "where": "cp.34.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কায়বাক্‌চিত্তস্যাভাসদোষো",
+          "translit": "kāyavākcittasyābhāsadoṣo",
+          "lemma": "kāyavākcitta",
+          "att": "AS",
+          "where": "cp.48.m1"
         }
       ],
       "match": {
@@ -28085,6 +28503,30 @@
           "lemma": "bde ba chen po",
           "att": "AO",
           "where": "cp.28.5a"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখেন",
+          "translit": "mahāsukhena",
+          "lemma": "mahāsukha",
+          "att": "AS",
+          "where": "cp.48.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་ཆེན",
+          "translit": "bde chen",
+          "lemma": "bde ba chen po",
+          "att": "AS",
+          "where": "cp.48.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོས",
+          "translit": "bde ba chen pos",
+          "lemma": "bde ba chen po",
+          "att": "AS",
+          "where": "cp.48.5b"
         }
       ],
       "match": {
@@ -28094,7 +28536,8 @@
         "san": [
           "মহাসুখ",
           "মহাসুখং",
-          "মহাসুখপুরং"
+          "মহাসুখপুরং",
+          "মহাসুখেন"
         ],
         "bod": [
           "བདེ་ཆེན",
@@ -29088,6 +29531,14 @@
           "lemma": "dkyil 'khor",
           "att": "AO",
           "where": "cp.16.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཀྱིལ་འཁོར་གསུམ",
+          "translit": "dkyil 'khor gsum",
+          "lemma": "dkyil 'khor",
+          "att": "AS",
+          "where": "cp.48.4a"
         }
       ],
       "match": {
@@ -38242,6 +38693,14 @@
           "lemma": "kuk+ku rI pa",
           "att": "AO",
           "where": "cp.20.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུཀྐུ་རཱི་པ",
+          "translit": "kuk+ku rI pa",
+          "lemma": "kuk+ku rI pa",
+          "att": "AS",
+          "where": "cp.48.5a"
         }
       ],
       "match": {
@@ -38262,7 +38721,8 @@
           "ཀུཀྐུ་རི་པས",
           "ཀུཀྐུ་རི་པའི་ཞབས",
           "ཀུཀྐུ་རི་བའི་ཞབས",
-          "ཀུཀྐུ་རཱི"
+          "ཀུཀྐུ་རཱི",
+          "ཀུཀྐུ་རཱི་པ"
         ]
       },
       "matchRe": {},
@@ -41791,6 +42251,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.29.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "པ་ཌ་ཧ",
+          "translit": "pa Da ha",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.48.h1"
         }
       ],
       "match": {
@@ -41805,7 +42273,8 @@
           "པ་ཌ་ཧ་མཉྫ་རི",
           "པ་ཊ་ཧ་མཉྫ་རཱི",
           "པ་ཊ་མཉྫ་རཱི",
-          "པ་ཊ་ཧ་མཉྫ་རི"
+          "པ་ཊ་ཧ་མཉྫ་རི",
+          "པ་ཌ་ཧ"
         ],
         "oben": [
           "পটমঞ্জরী"
@@ -44528,6 +44997,14 @@
           "lemma": "rgyal po",
           "att": "AO",
           "where": "cp.34.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་པོ",
+          "translit": "rgyal po",
+          "lemma": "rgyal po",
+          "att": "AS",
+          "where": "cp.48.2b"
         }
       ],
       "match": {},
@@ -47197,6 +47674,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "samata",
+      "type": "term",
+      "status": "proposed",
+      "en": "sameness",
+      "alt": [
+        "equality"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མཉམ་ཉིད",
+          "translit": "mnyam nyid",
+          "lemma": "mnyam pa nyid",
+          "att": "AS",
+          "where": "cp.48.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉམ་པ་ཉིད",
+          "translit": "mnyam pa nyid",
+          "lemma": "mnyam pa nyid",
+          "att": "AS",
+          "where": "cp.48.m3"
+        }
+      ],
+      "match": {
+        "bod": [
+          "མཉམ་ཉིད",
+          "མཉམ་པ་ཉིད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Sameness or equality (Tibetan mnyam nyid, mnyam pa nyid; Sanskrit samatā): the one nature of all things, in which no difference holds between them. In song 48 the army of the union of sameness gathers (1b). Munidatta, in the Tibetan, explains it as the lord of yogis joined in sameness with great bliss as one nature (cp.48.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -53340,6 +53868,22 @@
           "lemma": "naarī",
           "att": "AS",
           "where": "cp.11.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲོང",
+          "translit": "grong",
+          "lemma": "grong",
+          "att": "AS",
+          "where": "cp.48.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲོང་ཁྱེར",
+          "translit": "grong khyer",
+          "lemma": "grong khyer",
+          "att": "AS",
+          "where": "cp.48.4b"
         }
       ],
       "match": {
@@ -53353,7 +53897,8 @@
           "নগরিকেতি"
         ],
         "bod": [
-          "གྲོང་ཁྱེར"
+          "གྲོང་ཁྱེར",
+          "གྲོང་རྣམས"
         ]
       },
       "matchRe": {},
@@ -53592,6 +54137,22 @@
           "lemma": "trailokya",
           "att": "AS",
           "where": "cp.43.m2"
+        },
+        {
+          "lang": "san",
+          "script": "এতত্ত্রৈলোক্যামিতি",
+          "translit": "etattrailokyāmiti",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.48.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན་གསུམ",
+          "translit": "'jig rten gsum",
+          "lemma": "'jig rten gsum",
+          "att": "AS",
+          "where": "cp.48.5b"
         }
       ],
       "match": {
@@ -60947,6 +61508,14 @@
           "lemma": "bisaa",
           "att": "AS",
           "where": "cp.30.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡུལ",
+          "translit": "yul",
+          "lemma": "yul",
+          "att": "AS",
+          "where": "cp.48.2a"
         }
       ],
       "match": {
@@ -60966,7 +61535,11 @@
           "বিসঅ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])ཡུལ(?=་དང་དབང་པོ)"
+        ]
+      },
       "definition": "The objects of the senses: visible form, sound, smell, taste and touch, with mental objects in some lists. Munidatta reads the town of song 10 as 'the mass of sense objects beginning with form', and speaks of 'the appearance of objects' (viṣayābhāsa).",
       "symbolic": {
         "image": "",

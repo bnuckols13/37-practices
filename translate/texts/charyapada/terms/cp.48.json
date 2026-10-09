@@ -1,0 +1,824 @@
+{
+  "unit": "cp.48",
+  "proposals": [
+    {
+      "id": "battle",
+      "type": "term",
+      "en": "battle",
+      "policy": "translate",
+      "alt": [
+        "battlefront",
+        "battle line"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གཡུལ་ངོར",
+          "translit": "g.yul ngor",
+          "lemma": "g.yul ngo",
+          "att": "AS",
+          "where": "cp.48.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡུལ་ངོ",
+          "translit": "g.yul ngo",
+          "lemma": "g.yul ngo",
+          "att": "AS",
+          "where": "cp.48.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གཡུལ",
+          "translit": "g.yul",
+          "lemma": "g.yul",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གཡུལ་ངོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])གཡུལ(?![\\u0F40-\\u0FBC])"
+        }
+      ],
+      "definition": "Battle (Tibetan g.yul; g.yul ngo, 'battlefront'), the governing image of song 48: the vajra and the lotus enter the battlefront (1a), drums and conches sound, and the armies of delusion and existence are driven far off. Munidatta, in the Tibetan, speaks of the battlefront 'of the sound of objects' (cp.48.m3) and of the battle of existence (cp.48.m5).",
+      "symbolicImage": "the battlefront that the vajra and the lotus enter",
+      "symbolicReadings": [
+        {
+          "referent": "objects (yul): the battlefront is 'the battlefront of the sound of objects' (yul gyi sgra'i g.yul ngo), which Kukkurīpāda leads the vajra and the lotus, likewise means and wisdom, to stop ('gog pa'i phyir); the phrase is obscure, sgra may mean 'word', and the comment survives only in the Tibetan translation",
+          "per": "Munidatta",
+          "where": [
+            "cp.48.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "sense objects",
+        "objects of the senses"
+      ],
+      "rationale": "Song 48 is built on the image of battle, which the glossary lacks; 'battle' renders g.yul plainly, with 'battlefront' for g.yul ngo, and the patterns catch the whole syllable g.yul so that it is never read as yul, 'object'."
+    },
+    {
+      "id": "army",
+      "type": "term",
+      "en": "army",
+      "policy": "translate",
+      "alt": [
+        "armies",
+        "host",
+        "troops"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དམག་དཔུང",
+          "translit": "dmag dpung",
+          "lemma": "dmag dpung",
+          "att": "AS",
+          "where": "cp.48.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔུང",
+          "translit": "dpung",
+          "lemma": "dpung",
+          "att": "AS",
+          "where": "cp.48.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔུང",
+          "translit": "dpung",
+          "lemma": "dpung",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དམག་དཔུང"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])དཔུང(?=་རྣམས)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=གཡུལ་གྱི་)དཔུང(?![\\u0F40-\\u0FBC])"
+        }
+      ],
+      "definition": "An army or host of troops (Tibetan dmag dpung, dpung). In song 48 the army of the union of sameness gathers (1b), and the armies of delusion and existence are driven far off (3b). Munidatta, in the Tibetan, tells the yogin to make the army of the battle of existence without intrinsic nature (cp.48.m5). Compare forces of existence (bhavabala).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The two armies of song 48 need a plain entry; bare dpung (also 'shoulder') is never matched alone, only in dmag dpung, dpung rnams and g.yul gyi dpung."
+    },
+    {
+      "id": "samata",
+      "type": "term",
+      "en": "sameness",
+      "policy": "translate",
+      "alt": [
+        "equality"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མཉམ་ཉིད",
+          "translit": "mnyam nyid",
+          "lemma": "mnyam pa nyid",
+          "att": "AS",
+          "where": "cp.48.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉམ་པ་ཉིད",
+          "translit": "mnyam pa nyid",
+          "lemma": "mnyam pa nyid",
+          "att": "AS",
+          "where": "cp.48.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མཉམ་ཉིད"
+        },
+        {
+          "lang": "bod",
+          "form": "མཉམ་པ་ཉིད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sameness or equality (Tibetan mnyam nyid, mnyam pa nyid; Sanskrit samatā): the one nature of all things, in which no difference holds between them. In song 48 the army of the union of sameness gathers (1b). Munidatta, in the Tibetan, explains it as the lord of yogis joined in sameness with great bliss as one nature (cp.48.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Sameness (samatā) is a doctrinal term the glossary lacks and Munidatta glosses it here; 'sameness' is the usual plain rendering of mnyam pa nyid."
+    },
+    {
+      "id": "drum",
+      "type": "term",
+      "en": "drum",
+      "policy": "translate",
+      "alt": [
+        "drums"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྔ་སྒྲ",
+          "translit": "rnga sgra",
+          "lemma": "rnga",
+          "att": "AS",
+          "where": "cp.48.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔ་སྒྲ",
+          "translit": "rnga sgra",
+          "lemma": "rnga",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])རྔ(?=་སྒྲ)"
+        }
+      ],
+      "definition": "A drum (Tibetan rnga), beaten in war to marshal and rouse troops. In song 48 the sound of drums, with the voice of conches, proclaims the unstruck melodies (3a); Munidatta, in the Tibetan, has both sound at the battlefront (cp.48.m5). The glossary also has particular drums: kettledrum (dundubhi), paṭaha, mādala and ḍamaru.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The glossary names only particular drums, and the war drums of song 48 need a plain entry; the pattern takes rnga only before sgra, since the bare syllable also means 'camel', 'tail' and 'reap'."
+    },
+    {
+      "id": "conch",
+      "type": "term",
+      "en": "conch",
+      "policy": "translate",
+      "alt": [
+        "conches"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དུང་སྐད",
+          "translit": "dung skad",
+          "lemma": "dung",
+          "att": "AS",
+          "where": "cp.48.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དུང་སྒྲ",
+          "translit": "dung sgra",
+          "lemma": "dung",
+          "att": "AS",
+          "where": "cp.48.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])དུང(?=་(?:སྐད|སྒྲ|དཀར))"
+        }
+      ],
+      "definition": "A conch shell blown as a trumpet (Tibetan dung; Sanskrit śaṅkha), sounded in battle and in ritual. In song 48 the voice of conches, with the sound of drums, proclaims the unstruck melodies (3a); Munidatta, in the Tibetan, has both sound at the battlefront (cp.48.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The conch is new to the glossary; the pattern takes dung only as a whole syllable before skad, sgra or dkar, so that it never fires inside gdung or 'dung."
+    },
+    {
+      "id": "anguli",
+      "type": "term",
+      "en": "finger",
+      "policy": "translate",
+      "alt": [
+        "raised finger"
+      ],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སོར་མོ",
+          "translit": "sor mo",
+          "lemma": "sor mo",
+          "att": "AS",
+          "where": "cp.48.5a"
+        },
+        {
+          "lang": "san",
+          "script": "অঙ্গুলিমূর্দ্ধীকৃত্যোক্ত[ঃ]",
+          "translit": "aṅgulimūrddhīkṛtyokta[ḥ]",
+          "lemma": "aṅguli",
+          "att": "AS",
+          "where": "cp.48.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སོར་མོ"
+        },
+        {
+          "lang": "san",
+          "form": "অঙ্গুলি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A finger (Tibetan sor mo; Sanskrit aṅguli). In the last couplet of song 48 Kukkurīpa speaks with his finger raised upward (5a), apparently a gesture of emphasis or triumph. Munidatta's surviving Sanskrit repeats it, aṅgulimūrdhīkṛtya, 'having raised the finger' (cp.48.m1); the Tibetan of the comment has sor mo'i steng du, 'on top of the finger'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The raised finger of the signature line is the one image the Sanskrit fragment and the Tibetan share; 'finger' keeps it plain, and no reading of it is attested."
+    },
+    {
+      "id": "fire",
+      "type": "term",
+      "en": "fire",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མེ",
+          "translit": "me",
+          "lemma": "me",
+          "att": "AS",
+          "where": "cp.48.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "མེས",
+          "translit": "mes",
+          "lemma": "me",
+          "att": "AS",
+          "where": "cp.48.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])མེ(?=་ཡིས)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=(?:ཆེན་པོའི|སེམས་ཀྱི)་)མེས(?![\\u0F40-\\u0FBC])"
+        }
+      ],
+      "definition": "Fire (Tibetan me). In song 48 the faults of the three maṇḍalas are burnt by fire (4a). Munidatta, in the Tibetan, has them burnt by the fire of great bliss, and the yogin gather with the fire of the unfalling bodhicitta (cp.48.m6). Compare the fire of the passion of great bliss that burns passion and hatred to ash (cp.11.m4).",
+      "symbolicImage": "the fire that burns the faults of the three maṇḍalas",
+      "symbolicReadings": [
+        {
+          "referent": "great bliss: the fire of great bliss (bde ba chen po'i me), with which the faults of the three maṇḍalas, body and the rest, are burnt; a paraphrase where the line has only 'fire' (the comment survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.48.m6"
+          ]
+        },
+        {
+          "referent": "the unfalling bodhicitta of great bliss (mi ltung ba'i bde ba chen po'i byang chub kyi sems), with whose fire the yogin, dwelling at the summit of the wheel of great bliss, gathers; said of the gathering of 4b rather than of the burning (Tibetan comment only)",
+          "per": "Munidatta",
+          "where": [
+            "cp.48.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "great bliss",
+        "fire of great bliss",
+        "bodhicitta"
+      ],
+      "rationale": "The fire of 4a carries an explicit reading in cp.48.m6, so it needs an entry to keep that reading out of the line; me is matched only in me yis and in mes after chen po'i or sems kyi, never as a bare syllable (me tog, me long)."
+    },
+    {
+      "id": "patamanjari",
+      "type": "term",
+      "en": "Paṭamañjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "པ་ཌ་ཧ",
+          "translit": "pa Da ha",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.48.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "པ་ཌ་ཧ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Paṭamañjarī, the name of the rāga (melodic mode) to which song 1 is sung, given in its heading and repeated at the start of Munidatta's comment (cp.01.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan heading's pa Da ha, which I take as the translators' shortened Paṭamañjarī (they spell its first part pa Ta ha or pa Da ha elsewhere); see questions."
+    },
+    {
+      "id": "p-kukkuri",
+      "type": "person",
+      "en": "Kukkurīpāda",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཀུཀྐུ་རཱི་པ",
+          "translit": "kuk+ku rI pa",
+          "lemma": "kuk+ku rI pa",
+          "att": "AS",
+          "where": "cp.48.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཀུཀྐུ་རཱི་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Siddha poet to whom song 2 is attributed; he names himself in its last couplet. The name joins kukkurī, 'female dog', with the honorific -pāda. Munidatta introduces him as setting out the king of great bliss in twilight language, his mind delighted by drinking the liquor of his own bliss (cp.02.m1).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the bare Tibetan name kuk+ku rI pa of the signature line (5a), which the listed genitive forms do not cover; the entry is otherwise unchanged."
+    },
+    {
+      "id": "mahasukha",
+      "type": "term",
+      "en": "great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখেন",
+          "translit": "mahāsukhena",
+          "lemma": "mahāsukha",
+          "att": "AS",
+          "where": "cp.48.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་ཆེན",
+          "translit": "bde chen",
+          "lemma": "bde ba chen po",
+          "att": "AS",
+          "where": "cp.48.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོས",
+          "translit": "bde ba chen pos",
+          "lemma": "bde ba chen po",
+          "att": "AS",
+          "where": "cp.48.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহাসুখেন"
+        },
+        {
+          "lang": "bod",
+          "form": "བདེ་ཆེན"
+        },
+        {
+          "lang": "bod",
+          "form": "བདེ་བ་ཆེན་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Great bliss: the highest bliss, which the tantric path of the songs takes as its goal. Munidatta equates it with the fourth joy and speaks of the great bliss of innate joy, to be known day and night after questioning the guru (cp.01.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the instrumental mahāsukhena of the Sanskrit fragment and the forms of this song's Tibetan reading text (bde chen in the refrain, bde ba chen pos in 5b); the entry is otherwise unchanged."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "এতত্ত্রৈলোক্যামিতি",
+          "translit": "etattrailokyāmiti",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.48.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན་གསུམ",
+          "translit": "'jig rten gsum",
+          "lemma": "'jig rten gsum",
+          "att": "AS",
+          "where": "cp.48.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্রৈলোক্য"
+        },
+        {
+          "lang": "bod",
+          "form": "འཇིག་རྟེན་གསུམ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The three worlds or realms into which Buddhist cosmology divides saṃsāra: the realm of desire, the realm of form and the formless realm; also used loosely for the whole world. Munidatta says the avadhūtī, in its conventional aspect as semen, creates the three worlds (cp.02.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Sanskrit citation etat trailokyam iti (printed etattrailokyāmiti) and 'jig rten gsum of the Tibetan reading text (5b); the new attestation of its reading is in questions."
+    },
+    {
+      "id": "kaya-vak-citta",
+      "type": "term",
+      "en": "body, speech and mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়বাক্‌চিত্তস্যাভাসদোষো",
+          "translit": "kāyavākcittasyābhāsadoṣo",
+          "lemma": "kāyavākcitta",
+          "att": "AS",
+          "where": "cp.48.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কায়বাক্‌চিত্ত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Body, speech and mind (kāya, vāc, citta): the three doors of action, and in the tantras the three aspects of a buddha that practice makes one's own (compare the three vajras). Munidatta reads the song's three refuges as body, speech and mind, which dissolve in a fourth, the body of great bliss (cp.13.m2); Tibetan lus dang ngag dang yid.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the genitive compound kāyavākcittasya(-ābhāsadoṣa) of the Sanskrit fragment, where body, speech and mind gloss the three worlds of 5b."
+    },
+    {
+      "id": "abhasa",
+      "type": "term",
+      "en": "appearance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কায়বাক্‌চিত্তস্যাভাসদোষো",
+          "translit": "kāyavākcittasyābhāsadoṣo",
+          "lemma": "ābhāsa",
+          "att": "AS",
+          "where": "cp.48.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভাসদোষ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Appearance or luminosity. Munidatta pairs a moon-appearance and a sun-appearance, which he equates with the grasped and the grasper (cp.14.m2), and speaks of three appearances, the moon, the sun and the pulinda, which make and unmake saṃsāra and which practice stops (cp.14.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds ābhāsadoṣa, 'the fault of appearance', spelled with s, inside the compound of cp.48.m1, which the listed ābhāṣadoṣaṃ does not catch; the pattern also takes the compound's sandhi form (-syābhāsa-)."
+    },
+    {
+      "id": "mandala",
+      "type": "term",
+      "en": "maṇḍala",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དཀྱིལ་འཁོར་གསུམ",
+          "translit": "dkyil 'khor gsum",
+          "lemma": "dkyil 'khor",
+          "att": "AS",
+          "where": "cp.48.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དཀྱིལ་འཁོར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A circle or disc; in the tantras, the circular arrangement of a deity with its retinue and palace, and by extension a bounded sphere of practice or of the body. In a caryā verse Munidatta quotes, there is no difference among the three maṇḍalas (cp.07.m4); the three are not named.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds 'the three maṇḍalas' (dkyil 'khor gsum) of the Tibetan reading text (4a), whose faults are burnt; the reading Munidatta gives them is in questions."
+    },
+    {
+      "id": "bhava",
+      "type": "term",
+      "en": "existence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་དཀྱིལ་འཁོར",
+          "translit": "srid pa'i dkyil 'khor",
+          "lemma": "srid pa",
+          "att": "AS",
+          "where": "cp.48.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Existence or becoming (bhava): the round of repeated birth, often a synonym of saṃsāra and set against nirvāṇa. Song 5 opens with the river of existence (bhavaṇai). In the verse of Saraha that Munidatta quotes, bhava stands beside nirvāṇa (cp.05.m3). The Tibetan has srid pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds srid pa'i dkyil 'khor, the Tibetan of bhavamaṇḍala (already a Sanskrit form here), as a form only, so that it does not swallow the maṇḍala match."
+    },
+    {
+      "id": "bhavabala",
+      "type": "term",
+      "en": "forces of existence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "སྲིད་པའི་དཔུང",
+          "translit": "srid pa'i dpung",
+          "lemma": "srid pa'i dpung",
+          "att": "AS",
+          "where": "cp.48.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྲིད་པའི་དཔུང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The forces, or army, of existence (Old Bengali bhababala: bhava, 'existence', and bala, 'strength, troops'), which Kāṇha says he has conquered in lines 1b and 4b of song 12. The Tibetan translation has srid pa'i stobs, 'power of existence', and srid pa'i dpung, 'army of existence'. Munidatta reads it as the sense objects.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The armies of existence driven off in 3b are named with the very phrase the Tibetan uses for bhababala in song 12 (srid pa'i dpung); see questions on whether to keep the link."
+    },
+    {
+      "id": "visaya",
+      "type": "term",
+      "en": "sense objects",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཡུལ",
+          "translit": "yul",
+          "lemma": "yul",
+          "att": "AS",
+          "where": "cp.48.2a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\u0F40-\\u0FBC])ཡུལ(?=་དང་དབང་པོ)"
+        }
+      ],
+      "definition": "The objects of the senses: visible form, sound, smell, taste and touch, with mental objects in some lists. Munidatta reads the town of song 10 as 'the mass of sense objects beginning with form', and speaks of 'the appearance of objects' (viṣayābhāsa).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds yul from the refrain's 'towns of the objects and the senses' (2a, again in cp.48.m4), matched only in the phrase yul dang dbang po, since bare yul is a common word and sits inside g.yul, 'battle'."
+    },
+    {
+      "id": "indriya",
+      "type": "term",
+      "en": "senses",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དབང་པོའི",
+          "translit": "dbang po'i",
+          "lemma": "dbang po",
+          "att": "AS",
+          "where": "cp.48.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་པོ",
+          "translit": "dbang po",
+          "lemma": "dbang po",
+          "att": "AS",
+          "where": "cp.48.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<=(?<![\\u0F40-\\u0FBC])ཡུལ་དང་)དབང་པོ"
+        }
+      ],
+      "definition": "The senses or sense faculties (indriya): eye, ear, nose, tongue and body, with the mind in some lists, each a 'door' through which objects are known. Munidatta says the dwelling of the mind and the wind is not understood through the door of the senses (cp.06.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds dbang po of the Tibetan reading text (2a, cp.48.m4), matched only after yul dang, since dbang po alone is also 'lord' (klu'i dbang po, glang po che'i dbang po)."
+    },
+    {
+      "id": "raja",
+      "type": "term",
+      "en": "king",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྒྱལ་པོ",
+          "translit": "rgyal po",
+          "lemma": "rgyal po",
+          "att": "AS",
+          "where": "cp.48.2b"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "A king (Old Bengali rāā, rāa; Tibetan rgyal po). In song 34 (5a) the poet cries 'king, king, king', and says other kings are bound by delusion. Munidatta takes the three cries as pointing to his own qualities, lordship of the body and the rest (cp.34.m6). Not ṭhākura, the 'king' of Kāṇha's game, nor the king of mind.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Records rgyal po, the king of the refrain (2b: emptiness the king, named great bliss), as a form only; see questions on the shared Tibetan of raja and thakura."
+    },
+    {
+      "id": "town",
+      "type": "term",
+      "en": "town",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "གྲོང",
+          "translit": "grong",
+          "lemma": "grong",
+          "att": "AS",
+          "where": "cp.48.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "གྲོང་ཁྱེར",
+          "translit": "grong khyer",
+          "lemma": "grong khyer",
+          "att": "AS",
+          "where": "cp.48.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "གྲོང་རྣམས"
+        },
+        {
+          "lang": "bod",
+          "form": "གྲོང་ཁྱེར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A town or city, the settled world of caste society. Untouchable communities such as the Ḍoms lived outside it, and in this song Ḍombī's hut stands beyond it.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the towns of the objects and the senses (grong, 2a) and the city of bliss (grong khyer, 4b) of the Tibetan reading text; bare grong is matched only as grong rnams."
+    },
+    {
+      "id": "forest",
+      "type": "term",
+      "en": "forest",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "বণেত্যাদি",
+          "translit": "vaṇetyādi",
+          "lemma": "vana",
+          "att": "AS",
+          "where": "cp.48.m1"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "A forest or wood (Old Bengali baṇa, Sanskrit vana). In this song the doe tells the deer to leave this forest. Munidatta reads it as the body, 'this body-forest' (kāyavana) (cp.06.m5). The Tibetan translation has nags, 'forest', in the line and lus kyi nags, 'forest of the body', in the commentary.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds vaṇe, the forest of the Saraha line Munidatta quotes on 5b ('while there is a house, do not go to the forest'), as a form only, since a short literal would catch other words."
+    }
+  ],
+  "questions": [
+    "Rāga of cp.48.h1: I read the Tibetan pa Da ha as the translators' shortened Paṭamañjarī and added it to patamanjari, proposing no new rāga entry. Their other renderings of Paṭamañjarī spell its first part pa Ta ha or pa Da ha (pa Da ha'i tshogs pa, pa Da ha many+dza ri) and once translate it rnga'i tshogs pa, 'assembly of drums': they took paṭa as paṭaha, 'drum'. Here that part stands alone, without many+dza ri or tshogs pa. A distinct rāga Paṭaha, attested in no other heading, or the drum paṭaha (pataha, spelled pa Ta ha in song 19) cannot be ruled out, and no Bengali heading survives; if you prefer a separate entry, move the form.",
+    "vajra and lotus (new reading, segment cp.48.m3, on 1a): Munidatta, in the Tibetan, has Kukkurīpāda lead 'the vajra and the lotus, likewise means and wisdom (thabs dang shes rab), whose nature is great bliss', to stop the battlefront 'of the sound of objects'. This sets the vajra beside means and the lotus beside wisdom (de bzhin du, 'likewise'), a parallel rather than an explicit gloss; consider adding it to the readings of both entries.",
+    "mandala (new reading, segment cp.48.m6, on 4a): Munidatta, in the Tibetan, names the three maṇḍalas whose faults are burnt 'body and the rest' (lus la sogs pa dkyil 'khor gsum), presumably body, speech and mind, as the Sanskrit of cp.48.m1 has for the three worlds. The entry's definition says the three maṇḍalas of cp.07.m4 are not named; here they are. cp.48.m4 also speaks of 'the maṇḍala of existence' (srid pa'i dkyil 'khor), which I added to bhava as a form without a match pattern.",
+    "trailokya (new attestation of its reading, segment cp.48.m1, on 5b): in the one surviving Sanskrit fragment, 'this three worlds' (etat trailokyam iti) is glossed 'the fault of appearance of body, speech and mind (kāyavākcittasyābhāsadoṣa), conquered by great bliss'; the Tibetan parallel agrees (lus dang ngag dang yid kyi snang ba'i skyon). The entry's reading 'body, speech and mind' (cp.18.m2) could add cp.48.m1, noting that here it is their fault of appearance.",
+    "anahata (new reading, segment cp.48.m5, on 3a): Munidatta, in the Tibetan, explains 'the unstruck melody' as the sound of drums and conches proclaimed at the battlefront, and says that, since it is produced in the midst of emptiness (stong pa nyid kyi dbus su bskyed pas), the yogin is to make the army of the battle of existence without intrinsic nature. This is close to the entry's 'sound of emptiness' (cp.16.m2); consider adding cp.48.m5. I gave drum and conch no reading, since the gloss explains the unstruck melody by them, not them by it.",
+    "bhavabala (cp.48.3b): srid pa'i dpung, 'army of existence', is the phrase the Tibetan uses for bhababala in song 12 (4b), so I added it to bhavabala as a form of this song's reading text. If it stays, 3b would use 'forces of existence' (gti mug srid pa'i dpung rnams: 'the forces of delusion and existence'); if bhavabala should stay with the Old Bengali word, drop the form and let army and existence cover the line.",
+    "town and mahasukha-pura (cp.48.4b): bde ba'i grong khyer is 'the city of bliss', not 'of great bliss', so I did not add it to mahasukha-pura ('city of great bliss'); grong khyer went to town. Munidatta, in the Tibetan (cp.48.m6), puts 'the summit of the wheel of great bliss' (bde ba chen po'i 'khor lo'i rtse mo) where the line has the summit of the city of bliss: a possible reading for town, or for mahasukha-pura if you link the phrase there; it is a paraphrase, not an explicit gloss.",
+    "raja (cp.48.2b): I added rgyal po as a form only, with no match pattern, because thakura (the king of Kāṇha's game) also lists rgyal po; a bare rgyal po match on both entries would be ambiguous. The king of 2b, 'emptiness the king, named great bliss', is the plain king.",
+    "Match overlaps to check: g.yul, 'battle' (1a, cp.48.m3, cp.48.m5), contains yul. If visaya's Tibetan matches include bare ཡུལ, it also fires inside གཡུལ; the battle patterns are longer and should win, but a bare yul match is risky, so I gave visaya and indriya only patterns tied to the phrase yul dang dbang po. Likewise, if madhyama or majha match bare དབུས (dbus), 'in the midst of emptiness' (stong pa nyid kyi dbus su, cp.48.m5) will be tagged as the central channel.",
+    "cp.48.m3 ends its gloss on sameness (1b) with de'i dA ri kA'o, an untranslated transcription. It may stand for the Indic word behind the army (dmag dpung) of that line, or for dārikā (compare dari) or the name Dārika (p-darika); I proposed no form for it.",
+    "4b thams cad bsdus, 'gathered everything', and Munidatta's sdud par byed (cp.48.m6) may render (upa)saṃhāra, the withdrawal of the completion stage (compare upasamhara, whose Tibetan includes sdud pa'i rim pas). I proposed nothing, since a single verb syllable makes a poor match pattern."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "564c5b2374d125d1ea54934287162772a4e6879a817ac9fba74e49c2be64e09a",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "a3d215c26ca0f47eb7943d096b1aae0a14497fe55f133f5b2315cf442f828183",
+    "sourceSha": "4dac11c5fdd6033deac004e670c7b48a74afd5b6674be4d33106949fc1e137e2"
+  }
+}

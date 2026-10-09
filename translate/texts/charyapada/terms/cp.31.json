@@ -1,0 +1,1299 @@
+{
+  "unit": "cp.31",
+  "proposals": [
+    {
+      "id": "atman",
+      "type": "term",
+      "en": "self",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অপা",
+          "translit": "apā",
+          "lemma": "apā",
+          "att": "AS",
+          "where": "cp.31.1b"
+        },
+        {
+          "lang": "san",
+          "script": "অপা",
+          "translit": "apā",
+          "lemma": "apā",
+          "att": "AS",
+          "where": "cp.31.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག",
+          "translit": "bdag",
+          "lemma": "bdag",
+          "att": "AO",
+          "where": "cp.31.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অপা(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])অপা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "The self (Old Bengali apā, apparently from Sanskrit ātman through Prakrit appā): what 'I' refers to, which Buddhist teaching denies is a lasting, independent entity. In song 31 (1b) the poet does not know where the self has gone and entered. Munidatta reads it as the king of mind (cp.31.m2); the Tibetan has bdag, 'I, self'.",
+      "symbolicImage": "the self, gone and entered somewhere the poet does not know",
+      "symbolicReadings": [
+        {
+          "referent": "the king of mind (cittarāja), whose whereabouts the poet does not know once objects, winds, senses and the rest have been made without intrinsic nature in clear light: he cites apā and paraphrases with cittarāja; the Tibetan comment, citing bdag gis ('by me'), likewise speaks of the king of mind (sems kyi rgyal po)",
+          "per": "Munidatta",
+          "where": [
+            "cp.31.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "king of mind",
+        "king of the mind",
+        "mind-king"
+      ],
+      "rationale": "The word carries the point of couplet 1 and Munidatta reads it as the king of mind, so the image needs an entry of its own; 'self' is the plain sense of apā. Bare བདག is too common to match, so the Tibetan form has no match pattern."
+    },
+    {
+      "id": "niralamba",
+      "type": "term",
+      "en": "supportless",
+      "policy": "translate",
+      "alt": [
+        "without support",
+        "objectless"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণিরাসে",
+          "translit": "ṇirāse",
+          "lemma": "ṇirāsa",
+          "att": "AS",
+          "where": "cp.31.2b"
+        },
+        {
+          "lang": "san",
+          "script": "নিরালম্বেন",
+          "translit": "nirālamvena",
+          "lemma": "nirālamba",
+          "att": "AS",
+          "where": "cp.31.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་པ་མེད",
+          "translit": "dmigs pa med",
+          "lemma": "dmigs pa med pa",
+          "att": "AO",
+          "where": "cp.31.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "དམིགས་པ་མེད་པ",
+          "translit": "dmigs pa med pa",
+          "lemma": "dmigs pa med pa",
+          "att": "AO",
+          "where": "cp.31.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ণিরাস"
+        },
+        {
+          "lang": "san",
+          "form": "নিরালম্ব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Without support or object (Sanskrit nirālamba; Tibetan dmigs pa med pa): resting on nothing and taking nothing as an object, a Mahāyāna description of realized mind. In the refrain of song 31 Āryadeva shines ṇirāse; Munidatta renders it nirālamba, through the yoga of not apprehending any phenomenon (cp.31.m3). The Old Bengali might also reflect nirāśraya, or nirāśa, 'without hope'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The refrain's key word, which Munidatta and the Tibetan both take as a technical term; 'supportless' keeps the sense they share. The Tibetan forms have no match pattern because anupalambha already lists dmigs pa med pa."
+    },
+    {
+      "id": "moonlight",
+      "type": "term",
+      "en": "moonlight",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চান্দকান্তি",
+          "translit": "cāndakānti",
+          "lemma": "candrakānti",
+          "att": "AS",
+          "where": "cp.31.3a"
+        },
+        {
+          "lang": "san",
+          "script": "চন্দ্রিকা",
+          "translit": "candrikā",
+          "lemma": "candrikā",
+          "att": "AS",
+          "where": "cp.31.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟླ་བའི་འོད་ཟེར",
+          "translit": "zla ba'i 'od zer",
+          "lemma": "zla ba'i 'od zer",
+          "att": "AO",
+          "where": "cp.31.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চান্দকান্তি"
+        },
+        {
+          "lang": "san",
+          "form": "চন্দ্রিকা"
+        },
+        {
+          "lang": "bod",
+          "form": "ཟླ་བའི་འོད་ཟེར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Moonlight (Old Bengali cāndakānti, Sanskrit candrakānti, 'the moon's lustre'; Munidatta's candrikā; Tibetan zla ba'i 'od zer, 'the moon's rays'). In song 31 (3a) moonlight shows in the moon, an image for the mind's transformations entering 'there' (3b). Munidatta speaks of moonlight going back into the moon once it has set (cp.31.m4).",
+      "symbolicImage": "moonlight in the moon",
+      "symbolicReadings": [
+        {
+          "referent": "the series of conceptual thoughts (vikalpāvalī) of the king of mind, which dissolves right there when the king of mind goes to no-mind and enters clear light, as moonlight goes back into the moon once it has set: a correspondence drawn by his simile (yathā … tathā), not an explicit gloss; the Tibetan comment agrees (rnam par rtog pa thim)",
+          "per": "Munidatta",
+          "where": [
+            "cp.31.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "conceptual thoughts",
+        "concepts"
+      ],
+      "rationale": "The governing image of couplet 3, which Munidatta builds into a simile for the mind; 'moonlight' is the plain sense of the Old Bengali, of his candrikā and of the Tibetan."
+    },
+    {
+      "id": "vikarana",
+      "type": "term",
+      "en": "transformation",
+      "policy": "translate",
+      "alt": [
+        "modification"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিকরণে",
+          "translit": "bikaraṇe",
+          "lemma": "vikaraṇa",
+          "att": "AS",
+          "where": "cp.31.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་འགྱུར",
+          "translit": "rnam 'gyur",
+          "lemma": "rnam 'gyur",
+          "att": "AO",
+          "where": "cp.31.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিকরণ"
+        },
+        {
+          "lang": "bod",
+          "form": "རྣམ་འགྱུར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Transformation or modification (Old Bengali bikaraṇa; compare Sanskrit vikaraṇa, vikāra; Tibetan rnam 'gyur). In song 31 (3b) the mind's bikaraṇa slips and enters 'there', like moonlight in the moon. Munidatta's paraphrase has the mind's series of conceptual thoughts (vikalpāvalī) in its place (cp.31.m4). Whether the word names the mind's changing states or the act of change is unclear.",
+      "symbolicImage": "the mind's transformations, which slip and enter there",
+      "symbolicReadings": [
+        {
+          "referent": "the series of conceptual thoughts (vikalpāvalī) of the king of mind, which dissolves right there when the king of mind goes to no-mind and enters clear light: his paraphrase puts it where the song has cia bikaraṇe, with no explicit gloss; the Tibetan comment cites rnam 'gyur and has the concepts dissolve (rnam par rtog pa thim)",
+          "per": "Munidatta",
+          "where": [
+            "cp.31.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "conceptual thought",
+        "conceptual thoughts",
+        "concepts",
+        "vikalpa"
+      ],
+      "rationale": "A key word of couplet 3 whose sense is uncertain and which Munidatta replaces with conceptual thought, so the line needs a fixed plain rendering and the reading needs recording apart from it."
+    },
+    {
+      "id": "acittata",
+      "type": "term",
+      "en": "no-mind",
+      "policy": "translate",
+      "alt": [
+        "mindlessness"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অচিত্ততাং",
+          "translit": "acittatāṃ",
+          "lemma": "acittatā",
+          "att": "AS",
+          "where": "cp.31.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་མེད་པ",
+          "translit": "sems med pa",
+          "lemma": "sems med pa",
+          "att": "AO",
+          "where": "cp.31.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অচিত্তত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "No-mind, the state of being without mind (Sanskrit acittatā; Tibetan sems med pa). In Munidatta's comment on song 31, the king of mind goes to no-mind and enters clear light, and its conceptual thoughts dissolve there, as moonlight into the setting moon (cp.31.m4). Siddha writings often speak of going beyond ordinary mind in this way.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's name for the state couplet 3 points to, which a reader of the commentary needs explained; 'no-mind' avoids the careless sense of English 'mindlessness'. The Tibetan has no match pattern, since sems med pa can be an ordinary phrase."
+    },
+    {
+      "id": "ghrna",
+      "type": "term",
+      "en": "disgust",
+      "policy": "translate",
+      "alt": [
+        "revulsion"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘিণ",
+          "translit": "ghiṇa",
+          "lemma": "ghiṇa",
+          "att": "AS",
+          "where": "cp.31.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱུག་བྲོ",
+          "translit": "skyug bro",
+          "lemma": "skyug bro",
+          "att": "AO",
+          "where": "cp.31.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "སྐྱུག་བྲོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ঘিণ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Disgust or revulsion (Old Bengali ghiṇa, Sanskrit ghṛṇā; Tibetan skyug bro, 'nausea'): the aversion that caste purity attaches to impure people, places and substances, which tantric conduct sets out to overcome. Song 31 twice pairs it with fear as what the poet has given up (4a, 5b); Munidatta has shame (lajjā) in its place (cp.31.m5). Compare 'without disgust'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the conventions the poet abandons, and the counterpart of the existing entry 'without disgust' (nirghrna); 'disgust' is the plain sense. A whole-word pattern keeps ঘিণ from matching inside নিঘিণ."
+    },
+    {
+      "id": "lokacara",
+      "type": "term",
+      "en": "worldly custom",
+      "policy": "translate",
+      "alt": [
+        "ways of the world",
+        "worldly conduct"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লোআচার",
+          "translit": "loācāra",
+          "lemma": "lokācāra",
+          "att": "AS",
+          "where": "cp.31.4a"
+        },
+        {
+          "lang": "san",
+          "script": "লোকস্য ব্যবহারঃ",
+          "translit": "lokasya vyavahāraḥ",
+          "lemma": "lokavyavahāra",
+          "att": "AS",
+          "where": "cp.31.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན་སྤྱོད་པ",
+          "translit": "'jig rten spyod pa",
+          "lemma": "'jig rten spyod pa",
+          "att": "AO",
+          "where": "cp.31.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིག་རྟེན་གྱི་སྤྱོད་པ",
+          "translit": "'jig rten gyi spyod pa",
+          "lemma": "'jig rten spyod pa",
+          "att": "AO",
+          "where": "cp.31.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "লোআচার"
+        },
+        {
+          "lang": "san",
+          "form": "লোকস্য ব্যবহার"
+        },
+        {
+          "lang": "bod",
+          "form": "འཇིག་རྟེན་སྤྱོད་པ"
+        },
+        {
+          "lang": "bod",
+          "form": "འཇིག་རྟེན་གྱི་སྤྱོད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Worldly custom (Old Bengali loācāra, Sanskrit lokācāra; Tibetan 'jig rten spyod pa, 'worldly conduct'): the accepted conventions of society, which siddha conduct openly sets aside. In song 31 (4a) the poet gives it up together with fear and disgust; Munidatta speaks of 'the conduct of the world', fear, shame and the like, given up by the siddha master (cp.31.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Names what tantric conduct defies, a recurring concern of the songs; 'worldly custom' is the plain sense of loācāra, with Munidatta's and the Tibetan wording as variants."
+    },
+    {
+      "id": "p-aryadeva",
+      "type": "person",
+      "en": "Āryadeva",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আজদেব",
+          "translit": "ājadeba",
+          "lemma": "ājadeba",
+          "att": "AS",
+          "where": "cp.31.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "আজদেবেঁ",
+          "translit": "ājadebem̐",
+          "lemma": "ājadeba",
+          "att": "AS",
+          "where": "cp.31.5a"
+        },
+        {
+          "lang": "san",
+          "script": "আর্য্যদেবপাদাঃ",
+          "translit": "āryyadevapādāḥ",
+          "lemma": "āryadeva",
+          "att": "AS",
+          "where": "cp.31.m1"
+        },
+        {
+          "lang": "san",
+          "script": "আর্য্যদেবেত্যাদি",
+          "translit": "āryyadevetyādi",
+          "lemma": "āryadeva",
+          "att": "AS",
+          "where": "cp.31.m6"
+        },
+        {
+          "lang": "san",
+          "script": "আর্য্যদেবপাদেন",
+          "translit": "āryyadevapādena",
+          "lemma": "āryadeva",
+          "att": "AS",
+          "where": "cp.31.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འཕགས་པ་ལྷ",
+          "translit": "'phags pa lha",
+          "lemma": "'phags pa lha",
+          "att": "AO",
+          "where": "cp.31.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཕགས་པ་ལྷའི་ཞབས",
+          "translit": "'phags pa lha'i zhabs",
+          "lemma": "'phags pa lha",
+          "att": "AO",
+          "where": "cp.31.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "আজদেব"
+        },
+        {
+          "lang": "san",
+          "form": "আর্য্যদেব"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])འཕགས་པ་ལྷ(?:འི)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 31 is Āryadevapāda's: he names himself Ājadeba in the refrain and the last couplet, Munidatta names him in three comments, and the Tibetan calls him 'phags pa lha (the regex keeps 'phags pa lha from matching syllables such as lhag)."
+    },
+    {
+      "id": "adbhuta",
+      "type": "term",
+      "en": "wonder",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অকট",
+          "translit": "akaṭa",
+          "lemma": "akaṭa",
+          "att": "AS",
+          "where": "cp.31.2a"
+        },
+        {
+          "lang": "san",
+          "script": "অকটেতি",
+          "translit": "akaṭeti",
+          "lemma": "akaṭa",
+          "att": "AS",
+          "where": "cp.31.m3"
+        },
+        {
+          "lang": "san",
+          "script": "আশ্চর্য্যং",
+          "translit": "āścaryyaṃ",
+          "lemma": "āścarya",
+          "att": "AS",
+          "where": "cp.31.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡ་མཚན",
+          "translit": "ya mtshan",
+          "lemma": "ya mtshan",
+          "att": "AO",
+          "where": "cp.31.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨད་དུ་བྱུང་བ",
+          "translit": "rmad du byung ba",
+          "lemma": "rmad du byung ba",
+          "att": "AO",
+          "where": "cp.31.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অকটেতি"
+        },
+        {
+          "lang": "san",
+          "form": "আশ্চর্য্য"
+        },
+        {
+          "lang": "bod",
+          "form": "རྨད་དུ་བྱུང"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অকট(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ཡ་མཚན(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The refrain opens with akaṭa, which Munidatta glosses āścarya, 'wonder'; the Tibetan has ya mtshan in the line and rmad du byung ba, its usual word for adbhuta, in the comment (see questions on whether to split it off)."
+    },
+    {
+      "id": "damaru",
+      "type": "term",
+      "en": "ḍamaru",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ডমরুলি",
+          "translit": "ḍamaruli",
+          "lemma": "ḍamaru",
+          "att": "AS",
+          "where": "cp.31.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ডমরুকেতি",
+          "translit": "ḍamaruketi",
+          "lemma": "ḍamaruka",
+          "att": "AS",
+          "where": "cp.31.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ডমরু"
+        },
+        {
+          "lang": "san",
+          "form": "ডমরু"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The refrain has the diminutive ḍamaruli and Munidatta cites the word as ḍamaruka."
+    },
+    {
+      "id": "anahata",
+      "type": "term",
+      "en": "unstruck",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অ(ম)নাহতশব্দং",
+          "translit": "a(ma)nāhataśavdaṃ",
+          "lemma": "anāhata",
+          "att": "AS",
+          "where": "cp.31.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অ(ম)নাহত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Shastri's parenthesis inside a(ma)nāhata breaks the existing literals, so this spelling needs its own pattern."
+    },
+    {
+      "id": "jnana",
+      "type": "term",
+      "en": "knowledge",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানং",
+          "translit": "jñānaṃ",
+          "lemma": "jñāna",
+          "att": "AS",
+          "where": "cp.31.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])জ্ঞান(?:ং|ম্|েন|স্য|ে)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry has only a Tibetan form; this adds the Sanskrit, with a whole-word pattern so that jñāna inside vijñāna, prajñājñāna and the like is not caught."
+    },
+    {
+      "id": "moon",
+      "type": "term",
+      "en": "moon",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চন্দ্রমসি",
+          "translit": "candramasi",
+          "lemma": "candramas",
+          "att": "AS",
+          "where": "cp.31.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চন্দ্রমস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's simile and the verse he quotes use candramas for the moon."
+    },
+    {
+      "id": "udakacandra",
+      "type": "term",
+      "en": "moon in water",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নীরেন্দবঃ",
+          "translit": "nīrendavaḥ",
+          "lemma": "nīrendu",
+          "att": "AS",
+          "where": "cp.31.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নীরেন্দ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The verse Munidatta quotes has nīrendu, 'water-moon', for the reflected moon; the Tibetan there has chu yi zla ba, already a form of this entry."
+    },
+    {
+      "id": "king-of-mind",
+      "type": "term",
+      "en": "king of mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তরাজস্যোদ্দেশং",
+          "translit": "cittarājasyoddeśaṃ",
+          "lemma": "cittarāja",
+          "att": "AS",
+          "where": "cp.31.m2"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তরাজোপি",
+          "translit": "cittarājopi",
+          "lemma": "cittarāja",
+          "att": "AS",
+          "where": "cp.31.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চিত্তরাজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry has only the Tibetan sems kyi rgyal po; Munidatta's Sanskrit cittarāja appears twice in song 31, where the Tibetan has sems kyi rgyal po."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মণ",
+          "translit": "maṇa",
+          "lemma": "maṇa",
+          "att": "AS",
+          "where": "cp.31.1a"
+        },
+        {
+          "lang": "san",
+          "script": "চিঅ",
+          "translit": "cia",
+          "lemma": "cia",
+          "att": "AS",
+          "where": "cp.31.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মণ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 31 spells the mind maṇa, and Munidatta cites the song's cia in his Sanskrit; whole-word patterns keep মণ from matching inside মণ্ডল."
+    },
+    {
+      "id": "indriya",
+      "type": "term",
+      "en": "senses",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ইন্দিঅ",
+          "translit": "india",
+          "lemma": "indriya",
+          "att": "AS",
+          "where": "cp.31.1a"
+        },
+        {
+          "lang": "san",
+          "script": "বিষয়পবনেন্দ্রিয়াদিকং",
+          "translit": "viṣayapavanendriyādikaṃ",
+          "lemma": "indriya",
+          "att": "AS",
+          "where": "cp.31.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ইন্দিঅ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "[ইেি]ন্দ্রিয়"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry's ইন্দিঅ is filed as Prakrit, and the line here is Old Bengali; the Sanskrit pattern catches indriya after sandhi inside compounds such as viṣaya-pavana-indriya."
+    },
+    {
+      "id": "vayu",
+      "type": "term",
+      "en": "wind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "[প]বণ",
+          "translit": "[pa]baṇa",
+          "lemma": "pavaṇa",
+          "att": "AS",
+          "where": "cp.31.1a"
+        },
+        {
+          "lang": "san",
+          "script": "বিষয়পবনেন্দ্রিয়াদিকং",
+          "translit": "viṣayapavanendriyādikaṃ",
+          "lemma": "pavana",
+          "att": "AS",
+          "where": "cp.31.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "[প]বণ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<!উ)পবন"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Shastri's restored [প] breaks the literal পবণ in 1a; the Sanskrit pattern catches pavana inside compounds while skipping upavana, 'grove'."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুণ",
+          "translit": "suṇa",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.31.4b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুণ(?=\\s+বিআর)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In 4b suṇa is emptiness (Munidatta śūnyam, Tibetan stong pa nyid), but bare সুণ is also 'listen' (the refrain of song 2), so the pattern is limited to the phrase সুণ বিআর."
+    },
+    {
+      "id": "vicara",
+      "type": "term",
+      "en": "examination",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিআর",
+          "translit": "biāra",
+          "lemma": "vicāra",
+          "att": "AS",
+          "where": "cp.31.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিআর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The bare noun biāra, 'examination', of 4b; the Tibetan line has rnam par dpyad, already a form of this entry."
+    },
+    {
+      "id": "niravayava",
+      "type": "term",
+      "en": "partless",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিরংশতামাহ",
+          "translit": "niraṃśatām āha",
+          "lemma": "niraṃśa",
+          "att": "AS",
+          "where": "cp.31.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিরংশ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's niraṃśatā, 'partlessness', is a synonym of niravayava; the Tibetan has cha shas med pa, already a form of this entry."
+    },
+    {
+      "id": "bhava-abhava",
+      "type": "term",
+      "en": "being and nonbeing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবস্য",
+          "translit": "bhāvasya",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.31.m5"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবং",
+          "translit": "bhāvaṃ",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.31.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ভাব(?:ং|স্য)(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's bhāva alone (Tibetan dngos po), following the entry's existing forms ভাব and dngos po; whole-word patterns keep it out of svabhāva."
+    },
+    {
+      "id": "nairatmya",
+      "type": "term",
+      "en": "selflessness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নৈরাত্ম্যরূ[পং]",
+          "translit": "nairātmyarū[paṃ]",
+          "lemma": "nairātmya",
+          "att": "AS",
+          "where": "cp.31.m5"
+        },
+        {
+          "lang": "san",
+          "script": "নৈরাত্ম্যধর্ম্মামুখীকরণে",
+          "translit": "nairātmyadharmmāmukhīkaraṇe",
+          "lemma": "nairātmya",
+          "att": "AS",
+          "where": "cp.31.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নৈরাত্ম্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The abstract noun spelled nairātmya, so that it is not taken for the goddess Nairātmā (nairatma)."
+    },
+    {
+      "id": "prasada",
+      "type": "term",
+      "en": "grace",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সদ্গুরুপ্রসা[দা]ৎ",
+          "translit": "sadguruprasā[dā]t",
+          "lemma": "prasāda",
+          "att": "AS",
+          "where": "cp.31.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রসা[দা]"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Shastri's restoration brackets break the existing literals here."
+    },
+    {
+      "id": "anupalambha",
+      "type": "term",
+      "en": "non-apprehension",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মানুপলম্ভযোগেন",
+          "translit": "sarvvadharmmānupalambhayogena",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.31.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས་ཐམས་ཅད་མི་དམིགས་པ",
+          "translit": "chos thams cad mi dmigs pa",
+          "lemma": "mi dmigs pa",
+          "att": "AO",
+          "where": "cp.31.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নুপলম্ভ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])མི་དམིགས་པ"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "After sandhi (-dharma-anupalambha) the word loses its initial a, and the Tibetan renders it mi dmigs pa."
+    },
+    {
+      "id": "prabhasvara",
+      "type": "term",
+      "en": "clear light",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রভাস্বরে",
+          "translit": "prabhāsvare",
+          "lemma": "prabhāsvara",
+          "att": "AS",
+          "where": "cp.31.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রভাস্বর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The plain locative, whose only existing spelling in the entry has a folio number inside it."
+    },
+    {
+      "id": "sahaja",
+      "type": "term",
+      "en": "innate",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সহজে",
+          "translit": "sahaje",
+          "lemma": "sahaja",
+          "att": "AS",
+          "where": "cp.31.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "সহজ(?!ানন্দ|সুন্দর)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry's সহজে is filed as Old Bengali, and here it is in the verse Munidatta quotes; the pattern leaves sahajānanda and Sahajasundarī to their own entries."
+    },
+    {
+      "id": "nihsvabhava",
+      "type": "term",
+      "en": "without intrinsic nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিঃস্বভাবীকরণং",
+          "translit": "niḥsvabhāvīkaraṇaṃ",
+          "lemma": "niḥsvabhāva",
+          "att": "AS",
+          "where": "cp.31.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নিঃস্বভাব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The verbal noun niḥsvabhāvīkaraṇa, 'making without intrinsic nature', is not caught by the entry's existing spellings."
+    },
+    {
+      "id": "upasamhara",
+      "type": "term",
+      "en": "summing up",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সংহারমণ্ডলাদিক্রমেণ",
+          "translit": "saṃhāramaṇḍalādikrameṇa",
+          "lemma": "saṃhāra",
+          "att": "AS",
+          "where": "cp.31.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྡུད་པའི་རིམ་པས",
+          "translit": "sdud pa'i rim pas",
+          "lemma": "sdud pa",
+          "att": "AO",
+          "where": "cp.31.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সংহারমণ্ডল"
+        },
+        {
+          "lang": "bod",
+          "form": "སྡུད་པའི་རིམ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's withdrawal of the maṇḍala (saṃhāramaṇḍalādikrama; Tibetan dkyil 'khor la sogs pa sdud pa'i rim pa) is the withdrawal sense this entry already lists as a variant (see questions)."
+    },
+    {
+      "id": "anusamsa",
+      "type": "term",
+      "en": "praise",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থপদেনাত্মানুশংসামাহ",
+          "translit": "caturthapadenātmānuśaṃsām āha",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.31.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্মানুশংসা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "After sandhi with the preceding word, ātmānuśaṃsā is not caught by the entry's existing spellings."
+    }
+  ],
+  "questions": [
+    "karuna: new reading for the entry. Munidatta glosses the compassion of the refrain (cp.31.2a, karuṇā ḍamaruli) as conventional bodhicitta (saṃvṛtibodhicitta), received through the guru's lineage: karuṇeti saṃvṛtibodhicittaṃ gurusampradāyāt (cp.31.m3); the Tibetan comment agrees (kun rdzob byang chub kyi sems bla ma'i drin las). Suggest adding it to the entry's readings, with bodhicitta and conventional bodhicitta among the words that never stand in the line.",
+    "damaru: the entry's reading is 'unattested'. In cp.31.m3 Munidatta glosses the ḍamaru of compassion (cp.31.2a) as making the unstruck sound (ḍamaruketi a(ma)nāhataśabdaṃ karoti), and the Tibetan comment adds that the knowledge of the unstruck sound is realized (gzhom du med pa'i sgra'i ye shes rnam par rtogs pa). This could be recorded as a reading for segment cp.31.m3 (ḍamaru → the unstruck sound), though it says what the drum does rather than equating it with something else.",
+    "moon: possible new reading from cp.31.m4. In Munidatta's simile on couplet 3, the moon that has set, into which its moonlight goes back, answers to the king of mind (cittarāja), which goes to no-mind and enters clear light; the verse he then quotes says the moons in water vanish when the moon sets, as every fault of conceptual thought perishes when the mind dissolves in the innate. It is a simile, not an equation; I have recorded the moonlight side under the new entry 'moonlight'.",
+    "p-aryadeva: the definition describes only the teacher quoted on song 1 (cp.01.m2). Song 31 is the poet Āryadevapāda's own: Munidatta introduces him (cp.31.m1, cp.31.m3, cp.31.m6), he names himself Ājadeba in the refrain (2b) as well as in the last couplet (5a), and the Tibetan heading has 'phags pa lha'i zhabs. The definition may need widening; the pack does not settle whether the poet is the Guhyasamāja Āryadeva. I added only source forms.",
+    "adbhuta: I filed Old Bengali akaṭa (cp.31.2a) and Munidatta's gloss āścarya (cp.31.m3) under 'wonder', since the Tibetan has ya mtshan in the line and rmad du byung ba, its usual word for adbhuta, in the comment. akaṭa is a different word from adabhūā, of unclear derivation; if you prefer a separate entry (āścarya, 'marvel'), the forms can move.",
+    "niralamba and anupalambha: in cp.31.m3 the Tibetan has dmigs pa med pa for nirālamba and chos thams cad mi dmigs pa for sarvadharmānupalambha, and the line 2b has dmigs pa med for ṇirāse; but anupalambha already lists dmigs pa med pa (and abhasa lists dmigs med). I gave niralamba its Tibetan forms without match patterns; you may want to decide which entry owns dmigs pa med pa.",
+    "upasamhara: I added Munidatta's saṃhāramaṇḍalādikrama, 'the sequence of withdrawing the maṇḍala and so on' (cp.31.m2; Tibetan dkyil 'khor la sogs pa sdud pa'i rim pa), as forms of this entry, whose variant is 'withdrawal' and whose forms already include viṣayamaṇḍalopasaṃhāra. If 'summing up' should stay apart from this completion-stage withdrawal, these forms need an entry of their own.",
+    "bhava-abhava: Munidatta's bhāva alone (bhāvasya, bhāvaṃ, cp.31.m5; Tibetan dngos po) is filed here, following the entry's existing forms ভাব and dngos po; a separate entry for bhāva, 'thing, being', might be cleaner.",
+    "Not proposed: fear (bhaya, cp.31.4a, 5b), paired with disgust; it is plain English. For the line drafter: the Tibetan of 4a has srid pa'i, 'of existence', as if reading bhava where the Bengali has bhaya, while 5b has 'jigs pa, 'fear'.",
+    "raga: রাগ in the heading (cp.31.h1) is listed among candidate words not yet in the glossary although raga has the form রাগ, perhaps because raga and raga-passion share it. A heading-only pattern such as ^রাগ(?=\\s) might help, but it would also catch a verse line that opens with রাগ meaning passion, so I have not proposed one."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "e3eaa14018a60239a33216187eb4b023ab3a620ebde9fffed129a82f752e5265",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "5109c1875231a472ac3416bcb24eb75ecefe1d9ca82373b7b2877df1ba618ddb",
+    "sourceSha": "b965f6c0aaabd4ab4629bfc330b1365b91b3c09047438c0395836b2ce8beda28"
+  }
+}

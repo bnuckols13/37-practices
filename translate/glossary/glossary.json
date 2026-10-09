@@ -1131,6 +1131,60 @@
       }
     },
     {
+      "id": "adhisthana",
+      "type": "term",
+      "status": "proposed",
+      "en": "blessing",
+      "alt": [
+        "sustaining power",
+        "consecration"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কল্যাণমিত্রাধিষ্ঠানাৎ",
+          "translit": "kalyāṇamitrādhiṣṭhānāt",
+          "lemma": "adhiṣṭhāna",
+          "att": "AS",
+          "where": "cp.33.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱིན་གྱིས་བརླབས་པ",
+          "translit": "byin gyis brlabs pa",
+          "lemma": "byin gyis brlabs pa",
+          "att": "AO",
+          "where": "cp.33.m6"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "san": [
+          "(?<!স্ব)াধিষ্ঠান|অধিষ্ঠান"
+        ],
+        "bod": [
+          "(?<!རང་)བྱིན་གྱིས་བརླབས"
+        ]
+      },
+      "definition": "Blessing (Sanskrit adhiṣṭhāna; Tibetan byin gyis brlabs pa): the sustaining, transforming power of a teacher or deity that enters the practitioner. Munidatta says the jackal-like mind becomes pure in clear light through the blessing of the spiritual friend (cp.33.m6). Compare self-blessing (svādhiṣṭhāna) and empowerment (abhiṣeka).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "advaya",
       "type": "term",
       "status": "proposed",

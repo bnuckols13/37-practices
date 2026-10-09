@@ -250,6 +250,14 @@
           "lemma": "dgongs pa",
           "att": "AO",
           "where": "cp.36.m5"
+        },
+        {
+          "lang": "san",
+          "script": "প্রতিভাসমাত্রং",
+          "translit": "pratibhāsamātraṃ",
+          "lemma": "pratibhāsa",
+          "att": "AS",
+          "where": "cp.41.m4"
         }
       ],
       "match": {
@@ -1439,12 +1447,21 @@
           "lemma": "āgama",
           "att": "AS",
           "where": "cp.40.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তথাগমঃ",
+          "translit": "tathāgamaḥ",
+          "lemma": "āgama",
+          "att": "AS",
+          "where": "cp.41.m2"
         }
       ],
       "match": {
         "san": [
           "চাগমঃ",
-          "আগমশাস্ত্র"
+          "আগমশাস্ত্র",
+          "তথাগমঃ"
         ]
       },
       "matchRe": {
@@ -1645,9 +1662,29 @@
           "lemma": "a",
           "att": "AO",
           "where": "cp.17.m3"
+        },
+        {
+          "lang": "san",
+          "script": "অকারো",
+          "translit": "akāro",
+          "lemma": "akāra",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨའི་ཡི་གེ",
+          "translit": "a'i yi ge",
+          "lemma": "a yi ge",
+          "att": "AO",
+          "where": "cp.41.m2"
         }
       ],
-      "match": {},
+      "match": {
+        "san": [
+          "অকারো"
+        ]
+      },
       "matchRe": {
         "san": [
           "(?<![\\p{L}\\p{M}])অকার(?=[ঃং])"
@@ -1666,6 +1703,60 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "akasapuspa",
+      "type": "term",
+      "status": "proposed",
+      "en": "sky-flower",
+      "alt": [
+        "flower in the sky",
+        "the sky flowered"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আকাশফুলিলা",
+          "translit": "ākāśaphulilā",
+          "lemma": "ākāśaphula",
+          "att": "AS",
+          "where": "cp.41.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའི་མེ་ཏོག",
+          "translit": "nam mkha'i me tog",
+          "lemma": "nam mkha'i me tog",
+          "att": "AO",
+          "where": "cp.41.4b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "আকাশফুল"
+        ],
+        "bod": [
+          "ནམ་མཁའི་མེ་ཏོག"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A flower in the sky (Sanskrit khapuṣpa, ākāśapuṣpa), a stock Indian example of what does not exist. Song 41 (4b) ends its list with ākāśaphulilā, apparently 'the sky flowered'; the Tibetan has nam mkha'i me tog rgyas pa, 'the sky-flower blooming'. Munidatta's comment names oil from sand and the hare's horn but not the sky-flower (cp.41.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -3533,14 +3624,32 @@
           "lemma": "bar do'i srid pa",
           "att": "AO",
           "where": "cp.04.m3"
+        },
+        {
+          "lang": "san",
+          "script": "হ্যন্তরাভবমিত্যাদি",
+          "translit": "hyantarābhavamityādi",
+          "lemma": "antarābhava",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བར་སྲིད",
+          "translit": "bar srid",
+          "lemma": "bar srid",
+          "att": "AO",
+          "where": "cp.41.m4"
         }
       ],
       "match": {
         "san": [
-          "অন্তরাভব"
+          "অন্তরাভব",
+          "ন্তরাভব"
         ],
         "bod": [
-          "བར་དོ"
+          "བར་དོ",
+          "བར་སྲིད"
         ]
       },
       "matchRe": {},
@@ -3929,14 +4038,61 @@
           "lemma": "ma skyes pa",
           "att": "AO",
           "where": "cp.34.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "অণুঅনাএ",
+          "translit": "aṇuanāe",
+          "lemma": "aṇuana",
+          "att": "AS",
+          "where": "cp.41.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অনুৎপন্নভাবত্বে[৫৮]ন",
+          "translit": "anutpannabhāvatve[58]na",
+          "lemma": "anutpanna",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মাণামাদ্যনুৎপন্নত্বাৎ",
+          "translit": "sarvvadharmmāṇāmādyanutpannatvāt",
+          "lemma": "anutpanna",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "san",
+          "script": "এতেনানুৎপন্নস্বভাবো",
+          "translit": "etenānutpannasvabhāvo",
+          "lemma": "anutpanna",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བ་མེད་པ",
+          "translit": "skye ba med pa",
+          "lemma": "skye ba med pa",
+          "att": "AO",
+          "where": "cp.41.m2"
         }
       ],
       "match": {
         "san": [
-          "অনুৎপাদ"
+          "অনুৎপাদ",
+          "অনুৎপন্ন",
+          "দ্যনুৎপন্ন",
+          "নানুৎপন্ন"
         ],
         "bod": [
-          "མ་སྐྱེས་པ"
+          "མ་སྐྱེས་པ",
+          "སྐྱེ་བ་མེད་པ"
+        ],
+        "oben": [
+          "অণুঅনা"
         ]
       },
       "matchRe": {},
@@ -5027,6 +5183,54 @@
       },
       "matchRe": {},
       "definition": "Self-conviction (ātmapratyayitā): certainty that rests on one's own experience, not on another's word or on outer means. Munidatta introduces couplet 3 of song 32, his 'second verse', as stating it: by the vajra guru's grace one is to know the true nature of bodhicitta with one's own mind (cp.32.m4). The Tibetan renders pratyaya literally, rkyen, 'condition'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "atyantabhava",
+      "type": "term",
+      "status": "proposed",
+      "en": "absolute nonexistence",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তৃতীয়পদেনাত্যন্তাভাবং",
+          "translit": "tṛtīyapadenātyantābhāvaṃ",
+          "lemma": "atyantābhāva",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིན་ཏུ་མེད་པ",
+          "translit": "shin tu med pa",
+          "lemma": "shin tu med pa",
+          "att": "AO",
+          "where": "cp.41.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "ত্যন্তাভাব"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Absolute nonexistence (atyantābhāva): in Indian philosophy the absence of what never was and never will be, like a hare's horn, as distinct from the absence of a thing before it arises or after it perishes. Munidatta says the fourth couplet of song 41, his 'third verse', points to it (cp.41.m5). The Tibetan has shin tu med pa.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -6662,14 +6866,32 @@
           "lemma": "mo gsham",
           "att": "AO",
           "where": "cp.33.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "বাঁদ্ধি",
+          "translit": "bām̐ddhi",
+          "lemma": "bām̐jha",
+          "att": "AS",
+          "where": "cp.41.4a"
+        },
+        {
+          "lang": "san",
+          "script": "বান্ধীত্যাদি",
+          "translit": "vāndhītyādi",
+          "lemma": "vandhyā",
+          "att": "AS",
+          "where": "cp.41.m5"
         }
       ],
       "match": {
         "oben": [
-          "বাঁঝে"
+          "বাঁঝে",
+          "বাঁদ্ধি"
         ],
         "san": [
-          "বংধ্যা"
+          "বংধ্যা",
+          "বান্ধীত্যাদি"
         ],
         "bod": [
           "མོ་གཤམ"
@@ -8331,15 +8553,52 @@
           "lemma": "'khrul",
           "att": "AO",
           "where": "cp.37.3b"
+        },
+        {
+          "lang": "oben",
+          "script": "ভাংতি",
+          "translit": "bhāṃti",
+          "lemma": "bhānti",
+          "att": "AS",
+          "where": "cp.41.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "ভান্তী",
+          "translit": "bhāntī",
+          "lemma": "bhānti",
+          "att": "AS",
+          "where": "cp.41.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ভ্রাংত্যা",
+          "translit": "bhrāṃtyā",
+          "lemma": "bhrānti",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভ্রান্তিরত্রাস্তি",
+          "translit": "bhrāntiratrāsti",
+          "lemma": "bhrānti",
+          "att": "AS",
+          "where": "cp.41.m6"
         }
       ],
       "match": {
         "san": [
           "ভ্রান্তি",
-          "ভ্রান্ত্য"
+          "ভ্রান্ত্য",
+          "ভ্রাংত"
         ],
         "bod": [
           "འཁྲུལ་པ"
+        ],
+        "oben": [
+          "ভাংতি",
+          "ভান্তী"
         ]
       },
       "matchRe": {
@@ -14082,14 +14341,41 @@
           "lemma": "paṭala",
           "att": "AS",
           "where": "cp.32.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বিদ্যাতিমিরলোচনান্",
+          "translit": "vidyātimiralocanān",
+          "lemma": "timira",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তৈমিরকৈর্জনৈঃ",
+          "translit": "taimirakairjanaiḥ",
+          "lemma": "taimirika",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རབ་རིབ་ཅན",
+          "translit": "rab rib can",
+          "lemma": "rab rib can",
+          "att": "AO",
+          "where": "cp.41.m2"
         }
       ],
       "match": {
         "bod": [
-          "རབ་རིབ"
+          "རབ་རིབ",
+          "རབ་རིབ་ཅན"
         ],
         "san": [
-          "জ্ঞানপটল"
+          "জ্ঞানপটল",
+          "তিমিরলোচন",
+          "তৈমির"
         ]
       },
       "matchRe": {},
@@ -17059,6 +17345,89 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "gandharvanagara",
+      "type": "term",
+      "status": "proposed",
+      "en": "city of the gandharvas",
+      "alt": [
+        "gandharva city"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গন্ধনইরী",
+          "translit": "gandhanairī",
+          "lemma": "gandhanairī",
+          "att": "AS",
+          "where": "cp.41.3a"
+        },
+        {
+          "lang": "san",
+          "script": "গন্ধর্ব্বনগর",
+          "translit": "gandharvvanagara",
+          "lemma": "gandharvanagara",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་ཟའི་གྲོང",
+          "translit": "dri za'i grong",
+          "lemma": "dri za'i grong khyer",
+          "att": "AO",
+          "where": "cp.41.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་ཟའི་གྲོང་ཁྱེར",
+          "translit": "dri za'i grong khyer",
+          "lemma": "dri za'i grong khyer",
+          "att": "AO",
+          "where": "cp.41.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "গন্ধনইরী"
+        ],
+        "san": [
+          "গন্ধর্ব্বনগর"
+        ],
+        "bod": [
+          "དྲི་ཟའི་གྲོང"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A city of the gandharvas, celestial musicians (Sanskrit gandharvanagara; Old Bengali gandhanairī): a city seen in clouds or haze that vanishes as one approaches, a stock Buddhist simile for illusory appearance (compare twelve examples). Song 41 (3a) names it after the mirage, and so does Munidatta (cp.41.m4). Not the gandharva being of song 3.",
+      "symbolic": {
+        "image": "a city of the gandharvas",
+        "readings": [
+          {
+            "referent": "the mere appearance (pratibhāsamātra) of things, which is all the best of yogis sees of them, as in seeing a mirage, a city of the gandharvas and the like; the Tibetan comment agrees (dri za'i grong khyer mthong ba la sogs pa ji bzhin du gzugs brnyan tsam du)",
+            "per": "Munidatta",
+            "where": [
+              "cp.41.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "mere appearance",
+        "appearance of things"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -20033,9 +20402,58 @@
           "lemma": "'gro ba",
           "att": "AO",
           "where": "cp.39.5b"
+        },
+        {
+          "lang": "oben",
+          "script": "জগরে",
+          "translit": "jagare",
+          "lemma": "jaga",
+          "att": "AS",
+          "where": "cp.41.1a"
+        },
+        {
+          "lang": "san",
+          "script": "জগদিদং",
+          "translit": "jagadidaṃ",
+          "lemma": "jagat",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "san",
+          "script": "জগৎস্বরূপাবগমং",
+          "translit": "jagatsvarūpāvagamaṃ",
+          "lemma": "jagat",
+          "att": "AS",
+          "where": "cp.41.m3"
+        },
+        {
+          "lang": "san",
+          "script": "জগতি",
+          "translit": "jagati",
+          "lemma": "jagat",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲོ་རྣམས",
+          "translit": "'gro rnams",
+          "lemma": "'gro ba",
+          "att": "AO",
+          "where": "cp.41.1a"
         }
       ],
-      "match": {},
+      "match": {
+        "oben": [
+          "জগরে"
+        ],
+        "san": [
+          "জগদিদং",
+          "জগৎ",
+          "জগতি"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])জগ(?:তে|ত|ে)?(?![\\p{L}\\p{M}])"
@@ -20681,6 +21099,54 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "kahnu-gunjari",
+      "type": "term",
+      "status": "proposed",
+      "en": "Kahnu-guñjarī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কহ্নুগুংজরী",
+          "translit": "kahnuguṃjarī",
+          "lemma": "kahnuguṃjarī",
+          "att": "AS",
+          "where": "cp.41.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "གུཉྫ་རཱི",
+          "translit": "guny+dza rI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.41.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কহ্নুগুংজরী"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Kahnu-guñjarī, the name of the rāga (melodic mode) to which song 41 is sung, given in its heading. It reads as Guñjarī, the rāga of song 5, with a qualifier, kahnu, perhaps the name Kāṇha (Kṛṣṇa), marking a variety of it. The Tibetan heading names only Guñjarī (guny+dza rI); whether the two melodies differ is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -22862,6 +23328,60 @@
       }
     },
     {
+      "id": "kesonduka",
+      "type": "term",
+      "status": "proposed",
+      "en": "tangle of hairs",
+      "alt": [
+        "hair-net"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কেশোণ্ডকং",
+          "translit": "keśoṇḍakaṃ",
+          "lemma": "keśoṇḍuka",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྲ་ཤད",
+          "translit": "skra shad",
+          "lemma": "skra shad",
+          "att": "AO",
+          "where": "cp.41.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "কেশোণ্ডক",
+          "কেশোণ্ডুক"
+        ],
+        "bod": [
+          "སྐྲ་ཤད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A tangle or net of hairs (Sanskrit keśoṇḍuka; the edition prints keśoṇḍaka) that people with diseased eyes see floating in the empty sky, a stock Buddhist example of appearance without an object. In the verse Munidatta quotes from Nidattaka, fools imagine things as such people see the hairs (cp.41.m2). The Tibetan has skra shad.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "key",
       "type": "term",
       "status": "proposed",
@@ -24823,6 +25343,38 @@
           "lemma": "rtse ba",
           "att": "AO",
           "where": "cp.42.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "কেলি",
+          "translit": "keli",
+          "lemma": "keli",
+          "att": "AS",
+          "where": "cp.41.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ক্রীড়ারসমনুভবতীতি",
+          "translit": "krīṛārasamanubhavatīti",
+          "lemma": "krīḍārasa",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩེ་བ",
+          "translit": "rtse ba",
+          "lemma": "rtse ba",
+          "att": "AO",
+          "where": "cp.41.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩེད་མོ",
+          "translit": "rtsed mo",
+          "lemma": "rtsed mo",
+          "att": "AO",
+          "where": "cp.41.4a"
         }
       ],
       "match": {
@@ -24836,7 +25388,8 @@
           "লীলয়া",
           "বিলস",
           "ক্রীড়ত",
-          "বিলসতি"
+          "বিলসতি",
+          "ক্রীড়ারস"
         ],
         "bod": [
           "རོལ་རྩེད",
@@ -24846,7 +25399,8 @@
       },
       "matchRe": {
         "oben": [
-          "(?<!উ)লোলেঁ"
+          "(?<!উ)লোলেঁ",
+          "(?<![\\p{L}\\p{M}])কেলি(?![\\p{L}\\p{M}])"
         ],
         "bod": [
           "(?<![\\u0F40-\\u0FBC])རྩེ་བ"
@@ -27866,6 +28420,97 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "marici",
+      "type": "term",
+      "status": "proposed",
+      "en": "mirage",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মরুমরীচি",
+          "translit": "marumarīci",
+          "lemma": "marumarīci",
+          "att": "AS",
+          "where": "cp.41.3a"
+        },
+        {
+          "lang": "san",
+          "script": "মরুমরীচীত্যাদি",
+          "translit": "marumarīcītyādi",
+          "lemma": "marīci",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মৃগতৃষ্ণা",
+          "translit": "mṛgatṛṣṇā",
+          "lemma": "mṛgatṛṣṇā",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྨིག་རྒྱུ",
+          "translit": "smig rgyu",
+          "lemma": "smig rgyu",
+          "att": "AO",
+          "where": "cp.41.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་དགས་སྲེད",
+          "translit": "ri dgas sred",
+          "lemma": "ri dwags sred",
+          "att": "AO",
+          "where": "cp.41.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মরুমরীচ"
+        ],
+        "san": [
+          "মরুমরীচ",
+          "মৃগতৃষ্ণা"
+        ],
+        "bod": [
+          "སྨིག་རྒྱུ",
+          "རི་དགས་སྲེད"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A mirage (Old Bengali marumarīci, 'desert mirage'; Sanskrit mṛgatṛṣṇā, 'deer's thirst'): water seen shimmering where there is none, one of the usual Mahāyāna similes for appearance without substance (compare twelve examples). Song 41 (3a) names it first in its list. The Tibetan has smig rgyu after mya ngan, probably for mya ngam, 'desert'.",
+      "symbolic": {
+        "image": "a mirage",
+        "readings": [
+          {
+            "referent": "the mere appearance (pratibhāsamātra) of things, which is all the best of yogis sees of them, as in seeing a mirage, a city of the gandharvas and the like; the Tibetan comment has 'as a mere reflection' (gzugs brnyan tsam du dngos po rnams mchog gi rnal 'byor pas mthong)",
+            "per": "Munidatta",
+            "where": [
+              "cp.41.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "mere appearance",
+        "appearance of things"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -33802,12 +34447,21 @@
           "lemma": "bhagavatī",
           "att": "AS",
           "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ভাগবতী",
+          "translit": "bhāgavatī",
+          "lemma": "bhagavatī",
+          "att": "AS",
+          "where": "cp.41.m5"
         }
       ],
       "match": {
         "san": [
           "ভগবতী",
-          "ভ(ভব)গবতী"
+          "ভ(ভব)গবতী",
+          "ভাগবতী"
         ],
         "bod": [
           "བཅོམ་ལྡན་འདས་མ"
@@ -33986,6 +34640,30 @@
           "lemma": "bhusukupāda",
           "att": "AS",
           "where": "cp.30.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদস্তমেবার্থং",
+          "translit": "bhusukupādastamevārthaṃ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.41.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷཱུ་སུ་ཀཱུ་པའི་ཞབས",
+          "translit": "b+hU su kU pa'i zhabs",
+          "lemma": "b+hu su ku pa",
+          "att": "AO",
+          "where": "cp.41.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "འདུ་ཤེས་གསུམ་པ",
+          "translit": "'du shes gsum pa",
+          "lemma": "'du shes gsum pa",
+          "att": "AO",
+          "where": "cp.41.m6"
         }
       ],
       "match": {
@@ -34003,7 +34681,8 @@
           "བྷུ་སུ་ཀུ",
           "འདུ་ཤེས་གསུམ་པའི་ཞབས",
           "བྷཱུ་སུ་ཀུ",
-          "འདུ་ཤེས་གསུམ་པ"
+          "འདུ་ཤེས་གསུམ་པ",
+          "བྷཱུ་སུ་ཀཱུ"
         ]
       },
       "matchRe": {},
@@ -36131,6 +36810,58 @@
       }
     },
     {
+      "id": "p-nidattaka",
+      "type": "person",
+      "status": "proposed",
+      "en": "Nidattaka",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অথাচার্য্যনিদত্তকাঃ",
+          "translit": "athācāryyanidattakāḥ",
+          "lemma": "nidattaka",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནི་དཱ་ཏ་ཀཱ",
+          "translit": "ni dA ta kA",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.41.m2"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ནི་དཱ་ཏ་ཀཱ"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "(?<!মু)নিদত্তক"
+        ]
+      },
+      "definition": "Teacher whom Munidatta quotes on song 41 as 'the ācārya Nidattaka', for a verse: as people with dim sight see a tangle of hairs in the sky, so fools, through the fault of light and the rest, imagine things (cp.41.m2). The Tibetan transcribes the name ni dA ta kA. Not otherwise identified; the form of the name is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "p-rahu",
       "type": "person",
       "status": "proposed",
@@ -36188,6 +36919,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-rautu",
+      "type": "person",
+      "status": "proposed",
+      "en": "Rāutu",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রাউতু",
+          "translit": "rāutu",
+          "lemma": "rāuta",
+          "att": "AS",
+          "where": "cp.41.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རཱ་ཨུ་ཏ",
+          "translit": "rA u ta",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.41.5a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "রাউতু"
+        ],
+        "bod": [
+          "རཱ་ཨུ་ཏ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Rāutu, a name or title in the last couplet of song 41 (5a): 'Rāutu says … Bhusuku says …'. Old Bengali rāuta, from Sanskrit rājaputra, is a title, 'prince, knight'; whether Rāutu is a second speaker or a title of Bhusuku himself is uncertain. The Tibetan transcribes it as a name (rA u ta); Munidatta passes over it (cp.41.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -41299,6 +42081,54 @@
       }
     },
     {
+      "id": "pratibimba",
+      "type": "term",
+      "status": "proposed",
+      "en": "reflection",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পতিবিম্বু",
+          "translit": "patibimbu",
+          "lemma": "pratibimba",
+          "att": "AS",
+          "where": "cp.41.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས་བརྙན",
+          "translit": "gzugs brnyan",
+          "lemma": "gzugs brnyan",
+          "att": "AO",
+          "where": "cp.41.3a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "পতিবিম্ব"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A reflection or reflected image (Old Bengali patibimbu, Sanskrit pratibimba), as in a mirror or in water: a stock Buddhist simile for what appears without being there (compare twelve examples). Song 41 (3a) ends its list of illusions with it. The Tibetan line has chu zla gzugs brnyan, 'moon in water, reflection', perhaps reading the dā- before it as water.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "prema",
       "type": "term",
       "status": "proposed",
@@ -41991,6 +42821,80 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "rajjusarpa",
+      "type": "term",
+      "status": "proposed",
+      "en": "rope-snake",
+      "alt": [
+        "rope taken for a snake"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "রাজসাপ",
+          "translit": "rājasāpa",
+          "lemma": "rājasāpa",
+          "att": "AS",
+          "where": "cp.41.1b"
+        },
+        {
+          "lang": "san",
+          "script": "রজ্জু(রাজ্জ)সর্পেণ",
+          "translit": "rajju(rājja)sarpeṇa",
+          "lemma": "rajjusarpa",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐག་པ་སྦྲུལ",
+          "translit": "thag pa sbrul",
+          "lemma": "thag sbrul",
+          "att": "AO",
+          "where": "cp.41.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐག་སྦྲུལ",
+          "translit": "thag sbrul",
+          "lemma": "thag sbrul",
+          "att": "AO",
+          "where": "cp.41.m2"
+        }
+      ],
+      "match": {
+        "oben": [
+          "রাজসাপ"
+        ],
+        "san": [
+          "রজ্জু(রাজ্জ)সর্প",
+          "রজ্জুসর্প"
+        ],
+        "bod": [
+          "ཐག་པ་སྦྲུལ",
+          "ཐག་སྦྲུལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A rope seen in poor light and taken for a snake: a stock Indian example of mistaken cognition, in which fear arises from what is not there. In song 41 (1b) someone is startled on seeing a rājasāpa; Munidatta retells it as the rope-snake (rajjusarpa) and asks whether that snake truly eats him (cp.41.m2). The Tibetan has thag pa sbrul.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -44995,6 +45899,92 @@
       }
     },
     {
+      "id": "sasasrnga",
+      "type": "term",
+      "status": "proposed",
+      "en": "hare's horn",
+      "alt": [
+        "horn of a hare"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সসরসিংগে",
+          "translit": "sasarasiṃge",
+          "lemma": "sasarasiṃga",
+          "att": "AS",
+          "where": "cp.41.4b"
+        },
+        {
+          "lang": "san",
+          "script": "শশশৃ(সৃ)ঙ্গোপমং",
+          "translit": "śaśaśṛ(sṛ)ṅgopamaṃ",
+          "lemma": "śaśaśṛṅga",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་བོང་རྭ",
+          "translit": "ri bong rwa",
+          "lemma": "ri bong rwa",
+          "att": "AO",
+          "where": "cp.41.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "རི་བོང་གི་རྭ",
+          "translit": "ri bong gi rwa",
+          "lemma": "ri bong rwa",
+          "att": "AO",
+          "where": "cp.41.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "সসরসিংগ"
+        ],
+        "san": [
+          "শশশৃ(সৃ)ঙ্গ",
+          "শশশৃঙ্গ"
+        ],
+        "bod": [
+          "རི་བོང་རྭ",
+          "རི་བོང་གི་རྭ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The horn of a hare (Sanskrit śaśaśṛṅga; Old Bengali sasarasiṃga), a stock Indian example of what does not exist. Song 41 (4b) names it between oil from sand and the sky-flower; Munidatta likens ultimate truth, the barren woman's son, to it, so pointing to its unarisen nature (cp.41.m5). Tibetan: ri bong rwa.",
+      "symbolic": {
+        "image": "a hare's horn",
+        "readings": [
+          {
+            "referent": "the unarisen nature (anutpannasvabhāva) of ultimate truth, the barren woman's son, which is 'like oil from sand and like a hare's horn'; the Tibetan comment agrees (dper na ri bong gi rwa bzhin no)",
+            "per": "Munidatta",
+            "where": [
+              "cp.41.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "ultimate truth",
+        "unarisen",
+        "non-arising"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "sasu",
       "type": "term",
       "status": "proposed",
@@ -46059,16 +47049,36 @@
           "lemma": "sbrul",
           "att": "AO",
           "where": "cp.33.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সর্পাভিজ্ঞানং",
+          "translit": "sarpābhijñānaṃ",
+          "lemma": "sarpa",
+          "att": "AS",
+          "where": "cp.41.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "বোড়ো",
+          "translit": "boṛo",
+          "lemma": "boṛā",
+          "att": "AS",
+          "where": "cp.41.1b"
         }
       ],
       "match": {
         "san": [
-          "সর্প"
+          "সর্প",
+          "সর্পাভিজ্ঞান"
         ]
       },
       "matchRe": {
         "san": [
           "(?<![\\p{L}\\p{M}])সয়ঃ(?![\\p{L}\\p{M}])"
+        ],
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বোড়ো(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "A snake. The refrain of song 33 pairs it with the frog (2a), but Shastri's Bengali prints saṃsāra where the snake is expected; the Tibetan line has sbrul, 'snake'. Munidatta's word, sayaḥ, 'that which goes', apparently stands for sarpaḥ, 'snake' ('that which creeps'); he reads it as the wind (cp.33.m3). Compare bhujaṅga, rendered 'lover'.",
@@ -46408,9 +47418,43 @@
           "lemma": "rdo",
           "att": "AS",
           "where": "cp.23.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "পাথর",
+          "translit": "pāthara",
+          "lemma": "pāthara",
+          "att": "AS",
+          "where": "cp.41.3b"
+        },
+        {
+          "lang": "san",
+          "script": "প্রস্তরং",
+          "translit": "prastaraṃ",
+          "lemma": "prastara",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་བ",
+          "translit": "rdo ba",
+          "lemma": "rdo",
+          "att": "AO",
+          "where": "cp.41.3b"
         }
       ],
-      "match": {},
+      "match": {
+        "oben": [
+          "পাথর"
+        ],
+        "san": [
+          "প্রস্তর"
+        ],
+        "bod": [
+          "རྡོ་བ"
+        ]
+      },
       "matchRe": {
         "bod": [
           "(?<=^|[\\u0F04-\\u0F14\\s])རྡོ(?=་ལྕགས|ས་ཞེས)"
@@ -47510,17 +48554,46 @@
           "lemma": "rang bzhin",
           "att": "AO",
           "where": "cp.32.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "সভাবেঁ",
+          "translit": "sabhābem̐",
+          "lemma": "sabhāba",
+          "att": "AS",
+          "where": "cp.41.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "সহাব",
+          "translit": "sahāba",
+          "lemma": "sahāba",
+          "att": "AS",
+          "where": "cp.41.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ঈদৃশস্বভাবেন",
+          "translit": "īdṛśasvabhāvena",
+          "lemma": "svabhāva",
+          "att": "AS",
+          "where": "cp.41.m3"
         }
       ],
       "match": {
         "oben": [
-          "সহাব"
+          "সহাব",
+          "সভাবেঁ"
         ],
         "san": [
           "স্বভাব"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])সহাব(?![\\p{L}\\p{M}])"
+        ]
+      },
       "definition": "Own-being or nature (Sanskrit svabhāva, Old Bengali sahāba): what a thing is of itself. Madhyamaka thought denies that anything has such an intrinsic nature. Song 9 says all beings are pure by nature; the verse Munidatta quotes calls outer things unreal because they lack intrinsic nature (cp.09.m2, cp.09.m4). Compare 'without intrinsic nature' and 'true nature'.",
       "symbolic": {
         "image": "",
@@ -54473,6 +55546,90 @@
       }
     },
     {
+      "id": "valukataila",
+      "type": "term",
+      "status": "proposed",
+      "en": "oil from sand",
+      "alt": [
+        "oil pressed from sand"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বালুআতেলেঁ",
+          "translit": "bāluātelem̐",
+          "lemma": "bāluātela",
+          "att": "AS",
+          "where": "cp.41.4b"
+        },
+        {
+          "lang": "san",
+          "script": "বালুকাতৈলোপমং",
+          "translit": "bālukātailopamaṃ",
+          "lemma": "vālukātaila",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱེ་མའི་མར་ཁུ",
+          "translit": "bye ma'i mar khu",
+          "lemma": "bye ma'i mar khu",
+          "att": "AO",
+          "where": "cp.41.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱེ་མའི་མར་ཁུ",
+          "translit": "bye ma'i mar khu",
+          "lemma": "bye ma'i mar khu",
+          "att": "AO",
+          "where": "cp.41.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বালুআতেল"
+        ],
+        "san": [
+          "বালুকাতৈল"
+        ],
+        "bod": [
+          "བྱེ་མའི་མར་ཁུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Oil pressed from sand (Old Bengali bāluātela; Sanskrit vālukātaila), a stock Indian example of what cannot be had, since sand holds no oil. In song 41 (4b) it stands with the hare's horn and the sky-flower; Munidatta likens ultimate truth, the barren woman's son, to it and to the hare's horn (cp.41.m5). Tibetan: bye ma'i mar khu.",
+      "symbolic": {
+        "image": "oil from sand",
+        "readings": [
+          {
+            "referent": "the unarisen nature (anutpannasvabhāva) of ultimate truth, the barren woman's son, which is 'like oil from sand and like a hare's horn'; the Tibetan comment agrees (don dam pa'i bden pa dper na bye ma'i mar khu'am dper na ri bong gi rwa bzhin no)",
+            "per": "Munidatta",
+            "where": [
+              "cp.41.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "ultimate truth",
+        "unarisen",
+        "non-arising"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "vama-daksina",
       "type": "term",
       "status": "proposed",
@@ -54618,6 +55775,90 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vandhyaputra",
+      "type": "term",
+      "status": "proposed",
+      "en": "barren woman's son",
+      "alt": [
+        "son of a barren woman"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাঁদ্ধিসুআ",
+          "translit": "bām̐ddhisuā",
+          "lemma": "bām̐ddhisuā",
+          "att": "AS",
+          "where": "cp.41.4a"
+        },
+        {
+          "lang": "san",
+          "script": "সুতঃ",
+          "translit": "sutaḥ",
+          "lemma": "suta",
+          "att": "AS",
+          "where": "cp.41.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མོ་གཤམ་བུ",
+          "translit": "mo gsham bu",
+          "lemma": "mo gsham gyi bu",
+          "att": "AO",
+          "where": "cp.41.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "མོ་གཤམ་བུ",
+          "translit": "mo gsham bu",
+          "lemma": "mo gsham gyi bu",
+          "att": "AO",
+          "where": "cp.41.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বাঁদ্ধিসুআ"
+        ],
+        "bod": [
+          "མོ་གཤམ་བུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The son of a barren woman (Old Bengali bām̐ddhisuā; Sanskrit vandhyāputra), a stock Indian example of what cannot exist. In song 41 (4a) the barren woman's son sports and plays many games. Munidatta says this couplet points to absolute nonexistence (cp.41.m5). The Tibetan has mo gsham bu. Compare barren.",
+      "symbolic": {
+        "image": "the barren woman's son, who plays many games",
+        "readings": [
+          {
+            "referent": "ultimate truth (paramārthasatya), the son of the barren one, the Blessed Lady Nairātmā: like oil from sand and a hare's horn it is unarisen by nature, yet, made of great bliss and the five wisdoms, it enjoys the flavour of play (krīḍārasa) in the world in many ways; the Tibetan comment agrees (mo gsham ni bcom ldan 'das bdag med ma de'i bu ni don dam pa'i bden pa)",
+            "per": "Munidatta",
+            "where": [
+              "cp.41.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "ultimate truth",
+        "ultimate",
+        "Nairātmā",
+        "selflessness",
+        "great bliss",
+        "five wisdoms"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -54941,11 +56182,28 @@
           "lemma": "vāsanādoṣa",
           "att": "AS",
           "where": "cp.36.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "বাষণা",
+          "translit": "bāṣaṇā",
+          "lemma": "bāsanā",
+          "att": "AS",
+          "where": "cp.41.2b"
+        },
+        {
+          "lang": "san",
+          "script": "বাসনাবাসিতা",
+          "translit": "vāsanāvāsitā",
+          "lemma": "vāsanā",
+          "att": "AS",
+          "where": "cp.41.m4"
         }
       ],
       "match": {
         "oben": [
-          "বাসনপূড়"
+          "বাসনপূড়",
+          "বাষণা"
         ],
         "san": [
           "বাসনা"
@@ -54978,6 +56236,91 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vatavarta",
+      "type": "term",
+      "status": "proposed",
+      "en": "whirlwind",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাতাবত্তেঁ",
+          "translit": "bātābattem̐",
+          "lemma": "vātāvarta",
+          "att": "AS",
+          "where": "cp.41.3b"
+        },
+        {
+          "lang": "san",
+          "script": "বাতাবর্ত্তেন",
+          "translit": "vātāvarttena",
+          "lemma": "vātāvarta",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বাতাবর্ত্তে",
+          "translit": "vātāvartte",
+          "lemma": "vātāvarta",
+          "att": "AS",
+          "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རླུང་འཁོར་བ",
+          "translit": "rlung 'khor ba",
+          "lemma": "rlung 'khor",
+          "att": "AO",
+          "where": "cp.41.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বাতাবত্ত"
+        ],
+        "san": [
+          "বাতাবর্ত"
+        ]
+      },
+      "matchRe": {
+        "bod": [
+          "རླུང་(?:ནི་)?འཁོར་བ"
+        ]
+      },
+      "definition": "A whirlwind (Sanskrit vātāvarta, 'whirl of wind'; Old Bengali bātābatta). In song 41 (3b) water made firm by a whirlwind is like stone. In the verse Munidatta quotes, water in a whirlwind becomes solid hailstones, as emptiness, perfumed by habitual tendencies, becomes a thing (cp.41.m4). The Tibetan has rlung 'khor ba, 'whirling of wind'.",
+      "symbolic": {
+        "image": "water made firm as stone by a whirlwind",
+        "readings": [
+          {
+            "referent": "the host of things (bhāvagrāma), which the lord of yogis is to understand as water that a whirlwind has turned to stone; in the verse he quotes, emptiness itself, perfumed by habitual tendencies (vāsanā), becomes a thing, as water in a whirlwind becomes hailstones; a correspondence drawn by simile (yathā … tadvat), not an explicit gloss; the Tibetan comment agrees (dngos po'i grong khyer)",
+            "per": "Munidatta",
+            "where": [
+              "cp.41.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "habitual tendencies",
+        "tendencies",
+        "vāsanā",
+        "emptiness",
+        "hailstones"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

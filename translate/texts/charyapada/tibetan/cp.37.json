@@ -1,0 +1,139 @@
+{
+  "unit": "cp.37",
+  "equivalents": [
+    {
+      "id": "kamoda",
+      "line": "cp.37.h1",
+      "script": "དགའ་བ་སྟེར་བ",
+      "wylie": "dga' ba ster ba",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan names the melody dga' ba ster ba, 'giving joy', as if the name held (ā)moda, 'delight'; in song 13 it called the same rāga 'dod pa sbyin pa."
+    },
+    {
+      "id": "kantha-cloak",
+      "line": "cp.37.1b",
+      "script": "འདོད་པ",
+      "wylie": "'dod pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The line has 'dod pa, 'desire' ('becomes free of the desire for...'), as if kaṃthā were kaṃkhā (kāṅkṣā), in line with Munidatta's vāñchā (cp.37.m2); no word for a cloak."
+    },
+    {
+      "id": "mahamudra",
+      "line": "cp.37.1b",
+      "script": "འདམ་དང་དོང་རྩེའི",
+      "wylie": "'dam dang dong rtse'i",
+      "lemma": "'dam dang dong rtse",
+      "confidence": "likely",
+      "note": "The line has no phyag rgya chen po: in its place stands 'dam dang dong rtse, 'mud (or perhaps dam, 'seal') and coins', apparently taking mudrā as 'coin', while the comment (cp.37.m2) has phyag rgya chen po'i dngos grub 'dod pa; the match is positional and uncertain."
+    },
+    {
+      "id": "catuskoti",
+      "line": "cp.37.2b",
+      "script": "མཐའ་བཞི",
+      "wylie": "mtha' bzhi",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "bhranti",
+      "line": "cp.37.3b",
+      "script": "འཁྲུལ",
+      "wylie": "'khrul",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "'khrul ma byed, 'do not err', makes bhānti a verb; the same line has lam, 'path', where the Bengali has pithaka (pṛthak, 'separate'), as if reading patha, though the comment (cp.37.m4) has tha dad, 'separate'."
+    },
+    {
+      "id": "bandakuru",
+      "line": "cp.37.4a",
+      "script": "སྣོད་སྤྱད",
+      "wylie": "snod spyad",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "snod spyad, 'vessels and implements', as if the first part were bhāṇḍa, 'wares'; the comment (cp.37.m5) uses the same word for Munidatta's vaṇḍakuruṇḍa."
+    },
+    {
+      "id": "ferryman",
+      "line": "cp.37.4a",
+      "script": "སྒྲོལ་བ་པོ",
+      "wylie": "sgrol ba po",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "agama",
+      "line": "cp.37.m2",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "upaya",
+      "line": "cp.37.m2",
+      "script": "ཐབས",
+      "wylie": "thabs",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.37.m3",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "utpada",
+      "line": "cp.37.m4",
+      "script": "སྐྱེ་བའི",
+      "wylie": "skye ba'i",
+      "lemma": "skye ba",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "ferryman",
+      "line": "cp.37.m5",
+      "script": "སྒྲོལ་བར་བྱེད་པས",
+      "wylie": "sgrol bar byed pas",
+      "lemma": "sgrol bar byed pa",
+      "confidence": "likely",
+      "note": "Munidatta's tarapati, 'ferry-master', is rendered by a verb phrase, sgrol bar byed pa, 'one who ferries across'."
+    },
+    {
+      "id": "vikalpa",
+      "line": "cp.37.m6",
+      "script": "རྣམ་པར་མི་རྟོག་པ",
+      "wylie": "rnam par mi rtog pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "Renders atyantanirvikalpatā, 'utter freedom from concepts' (shin du rnam par mi rtog pa), the negated form of the term."
+    }
+  ],
+  "questions": [
+    "agama is lung in cp.37.m3, m5 and m6 as in m2, catuskoti is mtha' bzhi in cp.37.m3 as in 2b, and bandakuru is snod spyad in cp.37.m5 as in 4a; these are not repeated."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "8c5354aab12f430543a4d0b8867fa42e28c2172dcb4b5ace6a74ac463298ff53",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "a9d34f8e4e134a407bf42108c82e060efb76b54135783eb6752df69c5bb0696d",
+    "sourceSha": "d1dad0126a364dc59e1b59d5df5beacd2a48105574fa0495bf3175c114526168",
+    "parallelSha": "28c5f9f541139f8e6339cfe91756d6bcd5cf46a3bc4b9b8e1faa9a194b9b5891"
+  }
+}

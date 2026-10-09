@@ -8871,6 +8871,14 @@
           "lemma": "gru pa",
           "att": "AO",
           "where": "cp.38.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉེན་པའི",
+          "translit": "mnyen pa'i",
+          "lemma": "mnyen pa",
+          "att": "AO",
+          "where": "cp.38.3a"
         }
       ],
       "match": {
@@ -10586,6 +10594,9 @@
         ],
         "san": [
           "চতুষ্কোটি"
+        ],
+        "bod": [
+          "མཐའ་བཞི"
         ]
       },
       "matchRe": {
@@ -11979,6 +11990,14 @@
           "script": "རྒྱུན",
           "translit": "rgyun",
           "lemma": "rgyun",
+          "att": "AO",
+          "where": "cp.38.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྒྱུན་དྲག་པོ",
+          "translit": "rgyun drag po",
+          "lemma": "",
           "att": "AO",
           "where": "cp.38.m5"
         }
@@ -15925,6 +15944,14 @@
           "lemma": "sgrol ba po",
           "att": "AO",
           "where": "cp.37.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲོལ་བར་བྱེད་པས",
+          "translit": "sgrol bar byed pas",
+          "lemma": "sgrol bar byed pa",
+          "att": "AO",
+          "where": "cp.37.m5"
         }
       ],
       "match": {},
@@ -18272,6 +18299,14 @@
           "lemma": "skya ba 'dzin pa",
           "att": "AO",
           "where": "cp.38.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱ་བ་འཛིན་པའི",
+          "translit": "skya ba 'dzin pa'i",
+          "lemma": "skya ba 'dzin pa",
+          "att": "AO",
+          "where": "cp.38.m3"
         }
       ],
       "match": {
@@ -19739,6 +19774,14 @@
           "lemma": "skye ba",
           "att": "AO",
           "where": "cp.22.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བར",
+          "translit": "skye bar",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.39.m4"
         }
       ],
       "match": {
@@ -20881,6 +20924,14 @@
           "lemma": "'dod pa sbyin pa",
           "att": "AO",
           "where": "cp.13.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བ་སྟེར་བ",
+          "translit": "dga' ba ster ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.37.h1"
         }
       ],
       "match": {},
@@ -23299,6 +23350,14 @@
           "lemma": "pha rol tshu rol",
           "att": "AO",
           "where": "cp.38.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུན་ལ",
+          "translit": "kun la",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.38.m5"
         }
       ],
       "match": {
@@ -25156,6 +25215,14 @@
           "lemma": "mahāmudrā",
           "att": "AS",
           "where": "cp.37.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འདམ་དང་དོང་རྩེའི",
+          "translit": "'dam dang dong rtse'i",
+          "lemma": "'dam dang dong rtse",
+          "att": "AO",
+          "where": "cp.37.1b"
         }
       ],
       "match": {
@@ -25855,9 +25922,21 @@
           "lemma": "byams pa",
           "att": "AO",
           "where": "cp.38.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱམས་པའི",
+          "translit": "byams pa'i",
+          "lemma": "byams pa",
+          "att": "AO",
+          "where": "cp.38.m1"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": [
+          "བྱམས་པའི"
+        ]
+      },
       "matchRe": {
         "san": [
           "মৈত্রী(?!প)"
@@ -37857,6 +37936,14 @@
           "lemma": "mnyen pa",
           "att": "AO",
           "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉེན་པས",
+          "translit": "mnyen pas",
+          "lemma": "mnyen pa",
+          "att": "AO",
+          "where": "cp.38.m2"
         }
       ],
       "match": {
@@ -41417,6 +41504,14 @@
           "lemma": "taṭinī",
           "att": "AS",
           "where": "cp.38.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྲམ",
+          "translit": "'gram",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.38.m2"
         }
       ],
       "match": {
@@ -42923,12 +43018,13 @@
       "match": {
         "oben": [
           "শক্তি"
-        ],
-        "san": [
-          "শক্তি"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "(?<!পানা|বিষয়া)শক্তি"
+        ]
+      },
       "definition": "Power or potency (śakti), which tantric traditions often personify as the female energy of a deity. Song 11 speaks of the nāṛi śakti that the poet holds firm; Munidatta takes the śakti as the chief of the thirty-two channels, the avadhūtikā (cp.11.m2). The Tibetan translation renders it nus ldan, 'the potent one'.",
       "symbolic": {
         "image": "the śakti of the channels, which the poet holds firm",
@@ -44400,6 +44496,14 @@
           "lemma": "sgrub pa",
           "att": "AO",
           "where": "cp.13.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲུབ་པོར",
+          "translit": "sgrub por",
+          "lemma": "sgrub pa",
+          "att": "AO",
+          "where": "cp.39.m4"
         }
       ],
       "match": {
@@ -49280,8 +49384,7 @@
       "match": {
         "san": [
           "কায়বজ্র",
-          "বাগ্বজ্র",
-          "চিত্তবজ্র"
+          "বাগ্বজ্র"
         ],
         "bod": [
           "སྐུ་རྡོ་རྗེ",
@@ -49292,6 +49395,9 @@
       "matchRe": {
         "bod": [
           "(?<!བྱང་ཆུབ་ཀྱི་)སེམས་(?:ཀྱི་)?རྡོ་རྗེ(?!་བླ་མ)"
+        ],
+        "san": [
+          "(?<!বোধি)চিত্তবজ্র"
         ]
       },
       "definition": "The vajra of body, of speech and of mind: a buddha's body, speech and mind, which tantric practice aims to make the practitioner's own. Munidatta says the lord of yogis first makes the vajra of body firm through deity yoga, steadies the vajra of speech by vajra recitation, then works to make the vajra of mind firm (cp.04.m5).",
@@ -51972,6 +52078,14 @@
           "lemma": "skye ba",
           "att": "AO",
           "where": "cp.22.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐྱེ་བའི",
+          "translit": "skye ba'i",
+          "lemma": "skye ba",
+          "att": "AO",
+          "where": "cp.37.m4"
         }
       ],
       "match": {},

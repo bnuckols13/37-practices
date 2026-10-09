@@ -1,0 +1,119 @@
+{
+  "unit": "cp.39",
+  "equivalents": [
+    {
+      "id": "citta",
+      "line": "cp.39.1a",
+      "script": "ཡིད",
+      "wylie": "yid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The second half of the Tibetan, khyod kyi rang gi yid kyi skyon, 'the fault of your own mind', follows niamana tohorem̐ dose, with rang gi yid for niamana; the first half reads differently."
+    },
+    {
+      "id": "atman",
+      "line": "cp.39.4a",
+      "script": "བདག",
+      "wylie": "bdag",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "In a line that reads differently (dug med, 'without poison'), bdag stands where the Bengali has apā, in gzhan dbang sems kyi bdag khyim na, which seems to take pasara basa as gzhan dbang, 'in another's power', and apā as 'one's own' house."
+    },
+    {
+      "id": "house",
+      "line": "cp.39.4a",
+      "script": "ཁྱིམ",
+      "wylie": "khyim",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "khyim na, 'in the house', closes the Tibetan of 4a and seems to render ghārem̐, which opens 4b in the Bengali; the Tibetan of 4b has no house."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.39.m1",
+      "script": "ངོ་བོ་ཉིད",
+      "wylie": "ngo bo nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "agama",
+      "line": "cp.39.m4",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "hrdaya",
+      "line": "cp.39.m4",
+      "script": "སེམས",
+      "wylie": "sems",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "In a verse the Tibetan construes differently, sems la bdag lta, 'the self-view in the mind', stands where the Sanskrit says pride does not leave the heart (hṛdayāt) while the self-view lasts."
+    },
+    {
+      "id": "janma",
+      "line": "cp.39.m4",
+      "script": "སྐྱེ་བར",
+      "wylie": "skye bar",
+      "lemma": "skye ba",
+      "confidence": "likely",
+      "note": "skye bar 'jug cing 'ching bar byed, 'enters birth and binds', renders the corrupt yājijanmapravandho, as if viśati janmaprabandhaḥ."
+    },
+    {
+      "id": "marga",
+      "line": "cp.39.m4",
+      "script": "ལམ",
+      "wylie": "lam",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan of this pāda is garbled (bsgrub pa de la 'di yid lam)."
+    },
+    {
+      "id": "siddhi",
+      "line": "cp.39.m4",
+      "script": "སྒྲུབ་པོར",
+      "wylie": "sgrub por",
+      "lemma": "sgrub pa",
+      "confidence": "likely",
+      "note": "Where the Sanskrit has siddhir bhavati, the Tibetan has the verb phrase sgrub por byed, 'establishes', not the usual dngos grub; sgrub por may stand for sgrub par."
+    },
+    {
+      "id": "tattva",
+      "line": "cp.39.m4",
+      "script": "དེ་ཉིད",
+      "wylie": "de nyid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "de nyid rig renders tattvavidām, 'those who know reality'."
+    }
+  ],
+  "questions": [
+    "svapna (cp.39.1a): the Tibetan opens with stong nyid, 'emptiness', where the Bengali has suiṇā, 'dream', as if reading suṇa (śūnya); its comment also cites the line as stong nyid but paraphrases with rmi lam, 'dream' (cp.39.m2). Since stong nyid is the standard word for śūnyatā it is not recorded as an equivalent of 'dream'.",
+    "avidya (cp.39.1a): the Tibetan has no ma rig pa; lag pas hrol cig kye seems to read ha abidāraare as 'with the hand (ha as hasta?) tear (vidāra?) it, O', which is a guess; the comment has ma rig pa (cp.39.m2).",
+    "ghunda (cp.39.1b): khyod nyid slar sdong ji lta bu has no clear word for ghuṇḍa; sdong may be a slip for sdod, 'stay', rendering thākiba.",
+    "pl-banga (cp.39.2b): the second half of the Tibetan of 2a, kyog por 'gro ba bslang gyis la, seems to render baṅge jāyā nilesi, reading baṅge as vaṅka, 'crooked'; kyog po belongs to the glossary's 'crooked' and is not recorded for the place name.",
+    "vijnana (cp.39.2b): in place of tohāra biṇāṇā the Tibetan has khyod kyi g.yo sgyu sna tshogs pa, 'your many wiles', perhaps taking biṇāṇā as 'cleverness'; g.yo sgyu is not the Tibetan's word for consciousness (rnam par shes pa), so it is not recorded.",
+    "para (cp.39.4b): where pārem̐ stands the Tibetan has btung ba, 'drink' (btung ba bdag gis go'o kye, 'I have understood the drink'), as if reading pāna or pāraṇa; the comment likewise has btung ba can for Munidatta's pīnaka (cp.39.m5). No equivalent.",
+    "gohali (cp.39.5a): the Tibetan has mchog yin gyur, 'it is best', and no cowshed (nor 'empty'); its comment explains go as glang po, 'ox', where Munidatta has the senses (cp.39.m6).",
+    "indriya (cp.39.m6): for go iti indriyam the Tibetan has go zhes pa ni glang po'o, 'go means ox'; there is no word for the senses."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "161b45bff52a00e50a69f9d9fe2e5eb7c7b9698f2760ab7e2c0b1399a7ee58e6",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "a9d34f8e4e134a407bf42108c82e060efb76b54135783eb6752df69c5bb0696d",
+    "sourceSha": "e0d8bf55bf81097d6a06bf9c63e5199227957b94ca084bfc09044c60991909de",
+    "parallelSha": "b36dd0ab0a059682f86ba656bb685a16f306cee4f9915096e011ebded875e348"
+  }
+}

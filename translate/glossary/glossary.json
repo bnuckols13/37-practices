@@ -7023,6 +7023,81 @@
       }
     },
     {
+      "id": "bhaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "fear",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভয়",
+          "translit": "bhaya",
+          "lemma": "bhaya",
+          "att": "AS",
+          "where": "cp.31.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "ভয়",
+          "translit": "bhaya",
+          "lemma": "bhaya",
+          "att": "AS",
+          "where": "cp.31.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ভয়[৪৭]লজ্জাদিকং",
+          "translit": "bhaya[47]lajjādikaṃ",
+          "lemma": "bhaya",
+          "att": "AS",
+          "where": "cp.31.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིགས་པ",
+          "translit": "'jigs pa",
+          "lemma": "'jigs pa",
+          "att": "AO",
+          "where": "cp.31.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "འཇིགས་པ",
+          "translit": "'jigs pa",
+          "lemma": "'jigs pa",
+          "att": "AO",
+          "where": "cp.31.m5"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])ভয়(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])ভয়(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Fear (Old Bengali and Sanskrit bhaya; Tibetan 'jigs pa). Song 31 twice names it with disgust (ghiṇa) as what the poet gives up (4a) and drives far off (5b). Munidatta counts fear and shame among the world's conduct that the siddha master has given up (cp.31.m5). The Tibetan of 4a has srid pa, 'existence', instead.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "bhela",
       "type": "term",
       "status": "proposed",
@@ -10291,7 +10366,7 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])সাঙ্গে(?![\\p{L}\\p{M}])"
+          "(?<!দুজ্জণ\\s)(?<![\\p{L}\\p{M}])সাঙ্গে(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "A companion, or company (Old Bengali saṅga; the edition prints sa(su)ṅgā, marking a doubtful vowel). In the last line of song 8 the rower meets great bliss on the road as companion; the Tibetan translation has grogs, 'companion'. Munidatta speaks of obtaining the embrace of Nairātmā-knowledge, the companion of great bliss (cp.08.m5).",
@@ -34529,6 +34604,54 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "pl-lanka",
+      "type": "place",
+      "status": "proposed",
+      "en": "Laṅkā",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "লাঙ্ক",
+          "translit": "lāṅka",
+          "lemma": "lāṅka",
+          "att": "AS",
+          "where": "cp.32.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "རིང་དུ",
+          "translit": "ring du",
+          "lemma": "ring",
+          "att": "AO",
+          "where": "cp.32.2b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "লাঙ্ক"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Laṅkā: in the Rāmāyaṇa, Rāvaṇa's island city beyond the southern sea, usually identified with Sri Lanka, and so a byword for a distant place. Song 32 (2b) seems to name it as where one need not go, since awakening is near; the Tibetan line has ring du, 'far'. Reading lāṅka as Laṅkā is tentative.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

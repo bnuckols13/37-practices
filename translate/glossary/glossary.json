@@ -33971,6 +33971,57 @@
       }
     },
     {
+      "id": "mutranadi",
+      "type": "term",
+      "status": "proposed",
+      "en": "channel of urine",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মূত্রনাড়ী",
+          "translit": "mūtranāṛī",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་ཆུའི་རྩ",
+          "translit": "dri chu'i rtsa",
+          "lemma": "dri chu'i rtsa",
+          "att": "AO",
+          "where": "cp.47.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "মূত্রনাড়ী"
+        ],
+        "bod": [
+          "དྲི་ཆུའི་རྩ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A channel of the subtle body linked with urine (Sanskrit mūtra, 'urine', and nāḍī, 'channel'; Tibetan dri chu'i rtsa). Munidatta says that Hari in song 47 (4a) is to be understood as it, and names it with the channels of excrement and semen as burned by the fire of passion (cp.47.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "nada",
       "type": "term",
       "status": "proposed",
@@ -37928,7 +37979,9 @@
       "alt": [
         "Dhāma"
       ],
-      "variants": [],
+      "variants": [
+        "Dhāma"
+      ],
       "policy": "keep-source",
       "forms": [
         {
@@ -44362,7 +44415,9 @@
       "alt": [
         "Meru"
       ],
-      "variants": [],
+      "variants": [
+        "Meru"
+      ],
       "policy": "keep-source",
       "forms": [
         {
@@ -63269,6 +63324,57 @@
       },
       "matchRe": {},
       "definition": "Purity or purification (viśuddhi; Tibetan rnam dag): in Buddhist tantra, seeing the sense objects, aggregates and elements as pure by nature, or making them so. Song 30 (4a) speaks of the purity of the sense objects, in which the poet understood in joy; Munidatta likens it to the moon lighting up the sky (cp.30.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "vitnadika",
+      "type": "term",
+      "status": "proposed",
+      "en": "channel of excrement",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিটনাড়িকা",
+          "translit": "viṭanāṛikā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲི་ཆེན་གྱི་རྩ",
+          "translit": "dri chen gyi rtsa",
+          "lemma": "dri chen gyi rtsa",
+          "att": "AO",
+          "where": "cp.47.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "বিটনাড়িক"
+        ],
+        "bod": [
+          "དྲི་ཆེན་གྱི་རྩ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A channel of the subtle body linked with excrement (Sanskrit viṭ, 'excrement', and nāḍikā, 'channel'; Tibetan dri chen gyi rtsa). Munidatta says that bāhma, Brahmā, in song 47 (4a) is twilight language for it, and names it with the channels of urine and semen as burned by the fire of passion (cp.47.m5).",
       "symbolic": {
         "image": "",
         "readings": []

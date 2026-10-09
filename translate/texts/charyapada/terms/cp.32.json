@@ -1,0 +1,1062 @@
+{
+  "unit": "cp.32",
+  "proposals": [
+    {
+      "id": "desakha",
+      "type": "term",
+      "en": "Deśākha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দ্বেশাখ",
+          "translit": "dveśākha",
+          "lemma": "deśākha",
+          "att": "AS",
+          "where": "cp.32.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "དེ་ཤ་ཁ",
+          "translit": "de sha kha",
+          "lemma": "de sha kha",
+          "att": "AO",
+          "where": "cp.32.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দ্বেশাখ"
+        },
+        {
+          "lang": "bod",
+          "form": "དེ་ཤ་ཁ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])দেশাখ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Deśākha, the name of the rāga (melodic mode) to which song 32 is sung, given in its heading, where Shastri prints dveśākha. The Tibetan translation transcribes the name (de sha kha) instead of translating it, which supports the reading Deśākha.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Rāga names in song headings have keep-source entries and Deśākha has none yet; the regex also catches the plain spelling দেশাখ as a whole word if a later heading prints it."
+    },
+    {
+      "id": "nada",
+      "type": "term",
+      "en": "nāda",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নাদ",
+          "translit": "nāda",
+          "lemma": "nāda",
+          "att": "AS",
+          "where": "cp.32.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নাদ",
+          "translit": "nāda",
+          "lemma": "nāda",
+          "att": "AS",
+          "where": "cp.32.m2"
+        },
+        {
+          "lang": "san",
+          "script": "নাদবি[৪৭ক]ন্দ্বাদিবিকল্পপরিহারাৎ",
+          "translit": "nādabindvādivikalpaparihārāt",
+          "lemma": "nāda",
+          "att": "AS",
+          "where": "cp.32.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནཱ་ད",
+          "translit": "nA da",
+          "lemma": "nA da",
+          "att": "AO",
+          "where": "cp.32.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])নাদ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])নাদ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])নাদ(?=বি)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])ནཱ་ད(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Nāda, 'sound, resonance': in tantric yoga and mantra meditation, the subtle sound into which a seed syllable is said to dissolve, often drawn as a fine stroke above its bindu, the dot of the nasal. Song 32 (1a) says there is no nāda, no bindu, no sun and no moon disc. The Tibetan keeps the word (nA da).",
+      "symbolicImage": "nāda, the first of the things the song says are not there",
+      "symbolicReadings": [
+        {
+          "referent": "conceptual thought (vikalpa): 'the concepts of nāda, bindu and the rest' (nādabindvādivikalpa), by abandoning which the jewel of mind of those who know the ultimate is freed by its own nature, through the power of the waves of nectar from the true guru's mouth; the Tibetan agrees (nA da dang thig le la sogs pa'i rnam par rtog pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.32.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "concept",
+        "concepts",
+        "conceptual thought",
+        "conceptualization"
+      ],
+      "rationale": "A technical term of tantric yoga that opens song 32 and that the Tibetan keeps untranslated; kept in source form because 'sound' would merge it with dhvani and the unstruck sound. A bare literal নাদ would hit inside ablatives and compounds (-ānād, -ānādi, vīranāda), so only whole-word patterns are given."
+    },
+    {
+      "id": "moon-disc",
+      "type": "term",
+      "en": "moon disc",
+      "policy": "translate",
+      "alt": [
+        "disc of the moon"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শশিমণ্ডল",
+          "translit": "śaśimaṇḍala",
+          "lemma": "śaśimaṇḍala",
+          "att": "AS",
+          "where": "cp.32.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শশিমণ্ডল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The disc of the moon (Sanskrit śaśimaṇḍala). In tantric meditation a moon disc, often with a sun disc, is visualized as the seat on which a seed syllable or deity arises. Song 32 (1a) names it last among the things that are not there; the Tibetan line has 'the disc of sun and moon' (nyi zla'i dkyil 'khor).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "concepts",
+        "conceptual thought"
+      ],
+      "rationale": "The visualized moon disc is a distinct image that the entries for the moon and maṇḍala do not cover, and the longer literal keeps শশিমণ্ডল from being split between them; drop it if the reviewer prefers those two entries."
+    },
+    {
+      "id": "vakra",
+      "type": "term",
+      "en": "crooked",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বঙ্ক",
+          "translit": "baṅka",
+          "lemma": "baṅka",
+          "att": "AS",
+          "where": "cp.32.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ব(চ)ক্রমার্গ[ং]",
+          "translit": "va(ca)kramārga[ṃ]",
+          "lemma": "vakra",
+          "att": "AS",
+          "where": "cp.32.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀྱོག་པོ",
+          "translit": "kyog po",
+          "lemma": "kyog po",
+          "att": "AO",
+          "where": "cp.32.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ব(চ)ক্রমার্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀྱོག་པོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বঙ্ক(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])বক্র"
+        }
+      ],
+      "definition": "Crooked, bent (Old Bengali baṅka, Sanskrit vakra). The refrain of song 32 (2a) says not to leave the straight and take the crooked. Munidatta's paraphrase has 'the crooked path' (vakramārga; Shastri prints va(ca)-) and calls the avadhūtī path 'not crooked' (avakra) (cp.32.m3, cp.32.m6). The Tibetan line has gzhan, 'other'; its comment, lam kyog po.",
+      "symbolicImage": "the crooked, which one is told not to take in place of the straight",
+      "symbolicReadings": [
+        {
+          "referent": "the crooked path (vakramārga), set against the path of the avadhūtī, apart from which the lord of yogis has no other means; the novice yogin is told not to resort to it and so become a wanderer in saṃsāra again; the Tibetan has 'having fallen onto the crooked path (lam kyog po), do not take up saṃsāric existence again'",
+          "per": "Munidatta",
+          "where": [
+            "cp.32.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [],
+      "rationale": "The crooked is the counter-image of the straight road, which has an entry, and Munidatta builds his comment on the contrast; 'crooked' is the plain sense of baṅka. বঙ্ক is matched as a whole word, বক্র only at the start of a word (so not inside avakra)."
+    },
+    {
+      "id": "bracelet",
+      "type": "term",
+      "en": "bracelet",
+      "policy": "translate",
+      "alt": [
+        "bangle"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাঙ্কাণ",
+          "translit": "kāṅkāṇa",
+          "lemma": "kāṅkāṇa",
+          "att": "AS",
+          "where": "cp.32.3a"
+        },
+        {
+          "lang": "san",
+          "script": "কঙ্কাণায়",
+          "translit": "kaṅkāṇāya",
+          "lemma": "kaṅkaṇa",
+          "att": "AS",
+          "where": "cp.32.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ལག་གདུབ",
+          "translit": "lag gdub",
+          "lemma": "lag gdub",
+          "att": "AO",
+          "where": "cp.32.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "གདུ་བུ",
+          "translit": "gdu bu",
+          "lemma": "gdu bu",
+          "att": "AO",
+          "where": "cp.32.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাঙ্কাণ"
+        },
+        {
+          "lang": "san",
+          "form": "কঙ্কাণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ལག་གདུབ"
+        },
+        {
+          "lang": "bod",
+          "form": "གདུ་བུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A bracelet or bangle (Old Bengali kāṅkāṇa, Sanskrit kaṅkaṇa; Tibetan lag gdub, gdu bu). Song 32 (3a) says not to take a mirror to look at the bracelet on one's hand, apparently a proverb: what is in plain sight needs no instrument. Munidatta repeats the question (cp.32.m4), spelling the word kaṅkāṇa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A concrete image of couplet 3, whose point (what is in plain sight needs no aid) carries Munidatta's comment on knowing one's own mind; he gives the bracelet no separate reading, so none is recorded."
+    },
+    {
+      "id": "mirror",
+      "type": "term",
+      "en": "mirror",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দাপণ",
+          "translit": "dāpaṇa",
+          "lemma": "dāpaṇa",
+          "att": "AS",
+          "where": "cp.32.3a"
+        },
+        {
+          "lang": "san",
+          "script": "দর্পণং",
+          "translit": "darpaṇaṃ",
+          "lemma": "darpaṇa",
+          "att": "AS",
+          "where": "cp.32.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མེ་ལོང",
+          "translit": "me long",
+          "lemma": "me long",
+          "att": "AO",
+          "where": "cp.32.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দাপণ"
+        },
+        {
+          "lang": "san",
+          "form": "দর্পণ"
+        },
+        {
+          "lang": "bod",
+          "form": "མེ་ལོང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A mirror (Old Bengali dāpaṇa, Sanskrit darpaṇa; Tibetan me long). In song 32 (3a) one is told not to take a mirror to look at the bracelet on one's hand; Munidatta repeats the question and turns to knowing the true nature of bodhicitta with one's own mind, by the vajra guru's grace (cp.32.m4). Compare mirror-like wisdom.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The other half of the image of couplet 3; Munidatta gives the mirror no separate reading, so none is recorded. The Tibetan literal loses to me long lta bu (mirror-like wisdom) where that longer form stands."
+    },
+    {
+      "id": "atmapratyayita",
+      "type": "term",
+      "en": "self-conviction",
+      "policy": "translate",
+      "alt": [
+        "knowing for oneself"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আত্মপ্রত্যয়িতামাহ",
+          "translit": "ātmapratyayitām āha",
+          "lemma": "ātmapratyayitā",
+          "att": "AS",
+          "where": "cp.32.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་རྐྱེན་ཉིད་དུ་བྱེད་པ",
+          "translit": "rang gi rkyen nyid du byed pa",
+          "lemma": "rkyen",
+          "att": "AO",
+          "where": "cp.32.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আত্মপ্রত্যয়িতা"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་གི་རྐྱེན་ཉིད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Self-conviction (ātmapratyayitā): certainty that rests on one's own experience, not on another's word or on outer means. Munidatta introduces couplet 3 of song 32, his 'second verse', as stating it: by the vajra guru's grace one is to know the true nature of bodhicitta with one's own mind (cp.32.m4). The Tibetan renders pratyaya literally, rkyen, 'condition'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of Munidatta's framing words for a couplet, like praise (anuśaṃsā), power (prabhāva) and direct realization, which have entries; 'self-conviction' keeps the sense of conviction (pratyaya) resting on oneself."
+    },
+    {
+      "id": "near-shore",
+      "type": "term",
+      "en": "near shore",
+      "policy": "translate",
+      "alt": [
+        "this shore"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উআরেঁ",
+          "translit": "uārem̐",
+          "lemma": "uāra",
+          "att": "AS",
+          "where": "cp.32.4a"
+        },
+        {
+          "lang": "san",
+          "script": "দেআর(?)",
+          "translit": "deāra(?)",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.32.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚུ་རོལ",
+          "translit": "tshu rol",
+          "lemma": "tshu rol",
+          "att": "AO",
+          "where": "cp.32.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উআরেঁ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཚུ་རོལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The near bank of a river, where the traveller stands (Old Bengali uāra, Sanskrit avāra; Tibetan tshu rol), set against the far shore (pāra). Song 32 (4a) names the two together. Munidatta's citation of the word is corrupt (deāra?); he places it in existence (bhava), where ordinary people follow, as against the far shore, the ultimate (cp.32.m5).",
+      "symbolicImage": "the near shore, named with the far shore",
+      "symbolicReadings": [
+        {
+          "referent": "existence (bhava), where it is followed by ordinary people (pṛthagjana), as against the far shore, glossed 'by the ultimate' (paramārthena), where the best of yogins follow bodhicitta; his citation of the word is corrupt (deāra?), and the Tibetan comment has 'in saṃsāric existence it is understood by ordinary beings' ('khor ba'i srid par de so so'i skye bos khong du chud par 'gyur)",
+          "per": "Munidatta",
+          "where": [
+            "cp.32.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "existence",
+        "saṃsāra",
+        "ordinary people",
+        "ordinary beings"
+      ],
+      "rationale": "The far shore (pāra) has an entry but its counterpart does not; the pair is a basic crossing image, and Munidatta reads the two shores apart. The corrupt citation is recorded as a form but given no match pattern."
+    },
+    {
+      "id": "durjana",
+      "type": "term",
+      "en": "the wicked",
+      "policy": "translate",
+      "alt": [
+        "wicked people"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুজ্জণ",
+          "translit": "dujjaṇa",
+          "lemma": "dujjaṇa",
+          "att": "AS",
+          "where": "cp.32.4b"
+        },
+        {
+          "lang": "san",
+          "script": "মোহাদিদুর্জ্জনসঙ্গমেন",
+          "translit": "mohādidurjjanasaṅgamena",
+          "lemma": "durjana",
+          "att": "AS",
+          "where": "cp.32.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྡུག་པའི་སྐྱེ་བོ",
+          "translit": "sdug pa'i skye bo",
+          "lemma": "sdug pa",
+          "att": "AO",
+          "where": "cp.32.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གདུག་པའི་སྐྱེ་བོ",
+          "translit": "gdug pa'i skye bo",
+          "lemma": "gdug pa",
+          "att": "AO",
+          "where": "cp.32.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দুজ্জণ"
+        },
+        {
+          "lang": "san",
+          "form": "দুর্জ্জন"
+        },
+        {
+          "lang": "bod",
+          "form": "སྡུག་པའི་སྐྱེ་བོ"
+        },
+        {
+          "lang": "bod",
+          "form": "གདུག་པའི་སྐྱེ་བོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wicked people (Old Bengali dujjaṇa, Sanskrit durjana). Song 32 (4b) says that in their company one abasari jāi, apparently 'goes to ruin'; the Tibetan line has 'dies' and calls them sdug pa'i skye bo, perhaps for gdug pa'i, 'harmful', as in its comment. Munidatta reads them as delusion and the like (cp.32.m5).",
+      "symbolicImage": "the wicked, in whose company one goes to ruin",
+      "symbolicReadings": [
+        {
+          "referent": "delusion and the like (mohādi), 'the wicked, delusion and the rest' (mohādidurjana), through association with which ordinary people sink in the ocean of saṃsāra; the Tibetan comment agrees (gti mug la sogs pa gdug pa'i skye bo)",
+          "per": "Munidatta",
+          "where": [
+            "cp.32.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "delusion",
+        "afflictions",
+        "defilements",
+        "passions"
+      ],
+      "rationale": "An image Munidatta reads esoterically, so the reading needs a home and the line must keep the people; 'the wicked' is the plain sense of durjana."
+    },
+    {
+      "id": "mahasukha-pura",
+      "type": "term",
+      "en": "city of great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখপুরগমনায়",
+          "translit": "mahāsukhapuragamanāya",
+          "lemma": "mahāsukhapura",
+          "att": "AS",
+          "where": "cp.32.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བདེ་བ་ཆེན་པོའི་གྲོང་ཁྱེར",
+          "translit": "bde ba chen po'i grong khyer",
+          "lemma": "grong khyer",
+          "att": "AO",
+          "where": "cp.32.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহাসুখপুর"
+        },
+        {
+          "lang": "bod",
+          "form": "བདེ་བ་ཆེན་པོའི་གྲོང་ཁྱེར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The city of great bliss (mahāsukhapura), a figure for the goal of the path. Munidatta, citing Saraha, says the path of the avadhūtī is excellent and not crooked for going to the city of great bliss (cp.32.m6); the Tibetan gives Saraha's words as verse. Elsewhere he reads the city of the Jina of song 14 as this city (cp.14.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's recurring name for the goal (it is also his reading of the city of the Jina); like the wheel and the body of great bliss it deserves its own entry, and the longer literal keeps the compound from being read as great bliss alone."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সরহপাদো",
+          "translit": "sarahapādo",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.32.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সরহপাদো"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the nominative সরহপাদো from Munidatta's opening of song 32 (siddhācāryo hi sarahapādo, cp.32.m1); the other forms in the unit are already listed."
+    },
+    {
+      "id": "bindu",
+      "type": "term",
+      "en": "drop",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিন্দু",
+          "translit": "bindu",
+          "lemma": "bindu",
+          "att": "AS",
+          "where": "cp.32.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বিন্দু"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the bare Old Bengali form from song 32 (1a); the entry had only the Sanskrit accusative বিন্দুম. The literal does not occur inside aravinda (অরবিন্দ), which lacks the u-sign. See questions on the sense here."
+    },
+    {
+      "id": "king-of-mind",
+      "type": "term",
+      "en": "king of mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চিঅরাঅ",
+          "translit": "ciarāa",
+          "lemma": "ciarāa",
+          "att": "AS",
+          "where": "cp.32.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চিঅরাঅ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali form (cia, 'mind', and rāa, 'king'), which the Tibetan line renders sems kyi rgyal po, the entry's form from song 24 (cp.32.1b); Munidatta's paraphrase has cittaratna instead (see questions)."
+    },
+    {
+      "id": "ujubata",
+      "type": "term",
+      "en": "straight road",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "উজুবাট",
+          "translit": "ujubāṭa",
+          "lemma": "ujubāṭa",
+          "att": "AS",
+          "where": "cp.32.5b"
+        },
+        {
+          "lang": "oben",
+          "script": "উজু",
+          "translit": "uju",
+          "lemma": "uju",
+          "att": "AS",
+          "where": "cp.32.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྲང་པོ",
+          "translit": "drang po",
+          "lemma": "drang po",
+          "att": "AO",
+          "where": "cp.32.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "উজুবাট"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])উজু(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])উজু(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the spelling with short u (উজুবাট, cp.32.5b; the entry has উজূবাট), the bare uju of the refrain (cp.32.2a), which the Tibetan line renders drang po'i lam, and the Tibetan comment's drang po (cp.32.m3). উজু is matched as a whole word only, in the song and in Munidatta's citation of it."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অতএবাবধূতীমার্গং",
+          "translit": "ataevāvadhūtīmārgaṃ",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.32.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀུན་སྤངས",
+          "translit": "kun spangs",
+          "lemma": "kun spangs",
+          "att": "AO",
+          "where": "cp.32.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<=া)বধূতী"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In cp.32.m3 ataeva + avadhūtī gives -āvadhūtī, which the literal অবধূতী does not hit; the regex catches avadhūtī after the vowel sign ā only. In cp.32.m6 the Tibetan renders avadhūtīmārga as kun spangs lam, 'the path of the all-abandoning one' (form only, no match: kun spangs is an ordinary phrase)."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিঅমণ",
+          "translit": "niamaṇa",
+          "lemma": "niamaṇa",
+          "att": "AS",
+          "where": "cp.32.3b"
+        },
+        {
+          "lang": "san",
+          "script": "নিজমনসা",
+          "translit": "nijamanasā",
+          "lemma": "manas",
+          "att": "AS",
+          "where": "cp.32.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নিঅমণ"
+        },
+        {
+          "lang": "san",
+          "form": "নিজমনসা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali niamaṇa, 'one's own mind' (cp.32.3b), which Munidatta renders nijamanasā (cp.32.m4), beside the entry's nijamanaḥ; the Tibetan line reads it otherwise (see questions)."
+    },
+    {
+      "id": "dim-sight",
+      "type": "term",
+      "en": "dim sight",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনাদ্যবিদ্যাজ্ঞানপটলাঃ",
+          "translit": "anādyavidyājñānapaṭalāḥ",
+          "lemma": "paṭala",
+          "att": "AS",
+          "where": "cp.32.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জ্ঞানপটল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's paṭala, a film or cataract over the eye, where the Tibetan comment has rab rib (cp.32.m2: those with the dim sight of the cognition of beginningless ignorance see things otherwise). The literal জ্ঞানপটল avoids paṭala, 'chapter' (as in sekapaṭala), and leaves the ignorance part of the compound free."
+    },
+    {
+      "id": "para",
+      "type": "term",
+      "en": "across",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পারোআরে",
+          "translit": "pāroāre",
+          "lemma": "pārāvāra",
+          "att": "AS",
+          "where": "cp.32.m5"
+        },
+        {
+          "lang": "san",
+          "script": "পারেতি",
+          "translit": "pāreti",
+          "lemma": "pāra",
+          "att": "AS",
+          "where": "cp.32.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পারোআরে"
+        },
+        {
+          "lang": "san",
+          "form": "পারেতি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's citations of the far shore (cp.32.m5): the pair pāroāre, like the entry's pārāvāra, and pāreti, which he glosses; that gloss is a new reading and is in questions. The near shore gets its own entry (near-shore)."
+    },
+    {
+      "id": "vama-daksina",
+      "type": "term",
+      "en": "left and right",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বামদাহিণেতি",
+          "translit": "vāmadāhiṇeti",
+          "lemma": "vāmadakṣiṇa",
+          "att": "AS",
+          "where": "cp.32.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বামদাহিণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's citation of the pair in cp.32.m6 (vāmadāhiṇeti, 'easy to understand'); the literal also covers the entry's vāmadāhiṇetyādi."
+    },
+    {
+      "id": "saksatkara",
+      "type": "term",
+      "en": "direct realization",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তবানুত্তরধর্ম্মসাক্ষাৎকারিত্বং",
+          "translit": "tavānuttaradharmmasākṣātkāritvaṃ",
+          "lemma": "sākṣātkāritva",
+          "att": "AS",
+          "where": "cp.32.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མངོན་སུམ་དུ་བྱེད་པ",
+          "translit": "mngon sum du byed pa",
+          "lemma": "mngon sum",
+          "att": "AO",
+          "where": "cp.32.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সাক্ষাৎকারিত্ব"
+        },
+        {
+          "lang": "bod",
+          "form": "མངོན་སུམ་དུ་བྱེད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the abstract noun in 'you will directly realize the unsurpassed dharma' (cp.32.m4) and its Tibetan; the literal সাক্ষাৎকারিত্ব also covers the entry's sākṣātkāritvam āha and does not overlap the anuttara-dharma part of the word."
+    },
+    {
+      "id": "father",
+      "type": "term",
+      "en": "father",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বপা",
+          "translit": "bapā",
+          "lemma": "bāpa",
+          "att": "AS",
+          "where": "cp.32.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বপা(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds bapā in Saraha's self-naming (cp.32.5b), apparently bāpa used as an affectionate address; the Tibetan has only the vocative kye. Matched as a whole word only. See questions on the rendering."
+    },
+    {
+      "id": "eye",
+      "type": "term",
+      "en": "eye",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অক্ষি",
+          "translit": "akṣi",
+          "lemma": "akṣi",
+          "att": "AS",
+          "where": "cp.32.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অক্ষি(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])অক্ষি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds akṣi from the caryā line Munidatta quotes at the end of cp.32.m6 (akṣi vujhiā māga cālī), apparently a Sanskritized spelling of the ākhi of song 15's last line; whole word only."
+    },
+    {
+      "id": "marga",
+      "type": "term",
+      "en": "path",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাগ",
+          "translit": "māga",
+          "lemma": "māga",
+          "att": "AS",
+          "where": "cp.32.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])মাগ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])মাগ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the bare Old Bengali māga from the same quoted line (cp.32.m6); whole word only, since মাগ sits inside words such as samāgama and in māgā (māṅga) and māge."
+    }
+  ],
+  "questions": [
+    "ujubata: in the refrain (cp.32.2a) the bare uju, 'straight', stands for the straight road (the Tibetan line has drang po'i lam), so I added উজু as a form; a variant 'straight' would let translators mark it without writing 'straight road'. Munidatta's comment on the refrain takes it as the path of the avadhūtī, apart from which the lord of yogis has no other means (cp.32.m3), and later calls that path 'very excellent and not crooked' (cp.32.m6): further attestations of the existing reading, if the reviewer wants them cited.",
+    "para: new reading for an existing entry. Munidatta glosses the far shore of cp.32.4a 'by the ultimate' (pāreti paramārthena): there the best of yogins follow bodhicitta, while on the near side, in existence, ordinary people follow it (cp.32.m5; the Tibetan agrees, pha rol don dam pa). Proposed: far shore → the ultimate (paramārtha), per Munidatta, cp.32.m5. Also, para's rendering 'across' suits pāra kar- but not the noun in cp.32.4a; a variant 'far shore' is suggested.",
+    "bindu: in cp.32.1a bindu is paired with nāda, as the dot and the stroke of a seed syllable, rather than the drop of vital essence the definition describes. Possible new reading: bindu → conceptual thought (vikalpa), 'the concepts of nāda, bindu and the rest' that the jewel of mind is freed of, per Munidatta, cp.32.m2 (the Tibetan agrees). Please check whether 'drop' fits this line or whether a keep-source variant 'bindu' is wanted; I added only the form বিন্দু.",
+    "king-of-mind: possible new reading. Where the song has ciarāa, 'king of mind' (Tibetan line: sems kyi rgyal po), Munidatta's paraphrase has cittaratna, 'the jewel of mind' of those who know the ultimate, freed by its own nature once the concepts of nāda, bindu and the rest are abandoned (cp.32.m2); the Tibetan comment also has sems kyi rin po che. He may have read rāa as raaṇa, 'jewel'. Proposed: king of mind → the jewel of mind (cittaratna), per Munidatta, cp.32.m2; the divergence should be flagged in the translation.",
+    "bodhi: the entry lists the form সম্বোধনে sambodhane. In cp.32.m3, 're sambodhanaṃ' means 're is a vocative' (the Tibetan has yang dag par bod pa, 'calling'). If bodhi's match patterns include সম্বোধন, this grammatical term will be tagged 'awakening'; please check that form's source.",
+    "surya: if its match patterns include the bare literal রবি (form oben রবি, here cp.32.1a), it will also hit inside aravinda, 'lotus' (অরবিন্দ, and in sandhi in the glossary forms প্রজ্ঞারবিন্দৈর্ and কুলিশারবিন্দ). A whole-word pattern, (?<![\\p{L}\\p{M}])রবি(?![\\p{L}\\p{M}]), would be safer. I could not see the match lists, so this is a check, not a finding.",
+    "jinapura: in cp.32.m3 Munidatta says that awakening, 'one's own city' (nijapura), is very near; the Tibetan comment has byang chub rgyal po'i pho brang, 'the palace of the king of awakening', the phrase the glossary records for jinapura, as if its manuscript read jinapura (ni-ja and ji-na are easily transposed). I proposed no form; it may deserve a witness note.",
+    "citta: in cp.32.3b the Tibetan line has nges par shes, 'know with certainty', where the Bengali has niamaṇa, 'one's own mind' (Munidatta: nijamanasā, cp.32.m4), as if it read nia- as niyama or niścaya. Worth a witness note.",
+    "father: বপা in Saraha's self-naming (cp.32.5b) looks like bāpa used as an affectionate address ('my dear'); the Tibetan has only the vocative kye. I added it as a form of father; if the reviewer wants the address rendered otherwise, the form should be dropped or a variant added.",
+    "companion: sāṅge in cp.32.4b means 'in the company of' (the wicked); a variant 'company' would fit there better than 'companion'.",
+    "lāṅka (cp.32.2b, 'do not go lāṅka'): uncertain. The Tibetan line has ring du, 'far'; Munidatta does not gloss it (he says awakening is very near). No entry proposed; an uncertain-word entry like bāki may be wanted if it recurs.",
+    "balayogin: the vocative in cp.32.m3 is printed বালযোেগিন্, with a stray e-sign, so no literal will catch it; I did not add the misprint as a form.",
+    "dim-sight: I added Munidatta's paṭala (cp.32.m2), a film or cataract of the eye, because the Tibetan renders it rab rib; the definition names only timira and may want widening.",
+    "The caryā line Munidatta quotes at the end of cp.32.m6 appears to be the last couplet of song 15 in a garbled form (ঘটমনগুম্মাখড়দতি বোহঅ / অক্ষি বুঝিআ মাগ চালী); the Tibetan has khral sa 'gag dang shog ma med pa yis, and khral sa is the glossary's Tibetan for the toll station (ghata). I added only the clear forms অক্ষি (eye) and মাগ (path), not the ghāṭa or gumā the string seems to contain.",
+    "near-shore: Munidatta's citation দেআর(?) in cp.32.m5 is marked doubtful by Shastri; it stands where the near shore (uāra) should be cited, and the reading rests on that placement."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "11af8c35286069dfd1cbcfce089aeeac29bb2a210bb57d36ba59ece673f38403",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "5109c1875231a472ac3416bcb24eb75ecefe1d9ca82373b7b2877df1ba618ddb",
+    "sourceSha": "01a5549a1a593ff29842ef3c722a04790aa4f213bb9f7341dfa416c64691b8d7"
+  }
+}

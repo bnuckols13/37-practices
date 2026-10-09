@@ -1,0 +1,983 @@
+{
+  "unit": "cp.36",
+  "proposals": [
+    {
+      "id": "p-jalandhari",
+      "type": "person",
+      "en": "Jālandharipāda",
+      "policy": "keep-source",
+      "alt": [
+        "Jālandhari"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জালন্ধরি",
+          "translit": "jālandhari",
+          "lemma": "jālandhari",
+          "att": "AS",
+          "where": "cp.36.5a"
+        },
+        {
+          "lang": "san",
+          "script": "শ্রীগুরুজালন্ধরিপাদান্",
+          "translit": "śrīgurujālandharipādān",
+          "lemma": "jālandharipāda",
+          "att": "AS",
+          "where": "cp.36.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛཱ་ལནྡྷ་རའི་ཞབས",
+          "translit": "dzA lan+d+ha ra'i zhabs",
+          "lemma": "dzA lan+d+ha ra",
+          "att": "AO",
+          "where": "cp.36.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛཱ་ལནྡྷ་རིའི་ཞབས",
+          "translit": "dzA lan+d+ha ri'i zhabs",
+          "lemma": "dzA lan+d+ha ri",
+          "att": "AO",
+          "where": "cp.36.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জালন্ধরি"
+        },
+        {
+          "lang": "san",
+          "form": "জালন্ধরি"
+        },
+        {
+          "lang": "bod",
+          "form": "ཛཱ་ལནྡྷ་རའི་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "ཛཱ་ལནྡྷ་རི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Jālandhari or Jālandharipāda, a siddha. In the last couplet of song 36 Kāṇha says he will make Jālandhari(pāda) witness (5a). Munidatta calls him 'the glorious guru Jālandharipāda' and speaks of the grace of the dust of his lotus feet (cp.36.m6). The Tibetan has dzA lan+d+ha ra'i zhabs. Later siddha traditions make him Kṛṣṇācārya's teacher.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Kāṇha's guru, named in the bhaṇitā of song 36, has no entry; the rendering follows Munidatta's Jālandharipāda (the song's jālandhari pāe), and the bare জালন্ধর / ཛཱ་ལནྡྷ་ར is not matched because Jālandhara is also the name of a pīṭha."
+    },
+    {
+      "id": "mohabhandara",
+      "type": "term",
+      "en": "storehouse of delusion",
+      "policy": "translate",
+      "alt": [
+        "treasury of delusion"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোহভণ্ডার",
+          "translit": "mohabhaṇḍāra",
+          "lemma": "mohabhaṇḍāra",
+          "att": "AS",
+          "where": "cp.36.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏི་མུག་མཛོད",
+          "translit": "gti mug mdzod",
+          "lemma": "gti mug mdzod",
+          "att": "AO",
+          "where": "cp.36.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মোহভণ্ডার"
+        },
+        {
+          "lang": "bod",
+          "form": "གཏི་མུག་མཛོད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A storehouse or treasury (Old Bengali bhaṇḍāra, from Sanskrit bhāṇḍāgāra) of delusion. In song 36 the storehouse of delusion is taken (lui) and all of it, it seems, carried off (1b). Munidatta does not gloss the storehouse: he says delusion, marked by attachment to sense objects, was all taken away (cp.36.m2). The Tibetan has gti mug mdzod.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An image of the opening couplet, parallel to the existing net of delusion and tree of delusion; the longer form keeps it from being read as plain moha."
+    },
+    {
+      "id": "alokopalabdhi",
+      "type": "term",
+      "en": "culmination of light",
+      "policy": "translate",
+      "alt": [
+        "attainment of light"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আলোকোপলব্ধিসংখ্যাজ্ঞানেন",
+          "translit": "ālokopalabdhisaṃkhyājñānena",
+          "lemma": "ālokopalabdhi",
+          "att": "AS",
+          "where": "cp.36.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣང་བ་ཐོབ་པ",
+          "translit": "snang ba thob pa",
+          "lemma": "snang ba thob pa",
+          "att": "AO",
+          "where": "cp.36.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "লোকোপলব্ধ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྣང་བ་ཐོབ་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Culmination of light (ālokopalabdhi): in the Guhyasamāja completion stage, the third of three ever subtler luminous experiences, after light and spreading of light, followed by clear light. Glossing the song's suṇa as 'empty', Munidatta says the house of tendencies is to be understood through the knowledge called culmination of light (cp.36.m2). The Tibetan has snang ba thob pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Completes the series begun by the existing entries light (āloka) and spreading of light (ālokābhāsa), whose definitions already name the culmination of light; the rendering follows them."
+    },
+    {
+      "id": "sva-para",
+      "type": "term",
+      "en": "self and other",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সপরবিভাগা",
+          "translit": "saparabibhāgā",
+          "lemma": "saparabibhāga",
+          "att": "AS",
+          "where": "cp.36.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་དང་གཞན",
+          "translit": "rang dang gzhan",
+          "lemma": "rang dang gzhan",
+          "att": "AO",
+          "where": "cp.36.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সপরবিভাগ"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་དང་གཞན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Self and other (Sanskrit sva, para): the division of experience into oneself and what is not oneself, which Buddhist teaching treats as conceptual. The refrain of song 36 says the sleeper does not perceive the division (bibhāga) of self and other (2a); the Tibetan has rang dang gzhan dag rnam par bral, 'free of self and other'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal pair in the refrain, sung after every couplet; matched on the longer saparabibhāga because সপর alone sits inside words such as সপরিবার."
+    },
+    {
+      "id": "cetana",
+      "type": "term",
+      "en": "awareness",
+      "policy": "translate",
+      "alt": [
+        "consciousness"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চেঅণ",
+          "translit": "ceaṇa",
+          "lemma": "ceaṇa",
+          "att": "AS",
+          "where": "cp.36.3a"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তচেতনাবিকল্পো",
+          "translit": "cittacetanāvikalpo",
+          "lemma": "cetanā",
+          "att": "AS",
+          "where": "cp.36.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চেতনা"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])চেঅ[ণন]া?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Awareness, being conscious (Sanskrit cetanā; Old Bengali ceaṇa); in Abhidharma the word also names volition, a mental factor. Song 36 pairs it with feeling: neither ceaṇa nor beana (3a). Munidatta denies any conceptual thought of mind and awareness (cittacetanāvikalpa, cp.36.m4), and renders the refrain's ṇa cebai as na cetayati, 'is not aware' (cp.36.m3). The Tibetan has sems, 'mind'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of the pair of mental terms that couplet 3 negates; 'awareness' avoids 'consciousness', which the glossary gives to vijñāna, and the Old Bengali form is matched as a whole word because it is short."
+    },
+    {
+      "id": "vedana",
+      "type": "term",
+      "en": "feeling",
+      "policy": "translate",
+      "alt": [
+        "sensation"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বেঅন",
+          "translit": "beana",
+          "lemma": "beana",
+          "att": "AS",
+          "where": "cp.36.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚོར་བ",
+          "translit": "tshor ba",
+          "lemma": "tshor ba",
+          "att": "AO",
+          "where": "cp.36.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚོར་བ",
+          "translit": "tshor ba",
+          "lemma": "tshor ba",
+          "att": "AO",
+          "where": "cp.36.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཚོར་བ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বেঅ[নণ]া?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Feeling (Sanskrit vedanā; Old Bengali beana; Tibetan tshor ba): the pleasant, painful or neutral tone of experience, the second of the five aggregates. Song 36 says there is neither ceaṇa nor beana as Kāṇha falls into deep sleep (3a). Where Munidatta's Sanskrit is damaged, the Tibetan comment says feeling too is free of conceptual thought (cp.36.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A standard doctrinal term (one of the five aggregates) negated in couplet 3, read so by the Tibetan in both the song and the comment; the short Old Bengali form is matched as a whole word."
+    },
+    {
+      "id": "dhyana",
+      "type": "term",
+      "en": "concentration",
+      "policy": "translate",
+      "alt": [
+        "dhyāna"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ধ্যানলক্ষণমাহ",
+          "translit": "dhyānalakṣaṇamāha",
+          "lemma": "dhyāna",
+          "att": "AS",
+          "where": "cp.36.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "བསམ་གཏན",
+          "translit": "bsam gtan",
+          "lemma": "bsam gtan",
+          "att": "AO",
+          "where": "cp.36.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བསམ་གཏན"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])ধ্যান"
+        }
+      ],
+      "definition": "Concentration (Sanskrit dhyāna; Tibetan bsam gtan): settled meditative absorption, one of the six perfections, and in older lists the four absorptions of the form realm. Munidatta says the refrain of song 36 states the defining mark of concentration (dhyānalakṣaṇa) (cp.36.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A basic doctrinal term Munidatta uses to classify the refrain, distinct from meditation (bhāvanā) and samādhi, which have entries; matched only at the start of a word because ধ্যান also ends compounds such as dyūtakrīḍādhyāna, 'contemplation of a game of dice'."
+    },
+    {
+      "id": "saksin",
+      "type": "term",
+      "en": "witness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শাখি",
+          "translit": "śākhi",
+          "lemma": "śākhi",
+          "att": "AS",
+          "where": "cp.36.5a"
+        },
+        {
+          "lang": "san",
+          "script": "সাক্ষিণঃ",
+          "translit": "sākṣiṇaḥ",
+          "lemma": "sākṣin",
+          "att": "AS",
+          "where": "cp.36.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সাক্ষি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])শাখি(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])শাখি(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A witness (Sanskrit sākṣin; Old Bengali śākhi). In the last couplet of song 36 Kāṇha says he will make Jālandhari(pāda) witness (5a); Munidatta paraphrases 'having made the glorious guru Jālandharipāda witnesses' (cp.36.m6). The Tibetan translation instead reads the phrase as mngon sum nyid du byas, 'made directly evident', as if from sākṣāt.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The bhaṇitā turns on making the guru witness, and the Tibetan reads the word differently, so the entry records both; the Old Bengali form is matched as a whole word to keep clear of śākhin, 'tree'."
+    },
+    {
+      "id": "pandita",
+      "type": "term",
+      "en": "paṇḍita",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "scholar"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাণ্ডিআ",
+          "translit": "pāṇḍiā",
+          "lemma": "pāṇḍiā",
+          "att": "AS",
+          "where": "cp.36.5b"
+        },
+        {
+          "lang": "san",
+          "script": "পণ্ডিতাচার্য্যাঃ",
+          "translit": "paṇḍitācāryyāḥ",
+          "lemma": "paṇḍita",
+          "att": "AS",
+          "where": "cp.36.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "པཎྜི་ཏ",
+          "translit": "paN+Di ta",
+          "lemma": "paN+Di ta",
+          "att": "AO",
+          "where": "cp.36.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "པཎྜི་ཏའི་སློབ་དཔོན",
+          "translit": "paN+Di ta'i slob dpon",
+          "lemma": "paN+Di ta",
+          "att": "AO",
+          "where": "cp.36.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাণ্ডিআ"
+        },
+        {
+          "lang": "san",
+          "form": "পণ্ডিত"
+        },
+        {
+          "lang": "bod",
+          "form": "པཎྜི་ཏ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A learned scholar (Sanskrit paṇḍita; Old Bengali pāṇḍiā; Tibetan paN+Di ta), a recurring foil in the siddhas' songs. The last line of song 36 sets the paṇḍita teachers (pāṇḍiā cāde) apart from Kāṇha; Munidatta says those whose sight goes no further than books do not see even the vicinity of his side (cp.36.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The book-learned scholar is a stock figure of siddha polemic and the word stands in the song, the comment and the Tibetan; kept in source form, as the word is familiar in English."
+    },
+    {
+      "id": "sword",
+      "type": "term",
+      "en": "sword",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তথতাখড়্গেন",
+          "translit": "tathatākhaḍgena",
+          "lemma": "khaḍga",
+          "att": "AS",
+          "where": "cp.36.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "རལ་གྲིས",
+          "translit": "ral gris",
+          "lemma": "ral gri",
+          "att": "AO",
+          "where": "cp.36.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "খড়্গ"
+        },
+        {
+          "lang": "san",
+          "form": "খড্গ"
+        },
+        {
+          "lang": "bod",
+          "form": "རལ་གྲི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A sword (Sanskrit khaḍga; Tibetan ral gri). Where song 36 speaks of striking with suchness (1a), Munidatta says the lord of yogis strikes the fault of tendencies with the sword of suchness (tathatākhaḍga) and so takes away all delusion (cp.36.m2). The Tibetan has de bzhin nyid kyi ral gri.",
+      "symbolicImage": "sword",
+      "symbolicReadings": [
+        {
+          "referent": "suchness (tathatā): the sword of suchness with which the lord of yogis strikes the fault of tendencies of the house of tendencies, taking away delusion; the song has no sword, only 'striking with suchness' (Tibetan comment: de bzhin nyid kyi ral gri)",
+          "per": "Munidatta",
+          "where": [
+            "cp.36.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's image for the song's 'striking with suchness', parallel to the other tool and weapon images in the glossary (axe, arrow, noose); both Bengali spellings of khaḍga are matched."
+    },
+    {
+      "id": "p-kanha",
+      "type": "person",
+      "en": "Kāṇha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কাহ্নিলা",
+          "translit": "kāhnilā",
+          "lemma": "kāhna",
+          "att": "AS",
+          "where": "cp.36.2b"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যস্",
+          "translit": "kṛṣṇācāryyas",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.36.m1"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যসুন্দরো",
+          "translit": "kṛṣṇācāryyasundaro",
+          "lemma": "kṛṣṇācārya",
+          "att": "AS",
+          "where": "cp.36.m3"
+        },
+        {
+          "lang": "san",
+          "script": "কৃষ্ণাচার্য্যপাদানাং",
+          "translit": "kṛṣṇācāryyapādānāṃ",
+          "lemma": "kṛṣṇācāryapāda",
+          "att": "AS",
+          "where": "cp.36.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কাহ্নিলা"
+        },
+        {
+          "lang": "san",
+          "form": "কৃষ্ণাচার্য্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New surface forms of the poet's name in song 36: kāhnilā in the refrain, two sandhi forms in the comment, and the attribution written before the song (emended out of 1a)."
+    },
+    {
+      "id": "nidra",
+      "type": "term",
+      "en": "sleep",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘুমই",
+          "translit": "ghumai",
+          "lemma": "ghuma",
+          "att": "AS",
+          "where": "cp.36.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "নিদালু",
+          "translit": "nidālu",
+          "lemma": "nidālu",
+          "att": "AS",
+          "where": "cp.36.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "নিদ",
+          "translit": "nida",
+          "lemma": "nida",
+          "att": "AS",
+          "where": "cp.36.3a"
+        },
+        {
+          "lang": "san",
+          "script": "সহজানন্দনিদ্রায়াং",
+          "translit": "sahajānandanidrāyāṃ",
+          "lemma": "nidrā",
+          "att": "AS",
+          "where": "cp.36.m3"
+        },
+        {
+          "lang": "san",
+          "script": "জ্ঞাননিদ্রাং",
+          "translit": "jñānanidrāṃ",
+          "lemma": "nidrā",
+          "att": "AS",
+          "where": "cp.36.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིད་ཡུར",
+          "translit": "gnyid yur",
+          "lemma": "gnyid yur",
+          "att": "AO",
+          "where": "cp.36.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঘুমই"
+        },
+        {
+          "lang": "oben",
+          "form": "নিদালু"
+        },
+        {
+          "lang": "san",
+          "form": "নিদ্রা"
+        },
+        {
+          "lang": "san",
+          "form": "ঘুমই"
+        },
+        {
+          "lang": "bod",
+          "form": "གཉིད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])নিদ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 36 is about sleep: ghumai 'sleeps' (2a, and in Munidatta's Dvikalpa quotation), nidālu 'sleepy' (2b), nida 'sleep' (3a), and Munidatta's sleep of innate joy and sleep of knowledge; bare নিদ is matched only as a whole word."
+    },
+    {
+      "id": "yoganidra",
+      "type": "term",
+      "en": "yogic sleep",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সহজানন্দযোগনিদ্রা[ং]",
+          "translit": "sahajānandayoganidrā[ṃ]",
+          "lemma": "yoganidrā",
+          "att": "AS",
+          "where": "cp.36.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সহজানন্দযোগনিদ্রালুঃ",
+          "translit": "sahajānandayoganidrāluḥ",
+          "lemma": "yoganidrālu",
+          "att": "AS",
+          "where": "cp.36.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་པས་གཉིད",
+          "translit": "rnal 'byor pas gnyid",
+          "lemma": "rnal 'byor gyi gnyid",
+          "att": "AO",
+          "where": "cp.36.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যোগনিদ্রা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta renders the refrain's innate sleep as the yogic sleep of innate joy; the shorter match যোগনিদ্রা keeps yoganidrālu from falling to plain sleep while leaving innate joy (সহজানন্দ) to its own entry."
+    },
+    {
+      "id": "svapna",
+      "type": "term",
+      "en": "dream",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "স্বপণে",
+          "translit": "svapaṇe",
+          "lemma": "svapaṇa",
+          "att": "AS",
+          "where": "cp.36.4a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপনেত্যাদি",
+          "translit": "svapanetyādi",
+          "lemma": "svapana",
+          "att": "AS",
+          "where": "cp.36.m5"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নান্তরেষু",
+          "translit": "svapnāntareṣu",
+          "lemma": "svapnāntara",
+          "att": "AS",
+          "where": "cp.36.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "স্বপণ"
+        },
+        {
+          "lang": "san",
+          "form": "স্বপন"
+        },
+        {
+          "lang": "san",
+          "form": "স্বপ্ন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The dream of couplet 4 (svapaṇe), Munidatta's citation of it, and the dreams of the girl in the scripture he quotes (cp.36.m5)."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিহুবণ",
+          "translit": "tihubaṇa",
+          "lemma": "tihubaṇa",
+          "att": "AS",
+          "where": "cp.36.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তিহুবণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new spelling of tihuana in 4a; the longer form also keeps forest (বণ) from being found inside it."
+    },
+    {
+      "id": "sukha",
+      "type": "term",
+      "en": "bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুহে",
+          "translit": "suhe",
+          "lemma": "suha",
+          "att": "AS",
+          "where": "cp.36.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুহে(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Old Bengali form of sukha in 3b ('slept in bliss'; Tibetan bde bar), matched as a whole word because it is short."
+    },
+    {
+      "id": "coming-and-going",
+      "type": "term",
+      "en": "coming and going",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অবণা গমণ",
+          "translit": "abaṇā gamaṇa",
+          "lemma": "abaṇāgabaṇa",
+          "att": "AS",
+          "where": "cp.36.4b"
+        },
+        {
+          "lang": "san",
+          "script": "অবণাগবনমিতি",
+          "translit": "avaṇāgavanam iti",
+          "lemma": "abaṇāgabaṇa",
+          "att": "AS",
+          "where": "cp.36.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অবণা গমণ"
+        },
+        {
+          "lang": "san",
+          "form": "অবণাগবন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New spellings of abaṇāgabaṇa in 4b and in Munidatta's citation; the longer forms also keep forest (বণ) and mind (মণ) from being found inside them."
+    },
+    {
+      "id": "vasana",
+      "type": "term",
+      "en": "habitual tendencies",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বাসনাগারং",
+          "translit": "vāsanāgāraṃ",
+          "lemma": "vāsanāgāra",
+          "att": "AS",
+          "where": "cp.36.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বাসনাদোষং",
+          "translit": "vāsanādoṣaṃ",
+          "lemma": "vāsanādoṣa",
+          "att": "AS",
+          "where": "cp.36.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'house of tendencies' and 'fault of tendencies' in his comment on couplet 1 (cp.36.m2)."
+    },
+    {
+      "id": "tathata",
+      "type": "term",
+      "en": "suchness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তথতাখড়্গেন",
+          "translit": "tathatākhaḍgena",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.36.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's 'sword of suchness' (cp.36.m2), glossing the song's tathatā pahārī."
+    },
+    {
+      "id": "house",
+      "type": "term",
+      "en": "house",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাহ",
+          "translit": "bāha",
+          "lemma": "bāha",
+          "att": "AS",
+          "where": "cp.36.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=সুণ )বাহ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In 1a the Tibetan has stong pa'i khyim, 'empty house', and Munidatta vāsanāgāra, 'house of tendencies', so suṇa bāha seems to be 'the empty house' (bāha perhaps from vāsa, 'dwelling'); matched only after সুণ because বাহ stands inside many words."
+    },
+    {
+      "id": "abhasa",
+      "type": "term",
+      "en": "appearance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বপ্রতিভাসজ্ঞানমাহ",
+          "translit": "svapratibhāsajñānamāha",
+          "lemma": "svapratibhāsa",
+          "att": "AS",
+          "where": "cp.36.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রতিভাস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta introduces couplet 4 as stating the knowledge of one's own appearance (svapratibhāsajñāna) (cp.36.m5), and the entry already holds a pratibhāsa compound; the Tibetan there has rang gi dgongs pa'i ye shes, a different reading."
+    }
+  ],
+  "questions": [
+    "trailokya, new reading: Munidatta reads saala, 'all', in 3b as the three worlds: 'sakalam iti trailokyaṃ pariśodhya', all, that is, having purified the three worlds, he went into the sleep of knowledge (cp.36.m4); the Tibetan comment agrees ('jig rten gsum po shin tu yongs su sbyangs pas).",
+    "coming-and-going, new reading: Munidatta reads the coming and going of 4b as the coming and going of the moon and the sun, which is cut off (candrasūryayor yātāyātaṃ khaṇḍayitvā), and then the wind made to enter the avadhūtī and innate joy (cp.36.m5); the Tibetan comment agrees (zla ba dang nyi ma dag 'gro ba dang 'ong ba 'gog pa).",
+    "house, new reading and a doubtful form: I added bāha (1a) to house because the Tibetan line has stong pa'i khyim and Munidatta speaks of vāsanāgāra. Reading for house: the (empty) house → the house of tendencies, understood through the knowledge called culmination of light, whose fault of tendencies the lord of yogis strikes with the sword of suchness (cp.36.m2). If bāha < vāsa, nivasa ('dwelling') may be the better home. The match only fires after সুণ: bare বাহ stands inside বিবাহ, বাহ্য, তমেবাহ and others.",
+    "nidra / yoganidra, new reading: Munidatta reads Kāṇha's sleep (2a–2b) as the yogic sleep of innate joy, in which he is not aware and from which he does not fall (cp.36.m3), and the deep sleep of 3a–3b as the sleep of knowledge entered after purifying the three worlds (cp.36.m4). Should 'innate sleep' (sahaja nidālu, 2b; Tibetan lhan cig skyes pa'i gnyid; Munidatta's sahajānandanidrā, cp.36.m3) have its own entry? I added the forms to nidra and yoganidra instead.",
+    "p-luyi: লুই in 1b (mohabhaṇḍāra lui) is a verb, 'having taken' (Tibetan blangs nas), not the poet Lūyī. If p-luyi's match list holds bare লুই, it will mislink this line; a whole-word regex would not help here, so the reviewer may want to drop or narrow it.",
+    "Other possible false hits in this unit, if these glossary forms are in the match lists: boat নাব across চেতনাবিকল্পো (m4); bodhi বোধি and nada নাদ in the corrupt বোধিনাদ্য (m4); mara মার in কুমারী (m5); bhava ভব in ভবতি (m3, m4). My longer forms already cover forest বণ in তিহুবণ and অবণা, and mind মণ in গমণ.",
+    "sunyata: suṇa, 'empty', stands in 1a and 4a (Tibetan stong pa both times) and Munidatta cites it as সুন (m2). Both forms are in the entry, but the candidate list shows neither as a literal match. I added no pattern, because a whole-word সুণ might also catch suṇa, 'listen'. The reviewer may want a pattern.",
+    "vedana: Shastri's m4 reads 'na cittacetanāvikalpo bodhinādya te', which makes poor sense; the Tibetan has 'tshor ba yang de rnam par mi rtog pa'o', 'feeling too is free of conceptual thought', which suggests the Sanskrit once named vedanā where Shastri prints বোধিনাদ্য.",
+    "The verse Munidatta quotes as āgama in m5 (a girl dreams that a son is born and dies) is, I believe, from the Samādhirājasūtra, but I have not checked this and proposed no text entry, since Munidatta names no work."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "6b0a9392c520f7924961988ada35537931c5d89d7b36f1190a5747ae64e364c9",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "4f5e74fd21c937ac6eeb34a6c93e7386ef49f50880014fe9c9c2a3879d6487c5",
+    "sourceSha": "40eda529b33b7f821bccea300b1efdad518d76b2617c6288b2bf204df1a0561f"
+  }
+}

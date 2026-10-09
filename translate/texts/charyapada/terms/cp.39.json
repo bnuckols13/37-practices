@@ -1,0 +1,1186 @@
+{
+  "unit": "cp.39",
+  "proposals": [
+    {
+      "id": "malasi",
+      "type": "term",
+      "en": "Mālaśī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মালশী",
+          "translit": "mālaśī",
+          "lemma": "mālaśī",
+          "att": "AS",
+          "where": "cp.39.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མཱ་ལ་ལཱ་སི",
+          "translit": "mA la lA si",
+          "lemma": "mA la lA si",
+          "att": "AO",
+          "where": "cp.39.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মালশী"
+        },
+        {
+          "lang": "bod",
+          "form": "མཱ་ལ་ལཱ་སི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mālaśī, the name of the rāga (melodic mode) to which song 39 is sung, given in its heading. The Tibetan translation transcribes the name instead of translating it, as mA la lA si, with an extra syllable; whether that reflects another form of the name or a slip is uncertain.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Rāga names are kept in source form, as for the other rāgas, and this one has no entry yet."
+    },
+    {
+      "id": "hum",
+      "type": "term",
+      "en": "hūṃ",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হূঁ",
+          "translit": "hūm̐",
+          "lemma": "hūṃ",
+          "att": "AS",
+          "where": "cp.39.2a"
+        },
+        {
+          "lang": "san",
+          "script": "হূঙ্কার",
+          "translit": "hūṅkāra",
+          "lemma": "hūṃkāra",
+          "att": "AS",
+          "where": "cp.39.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཧཱུཾ",
+          "translit": "hUM",
+          "lemma": "hUM",
+          "att": "AO",
+          "where": "cp.39.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཧཱུཾ་ཡིག",
+          "translit": "hUM yig",
+          "lemma": "hUM yig",
+          "att": "AO",
+          "where": "cp.39.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཧཱུཾ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཧཱུྃ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])হ[ুূ]ঁ(?=\\s+ভবই)"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])হ[ুূ][ঁং](?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "হ[ুূ](?:ঙ্|ং|ঁ)কার"
+        }
+      ],
+      "definition": "The syllable hūṃ, a seed syllable (bīja) of the tantras from which deities are visualized arising; in the triad oṃ āḥ hūṃ it stands for mind. In the refrain (2a) a hūṃ comes to be as a wonder; Munidatta addresses the king of mind as born from the seed, the syllable hūṃ (cp.39.m3). The Tibetan has hUM.",
+      "symbolicImage": "the hūṃ that comes to be, a wonder (2a)",
+      "symbolicReadings": [
+        {
+          "referent": "the seed (bīja) from which the king of mind is born: Munidatta addresses 'O king of mind, born from the seed, the syllable hūṃ' (hūṅkārabījodbhava); the Tibetan comment agrees (hUM yig sa bon las byung ba)",
+          "per": "Munidatta",
+          "where": [
+            "cp.39.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "king of mind",
+        "mind",
+        "seed",
+        "seed syllable"
+      ],
+      "rationale": "A mantra syllable that the song names and Munidatta explains; kept in source form, as tantric syllables usually are."
+    },
+    {
+      "id": "jalabimba",
+      "type": "term",
+      "en": "water bubble",
+      "policy": "translate",
+      "alt": [
+        "bubble"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জলবিম্বকারে",
+          "translit": "jalabimbakāre",
+          "lemma": "jalabimba",
+          "att": "AS",
+          "where": "cp.39.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ཡི་ཆུ་བུར",
+          "translit": "chu yi chu bur",
+          "lemma": "chu bur",
+          "att": "AO",
+          "where": "cp.39.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জলবিম্ব"
+        },
+        {
+          "lang": "san",
+          "form": "জলবিম্ব"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་བུར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A bubble on water (jalabimba; bimba can also mean a disc or a reflected image), a stock image of what appears without substance. In 3b the world is like a water bubble, empty by nature; the Tibetan line has chu bur, 'bubble'. Commenting on the couplet, Munidatta speaks of twelve examples beginning with the moon in water (cp.39.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An image of insubstantiality in the verse; 'water bubble' follows the Tibetan chu bur and Bengali usage, and the sense 'reflection' is put to the reviewer in questions."
+    },
+    {
+      "id": "visa",
+      "type": "term",
+      "en": "poison",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিস",
+          "translit": "bisa",
+          "lemma": "bisa",
+          "att": "AS",
+          "where": "cp.39.4a"
+        },
+        {
+          "lang": "pra",
+          "script": "পরবিষ",
+          "translit": "paraviṣa",
+          "lemma": "viṣa",
+          "att": "AS",
+          "where": "cp.39.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དུག",
+          "translit": "dug",
+          "lemma": "dug",
+          "att": "AO",
+          "where": "cp.39.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དུག"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বিস(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<!্)বিষ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<!্)বিষ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Poison (Old Bengali bisa, Sanskrit viṣa; Tibetan dug). In 4a the mind swallows poison though nectar is at hand. Munidatta's paraphrase speaks of the sense objects, form and the rest, and he quotes Saraha: the housewife eats another's poison (cp.39.m5). The Tibetan line of 4a reads dug med, 'without poison', a negative the Bengali lacks.",
+      "symbolicImage": "poison swallowed while nectar is at hand (4a)",
+      "symbolicReadings": [
+        {
+          "referent": "the sense objects beginning with form (rūpādiviṣaya): his paraphrase puts them where the song has poison, with no explicit gloss; the manuscript reads rūpādiviṣa-, which Shastri restores to viṣa[ya], 'object', while the Tibetan comment has 'the poison of objects, form and the rest' (gzugs la sogs pa yul gyi dug)",
+          "per": "Munidatta",
+          "where": [
+            "cp.39.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "sense objects",
+        "objects",
+        "objects of the senses",
+        "form"
+      ],
+      "rationale": "Paired with nectar in the verse and read by Munidatta, so the image needs an entry; 'poison' is the plain sense."
+    },
+    {
+      "id": "gohali",
+      "type": "term",
+      "en": "cowshed",
+      "policy": "translate",
+      "alt": [
+        "cow pen"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গোহালী",
+          "translit": "gohālī",
+          "lemma": "gohālī",
+          "att": "AS",
+          "where": "cp.39.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গোহাল"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A cowshed or cow pen (Old Bengali gohālī, from Sanskrit gośālā). In the last couplet Saraha says an empty cowshed is better than a bad ox, apparently a proverb. Munidatta glosses go, 'cow', as the senses and speaks of their support, one's own body (cp.39.m6). The Tibetan line has no cowshed, only 'it is best' (mchog).",
+      "symbolicImage": "the empty cowshed (go-hālī, 'cow-shed') that is better than a bad ox (5a)",
+      "symbolicReadings": [
+        {
+          "referent": "the senses (indriya): 'go means the senses' (go iti indriyaṃ), glossing the first part of gohālī; the Tibetan comment instead explains go as 'ox' (go zhes pa ni glang po'o)",
+          "per": "Munidatta",
+          "where": [
+            "cp.39.m6"
+          ]
+        },
+        {
+          "referent": "the support (sālambana) of the senses, one's own body, made into the form of empty clear light by the grace of the guru's word: his paraphrase goes on from go to this, without an explicit gloss of the shed; the Tibetan comment agrees (lus la stong pa 'od gsal gyi gzugs su byas)",
+          "per": "Munidatta",
+          "where": [
+            "cp.39.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "senses",
+        "sense faculties",
+        "faculties",
+        "body",
+        "clear light",
+        "emptiness"
+      ],
+      "rationale": "An image of the bhaṇitā that Munidatta explains; 'cowshed' is the plain sense of gohālī."
+    },
+    {
+      "id": "dusta-balada",
+      "type": "term",
+      "en": "bad ox",
+      "policy": "translate",
+      "alt": [
+        "vicious ox"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুঠ্য বলন্দেঁ",
+          "translit": "duṭhya balandem̐",
+          "lemma": "duṭha balanda",
+          "att": "AS",
+          "where": "cp.39.5a"
+        },
+        {
+          "lang": "san",
+          "script": "দুষ্ট বলদমিতি",
+          "translit": "duṣṭa valadam iti",
+          "lemma": "duṣṭabalada",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "san",
+          "script": "দুষ্টবলদেন",
+          "translit": "duṣṭavaladena",
+          "lemma": "duṣṭabalada",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུངས་གླང",
+          "translit": "ma rungs glang",
+          "lemma": "ma rungs glang",
+          "att": "AO",
+          "where": "cp.39.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "དུཥྚ་བ་ལ་ད",
+          "translit": "duSh+Ta ba la da",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུངས་པའི་གླང་པོ",
+          "translit": "ma rungs pa'i glang po",
+          "lemma": "ma rungs glang",
+          "att": "AO",
+          "where": "cp.39.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দুষ্টবলদ"
+        },
+        {
+          "lang": "san",
+          "form": "দুষ্ট বলদ"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་རུངས་གླང"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་རུངས་པའི་གླང"
+        },
+        {
+          "lang": "bod",
+          "form": "དུཥྚ་བ་ལ་ད"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "দুঠ(?:্য)?\\s*বলন্দ"
+        }
+      ],
+      "definition": "A bad or vicious ox (Old Bengali duṭha balanda; Sanskrit duṣṭa, 'bad', and balada, 'ox'). In the last couplet Saraha asks what use a bad ox is, an empty cowshed being better. Munidatta explains duṣṭabalada as 'what gives strength (bala) to bad objects' and reads it as the king of mind (cp.39.m6); the Tibetan line has ma rungs glang.",
+      "symbolicImage": "the bad ox, than which an empty cowshed is better (5a)",
+      "symbolicReadings": [
+        {
+          "referent": "the king of mind (cittarāja): duṣṭabalada is 'what gives strength (balaṃ dadāti) to bad objects', to be understood as the king of mind, by which alone the three worlds were destroyed; the Tibetan comment agrees and transcribes the word (duSh+Ta ba la da sems kyi rgyal por rig par bya'o)",
+          "per": "Munidatta",
+          "where": [
+            "cp.39.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "king of mind",
+        "mind",
+        "citta",
+        "thought"
+      ],
+      "rationale": "Munidatta glosses the compound as a whole, with its own etymology, so it is proposed beside the plain ox of song 33 (see questions)."
+    },
+    {
+      "id": "kutumba",
+      "type": "term",
+      "en": "family",
+      "policy": "translate",
+      "alt": [
+        "kin"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুণ্ডবাঁ",
+          "translit": "kuṇḍabām̐",
+          "lemma": "kuṇḍabā",
+          "att": "AS",
+          "where": "cp.39.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉེན་འདུན",
+          "translit": "gnyen 'dun",
+          "lemma": "gnyen 'dun",
+          "att": "AO",
+          "where": "cp.39.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কুণ্ডবা"
+        },
+        {
+          "lang": "bod",
+          "form": "གཉེན་འདུན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Kin, the household family (Old Bengali kuṇḍabā, apparently from Sanskrit kuṭumba; the Tibetan has gnyen 'dun, 'relatives'). In 4b the speaker says he will eat the bad kuṇḍabā, a violent paradox like the killing of kin in song 11. Munidatta's paraphrase puts the host of passion, hatred, delusion and the rest in its place (cp.39.m5).",
+      "symbolicImage": "the bad family that the speaker will eat (4b)",
+      "symbolicReadings": [
+        {
+          "referent": "the host (samūha) of passion, hatred, delusion and the rest, whose eating, that is, making it without intrinsic nature, the speaker is to do (bhakṣaṇaṃ niḥsvabhāvīkaraṇaṃ mayā kartavyam): his paraphrase puts the host where the song has kuṇḍabā, without an explicit gloss; the Tibetan comment agrees ('dod chags zhe sdang gti mug la sogs pa'i tshogs)",
+          "per": "Munidatta",
+          "where": [
+            "cp.39.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "passion",
+        "hatred",
+        "delusion",
+        "afflictions",
+        "defilements",
+        "poisons"
+      ],
+      "rationale": "A twilight image of the verse with a reading in the commentary; 'family' follows the Tibetan gnyen 'dun and the likely source, kuṭumba."
+    },
+    {
+      "id": "pl-banga",
+      "type": "place",
+      "en": "Baṅga",
+      "policy": "keep-source",
+      "alt": [
+        "Bengal"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বঙ্গে",
+          "translit": "baṅge",
+          "lemma": "baṅga",
+          "att": "AS",
+          "where": "cp.39.2b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বঙ্গে?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Baṅga (Sanskrit Vaṅga), an old name for the land of the Ganges delta in eastern Bengal, later for Bengal as a whole. In the refrain (2b) the addressee is told 'you took a wife in Baṅga'. Munidatta passes over the phrase; the Tibetan seems to read kyog por 'gro ba, 'crooked going', as if from vaṅka, 'crooked' (aligned with 2a).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A place name in the refrain, kept in source form like Kāmaru and Laṅkā, with the Tibetan's different reading recorded."
+    },
+    {
+      "id": "ghunda",
+      "type": "term",
+      "en": "ghuṇḍa",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘুণ্ড",
+          "translit": "ghuṇḍa",
+          "lemma": "ghuṇḍa",
+          "att": "AS",
+          "where": "cp.39.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঘুণ্ড"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in 1b, apparently addressed to the mind: 'how will you stay, ghuṇḍa?'. It might be a term of abuse (compare Bengali guṇḍā, 'ruffian'), but that is a guess. Munidatta's paraphrase has only 'O king of mind' there (cp.39.m2), and the Tibetan line (khyod nyid slar sdong ji lta bu) does not clearly render it.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An unexplained word of the verse, kept in source form until its sense is settled, as the glossary does for other doubtful words."
+    },
+    {
+      "id": "dvadasa-drstanta",
+      "type": "term",
+      "en": "twelve examples",
+      "policy": "translate",
+      "alt": [
+        "twelve similes"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নীরেন্দ্বা(ন্দ্রা)দিদ্বাদশদৃষ্টান্তদ্বারেণ",
+          "translit": "nīrendvā(ndrā)didvādaśadṛṣṭāntadvāreṇa",
+          "lemma": "dṛṣṭānta",
+          "att": "AS",
+          "where": "cp.39.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔེ་ནི་བཅུ་གཉིས",
+          "translit": "dpe ni bcu gnyis",
+          "lemma": "dpe",
+          "att": "AO",
+          "where": "cp.39.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বাদশদৃষ্টান্ত"
+        },
+        {
+          "lang": "bod",
+          "form": "དཔེ་ནི་བཅུ་གཉིས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Twelve examples (dṛṣṭānta) of appearance without substance, the first named being the moon in water; Mahāyāna texts give such lists of similes for illusion, varying in number and members. In a partly corrupt passage Munidatta says that through them accomplishment, established by the proof that all is empty, arises for those who know reality (cp.39.m4). Tibetan: dpe bcu gnyis.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal set named in the commentary on couplet 3 that a reader of the woven commentary would need explained."
+    },
+    {
+      "id": "svacchanda",
+      "type": "term",
+      "en": "at will",
+      "policy": "translate",
+      "alt": [
+        "freely"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চ্ছন্দ্রেঁ",
+          "translit": "cchandrem̐",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.39.5b"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচ্ছন্দচর্য্যামাহ",
+          "translit": "svacchandacaryyām āha",
+          "lemma": "svacchanda",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচ্ছন্দেন",
+          "translit": "svacchandena",
+          "lemma": "svacchanda",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་འདོད",
+          "translit": "rang 'dod",
+          "lemma": "rang 'dod",
+          "att": "AO",
+          "where": "cp.39.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་འདོད་པའི་སྤྱོད་པ",
+          "translit": "rang gi 'dod pa'i spyod pa",
+          "lemma": "rang gi 'dod pa",
+          "att": "AO",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་འདུན་པས",
+          "translit": "rang gi 'dun pas",
+          "lemma": "'dun pa",
+          "att": "AO",
+          "where": "cp.39.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চ্ছন্দ্রেঁ"
+        },
+        {
+          "lang": "san",
+          "form": "স্বচ্ছন্দ"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་འདོད"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་གི་འདུན་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "At one's own will, freely (Sanskrit svacchanda; Tibetan rang 'dod, rang gi 'dun pa). The last line seems to end 'I roam at will' (birahūm̐ī cchandrem̐); Munidatta paraphrases 'I roam the three worlds at will' and calls the couplet 'conduct at will' (svacchandacaryā), quoting Śāntideva (cp.39.m6). The Tibetan line has rang 'dod spyod, 'act as one wishes'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's name for the conduct of the last couplet, matched by the Tibetan; 'at will' fits both the song's cchandrem̐ and his svacchandena."
+    },
+    {
+      "id": "kaukrtya",
+      "type": "term",
+      "en": "remorse",
+      "policy": "translate",
+      "alt": [
+        "regret"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবিদ্যাদোষবিনাশকৌকৃত্যং",
+          "translit": "avidyādoṣavināśakaukṛtyaṃ",
+          "lemma": "kaukṛtya",
+          "att": "AS",
+          "where": "cp.39.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྱོད་པ",
+          "translit": "'gyod pa",
+          "lemma": "'gyod pa",
+          "att": "AO",
+          "where": "cp.39.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কৌকৃত্য"
+        },
+        {
+          "lang": "bod",
+          "form": "འགྱོད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Remorse or regret (kaukṛtya; Tibetan 'gyod pa): brooding over what one has done or left undone; with restlessness, one of the five hindrances to meditation. Paraphrasing the refrain, Munidatta tells the king of mind that its remorse, in an obscure compound with 'the fault of ignorance', is now broken (cp.39.m3), where the song says its biṇāṇā has fled (2b).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An Abhidharma term in Munidatta's gloss on the refrain, where it stands in place of the song's biṇāṇā."
+    },
+    {
+      "id": "p-saraha",
+      "type": "person",
+      "en": "Saraha",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সরহপাদসিদ্ধাচার্য্যো",
+          "translit": "sarahapādasiddhācāryyo",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.39.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The one form of the name in this song not yet listed (cp.39.m6, 'the siddha master Sarahapāda'); the current match forms already find the name in the Tibetan heading, the bhaṇitā and the commentary."
+    },
+    {
+      "id": "svapna",
+      "type": "term",
+      "en": "dream",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুইণা",
+          "translit": "suiṇā",
+          "lemma": "suiṇa",
+          "att": "AS",
+          "where": "cp.39.1a"
+        },
+        {
+          "lang": "san",
+          "script": "সুইণেমিত্যাদি",
+          "translit": "suiṇem ityādi",
+          "lemma": "suiṇa",
+          "att": "AS",
+          "where": "cp.39.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নেপি",
+          "translit": "svapne 'pi",
+          "lemma": "svapna",
+          "att": "AS",
+          "where": "cp.39.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সুইণ"
+        },
+        {
+          "lang": "san",
+          "form": "সুইণ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "suiṇā (1a) is spelled with ṇ, unlike the listed suinā, and Munidatta cites it as suiṇe and renders svapne; the Tibetan line and comment read stong nyid, 'emptiness', instead (see questions)."
+    },
+    {
+      "id": "avidya",
+      "type": "term",
+      "en": "ignorance",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অবিদারঅরে",
+          "translit": "abidāraare",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.39.1a"
+        },
+        {
+          "lang": "san",
+          "script": "তবাবিদ্যাদোষাৎ",
+          "translit": "tavāvidyādoṣāt",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.39.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অবিদারঅ"
+        },
+        {
+          "lang": "san",
+          "form": "তবাবিদ্যা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's paraphrase renders 1a's abidāraa as avidyā (tavāvidyādoṣāt, cp.39.m2); the form is added with its derivation left open (see questions)."
+    },
+    {
+      "id": "amrta",
+      "type": "term",
+      "en": "nectar",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অমিয়া",
+          "translit": "amiyā",
+          "lemma": "amia",
+          "att": "AS",
+          "where": "cp.39.4a"
+        },
+        {
+          "lang": "san",
+          "script": "অমিঅমিত্যাদি",
+          "translit": "amiam ityādi",
+          "lemma": "amia",
+          "att": "AS",
+          "where": "cp.39.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অমিয়া"
+        },
+        {
+          "lang": "san",
+          "form": "অমিঅ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "amiyā (4a) and Munidatta’s citation amia (cp.39.m5) are new spellings; the Tibetan of both has bdud rtsi, already listed. A new symbolic reading is in questions."
+    },
+    {
+      "id": "ox",
+      "type": "term",
+      "en": "ox",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বলন্দেঁ",
+          "translit": "balandem̐",
+          "lemma": "balanda",
+          "att": "AS",
+          "where": "cp.39.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বলন্দ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "balanda is a nasalized spelling of balada, ox, in the bhaṇitā (5a); here the proposed dusta-balada covers it, but the form will help in other songs."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বশূন্যপ্রমাণো[প]পন্না",
+          "translit": "sarvvaśūnyapramāṇo[pa]pannā",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.39.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐམས་ཅད་སྟོང་པ",
+          "translit": "thams cad stong pa",
+          "lemma": "stong pa",
+          "att": "AO",
+          "where": "cp.39.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুণ(?=\\s+অপণা)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A compound form from the commentary (cp.39.m4) and a match for suṇa in 3b, where the Tibetan has stong pa, kept as narrow as the entry's existing match for suṇa biāra because suṇa can also mean 'listen'."
+    },
+    {
+      "id": "sva-para",
+      "type": "term",
+      "en": "self and other",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পর অপ্যণা",
+          "translit": "para apyaṇā",
+          "lemma": "para, āpaṇa",
+          "att": "AS",
+          "where": "cp.39.3a"
+        },
+        {
+          "lang": "san",
+          "script": "যস্মাদাত্মস্বরপরাপরভেদবিভাগং",
+          "translit": "yasmād ātmasvaraparāparabhedavibhāgaṃ",
+          "lemma": "svaparāpara",
+          "att": "AS",
+          "where": "cp.39.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་དང་གཞན་དང་ཕ་རོལ",
+          "translit": "rang dang gzhan dang pha rol",
+          "lemma": "rang gzhan",
+          "att": "AO",
+          "where": "cp.39.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পর অপ্যণা"
+        },
+        {
+          "lang": "san",
+          "form": "স্বরপরাপর"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་དང་གཞན་དང་ཕ་རོལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "3a disai para apyaṇā, 'sees other and self', where the Tibetan has rang dang gzhan, and Munidatta's ātmasvaraparāpara (cp.39.m4; svara is apparently a slip for sva) are new forms of the pair that the current matches miss; the longer Tibetan match keeps pha rol, 'other', there from being tagged as the far shore (para)."
+    },
+    {
+      "id": "udakacandra",
+      "type": "term",
+      "en": "moon in water",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নীরেন্দ্বা(ন্দ্রা)দি",
+          "translit": "nīrendvā(ndrā)di",
+          "lemma": "nīrendu",
+          "att": "AS",
+          "where": "cp.39.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's list of twelve examples opens with nīrendu, 'moon in water' (cp.39.m4), a spelling not yet listed; the current match নীরেন্দ already finds it, and the Tibetan chu zla is listed."
+    },
+    {
+      "id": "adbhuta",
+      "type": "term",
+      "en": "wonder",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অদঅভুঅ",
+          "translit": "adaabhua",
+          "lemma": "adabhua",
+          "att": "AS",
+          "where": "cp.39.3a"
+        },
+        {
+          "lang": "san",
+          "script": "আকটঃ",
+          "translit": "ākaṭaḥ",
+          "lemma": "akaṭa",
+          "att": "AS",
+          "where": "cp.39.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨད་བྱུང",
+          "translit": "rmad byung",
+          "lemma": "rmad du byung ba",
+          "att": "AO",
+          "where": "cp.39.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অদঅভুঅ"
+        },
+        {
+          "lang": "san",
+          "form": "অকট"
+        },
+        {
+          "lang": "san",
+          "form": "আকট"
+        },
+        {
+          "lang": "bod",
+          "form": "རྨད་བྱུང"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![উু])দ্ভুত"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "adaabhua (3a), Munidatta's ākaṭa and akaṭetyādi (cp.39.m3), adbhuta in sandhi (moho 'yam adbhutaḥ, cp.39.m4) and the Tibetan rmad byung (2a) are new forms the current matches miss."
+    },
+    {
+      "id": "house",
+      "type": "term",
+      "en": "house",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘারেঁ",
+          "translit": "ghārem̐",
+          "lemma": "ghara",
+          "att": "AS",
+          "where": "cp.39.4b"
+        },
+        {
+          "lang": "san",
+          "script": "গৃহমিতি",
+          "translit": "gṛham iti",
+          "lemma": "gṛha",
+          "att": "AS",
+          "where": "cp.39.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ঘারেঁ"
+        },
+        {
+          "lang": "san",
+          "form": "গৃহমিতি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta glosses ghārem̐ (4b) as gṛha, 'house' (gṛham iti, cp.39.m5); a new symbolic reading for the entry is in questions."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিঅমন",
+          "translit": "niamana",
+          "lemma": "niamana",
+          "att": "AS",
+          "where": "cp.39.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নিজমন(ণ)",
+          "translit": "nijamana(ṇa)",
+          "lemma": "nijamanas",
+          "att": "AS",
+          "where": "cp.39.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নিঅমন"
+        },
+        {
+          "lang": "san",
+          "form": "নিজমন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "niamana (1a, with dental n, where the listed form has ṇ) and Munidatta’s nijamana(ṇa) (cp.39.m2) are forms the current matches miss."
+    },
+    {
+      "id": "moha",
+      "type": "term",
+      "en": "delusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোহারো",
+          "translit": "mohāro",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.39.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta (moho 'yam) and the Tibetan (gti mug) both read 3a's mohāro as delusion; the form is recorded (the current match already finds it), with a doubt noted in questions."
+    }
+  ],
+  "questions": [
+    "ox / dusta-balada (cp.39.5a, cp.39.m6): I proposed the bad ox as its own entry because Munidatta explains the compound as a whole ('what gives strength to bad objects') and reads it as the king of mind. If you prefer to fold it into ox, the new reading for ox would be: the bad ox → the king of mind (cittarāja), per Munidatta, cp.39.m6; that entry's reading from song 33 is bodhicitta.",
+    "amrta, new symbolic reading: nectar → innate joy (sahajānanda). Munidatta's paraphrase of 4a has 'when innate joy is present' (sahajajāna[nde] sthite sati) where the song has 'while there is nectar'; the Tibetan comment agrees (lhan cig skyes pa'i dga' ba la gnas pa yod na). Segment cp.39.m5; a paraphrase, not an explicit gloss. Shastri's restored sahajajāna[nde] could also stand for sahajajñāne, 'innate knowledge', so I did not add it to sahajananda.",
+    "house, new symbolic reading: house → one's own body (svakāya): 'gṛham iti svakaṃ kāyaṃ', Tibetan khyim zhes pa ni rang gi lus, glossing ghārem̐ of 4b (cp.39.m5). The Tibetan line of 4b reads differently (btung ba bdag gis go'o, 'I have understood the drink'), and Munidatta's next word, pīnakam (Tibetan btung ba can), seems to answer that reading rather than Shastri's pārem̐, which the current match tags as para, 'far shore'.",
+    "hum (cp.39.2a): Munidatta and the Tibetan both take hūm̐ as the syllable hūṃ, but in Old Bengali it could also be the first-person pronoun 'I' (compare Apabhraṃśa hauṃ). A whole-word match would also hit hūm̐ in 44.2a (ācchu hum̐) and 47.2b (ṣiñca hūm̐ pāṇī), where the pronoun may be meant, so the Old Bengali match is limited to this line (hūm̐ bhabai); it also leaves alone the hūm̐ inside birahūm̐ī (5b). The Sanskrit matches (hūṃkāra) also find cp.10.m2 and cp.44.m4.",
+    "Witness, 2a: Shastri's line ends aṇā, while Munidatta cites gaaṇa, 'sky' (gaaṇeti prabhāsvare praviṣṭosi, cp.39.m3), and the Tibetan has nam mkha' la; the line may have lost ga-. The reading sky → clear light is already in gagana (cp.30.m3), so I proposed nothing for it. The second Tibetan line under 2a (kyog por 'gro ba bslang gyis la) seems to render 2b's baṅge jāyā nilesi as 'took up crooked going' (see pl-banga). No entry is proposed for jāyā, 'wife': it is plain in the line and Munidatta does not gloss it.",
+    "moha (cp.39.3a): the current match already tags mohāro as delusion, as Munidatta (moho 'yam adbhutaḥ, cp.39.m4) and the Tibetan (srid pa'i gti mug) read it, but it could instead be the Old Bengali genitive 'my' (compare mohora in song 20). I only recorded the form.",
+    "sunyata: suṇa is a listed form, but the entry matches it only before biāra. In 3b (sahajem̐ suṇa apaṇā) the Tibetan has stong pa, so I matched it there only, because a whole-word match would also catch suṇa 'listen' in other songs. In 5a (bara suṇa gohālī) the word is literal, 'an empty cowshed', though Munidatta turns it into 'the form of empty clear light' (cp.39.m6); I left it untagged. In 1a the Tibetan line and comment (stong nyid ces bya ba) read suṇa, 'empty', where the Bengali has suiṇā, 'dream'.",
+    "avidya (cp.39.1a): abidāraa is added because Munidatta renders it avidyā (tavāvidyādoṣāt, cp.39.m2); its division (abidāraa re?) and derivation are uncertain, and the Tibetan line has lag pas hrol, perhaps from vidāra-, 'tear apart, loosen'.",
+    "vijnana (cp.39.2b): the current match tags biṇāṇā as consciousness, but here Munidatta's paraphrase has kaukṛtya, 'remorse' (cp.39.m3, proposed as kaukrtya), and the Tibetan line has g.yo sgyu sna tshogs pa, 'various deceits'. No change proposed; the drafter should be told the sense is doubtful here.",
+    "jalabimba (cp.39.3b): bimba can also mean a reflected image, and Munidatta's twelve examples begin with the moon in water (cp.39.m4). I chose 'water bubble' after the Tibetan chu bur; 'reflection in water' would come close to udakacandra.",
+    "visa (cp.39.m5): Shastri restores the manuscript's rūpādiviṣa- to viṣa[ya]; the Tibetan comment's 'poison of objects' (yul gyi dug) suggests both words stood there. The Sanskrit match for viṣa does not tag that word, since the matcher reads through the brackets and sees viṣaya.",
+    "m5 opening: Shastri's caturthāna[nda]m ātmāha is hard to construe; the Tibetan (dga' ba bzhi'i bdag nyid che ba gsungs) suggests caturānandamāhātmyam āha, 'states the greatness of the four joys' (compare ananda and mahatmya). No form proposed.",
+    "Reflexives: the current match already tags apā (4a) as atman, 'self', and apaṇā (3b) is rendered bdag in the Tibetan, but both read more naturally as 'yourself, itself' than as the doctrinal self; I proposed nothing for them. 4a's pasara basa matches the Tibetan gzhan dbang, 'under another's power'."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "205b5d41b2331c0f5d641346d45216f042f397c9007600b1a052b3d035a26666",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "f5556f71798e984845b42a890cf4267afa6225a8c02ac9d30e36b01f6541f55b",
+    "sourceSha": "e0d8bf55bf81097d6a06bf9c63e5199227957b94ca084bfc09044c60991909de"
+  }
+}

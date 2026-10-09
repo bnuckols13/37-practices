@@ -1030,22 +1030,50 @@
           "lemma": "ngo mtshar",
           "att": "AO",
           "where": "cp.33.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "অদঅভুঅ",
+          "translit": "adaabhua",
+          "lemma": "adabhua",
+          "att": "AS",
+          "where": "cp.39.3a"
+        },
+        {
+          "lang": "san",
+          "script": "আকটঃ",
+          "translit": "ākaṭaḥ",
+          "lemma": "akaṭa",
+          "att": "AS",
+          "where": "cp.39.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨད་བྱུང",
+          "translit": "rmad byung",
+          "lemma": "rmad du byung ba",
+          "att": "AO",
+          "where": "cp.39.2a"
         }
       ],
       "match": {
         "oben": [
-          "অদভূআ"
+          "অদভূআ",
+          "অদঅভুঅ"
         ],
         "san": [
           "অদ্ভুত",
           "অকটেতি",
           "আশ্চর্য্য",
-          "কিমদ্ভুত"
+          "কিমদ্ভুত",
+          "অকট",
+          "আকট"
         ],
         "bod": [
           "ཡ་མཚན",
           "རྨད་དུ་བྱུང",
-          "ངོ་མཚར"
+          "ངོ་མཚར",
+          "རྨད་བྱུང"
         ]
       },
       "matchRe": {
@@ -1054,6 +1082,9 @@
         ],
         "bod": [
           "(?<![\\p{L}\\p{M}])ཡ་མཚན(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![উু])দ্ভুত"
         ]
       },
       "definition": "A wonder or marvel (Old Bengali adabhūā, Sanskrit adbhuta; Tibetan ya mtshan): something astonishing; in Sanskrit poetics also the mood (rasa) of the marvellous. The refrain of song 30 says a wonder has risen in the middle of the sky. Munidatta's paraphrase speaks of the arising of the fruit, wondrous coupled union, in clear light (cp.30.m3).",
@@ -2445,11 +2476,33 @@
           "lemma": "bdud rtsi",
           "att": "AO",
           "where": "cp.20.m1"
+        },
+        {
+          "lang": "oben",
+          "script": "অমিয়া",
+          "translit": "amiyā",
+          "lemma": "amia",
+          "att": "AS",
+          "where": "cp.39.4a"
+        },
+        {
+          "lang": "san",
+          "script": "অমিঅমিত্যাদি",
+          "translit": "amiam ityādi",
+          "lemma": "amia",
+          "att": "AS",
+          "where": "cp.39.m5"
         }
       ],
       "match": {
         "bod": [
           "བདུད་རྩི"
+        ],
+        "oben": [
+          "অমিয়া"
+        ],
+        "san": [
+          "অমিঅ"
         ]
       },
       "matchRe": {
@@ -5507,17 +5560,37 @@
           "lemma": "avidyā",
           "att": "AS",
           "where": "cp.22.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "অবিদারঅরে",
+          "translit": "abidāraare",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.39.1a"
+        },
+        {
+          "lang": "san",
+          "script": "তবাবিদ্যাদোষাৎ",
+          "translit": "tavāvidyādoṣāt",
+          "lemma": "avidyā",
+          "att": "AS",
+          "where": "cp.39.m2"
         }
       ],
       "match": {
         "san": [
           "অবিদ্যা",
           "কৃতাবিদ্যা",
-          "অনাদ্যবিদ্যা"
+          "অনাদ্যবিদ্যা",
+          "তবাবিদ্যা"
         ],
         "bod": [
           "མ་རིག་པའི",
           "མ་རིག་པ"
+        ],
+        "oben": [
+          "অবিদারঅ"
         ]
       },
       "matchRe": {},
@@ -11103,6 +11176,22 @@
           "lemma": "manas",
           "att": "AS",
           "where": "cp.32.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "নিঅমন",
+          "translit": "niamana",
+          "lemma": "niamana",
+          "att": "AS",
+          "where": "cp.39.1a"
+        },
+        {
+          "lang": "san",
+          "script": "নিজমন(ণ)",
+          "translit": "nijamana(ṇa)",
+          "lemma": "nijamanas",
+          "att": "AS",
+          "where": "cp.39.m2"
         }
       ],
       "match": {
@@ -11110,14 +11199,16 @@
           "চীএ",
           "চীঅ",
           "চিত্তা",
-          "নিঅমণ"
+          "নিঅমণ",
+          "নিঅমন"
         ],
         "san": [
           "চিত্ত",
           "চিত্তং",
           "চীঅ",
           "চিত্তেন",
-          "নিজমনসা"
+          "নিজমনসা",
+          "নিজমন"
         ],
         "bod": [
           "སེམས",
@@ -14515,6 +14606,111 @@
       }
     },
     {
+      "id": "dusta-balada",
+      "type": "term",
+      "status": "proposed",
+      "en": "bad ox",
+      "alt": [
+        "vicious ox"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দুঠ্য বলন্দেঁ",
+          "translit": "duṭhya balandem̐",
+          "lemma": "duṭha balanda",
+          "att": "AS",
+          "where": "cp.39.5a"
+        },
+        {
+          "lang": "san",
+          "script": "দুষ্ট বলদমিতি",
+          "translit": "duṣṭa valadam iti",
+          "lemma": "duṣṭabalada",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "san",
+          "script": "দুষ্টবলদেন",
+          "translit": "duṣṭavaladena",
+          "lemma": "duṣṭabalada",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུངས་གླང",
+          "translit": "ma rungs glang",
+          "lemma": "ma rungs glang",
+          "att": "AO",
+          "where": "cp.39.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "དུཥྚ་བ་ལ་ད",
+          "translit": "duSh+Ta ba la da",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་རུངས་པའི་གླང་པོ",
+          "translit": "ma rungs pa'i glang po",
+          "lemma": "ma rungs glang",
+          "att": "AO",
+          "where": "cp.39.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "দুষ্টবলদ",
+          "দুষ্ট বলদ"
+        ],
+        "bod": [
+          "མ་རུངས་གླང",
+          "མ་རུངས་པའི་གླང",
+          "དུཥྚ་བ་ལ་ད"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "দুঠ(?:্য)?\\s*বলন্দ"
+        ]
+      },
+      "definition": "A bad or vicious ox (Old Bengali duṭha balanda; Sanskrit duṣṭa, 'bad', and balada, 'ox'). In the last couplet Saraha asks what use a bad ox is, an empty cowshed being better. Munidatta explains duṣṭabalada as 'what gives strength (bala) to bad objects' and reads it as the king of mind (cp.39.m6); the Tibetan line has ma rungs glang.",
+      "symbolic": {
+        "image": "the bad ox, than which an empty cowshed is better (5a)",
+        "readings": [
+          {
+            "referent": "the king of mind (cittarāja): duṣṭabalada is 'what gives strength (balaṃ dadāti) to bad objects', to be understood as the king of mind, by which alone the three worlds were destroyed; the Tibetan comment agrees and transcribes the word (duSh+Ta ba la da sems kyi rgyal por rig par bya'o)",
+            "per": "Munidatta",
+            "where": [
+              "cp.39.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "king of mind",
+        "mind",
+        "citta",
+        "thought"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "dvadasa-bhumi",
       "type": "term",
       "status": "proposed",
@@ -14571,6 +14767,59 @@
       },
       "matchRe": {},
       "definition": "Twelve stages (bhūmi) of awakening, a count some tantric schemes reach by adding buddha stages to the bodhisattva's ten. Song 34 (5b) has dvādaśabhuaṇa, literally 'twelve worlds' (compare tiṇi bhuaṇa, 'three worlds'); Munidatta reads twelve stages, by which 'we are equal to the Jinas' (cp.34.m6). The Tibetan line has sa bcu, 'ten stages', its comment 'the twelfth stage'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "dvadasa-drstanta",
+      "type": "term",
+      "status": "proposed",
+      "en": "twelve examples",
+      "alt": [
+        "twelve similes"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নীরেন্দ্বা(ন্দ্রা)দিদ্বাদশদৃষ্টান্তদ্বারেণ",
+          "translit": "nīrendvā(ndrā)didvādaśadṛṣṭāntadvāreṇa",
+          "lemma": "dṛṣṭānta",
+          "att": "AS",
+          "where": "cp.39.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔེ་ནི་བཅུ་གཉིས",
+          "translit": "dpe ni bcu gnyis",
+          "lemma": "dpe",
+          "att": "AO",
+          "where": "cp.39.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "দ্বাদশদৃষ্টান্ত"
+        ],
+        "bod": [
+          "དཔེ་ནི་བཅུ་གཉིས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Twelve examples (dṛṣṭānta) of appearance without substance, the first named being the moon in water; Mahāyāna texts give such lists of similes for illusion, varying in number and members. In a partly corrupt passage Munidatta says that through them accomplishment, established by the proof that all is empty, arises for those who know reality (cp.39.m4). Tibetan: dpe bcu gnyis.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -16798,6 +17047,110 @@
       }
     },
     {
+      "id": "ghunda",
+      "type": "term",
+      "status": "proposed",
+      "en": "ghuṇḍa",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ঘুণ্ড",
+          "translit": "ghuṇḍa",
+          "lemma": "ghuṇḍa",
+          "att": "AS",
+          "where": "cp.39.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ঘুণ্ড"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A word of uncertain sense in 1b, apparently addressed to the mind: 'how will you stay, ghuṇḍa?'. It might be a term of abuse (compare Bengali guṇḍā, 'ruffian'), but that is a guess. Munidatta's paraphrase has only 'O king of mind' there (cp.39.m2), and the Tibetan line (khyod nyid slar sdong ji lta bu) does not clearly render it.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "gohali",
+      "type": "term",
+      "status": "proposed",
+      "en": "cowshed",
+      "alt": [
+        "cow pen"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গোহালী",
+          "translit": "gohālī",
+          "lemma": "gohālī",
+          "att": "AS",
+          "where": "cp.39.5a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "গোহাল"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A cowshed or cow pen (Old Bengali gohālī, from Sanskrit gośālā). In the last couplet Saraha says an empty cowshed is better than a bad ox, apparently a proverb. Munidatta glosses go, 'cow', as the senses and speaks of their support, one's own body (cp.39.m6). The Tibetan line has no cowshed, only 'it is best' (mchog).",
+      "symbolic": {
+        "image": "the empty cowshed (go-hālī, 'cow-shed') that is better than a bad ox (5a)",
+        "readings": [
+          {
+            "referent": "the senses (indriya): 'go means the senses' (go iti indriyaṃ), glossing the first part of gohālī; the Tibetan comment instead explains go as 'ox' (go zhes pa ni glang po'o)",
+            "per": "Munidatta",
+            "where": [
+              "cp.39.m6"
+            ]
+          },
+          {
+            "referent": "the support (sālambana) of the senses, one's own body, made into the form of empty clear light by the grace of the guru's word: his paraphrase goes on from go to this, without an explicit gloss of the shed; the Tibetan comment agrees (lus la stong pa 'od gsal gyi gzugs su byas)",
+            "per": "Munidatta",
+            "where": [
+              "cp.39.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "senses",
+        "sense faculties",
+        "faculties",
+        "body",
+        "clear light",
+        "emptiness"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "gold",
       "type": "term",
       "status": "proposed",
@@ -18332,17 +18685,35 @@
           "lemma": "bāha",
           "att": "AS",
           "where": "cp.36.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "ঘারেঁ",
+          "translit": "ghārem̐",
+          "lemma": "ghara",
+          "att": "AS",
+          "where": "cp.39.4b"
+        },
+        {
+          "lang": "san",
+          "script": "গৃহমিতি",
+          "translit": "gṛham iti",
+          "lemma": "gṛha",
+          "att": "AS",
+          "where": "cp.39.m5"
         }
       ],
       "match": {
         "oben": [
           "ঘরপণ",
-          "ঘর"
+          "ঘর",
+          "ঘারেঁ"
         ],
         "san": [
           "গৃহে",
           "ঘরে",
-          "গৃহং"
+          "গৃহং",
+          "গৃহমিতি"
         ],
         "bod": [
           "ཁང",
@@ -18484,6 +18855,92 @@
       },
       "forbiddenInLine": [
         "clear light"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "hum",
+      "type": "term",
+      "status": "proposed",
+      "en": "hūṃ",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হূঁ",
+          "translit": "hūm̐",
+          "lemma": "hūṃ",
+          "att": "AS",
+          "where": "cp.39.2a"
+        },
+        {
+          "lang": "san",
+          "script": "হূঙ্কার",
+          "translit": "hūṅkāra",
+          "lemma": "hūṃkāra",
+          "att": "AS",
+          "where": "cp.39.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཧཱུཾ",
+          "translit": "hUM",
+          "lemma": "hUM",
+          "att": "AO",
+          "where": "cp.39.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཧཱུཾ་ཡིག",
+          "translit": "hUM yig",
+          "lemma": "hUM yig",
+          "att": "AO",
+          "where": "cp.39.m3"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ཧཱུཾ",
+          "ཧཱུྃ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])হ[ুূ]ঁ(?=\\s+ভবই)"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])হ[ুূ][ঁং](?![\\p{L}\\p{M}])",
+          "হ[ুূ](?:ঙ্|ং|ঁ)কার"
+        ]
+      },
+      "definition": "The syllable hūṃ, a seed syllable (bīja) of the tantras from which deities are visualized arising; in the triad oṃ āḥ hūṃ it stands for mind. In the refrain (2a) a hūṃ comes to be as a wonder; Munidatta addresses the king of mind as born from the seed, the syllable hūṃ (cp.39.m3). The Tibetan has hUM.",
+      "symbolic": {
+        "image": "the hūṃ that comes to be, a wonder (2a)",
+        "readings": [
+          {
+            "referent": "the seed (bīja) from which the king of mind is born: Munidatta addresses 'O king of mind, born from the seed, the syllable hūṃ' (hūṅkārabījodbhava); the Tibetan comment agrees (hUM yig sa bon las byung ba)",
+            "per": "Munidatta",
+            "where": [
+              "cp.39.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "king of mind",
+        "mind",
+        "seed",
+        "seed syllable"
       ],
       "texts": [
         "charyapada"
@@ -19142,6 +19599,62 @@
         "mind of saṃsāra",
         "citta"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "jalabimba",
+      "type": "term",
+      "status": "proposed",
+      "en": "water bubble",
+      "alt": [
+        "bubble"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জলবিম্বকারে",
+          "translit": "jalabimbakāre",
+          "lemma": "jalabimba",
+          "att": "AS",
+          "where": "cp.39.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ཡི་ཆུ་བུར",
+          "translit": "chu yi chu bur",
+          "lemma": "chu bur",
+          "att": "AO",
+          "where": "cp.39.3b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "জলবিম্ব"
+        ],
+        "san": [
+          "জলবিম্ব"
+        ],
+        "bod": [
+          "ཆུ་བུར"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A bubble on water (jalabimba; bimba can also mean a disc or a reflected image), a stock image of what appears without substance. In 3b the world is like a water bubble, empty by nature; the Tibetan line has chu bur, 'bubble'. Commenting on the couplet, Munidatta speaks of twelve examples beginning with the moon in water (cp.39.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -21612,6 +22125,59 @@
       }
     },
     {
+      "id": "kaukrtya",
+      "type": "term",
+      "status": "proposed",
+      "en": "remorse",
+      "alt": [
+        "regret"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অবিদ্যাদোষবিনাশকৌকৃত্যং",
+          "translit": "avidyādoṣavināśakaukṛtyaṃ",
+          "lemma": "kaukṛtya",
+          "att": "AS",
+          "where": "cp.39.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འགྱོད་པ",
+          "translit": "'gyod pa",
+          "lemma": "'gyod pa",
+          "att": "AO",
+          "where": "cp.39.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "কৌকৃত্য"
+        ],
+        "bod": [
+          "འགྱོད་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Remorse or regret (kaukṛtya; Tibetan 'gyod pa): brooding over what one has done or left undone; with restlessness, one of the five hindrances to meditation. Paraphrasing the refrain, Munidatta tells the king of mind that its remorse, in an obscure compound with 'the fault of ignorance', is now broken (cp.39.m3), where the song says its biṇāṇā has fled (2b).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "kaya-vak-citta",
       "type": "term",
       "status": "proposed",
@@ -23171,6 +23737,74 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "kutumba",
+      "type": "term",
+      "status": "proposed",
+      "en": "family",
+      "alt": [
+        "kin"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কুণ্ডবাঁ",
+          "translit": "kuṇḍabām̐",
+          "lemma": "kuṇḍabā",
+          "att": "AS",
+          "where": "cp.39.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉེན་འདུན",
+          "translit": "gnyen 'dun",
+          "lemma": "gnyen 'dun",
+          "att": "AO",
+          "where": "cp.39.4b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কুণ্ডবা"
+        ],
+        "bod": [
+          "གཉེན་འདུན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Kin, the household family (Old Bengali kuṇḍabā, apparently from Sanskrit kuṭumba; the Tibetan has gnyen 'dun, 'relatives'). In 4b the speaker says he will eat the bad kuṇḍabā, a violent paradox like the killing of kin in song 11. Munidatta's paraphrase puts the host of passion, hatred, delusion and the rest in its place (cp.39.m5).",
+      "symbolic": {
+        "image": "the bad family that the speaker will eat (4b)",
+        "readings": [
+          {
+            "referent": "the host (samūha) of passion, hatred, delusion and the rest, whose eating, that is, making it without intrinsic nature, the speaker is to do (bhakṣaṇaṃ niḥsvabhāvīkaraṇaṃ mayā kartavyam): his paraphrase puts the host where the song has kuṇḍabā, without an explicit gloss; the Tibetan comment agrees ('dod chags zhe sdang gti mug la sogs pa'i tshogs)",
+            "per": "Munidatta",
+            "where": [
+              "cp.39.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "passion",
+        "hatred",
+        "delusion",
+        "afflictions",
+        "defilements",
+        "poisons"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -25293,6 +25927,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "malasi",
+      "type": "term",
+      "status": "proposed",
+      "en": "Mālaśī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মালশী",
+          "translit": "mālaśī",
+          "lemma": "mālaśī",
+          "att": "AS",
+          "where": "cp.39.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མཱ་ལ་ལཱ་སི",
+          "translit": "mA la lA si",
+          "lemma": "mA la lA si",
+          "att": "AO",
+          "where": "cp.39.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মালশী"
+        ],
+        "bod": [
+          "མཱ་ལ་ལཱ་སི"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Mālaśī, the name of the rāga (melodic mode) to which song 39 is sung, given in its heading. The Tibetan translation transcribes the name instead of translating it, as mA la lA si, with an extra syllable; whether that reflects another form of the name or a slip is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -27777,6 +28462,14 @@
           "lemma": "rmongs pa",
           "att": "AO",
           "where": "cp.35.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "মোহারো",
+          "translit": "mohāro",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.39.3a"
         }
       ],
       "match": {
@@ -31845,9 +32538,21 @@
           "lemma": "glang",
           "att": "AO",
           "where": "cp.33.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "বলন্দেঁ",
+          "translit": "balandem̐",
+          "lemma": "balanda",
+          "att": "AS",
+          "where": "cp.39.5a"
         }
       ],
-      "match": {},
+      "match": {
+        "oben": [
+          "বলন্দ"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])বলদ"
@@ -34963,6 +35668,14 @@
           "lemma": "sa ra ha",
           "att": "AO",
           "where": "cp.38.5b"
+        },
+        {
+          "lang": "san",
+          "script": "সরহপাদসিদ্ধাচার্য্যো",
+          "translit": "sarahapādasiddhācāryyo",
+          "lemma": "sarahapāda",
+          "att": "AS",
+          "where": "cp.39.m6"
         }
       ],
       "match": {
@@ -37846,6 +38559,48 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "pl-banga",
+      "type": "place",
+      "status": "proposed",
+      "en": "Baṅga",
+      "alt": [
+        "Bengal"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বঙ্গে",
+          "translit": "baṅge",
+          "lemma": "baṅga",
+          "att": "AS",
+          "where": "cp.39.2b"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বঙ্গে?(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Baṅga (Sanskrit Vaṅga), an old name for the land of the Ganges delta in eastern Bengal, later for Bengal as a whole. In the refrain (2b) the addressee is told 'you took a wife in Baṅga'. Munidatta passes over the phrase; the Tibetan seems to read kyog por 'gro ba, 'crooked going', as if from vaṅka, 'crooked' (aligned with 2a).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -44752,6 +45507,22 @@
           "lemma": "śūnya",
           "att": "AS",
           "where": "cp.31.4b"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বশূন্যপ্রমাণো[প]পন্না",
+          "translit": "sarvvaśūnyapramāṇo[pa]pannā",
+          "lemma": "śūnya",
+          "att": "AS",
+          "where": "cp.39.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཐམས་ཅད་སྟོང་པ",
+          "translit": "thams cad stong pa",
+          "lemma": "stong pa",
+          "att": "AO",
+          "where": "cp.39.m4"
         }
       ],
       "match": {
@@ -44783,7 +45554,8 @@
           "(?<![\\p{L}\\p{M}])সুন(?=\\s+তান্ত)",
           "(?<![\\p{L}\\p{M}])সুনে(?![\\p{L}\\p{M}])",
           "(?<![\\p{L}\\p{M}])সুন(?!\\s+ভো)(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])সুণ(?=\\s+বিআর)"
+          "(?<![\\p{L}\\p{M}])সুণ(?=\\s+বিআর)",
+          "(?<![\\p{L}\\p{M}])সুণ(?=\\s+অপণা)"
         ]
       },
       "definition": "Emptiness: the absence of intrinsic existence in all things, a central idea of Mahāyāna thought. In song 1 it appears in the Old Bengali compound sunupākha, which Munidatta renders śūnyatāpakṣa, 'the side (or wing) of emptiness' (cp.01.m5).",
@@ -45166,18 +45938,46 @@
           "lemma": "rang gzhan",
           "att": "AO",
           "where": "cp.34.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "পর অপ্যণা",
+          "translit": "para apyaṇā",
+          "lemma": "para, āpaṇa",
+          "att": "AS",
+          "where": "cp.39.3a"
+        },
+        {
+          "lang": "san",
+          "script": "যস্মাদাত্মস্বরপরাপরভেদবিভাগং",
+          "translit": "yasmād ātmasvaraparāparabhedavibhāgaṃ",
+          "lemma": "svaparāpara",
+          "att": "AS",
+          "where": "cp.39.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་དང་གཞན་དང་ཕ་རོལ",
+          "translit": "rang dang gzhan dang pha rol",
+          "lemma": "rang gzhan",
+          "att": "AO",
+          "where": "cp.39.m4"
         }
       ],
       "match": {
         "oben": [
-          "সপরবিভাগ"
+          "সপরবিভাগ",
+          "পর অপ্যণা"
         ],
         "bod": [
           "རང་དང་གཞན",
           "རང་གཞན",
-          "རང་དང་ཕ་རོལ་དང་གཞན"
+          "རང་དང་ཕ་རོལ་དང་གཞན",
+          "རང་དང་གཞན་དང་ཕ་རོལ"
         ],
-        "san": []
+        "san": [
+          "স্বরপরাপর"
+        ]
       },
       "matchRe": {
         "oben": [
@@ -45294,6 +46094,95 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "svacchanda",
+      "type": "term",
+      "status": "proposed",
+      "en": "at will",
+      "alt": [
+        "freely"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চ্ছন্দ্রেঁ",
+          "translit": "cchandrem̐",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.39.5b"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচ্ছন্দচর্য্যামাহ",
+          "translit": "svacchandacaryyām āha",
+          "lemma": "svacchanda",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচ্ছন্দেন",
+          "translit": "svacchandena",
+          "lemma": "svacchanda",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་འདོད",
+          "translit": "rang 'dod",
+          "lemma": "rang 'dod",
+          "att": "AO",
+          "where": "cp.39.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་འདོད་པའི་སྤྱོད་པ",
+          "translit": "rang gi 'dod pa'i spyod pa",
+          "lemma": "rang gi 'dod pa",
+          "att": "AO",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་འདུན་པས",
+          "translit": "rang gi 'dun pas",
+          "lemma": "'dun pa",
+          "att": "AO",
+          "where": "cp.39.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চ্ছন্দ্রেঁ"
+        ],
+        "san": [
+          "স্বচ্ছন্দ"
+        ],
+        "bod": [
+          "རང་འདོད",
+          "རང་གི་འདུན་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "At one's own will, freely (Sanskrit svacchanda; Tibetan rang 'dod, rang gi 'dun pa). The last line seems to end 'I roam at will' (birahūm̐ī cchandrem̐); Munidatta paraphrases 'I roam the three worlds at will' and calls the couplet 'conduct at will' (svacchandacaryā), quoting Śāntideva (cp.39.m6). The Tibetan line has rang 'dod spyod, 'act as one wishes'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -45464,16 +46353,42 @@
           "lemma": "svapnāntara",
           "att": "AS",
           "where": "cp.36.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "সুইণা",
+          "translit": "suiṇā",
+          "lemma": "suiṇa",
+          "att": "AS",
+          "where": "cp.39.1a"
+        },
+        {
+          "lang": "san",
+          "script": "সুইণেমিত্যাদি",
+          "translit": "suiṇem ityādi",
+          "lemma": "suiṇa",
+          "att": "AS",
+          "where": "cp.39.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নেপি",
+          "translit": "svapne 'pi",
+          "lemma": "svapna",
+          "att": "AS",
+          "where": "cp.39.m2"
         }
       ],
       "match": {
         "oben": [
           "সুইনা",
-          "স্বপণ"
+          "স্বপণ",
+          "সুইণ"
         ],
         "san": [
           "স্বপ্ন",
-          "স্বপন"
+          "স্বপন",
+          "সুইণ"
         ],
         "bod": [
           "རྨི་ལམ"
@@ -49992,6 +50907,14 @@
           "lemma": "nīrendu",
           "att": "AS",
           "where": "cp.31.m4"
+        },
+        {
+          "lang": "san",
+          "script": "নীরেন্দ্বা(ন্দ্রা)দি",
+          "translit": "nīrendvā(ndrā)di",
+          "lemma": "nīrendu",
+          "att": "AS",
+          "where": "cp.39.m4"
         }
       ],
       "match": {
@@ -54407,6 +55330,83 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "visa",
+      "type": "term",
+      "status": "proposed",
+      "en": "poison",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিস",
+          "translit": "bisa",
+          "lemma": "bisa",
+          "att": "AS",
+          "where": "cp.39.4a"
+        },
+        {
+          "lang": "pra",
+          "script": "পরবিষ",
+          "translit": "paraviṣa",
+          "lemma": "viṣa",
+          "att": "AS",
+          "where": "cp.39.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དུག",
+          "translit": "dug",
+          "lemma": "dug",
+          "att": "AO",
+          "where": "cp.39.m5"
+        }
+      ],
+      "match": {
+        "bod": [
+          "དུག"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বিস(?![\\p{L}\\p{M}])",
+          "(?<!্)বিষ(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<!্)বিষ(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Poison (Old Bengali bisa, Sanskrit viṣa; Tibetan dug). In 4a the mind swallows poison though nectar is at hand. Munidatta's paraphrase speaks of the sense objects, form and the rest, and he quotes Saraha: the housewife eats another's poison (cp.39.m5). The Tibetan line of 4a reads dug med, 'without poison', a negative the Bengali lacks.",
+      "symbolic": {
+        "image": "poison swallowed while nectar is at hand (4a)",
+        "readings": [
+          {
+            "referent": "the sense objects beginning with form (rūpādiviṣaya): his paraphrase puts them where the song has poison, with no explicit gloss; the manuscript reads rūpādiviṣa-, which Shastri restores to viṣa[ya], 'object', while the Tibetan comment has 'the poison of objects, form and the rest' (gzugs la sogs pa yul gyi dug)",
+            "per": "Munidatta",
+            "where": [
+              "cp.39.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "sense objects",
+        "objects",
+        "objects of the senses",
+        "form"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

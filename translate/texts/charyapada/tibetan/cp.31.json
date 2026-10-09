@@ -1,0 +1,123 @@
+{
+  "unit": "cp.31",
+  "equivalents": [
+    {
+      "id": "citta",
+      "line": "cp.31.1a",
+      "script": "ཡིད",
+      "wylie": "yid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "For maṇa the Tibetan uses yid, its usual word for manas, where it has sems for cia in 3b and throughout the commentary."
+    },
+    {
+      "id": "atman",
+      "line": "cp.31.1b",
+      "script": "བདག་གིས",
+      "wylie": "bdag gis",
+      "lemma": "bdag",
+      "confidence": "likely",
+      "note": "The Tibetan reads apā as the first person, bdag gis 'by me', the subject of mi shes 'do not know', not as the self that went and entered; its comment (cp.31.m2) cites the same bdag gis where Munidatta cites apā."
+    },
+    {
+      "id": "niralamba",
+      "line": "cp.31.2b",
+      "script": "དམིགས་པ་མེད",
+      "wylie": "dmigs pa med",
+      "lemma": "dmigs pa med pa",
+      "confidence": "likely",
+      "note": "The Tibetan dmigs pa med, 'objectless', agrees with Munidatta's nirālamba (dmigs pa med pa in cp.31.m3) rather than nirāśa 'without hope'; likely only because dmigs pa med pa is also the glossary's Tibetan for anupalambha."
+    },
+    {
+      "id": "p-aryadeva",
+      "line": "cp.31.2b",
+      "script": "འཕགས་པ་ལྷ",
+      "wylie": "'phags pa lha",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "p-aryadeva",
+      "line": "cp.31.5a",
+      "script": "འཕགས་པ་ལྷ",
+      "wylie": "'phags pa lha",
+      "lemma": "",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "guru-sampradaya",
+      "line": "cp.31.m3",
+      "script": "བླ་མའི་དྲིན",
+      "wylie": "bla ma'i drin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan has bla ma'i drin las, 'by the guru's kindness', its phrase for guruprasāda (bla ma dam pa'i drin las in cp.31.m6), as if it read -prasādāt for gurusampradāyāt."
+    },
+    {
+      "id": "acittata",
+      "line": "cp.31.m4",
+      "script": "སེམས་མེད་པ",
+      "wylie": "sems med pa",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan folds Munidatta's two clauses (goes to no-mind, enters clear light) into one, sems med pa 'od gsal la thim par 'gyur, 'dissolves into no-mind, clear light'; likely because sems med pa also means 'mindless, inanimate' and forms wherever sems is followed by med pa."
+    },
+    {
+      "id": "agama",
+      "line": "cp.31.m4",
+      "script": "ལུང",
+      "wylie": "lung",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.31.m4",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "bhava-abhava",
+      "line": "cp.31.m5",
+      "script": "དངོས་པོ",
+      "wylie": "dngos po",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "dngos po renders bhāva alone (dngos po cha shas med pa for bhāvasya niraṃśatā, and again for bhāvaṃ at the end of the segment), so this may belong under bhava-being, whose Tibetan is dngos po, rather than the pair."
+    },
+    {
+      "id": "marga",
+      "line": "cp.31.m5",
+      "script": "ལམ",
+      "wylie": "lam",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    }
+  ],
+  "questions": [
+    "niralamba: the commentary (cp.31.m3) also renders nirālambena as dmigs pa med pa, directly before chos thams cad mi dmigs pa for sarvadharmānupalambha; I gave only the verse line. The glossary lists dmigs pa med pa under both niralamba and anupalambha, so the reviewer may want to settle which entry owns it.",
+    "cp.31.4a: the Tibetan has srid pa'i skyug bro, 'the disgust of existence', where the Bengali has bhaya ghiṇa, 'fear and disgust', as if it read bhava for bhaya; a search for bhava's srid pa would count this line although the Bengali has no bhava.",
+    "cp.31.5a: the Tibetan has rnam par dpyod par byed, 'examines', for bihariu ('roamed, sported'), so a search for vicara's rnam par dpyod pa will count this line although the Bengali has no vicāra here."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "d7457fac44d2c326b526cc247414ec233b9d1ca8fd1582d77edcb68d9b5e134b",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "682729e2e564e5788298e4c275cce6a3499dc69735da1603f66045591695c0fa",
+    "sourceSha": "b965f6c0aaabd4ab4629bfc330b1365b91b3c09047438c0395836b2ce8beda28",
+    "parallelSha": "821ecfd5153d3e1af9f34d2a1010a8fd873ce62322959bedbf48ecdde3efbdc7"
+  }
+}

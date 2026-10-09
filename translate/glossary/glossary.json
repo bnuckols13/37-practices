@@ -4109,9 +4109,19 @@
           "lemma": "bdag",
           "att": "AO",
           "where": "cp.31.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་གིས",
+          "translit": "bdag gis",
+          "lemma": "bdag",
+          "att": "AO",
+          "where": "cp.31.1b"
         }
       ],
-      "match": {},
+      "match": {
+        "bod": []
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])অপা(?![\\p{L}\\p{M}])"
@@ -15328,7 +15338,7 @@
         ]
       },
       "matchRe": {},
-      "definition": "Wife, mistress of the house (Old Bengali ghariṇī, Sanskrit gṛhiṇī, from gṛha, 'house'). In the refrain of song 28 the Śabara is told that his own wife is named Sahaja Sundarī. The Tibetan has khyim mi mo, 'woman of the house'.",
+      "definition": "Wife, mistress of the house (Old Bengali ghariṇī, Sanskrit gṛhiṇī, from gṛha, 'house'). In couplet 2 of song 28 the Śabara is told that his own wife is named Sahaja Sundarī. The Tibetan has khyim mi mo, 'woman of the house'.",
       "symbolic": {
         "image": "the Śabara's own wife",
         "readings": [
@@ -15387,7 +15397,7 @@
         ]
       },
       "matchRe": {},
-      "definition": "A word of unknown sense in the refrain of song 28, paired with gulī: the mad Śabara is told not to make gulī guhāḍā. Munidatta explains only gulī (cp.28.m3), and the Tibetan line, which keeps gu li, has nothing for it. Kept in source form until its sense is found.",
+      "definition": "A word of unknown sense in couplet 2 of song 28, paired with gulī: the mad Śabara is told not to make gulī guhāḍā. Munidatta explains only gulī (cp.28.m3), and the Tibetan line, which keeps gu li, has nothing for it. Kept in source form until its sense is found.",
       "symbolic": {
         "image": "",
         "readings": []
@@ -15453,7 +15463,7 @@
           "(?<![\\p{L}\\p{M}])གུ་ལི(?![\\p{L}\\p{M}])"
         ]
       },
-      "definition": "An Old Bengali word of uncertain meaning in the refrain of song 28: 'do not make gulī guhāḍā'. Munidatta explains 'do not make gulī' as 'do not form conceptual thoughts such as joy' (cp.28.m3), without a Sanskrit equivalent. The Tibetan keeps the word as gu li, untranslated, and has nothing for guhāḍā.",
+      "definition": "An Old Bengali word of uncertain meaning in couplet 2 of song 28: 'do not make gulī guhāḍā'. Munidatta explains 'do not make gulī' as 'do not form conceptual thoughts such as joy' (cp.28.m3), without a Sanskrit equivalent. The Tibetan keeps the word as gu li, untranslated, and has nothing for guhāḍā.",
       "symbolic": {
         "image": "making gulī, which the Śabara is told not to do",
         "readings": [
@@ -29297,7 +29307,8 @@
           "আর্য্যদেবপাদৈঃ"
         ],
         "bod": [
-          "འཕགས་པ་ལྷའི"
+          "འཕགས་པ་ལྷའི",
+          "འཕགས་པ་ལྷ"
         ],
         "oben": [
           "আজদেব"
@@ -37921,7 +37932,7 @@
         ]
       },
       "matchRe": {},
-      "definition": "Sahaja Sundarī, 'the innate beauty', the name the refrain of song 28 gives the Śabara's own wife. The Tibetan translates it lhan skyes mdzes ldan ma, 'the beautiful one, innate'. Munidatta puts the refrain in the mouth of the Blessed Lady Nairātmā.",
+      "definition": "Sahaja Sundarī, 'the innate beauty', the name couplet 2 of song 28 gives the Śabara's own wife. The Tibetan translates it lhan skyes mdzes ldan ma, 'the beautiful one, innate'. Munidatta puts the refrain in the mouth of the Blessed Lady Nairātmā.",
       "symbolic": {
         "image": "the Śabara's wife, named Sahaja Sundarī",
         "readings": [
@@ -46118,7 +46129,7 @@
         ]
       },
       "matchRe": {},
-      "definition": "Mad, out of one's mind (Old Bengali umata, from Sanskrit unmatta; also pāgala, 'crazy'): the Śabara's epithet in the refrain of song 28 and again in its last couplet. The Tibetan has smyon pa, 'madman'. Compare the entry for drunk (matta), which lists the related form unmatto.",
+      "definition": "Mad, out of one's mind (Old Bengali umata, from Sanskrit unmatta; also pāgala, 'crazy'): the Śabara's epithet in couplet 2 of song 28 and again in its last couplet. The Tibetan has smyon pa, 'madman'. Compare the entry for drunk (matta), which lists the related form unmatto.",
       "symbolic": {
         "image": "the mad Śabara",
         "readings": [

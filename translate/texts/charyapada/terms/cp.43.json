@@ -1,0 +1,993 @@
+{
+  "unit": "cp.43",
+  "proposals": [
+    {
+      "id": "bangala",
+      "type": "term",
+      "en": "Baṅgāla",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বঙ্গাল",
+          "translit": "baṅgāla",
+          "lemma": "baṅgāla",
+          "att": "AS",
+          "where": "cp.43.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བཾ་ག་ལ",
+          "translit": "baM ga la",
+          "lemma": "baM ga la",
+          "att": "AO",
+          "where": "cp.43.h1"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বঙ্গাল(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=^|[༄-༔\\s])བཾ་ག་ལ(?=་ཞེས)"
+        }
+      ],
+      "definition": "Baṅgāla, the name of the rāga (melodic mode) to which song 43 is sung, given in its heading. The Tibetan translation transcribes it (baM ga la) instead of translating it. The word is also a name of Bengal; Indian music treatises name a rāga Baṅgāla, perhaps the same melody. Not the place Baṅga, which has its own entry.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Rāga names have their own keep-source entries (compare Bhairavī, Deśākha); the match takes only the bare word, and in the Tibetan only before the heading formula zhes bya ba, so that the country name and baṅgālī, 'Bengali', elsewhere are not caught as the melody."
+    },
+    {
+      "id": "mahataru",
+      "type": "term",
+      "en": "great tree",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহাতরু",
+          "translit": "mahātaru",
+          "lemma": "mahātaru",
+          "att": "AS",
+          "where": "cp.43.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང་ཆེན",
+          "translit": "shing chen",
+          "lemma": "shing chen",
+          "att": "AO",
+          "where": "cp.43.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মহাতরু"
+        },
+        {
+          "lang": "bod",
+          "form": "ཤིང་ཆེན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A great tree (Sanskrit mahātaru: mahā, 'great', and taru, 'tree'). Song 43 opens with the great tree of the innate, which spreads through the three worlds; the Tibetan line has shing chen. Munidatta's paraphrase speaks instead of the innate mind of the lord of yogis radiating through the three worlds (cp.43.m2). Compare tree and fine tree (taruvara).",
+      "symbolicImage": "the great tree of the innate, spreading through the three worlds",
+      "symbolicReadings": [
+        {
+          "referent": "the innate mind (sahajacitta) of the lord of yogis, which, having taken through contact with the dust of the guru's feet the seed that has the form of the bliss of the union of vajra and lotus, radiates (sphurita), pervading the three worlds: his paraphrase puts it where the song has the great tree, with no explicit gloss; the Tibetan comment agrees (rnal 'byor gyi dbang phyug gi lhan cig skyes pa'i sems)",
+          "per": "Munidatta",
+          "where": [
+            "cp.43.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind",
+        "innate mind",
+        "sahajacitta"
+      ],
+      "rationale": "The governing image of song 43, kept apart from 'tree' (the plain word, whose word-final তরু pattern now catches the taru of mahātaru) and 'taruvara' (fine tree) on the model of taruvara, a taru compound with its own entry; the reviewer may prefer to fold it into 'tree' as a new form instead."
+    },
+    {
+      "id": "khasama",
+      "type": "term",
+      "en": "sky-like",
+      "policy": "translate",
+      "alt": [
+        "like the sky",
+        "equal to the sky"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খসমসভাবে",
+          "translit": "khasamasabhābe",
+          "lemma": "khasama",
+          "att": "AS",
+          "where": "cp.43.1b"
+        },
+        {
+          "lang": "san",
+          "script": "খসমোপমসুখস্বভাবেন",
+          "translit": "khasamopamasukhasvabhāvena",
+          "lemma": "khasama",
+          "att": "AS",
+          "where": "cp.43.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ་དང་མཚུངས",
+          "translit": "nam mkha' dang mtshungs",
+          "lemma": "nam mkha' dang mtshungs pa",
+          "att": "AO",
+          "where": "cp.43.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ་དང་མཚུངས་པའི",
+          "translit": "nam mkha' dang mtshungs pa'i",
+          "lemma": "nam mkha' dang mtshungs pa",
+          "att": "AO",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའ་དང་མཚུངས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])খসম"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])খসম"
+        }
+      ],
+      "definition": "Sky-like, equal to the sky (Sanskrit khasama: kha, 'sky, space', and sama, 'equal'): in siddha and dohā writing, said of what is, like open space, without bounds, marks or support. Line 1b speaks of the sky-like nature; Munidatta has 'the nature of bliss like the sky' (cp.43.m2). The Tibetan has nam mkha' dang mtshungs, 'equal to the sky'.",
+      "symbolicImage": "a nature equal to the sky",
+      "symbolicReadings": [
+        {
+          "referent": "the sky-like nature of bliss (khasamopamasukhasvabhāva) of the innate mind, through which no one in the three worlds is bound or freed: he adds bliss where the song has only the sky-like nature; the Tibetan comment has 'the nature of great bliss' (bde ba chen po'i rang bzhin) and calls the sky-like 'the example equal to the sky' (nam mkha' dang mtshungs pa'i dpe)",
+          "per": "Munidatta",
+          "where": [
+            "cp.43.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bliss",
+        "great bliss",
+        "emptiness",
+        "void"
+      ],
+      "rationale": "The glossary has no entry for khasama (only the sky, gagana, and kha in khamaṇa), a key word of siddha poetry; it is matched only at the start of a word, since a bare খসম would also catch sukha-sama compounds (সুখসম…)."
+    },
+    {
+      "id": "water-in-water",
+      "type": "term",
+      "en": "water in water",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জলে পাণিআ",
+          "translit": "jale pāṇiā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.2a"
+        },
+        {
+          "lang": "san",
+          "script": "জলে জলং",
+          "translit": "jale jalaṃ",
+          "lemma": "jala",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ལ་ཆུ",
+          "translit": "chu la chu",
+          "lemma": "chu",
+          "att": "AO",
+          "where": "cp.43.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জলে পাণি"
+        },
+        {
+          "lang": "san",
+          "form": "জলে জলং"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་ལ་ཆུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Water poured into water, which can no longer be told apart: a stock image for a merging that leaves no difference behind. The refrain of song 43 begins with it. Munidatta calls the refrain an illustrative simile and quotes a scripture: as water placed in water, so the wheel of knowledge abides (cp.43.m3). The Tibetan has chu la chu.",
+      "symbolicImage": "water poured into water, its difference no longer known",
+      "symbolicReadings": [
+        {
+          "referent": "the mind, the jewel of bodhicitta, and the lord of yogis, become of same taste (samarasībhūta) and entered into clear light, where there is no apprehension of knowledge: a correspondence drawn by the simile (yathā … tathā), not an explicit gloss; the Tibetan comment agrees (yid nyid byang chub kyi sems rin po che dang rnal 'byor pa'i dbang po ro gcig tu gyur pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.43.m3"
+          ]
+        },
+        {
+          "referent": "the wheel of knowledge (jñānacakra), which abides as water placed in water",
+          "per": "a scripture (āgama) quoted by Munidatta",
+          "where": [
+            "cp.43.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "mind",
+        "bodhicitta",
+        "clear light",
+        "wheel of knowledge",
+        "lord of yogis"
+      ],
+      "rationale": "The refrain's simile, a stock image like the moon in water (udakacandra) and the rope-snake, which Munidatta singles out as a simile and backs with scripture; matched only as the phrase, never on জলে alone."
+    },
+    {
+      "id": "drstantopama",
+      "type": "term",
+      "en": "illustrative simile",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দৃষ্টান্তোপমাং",
+          "translit": "dṛṣṭāntopamāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔེ་ཡིས་ཉེ་བར་འཇལ་བ",
+          "translit": "dpe yis nye bar 'jal ba",
+          "lemma": "nye bar 'jal ba",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দৃষ্টান্তোপম"
+        },
+        {
+          "lang": "bod",
+          "form": "དཔེ་ཡིས་ཉེ་བར་འཇལ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "An illustrative simile (dṛṣṭāntopamā): a comparison that sets a familiar example (dṛṣṭānta) beside what it illustrates, here with 'as … so' (jima … tima). Munidatta says the poet makes one with the refrain, which in this song he counts as his second verse (cp.43.m3). The Tibetan has dpe yis nye bar 'jal ba, 'comparing by example'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "One of Munidatta's framing words and a term of poetics, like poetic fancy (utprekṣā), which has its own entry."
+    },
+    {
+      "id": "jnanacakra",
+      "type": "term",
+      "en": "wheel of knowledge",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানচক্রং",
+          "translit": "jñānacakraṃ",
+          "lemma": "jñānacakra",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་འཁོར་ལོ",
+          "translit": "ye shes 'khor lo",
+          "lemma": "ye shes 'khor lo",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জ্ঞানচক্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡེ་ཤེས་འཁོར་ལོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wheel or circle of knowledge (jñānacakra; Tibetan ye shes 'khor lo). In tantric practice the phrase can name the circle of wisdom deities that a meditator invites to merge with the visualized maṇḍala. In the scripture Munidatta quotes on the refrain, the wheel of knowledge abides as water placed in water (cp.43.m3); he does not explain it.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term in the scripture Munidatta quotes on the refrain, which the woven commentary will need explained; its sense here is not settled."
+    },
+    {
+      "id": "gambhira",
+      "type": "term",
+      "en": "profound",
+      "policy": "translate",
+      "alt": [
+        "deep"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গম্ভীরসহজানন্দানুভাবাদ্ভাবাভাববিকল্পপরিহারেণ",
+          "translit": "gambhīrasahajānandānubhāvādbhāvābhāvavikalpaparihāreṇa",
+          "lemma": "gambhīra",
+          "att": "AS",
+          "where": "cp.43.m5"
+        },
+        {
+          "lang": "pra",
+          "script": "গম্ভীর",
+          "translit": "gambhīra",
+          "lemma": "gambhīra",
+          "att": "AS",
+          "where": "cp.43.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟབ་མོ",
+          "translit": "zab mo",
+          "lemma": "zab mo",
+          "att": "AO",
+          "where": "cp.43.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গম্ভীর"
+        },
+        {
+          "lang": "pra",
+          "form": "গম্ভীর"
+        },
+        {
+          "lang": "bod",
+          "form": "ཟབ་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Profound, deep (Sanskrit gambhīra; Tibetan zab mo): a stock epithet of the Dharma, of emptiness and of realization, deep beyond the reach of ordinary thought. Munidatta speaks of experiencing profound innate joy, and the verse of Saraha he then quotes opens with the word; its Tibetan reads 'profundity itself cannot be indicated' (cp.43.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Recurs in the text and opens the Saraha verse quoted here; a descriptor of the ultimate like inconceivable (acintya) and hard to discern (durlakṣa), which have entries."
+    },
+    {
+      "id": "p-bhusuku",
+      "type": "person",
+      "en": "Bhusukupāda",
+      "policy": "keep-source",
+      "alt": [
+        "Bhusuku"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভূসুকুপাদস্তমেবার্থং",
+          "translit": "bhūsukupādastamevārthaṃ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.43.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভূসুকুপাদানাং",
+          "translit": "bhūsukupādānāṃ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.43.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভূসুকু"
+        },
+        {
+          "lang": "oben",
+          "form": "ভূসুকু"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Spellings with long ū in Munidatta's opening (cp.43.m1) and in the attribution written before the song, emended out of 1a; the listed Sanskrit forms have short u."
+    },
+    {
+      "id": "trailokya",
+      "type": "term",
+      "en": "three worlds",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তেলোএ",
+          "translit": "teloe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রৈলোক্যে",
+          "translit": "trailokye",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তেলোএ"
+        },
+        {
+          "lang": "san",
+          "form": "ত্রৈলোক্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 1a writes teloe (the listed form is tailoe) and Munidatta has the locative trailokye; the Tibetan of both, 'jig rten gsum, is already listed."
+    },
+    {
+      "id": "sphurana",
+      "type": "term",
+      "en": "radiate",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ফরিঅএ",
+          "translit": "phariae",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.1a"
+        },
+        {
+          "lang": "san",
+          "script": "স্ফুরিতং",
+          "translit": "sphuritaṃ",
+          "lemma": "sphurita",
+          "att": "AS",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ফরিঅএ"
+        },
+        {
+          "lang": "san",
+          "form": "স্ফুরিত"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The great tree radiates or spreads through the three worlds (1a; the Tibetan 'phro is already listed), which Munidatta renders sphurita (the print adds the correction -taḥ): the same image as Kāṇha radiating through the three worlds in song 42."
+    },
+    {
+      "id": "svabhava",
+      "type": "term",
+      "en": "nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খসমসভাবে",
+          "translit": "khasamasabhābe",
+          "lemma": "sabhāba",
+          "att": "AS",
+          "where": "cp.43.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সভাবে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 1b's khasama-sabhābe, 'sky-like nature': sabhābe without the nasal of the listed sabhābem̐ (the Tibetan rang bzhin is already listed)."
+    },
+    {
+      "id": "samarasa",
+      "type": "term",
+      "en": "same taste",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সমরসে",
+          "translit": "samarase",
+          "lemma": "samarasa",
+          "att": "AS",
+          "where": "cp.43.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "རོ་གཅིག་ཏུ་གྱུར་པ",
+          "translit": "ro gcig tu gyur pa",
+          "lemma": "ro gcig",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সমরস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The refrain's samarase (2b; the Tibetan ro mnyam is already listed), and the Tibetan comment's ro gcig tu gyur pa for Munidatta's samarasībhūta (cp.43.m3), given without a match because ro gcig belongs to one taste (ekarasa)."
+    },
+    {
+      "id": "janma",
+      "type": "term",
+      "en": "birth",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জামমরণভব",
+          "translit": "jāmamaraṇabhaba",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.43.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "জাম(?=মরণ)"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=^|[༄-༔\\s])སྐྱེ(?=་དང་འཆི)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 3b's compound jāma-maraṇa-bhaba, 'birth, death and existence' (Tibetan skye dang 'chi ba'i srid pa, all listed); the regex takes jāma only before maraṇa, leaving the other two members to their own entries, and the Tibetan's listed skye only in skye dang 'chi, 'birth and death'."
+    },
+    {
+      "id": "marana",
+      "type": "term",
+      "en": "death",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জামমরণভব",
+          "translit": "jāmamaraṇabhaba",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.43.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=জাম)মরণ"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Death inside 3b's jāma-maraṇa-bhaba, matched only after jāma; 2b's maraṇa is deliberately left out, since the Tibetan and Munidatta read maraṇa aaṇā there as 'mind-jewel' (see questions)."
+    },
+    {
+      "id": "bhava",
+      "type": "term",
+      "en": "existence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জামমরণভব",
+          "translit": "jāmamaraṇabhaba",
+          "lemma": "bhaba",
+          "att": "AS",
+          "where": "cp.43.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=মরণ)ভব"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Existence (Tibetan srid pa) closing 3b's jāma-maraṇa-bhaba, matched only after maraṇa so that the short ভব does not catch other words."
+    },
+    {
+      "id": "sva-para",
+      "type": "term",
+      "en": "self and other",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "স্বপরেলা",
+          "translit": "svaparelā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "স্বপর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 3a's svaparelā, 'self and other' (the Tibetan line has bdag nyid … gzhan dag); Munidatta speaks of the relation to self and what is the self's own against the relation to others (cp.43.m4)."
+    },
+    {
+      "id": "anutpada",
+      "type": "term",
+      "en": "non-arising",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনুঅণারে",
+          "translit": "anuaṇāre",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.3b"
+        },
+        {
+          "lang": "san",
+          "script": "যস্মাদ(দো)নুৎপন্না",
+          "translit": "yasmāda(do)nutpannā",
+          "lemma": "anutpanna",
+          "att": "AS",
+          "where": "cp.43.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དང་པོར་མ་སྐྱེས་པ",
+          "translit": "dang por ma skyes pa",
+          "lemma": "ma skyes pa",
+          "att": "AO",
+          "where": "cp.43.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অনুঅণা"
+        },
+        {
+          "lang": "san",
+          "form": "নুৎপন্ন"
+        },
+        {
+          "lang": "bod",
+          "form": "དང་པོར་མ་སྐྱེས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 3b's āi anuaṇāre, apparently ādi-anutpanna, 'unarisen from the start', a spelling apart from the listed aṇuanāe: Munidatta speaks of things unarisen (cp.43.m4) and the Tibetan comment has dang por ma skyes pa, though the Tibetan line reads otherwise (see questions)."
+    },
+    {
+      "id": "bandhana",
+      "type": "term",
+      "en": "bond",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাণত",
+          "translit": "bāṇata",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাণত"
+        },
+        {
+          "lang": "bod",
+          "form": "བཅིངས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 1b's bāṇata, taken as 'bound' with the Tibetan line (bcings nas grol ba gang) and comment (bcings pa dang grol ba med pa, cp.43.m2), whose listed form bcings is also given as a match here; the Bengali reading is uncertain (see questions)."
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "en": "verse",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পদস্যোত্তরপদেন",
+          "translit": "padasyottarapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "পদস্যোত্তরপদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Apparently 'with the verse following the (first) verse the refrain is to be understood' (cp.43.m2; the Tibetan has tshig phyi ma'i rkang pas): in this song Munidatta counts the refrain among his verses (see questions)."
+    },
+    {
+      "id": "seed",
+      "type": "term",
+      "en": "seed",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পবিপদ্মসংযোগসুখাকারবীজং",
+          "translit": "pavipadmasaṃyogasukhākāravījaṃ",
+          "lemma": "bīja",
+          "att": "AS",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বীজং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The seed, in the form of the bliss of the union of vajra and lotus, that the lord of yogis takes before his innate mind spreads through the three worlds (cp.43.m2); the Tibetan sa bon there is already listed."
+    },
+    {
+      "id": "vyapya-vyapaka",
+      "type": "term",
+      "en": "pervaded and pervader",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "ཁྱབ་བྱ་ཁྱབ་བྱེད",
+          "translit": "khyab bya khyab byed",
+          "lemma": "khyab bya",
+          "att": "AO",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཁྱབ་བྱ་ཁྱབ་བྱེད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The same Hevajra line in the Tibetan comment (cp.43.m2), a shorter rendering than the listed khyab par bya ba dang khyab par byed pa; the Sanskrit form is already listed."
+    },
+    {
+      "id": "utpada-bhanga",
+      "type": "term",
+      "en": "arising and perishing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তেষামুৎপাদস্থিতিভঙ্গা",
+          "translit": "teṣām utpādasthitibhaṅgā",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.43.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ৎপাদস্থিতিভঙ্গ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Arising, abiding and perishing (cp.43.m4; the Tibetan skye ba dang gnas pa dang 'jig pa is already listed); the match starts after the u, which sandhi writes here as a vowel sign (teṣām-utpāda)."
+    },
+    {
+      "id": "yogindra",
+      "type": "term",
+      "en": "lord of yogis",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་པའི་དབང་པོ",
+          "translit": "rnal 'byor pa'i dbang po",
+          "lemma": "rnal 'byor pa'i dbang po",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "རྣལ་འབྱོར་པའི་དབང་པོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The Tibetan comment's rendering of yogīndra in cp.43.m3 (dbang po for indra), not yet listed; without it the concordance reads its dbang po as the senses (indriya) and its rnal 'byor as yogi."
+    },
+    {
+      "id": "atman",
+      "type": "term",
+      "en": "self",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আত্মাত্মীয়সম্বন্ধো",
+          "translit": "ātmātmīyasamvandho",
+          "lemma": "ātman",
+          "att": "AS",
+          "where": "cp.43.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་དང་བདག་གིར",
+          "translit": "bdag dang bdag gir",
+          "lemma": "bdag",
+          "att": "AO",
+          "where": "cp.43.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "আত্মাত্মীয়"
+        },
+        {
+          "lang": "bod",
+          "form": "བདག་དང་བདག་གིར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The lord of yogis has no relation to a self and what is the self's own (ātmātmīya; Tibetan bdag dang bdag gir 'dzin pa, cp.43.m4); the reviewer may prefer to file the pair under I-making and mine-making (ahaṃkāra-mamakāra)."
+    }
+  ],
+  "questions": [
+    "gagana, new symbolic reading for the existing entry: Munidatta glosses the refrain's gaaṇa explicitly, gaganeti prabhāsvare viśati, '\"into the sky\" means it enters clear light' (the print has viṣati), in cp.43.m3; the Tibetan comment agrees (nam mkhar zhes te 'od gsal la rab tu zhugs pa'o). Proposed reading: the sky that the mind-jewel enters in same taste → clear light (prabhāsvara), per Munidatta, cp.43.m3.",
+    "marana, and the reading of 2b: the existing marana match already tags 2b's মরণ as 'death', but the Tibetan line renders মরণ অঅণা (maraṇa aaṇā) as yid kyi rin chen, 'the jewel of mind', and Munidatta's paraphrase has manobodhicittaratna (cp.43.m3): both read maṇa raaṇa, 'mind-jewel'. A proposal can only add patterns, so I have matched maraṇa only inside 3b's jāmamaraṇabhaba; the reviewer may want to narrow the existing pattern, and the drafter should flag 2b as a reading problem.",
+    "pada: in this song Munidatta counts the refrain. He introduces it as his second verse (dvitīyapadena, cp.43.m3), couplet 3 as his third (cp.43.m4) and couplet 4 as his fourth (cp.43.m5), and ends cp.43.m2 with what seems to say that the refrain is to be understood as the verse after the first (padasyottarapadena dhruvapadaṃ boddhavyam). The pada definition (refrain left out of the count, from song 1) and the TEXT BRIEF's general rule do not hold here.",
+    "adbhuta: I have not added 4a's কট (kaṭa) to 'wonder'. Munidatta glosses kaṭam as 'the meaning stated before' (pūrvoktārtha, cp.43.m5), but the Tibetan line renders it ngo mtshar, 'wonder', both times, and the Tibetan comment explains ngo mtshar as what Bhusuku 'spoke directly' (mngon sum du gsungs pa). Since ngo mtshar is a listed form of adbhuta, the concordance tags 4a's Tibetan (and cp.43.m5's) as 'wonder'; the drafter should note the divergence.",
+    "p-rautu: no new form. Where the Bengali of 4a has rāutu bhaṇai, the Tibetan line has rjes smras, 'then said' or 'said after', so here the Tibetan does not render Rāutu as a name (in song 41 it transcribes rA u ta); Munidatta again passes over him ('Bhusukupāda says', cp.43.m5). The entry's definition might record this.",
+    "bandhana: 1b's বাণত (bāṇata) is added as 'bound' on the strength of the Tibetan line (bcings nas grol ba gang) and of Munidatta's 'no one in the three worlds is … or freed' (cp.43.m2), where the print's vidvān, 'wise', looks corrupt for baddho, 'bound' (the Tibetan comment has bcings pa dang grol ba med pa). The Old Bengali word itself is unclear; please confirm or drop the form.",
+    "anutpada: the Tibetan line of 3b reads āi anuaṇāre as thog ma mtha' med, 'without beginning or end', while the Tibetan comment has dang por ma skyes pa, 'unarisen from the start' (cp.43.m4); I have added only the comment's form."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "4c6ec47f5c0ecb13192855484c31d629d470bcb1aad3d5a8eec2ae520c7c9579",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "bc624b574d2e4e8d79d8bdfd7cd86beb747c5e6bf923e638e9e77925834d1305",
+    "sourceSha": "a5aaecd7bd6223a7b0a9c47a5eb8349b92d4ed0164fe34a0537f15cb7a89f229"
+  }
+}

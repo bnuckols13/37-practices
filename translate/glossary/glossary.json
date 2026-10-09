@@ -4130,6 +4130,30 @@
           "lemma": "anutpāda",
           "att": "AS",
           "where": "cp.45.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "অনুঅণারে",
+          "translit": "anuaṇāre",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.3b"
+        },
+        {
+          "lang": "san",
+          "script": "যস্মাদ(দো)নুৎপন্না",
+          "translit": "yasmāda(do)nutpannā",
+          "lemma": "anutpanna",
+          "att": "AS",
+          "where": "cp.43.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དང་པོར་མ་སྐྱེས་པ",
+          "translit": "dang por ma skyes pa",
+          "lemma": "ma skyes pa",
+          "att": "AO",
+          "where": "cp.43.m4"
         }
       ],
       "match": {
@@ -4137,14 +4161,17 @@
           "অনুৎপাদ",
           "অনুৎপন্ন",
           "দ্যনুৎপন্ন",
-          "নানুৎপন্ন"
+          "নানুৎপন্ন",
+          "নুৎপন্ন"
         ],
         "bod": [
           "མ་སྐྱེས་པ",
-          "སྐྱེ་བ་མེད་པ"
+          "སྐྱེ་བ་མེད་པ",
+          "དང་པོར་མ་སྐྱེས་པ"
         ],
         "oben": [
-          "অণুঅনা"
+          "অণুঅনা",
+          "অনুঅণা"
         ]
       },
       "matchRe": {
@@ -5247,10 +5274,31 @@
           "lemma": "rang nyid",
           "att": "AO",
           "where": "cp.37.1a"
+        },
+        {
+          "lang": "san",
+          "script": "আত্মাত্মীয়সম্বন্ধো",
+          "translit": "ātmātmīyasamvandho",
+          "lemma": "ātman",
+          "att": "AS",
+          "where": "cp.43.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་དང་བདག་གིར",
+          "translit": "bdag dang bdag gir",
+          "lemma": "bdag",
+          "att": "AO",
+          "where": "cp.43.m4"
         }
       ],
       "match": {
-        "bod": []
+        "bod": [
+          "བདག་དང་བདག་གིར"
+        ],
+        "san": [
+          "আত্মাত্মীয়"
+        ]
       },
       "matchRe": {
         "oben": [
@@ -6813,12 +6861,21 @@
           "lemma": "'ching ba",
           "att": "AO",
           "where": "cp.27.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "বাণত",
+          "translit": "bāṇata",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.1b"
         }
       ],
       "match": {
         "oben": [
           "বান্ধণ",
-          "বান্ধন"
+          "বান্ধন",
+          "বাণত"
         ],
         "san": [
           "বন্ধন",
@@ -6826,7 +6883,8 @@
           "বান্ধন"
         ],
         "bod": [
-          "འཆིང་བ"
+          "འཆིང་བ",
+          "བཅིངས"
         ]
       },
       "matchRe": {
@@ -6861,6 +6919,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "bangala",
+      "type": "term",
+      "status": "proposed",
+      "en": "Baṅgāla",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বঙ্গাল",
+          "translit": "baṅgāla",
+          "lemma": "baṅgāla",
+          "att": "AS",
+          "where": "cp.43.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བཾ་ག་ལ",
+          "translit": "baM ga la",
+          "lemma": "baM ga la",
+          "att": "AO",
+          "where": "cp.43.h1"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বঙ্গাল(?![\\p{L}\\p{M}])"
+        ],
+        "bod": [
+          "(?<=^|[༄-༔\\s])བཾ་ག་ལ(?=་ཞེས)"
+        ]
+      },
+      "definition": "Baṅgāla, the name of the rāga (melodic mode) to which song 43 is sung, given in its heading. The Tibetan translation transcribes it (baM ga la) instead of translating it. The word is also a name of Bengal; Indian music treatises name a rāga Baṅgāla, perhaps the same melody. Not the place Baṅga, which has its own entry.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -7825,6 +7934,14 @@
           "lemma": "bhava",
           "att": "AS",
           "where": "cp.45.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "জামমরণভব",
+          "translit": "jāmamaraṇabhaba",
+          "lemma": "bhaba",
+          "att": "AS",
+          "where": "cp.43.3b"
         }
       ],
       "match": {
@@ -7841,7 +7958,8 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])ভব(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])ভব(?![\\p{L}\\p{M}])",
+          "(?<=মরণ)ভব"
         ],
         "san": [
           "(?<![\\p{L}\\p{M}])ভবে(?![\\p{L}\\p{M}])",
@@ -15305,6 +15423,57 @@
       }
     },
     {
+      "id": "drstantopama",
+      "type": "term",
+      "status": "proposed",
+      "en": "illustrative simile",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দৃষ্টান্তোপমাং",
+          "translit": "dṛṣṭāntopamāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "དཔེ་ཡིས་ཉེ་བར་འཇལ་བ",
+          "translit": "dpe yis nye bar 'jal ba",
+          "lemma": "nye bar 'jal ba",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "দৃষ্টান্তোপম"
+        ],
+        "bod": [
+          "དཔེ་ཡིས་ཉེ་བར་འཇལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "An illustrative simile (dṛṣṭāntopamā): a comparison that sets a familiar example (dṛṣṭānta) beside what it illustrates, here with 'as … so' (jima … tima). Munidatta says the poet makes one with the refrain, which in this song he counts as his second verse (cp.43.m3). The Tibetan has dpe yis nye bar 'jal ba, 'comparing by example'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "duhkha-sukha",
       "type": "term",
       "status": "proposed",
@@ -17784,6 +17953,70 @@
         "natural clear light",
         "luminosity"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "gambhira",
+      "type": "term",
+      "status": "proposed",
+      "en": "profound",
+      "alt": [
+        "deep"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গম্ভীরসহজানন্দানুভাবাদ্ভাবাভাববিকল্পপরিহারেণ",
+          "translit": "gambhīrasahajānandānubhāvādbhāvābhāvavikalpaparihāreṇa",
+          "lemma": "gambhīra",
+          "att": "AS",
+          "where": "cp.43.m5"
+        },
+        {
+          "lang": "pra",
+          "script": "গম্ভীর",
+          "translit": "gambhīra",
+          "lemma": "gambhīra",
+          "att": "AS",
+          "where": "cp.43.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟབ་མོ",
+          "translit": "zab mo",
+          "lemma": "zab mo",
+          "att": "AO",
+          "where": "cp.43.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "গম্ভীর"
+        ],
+        "pra": [
+          "গম্ভীর"
+        ],
+        "bod": [
+          "ཟབ་མོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Profound, deep (Sanskrit gambhīra; Tibetan zab mo): a stock epithet of the Dharma, of emptiness and of realization, deep beyond the reach of ordinary thought. Munidatta speaks of experiencing profound innate joy, and the verse of Saraha he then quotes opens with the word; its Tibetan reads 'profundity itself cannot be indicated' (cp.43.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -21271,6 +21504,14 @@
           "lemma": "skye ba",
           "att": "AO",
           "where": "cp.39.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "জামমরণভব",
+          "translit": "jāmamaraṇabhaba",
+          "lemma": "jāma",
+          "att": "AS",
+          "where": "cp.43.3b"
         }
       ],
       "match": {
@@ -21281,10 +21522,14 @@
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])জাম(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])জামে?(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])জামে?(?![\\p{L}\\p{M}])",
+          "জাম(?=মরণ)"
         ],
         "san": [
           "(?<![\\p{L}\\p{M}])জাম(?:ে|েত্যাদি)?(?![\\p{L}\\p{M}])"
+        ],
+        "bod": [
+          "(?<=^|[༄-༔\\s])སྐྱེ(?=་དང་འཆི)"
         ]
       },
       "definition": "Birth (Sanskrit janman, Old Bengali jāma), and so one life in the round of rebirth. The refrain of song 8 asks how a birth that is gone will come again. Munidatta says another birth returns to one who does not row the boat of the fourth means (cp.08.m2). The Tibetan has skye ba.",
@@ -21532,6 +21777,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "jnanacakra",
+      "type": "term",
+      "status": "proposed",
+      "en": "wheel of knowledge",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জ্ঞানচক্রং",
+          "translit": "jñānacakraṃ",
+          "lemma": "jñānacakra",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་འཁོར་ལོ",
+          "translit": "ye shes 'khor lo",
+          "lemma": "ye shes 'khor lo",
+          "att": "AO",
+          "where": "cp.43.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "জ্ঞানচক্র"
+        ],
+        "bod": [
+          "ཡེ་ཤེས་འཁོར་ལོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Wheel or circle of knowledge (jñānacakra; Tibetan ye shes 'khor lo). In tantric practice the phrase can name the circle of wisdom deities that a meditator invites to merge with the visualized maṇḍala. In the scripture Munidatta quotes on the refrain, the wheel of knowledge abides as water placed in water (cp.43.m3); he does not explain it.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -24376,6 +24672,93 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "khasama",
+      "type": "term",
+      "status": "proposed",
+      "en": "sky-like",
+      "alt": [
+        "like the sky",
+        "equal to the sky"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খসমসভাবে",
+          "translit": "khasamasabhābe",
+          "lemma": "khasama",
+          "att": "AS",
+          "where": "cp.43.1b"
+        },
+        {
+          "lang": "san",
+          "script": "খসমোপমসুখস্বভাবেন",
+          "translit": "khasamopamasukhasvabhāvena",
+          "lemma": "khasama",
+          "att": "AS",
+          "where": "cp.43.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ་དང་མཚུངས",
+          "translit": "nam mkha' dang mtshungs",
+          "lemma": "nam mkha' dang mtshungs pa",
+          "att": "AO",
+          "where": "cp.43.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ་དང་མཚུངས་པའི",
+          "translit": "nam mkha' dang mtshungs pa'i",
+          "lemma": "nam mkha' dang mtshungs pa",
+          "att": "AO",
+          "where": "cp.43.m2"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ནམ་མཁའ་དང་མཚུངས"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])খসম"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])খসম"
+        ]
+      },
+      "definition": "Sky-like, equal to the sky (Sanskrit khasama: kha, 'sky, space', and sama, 'equal'): in siddha and dohā writing, said of what is, like open space, without bounds, marks or support. Line 1b speaks of the sky-like nature; Munidatta has 'the nature of bliss like the sky' (cp.43.m2). The Tibetan has nam mkha' dang mtshungs, 'equal to the sky'.",
+      "symbolic": {
+        "image": "a nature equal to the sky",
+        "readings": [
+          {
+            "referent": "the sky-like nature of bliss (khasamopamasukhasvabhāva) of the innate mind, through which no one in the three worlds is bound or freed: he adds bliss where the song has only the sky-like nature; the Tibetan comment has 'the nature of great bliss' (bde ba chen po'i rang bzhin) and calls the sky-like 'the example equal to the sky' (nam mkha' dang mtshungs pa'i dpe)",
+            "per": "Munidatta",
+            "where": [
+              "cp.43.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "bliss",
+        "great bliss",
+        "emptiness",
+        "void"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -27696,6 +28079,69 @@
       }
     },
     {
+      "id": "mahataru",
+      "type": "term",
+      "status": "proposed",
+      "en": "great tree",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহাতরু",
+          "translit": "mahātaru",
+          "lemma": "mahātaru",
+          "att": "AS",
+          "where": "cp.43.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤིང་ཆེན",
+          "translit": "shing chen",
+          "lemma": "shing chen",
+          "att": "AO",
+          "where": "cp.43.1a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মহাতরু"
+        ],
+        "bod": [
+          "ཤིང་ཆེན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A great tree (Sanskrit mahātaru: mahā, 'great', and taru, 'tree'). Song 43 opens with the great tree of the innate, which spreads through the three worlds; the Tibetan line has shing chen. Munidatta's paraphrase speaks instead of the innate mind of the lord of yogis radiating through the three worlds (cp.43.m2). Compare tree and fine tree (taruvara).",
+      "symbolic": {
+        "image": "the great tree of the innate, spreading through the three worlds",
+        "readings": [
+          {
+            "referent": "the innate mind (sahajacitta) of the lord of yogis, which, having taken through contact with the dust of the guru's feet the seed that has the form of the bliss of the union of vajra and lotus, radiates (sphurita), pervading the three worlds: his paraphrase puts it where the song has the great tree, with no explicit gloss; the Tibetan comment agrees (rnal 'byor gyi dbang phyug gi lhan cig skyes pa'i sems)",
+            "per": "Munidatta",
+            "where": [
+              "cp.43.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "mind",
+        "innate mind",
+        "sahajacitta"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "mahatmya",
       "type": "term",
       "status": "proposed",
@@ -29142,6 +29588,14 @@
           "lemma": "'chi ba",
           "att": "AO",
           "where": "cp.22.4a"
+        },
+        {
+          "lang": "oben",
+          "script": "জামমরণভব",
+          "translit": "jāmamaraṇabhaba",
+          "lemma": "maraṇa",
+          "att": "AS",
+          "where": "cp.43.3b"
         }
       ],
       "match": {
@@ -29151,7 +29605,8 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])মরণ"
+          "(?<![\\p{L}\\p{M}])মরণ",
+          "(?<=জাম)মরণ"
         ],
         "san": [
           "(?<![\\p{L}\\p{M}])মরণ"
@@ -35620,6 +36075,22 @@
           "lemma": "'du shes gsum pa",
           "att": "AO",
           "where": "cp.41.m6"
+        },
+        {
+          "lang": "san",
+          "script": "ভূসুকুপাদস্তমেবার্থং",
+          "translit": "bhūsukupādastamevārthaṃ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.43.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভূসুকুপাদানাং",
+          "translit": "bhūsukupādānāṃ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.43.1a"
         }
       ],
       "match": {
@@ -35631,7 +36102,8 @@
         "san": [
           "ভুসুকু",
           "ভুসুক্কু",
-          "ভুসুকুপাদ"
+          "ভুসুকুপাদ",
+          "ভূসুকু"
         ],
         "bod": [
           "བྷུ་སུ་ཀུ",
@@ -39314,6 +39786,14 @@
           "lemma": "pāda",
           "att": "AS",
           "where": "cp.35.m6"
+        },
+        {
+          "lang": "san",
+          "script": "পদস্যোত্তরপদেন",
+          "translit": "padasyottarapadena",
+          "lemma": "pada",
+          "att": "AS",
+          "where": "cp.43.m2"
         }
       ],
       "match": {
@@ -39326,7 +39806,8 @@
           "দ্বিতীয়পদ",
           "চতুর্থপদ",
           "পঞ্চমপদ",
-          "চতুর্থপাদ"
+          "চতুর্থপাদ",
+          "পদস্যোত্তরপদ"
         ],
         "bod": [
           "རྐང་པ"
@@ -46313,6 +46794,22 @@
           "lemma": "samarasa",
           "att": "AS",
           "where": "cp.17.3b"
+        },
+        {
+          "lang": "oben",
+          "script": "সমরসে",
+          "translit": "samarase",
+          "lemma": "samarasa",
+          "att": "AS",
+          "where": "cp.43.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "རོ་གཅིག་ཏུ་གྱུར་པ",
+          "translit": "ro gcig tu gyur pa",
+          "lemma": "ro gcig",
+          "att": "AO",
+          "where": "cp.43.m3"
         }
       ],
       "match": {
@@ -47344,11 +47841,22 @@
           "lemma": "sa bon",
           "att": "AS",
           "where": "cp.24.3a"
+        },
+        {
+          "lang": "san",
+          "script": "পবিপদ্মসংযোগসুখাকারবীজং",
+          "translit": "pavipadmasaṃyogasukhākāravījaṃ",
+          "lemma": "bīja",
+          "att": "AS",
+          "where": "cp.43.m2"
         }
       ],
       "match": {
         "bod": [
           "ས་བོན"
+        ],
+        "san": [
+          "বীজং"
         ]
       },
       "matchRe": {},
@@ -48312,11 +48820,31 @@
           "lemma": "'phro ba",
           "att": "AO",
           "where": "cp.42.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "ফরিঅএ",
+          "translit": "phariae",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.1a"
+        },
+        {
+          "lang": "san",
+          "script": "স্ফুরিতং",
+          "translit": "sphuritaṃ",
+          "lemma": "sphurita",
+          "att": "AS",
+          "where": "cp.43.m2"
         }
       ],
       "match": {
         "san": [
-          "স্ফুরতি"
+          "স্ফুরতি",
+          "স্ফুরিত"
+        ],
+        "oben": [
+          "ফরিঅএ"
         ]
       },
       "matchRe": {
@@ -49699,12 +50227,21 @@
           "lemma": "rang gzhan",
           "att": "AO",
           "where": "cp.39.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "স্বপরেলা",
+          "translit": "svaparelā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.3a"
         }
       ],
       "match": {
         "oben": [
           "সপরবিভাগ",
-          "পর অপ্যণা"
+          "পর অপ্যণা",
+          "স্বপর"
         ],
         "bod": [
           "རང་དང་གཞན",
@@ -49839,12 +50376,21 @@
           "lemma": "dngos po",
           "att": "AO",
           "where": "cp.41.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "খসমসভাবে",
+          "translit": "khasamasabhābe",
+          "lemma": "sabhāba",
+          "att": "AS",
+          "where": "cp.43.1b"
         }
       ],
       "match": {
         "oben": [
           "সহাব",
-          "সভাবেঁ"
+          "সভাবেঁ",
+          "সভাবে"
         ],
         "san": [
           "স্বভাব"
@@ -52622,6 +53168,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.42.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "তেলোএ",
+          "translit": "teloe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রৈলোক্যে",
+          "translit": "trailokye",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.43.m2"
         }
       ],
       "match": {
@@ -52646,7 +53208,8 @@
           "ত্রিভুবন",
           "তৈলোএ",
           "তিঅ ধাএ",
-          "তিহুবণ"
+          "তিহুবণ",
+          "তেলোএ"
         ]
       },
       "matchRe": {
@@ -56015,13 +56578,22 @@
           "lemma": "skye ba dang gnas pa dang 'jig pa",
           "att": "AO",
           "where": "cp.22.m3"
+        },
+        {
+          "lang": "san",
+          "script": "তেষামুৎপাদস্থিতিভঙ্গা",
+          "translit": "teṣām utpādasthitibhaṅgā",
+          "lemma": "utpāda",
+          "att": "AS",
+          "where": "cp.43.m4"
         }
       ],
       "match": {
         "san": [
           "ৎপাদভঙ্গ",
           "উৎপাদাদিভঙ্গ",
-          "উৎপাদস্থিতিভঙ্গ"
+          "উৎপাদস্থিতিভঙ্গ",
+          "ৎপাদস্থিতিভঙ্গ"
         ],
         "bod": [
           "སྐྱེ་བ་དང་འཇིག་པ",
@@ -60276,11 +60848,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.07.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱབ་བྱ་ཁྱབ་བྱེད",
+          "translit": "khyab bya khyab byed",
+          "lemma": "khyab bya",
+          "att": "AO",
+          "where": "cp.43.m2"
         }
       ],
       "match": {
         "san": [
           "ব্যাপ্যব্যাপক"
+        ],
+        "bod": [
+          "ཁྱབ་བྱ་ཁྱབ་བྱེད"
         ]
       },
       "matchRe": {},
@@ -60404,6 +60987,89 @@
         "conventional",
         "ultimate",
         "two truths"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "water-in-water",
+      "type": "term",
+      "status": "proposed",
+      "en": "water in water",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জলে পাণিআ",
+          "translit": "jale pāṇiā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.43.2a"
+        },
+        {
+          "lang": "san",
+          "script": "জলে জলং",
+          "translit": "jale jalaṃ",
+          "lemma": "jala",
+          "att": "AS",
+          "where": "cp.43.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ལ་ཆུ",
+          "translit": "chu la chu",
+          "lemma": "chu",
+          "att": "AO",
+          "where": "cp.43.2a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "জলে পাণি"
+        ],
+        "san": [
+          "জলে জলং"
+        ],
+        "bod": [
+          "ཆུ་ལ་ཆུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Water poured into water, which can no longer be told apart: a stock image for a merging that leaves no difference behind. The refrain of song 43 begins with it. Munidatta calls the refrain an illustrative simile and quotes a scripture: as water placed in water, so the wheel of knowledge abides (cp.43.m3). The Tibetan has chu la chu.",
+      "symbolic": {
+        "image": "water poured into water, its difference no longer known",
+        "readings": [
+          {
+            "referent": "the mind, the jewel of bodhicitta, and the lord of yogis, become of same taste (samarasībhūta) and entered into clear light, where there is no apprehension of knowledge: a correspondence drawn by the simile (yathā … tathā), not an explicit gloss; the Tibetan comment agrees (yid nyid byang chub kyi sems rin po che dang rnal 'byor pa'i dbang po ro gcig tu gyur pa)",
+            "per": "Munidatta",
+            "where": [
+              "cp.43.m3"
+            ]
+          },
+          {
+            "referent": "the wheel of knowledge (jñānacakra), which abides as water placed in water",
+            "per": "a scripture (āgama) quoted by Munidatta",
+            "where": [
+              "cp.43.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "mind",
+        "bodhicitta",
+        "clear light",
+        "wheel of knowledge",
+        "lord of yogis"
       ],
       "texts": [
         "charyapada"
@@ -61339,6 +62005,14 @@
           "lemma": "rnal 'byor gyi dbang phyug",
           "att": "AO",
           "where": "cp.11.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣལ་འབྱོར་པའི་དབང་པོ",
+          "translit": "rnal 'byor pa'i dbang po",
+          "lemma": "rnal 'byor pa'i dbang po",
+          "att": "AO",
+          "where": "cp.43.m3"
         }
       ],
       "match": {
@@ -61350,7 +62024,8 @@
         ],
         "bod": [
           "རྣལ་འབྱོར་གྱི་དབང་ཕྱུག",
-          "རྣལ་འབྱོར་དབང་ཕྱུག"
+          "རྣལ་འབྱོར་དབང་ཕྱུག",
+          "རྣལ་འབྱོར་པའི་དབང་པོ"
         ]
       },
       "matchRe": {},

@@ -1,0 +1,113 @@
+{
+  "unit": "cp.30",
+  "equivalents": [
+    {
+      "id": "dvandva",
+      "line": "cp.30.1b",
+      "script": "རྟོག་ཅིང་རྟོག་ཅིང",
+      "wylie": "rtog cing rtog cing",
+      "lemma": "rtog pa",
+      "confidence": "likely",
+      "note": "The Tibetan line has no word for 'pair' or 'duality': 'conceptualizing again and again' (rtog cing rtog cing) stands where the Bengali has dvandala, matching Munidatta's gloss 'the conceptualization of the grasped and the rest' (grāhyādivikalpa, Tibetan rnam par rtog pa, cp.30.m2), and its doubling may echo dvandala daliyā."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.30.2b",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "rang bzhin, the Tibetan's usual word for svabhāva ('nature'), here renders saruā (svarūpa), as it renders sahajānandasvarūpa in the comment (cp.30.m3)."
+    },
+    {
+      "id": "citta",
+      "line": "cp.30.3b",
+      "script": "ཡིད",
+      "wylie": "yid",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "The Tibetan line makes the mind the receiver of joy (rang gi yid la, 'to one's own mind'), whereas its comment, like Munidatta's nijamanaḥ ... dadāti, makes the mind the giver (cp.30.m4); yid also appears in the Tibetan of 3a (gang gi yid la), where the Bengali has no word for mind."
+    },
+    {
+      "id": "prabhava",
+      "line": "cp.30.m3",
+      "script": "མཐུ",
+      "wylie": "mthu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "guru-sampradaya",
+      "line": "cp.30.m3",
+      "script": "བླ་མའི་དྲིན",
+      "wylie": "bla ma'i drin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": "For gurusampradāyāt, 'through the guru's lineage', the Tibetan has bla ma'i drin las, 'through the guru's kindness', the same words it uses for guruprasāda in cp.30.m2 and cp.30.m4, so a search for drin as 'grace' will also catch this lineage."
+    },
+    {
+      "id": "svarupa",
+      "line": "cp.30.m3",
+      "script": "རང་བཞིན",
+      "wylie": "rang bzhin",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "prabhava",
+      "line": "cp.30.m4",
+      "script": "མཐུ",
+      "wylie": "mthu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "vikalpa",
+      "line": "cp.30.m4",
+      "script": "རྣམ་པར་མི་རྟོག་པའི",
+      "wylie": "rnam par mi rtog pa'i",
+      "lemma": "rnam par mi rtog pa",
+      "confidence": "clear",
+      "note": ""
+    },
+    {
+      "id": "marga",
+      "line": "cp.30.m5",
+      "script": "ལམ",
+      "wylie": "lam",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    },
+    {
+      "id": "prabhava",
+      "line": "cp.30.m6",
+      "script": "མཐུ",
+      "wylie": "mthu",
+      "lemma": "",
+      "confidence": "likely",
+      "note": ""
+    }
+  ],
+  "questions": [
+    "yogi (cp.30.5b): not matched. The Tibetan line has no word for joi, 'yogi'. In its place it has gang shar, 'which has risen', the wording of Munidatta's paraphrase (yasyodayena, Tibetan gang zhig shar bas, cp.30.m6), where the yogi becomes 'the siddha master' (siddhācārya, grub pa'i slob dpon). gang is not a rendering of yogī, so I recorded nothing.",
+    "A caution on the matched clear light (prabhāsvara, 'od gsal): in cp.30.m5 the Tibetan 'od gsal bar byed renders udyotita, the sky 'lit up' by the moon, not prabhāsvara. A search across the whole text for 'od gsal as clear light will wrongly count cp.30.m5."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "142d199f7a85db4791fcb79cb35c324588fea4896655a4e14f72fdb81762ff94",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 2
+    },
+    "glossarySha": "5109c1875231a472ac3416bcb24eb75ecefe1d9ca82373b7b2877df1ba618ddb",
+    "sourceSha": "03a7b54b05ae2f223e10efcc5b5ffa6762e045ca0bec821ecfe4862d800f184b",
+    "parallelSha": "127c3f5ab4be59125b1d85dfa3dc628192af16d0372b7ee69d1f1b32563075c3"
+  }
+}

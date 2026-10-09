@@ -21102,6 +21102,46 @@
       }
     },
     {
+      "id": "napumsaka",
+      "type": "term",
+      "status": "proposed",
+      "en": "neuter",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མ་ནིང",
+          "translit": "ma ning",
+          "lemma": "ma ning",
+          "att": "AS",
+          "where": "cp.23.m3"
+        }
+      ],
+      "match": {
+        "bod": [
+          "མ་ནིང"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The neuter (Sanskrit napuṃsaka, Tibetan ma ning): neither male nor female. Munidatta, in the Tibetan, joins the abiding breath and the syllable āḥ to 'the knowledge of the neuter' and seven natures, beside the knowledges of day and night (cp.23.m3); the glossary also records his reading of song 14's pulinda as 'the neuter' (cp.14.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "nataka",
       "type": "term",
       "status": "proposed",

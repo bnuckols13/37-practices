@@ -30944,7 +30944,9 @@
       "alt": [
         "Bhāde"
       ],
-      "variants": [],
+      "variants": [
+        "Bhāde"
+      ],
       "policy": "keep-source",
       "forms": [
         {
@@ -31559,7 +31561,9 @@
       "alt": [
         "Dārika"
       ],
-      "variants": [],
+      "variants": [
+        "Dārika"
+      ],
       "policy": "keep-source",
       "forms": [
         {
@@ -53174,6 +53178,75 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vyakhyana",
+      "type": "term",
+      "status": "proposed",
+      "en": "exposition",
+      "alt": [
+        "explanation"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বখানে",
+          "translit": "bakhāne",
+          "lemma": "bakhāna",
+          "att": "AS",
+          "where": "cp.34.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ধ্যানব্যাখ্যানেন",
+          "translit": "dhyānavyākhyānena",
+          "lemma": "vyākhyāna",
+          "att": "AS",
+          "where": "cp.34.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བཤད",
+          "translit": "bshad",
+          "lemma": "bshad pa",
+          "att": "AO",
+          "where": "cp.34.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "བཤད་པ",
+          "translit": "bshad pa",
+          "lemma": "bshad pa",
+          "att": "AO",
+          "where": "cp.34.m4"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বখান"
+        ],
+        "san": [
+          "ব্যাখ্যান"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Exposition or explanation (Sanskrit vyākhyāna, Old Bengali bakhāna): expounding a text or practice in words, the work of scholars and teachers. Song 34 (3a) asks what use concentration and exposition are; Munidatta has dhyānavyākhyāna (cp.34.m4), and the Tibetan line makes it a verb, bshad, 'explain'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

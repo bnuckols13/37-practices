@@ -1,0 +1,499 @@
+{
+  "unit": "cp.36",
+  "title": "Asleep in the Innate",
+  "summary": "Striking an empty house with suchness and carrying off the storehouse of delusion, Kāṇha sinks into innate sleep, with neither awareness nor feeling; in a dream he sees the three worlds empty, and he makes his guru Jālandharipāda witness that the paṇḍita teachers do not look his way. Munidatta reads the refrain as the defining mark of concentration, the empty house as the house of tendencies struck with the sword of suchness, and the undone coming and going as the movement of moon and sun, broken as the wind enters the avadhūtikā.",
+  "lines": [
+    {
+      "id": "cp.36.h1",
+      "translit": "rāga paṭamañjarī",
+      "gloss": "rāga (melodic mode) · Paṭamañjarī",
+      "en": "[Rāga]{raga} [Paṭamañjarī]{patamanjari}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "patamanjari",
+          "src": "পটমঞ্জরী"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The heading line names only the rāga. The attribution kṛṣṇācāryapādānāṃ, 'of Kṛṣṇācāryapāda', written before the song, has been emended out of 1a and is not part of this line, so the English names no poet. The Tibetan translation has no heading for this song at all. Should the heading add '· Kāṇha', as headings that name the poet do?"
+        }
+      ]
+    },
+    {
+      "id": "cp.36.1a",
+      "translit": "suṇa bāha tathatā pahārī",
+      "gloss": "empty · house · suchness · striking, having struck",
+      "en": "Striking the empty [house]{house} with [suchness]{tathata},",
+      "terms": [
+        {
+          "id": "house",
+          "src": "বাহ"
+        },
+        {
+          "id": "tathata",
+          "src": "তথতা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "suṇa is taken as 'empty' (Sanskrit śūnya), with Munidatta (suna … śūnyam, cp.36.m2) and the Tibetan stong pa'i. The same form can be the imperative 'listen' (as in the refrain of song 2); neither witness reads it that way."
+        },
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "bāha is rendered 'house' and marked with the glossary's house entry, where it is now filed. The Tibetan has khyim, 'house', and Munidatta vāsanāgāra, 'house of tendencies' (cp.36.m2). It is not the usual word ghara; I take it, tentatively, from Sanskrit vāsa, 'dwelling', with the Apabhraṃśa change of s to h. Other senses of the spelling ('arm'; the verb 'row, ply') give no clear sense here. Please confirm the filing."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "tathatā has no case ending. It is taken as the instrument ('with suchness'), as Munidatta takes it with his 'sword of suchness' (cp.36.m2); it could instead be the agent ('suchness strikes the empty house'). pahārī is taken as an absolutive, 'striking, having struck' (Munidatta: prahṛtya)."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line, stong pa'i khyim ni yon por de nyid nges pa can, has no word for striking: 'the empty house … yon por (yon po is 'crooked'; the sense here is unclear) … possessed of certainty in suchness'."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.1b",
+      "translit": "mohabhaṇḍāra lui saalā ahārī || dhru ||",
+      "gloss": "storehouse of delusion · having taken · all · carried off",
+      "en": "taking the [storehouse of delusion]{mohabhandara}, carrying it all off,",
+      "terms": [
+        {
+          "id": "mohabhandara",
+          "src": "মোহভণ্ডার"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "lui is the absolutive 'having taken' (the Tibetan has blangs nas, 'having taken'). It is not the poet Lūyī, whose name is spelled the same way: the line has no place for a name, and neither witness reads one. It is left unlinked."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "ahārī is taken as 'carried off', after Munidatta's sakalam ahāritam, 'all was carried off' (cp.36.m2). If it comes from āhāra, 'food', it would mean 'ate it all up'. The Tibetan ends thams cad bskor bar gyur, apparently 'all was surrounded' or 'turned about', which fits neither."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.2a",
+      "translit": "ghumai ṇa cebai saparabibhāgā |",
+      "gloss": "sleeps · not · is aware, perceives · self-and-other division",
+      "en": "He sleeps and is not aware of the division of [self and other]{sva-para};",
+      "terms": [
+        {
+          "id": "sva-para",
+          "src": "সপরবিভাগা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "ṇa cebai is rendered 'is not aware of', after Munidatta's na cetayati (cp.36.m3). The Tibetan has sems med, 'without mind', and renders bibhāga, 'division', as rnam par bral, 'parted, free of', so its line says the sleeper is free of self and other."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.2b",
+      "translit": "sahaja nidālu kāhnilā lāṅgā || dhru ||",
+      "gloss": "innate · sleepy · Kāhna (Kāṇha) · stuck fast (?), naked (?)",
+      "en": "[Kāṇha]{p-kanha} is sunk in [innate]{sahaja} [sleep]{nidra}.",
+      "terms": [
+        {
+          "id": "p-kanha",
+          "src": "কাহ্নিলা"
+        },
+        {
+          "id": "sahaja",
+          "src": "সহজ"
+        },
+        {
+          "id": "nidra",
+          "src": "নিদালু"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "lāṅgā is uncertain. I render it 'sunk in' (Sanskrit lagna, 'stuck fast'). That fits Munidatta's 'he does not fall from it' (na tatra bhraṣṭo bhavati, cp.36.m3) and the Tibetan line, where Kāṇha 'went' (song) into innate sleep. The alternative is 'naked' (Sanskrit nagna; compare Hindi naṅgā), which gives 'sleepy with the innate, Kāṇha is naked'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "nidālu is an adjective, 'sleepy' (Sanskrit nidrālu). The English turns it into the noun phrase 'innate sleep', as the Tibetan does (lhan cig skyes pa'i gnyid)."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.3a",
+      "translit": "ceaṇa ṇa beana bhara nida gelā |",
+      "gloss": "awareness · not · feeling · full, deep · sleep · went",
+      "en": "With neither [awareness]{cetana} nor [feeling]{vedana}, he went into deep [sleep]{nidra};",
+      "terms": [
+        {
+          "id": "cetana",
+          "src": "চেঅণ"
+        },
+        {
+          "id": "vedana",
+          "src": "বেঅন"
+        },
+        {
+          "id": "nidra",
+          "src": "নিদ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "A single ṇa stands between ceaṇa and beana. It is taken as negating both ('neither … nor'), as the Tibetan does (sems med tshor ba med par)."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.3b",
+      "translit": "saala suphala kari suhe sutelā || dhru ||",
+      "gloss": "all · well-fruited, fruitful · having made · in bliss · slept, lay down",
+      "en": "making everything fruitful, he slept in [bliss]{sukha}.",
+      "terms": [
+        {
+          "id": "sukha",
+          "src": "সুহে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "suphala kari, literally 'making well-fruited', is rendered 'making everything fruitful'. Munidatta has the sleeper purify (pariśodhya) everything, which he identifies as the three worlds (cp.36.m4); the Tibetan has 'having freed everything' (thams cad grol bar byas nas). These readings are not harmonized."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.4a",
+      "translit": "svapaṇe mai dekhila tihubaṇa suṇa",
+      "gloss": "in a dream · I (by me) · saw · three worlds · empty",
+      "en": "In a [dream]{svapna} I saw the [three worlds]{trailokya} empty;",
+      "terms": [
+        {
+          "id": "svapna",
+          "src": "স্বপণে"
+        },
+        {
+          "id": "trailokya",
+          "src": "তিহুবণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "low",
+          "note": "The song has 'in a dream' (svapaṇe, locative); Munidatta paraphrases 'like a dream' (svapnavat) (cp.36.m5). The Tibetan line agrees with the song (rmi lam na). The English follows the song. The machine transliteration's sbapaṇe is corrected to svapaṇe."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.4b",
+      "translit": "ghoria abaṇā gamaṇa bihala || dhru ||",
+      "gloss": "having churned, stirred (?) · coming · going · overwhelmed, undone",
+      "en": "churned up, [coming and going]{coming-and-going} were undone.",
+      "terms": [
+        {
+          "id": "coming-and-going",
+          "src": "অবণা গমণ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "ghoria is uncertain. Munidatta cites the word as ghānika (cp.36.m5), and the Tibetan has 'dres par byas nas, 'having mixed'. I take it from the verb 'stir, churn' (compare Bengali ghol, 'buttermilk'), which the Tibetan supports; 'whirling' (Sanskrit ghūrṇ-) is also possible."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "bihala is taken as Sanskrit vihvala, 'overwhelmed, faltering', and rendered 'undone'. The Tibetan has coming and going 'become absent' (bral bar 'gyur), and Munidatta has them 'broken' (khaṇḍayitvā, cp.36.m5). The construction is unclear too: ghoria is active, probably with the 'I' of 4a as agent, but the English makes it passive."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.5a",
+      "translit": "śākhi kariba jālandhari pāe",
+      "gloss": "witness · will make · Jālandhari · feet, -pāda",
+      "en": "I will make [Jālandharipāda]{p-jalandhari} my [witness]{saksin}:",
+      "terms": [
+        {
+          "id": "p-jalandhari",
+          "src": "জালন্ধরি পাএ"
+        },
+        {
+          "id": "saksin",
+          "src": "শাখি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "medium",
+          "note": "śākhi is marked 'witness' (saksin), which Munidatta's sākṣiṇaḥ kṛtvā, 'having made … witnesses', supports (cp.36.m6). The Tibetan reads mngon sum nyid du byas, 'made directly evident', as if from sākṣāt, 'before the eyes'. I kept 'witness'; please confirm."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The edition's kariba is a future, 'I will make'. Munidatta's lemma śākhi karī(tyādi) and his paraphrase kṛtvā, 'having made' (cp.36.m6), and the Tibetan byas, 'made', both point to a reading kari, 'having made'. The English follows the edition."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "pāe is taken, with Munidatta's jālandharipādān (cp.36.m6), as the honorific -pāda of the name. It could instead mean 'at the feet (of Jālandhari)', which the Tibetan zhabs las, 'from the feet', may reflect. 'my' is supplied in the English."
+        }
+      ]
+    },
+    {
+      "id": "cp.36.5b",
+      "translit": "pākhi ṇa rāhaa mori pāṇḍiā cāde || dhru ||",
+      "gloss": "side · not · look (?), stay (?) · my · paṇḍita · teachers",
+      "en": "the [paṇḍita]{pandita} teachers do not look my way.",
+      "terms": [
+        {
+          "id": "pandita",
+          "src": "পাণ্ডিআ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "rāhaa is obscure. I render it 'look', with Munidatta (na paśyanti, 'do not see', cp.36.m6) and the Tibetan line (lta mi byed, 'do not look'). A verb 'stay' (compare Hindi rahnā) would give 'do not stay at my side'. pākhi, 'side', is carried by 'my way'. Both witnesses add 'even' (api, yang), which the Bengali lacks, so it is not added."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "pāṇḍiā cāde is taken as 'paṇḍita teachers', with Munidatta's paṇḍitācāryāḥ (cp.36.m6); how cāde comes from ācārya is not clear."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.36",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song by saying that Kṛṣṇācārya, beautiful with innate joy (sahajānandasundara), sets out that same meaning (cp.36.m1). The Tibetan comment instead has 'because he speaks with innate joy' (lhan cig skyes pa'i dga' bas brjod pa'i phyir), and calls the poet nag po glu dbyangs zhabs.",
+      "cites": [
+        "cp.36.m1"
+      ]
+    },
+    {
+      "anchor": "cp.36.h1",
+      "kind": "philology",
+      "text": "Rāga: the melodic mode to which a song is sung. The source word is kept, and Paṭamañjarī is the mode's name; song 1 is sung to the same mode.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.36.h1",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) has no heading for this song: neither rāga nor poet is named before the quotation. In Shastri's text the attribution kṛṣṇācāryapādānāṃ, 'of Kṛṣṇācāryapāda', stands at the head of 1a. It has been removed from the verse as an emendation, so the heading line names only the rāga.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.36.1",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) quotes 1a and 1b as a single line, with no shad between them. Shastri prints ধ্রু after 1b as well as after the refrain and each later couplet. Munidatta still names couplet 2 as the refrain (dhruvapada, cp.36.m3) and calls couplet 3 his 'second verse' (cp.36.m4), so couplet 1 is not the refrain. The cue after 1b is left untranslated like the others.",
+      "cites": [
+        "cp.36.m3",
+        "cp.36.m4"
+      ]
+    },
+    {
+      "anchor": "cp.36.1a",
+      "kind": "philology",
+      "text": "suṇa: 'empty' (Sanskrit śūnya, Prakrit suṇṇa). Munidatta cites it as suna and glosses śūnyam (cp.36.m2); the Tibetan line has stong pa'i. The same spelling returns at the end of 4a ('I saw the three worlds empty'). bāha: 'house', as the Tibetan khyim and Munidatta's vāsanāgāra, 'house of tendencies' (cp.36.m2), suggest. It is not the common ghara; a derivation from vāsa, 'dwelling', with s becoming h as in Apabhraṃśa, is my conjecture. pahārī: 'striking', from prahāra; Munidatta has prahṛtya, 'having struck'.",
+      "cites": [
+        "cp.36.m2"
+      ]
+    },
+    {
+      "anchor": "cp.36.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) of 1a reads stong pa'i khyim ni yon por de nyid nges pa can, 'the empty house … yon por … possessed of certainty in suchness'. It has no word for striking, and yon por (yon po is 'crooked') is unclear here. The Tibetan comment does have the sword: it speaks of cutting with the sword of suchness (de bzhin nyid kyi ral gris … gcod pa). Where Munidatta's Sanskrit has vāsanāgāra, 'house of tendencies', the Tibetan comment has bag chags la chags pa, 'attachment to tendencies', and no house (cp.36.m2).",
+      "cites": [
+        "cp.36.m2"
+      ]
+    },
+    {
+      "anchor": "cp.36.1",
+      "kind": "doctrine",
+      "text": "Munidatta glosses suṇa as 'empty'. He says the house of tendencies (vāsanāgāra) is to be understood through the knowledge reckoned as culmination of light (ālokopalabdhi). The lord of yogis strikes its fault of tendencies with the sword of suchness (tathatākhaḍga), and delusion, whose mark is attachment to sense objects, is all carried off (cp.36.m2). The song itself has no sword and no tendencies: only an empty house struck with suchness.",
+      "cites": [
+        "cp.36.m2"
+      ]
+    },
+    {
+      "anchor": "cp.36.1b",
+      "kind": "philology",
+      "text": "lui: 'having taken', the absolutive of the verb 'take' (compare laiā, 'taking', in song 35, 5a); the Tibetan line has blangs nas, 'having taken'. Though spelled like the poet Lūyī's name, it is not a name here. bhaṇḍāra: 'storehouse, treasury' (Sanskrit bhāṇḍāgāra; Tibetan mdzod). ahārī: 'carried off', following Munidatta's sakalam ahāritam, 'all was carried off' (cp.36.m2). Taken from āhāra, 'food', it would be 'ate it all up'. The Tibetan line ends thams cad bskor bar gyur, apparently 'all was surrounded' or 'turned about'.",
+      "cites": [
+        "cp.36.m2"
+      ]
+    },
+    {
+      "anchor": "cp.36.1",
+      "kind": "imagery",
+      "text": "Read literally, couplet 1 describes a raid on a house. The empty house is struck, the storehouse taken and everything in it carried off; the refrain then has the one who did it fast asleep. This is only the plain sense of the three verbs (pahārī, lui, ahārī). Munidatta does not read the couplet this way (cp.36.m2).",
+      "cites": [
+        "cp.36.m2"
+      ]
+    },
+    {
+      "anchor": "cp.36.2",
+      "kind": "doctrine",
+      "text": "Munidatta says that with the refrain the poet states the defining mark of concentration (dhyānalakṣaṇa). His gloss: he goes into the yogic sleep of innate joy, and so is not aware (na cetayati); he does not fall from it; therefore the handsome Kṛṣṇācārya is sleepy with the yogic sleep of innate joy. He adds a line of the Dvikalpa (the Hevajra Tantra), ghumai garuṇaha bhakṣaṇe, which the Tibetan renders 'the sleepy one eats poisons' (gnyid yur dug rnams za bar byed) (cp.36.m3).",
+      "cites": [
+        "cp.36.m3"
+      ]
+    },
+    {
+      "anchor": "cp.36.2a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads gnyid yur sems med rang dang gzhan dag rnam par bral: 'asleep, without mind, free of self and other'. ṇa cebai becomes sems med, 'without mind', as ceaṇa does in 3a, and bibhāga, 'division', becomes rnam par bral, 'parted, free of'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.36.2b",
+      "kind": "philology",
+      "text": "kāhnilā is the poet's name, Kāhna, with a suffix -ilā of uncertain force. Here the poet names himself in the refrain; the last couplet names his guru instead. lāṅgā is uncertain. It is taken as 'stuck fast, sunk in' (Sanskrit lagna), which suits Munidatta's 'he does not fall from it' (cp.36.m3) and the Tibetan, where Kāṇha 'went' (song) into innate sleep. It could also be 'naked' (Sanskrit nagna). Munidatta's 'the handsome Kṛṣṇācārya' (kṛṣṇācāryasundara) stands where the line has kāhnilā lāṅgā, but whether it renders either word is unclear.",
+      "cites": [
+        "cp.36.m3"
+      ]
+    },
+    {
+      "anchor": "cp.36.3a",
+      "kind": "philology",
+      "text": "ceaṇa and beana stand for Sanskrit cetanā, 'awareness', and vedanā, 'feeling'. bhara, 'full, heavy', is rendered 'deep'; Munidatta has nirbhara, 'complete, intense' (cp.36.m4), and the Tibetan line shin du, 'very'. gelā is 'went'.",
+      "cites": [
+        "cp.36.m4"
+      ]
+    },
+    {
+      "anchor": "cp.36.3",
+      "kind": "witness",
+      "text": "Munidatta's Sanskrit on this couplet is damaged: na cittacetanāvikalpo bodhinādya te makes no clear sense after its opening, 'no conceptual thought of mind and awareness'. The Tibetan comment is clear: 'without mind' (sems med) means the mind free of conceptual thought, and feeling too is free of it (cp.36.m4).",
+      "cites": [
+        "cp.36.m4"
+      ]
+    },
+    {
+      "anchor": "cp.36.3b",
+      "kind": "philology",
+      "text": "suphala kari: literally 'making well-fruited, making fruitful'. Munidatta takes saala, 'all', as the three worlds, which the sleeper purifies (pariśodhya) before going into the sleep of knowledge (jñānanidrā) so that it is complete (cp.36.m4). The Tibetan line has thams cad grol bar byas nas, 'having freed everything'. The English keeps the Bengali image. suhe is 'in bliss, happily'; sutelā, 'slept, lay down to sleep'.",
+      "cites": [
+        "cp.36.m4"
+      ]
+    },
+    {
+      "anchor": "cp.36.4",
+      "kind": "doctrine",
+      "text": "Munidatta says this verse states the knowledge of one's own appearing (svapratibhāsajñāna); the Tibetan comment has 'the knowledge of his own intention' (rang gi dgongs pa'i ye shes) instead. Where the song says 'in a dream I saw', he paraphrases 'by me the three worlds were seen like a dream, and empty' (svapnavat). He quotes scripture: as a girl in her dreams sees a son born and dying, glad at the birth and grieved at the death, so know all things (cp.36.m5).",
+      "cites": [
+        "cp.36.m5"
+      ]
+    },
+    {
+      "anchor": "cp.36.4b",
+      "kind": "witness",
+      "text": "Shastri prints ghoria. Munidatta cites ghānika (ghāniketi), perhaps reading ghānia, 'having pressed' (compare Bengali ghāni, 'oil press'), and glosses it as making the wind enter the avadhūtikā and innate joy (cp.36.m5). The Tibetan translation (Toh 2293) has 'dres par byas nas, 'having mixed', which supports taking ghoria from ghol-, 'stir, churn'. Munidatta's lemma avaṇāgavana has v where the song has m. Coming and going 'become absent' (bral bar 'gyur) in the Tibetan line, and Munidatta speaks of them as broken (khaṇḍayitvā).",
+      "cites": [
+        "cp.36.m5"
+      ]
+    },
+    {
+      "anchor": "cp.36.4b",
+      "kind": "doctrine",
+      "text": "Munidatta reads coming and going as the coming and going of the moon and the sun. They are broken by the method already described, and the wind is made to enter the avadhūtikā and innate joy (cp.36.m5). The Tibetan comment agrees: the going and coming of moon and sun are stopped as the wind enters the avadhūtī (a wa d+hU tI).",
+      "cites": [
+        "cp.36.m5"
+      ]
+    },
+    {
+      "anchor": "cp.36.5a",
+      "kind": "philology",
+      "text": "śākhi stands for Sanskrit sākṣin, 'witness', as Munidatta's paraphrase shows: 'having made the glorious guru Jālandharipāda witnesses (sākṣiṇaḥ)' (cp.36.m6). The Tibetan line reads it as mngon sum nyid du byas, 'made directly evident', as if from sākṣāt, 'before the eyes'. The Tibetan comment likewise has the guru make the nature of things directly evident (chos nyid mngon sum du mdzad pa). pāe is taken, with Munidatta, as the honorific -pāda of the name; it could also mean 'at the feet', as the Tibetan zhabs las, 'from the feet', may imply.",
+      "cites": [
+        "cp.36.m6"
+      ]
+    },
+    {
+      "anchor": "cp.36.5a",
+      "kind": "witness",
+      "text": "Shastri's kariba is a future, 'I will make'. Munidatta's lemma is śākhi karī(tyādi) and his paraphrase kṛtvā, 'having made' (cp.36.m6); the Tibetan translation (Toh 2293) has byas, 'made'. Both suggest a reading kari, 'having made'. The English follows the edition.",
+      "cites": [
+        "cp.36.m6"
+      ]
+    },
+    {
+      "anchor": "cp.36.5",
+      "kind": "doctrine",
+      "text": "Munidatta says the last couplet states the greatness of the vajra guru (vajragurumāhātmya). By the grace of the dust of the glorious guru Jālandharipāda's lotus feet, the paṇḍita teachers whose sight goes no further than books do not see even the vicinity of 'my side' (cp.36.m6). Later siddha traditions make Jālandhari Kāṇha's teacher.",
+      "cites": [
+        "cp.36.m6"
+      ]
+    },
+    {
+      "anchor": "cp.36.5b",
+      "kind": "philology",
+      "text": "Paṇḍita: a learned scholar, a recurring foil in the siddhas' songs; the source word is kept. pāṇḍiā cāde is taken as 'paṇḍita teachers', after Munidatta's paṇḍitācāryāḥ (cp.36.m6). pākhi is 'side, wing' (Sanskrit pakṣa, or pārśva). In Munidatta's pāśasānnidhāna, pāśa seems to stand for pārśva, 'side', not for 'noose'; the Tibetan comment has rtsa bar, 'near'. rāhaa is obscure. Munidatta (na paśyanti) and the Tibetan line (lta mi byed) both read a verb of seeing, and both add 'even'. A verb 'stay' would give 'do not stay at my side'.",
+      "cites": [
+        "cp.36.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "nidra",
+      "line": "cp.36.2a",
+      "reason": "ghumai is the finite verb 'sleeps'. The glossary's noun 'sleep' would force a recast ('in sleep he…'), so the verb is left unmarked here; 'sleep' is marked in 2b and 3a."
+    }
+  ],
+  "proposals": [],
+  "questions": [
+    "1a বাহ: I kept it under the glossary's 'house' entry, since the Tibetan khyim and Munidatta's vāsanāgāra both read a house. Is that filing right, or should bāha (not the usual ghara; perhaps from vāsa, 'dwelling') have its own entry, or a line in the house entry?",
+    "1b লুই: I read it as the verb 'having taken' (Tibetan blangs nas) and left it unlinked from Lūyī. Do you want a note raising the possibility of a play on Lūyī's name? Neither witness hints at one.",
+    "5a শাখি: I kept 'witness' (saksin), with Munidatta's sākṣiṇaḥ; the Tibetan reads mngon sum, 'made directly evident'. Do you confirm 'witness'?",
+    "2b লাঙ্গা: 'sunk in' (lagna), which the witnesses loosely support, or 'naked' (nagna), the ordinary later sense?",
+    "5b রাহঅ: 'do not look my way' follows Munidatta and the Tibetan. Would you prefer 'do not stay at my side' (from rah-, 'stay')?",
+    "5a: the edition's kariba is a future, but Munidatta's lemma (karī) and paraphrase (kṛtvā) and the Tibetan byas point to kari, 'having made'. Keep the future, or emend?",
+    "Heading: should it name the poet ('· Kāṇha'), from the attribution kṛṣṇācāryapādānāṃ that was emended out of 1a?",
+    "suṇa in 1a and 4a: the sunyata entry lists সুণ, but no hit was detected in either line. I rendered 'empty' and left it unlinked, since the entry's English is the noun 'emptiness'. Should 'empty' be a variant of sunyata and be marked?",
+    "nidra in 2a: may 'sleeps' be added as a variant, so the refrain's verb can be marked?",
+    "The 'noose' hit in cp.36.m6 (পাশ) looks false: Munidatta's pāśasānnidhāna seems to mean the nearness of 'my side' (pāśa for pārśva; the Tibetan has rtsa bar, 'near'). Could the noose entry be kept from matching it?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "54485f67968eed744396cab35ca41e59705586b6fff94e355095f43439d4d2be",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "22f40bbccf40e393ba53752a1ba9d207dc51fcd320a15edb88189bc38cf4b68a",
+    "sourceSha": "40eda529b33b7f821bccea300b1efdad518d76b2617c6288b2bf204df1a0561f"
+  }
+}

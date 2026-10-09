@@ -1,0 +1,556 @@
+{
+  "unit": "cp.46",
+  "title": "Dream and Mirror",
+  "summary": "The song likens delusion in the in-between to what is seen in a dream or a mirror, says that coming and going breaks off once the mind is freed from delusion, and names something that is not burnt, wetted or cut, while fools stay bound; the body is alike to shade and illusion, and the mind purified in suchness does not become other. Munidatta reads the in-between as the consciousness of existence between (cp.46.m2), which the Tibetan comment calls the intermediate existence, sets the freeing of the mind at the moment consciousness passes on (cp.46.m3), and takes what is not burnt, wetted or cut as the mind of saṃsāra freed from delusion through contact with the dust of the true guru's feet (cp.46.m4).",
+  "lines": [
+    {
+      "id": "cp.46.h1",
+      "translit": "rāga śabarī",
+      "gloss": "rāga, melodic mode · Śabarī (name of the rāga)",
+      "en": "[Rāga]{raga} [Śabarī]{sabari-raga} · [Jayanandipāda]{p-jayanandi}",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "sabari-raga",
+          "src": "শবরী"
+        },
+        {
+          "id": "p-jayanandi",
+          "src": "জয়নন্দীপাদানাং"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The heading line prints only 'rāga śabarī'. I added '· Jayanandipāda' from the attribution jayanandīpādānāṃ that the edition prints before the song (moved out of 1a as not part of the verse) and from the Tibetan heading (dza yA nan+de'i zhabs kyi'o), following the house form 'Rāga … · poet'. Drop it if the heading should give only what the line prints."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.1a",
+      "translit": "pekhu suaṇe adaśa jaisā",
+      "gloss": "see (imperative) · in a dream · mirror · like, as",
+      "en": "See: as in a [dream]{svapna}, in a [mirror]{mirror},",
+      "terms": [
+        {
+          "id": "svapna",
+          "src": "সুঅণে"
+        },
+        {
+          "id": "mirror",
+          "src": "অদশ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "pekhu taken as the imperative 'see' (Munidatta's paśya, cp.46.m2; the Tibetan blta bar gyis, 'look'). jaisā, 'as', pairs with taisā, 'so', in 1b. One 'as in' covers both dream and mirror, since only suaṇe carries the locative ending."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.1b",
+      "translit": "antarāle moha taisā || dhru ||",
+      "gloss": "in the interval, in between · delusion · so, like that",
+      "en": "so is [delusion]{moha} in the [in-between]{antarala}.",
+      "terms": [
+        {
+          "id": "moha",
+          "src": "মোহ"
+        },
+        {
+          "id": "antarala",
+          "src": "অন্তরালে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "antarāle: 'in the in-between', an interval of space or time, is my choice. Alternatives: the intermediate existence between death and rebirth (the Tibetan line's bar gyi srid pa, and the Tibetan comment's bar srid kyi rnam par shes pa for Munidatta's antarā bhavavijñānaṃ, cp.46.m2); 'within', since antarāla also means 'interior'; 'meanwhile'. I did not link antarabhava, which would put the Tibetan's reading into the verse; the word is marked with a proposed entry, antarala, instead."
+        },
+        {
+          "kind": "witness",
+          "level": "medium",
+          "note": "The Tibetan line has no word for moha: bar gyi srid pa nyid kyang de bzhin no, 'the intermediate existence itself is also like that'. The Bengali is clear here, so 'delusion' stays."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.2a",
+      "translit": "moha(da) bimukkā jai māṇā",
+      "gloss": "delusion (Shastri's bracketed da unexplained) · freed · if · mind",
+      "en": "If the [mind]{citta} is freed from [delusion]{moha},",
+      "terms": [
+        {
+          "id": "citta",
+          "src": "মাণা"
+        },
+        {
+          "id": "moha",
+          "src": "মোহ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "মোহ(দ): Shastri's parenthetical da is unexplained. Translated as moha bimukkā, 'freed from delusion', with Munidatta's mohavimuktaṃ (cp.46.m3) and the Tibetan rmongs las rnam grol."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.2b",
+      "translit": "tabem̐ tuṭai abaṇā gamaṇā || dhru ||",
+      "gloss": "then · breaks off · coming · going",
+      "en": "then [coming and going]{coming-and-going} breaks off.",
+      "terms": [
+        {
+          "id": "coming-and-going",
+          "src": "অবণা গমণা"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.46.3a",
+      "translit": "nau dāṭai nau timai na cchijai",
+      "gloss": "not · is burnt · not · gets wet · not · is cut",
+      "en": "It is not [burnt]{burning}, not [wetted]{wetting}, not [cut]{cutting}.",
+      "terms": [
+        {
+          "id": "burning",
+          "src": "দাটই"
+        },
+        {
+          "id": "wetting",
+          "src": "তিমই"
+        },
+        {
+          "id": "cutting",
+          "src": "চ্ছিজই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The three verbs are taken as passive, as Munidatta takes them (na dagdhaṃ, na plāvanīyaṃ, chettuṃ na pāryate, cp.46.m4); 'cannot be burnt, wetted or cut', or intransitive 'does not burn, does not get wet', are also possible. The line has no subject: I supply 'It'; Munidatta supplies the mind freed from delusion."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The Tibetan line's third member is rgyun mi 'chad, 'its stream is not cut off', not simply 'not cut'; its comment has 'not cut by a weapon'."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.3b",
+      "translit": "pekha moa mohe bali bali bājhai || dhru ||",
+      "gloss": "see · fool(s)? (Tibetan: illusion) · in delusion · utterly? (Tibetan: white hair) · utterly? (Tibetan: wrinkles) · is/are bound",
+      "en": "See: fools are bound tighter and tighter in [delusion]{moha}.",
+      "terms": [
+        {
+          "id": "moha",
+          "src": "মোহে"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "moa: 'fools' follows Munidatta's paraphrase, where kudhiyaḥ, 'the dull-witted', stands in its place (cp.46.m4). The derivation (Prakrit mūa, from mūḍha or mūka?) is a guess, so I did not link the glossary's 'fool' (mudha). The Tibetan reads 'illusion' (sgyu ma la rmongs, its rendering of māāmohā in song 15), as if its source had māā mohe, 'in illusion and delusion'. Other possibilities: mua, 'dead'; a form of mo-, 'my'."
+        },
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "bali bali: taken as an intensive, Munidatta's paraṃ, 'utterly' (cp.46.m4), perhaps from bala, 'force'; 'tighter and tighter' keeps the doubling. The Tibetan has white hair and wrinkles (skra dkar gnyer), as if the two words were palita and vali, the marks of old age: 'see those deluded by illusion grown grey and wrinkled'. If bali bali stands for bāri bāri, it would mean 'again and again'."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "pekha taken as the imperative 'see', like pekhu in 1a and the Tibetan ltos, 'look'; Munidatta makes it a participle, 'even seeing this' (evaṃ paśyan san tathāpi, cp.46.m4). bājhai, 'is/are bound' (Munidatta's baddhā bhavanti), has no counterpart in the Tibetan line."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.4a",
+      "translit": "chāa māā kāa samāṇā",
+      "gloss": "shadow · illusion · body · alike, equal",
+      "en": "[Shade]{shade}, [illusion]{maya}, [body]{body}: alike.",
+      "terms": [
+        {
+          "id": "shade",
+          "src": "ছাঅ"
+        },
+        {
+          "id": "maya",
+          "src": "মাআ"
+        },
+        {
+          "id": "body",
+          "src": "কাঅ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "chāa is a cast shadow (chāyā; the Tibetan grib ma). The glossary's English for the entry is 'shade', which I kept; 'shadow' is the usual English for this simile (see questions)."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "samāṇā, 'alike': the English keeps the Bengali order. Munidatta (chāyāmāyāsamaṃ svavigrahaṃ, cp.46.m5) and the Tibetan line make the body the thing likened, so 'The body is like a shade, an illusion' is a possible alternative wording."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.4b",
+      "translit": "beṇi pākhem̐ soi biṇā || dhru ||",
+      "gloss": "both · on (the) side(s) · that very one · without (or: vīṇā?)",
+      "en": "That itself is without [both]{beni} [sides]{paksa}.",
+      "terms": [
+        {
+          "id": "beni",
+          "src": "বেণি"
+        },
+        {
+          "id": "paksa",
+          "src": "পাখেঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "biṇā taken as vinā, 'without', in line with Munidatta's pakṣāpakṣabhinna, apparently 'set apart from side and non-side' (cp.46.m5). Alternatives: vīṇā, the lute (song 17 has herua bīṇā, and Munidatta names Heruka here); a form of biṇāṇā, 'consciousness'. The Tibetan line has neither: 'on those two sides the manifold is seen' (sna tshogs mthong)."
+        },
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "pākhem̐ carries a locative or instrumental ending, which sits oddly with 'without'; 'on both sides, that is lacking' is another construal. soi, 'that very one', has no stated referent: the body of 4a, the mind of the refrain, or, for Munidatta, Heruka's form (cp.46.m5). 'That itself' keeps it open."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.5a",
+      "translit": "cia tathātāsvabhāve ṣohia",
+      "gloss": "mind · in the nature of suchness · purified (or: having purified)",
+      "en": "The [mind]{citta} [purified]{visuddhi} in the [nature]{svabhava} of [suchness]{tathata},",
+      "terms": [
+        {
+          "id": "citta",
+          "src": "চিঅ"
+        },
+        {
+          "id": "visuddhi",
+          "src": "ষোহিঅ"
+        },
+        {
+          "id": "svabhava",
+          "src": "স্বভাবে"
+        },
+        {
+          "id": "tathata",
+          "src": "তথাতা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "medium",
+          "note": "ṣohia (sohia, Sanskrit śodhita) taken as the participle 'purified', with cia in an absolute phrase leading into 5b. It could be an absolutive, 'having purified the mind…', with Jaanandi as subject; the Tibetan makes it an imperative, 'purify' (sbyang bar gyis); Munidatta makes it a condition, 'if the wise purify' (cp.46.m6)."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "'purified' renders a verb filed under visuddhi, whose glossary English is the noun 'purity' (see questions)."
+        }
+      ]
+    },
+    {
+      "id": "cp.46.5b",
+      "translit": "bhaṇai jaanandi phuḍaaṇa ṇa hoi",
+      "gloss": "says · Jaanandi · clearly + other? (phuḍa aṇa; or sphuṭana, splitting) · not · becomes",
+      "en": "[Jaanandi]{p-jayanandi} says plainly: it does not become other.",
+      "terms": [
+        {
+          "id": "p-jayanandi",
+          "src": "জঅনন্দি"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "phuḍaaṇa divided phuḍa aṇa, 'clearly' and 'other', hence 'says plainly: it does not become other'. The Tibetan supports both parts (smras pa gsal byed gzhan min no, 'said, making clear: it is not other'); Munidatta renders only 'does not become otherwise' (anyathābhāvaṃ na bhavati, cp.46.m6). Read as one word it might be sphuṭana, 'splitting, bursting': 'Jaanandi says: there is no splitting'."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The subject of 'does not become other' is unstated; 'it' points back to the mind of 5a, as in Munidatta (cittam, cp.46.m6)."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.46.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music; each song's heading names the one it is sung to. Śabarī here is the name of the rāga (the Tibetan heading transcribes it sham+ba rI), not the Śabara woman of song 28, who has her own entry.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46.h1",
+      "kind": "witness",
+      "text": "The heading line prints only the rāga. The poet's name comes from the attribution jayanandīpādānāṃ, 'of Jayanandīpāda', which the edition prints before the song, at the head of 1a. The Tibetan heading gives both: sham+ba rI zhes bya ba'i glu dbyangs dza yA nan+de'i zhabs kyi'o, 'the melody called Śambarī, of Jayānandepāda'. The Tibetan spells the name dza yA nan+de here, dza ya nan+ti in 5b and dza ya nan+ta in the commentary.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song by saying that Jayanandipāda, who has gained the higher knowledges (abhijñā), sets out 'that same meaning' (tam evārtham) for the accumulation of supreme compassion (cp.46.m1). The Tibetan has 'endowed with higher knowledge of the meaning of reality' (de kho na nyid kyi don mngon par shes pa dang ldan pa), as if it read tattva, 'reality', for tam eva.",
+      "cites": [
+        "cp.46.m1"
+      ]
+    },
+    {
+      "anchor": "cp.46",
+      "kind": "witness",
+      "text": "The edition prints ॥ ধ্রু॥, the cue to sing the refrain again, after 1b as well as after 2b, 3b and 4b, although the refrain is couplet 2; after 5b it prints no couplet-end mark at all. Neither affects the text: ধ্রু is not translated, and Munidatta's comment on couplet 5 covers both its lines, so nothing seems to be missing at the end (cp.46.m6).",
+      "cites": [
+        "cp.46.m6"
+      ]
+    },
+    {
+      "anchor": "cp.46.1a",
+      "kind": "imagery",
+      "text": "What appears in a dream and the image in a mirror are standard Mahāyāna comparisons for things that show themselves vividly without being there. Jaisā … taisā, 'as … so', spans the couplet: as in a dream, in a mirror, so in the in-between.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46.1a",
+      "kind": "witness",
+      "text": "The Tibetan line reads rmi lam gzugs brnyan ji bzhin blta bar gyis, 'look on it as a dream, a reflection': it renders adaśa, 'mirror', by what is seen in one (gzugs brnyan, 'reflection'), and has the imperative 'look' for pekhu.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46.1",
+      "kind": "doctrine",
+      "text": "Munidatta paraphrases: as one's own appearance in a dream, as the reflection in a mirror, so see the consciousness of existence in between (tādṛśam antarā bhavavijñānaṃ paśya); he then quotes a scripture in the vernacular, 'as the moon in the midst of water…' (jima jalamajhe caṃda…) (cp.46.m2). The Tibetan comment has 'like the person of a dream and the reflection of a mirror' and 'see the consciousness of the intermediate existence' (bar srid kyi rnam par shes pa), taking antarā bhava- as one word, antarābhava; its version of the quotation reads 'like the moon in water, neither existent nor nonexistent' (yod med min).",
+      "cites": [
+        "cp.46.m2"
+      ]
+    },
+    {
+      "anchor": "cp.46.1b",
+      "kind": "philology",
+      "text": "Antarāle is the locative of antarāla, 'the space or time between; interior'. The translation keeps the plain sense, 'in the in-between'. The Tibetan line and comment read it as the existence between death and rebirth, the [intermediate existence]{antarabhava}, and Munidatta's antarā bhavavijñāna can be taken that way (cp.46.m2); the Bengali itself does not name it. The word could also mean 'within' or 'meanwhile'.",
+      "cites": [
+        "cp.46.m2"
+      ]
+    },
+    {
+      "anchor": "cp.46.1b",
+      "kind": "witness",
+      "text": "The Tibetan line reads bar gyi srid pa nyid kyang de bzhin no, 'the intermediate existence itself is also like that'. It takes antarāle as bar gyi srid pa, 'intermediate existence' (antarābhava), and has no word for moha, 'delusion'.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46.2",
+      "kind": "witness",
+      "text": "The edition prints Munidatta's comment on the refrain without an opening label such as dhruvapadena, 'with the refrain': it begins directly with the address bho, and its content, the mind freed from delusion and the breaking of coming and going, ties it to couplet 2 (cp.46.m3). As usual he leaves the refrain out of his count: couplet 3 is his 'second verse' (cp.46.m4), couplet 4 his 'third' (cp.46.m5), couplet 5 his 'fourth' (cp.46.m6). The Tibetan comment numbers the same couplets 'third', 'second' and 'fourth' (rkang pa gsum pas, gnyis pas, bzhi pas).",
+      "cites": [
+        "cp.46.m3",
+        "cp.46.m4",
+        "cp.46.m5",
+        "cp.46.m6"
+      ]
+    },
+    {
+      "anchor": "cp.46.2a",
+      "kind": "philology",
+      "text": "Moha(da): the parenthetical da is Shastri's, and what it marks (a variant, or a suggested extra syllable) is not clear. Munidatta's mohavimuktaṃ, 'freed from delusion' (cp.46.m3), and the Tibetan line's rmongs las rnam grol, 'fully freed from delusion', both read the phrase without it. Jai is 'if' (Sanskrit yadi); māṇā is the mind (manas; the Tibetan yid).",
+      "cites": [
+        "cp.46.m3"
+      ]
+    },
+    {
+      "anchor": "cp.46.2",
+      "kind": "doctrine",
+      "text": "Munidatta addresses the listener as one who has not understood the path (anadhigatamārga; the Tibetan makes it a condition, 'if you have not realized the path'): if, even at the time when consciousness passes on (vijñānasaṃkramaṇakāla), you recall the path of the true guru's word and make your own mind freed from delusion, then, in its absence, coming and going in saṃsāra breaks off; so why torment yourself for nothing? He then cites the opening of a verse of Bhusukupāda (kleśā viṣayeṣu…) (cp.46.m3). His 'time when consciousness passes on', the moment of death and rebirth, is what links the refrain with the in-between of 1b in the commentary.",
+      "cites": [
+        "cp.46.m3"
+      ]
+    },
+    {
+      "anchor": "cp.46.3a",
+      "kind": "imagery",
+      "text": "Not burnt, not wetted, not cut: a stock Indian triad for what nothing can destroy; compare the Bhagavad Gītā on the self, which weapons do not cut, fire does not burn and water does not wet. The line names no subject.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46.3",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 3 as his second verse, in praise of the supreme mind (paramātmacitta; the Tibetan has don dam pa'i sems, 'the ultimate mind', as if reading paramārthacitta, the word he uses a few lines later). He supplies the subject: if, through contact with the dust of the true guru's lotus feet, the mind of saṃsāra is freed from delusion, it is not burnt by fire, not flooded by water and cannot be cut by a weapon; this, apparently, is the mark of the ultimate mind. Even seeing this, he goes on, the dull-witted are utterly bound in delusion, and he quotes an outer treatise on people who carefully do wrong and, giving up milk, drink poison (cp.46.m4).",
+      "cites": [
+        "cp.46.m4"
+      ]
+    },
+    {
+      "anchor": "cp.46.3a",
+      "kind": "witness",
+      "text": "The Tibetan line reads tshig pa ma yin gsher min rgyun mi 'chad, 'not burnt, not wet, its stream not cut off': the third member echoes rgyun chad, 'cut off', in its 2b. The Tibetan comment has 'not cut by a weapon' (mtshon gyis chod par yang mi 'gyur), as Munidatta does, and 'not carried off by water' (chus kyang khyer bar mi 'gyur) for his 'not to be flooded by water' (cp.46.m4).",
+      "cites": [
+        "cp.46.m4"
+      ]
+    },
+    {
+      "anchor": "cp.46.3b",
+      "kind": "philology",
+      "text": "The line is obscure. The translation follows Munidatta's paraphrase, evaṃ paśyan san tathāpi kudhiyo mohe paraṃ baddhā bhavanti, 'even seeing this, the dull-witted are utterly bound in delusion' (cp.46.m4), which has a counterpart for every word: pekha 'seeing', moa 'the dull-witted', mohe 'in delusion', bali bali 'utterly', bājhai 'are bound'. Moa as 'fool' is not secure (perhaps through Prakrit mūa, from mūḍha or mūka; this song spells māyā as māā in 4a), and bali bali may be 'by force' or, if it stands for bāri bāri, 'again and again'.",
+      "cites": [
+        "cp.46.m4"
+      ]
+    },
+    {
+      "anchor": "cp.46.3b",
+      "kind": "witness",
+      "text": "The Tibetan line reads sgyu ma la rmongs skra dkar gnyer 'jigs ltos, roughly 'look: deluded about illusion, white hair, wrinkles, fear'. It takes moa as sgyu ma, 'illusion' (sgyu ma la rmongs is how it renders māāmohā, 'illusion and delusion', in song 15, so its source may have read māā here), and bali bali as two words, white hair (skra dkar) and wrinkles (gnyer), perhaps palita and vali, the marks of old age; 'jigs, 'fear' or 'fearful', is unclear, and nothing renders 'bound'. The Tibetan comment follows Munidatta: those of inferior intellect are utterly bound by delusion (blo gros dman pa rmongs pas mchog tu 'ching bar byed do) (cp.46.m4).",
+      "cites": [
+        "cp.46.m4"
+      ]
+    },
+    {
+      "anchor": "cp.46.4a",
+      "kind": "philology",
+      "text": "Chāa is chāyā, 'shadow' (the glossary's 'shade'); māā is māyā, 'illusion'; kāa is kāya, 'body'; samāṇā is samāna, 'alike'. The English keeps the order of the Bengali. Munidatta (chāyāmāyāsamaṃ svavigrahaṃ, 'one's own body, alike to shadow and illusion', cp.46.m5) and the Tibetan line (lus ni grib ma sgyu ma dang mtshungs pa, 'the body is like shadow and illusion') both make the body the thing likened.",
+      "cites": [
+        "cp.46.m5"
+      ]
+    },
+    {
+      "anchor": "cp.46.4",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 4 as his third verse, the mark of ultimate truth: when those freed from delusion come to know the ultimate, they see their own body with the eye of knowledge as like a shadow and an illusion, and perceive the form of Śrī Heruka, pakṣāpakṣabhinna, apparently 'set apart from side and non-side'. He then cites the opening of a verse of Saraha, 'Mahāmāyā the goddess…' (cp.46.m5). The Tibetan comment calls the couplet the 'second' verse, leaves out the shadow, has 'eye' without 'knowledge', speaks of 'five glorious Herukas' (dpal he ru ka lnga), and calls them indivisible (dbyer med pa) from side and non-side, as if reading abhinna.",
+      "cites": [
+        "cp.46.m5"
+      ]
+    },
+    {
+      "anchor": "cp.46.4b",
+      "kind": "philology",
+      "text": "Beṇi is 'both'; pākhem̐ is the locative or instrumental of pākha, 'side' (Sanskrit pakṣa); soi is 'that very one'; biṇā is most likely vinā, 'without'. The translation takes the line as 'that is without both sides', which suits Munidatta's pakṣāpakṣabhinna (cp.46.m5); what soi refers to is not said. Biṇā could also be vīṇā, the lute (song 17 has herua bīṇā, 'Heruka's vīṇā', and Munidatta names Heruka here), or belong with biṇāṇā, 'consciousness'.",
+      "cites": [
+        "cp.46.m5"
+      ]
+    },
+    {
+      "anchor": "cp.46.4b",
+      "kind": "witness",
+      "text": "The Tibetan line reads phyogs ni gnyis po der ni sna tshogs mthong, 'on those two sides the manifold is seen'. It has no 'without', and sna tshogs, 'manifold, various', has no clear counterpart in the Bengali; it may render soi biṇā read differently.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.46.5a",
+      "kind": "philology",
+      "text": "Tathātā is tathatā, 'suchness', with a lengthened vowel; ṣohia is sohia (Sanskrit śodhita, 'purified'), written with ṣ as in ṣiālā, 'jackal', in song 33. The -ia form can be a past participle, 'purified', taken here with cia, 'the mind', or an absolutive, 'having purified', with Jaanandi in 5b as subject. The Tibetan line makes it an imperative, sems kyi de nyid rang bzhin sbyang bar gyis, 'purify the suchness-nature of the mind'; Munidatta makes it a condition: if the wise purify the mind of the fault of its habitual tendencies with the great essence of the meaning of the perfection of wisdom (cp.46.m6).",
+      "cites": [
+        "cp.46.m6"
+      ]
+    },
+    {
+      "anchor": "cp.46.5b",
+      "kind": "philology",
+      "text": "Phuḍaaṇa is printed as one word. The translation divides it phuḍa aṇa: phuḍa, Sanskrit sphuṭa, 'clear, plainly', and aṇa, anya, 'other', so 'plainly … it does not become other'. The Tibetan line supports both parts: smras pa gsal byed gzhan min no, 'said, making clear: it is not other'. Munidatta has only the second: the mind does not become otherwise (cittam anyathābhāvaṃ na bhavati) (cp.46.m6). Read as one word, phuḍaaṇa might be sphuṭana, 'bursting, splitting': 'there is no splitting'.",
+      "cites": [
+        "cp.46.m6"
+      ]
+    },
+    {
+      "anchor": "cp.46.5",
+      "kind": "doctrine",
+      "text": "Munidatta introduces couplet 5 as his fourth verse, stating the true nature of the fruit of the mind (cittaphalasvarūpa). If the wise purify the mind, Jayanandipāda says, it does not become otherwise; for whoever is purified in suchness becomes 'thus' and nothing else. He ends with the Dvikalpa (Hevajra): the purity of all things is held to be suchness (cp.46.m6). The Tibetan comment divides anyathābhāvaṃ differently: 'the mind is not other; it is not a non-thing' (sems ni gzhan ma yin te dngos po med pa ma yin no).",
+      "cites": [
+        "cp.46.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "antarabhava",
+      "line": "cp.46.1b",
+      "reason": "Hit in the Tibetan only (bar gyi srid pa). The Bengali has antarāle, 'in the in-between'; linking 'intermediate existence' would put the Tibetan's and the commentary's reading into the verse. The word is marked with the proposed entry antarala, and the reading is given, linked, in the 1b note. For the reviewer to decide."
+    },
+    {
+      "id": "mayamoha-samudra",
+      "line": "cp.46.3b",
+      "reason": "Hit in the Tibetan only: sgyu ma la rmongs, the Tibetan's rendering of māāmohā in song 15, here standing for moa mohe. There is no ocean in the line, and the translation follows Munidatta's reading, which has no illusion; see the 3b witness note."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "antarala",
+      "type": "term",
+      "en": "in-between",
+      "policy": "translate",
+      "alt": [
+        "interval",
+        "in between"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অন্তরালে",
+          "translit": "antarāle",
+          "lemma": "antarāla",
+          "att": "AS",
+          "where": "cp.46.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অন্তরালে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The in-between: an interval of space or time (Old Bengali antarāle, locative of Sanskrit antarāla, 'intermediate space; interior'). In song 46 (1b) delusion in the in-between is like what appears in a dream or a mirror. The Tibetan line has bar gyi srid pa, 'intermediate existence' (compare antarābhava); Munidatta paraphrases antarā bhavavijñāna (cp.46.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Antarāle is the key word of 1b and has no entry. Linking antarabhava ('intermediate existence') would put the Tibetan line's reading into the verse; a separate entry lets the line mark the word in its plain sense and keeps the reading for the notes. Reject it if you prefer to link antarabhava."
+    }
+  ],
+  "questions": [
+    "1b antarāle: I kept 'in the in-between' and proposed a new entry (antarala) rather than linking antarabhava, 'intermediate existence', which is the Tibetan line's reading (bar gyi srid pa) and the Tibetan comment's reading of Munidatta (cp.46.m2). Do you want the line to say 'intermediate existence' and link antarabhava instead?",
+    "3b: the line follows Munidatta's paraphrase (cp.46.m4): 'See: fools are bound tighter and tighter in delusion'. The Tibetan reads it as delusion about illusion and the white hair and wrinkles of old age. Which reading should the line follow, and is 'tighter and tighter' acceptable for the doubled bali bali?",
+    "4a: the glossary gives 'shade' for chāa (id shade), and I kept it. The sense is a cast shadow, and 'like a shadow' is the usual English for this simile. Should 'shadow' be added as a variant? The entry's definition already says 'shade or shadow'.",
+    "Verb forms of glossary terms: 'burnt' and 'wetted' (EN 'burn', 'wet') in 3a, and 'purified' for visuddhi (EN 'purity') in 5a. Are inflected and verbal surfaces acceptable, or should the entries list them as variants?",
+    "5b: I used the poet's self-naming 'Jaanandi' for p-jayanandi (EN 'Jayanandipāda'), as the bhaṇitā style asks. Should 'Jaanandi' be listed as a variant, as 'Bhusuku' is for Bhusukupāda?",
+    "5b phuḍaaṇa: do you accept dividing it phuḍa aṇa ('plainly … other'), as the Tibetan seems to, or prefer Munidatta's bare 'it does not become otherwise' (cp.46.m6), or sphuṭana, 'splitting'?",
+    "4b biṇā: 'without' (vinā) or vīṇā? And does 'That itself is without both sides' read clearly enough, given that soi has no stated referent?",
+    "Heading: keep '· Jayanandipāda', taken from the attribution before the song and from the Tibetan heading, or give only 'Rāga Śabarī'?",
+    "2a: do you know what Shastri's parenthetical (দ) in মোহ(দ) marks?",
+    "For the weave stage: two commentary hits look like false matches, 'bridge' on saṃkramaṇa in vijñānasaṃkramaṇa and 'phala' on niṣphalaṃ (both cp.46.m3). The Tibetan hit 'mayamoha-samudra' on 3b also matches sgyu ma la rmongs where the line has no ocean."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "263d3597d1f179e0942b72bb841761aa3962cf886f483912fecf7d22eed94dc6",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "10fc0141caf4e7017b4587c1f036aa58d20dcefb4192a94d741078514780148d",
+    "sourceSha": "51173331f637e185ea59e2125af795bc8472b15bbfafff8815d7ea254307a9cd"
+  }
+}

@@ -3798,6 +3798,49 @@
       }
     },
     {
+      "id": "antarala",
+      "type": "term",
+      "status": "proposed",
+      "en": "in-between",
+      "alt": [
+        "interval",
+        "in between"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অন্তরালে",
+          "translit": "antarāle",
+          "lemma": "antarāla",
+          "att": "AS",
+          "where": "cp.46.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অন্তরালে"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The in-between: an interval of space or time (Old Bengali antarāle, locative of Sanskrit antarāla, 'intermediate space; interior'). In song 46 (1b) delusion in the in-between is like what appears in a dream or a mirror. The Tibetan line has bar gyi srid pa, 'intermediate existence' (compare antarābhava); Munidatta paraphrases antarā bhavavijñāna (cp.46.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "anubhava",
       "type": "term",
       "status": "proposed",
@@ -43722,7 +43765,7 @@
       },
       "matchRe": {
         "san": [
-          "ফল(?!ক)"
+          "(?<!নিষ্|বি)ফল(?!ক)"
         ],
         "oben": [
           "(?<![\\p{L}\\p{M}])ফলাহা(?![\\p{L}\\p{M}])"

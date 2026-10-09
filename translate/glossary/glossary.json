@@ -1264,9 +1264,22 @@
           "lemma": "byin gyis brlabs pa",
           "att": "AO",
           "where": "cp.33.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রগুরোশ্চাধিষ্ঠানাচ্চতুর্থ[ং]",
+          "translit": "vajraguroś cādhiṣṭhānāc caturtha[ṃ]",
+          "lemma": "adhiṣṭhāna",
+          "att": "AS",
+          "where": "cp.44.m2"
         }
       ],
-      "match": {},
+      "match": {
+        "san": [
+          "চাধিষ্ঠান",
+          "অধিষ্ঠান"
+        ]
+      },
       "matchRe": {
         "san": [
           "(?<!স্ব)াধিষ্ঠান|অধিষ্ঠান"
@@ -4221,13 +4234,30 @@
           "lemma": "bla na med pa",
           "att": "AO",
           "where": "cp.34.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "অণুঅর",
+          "translit": "aṇuara",
+          "lemma": "aṇuara",
+          "att": "AS",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "san",
+          "script": "নুত্তরবোধিং",
+          "translit": "(a)nuttarabodhiṃ",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.44.m3"
         }
       ],
       "match": {
         "oben": [
           "অনুত্তর",
           "আণুতু",
-          "নুত্তর"
+          "নুত্তর",
+          "অণুঅর"
         ],
         "san": [
           "নুত্তরধর্ম্ম",
@@ -8969,6 +8999,22 @@
           "lemma": "bindu",
           "att": "AS",
           "where": "cp.32.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "বিদুণাদ",
+          "translit": "biduṇāda",
+          "lemma": "bidu",
+          "att": "AS",
+          "where": "cp.44.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বিন্দুরিতি",
+          "translit": "binduriti",
+          "lemma": "bindu",
+          "att": "AS",
+          "where": "cp.44.m4"
         }
       ],
       "match": {
@@ -8982,7 +9028,11 @@
           "বিন্দু"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "বিদু(?=ণাদ)"
+        ]
+      },
       "definition": "A drop: in tantric yoga, a drop of the vital essence, bodhicitta, which in its bodily form is semen and is guarded and moved through the channels of the subtle body. Munidatta speaks of the drop of bodhicitta at the opening in the tip of the vajra-jewel (cp.03.m2).",
       "symbolic": {
         "image": "",
@@ -9435,6 +9485,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.29.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "বোহী",
+          "translit": "bohī",
+          "lemma": "bohi",
+          "att": "AS",
+          "where": "cp.44.2b"
         }
       ],
       "match": {
@@ -9448,7 +9506,8 @@
       },
       "matchRe": {
         "oben": [
-          "(?<!সং)বোহি"
+          "(?<!সং)বোহি",
+          "(?<![\\p{L}\\p{M}])বোহী(?![\\p{L}\\p{M}])"
         ],
         "san": [
           "বোধি(?!নাদ্য)"
@@ -11077,6 +11136,68 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "catuhksana",
+      "type": "term",
+      "status": "proposed",
+      "en": "four moments",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চউখণ",
+          "translit": "caukhaṇa",
+          "lemma": "caukhaṇa",
+          "att": "AS",
+          "where": "cp.44.2a"
+        },
+        {
+          "lang": "san",
+          "script": "চউখণমিতি",
+          "translit": "caukhaṇam iti",
+          "lemma": "caukhaṇa",
+          "att": "AS",
+          "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐད་ཅིག་བཞི",
+          "translit": "skad cig bzhi",
+          "lemma": "skad cig bzhi",
+          "att": "AO",
+          "where": "cp.44.2a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "চউখণ"
+        ],
+        "san": [
+          "চউখণ"
+        ],
+        "bod": [
+          "སྐད་ཅིག་བཞི"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The four moments (Old Bengali caukhaṇa, Sanskrit catuḥkṣaṇa; Tibetan skad cig bzhi): in the Hevajra system, the four phases of yogic union, vicitra, vipāka, vimarda and vilakṣaṇa, which are matched with the four joys. The refrain of song 44 names them (2a); Munidatta speaks of awakening the fourth joy through the moment that begins with vicitra (cp.44.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -19691,12 +19812,23 @@
           "lemma": "hUM yig",
           "att": "AO",
           "where": "cp.39.m3"
+        },
+        {
+          "lang": "san",
+          "script": "দীর্ঘহূংকারো",
+          "translit": "dīrghahūṃkāro",
+          "lemma": "hūṃkāra",
+          "att": "AS",
+          "where": "cp.44.m4"
         }
       ],
       "match": {
         "bod": [
           "ཧཱུཾ",
           "ཧཱུྃ"
+        ],
+        "san": [
+          "হূং"
         ]
       },
       "matchRe": {
@@ -21326,6 +21458,93 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "kalakala",
+      "type": "term",
+      "status": "proposed",
+      "en": "clamour",
+      "alt": [
+        "din",
+        "uproar"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কলএল",
+          "translit": "kalaela",
+          "lemma": "kalaela",
+          "att": "AS",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কলকলঃ",
+          "translit": "kalakalaḥ",
+          "lemma": "kalakala",
+          "att": "AS",
+          "where": "cp.44.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་ལ་ཡ",
+          "translit": "ka la ya",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཅ་ཅོ",
+          "translit": "ca co",
+          "lemma": "ca co",
+          "att": "AO",
+          "where": "cp.44.m6"
+        }
+      ],
+      "match": {
+        "oben": [
+          "কলএল"
+        ],
+        "san": [
+          "কলকল"
+        ],
+        "bod": [
+          "ཅ་ཅོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A confused noise, a din (Sanskrit kalakala, Old Bengali kalaela). In Kaṅkaṇa's signature line (song 44, 5a) it qualifies a sound: kalaela sādeṃ. Munidatta takes it as the clamour of novice yogins over 'with form', 'formless' and the like, broken by the sound of suchness (cp.44.m6). The Tibetan comment has ca co, 'noise'; its line transcribes ka la ya.",
+      "symbolic": {
+        "image": "the kalaela sound in Kaṅkaṇa's signature line (5a)",
+        "readings": [
+          {
+            "referent": "the clamour of novice yogins (bālayogin) about 'with form', 'formless' and the like (sākāra, nirākāra), which is broken by the sound of sameness and suchness (samatathatānāda): his paraphrase of the last couplet puts this where the song has the kalaela sound, with no explicit gloss; the Tibetan comment agrees (rnam pa dang bcas pa dang rnam pa med pa la sogs pa byis pa'i rnal 'byor pa'i ca co)",
+            "per": "Munidatta",
+            "where": [
+              "cp.44.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "novice yogins",
+        "sākāra",
+        "nirākāra",
+        "with form",
+        "formless"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -26172,6 +26391,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.08.m5"
+        },
+        {
+          "lang": "san",
+          "script": "মধ্যমানিরোধেতি",
+          "translit": "madhyamānirodheti",
+          "lemma": "madhyamā",
+          "att": "AS",
+          "where": "cp.44.m3"
         }
       ],
       "match": {
@@ -27239,6 +27466,14 @@
           "lemma": "mal la ri",
           "att": "AO",
           "where": "cp.35.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མལླ་རཱི",
+          "translit": "mal+la rI",
+          "lemma": "mal+la rI",
+          "att": "AO",
+          "where": "cp.44.h1"
         }
       ],
       "match": {
@@ -27247,7 +27482,8 @@
         ],
         "bod": [
           "མལ་ལ་རེ",
-          "མལ་ལ་རི"
+          "མལ་ལ་རི",
+          "མལླ་རཱི"
         ]
       },
       "matchRe": {},
@@ -31376,6 +31612,14 @@
           "lemma": "nA da",
           "att": "AO",
           "where": "cp.32.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "বিদুণাদ",
+          "translit": "biduṇāda",
+          "lemma": "ṇāda",
+          "att": "AS",
+          "where": "cp.44.3a"
         }
       ],
       "match": {
@@ -31385,7 +31629,8 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])নাদ(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])নাদ(?![\\p{L}\\p{M}])",
+          "(?<=বিদু)ণাদ"
         ],
         "san": [
           "(?<![\\p{L}\\p{M}])নাদ(?![\\p{L}\\p{M}])",
@@ -33350,6 +33595,73 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "nirodha",
+      "type": "term",
+      "status": "proposed",
+      "en": "cessation",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিরোহ",
+          "translit": "niroha",
+          "lemma": "niroha",
+          "att": "AS",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "san",
+          "script": "মধ্যমানিরোধেতি",
+          "translit": "madhyamānirodheti",
+          "lemma": "nirodha",
+          "att": "AS",
+          "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འགོག་པ",
+          "translit": "'gog pa",
+          "lemma": "'gog pa",
+          "att": "AO",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགོག་པ",
+          "translit": "'gog pa",
+          "lemma": "'gog pa",
+          "att": "AO",
+          "where": "cp.44.m3"
+        }
+      ],
+      "match": {
+        "oben": [
+          "নিরোহ"
+        ],
+        "san": [
+          "নিরোধ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Cessation, stopping (Sanskrit nirodha, Old Bengali niroha; Tibetan 'gog pa): in Buddhist thought the third noble truth, the ending of suffering; in tantric yoga also the stilling of the winds and of thought. The refrain of song 44 sets cessation in the middle (2b); Munidatta has 'cessation in the madhyamā' (cp.44.m3). A different word from virama in viramānanda.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -36320,6 +36632,109 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-kankana",
+      "type": "person",
+      "status": "proposed",
+      "en": "Kaṅkaṇapāda",
+      "alt": [
+        "Kaṅkaṇa"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কঙ্কণ",
+          "translit": "kaṅkaṇa",
+          "lemma": "kaṅkaṇa",
+          "att": "AS",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কৌঙ্কণপাদানাং",
+          "translit": "kauṅkaṇapādānāṃ",
+          "lemma": "kauṅkaṇapāda",
+          "att": "AS",
+          "where": "cp.44.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কঙ্কণসিদ্ধাচার্য্য",
+          "translit": "kaṅkaṇasiddhācāryya",
+          "lemma": "kaṅkaṇa",
+          "att": "AS",
+          "where": "cp.44.m1"
+        },
+        {
+          "lang": "san",
+          "script": "কঙ্কণপাদসিদ্ধাচার্য্যোহি",
+          "translit": "kaṅkaṇapādasiddhācāryyo hi",
+          "lemma": "kaṅkaṇapāda",
+          "att": "AS",
+          "where": "cp.44.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཾ་ཀ་ཎ",
+          "translit": "kaM ka Na",
+          "lemma": "kaM ka Na",
+          "att": "AO",
+          "where": "cp.44.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཾ་ཀ་ན",
+          "translit": "kaM ka na",
+          "lemma": "kaM ka na",
+          "att": "AO",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀེང་རུས་ཞབས",
+          "translit": "keng rus zhabs",
+          "lemma": "keng rus",
+          "att": "AO",
+          "where": "cp.44.m1"
+        }
+      ],
+      "match": {
+        "san": [
+          "কঙ্কণপাদ",
+          "কৌঙ্কণপাদ"
+        ],
+        "bod": [
+          "ཀཾ་ཀ་ཎ",
+          "ཀཾ་ཀ་ན",
+          "ཀེང་རུས་ཞབས"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])কঙ্কণ(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])কঙ্কণ(?=সিদ্ধ|(?![\\p{L}\\p{M}]))"
+        ]
+      },
+      "definition": "Kaṅkaṇapāda, the siddha to whom the manuscript attributes song 44 (kauṅkaṇapādānāṃ, written before the song). He names himself Kaṅkaṇa, Sanskrit for 'bracelet', in its last couplet (5a). Munidatta calls him a siddha master delighted by the liquor of supreme compassion (cp.44.m1). The Tibetan has kaM ka Na, but keng rus, 'skeleton', in the comment's opening, as if reading kaṅkāla.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -41761,17 +42176,35 @@
           "lemma": "rang bzhin",
           "att": "AO",
           "where": "cp.18.m2"
+        },
+        {
+          "lang": "san",
+          "script": "সপ্তপ্রকৃতিদোষা",
+          "translit": "saptaprakṛtidoṣā",
+          "lemma": "prakṛti",
+          "att": "AS",
+          "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན་བདུན་གྱི་ཉེས་པ",
+          "translit": "rang bzhin bdun gyi nyes pa",
+          "lemma": "rang bzhin",
+          "att": "AO",
+          "where": "cp.44.m3"
         }
       ],
       "match": {
         "san": [
           "শতপ্রকৃত",
           "ষষ্ট্যুত্তরশতপ্রকৃত",
-          "ষষ্ট্যুত্তরশতপ্রকৃতিদোষ"
+          "ষষ্ট্যুত্তরশতপ্রকৃতিদোষ",
+          "সপ্তপ্রকৃতিদোষ"
         ],
         "bod": [
           "དྲུག་ཅུ་ལྷག་པ་བརྒྱའི་རང་བཞིན",
-          "དྲུག་ཅུ་ལྷག་པའི་བརྒྱའི་རང་བཞིན"
+          "དྲུག་ཅུ་ལྷག་པའི་བརྒྱའི་རང་བཞིན",
+          "རང་བཞིན་བདུན"
         ]
       },
       "matchRe": {},
@@ -48142,6 +48575,9 @@
           "(?<![\\p{L}\\p{M}])সুণ(?=\\s+বিআর)",
           "(?<![\\p{L}\\p{M}])সুণ(?=\\s+অপণা)",
           "(?<![\\p{L}\\p{M}])শূণ(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])সুনে?(?!\\s+ভো)(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "Emptiness: the absence of intrinsic existence in all things, a central idea of Mahāyāna thought. In song 1 it appears in the Old Bengali compound sunupākha, which Munidatta renders śūnyatāpakṣa, 'the side (or wing) of emptiness' (cp.01.m5).",
@@ -48867,6 +49303,14 @@
           "lemma": "rang byin gyis brlabs pa",
           "att": "AO",
           "where": "cp.12.m2"
+        },
+        {
+          "lang": "san",
+          "script": "তৃতীয়স্বাধিষ্ঠানশূন্যে",
+          "translit": "tṛtīyasvādhiṣṭhānaśūnye",
+          "lemma": "svādhiṣṭhāna",
+          "att": "AS",
+          "where": "cp.44.m2"
         }
       ],
       "match": {
@@ -50075,11 +50519,28 @@
           "lemma": "tathatā",
           "att": "AS",
           "where": "cp.36.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "তধতানাদেঁ",
+          "translit": "tadhatānādem̐",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.44.5b"
+        },
+        {
+          "lang": "san",
+          "script": "সমতথতানাদেন",
+          "translit": "samatathatānādena",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.44.m6"
         }
       ],
       "match": {
         "oben": [
-          "তথতা"
+          "তথতা",
+          "তধতা"
         ],
         "san": [
           "তথতা"
@@ -60280,6 +60741,14 @@
           "lemma": "zung du 'jug pa",
           "att": "AO",
           "where": "cp.13.m2"
+        },
+        {
+          "lang": "san",
+          "script": "যুগনদ্ধফলোদয়ো",
+          "translit": "yuganaddhaphalodayo",
+          "lemma": "yuganaddha",
+          "att": "AS",
+          "where": "cp.44.m2"
         }
       ],
       "match": {

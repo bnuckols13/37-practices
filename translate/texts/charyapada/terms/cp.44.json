@@ -1,0 +1,753 @@
+{
+  "unit": "cp.44",
+  "proposals": [
+    {
+      "id": "p-kankana",
+      "type": "person",
+      "en": "Kaṅkaṇapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Kaṅkaṇa"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কঙ্কণ",
+          "translit": "kaṅkaṇa",
+          "lemma": "kaṅkaṇa",
+          "att": "AS",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কৌঙ্কণপাদানাং",
+          "translit": "kauṅkaṇapādānāṃ",
+          "lemma": "kauṅkaṇapāda",
+          "att": "AS",
+          "where": "cp.44.1a"
+        },
+        {
+          "lang": "san",
+          "script": "কঙ্কণসিদ্ধাচার্য্য",
+          "translit": "kaṅkaṇasiddhācāryya",
+          "lemma": "kaṅkaṇa",
+          "att": "AS",
+          "where": "cp.44.m1"
+        },
+        {
+          "lang": "san",
+          "script": "কঙ্কণপাদসিদ্ধাচার্য্যোহি",
+          "translit": "kaṅkaṇapādasiddhācāryyo hi",
+          "lemma": "kaṅkaṇapāda",
+          "att": "AS",
+          "where": "cp.44.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཾ་ཀ་ཎ",
+          "translit": "kaM ka Na",
+          "lemma": "kaM ka Na",
+          "att": "AO",
+          "where": "cp.44.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀཾ་ཀ་ན",
+          "translit": "kaM ka na",
+          "lemma": "kaM ka na",
+          "att": "AO",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀེང་རུས་ཞབས",
+          "translit": "keng rus zhabs",
+          "lemma": "keng rus",
+          "att": "AO",
+          "where": "cp.44.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "কঙ্কণপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "কৌঙ্কণপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀཾ་ཀ་ཎ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀཾ་ཀ་ན"
+        },
+        {
+          "lang": "bod",
+          "form": "ཀེང་རུས་ཞབས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])কঙ্কণ(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])কঙ্কণ(?=সিদ্ধ|(?![\\p{L}\\p{M}]))"
+        }
+      ],
+      "definition": "Kaṅkaṇapāda, the siddha to whom the manuscript attributes song 44 (kauṅkaṇapādānāṃ, written before the song). He names himself Kaṅkaṇa, Sanskrit for 'bracelet', in its last couplet (5a). Munidatta calls him a siddha master delighted by the liquor of supreme compassion (cp.44.m1). The Tibetan has kaM ka Na, but keng rus, 'skeleton', in the comment's opening, as if reading kaṅkāla.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 44 names himself in its signature line and Munidatta names him twice, so the person needs an entry; 'Kaṅkaṇapāda' with the variant 'Kaṅkaṇa' follows the pattern of Tāḍakapāda and Bhusukupāda."
+    },
+    {
+      "id": "catuhksana",
+      "type": "term",
+      "en": "four moments",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চউখণ",
+          "translit": "caukhaṇa",
+          "lemma": "caukhaṇa",
+          "att": "AS",
+          "where": "cp.44.2a"
+        },
+        {
+          "lang": "san",
+          "script": "চউখণমিতি",
+          "translit": "caukhaṇam iti",
+          "lemma": "caukhaṇa",
+          "att": "AS",
+          "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྐད་ཅིག་བཞི",
+          "translit": "skad cig bzhi",
+          "lemma": "skad cig bzhi",
+          "att": "AO",
+          "where": "cp.44.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চউখণ"
+        },
+        {
+          "lang": "san",
+          "form": "চউখণ"
+        },
+        {
+          "lang": "bod",
+          "form": "སྐད་ཅིག་བཞི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The four moments (Old Bengali caukhaṇa, Sanskrit catuḥkṣaṇa; Tibetan skad cig bzhi): in the Hevajra system, the four phases of yogic union, vicitra, vipāka, vimarda and vilakṣaṇa, which are matched with the four joys. The refrain of song 44 names them (2a); Munidatta speaks of awakening the fourth joy through the moment that begins with vicitra (cp.44.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical term of the yoginī tantras in the refrain of song 44, which the reader cannot follow without knowing the scheme behind vicitra and vilakṣaṇa (already entries); 'four moments' renders cau-khaṇa literally, as the Tibetan skad cig bzhi does."
+    },
+    {
+      "id": "nirodha",
+      "type": "term",
+      "en": "cessation",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "নিরোহ",
+          "translit": "niroha",
+          "lemma": "niroha",
+          "att": "AS",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "san",
+          "script": "মধ্যমানিরোধেতি",
+          "translit": "madhyamānirodheti",
+          "lemma": "nirodha",
+          "att": "AS",
+          "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "འགོག་པ",
+          "translit": "'gog pa",
+          "lemma": "'gog pa",
+          "att": "AO",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "འགོག་པ",
+          "translit": "'gog pa",
+          "lemma": "'gog pa",
+          "att": "AO",
+          "where": "cp.44.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "নিরোহ"
+        },
+        {
+          "lang": "san",
+          "form": "নিরোধ"
+        },
+        {
+          "lang": "bod",
+          "form": "འགོག་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Cessation, stopping (Sanskrit nirodha, Old Bengali niroha; Tibetan 'gog pa): in Buddhist thought the third noble truth, the ending of suffering; in tantric yoga also the stilling of the winds and of thought. The refrain of song 44 sets cessation in the middle (2b); Munidatta has 'cessation in the madhyamā' (cp.44.m3). A different word from virama in viramānanda.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A doctrinal term in the refrain of song 44, glossed by Munidatta and rendered 'gog pa by the Tibetan; 'cessation' is the standard English for nirodha and keeps it apart from the joy of cessation (viramānanda)."
+    },
+    {
+      "id": "kalakala",
+      "type": "term",
+      "en": "clamour",
+      "policy": "translate",
+      "alt": [
+        "din",
+        "uproar"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কলএল",
+          "translit": "kalaela",
+          "lemma": "kalaela",
+          "att": "AS",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "san",
+          "script": "কলকলঃ",
+          "translit": "kalakalaḥ",
+          "lemma": "kalakala",
+          "att": "AS",
+          "where": "cp.44.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཀ་ལ་ཡ",
+          "translit": "ka la ya",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.44.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཅ་ཅོ",
+          "translit": "ca co",
+          "lemma": "ca co",
+          "att": "AO",
+          "where": "cp.44.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কলএল"
+        },
+        {
+          "lang": "san",
+          "form": "কলকল"
+        },
+        {
+          "lang": "bod",
+          "form": "ཅ་ཅོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A confused noise, a din (Sanskrit kalakala, Old Bengali kalaela). In Kaṅkaṇa's signature line (song 44, 5a) it qualifies a sound: kalaela sādeṃ. Munidatta takes it as the clamour of novice yogins over 'with form', 'formless' and the like, broken by the sound of suchness (cp.44.m6). The Tibetan comment has ca co, 'noise'; its line transcribes ka la ya.",
+      "symbolicImage": "the kalaela sound in Kaṅkaṇa's signature line (5a)",
+      "symbolicReadings": [
+        {
+          "referent": "the clamour of novice yogins (bālayogin) about 'with form', 'formless' and the like (sākāra, nirākāra), which is broken by the sound of sameness and suchness (samatathatānāda): his paraphrase of the last couplet puts this where the song has the kalaela sound, with no explicit gloss; the Tibetan comment agrees (rnam pa dang bcas pa dang rnam pa med pa la sogs pa byis pa'i rnal 'byor pa'i ca co)",
+          "per": "Munidatta",
+          "where": [
+            "cp.44.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "novice yogins",
+        "sākāra",
+        "nirākāra",
+        "with form",
+        "formless"
+      ],
+      "rationale": "The kalaela sound is the one image of song 44's last couplet and Munidatta builds his reading of the couplet on it; 'clamour' gives the sense of Sanskrit kalakala, a confused noise, without his reading."
+    },
+    {
+      "id": "bodhi",
+      "type": "term",
+      "en": "awakening",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বোহী",
+          "translit": "bohī",
+          "lemma": "bohi",
+          "att": "AS",
+          "where": "cp.44.2b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বোহী(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds bohī (2b, Tibetan bla med byang chub, Munidatta anuttarabodhi), as a whole-word regex so that it does not hit inside সংবোহী in 2a, which is a verb (Munidatta saṃbodhayitvā), not 'awakening'."
+    },
+    {
+      "id": "anuttara",
+      "type": "term",
+      "en": "unsurpassed",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অণুঅর",
+          "translit": "aṇuara",
+          "lemma": "aṇuara",
+          "att": "AS",
+          "where": "cp.44.2b"
+        },
+        {
+          "lang": "san",
+          "script": "নুত্তরবোধিং",
+          "translit": "(a)nuttarabodhiṃ",
+          "lemma": "anuttara",
+          "att": "AS",
+          "where": "cp.44.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অণুঅর"
+        },
+        {
+          "lang": "san",
+          "form": "নুত্তর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali aṇuara (2b), which the Tibetan line (bla med byang chub) and Munidatta's anuttarabodhi (cp.44.m3, written নিধানাদনুত্তরবোধিং in sandhi, hence the match নুত্তর) both read as anuttara."
+    },
+    {
+      "id": "bindu",
+      "type": "term",
+      "en": "drop",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিদুণাদ",
+          "translit": "biduṇāda",
+          "lemma": "bidu",
+          "att": "AS",
+          "where": "cp.44.3a"
+        },
+        {
+          "lang": "san",
+          "script": "বিন্দুরিতি",
+          "translit": "binduriti",
+          "lemma": "bindu",
+          "att": "AS",
+          "where": "cp.44.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিন্দু"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "বিদু(?=ণাদ)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds bidu in the compound biduṇāda (3a; Tibetan thig le nA da) and Munidatta's bindu (cp.44.m4); the Bengali regex takes bidu only before ṇāda, since a bare বিদু also begins বিদুজন (vidujana, 'the wise')."
+    },
+    {
+      "id": "nada",
+      "type": "term",
+      "en": "nāda",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিদুণাদ",
+          "translit": "biduṇāda",
+          "lemma": "ṇāda",
+          "att": "AS",
+          "where": "cp.44.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=বিদু)ণাদ"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds ṇāda in biduṇāda (3a; Tibetan nA da); the regex takes it only after bidu, since a bare ণাদ could stand inside other words (Kaṇāda and the like)."
+    },
+    {
+      "id": "hum",
+      "type": "term",
+      "en": "hūṃ",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দীর্ঘহূংকারো",
+          "translit": "dīrghahūṃkāro",
+          "lemma": "hūṃkāra",
+          "att": "AS",
+          "where": "cp.44.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "হূং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the spelling with anusvāra, hūṃkāra in 'the long hūṃ' (cp.44.m4; Tibetan hUM yig ring po); হুঁ in 2a is deliberately not added, since it is the pronoun 'I' (see questions)."
+    },
+    {
+      "id": "tathata",
+      "type": "term",
+      "en": "suchness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তধতানাদেঁ",
+          "translit": "tadhatānādem̐",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.44.5b"
+        },
+        {
+          "lang": "san",
+          "script": "সমতথতানাদেন",
+          "translit": "samatathatānādena",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.44.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তধতা"
+        },
+        {
+          "lang": "san",
+          "form": "তথতা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali spelling tadhatā (5b; Tibetan de nyid) and Munidatta's samatathatā (cp.44.m6)."
+    },
+    {
+      "id": "mallari",
+      "type": "term",
+      "en": "Mallārī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "མལླ་རཱི",
+          "translit": "mal+la rI",
+          "lemma": "mal+la rI",
+          "att": "AO",
+          "where": "cp.44.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མལླ་རཱི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Tibetan spelling of the rāga name in the heading of song 44 (mal+la rI), which differs from the mal la re and mal la ri already listed."
+    },
+    {
+      "id": "sunyata",
+      "type": "term",
+      "en": "emptiness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সুনে?(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])সুনে?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry already lists সুন and সুনে as forms but no literal match catches them (both still appear among the candidate words), so this adds whole-word regexes for them in the song (1a) and in Munidatta's quotation of it (cp.44.m2)."
+    },
+    {
+      "id": "madhyama",
+      "type": "term",
+      "en": "central channel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মধ্যমানিরোধেতি",
+          "translit": "madhyamānirodheti",
+          "lemma": "madhyamā",
+          "att": "AS",
+          "where": "cp.44.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মধ্যমা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's madhyamā in madhyamānirodha (cp.44.m3; Tibetan dbu mar 'gog pa), which the existing literal মধ্যমায়াং does not catch; মাঝ, the song's 'middle', is deliberately not added (see questions)."
+    },
+    {
+      "id": "svadhisthana",
+      "type": "term",
+      "en": "self-blessing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তৃতীয়স্বাধিষ্ঠানশূন্যে",
+          "translit": "tṛtīyasvādhiṣṭhānaśūnye",
+          "lemma": "svādhiṣṭhāna",
+          "att": "AS",
+          "where": "cp.44.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্বাধিষ্ঠান"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's 'third, self-blessing emptiness' (cp.44.m2), which names self-blessing as the third stage, as the entry's definition says."
+    },
+    {
+      "id": "adhisthana",
+      "type": "term",
+      "en": "blessing",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রগুরোশ্চাধিষ্ঠানাচ্চতুর্থ[ং]",
+          "translit": "vajraguroś cādhiṣṭhānāc caturtha[ṃ]",
+          "lemma": "adhiṣṭhāna",
+          "att": "AS",
+          "where": "cp.44.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চাধিষ্ঠান"
+        },
+        {
+          "lang": "san",
+          "form": "অধিষ্ঠান"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds 'the blessing of the vajra guru' (cp.44.m2; Tibetan rdo rje bla ma'i byin gyis brlabs pa), written in sandhi with ca, which the entry's one literal does not catch; neither literal stands inside স্বাধিষ্ঠান."
+    },
+    {
+      "id": "yuganaddha",
+      "type": "term",
+      "en": "coupled union",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "যুগনদ্ধফলোদয়ো",
+          "translit": "yuganaddhaphalodayo",
+          "lemma": "yuganaddha",
+          "att": "AS",
+          "where": "cp.44.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যুগনদ্ধ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds 'the arising of the fruit, coupled union' (cp.44.m2; Tibetan zung 'jug gi 'bras bu), Munidatta's gloss on 'all dharmas arose' (1b)."
+    },
+    {
+      "id": "prakrti",
+      "type": "term",
+      "en": "natures",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সপ্তপ্রকৃতিদোষা",
+          "translit": "saptaprakṛtidoṣā",
+          "lemma": "prakṛti",
+          "att": "AS",
+          "where": "cp.44.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་བཞིན་བདུན་གྱི་ཉེས་པ",
+          "translit": "rang bzhin bdun gyi nyes pa",
+          "lemma": "rang bzhin",
+          "att": "AO",
+          "where": "cp.44.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সপ্তপ্রকৃতিদোষ"
+        },
+        {
+          "lang": "bod",
+          "form": "རང་བཞིན་བདུན"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds 'the faults of the seven natures' (cp.44.m3), placed here like the entry's 'hundred and sixty natures' compound; the longer literal keeps prakrtidosa ('faults of nature', bodily impurities) from claiming it (see questions)."
+    }
+  ],
+  "questions": [
+    "sunyata — new reading (cp.44.m2): Munidatta glosses 1a, 'when emptiness merges in emptiness', as: when, in the third emptiness, self-blessing (tṛtīyasvādhiṣṭhānaśūnya), the fourth state (caturthaṃ padaṃ), emptiness, which comes from the blessing of the vajra guru, merges of itself. The Tibetan comment has no 'third' (byin gyis brlabs pa stong pa … bzhi pa'i go 'phang stong pa nyid). Proposed reading for sunyata: sune → the third emptiness, self-blessing; suna → the fourth state.",
+    "dharma — new reading (cp.44.m2): Munidatta reads 'all dharmas arose' (সঅলধাম ঊইআ, 1b) as the arising of the fruit, coupled union (sarvadharmam iti yuganaddhaphalodayo bhavati); the Tibetan comment agrees (zung 'jug gi 'bras bu 'char bar 'gyur). Should this be added to dharma as a reading?",
+    "madhyama — new reading (cp.44.m3): Munidatta's 'tenāhaṃ madhyamānirodha' puts the madhyamā, the central channel, where the refrain has মাঝ, 'middle' (2b); the Tibetan comment has dbu mar 'gog pa, the line dbus su. Proposed reading: the middle (2b) → the madhyamā. I did not add মাঝ as a form, which would claim every 'middle'. Note that madhyama's existing Tibetan forms (dbus, dbu ma) will hit the Tibetan of 2b and of 4b (dbu ma ru ni, where the Bengali has মাসং).",
+    "bindu and nada — new readings (cp.44.m4): Munidatta reads them as two conceptual thoughts, both given up at that moment: bindu is the long hūṃ (dīrghahūṃkāra), the conceptual thought of the knowledge that grasps means; nāda is the conceptual thought of the knowledge that wisdom grasps. Shastri's নাপায় is probably upāya, as the Tibetan (thabs 'dzin pa'i shes pa) shows. Proposed readings: bindu → conceptual thought of the knowledge that grasps means (upāya); nāda → conceptual thought of the knowledge grasped by wisdom (prajñā). Compare nada's reading at cp.32.m2.",
+    "hum — হুঁ in 2a (ācchu hum̐) is not proposed. It reads as the first-person pronoun: Munidatta paraphrases the line with tiṣṭhāmi … tenāhaṃ ('I abide … so I', cp.44.m3), and the Tibetan line has no hūṃ. The entry gains only হূং in dīrghahūṃkāra (cp.44.m4), where the long hūṃ is tied to bindu. Its literal match হূঁ does not hit হুঁ (different vowel sign), and should not be loosened to do so.",
+    "nada / tathata — in 5b তধতানাদেঁ and in cp.44.m6 সমতথতানাদেন, nāda is the 'sound' of suchness that shatters everything (Munidatta adds 'the lion's roar of emptiness'), not the nāda of mantra yoga that 3a and m4 have. If nada already matches the bare literal নাদ, it will claim these; I added nothing that does. The reviewer may want a narrower nada match or a separate sense. The Tibetan reads 'unstruck' in both places (5b de nyid gzhom med dbyangs; m6 mnyam pa nyid gzhom du med pa'i sgra), so anahata's Tibetan forms will hit where the Bengali has no anāhata.",
+    "kalakala — the song and the commentary diverge: in the song kalaela qualifies the sound in Kaṅkaṇa's own line (kalaela sādeṃ, 5a), perhaps the resounding sound with which he speaks, while Munidatta makes the clamour what gets shattered, the chatter of novice yogins broken by the sound of suchness (cp.44.m6). The Tibetan line differs again: kaM ka na smras ka la ya yi drin, 'by the kindness of ka la ya', as if kalaela were a name and sādeṃ 'grace'. I gave ka la ya as an AO form with no match. The drafter should not harmonize the song and Munidatta.",
+    "p-kankana — EN 'Kaṅkaṇapāda' with the variant 'Kaṅkaṇa' (the song itself says Kaṅkaṇa), on the model of p-tadaka and p-bhusuku; the reviewer may prefer plain 'Kaṅkaṇa', as for Kāṇha and Lūyī. The attribution before the song spells Kauṅkaṇapāda. The Tibetan comment opens with keng rus zhabs, 'skeleton', as if reading kaṅkāla, but transcribes kaM ka Na and kaM ka na elsewhere. Since kaṅkaṇa is also Sanskrit for 'bracelet' (see bracelet, whose forms কাঙ্কাণ, কঙ্কাণায় do not collide), the Bengali match is a whole-word or compound-anchored regex, not a bare literal.",
+    "prakrti / prakrtidosa — I put saptaprakṛtidoṣa (cp.44.m3; Tibetan rang bzhin bdun gyi nyes pa) under prakrti, following the precedent of ṣaṣṭyuttaraśataprakṛtidoṣo there, rather than under prakrtidosa, whose definition is about bodily impurities. The 'seven natures' may be the seven natural states of mind that the Guhyasamāja completion stage links with culmination of light; that is my inference, and Munidatta does not say it. The Tibetan reads nidhāna as gzhi, 'ground' (ting nge 'dzin gyi dri ma'i gzhi).",
+    "catuhksana — no separate entry for 'moment' (kṣaṇa): cp.44.m3's বিচিত্রাদিক্ষণেন is already covered by vicitra's form বিচিত্রাদিক্ষণে, and a bare ক্ষণ would hit inside লক্ষণ and বিলক্ষণ. The Tibetan comment quotes the word as skad cig bzhi pa, which can be read 'the fourth moment'; its line has skad cig bzhi, 'four moments', so only the line's form is given.",
+    "bodhi — the new বোহী (2b) is a whole-word regex, so it does not hit সংবোহী in 2a, a verb that Munidatta renders saṃbodhayitvā, 'having made known' or 'having awakened' (Tibetan yang dag rtogs). The entry already lists সংবোহেঁ as a form; if its match carries সংবোহ, it would claim 2a as 'awakening' — please check.",
+    "Not proposed, as too uncertain: in cp.44.m5 ইন্দুবিষয়বিকল্প, ইন্দু ('moon') is probably a slip for indriya ('senses'; Tibetan dbang po dang yul); and in 3a the Tibetan snying la 'jug pa med ('does not enter the heart') suggests that ণহিঁ এ may hide hie, 'in the heart' (compare hrdaya's হিএঁ). Neither is added as a form."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "b7556d72dd20ec74a24f9f17c42def9bcff3793c1f768092b8f713da4bf4dd0d",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "bc624b574d2e4e8d79d8bdfd7cd86beb747c5e6bf923e638e9e77925834d1305",
+    "sourceSha": "00e67bf9b95ad10a90f4f5dd389eb988cbf7c577a6bed44a0805002ea8868a8e"
+  }
+}

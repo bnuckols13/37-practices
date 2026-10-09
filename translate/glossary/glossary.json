@@ -1,6 +1,78 @@
 {
   "entries": [
     {
+      "id": "abhaga",
+      "type": "term",
+      "status": "proposed",
+      "en": "abhāga",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অভাগে",
+          "translit": "abhāge",
+          "lemma": "abhāga",
+          "att": "AS",
+          "where": "cp.35.5a"
+        },
+        {
+          "lang": "san",
+          "script": "অভাগ",
+          "translit": "abhāga",
+          "lemma": "abhāga",
+          "att": "AS",
+          "where": "cp.35.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆ་ཤས་མེད་པ",
+          "translit": "cha shas med pa",
+          "lemma": "cha shas med pa",
+          "att": "AO",
+          "where": "cp.35.5a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অভাগ"
+        ],
+        "san": [
+          "অভাগ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A word of uncertain sense in Bhāde's signature line (song 35, 5a), in the phrase abhāge laiā, 'taking' or 'having taken' abhāga. Sanskrit abhāga means 'having no share', Bengali abhāgā 'unfortunate'; the Tibetan line has cha shas med pa, 'partless'. Munidatta reads it as the share of non-arising, which Bhadrapāda has taken (cp.35.m6).",
+      "symbolic": {
+        "image": "the abhāga that Bhāde says he has taken",
+        "readings": [
+          {
+            "referent": "the share of non-arising (anutpādabhāga): 'abhāga' is glossed 'I, Bhadrapāda, who have taken the share of non-arising'; the Tibetan comment agrees (ma skyes pa'i cha ... bdag gis blangs pa)",
+            "per": "Munidatta",
+            "where": [
+              "cp.35.m6"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "non-arising",
+        "unarisen",
+        "unborn",
+        "share of non-arising"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "abhasa",
       "type": "term",
       "status": "proposed",
@@ -550,11 +622,28 @@
           "lemma": "goms pa",
           "att": "AO",
           "where": "cp.29.m6"
+        },
+        {
+          "lang": "san",
+          "script": "দ্বিতীয়পদেনাভ্যাসস্বরূপমাহ",
+          "translit": "dvitīyapadenābhyāsasvarūpam āha",
+          "lemma": "abhyāsa",
+          "att": "AS",
+          "where": "cp.35.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সাদরনিরন্তরাভ্যাসেন",
+          "translit": "sādaranirantarābhyāsena",
+          "lemma": "abhyāsa",
+          "att": "AS",
+          "where": "cp.35.m5"
         }
       ],
       "match": {
         "san": [
-          "অভ্যাস"
+          "অভ্যাস",
+          "াভ্যাস"
         ],
         "bod": [
           "གོམས་པ",
@@ -3138,12 +3227,29 @@
           "lemma": "mi dmigs pa",
           "att": "AO",
           "where": "cp.31.m3"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মানুপলংভযোগেন",
+          "translit": "sarvvadharmmānupalaṃbhayogena",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.35.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মানুপলম্ভসমুদ্রে",
+          "translit": "sarvvadharmmānupalambhasamudre",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.35.m6"
         }
       ],
       "match": {
         "san": [
           "ধর্ম্মানুলম্ভ",
-          "নুপলম্ভ"
+          "নুপলম্ভ",
+          "নুপলংভ"
         ],
         "bod": [
           "དམིགས་སུ་མེད་པ",
@@ -3303,6 +3409,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "anutpada",
+      "type": "term",
+      "status": "proposed",
+      "en": "non-arising",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনুৎপাদভাগগৃহীতোহ[ং]",
+          "translit": "anutpādabhāgagṛhītoha[ṃ]",
+          "lemma": "anutpāda",
+          "att": "AS",
+          "where": "cp.35.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་སྐྱེས་པ",
+          "translit": "ma skyes pa",
+          "lemma": "ma skyes pa",
+          "att": "AO",
+          "where": "cp.35.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "অনুৎপাদ"
+        ],
+        "bod": [
+          "མ་སྐྱེས་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Non-arising (anutpāda; Tibetan ma skyes pa, 'unborn'): the Madhyamaka teaching that nothing truly comes into being, since nothing arises from itself, from another, from both or without a cause. Munidatta reads Bhāde's abhāga (5a) as the share of non-arising, which Bhadrapāda has taken (cp.35.m6). Compare arising (utpāda).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -11292,11 +11449,20 @@
           "lemma": "phyogs bcu",
           "att": "AO",
           "where": "cp.09.5a"
+        },
+        {
+          "lang": "oben",
+          "script": "দহদিহ",
+          "translit": "dahadiha",
+          "lemma": "dahadiha",
+          "att": "AS",
+          "where": "cp.35.3a"
         }
       ],
       "match": {
         "oben": [
-          "দশ দিস"
+          "দশ দিস",
+          "দহদিহ"
         ],
         "san": [
           "দশদিগ"
@@ -14990,6 +15156,87 @@
       }
     },
     {
+      "id": "gagana-samudra",
+      "type": "term",
+      "status": "proposed",
+      "en": "sky-ocean",
+      "alt": [
+        "ocean of the sky"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গণসমুদে",
+          "translit": "gaṇasamude",
+          "lemma": "gaṇasamuda",
+          "att": "AS",
+          "where": "cp.35.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ་རྒྱ་མཚོར",
+          "translit": "nam mkha' rgya mtshor",
+          "lemma": "nam mkha' rgya mtsho",
+          "att": "AO",
+          "where": "cp.35.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའི་རྒྱ་མཚོར",
+          "translit": "nam mkha'i rgya mtshor",
+          "lemma": "nam mkha'i rgya mtsho",
+          "att": "AO",
+          "where": "cp.35.4b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "গণসমুদে"
+        ],
+        "san": [
+          "গগনসমুদ্র"
+        ],
+        "bod": [
+          "ནམ་མཁའ་རྒྱ་མཚོ",
+          "ནམ་མཁའི་རྒྱ་མཚོ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])গঅ?ণসমুদ(?!া)"
+        ]
+      },
+      "definition": "The sky pictured as an ocean (Old Bengali gaṇasamuda, apparently for gaaṇasamudda; Sanskrit gaganasamudra; Tibetan nam mkha' rgya mtsho). In the refrain of song 35 (2b) the king of mind enters it. The Tibetan also has it in 4b, where the Bengali has only 'in the sky'. Munidatta's paraphrase puts natural clear light in its place (cp.35.m3).",
+      "symbolic": {
+        "image": "the sky-ocean that the king of mind enters",
+        "readings": [
+          {
+            "referent": "natural clear light (prakṛtiprabhāsvara), which the king of mind, 'its going destroyed', has entered: his paraphrase of the refrain puts it where the song has gaṇasamude, with no explicit gloss; the Tibetan comment agrees (rang bzhin gyis 'od gsal la rab tu zhugs)",
+            "per": "Munidatta",
+            "where": [
+              "cp.35.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "clear light",
+        "natural clear light",
+        "luminosity"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "gandharva",
       "type": "term",
       "status": "proposed",
@@ -18199,14 +18446,16 @@
         }
       ],
       "match": {
-        "oben": [
-          "কাল"
-        ],
+        "oben": [],
         "san": [
           "কালঃ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<!এত\\s|সীসা\\s)(?<![\\p{L}\\p{M}])কাল(?![\\p{L}\\p{M}])"
+        ]
+      },
       "definition": "Kāla, 'time', and by extension death: time as the destroyer. In song 1 it enters the restless mind. Munidatta identifies it with Rāhu, the eclipse demon, and supports this with a verse of Kṛṣṇācārya in which the pure water dries up when the fire of time (kālāgni) enters (cp.01.m2).",
       "symbolic": {
         "image": "Kāla, time or death, entering the restless mind",
@@ -23284,6 +23533,22 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.30.h1"
+        },
+        {
+          "lang": "oben",
+          "script": "মল্লারী",
+          "translit": "mallārī",
+          "lemma": "mallārī",
+          "att": "AS",
+          "where": "cp.35.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མལ་ལ་རི",
+          "translit": "mal la ri",
+          "lemma": "mal la ri",
+          "att": "AO",
+          "where": "cp.35.h1"
         }
       ],
       "match": {
@@ -23291,7 +23556,8 @@
           "মল্লারী"
         ],
         "bod": [
-          "མལ་ལ་རེ"
+          "མལ་ལ་རེ",
+          "མལ་ལ་རི"
         ]
       },
       "matchRe": {},
@@ -25673,7 +25939,7 @@
       },
       "matchRe": {
         "oben": [
-          "মোহ(?!ো)"
+          "মোহ(?!ো|কখু)"
         ]
       },
       "definition": "Delusion or bewilderment (moha): with desire and hatred, one of the three root afflictions of Buddhist teaching, the confusion that hides how things are. Munidatta speaks of the stain of delusion (mohamala) in describing the yoginī (cp.04.m4); the Tibetan has rmongs pa.",
@@ -29785,6 +30051,104 @@
       }
     },
     {
+      "id": "p-bhadra",
+      "type": "person",
+      "status": "proposed",
+      "en": "Bhadrapāda",
+      "alt": [
+        "Bhāde"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাদেপাদানাং",
+          "translit": "bhādepādānāṃ",
+          "lemma": "bhādepāda",
+          "att": "AS",
+          "where": "cp.35.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "ভাদে",
+          "translit": "bhāde",
+          "lemma": "bhāde",
+          "att": "AS",
+          "where": "cp.35.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ভদ্রপাদস্তমেবার্থং",
+          "translit": "bhadrapādastamevārthaṃ",
+          "lemma": "bhadrapāda",
+          "att": "AS",
+          "where": "cp.35.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভদ্রপাদঃ",
+          "translit": "bhadrapādaḥ",
+          "lemma": "bhadrapāda",
+          "att": "AS",
+          "where": "cp.35.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷ་དྲའི་ཞབས",
+          "translit": "b+ha dra'i zhabs",
+          "lemma": "b+ha dra",
+          "att": "AO",
+          "where": "cp.35.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷ་དྲས",
+          "translit": "b+ha dras",
+          "lemma": "b+ha dra",
+          "att": "AO",
+          "where": "cp.35.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "བཟང་པོའི་ཞབས",
+          "translit": "bzang po'i zhabs",
+          "lemma": "bzang po",
+          "att": "AO",
+          "where": "cp.35.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "ভদ্রপাদ",
+          "ভাদেপাদ"
+        ],
+        "bod": [
+          "བྷ་དྲ"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])ভাদে(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Bhadrapāda, the siddha to whom the manuscript attributes song 35 (bhādepādānāṃ, written before the song). He names himself Bhāde in its last couplet (5a). Munidatta calls him a siddha master endowed with the delight of the joy of knowledge (cp.35.m1). The Tibetan has b+ha dra'i zhabs, and its comment on 5a seems to translate the name: bzang po'i zhabs (cp.35.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "p-bhagavat",
       "type": "person",
       "status": "proposed",
@@ -32955,6 +33319,14 @@
           "lemma": "rkang pa",
           "att": "AS",
           "where": "cp.25.m6"
+        },
+        {
+          "lang": "san",
+          "script": "চতুর্থপাদেনাত্মস্বরূপমাহ",
+          "translit": "caturthapādenātmasvarūpam āha",
+          "lemma": "pāda",
+          "att": "AS",
+          "where": "cp.35.m6"
         }
       ],
       "match": {
@@ -32966,7 +33338,8 @@
           "দ্বিতীয়পদেন",
           "দ্বিতীয়পদ",
           "চতুর্থপদ",
-          "পঞ্চমপদ"
+          "পঞ্চমপদ",
+          "চতুর্থপাদ"
         ],
         "bod": [
           "རྐང་པ"
@@ -33449,11 +33822,36 @@
           "lemma": "sdig pa dang bsod nams",
           "att": "AO",
           "where": "cp.16.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "পাপ ন পুন্ন",
+          "translit": "pāpa na punna",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.35.3b"
+        },
+        {
+          "lang": "san",
+          "script": "পাপপুণ্যাদিকং",
+          "translit": "pāpapuṇyādikaṃ",
+          "lemma": "pāpapuṇya",
+          "att": "AS",
+          "where": "cp.35.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྡིག་དང་བསོད་ནམས",
+          "translit": "sdig dang bsod nams",
+          "lemma": "sdig dang bsod nams",
+          "att": "AO",
+          "where": "cp.35.3b"
         }
       ],
       "match": {
         "oben": [
-          "পাপ পুণ্য"
+          "পাপ পুণ্য",
+          "পাপ ন পুন্ন"
         ],
         "san": [
           "পাপপুণ্য",
@@ -33461,7 +33859,8 @@
         ],
         "bod": [
           "དགེ་སྡིག",
-          "སྡིག་པ་དང་བསོད་ནམས"
+          "སྡིག་པ་དང་བསོད་ནམས",
+          "སྡིག་དང་བསོད་ནམས"
         ]
       },
       "matchRe": {},
@@ -48026,6 +48425,14 @@
           "lemma": "rdo rje",
           "att": "AS",
           "where": "cp.25.m2"
+        },
+        {
+          "lang": "san",
+          "script": "পবিপদ্মসংযোগাক্ষরসুখে",
+          "translit": "pavipadmasaṃyogākṣarasukhe",
+          "lemma": "pavi",
+          "att": "AS",
+          "where": "cp.35.m3"
         }
       ],
       "match": {
@@ -48044,7 +48451,8 @@
       },
       "matchRe": {
         "san": [
-          "(?<![\\p{L}\\p{M}])পবি(?=জলজ)"
+          "(?<![\\p{L}\\p{M}])পবি(?=জলজ)",
+          "(?<![\\p{L}\\p{M}])পবি(?=পদ্ম)"
         ]
       },
       "definition": "The thunderbolt-diamond, emblem of the indestructible in tantric Buddhism; as a prefix it marks what belongs to that path (vajra guru, vajra recitation). Munidatta uses vajra and its synonym kuliśa, as in 'the union of vajra and lotus' (cp.01.m3) and 'the vajra of realizing selflessness' (cp.01.m5).",
@@ -48185,6 +48593,95 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vajrakula",
+      "type": "term",
+      "status": "proposed",
+      "en": "vajrakula",
+      "alt": [
+        "vajra family"
+      ],
+      "variants": [],
+      "policy": "keep-source-first-gloss",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাজুলে",
+          "translit": "bājule",
+          "lemma": "bājula",
+          "att": "AS",
+          "where": "cp.35.4a"
+        },
+        {
+          "lang": "san",
+          "script": "বাজুলেত্যাদি",
+          "translit": "vājuletyādi",
+          "lemma": "bājula",
+          "att": "AS",
+          "where": "cp.35.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রকুলেনেতি",
+          "translit": "vajrakuleneti",
+          "lemma": "vajrakula",
+          "att": "AS",
+          "where": "cp.35.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེའི་རིགས",
+          "translit": "rdo rje'i rigs",
+          "lemma": "rdo rje'i rigs",
+          "att": "AO",
+          "where": "cp.35.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বাজুল"
+        ],
+        "san": [
+          "বাজুল",
+          "বজ্রকুল"
+        ],
+        "bod": [
+          "རྡོ་རྗེའི་རིགས"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "বজ্রকুল[\\p{L}\\p{M}]*"
+        ]
+      },
+      "definition": "Vajra family (vajrakula): in the tantras, one of the five families into which buddhas, deities and practitioners are grouped. In song 35 (4a) bājule, which Munidatta renders vajrakulena, 'by the vajra family', names who gave the poet the mark; he glosses it with the vajra guru (cp.35.m5). The Tibetan line has a name instead, Rāhula (rA hu la).",
+      "symbolic": {
+        "image": "bājula, by whom the poet is given the mark",
+        "readings": [
+          {
+            "referent": "the vajra guru (vajraguru), by whom the mark (lakṣya), explained as what is to be meditated on, the means of the fourth joy, was given to the poet: he cites bājule, renders it vajrakulena and goes straight on with vajraguruṇā; the Tibetan comment likewise cites rA hu la, explains it as rdo rje'i rigs and continues with rdo rje bla mas",
+            "per": "Munidatta",
+            "where": [
+              "cp.35.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "vajra guru",
+        "guru",
+        "teacher"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

@@ -1,0 +1,634 @@
+{
+  "unit": "cp.35",
+  "proposals": [
+    {
+      "id": "p-bhadra",
+      "type": "person",
+      "en": "Bhadrapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Bhāde"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাদেপাদানাং",
+          "translit": "bhādepādānāṃ",
+          "lemma": "bhādepāda",
+          "att": "AS",
+          "where": "cp.35.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "ভাদে",
+          "translit": "bhāde",
+          "lemma": "bhāde",
+          "att": "AS",
+          "where": "cp.35.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ভদ্রপাদস্তমেবার্থং",
+          "translit": "bhadrapādastamevārthaṃ",
+          "lemma": "bhadrapāda",
+          "att": "AS",
+          "where": "cp.35.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভদ্রপাদঃ",
+          "translit": "bhadrapādaḥ",
+          "lemma": "bhadrapāda",
+          "att": "AS",
+          "where": "cp.35.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷ་དྲའི་ཞབས",
+          "translit": "b+ha dra'i zhabs",
+          "lemma": "b+ha dra",
+          "att": "AO",
+          "where": "cp.35.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "བྷ་དྲས",
+          "translit": "b+ha dras",
+          "lemma": "b+ha dra",
+          "att": "AO",
+          "where": "cp.35.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "བཟང་པོའི་ཞབས",
+          "translit": "bzang po'i zhabs",
+          "lemma": "bzang po",
+          "att": "AO",
+          "where": "cp.35.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভদ্রপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "ভাদেপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "བྷ་དྲ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভাদে(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Bhadrapāda, the siddha to whom the manuscript attributes song 35 (bhādepādānāṃ, written before the song). He names himself Bhāde in its last couplet (5a). Munidatta calls him a siddha master endowed with the delight of the joy of knowledge (cp.35.m1). The Tibetan has b+ha dra'i zhabs, and its comment on 5a seems to translate the name: bzang po'i zhabs (cp.35.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 35 has no entry yet; the id is the one the unit already uses, 'Bhadrapāda' follows Munidatta's Sanskrit, and Bhāde, the song's own form, is the variant for the signature line."
+    },
+    {
+      "id": "vajrakula",
+      "type": "term",
+      "en": "vajrakula",
+      "policy": "keep-source-first-gloss",
+      "alt": [
+        "vajra family"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাজুলে",
+          "translit": "bājule",
+          "lemma": "bājula",
+          "att": "AS",
+          "where": "cp.35.4a"
+        },
+        {
+          "lang": "san",
+          "script": "বাজুলেত্যাদি",
+          "translit": "vājuletyādi",
+          "lemma": "bājula",
+          "att": "AS",
+          "where": "cp.35.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বজ্রকুলেনেতি",
+          "translit": "vajrakuleneti",
+          "lemma": "vajrakula",
+          "att": "AS",
+          "where": "cp.35.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྡོ་རྗེའི་རིགས",
+          "translit": "rdo rje'i rigs",
+          "lemma": "rdo rje'i rigs",
+          "att": "AO",
+          "where": "cp.35.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাজুল"
+        },
+        {
+          "lang": "san",
+          "form": "বাজুল"
+        },
+        {
+          "lang": "san",
+          "form": "বজ্রকুল"
+        },
+        {
+          "lang": "bod",
+          "form": "རྡོ་རྗེའི་རིགས"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "বজ্রকুল[\\p{L}\\p{M}]*"
+        }
+      ],
+      "definition": "Vajra family (vajrakula): in the tantras, one of the five families into which buddhas, deities and practitioners are grouped. In song 35 (4a) bājule, which Munidatta renders vajrakulena, 'by the vajra family', names who gave the poet the mark; he glosses it with the vajra guru (cp.35.m5). The Tibetan line has a name instead, Rāhula (rA hu la).",
+      "symbolicImage": "bājula, by whom the poet is given the mark",
+      "symbolicReadings": [
+        {
+          "referent": "the vajra guru (vajraguru), by whom the mark (lakṣya), explained as what is to be meditated on, the means of the fourth joy, was given to the poet: he cites bājule, renders it vajrakulena and goes straight on with vajraguruṇā; the Tibetan comment likewise cites rA hu la, explains it as rdo rje'i rigs and continues with rdo rje bla mas",
+          "per": "Munidatta",
+          "where": [
+            "cp.35.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "vajra guru",
+        "guru",
+        "teacher"
+      ],
+      "rationale": "The giver named in 4a is a crux: the Bengali and Munidatta have vajrakula, which he takes as the vajra guru, while the Tibetan line has the name Rāhula; keeping the source form leaves the choice open for the reviewer."
+    },
+    {
+      "id": "gagana-samudra",
+      "type": "term",
+      "en": "sky-ocean",
+      "policy": "translate",
+      "alt": [
+        "ocean of the sky"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গণসমুদে",
+          "translit": "gaṇasamude",
+          "lemma": "gaṇasamuda",
+          "att": "AS",
+          "where": "cp.35.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའ་རྒྱ་མཚོར",
+          "translit": "nam mkha' rgya mtshor",
+          "lemma": "nam mkha' rgya mtsho",
+          "att": "AO",
+          "where": "cp.35.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ནམ་མཁའི་རྒྱ་མཚོར",
+          "translit": "nam mkha'i rgya mtshor",
+          "lemma": "nam mkha'i rgya mtsho",
+          "att": "AO",
+          "where": "cp.35.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গণসমুদে"
+        },
+        {
+          "lang": "san",
+          "form": "গগনসমুদ্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའ་རྒྱ་མཚོ"
+        },
+        {
+          "lang": "bod",
+          "form": "ནམ་མཁའི་རྒྱ་མཚོ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])গঅ?ণসমুদ(?!া)"
+        }
+      ],
+      "definition": "The sky pictured as an ocean (Old Bengali gaṇasamuda, apparently for gaaṇasamudda; Sanskrit gaganasamudra; Tibetan nam mkha' rgya mtsho). In the refrain of song 35 (2b) the king of mind enters it. The Tibetan also has it in 4b, where the Bengali has only 'in the sky'. Munidatta's paraphrase puts natural clear light in its place (cp.35.m3).",
+      "symbolicImage": "the sky-ocean that the king of mind enters",
+      "symbolicReadings": [
+        {
+          "referent": "natural clear light (prakṛtiprabhāsvara), which the king of mind, 'its going destroyed', has entered: his paraphrase of the refrain puts it where the song has gaṇasamude, with no explicit gloss; the Tibetan comment agrees (rang bzhin gyis 'od gsal la rab tu zhugs)",
+          "per": "Munidatta",
+          "where": [
+            "cp.35.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light",
+        "natural clear light",
+        "luminosity"
+      ],
+      "rationale": "The compound is the refrain's central image and the Tibetan uses it twice, but the glossary has no entry for it and neither sky (gaaṇa) nor ocean (samudra) matches gaṇasamude; 'sky-ocean' keeps it as one image."
+    },
+    {
+      "id": "abhaga",
+      "type": "term",
+      "en": "abhāga",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অভাগে",
+          "translit": "abhāge",
+          "lemma": "abhāga",
+          "att": "AS",
+          "where": "cp.35.5a"
+        },
+        {
+          "lang": "san",
+          "script": "অভাগ",
+          "translit": "abhāga",
+          "lemma": "abhāga",
+          "att": "AS",
+          "where": "cp.35.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆ་ཤས་མེད་པ",
+          "translit": "cha shas med pa",
+          "lemma": "cha shas med pa",
+          "att": "AO",
+          "where": "cp.35.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অভাগ"
+        },
+        {
+          "lang": "san",
+          "form": "অভাগ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in Bhāde's signature line (song 35, 5a), in the phrase abhāge laiā, 'taking' or 'having taken' abhāga. Sanskrit abhāga means 'having no share', Bengali abhāgā 'unfortunate'; the Tibetan line has cha shas med pa, 'partless'. Munidatta reads it as the share of non-arising, which Bhadrapāda has taken (cp.35.m6).",
+      "symbolicImage": "the abhāga that Bhāde says he has taken",
+      "symbolicReadings": [
+        {
+          "referent": "the share of non-arising (anutpādabhāga): 'abhāga' is glossed 'I, Bhadrapāda, who have taken the share of non-arising'; the Tibetan comment agrees (ma skyes pa'i cha ... bdag gis blangs pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.35.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "non-arising",
+        "unarisen",
+        "unborn",
+        "share of non-arising"
+      ],
+      "rationale": "The signature line turns on this obscure word, which the Bengali, the Tibetan and Munidatta read three ways; keeping the source form, with a note, leaves the decision to the reviewer."
+    },
+    {
+      "id": "anutpada",
+      "type": "term",
+      "en": "non-arising",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অনুৎপাদভাগগৃহীতোহ[ং]",
+          "translit": "anutpādabhāgagṛhītoha[ṃ]",
+          "lemma": "anutpāda",
+          "att": "AS",
+          "where": "cp.35.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མ་སྐྱེས་པ",
+          "translit": "ma skyes pa",
+          "lemma": "ma skyes pa",
+          "att": "AO",
+          "where": "cp.35.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অনুৎপাদ"
+        },
+        {
+          "lang": "bod",
+          "form": "མ་སྐྱེས་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Non-arising (anutpāda; Tibetan ma skyes pa, 'unborn'): the Madhyamaka teaching that nothing truly comes into being, since nothing arises from itself, from another, from both or without a cause. Munidatta reads Bhāde's abhāga (5a) as the share of non-arising, which Bhadrapāda has taken (cp.35.m6). Compare arising (utpāda).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A key Madhyamaka term on which Munidatta's reading of the signature line rests; 'non-arising' is the usual English and pairs with the glossary's 'arising'."
+    },
+    {
+      "id": "mallari",
+      "type": "term",
+      "en": "Mallārī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মল্লারী",
+          "translit": "mallārī",
+          "lemma": "mallārī",
+          "att": "AS",
+          "where": "cp.35.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མལ་ལ་རི",
+          "translit": "mal la ri",
+          "lemma": "mal la ri",
+          "att": "AO",
+          "where": "cp.35.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "མལ་ལ་རི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 35 is also in Mallārī; its Tibetan heading spells the name mal la ri, against mal la re in song 30, so the new spelling is added as a form and a match."
+    },
+    {
+      "id": "dasadis",
+      "type": "term",
+      "en": "ten directions",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দহদিহ",
+          "translit": "dahadiha",
+          "lemma": "dahadiha",
+          "att": "AS",
+          "where": "cp.35.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "দহদিহ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "dahadiha (daha, diha for Sanskrit daśa, diś, as in Apabhraṃśa) is a new spelling of the ten directions, which the Tibetan line renders phyogs bcu; no existing form matches it."
+    },
+    {
+      "id": "papa-punya",
+      "type": "term",
+      "en": "sin and merit",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাপ ন পুন্ন",
+          "translit": "pāpa na punna",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.35.3b"
+        },
+        {
+          "lang": "san",
+          "script": "পাপপুণ্যাদিকং",
+          "translit": "pāpapuṇyādikaṃ",
+          "lemma": "pāpapuṇya",
+          "att": "AS",
+          "where": "cp.35.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སྡིག་དང་བསོད་ནམས",
+          "translit": "sdig dang bsod nams",
+          "lemma": "sdig dang bsod nams",
+          "att": "AO",
+          "where": "cp.35.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাপ ন পুন্ন"
+        },
+        {
+          "lang": "bod",
+          "form": "སྡིག་དང་བསོད་ནམས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Line 3b ('neither sin nor merit') spells merit punna and parts the pair with na, so no existing form matches it; Munidatta's pāpapuṇyādika and the Tibetan line's sdig dang bsod nams come with it."
+    },
+    {
+      "id": "anupalambha",
+      "type": "term",
+      "en": "non-apprehension",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মানুপলংভযোগেন",
+          "translit": "sarvvadharmmānupalaṃbhayogena",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.35.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সর্ব্বধর্ম্মানুপলম্ভসমুদ্রে",
+          "translit": "sarvvadharmmānupalambhasamudre",
+          "lemma": "anupalambha",
+          "att": "AS",
+          "where": "cp.35.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "নুপলংভ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's comment on couplet 3 spells the word with anusvāra (anupalaṃbha), which the existing form with ম্ভ misses; the comment on couplet 5 adds 'the ocean of the non-apprehension of all things'."
+    },
+    {
+      "id": "abhyasa",
+      "type": "term",
+      "en": "practice",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "দ্বিতীয়পদেনাভ্যাসস্বরূপমাহ",
+          "translit": "dvitīyapadenābhyāsasvarūpam āha",
+          "lemma": "abhyāsa",
+          "att": "AS",
+          "where": "cp.35.m4"
+        },
+        {
+          "lang": "san",
+          "script": "সাদরনিরন্তরাভ্যাসেন",
+          "translit": "sādaranirantarābhyāsena",
+          "lemma": "abhyāsa",
+          "att": "AS",
+          "where": "cp.35.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "াভ্যাস"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Both occurrences here stand after a vowel fused by sandhi (padenābhyāsa, nirantarābhyāsa), where the existing form অভ্যাস cannot match; the vowel-sign form catches them."
+    },
+    {
+      "id": "pada",
+      "type": "term",
+      "en": "verse",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থপাদেনাত্মস্বরূপমাহ",
+          "translit": "caturthapādenātmasvarūpam āha",
+          "lemma": "pāda",
+          "att": "AS",
+          "where": "cp.35.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চতুর্থপাদ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta introduces couplet 5, his fourth verse, with caturthapāda (long ā) instead of his usual caturthapada, which the existing forms miss."
+    },
+    {
+      "id": "vajra",
+      "type": "term",
+      "en": "vajra",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পবিপদ্মসংযোগাক্ষরসুখে",
+          "translit": "pavipadmasaṃyogākṣarasukhe",
+          "lemma": "pavi",
+          "att": "AS",
+          "where": "cp.35.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])পবি(?=পদ্ম)"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's pavipadmasaṃyoga, 'union of vajra and lotus' (cp.35.m3), uses pavi, 'thunderbolt', for the vajra, as pavijalaja does elsewhere; the existing pattern catches pavi only before jalaja."
+    }
+  ],
+  "questions": [
+    "4a, vajrakula and Rāhula: the Bengali has bājule, which Munidatta cites (vājuletyādi) and renders vajrakulena, going straight on with vajraguruṇā (cp.35.m5). The Tibetan line instead reads rA hu la yis, 'by Rāhula', and the Tibetan comment cites rA hu la but then explains it as rdo rje'i rigs, 'vajra family', and rdo rje bla ma: the translators' copy of the song apparently had a name where their copy of the commentary still explains vajrakula. Nothing else in the pack identifies a Rāhula, so no entry is proposed for him, and the vajrakula entry takes only the comment's rdo rje'i rigs as its Tibetan form. Should 4a treat bājula as a name (Vajrakula) or as 'the vajra family'? The entry keeps the source form until that is decided.",
+    "gagana-samudra: the brief for this unit said the sky-ocean already has an entry, but the pack's glossary has none, and neither does the current glossary file (only gagana, 'sky', and ocean, neither of which matches গণসমুদে in 2b), so it is proposed new. If it exists under another id, merge this proposal into that entry. Note that 4b's Tibetan (nam mkha'i rgya mtshor) has the sky-ocean where the Bengali has only গঅণত, 'in the sky'; with the new Tibetan matches that line is tagged sky-ocean instead of sky and ocean.",
+    "gagana (cp.35.m5): Munidatta glosses the sky of 4b explicitly, gaganeti prabhāsvarasamudre, 'sky: in the ocean of clear light', where the king of mind is made ahāra; the Tibetan comment agrees (nam mkha' la zhes te/ 'od gsal gyi rgya mtshor). Add cp.35.m5 to the entry's clear-light readings?",
+    "moha: its Old Bengali pattern মোহ(?!ো) also fires on মোহকখু in 4a, but there Munidatta's paraphrase has mahyaṃ, 'to me', and lakṣyam, 'the mark' (cp.35.m5), and the Tibetan line has bdag la ... mtshan ma, 'to me ... the mark': moha- here seems to be 'me' and -kakhu the mark, not delusion. Please narrow the pattern (for example so that it skips মোহক); a proposal cannot remove one. The hit on স্বমোহেঁ in 1a is right (Munidatta's moham iti, cp.35.m2; Tibetan shin tu rmongs). No entry is proposed for lakṣya, 'mark', since the Bengali form behind it is unclear.",
+    "kala ('Death'): its Old Bengali form কাল fires on 1a, eta kāla, 'all this time' (Tibetan de tsam dus su), where Munidatta's paraphrase speaks of beginningless saṃsāra and countless aeons (cp.35.m2), not of death. As it stands a drafter would have to render the line's kāla as 'Death'; please restrict the pattern or allow plain 'time' here.",
+    "kula-shore: its Sanskrit form কুলে fires inside Munidatta's vajrakuleneti (cp.35.m5). The proposed vajrakula entry (match বজ্রকুল) is longer and so takes that span, but the shore entry's short কুল and কুলে may misfire elsewhere.",
+    "papa-punya (cp.35.m4): Munidatta says that through the non-arising of mind he knows sin, merit and the like, and the bondage of saṃsāra (pāpapuṇyādikaṃ saṃsārabandhanañ ca jānāmi); the Tibetan is plainer: he knows that sin, merit and the like bind one in saṃsāra ('khor bar 'ching ba). This is close to the entry's reading from song 16 (the two nooses of saṃsāra, cp.16.m4); add cp.35.m4?",
+    "abhaga and niravayava: the Tibetan of 5a has cha shas med pa, 'partless', which niravayava already matches. It is listed as a form of abhaga but not as a match, so that two entries do not claim one span; the Tibetan comment cites the same words and explains them as 'the share of the unborn' (cp.35.m6).",
+    "p-bhadra: the Tibetan comment on 5a has ma skyes pa'i cha bzang po'i zhabs bdag gis blangs pa'o for anutpādabhāgagṛhīto 'haṃ bhadrapādaḥ, so bzang po'i zhabs seems to translate the name (bzang po for bhadra). It is listed as an AO form but not as a match, since the division is not certain (cha bzang po, 'excellent share', is also possible).",
+    "anutpada: in cp.35.m4 Munidatta speaks of the mind's non-arising (cittasyānudayena), where the Tibetan has de'i phyir bzhi pa shar bas, 'therefore, by the rising of the fourth', as if its manuscript had 'fourth' and udaya there; anudaya is not added as a form of anutpada.",
+    "No entry is proposed for ahāra (4b ahārila, 5b ahāra kaelā; Munidatta's ahārīkṛtam, cp.35.m5): it looks like an ordinary verb, 'lose' or 'make vanish' (the Tibetan lines have stor ba, 'be lost'; the comment's ster bar byas pa, 'given', may be a slip for stor), not a term.",
+    "mallari: the definition names only song 30; song 35 is also in Mallārī, and its Tibetan heading spells the name mal la ri (added as a form and match). The definition may need 'songs 30 and 35'."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "c3c1279d2012080dbbb387aad9267d3493617a1f7dbcf5247574bcc5f5c17b39",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "4f5e74fd21c937ac6eeb34a6c93e7386ef49f50880014fe9c9c2a3879d6487c5",
+    "sourceSha": "0e4511937d49f653e2204792240dfa73a97a7b7be92158553c2299e521f19f82"
+  }
+}

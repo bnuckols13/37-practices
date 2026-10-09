@@ -593,6 +593,83 @@
       }
     },
     {
+      "id": "adbhuta",
+      "type": "term",
+      "status": "proposed",
+      "en": "wonder",
+      "alt": [
+        "marvel"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অদভূআ",
+          "translit": "adabhūā",
+          "lemma": "adabhūa",
+          "att": "AS",
+          "where": "cp.30.2a"
+        },
+        {
+          "lang": "san",
+          "script": "অদ্ভুতযুগনদ্ধফলোদয়ো",
+          "translit": "adbhutayuganaddhaphalodayo",
+          "lemma": "adbhuta",
+          "att": "AS",
+          "where": "cp.30.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡ་མཚན་ཆེ་བ",
+          "translit": "ya mtshan che ba",
+          "lemma": "ya mtshan",
+          "att": "AO",
+          "where": "cp.30.2a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অদভূআ"
+        ],
+        "san": [
+          "অদ্ভুত"
+        ],
+        "bod": [
+          "ཡ་མཚན"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A wonder or marvel (Old Bengali adabhūā, Sanskrit adbhuta; Tibetan ya mtshan): something astonishing; in Sanskrit poetics also the mood (rasa) of the marvellous. The refrain of song 30 says a wonder has risen in the middle of the sky. Munidatta's paraphrase speaks of the arising of the fruit, wondrous coupled union, in clear light (cp.30.m3).",
+      "symbolic": {
+        "image": "a wonder risen in the middle of the sky",
+        "readings": [
+          {
+            "referent": "the arising of the fruit, wondrous coupled union (adbhutayuganaddhaphalodaya), in clear light (prabhāsvara): his paraphrase of the refrain puts clear light where the song has the middle of the sky; the Tibetan comment agrees ('od gsal ya mtshan che ba zung 'jug gi 'bras bu shar ba)",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "coupled union",
+        "yuganaddha",
+        "clear light",
+        "fruit"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "adhimukti",
       "type": "term",
       "status": "proposed",
@@ -2220,6 +2297,30 @@
           "lemma": "ānanda",
           "att": "AS",
           "where": "cp.27.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "আনন্দে",
+          "translit": "ānande",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.30.4a"
+        },
+        {
+          "lang": "san",
+          "script": "তৃতীয়ানন্দে",
+          "translit": "tṛtīyānande",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.30.m3"
+        },
+        {
+          "lang": "san",
+          "script": "আনন্দেতি",
+          "translit": "ānandeti",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.30.m5"
         }
       ],
       "match": {
@@ -2229,7 +2330,8 @@
           "চতুর্থানন্দং",
           "ঘনানন্দ",
           "অবিরতানন্দ",
-          "কায়ানন্দ"
+          "কায়ানন্দ",
+          "তৃতীয়ানন্দ"
         ],
         "bod": [
           "དགའ་བ",
@@ -2240,13 +2342,24 @@
           "ཐུགས་ཀྱི་དགའ་བ",
           "དགའ་བ་བཞི",
           "དགའ་བ་གསུམ་པ"
+        ],
+        "oben": [
+          "আনন্দ"
         ]
       },
       "matchRe": {},
       "definition": "Joy. The tantras Munidatta cites count four joys arising in yogic union; the order of the last two, the joy of cessation (viramānanda) and innate joy (sahajānanda), differs between systems. Munidatta calls great bliss 'the fourth joy' and speaks of knowing innate joy in the joy of cessation (cp.01.m3).",
       "symbolic": {
         "image": "",
-        "readings": []
+        "readings": [
+          {
+            "referent": "supreme joy, understood in the joy of cessation",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m5"
+            ]
+          }
+        ]
       },
       "forbiddenInLine": [],
       "texts": [
@@ -2256,6 +2369,97 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "andhakara",
+      "type": "term",
+      "status": "proposed",
+      "en": "darkness",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অন্ধকারা",
+          "translit": "andhakārā",
+          "lemma": "andhakāra",
+          "att": "AS",
+          "where": "cp.30.5b"
+        },
+        {
+          "lang": "san",
+          "script": "ক্লেশান্ধকারং",
+          "translit": "kleśāndhakāraṃ",
+          "lemma": "andhakāra",
+          "att": "AS",
+          "where": "cp.30.m6"
+        },
+        {
+          "lang": "san",
+          "script": "মোহান্ধকারং",
+          "translit": "mohāndhakāraṃ",
+          "lemma": "andhakāra",
+          "att": "AS",
+          "where": "cp.30.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མུན་པ",
+          "translit": "mun pa",
+          "lemma": "mun pa",
+          "att": "AO",
+          "where": "cp.30.5b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "অন্ধকার"
+        ],
+        "san": [
+          "অন্ধকার",
+          "ন্ধকার"
+        ],
+        "bod": [
+          "མུན་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Darkness (Sanskrit andhakāra, Old Bengali andhakārā; Tibetan mun pa). The last line of song 30 says Bhusuku the yogin dispels it. Munidatta reads it as the darkness of the afflictions, dispelled by the rising of the fourth joy (cp.30.m6), and in the previous comment has the moon of innate joy destroy the darkness of delusion (cp.30.m5). Compare night (rajanī).",
+      "symbolic": {
+        "image": "the darkness that Bhusuku the yogin dispels",
+        "readings": [
+          {
+            "referent": "the darkness of the afflictions (kleśāndhakāra), which the siddha master Bhusukupāda dispels by the rising of the fourth joy, apart from which there is no other means in the three worlds; the Tibetan comment agrees (nyon mongs pa'i mun pa bsal ba)",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m6"
+            ]
+          },
+          {
+            "referent": "the darkness of delusion (mohāndhakāra), destroyed by the moon of innate joy (sahajānandacandra); said in his comment on couplet 4, where the song names no darkness; the Tibetan has gti mug gi mun pa",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m5"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "afflictions",
+        "defilements",
+        "delusion",
+        "ignorance"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -2718,11 +2922,20 @@
           "lemma": "anuśaṃsā",
           "att": "AS",
           "where": "cp.22.m6"
+        },
+        {
+          "lang": "san",
+          "script": "মার্গস্যানুশংসামাহ",
+          "translit": "mārgasyānuśaṃsām āha",
+          "lemma": "anuśaṃsā",
+          "att": "AS",
+          "where": "cp.30.m5"
         }
       ],
       "match": {
         "san": [
-          "নুশংসা"
+          "নুশংসা",
+          "নুশংসাম"
         ],
         "bod": [
           "རྗེས་སུ་བསྔགས་པ"
@@ -5323,6 +5536,22 @@
           "lemma": "dngos po",
           "att": "AO",
           "where": "cp.09.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবাভাবং",
+          "translit": "bhāvābhāvaṃ",
+          "lemma": "bhāvābhāva",
+          "att": "AS",
+          "where": "cp.30.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ་དངོས་མེད",
+          "translit": "dngos po dngos med",
+          "lemma": "dngos po dngos med",
+          "att": "AO",
+          "where": "cp.30.1b"
         }
       ],
       "match": {
@@ -5334,7 +5563,8 @@
         ],
         "bod": [
           "དངོས་དང་དངོས་མེད",
-          "དངོས་པོ་དང་དངོས་པོ་མེད་པ"
+          "དངོས་པོ་དང་དངོས་པོ་མེད་པ",
+          "དངོས་པོ་དངོས་མེད"
         ]
       },
       "matchRe": {},
@@ -8094,6 +8324,22 @@
           "lemma": "citta",
           "att": "AS",
           "where": "cp.16.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "মন",
+          "translit": "mana",
+          "lemma": "mana",
+          "att": "AS",
+          "where": "cp.30.3b"
+        },
+        {
+          "lang": "san",
+          "script": "নিজমনঃ",
+          "translit": "nijamanaḥ",
+          "lemma": "manas",
+          "att": "AS",
+          "where": "cp.30.m4"
         }
       ],
       "match": {
@@ -8115,16 +8361,26 @@
       },
       "matchRe": {
         "oben": [
-          "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}])মন(?![\\p{L}\\p{M}])"
         ],
         "san": [
-          "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}])(?:নিজ)?মনঃ(?![\\p{L}\\p{M}])"
         ]
       },
       "definition": "Mind: the stream of thought and awareness. Song 1 speaks of the restless mind. In a verse Munidatta quotes, the mind clouded by concepts, restless as windblown lightning and stained by passion is called saṃsāra (cp.01.m2).",
       "symbolic": {
         "image": "",
-        "readings": []
+        "readings": [
+          {
+            "referent": "one’s own mind as bodhicitta",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m4"
+            ]
+          }
+        ]
       },
       "forbiddenInLine": [],
       "texts": [
@@ -10762,6 +11018,46 @@
       }
     },
     {
+      "id": "dvandva",
+      "type": "term",
+      "status": "proposed",
+      "en": "duality",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দ্বন্দল",
+          "translit": "dvandala",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.30.1b"
+        }
+      ],
+      "match": {
+        "oben": [
+          "দ্বন্দল"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Duality, a pair of opposites (Old Bengali dvandala, apparently from Sanskrit dvandva, 'pair, opposition'). Song 30 (1b) speaks of splitting being and nonbeing, dvandala. Munidatta's paraphrase sets 'the conceptualization of the grasped and the rest' beside being and nonbeing in its place (cp.30.m2); the Tibetan line has no clear equivalent. The sense is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "dvayakara",
       "type": "term",
       "status": "proposed",
@@ -12113,13 +12409,22 @@
           "lemma": "nam mkha'",
           "att": "AS",
           "where": "cp.25.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "গঅণহ",
+          "translit": "gaaṇaha",
+          "lemma": "gaaṇa",
+          "att": "AS",
+          "where": "cp.30.4b"
         }
       ],
       "match": {
         "oben": [
           "গঅণ",
           "অম্বর",
-          "গঅণে"
+          "গঅণে",
+          "গঅণহ"
         ],
         "san": [
           "গগন",
@@ -12160,6 +12465,13 @@
             "per": "Munidatta",
             "where": [
               "cp.25.m4"
+            ]
+          },
+          {
+            "referent": "clear light: his paraphrase of the refrain puts prabhāsvara where the song has the middle of the sky",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m3"
             ]
           }
         ]
@@ -13930,6 +14242,83 @@
       }
     },
     {
+      "id": "indrajala",
+      "type": "term",
+      "status": "proposed",
+      "en": "magic show",
+      "alt": [
+        "conjuring"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ইন্দিআল",
+          "translit": "indiāla",
+          "lemma": "indiāla",
+          "att": "AS",
+          "where": "cp.30.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ইন্দিআলমিতি",
+          "translit": "indiālam iti",
+          "lemma": "indiāla",
+          "att": "AS",
+          "where": "cp.30.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "མིག་འཕྲུལ",
+          "translit": "mig 'phrul",
+          "lemma": "mig 'phrul",
+          "att": "AO",
+          "where": "cp.30.3a"
+        }
+      ],
+      "match": {
+        "oben": [
+          "ইন্দিআল"
+        ],
+        "san": [
+          "ইন্দিআল"
+        ],
+        "bod": [
+          "མིག་འཕྲུལ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A magic show or conjuring display (Sanskrit indrajāla, 'Indra's net'; Old Bengali indiāla), a stock image for what seems real and is not. In song 30 (3a) the indiāla breaks; the Tibetan line has mig 'phrul, 'magic show'. Munidatta takes the word as the host of the senses (indriyasamūha) and quotes Saraha on the senses dissolving (cp.30.m4).",
+      "symbolic": {
+        "image": "the magic show that breaks",
+        "readings": [
+          {
+            "referent": "the host of the senses (indriyasamūha), which breaks apart and flees on beholding innate joy; he glosses indiālam as if it came from indriya, 'sense', and backs this with Saraha's line on where the senses dissolve; the Tibetan comment agrees (mig 'phrul ni dbang po'i tshogs)",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m4"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "senses",
+        "sense faculties",
+        "host of the senses",
+        "faculties"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "indriya",
       "type": "term",
       "status": "proposed",
@@ -13971,6 +14360,22 @@
           "lemma": "dbang po",
           "att": "AS",
           "where": "cp.24.2b"
+        },
+        {
+          "lang": "pra",
+          "script": "ইন্দিঅ",
+          "translit": "india",
+          "lemma": "indriya",
+          "att": "AS",
+          "where": "cp.30.m4"
+        },
+        {
+          "lang": "san",
+          "script": "ইন্দ্রিয়সমূহং",
+          "translit": "indriyasamūhaṃ",
+          "lemma": "indriya",
+          "att": "AS",
+          "where": "cp.30.m4"
         }
       ],
       "match": {
@@ -13980,6 +14385,9 @@
         ],
         "bod": [
           "དབང་པོ"
+        ],
+        "pra": [
+          "ইন্দিঅ"
         ]
       },
       "matchRe": {
@@ -16120,6 +16528,13 @@
             "per": "Munidatta",
             "where": [
               "cp.12.m2"
+            ]
+          },
+          {
+            "referent": "with the cloud, the purified enjoyment body",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m2"
             ]
           }
         ]
@@ -19212,6 +19627,57 @@
       }
     },
     {
+      "id": "mallari",
+      "type": "term",
+      "status": "proposed",
+      "en": "Mallārī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মল্লারী",
+          "translit": "mallārī",
+          "lemma": "mallārī",
+          "att": "AS",
+          "where": "cp.30.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "མལ་ལ་རེ",
+          "translit": "mal la re",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.30.h1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "মল্লারী"
+        ],
+        "bod": [
+          "མལ་ལ་རེ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Mallārī, the name of the rāga (melodic mode) to which song 30 is sung, given in its heading. The Tibetan translation transcribes the name as mal la re instead of translating it. Later Indian music knows a rāga Mallār (Malhār) sung in the rainy season; whether it is the same melody is uncertain.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "mamsa",
       "type": "term",
       "status": "proposed",
@@ -21008,6 +21474,70 @@
       }
     },
     {
+      "id": "megha",
+      "type": "term",
+      "status": "proposed",
+      "en": "cloud",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মেহ",
+          "translit": "meha",
+          "lemma": "meha",
+          "att": "AS",
+          "where": "cp.30.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྤྲིན",
+          "translit": "sprin",
+          "lemma": "sprin",
+          "att": "AO",
+          "where": "cp.30.1a"
+        }
+      ],
+      "match": {
+        "bod": [
+          "སྤྲིན"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])মেহ(?:েঁ?)?(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "A cloud (Old Bengali meha, from Sanskrit megha; Tibetan sprin). Song 30 opens with a cloud of compassion that spreads without cease; Mahāyāna writing sometimes likens compassion to a rain cloud that waters all alike. Munidatta's gloss on the phrase speaks instead of the purified enjoyment body of the lord of yogis spreading forth by the guru's grace (cp.30.m2).",
+      "symbolic": {
+        "image": "a cloud of compassion that spreads without cease",
+        "readings": [
+          {
+            "referent": "the purified enjoyment body (pariśuddhasambhogakāya) of the lord of yogis, which spreads forth (prasphurita) by the guru's grace once being and nonbeing, the conceptualization of the grasped and the rest, have been split and made without intrinsic nature; the gloss stands under karuṇa and does not name the cloud; the Tibetan comment agrees (longs spyod rdzogs pa'i sku ... 'phro ba)",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m2"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "enjoyment body",
+        "sambhogakāya",
+        "buddha body"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "mela",
       "type": "term",
       "status": "proposed",
@@ -21648,6 +22178,22 @@
           "lemma": "ri bong 'dzin",
           "att": "AO",
           "where": "cp.27.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "চান্দে",
+          "translit": "cānde",
+          "lemma": "cānda",
+          "att": "AS",
+          "where": "cp.30.4b"
+        },
+        {
+          "lang": "san",
+          "script": "চন্দ্রেণ",
+          "translit": "candreṇa",
+          "lemma": "candra",
+          "att": "AS",
+          "where": "cp.30.m5"
         }
       ],
       "match": {
@@ -21660,7 +22206,8 @@
           "শীতাংশু",
           "সসহর",
           "শশহর",
-          "চন্দ্রঃ"
+          "চন্দ্রঃ",
+          "চন্দ্রেণ"
         ],
         "oben": [
           "চন্দ",
@@ -21668,7 +22215,8 @@
           "শশী",
           "সসহর",
           "শশহর",
-          "ষষহর"
+          "ষষহর",
+          "চান্দে"
         ],
         "bod": [
           "རི་དགས་མཚན",
@@ -21710,6 +22258,13 @@
             "per": "Munidatta",
             "where": [
               "cp.14.m5"
+            ]
+          },
+          {
+            "referent": "the moon of innate joy, which destroys the darkness of delusion",
+            "per": "Munidatta",
+            "where": [
+              "cp.30.m5"
             ]
           }
         ]
@@ -24704,6 +25259,22 @@
           "lemma": "bhusuku",
           "att": "AS",
           "where": "cp.27.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদঃ",
+          "translit": "bhusukupādaḥ",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.30.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুকুপাদ",
+          "translit": "bhusukupāda",
+          "lemma": "bhusukupāda",
+          "att": "AS",
+          "where": "cp.30.m3"
         }
       ],
       "match": {
@@ -27813,6 +28384,14 @@
           "lemma": "mchog tu dga' ba",
           "att": "AO",
           "where": "cp.13.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མཆོག་དགའ",
+          "translit": "mchog dga'",
+          "lemma": "mchog dga'",
+          "att": "AO",
+          "where": "cp.30.m5"
         }
       ],
       "match": {
@@ -27820,7 +28399,8 @@
           "পরমানন্দ"
         ],
         "bod": [
-          "མཆོག་ཏུ་དགའ་བ"
+          "མཆོག་ཏུ་དགའ་བ",
+          "མཆོག་དགའ"
         ]
       },
       "matchRe": {},
@@ -28556,6 +29136,68 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "phala",
+      "type": "term",
+      "status": "proposed",
+      "en": "fruit",
+      "alt": [
+        "result"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অদ্ভুতযুগনদ্ধফলোদয়ো",
+          "translit": "adbhutayuganaddhaphalodayo",
+          "lemma": "phala",
+          "att": "AS",
+          "where": "cp.30.m3"
+        },
+        {
+          "lang": "san",
+          "script": "ফলপ্রাপ্তিত্বাৎ",
+          "translit": "phalaprāptitvāt",
+          "lemma": "phala",
+          "att": "AS",
+          "where": "cp.30.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "འབྲས་བུ",
+          "translit": "'bras bu",
+          "lemma": "'bras bu",
+          "att": "AO",
+          "where": "cp.30.m3"
+        }
+      ],
+      "match": {
+        "bod": [
+          "འབྲས་བུ"
+        ]
+      },
+      "matchRe": {
+        "san": [
+          "ফল(?!ক)"
+        ]
+      },
+      "definition": "The fruit or result (phala; Tibetan 'bras bu) of the path, as against the path itself; in Munidatta's comments often innate joy or coupled union. He speaks of the arising of the fruit, wondrous coupled union (cp.30.m3), and introduces the last couplet of song 30 as stating the power of that joy once the fruit is attained (cp.30.m6).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -29505,13 +30147,22 @@
           "lemma": "prabhāsvara",
           "att": "AS",
           "where": "cp.27.m4"
+        },
+        {
+          "lang": "san",
+          "script": "প্রভাস্ব[৪৫ক]রে",
+          "translit": "prabhāsvare",
+          "lemma": "prabhāsvara",
+          "att": "AS",
+          "where": "cp.30.m3"
         }
       ],
       "match": {
         "san": [
           "প্রভাস্বরচোরেণ",
           "প্রভাস্বর",
-          "প্রকৃতিপ্রভাস্বর"
+          "প্রকৃতিপ্রভাস্বর",
+          "প্রভাস্ব[৪৫ক]রে"
         ],
         "bod": [
           "འོད་གསལ",
@@ -29532,6 +30183,68 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "prabhava",
+      "type": "term",
+      "status": "proposed",
+      "en": "power",
+      "alt": [
+        "might"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রভাবং",
+          "translit": "prabhāvaṃ",
+          "lemma": "prabhāva",
+          "att": "AS",
+          "where": "cp.30.m3"
+        },
+        {
+          "lang": "san",
+          "script": "প্রভাবমাহ",
+          "translit": "prabhāvam āha",
+          "lemma": "prabhāva",
+          "att": "AS",
+          "where": "cp.30.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མཐུ",
+          "translit": "mthu",
+          "lemma": "mthu",
+          "att": "AO",
+          "where": "cp.30.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "প্রভাব"
+        ]
+      },
+      "matchRe": {
+        "bod": [
+          "(?<![\\u0F40-\\u0FBC])མཐུ(?:ས|འི|ར)?(?![\\u0F40-\\u0FBC])"
+        ]
+      },
+      "definition": "Power or efficacy (prabhāva; Tibetan mthu). Munidatta uses the word to introduce couplets: in song 30 the refrain, his second verse and his fourth verse each set out 'its power' (tasya prabhāva), in cp.30.m4 the power of innate joy (cp.30.m3, cp.30.m4, cp.30.m6). Compare his other framing words, such as praise (anuśaṃsā).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -32320,6 +33033,57 @@
       }
     },
     {
+      "id": "sambhogakaya",
+      "type": "term",
+      "status": "proposed",
+      "en": "enjoyment body",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরিশুদ্ধসম্ভোগকায়ো",
+          "translit": "pariśuddhasambhogakāyo",
+          "lemma": "sambhogakāya",
+          "att": "AS",
+          "where": "cp.30.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལོངས་སྤྱོད་རྫོགས་པའི་སྐུ",
+          "translit": "longs spyod rdzogs pa'i sku",
+          "lemma": "longs spyod rdzogs pa'i sku",
+          "att": "AO",
+          "where": "cp.30.m2"
+        }
+      ],
+      "match": {
+        "san": [
+          "সম্ভোগকায়"
+        ],
+        "bod": [
+          "ལོངས་སྤྱོད་རྫོགས་པའི་སྐུ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The enjoyment body (sambhogakāya; Tibetan longs spyod rdzogs pa'i sku): in Mahāyāna accounts of a buddha's bodies, the glorious form in which a buddha appears to bodhisattvas, between the dharma body and the emanation body. Munidatta, glossing the cloud of compassion, speaks of the purified enjoyment body of the lord of yogis spreading forth by the guru's grace (cp.30.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "samprajanya",
       "type": "term",
       "status": "proposed",
@@ -34928,6 +35692,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.21.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "সরুআ",
+          "translit": "saruā",
+          "lemma": "sarua",
+          "att": "AS",
+          "where": "cp.30.2b"
         }
       ],
       "match": {
@@ -34935,7 +35707,8 @@
           "স্বরূপ"
         ],
         "oben": [
-          "সরুঅ"
+          "সরুঅ",
+          "সরুআ"
         ]
       },
       "matchRe": {},
@@ -36676,6 +37449,30 @@
           "lemma": "'jig rten gsum",
           "att": "AO",
           "where": "cp.19.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "তৈলোএ",
+          "translit": "tailoe",
+          "lemma": "tailoa",
+          "att": "AS",
+          "where": "cp.30.5a"
+        },
+        {
+          "lang": "san",
+          "script": "এতেলোএ",
+          "translit": "eteloe",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.30.m6"
+        },
+        {
+          "lang": "san",
+          "script": "ত্রৈলো(ক)",
+          "translit": "trailo(ka)",
+          "lemma": "trailokya",
+          "att": "AS",
+          "where": "cp.30.m6"
         }
       ],
       "match": {
@@ -36684,7 +37481,9 @@
           "ত্রৈলোক্য",
           "ত্রিভুবন",
           "তিণি ভুঅণ",
-          "ত্রৈধাতুক"
+          "ত্রৈধাতুক",
+          "তেলোএ",
+          "ত্রৈলো"
         ],
         "bod": [
           "འཇིག་རྟེན་གསུམ་པོ",
@@ -36695,7 +37494,8 @@
         "oben": [
           "তিহুঅন",
           "তিণি ভুঅণ",
-          "ত্রিভুবন"
+          "ত্রিভুবন",
+          "তৈলোএ"
         ]
       },
       "matchRe": {},
@@ -42026,6 +42826,14 @@
           "lemma": "yul lnga",
           "att": "AO",
           "where": "cp.16.4b"
+        },
+        {
+          "lang": "oben",
+          "script": "বিসঅ",
+          "translit": "bisaa",
+          "lemma": "bisaa",
+          "att": "AS",
+          "where": "cp.30.4a"
         }
       ],
       "match": {
@@ -42041,7 +42849,8 @@
           "ཡུལ་ལྔ"
         ],
         "oben": [
-          "বিষয়"
+          "বিষয়",
+          "বিসঅ"
         ]
       },
       "matchRe": {},
@@ -42058,6 +42867,79 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "visuddhi",
+      "type": "term",
+      "status": "proposed",
+      "en": "purity",
+      "alt": [
+        "purification"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বিশুদ্ধিঁ",
+          "translit": "biśuddhim̐",
+          "lemma": "biśuddhi",
+          "att": "AS",
+          "where": "cp.30.4a"
+        },
+        {
+          "lang": "san",
+          "script": "বিশুদ্ধ্যা",
+          "translit": "viśuddhyā",
+          "lemma": "viśuddhi",
+          "att": "AS",
+          "where": "cp.30.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་དག",
+          "translit": "rnam dag",
+          "lemma": "rnam dag",
+          "att": "AO",
+          "where": "cp.30.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་དག་པ",
+          "translit": "rnam par dag pa",
+          "lemma": "rnam par dag pa",
+          "att": "AO",
+          "where": "cp.30.m5"
+        }
+      ],
+      "match": {
+        "oben": [
+          "বিশুদ্ধ"
+        ],
+        "san": [
+          "বিশুদ্ধ"
+        ],
+        "bod": [
+          "རྣམ་དག",
+          "རྣམ་པར་དག་པ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Purity or purification (viśuddhi; Tibetan rnam dag): in Buddhist tantra, seeing the sense objects, aggregates and elements as pure by nature, or making them so. Song 30 (4a) speaks of the purity of the sense objects, in which the poet understood in joy; Munidatta likens it to the moon lighting up the sky (cp.30.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

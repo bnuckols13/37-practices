@@ -47555,6 +47555,54 @@
       }
     },
     {
+      "id": "sarvasunya",
+      "type": "term",
+      "status": "proposed",
+      "en": "all-empty",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সর্ব্বশূন্যাত্",
+          "translit": "sarvvaśūnyāt",
+          "lemma": "sarvaśūnya",
+          "att": "AS",
+          "where": "cp.42.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་ཉིད་ཀུན་དངས",
+          "translit": "stong nyid kun dangs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.42.m3"
+        }
+      ],
+      "match": {
+        "san": [
+          "সর্ব্বশূন্যাত"
+        ]
+      },
+      "matchRe": {},
+      "definition": "The all-empty (sarvaśūnya): in the Guhyasamāja completion stage, the fourth and subtlest of four emptinesses, after the empty, the very empty and the greatly empty; another name for clear light. In the scripture verse Munidatta quotes on song 42, the net of illusion is sent forth from the clear all-empty as a fish leaps from clear water (cp.42.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "sasasrnga",
       "type": "term",
       "status": "proposed",

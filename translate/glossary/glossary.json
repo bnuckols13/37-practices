@@ -22165,6 +22165,57 @@
       }
     },
     {
+      "id": "lajja",
+      "type": "term",
+      "status": "proposed",
+      "en": "shame",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "Beng",
+          "translit": "bhayalajjādikaṃ",
+          "lemma": "lajjā",
+          "att": "AS",
+          "where": "cp.31.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "Tibt",
+          "translit": "ngo tsha ba",
+          "lemma": "ngo tsha ba",
+          "att": "AO",
+          "where": "cp.31.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "লজ্জা"
+        ],
+        "bod": [
+          "ངོ་ཚ་བ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Shame (Sanskrit lajjā; Tibetan ngo tsha ba): concern for how one appears to others, which tantric conduct sets aside along with fear and disgust. Munidatta counts fear, shame and the like as the worldly custom the siddha master has abandoned, where song 31 names fear and disgust (cp.31.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "lake",
       "type": "term",
       "status": "proposed",
@@ -23914,6 +23965,56 @@
       },
       "matchRe": {},
       "definition": "The city of great bliss (mahāsukhapura), a figure for the goal of the path. Munidatta, citing Saraha, says the path of the avadhūtī is excellent and not crooked for going to the city of great bliss (cp.32.m6); the Tibetan gives Saraha's words as verse. Elsewhere he reads the city of the Jina of song 14 as this city (cp.14.m3).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "mahatmya",
+      "type": "term",
+      "status": "proposed",
+      "en": "greatness",
+      "alt": [
+        "glory"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বজ্রগুরুমাহাত্ম্যমাহ",
+          "translit": "vajragurumāhātmyamāha",
+          "lemma": "māhātmya",
+          "att": "AS",
+          "where": "cp.28.m7"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་ཉིད་ཆེ་བ",
+          "translit": "bdag nyid che ba",
+          "lemma": "bdag nyid che ba",
+          "att": "AO",
+          "where": "cp.28.m7"
+        }
+      ],
+      "match": {
+        "san": [
+          "মাহাত্ম্য"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Greatness, majesty (māhātmya; Tibetan bdag nyid che ba): one of the framing words with which Munidatta introduces a couplet. He says Śabarapāda's fifth verse, couplet 6 of song 28, states the greatness of the vajra guru (cp.28.m7). Compare power (prabhāva) and praise (anuśaṃsā).",
       "symbolic": {
         "image": "",
         "readings": []

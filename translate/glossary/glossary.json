@@ -37257,6 +37257,57 @@
       }
     },
     {
+      "id": "p-santideva",
+      "type": "person",
+      "status": "proposed",
+      "en": "Śāntideva",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শান্তিদেবপাদাঃ",
+          "translit": "śāntidevapādāḥ",
+          "lemma": "śāntideva",
+          "att": "AS",
+          "where": "cp.39.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཞི་བ་ལྷའི་ཞབས",
+          "translit": "zhi ba lha'i zhabs",
+          "lemma": "zhi ba lha",
+          "att": "AO",
+          "where": "cp.39.m6"
+        }
+      ],
+      "match": {
+        "san": [
+          "শান্তিদেব"
+        ],
+        "bod": [
+          "ཞི་བ་ལྷ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Śāntideva, the Indian Buddhist author to whom the Bodhicaryāvatāra is ascribed. Munidatta names him, with the honorific -pāda, for a phrase on conduct at will (svacchandacaryā) at the end of his comment on song 39 (cp.39.m6); the Tibetan has zhi ba lha'i zhabs. Not Śāntipāda, the poet of song 15.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "p-saraha",
       "type": "person",
       "status": "proposed",

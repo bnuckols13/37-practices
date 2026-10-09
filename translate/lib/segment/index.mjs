@@ -30,9 +30,13 @@ import { isParallel, readParallel, addPrimary, attachParallels } from './paralle
 
 const RULES = { caryagiti, lines: linesRule };
 
+// Two dependent vowels never follow each other in Bengali: া typed before ে is ো
+// in the wrong order (as the import of song 49 has it), which NFC leaves alone.
+const fixVowels = s => s.replace(/াে/g, 'ো');
+
 export function events(content, file) {
   return content.replace(/\r\n?/g, '\n').split('\n').map((raw, i) => {
-    const line = raw.normalize('NFC');
+    const line = fixVowels(raw.normalize('NFC'));
     const at = `${file}:${i + 1}`;
     if (isDirective(line)) {
       const m = /^\s*@(--|[a-z]+)\s*(.*)$/.exec(line);

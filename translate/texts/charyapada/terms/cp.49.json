@@ -1,0 +1,953 @@
+{
+  "unit": "cp.49",
+  "proposals": [
+    {
+      "id": "canal",
+      "type": "term",
+      "en": "canal",
+      "policy": "translate",
+      "alt": [
+        "creek"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "খালেঁ",
+          "translit": "khālem̐",
+          "lemma": "khāla",
+          "att": "AS",
+          "where": "cp.49.1a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "খালেঁ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])খাল(?:েঁ|ে)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A canal or creek (Old Bengali khāla; compare Bengali khāl), one of the channels that lace the Bengal delta. In song 49 (1a) the boat is rowed on the pam̐uā canal: a lotus canal, or a canal of the Padmā river. The Tibetan line has 'from the lotus grove' (pad+ma'i tshal nas) instead; Munidatta speaks of a lake (cp.49.m2).",
+      "symbolicImage": "the canal on which the boat is rowed",
+      "symbolicReadings": [
+        {
+          "referent": "the lake (hrada) in the hollow of the lotus of wisdom (prajñāravindakuhara), into which something (the comment does not say what) is made to enter by means of the true guru's feet: his paraphrase puts this where the song has pam̐uā khālem̐, with no explicit gloss; the Tibetan comment has 'into the opening of the door of the lotus of wisdom' (shes rab kyi chu skyes kyi sgo'i bu gar) and no lake",
+          "per": "Munidatta",
+          "where": [
+            "cp.49.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "lotus of wisdom",
+        "wisdom",
+        "prajñā"
+      ],
+      "rationale": "The canal is the setting of the song's first line, and no existing entry fits it ('river' renders a different word); 'canal' is the plain sense of Bengali khāl."
+    },
+    {
+      "id": "pl-bangala",
+      "type": "place",
+      "en": "Baṅgāla",
+      "policy": "keep-source",
+      "alt": [
+        "Bengal"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অদঅবঙ্গালে",
+          "translit": "adaabaṅgāle",
+          "lemma": "baṅgāla",
+          "att": "AS",
+          "where": "cp.49.1b"
+        },
+        {
+          "lang": "san",
+          "script": "অক্ষরসুখাদ্বয়বঙ্গালেন",
+          "translit": "akṣarasukhādvayavaṅgālena",
+          "lemma": "vaṅgāla",
+          "att": "AS",
+          "where": "cp.49.m2"
+        },
+        {
+          "lang": "san",
+          "script": "অদ্বয়বঙ্গালেন",
+          "translit": "advayavaṅgālena",
+          "lemma": "vaṅgāla",
+          "att": "AS",
+          "where": "cp.49.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བཾ་ག་ལ་ཡུལ",
+          "translit": "baM ga la yul",
+          "lemma": "baM ga la",
+          "att": "AO",
+          "where": "cp.49.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "བཾ་ག་ལར",
+          "translit": "baM ga lar",
+          "lemma": "baM ga la",
+          "att": "AO",
+          "where": "cp.49.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বঙ্গালে"
+        },
+        {
+          "lang": "san",
+          "form": "বঙ্গালে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Baṅgāla (Sanskrit Vaṅgāla), a medieval name for a region of eastern Bengal, from which the name Bengal comes. In song 49 (1b) the afflictions are plundered adaabaṅgāle, 'by (or in) adaa-Baṅgāla'; the Tibetan line instead has the land of Baṃgala pitilessly carried off. Not the rāga Baṅgāla (bangala), nor Baṅga (pl-banga).",
+      "symbolicImage": "Baṅgāla, by or in which the afflictions are plundered",
+      "symbolicReadings": [
+        {
+          "referent": "nondual imperishable bliss: 'rowed' (vāhita, citing the song's bāhiu) 'by the Vaṅgāla that is imperishable bliss and nondual' (akṣarasukhādvayavaṅgālena), the compound setting the three in apposition; the Tibetan comment says that imperishable nondual bliss is what is called 'flowing down to Baṃgala' (mi 'gyur ba'i bde ba gnyis su med pa ni baM ga lar 'bab pa zhes te)",
+          "per": "Munidatta",
+          "where": [
+            "cp.49.m2"
+          ]
+        },
+        {
+          "referent": "the nondual Vaṅgāla (advayavaṅgāla) that has seized the poet's storehouse of examination by the four alternatives, so that he has no concepts of living, dying, meditation and the like; the Tibetan comment renders it nang 'khrug pa, 'the one of inner strife'",
+          "per": "Munidatta",
+          "where": [
+            "cp.49.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "imperishable bliss",
+        "nondual bliss"
+      ],
+      "rationale": "The place is named in 1b and stands behind 'Bengali' in the refrain; the rāga entry 'bangala' and 'pl-banga' (Baṅga) are different referents or names, so a place entry is needed."
+    },
+    {
+      "id": "bangali",
+      "type": "term",
+      "en": "Bengali",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বঙ্গালী",
+          "translit": "baṅgālī",
+          "lemma": "baṅgālī",
+          "att": "AS",
+          "where": "cp.49.2a"
+        },
+        {
+          "lang": "san",
+          "script": "বঙ্গালিকা",
+          "translit": "vaṅgālikā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বঙ্গালিকাব্যাজেন",
+          "translit": "vaṅgālikāvyājena",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "ནང་འཁྲུག",
+          "translit": "nang 'khrug",
+          "lemma": "nang 'khrug",
+          "att": "AO",
+          "where": "cp.49.2a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বঙ্গালী"
+        },
+        {
+          "lang": "san",
+          "form": "বঙ্গালিকা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A Bengali, someone of Baṅgāla (Old Bengali baṅgālī). The refrain of song 49 says that today Bhusuku has become a Bengali (2a), in a couplet about his own wife and a Caṇḍāla or Caṇḍālī. Munidatta has the feminine vaṅgālikā (cp.49.m3) and says the poet teaches under its guise (cp.49.m1). The Tibetan renders it nang 'khrug, 'inner strife'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The refrain turns on Bhusuku becoming a Bengali, which a reader needs explained (the Tibetan reads 'inner strife'); it is a demonym, not the place, so it is kept apart from pl-bangala."
+    },
+    {
+      "id": "candala",
+      "type": "term",
+      "en": "Caṇḍāla",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চণ্ডালেনেতি",
+          "translit": "caṇḍāleneti",
+          "lemma": "caṇḍāla",
+          "att": "AS",
+          "where": "cp.49.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏུམ་པོས",
+          "translit": "gtum pos",
+          "lemma": "gtum po",
+          "att": "AO",
+          "where": "cp.49.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চণ্ডালেন"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])চণ্ডাল(?:েঁ|ে|া)?(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A man of the Caṇḍāla community, which caste society ranked lowest and treated as untouchable (compare Caṇḍālī). Where Shastri prints caṇḍālī in the refrain of song 49 (2b), Munidatta cites caṇḍālena, 'by the Caṇḍāla', who takes the poet's own wife (cp.49.m3), and the Tibetan line has gtum pos khyer, 'carried off by the fierce one'.",
+      "symbolicImage": "the Caṇḍāla who carries off the poet's own wife",
+      "symbolicReadings": [
+        {
+          "referent": "clear light (prabhāsvara) 'whose nature is touch' (sparśaprakṛti; the compound is obscure): 'by the Caṇḍāla' is glossed 'led away by the clear light natured as touch'; the Tibetan comment agrees (gtum pos khyer zhes pa ni reg bya rang bzhin gyis 'od gsal gyis len pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.49.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "clear light",
+        "luminosity",
+        "touch"
+      ],
+      "rationale": "Munidatta and the Tibetan read a male Caṇḍāla in the refrain where the edition has caṇḍālī, and his gloss of the word is explicit; the glossary has only the feminine (candali)."
+    },
+    {
+      "id": "pancadhata",
+      "type": "term",
+      "en": "pañcadhāṭa",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পঞ্চধাট",
+          "translit": "pañcadhāṭa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.3a"
+        },
+        {
+          "lang": "san",
+          "script": "পঞ্চপাটনমিতি",
+          "translit": "pañcapāṭanam iti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པ་ལྔ་པོ",
+          "translit": "rnam pa lnga po",
+          "lemma": "rnam pa",
+          "att": "AO",
+          "where": "cp.49.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পঞ্চধাট"
+        },
+        {
+          "lang": "san",
+          "form": "পঞ্চপাটন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in song 49 (3a), naming five things that are burned. It may be pañca ghāṭa, 'five landing places' (compare toll station), if ধ is a misreading of the similar ঘ. Munidatta cites it as pañcapāṭana (cp.49.m4); the Tibetan line has rnam pa lnga po, 'the five kinds'. Not pañcanāla, 'five channels', of song 47.",
+      "symbolicImage": "the five things burned (pañcadhāṭa)",
+      "symbolicReadings": [
+        {
+          "referent": "I-making, mine-making and the like, resting on the five aggregates, burned by the fire of great bliss, together with the senses and their objects: 'pañcapāṭana' is glossed so (pañcapāṭanam iti); the Tibetan comment agrees (phung po lnga las byung ba'i bdag dang bdag gir 'dzin pa'i phyogs rnams bsregs te dbang po dang yul lnga'o)",
+          "per": "Munidatta",
+          "where": [
+            "cp.49.m4"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "aggregates",
+        "five aggregates",
+        "skandhas",
+        "I-making",
+        "mine-making",
+        "senses",
+        "sense objects"
+      ],
+      "rationale": "An obscure word with an explicit gloss in the commentary; its literal sense is unsettled, so the source form is kept, and it is kept apart from pañcanāla, a different word."
+    },
+    {
+      "id": "storehouse",
+      "type": "term",
+      "en": "storehouse",
+      "policy": "translate",
+      "alt": [
+        "treasury"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভণ্ডার",
+          "translit": "bhaṇḍāra",
+          "lemma": "bhaṇḍāra",
+          "att": "AS",
+          "where": "cp.49.5a"
+        },
+        {
+          "lang": "san",
+          "script": "চতুষ্কোটিবিচারভণ্ডারং",
+          "translit": "catuṣkoṭivicārabhaṇḍāraṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "མཛོད",
+          "translit": "mdzod",
+          "lemma": "mdzod",
+          "att": "AO",
+          "where": "cp.49.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভণ্ডার"
+        },
+        {
+          "lang": "san",
+          "form": "ভণ্ডার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A storehouse or treasury (Old Bengali bhaṇḍāra, from Sanskrit bhāṇḍāgāra; Tibetan mdzod). In the last couplet of song 49 the poet's caukoṛi storehouse (four crores, or four alternatives) is taken, all of it (5a). Munidatta calls it the storehouse of examination by the four alternatives (cp.49.m6). Compare storehouse of delusion (mohabhandara), song 36.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The storehouse is the central image of the last couplet and returns in song 36's storehouse of delusion; a plain entry lets the bare word be linked wherever it stands."
+    },
+    {
+      "id": "four-crores",
+      "type": "term",
+      "en": "four crores",
+      "policy": "translate",
+      "alt": [
+        "forty million"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চউকোড়ি",
+          "translit": "caukoṛi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.5a"
+        },
+        {
+          "lang": "san",
+          "script": "চউকোটীত্যাদি",
+          "translit": "caukoṭītyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "བྱེ་བ་ཕྲག་བཞི",
+          "translit": "bye ba phrag bzhi",
+          "lemma": "bye ba",
+          "att": "AO",
+          "where": "cp.49.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চউকোড়ি"
+        },
+        {
+          "lang": "san",
+          "form": "চউকোটী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Four koṭis (Old Bengali caukoṛi, Sanskrit catuṣkoṭi), a koṭi or crore being ten million: the worth of the poet's storehouse in song 49 (5a), as the Tibetan line reads it (bye ba phrag bzhi). Koṭi also means 'point', and catuṣkoṭi names the four alternatives of Madhyamaka logic, which is how Munidatta takes it (cp.49.m6).",
+      "symbolicImage": "a storehouse worth four crores",
+      "symbolicReadings": [
+        {
+          "referent": "the four alternatives (catuṣkoṭi): the storehouse becomes 'the storehouse of examination by the four alternatives' (catuṣkoṭivicārabhaṇḍāra), seized by the nondual Vaṅgāla; the Tibetan comment cites bye ba phrag bzhi, 'four ten-millions', and explains it the same way (mtha' bzhis rnam par dpyad pa'i mdzod)",
+          "per": "Munidatta",
+          "where": [
+            "cp.49.m6"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "four alternatives",
+        "tetralemma",
+        "four extremes",
+        "catuṣkoṭi"
+      ],
+      "rationale": "The Tibetan line reads caukoṛi as a sum of wealth, in keeping with the gold and silver of 4a, while the tetralemma is Munidatta's reading; a separate entry keeps the image in the line (the alternative, adding the form to catuskoti, is set out in questions)."
+    },
+    {
+      "id": "p-bhusuku",
+      "type": "person",
+      "en": "Bhusukupāda",
+      "policy": "keep-source",
+      "alt": [
+        "Bhusuku"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভূসু",
+          "translit": "bhūsu",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.2a"
+        },
+        {
+          "lang": "san",
+          "script": "ভুসুপাদো",
+          "translit": "bhusupādo",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভুসুপাদ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভূসু(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Bhusukupāda, a siddha poet of the songs, who names himself Bhusuku in their last couplets. In the refrain of song 49 the name is shortened to Bhūsu (2a), and Munidatta calls him the siddha master Bhusupāda (cp.49.m1); the Tibetan has b+hu su ku pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the short forms of the name in the refrain (ভূসু) and in Munidatta's opening (bhusupāda); a whole-word pattern keeps ভূসু from matching inside words such as bhūsura."
+    },
+    {
+      "id": "boat",
+      "type": "term",
+      "en": "boat",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণাব",
+          "translit": "ṇāba",
+          "lemma": "nāba",
+          "att": "AS",
+          "where": "cp.49.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ণাব(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A river boat, one of the commonest images of the songs. Song 49 opens with a boat (ṇāba) rowed on the pam̐uā canal (1a); the Tibetan line has 'the king's boat' (rgyal po'i gru).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The boat of the first line is spelled ṇāba, with ṇ and without the -ī of ṇābī, so no existing form covers it; a whole-word pattern avoids hits inside longer words."
+    },
+    {
+      "id": "klesa",
+      "type": "term",
+      "en": "affliction",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ক্লেশ",
+          "translit": "kleśa",
+          "lemma": "kleśa",
+          "att": "AS",
+          "where": "cp.49.1b"
+        },
+        {
+          "lang": "san",
+          "script": "ক্লেশা",
+          "translit": "kleśā",
+          "lemma": "kleśa",
+          "att": "AS",
+          "where": "cp.49.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ক্লেশসম্ভবঃ",
+          "translit": "kleśasambhavaḥ",
+          "lemma": "kleśa",
+          "att": "AS",
+          "where": "cp.49.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ক্লেশসঙ্কল্পো",
+          "translit": "kleśasaṅkalpo",
+          "lemma": "kleśa",
+          "att": "AS",
+          "where": "cp.49.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ক্লেশ"
+        },
+        {
+          "lang": "san",
+          "form": "ক্লেশ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The afflictions: disturbing mental states such as desire, hatred and delusion that keep beings in saṃsāra. In song 49 they are plundered (1b), and the scripture verse Munidatta quotes says the afflictions are not different from awakening (cp.49.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali kleśa of 1b (the Tibetan line has no word for it) and three Sanskrit forms from the verse Munidatta quotes in cp.49.m2."
+    },
+    {
+      "id": "grhini",
+      "type": "term",
+      "en": "wife",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "নিজগৃহিণী",
+          "translit": "nijagṛhiṇī",
+          "lemma": "gṛhiṇī",
+          "att": "AS",
+          "where": "cp.49.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গৃহিণী"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Wife, mistress of the house (Old Bengali ghariṇī, Sanskrit gṛhiṇī). In the refrain of song 49 it is the poet's own wife (2b), whom Munidatta calls nijagṛhiṇī (cp.49.m3); the Tibetan has khyim mi mo.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "ঘরিণী is already a form; this adds Munidatta's compound nijagṛhiṇī, the word his new reading in cp.49.m3 attaches to (see questions)."
+    },
+    {
+      "id": "gold",
+      "type": "term",
+      "en": "gold",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সোণ",
+          "translit": "soṇa",
+          "lemma": "sonā",
+          "att": "AS",
+          "where": "cp.49.4a"
+        },
+        {
+          "lang": "san",
+          "script": "সোনমিতি",
+          "translit": "sonam iti",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সোণ"
+        },
+        {
+          "lang": "oben",
+          "form": "সোণ"
+        },
+        {
+          "lang": "san",
+          "form": "সোনমিতি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Gold (Old Bengali sonā). In song 49 gold and silver are the poet's wealth, of which nothing remains (4a); the Tibetan line has gser dngul, 'gold and silver'. Munidatta cites the word as sona (cp.49.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The gold of 4a is printed with the two parts of the vowel o in reverse order (া before ে), so ো-based forms will not match it; the as-printed literal, the normal spelling and Munidatta's citation are added."
+    },
+    {
+      "id": "silver",
+      "type": "term",
+      "en": "silver",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তরুঅ",
+          "translit": "tarua",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.4a"
+        },
+        {
+          "lang": "san",
+          "script": "[ত]রুয়",
+          "translit": "[ta]ruya",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m5"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])তরুঅ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Silver (Old Bengali rūpā). In song 49 (4a) Shastri's text has tarua where the Tibetan line has dngul, 'silver', and Munidatta's comment, before Shastri restored the ta, reads ruya, which the Tibetan comment cites as rU pa (cp.49.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "tarua is probably a corruption of rua (rūpā), 'silver', as the Tibetan line and the unrestored commentary suggest, though taru, 'tree', is conceivable; a whole-word pattern keeps it from hitting other words."
+    },
+    {
+      "id": "mahasukha",
+      "type": "term",
+      "en": "great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহাসুহে",
+          "translit": "mahāsuhe",
+          "lemma": "mahāsuha",
+          "att": "AS",
+          "where": "cp.49.4b"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখরত্ননিমগ্নোহং",
+          "translit": "mahāsukharatnanimagnohaṃ",
+          "lemma": "mahāsukha",
+          "att": "AS",
+          "where": "cp.49.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মহাসুহ"
+        },
+        {
+          "lang": "san",
+          "form": "মহাসুখ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Great bliss: the highest bliss, the goal of the tantric path of the songs. In song 49 the poet stays in great bliss with his own household (4b), and Munidatta speaks of being immersed in the jewel of great bliss (cp.49.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the locative mahāsuhe of 4b and Munidatta's compound in cp.49.m5."
+    },
+    {
+      "id": "catuskoti",
+      "type": "term",
+      "en": "four alternatives",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুষ্কোটিবিচারভণ্ডারং",
+          "translit": "catuṣkoṭivicārabhaṇḍāraṃ",
+          "lemma": "catuṣkoṭi",
+          "att": "AS",
+          "where": "cp.49.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চতুষ্কোটি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The four alternatives (catuṣkoṭi): that a thing is, is not, both, or neither, the positions Madhyamaka reasoning rejects. Munidatta reads song 49's caukoṛi as the storehouse of examination by the four alternatives (cp.49.m6); the Tibetan comment has mtha' bzhis.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's compound in cp.49.m6; the song's own word caukoṛi is proposed separately as 'four-crores' (see questions)."
+    },
+    {
+      "id": "ahamkara-mamakara",
+      "type": "term",
+      "en": "I-making and mine-making",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পঞ্চস্কন্ধাশ্রিতাহংকারমমকারাদিকং",
+          "translit": "pañcaskandhāśritāhaṃkāramamakārādikaṃ",
+          "lemma": "ahaṃkāra",
+          "att": "AS",
+          "where": "cp.49.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་དང་བདག་གིར་འཛིན་པ",
+          "translit": "bdag dang bdag gir 'dzin pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.49.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "হংকারমমকার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "I-making and mine-making (ahaṃkāra, mamakāra): taking things as 'I' and 'mine'. Munidatta says that in song 49 (3a) these, resting on the five aggregates, are burned by the fire of great bliss (cp.49.m4); the Tibetan has bdag dang bdag gir 'dzin pa.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In sandhi the pair is written -āhaṃkāra-, which a match on অহংকার misses; this adds the compound, a match without the initial vowel, and the usual Tibetan rendering."
+    },
+    {
+      "id": "citta-ratna",
+      "type": "term",
+      "en": "mind-jewel",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চিত্তরত্নং",
+          "translit": "cittaratnaṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.49.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་རིན་ཆེན",
+          "translit": "sems rin chen",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.49.3b"
+        },
+        {
+          "lang": "bod",
+          "script": "སེམས་རིན་པོ་ཆེ",
+          "translit": "sems rin po che",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.49.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "চিত্তরত্ন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "The mind pictured as a jewel. Munidatta's paraphrase of song 49 (3b) says 'we do not know the mind-jewel' (cittaratna) where the song has 'my mind' (cp.49.m4); the Tibetan line and comment both have the jewel (sems rin chen, sems rin po che).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the plain Sanskrit cittaratna and the Tibetan line's rang sems rin chen, which puts the jewel into 3b where the Bengali has only cia, 'mind'."
+    },
+    {
+      "id": "mrta",
+      "type": "term",
+      "en": "dead",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মইলেঁ",
+          "translit": "mailem̐",
+          "lemma": "mar-",
+          "att": "AS",
+          "where": "cp.49.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤི",
+          "translit": "shi",
+          "lemma": "shi ba",
+          "att": "AO",
+          "where": "cp.49.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মইলেঁ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Dead (Old Bengali mail-, a past form of mar-, 'die'). The last line of song 49 says there is no difference between the living and the dead (5b); the Tibetan has shi. Munidatta speaks of concepts of living and dying (cp.49.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the form mailem̐ of 5b, set against jībante, 'living', which the glossary already has."
+    },
+    {
+      "id": "atyantabhava",
+      "type": "term",
+      "en": "absolute nonexistence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থপদেনাত্যন্তাভাবমাহ",
+          "translit": "caturthapadenātyantābhāvam āha",
+          "lemma": "atyantābhāva",
+          "att": "AS",
+          "where": "cp.49.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ত্যন্তাভাব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Absolute nonexistence (atyantābhāva): the absence of what never was and never will be. Munidatta says the last couplet of song 49, his fourth verse, states it (cp.49.m6); the Tibetan comment has shin tu bsgoms pa, 'thorough meditation', as if reading bhāvanā.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds Munidatta's framing phrase in cp.49.m6; the Tibetan there reads differently (shin tu bsgoms pa), so no Tibetan form is added."
+    },
+    {
+      "id": "abheda",
+      "type": "term",
+      "en": "nondifference",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অভিন্নত্বং",
+          "translit": "abhinnatvaṃ",
+          "lemma": "abhinna",
+          "att": "AS",
+          "where": "cp.49.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དབྱེར་མེད་པ་ཉིད",
+          "translit": "dbyer med pa nyid",
+          "lemma": "dbyer med",
+          "att": "AO",
+          "where": "cp.49.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অভিন্নত্ব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Nondifference (abheda, abhinnatva): being undivided. In his comment on the first couplet of song 49 Munidatta says nondifference is made, and quotes a verse that the afflictions are not different from awakening (cp.49.m2); the Tibetan has dbyer med pa nyid.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the abstract abhinnatva of cp.49.m2 and its Tibetan."
+    }
+  ],
+  "questions": [
+    "cp.49.h1, Mallārī and tA la gcig pa: the Tibetan heading reads mal+lA ri tA la gcig pa zhes bya ba'i glu dbyangs. I take tA la gcig pa as a tāla (metrical cycle), Sanskrit ekatāla, 'one beat', with tāla transcribed (tA la) and eka translated (gcig pa); a tāla of that name is known in Indian music (Ektāl). It is not part of the rāga's name, which the Tibetan spells mal+lA ri as elsewhere, and the Bengali heading lacks it, so I have neither folded it into 'mallari' nor proposed an entry. A witness note on the heading should be enough; if the reviewer wants an entry, it could be 'ekatala' (keep-source, 'Ekatāla') with bod ཏཱ་ལ་གཅིག་པ tA la gcig pa (AO, cp.49.h1). I am fairly but not fully sure of the tāla reading.",
+    "Baṅgāla (1b) and Bengali (2a): I put the place in a new 'pl-bangala' (Baṅgāla) and the demonym বঙ্গালী in a new 'bangali' (Bengali). 'bangala' is the rāga of song 43, and its definition excludes the place; 'pl-banga' renders Baṅga, a different name. If 'bangala' matches the bare literal বঙ্গাল, it would also claim বঙ্গালী, বঙ্গালিকা and বঙ্গালে; my longer literals should win, but the rāga's match might better be limited to headings (for example রাগ বঙ্গাল).",
+    "অদঅ- in অদঅবঙ্গালে (1b): Munidatta reads advaya, 'nondual' (akṣarasukhādvayavaṅgālena, cp.49.m2; advayavaṅgālena, cp.49.m6); the Tibetan line reads brtse ba med pas, 'pitilessly', as if adaya, and makes Baṅgāla the land that is carried off rather than the agent. I have not added অদঅ to 'advaya'. If the reviewer follows Munidatta, add oben অদঅ to 'advaya' with matchRe (?<![\\p{L}\\p{M}])অদঅ(?=বঙ্গাল), so that it cannot hit adaabhua, 'wonder'.",
+    "Caṇḍālī or Caṇḍāla in 2b (চণ্ডালী): the existing 'candali' form চণ্ডালী will link this word, giving 'has taken a Caṇḍālī as his own wife'. But Munidatta cites it as caṇḍālena, 'by the Caṇḍāla' (cp.49.m3), and the Tibetan line has gtum pos khyer, 'carried off by the fierce one' (masculine): both old witnesses read 'the Caṇḍāla has taken (his) own wife'. I proposed 'candala' for the man; the reviewer should decide which entry 2b's word belongs to, and the line deserves a meaning flag either way.",
+    "New reading for 'grhini' (segment cp.49.m3, line 2b): the poet's own wife (nijagṛhiṇī) is glossed as the unpurified avadhūtī, in the form of wind (hy apariśuddhāvadhūtī vāyurūpā). The Tibetan comment has the purified (yongs su dag pa) avadhūtī of mind, the form of wind (sems yongs su dag pa a wa d+hU tI ni rlung gi gzugs so), so the two disagree on 'unpurified'. Suggested forbiddenInLine additions: avadhūtī, central channel, wind.",
+    "New reading for 'gold' (segment cp.49.m5, line 4a): 'sona means grasping at emptiness' (sonam iti śūnyatāgrahaḥ); the Tibetan comment agrees (so na zhes pa ni stong pa nyid 'dzin pa'o). Suggested forbiddenInLine: grasping at emptiness, emptiness.",
+    "New reading for 'silver' (segment cp.49.m5, line 4a): '[ta]ruya means grasping at things' (bhāvagrahaḥ); the Tibetan comment cites rU pa and has 'the nature of the grasped' (gzung ba'i ngo bo). On the form: Shastri's song text has tarua, but the commentary manuscript reads ruya (Shastri restored the ta) and the Tibetan line has gser dngul, 'gold and silver', so I added তরুঅ to 'silver'. If the reviewer prefers taru, 'tree' ('golden tree'), drop that form.",
+    "চউকোড়ি (5a): I proposed 'four-crores' instead of adding the word to 'catuskoti' ('four alternatives'), because the Tibetan line reads bye ba phrag bzhi, 'four ten-millions', a sum of wealth in keeping with the gold and silver of 4a and the plundering of 1b, while the tetralemma is Munidatta's reading (cp.49.m6). Song 37's caukoṭṭi went to 'catuskoti'. If the reviewer prefers that for consistency, move চউকোড়ি and চউকোটী to 'catuskoti' and drop 'four-crores'; the line would then carry Munidatta's reading. I added only his compound চতুষ্কোটিবিচারভণ্ডারং to 'catuskoti'.",
+    "পঞ্চধাট (3a) and 'pancanala': I did not add it to 'pancanala'. Its second element is dhāṭa, not nāla; Munidatta cites pañcapāṭana and glosses it as I-making and mine-making resting on the five aggregates (cp.49.m4); the Tibetan line has rnam pa lnga po, 'the five kinds'. Nothing points to channels or pipes. I proposed 'pancadhata' (keep-source-first-gloss). Possible literal senses: pañca ghāṭa, 'five landing places' (ধ misread for ঘ), or a word like paṭṭana, 'town, port', behind Munidatta's pāṭana; both are guesses.",
+    "ণই in 3a and 'river': I did not link it. The Tibetan line has no river (rnam pa lnga po bsregs shing yul rnams brlag, 'burned the five kinds and destroyed the objects') and Munidatta has 'and the senses and their objects' (indriyaviṣayañca) at that point, so ṇai dibi saṃjñā may be corrupt; ṇai is also too short to match safely.",
+    "পঁউআ (1a): the Tibetan line (pad+ma'i tshal, 'lotus grove') and Munidatta (prajñāravinda, 'lotus of wisdom', cp.49.m2) both read padma, 'lotus'; the Padmā river is the other reading. I proposed nothing: if the reviewer reads 'lotus', add পঁউআ to 'lotus'; if 'Padmā', a place entry (for example pl-padma) is needed.",
+    "বাজ (1a, bāja ṇāba): perhaps vajra, 'the vajra boat'. The Tibetan line has rgyal po'i gru, 'the king's boat', as if reading রাজ (র and ব differ only by the dot), and Munidatta does not cite the word. I proposed nothing for it.",
+    "Encoding: in this unit the vowel sign ো is written as া followed by ে (U+09BE U+09C7) in মোর (3b, 4a, 5a), সোণ (4a), বোধিতো and বোধৌ (m2) and সদ্গুরুচরণোপায়েন (m2). Unicode normalization does not repair that order, so existing ো-based matches (gold সোনে, bodhi বোধি, guru's -োপায়) will miss these words. I added the as-printed সোণ to 'gold'; normalizing the source text would be the better fix."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "41fa3905a8e2a807a6433cccb82e58cdd42ef903814f423f3d3853342c513fa6",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "10fc0141caf4e7017b4587c1f036aa58d20dcefb4192a94d741078514780148d",
+    "sourceSha": "8f0208696d9e07ab1bdff178ef6250e495f74770915f7514f042c2116a82d3ac"
+  }
+}

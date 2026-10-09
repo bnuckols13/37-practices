@@ -200,6 +200,75 @@
       }
     },
     {
+      "id": "abhava",
+      "type": "term",
+      "status": "proposed",
+      "en": "nonbeing",
+      "alt": [
+        "non-thing"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অভাব",
+          "translit": "abhāba",
+          "lemma": "abhāba",
+          "att": "AS",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অভাবোঽপি",
+          "translit": "abhāvo'pi",
+          "lemma": "abhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কিমভাবশ্রুতির্ভবতি",
+          "translit": "kimabhāvaśrutirbhavati",
+          "lemma": "abhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ་མེད་པ",
+          "translit": "dngos po med pa",
+          "lemma": "dngos po med pa",
+          "att": "AO",
+          "where": "cp.29.1a"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Nonbeing, absence, a non-thing (Sanskrit abhāva, Old Bengali abhāba; Tibetan dngos po med pa): the lack of being, which Madhyamaka thought no more asserts of reality than being itself. Song 29 says nonbeing does not go (1a); Munidatta says nonbeing too is not reality, since it has the form of the unreal (cp.29.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "abhijna",
       "type": "term",
       "status": "proposed",
@@ -5950,14 +6019,8 @@
         ]
       },
       "matchRe": {
-        "oben": [
-          "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
-        ],
-        "san": [
-          "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
-        ]
+        "oben": [],
+        "san": []
       },
       "definition": "The pair being and nonbeing, or things and their absence (Sanskrit bhāva and abhāva), the two poles that Madhyamaka thought says cannot be asserted of reality. Song 9 names the pair in its fourth couplet; Munidatta comments that all things (bhāvāḥ) are pure by nature (cp.09.m4). The Tibetan has dngos dang dngos med, 'things and non-things'.",
       "symbolic": {
@@ -5972,6 +6035,75 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "bhava-being",
+      "type": "term",
+      "status": "proposed",
+      "en": "being",
+      "alt": [
+        "thing"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাব",
+          "translit": "bhāba",
+          "lemma": "bhāba",
+          "att": "AS",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্তাবৎ",
+          "translit": "bhāvastāvat",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্যোপলম্ভো",
+          "translit": "bhāvasyopalambho",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ",
+          "translit": "dngos po",
+          "lemma": "dngos po",
+          "att": "AO",
+          "where": "cp.29.1a"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Being, an existent thing (Sanskrit bhāva, Old Bengali bhāba; Tibetan dngos po): whatever is there, set in Madhyamaka thought against its absence, nonbeing (abhāva), and no more true of reality than nonbeing is. Song 29 opens by saying being does not come to be (1a); Munidatta says being is not reality, since examination finds no apprehension of it (cp.29.m2).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -44204,6 +44336,62 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "vatu",
+      "type": "term",
+      "status": "proposed",
+      "en": "lad",
+      "alt": [
+        "boy",
+        "fool"
+      ],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বট",
+          "translit": "baṭa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.29.2a"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])বট(?=\\s+দুলক্খ)"
+        ]
+      },
+      "definition": "A lad or boy (Sanskrit vaṭu, baṭu), especially a young brahmin pupil; as an address it can be fond or scornful ('fellow, fool'). Taken here for Old Bengali baṭa in the refrain of song 29 (2a), where Munidatta's paraphrase has the novice yogin (cp.29.m3) and the Tibetan line rmongs pa, 'fool'. The same spelling can be bāṭa, 'road'.",
+      "symbolic": {
+        "image": "a lad the poet addresses",
+        "readings": [
+          {
+            "referent": "the novice yogin (bālayogin), by whom reality, hard to discern, cannot be discerned: his paraphrase puts the novice yogin where the song has baṭa, without an explicit gloss; the Tibetan comment has byis pa'i rnal 'byor pa",
+            "per": "Munidatta",
+            "where": [
+              "cp.29.m3"
+            ]
+          }
+        ]
+      },
+      "forbiddenInLine": [
+        "novice yogin",
+        "novice",
+        "beginner",
+        "yogin"
+      ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },

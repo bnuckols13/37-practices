@@ -1,0 +1,614 @@
+{
+  "unit": "cp.29",
+  "title": "The Moon in Water",
+  "summary": "Like the moon in water, what Lūyī speaks of is neither true nor false: it is neither being nor nonbeing, its colour, sign and form are unknown, scripture and the Veda cannot explain it, and he asks what there is to meditate on. Munidatta reads the song as a teaching on reality (tattva), which a novice yogin cannot discern and which cannot be put into words, and takes the last couplet as the true nature of the mind, not found when it is examined by the guru's word.",
+  "lines": [
+    {
+      "id": "cp.29.h1",
+      "translit": "rāga paṭamañjarī",
+      "gloss": "rāga · Paṭamañjarī",
+      "en": "[Rāga]{raga} [Paṭamañjarī]{patamanjari} · [Lūyī]{p-luyi}pāda",
+      "terms": [
+        {
+          "id": "raga",
+          "src": "রাগ"
+        },
+        {
+          "id": "patamanjari",
+          "src": "পটমঞ্জরী"
+        },
+        {
+          "id": "p-luyi",
+          "src": "লূইপাদানাম্"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "The heading line names only the rāga. The poet's name comes from the attribution lūipādānām ('of Lūipāda') that Shastri prints before the first line, which the edition's emendation moves out of 1a, and from the Tibetan heading (lU yi pa'i zhabs kyi'o). Drop 'Lūyīpāda' if headings should give only what the heading line itself has."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.1a",
+      "translit": "bhāba na hoi abhāba ṇa jāi",
+      "gloss": "being · not · becomes · nonbeing · not · goes",
+      "en": "[Being]{bhava-being} does not come to be, [nonbeing]{abhava} does not go:",
+      "terms": [
+        {
+          "id": "bhava-being",
+          "src": "ভাব"
+        },
+        {
+          "id": "abhava",
+          "src": "অভাব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "hoi is 'is, becomes', from the same root as bhāba, which the English keeps with 'being ... come to be'; jāi is 'goes'. Munidatta reads both halves as 'is not' (bhāvas tāvat tattvaṃ na bhavati ... abhāvo 'pi na bhavati, cp.29.m2), and the Tibetan line has 'not a thing, and not a non-thing either' (dngos po ma yin dngos po med pa'ang ma yin). I keep the song's two verbs; 'nonbeing does not pass away' is a freer alternative."
+        },
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "bhāba and abhāba are separate words here, each with its own verb, so the pair entry bhava-abhava ('being and nonbeing') cannot be used as written. I mark them with two proposed single entries, bhava-being ('being') and abhava ('nonbeing'); see proposals and questions."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.1b",
+      "translit": "āisa saṃbohem̐ ko patiāi",
+      "gloss": "such · in awakening (or: by explanation) · who · trusts",
+      "en": "who would believe in such an [awakening]{bodhi}?",
+      "terms": [
+        {
+          "id": "bodhi",
+          "src": "সংবোহেঁ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "saṃbohem̐: I take saṃboha from saṃbodha, 'full awakening, full understanding' (dh > h, as in bohi for bodhi), as the Tibetan line does ('di 'dra'i sangs rgyas, 'such a buddha, such awakening'). Munidatta writes sambodhane (cp.29.m2), a word whose usual sense is 'explanation, instruction'; read so, the line is 'who would believe such an explanation?', which suits the song's concern with what can be told. The Tibetan of his comment still has rdzogs pa'i sangs rgyas, 'perfect awakening'. The Old Bengali form lacks the -aṇa that sambodhana would keep (compare dhamaṇa, bāndhaṇa), so I prefer awakening."
+        },
+        {
+          "kind": "witness",
+          "level": "low",
+          "note": "Shastri prints ধ্রু after this line, before the refrain itself; Munidatta names couplet 2 as the refrain (dhruvapadena, cp.29.m3). Not translated."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.2a",
+      "translit": "lui bhaṇai baṭa dulakkha biṇāṇā",
+      "gloss": "Lūyī · says · lad (vaṭu; or: road, bāṭa) · hard to discern · consciousness",
+      "en": "[Lūyī]{p-luyi} says: [lad]{vatu}, [consciousness]{vijnana} is [hard to discern]{durlaksa};",
+      "terms": [
+        {
+          "id": "p-luyi",
+          "src": "লুই"
+        },
+        {
+          "id": "vatu",
+          "src": "বট"
+        },
+        {
+          "id": "durlaksa",
+          "src": "দুলক্খ"
+        },
+        {
+          "id": "vijnana",
+          "src": "বিণাণা"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "baṭa: the matcher tags it bāṭa, 'road', which would give 'Lūyī says, the road is hard to discern by consciousness'. I read vaṭu, 'lad, boy', a teacher's address that can also mean 'fool', because both early readings put a person here: Munidatta's paraphrase has the novice yogin (bālayoginā) who cannot discern reality (cp.29.m3), and the Tibetan line has rmongs pa, 'fool'. Road is not marked (see termsOmitted); 'fool' is the alternative English if the Tibetan is followed."
+        },
+        {
+          "kind": "meaning",
+          "level": "medium",
+          "note": "biṇāṇā: consciousness (vijñāna, Prakrit viṇṇāṇa), the final -ā lengthened to rhyme with ṇā closing 2b. Munidatta puts reality (tattva) in its place: 'reality, hard to discern' (durlakṣaṃ tattvaṃ, cp.29.m3). The Tibetan line has ya mtshan, 'wonder', as if reading another word, and mtshon du med, 'cannot be indicated', for dulakkha."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.2b",
+      "translit": "tia dhāe bilasai uha lāge ṇā",
+      "gloss": "three · realms (in) · plays · reasoning (ūha; or: that) · touches · not",
+      "en": "it is at [play]{lila} in the [three worlds]{trailokya}; reasoning does not reach it.",
+      "terms": [
+        {
+          "id": "trailokya",
+          "src": "তিঅ ধাএ"
+        },
+        {
+          "id": "lila",
+          "src": "বিলসই"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "uha: I take it as ūha, 'reasoning, conjecture', with Munidatta, who renders it with the verb ūh-: 'I do not make out (na ūhe), I do not know' its continuum, long, short or round (cp.29.m3); lāge ṇā, 'does not touch, does not take hold'. Read as the pronoun 'that, it', the line is 'it is at play in the three worlds, and it does not stick anywhere', close to Munidatta's 'where does it stay fixed?'. The Tibetan line has neither: 'playing in the three realms, it has no shape and no bearing' (dbyibs dang spyod lam med). The same choice recurs in 5b."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.3a",
+      "translit": "jāhera bānacihna rūba ṇa jāṇī",
+      "gloss": "of which · colour-sign · form · not · known",
+      "en": "That whose [colour]{varna}, [sign]{cihna} and [form]{rupa} are not known,",
+      "terms": [
+        {
+          "id": "varna",
+          "src": "বান"
+        },
+        {
+          "id": "cihna",
+          "src": "চিহ্ন"
+        },
+        {
+          "id": "rupa",
+          "src": "রূব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "ṇa jāṇī may be passive, 'are not known' (so Munidatta, nāvagamyate, cp.29.m4), or first person, 'I do not know'; the Tibetan mi shes so allows either. I take the passive."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.3b",
+      "translit": "so kaise āgama beem̐ bakhāṇī",
+      "gloss": "that · how · scripture · Veda (by) · explained",
+      "en": "how could [scripture]{agama} and the [Veda]{tx-veda} explain it?",
+      "terms": [
+        {
+          "id": "agama",
+          "src": "আগম"
+        },
+        {
+          "id": "tx-veda",
+          "src": "বেএঁ"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cp.29.4a",
+      "translit": "kāhere kiṣa bhaṇi mai dibi piricchā",
+      "gloss": "to whom · what · having said · by me · to be given · question",
+      "en": "To whom, saying what, shall I put the question?",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "piricchā: 'question' (pṛcchā), as the Tibetan line reads it (dri bar bya, 'I am to ask'): the poet does not know whom to ask, or how. Munidatta instead puts a settled doctrine (siddhānta) in its place, to be given to an ordinary person (pṛthagjana), which makes the line 'to whom, saying what, should I give an answer?' (cp.29.m5). I translate the word the song has and flag the divergence."
+        },
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "mai dibi: instrumental 'by me' with the future passive in -iba, 'is to be given by me', the same construction as Munidatta's mayā ... pradātavyaḥ (cp.29.m5). I divide Shastri's kiṣabhaṇi as kiṣa bhaṇi, 'having said what' (Munidatta: kim uktvā)."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.4b",
+      "translit": "udaka cānda jima sāca na micchā",
+      "gloss": "water · moon · like · true · not · false",
+      "en": "Like the [moon in water]{udakacandra}, it is neither true nor false.",
+      "terms": [
+        {
+          "id": "udakacandra",
+          "src": "উদক চান্দ"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "grammar",
+          "level": "low",
+          "note": "The line has a single negative between the two words (sāca na micchā, literally 'true not false'). Munidatta (na satyaṃ na mṛṣā, cp.29.m5) and the Tibetan (bden dang brdzun pa'ang min) both read 'neither true nor false', the stock sense of the image; I follow them."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.5a",
+      "translit": "lui bhaṇai bhāiba kīṣ",
+      "gloss": "Lūyī · says · to be meditated · what",
+      "en": "[Lūyī]{p-luyi} says: what is there for [meditation]{bhavana}?",
+      "terms": [
+        {
+          "id": "p-luyi",
+          "src": "লুই"
+        },
+        {
+          "id": "bhavana",
+          "src": "ভাইব"
+        }
+      ],
+      "flags": [
+        {
+          "kind": "term",
+          "level": "low",
+          "note": "bhāiba is a future passive, 'to be meditated on' (Munidatta: kiṃ bhāvyaṃ, 'what is to be meditated?', cp.29.m6). 'What is there for meditation?' keeps the glossary's noun; 'what is there to meditate on?' would be closer but needs a verb form the glossary does not list. The Tibetan line reads a noun: 'what is my meditation like?' (bdag gi bsgom pa ji lta bu)."
+        }
+      ]
+    },
+    {
+      "id": "cp.29.5b",
+      "translit": "jā lai acchama tāhera uha ṇa dis",
+      "gloss": "what · having taken · I stay · of that · reasoning (ūha; or: that) · not · appears",
+      "en": "Of what I have taken up and stay with, no reasoning appears.",
+      "terms": [],
+      "flags": [
+        {
+          "kind": "reading",
+          "level": "high",
+          "note": "Word division: Shastri prints jālai acchamatā hera. I divide jā lai acchama tāhera, 'what, having taken, I stay with, of that', which is how Munidatta paraphrases it (yaś ... gṛhītvā tiṣṭhāmi tasyāpi, cp.29.m6) and how the Tibetan line reads it (gang zhig blangs 'dug de ni, 'that which I stay with, having taken it'); tāhera then answers jāhera in 3a. Another division, tā hera, 'look at that', is possible."
+        },
+        {
+          "kind": "meaning",
+          "level": "high",
+          "note": "uha again, as in 2b: ūha, 'reasoning', following Munidatta's 'I do not make out (na ūhe) where it is; I do not see it' (cp.29.m6). Read as the pronoun, with ṇa dis taken as 'I do not see', as Munidatta and the Tibetan both take it, the line is 'what I have taken up and stay with, that I do not see' (Tibetan: de ni bdag gis ma mthong ngo). I chose one reading for both lines; here the pronoun reading gives the smoother sentence."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "anchor": "cp.29.h1",
+      "kind": "philology",
+      "text": "Rāga: a melodic mode of Indian music; each song is headed by the rāga it is sung to. Paṭamañjarī is also the rāga of song 1, likewise by Lūyī. The Tibetan heading transcribes the name (pa Ta ha many+dza ri) and calls it a melody (glu dbyangs).",
+      "cites": []
+    },
+    {
+      "anchor": "cp.29",
+      "kind": "doctrine",
+      "text": "Munidatta introduces the song by saying that Lūipāda, 'beautiful with the joy of knowledge', sets out 'that same meaning' in particular (tam evārthaṃ viśeṣayati), without saying which; the Tibetan has 'the meaning of reality' (de kho na nyid kyi don). He then reads the refrain as showing how hard the true nature of being is to obtain, couplet 3 as making that plain, couplet 4 as the true nature of reality, and couplet 5 as the true nature of the mind.",
+      "cites": [
+        "cp.29.m1",
+        "cp.29.m3",
+        "cp.29.m4",
+        "cp.29.m5",
+        "cp.29.m6"
+      ]
+    },
+    {
+      "anchor": "cp.29.1a",
+      "kind": "doctrine",
+      "text": "Munidatta: being, to begin with, is not reality, since when it is examined through the two meditations of dissolution, piṇḍagrāha and anubheda, no apprehension of being is found; nor is nonbeing reality, since it has the form of the unreal. He ends by asking whether, with such a sambodhana, any being is convinced of reality.",
+      "cites": [
+        "cp.29.m2"
+      ]
+    },
+    {
+      "anchor": "cp.29.1a",
+      "kind": "witness",
+      "text": "The Tibetan translation (Toh 2293) reads the line as 'not a thing, and not a non-thing either' (dngos po ma yin dngos po med pa'ang ma yin pa'i), a double negation in place of the song's two verbs, and joins it to the next line: who has faith in a buddha like this, which is neither?",
+      "cites": []
+    },
+    {
+      "anchor": "cp.29.1b",
+      "kind": "philology",
+      "text": "saṃbohem̐ is the instrumental-locative of saṃboha, here derived from saṃbodha, 'full awakening, full understanding' (compare bohi for bodhi in song 5). Munidatta glosses it sambodhane, a word that more often means 'explanation, instruction'; the Tibetan line has sangs rgyas, and the Tibetan of his comment rdzogs pa'i sangs rgyas, 'perfect awakening'. patiāi, 'trusts, believes' (compare pratyaya, 'conviction'), answers Munidatta's pratītikaroti and the Tibetan yid ches par byed.",
+      "cites": [
+        "cp.29.m2"
+      ]
+    },
+    {
+      "anchor": "cp.29.1b",
+      "kind": "witness",
+      "text": "Shastri's edition prints the refrain cue ধ্রু after this line as well as after the refrain and the later couplets. Munidatta treats couplet 2 as the refrain (dhruvapadena) and counts couplets 3, 4 and 5 as his second, third and fourth verses, so the cue here is probably a slip of the edition or of the manuscript.",
+      "cites": [
+        "cp.29.m3",
+        "cp.29.m4",
+        "cp.29.m5",
+        "cp.29.m6"
+      ]
+    },
+    {
+      "anchor": "cp.29.2a",
+      "kind": "philology",
+      "text": "baṭa could be bāṭa, 'road', written with a short vowel, but a road gives the refrain no clear syntax. This draft reads vaṭu, 'lad, boy, young brahmin', also a scornful 'fellow, fool', as a vocative: Lūyī turns to a pupil. Both early readers put a person here: Munidatta's paraphrase says reality cannot be discerned by a novice yogin (bālayoginā), and the Tibetan line has rmongs pa, 'fool'. Munidatta's bāla, 'child, fool', may echo the word.",
+      "cites": [
+        "cp.29.m3"
+      ]
+    },
+    {
+      "anchor": "cp.29.2a",
+      "kind": "philology",
+      "text": "biṇāṇā is vijñāna, 'consciousness' (Prakrit viṇṇāṇa), with the final vowel lengthened to rhyme with ṇā at the end of 2b. Munidatta's paraphrase has reality (tattva) in its place (durlakṣaṃ tattvaṃ), as does the Tibetan of his comment (de nyid); the Tibetan line has ya mtshan, 'wonder', which matches neither.",
+      "cites": [
+        "cp.29.m3"
+      ]
+    },
+    {
+      "anchor": "cp.29.2",
+      "kind": "doctrine",
+      "text": "Munidatta says the refrain teaches how hard the true nature of being is to obtain (bhāvasvarūpadaurlabhya). Reality, hard to discern, cannot be discerned by the novice yogin, because the three realms play in body, speech and mind (the Tibetan comment makes the three realms body, speech and mind); he cannot make out its continuum, long, short, round or otherwise, nor know where it stays.",
+      "cites": [
+        "cp.29.m3"
+      ]
+    },
+    {
+      "anchor": "cp.29.2b",
+      "kind": "philology",
+      "text": "tia dhāe: the three dhātus or realms of Buddhist cosmology, desire, form and the formless (Munidatta's traidhātuka), given with the glossary's 'three worlds'. bilasai, 'plays, sports, shines', is his vilasati krīḍati. On uha, 'reasoning' or the pronoun 'that', see the line's flag. The Tibetan line, 'it has no shape and no bearing' (dbyibs dang spyod lam med), seems to render the commentary's shapes, long, short and round, rather than these words.",
+      "cites": [
+        "cp.29.m3"
+      ]
+    },
+    {
+      "anchor": "cp.29.3",
+      "kind": "doctrine",
+      "text": "Munidatta: with his second verse the poet makes the stated meaning plain. How could reality, whose colour, mark and form are not understood, be explained in the various poems, in the Vinaya, in scripture and treatises, or in the Veda? He quotes Nāgārjuna: no colour, red, yellow or madder, is perceived. The Tibetan comment lists poetry, Vinaya, scripture, treatises and Veda.",
+      "cites": [
+        "cp.29.m4"
+      ]
+    },
+    {
+      "anchor": "cp.29.3b",
+      "kind": "philology",
+      "text": "āgama, 'scripture, received tradition', can name Buddhist or Brahmanical scripture, including the tantras, which also call themselves āgama; paired with the Veda it seems to stand for scriptural authority of every kind. beem̐ is the Veda in the instrumental (-em̐): 'by scripture and Veda'. The Tibetan has lung dang rig byed.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.29.4a",
+      "kind": "doctrine",
+      "text": "Munidatta: with his third verse the poet states the true nature of reality. To whom, having said what, should I give a settled doctrine (siddhānta), to an ordinary person (pṛthagjana)? The Tibetan comment also has a tenet (grub mtha') given for ordinary people, but 'freed from what' (ci zhig grol) where the Sanskrit has 'having said what' (kim uktvā), perhaps reading muktvā.",
+      "cites": [
+        "cp.29.m5"
+      ]
+    },
+    {
+      "anchor": "cp.29.4b",
+      "kind": "imagery",
+      "text": "The moon in water is a reflection: it is plainly seen, and yet there is no moon in the water. Mahāyāna writers use it as a stock example of what appears without any substance of its own; the song uses it to say that what it speaks of is neither true nor false.",
+      "cites": []
+    },
+    {
+      "anchor": "cp.29.4b",
+      "kind": "doctrine",
+      "text": "Munidatta: as the moon in water is neither true nor false, so is the appearance of the host of things (bhāvagrāmapratibhāsa) to the lord of yogis; it is not fit to be put into words, 'because it is inexpressible' (avacanatvāt). The Tibetan comment has 'the reflection of the town of meditation of the lord of yogis' (sgom pa'i grong khyer gyi gzugs brnyan), as if reading bhāvanā for bhāva.",
+      "cites": [
+        "cp.29.m5"
+      ]
+    },
+    {
+      "anchor": "cp.29.5",
+      "kind": "doctrine",
+      "text": "Munidatta: with his fourth verse the poet states the true nature of the mind. Since object of meditation, meditator and meditation are absent, what is there to meditate on? Even of 'the fourth form' (caturtharūpa) that he holds and abides in, examined by the guru's word, he cannot make out where it is, and does not see it. He quotes a verse: when one has ascertained the mind through understanding and practises, 'then I do not see the mind: where has it gone, where would it stay?' The Tibetan comment has 'the fourth foot' (rkang pa bzhi pa) for the fourth form.",
+      "cites": [
+        "cp.29.m6"
+      ]
+    },
+    {
+      "anchor": "cp.29.5b",
+      "kind": "philology",
+      "text": "jā lai acchama: jā, 'what'; lai, 'having taken' (la-, 'take'); acchama, 'I stay, remain' (acch-). Divided so, jā ... tāhera, 'what ... of that', answers jāhera ... so, 'of which ... that', in couplet 3. dis is 'appears, is seen'; Munidatta (na paśyāmi) and the Tibetan (bdag gis ma mthong) both take it as 'I do not see'.",
+      "cites": [
+        "cp.29.m6"
+      ]
+    }
+  ],
+  "termsOmitted": [
+    {
+      "id": "road",
+      "line": "cp.29.2a",
+      "reason": "Reading rejected for this draft: baṭa is taken as vaṭu, 'lad' (Munidatta's novice yogin, cp.29.m3; the Tibetan rmongs pa, 'fool'), not bāṭa, 'road'. Marked instead with the proposed entry vatu; see the line's flag and the questions."
+    },
+    {
+      "id": "bhava-abhava",
+      "line": "cp.29.1a",
+      "reason": "bhāba and abhāba are separate words here, each with its own verb, so the pair's English 'being and nonbeing' cannot be used; marked with the proposed single entries bhava-being and abhava."
+    },
+    {
+      "id": "buddha",
+      "line": "cp.29.1b",
+      "reason": "Tibetan only (sangs rgyas); the Bengali saṃbohem̐ is rendered 'awakening' and marked bodhi."
+    },
+    {
+      "id": "adbhuta",
+      "line": "cp.29.2a",
+      "reason": "Tibetan only: ya mtshan, 'wonder', stands where the Bengali has biṇāṇā, rendered 'consciousness'; noted in the line's flag."
+    },
+    {
+      "id": "moha",
+      "line": "cp.29.2a",
+      "reason": "Tibetan only: rmongs pa, 'fool', stands where the Bengali has baṭa, rendered 'lad'; noted in the line's flag."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "vatu",
+      "type": "term",
+      "en": "lad",
+      "policy": "translate",
+      "alt": [
+        "boy",
+        "fool"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বট",
+          "translit": "baṭa",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.29.2a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])বট(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "A lad or boy (Sanskrit vaṭu, baṭu), especially a young brahmin pupil; as an address it can be fond or scornful ('fellow, fool'). Taken here for Old Bengali baṭa in the refrain of song 29 (2a), where Munidatta's paraphrase has the novice yogin (cp.29.m3) and the Tibetan line rmongs pa, 'fool'. The same spelling can be bāṭa, 'road'.",
+      "symbolicImage": "a lad the poet addresses",
+      "symbolicReadings": [
+        {
+          "referent": "the novice yogin (bālayogin), by whom reality, hard to discern, cannot be discerned: his paraphrase puts the novice yogin where the song has baṭa, without an explicit gloss; the Tibetan comment has byis pa'i rnal 'byor pa",
+          "per": "Munidatta",
+          "where": [
+            "cp.29.m3"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "novice yogin",
+        "novice",
+        "beginner",
+        "yogin"
+      ],
+      "rationale": "The matcher tags baṭa in 29.2a as road, but Munidatta and the Tibetan both put a person in its place. An entry keeps that reading visible to the reviewer and to later songs, and lets the line be marked without calling it a road; the Tibetan rmongs pa is left out of the forms because it already belongs to moha and mudha."
+    },
+    {
+      "id": "bhava-being",
+      "type": "term",
+      "en": "being",
+      "policy": "translate",
+      "alt": [
+        "thing"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ভাব",
+          "translit": "bhāba",
+          "lemma": "bhāba",
+          "att": "AS",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্তাবৎ",
+          "translit": "bhāvastāvat",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভাবস্যোপলম্ভো",
+          "translit": "bhāvasyopalambho",
+          "lemma": "bhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ",
+          "translit": "dngos po",
+          "lemma": "dngos po",
+          "att": "AO",
+          "where": "cp.29.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ভাব(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Being, an existent thing (Sanskrit bhāva, Old Bengali bhāba; Tibetan dngos po): whatever is there, set in Madhyamaka thought against its absence, nonbeing (abhāva), and no more true of reality than nonbeing is. Song 29 opens by saying being does not come to be (1a); Munidatta says being is not reality, since examination finds no apprehension of it (cp.29.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "In song 29 (1a) bhāba and abhāba are separate words, each with its own verb, so the pair entry bhava-abhava ('being and nonbeing') cannot be used as written. Distinct from bhava, 'existence, becoming'. If approved, the single forms ভাব and অভাব now filed under bhava-abhava belong here and under abhava."
+    },
+    {
+      "id": "abhava",
+      "type": "term",
+      "en": "nonbeing",
+      "policy": "translate",
+      "alt": [
+        "non-thing"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অভাব",
+          "translit": "abhāba",
+          "lemma": "abhāba",
+          "att": "AS",
+          "where": "cp.29.1a"
+        },
+        {
+          "lang": "san",
+          "script": "অভাবোঽপি",
+          "translit": "abhāvo'pi",
+          "lemma": "abhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "san",
+          "script": "কিমভাবশ্রুতির্ভবতি",
+          "translit": "kimabhāvaśrutirbhavati",
+          "lemma": "abhāva",
+          "att": "AS",
+          "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དངོས་པོ་མེད་པ",
+          "translit": "dngos po med pa",
+          "lemma": "dngos po med pa",
+          "att": "AO",
+          "where": "cp.29.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])অভাব(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Nonbeing, absence, a non-thing (Sanskrit abhāva, Old Bengali abhāba; Tibetan dngos po med pa): the lack of being, which Madhyamaka thought no more asserts of reality than being itself. Song 29 says nonbeing does not go (1a); Munidatta says nonbeing too is not reality, since it has the form of the unreal (cp.29.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The counterpart of bhava-being: in 29.1a abhāba stands as its own word with its own verb, so the pair entry bhava-abhava cannot be used for it."
+    }
+  ],
+  "questions": [
+    "2a baṭa: I read vaṭu, 'lad', addressed by the poet (Munidatta's novice yogin, cp.29.m3; the Tibetan rmongs pa, 'fool'), not bāṭa, 'road'. Do you accept this, and would you rather have 'lad' or 'fool' in the English? If you accept it, please review the proposed entry vatu; if not, the line becomes 'Lūyī says, the road is hard to discern by consciousness' and should be marked road.",
+    "2a biṇāṇā: consciousness (vijñāna), as drafted and as the glossary files it, or reality, as Munidatta paraphrases it (tattva, cp.29.m3)? The Tibetan line has ya mtshan, 'wonder', which supports neither.",
+    "2b and 5b uha: I read ūha, 'reasoning', in both lines with Munidatta (na ūhe, cp.29.m3 and cp.29.m6). The pronoun 'that, it' would give 'it does not stick anywhere' in 2b and 'that I do not see' in 5b, as the Tibetan reads 5b. Which do you want, and should the two lines, which echo each other, be read the same way?",
+    "1b saṃbohem̐: awakening (from saṃbodha; the Tibetan sangs rgyas), as drafted and marked bodhi, or 'explanation', the usual sense of Munidatta's sambodhane (cp.29.m2), which would drop the bodhi markup?",
+    "4a piricchā: 'question' (pṛcchā; the Tibetan dri ba, 'ask'), as drafted, or 'answer', following Munidatta's settled doctrine given to an ordinary person (cp.29.m5)?",
+    "1a: bhāba and abhāba are separate words with separate verbs, so I did not use the pair entry bhava-abhava ('being and nonbeing') and propose single entries bhava-being ('being') and abhava ('nonbeing'). If you approve them, the forms ভাব and অভাব should move out of bhava-abhava; if not, how should the separate words be marked?",
+    "5b: I divide Shastri's jālai acchamatā hera as jā lai acchama tāhera, following Munidatta's yaś ... gṛhītvā tiṣṭhāmi tasya (cp.29.m6) and the Tibetan gang zhig blangs 'dug de ni. Do you accept the division?",
+    "Heading: I added 'Lūyīpāda' from the attribution printed before the first line and from the Tibetan heading; the heading line itself has only the rāga. Keep it?",
+    "5a: to keep the glossary's 'meditation' I wrote 'what is there for meditation?'. Would you rather allow a verb variant for bhavana and write 'what is there to meditate on?', which is closer to bhāiba?"
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "d0374fcfa16ada7d90313ac4cece63520042a9eeaf48c45a969af1d5769e908a",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 1
+    },
+    "glossarySha": "5109c1875231a472ac3416bcb24eb75ecefe1d9ca82373b7b2877df1ba618ddb",
+    "sourceSha": "d8446bfaf2a4061662035177eb4197c839648ff41af94f6a92242df26a4f8d22"
+  }
+}

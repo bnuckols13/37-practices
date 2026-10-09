@@ -1397,6 +1397,14 @@
           "lemma": "gnyis su med pa",
           "att": "AO",
           "where": "cp.26.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཉིས་སུ་མེད་པས",
+          "translit": "gnyis su med pas",
+          "lemma": "gnyis su med pa",
+          "att": "AO",
+          "where": "cp.49.m6"
         }
       ],
       "match": {
@@ -1409,7 +1417,8 @@
         ],
         "bod": [
           "གཉིས་མེད",
-          "གཉིས་སུ་མེད་པའི"
+          "གཉིས་སུ་མེད་པའི",
+          "གཉིས་སུ་མེད་པས"
         ]
       },
       "matchRe": {},
@@ -1592,12 +1601,23 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.49.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བདག་དང་བདག་གིར་འཛིན་པའི",
+          "translit": "bdag dang bdag gir 'dzin pa'i",
+          "lemma": "bdag dang bdag gir 'dzin pa",
+          "att": "AO",
+          "where": "cp.49.m4"
         }
       ],
       "match": {
         "san": [
           "হংকারমমকার",
           "হঙ্কারমমকার"
+        ],
+        "bod": [
+          "བདག་དང་བདག་གིར་འཛིན་པའི"
         ]
       },
       "matchRe": {},
@@ -11843,6 +11863,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "བསྲེགས",
+          "translit": "bsregs",
+          "lemma": "sreg pa",
+          "att": "AO",
+          "where": "cp.49.m4"
         }
       ],
       "match": {
@@ -13620,7 +13648,8 @@
           "চিত্তরত্ন"
         ],
         "bod": [
-          "ཡིད་ཀྱི་རིན་ཆེན"
+          "ཡིད་ཀྱི་རིན་ཆེན",
+          "སེམས་རིན་པོ་ཆེ"
         ]
       },
       "matchRe": {},
@@ -16112,6 +16141,14 @@
           "lemma": "d+hU'i rkang pa",
           "att": "AO",
           "where": "cp.28.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "དྷྲུའི་ཚིག",
+          "translit": "d+h+ru'i tshig",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.49.m3"
         }
       ],
       "match": {
@@ -16127,7 +16164,8 @@
           "དྷཱའི་རྐང་པ",
           "དྷྲཱུའི་རྐང་པ",
           "བྷྲཱུའི་རྐང་པ",
-          "དྷཱུའི་རྐང་པར"
+          "དྷཱུའི་རྐང་པར",
+          "དྷྲུའི་ཚིག"
         ]
       },
       "matchRe": {},
@@ -19316,6 +19354,9 @@
         ],
         "san": [
           "চউকোটী"
+        ],
+        "bod": [
+          "བྱེ་བ་ཕྲག་བཞི"
         ]
       },
       "matchRe": {},
@@ -20562,6 +20603,14 @@
           "translit": "sonam iti",
           "lemma": "",
           "att": "AS",
+          "where": "cp.49.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སོ་ན",
+          "translit": "so na",
+          "lemma": "",
+          "att": "AO",
           "where": "cp.49.m5"
         }
       ],
@@ -25959,6 +26008,14 @@
           "lemma": "",
           "att": "AO",
           "where": "cp.21.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ལས་ཀྱི་ཡན་ལག་ཅན",
+          "translit": "las kyi yan lag can",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m3"
         }
       ],
       "match": {
@@ -28982,6 +29039,14 @@
           "lemma": "rtsed mo",
           "att": "AO",
           "where": "cp.41.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒེག",
+          "translit": "sgeg",
+          "lemma": "sgeg pa",
+          "att": "AO",
+          "where": "cp.50.2b"
         }
       ],
       "match": {
@@ -32739,6 +32804,14 @@
           "lemma": "unmatta",
           "att": "AS",
           "where": "cp.19.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "བཟི་བར",
+          "translit": "bzi bar",
+          "lemma": "bzi ba",
+          "att": "AO",
+          "where": "cp.50.5a"
         }
       ],
       "match": {
@@ -34593,6 +34666,14 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.50.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཟླ་བ",
+          "translit": "zla ba",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.m5"
         }
       ],
       "match": {
@@ -35294,6 +35375,14 @@
           "lemma": "blun po",
           "att": "AO",
           "where": "cp.42.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྨོངས་པས",
+          "translit": "rmongs pas",
+          "lemma": "rmongs pa",
+          "att": "AO",
+          "where": "cp.49.m5"
         }
       ],
       "match": {
@@ -45836,6 +45925,14 @@
           "lemma": "baM ga la",
           "att": "AO",
           "where": "cp.49.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ནང་འཁྲུག་པ",
+          "translit": "nang 'khrug pa",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.49.m6"
         }
       ],
       "match": {
@@ -45844,6 +45941,9 @@
         ],
         "san": [
           "বঙ্গালে"
+        ],
+        "bod": [
+          "བཾ་ག་ལ་ཡུལ"
         ]
       },
       "matchRe": {},
@@ -49572,6 +49672,14 @@
           "lemma": "rngon pa mo",
           "att": "AO",
           "where": "cp.50.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "རྔོན་པ་ཕོ་མོ",
+          "translit": "rngon pa pho mo",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.50.5a"
         }
       ],
       "match": {
@@ -54287,6 +54395,14 @@
           "lemma": "stong nyid gsum",
           "att": "AO",
           "where": "cp.34.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སྟོང་པ་གསུམ་པོའི",
+          "translit": "stong pa gsum po'i",
+          "lemma": "stong pa gsum po",
+          "att": "AO",
+          "where": "cp.50.m2"
         }
       ],
       "match": {
@@ -54294,7 +54410,8 @@
           "শূন্যত্রয়"
         ],
         "bod": [
-          "སྟོང་ཉིད་གསུམ"
+          "སྟོང་ཉིད་གསུམ",
+          "སྟོང་པ་གསུམ་པོའི"
         ]
       },
       "matchRe": {},
@@ -59148,6 +59265,14 @@
           "lemma": "",
           "att": "AS",
           "where": "cp.46.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དགྱེས་པ་རྡོ་རྗེ",
+          "translit": "dgyes pa rdo rje",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.49.m6"
         }
       ],
       "match": {
@@ -59161,7 +59286,8 @@
         "bod": [
           "དགྱེས་པའི་རྡོ་རྗེ",
           "བརྟག་པ་གཉིས་པ",
-          "དཔལ་དགྱེས་པའི་རྡོ་རྗེ"
+          "དཔལ་དགྱེས་པའི་རྡོ་རྗེ",
+          "དགྱེས་པ་རྡོ་རྗེ"
         ]
       },
       "matchRe": {},

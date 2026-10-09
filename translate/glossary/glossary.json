@@ -154,6 +154,14 @@
           "lemma": "pratibhāsa",
           "att": "AS",
           "where": "cp.29.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "གཟུགས་བརྙན",
+          "translit": "gzugs brnyan",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.29.m5"
         }
       ],
       "match": {
@@ -472,7 +480,8 @@
           "অভ্যাস"
         ],
         "bod": [
-          "གོམས་པ"
+          "གོམས་པ",
+          "གོམས"
         ]
       },
       "matchRe": {},
@@ -7151,6 +7160,14 @@
           "lemma": "saṃbodhana",
           "att": "AS",
           "where": "cp.29.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "སངས་རྒྱས",
+          "translit": "sangs rgyas",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.29.1b"
         }
       ],
       "match": {
@@ -19812,7 +19829,8 @@
           "ক্রীড়ত"
         ],
         "bod": [
-          "རོལ་རྩེད"
+          "རོལ་རྩེད",
+          "རོལ་པ"
         ]
       },
       "matchRe": {},
@@ -21310,17 +21328,20 @@
         }
       ],
       "match": {
-        "san": [
-          "মণ্ডল"
-        ],
-        "oben": [
-          "মণ্ডল"
-        ],
+        "san": [],
+        "oben": [],
         "bod": [
           "དཀྱིལ་འཁོར"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "(?<!পরি)মণ্ডল"
+        ],
+        "oben": [
+          "(?<!পরি)মণ্ডল"
+        ]
+      },
       "definition": "A circle or disc; in the tantras, the circular arrangement of a deity with its retinue and palace, and by extension a bounded sphere of practice or of the body. In a caryā verse Munidatta quotes, there is no difference among the three maṇḍalas (cp.07.m4); the three are not named.",
       "symbolic": {
         "image": "",
@@ -33632,7 +33653,6 @@
         ],
         "san": [
           "ভবণই",
-          "নদী",
           "নদ্যা"
         ],
         "bod": [
@@ -33640,7 +33660,11 @@
           "ཆུ་བོ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "san": [
+          "(?<!সন্তা)নদী"
+        ]
+      },
       "definition": "A river (Old Bengali ṇaī, Sanskrit nadī). Song 5 opens with the river of existence, deep and swift, muddy on both sides and without footing in the middle; the poet's bridge crosses it. Rivers, their banks and their crossings recur throughout the songs.",
       "symbolic": {
         "image": "the river of existence, deep and swift, with mud on both sides and no footing in the middle",

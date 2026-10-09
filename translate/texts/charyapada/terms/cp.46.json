@@ -1,0 +1,1215 @@
+{
+  "unit": "cp.46",
+  "proposals": [
+    {
+      "id": "p-jayanandi",
+      "type": "person",
+      "en": "Jayanandipāda",
+      "policy": "keep-source",
+      "alt": [
+        "Jayanandi",
+        "Jaanandi"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জয়নন্দীপাদানাং",
+          "translit": "jayanandīpādānāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "জঅনন্দি",
+          "translit": "jaanandi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.5b"
+        },
+        {
+          "lang": "san",
+          "script": "জয়নন্দিপাদঃ",
+          "translit": "jayanandipādaḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m1"
+        },
+        {
+          "lang": "san",
+          "script": "জয়নন্দিপাদো",
+          "translit": "jayanandipādo",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛ་ཡཱ་ནནྡེ",
+          "translit": "dza yA nan+de",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛ་ཡ་ནནྟིས",
+          "translit": "dza ya nan+tis",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛ་ཡ་ནནྟའི་ཞབས",
+          "translit": "dza ya nan+ta'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "জঅনন্দি"
+        },
+        {
+          "lang": "san",
+          "form": "জয়নন্দি"
+        },
+        {
+          "lang": "san",
+          "form": "জয়নন্দী"
+        },
+        {
+          "lang": "bod",
+          "form": "ཛ་ཡཱ་ནནྡེ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཛ་ཡ་ནནྟི"
+        },
+        {
+          "lang": "bod",
+          "form": "ཛ་ཡ་ནནྟ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Jayanandipāda, the siddha to whom the manuscript attributes song 46 (jayanandīpādānāṃ, written before the song). He names himself Jaanandi in its last line (5b). Munidatta calls him one who has gained the higher knowledges (cp.46.m1). The Tibetan has dza yA nan+de in the heading, dza ya nan+ti in the line and dza ya nan+ta in the comment.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 46 has no entry; like the other siddhas he is kept in source form, with the bhaṇitā form Jaanandi and the plain Jayanandi as variants for the reviewer to choose between."
+    },
+    {
+      "id": "sabari-raga",
+      "type": "term",
+      "en": "Śabarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শবরী",
+          "translit": "śabarī",
+          "lemma": "śabarī",
+          "att": "AS",
+          "where": "cp.46.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤམྦ་རཱི",
+          "translit": "sham+ba rI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཤམྦ་རཱི"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<=রাগ\\s*)শবরী(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Śabarī, the name of the rāga (melodic mode) to which song 46 is sung, given in its heading; the same word names a woman of the Śabaras, who has her own entry. The Tibetan transcribes it sham+ba rI. The rāga of song 26, printed Śīvarī, has Tibetan sha ba ri and may be the same melody; that is not established.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Rāga names have their own keep-source entries (raga beside raga-passion, bangala beside pl-banga); 'sabari' is the Śabara woman of song 28, with Nairātmā readings and forbidden words, so the heading should not link to it. The match only takes শবরী after রাগ."
+    },
+    {
+      "id": "burning",
+      "type": "term",
+      "en": "burn",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দাটই",
+          "translit": "dāṭai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "san",
+          "script": "দগ্ধং",
+          "translit": "dagdhaṃ",
+          "lemma": "dagdha",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚིག་པ",
+          "translit": "tshig pa",
+          "lemma": "tshig pa",
+          "att": "AO",
+          "where": "cp.46.3a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])দাটই(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])দাটই(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])দগ্ধং(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "To burn or be burnt (Old Bengali dāṭai, which Munidatta renders dagdha, 'burnt'; Tibetan tshig pa). Song 46 (3a) says it is not burnt, not wetted and not cut, a stock Indian triad for the indestructible (compare the Bhagavad Gītā on the self). Munidatta: not burnt by fire, not flooded by water, not cut by a weapon (cp.46.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "3a turns on three things that cannot happen to the mind freed of delusion; 'cut' already has an entry (cutting), so burning and wetting get entries to keep the triad consistent across line, comment and Tibetan. Whole-word patterns, since দাটই and দগ্ধং are short (দগ্ধ sits inside বিদগ্ধ)."
+    },
+    {
+      "id": "wetting",
+      "type": "term",
+      "en": "wet",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিমই",
+          "translit": "timai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "san",
+          "script": "প্লাবনীয়ং",
+          "translit": "plāvanīyaṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཤེར",
+          "translit": "gsher",
+          "lemma": "gsher",
+          "att": "AO",
+          "where": "cp.46.3a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্লাবনীয়"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])তিমই(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "To wet or be soaked (Old Bengali timai; compare Sanskrit tim-, 'become wet'; Tibetan gsher, 'wet'). Song 46 (3a) names it between burning and cutting as what cannot happen: it is not burnt, not wetted, not cut. Munidatta has 'it is not to be flooded by water' (cp.46.m4); the Tibetan comment, 'not carried off by water'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The second of the three tests of 3a, paired with burning and with the existing entry for cutting; whole-word pattern for the short তিমই."
+    },
+    {
+      "id": "bahyasastra",
+      "type": "term",
+      "en": "outer treatise",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বহিশাস্ত্রে",
+          "translit": "bahiśāstre",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱིའི་བསྟན་བཅོས",
+          "translit": "phyi'i bstan bcos",
+          "lemma": "phyi'i bstan bcos",
+          "att": "AO",
+          "where": "cp.46.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বহিশাস্ত্র"
+        },
+        {
+          "lang": "bod",
+          "form": "ཕྱིའི་བསྟན་བཅོས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A treatise from outside the tradition (Sanskrit bahiśāstra, for bahiḥśāstra; Tibetan phyi'i bstan bcos, 'outer treatise'), apparently a non-Buddhist work. Munidatta names one as the source of the verse he quotes on people who carefully do wrong and, giving up milk, drink poison (cp.46.m4). The entry for fools records his scorn for scholars proud of outer treatises.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta's label for a quoted source outside the Buddhist teaching, which a reader of the woven commentary needs explained; 'outer treatise' follows the Tibetan and the wording already used in the glossary's definitions."
+    },
+    {
+      "id": "p-mahamaya",
+      "type": "person",
+      "en": "Mahāmāyā",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহামায়াদেবীত্যাদি",
+          "translit": "mahāmāyādevītyādi",
+          "lemma": "mahāmāyā",
+          "att": "AS",
+          "where": "cp.46.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷ་མོ་སྒྱུ་མ་ཆེན་མོ",
+          "translit": "lha mo sgyu ma chen mo",
+          "lemma": "sgyu ma chen mo",
+          "att": "AO",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মহামায়া"
+        },
+        {
+          "lang": "bod",
+          "form": "ལྷ་མོ་སྒྱུ་མ་ཆེན་མོ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Mahāmāyā, 'Great Illusion', here called a goddess (devī). The Buddha's mother bears the name in Buddhist legend, and so does a deity of the yoginī tantras; which is meant is unclear, since Munidatta quotes only the opening of a verse of Saraha, after saying that those freed from delusion see their body as like a shadow and an illusion (cp.46.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A name in the commentary that the woven translation will keep and a reader will need glossed; the longer match keeps মহামায়া from being read as plain 'illusion'."
+    },
+    {
+      "id": "svapna",
+      "type": "term",
+      "en": "dream",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সুঅণে",
+          "translit": "suaṇe",
+          "lemma": "suaṇa",
+          "att": "AS",
+          "where": "cp.46.1a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নে",
+          "translit": "svapne",
+          "lemma": "svapna",
+          "att": "AS",
+          "where": "cp.46.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্বপ্নে"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])সুঅণে(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the line's suaṇe (1a), which Munidatta renders svapne and the Tibetan rmi lam. Whole-word pattern for সুঅণে, since an Old Bengali suaṇa could also stand for suvarṇa, 'gold'."
+    },
+    {
+      "id": "mirror",
+      "type": "term",
+      "en": "mirror",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অদশ",
+          "translit": "adaśa",
+          "lemma": "adaśa",
+          "att": "AS",
+          "where": "cp.46.1a"
+        },
+        {
+          "lang": "san",
+          "script": "যথাদর্শে",
+          "translit": "yathādarśe",
+          "lemma": "ādarśa",
+          "att": "AS",
+          "where": "cp.46.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "যথাদর্শে"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])অদশ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: adaśa (1a) is Sanskrit ādarśa, 'mirror', as Munidatta's yathādarśe ('as in a mirror') shows; the Tibetan line renders it gzugs brnyan, 'reflection'. Whole-word pattern so অদশ is not found inside longer words."
+    },
+    {
+      "id": "pratibimba",
+      "type": "term",
+      "en": "reflection",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "প্রতিবিম্বং",
+          "translit": "pratibimbaṃ",
+          "lemma": "pratibimba",
+          "att": "AS",
+          "where": "cp.46.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "প্রতিবিম্ব"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: Munidatta's 'a reflection in a mirror' (ādarśe pratibimbaṃ); the Tibetan has me long gi gzugs brnyan, already a form of this entry."
+    },
+    {
+      "id": "udakacandra",
+      "type": "term",
+      "en": "moon in water",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "pra",
+          "script": "জলমঝে চংদ",
+          "translit": "jalamajhe caṃda",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ནང་ཟླ་བ",
+          "translit": "chu nang zla ba",
+          "lemma": "chu zla",
+          "att": "AO",
+          "where": "cp.46.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "জলমঝে চংদ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆུ་ནང་ཟླ་བ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms from the vernacular verse Munidatta quotes on couplet 1 ('as the moon in the midst of water…'); the Tibetan has chu nang zla ba, neither existent nor nonexistent. The match is keyed san because the quotation sits in a Sanskrit segment."
+    },
+    {
+      "id": "antarabhava",
+      "type": "term",
+      "en": "intermediate existence",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "བར་གྱི་སྲིད་པ",
+          "translit": "bar gyi srid pa",
+          "lemma": "bar srid",
+          "att": "AO",
+          "where": "cp.46.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "བར་གྱི་སྲིད་པ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New Tibetan form: the Tibetan line of 1b has bar gyi srid pa, 'intermediate existence', where the Bengali has antarāle, 'in between'; its comment has bar srid kyi rnam par shes pa (cp.46.m2). I have not matched the Bengali word (see questions)."
+    },
+    {
+      "id": "moha",
+      "type": "term",
+      "en": "delusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মোহে",
+          "translit": "mohe",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.3b"
+        },
+        {
+          "lang": "san",
+          "script": "মোহবিমুক্তং",
+          "translit": "mohavimuktaṃ",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.m3"
+        },
+        {
+          "lang": "san",
+          "script": "মোহে",
+          "translit": "mohe",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মোহবিমুক্তা",
+          "translit": "mohavimuktā",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মোহবিমুক্ত"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])মোহে(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])মোহে(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the locative mohe (3b, cp.46.m4) and Munidatta's mohavimukta, 'freed from delusion' (cp.46.m3, m4, m5), his rendering of the refrain's moha … bimukkā (2a). Whole-word pattern for the short মোহে."
+    },
+    {
+      "id": "maya",
+      "type": "term",
+      "en": "illusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাআ",
+          "translit": "māā",
+          "lemma": "māā",
+          "att": "AS",
+          "where": "cp.46.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ছায়ামায়াসমং",
+          "translit": "chāyāmāyāsamaṃ",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মায়া"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])মাআ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: māā (4a), which Munidatta renders māyā in chāyāmāyāsamaṃ, 'like a shadow and an illusion', and the Tibetan sgyu ma. Whole-word pattern for মাআ, which could also be 'mother' and sits inside māāhariṇī and māājāla."
+    },
+    {
+      "id": "shade",
+      "type": "term",
+      "en": "shade",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ছাঅ",
+          "translit": "chāa",
+          "lemma": "chāa",
+          "att": "AS",
+          "where": "cp.46.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ছায়েত্যাদি",
+          "translit": "chāyetyādi",
+          "lemma": "chāyā",
+          "att": "AS",
+          "where": "cp.46.m5"
+        },
+        {
+          "lang": "san",
+          "script": "ছায়ামায়াসমং",
+          "translit": "chāyāmāyāsamaṃ",
+          "lemma": "chāyā",
+          "att": "AS",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ছায়া"
+        },
+        {
+          "lang": "san",
+          "form": "ছায়েত্যাদি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])ছাঅ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: chāa (4a) is chāyā, 'shadow', as Munidatta's citation and paraphrase show; the Tibetan line has grib ma, already a form of this entry. Whole-word pattern for the short ছাঅ. On the rendering here, see questions."
+    },
+    {
+      "id": "body",
+      "type": "term",
+      "en": "body",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্ববিগ্রহং",
+          "translit": "svavigrahaṃ",
+          "lemma": "vigraha",
+          "att": "AS",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্ববিগ্রহ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])কাঅ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: Munidatta renders the line's kāa (4a), already a form of this entry, as svavigraha, 'one's own body' (the Tibetan comment has rang gi lus). Added a whole-word pattern for কাঅ, which otherwise sits inside কাঅবাক্‌চিঅ."
+    },
+    {
+      "id": "paksa",
+      "type": "term",
+      "en": "side",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাখেঁ",
+          "translit": "pākhem̐",
+          "lemma": "pākha",
+          "att": "AS",
+          "where": "cp.46.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পক্ষাপক্ষভিন্নং",
+          "translit": "pakṣāpakṣabhinnaṃ",
+          "lemma": "pakṣa",
+          "att": "AS",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পাখেঁ"
+        },
+        {
+          "lang": "san",
+          "form": "পক্ষাপক্ষ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: beṇi pākhem̐, 'on both sides' (4b; Tibetan phyogs ni gnyis po), and Munidatta's pakṣāpakṣa, 'side and non-side' (cp.46.m5)."
+    },
+    {
+      "id": "tathata",
+      "type": "term",
+      "en": "suchness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তথাতাস্বভাবে",
+          "translit": "tathātāsvabhāve",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.46.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তথতাবিশু[৬৫]দ্ধো",
+          "translit": "tathatāviśuddho",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বিশুদ্ধিস্তথত",
+          "translit": "viśuddhis tathata",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.46.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])তথাতা(?=স্বভাব|[^\\p{L}\\p{M}]|$)"
+        },
+        {
+          "lang": "san",
+          "re": "তথত(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: the line spells tathātā (5a; Tibetan de nyid), and the Dvikalpa verse Munidatta quotes has tathata for tathatā, metri causa (cp.46.m6). The patterns take তথাতা only before স্বভাব or at a word's end (not tathā tāvat written together), and তথত only at a word's end."
+    },
+    {
+      "id": "svabhava",
+      "type": "term",
+      "en": "nature",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তথাতাস্বভাবে",
+          "translit": "tathātāsvabhāve",
+          "lemma": "svabhāva",
+          "att": "AS",
+          "where": "cp.46.5a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "স্বভাবে"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the second member of tathātāsvabhāve, 'in the nature of suchness' (5a; Tibetan de nyid rang bzhin), spelled with Sanskrit sva-, unlike the entry's sahāba and sabhāba."
+    },
+    {
+      "id": "citta",
+      "type": "term",
+      "en": "mind",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মাণা",
+          "translit": "māṇā",
+          "lemma": "maṇa",
+          "att": "AS",
+          "where": "cp.46.2a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচিত্ত[ং]",
+          "translit": "svacittaṃ",
+          "lemma": "citta",
+          "att": "AS",
+          "where": "cp.46.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་སེམས",
+          "translit": "rang gi sems",
+          "lemma": "sems",
+          "att": "AO",
+          "where": "cp.46.m3"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])মাণা(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        },
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])চিঅ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: māṇā, 'mind' (2a; Tibetan yid), which Munidatta renders svacitta, 'one's own mind' (cp.46.m3, on the refrain). Whole-word patterns for মাণা, which otherwise sits inside samāṇā, 'alike' (4a), and for the entry's existing cia (5a)."
+    },
+    {
+      "id": "coming-and-going",
+      "type": "term",
+      "en": "coming and going",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অবণা গমণা",
+          "translit": "abaṇā gamaṇā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অবণা গমণা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: abaṇā gamaṇā (2b), which Munidatta renders yātāyāta and the Tibetan 'gro dang 'ong ba, both already forms of this entry. On his reading of it here, see questions."
+    },
+    {
+      "id": "cutting",
+      "type": "term",
+      "en": "cut",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চ্ছিজই",
+          "translit": "cchijai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "san",
+          "script": "চ্ছেত্তুং",
+          "translit": "cchettuṃ",
+          "lemma": "chid",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆད",
+          "translit": "'chad",
+          "lemma": "'chad pa",
+          "att": "AO",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོད་པ",
+          "translit": "chod pa",
+          "lemma": "gcod pa",
+          "att": "AO",
+          "where": "cp.46.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ছিজই"
+        },
+        {
+          "lang": "san",
+          "form": "ছেত্তুং"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: na cchijai, 'is not cut' (3a), the third of the line's tests, which Munidatta renders 'cannot be cut by a weapon' (śastreṇa cchettuṃ na pāryate); the Tibetan line has rgyun mi 'chad, 'its stream is not cut', and the comment mtshon gyis chod par mi 'gyur."
+    },
+    {
+      "id": "vijnana",
+      "type": "term",
+      "en": "consciousness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভববিজ্ঞানং",
+          "translit": "bhavavijñānaṃ",
+          "lemma": "vijñāna",
+          "att": "AS",
+          "where": "cp.46.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বিজ্ঞানসংক্রমণকালেঽপি",
+          "translit": "vijñānasaṃkramaṇakāle 'pi",
+          "lemma": "vijñāna",
+          "att": "AS",
+          "where": "cp.46.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "বিজ্ঞান"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: bhavavijñāna, which the Tibetan reads as the consciousness of the intermediate existence (bar srid kyi rnam par shes pa) (cp.46.m2), and 'at the time when consciousness passes over' (cp.46.m3); rnam par shes pa is already a form."
+    },
+    {
+      "id": "abhijna",
+      "type": "term",
+      "en": "higher knowledge",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "অভিজ্ঞালাভী",
+          "translit": "abhijñālābhī",
+          "lemma": "abhijñā",
+          "att": "AS",
+          "where": "cp.46.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অভিজ্ঞালাভ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: Munidatta calls Jayanandipāda abhijñālābhī, 'one who has gained the higher knowledges' (Tibetan mngon par shes pa dang ldan pa). The match avoids bare অভিজ্ঞা, which sits inside abhijñāna, 'recognition'."
+    },
+    {
+      "id": "tx-hevajra",
+      "type": "text",
+      "en": "Hevajra",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "শ্রীদ্বিকল্পরাজে",
+          "translit": "śrīdvikalparāje",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "দ্বিকল্পরাজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: 'in the glorious king, the Dvikalpa' (cp.46.m6); the Tibetan has brtag pa gnyis pa, already a form."
+    },
+    {
+      "id": "visuddhi",
+      "type": "term",
+      "en": "purity",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ষোহিঅ",
+          "translit": "ṣohia",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.5a"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তবাসনাদোষবিশোধনং",
+          "translit": "cittavāsanādoṣaviśodhanaṃ",
+          "lemma": "viśodhana",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "san",
+          "script": "তথতাবিশু[৬৫]দ্ধো",
+          "translit": "tathatāviśuddho",
+          "lemma": "viśuddha",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বিশুদ্ধিস্তথত",
+          "translit": "viśuddhis tathata",
+          "lemma": "viśuddhi",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦྱང",
+          "translit": "sbyang",
+          "lemma": "sbyong ba",
+          "att": "AO",
+          "where": "cp.46.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་སྦྱོང་བ",
+          "translit": "rnam par sbyong ba",
+          "lemma": "rnam par sbyong ba",
+          "att": "AO",
+          "where": "cp.46.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ষোহিঅ"
+        },
+        {
+          "lang": "san",
+          "form": "বিশোধন"
+        },
+        {
+          "lang": "san",
+          "form": "বিশুদ্ধ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms: ṣohia, 'purify' (5a; Tibetan sbyang bar gyis), which Munidatta paraphrases as the purification (viśodhana) of the faults of the mind's tendencies, with 'purified by suchness' and the Dvikalpa's 'the purity of all things is suchness' (cp.46.m6). On a verbal variant, see questions."
+    },
+    {
+      "id": "milk",
+      "type": "term",
+      "en": "milk",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ক্ষীরং",
+          "translit": "kṣīraṃ",
+          "lemma": "kṣīra",
+          "att": "AS",
+          "where": "cp.46.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ক্ষীর"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the milk given up for poison in the verse Munidatta quotes from an outer treatise (cp.46.m4); the Tibetan has 'o ma, already a form."
+    },
+    {
+      "id": "visa",
+      "type": "term",
+      "en": "poison",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বিষং",
+          "translit": "viṣaṃ",
+          "lemma": "viṣa",
+          "att": "AS",
+          "where": "cp.46.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}\\u200C\\u200D])বিষং(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New form: the poison drunk in place of milk in the verse Munidatta quotes (cp.46.m4); the Tibetan has dug, already a form. Whole-word pattern, since বিষ sits inside বিষয়, 'sense object'."
+    }
+  ],
+  "questions": [
+    "sabari-raga (new) vs sabari: the heading's rāga is রাগ শবরী (Tibetan sham+ba rI). The existing 'sabari' is the Śabara woman of song 28, with Nairātmā readings and forbidden words, so I proposed a separate rāga entry rather than adding the rāga's forms to her. 'sivari' (Śīvarī, song 26, Tibetan sha ba ri) may be the same melody; merge the two if you think so.",
+    "shade, cp.46.4a: chāa māā kāa samāṇā likens the body to a shadow (chāyā; Tibetan grib ma) and an illusion; 'shade' reads oddly there. Suggest adding 'shadow' as a variant of 'shade'.",
+    "visuddhi, cp.46.5a: ṣohia is a verb, 'purify' (Tibetan sbyang bar gyis; Munidatta viśodhana, cp.46.m6), but the entry's English is the noun 'purity'. Suggest adding 'purify' as a variant.",
+    "coming-and-going: new reading for the refrain (2b), from cp.46.m3, which is unlabelled in the edition but comments on couplet 2: coming and going in saṃsāra (saṃsāre yātāyātaṃ), which breaks off if, even at the time consciousness passes over, one remembers the true guru's word and frees one's own mind of delusion; the Tibetan comment agrees ('khor ba'i 'gro ba dang 'ong ba rgyun 'chad par 'gyur). Add to the entry's readings?",
+    "svapna / mirror / pratibimba: new reading from cp.46.m2 for couplet 1: as one's own appearance in a dream and a reflection in a mirror, so one is to see bhavavijñāna 'in between' (antarā). The Tibetan comment reads this as the consciousness of the intermediate existence (bar srid kyi rnam par shes pa) and has 'the person in a dream' (rmi lam gyi skyes bu) where the Sanskrit has svapratibhāsa. Worth recording under svapna and mirror?",
+    "antarabhava, cp.46.1b: the Bengali has antarāle, 'in between' (candidate অন্তরালে); the Tibetan line has bar gyi srid pa, 'intermediate existence' (added as an AO form), and the Tibetan comment bar srid. I did not match অন্তরালে to antarabhava, since that would put the Tibetan's reading into the line; decide whether the song means the intermediate state.",
+    "paramartha, cp.46.m4: Munidatta introduces couplet 3 as praise of the paramātmacitta, 'mind of the supreme self', and later calls it the mark of the paramārthacitta; the Tibetan has don dam pa'i sems, 'ultimate mind', both times. paramātma- may be a slip for paramārtha-; I proposed no form for either.",
+    "Not proposed: in 3b (pekha moa mohe bali bali bājhai) the Tibetan line has sgyu ma la rmongs skra dkar gnyer 'jigs, apparently reading moa as māyā and bali as valī, 'wrinkle' (with white hair), where Munidatta has the dull-witted 'utterly bound in delusion' (cp.46.m4); moa and bali are left for the drafter to flag. Also left: phuḍaaṇa (5b; Tibetan gsal byed, Munidatta 'does not become otherwise').",
+    "paksa, cp.46.m5: Munidatta's pakṣāpakṣabhinna, 'distinct from side and non-side', stands against the Tibetan's phyogs dang phyogs ma yin pa dbyer med pa, 'side and non-side inseparable', as if reading abhinna; a point for the draft and weave."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "3428ef9223b87a4f47aea7e4bb9fc912932c3a92c8da2c94830ad916ff47372a",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "a3d215c26ca0f47eb7943d096b1aae0a14497fe55f133f5b2315cf442f828183",
+    "sourceSha": "51173331f637e185ea59e2125af795bc8472b15bbfafff8815d7ea254307a9cd"
+  }
+}

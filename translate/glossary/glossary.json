@@ -480,12 +480,21 @@
           "lemma": "mngon par shes pa",
           "att": "AO",
           "where": "cp.04.m6"
+        },
+        {
+          "lang": "san",
+          "script": "অভিজ্ঞালাভী",
+          "translit": "abhijñālābhī",
+          "lemma": "abhijñā",
+          "att": "AS",
+          "where": "cp.46.m1"
         }
       ],
       "match": {
         "san": [
           "অভিজ্ঞা",
-          "ভিজ্ঞাসন্দর্শন"
+          "ভিজ্ঞাসন্দর্শন",
+          "অভিজ্ঞালাভ"
         ],
         "bod": [
           "མངོན་པར་ཤེས་པ"
@@ -3726,6 +3735,14 @@
           "lemma": "bar srid",
           "att": "AO",
           "where": "cp.41.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "བར་གྱི་སྲིད་པ",
+          "translit": "bar gyi srid pa",
+          "lemma": "bar srid",
+          "att": "AO",
+          "where": "cp.46.1b"
         }
       ],
       "match": {
@@ -3735,7 +3752,8 @@
         ],
         "bod": [
           "བར་དོ",
-          "བར་སྲིད"
+          "བར་སྲིད",
+          "བར་གྱི་སྲིད་པ"
         ]
       },
       "matchRe": {},
@@ -6466,6 +6484,57 @@
       "forbiddenInLine": [
         "true guru"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "bahyasastra",
+      "type": "term",
+      "status": "proposed",
+      "en": "outer treatise",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "বহিশাস্ত্রে",
+          "translit": "bahiśāstre",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཕྱིའི་བསྟན་བཅོས",
+          "translit": "phyi'i bstan bcos",
+          "lemma": "phyi'i bstan bcos",
+          "att": "AO",
+          "where": "cp.46.m4"
+        }
+      ],
+      "match": {
+        "san": [
+          "বহিশাস্ত্র"
+        ],
+        "bod": [
+          "ཕྱིའི་བསྟན་བཅོས"
+        ]
+      },
+      "matchRe": {},
+      "definition": "A treatise from outside the tradition (Sanskrit bahiśāstra, for bahiḥśāstra; Tibetan phyi'i bstan bcos, 'outer treatise'), apparently a non-Buddhist work. Munidatta names one as the source of the verse he quotes on people who carefully do wrong and, giving up milk, drink poison (cp.46.m4). The entry for fools records his scorn for scholars proud of outer treatises.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -10298,11 +10367,20 @@
           "lemma": "kāya",
           "att": "AS",
           "where": "cp.38.m2"
+        },
+        {
+          "lang": "san",
+          "script": "স্ববিগ্রহং",
+          "translit": "svavigrahaṃ",
+          "lemma": "vigraha",
+          "att": "AS",
+          "where": "cp.46.m5"
         }
       ],
       "match": {
         "san": [
-          "নিজদেহ"
+          "নিজদেহ",
+          "স্ববিগ্রহ"
         ],
         "bod": [
           "ལུས"
@@ -10311,7 +10389,8 @@
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])দেহ(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])কাঅ(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])কাঅ(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])কাঅ(?![\\p{L}\\p{M}\\u200C\\u200D])"
         ],
         "san": [
           "(?<![\\p{L}\\p{M}])দেহ",
@@ -11216,6 +11295,66 @@
         "non-apprehension",
         "novice yogins"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "burning",
+      "type": "term",
+      "status": "proposed",
+      "en": "burn",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "দাটই",
+          "translit": "dāṭai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "san",
+          "script": "দগ্ধং",
+          "translit": "dagdhaṃ",
+          "lemma": "dagdha",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚིག་པ",
+          "translit": "tshig pa",
+          "lemma": "tshig pa",
+          "att": "AO",
+          "where": "cp.46.3a"
+        }
+      ],
+      "match": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])দাটই(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])দাটই(?![\\p{L}\\p{M}\\u200C\\u200D])",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])দগ্ধং(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ]
+      },
+      "definition": "To burn or be burnt (Old Bengali dāṭai, which Munidatta renders dagdha, 'burnt'; Tibetan tshig pa). Song 46 (3a) says it is not burnt, not wetted and not cut, a stock Indian triad for the indestructible (compare the Bhagavad Gītā on the self). Munidatta: not burnt by fire, not flooded by water, not cut by a weapon (cp.46.m4).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -12499,6 +12638,30 @@
           "lemma": "nijamanas",
           "att": "AS",
           "where": "cp.39.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "মাণা",
+          "translit": "māṇā",
+          "lemma": "maṇa",
+          "att": "AS",
+          "where": "cp.46.2a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বচিত্ত[ং]",
+          "translit": "svacittaṃ",
+          "lemma": "citta",
+          "att": "AS",
+          "where": "cp.46.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་གི་སེམས",
+          "translit": "rang gi sems",
+          "lemma": "sems",
+          "att": "AO",
+          "where": "cp.46.m3"
         }
       ],
       "match": {
@@ -12526,7 +12689,9 @@
         "oben": [
           "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])",
           "(?<![\\p{L}\\p{M}])মন(?![\\p{L}\\p{M}])",
-          "(?<![\\p{L}\\p{M}])মণ(?![\\p{L}\\p{M}])"
+          "(?<![\\p{L}\\p{M}])মণ(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])মাণা(?![\\p{L}\\p{M}\\u200C\\u200D])",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])চিঅ(?![\\p{L}\\p{M}\\u200C\\u200D])"
         ],
         "san": [
           "(?<![\\p{L}\\p{M}])চিঅ(?![\\p{L}\\p{M}])",
@@ -12842,13 +13007,22 @@
           "lemma": "'gro 'ong",
           "att": "AO",
           "where": "cp.42.5a"
+        },
+        {
+          "lang": "oben",
+          "script": "অবণা গমণা",
+          "translit": "abaṇā gamaṇā",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.2b"
         }
       ],
       "match": {
         "oben": [
           "অবণাগবণ",
           "অবণা গবণা",
-          "অবণা গমণ"
+          "অবণা গমণ",
+          "অবণা গমণা"
         ],
         "san": [
           "যাতায়াত",
@@ -13585,9 +13759,48 @@
           "lemma": "gcod pa",
           "att": "AO",
           "where": "cp.45.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "চ্ছিজই",
+          "translit": "cchijai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "san",
+          "script": "চ্ছেত্তুং",
+          "translit": "cchettuṃ",
+          "lemma": "chid",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འཆད",
+          "translit": "'chad",
+          "lemma": "'chad pa",
+          "att": "AO",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོད་པ",
+          "translit": "chod pa",
+          "lemma": "gcod pa",
+          "att": "AO",
+          "where": "cp.46.m4"
         }
       ],
-      "match": {},
+      "match": {
+        "oben": [
+          "ছিজই"
+        ],
+        "san": [
+          "ছেত্তুং"
+        ]
+      },
       "matchRe": {
         "oben": [
           "(?<![\\p{L}\\p{M}])ছেব(?:ই|হ)?(?![\\p{L}\\p{M}])",
@@ -30988,6 +31201,22 @@
           "lemma": "māyāmaya",
           "att": "AS",
           "where": "cp.13.m3"
+        },
+        {
+          "lang": "oben",
+          "script": "মাআ",
+          "translit": "māā",
+          "lemma": "māā",
+          "att": "AS",
+          "where": "cp.46.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ছায়ামায়াসমং",
+          "translit": "chāyāmāyāsamaṃ",
+          "lemma": "māyā",
+          "att": "AS",
+          "where": "cp.46.m5"
         }
       ],
       "match": {
@@ -31002,10 +31231,11 @@
       },
       "matchRe": {
         "san": [
-          "(?<![\\p{L}\\p{M}])মায়া"
+          "(?<!ধ্য)মায়া"
         ],
         "oben": [
-          "(?<![\\p{L}\\p{M}])মাঅ(?=\\s+সুইনা)"
+          "(?<![\\p{L}\\p{M}])মাঅ(?=\\s+সুইনা)",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])মাআ(?![\\p{L}\\p{M}\\u200C\\u200D])"
         ]
       },
       "definition": "Illusion (māyā): a conjured appearance, like a magician's show, that seems real but is not; Mahāyāna texts use it for the way all things appear. Munidatta calls ignorance something that has the form of illusion (cp.11.m5); the Tibetan has sgyu ma'i tshul, 'in the manner of an illusion'.",
@@ -31501,6 +31731,14 @@
           "lemma": "dudha",
           "att": "AS",
           "where": "cp.42.4b"
+        },
+        {
+          "lang": "san",
+          "script": "ক্ষীরং",
+          "translit": "kṣīraṃ",
+          "lemma": "kṣīra",
+          "att": "AS",
+          "where": "cp.46.m4"
         }
       ],
       "match": {
@@ -31509,6 +31747,9 @@
         ],
         "bod": [
           "འོ་མ"
+        ],
+        "san": [
+          "ক্ষীর"
         ]
       },
       "matchRe": {
@@ -31694,6 +31935,22 @@
           "lemma": "me long",
           "att": "AO",
           "where": "cp.32.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "অদশ",
+          "translit": "adaśa",
+          "lemma": "adaśa",
+          "att": "AS",
+          "where": "cp.46.1a"
+        },
+        {
+          "lang": "san",
+          "script": "যথাদর্শে",
+          "translit": "yathādarśe",
+          "lemma": "ādarśa",
+          "att": "AS",
+          "where": "cp.46.m2"
         }
       ],
       "match": {
@@ -31701,13 +31958,18 @@
           "দাপণ"
         ],
         "san": [
-          "দর্পণ"
+          "দর্পণ",
+          "যথাদর্শে"
         ],
         "bod": [
           "མེ་ལོང"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])অদশ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ]
+      },
       "definition": "A mirror (Old Bengali dāpaṇa, Sanskrit darpaṇa; Tibetan me long). In song 32 (3a) one is told not to take a mirror to look at the bracelet on one's hand; Munidatta repeats the question and turns to knowing the true nature of bodhicitta with one's own mind, by the vajra guru's grace (cp.32.m4). Compare mirror-like wisdom.",
       "symbolic": {
         "image": "",
@@ -31859,12 +32121,45 @@
           "lemma": "moha",
           "att": "AS",
           "where": "cp.39.3a"
+        },
+        {
+          "lang": "oben",
+          "script": "মোহে",
+          "translit": "mohe",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.3b"
+        },
+        {
+          "lang": "san",
+          "script": "মোহবিমুক্তং",
+          "translit": "mohavimuktaṃ",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.m3"
+        },
+        {
+          "lang": "san",
+          "script": "মোহে",
+          "translit": "mohe",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "san",
+          "script": "মোহবিমুক্তা",
+          "translit": "mohavimuktā",
+          "lemma": "moha",
+          "att": "AS",
+          "where": "cp.46.m5"
         }
       ],
       "match": {
         "san": [
           "মোহ",
-          "মহামোহ"
+          "মহামোহ",
+          "মোহবিমুক্ত"
         ],
         "bod": [
           "རྨོངས་པ",
@@ -31875,7 +32170,11 @@
       },
       "matchRe": {
         "oben": [
-          "মোহ(?!ো|কখু)"
+          "মোহ(?!ো|কখু)",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])মোহে(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ],
+        "san": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])মোহে(?![\\p{L}\\p{M}\\u200C\\u200D])"
         ]
       },
       "definition": "Delusion or bewilderment (moha): with desire and hatred, one of the three root afflictions of Buddhist teaching, the confusion that hides how things are. Munidatta speaks of the stain of delusion (mohamala) in describing the yoginī (cp.04.m4); the Tibetan has rmongs pa.",
@@ -37804,6 +38103,106 @@
       }
     },
     {
+      "id": "p-jayanandi",
+      "type": "person",
+      "status": "proposed",
+      "en": "Jayanandipāda",
+      "alt": [
+        "Jayanandi",
+        "Jaanandi"
+      ],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "জয়নন্দীপাদানাং",
+          "translit": "jayanandīpādānāṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "জঅনন্দি",
+          "translit": "jaanandi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.5b"
+        },
+        {
+          "lang": "san",
+          "script": "জয়নন্দিপাদঃ",
+          "translit": "jayanandipādaḥ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m1"
+        },
+        {
+          "lang": "san",
+          "script": "জয়নন্দিপাদো",
+          "translit": "jayanandipādo",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛ་ཡཱ་ནནྡེ",
+          "translit": "dza yA nan+de",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛ་ཡ་ནནྟིས",
+          "translit": "dza ya nan+tis",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཛ་ཡ་ནནྟའི་ཞབས",
+          "translit": "dza ya nan+ta'i zhabs",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.m1"
+        }
+      ],
+      "match": {
+        "oben": [
+          "জঅনন্দি"
+        ],
+        "san": [
+          "জয়নন্দি",
+          "জয়নন্দী"
+        ],
+        "bod": [
+          "ཛ་ཡཱ་ནནྡེ",
+          "ཛ་ཡ་ནནྟི",
+          "ཛ་ཡ་ནནྟ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Jayanandipāda, the siddha to whom the manuscript attributes song 46 (jayanandīpādānāṃ, written before the song). He names himself Jaanandi in its last line (5b). Munidatta calls him one who has gained the higher knowledges (cp.46.m1). The Tibetan has dza yA nan+de in the heading, dza ya nan+ti in the line and dza ya nan+ta in the comment.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
       "id": "p-jina",
       "type": "person",
       "status": "proposed",
@@ -38886,6 +39285,57 @@
         "proposed": {
           "by": "claude (Claude Code session)",
           "date": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "p-mahamaya",
+      "type": "person",
+      "status": "proposed",
+      "en": "Mahāmāyā",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহামায়াদেবীত্যাদি",
+          "translit": "mahāmāyādevītyādi",
+          "lemma": "mahāmāyā",
+          "att": "AS",
+          "where": "cp.46.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ལྷ་མོ་སྒྱུ་མ་ཆེན་མོ",
+          "translit": "lha mo sgyu ma chen mo",
+          "lemma": "sgyu ma chen mo",
+          "att": "AO",
+          "where": "cp.46.m5"
+        }
+      ],
+      "match": {
+        "san": [
+          "মহামায়া"
+        ],
+        "bod": [
+          "ལྷ་མོ་སྒྱུ་མ་ཆེན་མོ"
+        ]
+      },
+      "matchRe": {},
+      "definition": "Mahāmāyā, 'Great Illusion', here called a goddess (devī). The Buddha's mother bears the name in Buddhist legend, and so does a deity of the yoginī tantras; which is meant is unclear, since Munidatta quotes only the opening of a verse of Saraha, after saying that those freed from delusion see their body as like a shadow and an illusion (cp.46.m5).",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
         }
       }
     },
@@ -40631,13 +41081,32 @@
           "lemma": "phyogs",
           "att": "AO",
           "where": "cp.04.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "পাখেঁ",
+          "translit": "pākhem̐",
+          "lemma": "pākha",
+          "att": "AS",
+          "where": "cp.46.4b"
+        },
+        {
+          "lang": "san",
+          "script": "পক্ষাপক্ষভিন্নং",
+          "translit": "pakṣāpakṣabhinnaṃ",
+          "lemma": "pakṣa",
+          "att": "AS",
+          "where": "cp.46.m5"
         }
       ],
       "match": {
         "oben": [
-          "পখা"
+          "পখা",
+          "পাখেঁ"
         ],
-        "san": []
+        "san": [
+          "পক্ষাপক্ষ"
+        ]
       },
       "matchRe": {
         "san": [
@@ -44527,11 +44996,22 @@
           "lemma": "gzugs brnyan",
           "att": "AO",
           "where": "cp.41.3a"
+        },
+        {
+          "lang": "san",
+          "script": "প্রতিবিম্বং",
+          "translit": "pratibimbaṃ",
+          "lemma": "pratibimba",
+          "att": "AS",
+          "where": "cp.46.m2"
         }
       ],
       "match": {
         "oben": [
           "পতিবিম্ব"
+        ],
+        "san": [
+          "প্রতিবিম্ব"
         ]
       },
       "matchRe": {},
@@ -46509,6 +46989,58 @@
         "jñānamudrā",
         "wisdom seal"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "sabari-raga",
+      "type": "term",
+      "status": "proposed",
+      "en": "Śabarī",
+      "alt": [],
+      "variants": [],
+      "policy": "keep-source",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শবরী",
+          "translit": "śabarī",
+          "lemma": "śabarī",
+          "att": "AS",
+          "where": "cp.46.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཤམྦ་རཱི",
+          "translit": "sham+ba rI",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.46.h1"
+        }
+      ],
+      "match": {
+        "bod": [
+          "ཤམྦ་རཱི"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<=রাগ\\s*)শবরী(?![\\p{L}\\p{M}])"
+        ]
+      },
+      "definition": "Śabarī, the name of the rāga (melodic mode) to which song 46 is sung, given in its heading; the same word names a woman of the Śabaras, who has her own entry. The Tibetan transcribes it sham+ba rI. The rāga of song 26, printed Śīvarī, has Tibetan sha ba ri and may be the same melody; that is not established.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],
@@ -48849,14 +49381,46 @@
           "lemma": "grib ma",
           "att": "AS",
           "where": "cp.24.m4"
+        },
+        {
+          "lang": "oben",
+          "script": "ছাঅ",
+          "translit": "chāa",
+          "lemma": "chāa",
+          "att": "AS",
+          "where": "cp.46.4a"
+        },
+        {
+          "lang": "san",
+          "script": "ছায়েত্যাদি",
+          "translit": "chāyetyādi",
+          "lemma": "chāyā",
+          "att": "AS",
+          "where": "cp.46.m5"
+        },
+        {
+          "lang": "san",
+          "script": "ছায়ামায়াসমং",
+          "translit": "chāyāmāyāsamaṃ",
+          "lemma": "chāyā",
+          "att": "AS",
+          "where": "cp.46.m5"
         }
       ],
       "match": {
         "bod": [
           "གྲིབ་མ"
+        ],
+        "san": [
+          "ছায়া",
+          "ছায়েত্যাদি"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])ছাঅ(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ]
+      },
       "definition": "Shade or shadow (Tibetan grib ma). In song 24 the three worlds are pervaded by shade from one's own tree. Munidatta equates the shade of one's own tree with the sky-like seed's own nature, utterly luminous, and speaks of the lord of yogis pervading the three worlds with rays of knowledge (cp.24.m4).",
       "symbolic": {
         "image": "the shade from one's own tree, which pervades the three worlds",
@@ -51320,13 +51884,22 @@
           "lemma": "sabhāba",
           "att": "AS",
           "where": "cp.43.1b"
+        },
+        {
+          "lang": "oben",
+          "script": "তথাতাস্বভাবে",
+          "translit": "tathātāsvabhāve",
+          "lemma": "svabhāva",
+          "att": "AS",
+          "where": "cp.46.5a"
         }
       ],
       "match": {
         "oben": [
           "সহাব",
           "সভাবেঁ",
-          "সভাবে"
+          "সভাবে",
+          "স্বভাবে"
         ],
         "san": [
           "স্বভাব"
@@ -51641,6 +52214,22 @@
           "lemma": "svapna",
           "att": "AS",
           "where": "cp.39.m2"
+        },
+        {
+          "lang": "oben",
+          "script": "সুঅণে",
+          "translit": "suaṇe",
+          "lemma": "suaṇa",
+          "att": "AS",
+          "where": "cp.46.1a"
+        },
+        {
+          "lang": "san",
+          "script": "স্বপ্নে",
+          "translit": "svapne",
+          "lemma": "svapna",
+          "att": "AS",
+          "where": "cp.46.m2"
         }
       ],
       "match": {
@@ -51652,13 +52241,18 @@
         "san": [
           "স্বপ্ন",
           "স্বপন",
-          "সুইণ"
+          "সুইণ",
+          "স্বপ্নে"
         ],
         "bod": [
           "རྨི་ལམ"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])সুঅণে(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ]
+      },
       "definition": "A dream (Sanskrit svapna, Old Bengali suinā; Tibetan rmi lam). With illusion, a standard Mahāyāna comparison for how things appear without being real. The refrain of song 13 makes the ocean of existence like illusion and dream, and its fourth couplet speaks of a dream without sleep; Munidatta says things then appear like a dream in the waking state (cp.13.m5).",
       "symbolic": {
         "image": "",
@@ -52741,6 +53335,30 @@
           "lemma": "tathatā",
           "att": "AS",
           "where": "cp.44.m6"
+        },
+        {
+          "lang": "oben",
+          "script": "তথাতাস্বভাবে",
+          "translit": "tathātāsvabhāve",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.46.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তথতাবিশু[৬৫]দ্ধো",
+          "translit": "tathatāviśuddho",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বিশুদ্ধিস্তথত",
+          "translit": "viśuddhis tathata",
+          "lemma": "tathatā",
+          "att": "AS",
+          "where": "cp.46.m6"
         }
       ],
       "match": {
@@ -52755,7 +53373,14 @@
           "དེ་བཞིན་ཉིད་ཀྱི"
         ]
       },
-      "matchRe": {},
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}])তথাতা(?=স্বভাব|[^\\p{L}\\p{M}]|$)"
+        ],
+        "san": [
+          "তথত(?![\\p{L}\\p{M}])"
+        ]
+      },
       "definition": "Suchness (tathatā): things just as they are, their real nature beyond conceptual construction; in Mahāyāna thought a synonym of emptiness and of reality. In song 9 the elephant's ichor is suchness-ichor, and Munidatta speaks of the ichor and the jewel of suchness (cp.09.m3, cp.09.m5). The Tibetan has de nyid in the song, de bzhin nyid in the comment.",
       "symbolic": {
         "image": "",
@@ -55473,6 +56098,14 @@
           "lemma": "hevajra",
           "att": "AS",
           "where": "cp.42.m2"
+        },
+        {
+          "lang": "san",
+          "script": "শ্রীদ্বিকল্পরাজে",
+          "translit": "śrīdvikalparāje",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m6"
         }
       ],
       "match": {
@@ -55480,7 +56113,8 @@
           "শ্রীহেবজ্রে",
           "হেবজ্রে",
           "দ্বিকল্পে",
-          "হেবজ্র"
+          "হেবজ্র",
+          "দ্বিকল্পরাজ"
         ],
         "bod": [
           "དགྱེས་པའི་རྡོ་རྗེ",
@@ -56471,6 +57105,22 @@
           "lemma": "nīrendu",
           "att": "AS",
           "where": "cp.39.m4"
+        },
+        {
+          "lang": "pra",
+          "script": "জলমঝে চংদ",
+          "translit": "jalamajhe caṃda",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ་ནང་ཟླ་བ",
+          "translit": "chu nang zla ba",
+          "lemma": "chu zla",
+          "att": "AO",
+          "where": "cp.46.m2"
         }
       ],
       "match": {
@@ -56480,11 +57130,13 @@
         "san": [
           "দকচন্দ্র",
           "দকচন্দ্রঃ",
-          "নীরেন্দ"
+          "নীরেন্দ",
+          "জলমঝে চংদ"
         ],
         "bod": [
           "ཆུ་ཡི་ཟླ་བ",
-          "ཆུ་ཟླ"
+          "ཆུ་ཟླ",
+          "ཆུ་ནང་ཟླ་བ"
         ]
       },
       "matchRe": {},
@@ -60241,6 +60893,22 @@
           "lemma": "manovijñāna",
           "att": "AS",
           "where": "cp.38.m2"
+        },
+        {
+          "lang": "san",
+          "script": "ভববিজ্ঞানং",
+          "translit": "bhavavijñānaṃ",
+          "lemma": "vijñāna",
+          "att": "AS",
+          "where": "cp.46.m2"
+        },
+        {
+          "lang": "san",
+          "script": "বিজ্ঞানসংক্রমণকালেঽপি",
+          "translit": "vijñānasaṃkramaṇakāle 'pi",
+          "lemma": "vijñāna",
+          "att": "AS",
+          "where": "cp.46.m3"
         }
       ],
       "match": {
@@ -61303,6 +61971,14 @@
           "lemma": "dug",
           "att": "AO",
           "where": "cp.39.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বিষং",
+          "translit": "viṣaṃ",
+          "lemma": "viṣa",
+          "att": "AS",
+          "where": "cp.46.m4"
         }
       ],
       "match": {
@@ -61316,7 +61992,8 @@
           "(?<!্)বিষ(?![\\p{L}\\p{M}])"
         ],
         "san": [
-          "(?<!্)বিষ(?![\\p{L}\\p{M}])"
+          "(?<!্)বিষ(?![\\p{L}\\p{M}])",
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])বিষং(?![\\p{L}\\p{M}\\u200C\\u200D])"
         ]
       },
       "definition": "Poison (Old Bengali bisa, Sanskrit viṣa; Tibetan dug). In 4a the mind swallows poison though nectar is at hand. Munidatta's paraphrase speaks of the sense objects, form and the rest, and he quotes Saraha: the housewife eats another's poison (cp.39.m5). The Tibetan line of 4a reads dug med, 'without poison', a negative the Bengali lacks.",
@@ -61598,14 +62275,64 @@
           "lemma": "rnam par dag pa",
           "att": "AO",
           "where": "cp.30.m5"
+        },
+        {
+          "lang": "oben",
+          "script": "ষোহিঅ",
+          "translit": "ṣohia",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.5a"
+        },
+        {
+          "lang": "san",
+          "script": "চিত্তবাসনাদোষবিশোধনং",
+          "translit": "cittavāsanādoṣaviśodhanaṃ",
+          "lemma": "viśodhana",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "san",
+          "script": "তথতাবিশু[৬৫]দ্ধো",
+          "translit": "tathatāviśuddho",
+          "lemma": "viśuddha",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "san",
+          "script": "বিশুদ্ধিস্তথত",
+          "translit": "viśuddhis tathata",
+          "lemma": "viśuddhi",
+          "att": "AS",
+          "where": "cp.46.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "སྦྱང",
+          "translit": "sbyang",
+          "lemma": "sbyong ba",
+          "att": "AO",
+          "where": "cp.46.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "རྣམ་པར་སྦྱོང་བ",
+          "translit": "rnam par sbyong ba",
+          "lemma": "rnam par sbyong ba",
+          "att": "AO",
+          "where": "cp.46.m6"
         }
       ],
       "match": {
         "oben": [
-          "বিশুদ্ধ"
+          "বিশুদ্ধ",
+          "ষোহিঅ"
         ],
         "san": [
-          "বিশুদ্ধ"
+          "বিশুদ্ধ",
+          "বিশোধন"
         ],
         "bod": [
           "རྣམ་དག",
@@ -62392,6 +63119,66 @@
         "ultimate",
         "two truths"
       ],
+      "texts": [
+        "charyapada"
+      ],
+      "provenance": {
+        "proposed": {
+          "by": "claude (Claude Code session)",
+          "date": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "wetting",
+      "type": "term",
+      "status": "proposed",
+      "en": "wet",
+      "alt": [],
+      "variants": [],
+      "policy": "translate",
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "তিমই",
+          "translit": "timai",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.3a"
+        },
+        {
+          "lang": "san",
+          "script": "প্লাবনীয়ং",
+          "translit": "plāvanīyaṃ",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.46.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "གཤེར",
+          "translit": "gsher",
+          "lemma": "gsher",
+          "att": "AO",
+          "where": "cp.46.3a"
+        }
+      ],
+      "match": {
+        "san": [
+          "প্লাবনীয়"
+        ]
+      },
+      "matchRe": {
+        "oben": [
+          "(?<![\\p{L}\\p{M}\\u200C\\u200D])তিমই(?![\\p{L}\\p{M}\\u200C\\u200D])"
+        ]
+      },
+      "definition": "To wet or be soaked (Old Bengali timai; compare Sanskrit tim-, 'become wet'; Tibetan gsher, 'wet'). Song 46 (3a) names it between burning and cutting as what cannot happen: it is not burnt, not wetted, not cut. Munidatta has 'it is not to be flooded by water' (cp.46.m4); the Tibetan comment, 'not carried off by water'.",
+      "symbolic": {
+        "image": "",
+        "readings": []
+      },
+      "forbiddenInLine": [],
       "texts": [
         "charyapada"
       ],

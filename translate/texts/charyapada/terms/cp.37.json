@@ -1,0 +1,835 @@
+{
+  "unit": "cp.37",
+  "proposals": [
+    {
+      "id": "p-tadaka",
+      "type": "person",
+      "en": "Tāḍakapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Tāḍaka"
+      ],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "তাড়কপাদানাম্",
+          "translit": "tāṛakapādānām",
+          "lemma": "Tāḍakapāda",
+          "att": "AS",
+          "where": "cp.37.1a"
+        },
+        {
+          "lang": "oben",
+          "script": "তাড়ক",
+          "translit": "tāṛaka",
+          "lemma": "Tāḍaka",
+          "att": "AS",
+          "where": "cp.37.5a"
+        },
+        {
+          "lang": "san",
+          "script": "তাড়কস্তমেবার্থং",
+          "translit": "tāṛakas tam evārthaṃ",
+          "lemma": "Tāḍaka",
+          "att": "AS",
+          "where": "cp.37.m1"
+        },
+        {
+          "lang": "san",
+          "script": "তাড়ক",
+          "translit": "tāṛaka",
+          "lemma": "Tāḍaka",
+          "att": "AS",
+          "where": "cp.37.m3"
+        },
+        {
+          "lang": "san",
+          "script": "তাড়ক",
+          "translit": "tāṛaka",
+          "lemma": "Tāḍaka",
+          "att": "AS",
+          "where": "cp.37.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏཱ་ཊ་ཀའི་ཞབས",
+          "translit": "tA Ta ka'i zhabs",
+          "lemma": "tA Ta ka",
+          "att": "AO",
+          "where": "cp.37.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏཱ་ཌ་ཀ",
+          "translit": "tA Da ka",
+          "lemma": "tA Da ka",
+          "att": "AO",
+          "where": "cp.37.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཏཱ་ཌ་ཀས",
+          "translit": "tA Da kas",
+          "lemma": "tA Da ka",
+          "att": "AO",
+          "where": "cp.37.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "তাড়ক"
+        },
+        {
+          "lang": "san",
+          "form": "তাড়ক"
+        },
+        {
+          "lang": "bod",
+          "form": "ཏཱ་ཌ་ཀ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཏཱ་ཊ་ཀ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Tāḍakapāda, the siddha to whom the manuscript attributes song 37 (tāḍakapādānām, written before the song). He names himself Tāḍaka in its last couplet (5a). Munidatta calls him a siddha master delighted by the drink of knowledge (cp.37.m1) and has him address himself, 'O Tāḍaka' (cp.37.m3). The Tibetan has tA Ta ka in the heading, tA Da ka elsewhere.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 37 needs a person entry; the name follows the manuscript's attribution, with ḍ as the Tibetan Da supports for the Bengali ṛ and the honorific -pāda as for the other poets, and the bare Tāḍaka of the signature line as a variant."
+    },
+    {
+      "id": "anubhava",
+      "type": "term",
+      "en": "experience",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অনুভব",
+          "translit": "anubhaba",
+          "lemma": "anubhaba",
+          "att": "AS",
+          "where": "cp.37.2a"
+        },
+        {
+          "lang": "san",
+          "script": "অনুভবেত্যাদি",
+          "translit": "anubhavetyādi",
+          "lemma": "anubhava",
+          "att": "AS",
+          "where": "cp.37.m3"
+        },
+        {
+          "lang": "san",
+          "script": "অনুভবার্থং",
+          "translit": "anubhavārthaṃ",
+          "lemma": "anubhava",
+          "att": "AS",
+          "where": "cp.37.m3"
+        },
+        {
+          "lang": "san",
+          "script": "তস্মাদনুভব[ং]",
+          "translit": "tasmād anubhava[ṃ]",
+          "lemma": "anubhava",
+          "att": "AS",
+          "where": "cp.37.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉམས་མྱོང",
+          "translit": "nyams myong",
+          "lemma": "nyams myong",
+          "att": "AO",
+          "where": "cp.37.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཉམས་སུ་མྱོང་བ",
+          "translit": "nyams su myong ba",
+          "lemma": "nyams su myong ba",
+          "att": "AO",
+          "where": "cp.37.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "অনুভব"
+        },
+        {
+          "lang": "san",
+          "form": "অনুভব"
+        },
+        {
+          "lang": "bod",
+          "form": "ཉམས་མྱོང"
+        },
+        {
+          "lang": "bod",
+          "form": "ཉམས་སུ་མྱོང"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Experience (Sanskrit anubhava, Old Bengali anubhaba; Tibetan nyams myong): knowing something at first hand, not by report or inference. The refrain of song 37 opens with it, beside the innate (2a). Munidatta asks how the meaning of experience can be put into words, and so how one can hold that experience is the innate (cp.37.m3).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The first word of the refrain and the subject of Munidatta's comment on it; 'experience' is the plain English for anubhava and matches the Tibetan nyams myong. Compounds already listed under other entries (svasaṃvedanānubhava, akṣarasukhānubhava) keep their longer match."
+    },
+    {
+      "id": "catuskoti",
+      "type": "term",
+      "en": "four alternatives",
+      "policy": "translate",
+      "alt": [
+        "four extremes"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চৌকোট্টি",
+          "translit": "caukoṭṭi",
+          "lemma": "caukoṭṭi",
+          "att": "AS",
+          "where": "cp.37.2b"
+        },
+        {
+          "lang": "san",
+          "script": "চতুষ্কোটিবিনির্মুক্তভাবাৎ",
+          "translit": "catuṣkoṭivinirmuktabhāvāt",
+          "lemma": "catuṣkoṭi",
+          "att": "AS",
+          "where": "cp.37.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "མཐའ་བཞི",
+          "translit": "mtha' bzhi",
+          "lemma": "mtha' bzhi",
+          "att": "AO",
+          "where": "cp.37.2b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "চৌকোট্টি"
+        },
+        {
+          "lang": "san",
+          "form": "চতুষ্কোটি"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "bod",
+          "re": "(?<![\\p{L}\\p{M}])མཐའ་བཞི(?!ན)"
+        }
+      ],
+      "definition": "The four alternatives (Sanskrit catuṣkoṭi, 'four points'; Old Bengali caukoṭṭi): that a thing is, is not, both, or neither, the four positions Madhyamaka reasoning rejects. The refrain of song 37 speaks of being freed from them (2b); Munidatta speaks of a state freed from them and quotes 'not existent, not nonexistent…' (cp.37.m3). Tibetan mtha' bzhi, 'four extremes'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A technical Madhyamaka term in the refrain; 'four alternatives' is a plain standard rendering of catuṣkoṭi, where the literal 'four corners' would suggest a spatial image, and the Tibetan's 'four extremes' is kept as a variant. The Tibetan regex skips mtha' bzhin, 'like the end'."
+    },
+    {
+      "id": "vakpathatita",
+      "type": "term",
+      "en": "beyond the path of speech",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাক্‌পথাতীত",
+          "translit": "bākpathātīta",
+          "lemma": "bākpathātīta",
+          "att": "AS",
+          "where": "cp.37.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ངག་གི་ལམ་ལས་འདས་པ",
+          "translit": "ngag gi lam las 'das pa",
+          "lemma": "ngag gi lam las 'das pa",
+          "att": "AO",
+          "where": "cp.37.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাক্‌পথাতীত"
+        },
+        {
+          "lang": "oben",
+          "form": "বাক্পথাতীত"
+        },
+        {
+          "lang": "san",
+          "form": "বাক্‌পথাতীত"
+        },
+        {
+          "lang": "san",
+          "form": "বাক্পথাতীত"
+        },
+        {
+          "lang": "bod",
+          "form": "ངག་གི་ལམ་ལས་འདས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Beyond the path of speech (vākpathātīta; Tibetan ngag gi lam las 'das pa): out of the reach of words, a stock description of ultimate reality. Song 37 (4b) asks how what is beyond the path of speech could be explained; Munidatta asks how a dharma marked by self-awareness could be taught in the world through words (cp.37.m5). Compare 'inexpressible' (avacana).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A set phrase for what cannot be said, rendered literally so the line keeps its 'path' of speech; it overlaps avacana, 'inexpressible' (see questions). Matches are given with and without the zero-width non-joiner after the virama."
+    },
+    {
+      "id": "kantha-cloak",
+      "type": "term",
+      "en": "patched cloak",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "কংথা",
+          "translit": "kaṃthā",
+          "lemma": "kaṃthā",
+          "att": "AS",
+          "where": "cp.37.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་པ",
+          "translit": "'dod pa",
+          "lemma": "'dod pa",
+          "att": "AO",
+          "where": "cp.37.1b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "কংথা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A patched cloak or quilt (Old Bengali kaṃthā; Sanskrit kanthā; Bengali kā̃thā), the garment of sewn rags worn by ascetics and yogis. In song 37 (1b) the kaṃthā of Mahāmudrā is torn and gone. Munidatta's paraphrase and the Tibetan line both speak of desire instead, as if reading kaṃkhā (Sanskrit kāṅkṣā, 'longing') (cp.37.m2). Not kaṇṭha, 'neck'.",
+      "symbolicImage": "the patched cloak of Mahāmudrā, torn and gone",
+      "symbolicReadings": [
+        {
+          "referent": "the desire (vāñchā) for the accomplishment of Mahāmudrā, which has fled far away now that the speaker no longer conceptualizes that aim: his paraphrase puts it where the song has kaṃthā, with no explicit gloss, and may rest on a reading kaṃkhā, 'longing'; the Tibetan line itself has 'dod pa, 'desire', and its comment phyag rgya chen po'i dngos grub 'dod pa",
+          "per": "Munidatta",
+          "where": [
+            "cp.37.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "desire",
+        "longing",
+        "accomplishment"
+      ],
+      "rationale": "The torn cloak needs an entry, and the existing id kantha is the neck (kaṇṭha), a different word, so this takes its own id on the pattern of kula-shore. The 'dod pa form records the Tibetan's different reading and is not a match. Whether the line should be emended to kaṃkhā is a question for the reviewer (see questions)."
+    },
+    {
+      "id": "bandakuru",
+      "type": "term",
+      "en": "bāṇḍakuru",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "বাণ্ডকুরু",
+          "translit": "bāṇḍakuru",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.37.4a"
+        },
+        {
+          "lang": "san",
+          "script": "বণ্টেত্যাদি",
+          "translit": "vaṇṭetyādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বণ্ডকুরুণ্ডাদি",
+          "translit": "vaṇḍakuruṇḍādi",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྣོད་སྤྱད",
+          "translit": "snod spyad",
+          "lemma": "snod spyad",
+          "att": "AO",
+          "where": "cp.37.4a"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "বাণ্ডকুরু"
+        },
+        {
+          "lang": "san",
+          "form": "বণ্ডকুরুণ্ড"
+        }
+      ],
+      "matchRe": [],
+      "definition": "A word of uncertain sense in song 37 (4a): what the ferryman knows. Munidatta cites it as vaṇḍakuruṇḍa, among the particular hindrances of passengers that a ferry-master sees (cp.37.m5). The Tibetan has snod spyad, 'vessels and implements', as if the first part were Sanskrit bhāṇḍa, 'pot, wares'. The source form is kept for now.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An obscure word a reader will need explained; since the Tibetan and Munidatta point different ways, the source form is kept, as for the glossary's other uncertain words. Munidatta's citation of the line begins vaṇṭa-, recorded as a form."
+    },
+    {
+      "id": "ferryman",
+      "type": "term",
+      "en": "ferryman",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সন্তারে",
+          "translit": "santāre",
+          "lemma": "santāra",
+          "att": "AS",
+          "where": "cp.37.4a"
+        },
+        {
+          "lang": "san",
+          "script": "তরপতিস্তরদানগ্রহণায়",
+          "translit": "tarapatis taradānagrahaṇāya",
+          "lemma": "tarapati",
+          "att": "AS",
+          "where": "cp.37.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "སྒྲོལ་བ་པོ",
+          "translit": "sgrol ba po",
+          "lemma": "sgrol ba po",
+          "att": "AO",
+          "where": "cp.37.4a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])সন্তারে(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])তরপতি"
+        }
+      ],
+      "definition": "One who takes people across a river for a fare. In song 37 (4a) the santāra (compare Sanskrit santāra, 'crossing over') knows the bāṇḍakuru; the Tibetan line has sgrol ba po, 'one who ferries across'. Munidatta's simile has a ferry-master (tarapati) who, to collect his fare, searches passengers even for cowries (cp.37.m5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The ferryman is one of the stock figures of the songs' river imagery and has no entry yet; 'ferryman' follows the Tibetan sgrol ba po and Munidatta's tarapati, though santāre could also be read 'in the crossing' (see questions). The regexes keep তরপতি from matching inside words such as antarapatita; the Tibetan sgrol ba po is not matched, since it can also mean 'liberator'."
+    },
+    {
+      "id": "mahamudra",
+      "type": "term",
+      "en": "Mahāmudrā",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মহামুদেরী",
+          "translit": "mahāmuderī",
+          "lemma": "",
+          "att": "AS",
+          "where": "cp.37.1b"
+        },
+        {
+          "lang": "san",
+          "script": "মহামুদ্রাসিদ্ধিবাঞ্ছা",
+          "translit": "mahāmudrāsiddhivāñchā",
+          "lemma": "mahāmudrā",
+          "att": "AS",
+          "where": "cp.37.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মহামুদেরী"
+        },
+        {
+          "lang": "san",
+          "form": "মহামুদ্রা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the Old Bengali genitive mahāmuderī of 1b and Munidatta's compound in cp.37.m2; the match মহামুদ্রা catches his compounds generally."
+    },
+    {
+      "id": "noose",
+      "type": "term",
+      "en": "noose",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গলপাস",
+          "translit": "galapāsa",
+          "lemma": "galapāsa",
+          "att": "AS",
+          "where": "cp.37.5b"
+        },
+        {
+          "lang": "san",
+          "script": "সংসারপাশেন",
+          "translit": "saṃsārapāśena",
+          "lemma": "pāśa",
+          "att": "AS",
+          "where": "cp.37.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "গলপাস"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "পাশেন(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds galapāsa, 'neck-noose' (5b), and Munidatta's saṃsārapāśena (cp.37.m6); the regex finds the instrumental pāśena at the end of a compound, so saṃsāra keeps its own match in the same word. His reading of the noose is put in questions."
+    },
+    {
+      "id": "kantha",
+      "type": "term",
+      "en": "neck",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "গলেঁ",
+          "translit": "galem̐",
+          "lemma": "gala",
+          "att": "AS",
+          "where": "cp.37.5b"
+        },
+        {
+          "lang": "san",
+          "script": "স্বগ্রীবা",
+          "translit": "svagrīvā",
+          "lemma": "grīvā",
+          "att": "AS",
+          "where": "cp.37.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "গ্রীবা"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])গলেঁ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the neck of 5b (galem̐, 'on the neck', where the noose sits) and Munidatta's svagrīvā, 'their own neck' (cp.37.m6); the whole-word regex keeps গলেঁ from matching inside words such as মঙ্গলেঁ. Not the patched cloak of 1b, which is proposed as kantha-cloak."
+    },
+    {
+      "id": "sahaja",
+      "type": "term",
+      "en": "innate",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সহজ",
+          "translit": "sahaja",
+          "lemma": "sahaja",
+          "att": "AS",
+          "where": "cp.37.2a"
+        },
+        {
+          "lang": "oben",
+          "script": "সহজ",
+          "translit": "sahaja",
+          "lemma": "sahaja",
+          "att": "AS",
+          "where": "cp.37.3b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সহজ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the bare Old Bengali sahaja of the refrain (2a) and of 3b; the glossary lists the bare form only for Sanskrit."
+    },
+    {
+      "id": "yogi",
+      "type": "term",
+      "en": "yogi",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "জোঈ",
+          "translit": "joī",
+          "lemma": "joi",
+          "att": "AS",
+          "where": "cp.37.2a"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])জোঈ(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the spelling with long ī in the refrain's vocative (2a), which the listed জোই does not catch; a whole-word regex, so it cannot take part of a longer word such as a spelling of yoginī."
+    },
+    {
+      "id": "bhranti",
+      "type": "term",
+      "en": "confusion",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "འཁྲུལ",
+          "translit": "'khrul",
+          "lemma": "'khrul",
+          "att": "AO",
+          "where": "cp.37.3b"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds the bare Tibetan 'khrul, which stands for bhānti in 3b ('khrul ma byed). No match, since 'khrul also begins unrelated words such as 'khrul 'khor."
+    },
+    {
+      "id": "atman",
+      "type": "term",
+      "en": "self",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "অপণে",
+          "translit": "apaṇe",
+          "lemma": "apaṇa",
+          "att": "AS",
+          "where": "cp.37.1a"
+        },
+        {
+          "lang": "bod",
+          "script": "རང་ཉིད",
+          "translit": "rang nyid",
+          "lemma": "rang nyid",
+          "att": "AO",
+          "where": "cp.37.1a"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Adds apaṇe of 1a ('there is no self'), which Munidatta explains as not even a trace of relation to a self (cp.37.m2), with the Tibetan rang nyid. No match: elsewhere apaṇe is probably the reflexive 'by oneself' (see questions)."
+    },
+    {
+      "id": "mrtyumara",
+      "type": "term",
+      "en": "Māra of death",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "আগন্তুকস্কন্ধক্লেশমৃত্যুমারাদীনাং",
+          "translit": "āgantukaskandhakleśamṛtyumārādīnāṃ",
+          "lemma": "mṛtyumāra",
+          "att": "AS",
+          "where": "cp.37.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মৃত্যুমার"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta names the Māra of death among the adventitious things the poet no longer fears (cp.37.m2), and the Tibetan has 'chi bdag gi bdud, as in the entry; the match catches the word inside compounds."
+    },
+    {
+      "id": "svasamvedana",
+      "type": "term",
+      "en": "self-awareness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "স্বসংবেদ্যলক্ষণসংযুক্তং",
+          "translit": "svasaṃvedyalakṣaṇasaṃyuktaṃ",
+          "lemma": "svasaṃvedya",
+          "att": "AS",
+          "where": "cp.37.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "স্বসংবেদ্য"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta calls the dharma that words cannot convey 'marked by self-awareness' (cp.37.m5); the Tibetan has rang rig pa'i mtshan nyid. The existing forms do not catch svasaṃvedya."
+    },
+    {
+      "id": "samvrti",
+      "type": "term",
+      "en": "conventional",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "ভাবনাসংবৃত্যানুরোধেন",
+          "translit": "bhāvanāsaṃvṛtyānurodhena",
+          "lemma": "saṃvṛti",
+          "att": "AS",
+          "where": "cp.37.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সংবৃত্যা"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta says experience is spoken of only in deference to meditation and convention, not in its true nature (cp.37.m3); the Tibetan has kun rdzob tu. The spelling saṃvṛtyā, with one t, is not caught by the existing forms."
+    },
+    {
+      "id": "abhisvanga",
+      "type": "term",
+      "en": "attachment",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পবিধরনৈরাত্ম্যাভিস্বঙ্গাৎ",
+          "translit": "pavidharanairātmyābhisvaṅgāt",
+          "lemma": "abhiṣvaṅga",
+          "att": "AS",
+          "where": "cp.37.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ভিস্বঙ্গ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta speaks of attachment to selflessness at the time of arising (cp.37.m4), spelled with s where the entry's forms have ṣ; the Tibetan has mngon par chags pa, as in the entry."
+    }
+  ],
+  "questions": [
+    "kantha / kantha-cloak (cp.37.1b, cp.37.m2): the existing entry kantha is 'neck' (Sanskrit kaṇṭha), not the patched cloak, so I did not add কংথা to it; I proposed kantha-cloak, and gave kantha only the neck words of 5b and cp.37.m6. Please also decide the reading of 1b. Munidatta's paraphrase has mahāmudrāsiddhivāñchā, 'desire for the accomplishment of Mahāmudrā' (cp.37.m2), and the Tibetan line has 'dod pa, 'desire', as if the manuscript read কংখা kaṃkhā (Sanskrit kāṅkṣā, 'longing'); খ and থ are easily confused. If you emend, kantha-cloak should give way to an entry for 'longing', and its symbolic reading and forbidden words should go.",
+    "cp.37.1b, Tibetan: the line has 'dam dang dong rtse'i 'dod pa, apparently 'desire for mud(?) and coin', where the Bengali has mahāmuderī. dong rtse is a coin, one sense of Sanskrit mudrā, and 'dam may stand for dam, 'seal'; if so, the translators read mudrā as 'seal and coin'. I have not added these to mahamudra; it may deserve a witness note on the line.",
+    "kamoda (cp.37.h1): the Tibetan heading calls the melody dga' ba ster ba, 'giving joy'. I have not added it, because I am not confident it renders kāmoda: it differs from the Tibetan of song 13 ('dod pa sbyin pa), and it could reflect a name read as something like *modada, or another rāga (compare dga' bar byed pa for Rāmakrī in song 15). If you accept it, the form is bod དགའ་བ་སྟེར་བ dga' ba ster ba (AO, cp.37.h1).",
+    "noose: new symbolic reading for an existing entry. The neck-noose of 5b (galapāsa) → the noose of saṃsāra (saṃsārapāśa), with which even those who know the ultimate, if they say 'we have realized the dharma', have bound their own necks (per Munidatta, cp.37.m6); the Tibetan comment agrees ('khor ba'i zhags pas bcings). Suggested additions to forbiddenInLine: saṃsāra, noose of saṃsāra.",
+    "vakpathatita: proposed as its own entry so that 4b keeps its image of a 'path' of speech. It overlaps avacana, 'inexpressible'; you may prefer to fold it into avacana as a form.",
+    "anubhava: its Tibetan match ཉམས་མྱོང nyams myong is already a form of bigoa, where it is the Tibetan's rendering of bigoā in song 20. If bigoa also matches it, the two collide; counting song 20's Tibetan under anubhava may be right, since the translators read 'experience' there.",
+    "atman: I added অপণে apaṇe (1a) as a form without a match. Here Munidatta takes it as the self, but elsewhere in the songs apaṇe is probably the reflexive 'by oneself', which should not link to 'self'. Add a match only if you want every apaṇe counted.",
+    "ferryman and bandakuru (cp.37.4a): I took santāre as 'the ferryman', following the Tibetan sgrol ba po and Munidatta's tarapati (cp.37.m5); it could also be a locative, 'in the crossing'. The Tibetan snod spyad suggests bāṇḍakuru holds bhāṇḍa, 'goods', which would give 'the ferryman knows the goods'; I kept the source form because Munidatta's vaṇḍakuruṇḍa and his 'hindrances' (bādhakaviśeṣa) point elsewhere."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "706d1368d3b2fd1a2f1469653f433d9e00b9b991f5f8b95f39b41d1f0af4852d",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "f5556f71798e984845b42a890cf4267afa6225a8c02ac9d30e36b01f6541f55b",
+    "sourceSha": "d1dad0126a364dc59e1b59d5df5beacd2a48105574fa0495bf3175c114526168"
+  }
+}

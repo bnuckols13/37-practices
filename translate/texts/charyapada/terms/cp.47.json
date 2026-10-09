@@ -1,0 +1,1212 @@
+{
+  "unit": "cp.47",
+  "proposals": [
+    {
+      "id": "p-dharma",
+      "type": "person",
+      "en": "Dhāmapāda",
+      "policy": "keep-source",
+      "alt": [
+        "Dhāma"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ধাম",
+          "translit": "dhāma",
+          "lemma": "dhāma",
+          "att": "AS",
+          "where": "cp.47.5a"
+        },
+        {
+          "lang": "san",
+          "script": "ধামপাদোহি",
+          "translit": "dhāmapādo hi",
+          "lemma": "dhāmapāda",
+          "att": "AS",
+          "where": "cp.47.m1"
+        },
+        {
+          "lang": "san",
+          "script": "ধামপাদোহি",
+          "translit": "dhāmapādo hi",
+          "lemma": "dhāmapāda",
+          "att": "AS",
+          "where": "cp.47.m6"
+        },
+        {
+          "lang": "san",
+          "script": "ধামেত্যাদি",
+          "translit": "dhāmetyādi",
+          "lemma": "dhāma",
+          "att": "AS",
+          "where": "cp.47.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས་པའི་ཞབས",
+          "translit": "chos pa'i zhabs",
+          "lemma": "chos pa",
+          "att": "AO",
+          "where": "cp.47.h1"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆོས་པའི་ཞབས",
+          "translit": "chos pa'i zhabs",
+          "lemma": "chos pa",
+          "att": "AO",
+          "where": "cp.47.m1"
+        },
+        {
+          "lang": "bod",
+          "script": "དྷརྨས",
+          "translit": "d+harmas",
+          "lemma": "d+harma",
+          "att": "AO",
+          "where": "cp.47.5a"
+        },
+        {
+          "lang": "bod",
+          "script": "དྷརྨས",
+          "translit": "d+harmas",
+          "lemma": "d+harma",
+          "att": "AO",
+          "where": "cp.47.m6"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ভণই ধাম"
+        },
+        {
+          "lang": "san",
+          "form": "ধামপাদ"
+        },
+        {
+          "lang": "san",
+          "form": "ধামেত্যাদি"
+        },
+        {
+          "lang": "bod",
+          "form": "ཆོས་པའི་ཞབས"
+        },
+        {
+          "lang": "bod",
+          "form": "དྷརྨས་སྨྲས"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Dhāmapāda, the siddha to whom song 47 belongs. He names himself Dhāma in its last couplet (5a), and Munidatta calls him the siddha master Dhāmapāda (cp.47.m1). The Tibetan reads the name as Dharma: chos pa'i zhabs in its heading and comment, d+harma in 5a. Before the song the manuscript writes guñjarīpādānāṃ, the rāga's name where a poet's would stand.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The poet of song 47 has no entry; the form of the Bengali and of Munidatta, Dhāma(pāda), leads, the Tibetan's Dharma is kept among the forms, and the 5a match takes in ভণই so that the dharma entry's bare ধাম does not also claim the name."
+    },
+    {
+      "id": "samata",
+      "type": "term",
+      "en": "sameness",
+      "policy": "translate",
+      "alt": [
+        "equality"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সমতা",
+          "translit": "samatā",
+          "lemma": "samatā",
+          "att": "AS",
+          "where": "cp.47.1b"
+        },
+        {
+          "lang": "san",
+          "script": "প্রজ্ঞোপায়সমতাং",
+          "translit": "prajñopāyasamatāṃ",
+          "lemma": "samatā",
+          "att": "AS",
+          "where": "cp.47.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉམ་ཉིད",
+          "translit": "mnyam nyid",
+          "lemma": "mnyam nyid",
+          "att": "AO",
+          "where": "cp.47.1b"
+        },
+        {
+          "lang": "bod",
+          "script": "མཉམ་པ་ཉིད",
+          "translit": "mnyam pa nyid",
+          "lemma": "mnyam pa nyid",
+          "att": "AO",
+          "where": "cp.47.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সমতা"
+        },
+        {
+          "lang": "san",
+          "form": "সমতা"
+        },
+        {
+          "lang": "bod",
+          "form": "མཉམ་ཉིད"
+        },
+        {
+          "lang": "bod",
+          "form": "མཉམ་པ་ཉིད"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Sameness or equality (samatā): the state in which things held apart are not different. In song 47 (1b) Caṇḍālī blazes through the union of sameness; Munidatta speaks of the sameness of wisdom and means (cp.47.m2). The Tibetan has mnyam nyid in the line and mnyam pa nyid in the comment.",
+      "symbolicImage": "",
+      "symbolicReadings": [
+        {
+          "referent": "the sameness of wisdom and means (prajñopāyasamatā), through which Caṇḍālī blazed at the navel, in the wheel of emanation: his paraphrase of 1b; the Tibetan comment agrees (thabs dang shes rab mnyam pa nyid du yang dag par sbyor bas)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m2"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "wisdom and means",
+        "prajñā and upāya"
+      ],
+      "rationale": "Samatā names the union through which Caṇḍālī blazes in 1b; 'sameness' renders it literally, and since a samata entry for song 48 entered the glossary after this pack was built, this proposal will merge as forms and matches, with its reading repeated in questions."
+    },
+    {
+      "id": "fire",
+      "type": "term",
+      "en": "fire",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "আগি",
+          "translit": "āgi",
+          "lemma": "āgi",
+          "att": "AS",
+          "where": "cp.47.2a"
+        },
+        {
+          "lang": "san",
+          "script": "হ্যগ্নিঃ",
+          "translit": "hyagniḥ",
+          "lemma": "agni",
+          "att": "AS",
+          "where": "cp.47.m3"
+        },
+        {
+          "lang": "san",
+          "script": "মহাসুখরাগাগ্নিনা",
+          "translit": "mahāsukharāgāgninā",
+          "lemma": "agni",
+          "att": "AS",
+          "where": "cp.47.m3"
+        },
+        {
+          "lang": "san",
+          "script": "বহ্নের্",
+          "translit": "vahner",
+          "lemma": "vahni",
+          "att": "AS",
+          "where": "cp.47.m3"
+        },
+        {
+          "lang": "san",
+          "script": "জ্ঞানবহ্নেঃ",
+          "translit": "jñānavahneḥ",
+          "lemma": "vahni",
+          "att": "AS",
+          "where": "cp.47.m4"
+        },
+        {
+          "lang": "san",
+          "script": "বাহ্যবহ্নেস্",
+          "translit": "bāhyavahnes",
+          "lemma": "vahni",
+          "att": "AS",
+          "where": "cp.47.m4"
+        },
+        {
+          "lang": "san",
+          "script": "জ্ঞানবহ্নিঃ",
+          "translit": "jñānavahniḥ",
+          "lemma": "vahni",
+          "att": "AS",
+          "where": "cp.47.m4"
+        },
+        {
+          "lang": "san",
+          "script": "রাগানলো",
+          "translit": "rāgānalo",
+          "lemma": "anala",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "མེ",
+          "translit": "me",
+          "lemma": "me",
+          "att": "AO",
+          "where": "cp.47.2a"
+        },
+        {
+          "lang": "bod",
+          "script": "མེས",
+          "translit": "mes",
+          "lemma": "me",
+          "att": "AO",
+          "where": "cp.47.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡེ་ཤེས་ཀྱི་མེ",
+          "translit": "ye shes kyi me",
+          "lemma": "me",
+          "att": "AO",
+          "where": "cp.47.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "འདོད་ཆགས་ཀྱི་མེ",
+          "translit": "'dod chags kyi me",
+          "lemma": "me",
+          "att": "AO",
+          "where": "cp.47.m2"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "অগ্নি"
+        },
+        {
+          "lang": "san",
+          "form": "হ্যগ্নি"
+        },
+        {
+          "lang": "san",
+          "form": "রাগাগ্নি"
+        },
+        {
+          "lang": "san",
+          "form": "বহ্ন"
+        },
+        {
+          "lang": "san",
+          "form": "রাগানল"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])আগি(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])(?<!སྒྲོན་)མེ(?!།)(?:ས|ར|འི)?(?=$|[\\u0F04-\\u0F14\\s])(?!\\u0F0B(?:ཏོག|ལོང)(?:$|[\\u0F04-\\u0F14\\s]|འི|ས|ར))"
+        }
+      ],
+      "definition": "Fire (Old Bengali āgi; Sanskrit agni, vahni, anala; Tibetan me). In song 47 fire catches in Ḍombī's house (2a) and, it seems, burns without smoke (3a). Munidatta calls it the fire of the passion of great bliss (cp.47.m3) and the fire of knowledge, which unlike outer fire is not seen (cp.47.m4).",
+      "symbolicImage": "the fire that catches in Ḍombī's house (2a)",
+      "symbolicReadings": [
+        {
+          "referent": "the fire of the passion of great bliss (mahāsukharāgāgni): the fire 'joined with the burning of the passion of great bliss', with which 'I burned the support of the whole host of sense objects'; the Tibetan comment agrees (bde ba chen po'i 'dod chags kyi sred pa dang ldan pas me nyid; bde ba chen po'i mes)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m3"
+          ]
+        },
+        {
+          "referent": "the fire of knowledge (jñānavahni), which, unlike outer fire with its fierce blaze and smoke, is not seen (the negative is Shastri's suggestion, [na?], and the Tibetan has it: ye shes kyi me ni mi mthong); having burned being and nonbeing, it is absorbed at the tip of Sumeru's peak in the sky, the wheel of great bliss",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m4"
+          ]
+        },
+        {
+          "referent": "that same fire of passion (rāgānala), which, having burned the channels, the nine winds and the sense objects, itself becomes without intrinsic nature; the Tibetan instead has these made without intrinsic nature by the fire of passion ('dod chags kyi mes rang bzhin med par gyur pa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "passion",
+        "fire of passion",
+        "great bliss",
+        "fire of knowledge",
+        "knowledge"
+      ],
+      "rationale": "Fire is the governing image of song 47 and recurs in other songs (the fire of time, the fire of passion that makes ash); the plain word keeps the image, and since a fire entry for song 48 entered the glossary after this pack was built, this proposal will merge as forms and matches, with its readings repeated in questions."
+    },
+    {
+      "id": "smoke",
+      "type": "term",
+      "en": "smoke",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ধুম",
+          "translit": "dhuma",
+          "lemma": "dhūma",
+          "att": "AS",
+          "where": "cp.47.3a"
+        },
+        {
+          "lang": "san",
+          "script": "ধূমাদিকং",
+          "translit": "dhūmādikaṃ",
+          "lemma": "dhūma",
+          "att": "AS",
+          "where": "cp.47.m4"
+        },
+        {
+          "lang": "bod",
+          "script": "དུ་བ",
+          "translit": "du ba",
+          "lemma": "du ba",
+          "att": "AO",
+          "where": "cp.47.3a"
+        },
+        {
+          "lang": "bod",
+          "script": "དུ་བ",
+          "translit": "du ba",
+          "lemma": "du ba",
+          "att": "AO",
+          "where": "cp.47.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "ধূম"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])ধুম(?![\\p{L}\\p{M}])"
+        },
+        {
+          "lang": "bod",
+          "re": "(?<=^|[\\u0F04-\\u0F14\\s])དུ་བ(?=$|[\\u0F04-\\u0F14\\s]|འི)"
+        }
+      ],
+      "definition": "Smoke (Old Bengali dhuma, Sanskrit dhūma; Tibetan du ba). In song 47 (3a) no smoke is seen. Munidatta sets outer fire, whose fierce blaze and smoke are seen, against the fire of knowledge, which is not (cp.47.m4). In Indian logic smoke is the stock sign from which fire is inferred.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The smokeless fire of 3a and Munidatta's simile turn on it; the plain word keeps the image, and the patterns keep ধুম from matching inside words such as madhumada and du ba from the terminative du before bar srid."
+    },
+    {
+      "id": "water",
+      "type": "term",
+      "en": "water",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পাণী",
+          "translit": "pāṇī",
+          "lemma": "pāṇī",
+          "att": "AS",
+          "where": "cp.47.2b"
+        },
+        {
+          "lang": "oben",
+          "script": "পাণী",
+          "translit": "pāṇī",
+          "lemma": "pāṇī",
+          "att": "AS",
+          "where": "cp.47.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ",
+          "translit": "chu",
+          "lemma": "chu",
+          "att": "AO",
+          "where": "cp.47.2b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཆུ",
+          "translit": "chu",
+          "lemma": "chu",
+          "att": "AO",
+          "where": "cp.47.5b"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "oben",
+          "re": "(?<![\\p{L}\\p{M}])পাণী(?![\\p{L}\\p{M}])"
+        }
+      ],
+      "definition": "Water (Old Bengali pāṇī, from Sanskrit pānīya; Tibetan chu). In song 47 the poet sprinkles water on the fire in Ḍombī's house, taking the moon, as Munidatta and the Tibetan read 2b; in the last line water rises through five channels (5b). Munidatta's comment on that line survives only in the Tibetan translation (cp.47.m7).",
+      "symbolicImage": "water sprinkled on the fire (2b); water rising through five channels (5b)",
+      "symbolicReadings": [
+        {
+          "referent": "conventional bodhicitta, purified by vilakṣaṇa and taken by the true guru's grace, with which 'I put out that fire': his gloss is on the moon (sasaharam iti), whose water the Tibetan line names (ri bong 'dzin pa'i chu), and does not name the water itself; the Tibetan comment agrees (kun rdzob byang chub kyi sems bzung nas de'i me rab tu zhi bar byed)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m3"
+          ]
+        },
+        {
+          "referent": "bodhicitta that, purified by the fourth joy, has reached the tip of the jewel and goes back again by the path of the avadhūtī: the Tibetan continuation's paraphrase of the last couplet, with no explicit gloss of the water (Munidatta's Sanskrit breaks off; this part survives only in the Tibetan translation)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m7"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "bodhicitta",
+        "conventional bodhicitta",
+        "semen",
+        "vital essence"
+      ],
+      "rationale": "Water carries Munidatta's readings in both its places in song 47 and recurs elsewhere (turned to stone, poured into water); the plain word keeps the image, and no Tibetan match is given because chu also begins chu skyes, chu srin, chu bo and the like."
+    },
+    {
+      "id": "p-hari-hara-brahma",
+      "type": "person",
+      "en": "Hari, Hara and Brahmā",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "হরিহর বাহ্ম",
+          "translit": "harihara bāhma",
+          "lemma": "hari, hara, brahman",
+          "att": "AS",
+          "where": "cp.47.4a"
+        },
+        {
+          "lang": "san",
+          "script": "হরিরিতি",
+          "translit": "haririti",
+          "lemma": "hari",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "san",
+          "script": "হর ইতি",
+          "translit": "hara iti",
+          "lemma": "hara",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "san",
+          "script": "বাহ্মেতি",
+          "translit": "vāhmeti",
+          "lemma": "brahman",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱབ་འཇུག་དབང་ཕྱུག་ཚངས་པ",
+          "translit": "khyab 'jug dbang phyug tshangs pa",
+          "lemma": "khyab 'jug; dbang phyug; tshangs pa",
+          "att": "AO",
+          "where": "cp.47.4a"
+        },
+        {
+          "lang": "bod",
+          "script": "ཚངས་པ",
+          "translit": "tshangs pa",
+          "lemma": "tshangs pa",
+          "att": "AO",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཁྱབ་འཇུག",
+          "translit": "khyab 'jug",
+          "lemma": "khyab 'jug",
+          "att": "AO",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "དབང་ཕྱུག",
+          "translit": "dbang phyug",
+          "lemma": "dbang phyug",
+          "att": "AO",
+          "where": "cp.47.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "হরিহর বাহ্ম"
+        },
+        {
+          "lang": "oben",
+          "form": "হরিহর"
+        },
+        {
+          "lang": "san",
+          "form": "হরিরিতি"
+        },
+        {
+          "lang": "san",
+          "form": "বাহ্মেতি"
+        },
+        {
+          "lang": "bod",
+          "form": "ཁྱབ་འཇུག་དབང་ཕྱུག་ཚངས་པ"
+        }
+      ],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?<![\\p{L}\\p{M}])হর ইতি"
+        }
+      ],
+      "definition": "Hari (Viṣṇu), Hara (Śiva) and Brahmā, the three chief gods of Brahmanical religion, named together in song 47 (4a), where they burst (phāṭai); Munidatta cites the verb as dāṭai, and the Tibetan line has the lords Viṣṇu, Īśvara and Brahmā burn. Munidatta reads the three in twilight language as channels of the body (cp.47.m5).",
+      "symbolicImage": "Hari, Hara and Brahmā, who burst, or burn (4a)",
+      "symbolicReadings": [
+        {
+          "referent": "Brahmā (bāhma): in twilight language (Shastri prints sandhyācana) the channel of excrement (viṭanāḍikā), burned with the other two, and above them lalanā, rasanā and the rest; the Tibetan agrees (tshangs pa ... dri chen gyi rtsa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m5"
+          ]
+        },
+        {
+          "referent": "Hari: the channel of urine (mūtranāḍī); the Tibetan agrees (khyab 'jug ... dri chu'i rtsa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m5"
+          ]
+        },
+        {
+          "referent": "Hara: the channel of semen (śukranāḍikā); the Tibetan, which calls him dbang phyug, agrees (khu ba'i rtsa)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "channel",
+        "channels",
+        "nāḍī",
+        "excrement",
+        "urine",
+        "semen"
+      ],
+      "rationale": "The three gods, named as a unit in 4a and glossed one by one in the commentary, have no entry; one entry, like 'body, speech and mind', keeps the names together and lets the longer form keep the brahmin entry's বাহ্ম from claiming Brahmā."
+    },
+    {
+      "id": "navaguna",
+      "type": "term",
+      "en": "nine qualities",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "ণবগুণ",
+          "translit": "ṇabaguṇa",
+          "lemma": "navaguṇa",
+          "att": "AS",
+          "where": "cp.47.4b"
+        },
+        {
+          "lang": "san",
+          "script": "নবগুণমিতি",
+          "translit": "navaguṇam iti",
+          "lemma": "navaguṇa",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོན་ཏན་དགུ",
+          "translit": "yon tan dgu",
+          "lemma": "yon tan",
+          "att": "AO",
+          "where": "cp.47.4b"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡོན་ཏན་དགུ",
+          "translit": "yon tan dgu",
+          "lemma": "yon tan",
+          "att": "AO",
+          "where": "cp.47.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "ণবগুণ"
+        },
+        {
+          "lang": "san",
+          "form": "নবগুণ"
+        },
+        {
+          "lang": "bod",
+          "form": "ཡོན་ཏན་དགུ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Nine qualities (Old Bengali ṇabaguṇa, Sanskrit navaguṇa; Tibetan yon tan dgu), which fall or are destroyed with the śāsana in song 47 (4b). Guṇa also means 'strand, thread', so 'nine-stranded', perhaps the brahmin's sacred thread, is a possible sense. Munidatta glosses the word as the nine winds (cp.47.m5).",
+      "symbolicImage": "the nine qualities that fall with the śāsana (4b)",
+      "symbolicReadings": [
+        {
+          "referent": "the nine winds (navapavana): 'navaguṇa means the nine winds', burned by the fire of passion with the channels; the Tibetan comment has no nine winds and explains 'the nine qualities and of the land' (yon tan dgu dang yul gyi) together as the eye faculty and the rest and what are called objects",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "nine winds",
+        "winds",
+        "vital winds"
+      ],
+      "rationale": "A word of 4b with its own gloss in the commentary; 'nine qualities' follows the common sense of guṇa and the Tibetan, with 'nine-stranded' left as an alternative for the reviewer."
+    },
+    {
+      "id": "sasana",
+      "type": "term",
+      "en": "teaching",
+      "policy": "translate",
+      "alt": [
+        "rule"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "শাসন",
+          "translit": "śāsana",
+          "lemma": "śāsana",
+          "att": "AS",
+          "where": "cp.47.4b"
+        },
+        {
+          "lang": "san",
+          "script": "শাসনমিতি",
+          "translit": "śāsanam iti",
+          "lemma": "śāsana",
+          "att": "AS",
+          "where": "cp.47.m5"
+        },
+        {
+          "lang": "bod",
+          "script": "ཡུལ་གྱི་གྲོང་ཁྱེར",
+          "translit": "yul gyi grong khyer",
+          "lemma": "grong khyer",
+          "att": "AO",
+          "where": "cp.47.4b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "শাসন"
+        },
+        {
+          "lang": "san",
+          "form": "শাসন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Śāsana: instruction, rule or command: in Buddhist usage the Buddha's teaching, at court a royal edict or charter. In song 47 (4b) it falls, or is destroyed, with the nine qualities. The Tibetan line has 'the towns of the land' (yul gyi grong khyer); Munidatta glosses it as the objects of the eye and the other senses (cp.47.m5).",
+      "symbolicImage": "the śāsana that falls with the nine qualities (4b)",
+      "symbolicReadings": [
+        {
+          "referent": "what is called the objects of the eye faculty and the rest (cakṣurindriyādiviṣaya), burned by that same fire of passion, which then becomes without intrinsic nature; the Tibetan comment has 'the eye faculty and the rest and what are explained as objects' (mig gi dbang po la sogs pa dang yul du bshad pa rnams)",
+          "per": "Munidatta",
+          "where": [
+            "cp.47.m5"
+          ]
+        }
+      ],
+      "forbiddenInLine": [
+        "sense objects",
+        "objects of the senses",
+        "eye faculty",
+        "senses",
+        "sense faculties"
+      ],
+      "rationale": "A word of 4b with its own gloss in the commentary; 'teaching' is its usual Buddhist sense, though 'rule' or 'edict' may suit the line better, and the Tibetan line reads it otherwise, so its Tibetan is a form but not a match."
+    },
+    {
+      "id": "pancanala",
+      "type": "term",
+      "en": "five channels",
+      "policy": "translate",
+      "alt": [
+        "five pipes"
+      ],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "পঞ্চনালেঁ",
+          "translit": "pañcanālem̐",
+          "lemma": "pañcanāla",
+          "att": "AS",
+          "where": "cp.47.5b"
+        },
+        {
+          "lang": "bod",
+          "script": "རྩ་ཕྲན་ལྔ",
+          "translit": "rtsa phran lnga",
+          "lemma": "rtsa phran",
+          "att": "AO",
+          "where": "cp.47.5b"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "পঞ্চনাল"
+        },
+        {
+          "lang": "bod",
+          "form": "རྩ་ཕྲན་ལྔ"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Five channels or pipes (Old Bengali pañcanāla; Sanskrit nāla, 'tube, hollow stalk'; compare Bengali nālā, 'drain'). In the last line of song 47 water rises through them. The Tibetan line has rtsa phran lnga, 'five minor channels', reading them as channels of the subtle body. Munidatta's Sanskrit breaks off before this line.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [
+        "minor channels",
+        "subtle channels",
+        "nāḍī",
+        "nāḍīs"
+      ],
+      "rationale": "The channels of the last line have no entry and are a different word from the glossary's nāḍī; 'five channels' keeps an image of water running in channels, with 'five pipes' as the closer sense of nāla."
+    },
+    {
+      "id": "gunjari",
+      "type": "term",
+      "en": "Guñjarī",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "bod",
+          "script": "དུ་ཛྫ་ར",
+          "translit": "du dz+dza ra",
+          "lemma": "",
+          "att": "AO",
+          "where": "cp.47.h1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "དུ་ཛྫ་ར"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existing entry; adds du dz+dza ra, the name of the melody in the Tibetan heading of song 47 (cp.47.h1), apparently a garbled transcription of Guñjarī (compare gu dz+dza rI for song 5).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Song 47's rāga is named only in this Tibetan heading, so its garbled form should lead to the entry."
+    },
+    {
+      "id": "candali",
+      "type": "term",
+      "en": "Caṇḍālī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "চণ্ডালী",
+          "translit": "caṇḍālī",
+          "lemma": "caṇḍālī",
+          "att": "AS",
+          "where": "cp.47.1b"
+        },
+        {
+          "lang": "san",
+          "script": "চণ্ডালী",
+          "translit": "caṇḍālī",
+          "lemma": "caṇḍālī",
+          "att": "AS",
+          "where": "cp.47.m2"
+        },
+        {
+          "lang": "bod",
+          "script": "གཏུམ་མོའི་མེ",
+          "translit": "gtum mo'i me",
+          "lemma": "gtum mo",
+          "att": "AO",
+          "where": "cp.47.m2"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Existing entry; adds the plain caṇḍālī of 1b and of Munidatta's comment (cp.47.m2, and his Dvikalpa quotation in cp.47.m3), and the Tibetan comment's gtum mo'i me, 'the fire of gtum mo' (cp.47.m2).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry's only Bengali form is kāmacaṇḍālī; the plain word stands in this song and its commentary."
+    },
+    {
+      "id": "lotus",
+      "type": "term",
+      "en": "lotus",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কুলিশাব্জসংযোগো",
+          "translit": "kuliśābjasaṃyogo",
+          "lemma": "abja",
+          "att": "AS",
+          "where": "cp.47.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [
+        {
+          "lang": "san",
+          "re": "(?:(?<![\\p{L}\\p{M}])অ|(?<=\\p{L})া)ব্জ"
+        }
+      ],
+      "definition": "Existing entry; adds abja, 'water-born', a Sanskrit word for the lotus, in Munidatta's kuliśābjasaṃyoga, 'the union of vajra and lotus' (cp.47.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Abja is a synonym the entry does not list, and after a-sandhi it hides inside the compound (kuliśa + abja), so a pattern finds it there without taking the vajra's কুলিশ."
+    },
+    {
+      "id": "vajra",
+      "type": "term",
+      "en": "vajra",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "কুলিশাব্জসংযোগো",
+          "translit": "kuliśābjasaṃyogo",
+          "lemma": "kuliśa",
+          "att": "AS",
+          "where": "cp.47.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Existing entry; adds Munidatta's kuliśābjasaṃyoga, 'the union of vajra and lotus', with kuliśa for the vajra (cp.47.m6).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A new compound form of the entry in this unit's commentary."
+    },
+    {
+      "id": "pl-sumeru",
+      "type": "place",
+      "en": "Sumeru",
+      "policy": "keep-source",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "মেরু শিখর",
+          "translit": "meru śikhara",
+          "lemma": "meru",
+          "att": "AS",
+          "where": "cp.47.3b"
+        },
+        {
+          "lang": "san",
+          "script": "সুমেরুশিখরাগ্রে",
+          "translit": "sumeruśikharāgre",
+          "lemma": "sumeru",
+          "att": "AS",
+          "where": "cp.47.m4"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "মেরু"
+        },
+        {
+          "lang": "san",
+          "form": "মেরু"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existing entry; adds the song's short form Meru, in 'the peak of Meru' (3b), and Munidatta's 'at the tip of the peak of Sumeru spoken of before' (cp.47.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The entry lists only sumeruśikharaṃ; the bare Meru of the song needs a form and a match."
+    },
+    {
+      "id": "gagana",
+      "type": "term",
+      "en": "sky",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "গগনমিতি",
+          "translit": "gaganam iti",
+          "lemma": "gagana",
+          "att": "AS",
+          "where": "cp.47.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Existing entry; adds Munidatta's citation gaganam iti, 'sky means…', in his comment on 3b (cp.47.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "A citation form of the entry not among its listed forms."
+    },
+    {
+      "id": "ananda",
+      "type": "term",
+      "en": "joy",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "চতুর্থানন্দপ্রত্যয়িতামাহ",
+          "translit": "caturthānandapratyayitām āha",
+          "lemma": "ānanda",
+          "att": "AS",
+          "where": "cp.47.m6"
+        },
+        {
+          "lang": "bod",
+          "script": "དགའ་བ་བཞི་པ",
+          "translit": "dga' ba bzhi pa",
+          "lemma": "dga' ba",
+          "att": "AO",
+          "where": "cp.47.m6"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Existing entry; adds 'the conviction of the fourth joy' (caturthānandapratyayitā), with which Munidatta introduces the last couplet (cp.47.m6), and the Tibetan word order dga' ba bzhi pa, 'the fourth joy'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "New forms of the fourth joy in this unit's commentary; dga' ba bzhi pa, 'the fourth joy', is not among the listed Tibetan forms."
+    },
+    {
+      "id": "mahasukha-cakra",
+      "type": "term",
+      "en": "wheel of great bliss",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "মহাসুখচক্রে",
+          "translit": "mahāsukhacakre",
+          "lemma": "mahāsukhacakra",
+          "att": "AS",
+          "where": "cp.47.m4"
+        }
+      ],
+      "match": [],
+      "matchRe": [],
+      "definition": "Existing entry; adds the locative mahāsukhacakre, 'in the wheel of great bliss', where Munidatta places the sky the fire enters (cp.47.m4).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An inflected form not among the entry's listed forms."
+    },
+    {
+      "id": "avadhuti",
+      "type": "term",
+      "en": "avadhūtī",
+      "policy": "keep-source-first-gloss",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরিশুদ্ধাবধূতি",
+          "translit": "pariśuddhāvadhūti",
+          "lemma": "avadhūtī",
+          "att": "AS",
+          "where": "cp.47.m3"
+        },
+        {
+          "lang": "bod",
+          "script": "ཨ་ཝ་དྷཱུ་ཏིའི",
+          "translit": "a wa d+hU ti'i",
+          "lemma": "a wa d+hU tI",
+          "att": "AO",
+          "where": "cp.47.m7"
+        }
+      ],
+      "match": [
+        {
+          "lang": "bod",
+          "form": "ཨ་ཝ་དྷཱུ་ཏི"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existing entry; adds pariśuddhāvadhūti, 'the purified avadhūtī', in Munidatta's gloss on Ḍombī (cp.47.m3), and the Tibetan continuation's spelling a wa d+hU ti, with a short final vowel, in 'the path of the avadhūtī' (cp.47.m7).",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Two spellings not among the listed forms: pariśuddhāvadhūti with a short final i, and the Tibetan's short ti, which needs its own match."
+    },
+    {
+      "id": "moon",
+      "type": "term",
+      "en": "moon",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "oben",
+          "script": "সহ ষলি",
+          "translit": "saha ṣali",
+          "lemma": "sasahara",
+          "att": "AS",
+          "where": "cp.47.2b"
+        },
+        {
+          "lang": "san",
+          "script": "সসহরমিতি",
+          "translit": "sasaharam iti",
+          "lemma": "śaśadhara",
+          "att": "AS",
+          "where": "cp.47.m3"
+        }
+      ],
+      "match": [
+        {
+          "lang": "oben",
+          "form": "সহ ষলি"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existing entry; adds the doubtful saha ṣali of 2b, which Munidatta cites as sasahara, 'the hare-bearer', the moon (sasaharam iti, cp.47.m3), and which the Tibetan line renders ri bong 'dzin pa, 'hare-holder'.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "The words of 2b are the moon only on the evidence of the commentary and the Tibetan, so the form and its match are offered for the reviewer to confirm."
+    },
+    {
+      "id": "sandhya-bhasa",
+      "type": "term",
+      "en": "twilight language",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "সন্ধ্যাচনেন",
+          "translit": "sandhyācanena",
+          "lemma": "sandhyāvacana",
+          "att": "AS",
+          "where": "cp.47.m5"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "সন্ধ্যাচনেন"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existing entry; adds sandhyācanena, as Shastri prints it in cp.47.m5, apparently for sandhyāvacanena, 'in twilight language'; the Tibetan comment has dgongs pa'i skad kyis.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "Munidatta flags his reading of bāhma as twilight language with this misspelt form, which the listed forms do not cover."
+    },
+    {
+      "id": "maitri",
+      "type": "term",
+      "en": "loving-kindness",
+      "policy": "translate",
+      "alt": [],
+      "forms": [
+        {
+          "lang": "san",
+          "script": "পরমকরুণামৈত্রিকমানসঃ",
+          "translit": "paramakaruṇāmaitrikamānasaḥ",
+          "lemma": "maitrī",
+          "att": "AS",
+          "where": "cp.47.m1"
+        }
+      ],
+      "match": [
+        {
+          "lang": "san",
+          "form": "মৈত্রিক"
+        }
+      ],
+      "matchRe": [],
+      "definition": "Existing entry; adds maitrika, 'of loving-kindness', in Munidatta's opening on song 47, where Dhāmapāda's mind is one of supreme compassion and loving-kindness (cp.47.m1); the Tibetan has snying rje dang byams pa'i thugs.",
+      "symbolicImage": "",
+      "symbolicReadings": [],
+      "forbiddenInLine": [],
+      "rationale": "An adjectival form with a short i that the listed form maitrīmaya does not cover."
+    }
+  ],
+  "questions": [
+    "fire and samata: both entries entered the glossary (for song 48) after this pack was built, so these two proposals will merge as forms and matches only, and their readings need carrying over by hand. fire, new readings per Munidatta: (a) cp.47.m3: the fire in Ḍombī's house is the fire of the passion of great bliss (mahāsukharāgāgni), with which 'I burned the support of the whole host of sense objects'; the Tibetan agrees (bde ba chen po'i mes). (b) cp.47.m4: it is the fire of knowledge (jñānavahni), which, unlike outer fire, shows no blaze or smoke (the negative is Shastri's [na?], and the Tibetan has it: ye shes kyi me ni mi mthong) and, having burned being and nonbeing, is absorbed in the sky, the wheel of great bliss. (c) cp.47.m5: that same fire of passion (rāgānala), having burned the channels, the nine winds and the sense objects, becomes without intrinsic nature (the Tibetan has them become so by the fire of passion). Suggest adding 'passion', 'fire of passion' and 'fire of knowledge' to its never-in-a-verse-line list and widening its definition beyond song 48's Tibetan (Old Bengali āgi; Sanskrit agni, vahni, anala).",
+    "samata, new reading per Munidatta, cp.47.m2: the sameness through whose union Caṇḍālī blazes (1b) is the sameness of wisdom and means (prajñopāyasamatā); the Tibetan comment agrees (thabs dang shes rab mnyam pa nyid du yang dag par sbyor bas). Suggest 'wisdom and means' for its never-in-a-verse-line list. Its Tibetan literal མཉམ་ཉིད also hits ro mnyam nyid, 'sameness of taste', in cp.44.m5.",
+    "candali, new reading per Munidatta, cp.47.m2: Caṇḍālī, who blazes through the union of sameness (1b), blazes at the navel, in the wheel of emanation (nābhau nirmāṇacakre), through the sameness of wisdom and means ('my Caṇḍālī blazed'); the Tibetan comment has the fire of gtum mo blaze in the wheel of emanation at my navel (bdag gi lte ba sprul pa'i 'khor lor gtum mo'i me 'bar ba). He backs it with the Dvikalpa's 'Caṇḍālī blazing at the navel' (cp.47.m3). Its never-in-a-verse-line list already has inner heat and inner fire; 'navel fire' and 'wheel of emanation' could join them.",
+    "gagana, new reading per Munidatta, cp.47.m4: the sky that the fire enters, taking the peak of Meru (3b), is the wheel of great bliss (gaganam iti mahāsukhacakre), where it is absorbed; the Tibetan agrees (nam mkha' la zhes te bde ba chen po'i 'khor lor thim pa).",
+    "moon and dombi: cp.47.m3 attests existing readings again, and could be added to their segments: the moon as conventional bodhicitta, purified by vilakṣaṇa, with which the fire is put out (sasaharam iti); and Ḍombī as the purified avadhūtī, in whose house the fire caught (Tibetan: Dom+bi ni yongs su dag pa'i a wa d+hU tI'i khyim du). Please confirm the moon form saha ṣali (2b) before its match is kept: Shastri's words are doubtful, and the moon rests on Munidatta's citation sasahara and the Tibetan ri bong 'dzin pa.",
+    "p-dharma: the rendering follows the reading text, Dhāma in 5a and Dhāmapāda in Munidatta; the Tibetan has chos pa'i zhabs and d+harma, and the id is p-dharma. Should it be Dharmapāda instead? The manuscript's guñjarīpādānāṃ before the song (emended out of 1a) puts the rāga's name in the slot where other songs name the poet.",
+    "gunjari: its definition names only song 5; song 47 is also sung to Guñjarī (the Tibetan heading's du dz+dza ra, and guñjarīpādānāṃ before the song). Please widen it. pl-sumeru: 3b has the short name Meru (meru śikhara); consider 'Meru' as a variant so the line can keep the poet's form.",
+    "p-hari-hara-brahma: one entry, like kaya-vak-citta, because the names stand together in 4a and the bare names over-match (হরি inside হরিণ, হর inside সসহর and শশহর, and বাহ্ম is the brahmin entry's literal, which this entry's longer form now overrides in 4a). Split it into p-hari, p-hara and p-brahma if you prefer separate entries; Munidatta's readings go god by god (cp.47.m5).",
+    "navaguna: 'nine qualities' follows the commonest sense of guṇa and the Tibetan yon tan dgu; navaguṇa can also mean 'nine-stranded', which beside Hari, Hara and Brahmā may be the brahmin's sacred thread. sasana: 'teaching' is its usual Buddhist sense, but 'rule' or 'edict' (also a royal land charter) may suit the line, and the Tibetan line has 'the towns of the land' (yul gyi grong khyer). Which renderings should lead?",
+    "4a and 4b (witness, not proposed): Munidatta cites the verb of 4a as dāṭai (cp.47.m5), which the burning entry (added for song 46 after this pack) matches as 'burn', and the Tibetan has tshig, 'burn', in both 4a and 4b, where Shastri prints phāṭai and phīṭā. In cp.47.m2 the Sanskrit has rāgānilāvarta, 'the whirl of the wind of passion', where the Tibetan has 'dod chags kyi me 'bar, 'the fire of passion blazes', as if reading anala for anila."
+  ],
+  "provenance": {
+    "mode": "session",
+    "model": "claude (Claude Code session)",
+    "date": "2026-10-09",
+    "packSha": "d153707d202710a0c8d0b337e11421ca5663361f6300274b3d7f7022192955cd",
+    "prompts": {
+      "system": 1,
+      "text": 4,
+      "task": 4
+    },
+    "glossarySha": "a3d215c26ca0f47eb7943d096b1aae0a14497fe55f133f5b2315cf442f828183",
+    "sourceSha": "b04508bc0c13403686c81eecf17aa8c676b14d2a7e65b59a82e883813f221e98"
+  }
+}
